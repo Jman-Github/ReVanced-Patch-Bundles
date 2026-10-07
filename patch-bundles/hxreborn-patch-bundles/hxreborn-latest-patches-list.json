@@ -1,7 +1,8 @@
 {
-    "version": "v1.43.0",
+    "version": "v1.44.0",
     "patches": [
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -74,6 +75,42 @@
             "options": []
         },
         {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#0072FF",
+                    "name": "All Video Player App",
+                    "packageName": "com.allformatplayer.streamvideoplayer",
+                    "signatures": [
+                        "567e9fdfe00635da716359222fee014a6a8621cf4b7fc08c579eaafba59bf690"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 14,
+                                "ARMEABI_V7A": 14,
+                                "X86": 14,
+                                "X86_64": 14
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Opens the app without an internet connection.",
+            "name": "Allow offline use",
+            "options": []
+        },
+        {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -108,6 +145,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -166,6 +204,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -256,6 +295,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -278,6 +318,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -287,7 +328,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 26,
                             "version": "2.95.0",
                             "versionCodes": {
                                 "ARM64_V8A": 260642,
@@ -298,7 +339,7 @@
                         },
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 26,
                             "version": "2.100.0",
                             "versionCodes": {
                                 "ARM64_V8A": 260662,
@@ -323,6 +364,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -388,7 +430,6 @@
             ],
             "default": true,
             "dependencies": [
-                "ResourcePatch",
                 "BytecodePatch"
             ],
             "description": "Replaces the dark theme background with pure black.",
@@ -396,6 +437,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -446,6 +488,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -495,6 +538,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -521,7 +565,6 @@
             ],
             "default": true,
             "dependencies": [
-                "ResourcePatch",
                 "ResourcePatch"
             ],
             "description": "Replaces the light theme with a pure black dark theme. Requires Android 13 or later.",
@@ -529,6 +572,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -572,6 +616,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -644,6 +689,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -675,6 +721,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -727,6 +774,7 @@
             ]
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
@@ -791,6 +839,7 @@
             ]
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -863,6 +912,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -911,6 +961,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -959,6 +1010,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -1009,7 +1061,6 @@
             ],
             "default": true,
             "dependencies": [
-                "ResourcePatch",
                 "BytecodePatch",
                 "ResourcePatch"
             ],
@@ -1018,6 +1069,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -1048,6 +1100,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -1098,6 +1151,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -1135,6 +1189,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -1172,6 +1227,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -1209,6 +1265,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS_REQUIRED",
@@ -1247,6 +1304,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -1336,6 +1394,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -1374,6 +1433,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
@@ -1408,6 +1468,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -1451,6 +1512,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -1494,6 +1556,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS_REQUIRED",
@@ -1503,7 +1566,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 27,
                             "version": "13.9.0",
                             "versionCodes": {
                                 "ARM64_V8A": 130900,
@@ -1529,6 +1592,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -1566,6 +1630,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
@@ -1615,6 +1680,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -1652,6 +1718,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS_REQUIRED",
@@ -1689,6 +1756,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -1701,7 +1769,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 24,
                             "version": "4.7.44",
                             "versionCodes": {
                                 "ARM64_V8A": 8698961,
@@ -1727,6 +1795,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -1763,6 +1832,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -1772,7 +1842,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 29,
                             "version": "7.97.0",
                             "versionCodes": {
                                 "ARM64_V8A": 79700150,
@@ -1794,6 +1864,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -1837,6 +1908,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS_REQUIRED",
@@ -1874,6 +1946,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -1908,6 +1981,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS_REQUIRED",
@@ -1931,7 +2005,7 @@
                         },
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 28,
                             "version": "1.802.266",
                             "versionCodes": {
                                 "ARM64_V8A": 266201,
@@ -1956,6 +2030,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -1992,6 +2067,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
@@ -2040,6 +2116,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -2095,6 +2172,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -2126,6 +2204,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
@@ -2174,6 +2253,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -2217,6 +2297,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -2265,6 +2346,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
@@ -2313,6 +2395,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -2385,6 +2468,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS_REQUIRED",
@@ -2408,7 +2492,7 @@
                         },
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 28,
                             "version": "1.802.266",
                             "versionCodes": {
                                 "ARM64_V8A": 266201,
@@ -2433,6 +2517,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -2476,6 +2561,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -2519,6 +2605,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -2586,7 +2673,6 @@
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
-                "ResourcePatch",
                 "BytecodePatch"
             ],
             "description": "Hides the top-bar upgrade button, promotional sidebar rows and the auto-delete upgrade banner in Trash and Spam. Keeps the Empty trash and Empty spam buttons.",
@@ -2594,6 +2680,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -2642,6 +2729,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -2683,14 +2771,14 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Hides settings that need a paid plan, upgrade banners, the Discover VPN Plus carousel and special offers.",
             "name": "Hide upgrade promotions",
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -2703,7 +2791,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 24,
                             "version": "4.7.44",
                             "versionCodes": {
                                 "ARM64_V8A": 8698961,
@@ -2727,6 +2815,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
@@ -2775,6 +2864,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS_REQUIRED",
@@ -2798,7 +2888,7 @@
                         },
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 28,
                             "version": "1.802.266",
                             "versionCodes": {
                                 "ARM64_V8A": 266201,
@@ -2824,6 +2914,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS_REQUIRED",
@@ -2860,6 +2951,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -2897,6 +2989,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -2940,6 +3033,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
@@ -2948,6 +3042,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -3021,6 +3116,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS_REQUIRED",
@@ -3059,6 +3155,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -3095,6 +3192,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -3168,6 +3266,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -3211,6 +3310,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -3245,6 +3345,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -3348,6 +3449,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -3396,6 +3498,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS_REQUIRED",
@@ -3432,6 +3535,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -3466,6 +3570,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -3532,7 +3637,6 @@
             "default": false,
             "dependencies": [
                 "BytecodePatch",
-                "ResourcePatch",
                 "BytecodePatch",
                 "ResourcePatch"
             ],
@@ -3541,6 +3645,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS_REQUIRED",
@@ -3564,7 +3669,7 @@
                         },
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 28,
                             "version": "1.802.266",
                             "versionCodes": {
                                 "ARM64_V8A": 266201,
@@ -3590,6 +3695,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -3632,7 +3738,6 @@
             "default": true,
             "dependencies": [
                 "BytecodePatch",
-                "ResourcePatch",
                 "BytecodePatch"
             ],
             "description": "Lists free server locations in Countries and Search and connects to the one you pick. Applies only to free plans.",
@@ -3640,6 +3745,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -3676,6 +3782,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS_REQUIRED",
@@ -3699,7 +3806,7 @@
                         },
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 28,
                             "version": "1.802.266",
                             "versionCodes": {
                                 "ARM64_V8A": 266201,
@@ -3725,6 +3832,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS_REQUIRED",
@@ -3761,6 +3869,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -3809,6 +3918,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -3857,6 +3967,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -3929,6 +4040,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -3961,6 +4073,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -4009,6 +4122,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -4057,6 +4171,44 @@
             "options": []
         },
         {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#0D4AD8",
+                    "name": "AnyTracker",
+                    "packageName": "com.shervinkoushan.anyTracker",
+                    "signatures": [
+                        "5e95a289ea73c30af95199eed6d64a2abf0ffc59c578f7686f24c5ce902ea26c"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "7.5.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 386,
+                                "ARMEABI_V7A": 386,
+                                "X86": 386,
+                                "X86_64": 386
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "7.5.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks the Platinum plan with unlimited tracked items, every-minute updates, widgets, watchlists and backups.",
+            "name": "Unlock Platinum",
+            "options": []
+        },
+        {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -4093,6 +4245,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
@@ -4102,7 +4255,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 29,
+                            "minSdk": 26,
                             "version": "1.0.6",
                             "versionCodes": {
                                 "ARM64_V8A": 153,
@@ -4113,7 +4266,7 @@
                         },
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 26,
                             "version": "1.1.0",
                             "versionCodes": {
                                 "ARM64_V8A": 172,
@@ -4136,6 +4289,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -4169,6 +4323,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS_REQUIRED",
@@ -4207,6 +4362,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -4243,6 +4399,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS_REQUIRED",
@@ -4279,6 +4436,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -4334,6 +4492,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -4346,7 +4505,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 25,
                             "version": "9.2",
                             "versionCodes": {
                                 "ARM64_V8A": 86,
@@ -4370,6 +4529,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -4382,7 +4542,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 26,
                             "version": "1.0.7.0",
                             "versionCodes": {
                                 "ARM64_V8A": 138,
@@ -4406,6 +4566,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -4440,6 +4601,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -4474,6 +4636,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -4517,6 +4680,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -4589,6 +4753,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -4679,6 +4844,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -4710,6 +4876,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -4722,7 +4889,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 24,
                             "version": "26.01.08",
                             "versionCodes": {
                                 "ARM64_V8A": 12506,
@@ -4746,6 +4913,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS_REQUIRED",
@@ -4781,6 +4949,42 @@
             "options": []
         },
         {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS_REQUIRED",
+                    "appIconColor": "#FA522E",
+                    "name": "Musixmatch",
+                    "packageName": "com.musixmatch.android.lyrify",
+                    "signatures": [
+                        "6696e2cf978935c637f52aaefe196760bc3d62b4ff92bcc5e3f7ed015a6d9b23"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "8.4.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 2026061901,
+                                "ARMEABI_V7A": 2026061901,
+                                "X86": 2026061901,
+                                "X86_64": 2026061901
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "8.4.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks offline lyrics, animated backgrounds and Android Auto lyrics.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
@@ -4816,6 +5020,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -4829,7 +5034,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 29,
                             "version": "0.4.72",
                             "versionCodes": {
                                 "ARM64_V8A": 284,
@@ -4840,7 +5045,7 @@
                         },
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 29,
                             "version": "0.4.97",
                             "versionCodes": {
                                 "ARM64_V8A": 309,
@@ -4851,7 +5056,7 @@
                         },
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 29,
                             "version": "0.4.98",
                             "versionCodes": {
                                 "ARM64_V8A": 310,
@@ -4875,6 +5080,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -4918,6 +5124,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS_REQUIRED",
@@ -4941,7 +5148,7 @@
                         },
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 28,
                             "version": "1.802.266",
                             "versionCodes": {
                                 "ARM64_V8A": 266201,
@@ -4967,6 +5174,42 @@
             "options": []
         },
         {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#000000",
+                    "name": "Photone",
+                    "packageName": "io.lightray.photone",
+                    "signatures": [
+                        "4f3a4b830ee2f3b8a79622949dbda2c2b159cb27a3c18d926672d1eaab96b88e"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "1.5.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 5624,
+                                "ARMEABI_V7A": 5624,
+                                "X86": 5624,
+                                "X86_64": 5624
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.5.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all light sources, extended PAR, Pro guides, Pro settings and the full toolbox. Pro support is not included.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -5001,6 +5244,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -5044,6 +5288,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -5093,6 +5338,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -5102,7 +5348,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 26,
                             "version": "1.17.6",
                             "versionCodes": {
                                 "ARM64_V8A": 304,
@@ -5126,6 +5372,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -5229,6 +5476,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -5266,6 +5514,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -5311,6 +5560,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
@@ -5348,14 +5598,13 @@
                 }
             ],
             "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
+            "dependencies": [],
             "description": "Unlocks ad removal, light theme, custom images, list view types, quick ratings, and transparent widgets. The News feed is not included.",
             "name": "Unlock premium",
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -5376,7 +5625,7 @@
                         },
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 28,
                             "version": "14.1.0",
                             "versionCodes": {
                                 "ARM64_V8A": 127734,
@@ -5387,7 +5636,7 @@
                         },
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 26,
                             "version": "15.0.1",
                             "versionCodes": {
                                 "ARM64_V8A": 127798,
@@ -5398,7 +5647,7 @@
                         },
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 26,
                             "version": "15.1.0",
                             "versionCodes": {
                                 "ARM64_V8A": 127812,
@@ -5409,7 +5658,7 @@
                         },
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 29,
                             "version": "14.0.0 TV",
                             "versionCodes": {
                                 "ARM64_V8A": 227708,
@@ -5420,7 +5669,7 @@
                         },
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 26,
                             "version": "15.1.0 TV",
                             "versionCodes": {
                                 "ARM64_V8A": 227812,
@@ -5447,6 +5696,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS_REQUIRED",
@@ -5456,7 +5706,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 27,
                             "version": "13.9.0",
                             "versionCodes": {
                                 "ARM64_V8A": 130900,
@@ -5482,6 +5732,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -5505,14 +5756,14 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Unlocks premium, removes ads and the free session time limit.",
             "name": "Unlock premium",
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS_REQUIRED",
@@ -5522,7 +5773,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 26,
                             "version": "2.32.0",
                             "versionCodes": {
                                 "ARM64_V8A": 23200,
@@ -5533,7 +5784,7 @@
                         },
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 26,
                             "version": "2.33.0",
                             "versionCodes": {
                                 "ARM64_V8A": 23300,
@@ -5544,7 +5795,7 @@
                         },
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 26,
                             "version": "2.33.1",
                             "versionCodes": {
                                 "ARM64_V8A": 23301,
@@ -5568,6 +5819,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
@@ -5618,6 +5870,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -5654,6 +5907,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -5697,6 +5951,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
@@ -5709,7 +5964,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 24,
                             "version": "4.7.44",
                             "versionCodes": {
                                 "ARM64_V8A": 8698961,
@@ -5733,6 +5988,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",
@@ -5782,6 +6038,7 @@
             "options": []
         },
         {
+            "category": null,
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK_REQUIRED",

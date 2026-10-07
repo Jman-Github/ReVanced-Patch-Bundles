@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.0-dev.3",
+    "version": "v1.9.0-dev.4",
     "patches": [
         {
             "compatiblePackages": [
@@ -557,6 +557,36 @@
             "default": true,
             "dependencies": [],
             "description": "Disables banner, interstitial, feed, native, preroll and rewarded ads.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#000000",
+                    "name": "SoundHound",
+                    "packageName": "com.melodis.midomiMusicIdentifier.freemium",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "10.5.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 21134,
+                                "ARMEABI_V7A": 21134,
+                                "X86": 21134,
+                                "X86_64": 21134
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "10.5.8"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables banner, interstitial, native, app-open and rewarded ads.",
             "name": "Disable ads",
             "options": []
         },

@@ -168,7 +168,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 164 | 4 | Generated |
 | [Stylus](#-stylus-bundle-patch-list) | 6 | 4 | Generated |
-| [HXReborn](#-hxreborn-bundle-patch-list) | 125 | 57 | Generated |
+| [HXReborn](#-hxreborn-bundle-patch-list) | 129 | 60 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 12 | 9 | Generated |
 | [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 46 | 2 | Generated |
@@ -197,7 +197,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [FTL](#-ftl-bundle-patch-list) | 72 | 20 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 3 | 2 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
-| [Heval99](#-heval99-bundle-patch-list) | 45 | 34 | Generated |
+| [Heval99](#-heval99-bundle-patch-list) | 46 | 35 | Generated |
 | [Atharv](#-atharv-bundle-patch-list) | 2 | 1 | Generated |
 | [Tiaruebar](#-tiaruebar-bundle-patch-list) | 1 | 1 | Generated |
 | [FTL-Portal](#-ftl-portal-bundle-patch-list) | 3 | 2 | Generated |
@@ -5744,7 +5744,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 HXReborn Bundle Patch List:
 [📦 HXReborn-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hxreborn-patches-bundle-morphe)
 <details>
-<summary><b>HXReborn</b> - 125 patches, 57 apps</summary>
+<summary><b>HXReborn</b> - 129 patches, 60 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5752,6 +5752,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide Shorts``` | ```Hides the 1Weather Shorts card from the Today screen.``` | ```1Weather``` | ```13.1.0, 12.9.3``` |
 | ```Hide Skyla``` | ```Hides the Skyla AI assistant, its prompts and the Summarize buttons.``` | ```1Weather``` | ```13.1.0, 12.9.3``` |
 | ```Unlock premium``` | ```Unlocks premium and removes ads.``` | ```1Weather``` | ```13.1.0, 12.9.3``` |
+| ```Allow offline use``` | ```Opens the app without an internet connection.``` | ```All Video Player App``` | ```1.4``` |
 | ```Disable tracking``` | ```Stops Firebase Analytics, Crashlytics, Facebook and OneSignal from collecting usage data.``` | ```All Video Player App``` | ```1.4``` |
 | ```Hide ads``` | ```Removes app open, interstitial and native ads, and the promoted apps list.``` | ```All Video Player App``` | ```1.4``` |
 | ```Remove rating prompts``` | ```Removes the prompts asking for a rating.``` | ```All Video Player App``` | ```1.4``` |
@@ -5759,6 +5760,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```GmsCore support``` | ```Signs in through GmsCore instead of Google Play Services. Requires GmsCore to be installed.``` | ```All-In-One Calculator``` | ```3.4.0``` |
 | ```Unlock premium``` | ```Grants the pro entitlement, which removes the ads and the paywalled tools.``` | ```All-In-One Calculator``` | ```3.4.0``` |
 | ```Unlock full version``` | ```Unlocks the Off-Road Explorer features gated behind activation.``` | ```AlpineQuest``` | ```2.4.0e``` |
+| ```Unlock Platinum``` | ```Unlocks the Platinum plan with unlimited tracked items, every-minute updates, widgets, watchlists and backups.``` | ```AnyTracker``` | ```7.5.4``` |
 | ```Unlock premium``` | ```Unlocks the custom map sources, navigation settings and backup restore. Premium map packages are not included.``` | ```AtloMaps``` | ```1.0.6, 1.1.0``` |
 | ```Unlock premium``` | ```Unlocks all features and removes the ads.``` | ```atvTools``` | ```1.3.2``` |
 | ```Hide membership upselling``` | ```Hides the membership promotion on the Home screen and the free trial bottom sheet.``` | ```Audible``` | ```26.30.05, 26.38.08``` |
@@ -5802,6 +5804,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```GmsCore support``` | ```Signs in through GmsCore instead of Google Play Services. Requires GmsCore to be installed.``` | ```MemoNeet``` | ```62.6``` |
 | ```Unlock premium``` | ```Unlocks the premium question banks, notes, test series, previous-year papers and shop plans, with no energy cost or ads. Signing in requires GmsCore support.``` | ```MemoNeet``` | ```62.6``` |
 | ```All-In-One``` | ```Enables video playback and downloads, removes ads and upsell prompts, bypasses the region block, and unlocks the hidden Laboratory menu. Requires Android 10 or later.``` | ```MovieBox``` | ```4.0.02.0828.03, 4.0.02.0831.03, 4.0.02.0903.02, 4.0.03.0918.03``` |
+| ```Unlock premium``` | ```Unlocks offline lyrics, animated backgrounds and Android Auto lyrics.``` | ```Musixmatch``` | ```8.4.2``` |
 | ```Disable tracking``` | ```Stops the install identifier from reaching Expo and usage events from reaching Google. Disables OTA updates.``` | ```MyMoveset``` | ```1.3.2``` |
 | ```Unlock premium``` | ```Unlocks unlimited move views, goals and move cards, manual sync, earlier library updates and card customization. Disables OTA updates.``` | ```MyMoveset``` | ```1.3.2``` |
 | ```Unlock pro``` | ```Unlocks task lists, callouts, app lock, and the notebook, tag, colour and reminder limits. Requires a signed-in account. The server still enforces storage, attachment size, monographs and SMS 2FA.``` | ```Notesnook``` | ```3.4.12, 3.4.13``` |
@@ -5813,6 +5816,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Show AI progress``` | ```Reads the current stage off the real network activity instead of the fake progress bar InShot ships.``` | ```Photo Editor Pro``` | ```1.791.265, 1.802.266``` |
 | ```Speed up AI tools``` | ```Shortens the AI tool wait by polling for the result more often and uploading the photo in larger chunks.``` | ```Photo Editor Pro``` | ```1.791.265, 1.802.266``` |
 | ```Unlock premium``` | ```Adds an option to unlock the pro tools, remove the export watermark and hide the upgrade prompts.``` | ```Photo Editor Pro``` | ```1.791.265, 1.802.266``` |
+| ```Unlock premium``` | ```Unlocks all light sources, extended PAR, Pro guides, Pro settings and the full toolbox. Pro support is not included.``` | ```Photone``` | ```1.5.4``` |
 | ```Hide ads``` | ```Hides the banner and stops ads from loading.``` | ```Pocket Whip``` | ```2.3``` |
 | ```Unlock premium``` | ```Unlocks all whips.``` | ```Pocket Whip``` | ```2.3``` |
 | ```Disable tracking``` | ```Disables analytics and crash reporting.``` | ```Projectivy Launcher``` | ```4.71, 4.70``` |
@@ -6603,7 +6607,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Heval99 Bundle Patch List:
 [📦 Heval99-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-heval99-patches-bundle-morphe)
 <details>
-<summary><b>Heval99</b> - 45 patches, 34 apps</summary>
+<summary><b>Heval99</b> - 46 patches, 35 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -6646,6 +6650,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable Facebook SDK``` | ```Blocks Facebook Audience Network ads and disables Facebook event tracking while keeping Facebook Login working.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14``` |
 | ```Disable telemetry``` | ```Disables AppsFlyer and Firebase Analytics event logging, plus Crashlytics crash reporting.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14``` |
 | ```Enable Premium``` | ```Unlocks AI insights and premium features locked behind the Sofascore Plus/Pro subscription.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14``` |
+| ```Disable ads``` | ```Disables banner, interstitial, native, app-open and rewarded ads.``` | ```SoundHound``` | ```10.5.8``` |
 | ```Enable Full Version``` | ```Bypasses the Play license check so the paid app runs as licensed.``` | ```Tasker``` | ```6.6.18``` |
 | ```Enable Pro``` | ```Unlocks Textra Pro: removes ads and unlocks the paid features.``` | ```Textra``` | ```4.85``` |
 | ```Enable Pro``` | ```Unlocks Unified Remote Full by forcing the local license status check.``` | ```Unified Remote``` | ```3.25.1``` |
