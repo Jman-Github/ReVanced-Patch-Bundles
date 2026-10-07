@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.0",
+    "version": "v1.11.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -36,19 +36,30 @@
                                 "X86": 260914002,
                                 "X86_64": 260914002
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "26.09.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 260928002,
+                                "ARMEABI_V7A": 260928002,
+                                "X86": 260928002,
+                                "X86_64": 260928002
+                            }
                         }
                     ],
                     "versions": [
                         "26.07.27",
                         "26.08.24",
                         "26.09.07",
-                        "26.09.14"
+                        "26.09.14",
+                        "26.09.28"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Blocks promotional and marketing prompts and modals. Note: this only affects in-app promo sheets. Match-alert push delivery on re-signed builds needs working push delivery - use MicroG integration + signature spoofing where Play Services is absent (issue #25).",
+            "description": "Blocks in-app promotional prompts, modals and promotion banners. Note: this only affects in-app promotions. Match-alert push delivery on re-signed builds needs working push delivery - use MicroG integration + signature spoofing where Play Services is absent (issue #25).",
             "name": "Block marketing notifications",
             "options": []
         },
@@ -76,6 +87,38 @@
             ],
             "description": "Unlocks Brave Origin and enables feature toggle controls.",
             "name": "Brave Origin",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#2E7D32",
+                    "name": "BeSoccer",
+                    "packageName": "com.resultadosfutbol.mobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.6.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 23005536,
+                                "ARMEABI_V7A": 23005536,
+                                "X86": 23005536,
+                                "X86_64": 23005536
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "6.6.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Disables banner, interstitial, native, app-open and rewarded ads and hides empty banner slots.",
+            "name": "Disable ads",
             "options": []
         },
         {
@@ -254,7 +297,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disables Wortise ad SDK initialization, blocking banner, interstitial, native and mediated ads (AppLovin, Yandex, Google Mobile Ads, etc.).",
+            "description": "Switches the app to its built-in no-ads provider, removing banner, interstitial and video pre-roll ads (Yandex, Wortise and mediated networks).",
             "name": "Disable ads",
             "options": []
         },
@@ -315,6 +358,36 @@
             "default": true,
             "dependencies": [],
             "description": "Disables Moon+ Reader's banner, interstitial, exit and native ads by forcing the central ad gate to always report ads as disabled.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0D47A1",
+                    "name": "OneCricket",
+                    "packageName": "one.cricket.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.08.01",
+                            "versionCodes": {
+                                "ARM64_V8A": 90,
+                                "ARMEABI_V7A": 90,
+                                "X86": 90,
+                                "X86_64": 90
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.08.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables banner, interstitial, native/inline and app-open ads and hides the empty ad slots.",
             "name": "Disable ads",
             "options": []
         },
@@ -544,13 +617,24 @@
                                 "X86": 260914002,
                                 "X86_64": 260914002
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "26.09.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 260928002,
+                                "ARMEABI_V7A": 260928002,
+                                "X86": 260928002,
+                                "X86_64": 260928002
+                            }
                         }
                     ],
                     "versions": [
                         "26.07.27",
                         "26.08.24",
                         "26.09.07",
-                        "26.09.14"
+                        "26.09.14",
+                        "26.09.28"
                     ]
                 }
             ],
@@ -623,6 +707,36 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FFC107",
+                    "name": "#Notepad",
+                    "packageName": "com.ztnstudio.notepad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.4.3.19019",
+                            "versionCodes": {
+                                "ARM64_V8A": 19019,
+                                "ARMEABI_V7A": 19019,
+                                "X86": 19019,
+                                "X86_64": 19019
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.4.3.19019"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops the bundled Calldorado ad SDK: no in-app ads and no after-call ad screen.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#384CF4",
                     "name": "Sofascore",
@@ -655,13 +769,24 @@
                                 "X86": 260914002,
                                 "X86_64": 260914002
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "26.09.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 260928002,
+                                "ARMEABI_V7A": 260928002,
+                                "X86": 260928002,
+                                "X86_64": 260928002
+                            }
                         }
                     ],
                     "versions": [
                         "26.07.27",
                         "26.08.24",
                         "26.09.07",
-                        "26.09.14"
+                        "26.09.14",
+                        "26.09.28"
                     ]
                 }
             ],
@@ -671,6 +796,66 @@
             ],
             "description": "Blocks Facebook Audience Network ads and disables Facebook event tracking while keeping Facebook Login working.",
             "name": "Disable Facebook SDK",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#2E7D32",
+                    "name": "BeSoccer",
+                    "packageName": "com.resultadosfutbol.mobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.6.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 23005536,
+                                "ARMEABI_V7A": 23005536,
+                                "X86": 23005536,
+                                "X86_64": 23005536
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "6.6.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Skips the Play Store license check so the patched app starts.",
+            "name": "Disable license check",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#D0BCFF",
+                    "name": "Native Camera",
+                    "packageName": "com.rawcam.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 55,
+                                "ARMEABI_V7A": 55,
+                                "X86": 55,
+                                "X86_64": 55
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.4.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Skips the Play Store license check so the patched app starts.",
+            "name": "Disable license check",
             "options": []
         },
         {
@@ -798,13 +983,24 @@
                                 "X86": 260914002,
                                 "X86_64": 260914002
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "26.09.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 260928002,
+                                "ARMEABI_V7A": 260928002,
+                                "X86": 260928002,
+                                "X86_64": 260928002
+                            }
                         }
                     ],
                     "versions": [
                         "26.07.27",
                         "26.08.24",
                         "26.09.07",
-                        "26.09.14"
+                        "26.09.14",
+                        "26.09.28"
                     ]
                 }
             ],
@@ -894,6 +1090,36 @@
             "dependencies": [],
             "description": "Bypasses the Play license check so the paid app runs as licensed.",
             "name": "Enable Full Version",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#00C853",
+                    "name": "AiScore",
+                    "packageName": "com.onesports.score",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.3.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 296,
+                                "ARMEABI_V7A": 296,
+                                "X86": 296,
+                                "X86_64": 296
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "4.3.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the VIP interface and removes ads. Premium data the AiScore server delivers (e.g. predictions, dropping odds) is validated server-side and is not unlocked.",
+            "name": "Enable Premium",
             "options": []
         },
         {
@@ -1049,6 +1275,36 @@
         {
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1565C0",
+                    "name": "Fishing Points",
+                    "packageName": "com.gregacucnik.fishingpoints",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.7.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 410,
+                                "ARMEABI_V7A": 410,
+                                "X86": 410,
+                                "X86_64": 410
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "4.7.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Fishing Points premium features and removes ads.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKM",
                     "appIconColor": "#1976D2",
                     "name": "IPTV",
@@ -1071,8 +1327,10 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Forces IptvFreeApplication's pro/trial gate to return true, keeping pro features unlocked after the 20-minute trial expires and suppressing the in-app review / buy-pro upsell prompts.",
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Unlocks the Pro-only access control settings (parental PIN, locking playlist/EPG/proxy/import-export/recording settings, hiding playlist URLs) and suppresses the in-app review prompt. Start on boot and autoplay last channel are only implemented in the separate IPTV Pro app and stay unavailable.",
             "name": "Enable Premium",
             "options": []
         },
@@ -1133,6 +1391,38 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks the Monefy Pro features.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#D0BCFF",
+                    "name": "Native Camera",
+                    "packageName": "com.rawcam.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 55,
+                                "ARMEABI_V7A": 55,
+                                "X86": 55,
+                                "X86_64": 55
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.4.3"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Unlocks Native Camera premium (RAW DNG, 10-bit/HLG/UHDR video, boosted modes and the higher bitrate cap). Premium is a local flag; the license check is disabled as well so the patched app starts.",
             "name": "Enable Premium",
             "options": []
         },
@@ -1291,19 +1581,60 @@
                                 "X86": 260914002,
                                 "X86_64": 260914002
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "26.09.28",
+                            "versionCodes": {
+                                "ARM64_V8A": 260928002,
+                                "ARMEABI_V7A": 260928002,
+                                "X86": 260928002,
+                                "X86_64": 260928002
+                            }
                         }
                     ],
                     "versions": [
                         "26.07.27",
                         "26.08.24",
                         "26.09.07",
-                        "26.09.14"
+                        "26.09.14",
+                        "26.09.28"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks AI insights and premium features locked behind the Sofascore Plus/Pro subscription.",
+            "description": "Marks the account as premium in the app. Note: AI insights and other premium content are served by Sofascore's servers for paying accounts and are not unlocked; use \"Disable ads\" for an ad-free app.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FFC107",
+                    "name": "#Notepad",
+                    "packageName": "com.ztnstudio.notepad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.4.3.19019",
+                            "versionCodes": {
+                                "ARM64_V8A": 19019,
+                                "ARMEABI_V7A": 19019,
+                                "X86": 19019,
+                                "X86_64": 19019
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.4.3.19019"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks #Notepad premium and hides the paywall and in-app ad slots.",
             "name": "Enable Premium",
             "options": []
         },

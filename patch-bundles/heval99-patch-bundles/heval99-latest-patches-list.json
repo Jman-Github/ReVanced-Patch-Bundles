@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.0-dev.2",
+    "version": "v1.11.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -701,6 +701,36 @@
             "default": true,
             "dependencies": [],
             "description": "Disables the banner ad.",
+            "name": "Disable ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FFC107",
+                    "name": "#Notepad",
+                    "packageName": "com.ztnstudio.notepad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.4.3.19019",
+                            "versionCodes": {
+                                "ARM64_V8A": 19019,
+                                "ARMEABI_V7A": 19019,
+                                "X86": 19019,
+                                "X86_64": 19019
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.4.3.19019"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops the bundled Calldorado ad SDK: no in-app ads and no after-call ad screen.",
             "name": "Disable ads",
             "options": []
         },
@@ -1575,6 +1605,36 @@
             "default": true,
             "dependencies": [],
             "description": "Marks the account as premium in the app. Note: AI insights and other premium content are served by Sofascore's servers for paying accounts and are not unlocked; use \"Disable ads\" for an ad-free app.",
+            "name": "Enable Premium",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FFC107",
+                    "name": "#Notepad",
+                    "packageName": "com.ztnstudio.notepad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.4.3.19019",
+                            "versionCodes": {
+                                "ARM64_V8A": 19019,
+                                "ARMEABI_V7A": 19019,
+                                "X86": 19019,
+                                "X86_64": 19019
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.4.3.19019"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks #Notepad premium and hides the paywall and in-app ad slots.",
             "name": "Enable Premium",
             "options": []
         },

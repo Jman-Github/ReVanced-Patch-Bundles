@@ -197,7 +197,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [FTL](#-ftl-bundle-patch-list) | 72 | 20 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 3 | 2 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
-| [Heval99](#-heval99-bundle-patch-list) | 53 | 40 | Generated |
+| [Heval99](#-heval99-bundle-patch-list) | 55 | 41 | Generated |
 | [Atharv](#-atharv-bundle-patch-list) | 2 | 1 | Generated |
 | [Tiaruebar](#-tiaruebar-bundle-patch-list) | 1 | 1 | Generated |
 | [FTL-Portal](#-ftl-portal-bundle-patch-list) | 3 | 2 | Generated |
@@ -6609,10 +6609,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Heval99 Bundle Patch List:
 [📦 Heval99-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-heval99-patches-bundle-morphe)
 <details>
-<summary><b>Heval99</b> - 53 patches, 40 apps</summary>
+<summary><b>Heval99</b> - 55 patches, 41 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Disable ads``` | ```Stops the bundled Calldorado ad SDK: no in-app ads and no after-call ad screen.``` | ```#Notepad``` | ```5.4.3.19019``` |
+| ```Enable Premium``` | ```Unlocks #Notepad premium and hides the paywall and in-app ad slots.``` | ```#Notepad``` | ```5.4.3.19019``` |
 | ```Disable ads``` | ```Disables Google Mobile Ads (AdMob) initialization, blocking banner, interstitial, rewarded, native and mediated ads.``` | ```365Scores``` | ```14.9.4, 14.9.5``` |
 | ```Enable Premium``` | ```Unlocks the VIP interface and removes ads. Premium data the AiScore server delivers (e.g. predictions, dropping odds) is validated server-side and is not unlocked.``` | ```AiScore``` | ```4.3.1``` |
 | ```Enable Premium``` | ```Unlocks the Pro/Premium features and lifts the free-version feature locks.``` | ```Aqua Mail``` | ```2.7.0``` |
