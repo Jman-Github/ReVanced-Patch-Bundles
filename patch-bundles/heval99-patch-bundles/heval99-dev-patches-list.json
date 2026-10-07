@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.0-dev.4",
+    "version": "v1.9.0-dev.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -861,9 +861,7 @@
                 }
             ],
             "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
+            "dependencies": [],
             "description": "Enables app features locked behind the subscription paywall.",
             "name": "Enable FotMob+",
             "options": []
