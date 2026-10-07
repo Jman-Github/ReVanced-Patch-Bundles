@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.2",
+    "version": "v1.4.0-dev.3",
     "patches": [
         {
             "category": "Features",
@@ -266,6 +266,15 @@
                     "key": "hideSezzleMobile",
                     "required": false,
                     "title": "Hide Sezzle Mobile",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides the Amazon Deals shortcut from the Your Shortcuts carousel.",
+                    "key": "hideAmazonDeals",
+                    "required": false,
+                    "title": "Hide Amazon Deals",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
