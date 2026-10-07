@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0",
+    "version": "v1.5.1",
     "patches": [
         {
             "category": null,
@@ -28,6 +28,34 @@
             ],
             "description": "Lifts the 60 Hz limit Maps puts on itself, on the app and on the map, so it can run at your screen's full refresh rate (such as 120 Hz). Uses more battery, most of all while navigating. Off by default: switch it on on the Customization screen.",
             "name": "120 refresh rate",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#FFFFFF",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.36.04.973607363"
+                        }
+                    ],
+                    "versions": [
+                        "26.36.04.973607363"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Removes the \"More from this app\" label from the account sheet, and keeps the sheet open when you come back from Settings or Customization or tap \"Your profile\", instead of dropping back to the map.",
+            "name": "Account sheet cleanup",
             "options": []
         },
         {
@@ -133,8 +161,10 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Makes Maps' bundled Play services signature and availability checks always pass, so it runs re-signed and with Play services disabled or absent.",
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Makes Maps' bundled Play services signature and availability checks always pass, so it runs re-signed and with Play services disabled or absent, and lets it load tiles, search and routing by sending Google's own package and certificate in the identity headers the Maps backend checks. Where Play services rejects the re-signed app, Maps degrades instead of crashing.",
             "name": "Bypass Play Services checks",
             "options": []
         },
@@ -259,225 +289,13 @@
             "default": true,
             "dependencies": [
                 "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Hides promoted map pins and \"Sponsored\" search result rows.",
-            "name": "Hide ads",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "name": "Google Maps",
-                    "packageName": "com.google.android.apps.maps",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.36.04.973607363"
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Hides Gemini's AI summaries: the \"Know before you go\" card on place sheets and the review summary (\"Summarized with Gemini\") on the Reviews tab. Can be switched off on the Customization screen.",
-            "name": "Hide AI",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "name": "Google Maps",
-                    "packageName": "com.google.android.apps.maps",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.36.04.973607363"
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Hides the home tab's Explore feed sheet (\"Local vibe\"). Can be switched back on on the Customization screen.",
-            "name": "Hide explore feed",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "name": "Google Maps",
-                    "packageName": "com.google.android.apps.maps",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.36.04.973607363"
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Hides the full-screen \"Make it your map\" page shown on first launch.",
-            "name": "Hide login promo",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "name": "Google Maps",
-                    "packageName": "com.google.android.apps.maps",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.36.04.973607363"
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Hides the Explore / Contribute / You strip at the bottom of the home screen. Can be switched back on on the Customization screen.",
-            "name": "Hide navigation tabs",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "name": "Google Maps",
-                    "packageName": "com.google.android.apps.maps",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.36.04.973607363"
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes the \"More from this app\" label from the account sheet.",
-            "name": "Hide section title",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "name": "Google Maps",
-                    "packageName": "com.google.android.apps.maps",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.36.04.973607363"
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Removes the \"Sign in\" pill from the account sheet.",
-            "name": "Hide sign-in button",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "name": "Google Maps",
-                    "packageName": "com.google.android.apps.maps",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.36.04.973607363"
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Hides the row of businesses under an address on its place sheet: a preview of the address's Directory (the restaurants, shops and offices at that address). The Directory button still lists them. Can be switched off on the Customization screen.",
-            "name": "Hide suggestions",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "name": "Google Maps",
-                    "packageName": "com.google.android.apps.maps",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.36.04.973607363"
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "BytecodePatch"
-            ],
-            "description": "Returning from Settings or Customization, or tapping \"Your profile\", leaves the account sheet open instead of dropping back to the map.",
-            "name": "Keep account sheet open",
+            "description": "Hides promoted map pins and \"Sponsored\" search results, Gemini's AI summaries (\"Know before you go\" and the review summary), the row of businesses under an address on its place sheet, the home tab's Explore feed and the Explore / Contribute / You tabs. Each can be switched back on on the Customization screen.",
+            "name": "Hide ads and clutter",
             "options": []
         },
         {
@@ -528,9 +346,10 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds a Location source choice to the Customization screen: Android's own location providers, or Google Play services' fused provider. With Android, Play services is never asked for a location. Play services is never used while it is missing or disabled, so location keeps working on phones without it.",
+            "description": "Adds a Location source choice to the Customization screen: Android's own location providers, or Google Play services' fused provider. With Android, Play services is never asked for a location. Play services is never used while it is missing or disabled, so location keeps working on phones without it. Also keeps the network (Wi-Fi/cell) provider registered when no fused provider answers, instead of GPS only, so a fix does not go stale indoors.",
             "name": "Location provider toggle",
             "options": [
                 {
@@ -564,67 +383,12 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Keeps the network (Wi-Fi/cell) location provider registered when no fused location provider answers, instead of GPS-only, so a fix does not go stale indoors.",
-            "name": "Network location fallback",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "name": "Google Maps",
-                    "packageName": "com.google.android.apps.maps",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.36.04.973607363"
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
-            "default": true,
             "dependencies": [
                 "BytecodePatch",
-                "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
-            "description": "Save places without a Google account, kept only on the phone: Save opens Maps' own \"Place saved\" sheet (Want to go, Travel plans, Starred places, Favorites, your own lists, a note), and a \"Local saved\" row on the account sheet rebuilds Maps' You tab -- your recent places (looked at, routed to, called, shared or saved), your lists and labels (Home, Work, your own) -- with export and import (backup file, KML, Google Takeout's Saved Places.json).",
+            "description": "Save places without a Google account, kept only on the phone: Save opens Maps' own \"Place saved\" sheet (Want to go, Travel plans, Starred places, Favorites, your own lists, a note), and a \"Local saved\" row on the account sheet rebuilds Maps' You tab -- your recent places, your lists and labels (Home, Work, your own) -- with export and import (backup file, KML, Google Takeout's Saved Places.json). It also has a Timeline: where the phone has been, grouped into days and visits, kept only on the phone, with GPX export. Recording is off until switched on there; it shows a notification while it runs.",
             "name": "Offline saved places",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "name": "Google Maps",
-                    "packageName": "com.google.android.apps.maps",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.36.04.973607363"
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch",
-                "ResourcePatch"
-            ],
-            "description": "Adds a Timeline to the Local saved screen: a record of where the phone has been, grouped into days and visits, kept only on the phone, with GPX export. Recording is off until switched on there; it shows a notification while it runs.",
-            "name": "Offline timeline",
             "options": []
         },
         {
@@ -763,9 +527,15 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
-            "description": "Removes the \"Tired of typing?\" sign-in card from the search screen.",
-            "name": "Remove sign-in promo",
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Removes Google's sign-in prompts: the first-launch \"Make it your map\" page, the search screen's \"Tired of typing?\" card and the account sheet's \"Sign in\" pill. Tapping \"Your profile\" (or the pill, where it still shows) answers with a \"Can't sign in\" toast instead of nothing.",
+            "name": "Remove sign-in prompts",
             "options": []
         },
         {
@@ -816,85 +586,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Lets a re-signed Maps load tiles, search and routing, by sending Google's own package and certificate in the identity headers the Maps backend checks, and by degrading instead of crashing when Play services rejects the re-signed app -- including skipping a view property that fails for that reason instead of crashing the screen.",
-            "name": "Restore map data",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "name": "Google Maps",
-                    "packageName": "com.google.android.apps.maps",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.36.04.973607363"
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "The \"Sign in\" pill shows a \"Can't sign in\" toast instead of failing silently.",
-            "name": "Sign-in toast",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "name": "Google Maps",
-                    "packageName": "com.google.android.apps.maps",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.36.04.973607363"
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
             "description": "Removes Your Timeline, Location sharing, Your data in Maps and Help & feedback from the account sheet.",
             "name": "Trim account menu",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FFFFFF",
-                    "name": "Google Maps",
-                    "packageName": "com.google.android.apps.maps",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.36.04.973607363"
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Tapping \"Your profile\" shows a \"Can't sign in\" toast instead of opening nothing.",
-            "name": "Your profile toast",
             "options": []
         },
         {
