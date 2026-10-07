@@ -1,5 +1,5 @@
 {
-    "version": "v3.4.0-dev.1",
+    "version": "v3.5.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -344,7 +344,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "When you open a chat, LINE does not mark it read or send a read receipt. \"Mark as read\" still works.",
             "name": "[Chat] Keep chats unread",
             "options": []
@@ -368,7 +370,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Keeps messages that others unsend in 1:1 and group chats, with a notice below each one. OpenChat is not covered.",
             "name": "[Chat] Keep unsent messages",
             "options": []
@@ -638,7 +642,36 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds \"Andrew's Patch Setting\" to LINE Settings, below \"Profile\". There you can turn some patches on or off without patching again, and see the credits and licenses.",
+            "name": "[General] Andrew's Patch Setting",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#06C755",
+                    "name": "LINE",
+                    "packageName": "jp.naver.line.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.14.0"
+                        }
+                    ],
+                    "versions": [
+                        "26.14.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "VOOM deep links, shares, and notifications do nothing. If you open the standalone VOOM feed, it closes. Messaging and the other tabs do not change.",
             "name": "[General] Disable VOOM",
             "options": []
@@ -766,7 +799,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Opens web links in your default browser instead of LINE's in-app browser. LIFF mini-apps and LINE links stay in LINE.",
             "name": "[General] Open links in external browser",
             "options": []
@@ -1126,7 +1161,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Removes the LINE TODAY (News) tab from the main bottom navigation, in both the news-tab and news-row layouts.",
             "name": "[Tab] Hide LINE TODAY tab",
             "options": []
@@ -1150,7 +1187,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Removes the Shopping tab from the main bottom navigation. This includes the Japan variant (Shopping, ショッピング) and the Taiwan variant (Discover, 逛逛).",
             "name": "[Tab] Hide Shopping tab",
             "options": []
@@ -1174,7 +1213,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Removes the VOOM (formerly Timeline) tab from the main bottom navigation.",
             "name": "[Tab] Hide VOOM tab",
             "options": []
@@ -1198,7 +1239,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Removes the Wallet (LINE Pay) tab from the main bottom navigation, in both the normal and mini-tab layouts.",
             "name": "[Tab] Hide Wallet tab",
             "options": []

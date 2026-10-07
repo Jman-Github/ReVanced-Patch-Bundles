@@ -1,5 +1,5 @@
 {
-    "version": "v1.40.0-dev.2",
+    "version": "v1.40.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -634,6 +634,30 @@
             "default": true,
             "dependencies": [],
             "description": "Everything in the shop is free. Tap an item and you get it right away — points, characters and presents — with no Google Play payment screen and nothing charged.",
+            "name": "Free Store",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#6D9B39",
+                    "name": "Swamp Attack",
+                    "packageName": "com.outfit7.movingeye.swampattack",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.8.7.0"
+                        }
+                    ],
+                    "versions": [
+                        "4.8.7.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Everything in the shop is granted instantly and free — double coins, more gifts and the any-purchase perks — with no Google Play payment screen, no account and nothing charged.",
             "name": "Free Store",
             "options": []
         },
@@ -1549,6 +1573,30 @@
             "dependencies": [],
             "description": "Tells the game to start that hidden helper the moment the app opens, so the unlock happens automatically.",
             "name": "Prince of Persia: Full Game Unlock Trigger",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#6D9B39",
+                    "name": "Swamp Attack",
+                    "packageName": "com.outfit7.movingeye.swampattack",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.8.7.0"
+                        }
+                    ],
+                    "versions": [
+                        "4.8.7.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Forced ads are gone for good — interstitials never load or show, even offline and regardless of server settings. Rewarded videos you choose to watch still work.",
+            "name": "Remove Ads",
             "options": []
         },
         {

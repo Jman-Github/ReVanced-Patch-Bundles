@@ -1,5 +1,5 @@
 {
-    "version": "1.13.0",
+    "version": "1.14.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -64,7 +64,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 29,
                             "version": "26.38.1"
                         }
                     ],
@@ -103,6 +103,32 @@
             "dependencies": [],
             "description": "Neutralizes the client-side device-validation gate (anti-root / anti-emulator / anti-Frida / anti-Xposed / anti-tamper battery) that shows a \"Device validation failed\" toast and kills the app via finishAffinity() on a rooted, emulated or re-signed build. Redirects the single failure callback to the success path so all ~16 checks report as passed and the app keeps running pre- and post-login.",
             "name": "Bypass device validation",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#00897B",
+                    "name": "Safar",
+                    "packageName": "com.safar.fyi",
+                    "signatures": [],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 25,
+                            "version": "3.0.1"
+                        }
+                    ],
+                    "versions": [
+                        "3.0.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Bypasses Google Play's PairIP license check so a re-signed Safar build runs instead of being blocked by the \"Get this app from Play\" paywall or a \"Something went wrong\" dialog.",
+            "name": "Bypass license verification",
             "options": []
         },
         {
@@ -187,6 +213,32 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#D70F64",
+                    "name": "foodpanda",
+                    "packageName": "com.global.foodpanda.android",
+                    "signatures": [],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "26.38.1"
+                        }
+                    ],
+                    "versions": [
+                        "26.38.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes foodpanda's order-tracking ads (DeliveryHero adtech) and the forced, repeatedly-reappearing PandaMart \"CrossSell\" promo popup on the order-tracking screen.",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
                     "appIconColor": "#0088CC",
                     "name": "MTProxy",
                     "packageName": "com.sdev.mtproxy",
@@ -258,6 +310,32 @@
             "default": true,
             "dependencies": [],
             "description": "Removes native feed ads (Google GMA), the full-height ad slot, and the \"Buy with Delivery\" promo section (bar, cards and View all) from OLX. Pinned to the 18.8.0 build (matches that build's obfuscated feed classes).",
+            "name": "Remove ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK_REQUIRED",
+                    "appIconColor": "#00897B",
+                    "name": "Safar",
+                    "packageName": "com.safar.fyi",
+                    "signatures": [],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 25,
+                            "version": "3.0.1"
+                        }
+                    ],
+                    "versions": [
+                        "3.0.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes Safar's AdMob banner, interstitial and app-open ads by stubbing the react-native-google-mobile-ads load funnels (no ad is requested, so none renders). User-initiated rewarded ads are left working.",
             "name": "Remove ads",
             "options": []
         },
@@ -380,7 +458,7 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
+                            "minSdk": 29,
                             "version": "26.38.1"
                         }
                     ],
@@ -406,12 +484,12 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "minSdk": 32,
-                            "version": "3.4.3"
+                            "minSdk": 27,
+                            "version": "4.0.4"
                         }
                     ],
                     "versions": [
-                        "3.4.3"
+                        "4.0.4"
                     ]
                 }
             ],
@@ -419,7 +497,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Unlocks NetMonster Premium — forces the premium repo's derived flows so real-time LTE/NR-NSA location calculation is unlocked, ads are removed, and the status shows Active (far-future expiry) without an Adapty subscription.",
+            "description": "Unlocks NetMonster Premium — forces the Adapty entitlement collector to always report premium active, so real-time LTE/NR-NSA location calculation is unlocked, ads are removed, and the status shows Active without a subscription.",
             "name": "Unlock premium (NetMonster)",
             "options": []
         },
