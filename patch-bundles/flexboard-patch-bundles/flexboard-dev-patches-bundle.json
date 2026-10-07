@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-07T02:42:50",
-  "description": "## 2.5.2-dev.0\n\n- docs: swipe up reverts through the decoder, not the undo stack\n- feat(swipe-up): revert the last autocorrection through Gboard's decoder\n- refactor(patches): resolve branch targets in one shared helper\n- chore: store gradlew.bat with LF, as .gitattributes declares\n- chore(deps): bump gradle-wrapper from 9.7.1 to 9.8.0\n- chore(deps): bump actions/upload-artifact from 4 to 7\n- chore(deps): bump actions/setup-java from 6.0.0 to 6.0.1",
-  "download_url": "https://github.com/JZ6/Flexboard/releases/download/v2.5.2-dev.0/patches-2.5.2-dev.0.mpp",
+  "created_at": "2026-10-07T23:10:30",
+  "description": "## 2.5.2-dev.1\n\n- feat(flags): remove Hidden Features (unconfirmed)\n- docs: swipe up confirmed on a device, and on by default\n- feat(swipe-up): on by default; crash recorder moves to its own opt-in patch",
+  "download_url": "https://github.com/JZ6/Flexboard/releases/download/v2.5.2-dev.1/patches-2.5.2-dev.1.mpp",
   "signature_download_url": "N/A",
-  "version": "v2.5.2-dev.0"
+  "version": "v2.5.2-dev.1"
 }
