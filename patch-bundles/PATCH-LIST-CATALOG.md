@@ -171,7 +171,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [HXReborn](#-hxreborn-bundle-patch-list) | 129 | 60 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 12 | 9 | Generated |
-| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 47 | 2 | Generated |
+| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 48 | 2 | Generated |
 | [Morning-Entree](#-morning-entree-bundle-patch-list) | 82 | 108 | Generated |
 | [VocaColle](#-vocacolle-bundle-patch-list) | 7 | 1 | Generated |
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
@@ -197,7 +197,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [FTL](#-ftl-bundle-patch-list) | 72 | 20 | Generated |
 | [braiNtropy](#-braintropy-bundle-patch-list) | 3 | 2 | Generated |
 | [Ang3lo](#-ang3lo-bundle-patch-list) | 1 | 1 | Generated |
-| [Heval99](#-heval99-bundle-patch-list) | 58 | 41 | Generated |
+| [Heval99](#-heval99-bundle-patch-list) | 56 | 40 | Generated |
 | [Atharv](#-atharv-bundle-patch-list) | 2 | 1 | Generated |
 | [Tiaruebar](#-tiaruebar-bundle-patch-list) | 1 | 1 | Generated |
 | [FTL-Portal](#-ftl-portal-bundle-patch-list) | 3 | 2 | Generated |
@@ -5932,7 +5932,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AndrewLiang25 Bundle Patch List:
 [📦 AndrewLiang25-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-andrewliang25-patches-bundle-morphe)
 <details>
-<summary><b>AndrewLiang25</b> - 47 patches, 2 apps</summary>
+<summary><b>AndrewLiang25</b> - 48 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5950,6 +5950,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```[Reels] Download any reel``` | ```Adds a Download button beside every reel. Videos save at the best quality the player streams.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Reels] Hide interest prompts``` | ```Removes the "Are you interested in this reel?" prompt from Reels.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Reels] Hide sponsored reels``` | ```Removes ads from Reels and Watch, including product banners over a reel and ads inside a video.``` | ```Facebook``` | ```577.0.0.50.72``` |
+| ```[Reels] Picture-in-picture``` | ```Keeps a reel playing in a small window when you leave Facebook from the Reels tab. Only vertical reels get a window. Needs Android 12 or later.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Stories] Disable auto advance``` | ```Keeps each story on the screen until you tap or swipe to the next one.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Stories] Download any story``` | ```Adds Save to the menu of any story, including stories with music. Videos save at the best quality the player streams.``` | ```Facebook``` | ```577.0.0.50.72``` |
 | ```[Stories] Hide sponsored stories``` | ```Removes ad cards from the story viewer, so swiping through stories only shows stories people posted.``` | ```Facebook``` | ```577.0.0.50.72``` |
@@ -6616,53 +6617,51 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Heval99 Bundle Patch List:
 [📦 Heval99-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-heval99-patches-bundle-morphe)
 <details>
-<summary><b>Heval99</b> - 58 patches, 41 apps</summary>
+<summary><b>Heval99</b> - 56 patches, 40 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable ads``` | ```Stops the bundled Calldorado ad SDK: no in-app ads and no after-call ad screen.``` | ```#Notepad``` | ```5.4.3.19019``` |
 | ```Enable Premium``` | ```Unlocks #Notepad premium and hides the paywall and in-app ad slots.``` | ```#Notepad``` | ```5.4.3.19019``` |
-| ```Disable ads``` | ```Disables Google Mobile Ads (AdMob) initialization, blocking banner, interstitial, rewarded, native and mediated ads.``` | ```365Scores``` | ```14.9.4, 14.9.5``` |
+| ```Disable ads``` | ```Disables Google Mobile Ads (AdMob) initialization, blocking banner, interstitial, rewarded, native and mediated ads.``` | ```365Scores``` | ```14.9.4, 14.9.5, 14.9.6``` |
 | ```Enable Premium``` | ```Unlocks the VIP interface and removes ads. Premium data the AiScore server delivers (e.g. predictions, dropping odds) is validated server-side and is not unlocked.``` | ```AiScore``` | ```4.3.1``` |
 | ```Enable Premium``` | ```Unlocks the Pro/Premium features and lifts the free-version feature locks.``` | ```Aqua Mail``` | ```2.7.0``` |
 | ```Disable ads``` | ```Disables banner, interstitial, native, app-open and rewarded ads and hides empty banner slots.``` | ```BeSoccer``` | ```6.6.0``` |
 | ```Disable license check``` | ```Skips the Play Store license check so the patched app starts.``` | ```BeSoccer``` | ```6.6.0``` |
-| ```Enable Premium``` | ```Unlocks the premium version (removes ads and lifts premium limits).``` | ```Bluecoins``` | ```13.1.79``` |
-| ```Disable ads``` | ```Disables AppLovin interstitial ads.``` | ```BoxBox``` | ```5.4.9``` |
-| ```Disable telemetry``` | ```Disables AppsFlyer, Firebase Analytics and Crashlytics event logging.``` | ```BoxBox``` | ```5.4.9``` |
-| ```Enable Premium``` | ```Unlocks premium features by bypassing RevenueCat subscription checks.``` | ```BoxBox``` | ```5.4.9``` |
-| ```Brave Origin``` | ```Unlocks Brave Origin and enables feature toggle controls.``` | ```Brave Browser``` | ```1.95.104, 1.96.61``` |
-| ```Disable ads``` | ```Experimental: hides sponsored new tab images (including full-page takeovers) and the "Earn BAT for viewing ads" Rewards signup popup.``` | ```Brave Browser``` | ```1.96.61``` |
-| ```Disable telemetry``` | ```Experimental: turns off P3A analytics and the usage ping on every start (overriding the in-app switches), stops crash report uploads and drops the install-referrer attribution code.``` | ```Brave Browser``` | ```1.96.61``` |
-| ```Hide promotional prompts``` | ```Experimental: stops the recurring "Set Brave as default browser" dialog, the "Rate Brave" dialog and card, retention and Rewards promo notifications, the search widget promo and the VPN card in Settings.``` | ```Brave Browser``` | ```1.96.61``` |
+| ```Enable Premium``` | ```Unlocks the premium version (removes ads and lifts premium limits).``` | ```Bluecoins``` | ```13.1.79, 13.1.149``` |
+| ```Disable ads``` | ```Disables AppLovin interstitial ads.``` | ```BoxBox``` | ```5.4.9, 5.4.16``` |
+| ```Disable telemetry``` | ```Disables AppsFlyer event logging, app-logged Firebase Analytics events and Crashlytics exception reporting.``` | ```BoxBox``` | ```5.4.9, 5.4.16``` |
+| ```Enable Premium``` | ```Unlocks premium features by bypassing RevenueCat subscription checks.``` | ```BoxBox``` | ```5.4.9, 5.4.16``` |
+| ```Brave Origin``` | ```Unlocks Brave Origin and enables feature toggle controls.``` | ```Brave Browser``` | ```1.95.104, 1.96.61, 1.97.56``` |
+| ```Disable ads``` | ```Experimental: hides sponsored new tab images (including full-page takeovers) and the "Earn BAT for viewing ads" Rewards signup popup.``` | ```Brave Browser``` | ```1.96.61, 1.97.56``` |
+| ```Disable telemetry``` | ```Experimental: turns off P3A analytics and the usage ping on every start (overriding the in-app switches), stops crash report uploads and drops the install-referrer attribution code.``` | ```Brave Browser``` | ```1.96.61, 1.97.56``` |
+| ```Hide promotional prompts``` | ```Experimental: stops the recurring "Set Brave as default browser" dialog, the "Rate Brave" dialog and card, retention and Rewards promo notifications, the search widget promo and the VPN card in Settings.``` | ```Brave Browser``` | ```1.96.61, 1.97.56``` |
 | ```Disable ads``` | ```Disables banner, interstitial, native, app-open and rewarded ads.``` | ```Castbox``` | ```11.26.1``` |
-| ```Disable ads``` | ```Removes the 'notes_edit_banner' unit from utils/AdManager and the app-open ad from App$AppOpenAdManager. Both are gated on the single App.isAdFree() check, which normally depends on a VIP subscription.``` | ```EasyNotes``` | ```1.3.61.0907``` |
-| ```Enable Premium``` | ```Unlocks the VIP-only fonts, note backgrounds, stickers and drawing tools. The app checks entitlement entirely locally — there is no license server — so forcing the App.isVip() gate to return true unlocks everything, and stays unlocked even though BillingManager resets the underlying purchase flags from Play on every startup.``` | ```EasyNotes``` | ```1.3.61.0907``` |
-| ```Enable Pro``` | ```Unlocks the FairEmail pro features.``` | ```FairEmail``` | ```1.2337``` |
-| ```Enable Premium``` | ```Forces User.hasPremium() to return true, unlocking premium features locked behind the RevenueCat subscription entitlement.``` | ```FishBuddy``` | ```11.0.101``` |
+| ```Disable ads``` | ```Removes the 'notes_edit_banner' unit from utils/AdManager and the app-open ad from App$AppOpenAdManager. Both are gated on the single App.isAdFree() check, which normally depends on a VIP subscription.``` | ```EasyNotes``` | ```1.3.61.0907, 1.3.63.0921``` |
+| ```Enable Premium``` | ```Unlocks the VIP-only fonts, note backgrounds, stickers and drawing tools. The app checks entitlement entirely locally — there is no license server — so forcing the App.isVip() gate to return true unlocks everything, and stays unlocked even though BillingManager resets the underlying purchase flags from Play on every startup.``` | ```EasyNotes``` | ```1.3.61.0907, 1.3.63.0921``` |
+| ```Enable Pro``` | ```Unlocks the FairEmail pro features.``` | ```FairEmail``` | ```1.2337, 1.2338``` |
+| ```Enable Premium``` | ```Forces User.hasPremium() to return true, unlocking premium features locked behind the RevenueCat subscription entitlement.``` | ```FishBuddy``` | ```11.0.101, 11.0.125``` |
 | ```Enable Premium``` | ```Unlocks Fishing Points premium features and removes ads.``` | ```Fishing Points``` | ```4.7.3``` |
 | ```Disable ads``` | ```Disables banner, interstitial, native, app-open and rewarded ads.``` | ```Flashscore``` | ```26.9.2``` |
-| ```Enable FotMob+``` | ```Enables app features locked behind the subscription paywall.``` | ```FotMob``` | ```237.17536.20260911, 236.17398.20260827, 236.17338.20260822``` |
-| ```Disable ads``` | ```Disables banner, interstitial, native, app-open and rewarded ads.``` | ```Futbin``` | ```27.02``` |
+| ```Enable FotMob+``` | ```Enables app features locked behind the subscription paywall.``` | ```FotMob``` | ```238.17666.20260928, 237.17536.20260911, 236.17398.20260827, 236.17338.20260822``` |
+| ```Disable ads``` | ```Disables banner, interstitial, native, app-open and rewarded ads.``` | ```Futbin``` | ```27.02, 27.5``` |
 | ```Disable ads``` | ```Switches the app to its built-in no-ads provider, removing banner, interstitial and video pre-roll ads (Yandex, Wortise and mediated networks).``` | ```IPTV``` | ```9.1.25``` |
 | ```Enable Premium``` | ```Unlocks the Pro-only access control settings (parental PIN, locking playlist/EPG/proxy/import-export/recording settings, hiding playlist URLs) and suppresses the in-app review prompt. Start on boot and autoplay last channel are only implemented in the separate IPTV Pro app and stay unavailable.``` | ```IPTV``` | ```9.1.25``` |
 | ```Enable Pro``` | ```Unlocks jetAudio Premium, all plugins and the ad unlocker.``` | ```jetAudio``` | ```13.1.2``` |
 | ```Enable Premium``` | ```Unlocks the 'Advanced device settings' features (Personalized Volume, Adaptive Audio, accessibility configs, hearing protection, etc.) that LibrePods gates behind the Play Store 'Unlock advanced features' one-time purchase. The patch forces the premium entitlement (PlayBillingProvider's _isPremium StateFlow) to always be true.``` | ```LibrePods``` | ```1.0.0-rc1-play``` |
-| ```Disable ads``` | ```Forces AdsRemovalSettings.areAdsDisabled() to return true, disabling banner, interstitial, MPU, hero placement, coverage sponsorship and announcement ads.``` | ```Livescore``` | ```10.1``` |
+| ```Disable ads``` | ```Forces AdsRemovalSettings.areAdsDisabled() to return true, disabling banner, interstitial, MPU, hero placement, coverage sponsorship and announcement ads.``` | ```Livescore``` | ```10.1, 10.2.1``` |
 | ```Enable Premium``` | ```Unlocks the Monefy Pro features.``` | ```Monefy``` | ```1.22.11``` |
 | ```Disable ads``` | ```Disables Moon+ Reader's banner, interstitial, exit and native ads by forcing the central ad gate to always report ads as disabled.``` | ```Moon+ Reader``` | ```10.7``` |
-| ```Enable Premium+``` | ```Enables app features locked behind the subscription paywall.``` | ```MyFitnessPal``` | ```26.37.0, 26.38.0``` |
+| ```Enable Premium+``` | ```Enables app features locked behind the subscription paywall.``` | ```MyFitnessPal``` | ```26.37.0, 26.38.0, 26.39.0``` |
 | ```Disable license check``` | ```Skips the Play Store license check so the patched app starts.``` | ```Native Camera``` | ```1.4.3``` |
 | ```Enable Premium``` | ```Unlocks Native Camera premium (RAW DNG, 10-bit/HLG/UHDR video, boosted modes and the higher bitrate cap). Premium is a local flag; the license check is disabled as well so the patched app starts.``` | ```Native Camera``` | ```1.4.3``` |
 | ```Disable ads``` | ```Disables banner, interstitial, native/inline and app-open ads and hides the empty ad slots.``` | ```OneCricket``` | ```26.08.01``` |
-| ```Disable ads``` | ```Disables banner, interstitial, native, app-open and rewarded ads.``` | ```OneFootball``` | ```15.142.0``` |
-| ```Enable Premium``` | ```Unlocks OsmAnd Pro, Maps+ and live updates.``` | ```OsmAnd``` | ```5.4.5``` |
+| ```Disable ads``` | ```Disables banner, interstitial, native, app-open and rewarded ads.``` | ```OneFootball``` | ```15.142.0, 15.145.0``` |
+| ```Enable Premium``` | ```Unlocks OsmAnd Pro, Maps+ and live updates.``` | ```OsmAnd``` | ```5.4.5, 5.4.9``` |
 | ```Disable ads``` | ```Disables banner, interstitial, native and rewarded ads.``` | ```Pi Music Player``` | ```3.2.0.0_release_2``` |
 | ```Enable Premium``` | ```Unlocks Pi Music Player Premium (ad-free) by forcing the local purchase-state checks to true.``` | ```Pi Music Player``` | ```3.2.0.0_release_2``` |
 | ```Disable ads``` | ```Disables banner, interstitial, native, app-open and rewarded ads.``` | ```Pocket Color Wheel``` | ```3.26``` |
 | ```Disable ads``` | ```Disables banner, interstitial, native, app-open and rewarded ads.``` | ```Podcast Republic``` | ```9.17.0``` |
-| ```Disable telemetry``` | ```Disables Braze custom event tracking. Firebase Analytics/Crashlytics are covered by the universal "Disable Firebase Analytics & Crashlytics" patch.``` | ```Saphe Link``` | ```6.6.0``` |
-| ```Enable Premium``` | ```Unlocks all features locked behind the Saphe subscription paywall (navigation, car integration, speed limits, voice alarms, roadwork detection, animal nearby, slow-moving traffic, emergency vehicle, etc.).``` | ```Saphe Link``` | ```6.6.0``` |
 | ```Disable telemetry``` | ```Disables Firebase Analytics event logging and Crashlytics crash reporting.``` | ```Shazam``` | ```16.62.0``` |
 | ```Disable ads``` | ```Disables banner, interstitial, native and rewarded ads.``` | ```Simple Radio``` | ```6.2.0``` |
 | ```Enable Premium``` | ```Unlocks Simple Radio Premium (ad-free listening) by forcing the local subscription checks to true.``` | ```Simple Radio``` | ```6.2.0``` |
@@ -6673,11 +6672,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable Premium``` | ```Marks the account as premium in the app. Note: AI insights and other premium content are served by Sofascore's servers for paying accounts and are not unlocked; use "Disable ads" for an ad-free app.``` | ```Sofascore``` | ```26.07.27, 26.08.24, 26.09.07, 26.09.14, 26.09.28``` |
 | ```Disable ads``` | ```Disables banner, interstitial, native, app-open and rewarded ads.``` | ```SoundHound``` | ```10.5.8``` |
 | ```Enable Full Version``` | ```Bypasses the Play license check so the paid app runs as licensed.``` | ```Tasker``` | ```6.6.18``` |
-| ```Enable Pro``` | ```Unlocks Textra Pro: removes ads and unlocks the paid features.``` | ```Textra``` | ```4.85``` |
+| ```Enable Pro``` | ```Unlocks Textra Pro: removes ads and unlocks the paid features.``` | ```Textra``` | ```4.85, 4.87``` |
 | ```Enable Pro``` | ```Unlocks Unified Remote Full by forcing the local license status check.``` | ```Unified Remote``` | ```3.25.1``` |
 | ```Remove ads``` | ```Unlocks the ad-free purchase.``` | ```Weather Underground``` | ```6.20.1``` |
 | ```Disable ads``` | ```Disables the banner ad.``` | ```WiFi Analyzer``` | ```3.10.5-L``` |
-| ```Enable Pro``` | ```Unlocks YouCut Pro: watermark-free export and all paid features.``` | ```YouCut``` | ```1.716.1222``` |
+| ```Enable Pro``` | ```Unlocks YouCut Pro: watermark-free export and all paid features.``` | ```YouCut``` | ```1.716.1222, 1.721.1224``` |
 
 </details>
 

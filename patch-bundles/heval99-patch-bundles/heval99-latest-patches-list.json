@@ -1,5 +1,5 @@
 {
-    "version": "v1.12.0-dev.1",
+    "version": "v1.12.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -78,11 +78,16 @@
                         {
                             "isExperimental": false,
                             "version": "1.96.61"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.97.56"
                         }
                     ],
                     "versions": [
                         "1.95.104",
-                        "1.96.61"
+                        "1.96.61",
+                        "1.97.56"
                     ]
                 }
             ],
@@ -129,7 +134,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#FF0000",
                     "name": "BoxBox",
                     "packageName": "club.boxbox.android",
@@ -143,10 +148,21 @@
                                 "X86": 251,
                                 "X86_64": 251
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.4.16",
+                            "versionCodes": {
+                                "ARM64_V8A": 260,
+                                "ARMEABI_V7A": 260,
+                                "X86": 260,
+                                "X86_64": 260
+                            }
                         }
                     ],
                     "versions": [
-                        "5.4.9"
+                        "5.4.9",
+                        "5.4.16"
                     ]
                 }
             ],
@@ -167,10 +183,15 @@
                         {
                             "isExperimental": true,
                             "version": "1.96.61"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "1.97.56"
                         }
                     ],
                     "versions": [
-                        "1.96.61"
+                        "1.96.61",
+                        "1.97.56"
                     ]
                 }
             ],
@@ -227,10 +248,21 @@
                                 "X86": 10567,
                                 "X86_64": 10567
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.3.63.0921",
+                            "versionCodes": {
+                                "ARM64_V8A": 10569,
+                                "ARMEABI_V7A": 10569,
+                                "X86": 10569,
+                                "X86_64": 10569
+                            }
                         }
                     ],
                     "versions": [
-                        "1.3.61.0907"
+                        "1.3.61.0907",
+                        "1.3.63.0921"
                     ]
                 }
             ],
@@ -287,10 +319,21 @@
                                 "X86": 7002,
                                 "X86_64": 7002
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "27.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 7005,
+                                "ARMEABI_V7A": 7005,
+                                "X86": 7005,
+                                "X86_64": 7005
+                            }
                         }
                     ],
                     "versions": [
-                        "27.02"
+                        "27.02",
+                        "27.5"
                     ]
                 }
             ],
@@ -347,10 +390,21 @@
                                 "X86": 2144,
                                 "X86_64": 2144
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "10.2.1",
+                            "versionCodes": {
+                                "ARM64_V8A": 2188,
+                                "ARMEABI_V7A": 2188,
+                                "X86": 2188,
+                                "X86_64": 2188
+                            }
                         }
                     ],
                     "versions": [
-                        "10.1"
+                        "10.1",
+                        "10.2.1"
                     ]
                 }
             ],
@@ -437,10 +491,21 @@
                                 "X86": 1044958885,
                                 "X86_64": 1044958885
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "15.145.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 1044999406,
+                                "ARMEABI_V7A": 1044999406,
+                                "X86": 1044999406,
+                                "X86_64": 1044999406
+                            }
                         }
                     ],
                     "versions": [
-                        "15.142.0"
+                        "15.142.0",
+                        "15.145.0"
                     ]
                 }
             ],
@@ -567,11 +632,22 @@
                                 "X86": 1495,
                                 "X86_64": 1495
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.9.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 1496,
+                                "ARMEABI_V7A": 1496,
+                                "X86": 1496,
+                                "X86_64": 1496
+                            }
                         }
                     ],
                     "versions": [
                         "14.9.4",
-                        "14.9.5"
+                        "14.9.5",
+                        "14.9.6"
                     ]
                 }
             ],
@@ -890,7 +966,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#FF0000",
                     "name": "BoxBox",
                     "packageName": "club.boxbox.android",
@@ -904,16 +980,27 @@
                                 "X86": 251,
                                 "X86_64": 251
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.4.16",
+                            "versionCodes": {
+                                "ARM64_V8A": 260,
+                                "ARMEABI_V7A": 260,
+                                "X86": 260,
+                                "X86_64": 260
+                            }
                         }
                     ],
                     "versions": [
-                        "5.4.9"
+                        "5.4.9",
+                        "5.4.16"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Disables AppsFlyer, Firebase Analytics and Crashlytics event logging.",
+            "description": "Disables AppsFlyer event logging, app-logged Firebase Analytics events and Crashlytics exception reporting.",
             "name": "Disable telemetry",
             "options": []
         },
@@ -928,46 +1015,21 @@
                         {
                             "isExperimental": true,
                             "version": "1.96.61"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "1.97.56"
                         }
                     ],
                     "versions": [
-                        "1.96.61"
+                        "1.96.61",
+                        "1.97.56"
                     ]
                 }
             ],
             "default": false,
             "dependencies": [],
             "description": "Experimental: turns off P3A analytics and the usage ping on every start (overriding the in-app switches), stops crash report uploads and drops the install-referrer attribution code.",
-            "name": "Disable telemetry",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#000000",
-                    "name": "Saphe Link",
-                    "packageName": "my.saphelink",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "6.6.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 212620,
-                                "ARMEABI_V7A": 212620,
-                                "X86": 212620,
-                                "X86_64": 212620
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "6.6.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Disables Braze custom event tracking. Firebase Analytics/Crashlytics are covered by the universal \"Disable Firebase Analytics & Crashlytics\" patch.",
             "name": "Disable telemetry",
             "options": []
         },
@@ -1073,6 +1135,16 @@
                     "targets": [
                         {
                             "isExperimental": false,
+                            "version": "238.17666.20260928",
+                            "versionCodes": {
+                                "ARM64_V8A": 17666,
+                                "ARMEABI_V7A": 17666,
+                                "X86": 17666,
+                                "X86_64": 17666
+                            }
+                        },
+                        {
+                            "isExperimental": false,
                             "version": "237.17536.20260911",
                             "versionCodes": {
                                 "ARM64_V8A": 17536,
@@ -1103,6 +1175,7 @@
                         }
                     ],
                     "versions": [
+                        "238.17666.20260928",
                         "237.17536.20260911",
                         "236.17398.20260827",
                         "236.17338.20260822"
@@ -1222,10 +1295,21 @@
                                 "X86": 33145,
                                 "X86_64": 33145
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "13.1.149",
+                            "versionCodes": {
+                                "ARM64_V8A": 33215,
+                                "ARMEABI_V7A": 33215,
+                                "X86": 33215,
+                                "X86_64": 33215
+                            }
                         }
                     ],
                     "versions": [
-                        "13.1.79"
+                        "13.1.79",
+                        "13.1.149"
                     ]
                 }
             ],
@@ -1238,7 +1322,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#FF0000",
                     "name": "BoxBox",
                     "packageName": "club.boxbox.android",
@@ -1252,10 +1336,21 @@
                                 "X86": 251,
                                 "X86_64": 251
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.4.16",
+                            "versionCodes": {
+                                "ARM64_V8A": 260,
+                                "ARMEABI_V7A": 260,
+                                "X86": 260,
+                                "X86_64": 260
+                            }
                         }
                     ],
                     "versions": [
-                        "5.4.9"
+                        "5.4.9",
+                        "5.4.16"
                     ]
                 }
             ],
@@ -1282,10 +1377,21 @@
                                 "X86": 10567,
                                 "X86_64": 10567
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.3.63.0921",
+                            "versionCodes": {
+                                "ARM64_V8A": 10569,
+                                "ARMEABI_V7A": 10569,
+                                "X86": 10569,
+                                "X86_64": 10569
+                            }
                         }
                     ],
                     "versions": [
-                        "1.3.61.0907"
+                        "1.3.61.0907",
+                        "1.3.63.0921"
                     ]
                 }
             ],
@@ -1312,10 +1418,21 @@
                                 "X86": 110101,
                                 "X86_64": 110101
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "11.0.125",
+                            "versionCodes": {
+                                "ARM64_V8A": 110125,
+                                "ARMEABI_V7A": 110125,
+                                "X86": 110125,
+                                "X86_64": 110125
+                            }
                         }
                     ],
                     "versions": [
-                        "11.0.101"
+                        "11.0.101",
+                        "11.0.125"
                     ]
                 }
             ],
@@ -1482,7 +1599,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#7CB342",
                     "name": "OsmAnd",
                     "packageName": "net.osmand",
@@ -1496,10 +1613,21 @@
                                 "X86": 5405,
                                 "X86_64": 5405
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.4.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 5409,
+                                "ARMEABI_V7A": 5409,
+                                "X86": 5409,
+                                "X86_64": 5409
+                            }
                         }
                     ],
                     "versions": [
-                        "5.4.5"
+                        "5.4.5",
+                        "5.4.9"
                     ]
                 }
             ],
@@ -1536,36 +1664,6 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks Pi Music Player Premium (ad-free) by forcing the local purchase-state checks to true.",
-            "name": "Enable Premium",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#000000",
-                    "name": "Saphe Link",
-                    "packageName": "my.saphelink",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "6.6.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 212620,
-                                "ARMEABI_V7A": 212620,
-                                "X86": 212620,
-                                "X86_64": 212620
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "6.6.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks all features locked behind the Saphe subscription paywall (navigation, car integration, speed limits, voice alarms, roadwork detection, animal nearby, slow-moving traffic, emergency vehicle, etc.).",
             "name": "Enable Premium",
             "options": []
         },
@@ -1718,11 +1816,22 @@
                                 "X86": 51448,
                                 "X86_64": 51448
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "26.39.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 51509,
+                                "ARMEABI_V7A": 51509,
+                                "X86": 51509,
+                                "X86_64": 51509
+                            }
                         }
                     ],
                     "versions": [
                         "26.37.0",
-                        "26.38.0"
+                        "26.38.0",
+                        "26.39.0"
                     ]
                 }
             ],
@@ -1749,10 +1858,21 @@
                                 "X86": 2337,
                                 "X86_64": 2337
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.2338",
+                            "versionCodes": {
+                                "ARM64_V8A": 2338,
+                                "ARMEABI_V7A": 2338,
+                                "X86": 2338,
+                                "X86_64": 2338
+                            }
                         }
                     ],
                     "versions": [
-                        "1.2337"
+                        "1.2337",
+                        "1.2338"
                     ]
                 }
             ],
@@ -1795,7 +1915,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "APKM",
                     "appIconColor": "#5C6BC0",
                     "name": "Textra",
                     "packageName": "com.textra",
@@ -1809,10 +1929,21 @@
                                 "X86": 48561,
                                 "X86_64": 48561
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "4.87",
+                            "versionCodes": {
+                                "ARM64_V8A": 48761,
+                                "ARMEABI_V7A": 48761,
+                                "X86": 48761,
+                                "X86_64": 48761
+                            }
                         }
                     ],
                     "versions": [
-                        "4.85"
+                        "4.85",
+                        "4.87"
                     ]
                 }
             ],
@@ -1869,10 +2000,21 @@
                                 "X86": 1222,
                                 "X86_64": 1222
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.721.1224",
+                            "versionCodes": {
+                                "ARM64_V8A": 1224,
+                                "ARMEABI_V7A": 1224,
+                                "X86": 1224,
+                                "X86_64": 1224
+                            }
                         }
                     ],
                     "versions": [
-                        "1.716.1222"
+                        "1.716.1222",
+                        "1.721.1224"
                     ]
                 }
             ],
@@ -1893,10 +2035,15 @@
                         {
                             "isExperimental": true,
                             "version": "1.96.61"
+                        },
+                        {
+                            "isExperimental": true,
+                            "version": "1.97.56"
                         }
                     ],
                     "versions": [
-                        "1.96.61"
+                        "1.96.61",
+                        "1.97.56"
                     ]
                 }
             ],
