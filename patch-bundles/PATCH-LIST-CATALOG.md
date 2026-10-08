@@ -5511,10 +5511,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable ads``` | ```Removes AppLovin native feed ads, banner ads, and image-viewer ads from rif is fun.``` | ```com.andrewshu.android.reddit``` | ```All versions``` |
-| ```Fix comment video links``` | ```Makes videos posted in comments play in rif's video player instead of failing with "error retrieving Reddit video metadata".``` | ```com.andrewshu.android.reddit, com.andrewshu.android.redditdonation``` | ```All versions``` |
-| ```Fix imgur albums``` | ```Fixes imgur albums crashing or failing to load when patched alongside the official ReVanced rif patches. Does nothing without them.``` | ```com.andrewshu.android.reddit, com.andrewshu.android.redditdonation``` | ```All versions``` |
-| ```Inline comment images``` | ```Renders image links in comment and text-post bodies as embedded inline images (static + animated GIFs, common hosts).``` | ```com.andrewshu.android.reddit, com.andrewshu.android.redditdonation``` | ```All versions``` |
+| ```Disable ads``` | ```Removes AppLovin native feed ads, banner ads, and image-viewer ads from rif is fun.``` | ```com.andrewshu.android.reddit``` | ```5.6.22``` |
+| ```Fix comment video links``` | ```Makes videos posted in comments play in rif's video player instead of failing with "error retrieving Reddit video metadata".``` | ```com.andrewshu.android.reddit, com.andrewshu.android.redditdonation``` | ```5.6.22, 5.6.22``` |
+| ```Fix imgur albums``` | ```Fixes imgur albums crashing or failing to load when patched alongside the official ReVanced rif patches. Does nothing without them.``` | ```com.andrewshu.android.reddit, com.andrewshu.android.redditdonation``` | ```5.6.22, 5.6.22``` |
+| ```Inline comment images``` | ```Shows images, GIFs and videos linked in comments and text posts inline.``` | ```com.andrewshu.android.reddit, com.andrewshu.android.redditdonation``` | ```5.6.22, 5.6.22``` |
 
 </details>
 

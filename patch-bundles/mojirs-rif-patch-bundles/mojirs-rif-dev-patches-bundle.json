@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-06-19T15:39:59",
-  "description": "Test build. Fix: inline GIFs no longer restart when a comment is re-bound in place (e.g. upvoting). attach() now leaves already-running animatables alone and only stops ones that left the recycled view.",
-  "download_url": "https://github.com/MojiRS/revanced-rif-patches/releases/download/v1.3.1-rc1/patches.rvp",
+  "created_at": "2026-10-08T05:13:31",
+  "description": "**Release candidate \u2014 please report problems before 1.6.0.**\n\n### New\n- **Inline videos**: comment videos, v.redd.it and imgur `.gifv`/`.mp4` links play inline under their link, muted and looping. Tap a video for controls like rif's own player: back to start, play/pause, repeat, sound, seek, and full screen (which continues where you were). Settings: *Inline videos*, *Autoplay inline videos*.\n- Settings category renamed to **Inline media**.\n\n### Fixes\n- GIFs in text posts now animate on the comments page.\n\nRequires rif is fun **5.6.22** (free or Golden Platinum), patched together with the official ReVanced bundle's **Spoof client** patch.",
+  "download_url": "https://github.com/MojiRS/revanced-rif-patches/releases/download/v1.6.0-rc8/patches.rvp",
   "signature_download_url": "N/A",
-  "version": "v1.3.1-rc1"
+  "version": "v1.6.0-rc8"
 }
