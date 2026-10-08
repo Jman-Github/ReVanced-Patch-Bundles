@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.3-beta.1.8",
+    "version": "v1.9.3-beta.1.9",
     "patches": [
         {
             "category": null,
@@ -25,7 +25,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Kizu Twitch enhancements for Twitch 31.3.1. 1.9.3-beta.1.8 binds the actual Create Clip ComposeView and legacy ImageView stored by Twitch's player overlay.",
+            "description": "Kizu Twitch enhancements for Twitch 31.3.1. 1.9.3-beta.1.9 hides both verified player Create Clip controls: create_clip_button_compose_view and create_clip_text_button.",
             "name": "Twitch Enhancement"
         }
     ]
