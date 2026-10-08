@@ -1,5 +1,5 @@
 {
-    "version": "v3.5.0-dev.2",
+    "version": "v3.5.0-dev.3",
     "patches": [
         {
             "compatiblePackages": [
@@ -828,6 +828,30 @@
             "dependencies": [],
             "description": "Opens LINE Pay in the standalone LINE Pay app, so the integrity check that fails on a re-signed build never runs.",
             "name": "[General] Redirect LINE Pay",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#06C755",
+                    "name": "LINE",
+                    "packageName": "jp.naver.line.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.14.0"
+                        }
+                    ],
+                    "versions": [
+                        "26.14.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Makes LINE trust certificate authorities you install, so your own HTTPS proxy can read LIFF and mini-app web traffic. Bank and LINE Pay stay pinned. For debugging. Off by default.",
+            "name": "[General] Trust user-installed CAs",
             "options": []
         },
         {

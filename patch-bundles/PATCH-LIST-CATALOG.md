@@ -128,7 +128,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 20 | 11 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 78 | 58 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 127 | 10 | Generated |
-| [Morphe](#-morphe-bundle-patch-list) | 169 | 4 | Generated |
+| [Morphe](#-morphe-bundle-patch-list) | 170 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
 | [IMXEren](#-imxeren-bundle-patch-list) | 14 | 5 | Generated |
@@ -171,7 +171,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [HXReborn](#-hxreborn-bundle-patch-list) | 129 | 60 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 12 | 9 | Generated |
-| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 48 | 2 | Generated |
+| [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 49 | 2 | Generated |
 | [Morning-Entree](#-morning-entree-bundle-patch-list) | 82 | 108 | Generated |
 | [VocaColle](#-vocacolle-bundle-patch-list) | 7 | 1 | Generated |
 | [DBTCoach](#-dbtcoach-bundle-patch-list) | 1 | 1 | Generated |
@@ -253,7 +253,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Enccmp](#-enccmp-bundle-patch-list) | 2 | 1 | Generated |
 | [Dumketo](#-dumketo-bundle-patch-list) | 8 | 4 | Generated |
 | [Benzophury](#-benzophury-bundle-patch-list) | 4 | 1 | Generated |
-| [PyFlat-JR](#-pyflat-jr-bundle-patch-list) | 2 | 1 | Generated |
+| [PyFlat-JR](#-pyflat-jr-bundle-patch-list) | 4 | 3 | Generated |
 | [Dual-VoT](#-dual-vot-bundle-patch-list) | 170 | 4 | Generated |
 | [SmartLauncher](#-smartlauncher-bundle-patch-list) | 6 | 1 | Generated |
 | [Rahul9999xda-Telegram](#-rahul9999xda-telegram-bundle-patch-list) | 20 | 4 | Generated |
@@ -3809,7 +3809,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morphe Bundle Patch List:
 [📦 Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Morphe</b> - 169 patches, 4 apps</summary>
+<summary><b>Morphe</b> - 170 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3851,6 +3851,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Channel search``` | ```Adds an option to search inside the channel that is currently open instead of searching all of YouTube.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
 | ```Channel whitelist``` | ```Adds options to allow whitelisting specific channels to show ads or override playback speeds.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
 | ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
+| ```Copy text``` | ```Adds options to copy the video title and comments by tapping and holding them.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
 | ```Copy video link``` | ```Adds options to display buttons in the video player to copy video links.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
 | ```Custom branding``` | ```Adds options to change the app icon and app name. For mounted (root) installations the branding is applied while patching, because it cannot be changed from the app settings.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
 | ```Custom player overlay opacity``` | ```Adds an option to change the opacity of the video player background when player controls are visible.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
@@ -5932,7 +5933,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 AndrewLiang25 Bundle Patch List:
 [📦 AndrewLiang25-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-andrewliang25-patches-bundle-morphe)
 <details>
-<summary><b>AndrewLiang25</b> - 48 patches, 2 apps</summary>
+<summary><b>AndrewLiang25</b> - 49 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5976,6 +5977,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```[General] Hide new item badges``` | ```Hides the green dots and N badges that mark new items, on header buttons, tabs, menus, lists and settings rows. Unread message counts do not change.``` | ```LINE``` | ```26.14.0``` |
 | ```[General] Open links in external browser``` | ```Opens web links in your default browser instead of LINE's in-app browser. LIFF mini-apps and LINE links stay in LINE.``` | ```LINE``` | ```26.14.0``` |
 | ```[General] Redirect LINE Pay``` | ```Opens LINE Pay in the standalone LINE Pay app, so the integrity check that fails on a re-signed build never runs.``` | ```LINE``` | ```26.14.0``` |
+| ```[General] Trust user-installed CAs``` | ```Makes LINE trust certificate authorities you install, so your own HTTPS proxy can read LIFF and mini-app web traffic. Bank and LINE Pay stay pinned. For debugging. Off by default.``` | ```LINE``` | ```26.14.0``` |
 | ```[Home] Hide Home content feed``` | ```Removes the content feed below the friends list on the Home tab: LINE NEWS, official account posts and rankings.``` | ```LINE``` | ```26.14.0``` |
 | ```[Home] Hide Home modules``` | ```Hides the recommended content, hot-topics and ad modules on the Home tab.``` | ```LINE``` | ```26.14.0``` |
 | ```[Premium] Disable LINE Premium``` | ```Hides all LINE Premium upsells, badges and pages. It unlocks nothing, because the server enforces Premium.``` | ```LINE``` | ```26.14.0``` |
@@ -7881,12 +7883,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 PyFlat-JR Bundle Patch List:
 [📦 PyFlat-JR-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-pyflat-jr-patches-bundle-morphe)
 <details>
-<summary><b>PyFlat-JR</b> - 2 patches, 1 app</summary>
+<summary><b>PyFlat-JR</b> - 4 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Hold to speed up``` | ```Adds a YouTube-like gesture: hold the video to temporarily play it faster.``` | ```ARD Mediathek``` | ```12.4.1``` |
 | ```Unlock Plus``` | ```Unlocks the Plus subscription.``` | ```com.netbiscuits.kicker``` | ```All versions``` |
 | ```Unlock Pur``` | ```Unlocks the Pur subscription.``` | ```com.netbiscuits.kicker``` | ```All versions``` |
+| ```Hold to speed up``` | ```Adds a YouTube-like gesture: hold the video to temporarily play it faster.``` | ```Disney+``` | ```26.18.0+rc5-2026.10.05``` |
 
 </details>
 

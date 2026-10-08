@@ -1,41 +1,131 @@
 {
-  "patches": [
-    {
-      "compatiblePackages": [
+    "version": "v1.1.0",
+    "patches": [
         {
-          "name": "com.netbiscuits.kicker",
-          "packageName": "com.netbiscuits.kicker",
-          "targets": [
-            {
-              "isExperimental": false
-            }
-          ]
-        }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": "Unlocks the Plus subscription.",
-      "name": "Unlock Plus",
-      "options": []
-    },
-    {
-      "compatiblePackages": [
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#003D8F",
+                    "name": "ARD Mediathek",
+                    "packageName": "de.swr.avp.ard",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.4.1"
+                        }
+                    ],
+                    "versions": [
+                        "12.4.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Adds a YouTube-like gesture: hold the video to temporarily play it faster.",
+            "name": "Hold to speed up",
+            "options": [
+                {
+                    "default": 2.0,
+                    "description": "Playback speed while holding the video.",
+                    "key": "speed",
+                    "required": true,
+                    "title": "Speed",
+                    "type": "kotlin.Float",
+                    "values": null
+                },
+                {
+                    "default": 400,
+                    "description": "Milliseconds the video must be held before it speeds up.",
+                    "key": "holdDelay",
+                    "required": true,
+                    "title": "Hold delay",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
+        },
         {
-          "name": "com.netbiscuits.kicker",
-          "packageName": "com.netbiscuits.kicker",
-          "targets": [
-            {
-              "isExperimental": false
-            }
-          ]
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0E1A40",
+                    "name": "Disney+",
+                    "packageName": "com.disney.disneyplus",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.18.0+rc5-2026.10.05"
+                        }
+                    ],
+                    "versions": [
+                        "26.18.0+rc5-2026.10.05"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Adds a YouTube-like gesture: hold the video to temporarily play it faster.",
+            "name": "Hold to speed up",
+            "options": [
+                {
+                    "default": 2.0,
+                    "description": "Playback speed while holding the video.",
+                    "key": "speed",
+                    "required": true,
+                    "title": "Speed",
+                    "type": "kotlin.Float",
+                    "values": null
+                },
+                {
+                    "default": 400,
+                    "description": "Milliseconds the video must be held before it speeds up.",
+                    "key": "holdDelay",
+                    "required": true,
+                    "title": "Hold delay",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.netbiscuits.kicker",
+                    "packageName": "com.netbiscuits.kicker",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the Plus subscription.",
+            "name": "Unlock Plus",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "com.netbiscuits.kicker",
+                    "packageName": "com.netbiscuits.kicker",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks the Pur subscription.",
+            "name": "Unlock Pur",
+            "options": []
         }
-      ],
-      "default": true,
-      "dependencies": [],
-      "description": "Unlocks the Pur subscription.",
-      "name": "Unlock Pur",
-      "options": []
-    }
-  ],
-  "version": "v1.0.0"
+    ]
 }
