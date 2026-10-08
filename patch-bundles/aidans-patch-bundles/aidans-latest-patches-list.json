@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0-dev.6",
+    "version": "v1.4.0-dev.7",
     "patches": [
         {
             "category": "Features",
@@ -58,6 +58,66 @@
             ],
             "description": "Replaces the unavailable store with a dialog to view and set your exact chip balance.",
             "name": "Add Custom Chip Store",
+            "options": []
+        },
+        {
+            "category": "Customization",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#02C874",
+                    "name": "SidelineSwap",
+                    "packageName": "com.sidelineswap.android",
+                    "signatures": [
+                        "e434334ea79d8702a5d023ce7bfae4da9fa5539796cb9e0ba515cb471528697f"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "1.52.0"
+                        }
+                    ],
+                    "versions": [
+                        "1.52.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "AMOLED Theme Resources"
+            ],
+            "description": "Forces SidelineSwap into a pure-black AMOLED theme with dark system bars, black app surfaces, readable light text and icons, and force dark mode on embedded WebViews.",
+            "name": "AMOLED Theme",
+            "options": []
+        },
+        {
+            "category": "Customization",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#02C874",
+                    "name": "SidelineSwap",
+                    "packageName": "com.sidelineswap.android",
+                    "signatures": [
+                        "e434334ea79d8702a5d023ce7bfae4da9fa5539796cb9e0ba515cb471528697f"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "1.52.0"
+                        }
+                    ],
+                    "versions": [
+                        "1.52.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Resource modifications for AMOLED theme.",
+            "name": "AMOLED Theme Resources",
             "options": []
         },
         {

@@ -1,6 +1,60 @@
 {
-    "version": "v0.7.2",
+    "version": "v0.8.0",
     "patches": [
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "Lets you swap Facebook's blue on links, buttons, switches and the selected tab for another color, picked under Appearance. It starts on Facebook's own blue, so turn it on and pick one.",
+            "name": "Accent color",
+            "options": [],
+            "use": false
+        },
         {
             "category": "Privacy",
             "compatibility": [
@@ -110,7 +164,7 @@
             "options": [
                 {
                     "default": "#000000",
-                    "description": "The colour dark mode's backgrounds take, as #RRGGBB. Cards and inputs take a lighter step of it. Leave it blank for black. A colour too light for Facebook's white text is refused.",
+                    "description": "The colour dark mode's backgrounds take, as #RRGGBB. Cards and inputs take a lighter step of it. Leave it blank for black. Greys up to #3A3A3A keep Facebook's own text. A little lighter, up to about #535353 for a grey, gets smaller steps and lighter grey text so it stays readable. Anything lighter is refused.",
                     "key": "backgroundColour",
                     "required": false,
                     "title": "Background colour",
@@ -276,7 +330,7 @@
             "dependencies": [
                 "Hushfacebook settings"
             ],
-            "description": "Keeps your feed position when you return to Facebook within ten minutes, or for any time away with No time limit on. Pull to refresh and a fresh launch still work.",
+            "description": "Keeps your feed position when you return to Facebook within ten minutes, or for any time away with No time limit on, and when you switch back to Home. Pull to refresh and a fresh launch still work.",
             "name": "Block background-return feed refresh",
             "options": [],
             "use": false
@@ -383,7 +437,7 @@
             "dependencies": [
                 "Hushfacebook settings"
             ],
-            "description": "Keeps the kinds of notification you pick off your phone, such as trending videos, memories and birthdays. Each kind has its own switch, and they all start off. Messages, friend requests, comments, mentions and login alerts always come through.",
+            "description": "Keeps the kinds of notification you pick off your phone, such as trending videos, memories and birthdays. Each kind has its own switch, and they all start off. Quiet hours can limit them to the night, or to any hours you pick. Messages, friend requests, comments, mentions and login alerts always come through.",
             "name": "Block promotional notifications",
             "options": [],
             "use": true
@@ -488,11 +542,118 @@
                 ]
             },
             "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Two switches for Chats inside Facebook, both off until you turn them on. One empties the list behind the row above your chats, so friends' notes and who's active go, and your own note tile may go too. The other takes out the promotional banners at the top of Chats, like the one asking you to turn on notifications. Your chats, search and new messages stay.",
+            "name": "Clean up Facebook's chat list",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
                 "BytecodePatch",
                 "Hushfacebook settings"
             ],
-            "description": "Hides the Follow button on reels and the comment and reaction previews under them. Buttons such as Remix, Use template, Add yours and Stars go too, and each part has its own switch.",
+            "description": "Hides the Follow button on reels and the comment and reaction previews under them. Buttons such as Remix, Use template, Add yours and Stars go too, and so can the Threads cards Facebook puts between reels. Reels and videos can also open in Facebook's Clean mode. Each part has its own switch.",
             "name": "Clean up Reels",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "Adds three switches under Comments, all off to start. Like only stops a long press on Like from opening the reactions, another takes the GIF and sticker buttons out of the comment box, and Open every reply thread shows each comment's replies without a tap on View replies. A row there opens Facebook's own settings, where Reaction preferences can hide reaction counts.",
+            "name": "Comment sheet options",
             "options": [],
             "use": false
         },
@@ -597,7 +758,7 @@
             "dependencies": [
                 "Hushfacebook settings"
             ],
-            "description": "Plays videos, reels and video stories at the quality you choose in Hushfacebook's settings, such as Data saver or up to 720p, instead of the one Facebook picks as it plays. A quality you pick in a video's own menu still wins for that video.",
+            "description": "Plays videos, reels and video stories at the quality you choose in Hushfacebook's settings, such as Data saver or up to 720p, instead of the one Facebook picks as it plays. Reels and stories can have a quality of their own. A quality you pick in a video's own menu still wins for that video.",
             "name": "Default playback quality",
             "options": [],
             "use": false
@@ -656,6 +817,61 @@
             "name": "Disable Audience Network",
             "options": [],
             "use": true
+        },
+        {
+            "category": "Fixes",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings",
+                "ResourcePatch"
+            ],
+            "description": "Stops Google Play offering Facebook updates by giving Facebook the highest version number Android allows, while Facebook's own code still reads its real one. It doesn't work on a Root Mount install. Once a Facebook with it is installed, a build without it won't install over it.",
+            "name": "Disable Play Store updates",
+            "options": [],
+            "use": false
         },
         {
             "category": "Privacy",
@@ -759,7 +975,61 @@
                 "BytecodePatch",
                 "Hushfacebook settings"
             ],
-            "description": "Adds a Download button beside every reel. Videos save at the Download quality you set, best by default.",
+            "description": "Shows Save photo on every photo you open, even where the poster turned saving off, and saves the biggest size where your downloads go. Its switch is under Downloads.",
+            "name": "Download any photo",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Downloads",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "Adds a Download button beside every reel, and a Download row to its More sheet. Videos save at the Download quality you set, best by default.",
             "name": "Download any reel",
             "options": [],
             "use": true
@@ -873,6 +1143,60 @@
             "use": false
         },
         {
+            "category": "Feed",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "Has Home load the newest posts from the friends, groups and Pages you follow, like the Feeds tab's All, instead of the ranked feed. The Feeds tab's filters stay as they are. Its switch starts off, under Opening Facebook.",
+            "name": "Following feed on Home",
+            "options": [],
+            "use": true
+        },
+        {
             "category": "Interface",
             "compatibility": [
                 {
@@ -974,7 +1298,7 @@
             "dependencies": [
                 "Hushfacebook settings"
             ],
-            "description": "Removes the product cards of affiliate shop links from reels, feed posts and the comment sheet. The \"Commission eligible\" label stays.",
+            "description": "Removes the product cards of affiliate shop links from reels, feed posts and the comment sheet, plus the Shop now cards reels get for tagged products, a creator's storefront and Shop similar. The \"Commission eligible\" label stays.",
             "name": "Hide affiliate product links",
             "options": [],
             "use": true
@@ -1081,8 +1405,62 @@
             "dependencies": [
                 "Hushfacebook settings"
             ],
-            "description": "Hides the Upgrades and Also from Meta sections of Facebook's Menu. Each has its own switch. Settings, Help and support, your shortcuts and the rest of the Menu stay.",
+            "description": "Hides the Upgrades and Also from Meta sections of Facebook's Menu, and its Muse card. Each has its own switch. Settings, Help and support, your shortcuts and the rest of the Menu stay.",
             "name": "Hide Menu promotions",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Feed",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "Removes Meta AI's summary of the comments from the top of the comment sheet and from under posts. The comments stay. Its switch starts off, under Comments.",
+            "name": "Hide Meta AI comment summaries",
             "options": [],
             "use": true
         },
@@ -1193,6 +1571,60 @@
             "use": true
         },
         {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "Hides the pushes for Edits, Threads cross-posting, Meta Verified, avatar stickers and Meta AI's Imagine outside the Menu, such as the Edits button in the Reels composer and the offer sheet after you post. Each has its own switch.",
+            "name": "Hide Meta upsells",
+            "options": [],
+            "use": false
+        },
+        {
             "category": "Feed",
             "compatibility": [
                 {
@@ -1294,10 +1726,64 @@
                 "BytecodePatch",
                 "Hushfacebook settings"
             ],
-            "description": "Hides feed posts whose text has a word or phrase you list, unless it also has one from your keep list. Hushfacebook never sends your words anywhere. The switch starts off, so turn it on and add words in Hushfacebook's settings.",
+            "description": "Hides feed posts whose text matches a word or pattern you list, unless it also matches your keep list. It also hides posts from people, Pages and sites you list, and, each with its own switch, photo, video, link and colored background posts. Hushfacebook never sends your lists anywhere. The switches start off, so turn one on and fill in its list in Hushfacebook's settings.",
             "name": "Hide posts by words",
             "options": [],
             "use": true
+        },
+        {
+            "category": "Privacy",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "People you chat with in a chat that opens inside Facebook don't see that you've read their messages. The chat can stay unread on this phone, and replying may still show you've read it. Its switch starts on, under Privacy.",
+            "name": "Hide read receipts",
+            "options": [],
+            "use": false
         },
         {
             "category": "Interface",
@@ -1407,6 +1893,60 @@
             "use": false
         },
         {
+            "category": "Feed",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "Keeps posts you've already scrolled past out of the feed when it loads again, for 1, 3, 7 or 30 days. The list stays on your phone. Turn it on under News feed.",
+            "name": "Hide seen posts",
+            "options": [],
+            "use": false
+        },
+        {
             "category": "Ads",
             "compatibility": [
                 {
@@ -1509,7 +2049,7 @@
                 "BytecodePatch",
                 "Hushfacebook settings"
             ],
-            "description": "Removes sponsored and promoted posts from the news feed, with no gap left behind.",
+            "description": "Removes sponsored and promoted posts from the news feed, with no gap left behind, and keeps the floating ad button off an ad's comments.",
             "name": "Hide sponsored posts",
             "options": [],
             "use": true
@@ -1779,7 +2319,7 @@
                 "BytecodePatch",
                 "Hushfacebook settings"
             ],
-            "description": "Adds separate controls for the row of stories at the top of the news feed, Create story included, and the rows of stories Facebook puts between posts.",
+            "description": "Adds separate controls for the row of stories at the top of the news feed, Create story included, and the rows of stories Facebook puts between posts. The composer row at the top of Home gets a switch of its own too.",
             "name": "Hide Stories tray",
             "options": [],
             "use": false
@@ -1833,7 +2373,7 @@
                 "BytecodePatch",
                 "Hushfacebook settings"
             ],
-            "description": "Removes what Facebook adds to the feed besides ads: \"Suggested for you\" posts, \"People you may know\", suggested groups, \"Stories you might like\", \"Pages you may like\" and its own upsells. In-feed surveys go too, and so does the \"People you may know\" row on your own profile. Each kind has its own switch.",
+            "description": "Removes what Facebook adds to the feed besides ads: \"Suggested for you\" posts, \"People you may know\", suggested groups, \"Stories you might like\", \"Pages you may like\" and its own upsells. In-feed surveys go too, and so does the \"People you may know\" row on your own profile. Each kind has its own switch. Memories, friend requests and friends' locations between posts have switches too, off until you pick them.",
             "name": "Hide suggested and promoted posts",
             "options": [],
             "use": true
@@ -1941,7 +2481,61 @@
                 "BytecodePatch",
                 "Hushfacebook settings"
             ],
-            "description": "Takes the tabs you pick off the tab bar: Feeds, Friends, Marketplace, Groups, Gaming or Events. Each page stays in the Menu. Every switch starts off, and a change shows once Facebook restarts.",
+            "description": "Takes the dot and count off the tabs you pick, and Facebook's count off its app icon. Notifications still come in, and the Notifications tab still lists them. Every switch starts off.",
+            "name": "Hide tab badges",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "Takes the tabs you pick off the tab bar: Feeds, Friends, Marketplace, Groups, Gaming or Events, and Dating, Professional dashboard, Saved, Ad Center, Create, Explore or Jobs where Facebook gives you one. Each page stays in the Menu. Every switch starts off, and a change shows once Facebook restarts.",
             "name": "Hide tabs",
             "options": [],
             "use": true
@@ -2152,12 +2746,67 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "Hushfacebook settings"
             ],
             "description": "Takes the new-item dot and count off the Reels tab, which some accounts call Video. Every other tab keeps its own.",
             "name": "Hide the Reels tab dot",
             "options": [],
             "use": true
+        },
+        {
+            "category": "Privacy",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "Others don't see that you're typing, in chats that open inside Facebook and in comment boxes. What you write sends as usual. Its switches start on, under Privacy.",
+            "name": "Hide typing indicator",
+            "options": [],
+            "use": false
         },
         {
             "category": "Interface",
@@ -2530,7 +3179,61 @@
                 "BytecodePatch",
                 "Hushfacebook settings"
             ],
-            "description": "A playback speed you pick in a reel's menu stays for the next reels until you pick another or Facebook restarts.",
+            "description": "Keeps the progress bar of reels at full size, so you can drag it without tapping first, and keeps a full-screen video's controls on screen until you tap. Its switch starts off, under Playback.",
+            "name": "Keep the progress bar",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Hushfacebook settings"
+            ],
+            "description": "A playback speed you pick in a reel's menu stays for the next reels until you pick another or Facebook restarts. A second switch does the same for feed and Watch videos.",
             "name": "Keep the reel speed",
             "options": [],
             "use": true
@@ -2855,7 +3558,7 @@
             "dependencies": [
                 "Hushfacebook settings"
             ],
-            "description": "A reel playing in the Reels tab keeps going in a small window when you leave Facebook, through the picture-in-picture Facebook already has for Reels. Needs Android 12 or later.",
+            "description": "A reel playing in the Reels tab, or a video playing in the Video tab or Facebook's full-screen Watch viewer, keeps going in a small window when you leave Facebook, through the picture-in-picture Facebook already has for them. Needs Android 12 or later.",
             "name": "Picture-in-picture",
             "options": [],
             "use": false
@@ -3018,6 +3721,59 @@
             ],
             "description": "Takes Facebook's tracking tags, such as mibextid, off the links you share or copy. The post or reel a link opens stays the same. A facebook.com/share/ link is made for one share, so Facebook can still trace it back to you.",
             "name": "Sanitize sharing links",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Photos and videos you send from a chat that opens inside Facebook go out as the originals instead of Facebook's smaller copies. The switch starts off, under Chats.",
+            "name": "Send chat photos and videos at original quality",
             "options": [],
             "use": true
         },
@@ -3281,9 +4037,10 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "Hushfacebook settings"
             ],
-            "description": "Moves Facebook's tab bar to the bottom of the screen on accounts that have it at the top. Its switch starts off, so turn it on under Appearance and restart Facebook.",
+            "description": "Moves Facebook's tab bar to the bottom of the screen on accounts that have it at the top. Its switch starts off, so turn it on under Appearance and restart Facebook. A second switch there lets the bar at the bottom slide away while you scroll down.",
             "name": "Tab bar at the bottom",
             "options": [],
             "use": true
@@ -3393,6 +4150,59 @@
             "name": "Tap to play",
             "options": [],
             "use": false
+        },
+        {
+            "category": "Feed",
+            "compatibility": [
+                {
+                    "appIconColor": 550655,
+                    "description": null,
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "581.0.0.45.58",
+                            "versionCodes": {
+                                "ARM64_V8A": 475215365,
+                                "ARMEABI_V7A": 475215364
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "580.0.0.51.74",
+                            "versionCodes": {
+                                "ARM64_V8A": 475019344
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.facebook.katana": [
+                    "581.0.0.45.58",
+                    "580.0.0.51.74",
+                    "577.0.0.50.72"
+                ]
+            },
+            "dependencies": [
+                "Hushfacebook settings"
+            ],
+            "description": "Shows posts and reel captions in the language they were written in, instead of Facebook's automatic translation. Facebook's See translation link stays under each one. The switch starts off.",
+            "name": "Turn off auto-translation",
+            "options": [],
+            "use": true
         },
         {
             "category": "Interface",
@@ -3604,7 +4414,7 @@
                 "BytecodePatch",
                 "Hushfacebook settings"
             ],
-            "description": "Shows Facebook's tabs, its Menu and the screens that open over it at once, without the slide between them. Swiping and animations inside a page stay. Its switch starts on, under Appearance.",
+            "description": "Shows Facebook's tabs, the tab strips inside its screens, its Menu and the screens that open over it at once, without the slide between them. Swiping and animations inside a page stay. Its switch starts on, under Appearance.",
             "name": "Turn off screen transitions",
             "options": [],
             "use": false
@@ -3761,6 +4571,7 @@
                 ]
             },
             "dependencies": [
+                "BytecodePatch",
                 "Hushfacebook settings"
             ],
             "description": "Keeps you off the viewer list of the stories you watch, because Facebook isn't told which ones you've seen. Replying or reacting still shows you, and stories you've watched keep the ring that marks them as new.",

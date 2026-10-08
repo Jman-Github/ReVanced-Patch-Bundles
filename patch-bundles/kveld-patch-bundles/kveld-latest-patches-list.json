@@ -1,5 +1,5 @@
 {
-    "version": "v2.6.0-experimental.5",
+    "version": "v2.6.0-experimental.6",
     "patches": [
         {
             "compatiblePackages": [
@@ -3972,6 +3972,32 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#FF4500",
+                    "name": "Brave Private Web Browser, VPN",
+                    "packageName": "com.brave.browser",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.97.56"
+                        }
+                    ],
+                    "versions": [
+                        "1.97.56"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "When closing the active tab in a tab group, selects the previous tab in the same group instead of jumping outside the group.",
+            "name": "Tab Group Close Selection",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#FE2C55",
                     "name": "TikTok",
                     "packageName": "com.zhiliaoapp.musically",
@@ -4538,7 +4564,7 @@
                 },
                 {
                     "default": false,
-                    "description": "Disable Meta Fbns, PushLite, and Firebase Cloud Messaging services. WARNING: this breaks push notifications; enable only to fully silence background push delivery.",
+                    "description": "Disable Meta Fbns, PushLite, and Firebase Cloud Messaging services plus push receivers (Firebase IID, Braze). WARNING: this breaks push notifications; enable only to fully silence background push delivery.",
                     "key": "disablePushServices",
                     "required": false,
                     "title": "Disable Push Notification Services",
