@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.3-beta.3.7",
+    "version": "v1.9.3-beta.3.9",
     "patches": [
         {
             "category": null,
@@ -25,7 +25,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Kizu Twitch enhancements for Twitch 31.3.1. Beta 3.7 fixes the dynamic smali interpolation used by the exact verified player Create Clip, Live Share, and Cast bindings.",
+            "description": "Kizu Twitch enhancements for Twitch 31.3.1. Beta 3.9 binds the exact verified visible player Share and Cast controls so their settings persist after Twitch reapplies player-header visibility.",
             "name": "Twitch Enhancement",
             "options": []
         }
