@@ -1,5 +1,5 @@
 {
-    "version": "v0.0.6",
+    "version": "v0.0.7",
     "patches": [
         {
             "category": "Privacy",
@@ -329,7 +329,7 @@
                 "BytecodePatch",
                 "HushGram settings"
             ],
-            "description": "Adds an optional Copy action to the common comment menu. Copies the original text with its line breaks.",
+            "description": "Adds optional Copy and Copy username actions to the common comment menu. Copy keeps the original text with its line breaks, and Copy username copies the commenter's username. Their switches start off.",
             "name": "Copy comment",
             "options": [],
             "use": true
@@ -666,7 +666,7 @@
                 "HushGram settings",
                 "ResourcePatch"
             ],
-            "description": "Adds Download to the menu of a post in your feed with a video, and of a carousel showing a video. Videos save at the Download quality you set, without Instagram's watermark. A second switch does the same for photo posts. Another adds Details, with the post's time, who posted it, its media ID and buttons that copy its direct link, the username and the caption.",
+            "description": "Adds Download to the menu of a post in your feed with a video, and of a carousel showing a video. Videos save at the Download quality you set, without Instagram's watermark. A second switch does the same for photo posts, and a third adds Download cover, which saves the still picture a video shows before it plays. Another adds Details, with the post's time, who posted it, its media ID and buttons that copy its direct link, the username and the caption.",
             "name": "Download any video",
             "options": [],
             "use": false
@@ -705,6 +705,43 @@
             ],
             "description": "Adds an optional Save to the menu you get by holding a voice message in a chat. It saves the recording as an audio file. Its switch starts off.",
             "name": "Download voice messages",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 14757996,
+                    "description": null,
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "450.0.0.50.77",
+                            "versionCodes": {
+                                "ARM64_V8A": 385611438
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "450.0.0.50.77"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "description": "Draws every emoji in Google's style, from the emoji font Instagram gets through Google Play services, instead of your phone's own style. Its switch, under Layout, starts off, and a change shows fully after Instagram restarts.",
+            "name": "Emoji style",
             "options": [],
             "use": true
         },
@@ -999,7 +1036,7 @@
                 "BytecodePatch",
                 "HushGram settings"
             ],
-            "description": "Takes Meta AI out of the search bars, in the Search tab and at the top of your messages, so they search the plain way, drops the Ask a follow-up bar under search results and Meta AI's buttons in Home's top bar and the message composer, hides its optional row in your inbox, and removes Meta AI's posts from your home feed. It can also take About this reel, or only its Ask Meta AI box, out of a reel's More menu. Search, posts, About this reel and Ask Meta AI have separate switches, and the last two start off. The search switch applies after Instagram restarts.",
+            "description": "Takes Meta AI out of the search bars, in the Search tab and at the top of your messages, so they search the plain way, drops the Ask a follow-up bar under search results and Meta AI's buttons in Home's top bar and the message composer, hides its optional row in your inbox, and removes Meta AI's posts from your home feed. It can also take About this reel, or only its Ask Meta AI box, out of a reel's More menu, and Meta AI's target out of the share sheet. Search, posts, About this reel, Ask Meta AI and the share sheet have separate switches, and the last three start off. The search switch applies after Instagram restarts.",
             "name": "Hide Meta AI",
             "options": [],
             "use": true
@@ -1147,7 +1184,7 @@
                 "BytecodePatch",
                 "HushGram settings"
             ],
-            "description": "Removes the posts and reels from accounts you don't follow that Instagram puts in your home feed as Suggested for you, the rows of accounts, shops and hashtags it suggests you follow, the posts and accounts from Threads it mixes in, the surveys it asks you to fill in, and its shopping rows. Each has its own switch. Posts from accounts you follow stay.",
+            "description": "Removes the posts and reels from accounts you don't follow that Instagram puts in your home feed as Suggested for you, the rows of accounts, shops and hashtags it suggests you follow, the posts and accounts from Threads it mixes in, the surveys it asks you to fill in, and its shopping rows. Each has its own switch. Posts from accounts you follow stay, unless you turn on Hide videos, Hide photos or Hide carousels, which start off and take every post of that type out of Home.",
             "name": "Hide suggested posts",
             "options": [],
             "use": true
@@ -1445,6 +1482,43 @@
             ],
             "description": "Takes the Share button and its count off the posts in your feed and off reels, with a switch under Sharing that starts off.",
             "name": "Hide the Share button",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 14757996,
+                    "description": null,
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "450.0.0.50.77",
+                            "versionCodes": {
+                                "ARM64_V8A": 385611438
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "450.0.0.50.77"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "description": "Takes the Threads button off the top of profiles, yours and other people's. The menu and the other buttons stay. Its switch starts off.",
+            "name": "Hide the Threads button",
             "options": [],
             "use": true
         },
@@ -2147,10 +2221,47 @@
                 "BytecodePatch",
                 "HushGram settings"
             ],
-            "description": "Adds an optional Save profile picture row to the menu on someone's profile. It saves their picture at the largest size Instagram has. Its switch starts off.",
+            "description": "Adds optional Save profile picture, View profile picture, Copy username and Copy bio rows to the menu on someone's profile. Save keeps their picture at the largest size Instagram has, View opens it full screen with pinch zoom, and the copy rows copy the text exactly. Their switches start off.",
             "name": "Save profile picture",
             "options": [],
             "use": true
+        },
+        {
+            "category": "Interface",
+            "compatibility": [
+                {
+                    "appIconColor": 14757996,
+                    "description": null,
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "signatures": [
+                        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+                        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "450.0.0.50.77",
+                            "versionCodes": {
+                                "ARM64_V8A": 385611438
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.instagram.android": [
+                    "450.0.0.50.77"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushGram settings"
+            ],
+            "description": "Adds a pill under the name in a story's header saying how many accounts the story mentions, even when the mention sticker is hidden or off screen. Tap it for a list with each account's picture, name and username, and tap one to open their profile. A story with no mentions gets no pill.",
+            "name": "See who a story mentions",
+            "options": [],
+            "use": false
         },
         {
             "category": "Interface",
@@ -2628,7 +2739,7 @@
                 "BytecodePatch",
                 "HushGram settings"
             ],
-            "description": "Stops a double tap on a post or a reel from liking it, and the heart doesn't show. A switch for comments starts off. A single tap still does what it did, and the Like button still likes.",
+            "description": "Stops a double tap on a post or a reel from liking it, and the heart doesn't show. Switches for comments and chat messages start off. A single tap still does what it did, and the Like button still likes.",
             "name": "Turn off double tap to like",
             "options": [],
             "use": false

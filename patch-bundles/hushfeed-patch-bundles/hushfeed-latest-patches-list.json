@@ -1,5 +1,5 @@
 {
-    "version": "v0.68.0",
+    "version": "v0.69.0",
     "patches": [
         {
             "category": "Downloads",
@@ -57,7 +57,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Adds download quality choices, original Photo Mode images, separate audio files and optional video details. It can check for an existing saved video before downloading another copy. Long presses save profile pictures and stories. Switch: Hushfeed settings > Downloads.",
+            "description": "Adds download quality choices, original Photo Mode images, separate audio files and optional video details. A photo post can also save as one video with its sound and no TikTok logo. It can check for an existing saved video before downloading another copy, and mark the videos it saved on profile grids. Long presses save profile pictures and stories. Switch: Hushfeed settings > Downloads.",
             "name": "Advanced downloads",
             "options": [],
             "use": false
@@ -240,8 +240,69 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Always shows the publish date in video author information. Switch: Hushfeed settings > Feed screen.",
+            "description": "Always shows the publish date in video author information, and can show it to the second or on profile grids. Switch: Hushfeed settings > Feed screen.",
             "name": "Always show publish date",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Interaction",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Makes TikTok treat its own HD upload choice as on for every video you post, as if you'd turned it on yourself on the post page. A clip TikTok doesn't count as high quality posts as before. Switch: Hushfeed settings > App.",
+            "name": "Always upload in HD",
             "options": [],
             "use": true
         },
@@ -320,6 +381,67 @@
             "use": false
         },
         {
+            "category": "Privacy",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Puts TikTok behind your phone's own unlock, so a fingerprint or the screen lock PIN opens it. It asks when TikTok starts and when you come back after a time you pick, before anything shows. A link you open from another app still goes to its video once you unlock, and TikTok's preview in recent apps stays blank while the lock is on. On a phone with no screen lock, TikTok opens as before and says why. Switch: Hushfeed settings > Privacy.",
+            "name": "App lock",
+            "options": [],
+            "use": false
+        },
+        {
             "category": "Playback",
             "compatibility": [
                 {
@@ -375,7 +497,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Keeps TikTok's automatic advance enabled while preserving its pause, dialog and gesture checks, and shows TikTok's own Auto scroll action in the video panel for accounts outside its rollout, with a switch that hides that action instead. Switch: Hushfeed settings > Playback.",
+            "description": "Keeps TikTok's automatic advance enabled while preserving its pause, dialog and gesture checks, and shows TikTok's own Auto scroll action in the video panel for accounts outside its rollout, with a switch that hides that action instead. Another switch turns on TikTok's own auto scroll in search results. Switch: Hushfeed settings > Playback.",
             "name": "Automatic video advance",
             "options": [],
             "use": false
@@ -622,6 +744,67 @@
             "name": "Block P2P video relay",
             "options": [],
             "use": false
+        },
+        {
+            "category": "Feed",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Lets you stop TikTok's own popups one at a time, like the follow-your-friends card or an upsell. The checklist lists each popup TikTok has tried to show on your phone, the sheets its server sends as campaigns included, so one appears there after its first showing. Tick it and it stays away from then on. A switch beside it hides the LIVE bubble at the top of the feed, which never reaches the checklist. Another keeps TikTok's bedtime wind-down and daily limit screens off the feed, on an account TikTok knows is an adult's. Nothing is blocked until you tick something or turn it on. CAPTCHA, verification, sign-in, age, ban and legal consent screens are never listed and never blocked. Switch: Hushfeed settings > Feed screen.",
+            "name": "Block popups",
+            "options": [],
+            "use": true
         },
         {
             "category": "Inbox",
@@ -1052,7 +1235,7 @@
                 "Double-tap controls",
                 "Settings"
             ],
-            "description": "Hides comments that contain chosen words or come from chosen accounts, turns the thumbs down on each comment into a block button that shows the block symbol, makes links tappable, can show a poll's results before you vote and can hide pictures, polls or TikTok's suggested-search banner above comments. Compact comment header removes the count, controls and suggestion space above the list. Easier comment likes extends the heart's touch area into nearby blank space without changing row spacing. A separate search box filters comments already loaded on the video. Tapping more under a video can open its comments with the caption at the top, and the comment button can open them that way too. Brings Double-tap controls with it, which opens the comments. Each tool has its own switch in Hushfeed settings > Comments.",
+            "description": "Hides comments that contain chosen words or come from chosen accounts, turns the thumbs down on each comment into a block button that shows the block symbol, makes links tappable, can show a poll's results before you vote and can hide pictures, polls, surveys or TikTok's suggested-search banner above comments. Compact comment header removes the count, controls and suggestion space above the list. Another switch hides the photo, @ and gift buttons in the comment box. Easier comment likes extends the heart's touch area into nearby blank space without changing row spacing. A separate search box filters comments already loaded on the video. Tapping more under a video can open its comments with the caption at the top, and the comment button can open them that way too. Brings Double-tap controls with it, which opens the comments. Each tool has its own switch in Hushfeed settings > Comments.",
             "name": "Comment tools",
             "options": [],
             "use": false
@@ -1120,6 +1303,67 @@
             "use": false
         },
         {
+            "category": "Interaction",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Long-press a profile's bio to copy it. A profile's share sheet, the one its menu opens, gets buttons that copy its username and numeric user ID, and a video's share sheet gets one that copies the video ID. Account facts, off by default, adds a profile button that shows when the account joined, its region and when its names last changed, from what TikTok already sent. Switches: Hushfeed settings > App.",
+            "name": "Copy bio and IDs",
+            "options": [],
+            "use": true
+        },
+        {
             "category": "Comments",
             "compatibility": [
                 {
@@ -1181,6 +1425,88 @@
             "use": true
         },
         {
+            "category": "Settings",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Gives TikTok's launcher icon a themed version, so on Android 13 and up it takes your wallpaper's color when themed icons are on. Its options can also swap in a black background or a plain one-color note on Android 8 and up, or put a PNG of your own in the note's place.",
+            "name": "Custom launcher icon",
+            "options": [
+                {
+                    "default": "tiktok",
+                    "description": "TikTok colors keeps the icon as it is. Black background puts TikTok's note on pure black, and the two plain styles draw only the note in one color. Every style gets the themed icon.",
+                    "key": "iconStyle",
+                    "required": true,
+                    "title": "Icon style",
+                    "type": "kotlin.String",
+                    "values": {
+                        "Black background": "black",
+                        "Black on white": "black-on-white",
+                        "TikTok colors": "tiktok",
+                        "White on black": "white-on-black"
+                    }
+                },
+                {
+                    "default": null,
+                    "description": "The path of a square PNG of your own, from 432 to 1024 pixels a side, to show in place of TikTok's note. Launchers cut the icon to their own shape, so keep what matters in the middle two thirds. With a picture the style only sets the color behind it, and the icon has no themed version. Leave it empty to keep the note.",
+                    "key": "iconPicture",
+                    "required": false,
+                    "title": "Icon picture",
+                    "type": "kotlin.String",
+                    "values": null
+                }
+            ],
+            "use": false
+        },
+        {
             "category": "Feed",
             "compatibility": [
                 {
@@ -1236,7 +1562,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Adds a custom entry to TikTok's offline videos menu with a configurable limit from 1 to 1000 videos. Switch: Hushfeed settings > Downloads.",
+            "description": "Adds a custom entry to TikTok's offline videos menu with a configurable limit from 1 to 10,000 videos, with the storage it needs shown under the setting. Switch: Hushfeed settings > Downloads.",
             "name": "Custom offline videos limit",
             "options": [],
             "use": true
@@ -1297,7 +1623,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Blocks TikTok from reading your clipboard. Copying a link you asked for still works. Switch: Hushfeed settings > Privacy.",
+            "description": "Stops TikTok reading a few things about your device. Blocking what you copied is on by default, and copying a link from TikTok still works. Hiding a VPN connection and handing it a blank advertising id are each a switch you turn on. All of them sit under Hushfeed settings > Privacy.",
             "name": "Device privacy guard",
             "options": [],
             "use": false
@@ -1358,7 +1684,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Adds diagnostic logging, filtered reports and local TikTok crash capture. The switches are under Diagnostics in Hushfeed settings. Switch: Hushfeed settings > Diagnostics.",
+            "description": "Adds diagnostic logging, a 15-minute log that stops by itself, filtered reports and local TikTok crash capture. The switches are under Diagnostics in Hushfeed settings. Switch: Hushfeed settings > Diagnostics.",
             "name": "Diagnostic tools",
             "options": [],
             "use": false
@@ -1838,7 +2164,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Makes TikTok's reviewed Fresco animated-frame cache lookups return no cached frame. This can increase decoding work or change animation playback.",
+            "description": "Has TikTok keep only the frame on screen for each animated sticker or GIF instead of caching every frame, and stops it decoding frames ahead of time. Each next frame is built from the one before it, so animations still play smoothly while using less memory.",
             "name": "Drop the animated image cache",
             "options": [],
             "use": false
@@ -2139,7 +2465,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Hides feed ads, including videos with creator commission disclosures, TikTok Shop items, livestreams, LIVE replays, stories, photo posts, paid partnerships, AI labeled videos, location-tagged videos, verified accounts, series, mini dramas, playlists, the playlist bar, the floating event badge and inserted cards. Videos can also be filtered by your own caption words, creator handles or patterns, sound names, length, the country they were posted from, the language of their original caption and their view, like, comment, favorite and share counts. A short list of creator exceptions lets chosen accounts through the filters on the kind of post, its labels, age, length and counts. Ads, blocked creators, words, sounds, countries and caption languages, paid and Shop content, LIVE and seen videos still apply to them. Sponsored cards are dropped from the profile video viewer, the search grids and the Friends tab as well as the feed, and so are the mid-roll ads TikTok splices into a video pager after the list has loaded and the ads a creator's video pager asks for on its own. The share prompt that appears after a like can be hidden too, and so can TikTok Shop's Products block and product cards in search results. The LIVE feed you swipe through has its own rules: gaming, shopping, sponsored and verified LIVEs, categories, and viewer and follower ranges. Switch: Hushfeed settings > Feed filter.",
+            "description": "Hides feed ads, including videos with creator commission disclosures and creator posts TikTok runs as ads, TikTok Shop items, livestreams, LIVE replays, stories, photo posts, paid partnerships, AI-generated videos, location-tagged videos, verified accounts, series, mini dramas, playlists, the playlist bar, the floating event badge, inserted cards and the offline videos TikTok slips back into For You. Videos can also be filtered by your own caption words, creator handles or patterns, sound names, length, the country they were posted from, the language of their original caption and their view, like, comment, favorite and share counts. Caption words can also match the text stickers typed over a video. For You can also drop the fill-in videos TikTok sends without picking them for you, and a batch that's all fill-in stays so the feed never runs dry. The Friends tab can show only mutual friends. A short list of creator exceptions lets chosen accounts through the filters on the kind of post, its labels, age, length and counts, and through the fill-in rule. Ads, blocked creators, words, sounds, countries and caption languages, paid and Shop content, LIVE, seen videos and offline videos still apply to them. Sponsored cards are dropped from the profile video viewer, the search grids and the Friends tab as well as the feed, and so are the mid-roll ads TikTok splices into a video pager after the list has loaded and the ads a creator's video pager asks for on its own. The share prompt that appears after a like can be hidden too, and so can TikTok Shop's Products block and product cards in search results. The LIVE feed you swipe through has its own rules: gaming, shopping, sponsored and verified LIVEs, categories, and viewer and follower ranges. A small label on the Home feed can count what the filter has taken out. Switch: Hushfeed settings > Feed filter.",
             "name": "Feed filter",
             "options": [],
             "use": true
@@ -2200,7 +2526,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, can hide the Following and For You names above the feed while swiping between them keeps working, can hide the Tako AI bubble and the unread badges on the bottom tabs, can keep For You from reloading on a Home tap or a pull down, brings TikTok's LIVE button back to the feed's corner when the LIVE tab is taken off either bar, can open TikTok on Following, Friends, Inbox or Profile, can show TikTok's own feed buttons without a screen reader, and opens Hushfeed's settings from a long press on Home. Switch: Hushfeed settings > Feed tabs.",
+            "description": "Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, can hide the Following and For You names above the feed while swiping between them keeps working, can hide the Tako AI bubble and the unread badges on the bottom tabs, can hide or rename the names under the bottom tab icons, can keep For You from reloading on a Home tap or a pull down, brings TikTok's LIVE button back to the feed's corner when the LIVE tab is taken off either bar, can open TikTok on Following, Friends, Inbox or Profile, can show TikTok's own feed buttons without a screen reader, and opens Hushfeed's settings from a long press on Home. Switch: Hushfeed settings > Feed tabs.",
             "name": "Feed tab navigation",
             "options": [],
             "use": true
@@ -2562,7 +2888,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Block hooked story, profile and typing reports. The switch shows local activity and retains a warning after a known story-reporting failure. Viewer-list privacy still needs a two-account check. Online status is unchanged. Switch and diagnostics: Hushfeed settings > Privacy.",
+            "description": "Block hooked story, profile and typing reports. The switch shows local activity and retains a warning after a known story-reporting failure. Viewer-list privacy still needs a two-account check. Online status stays visible unless you also turn on Hide online status. Switch and diagnostics: Hushfeed settings > Privacy.",
             "name": "Ghost mode",
             "options": [],
             "use": false
@@ -3173,7 +3499,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Adds a switch for each row and header control on the Inbox tab, so message requests, TikTok Tako, TikTok Shop, the stories tray and the rest can be hidden individually. Switch: Hushfeed settings > Inbox.",
+            "description": "Adds a switch for each row and header control on the Inbox tab, so message requests, TikTok Tako, TikTok Shop, Bulletin board, the stories tray and the rest can be hidden individually, along with the banner that invites you to start a group chat, and switches for the call buttons, sticker suggestions and suggested replies inside a chat and for a message's double tap heart and swipe to reply. Switch: Hushfeed settings > Inbox.",
             "name": "Hide inbox items",
             "options": [],
             "use": false
@@ -3660,7 +3986,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Hides the visual search prompt TikTok lays over videos, the LIVE entrance in the top left corner, caption and music text, selected action buttons or their counts in the right column, survey cards and the status bar, on the feed and on videos opened from a profile, a hashtag, a sound or search. The status bar can also be hidden only while a LIVE room is open. Separate switches hide the Full screen button, location labels, the effect, template and CapCut tags above descriptions, and the Report button some regions get above the creator's picture, without removing videos or changing location permissions. One more takes the Add comment bar off those opened videos so they fill the screen, and another clears the close button, progress bar and pause and speed buttons Clear display leaves at the bottom. Switches: Hushfeed settings > Feed screen, and App for the status bar.",
+            "description": "Hides the visual search prompt TikTok lays over videos, the LIVE entrance in the top left corner, caption and music text, selected action buttons or their counts in the right column, survey cards, Footnotes and the status bar, on the feed and on videos opened from a profile, a hashtag, a sound or search. The status bar can also be hidden only while a LIVE room is open. Separate switches hide the Full screen button, location labels, the effect, template and CapCut tags above descriptions, and the Report button some regions get above the creator's picture, without removing videos or changing location permissions. One more takes the Add comment bar off those opened videos so they fill the screen, and another clears the close button, progress bar and pause and speed buttons Clear display leaves at the bottom. Swipe for brightness and volume turns a vertical drag along the left or right edge of a video into screen brightness, volume or, with Playback speed in the bundle, the video's speed. Switches: Hushfeed settings > Feed screen, and App for the status bar.",
             "name": "Hide video overlays",
             "options": [],
             "use": false
@@ -3911,6 +4237,67 @@
             "use": false
         },
         {
+            "category": "Playback",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Adds a switch that plays the audio on videos TikTok silenced because their sound was pulled for copyright or in your region. TikTok may still label the sound as unavailable. Switch: Hushfeed settings > Playback.",
+            "name": "Keep pulled sounds",
+            "options": [],
+            "use": true
+        },
+        {
             "category": "Settings",
             "compatibility": [
                 {
@@ -4033,6 +4420,67 @@
             "use": false
         },
         {
+            "category": "Comments",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Adds a switch that lets comments, repost notes and your bio run past the length TikTok's app stops at. TikTok's servers can still turn down a long one. Switch: Hushfeed settings > Comments.",
+            "name": "Lift text length limits",
+            "options": [],
+            "use": true
+        },
+        {
             "category": "Performance",
             "compatibility": [
                 {
@@ -4099,6 +4547,67 @@
                 }
             ],
             "use": false
+        },
+        {
+            "category": "Playback",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Adds a switch that stops a LIVE in the feed counting down and taking you into the room on its own, so you stay in the feed until you tap it, and one that shows a LIVE's exact viewer count instead of TikTok's rounded one. Switches: Hushfeed settings > Playback.",
+            "name": "LIVE controls",
+            "options": [],
+            "use": true
         },
         {
             "category": "Privacy",
@@ -4218,7 +4727,7 @@
                 "Double-tap controls",
                 "Settings"
             ],
-            "description": "Lets a long press on a video keep TikTok's own action, do nothing, open the video's comments, save the original sound, copy the link to the video or its sound, or look the sound up on YouTube Music. It can also turn a press on the left or right third of the screen into a jump back or forward, and make a long press on Comment, Share or Favorites play at the hold speed instead of opening TikTok's menu. Brings Double-tap controls with it, which supplies the comment control. Switch: Hushfeed settings > Feed screen.",
+            "description": "Lets a long press on a video keep TikTok's own action, do nothing, open the video's comments, save the original sound, copy the link to the video or its sound, look the sound up on YouTube Music, set a sleep timer that stops the video and closes TikTok when it runs out, save the frame on screen as a JPEG, or save the video's cover. It can also turn a press on the left or right third of the screen into a jump back or forward, and make a long press on Comment, Share or Favorites play at the hold speed instead of opening TikTok's menu. Brings Double-tap controls with it, which supplies the comment control. Switch: Hushfeed settings > Feed screen.",
             "name": "Long-press controls",
             "options": [],
             "use": false
@@ -4279,7 +4788,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Answers TikTok's own checks of how it was signed and installed the way the Play Store app would. Its signature hash reads as TikTok's certificate and its installer reads as the Play Store. For a follow or a like that undoes itself on a refresh on a patched build. TikTok can also read the APK from native code, which no patch reaches, so it may not be enough on its own. Off by default. Switch: Hushfeed settings > App.",
+            "description": "Answers TikTok's own checks of how it was signed and installed the way the Play Store app would. Its signature hash reads as TikTok's certificate and its installer reads as the Play Store, or another store you pick. For a follow or a like that undoes itself on a refresh on a patched build. TikTok can also read the APK from native code, which no patch reaches, so it may not be enough on its own. Off by default. Switch: Hushfeed settings > App.",
             "name": "Look like the store app",
             "options": [],
             "use": false
@@ -4343,6 +4852,67 @@
             ],
             "description": "Adds a movable button that mutes feed videos without touching the phone's volume, and a switch that does the same. The button starts off until you turn on Show the mute button on videos. It also shows on a video opened from a profile, a hashtag or a sound, and mutes that one too. While muted, music from another app keeps playing, and DMs, stories and LIVE keep their sound. Switches: Hushfeed settings > Playback, and Feed screen for the button.",
             "name": "Mute feed videos",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Settings",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Sends TikTok's own network stack, which carries the feed, search, comments and the rest of its API, through an HTTP or SOCKS5 proxy you set, along with plain Java connections. Videos and LIVE streams load through TikTok's player, which connects on its own, so they stay direct. TikTok's network stack can't sign in to a proxy, so a user name and password only reach the Java connections. Other apps aren't affected. Off by default. Restart after changing. Switch: Hushfeed settings > Region.",
+            "name": "Network proxy",
             "options": [],
             "use": false
         },
@@ -4524,7 +5094,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Adds a switch for the notification saying somebody new followed you, and one for message streaks, neither of which TikTok lets you turn off. The follower switch drops the notification before Android is asked to post it, so nothing else in the drawer is affected. Switch: Hushfeed settings > Inbox.",
+            "description": "Adds a switch for the notification saying somebody new followed you, and one for message streaks, neither of which TikTok lets you turn off. The follower switch drops the notification before Android is asked to post it, so nothing else in the drawer is affected. A third switch, off by default, turns push notifications off altogether. TikTok's push service doesn't start and nothing it posts reaches the drawer, apart from ongoing ones like media controls. It can't hold your phone awake either. You won't hear about new messages until you open TikTok, and turning the switch off sets push up again the next time TikTok starts. Switch: Hushfeed settings > Inbox.",
             "name": "Notification controls",
             "options": [],
             "use": false
@@ -4587,6 +5157,129 @@
             ],
             "description": "Opens profile and story website links in the system browser instead of TikTok's in-app browser. Switch: Hushfeed settings > Privacy.",
             "name": "Open external links directly",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Playback",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch",
+                "Settings"
+            ],
+            "description": "Adds a switch that keeps the video you're watching playing in a small window when you leave TikTok, with a button to pause it. Works in the feed and on videos opened from a profile, search or a sound. Switch: Hushfeed settings > Playback.",
+            "name": "Picture-in-picture",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Playback",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Plays the standard version of videos that also come in HDR, so the screen doesn't jump to full brightness when one starts. Switch: Hushfeed settings > Playback.",
+            "name": "Play SDR instead of HDR",
             "options": [],
             "use": true
         },
@@ -4713,6 +5406,67 @@
             "use": true
         },
         {
+            "category": "Playback",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Plays the H.264 version of a video when TikTok offers one beside its HEVC and ByteVC2 versions, for phones that stutter or run hot playing those. A video with no H.264 version plays as before. Off by default. Switch: Hushfeed settings > Playback.",
+            "name": "Prefer H.264 playback",
+            "options": [],
+            "use": true
+        },
+        {
             "category": "Settings",
             "compatibility": [
                 {
@@ -4768,7 +5522,7 @@
                 "SIM spoof",
                 "Settings"
             ],
-            "description": "Matches locale, timezone and native region getters to the SIM preset, with a separate experimental store-region switch. Switch: Hushfeed settings > Region.",
+            "description": "Matches locale, timezone and native region getters to the SIM preset, with separate switches for the store region (experimental) and the region fields sent with each request. Switch: Hushfeed settings > Region.",
             "name": "Region spoof",
             "options": [],
             "use": false
@@ -4835,6 +5589,67 @@
             "use": true
         },
         {
+            "category": "Feed",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Adds switches that take the story ring and the pulsing LIVE ring off profile pictures, so a tap opens the profile. Switch: Hushfeed settings > Feed screen.",
+            "name": "Remove avatar rings",
+            "options": [],
+            "use": true
+        },
+        {
             "category": "Performance",
             "compatibility": [
                 {
@@ -4889,7 +5704,7 @@
             "dependencies": [
                 "RawResourcePatch"
             ],
-            "description": "Empties TikTok's bundled C2PA and Microblink card-scanning assets, the Pitaya AI model libraries, the live-cast dynamic feature, and the ART log monitor probe. Saves about 12.5 MB of storage.",
+            "description": "Empties TikTok's bundled C2PA and Microblink card-scanning assets, the Pitaya AI model libraries and the Python runtime they run on, the live-cast dynamic feature, and the ART log monitor probe. Saves about 19 MB of storage.",
             "name": "Remove content credential and card scanner assets",
             "options": [],
             "use": false
@@ -5010,7 +5825,7 @@
                 "BytecodePatch",
                 "RawResourcePatch"
             ],
-            "description": "Empties TikTok's link-mic and LIVE match or minigame assets, then skips its gift-effect widget setup. Co-hosting, games and animated gifts may stop. The APK gets about 3 MB smaller.",
+            "description": "Empties TikTok's co-host (link-mic) and LIVE match or minigame assets, then skips its gift-effect widget setup. In LIVE the red and blue battle score bar and the co-host guests' names can go missing, and co-hosting, games or animated gifts may stop working. The APK gets about 3 MB smaller.",
             "name": "Remove LIVE extras",
             "options": [],
             "use": false
@@ -5269,6 +6084,66 @@
             "use": true
         },
         {
+            "category": "Settings",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Lets a TikTok copy renamed with Morphe's Clone app patch sign in while the store app stays installed. Select it together with Clone app. When the copy registers your phone with TikTok it gives TikTok's own package name, because TikTok's servers don't hand out a device ID for a name they don't know and signing in fails without one. Its settings shared between TikTok's processes, its live wallpaper data and the app links it checks for its own name are pointed at the copy as well, not at the store app beside it. A build that keeps TikTok's package name is left alone. Google and Facebook sign-in can't work in a renamed copy, so log in with your email or phone number.",
+            "name": "Run beside the store app",
+            "options": [],
+            "use": false
+        },
+        {
             "category": "Interaction",
             "compatibility": [
                 {
@@ -5324,7 +6199,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Removes tracking parameters from TikTok links before they are shared, and can put a host of your choosing in place of tiktok.com. Switch: Hushfeed settings > Privacy.",
+            "description": "Removes tracking parameters from TikTok links before they are shared, and can put a host of your choosing in place of tiktok.com. A short vt.tiktok.com or vm.tiktok.com link you copy can be swapped for the full video link, off by default. Switch: Hushfeed settings > Privacy.",
             "name": "Sanitize sharing links",
             "options": [],
             "use": true
@@ -5503,7 +6378,6 @@
                 ]
             },
             "dependencies": [
-                "Block author button",
                 "BytecodePatch",
                 "Settings"
             ],
@@ -5511,6 +6385,189 @@
             "name": "Show author region",
             "options": [],
             "use": false
+        },
+        {
+            "category": "Feed",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Shows a video's engagement rate, its likes, comments, shares and saves as a share of its views, next to the creator's name and after the view count on profile grids. Switch: Hushfeed settings > Feed screen.",
+            "name": "Show engagement rate",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Feed",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Shows counts as full numbers, like 1,234,567 instead of 1.2M. Switch: Hushfeed settings > Feed screen.",
+            "name": "Show exact counts",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Interaction",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Says under a profile's @username whether it follows you, or that it doesn't follow you back when you follow it. Follower and following lists mark the accounts you follow that don't follow you back. It reads the follow status TikTok already sends. Switch: Hushfeed settings > App.",
+            "name": "Show follow status",
+            "options": [],
+            "use": true
         },
         {
             "category": "Search",
@@ -5810,8 +6867,69 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Play videos TikTok has classified without the warning overlay asking to be tapped through first. Switch: Hushfeed settings > Feed screen.",
+            "description": "Play videos TikTok has classified without the warning overlay asking to be tapped through first. A second switch takes away the Check sources banner on videos TikTok marks as unverified, and the warnings it shows when you share one. Switches: Hushfeed settings > Feed screen.",
             "name": "Skip content warnings",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Settings",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Opens a fresh install on the feed without the interest picker, the language and gender questions, the creators to follow, the swipe up tutorial or TikTok's own notification page in front of it. Consent, age and sign-in screens still show, and so does Android's notification prompt. Its switch starts on once you pick the patch. Switch: Hushfeed settings > App.",
+            "name": "Skip first-launch setup",
             "options": [],
             "use": false
         },
@@ -6106,10 +7224,132 @@
                 "BytecodePatch",
                 "Settings"
             ],
+            "description": "Stops the view report TikTok sends for each video you watch, which is how videos get into your Watch history. Your views stop adding to view counts and For You has less to learn from, while likes, follows, searches and TikTok's usage logs still reach it. Off until you turn it on. Switch: Hushfeed settings > Privacy.",
+            "name": "Stop recording watch history",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Privacy",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
             "description": "Stops TikTok adding your new searches to the search history it saves on the phone. Searches you already made stay until you delete them, and this doesn't change what TikTok keeps on its servers. Switch: Hushfeed settings > Privacy.",
             "name": "Stop saving search history",
             "options": [],
             "use": false
+        },
+        {
+            "category": "Search",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Stops videos in search results playing on their own, so each one shows its cover until you open it. The feed and the videos you open play as usual. Switch: Hushfeed settings > App.",
+            "name": "Stop search autoplay",
+            "options": [],
+            "use": true
         },
         {
             "category": "Playback",
@@ -6169,6 +7409,67 @@
             ],
             "description": "Stops videos at the end instead of replaying them. Switch: Hushfeed settings > Playback.",
             "name": "Stop video looping",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Playback",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Adds two switches for stories: replay a story when it ends instead of moving on, and keep a photo story on screen until you tap or swipe. Switches: Hushfeed settings > Playback.",
+            "name": "Story controls",
             "options": [],
             "use": true
         },
@@ -6360,6 +7661,186 @@
             "use": true
         },
         {
+            "category": "Privacy",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [],
+            "description": "Lets TikTok trust certificate authorities you install in Android's settings as well as the system's, so a proxy like mitmproxy can show you what the app sends. While it's in, anyone who gets a certificate onto your phone can read TikTok's traffic too, so keep it to a phone you test with. Parts of TikTok that check certificates on their own may still refuse the proxy.",
+            "name": "Trust user certificates",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Interaction",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Stops the short vibrations TikTok plays on its own taps and gestures, the long press buzz included. Your keyboard and your phone's own haptics stay. Its switch starts on once you pick the patch. Switch: Hushfeed settings > App.",
+            "name": "Turn off haptics",
+            "options": [],
+            "use": false
+        },
+        {
+            "category": "Performance",
+            "compatibility": [
+                {
+                    "appIconColor": 16657493,
+                    "description": null,
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "signatures": [
+                        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "47.0.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024700030,
+                                "ARMEABI_V7A": 2024700030,
+                                "X86": 2024700030,
+                                "X86_64": 2024700030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701030,
+                                "ARMEABI_V7A": 2024701030,
+                                "X86": 2024701030,
+                                "X86_64": 2024701030
+                            }
+                        },
+                        {
+                            "experimental": false,
+                            "version": "47.1.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 2024701040,
+                                "ARMEABI_V7A": 2024701040,
+                                "X86": 2024701040,
+                                "X86_64": 2024701040
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "com.zhiliaoapp.musically": [
+                    "47.0.3",
+                    "47.1.3",
+                    "47.1.4"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "Settings"
+            ],
+            "description": "Opens and closes TikTok's screens without their slide. Swipes inside a screen still follow your finger. Its switch starts on once you pick the patch. Switch: Hushfeed settings > App.",
+            "name": "Turn off screen transitions",
+            "options": [],
+            "use": false
+        },
+        {
             "category": "Search",
             "compatibility": [
                 {
@@ -6476,7 +7957,7 @@
                 "BytecodePatch",
                 "Settings"
             ],
-            "description": "Draws TikTok's text in your device's font instead of TikTok Sans. The icons, the gift animations and the @ and # glyphs keep their own fonts. Off by default. Restart after changing. Switch: Hushfeed settings > App.",
+            "description": "Draws TikTok's text in your device's font instead of TikTok Sans. The icons, the gift animations and the @ and # glyphs keep their own fonts. A second switch draws every emoji with your device's emoji font instead of filling in the newest ones with Google's. Both are off by default. Restart after changing. Switches: Hushfeed settings > App.",
             "name": "Use system font",
             "options": [],
             "use": false
