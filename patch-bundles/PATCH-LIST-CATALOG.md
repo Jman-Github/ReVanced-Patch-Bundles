@@ -128,7 +128,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Kondratjev](#-kondratjev-bundle-patch-list) | 20 | 11 | Generated |
 | [Hoo-dles](#-hoo-dles-bundle-patch-list) | 78 | 58 | Generated |
 | [AmpleReVanced](#-amplerevanced-bundle-patch-list) | 127 | 10 | Generated |
-| [Morphe](#-morphe-bundle-patch-list) | 170 | 4 | Generated |
+| [Morphe](#-morphe-bundle-patch-list) | 169 | 4 | Generated |
 | [Patcheddit](#-patcheddit-bundle-patch-list) | 39 | 19 | Generated |
 | [RVX-Morphed](#-rvx-morphed-bundle-patch-list) | 113 | 3 | Generated |
 | [IMXEren](#-imxeren-bundle-patch-list) | 14 | 5 | Generated |
@@ -3809,7 +3809,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Morphe Bundle Patch List:
 [📦 Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Morphe</b> - 170 patches, 4 apps</summary>
+<summary><b>Morphe</b> - 169 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -3857,6 +3857,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Custom player overlay opacity``` | ```Adds an option to change the opacity of the video player background when player controls are visible.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
 | ```DeArrow``` | ```Adds options to replace video thumbnails and titles using the DeArrow API, or replace video thumbnails with image captures from the video.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
 | ```Disable auto feed refresh``` | ```Adds an option to stop feeds from refreshing automatically after they become outdated.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
+| ```Disable continue watching prompt``` | ```Adds an option to keep autoplay going instead of pausing with a "Continue watching" prompt after a period of inactivity.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
 | ```Disable double tap actions``` | ```Adds an option to disable player double tap gestures.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
 | ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
 | ```Disable fullscreen gestures``` | ```Adds options to selectively disable gestures for entering and exiting fullscreen mode, and to disable pinch-to-zoom.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
@@ -3933,9 +3934,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Video quality``` | ```Adds options to set default video qualities and always use the advanced video quality menu.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
 | ```Voice over translation``` | ```Adds additional voice over languages using text-to-speech synchronized to the video playback.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
 | ```Wide search bar``` | ```Adds a wide search bar to the top of the home and subscription feed.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
-| ```Android Auto``` | ```Restores YouTube Music playlists and podcasts in Android Auto.``` | ```YouTube Music``` | ```9.40.51, 9.39.52, 9.38.51, 9.20.53, 9.15.51``` |
+| ```Android Auto``` | ```Bypasses certificate checks and restores YouTube Music playlists and podcasts in Android Auto.``` | ```YouTube Music``` | ```9.40.51, 9.39.52, 9.38.51, 9.20.53, 9.15.51``` |
 | ```App refresh rate``` | ```Adds an option to change the app refresh rate.``` | ```YouTube Music``` | ```9.40.51, 9.39.52, 9.38.51, 9.20.53, 9.15.51``` |
-| ```Bypass certificate checks``` | ```Bypasses certificate checks which prevent YouTube Music from working on Android Auto.``` | ```YouTube Music``` | ```9.40.51, 9.39.52, 9.38.51, 9.20.53, 9.15.51``` |
 | ```Change header``` | ```Adds an option to change the header logo in the top left corner of the app.``` | ```YouTube Music``` | ```9.40.51, 9.39.52, 9.38.51, 9.20.53, 9.15.51``` |
 | ```Change miniplayer color``` | ```Adds an option to change the miniplayer background color to match the fullscreen player.``` | ```YouTube Music``` | ```9.40.51, 9.39.52, 9.38.51, 9.20.53, 9.15.51``` |
 | ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube Music``` | ```9.40.51, 9.39.52, 9.38.51, 9.20.53, 9.15.51``` |
@@ -3956,7 +3956,6 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```GmsCore support``` | ```Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.``` | ```YouTube Music``` | ```9.40.51, 9.39.52, 9.38.51, 9.20.53, 9.15.51``` |
 | ```Hide ads``` | ```Adds options to hide fullscreen ads, Premium promotions and video ads.``` | ```YouTube Music``` | ```9.40.51, 9.39.52, 9.38.51, 9.20.53, 9.15.51``` |
 | ```Hide buttons``` | ```Adds options to hide the cast, history, notification, search, voice search, sound search, and Library New buttons.``` | ```YouTube Music``` | ```9.40.51, 9.39.52, 9.38.51, 9.20.53, 9.15.51``` |
-| ```Hide filter bar``` | ```Adds an option to hide the filter bar at the top of the homepage.``` | ```YouTube Music``` | ```9.40.51, 9.39.52, 9.38.51, 9.20.53, 9.15.51``` |
 | ```Hide flyout menu components``` | ```Adds options to hide individual items from the player and queue flyout menus.``` | ```YouTube Music``` | ```9.40.51, 9.39.52, 9.38.51, 9.20.53, 9.15.51``` |
 | ```Hide layout components``` | ```Adds options to hide general layout components.``` | ```YouTube Music``` | ```9.40.51, 9.39.52, 9.38.51, 9.20.53, 9.15.51``` |
 | ```Hide music action buttons``` | ```Adds options to hide action buttons under the player.``` | ```YouTube Music``` | ```9.40.51, 9.39.52, 9.38.51, 9.20.53, 9.15.51``` |
@@ -11823,7 +11822,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1. 1.9.3-beta.3.1 fixes the beta.3 smali syntax error and adds independent Player Controls toggles for Hide Live Share Button and Hide Cast Button using verified Lout.k and Lout.q controls. Hide Create Clip remains included and working.``` | ```Twitch``` | ```31.3.1``` |
+| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1. 1.9.3-beta.3.2 fixes the beta.3 smali syntax error and adds independent Player Controls toggles for Hide Live Share Button and Hide Cast Button using verified Lout.k and Lout.q controls. Hide Create Clip remains included and working.``` | ```Twitch``` | ```31.3.1``` |
 
 </details>
 ### 🧩 hushgram Bundle Patch List:

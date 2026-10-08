@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.4",
+    "version": "v1.7.5",
     "patches": [
         {
             "category": null,
@@ -253,7 +253,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Installs alongside stock Google Maps under its own package name. On by default, because stock Maps comes built into most phones and cannot be replaced by a patched copy.",
             "name": "Change package name",
             "options": [
