@@ -11872,7 +11872,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1. 1.9.3-beta.3.5 fixes the stream-opening crash by using dead-at-return parameter registers for the semantic Share/Cast visibility hooks. Existing Create Clip and Player Controls behavior remains included.``` | ```Twitch``` | ```31.3.1``` |
+| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1. Beta 3.7 fixes the dynamic smali interpolation used by the exact verified player Create Clip, Live Share, and Cast bindings.``` | ```Twitch``` | ```31.3.1``` |
 
 </details>
 ### 🧩 hushgram Bundle Patch List:
