@@ -1,5 +1,5 @@
 {
-    "version": "v0.6.0-dev.26",
+    "version": "v0.6.0-dev.27",
     "patches": [
         {
             "category": null,
@@ -279,6 +279,38 @@
             ],
             "description": "Hide the suggested-topics section shown under a pin.",
             "name": "Hide \"Ideas you might love\" section",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.38.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 14388010,
+                                "ARMEABI_V7A": 14388010,
+                                "X86": 14388010,
+                                "X86_64": 14388010
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "14.38.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Remove the \"More ideas for this board\" section from a board, header and contents alike.",
+            "name": "Hide \"More ideas for this board\" section",
             "options": []
         },
         {
