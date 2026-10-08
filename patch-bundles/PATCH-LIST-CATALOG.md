@@ -6355,7 +6355,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Unlock Premium``` | ```Unlocks all premium features.``` | ```SeriesGuide``` | ```2026.2.2, 2026.3.0, 2026.3.1, 2026.4.0, 2026.4.1, 2026.4.2, 2026.4.3``` |
+| ```Unlock Premium``` | ```Unlocks all premium features.``` | ```SeriesGuide``` | ```2026.2.2, 2026.3.0, 2026.3.1, 2026.4.0, 2026.4.1, 2026.4.2, 2026.4.3, 2026.5.0``` |
 
 </details>
 
@@ -10765,13 +10765,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove Feedback``` | ```Removes prompting for feedback on shipments.``` | ```AfterShip``` | ```5.25.8``` |
 | ```Remove Login``` | ```Forces guest mode always on first install, removes login buttons and carousels, strips account/login controls from the Account tab, and suppresses login prompts.``` | ```AfterShip``` | ```5.25.8``` |
 | ```Remove Shipment Sync``` | ```Removes email shipment synchronization features, including prompts, banners, dialogs, empty state sync cards, and account settings.``` | ```AfterShip``` | ```5.25.8``` |
-| ```Add Custom Chip Store``` | ```Replaces the unavailable store with a dialog to view and set your exact chip balance.``` | ```Blackjack``` | ```2.22.08``` |
-| ```Custom Chip Store Binary Hook``` | ```Hooks BlackjackApplication.OpenShop and CheckUpdateToVersion in libil2cpp.so to bridge the custom chip store.``` | ```Blackjack``` | ```2.22.08``` |
-| ```Remove Ads``` | ```Removes banner, interstitial, and rewarded advertising and removes ad-based chip offers.``` | ```Blackjack``` | ```2.22.08``` |
-| ```Remove Internet Permissions``` | ```Removes Internet permissions from AndroidManifest.xml to prevent network access.``` | ```Blackjack``` | ```2.22.08``` |
-| ```Remove Notifications``` | ```Removes notification permissions from AndroidManifest.xml to eliminate push notifications entirely.``` | ```Blackjack``` | ```2.22.08``` |
-| ```Remove Tracking and Analytics``` | ```Neutralizes active advertising telemetry, analytics, attribution, and crash reporting.``` | ```Blackjack``` | ```2.22.08``` |
-| ```Skip to Next Level``` | ```Allows tapping the next level indicator on the top bar to show a confirmation dialog and skip to the next level. REQUIRES Add Custom Chip Store to be enabled.``` | ```Blackjack``` | ```2.22.08``` |
+| ```Add Custom Chip Store``` | ```Replaces the unavailable store with a dialog to view and set your exact chip balance.``` | ```Blackjack``` | ```2.22.09``` |
+| ```Custom Chip Store Binary Hook``` | ```Hooks BlackjackApplication.OpenShop and CheckUpdateToVersion in libil2cpp.so to bridge the custom chip store.``` | ```Blackjack``` | ```2.22.09``` |
+| ```Remove Ads``` | ```Removes banner, interstitial, and rewarded advertising and removes ad-based chip offers.``` | ```Blackjack``` | ```2.22.09``` |
+| ```Remove Internet Permissions``` | ```Removes Internet permissions from AndroidManifest.xml to prevent network access.``` | ```Blackjack``` | ```2.22.09``` |
+| ```Remove Notifications``` | ```Removes notification permissions from AndroidManifest.xml to eliminate push notifications entirely.``` | ```Blackjack``` | ```2.22.09``` |
+| ```Remove Tracking and Analytics``` | ```Neutralizes active advertising telemetry, analytics, attribution, and crash reporting.``` | ```Blackjack``` | ```2.22.09``` |
+| ```Skip to Next Level``` | ```Allows tapping the next level indicator on the top bar to show a confirmation dialog and skip to the next level. REQUIRES Add Custom Chip Store to be enabled.``` | ```Blackjack``` | ```2.22.09``` |
 | ```Remove Tracking and Analytics``` | ```Neutralizes behavioral tracking (Pendo SDK session recordings, guides, and click tracking), student surveillance telemetry (Pandata pageview recording, time-spent counters, and background upload worker), first-party app analytics (ScreenView processors, offline analytics, token logging), crash reporting (Firebase Crashlytics), and in-app rating prompts.``` | ```Canvas Student``` | ```8.10.0``` |
 | ```Enable Developer Settings``` | ```Adds an in-app developer mod menu accessible via a top-bar header button, with controls for Mobile Studio.``` | ```Fizz``` | ```1.54.0``` |
 | ```Remove Ads``` | ```Removes sponsored feed advertisements and optional marketplace listing advertisements from the feed.``` | ```Fizz``` | ```1.54.0``` |
@@ -11811,7 +11811,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1. 1.9.3-beta.1 adds only the verified player Create Clip hide hook.``` | ```Twitch``` | ```31.3.1``` |
+| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1. 1.9.3-beta.1.3 fixes Hide Create Clip by patching ClipButtonUiState.isClipButtonVisible and includes the Player Controls setting.``` | ```Twitch``` | ```31.3.1``` |
 
 </details>
 ### 🧩 hushgram Bundle Patch List:
