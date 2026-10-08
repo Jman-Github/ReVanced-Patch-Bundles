@@ -331,7 +331,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Dhl0](#-dhl0-bundle-patch-list) | 13 | 5 | Generated |
 | [Virzak](#-virzak-bundle-patch-list) | 5 | 1 | Generated |
 | [Jagas](#-jagas-bundle-patch-list) | 1 | 1 | Generated |
-| [Nifty](#-nifty-bundle-patch-list) | 2 | 2 | Generated |
+| [Nifty](#-nifty-bundle-patch-list) | 7 | 2 | Generated |
 | [Morphi-Patcho](#-morphi-patcho-bundle-patch-list) | 4 | 2 | Generated |
 | [NYT-Games-VRR](#-nyt-games-vrr-bundle-patch-list) | 2 | 1 | Generated |
 | [Testiwy268](#-testiwy268-bundle-patch-list) | 1 | 1 | Generated |
@@ -10877,12 +10877,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Nifty Bundle Patch List:
 [📦 Nifty-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-nifty-patches-bundle-morphe)
 <details>
-<summary><b>Nifty</b> - 2 patches, 2 apps</summary>
+<summary><b>Nifty</b> - 7 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Force notification grouping``` | ```Forces Instagram notifications into one group, or into separate groups by notification category.``` | ```Instagram``` | ```426.0.0.37.68``` |
-| ```Enable phone support``` | ```Runs Samsung Daily Board on phones and treats wireless charging, or charging in landscape, as docking.``` | ```Samsung Daily Board``` | ```15.1.01.3``` |
+| ```Customize orientation``` | ```Adds portrait, landscape and sensor rotation independent of Android rotation lock. Includes Enable phone support.``` | ```Samsung Daily Board``` | ```15.1.01.3``` |
+| ```Customize screen saver``` | ```Adds screen saver angle filtering, diagnostics and optional Android screen saver setting control. Includes Enable phone support.``` | ```Samsung Daily Board``` | ```15.1.01.3``` |
+| ```Enable media controls``` | ```Restores media controls using Android notification access. Includes Enable phone support.``` | ```Samsung Daily Board``` | ```15.1.01.3``` |
+| ```Enable phone support``` | ```Runs Samsung Daily Board on phones with launcher, screen layout and crash fixes. Optional features are separate patches.``` | ```Samsung Daily Board``` | ```15.1.01.3``` |
+| ```Use Open-Meteo weather``` | ```Replaces Samsung weather with Open-Meteo using approximate location. Includes Enable phone support.``` | ```Samsung Daily Board``` | ```15.1.01.3``` |
+| ```Use phone charging as dock``` | ```Treats wireless charging or charging in landscape as a dock and updates the charging labels. Includes Enable phone support.``` | ```Samsung Daily Board``` | ```15.1.01.3``` |
 
 </details>
 
@@ -11806,7 +11811,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1, including third-party emotes, animated emotes, appearance and privacy controls, deleted-message controls, automatic Channel Points claiming, and reversible Home & navigation controls.``` | ```Twitch``` | ```31.3.1``` |
+| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1. 1.9.3-beta.1 adds only the verified player Create Clip hide hook.``` | ```Twitch``` | ```31.3.1``` |
 
 </details>
 ### 🧩 hushgram Bundle Patch List:

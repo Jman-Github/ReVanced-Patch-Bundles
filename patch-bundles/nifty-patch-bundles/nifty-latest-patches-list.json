@@ -1,5 +1,5 @@
 {
-    "version": "v0.3.3",
+    "version": "v0.5.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -22,10 +22,95 @@
             ],
             "default": false,
             "dependencies": [
-                "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Runs Samsung Daily Board on phones and treats wireless charging, or charging in landscape, as docking.",
+            "description": "Adds portrait, landscape and sensor rotation independent of Android rotation lock. Includes Enable phone support.",
+            "name": "Customize orientation",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1428A0",
+                    "name": "Samsung Daily Board",
+                    "packageName": "com.samsung.android.homemode",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 34,
+                            "version": "15.1.01.3"
+                        }
+                    ],
+                    "versions": [
+                        "15.1.01.3"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Adds screen saver angle filtering, diagnostics and optional Android screen saver setting control. Includes Enable phone support.",
+            "name": "Customize screen saver",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1428A0",
+                    "name": "Samsung Daily Board",
+                    "packageName": "com.samsung.android.homemode",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 34,
+                            "version": "15.1.01.3"
+                        }
+                    ],
+                    "versions": [
+                        "15.1.01.3"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Restores media controls using Android notification access. Includes Enable phone support.",
+            "name": "Enable media controls",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1428A0",
+                    "name": "Samsung Daily Board",
+                    "packageName": "com.samsung.android.homemode",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 34,
+                            "version": "15.1.01.3"
+                        }
+                    ],
+                    "versions": [
+                        "15.1.01.3"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Runs Samsung Daily Board on phones with launcher, screen layout and crash fixes. Optional features are separate patches.",
             "name": "Enable phone support",
             "options": []
         },
@@ -86,6 +171,62 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1428A0",
+                    "name": "Samsung Daily Board",
+                    "packageName": "com.samsung.android.homemode",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 34,
+                            "version": "15.1.01.3"
+                        }
+                    ],
+                    "versions": [
+                        "15.1.01.3"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Replaces Samsung weather with Open-Meteo using approximate location. Includes Enable phone support.",
+            "name": "Use Open-Meteo weather",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#1428A0",
+                    "name": "Samsung Daily Board",
+                    "packageName": "com.samsung.android.homemode",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 34,
+                            "version": "15.1.01.3"
+                        }
+                    ],
+                    "versions": [
+                        "15.1.01.3"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
+                "ResourcePatch"
+            ],
+            "description": "Treats wireless charging or charging in landscape as a dock and updates the charging labels. Includes Enable phone support.",
+            "name": "Use phone charging as dock",
+            "options": []
         }
     ]
 }
