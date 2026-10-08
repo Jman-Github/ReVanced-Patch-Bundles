@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.2.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -24,8 +24,8 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Connects supported Google Maps builds to MicroG-RE-BYD, with BYD navigation audio and compatibility with devices that also have official Google Play services.",
-            "name": "Google Maps for MicroG-RE-BYD",
+            "description": "Connects supported Google Maps builds to MicroG-RE 7.2.1 and prefers synthesized navigation speech with the existing audio fallback.",
+            "name": "Google Maps for MicroG-RE",
             "options": []
         }
     ]

@@ -1,5 +1,5 @@
 {
-    "version": "v1.8.0",
+    "version": "v1.9.0",
     "patches": [
         {
             "category": null,
@@ -27,6 +27,106 @@
             "dependencies": [],
             "description": "Skips SofaScore login requirement by forcing isLoggedIn to true.",
             "name": "Bypass Login Requirements",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "Nova Launcher",
+                    "packageName": "com.teslacoilsw.launcher",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.8.9"
+                        }
+                    ],
+                    "versions": [
+                        "8.8.9"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables Nova Launcher Prime WARNING: May cause crashes. ",
+            "name": "Enable Prime (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "Nova Launcher",
+                    "packageName": "com.teslacoilsw.launcher",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "8.8.9"
+                        }
+                    ],
+                    "versions": [
+                        "8.8.9"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes INTERNET permission from Nova Launcher and disables network-only entry points so Nova does not crash.",
+            "name": "Remove Internet permission (Nova)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#8BC34A",
+                    "name": "Pou",
+                    "packageName": "me.pou.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.135"
+                        }
+                    ],
+                    "versions": [
+                        "1.4.135"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Gives unlimited coins in POU. WARNING: May cause crashes or reset progress.",
+            "name": "Unlimited Coins (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#8BC34A",
+                    "name": "Pou",
+                    "packageName": "me.pou.app",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4.135"
+                        }
+                    ],
+                    "versions": [
+                        "1.4.135"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Unlocks all items in POU and bypasses integrity check. WARNING: May cause crashes.",
+            "name": "Unlock Everything (Experimental)",
             "options": []
         },
         {
@@ -84,24 +184,74 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
-                    "appIconColor": "#2196F3",
-                    "name": "Nova Launcher",
-                    "packageName": "com.teslacoilsw.launcher",
+                    "appIconColor": "#FF5722",
+                    "name": "VivaCut",
+                    "packageName": "com.quvideo.vivacut",
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "8.8.9"
+                            "version": "3.9.9"
                         }
                     ],
                     "versions": [
-                        "8.8.9"
+                        "3.9.9"
                     ]
                 }
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlocks Nova Launcher Prime by forcing isPrime() to return true.",
-            "name": "Unlock Nova Launcher Prime",
+            "description": "Unlocks VivaCut Pro by forcing IapService.F()Z to return true. WARNING: May cause crashes.",
+            "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "InShot",
+                    "packageName": "com.camerasideas.instashot",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.243.1555"
+                        }
+                    ],
+                    "versions": [
+                        "2.243.1555"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks InShot premium by forcing billing methods to return true.",
+            "name": "Unlock Premium ",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#2196F3",
+                    "name": "PhotoApp",
+                    "packageName": "com.scaleup.photofx",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.8.1"
+                        }
+                    ],
+                    "versions": [
+                        "2.8.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks PhotoApp Premium by forcing UserViewModel.isPremium to true. WARNING: May cause crashes.",
+            "name": "Unlock Premium ",
             "options": []
         },
         {
@@ -146,7 +296,7 @@
             ],
             "default": false,
             "dependencies": [],
-            "description": "Unlocks Callfilter.app premium by forcing the 'isSubscribed' check to return true. WARNING: May cause crashes or unexpected behavior.",
+            "description": "Unlocks Callfilter.app premium by forcing the 'isSubscribed' check to return true. WARNING: May cause crashes or unexpected behavior. ",
             "name": "Unlock Premium (Experimental)",
             "options": []
         },
@@ -177,6 +327,56 @@
                 {
                     "apkFileType": "APK",
                     "appIconColor": "#FF5722",
+                    "name": "MagoVideo",
+                    "packageName": "mobi.charmer.magovideo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.7.1"
+                        }
+                    ],
+                    "versions": [
+                        "5.7.1"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Unlocks MagoVideo premium by forcing the premium check method h0 to return true. WARNING: May cause crashes.",
+            "name": "Unlock Premium (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#607D8B",
+                    "name": "Polarr",
+                    "packageName": "photo.editor.polarr",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "6.12.0"
+                        }
+                    ],
+                    "versions": [
+                        "6.12.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Unlocks Polarr Premium by forcing isPremium to true. WARNING: May cause crashes.",
+            "name": "Unlock Premium (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#070437",
                     "name": "Audio Editor",
                     "packageName": "audioeditor.musiceditor.soundeditor.songeditor",
                     "targets": [
@@ -201,7 +401,7 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
-                    "appIconColor": "#FF5722",
+                    "appIconColor": "#A53FE6",
                     "name": "Calendar",
                     "packageName": "calendar.agenda.calendarplanner.agendaplanner",
                     "targets": [
@@ -360,41 +560,21 @@
                 {
                     "apkFileType": "APK",
                     "appIconColor": "#FF5722",
-                    "name": "MagoVideo",
-                    "packageName": "mobi.charmer.magovideo",
-                    "targets": [
-                        {
-                            "isExperimental": true,
-                            "version": "5.7.1"
-                        }
-                    ],
-                    "versions": [
-                        "5.7.1"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks premium features in MagoVideo by forcing the premium check to return true. ",
-            "name": "Unlock Premium Features",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#FF5722",
                     "name": "My Diary",
                     "packageName": "mydiary.journal.diary.diarywithlock.diaryjournal.secretdiary",
                     "targets": [
                         {
                             "isExperimental": false,
                             "version": "1.04.16.0813"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.04.17.0918"
                         }
                     ],
                     "versions": [
-                        "1.04.16.0813"
+                        "1.04.16.0813",
+                        "1.04.17.0918"
                     ]
                 }
             ],
@@ -537,10 +717,15 @@
                         {
                             "isExperimental": false,
                             "version": "1.02.94.0925"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.03.38.0924"
                         }
                     ],
                     "versions": [
-                        "1.02.94.0925"
+                        "1.02.94.0925",
+                        "1.03.38.0924"
                     ]
                 }
             ],
@@ -636,11 +821,11 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "3.2.3.0"
+                            "version": "v3.2.3.0"
                         }
                     ],
                     "versions": [
-                        "3.2.3.0"
+                        "v3.2.3.0"
                     ]
                 }
             ],

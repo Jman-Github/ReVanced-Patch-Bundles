@@ -214,7 +214,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 15 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
 | [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
-| [Kveld](#-kveld-bundle-patch-list) | 132 | 10 | Generated |
+| [Kveld](#-kveld-bundle-patch-list) | 134 | 10 | Generated |
 | [Anime-Witcher](#-anime-witcher-bundle-patch-list) | 9 | 1 | Generated |
 | [Apos](#-apos-bundle-patch-list) | 1 | 1 | Generated |
 | [HH](#-hh-bundle-patch-list) | 4 | 1 | Generated |
@@ -349,7 +349,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Plyrs1](#-plyrs1-bundle-patch-list) | 31 | 6 | Generated |
 | [Edge-Window](#-edge-window-bundle-patch-list) | 2 | 2 | Generated |
 | [Morphe-Google-Photos](#-morphe-google-photos-bundle-patch-list) | 13 | 1 | Generated |
-| [Mighty-Michs](#-mighty-michs-bundle-patch-list) | 31 | 30 | Generated |
+| [Mighty-Michs](#-mighty-michs-bundle-patch-list) | 38 | 35 | Generated |
 | [Newuser7171-Telegram](#-newuser7171-telegram-bundle-patch-list) | 20 | 4 | Generated |
 | [365Score](#-365score-bundle-patch-list) | 47 | 2 | Generated |
 | [PixelBoard](#-pixelboard-bundle-patch-list) | - | - | Pending patch list |
@@ -445,7 +445,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Google Maps for MicroG-RE-BYD``` | ```Connects supported Google Maps builds to MicroG-RE-BYD, with BYD navigation audio and compatibility with devices that also have official Google Play services.``` | ```Google Maps Morphe``` | ```All versions``` |
+| ```Google Maps for MicroG-RE``` | ```Connects supported Google Maps builds to MicroG-RE 7.2.1 and prefers synthesized navigation speech with the existing audio fallback.``` | ```Google Maps Morphe``` | ```All versions``` |
 
 </details>
 
@@ -7021,7 +7021,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kveld Bundle Patch List:
 [📦 Kveld-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kveld-patches-bundle-morphe)
 <details>
-<summary><b>Kveld</b> - 132 patches, 10 apps</summary>
+<summary><b>Kveld</b> - 134 patches, 10 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7127,6 +7127,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Stop Video Looping``` | ```Stops videos at the end instead of replaying them in an infinite loop.``` | ```TikTok``` | ```47.1.4``` |
 | ```Studio & Creation De-bloat``` | ```Strips heavy video creation plugins, CapCut NLE editor SDKs, effect plugins, camera dynamic features, upload video encoders, on-device AI runtimes (LiteRT), and AR camera face models to significantly reduce APK size.``` | ```TikTok``` | ```47.1.4``` |
 | ```System Font``` | ```Forces TikTok to use the Android system font instead of bundled proprietary TikTokSans fonts.``` | ```TikTok``` | ```47.1.4``` |
+| ```TikTok Privacy Permissions Stripper``` | ```Selectively strips sensitive privacy, sensor, hardware, and tracking permissions from AndroidManifest.xml via configurable boolean toggles.``` | ```TikTok``` | ```47.1.4``` |
 | ```Unified Telemetry & Tracker Silencer``` | ```Neutralizes ByteDance AppLog user tracking, APM/Npth/Heimdallr crash monitors, AppsFlyer attribution, and Firebase analytics.``` | ```TikTok``` | ```47.1.4``` |
 | ```Update Prompt Suppressor``` | ```Neutralizes background update polling tasks and device ID check routines to prevent forced update popups.``` | ```TikTok``` | ```47.1.4``` |
 | ```Video Fit``` | ```Adjusts video display aspect ratio across feeds and story cells: 'fit' ensures the entire video is visible without cropping, or 'fill' expands the video to fill the screen.``` | ```TikTok``` | ```47.1.4``` |
@@ -7144,6 +7145,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Universal Screen Brightness Governor``` | ```Prevents applications from overriding display brightness (such as in-app brightness sliders, barcode/QR full-screen brightness, or window-level overrides) by neutralizing all direct writes to WindowManager.LayoutParams.screenBrightness.``` | ```Universal``` | ```All versions``` |
 | ```Universal Screen Timeout Enforcer``` | ```Forces the target application to respect system screen timeout and sleep timers by neutralizing keepScreenOn view calls and stripping FLAG_KEEP_SCREEN_ON from windows and layout parameters.``` | ```Universal``` | ```All versions``` |
 | ```Universal Screenshot Protection Bypass``` | ```Neutralizes FLAG_SECURE on windows, layout params, and SurfaceViews, unlocks audio playback capture, and suppresses Android 14+ screenshot and screen recording detection callbacks.``` | ```Universal``` | ```All versions``` |
+| ```Universal SDK Blocker``` | ```Neutralizes third-party APM, crash reporting, analytics, attribution, session replay, location tracking, and push engagement SDK init and event methods at DEX level via early return-void; companion runtime layer to Universal Telemetry Neutralizer (manifest layer).``` | ```Universal``` | ```All versions``` |
 | ```Universal Telemetry Neutralizer``` | ```Strips advertising and Privacy Sandbox permissions, disables analytics ContentProviders and telemetry background services (Firebase, Sentry, Adjust, AppsFlyer, DataTransport), prunes ComponentDiscovery registrars, and injects telemetry opt-out metadata. Includes an optional toggle to disable push notification services.``` | ```Universal``` | ```All versions``` |
 | ```Universal WebP Asset Optimizer``` | ```Losslessly strips non-rendering metadata and ancillary chunks (EXIF, XMP, ICCP) from WebP assets across res/ and assets/ to reduce APK size.``` | ```Universal``` | ```All versions``` |
 | ```Anti-Tamper Bypass``` | ```Bypasses Xposed and hook detection, neutralizes VPN and ADB security checks, bypasses root and emulator detection, and hardens WebView JavaScript bridges.``` | ```Xiaomi Earbuds``` | ```1.38.0i``` |
@@ -11188,7 +11190,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Mighty-Michs Bundle Patch List:
 [📦 MightyMichs-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-mightymichs-patches-bundle-morphe)
 <details>
-<summary><b>Mighty-Michs</b> - 31 patches, 30 apps</summary>
+<summary><b>Mighty-Michs</b> - 38 patches, 35 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -11199,16 +11201,22 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium (Experimental)``` | ```Unlocks Callfilter.app premium by forcing the 'isSubscribed' check to return true. WARNING: May cause crashes or unexpected behavior.``` | ```Callfilter.app``` | ```All versions``` |
 | ```Unlock Premium Features``` | ```Unlocks Camera Opus Companion premium by forcing the license check to return true.``` | ```Camera Opus Companion``` | ```1.2.21``` |
 | ```Unlock Pro Features``` | ```Unlocks Days Matter Pro by forcing the pro flag to true.``` | ```Days Matter``` | ```2.0.57``` |
-| ```Unlock Pro Features``` | ```Forces the 'is_pro_user' check to always return true, unlocking Pro features in Device Info.``` | ```Device Info``` | ```3.2.3.0``` |
+| ```Unlock Pro Features``` | ```Forces the 'is_pro_user' check to always return true, unlocking Pro features in Device Info.``` | ```Device Info``` | ```v3.2.3.0``` |
 | ```Unlock Premium Features``` | ```Unlocks Guitar Tuner premium.``` | ```Guitar Tuner``` | ```null``` |
 | ```Unlock SVIP Features``` | ```Unlocks Huanxiu SVIP by forcing getSvipStatus to return 3 (SVIP).``` | ```Huanxiu Sleep``` | ```3.14.8``` |
-| ```Unlock Premium Features``` | ```Unlocks premium features in MagoVideo by forcing the premium check to return true.``` | ```MagoVideo``` | ```5.7.1``` |
+| ```Unlock Premium``` | ```Unlocks InShot premium by forcing billing methods to return true.``` | ```InShot``` | ```2.243.1555``` |
+| ```Unlock Premium (Experimental)``` | ```Unlocks MagoVideo premium by forcing the premium check method h0 to return true. WARNING: May cause crashes.``` | ```MagoVideo``` | ```5.7.1``` |
 | ```Unlock Pro Features``` | ```Forces 'proActivated' and 'subscriptionActivated' to true, unlocking Pro features in Music Pitcher Radio.``` | ```Music Pitcher Radio``` | ```1.43``` |
 | ```Unlock Premium Features``` | ```Forces the purchase verification method to always return true, unlocking premium features in Music Player.``` | ```Music Player``` | ```1.02.165.0923``` |
 | ```Unlock MX Player Pro``` | ```Unlocks MX Player Pro by disabling ads and forcing pro status.``` | ```MX Player Pro``` | ```2.2.4``` |
-| ```Unlock Premium Features``` | ```Forces the purchase verification method to always return true, unlocking premium features in My Diary.``` | ```My Diary``` | ```1.04.16.0813``` |
-| ```Unlock Nova Launcher Prime``` | ```Unlocks Nova Launcher Prime by forcing isPrime() to return true.``` | ```Nova Launcher``` | ```8.8.9``` |
+| ```Unlock Premium Features``` | ```Forces the purchase verification method to always return true, unlocking premium features in My Diary.``` | ```My Diary``` | ```1.04.16.0813, 1.04.17.0918``` |
+| ```Enable Prime (Experimental)``` | ```Enables Nova Launcher Prime WARNING: May cause crashes.``` | ```Nova Launcher``` | ```8.8.9``` |
+| ```Remove Internet permission (Nova)``` | ```Removes INTERNET permission from Nova Launcher and disables network-only entry points so Nova does not crash.``` | ```Nova Launcher``` | ```8.8.9``` |
 | ```Unlock Premium Features``` | ```Unlocks Photex Companion premium by forcing the license check to return true.``` | ```Photex Companion``` | ```All versions``` |
+| ```Unlock Premium``` | ```Unlocks PhotoApp Premium by forcing UserViewModel.isPremium to true. WARNING: May cause crashes.``` | ```PhotoApp``` | ```2.8.1``` |
+| ```Unlock Premium (Experimental)``` | ```Unlocks Polarr Premium by forcing isPremium to true. WARNING: May cause crashes.``` | ```Polarr``` | ```6.12.0``` |
+| ```Unlimited Coins (Experimental)``` | ```Gives unlimited coins in POU. WARNING: May cause crashes or reset progress.``` | ```Pou``` | ```1.4.135``` |
+| ```Unlock Everything (Experimental)``` | ```Unlocks all items in POU and bypasses integrity check. WARNING: May cause crashes.``` | ```Pou``` | ```1.4.135``` |
 | ```Unlock Premium Features (Experimental)``` | ```Unlocks ReelShort premium by forcing getVip_status and isVipFreeAdvUnlock to return true. WARNING: May cause crashes.``` | ```ReelShort``` | ```4.2.00``` |
 | ```Unlock Premium (Experimental)``` | ```Unlocks Remini premium by forcing 'isFreeUser' to true. WARNING: May cause crashes or unexpected behavior.``` | ```Remini``` | ```All versions``` |
 | ```Unlock Premium Features``` | ```Forces the purchase verification method to always return true, unlocking premium features in Ringtone Maker.``` | ```Ringtone Maker: Music Cutter``` | ```1.01.99.0909``` |
@@ -11216,9 +11224,10 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Bypass Login Requirements``` | ```Skips SofaScore login requirement by forcing isLoggedIn to true.``` | ```SofaScore``` | ```26.09.21``` |
 | ```Unlock Premium & Remove Ads``` | ```Unlocks SofaScore premium and disables ads.``` | ```SofaScore``` | ```26.09.21``` |
 | ```Unlock Telegram Premium``` | ```Unlocks Telegram Premium features by forcing isPremium() to return true.``` | ```Telegram``` | ```12.10.1``` |
-| ```Unlock Premium Features``` | ```Forces the purchase verification method to always return true, unlocking premium features in To-Do List.``` | ```To-Do List``` | ```1.02.94.0925``` |
+| ```Unlock Premium Features``` | ```Forces the purchase verification method to always return true, unlocking premium features in To-Do List.``` | ```To-Do List``` | ```1.02.94.0925, 1.03.38.0924``` |
 | ```Unlock Premium Features``` | ```Unlocks TrebEdit premium by forcing the premium check to return true.``` | ```TrebEdit``` | ```3.6.7``` |
 | ```Unlock Pro Features``` | ```Unlocks Pro features in Video Guru by forcing the premium check method a()Z to return true.``` | ```Video Guru``` | ```1.371.93, 1.621.196``` |
+| ```Unlock Premium``` | ```Unlocks VivaCut Pro by forcing IapService.F()Z to return true. WARNING: May cause crashes.``` | ```VivaCut``` | ```3.9.9``` |
 | ```Unlock Premium Features``` | ```Forces the purchase verification method to always return true, unlocking premium features in Voice Changer.``` | ```Voice Changer``` | ```1.02.111.0915``` |
 | ```Unlock VIP Features``` | ```Unlocks VIP features in Wearfit Pro by forcing getIsVip() to return 1.``` | ```Wearfit Pro``` | ```5.5.83``` |
 | ```Unlock Premium Features``` | ```Unlocks ZArchiver premium and bypasses login.``` | ```ZArchiver``` | ```1.0.10``` |
@@ -11813,7 +11822,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1. 1.9.3-beta.1.9 hides both verified player Create Clip controls: create_clip_button_compose_view and create_clip_text_button.``` | ```Twitch``` | ```31.3.1``` |
+| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1. 1.9.3-beta.1.10 hides both verified player Create Clip controls: create_clip_button_compose_view (Lout.j) and create_clip_text_button (Ld040, v21).``` | ```Twitch``` | ```31.3.1``` |
 
 </details>
 ### 🧩 hushgram Bundle Patch List:
