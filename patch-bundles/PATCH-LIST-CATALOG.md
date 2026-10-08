@@ -292,7 +292,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [De-Vanced](#-de-vanced-bundle-patch-list) | 9 | 1 | Generated |
 | [CBC](#-cbc-bundle-patch-list) | 4 | 1 | Generated |
 | [D-moniak](#-d-moniak-bundle-patch-list) | 459 | 91 | Generated |
-| [Spicetify](#-spicetify-bundle-patch-list) | 7 | 1 | Generated |
+| [Spicetify](#-spicetify-bundle-patch-list) | 8 | 1 | Generated |
 | [Piko-NewX](#-piko-newx-bundle-patch-list) | 43 | 1 | Generated |
 | [Channel-Blacklist](#-channel-blacklist-bundle-patch-list) | 89 | 2 | Generated |
 | [Lchanc3](#-lchanc3-bundle-patch-list) | 15 | 2 | Generated |
@@ -9431,7 +9431,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Spicetify Bundle Patch List:
 [📦 Spicetify-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-spicetify-patches-bundle-morphe)
 <details>
-<summary><b>Spicetify</b> - 7 patches, 1 app</summary>
+<summary><b>Spicetify</b> - 8 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -9440,7 +9440,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide player ad cards``` | ```Hides image brand-ad cards and embedded ad pages in Now Playing. Does not suppress audio ads or other player overlays. Experimental.``` | ```Spotify``` | ```9.1.80.2221``` |
 | ```Hide Premium tab``` | ```Hides the Premium navigation tab. Change this in Spicetify settings, then restart Spotify. Does not change your subscription or remove other ads.``` | ```Spotify``` | ```9.1.80.2221``` |
 | ```Local files from a server``` | ```Streams audio from an HTTPS WebDAV folder or Jellyfin music library into Local Files and Your Library. Configure the server in Spicetify settings; playback needs Spotify's Local audio files setting. Experimental; requires byte-range support. Not available for root mount installs.``` | ```Spotify``` | ```9.1.80.2221``` |
-| ```Pin shortcuts on Home``` | ```Choose which of Spotify's Home shortcuts appear first in Spicetify settings. Pins are saved on this device. Restart Spotify after changing pins.``` | ```Spotify``` | ```9.1.80.2221``` |
+| ```Pin shortcuts on Home``` | ```Pick playlists, albums or Liked Songs to pin first on Home, or turn on Show only my pins to hide Spotify's other shortcuts. Pins are saved on this device; restart Spotify after changing them.``` | ```Spotify``` | ```9.1.80.2221``` |
+| ```Spicetify extensions``` | ```Adds Android versions of Spicetify extensions to the Spicetify Marketplace's Extensions tab, in Spicetify settings, each off until you turn it on. Trash Bin skips the songs and artists you throw away from their menus. Play a random song plays one from all of Spotify or your library, from a Random pill on Home. Shuffle+ plays a playlist, album or Liked Songs in a truly random order when you long-press the shuffle button in Now Playing, choose Shuffle+ this playlist in a playlist's menu, or use its sheet. Hide podcasts hides podcasts and episodes on Home and in Search, and their filters there and in Your Library, and audiobooks unless you turn that off.``` | ```Spotify``` | ```9.1.80.2221``` |
 | ```Theme colors``` | ```Choose a theme, such as OLED, or your own colors in Spicetify settings. Requires Android 11 or later. Some screens and hardcoded colors keep Spotify's colors.``` | ```Spotify``` | ```9.1.80.2221``` |
 
 </details>
@@ -11822,7 +11823,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1. 1.9.3-beta.3 adds independent Player Controls toggles for Hide Live Share Button and Hide Cast Button using verified Lout.k and Lout.q controls. Hide Create Clip remains included and working.``` | ```Twitch``` | ```31.3.1``` |
+| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1. 1.9.3-beta.3.1 fixes the beta.3 smali syntax error and adds independent Player Controls toggles for Hide Live Share Button and Hide Cast Button using verified Lout.k and Lout.q controls. Hide Create Clip remains included and working.``` | ```Twitch``` | ```31.3.1``` |
 
 </details>
 ### 🧩 hushgram Bundle Patch List:
@@ -12077,16 +12078,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Auto-claim bonus channel points``` | ```Claims available bonus rewards in live playback.``` | ```Twitch``` | ```31.3.0, 31.4.2``` |
-| ```Block client-requested ads``` | ```Suppresses native ad requests. Restart Twitch after changing the setting.``` | ```Twitch``` | ```31.3.0, 31.4.2``` |
-| ```Block stream ads``` | ```Replaces detected live-stream ads with direct Twitch playback from alternate player contexts. Prefers matching video quality. No external stream proxy.``` | ```Twitch``` | ```31.3.0, 31.4.2``` |
-| ```BTTV and 7TV emotes``` | ```Renders global and channel emotes in chat with provider previews on tap.``` | ```Twitch``` | ```31.3.0, 31.4.2``` |
-| ```Hide feed and display ads``` | ```Removes sponsored feed cards and display ads using Twitch's no-ad responses.``` | ```Twitch``` | ```31.3.0, 31.4.2``` |
-| ```Hide subscription discount banners``` | ```Hides subscription offers and promotional labels, while retaining normal subscription actions.``` | ```Twitch``` | ```31.3.0, 31.4.2``` |
-| ```Hide Turbo promotions``` | ```Hides Turbo entries, upsells and purchase buttons.``` | ```Twitch``` | ```31.3.0, 31.4.2``` |
-| ```Inspect Twitch APK``` | ```Reports package, version and DEX class count during patching. Does not change the app.``` | ```Twitch``` | ```31.3.0, 31.4.2``` |
-| ```Playback diagnostics``` | ```Records playlist structure and playback frame counters. Disabled by default.``` | ```Twitch``` | ```31.3.0, 31.4.2``` |
-| ```Reload stream``` | ```Adds a reload button in live-player controls. Double-tap to reload.``` | ```Twitch``` | ```31.3.0, 31.4.2``` |
+| ```Auto-claim bonus channel points``` | ```Claims available bonus rewards in live playback.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
+| ```Block client-requested ads``` | ```Suppresses native ad requests. Restart Twitch after changing the setting.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
+| ```Block stream ads``` | ```Replaces detected live-stream ads with direct Twitch playback from alternate player contexts. Prefers matching video quality. No external stream proxy.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
+| ```BTTV, FFZ and 7TV emotes``` | ```Displays static and animated global and channel emotes with provider controls and tap previews.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
+| ```Hide feed and display ads``` | ```Removes sponsored feed cards and display ads using Twitch's no-ad responses.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
+| ```Hide subscription discount banners``` | ```Hides subscription offers and promotional labels, while retaining normal subscription actions.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
+| ```Hide Turbo promotions``` | ```Hides Turbo entries, upsells and purchase buttons.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
+| ```Inspect Twitch APK``` | ```Reports package, version and DEX class count during patching. Does not change the app.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
+| ```Playback diagnostics``` | ```Records playlist structure and playback frame counters. Disabled by default.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
+| ```Reload stream``` | ```Adds a reload button in live-player controls. Double-tap to reload.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
 
 </details>
 ### 🧩 reddit-nsfw-blocker Bundle Patch List:

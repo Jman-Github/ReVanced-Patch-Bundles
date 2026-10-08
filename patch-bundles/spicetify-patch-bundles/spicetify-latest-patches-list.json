@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0",
+    "version": "v1.2.0",
     "patches": [
         {
             "category": null,
@@ -182,10 +182,43 @@
             ],
             "default": false,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Choose which of Spotify's Home shortcuts appear first in Spicetify settings. Pins are saved on this device. Restart Spotify after changing pins.",
+            "description": "Pick playlists, albums or Liked Songs to pin first on Home, or turn on Show only my pins to hide Spotify's other shortcuts. Pins are saved on this device; restart Spotify after changing them.",
             "name": "Pin shortcuts on Home",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#1DB954",
+                    "name": "Spotify",
+                    "packageName": "com.spotify.music",
+                    "targets": [
+                        {
+                            "description": "Experimental Android customization patches; runtime compatibility is still being verified.",
+                            "isExperimental": true,
+                            "version": "9.1.80.2221",
+                            "versionCodes": {
+                                "ARM64_V8A": 145767611
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "9.1.80.2221"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds Android versions of Spicetify extensions to the Spicetify Marketplace's Extensions tab, in Spicetify settings, each off until you turn it on. Trash Bin skips the songs and artists you throw away from their menus. Play a random song plays one from all of Spotify or your library, from a Random pill on Home. Shuffle+ plays a playlist, album or Liked Songs in a truly random order when you long-press the shuffle button in Now Playing, choose Shuffle+ this playlist in a playlist's menu, or use its sheet. Hide podcasts hides podcasts and episodes on Home and in Search, and their filters there and in Your Library, and audiobooks unless you turn that off.",
+            "name": "Spicetify extensions",
             "options": []
         },
         {
