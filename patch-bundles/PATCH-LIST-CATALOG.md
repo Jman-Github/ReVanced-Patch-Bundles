@@ -347,7 +347,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Zotero-Self-Hosted-Sync](#-zotero-self-hosted-sync-bundle-patch-list) | 4 | 1 | Generated |
 | [Chessable](#-chessable-bundle-patch-list) | 2 | 1 | Generated |
 | [Plyrs1](#-plyrs1-bundle-patch-list) | 31 | 6 | Generated |
-| [Edge-Window](#-edge-window-bundle-patch-list) | 2 | 1 | Generated |
+| [Edge-Window](#-edge-window-bundle-patch-list) | 2 | 2 | Generated |
 | [Morphe-Google-Photos](#-morphe-google-photos-bundle-patch-list) | 13 | 1 | Generated |
 | [Mighty-Michs](#-mighty-michs-bundle-patch-list) | 31 | 30 | Generated |
 | [Newuser7171-Telegram](#-newuser7171-telegram-bundle-patch-list) | 20 | 4 | Generated |
@@ -11133,12 +11133,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Edge-Window Bundle Patch List:
 [📦 Edge-Window-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-edge-window-patches-bundle-morphe)
 <details>
-<summary><b>Edge-Window</b> - 2 patches, 1 app</summary>
+<summary><b>Edge-Window</b> - 2 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Adjust app font scale``` | ```Scales text in this app without changing display density or layout sizing.``` | ```Universal``` | ```All versions``` |
-| ```Hide status bar and ignore display cutouts``` | ```Hides the status bar and removes top status-bar and cutout insets from app content.``` | ```Universal``` | ```All versions``` |
+| ```Hide status bar and ignore display cutouts (universal)``` | ```Hides the status bar and removes top status-bar and cutout insets from app content in any app.``` | ```Universal``` | ```All versions``` |
+| ```Hide status bar and ignore display cutouts``` | ```Hides the status bar and removes top status-bar and cutout insets from app content.``` | ```YouTube``` | ```All versions``` |
 
 </details>
 

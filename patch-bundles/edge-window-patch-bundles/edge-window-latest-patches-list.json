@@ -1,32 +1,32 @@
 {
-    "version": "v1.1.1",
+    "version": "v1.2.0",
     "patches": [
         {
-            "name": "Adjust app font scale",
-            "description": "Scales text in this app without changing display density or layout sizing.",
-            "default": false,
             "category": null,
-            "dependencies": [],
-            "compatiblePackages": null,
-            "options": [
+            "compatiblePackages": [
                 {
-                    "key": "fontScaleMultiplier",
-                    "title": "Font scale multiplier",
-                    "description": "Multiplier applied to this app's current system font scale. 1.0 keeps it unchanged.",
-                    "required": false,
-                    "type": "kotlin.Float",
-                    "default": 1.2,
-                    "values": null
+                    "name": "YouTube",
+                    "packageName": "com.google.android.youtube",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
                 }
-            ]
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Hides the status bar and removes top status-bar and cutout insets from app content.",
+            "name": "Hide status bar and ignore display cutouts",
+            "options": []
         },
         {
-            "name": "Hide status bar and ignore display cutouts",
-            "description": "Hides the status bar and removes top status-bar and cutout insets from app content.",
-            "default": false,
             "category": null,
-            "dependencies": [],
             "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Hides the status bar and removes top status-bar and cutout insets from app content in any app.",
+            "name": "Hide status bar and ignore display cutouts (universal)",
             "options": []
         }
     ]
