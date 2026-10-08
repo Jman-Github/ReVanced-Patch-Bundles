@@ -7502,8 +7502,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Aphelion Ad-Free Hint Unlock``` | ```Unlocks level hints instantly without watching an ad: the share gate's watch ad action grants the hint immediately, with no ad playback required, even offline.``` | ```Aphelion``` | ```0.4.9``` |
-| ```Aphelion Installer Source Fix``` | ```Spoofs the installer source as Google Play for every install-source check the game performs, so sideloaded installs pass and the forced Google Play Store redirect on launch is fixed.``` | ```Aphelion``` | ```0.4.9``` |
+| ```Aphelion Ad-Free Hint Unlock``` | ```Unlocks level hints instantly without watching an ad: the share gate's watch ad action grants the hint immediately, with no ad playback required, even offline.``` | ```Aphelion``` | ```0.5.8``` |
+| ```Aphelion Installer Source Fix``` | ```Spoofs the installer source as Google Play for every install-source check the game performs, so sideloaded installs pass and the forced Google Play Store redirect on launch is fixed.``` | ```Aphelion``` | ```0.5.8``` |
 | ```Dan The Man Free IAP``` | ```All in-app purchases are granted instantly and free without Google Play billing.``` | ```Dan The Man``` | ```1.14.05``` |
 | ```Extreme Car Driving Add Native Lib``` | ```Adds libcurrencyhack.so to assets and helper dex.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
 | ```Extreme Car Driving Unlimited Currencies``` | ```Sets all in-game currencies (diamonds, coins, upgrade points) to 999,999,999 via IL2CPP API.``` | ```Extreme Car Driving Simulator``` | ```7.13.1``` |
