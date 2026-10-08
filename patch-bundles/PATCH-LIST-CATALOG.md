@@ -168,7 +168,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 168 | 4 | Generated |
 | [Stylus](#-stylus-bundle-patch-list) | 6 | 4 | Generated |
-| [HXReborn](#-hxreborn-bundle-patch-list) | 129 | 60 | Generated |
+| [HXReborn](#-hxreborn-bundle-patch-list) | 134 | 62 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 12 | 9 | Generated |
 | [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 49 | 2 | Generated |
@@ -5757,7 +5757,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 HXReborn Bundle Patch List:
 [📦 HXReborn-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hxreborn-patches-bundle-morphe)
 <details>
-<summary><b>HXReborn</b> - 129 patches, 60 apps</summary>
+<summary><b>HXReborn</b> - 134 patches, 62 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5778,6 +5778,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock premium``` | ```Unlocks all features and removes the ads.``` | ```atvTools``` | ```1.3.2``` |
 | ```Hide membership upselling``` | ```Hides the membership promotion on the Home screen and the free trial bottom sheet.``` | ```Audible``` | ```26.30.05, 26.38.08``` |
 | ```Open Library on launch``` | ```Opens the Library tab instead of Home on launch. Applies only while signed in.``` | ```Audible``` | ```26.30.05, 26.38.08``` |
+| ```Unlock premium``` | ```Unlocks Pro tools and removes ads, reward videos and upgrade prompts. The AI tools are not included.``` | ```AudioLab``` | ```1.3.33``` |
 | ```Unlock premium``` | ```Unlocks all premium content and skips the free trial screen.``` | ```BetterSleep``` | ```26.17``` |
 | ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```BlurWall``` | ```2.9.8``` |
 | ```Disable tracking``` | ```Stops the Google Mobile Ads SDK from starting and reading the advertising ID.``` | ```BlurWall``` | ```2.9.8``` |
@@ -5837,6 +5838,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Proton Mail``` | ```7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
 | ```Custom accent color``` | ```Changes the accent color. Choose a color in the patches menu.``` | ```Proton Mail``` | ```7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
 | ```Hide upgrade promotions``` | ```Hides the top-bar upgrade button, promotional sidebar rows and the auto-delete upgrade banner in Trash and Spam. Keeps the Empty trash and Empty spam buttons.``` | ```Proton Mail``` | ```7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
+| ```Material 3 switches``` | ```Shows switches in the Material 3 style with check and close icons.``` | ```Proton Mail``` | ```7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
 | ```Remove 'Sent from' signature``` | ```Removes the 'Sent from Proton Mail' signature and unlocks the mobile signature setting.``` | ```Proton Mail``` | ```7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
 | ```Remove free accounts limit``` | ```Removes the limit for maximum free accounts logged in.``` | ```Proton Mail``` | ```7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
 | ```Scheduled Trash and Spam deletion``` | ```Deletes all messages in Trash and Spam on separate configurable schedules. Deleted messages cannot be recovered.``` | ```Proton Mail``` | ```7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
@@ -5845,10 +5847,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Custom accent color``` | ```Changes the accent color. Choose a color in the patches menu.``` | ```Proton Pass``` | ```1.40.3, 1.41.2``` |
 | ```Hide promotional messages``` | ```Hides promotional banners, offers and pop-up messages.``` | ```Proton Pass``` | ```1.40.3, 1.41.2``` |
 | ```Hide upgrade promotions``` | ```Hides the Upgrade buttons, upgrade prompts and the welcome offer after signing in. Plan limits still apply.``` | ```Proton Pass``` | ```1.40.3, 1.41.2``` |
+| ```Material 3 switches``` | ```Shows switches in the Material 3 style with check and close icons.``` | ```Proton Pass``` | ```1.40.3, 1.41.2``` |
 | ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Proton VPN``` | ```5.20.39.0, 5.20.57.0``` |
 | ```Custom accent color``` | ```Changes the accent color. Choose a color in the patches menu.``` | ```Proton VPN``` | ```5.20.39.0, 5.20.57.0``` |
 | ```Disable telemetry``` | ```Stops sending usage statistics and diagnostics to Proton.``` | ```Proton VPN``` | ```5.20.39.0, 5.20.57.0``` |
 | ```Hide upgrade promotions``` | ```Hides settings that need a paid plan, upgrade banners, the Discover VPN Plus carousel and special offers.``` | ```Proton VPN``` | ```5.20.39.0, 5.20.57.0``` |
+| ```Material 3 switches``` | ```Adds check and close icons to switches.``` | ```Proton VPN``` | ```5.20.39.0, 5.20.57.0``` |
 | ```Remove server change delay``` | ```Removes the wait between server changes on free plans.``` | ```Proton VPN``` | ```5.20.39.0, 5.20.57.0``` |
 | ```Show free server locations``` | ```Lists free server locations in Countries and Search and connects to the one you pick. Applies only to free plans.``` | ```Proton VPN``` | ```5.20.39.0, 5.20.57.0``` |
 | ```Unlock connection preferences``` | ```Unlocks the default connection, recent connections and excluded locations on free plans.``` | ```Proton VPN``` | ```5.20.39.0, 5.20.57.0``` |
@@ -5889,6 +5893,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock premium``` | ```Unlocks premium servers and removes ads, upgrade banners, the launch paywall and the Android TV sign-in screen.``` | ```VPN Super Unlimited Proxy``` | ```2.32.0, 2.33.0, 2.33.1``` |
 | ```Disable rating prompt``` | ```Stops the Google Play rating prompt from appearing.``` | ```vpnify``` | ```2.3.0``` |
 | ```Unlock premium``` | ```Unlocks premium, removes ads and the free session time limit.``` | ```vpnify``` | ```2.3.0``` |
+| ```Unlock premium``` | ```Removes ads and enables the floating widget, dynamic island, route editing and tab customization. Points, quests and rankings are not included.``` | ```Yanosik``` | ```26.9.0``` |
 | ```Hide ads``` | ```Removes splash, interstitial, banner and native ads. Keeps the optional ad that unlocks an alarm video.``` | ```Yi iot``` | ```5.1.7_20260914``` |
 
 </details>

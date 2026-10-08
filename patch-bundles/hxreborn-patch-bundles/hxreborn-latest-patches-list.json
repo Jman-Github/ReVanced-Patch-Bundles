@@ -1,5 +1,5 @@
 {
-    "version": "v1.44.0",
+    "version": "v1.45.0",
     "patches": [
         {
             "category": null,
@@ -954,7 +954,8 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Changes the accent color. Choose a color in the patches menu.",
             "name": "Custom accent color",
@@ -1003,7 +1004,8 @@
             ],
             "default": true,
             "dependencies": [
-                "BytecodePatch"
+                "BytecodePatch",
+                "ResourcePatch"
             ],
             "description": "Changes the accent color. Choose a color in the patches menu.",
             "name": "Custom accent color",
@@ -1219,6 +1221,7 @@
             ],
             "default": true,
             "dependencies": [
+                "ResourcePatch",
                 "ResourcePatch",
                 "ResourcePatch"
             ],
@@ -2917,6 +2920,178 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "apkFileType": "APK",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton Mail",
+                    "packageName": "ch.protonmail.android",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.11.9",
+                            "versionCodes": {
+                                "ARM64_V8A": 18324,
+                                "ARMEABI_V7A": 18324,
+                                "X86": 18324,
+                                "X86_64": 18324
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.11.8",
+                            "versionCodes": {
+                                "ARM64_V8A": 18323,
+                                "ARMEABI_V7A": 18323,
+                                "X86": 18323,
+                                "X86_64": 18323
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.11.5",
+                            "versionCodes": {
+                                "ARM64_V8A": 18317,
+                                "ARMEABI_V7A": 18317,
+                                "X86": 18317,
+                                "X86_64": 18317
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.10.4",
+                            "versionCodes": {
+                                "ARM64_V8A": 17667,
+                                "ARMEABI_V7A": 17667,
+                                "X86": 17667,
+                                "X86_64": 17667
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "7.11.9",
+                        "7.11.8",
+                        "7.11.5",
+                        "7.10.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Shows switches in the Material 3 style with check and close icons.",
+            "name": "Material 3 switches",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton Pass",
+                    "packageName": "proton.android.pass",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 27,
+                            "version": "1.40.3",
+                            "versionCodes": {
+                                "ARM64_V8A": 14003373,
+                                "ARMEABI_V7A": 14003373,
+                                "X86": 14003373,
+                                "X86_64": 14003373
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 27,
+                            "version": "1.41.2",
+                            "versionCodes": {
+                                "ARM64_V8A": 14102398,
+                                "ARMEABI_V7A": 14102398,
+                                "X86": 14102398,
+                                "X86_64": 14102398
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.40.3",
+                        "1.41.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Shows switches in the Material 3 style with check and close icons.",
+            "name": "Material 3 switches",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "signatures": [
+                        "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.20.39.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 605203900,
+                                "ARMEABI_V7A": 605203900,
+                                "X86": 605203900,
+                                "X86_64": 605203900
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
+                            "version": "5.20.57.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 605205700,
+                                "ARMEABI_V7A": 605205700,
+                                "X86": 605205700,
+                                "X86_64": 605205700
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.20.39.0",
+                        "5.20.57.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds check and close icons to switches.",
+            "name": "Material 3 switches",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS_REQUIRED",
                     "appIconColor": "#4059B9",
                     "name": "Catzy",
@@ -4319,6 +4494,45 @@
                 "RawResourcePatch"
             ],
             "description": "Unlocks all features and removes the ads.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS_REQUIRED",
+                    "appIconColor": "#FA4C3F",
+                    "name": "AudioLab",
+                    "packageName": "com.hitrolab.audioeditor",
+                    "signatures": [
+                        "d441c034a8cd999a79ec5b09f0d03627d8689a53e0441a04aaa4a16315e5cec0"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "1.3.33",
+                            "versionCodes": {
+                                "ARM64_V8A": 5163,
+                                "ARMEABI_V7A": 5163,
+                                "X86": 5163,
+                                "X86_64": 5163
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "1.3.33"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch"
+            ],
+            "description": "Unlocks Pro tools and removes ads, reward videos and upgrade prompts. The AI tools are not included.",
             "name": "Unlock premium",
             "options": []
         },
@@ -5815,6 +6029,41 @@
             "default": true,
             "dependencies": [],
             "description": "Unlocks premium servers and removes ads, upgrade banners, the launch paywall and the Android TV sign-in screen.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK_REQUIRED",
+                    "appIconColor": "#00A99D",
+                    "name": "Yanosik",
+                    "packageName": "pl.neptis.yanosik.mobi.android",
+                    "signatures": [
+                        "5447ddeefa77b9897fd3755c225899a0cbfb61a959f04fc949870808aceb52e6"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "26.9.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 6001512,
+                                "ARMEABI_V7A": 6001512,
+                                "X86": 6001512,
+                                "X86_64": 6001512
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.9.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes ads and enables the floating widget, dynamic island, route editing and tab customization. Points, quests and rankings are not included.",
             "name": "Unlock premium",
             "options": []
         },
