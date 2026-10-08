@@ -11822,7 +11822,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1. 1.9.3-beta.1.10 hides both verified player Create Clip controls: create_clip_button_compose_view (Lout.j) and create_clip_text_button (Ld040, v21).``` | ```Twitch``` | ```31.3.1``` |
+| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1. 1.9.3-beta.3 adds independent Player Controls toggles for Hide Live Share Button and Hide Cast Button using verified Lout.k and Lout.q controls. Hide Create Clip remains included and working.``` | ```Twitch``` | ```31.3.1``` |
 
 </details>
 ### 🧩 hushgram Bundle Patch List:
