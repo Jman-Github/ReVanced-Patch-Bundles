@@ -10048,7 +10048,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Disable email confirmation dialog``` | ```Hide the "Confirm your email" prompt and related screen, whether in home or settings.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Disable Google Engage``` | ```Stop Pinterest publishing user actions to Google, so nothing is sent to Snooper, Analytics, Play or Ads.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Force original image download``` | ```Load the original full-resolution asset for pin images instead of the 736x rendition, at the cost of considerably more data.``` | ```Pinterest``` | ```14.38.0``` |
-| ```Hide "Ideas you might love" section``` | ```Hide the suggested-topics section shown under a pin.``` | ```Pinterest``` | ```14.38.0``` |
+| ```Hide "Ideas you might love" section (DIAGNOSTIC BUILD)``` | ```Hide the suggested-topics section shown under a pin.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Hide "More ideas for this board" section``` | ```Remove the "More ideas for this board" section from a board, header and contents alike.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Hide comments``` | ```Hide the comments button on a pin, so comments cannot be opened from the pin.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Hide Create nav button``` | ```Hide the create (+) button in the bottom navigation bar.``` | ```Pinterest``` | ```14.38.0``` |
