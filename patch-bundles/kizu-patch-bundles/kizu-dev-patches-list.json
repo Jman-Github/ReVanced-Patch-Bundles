@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.3-beta.1.3",
+    "version": "v1.9.3-beta.1.5",
     "patches": [
         {
             "category": null,
@@ -8,6 +8,7 @@
                     "apkFileType": "APKM",
                     "appIconColor": "#9147FF",
                     "name": "Twitch",
+                    "options": [],
                     "packageName": "tv.twitch.android.app",
                     "targets": [
                         {
@@ -24,9 +25,8 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Kizu Twitch enhancements for Twitch 31.3.1. 1.9.3-beta.1.3 fixes Hide Create Clip by patching ClipButtonUiState.isClipButtonVisible and includes the Player Controls setting.",
-            "name": "Twitch Enhancement",
-            "options": []
+            "description": "Kizu Twitch enhancements for Twitch 31.3.1. 1.9.3-beta.1.5 fixes the Morphe inline-smali syntax error from .1.4 and keeps Hide Create Clip isolated to Twitch's actual player ComposeView.",
+            "name": "Twitch Enhancement"
         }
     ]
 }

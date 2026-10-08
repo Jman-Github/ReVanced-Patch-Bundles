@@ -320,7 +320,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [BestApp](#-bestapp-bundle-patch-list) | - | - | Pending patch list |
 | [Media](#-media-bundle-patch-list) | 32 | 12 | Generated |
 | [Psychonaut-Journal](#-psychonaut-journal-bundle-patch-list) | 7 | 1 | Generated |
-| [Oyasumi](#-oyasumi-bundle-patch-list) | 19 | 4 | Generated |
+| [Oyasumi](#-oyasumi-bundle-patch-list) | 20 | 5 | Generated |
 | [Jam](#-jam-bundle-patch-list) | 151 | 4 | Generated |
 | [Nai64-Extra](#-nai64-extra-bundle-patch-list) | 432 | 2 | Generated |
 | [Akshay-Pixel-Camera](#-akshay-pixel-camera-bundle-patch-list) | 8 | 1 | Generated |
@@ -10035,7 +10035,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Oyasumi Bundle Patch List:
 [📦 Oyasumi-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-oyasumi-patches-bundle-morphe)
 <details>
-<summary><b>Oyasumi</b> - 19 patches, 4 apps</summary>
+<summary><b>Oyasumi</b> - 20 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -10058,6 +10058,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Morphe settings screen (label)``` | ```Rename the reused string resource to "Morphe" in every shipped language, so the settings entry is identifiable.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Morphe settings screen (manifest)``` | ```Register the Morphe settings activity in the manifest, with an intent-filter for the morphe:// scheme.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Neutralize advertising ID``` | ```Return a random advertising ID instead of the real one, so the app has no advertising identifier to hand to Pinterest or to any bundled tracker.``` | ```Pinterest``` | ```14.38.0``` |
+| ```Return an empty contact list``` | ```Make the app see an empty contact list, so nothing is shown from your address book and nothing can be matched or uploaded from it.``` | ```Truecaller``` | ```26.31.6``` |
 
 </details>
 
@@ -11811,7 +11812,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1. 1.9.3-beta.1.3 fixes Hide Create Clip by patching ClipButtonUiState.isClipButtonVisible and includes the Player Controls setting.``` | ```Twitch``` | ```31.3.1``` |
+| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1. 1.9.3-beta.1.5 fixes the Morphe inline-smali syntax error from .1.4 and keeps Hide Create Clip isolated to Twitch's actual player ComposeView.``` | ```Twitch``` | ```31.3.1``` |
 
 </details>
 ### 🧩 hushgram Bundle Patch List:

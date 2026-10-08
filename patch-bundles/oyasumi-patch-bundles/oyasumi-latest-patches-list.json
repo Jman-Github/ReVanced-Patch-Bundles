@@ -1,5 +1,5 @@
 {
-    "version": "v0.6.0-dev.30",
+    "version": "v0.6.0-dev.31",
     "patches": [
         {
             "category": null,
@@ -599,6 +599,36 @@
             ],
             "description": "Return a random advertising ID instead of the real one, so the app has no advertising identifier to hand to Pinterest or to any bundled tracker.",
             "name": "Neutralize advertising ID",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Truecaller",
+                    "packageName": "com.truecaller",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.31.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 2631006,
+                                "ARMEABI_V7A": 2631006,
+                                "X86": 2631006,
+                                "X86_64": 2631006
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.31.6"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Make the app see an empty contact list, so nothing is shown from your address book and nothing can be matched or uploaded from it.",
+            "name": "Return an empty contact list",
             "options": []
         }
     ]
