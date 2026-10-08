@@ -214,7 +214,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 15 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
 | [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
-| [Kveld](#-kveld-bundle-patch-list) | 131 | 10 | Generated |
+| [Kveld](#-kveld-bundle-patch-list) | 132 | 10 | Generated |
 | [Anime-Witcher](#-anime-witcher-bundle-patch-list) | 9 | 1 | Generated |
 | [Apos](#-apos-bundle-patch-list) | 1 | 1 | Generated |
 | [HH](#-hh-bundle-patch-list) | 4 | 1 | Generated |
@@ -7011,7 +7011,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kveld Bundle Patch List:
 [📦 Kveld-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kveld-patches-bundle-morphe)
 <details>
-<summary><b>Kveld</b> - 131 patches, 10 apps</summary>
+<summary><b>Kveld</b> - 132 patches, 10 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7127,6 +7127,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```DPI Resource Slimmer``` | ```Strips unselected screen density resource directories from res/ (e.g. drawable-mdpi, drawable-hdpi, mipmap-xhdpi). Density-independent resources (nodpi, anydpi) and orphan resources are safely preserved in-situ.``` | ```Universal``` | ```All versions``` |
 | ```Locale Resource Slimmer``` | ```Strips unselected language translation directories from res/ (e.g. values-*, raw-*, xml-*). Base fallback resources with no language qualifiers are always preserved.``` | ```Universal``` | ```All versions``` |
 | ```PNG Asset Optimizer``` | ```Losslessly recompresses PNG assets with maximum zlib compression and strips non-rendering metadata chunks (pHYs, tEXt, tIME) while preserving 9-patch structures and pixel accuracy.``` | ```Universal``` | ```All versions``` |
+| ```Universal Hosts Blocker``` | ```Rewrites Dalvik const-string URL/host literals matching a user-supplied hosts blocklist to a sink IP (default 0.0.0.0). The blocklist file is read at patch time, so daily DNS updates apply without patch releases.``` | ```Universal``` | ```All versions``` |
 | ```Universal Native Binary Trimmer``` | ```Strips non-essential tracking, crash reporting, and debug companion native libraries in lib/** (e.g. libcrashlytics, libsentry, libbugly, libgwp-asan) by zeroing bytes in-situ.``` | ```Universal``` | ```All versions``` |
 | ```Universal Offline Mode``` | ```Forces offline execution across any application by revoking INTERNET and network permissions from AndroidManifest.xml and blocking cleartext HTTP traffic at the OS level.``` | ```Universal``` | ```All versions``` |
 | ```Universal Privacy Permissions Stripper``` | ```Selectively strips sensitive privacy, sensor, and hardware permissions from AndroidManifest.xml via configurable boolean toggles.``` | ```Universal``` | ```All versions``` |

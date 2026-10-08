@@ -1,5 +1,5 @@
 {
-    "version": "v2.6.0-experimental.1",
+    "version": "v2.6.0-experimental.2",
     "patches": [
         {
             "compatiblePackages": [
@@ -3991,6 +3991,42 @@
             "description": "Neutralizes ByteDance AppLog user tracking, APM/Npth/Heimdallr crash monitors, AppsFlyer attribution, and Firebase analytics.",
             "name": "Unified Telemetry & Tracker Silencer",
             "options": []
+        },
+        {
+            "compatiblePackages": null,
+            "default": false,
+            "dependencies": [],
+            "description": "Rewrites Dalvik const-string URL/host literals matching a user-supplied hosts blocklist to a sink IP (default 0.0.0.0). The blocklist file is read at patch time, so daily DNS updates apply without patch releases.",
+            "name": "Universal Hosts Blocker",
+            "options": [
+                {
+                    "default": null,
+                    "description": "Path to a hosts or plain-domain blocklist file on the patching machine (e.g. Hagezi native.tiktok-onlydomains.txt). Leave empty to skip.",
+                    "key": "hostsFile",
+                    "required": false,
+                    "title": "Hosts blocklist file",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": "0.0.0.0",
+                    "description": "IPv4 address replacing blocked hosts inside const-string literals (e.g. '0.0.0.0').",
+                    "key": "sinkIp",
+                    "required": false,
+                    "title": "Sink IP address",
+                    "type": "kotlin.String",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "When enabled, a blocklist entry also matches its subdomains (entry 'example.com' matches 'a.example.com').",
+                    "key": "matchSubdomains",
+                    "required": false,
+                    "title": "Match subdomains",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": null,
