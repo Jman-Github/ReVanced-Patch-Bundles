@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.3-beta.1.5",
+    "version": "v1.9.3-beta.1.8",
     "patches": [
         {
             "category": null,
@@ -25,7 +25,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Kizu Twitch enhancements for Twitch 31.3.1. 1.9.3-beta.1.5 fixes the Morphe inline-smali syntax error from .1.4 and keeps Hide Create Clip isolated to Twitch's actual player ComposeView.",
+            "description": "Kizu Twitch enhancements for Twitch 31.3.1. 1.9.3-beta.1.8 binds the actual Create Clip ComposeView and legacy ImageView stored by Twitch's player overlay.",
             "name": "Twitch Enhancement"
         }
     ]

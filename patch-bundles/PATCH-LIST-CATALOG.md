@@ -254,7 +254,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Dumketo](#-dumketo-bundle-patch-list) | 8 | 4 | Generated |
 | [Benzophury](#-benzophury-bundle-patch-list) | 4 | 1 | Generated |
 | [PyFlat-JR](#-pyflat-jr-bundle-patch-list) | 4 | 3 | Generated |
-| [Dual-VoT](#-dual-vot-bundle-patch-list) | 170 | 4 | Generated |
+| [Dual-VoT](#-dual-vot-bundle-patch-list) | 171 | 4 | Generated |
 | [SmartLauncher](#-smartlauncher-bundle-patch-list) | 6 | 1 | Generated |
 | [Rahul9999xda-Telegram](#-rahul9999xda-telegram-bundle-patch-list) | 20 | 4 | Generated |
 | [6ixfalls](#-6ixfalls-bundle-patch-list) | 1 | 1 | Generated |
@@ -7907,7 +7907,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Dual-VoT Bundle Patch List:
 [📦 Dual-VoT-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-dual-vot-patches-bundle-morphe)
 <details>
-<summary><b>Dual-VoT</b> - 170 patches, 4 apps</summary>
+<summary><b>Dual-VoT</b> - 171 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7949,6 +7949,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Channel search``` | ```Adds an option to search inside the channel that is currently open instead of searching all of YouTube.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
 | ```Channel whitelist``` | ```Adds options to allow whitelisting specific channels to show ads or override playback speeds.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
 | ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
+| ```Copy text``` | ```Adds options to copy the video title and comments by tapping and holding them.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
 | ```Copy video link``` | ```Adds options to display buttons in the video player to copy video links.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
 | ```Custom branding``` | ```Adds options to change the app icon and app name. For mounted (root) installations the branding is applied while patching, because it cannot be changed from the app settings.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
 | ```Custom player overlay opacity``` | ```Adds an option to change the opacity of the video player background when player controls are visible.``` | ```YouTube``` | ```21.40.161, 21.39.522, 21.38.130, 21.28.208, 21.23.492, 21.16.256, 21.13.164, 20.51.39, 20.21.37``` |
@@ -11812,7 +11813,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1. 1.9.3-beta.1.5 fixes the Morphe inline-smali syntax error from .1.4 and keeps Hide Create Clip isolated to Twitch's actual player ComposeView.``` | ```Twitch``` | ```31.3.1``` |
+| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1. 1.9.3-beta.1.8 binds the actual Create Clip ComposeView and legacy ImageView stored by Twitch's player overlay.``` | ```Twitch``` | ```31.3.1``` |
 
 </details>
 ### 🧩 hushgram Bundle Patch List:
