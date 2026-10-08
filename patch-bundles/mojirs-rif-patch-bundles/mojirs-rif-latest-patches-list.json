@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0",
+    "version": "v1.5.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -20,7 +20,18 @@
                 "com.andrewshu.android.redditdonation": null
             },
             "dependencies": [],
-            "description": "Makes imgur albums work with the official ReVanced rif patches, which move album loading from rif's defunct proxy to imgur's v3 API: fixes the crash (or bounce back a page) caused by an invalid String.concat call in that code, and sends rif's imgur client ID with the album request (the proxy used to add it), so albums load reliably. Does nothing if that code isn't present.",
+            "description": "Makes videos posted in comments play in rif's video player instead of failing with \"error retrieving Reddit video metadata\".",
+            "name": "Fix comment video links",
+            "options": [],
+            "use": true
+        },
+        {
+            "compatiblePackages": {
+                "com.andrewshu.android.reddit": null,
+                "com.andrewshu.android.redditdonation": null
+            },
+            "dependencies": [],
+            "description": "Fixes imgur albums crashing or failing to load when patched alongside the official ReVanced rif patches. Does nothing without them.",
             "name": "Fix imgur albums",
             "options": [],
             "use": true

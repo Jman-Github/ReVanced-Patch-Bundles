@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-06T20:15:50",
-  "description": "**New:** support for **rif is fun golden platinum** (com.andrewshu.android.redditdonation) \u2014 Inline comment images + the ReVanced settings screen. (Platinum has no ads, so Disable ads stays free-only.)\n\n**New patch \u2014 Fix imgur albums:** imgur album posts and links no longer crash (or bounce back a page) and load reliably. Fixes a bug in the official ReVanced rif patch's imgur API code and sends rif's imgur client ID with album requests. Select it alongside the official Change OAuth client ID patch.\n\n**Inline comment images**\n- Multi-image imgur albums show an n/x badge, plus optional left/right navigation: tap the left/right third to cycle images, the middle to open the album (new setting: Inline album navigation).\n- Tapping an image under a [text](url) link now opens it.\n- Album links in comments open in rif's own album viewer again.\n- Fixed images on a new line after text clipping the line above.\n- More robust GIF animation.\n\n**Disable ads:** also removes ads in the album viewer.\n\n**Under the hood:** the extension no longer bundles an unused copy of the Kotlin library (bundle ~690 KB \u2192 ~70 KB); build fixes for fresh clones.",
-  "download_url": "https://github.com/MojiRS/revanced-rif-patches/releases/download/v1.4.0/patches.rvp",
+  "created_at": "2026-10-08T00:07:52",
+  "description": "### New\n- **Fix comment video links**: videos posted in comments play in rif's video player instead of failing with \"error retrieving Reddit video metadata\".\n- **Inline comment images**: long pressing an image selects its comment (*Long press image to select comment*, with a *Long press delay* slider).\n\n### Fixes\n- Inline images no longer run off the right edge in indented replies.\n- Shorter patch and setting descriptions.\n\nSupports rif is fun 5.6.22 (free and Golden Platinum). Add `patches.rvp` to ReVanced Manager, or use the raw URL in the README.",
+  "download_url": "https://github.com/MojiRS/revanced-rif-patches/releases/download/v1.5.0/patches.rvp",
   "signature_download_url": "N/A",
-  "version": "v1.4.0"
+  "version": "v1.5.0"
 }
