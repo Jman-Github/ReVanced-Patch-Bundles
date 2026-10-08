@@ -1,5 +1,5 @@
 {
-    "version": "v3.4.0",
+    "version": "v3.5.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -344,7 +344,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "When you open a chat, LINE does not mark it read or send a read receipt. \"Mark as read\" still works.",
             "name": "[Chat] Keep chats unread",
             "options": []
@@ -368,7 +370,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Keeps messages that others unsend in 1:1 and group chats, with a notice below each one. OpenChat is not covered.",
             "name": "[Chat] Keep unsent messages",
             "options": []
@@ -638,7 +642,36 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds \"Andrew's Patch Setting\" to LINE Settings, below \"Profile\". There you can turn some patches on or off without patching again, and see the credits and licenses.",
+            "name": "[General] Andrew's Patch Setting",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#06C755",
+                    "name": "LINE",
+                    "packageName": "jp.naver.line.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.14.0"
+                        }
+                    ],
+                    "versions": [
+                        "26.14.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "VOOM deep links, shares, and notifications do nothing. If you open the standalone VOOM feed, it closes. Messaging and the other tabs do not change.",
             "name": "[General] Disable VOOM",
             "options": []
@@ -766,7 +799,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Opens web links in your default browser instead of LINE's in-app browser. LIFF mini-apps and LINE links stay in LINE.",
             "name": "[General] Open links in external browser",
             "options": []
@@ -793,6 +828,30 @@
             "dependencies": [],
             "description": "Opens LINE Pay in the standalone LINE Pay app, so the integrity check that fails on a re-signed build never runs.",
             "name": "[General] Redirect LINE Pay",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#06C755",
+                    "name": "LINE",
+                    "packageName": "jp.naver.line.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.14.0"
+                        }
+                    ],
+                    "versions": [
+                        "26.14.0"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Makes LINE trust certificate authorities you install, so your own HTTPS proxy can read LIFF and mini-app web traffic. Bank and LINE Pay stay pinned. For debugging. Off by default.",
+            "name": "[General] Trust user-installed CAs",
             "options": []
         },
         {
@@ -1009,6 +1068,34 @@
             ],
             "default": false,
             "dependencies": [],
+            "description": "Keeps a reel playing in a small window when you leave Facebook from the Reels tab. Only vertical reels get a window. Needs Android 12 or later.",
+            "name": "[Reels] Picture-in-picture",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#0864FF",
+                    "name": "Facebook",
+                    "packageName": "com.facebook.katana",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 30,
+                            "version": "577.0.0.50.72",
+                            "versionCodes": {
+                                "ARM64_V8A": 474426275
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "577.0.0.50.72"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
             "description": "Keeps each story on the screen until you tap or swipe to the next one.",
             "name": "[Stories] Disable auto advance",
             "options": []
@@ -1126,7 +1213,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Removes the LINE TODAY (News) tab from the main bottom navigation, in both the news-tab and news-row layouts.",
             "name": "[Tab] Hide LINE TODAY tab",
             "options": []
@@ -1150,7 +1239,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Removes the Shopping tab from the main bottom navigation. This includes the Japan variant (Shopping, ショッピング) and the Taiwan variant (Discover, 逛逛).",
             "name": "[Tab] Hide Shopping tab",
             "options": []
@@ -1174,7 +1265,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Removes the VOOM (formerly Timeline) tab from the main bottom navigation.",
             "name": "[Tab] Hide VOOM tab",
             "options": []
@@ -1198,7 +1291,9 @@
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Removes the Wallet (LINE Pay) tab from the main bottom navigation, in both the normal and mini-tab layouts.",
             "name": "[Tab] Hide Wallet tab",
             "options": []
