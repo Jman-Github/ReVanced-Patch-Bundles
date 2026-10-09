@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.3-beta.32",
+    "version": "v1.9.3-beta.34",
     "patches": [
         {
             "category": null,
@@ -25,7 +25,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Kizu Twitch enhancements for Twitch 31.3.1. Beta.32 keeps full deleted-message diagnostics in logs and uses short on-screen status messages.",
+            "description": "Kizu Twitch enhancements for Twitch 31.3.1. Beta.34 applies deleted-message styling at Twitch's formatter boundary and preserves native Mod style handling.",
             "name": "Twitch Enhancement",
             "options": []
         }
