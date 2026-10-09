@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-08T16:39:16",
-  "description": "Uses official MorpheApp MicroG-RE 7.2.1 and prefers readable synthesized navigation speech while retaining Maps' existing audio fallback and voice selection.\n\nOur Maps sign-in and location fixes were merged upstream in [MicroG-RE PR #272](https://github.com/MorpheApp/MicroG-RE/pull/272) and are included in 7.2.1. We now use the official provider; the separate BYD fork is no longer maintained.\n\n- Resolves navigation TTS hooks generically and rejects ambiguous or unrecognized layouts.\n- Adds BYD setup instructions and a download link for [patched Google TTS](https://github.com/fangkampanat/google-tts-microg).\n\nDownload `patches-1.2.2.mpp` below, or refresh this repository's source in Morphe Desktop. Patch a clean Google Maps APK with **Google Maps for MicroG-RE**.\n\nThe latest tested Maps version is `26.39.06.984891338`: static checks passed, and the user confirmed normal use and TTS on BYD DiLink 3.0 / Android 10 / ARM64 / 4 KiB pages. Separate recorded BYD tests covered Thai street-name speech, English place-name speech and speech after vehicle restart. Other firmware, 16 KiB devices, English-script street-name maneuvers and automatic voice timing while driving remain unverified.\n\nFor voice downloads, use the exact MicroG-RE APK specified in the TTS guide. On BYD, turn OFF **Disable Autostart** for MicroG RE and Google TTS, then download Thai and English (US) voices. See the [setup guide](https://github.com/fangkampanat/gmaps-patches#install-microg-re).\n\nThanks to [rananga](https://github.com/rananga) for the navigation TTS approach proposed in [PR #8](https://github.com/fangkampanat/gmaps-patches/pull/8).\n",
-  "download_url": "https://github.com/fangkampanat/gmaps-patches/releases/download/v1.2.2/patches-1.2.2.mpp",
+  "created_at": "2026-10-09T10:45:21",
+  "description": "- Reuse Morphe Patches Library 1.4.1 helpers and share invoke-register handling between Maps and TTS hooks.\n- Add method, opcode, register and branch details to navigation TTS layout errors.\n",
+  "download_url": "https://github.com/fangkampanat/gmaps-patches/releases/download/v1.2.3/patches-1.2.3.mpp",
   "signature_download_url": "N/A",
-  "version": "v1.2.2"
+  "version": "v1.2.3"
 }
