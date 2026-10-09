@@ -351,7 +351,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Morphe-Google-Photos](#-morphe-google-photos-bundle-patch-list) | 13 | 1 | Generated |
 | [Mighty-Michs](#-mighty-michs-bundle-patch-list) | 40 | 35 | Generated |
 | [Newuser7171-Telegram](#-newuser7171-telegram-bundle-patch-list) | 20 | 4 | Generated |
-| [365Score](#-365score-bundle-patch-list) | 47 | 2 | Generated |
+| [365Score](#-365score-bundle-patch-list) | 5 | 1 | Generated |
 | [PixelBoard](#-pixelboard-bundle-patch-list) | - | - | Pending patch list |
 | [CK-Zombies](#-ck-zombies-bundle-patch-list) | 8 | 1 | Generated |
 | [HushFacebook](#-hushfacebook-bundle-patch-list) | 85 | 1 | Generated |
@@ -11318,57 +11318,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 365Score Bundle Patch List:
 [📦 365Score-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-365score-patches-bundle-morphe)
 <details>
-<summary><b>365Score</b> - 47 patches, 2 apps</summary>
+<summary><b>365Score</b> - 5 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Block update screen``` | ```Blocks the 'This app is out of date' update screen and popup on launch.``` | ```com.scores365``` | ```14.9.5``` |
-| ```Change version code``` | ```Changes the version code of 365Score to prevent forced updates and Play Store overwrites.``` | ```com.scores365``` | ```14.9.5``` |
-| ```Disable ads``` | ```Removes banner and interstitial advertisements from 365Score activities.``` | ```com.scores365``` | ```14.9.5``` |
-| ```Disable analytics``` | ```Removes analytics and tracking SDK initialization and logging (AppsFlyer, Firebase Analytics) from 365Score.``` | ```com.scores365``` | ```14.9.5``` |
-| ```Unlock premium``` | ```Unlocks 365Score premium features (ad-free, tipster, plus, notification sounds) without a subscription.``` | ```com.scores365``` | ```14.9.5``` |
-| ```Always show publish date``` | ```Always shows the publish date in video author information. Thanks to lyyako for the original implementation.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Comment sort controls``` | ```Exposes TikTok's native full comment-sort sheet, including its hot, time, media, and creator modes, instead of relying on rollout gates.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Copy comments without username``` | ```Copies only the comment text without including the creator's username.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Custom offline videos limit``` | ```Adds a custom entry to TikTok's offline videos menu with a configurable limit from 1 to 1000 videos.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Diagnostic tools``` | ```Adds diagnostic logging, crash capture, reports, and an optional rolling feed debugger.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Disable login requirement``` | ```Removes TikTok's mandatory login gate from supported flows.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Disable long-press quick share``` | ```Keeps long-pressing Share from opening TikTok's quick-share interaction.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Disable long-press repost``` | ```Keeps holding Like from opening TikTok's repost action.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Disable screen capture detection``` | ```Disables capture detection and secure-window screenshot protection, including Circle to Search blocking.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Downloads``` | ```Adds watermark-free downloads, video quality selection, comment sticker saving, configurable folders, and filename templates.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Enable Live search``` | ```Shows TikTok's search entry in the Live drawer where supported.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Enable non-personalized search``` | ```Uses TikTok's non-personalized search mode instead of its saved account choice.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Enable voice comments``` | ```Enables TikTok's native voice-comment recording and publishing entry points.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Feature Gate Lab``` | ```Adds a menu for viewing and overriding supported TikTok feature flags and configuration values.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Feed filter``` | ```Hides feed ads, TikTok Shop items, livestreams, stories, photo posts, and videos outside configured view or like ranges.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Feed tab navigation``` | ```Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, and can hide the Tako AI bubble.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Fix Google login``` | ```Restores Google account sign-in after patching.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Foldable split comment view``` | ```Forces TikTok's tablet-style split layout (video beside comments instead of a bottom sheet) once the screen is at least as wide as a configurable threshold, for foldables TikTok doesn't already recognize as tablet-class.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Force show Auto scroll``` | ```Adds a setting that bypasses TikTok's rollout gates for its native Auto scroll action on supported videos.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Hide AI content``` | ```Hides posts marked as AI-generated or AI-modified by TikTok or their creators. Unmarked AI content may still appear.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Hide CAPTCHA popups``` | ```Adds a default-off setting to hide browsing and LIVE puzzle dialogs while preserving login and account verification.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Hide feed follow button``` | ```Adds an option to hide the + follow button below creator avatars in video feeds.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Hide feed LIVE button``` | ```Adds an option to hide the LIVE button at the top left of video feeds.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Hide feed save button``` | ```Adds an option to hide the save/favourites button from video feeds.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Hide feed search button``` | ```Adds an option to hide the search button at the top right of video feeds.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Hide floating promotions``` | ```Removes floating promotional badges, coin icons, and timer banners from the Home feed.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Hide FYP unpersonalized slop videos``` | ```Hides certain batches of unpersonalized slop posts that appear in your For You feed.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Hide quick comment reactions``` | ```Hides TikTok's exposed quick emoji row in supported comment inputs.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Hide suggested accounts``` | ```Removes suggested-account cards from profile and inbox surfaces. Thanks to tymmesyde for the original implementation.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Hold-and-slide 2x lock``` | ```Enables TikTok's native hold, slide down, and release gesture to lock 2x speed.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Open external links directly``` | ```Opens profile and story website links in the system browser instead of TikTok's in-app browser. Thanks to lyyako for the original implementation.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Playback speed``` | ```Enables playback-speed controls for all videos and remembers the selected speed between videos.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Region spoof``` | ```Adds in-app controls for changing the region TikTok reads.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Remember clear display``` | ```Remembers TikTok's clear-display state between videos.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Resume videos after scrolling``` | ```Continues supported videos from where playback stopped when returning after a scroll.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Sanitize sharing links``` | ```Removes tracking parameters from TikTok links before they are shared.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Settings``` | ```Adds the Metra patches settings menu to TikTok. Supports TikTok 46.2.3.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Share sheet modification``` | ```Adds toggles and allow-lists for the video share sheet's "Send to", "Share via app", and "Video Actions" sections.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Show seekbar``` | ```Shows TikTok's native video seekbar where it would normally be hidden.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Show seekbar thumbnail``` | ```Shows TikTok's video preview thumbnail while dragging the seekbar.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Stop video looping``` | ```Stops videos at the end instead of replaying them.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
-| ```Translate comments``` | ```Adds comment translation controls using TikTok's translation system, with selectable language exclusions.``` | ```com.zhiliaoapp.musically``` | ```46.2.3``` |
+| ```Block update screen``` | ```Blocks the 'This app is out of date' update screen and popup on launch.``` | ```365Scores``` | ```14.9.5``` |
+| ```Change version code``` | ```Changes the version code of 365Score to prevent forced updates and Play Store overwrites.``` | ```365Scores``` | ```14.9.5``` |
+| ```Disable ads``` | ```Removes banner and interstitial advertisements from 365Score activities.``` | ```365Scores``` | ```14.9.5``` |
+| ```Disable analytics``` | ```Removes analytics and tracking SDK initialization and logging (AppsFlyer, Firebase Analytics) from 365Score.``` | ```365Scores``` | ```14.9.5``` |
+| ```Unlock premium``` | ```Unlocks 365Score premium features (ad-free, tipster, plus, notification sounds) without a subscription.``` | ```365Scores``` | ```14.9.5``` |
 
 </details>
 
