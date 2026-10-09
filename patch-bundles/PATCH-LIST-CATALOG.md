@@ -11086,7 +11086,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Unlock Premium``` | ```Unlocks all premium features``` | ```Privacy Kit``` | ```2.0.5``` |
+| ```Unlock Premium``` | ```Unlocks all premium features``` | ```Privacy Kit``` | ```2.0.5, 2.2, 2.3.1, 3.2, 3.4, 3.5, 3.5.1``` |
 
 </details>
 
