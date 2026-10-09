@@ -1,5 +1,5 @@
 {
-    "version": "v1.4.0",
+    "version": "v1.5.1",
     "patches": [
         {
             "category": "Features",
@@ -335,6 +335,15 @@
                     "key": "hideAmazonDeals",
                     "required": false,
                     "title": "Hide Amazon Deals",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides the Pay Later Anywhere shortcut from the Your Shortcuts carousel.",
+                    "key": "hidePayLaterAnywhere",
+                    "required": false,
+                    "title": "Hide Pay Later Anywhere",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
@@ -1150,6 +1159,32 @@
             "dependencies": [],
             "description": "Removes Rewards navigation while keeping Account's Sezzle Points item and routing the Home shortcut to the same page.",
             "name": "Remove Rewards",
+            "options": []
+        },
+        {
+            "category": "Interface",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#5C2C94",
+                    "name": "Sezzle",
+                    "packageName": "com.sezzle.sezzlemobile",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "5.3.9"
+                        }
+                    ],
+                    "versions": [
+                        "5.3.9"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Removes references to Sezzle Anywhere and Sezzle Premium subscriptions in Account benefits, Wallet, and Orders help.",
+            "name": "Remove Sezzle Subscriptions",
             "options": []
         },
         {
