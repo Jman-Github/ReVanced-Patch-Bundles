@@ -8072,7 +8072,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Change miniplayer color``` | ```Adds an option to change the miniplayer background color to match the fullscreen player.``` | ```YouTube Music``` | ```9.40.51, 9.39.52, 9.38.51, 9.20.53, 9.15.51``` |
 | ```Change start page``` | ```Adds an option to set which page the app opens in instead of the homepage.``` | ```YouTube Music``` | ```9.40.51, 9.39.52, 9.38.51, 9.20.53, 9.15.51``` |
 | ```Check watch history domain name resolution``` | ```Checks if the device DNS server is preventing user watch history from being saved.``` | ```YouTube Music``` | ```9.40.51, 9.39.52, 9.38.51, 9.20.53, 9.15.51``` |
-| ```Crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.``` | ```YouTube Music``` | ```9.40.51, 9.39.52, 9.38.51, 9.20.53, 9.15.51``` |
+| ```Crossfade``` | ```Adds a true dual-player crossfade between consecutive tracks.``` | ```YouTube Music``` | ```9.40.51, 9.39.52, 9.38.51, 9.20.53, 9.15.51``` |
 | ```Custom branding``` | ```Adds options to change the app icon and app name. For mounted (root) installations the branding is applied while patching, because it cannot be changed from the app settings.``` | ```YouTube Music``` | ```9.40.51, 9.39.52, 9.38.51, 9.20.53, 9.15.51``` |
 | ```Disable dislike redirection``` | ```Adds an option to prevent skipping to the next track when the dislike button is pressed.``` | ```YouTube Music``` | ```9.40.51, 9.39.52, 9.38.51, 9.20.53, 9.15.51``` |
 | ```Disable DRC audio``` | ```Adds an option to disable DRC (Dynamic Range Compression) audio.``` | ```YouTube Music``` | ```9.40.51, 9.39.52, 9.38.51, 9.20.53, 9.15.51``` |

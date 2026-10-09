@@ -1,5 +1,5 @@
 {
-    "version": "v1.12.0",
+    "version": "v1.13.0",
     "patches": [
         {
             "category": null,
@@ -1039,6 +1039,41 @@
                     "required": true,
                     "title": "Undo period",
                     "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "name": "X",
+                    "packageName": "com.twitter.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "12.32.0-prod.01"
+                        }
+                    ],
+                    "versions": [
+                        "12.32.0-prod.01"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds feed filters to timelines: media only (images, videos, GIFs), hide followed profiles, and include/exclude keyword filtering. Toggle each filter from the Morphe settings.",
+            "name": "Feed filters",
+            "options": [
+                {
+                    "default": [],
+                    "description": "When set, only posts containing at least one of these are shown. Edit in the app.",
+                    "key": "includeKeywords",
+                    "required": false,
+                    "title": "Initial include keywords",
+                    "type": "kotlin.collections.List<kotlin.String>",
                     "values": null
                 }
             ]

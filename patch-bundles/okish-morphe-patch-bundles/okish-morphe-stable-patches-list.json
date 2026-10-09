@@ -1,5 +1,5 @@
 {
-    "version": "v1.40.0",
+    "version": "v1.41.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -1811,7 +1811,31 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Removes all ads. No more forced ads between levels, no banners. When the game offers a reward for watching an ad, you still get the reward.",
+            "description": "Watch-ad offers grant their reward instantly with no ad. Forced interstitials stay gone.",
+            "name": "Swamp Attack 2: Instant Rewarded Ads",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#4C7A26",
+                    "name": "Swamp Attack 2",
+                    "packageName": "com.hyperdotstudios.swampattack2",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.3.9"
+                        }
+                    ],
+                    "versions": [
+                        "1.3.9"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes forced ads. No more ads between levels, no banners.",
             "name": "Swamp Attack 2: Remove Ads",
             "options": []
         },
@@ -1835,32 +1859,8 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Unlimited coins and gems. Buying things never lowers your balance, you earn 10x more, and your wallet always shows 99,999,999. Also removes ads and gives ad rewards instantly. Note: the number shown in the game doesn't matter — whatever it displays, your currency is unlimited. If it ever changes or looks wrong, simply restart the game and the currency will be unlimited again.",
-            "name": "Swamp Attack 2: Unlimited Currency Engine",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "XAPK",
-                    "appIconColor": "#4C7A26",
-                    "name": "Swamp Attack 2",
-                    "packageName": "com.hyperdotstudios.swampattack2",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "1.3.9"
-                        }
-                    ],
-                    "versions": [
-                        "1.3.9"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Starts the Unlimited Currency helper when the game opens. Required for the Unlimited Currency Engine to work.",
-            "name": "Swamp Attack 2: Unlimited Currency Trigger",
+            "description": "Never run out of coins, gems or other resources. Buying things never lowers your balance. Note: ignore the coins/diamonds value shown — even if it shows less than the item price, just tap the item and it will be granted.",
+            "name": "Swamp Attack 2: Unlimited Currency",
             "options": []
         },
         {
