@@ -285,7 +285,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Hari-Telegram](#-hari-telegram-bundle-patch-list) | 20 | 3 | Generated |
 | [Travian](#-travian-bundle-patch-list) | 2 | 1 | Generated |
 | [HelioFloxZ](#-heliofloxz-bundle-patch-list) | 2 | 1 | Generated |
-| [Ahmedyarub](#-ahmedyarub-bundle-patch-list) | 57 | 3 | Generated |
+| [Ahmedyarub](#-ahmedyarub-bundle-patch-list) | 58 | 3 | Generated |
 | [Epxec](#-epxec-bundle-patch-list) | 16 | 15 | Generated |
 | [Dhrubonai](#-dhrubonai-bundle-patch-list) | 46 | 25 | Generated |
 | [PixivPatches](#-pixivpatches-bundle-patch-list) | 8 | 1 | Generated |
@@ -925,9 +925,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Free Store``` | ```Everything in the shop is granted instantly and free — double coins, more gifts and the any-purchase perks — with no Google Play payment screen, no account and nothing charged.``` | ```Swamp Attack``` | ```4.8.7.0``` |
 | ```Instant Rewards``` | ```Rewarded videos give their reward instantly — no ad ever plays. Free revive, double coins, free items, etc. all work without watching anything.``` | ```Swamp Attack``` | ```4.8.7.0``` |
 | ```Remove Ads``` | ```Forced ads are gone for good — interstitials never load or show, even offline and regardless of server settings. Rewarded videos you choose to watch still work.``` | ```Swamp Attack``` | ```4.8.7.0``` |
-| ```Swamp Attack 2: Remove Ads``` | ```Removes all ads. No more forced ads between levels, no banners. When the game offers a reward for watching an ad, you still get the reward.``` | ```Swamp Attack 2``` | ```1.3.9``` |
-| ```Swamp Attack 2: Unlimited Currency Engine``` | ```Unlimited coins and gems. Buying things never lowers your balance, you earn 10x more, and your wallet always shows 99,999,999. Also removes ads and gives ad rewards instantly. Note: the number shown in the game doesn't matter — whatever it displays, your currency is unlimited. If it ever changes or looks wrong, simply restart the game and the currency will be unlimited again.``` | ```Swamp Attack 2``` | ```1.3.9``` |
-| ```Swamp Attack 2: Unlimited Currency Trigger``` | ```Starts the Unlimited Currency helper when the game opens. Required for the Unlimited Currency Engine to work.``` | ```Swamp Attack 2``` | ```1.3.9``` |
+| ```Swamp Attack 2: Instant Rewarded Ads``` | ```Watch-ad offers grant their reward instantly with no ad. Forced interstitials stay gone.``` | ```Swamp Attack 2``` | ```1.3.9``` |
+| ```Swamp Attack 2: Remove Ads``` | ```Removes forced ads. No more ads between levels, no banners.``` | ```Swamp Attack 2``` | ```1.3.9``` |
+| ```Swamp Attack 2: Unlimited Currency``` | ```Never run out of coins, gems or other resources. Buying things never lowers your balance. Note: ignore the coins/diamonds value shown — even if it shows less than the item price, just tap the item and it will be granted.``` | ```Swamp Attack 2``` | ```1.3.9``` |
 | ```Swift Backup Premium Unlock``` | ```Unlocks all Premium features.``` | ```Swift Backup``` | ```5.1.0``` |
 | ```Swift Backup Tamper Protection``` | ```Stops the app from closing itself on patched installs.``` | ```Swift Backup``` | ```5.1.0``` |
 | ```Swift Backup Web Login``` | ```Makes Google sign-in work for connecting cloud accounts.``` | ```Swift Backup``` | ```5.1.0``` |
@@ -7138,7 +7138,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Video Fit``` | ```Adjusts video display aspect ratio across feeds and story cells: 'fit' ensures the entire video is visible without cropping, or 'fill' expands the video to fill the screen.``` | ```TikTok``` | ```47.1.4``` |
 | ```Video Quality Governor``` | ```Caps video playback resolution (1080p, 720p, 540p, 480p, 360p) to conserve battery, GPU/MediaCodec load, and mobile data. Download quality is controlled separately by the Media Usability patch (downloadQuality).``` | ```TikTok``` | ```47.1.4``` |
 | ```Voice & Speech Engine De-bloat``` | ```Strips on-device voice recognition and speech synthesis engines (libspeechspg.so, libspeechsdk.so) and their loader stubs (libspeechengine.so, libspeechepg.so) to save APK space. Breaks voice search (microphone button), voice input, and editor text-to-speech/sing features.``` | ```TikTok``` | ```47.1.4``` |
-| ```APK Junk Cleaner``` | ```Strips non-functional build metadata, compiler properties, Kotlin coroutines debug tables, and duplicate license texts from META-INF and APK root.``` | ```Universal``` | ```All versions``` |
+| ```APK Junk Cleaner``` | ```Strips non-functional build metadata, compiler properties, Kotlin coroutines debug tables, and duplicate license texts from META-INF and APK root while preserving kotlin/*.kotlin_builtins runtime descriptors.``` | ```Universal``` | ```All versions``` |
 | ```Background Sync & JobScheduler Purge``` | ```Strips RECEIVE_BOOT_COMPLETED and disables boot, package-replacement, and periodic background sync receivers and services in AndroidManifest.xml to eliminate background wakeups and conserve battery.``` | ```Universal``` | ```All versions``` |
 | ```DPI Resource Slimmer``` | ```Strips unselected screen density resource directories from res/ (e.g. drawable-mdpi, drawable-hdpi, mipmap-xhdpi). Density-independent resources (nodpi, anydpi) and orphan resources are safely preserved in-situ.``` | ```Universal``` | ```All versions``` |
 | ```Locale Resource Slimmer``` | ```Strips unselected language translation directories from res/ (e.g. values-*, raw-*, xml-*). Base fallback resources with no language qualifiers are always preserved.``` | ```Universal``` | ```All versions``` |
@@ -8804,7 +8804,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Ahmedyarub Bundle Patch List:
 [📦 Ahmedyarub-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ahmedyarub-patches-bundle-morphe)
 <details>
-<summary><b>Ahmedyarub</b> - 57 patches, 3 apps</summary>
+<summary><b>Ahmedyarub</b> - 58 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -8843,6 +8843,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable debug menu for posts``` | ```Adds "Post data" to the post menu: everything the app knows about the post, as text.``` | ```X``` | ```12.32.0-prod.01``` |
 | ```Enable force HD videos``` | ```Always plays videos at the highest quality the device supports, whatever the connection.``` | ```X``` | ```12.32.0-prod.01``` |
 | ```Enable Undo Posts``` | ```Holds each post for a few seconds before sending it, so it can be undone.``` | ```X``` | ```12.32.0-prod.01``` |
+| ```Feed filters``` | ```Adds feed filters to timelines: media only (images, videos, GIFs), hide followed profiles, and include/exclude keyword filtering. Toggle each filter from the Morphe settings.``` | ```X``` | ```12.32.0-prod.01``` |
 | ```Filter posts by keyword``` | ```Hides posts whose text contains any of your keywords, ignoring case. Edit the keywords from "Filtered keywords" in any post's menu, or in the Morphe settings.``` | ```X``` | ```12.32.0-prod.01``` |
 | ```Force enable translate``` | ```Offers to translate every post, not only those the server marks translatable.``` | ```X``` | ```12.32.0-prod.01``` |
 | ```Handle custom twitter links``` | ```Opens links to other X frontends, such as fxtwitter and vxtwitter, in the app. They have to be enabled under "Open by default" in the app's system settings.``` | ```X``` | ```12.32.0-prod.01``` |

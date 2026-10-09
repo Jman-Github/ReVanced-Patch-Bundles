@@ -1,5 +1,5 @@
 {
-    "version": "v2.6.0-experimental.14",
+    "version": "v2.6.0-experimental.15",
     "patches": [
         {
             "compatiblePackages": [
@@ -81,7 +81,7 @@
             "compatiblePackages": null,
             "default": false,
             "dependencies": [],
-            "description": "Strips non-functional build metadata, compiler properties, Kotlin coroutines debug tables, and duplicate license texts from META-INF and APK root.",
+            "description": "Strips non-functional build metadata, compiler properties, Kotlin coroutines debug tables, and duplicate license texts from META-INF and APK root while preserving kotlin/*.kotlin_builtins runtime descriptors.",
             "name": "APK Junk Cleaner",
             "options": []
         },
