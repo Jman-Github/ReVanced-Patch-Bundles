@@ -285,7 +285,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Hari-Telegram](#-hari-telegram-bundle-patch-list) | 20 | 3 | Generated |
 | [Travian](#-travian-bundle-patch-list) | 2 | 1 | Generated |
 | [HelioFloxZ](#-heliofloxz-bundle-patch-list) | 2 | 1 | Generated |
-| [Ahmedyarub](#-ahmedyarub-bundle-patch-list) | 58 | 3 | Generated |
+| [Ahmedyarub](#-ahmedyarub-bundle-patch-list) | 59 | 3 | Generated |
 | [Epxec](#-epxec-bundle-patch-list) | 16 | 15 | Generated |
 | [Dhrubonai](#-dhrubonai-bundle-patch-list) | 46 | 25 | Generated |
 | [PixivPatches](#-pixivpatches-bundle-patch-list) | 8 | 1 | Generated |
@@ -8819,7 +8819,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Ahmedyarub Bundle Patch List:
 [📦 Ahmedyarub-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ahmedyarub-patches-bundle-morphe)
 <details>
-<summary><b>Ahmedyarub</b> - 58 patches, 3 apps</summary>
+<summary><b>Ahmedyarub</b> - 59 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -8836,6 +8836,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Improve image viewing``` | ```Requests the maximum resolution images from the server.``` | ```Instagram``` | ```450.0.0.50.77``` |
 | ```Make ephemeral media permanent``` | ```Changes unexpired view once, view twice media to permanent view.``` | ```Instagram``` | ```450.0.0.50.77``` |
 | ```Open links externally``` | ```Opens links in the system browser instead of the in-app browser.``` | ```Instagram``` | ```450.0.0.50.77``` |
+| ```Reorder menu options``` | ```Moves Interested and Not Interested to the top of the post menu.``` | ```Instagram``` | ```450.0.0.50.77``` |
 | ```Sanitize share links``` | ```Removes tracking parameters from links shared out of the app.``` | ```Instagram``` | ```450.0.0.50.77``` |
 | ```Save deleted messages``` | ```Keeps a local copy of incoming DMs so ones the sender deletes stay readable. Messages are stored unencrypted in the app's private storage.``` | ```Instagram``` | ```450.0.0.50.77``` |
 | ```Remove Reddit Pro section``` | ```Removes the Reddit Pro section from the community drawer, and the Reddit Pro promos: the post creation and subreddit join upsell sheets, and the Reddit Pro banner on the profile feed.``` | ```Reddit``` | ```2026.37.0``` |
@@ -11878,7 +11879,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1, including Twitch's native live Video Stats panel beside single-tap Reload Stream, landscape brightness and full-range media-volume gestures, and a verified early parent-interception guard for configurable swipe-to-portrait collapse prevention.``` | ```Twitch``` | ```31.3.1``` |
+| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1. Beta.30 tests class-filtered direct-return recovery for deleted-message styling.``` | ```Twitch``` | ```31.3.1``` |
 
 </details>
 ### 🧩 hushgram Bundle Patch List:

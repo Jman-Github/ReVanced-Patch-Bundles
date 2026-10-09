@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.0",
+    "version": "v1.14.0-dev.1",
     "patches": [
         {
             "category": null,
@@ -344,7 +344,7 @@
                     "values": null
                 },
                 {
-                    "default": false,
+                    "default": true,
                     "description": null,
                     "key": "hideGrok",
                     "required": false,
@@ -700,7 +700,7 @@
                     "values": null
                 },
                 {
-                    "default": false,
+                    "default": true,
                     "description": null,
                     "key": "hideGrok",
                     "required": false,
@@ -1161,6 +1161,15 @@
                     "key": "hideHighlightStories",
                     "required": false,
                     "title": "Hide highlights",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Hides \"Add Yours\" / \"Your Turn\" stories from the story tray.",
+                    "key": "hideYourTurnStories",
+                    "required": false,
+                    "title": "Hide \"Your Turn\" stories",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
@@ -1837,6 +1846,31 @@
             "dependencies": [],
             "description": "Removes the Resources and Games on Reddit sections from the community drawer.",
             "name": "Remove Resources and Games on Reddit sections",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#E1306C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "450.0.0.50.77"
+                        }
+                    ],
+                    "versions": [
+                        "450.0.0.50.77"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Moves Interested and Not Interested to the top of the post menu.",
+            "name": "Reorder menu options",
             "options": []
         },
         {
