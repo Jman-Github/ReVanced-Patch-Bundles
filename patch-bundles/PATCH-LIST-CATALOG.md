@@ -340,7 +340,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Belkart-Pay](#-belkart-pay-bundle-patch-list) | - | - | Pending patch list |
 | [Cingxcong-Telegram](#-cingxcong-telegram-bundle-patch-list) | 18 | 3 | Generated |
 | [SBS-TV](#-sbs-tv-bundle-patch-list) | 4 | 1 | Generated |
-| [Rahaaatul](#-rahaaatul-bundle-patch-list) | 1 | 1 | Generated |
+| [Rahaaatul](#-rahaaatul-bundle-patch-list) | 2 | 2 | Generated |
 | [NS1207-Template](#-ns1207-template-bundle-patch-list) | 1 | 1 | Generated |
 | [Mahirsn](#-mahirsn-bundle-patch-list) | 1 | 1 | Generated |
 | [SBS](#-sbs-bundle-patch-list) | 3 | 1 | Generated |
@@ -11083,11 +11083,12 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Rahaaatul Bundle Patch List:
 [📦 Rahaaatul-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-rahaaatul-patches-bundle-morphe)
 <details>
-<summary><b>Rahaaatul</b> - 1 patch, 1 app</summary>
+<summary><b>Rahaaatul</b> - 2 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Unlock Premium``` | ```Unlocks all premium features``` | ```Privacy Kit``` | ```2.0.5, 2.2, 2.3.1, 3.2, 3.4, 3.5, 3.5.1``` |
+| ```Unlock VPN Plus``` | ```Unlocks Plus features and routes connections through free servers``` | ```Proton VPN``` | ```5.19.99.0, 5.20.8.0, 5.20.21.0, 5.20.39.0, 5.20.57.0``` |
 
 </details>
 
@@ -11894,7 +11895,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1. Beta 4.1 fixes the player Reload Stream control visibility.``` | ```Twitch``` | ```31.3.1``` |
+| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1, including a single-tap Reload Stream button immediately left of Mute. Reload is included inside this one Twitch Enhancement bundle.``` | ```Twitch``` | ```31.3.1``` |
 
 </details>
 ### 🧩 hushgram Bundle Patch List:

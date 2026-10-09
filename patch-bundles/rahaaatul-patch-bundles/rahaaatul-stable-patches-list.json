@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.1",
+    "version": "v1.1.0",
     "patches": [
         {
             "category": null,
@@ -54,6 +54,81 @@
             "dependencies": [],
             "description": "Unlocks all premium features",
             "name": "Unlock Premium",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#6D4AFF",
+                    "name": "Proton VPN",
+                    "packageName": "ch.protonvpn.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.19.99.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 605199900,
+                                "ARMEABI_V7A": 605199900,
+                                "X86": 605199900,
+                                "X86_64": 605199900
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.20.8.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 605200800,
+                                "ARMEABI_V7A": 605200800,
+                                "X86": 605200800,
+                                "X86_64": 605200800
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.20.21.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 605202100,
+                                "ARMEABI_V7A": 605202100,
+                                "X86": 605202100,
+                                "X86_64": 605202100
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.20.39.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 605203900,
+                                "ARMEABI_V7A": 605203900,
+                                "X86": 605203900,
+                                "X86_64": 605203900
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "5.20.57.0",
+                            "versionCodes": {
+                                "ARM64_V8A": 605205700,
+                                "ARMEABI_V7A": 605205700,
+                                "X86": 605205700,
+                                "X86_64": 605205700
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "5.19.99.0",
+                        "5.20.8.0",
+                        "5.20.21.0",
+                        "5.20.39.0",
+                        "5.20.57.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Plus features and routes connections through free servers",
+            "name": "Unlock VPN Plus",
             "options": []
         }
     ]
