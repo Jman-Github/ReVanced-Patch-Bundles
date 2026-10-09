@@ -12221,7 +12221,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Change package name``` | ```Changes the package to com.zhiliaoapp.musically.filtered and the app name to TikTok Filtered.``` | ```com.zhiliaoapp.musically``` | ```47.1.4``` |
-| ```Hide ads``` | ```Removes sponsored feed items and preloaded feed ads.``` | ```com.zhiliaoapp.musically``` | ```47.1.4``` |
+| ```Hide ads``` | ```Removes ads, paid partnerships and disclosed promotional content from feeds.``` | ```com.zhiliaoapp.musically``` | ```47.1.4``` |
 | ```Hide Shop videos``` | ```Removes product-linked videos and shopping live promotions from feeds.``` | ```com.zhiliaoapp.musically``` | ```47.1.4``` |
 | ```Enable downloads``` | ```Enables saving videos and photos whose download permission disables or hides the action.``` | ```com.zhiliaoapp.musically, com.zhiliaoapp.musically.filtered``` | ```47.1.4, 47.1.4``` |
 | ```Fix device registration``` | ```Fixes device registration for the filtered package name without requiring the original app.``` | ```com.zhiliaoapp.musically, com.zhiliaoapp.musically.filtered``` | ```47.1.4, 47.1.4``` |

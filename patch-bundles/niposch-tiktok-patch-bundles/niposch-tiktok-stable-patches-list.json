@@ -1,5 +1,5 @@
 {
-    "version": "v1.2.0",
+    "version": "v1.4.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -57,7 +57,7 @@
             "dependencies": [
                 "Patch"
             ],
-            "description": "Removes sponsored feed items and preloaded feed ads.",
+            "description": "Removes ads, paid partnerships and disclosed promotional content from feeds.",
             "name": "Hide ads",
             "options": [],
             "use": true
