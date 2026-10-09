@@ -326,7 +326,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Akshay-Pixel-Camera](#-akshay-pixel-camera-bundle-patch-list) | 8 | 1 | Generated |
 | [Wagg13](#-wagg13-bundle-patch-list) | 8 | 6 | Generated |
 | [Anilili](#-anilili-bundle-patch-list) | 1 | 1 | Generated |
-| [Aidans](#-aidans-bundle-patch-list) | 51 | 8 | Generated |
+| [Aidans](#-aidans-bundle-patch-list) | 52 | 8 | Generated |
 | [Gboard-ENC](#-gboard-enc-bundle-patch-list) | 3 | 1 | Generated |
 | [Dhl0](#-dhl0-bundle-patch-list) | 13 | 5 | Generated |
 | [Virzak](#-virzak-bundle-patch-list) | 5 | 1 | Generated |
@@ -10787,7 +10787,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Aidans Bundle Patch List:
 [📦 Aidans-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-aidans-patches-bundle-morphe)
 <details>
-<summary><b>Aidans</b> - 51 patches, 8 apps</summary>
+<summary><b>Aidans</b> - 52 patches, 8 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -10831,6 +10831,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove Ads and Tracking from JS Bundle``` | ```Neutralizes post-payment reward and offer modals (Thanks network and Rokt placements) in the embedded Hermes JavaScript bundle.``` | ```Sezzle``` | ```5.3.9``` |
 | ```Remove Promos & Giveaways``` | ```Blocks in-app deal popups, giveaway screens, Knot card-linking dialogs, and marketing banners across the app.``` | ```Sezzle``` | ```5.3.9``` |
 | ```Remove Rewards``` | ```Removes Rewards navigation while keeping Account's Sezzle Points item and routing the Home shortcut to the same page.``` | ```Sezzle``` | ```5.3.9``` |
+| ```Remove Sezzle Subscriptions``` | ```Removes references to Sezzle Anywhere and Sezzle Premium subscriptions in Account benefits, Wallet, and Orders help.``` | ```Sezzle``` | ```5.3.9``` |
 | ```Replace AI Discover with Products``` | ```Replaces the AI Discover navigation tab with Sezzle's original non-AI Products tab and removes the Sezzle AI callout in search. Includes an option to remove the Products tab completely.``` | ```Sezzle``` | ```5.3.9``` |
 | ```Replace Shop with Home``` | ```Replaces the Shop bottom navigation tab with Home, a custom screen to replace the overly-commercial Shop screen.``` | ```Sezzle``` | ```5.3.9``` |
 | ```Suppress In-App Updates and Rating Prompts``` | ```Neutralizes Hermes Redux update sagas, UpdateAppModal dialogs, Play Store URL redirects, trustFall tamper detection, and in-app rating prompts.``` | ```Sezzle``` | ```5.3.9``` |
