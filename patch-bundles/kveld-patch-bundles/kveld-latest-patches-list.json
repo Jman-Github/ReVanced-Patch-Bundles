@@ -1,5 +1,5 @@
 {
-    "version": "v2.6.0-experimental.13",
+    "version": "v2.6.0-experimental.14",
     "patches": [
         {
             "compatiblePackages": [
@@ -286,7 +286,17 @@
             ],
             "description": "Blocks P3A product analytics, Brave Stats usage pings, crash dump uploads, WDP, Chromium UMA metrics, and Variations seed fetching.",
             "name": "Block Brave Telemetry",
-            "options": []
+            "options": [
+                {
+                    "default": true,
+                    "description": "Rewrites DEX const-string literals containing offers.brave.com to 0.0.0.0. Enabled by default; disable to keep commercial offers endpoint.",
+                    "key": "blockOffersHost",
+                    "required": false,
+                    "title": "Block Offers host",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "compatiblePackages": [
