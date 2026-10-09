@@ -11898,7 +11898,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1, including Twitch's native live Video Stats panel beside single-tap Reload Stream, PurpleTV-style landscape brightness and volume swipes, prevention of swipe-to-portrait collapse, and player visibility controls.``` | ```Twitch``` | ```31.3.1``` |
+| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1, including Twitch's native live Video Stats panel beside single-tap Reload Stream, landscape brightness and full-range media-volume gestures, configurable swipe-to-portrait collapse prevention, and player visibility controls.``` | ```Twitch``` | ```31.3.1``` |
 
 </details>
 ### 🧩 hushgram Bundle Patch List:
