@@ -1,6 +1,36 @@
 {
-    "version": "v1.1.0-dev.4",
+    "version": "v1.1.0-dev.1",
     "patches": [
+        {
+            "category": "microG",
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1A73E8",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.36.04.973607363"
+                        }
+                    ],
+                    "versions": [
+                        "26.36.04.973607363"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Builds microG Maps, a separate app (org.ungoogled.android.apps.maps.microg) that signs in to your Google account through microG: saved places and lists, Timeline, location sharing, contributions and push messages. Remove sign-in prompts, Trim account menu and Remove permissions are left out of this build, Offline saved places keeps only its Local saved screen, which copies your account's saved lists to the phone (Pull from Google account), and its icon carries microG's C. Needs microG: MicroG-RE or ReVanced GmsCore. Not for root (mount) installs.",
+            "name": "Add microG support",
+            "options": []
+        },
         {
             "category": null,
             "compatiblePackages": [
@@ -8,26 +38,6 @@
                     "appIconColor": "#FF0000",
                     "name": "YouTube Music",
                     "packageName": "com.google.android.apps.youtube.music",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                },
-                {
-                    "appIconColor": "#FF0000",
-                    "name": "YouTube Music (Morphe)",
-                    "packageName": "app.morphe.android.apps.youtube.music",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                },
-                {
-                    "appIconColor": "#FF0000",
-                    "name": "YouTube Music (ReVanced)",
-                    "packageName": "app.revanced.android.apps.youtube.music",
                     "targets": [
                         {
                             "isExperimental": false
@@ -56,16 +66,6 @@
                     ],
                     "versions": [
                         "26.36.04.973607363"
-                    ]
-                },
-                {
-                    "appIconColor": "#1A73E8",
-                    "name": "Google Maps (ReVanced)",
-                    "packageName": "app.revanced.android.apps.maps",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
                     ]
                 }
             ],
@@ -103,16 +103,6 @@
                     "versions": [
                         "26.36.04.973607363"
                     ]
-                },
-                {
-                    "appIconColor": "#1A73E8",
-                    "name": "Google Maps (ReVanced)",
-                    "packageName": "app.revanced.android.apps.maps",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
                 }
             ],
             "default": true,
@@ -137,20 +127,38 @@
                     "versions": [
                         "26.36.04.973607363"
                     ]
-                },
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Makes Maps' bundled Play services signature and availability checks always pass, so it runs re-signed and with Play services disabled or absent, and lets it load tiles, search and routing by sending Google's own package and certificate in the identity headers the Maps backend checks. Where Play services rejects the re-signed app, Maps degrades instead of crashing.",
+            "name": "Bypass Play Services checks",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
                 {
                     "appIconColor": "#1A73E8",
-                    "name": "Google Maps (ReVanced)",
-                    "packageName": "app.revanced.android.apps.maps",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
                     "targets": [
                         {
-                            "isExperimental": false
+                            "isExperimental": false,
+                            "version": "26.36.04.973607363"
                         }
+                    ],
+                    "versions": [
+                        "26.36.04.973607363"
                     ]
                 }
             ],
             "default": true,
-            "dependencies": [],
+            "dependencies": [
+                "BytecodePatch"
+            ],
             "description": "Installs alongside stock Google Maps under its own package name and adds MicroG spoofing.",
             "name": "Change package name",
             "options": [
@@ -180,87 +188,6 @@
                     ],
                     "versions": [
                         "26.36.04.973607363"
-                    ]
-                },
-                {
-                    "appIconColor": "#1A73E8",
-                    "name": "Google Maps (ReVanced)",
-                    "packageName": "app.revanced.android.apps.maps",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Adds MicroG package visibility queries, permissions, and spoofing metadata to AndroidManifest.xml.",
-            "name": "MicroG manifest support",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#1A73E8",
-                    "name": "Google Maps",
-                    "packageName": "com.google.android.apps.maps",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.36.04.973607363"
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                },
-                {
-                    "appIconColor": "#1A73E8",
-                    "name": "Google Maps (ReVanced)",
-                    "packageName": "app.revanced.android.apps.maps",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "ResourcePatch",
-                "BytecodePatch"
-            ],
-            "description": "Redirects Google account sign-in and authentication to MicroG (app.revanced.android.gms) on non-rooted devices.",
-            "name": "MicroG support",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#1A73E8",
-                    "name": "Google Maps",
-                    "packageName": "com.google.android.apps.maps",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "26.36.04.973607363"
-                        }
-                    ],
-                    "versions": [
-                        "26.36.04.973607363"
-                    ]
-                },
-                {
-                    "appIconColor": "#1A73E8",
-                    "name": "Google Maps (ReVanced)",
-                    "packageName": "app.revanced.android.apps.maps",
-                    "targets": [
-                        {
-                            "isExperimental": false
-                        }
                     ]
                 }
             ],
