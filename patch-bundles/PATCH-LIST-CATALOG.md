@@ -230,7 +230,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Aimal](#-aimal-bundle-patch-list) | 6 | 4 | Generated |
 | [ShuhaibNC](#-shuhaibnc-bundle-patch-list) | 23 | 17 | Generated |
 | [Stremio-AndroidTV](#-stremio-androidtv-bundle-patch-list) | 3 | 1 | Generated |
-| [Legendsciber](#-legendsciber-bundle-patch-list) | 23 | 12 | Generated |
+| [Legendsciber](#-legendsciber-bundle-patch-list) | 25 | 13 | Generated |
 | [SteamLink](#-steamlink-bundle-patch-list) | 35 | 2 | Generated |
 | [Froggo](#-froggo-bundle-patch-list) | 12 | 2 | Generated |
 | [Kecerim24](#-kecerim24-bundle-patch-list) | 4 | 3 | Generated |
@@ -7503,7 +7503,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Legendsciber Bundle Patch List:
 [📦 Legendsciber-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-legendsciber-patches-bundle-morphe)
 <details>
-<summary><b>Legendsciber</b> - 23 patches, 12 apps</summary>
+<summary><b>Legendsciber</b> - 25 patches, 13 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7528,6 +7528,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Solar Smash All Packages Purchased``` | ```Every in-app purchase package reports as purchased: the all weapons pack, all planets pack, remove ads and unlock levels and achievements stay permanently owned and unlocked, without contacting Google Play. Banner, interstitial and rewarded ads are suppressed via the Remove Ads entitlement.``` | ```Solar Smash``` | ```2.7.5``` |
 | ```Subway Surfers Currency Hack``` | ```Coins and keys always report 2,147,483,647 and every purchase is always affordable.``` | ```Subway Surfers``` | ```3.70.0``` |
 | ```Subway Surfers Free IAP``` | ```Coins, keys and shop items are granted instantly and free without Google Play billing.``` | ```Subway Surfers``` | ```3.70.0``` |
+| ```Temple Run 2 Free IAP``` | ```All store purchases (coins, gems, no-ads, characters, deals, potions and perks) are granted instantly and free without Google Play billing, online or offline.``` | ```Temple Run 2``` | ```1.136.0``` |
+| ```Temple Run 2 Instant Rewards``` | ```Every ad-gated reward works without watching an ad and without a network connection: rewarded-map unlocks, potions, power-ups, dailies, battle pass, advent calendar, weekly rewards and rewarded boosts are granted instantly.``` | ```Temple Run 2``` | ```1.136.0``` |
 | ```Bypass Google Play Install Check``` | ```App always behaves as if installed from Google Play, bypassing the install source check.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
 | ```Premium``` | ```Enables premium features by bypassing in-app purchase verification.``` | ```Toolbox for Minecraft PE``` | ```5.4.58``` |
 

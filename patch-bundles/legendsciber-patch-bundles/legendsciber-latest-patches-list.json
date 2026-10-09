@@ -1,5 +1,5 @@
 {
-    "version": "v1.43.10",
+    "version": "v1.44.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -528,6 +528,52 @@
             "dependencies": [],
             "description": "Coins, keys and shop items are granted instantly and free without Google Play billing.",
             "name": "Subway Surfers Free IAP",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#8D6E63",
+                    "name": "Temple Run 2",
+                    "packageName": "com.imangi.templerun2",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.136.0"
+                        }
+                    ],
+                    "versions": [
+                        "1.136.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "All store purchases (coins, gems, no-ads, characters, deals, potions and perks) are granted instantly and free without Google Play billing, online or offline.",
+            "name": "Temple Run 2 Free IAP",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#8D6E63",
+                    "name": "Temple Run 2",
+                    "packageName": "com.imangi.templerun2",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.136.0"
+                        }
+                    ],
+                    "versions": [
+                        "1.136.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Every ad-gated reward works without watching an ad and without a network connection: rewarded-map unlocks, potions, power-ups, dailies, battle pass, advent calendar, weekly rewards and rewarded boosts are granted instantly.",
+            "name": "Temple Run 2 Instant Rewards",
             "options": []
         }
     ]

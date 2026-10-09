@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.4",
+    "version": "v1.1.0",
     "patches": [
         {
             "category": null,
@@ -11,16 +11,16 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "31.3.0"
+                            "version": "31.4.2"
                         },
                         {
                             "isExperimental": false,
-                            "version": "31.4.2"
+                            "version": "31.5.2"
                         }
                     ],
                     "versions": [
-                        "31.3.0",
-                        "31.4.2"
+                        "31.4.2",
+                        "31.5.2"
                     ]
                 }
             ],
@@ -30,7 +30,7 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Claims available bonus rewards in live playback.",
+            "description": "Automatically claims bonus channel points while watching live streams.",
             "name": "Auto-claim bonus channel points",
             "options": []
         },
@@ -44,16 +44,16 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "31.3.0"
+                            "version": "31.4.2"
                         },
                         {
                             "isExperimental": false,
-                            "version": "31.4.2"
+                            "version": "31.5.2"
                         }
                     ],
                     "versions": [
-                        "31.3.0",
-                        "31.4.2"
+                        "31.4.2",
+                        "31.5.2"
                     ]
                 }
             ],
@@ -61,7 +61,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Suppresses native ad requests. Restart Twitch after changing the setting.",
+            "description": "Blocks native player ad requests. Restart Twitch after changing this setting.",
             "name": "Block client-requested ads",
             "options": []
         },
@@ -75,16 +75,16 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "31.3.0"
+                            "version": "31.4.2"
                         },
                         {
                             "isExperimental": false,
-                            "version": "31.4.2"
+                            "version": "31.5.2"
                         }
                     ],
                     "versions": [
-                        "31.3.0",
-                        "31.4.2"
+                        "31.4.2",
+                        "31.5.2"
                     ]
                 }
             ],
@@ -93,7 +93,7 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Replaces detected live-stream ads with direct Twitch playback from alternate player contexts. Prefers matching video quality. No external stream proxy.",
+            "description": "Replaces detected preroll and midroll ads with direct Twitch playback.",
             "name": "Block stream ads",
             "options": []
         },
@@ -107,16 +107,16 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "31.3.0"
+                            "version": "31.4.2"
                         },
                         {
                             "isExperimental": false,
-                            "version": "31.4.2"
+                            "version": "31.5.2"
                         }
                     ],
                     "versions": [
-                        "31.3.0",
-                        "31.4.2"
+                        "31.4.2",
+                        "31.5.2"
                     ]
                 }
             ],
@@ -124,10 +124,11 @@
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Renders global and channel emotes in chat with provider previews on tap.",
-            "name": "BTTV and 7TV emotes",
+            "description": "Adds global and channel emotes to chat and the emote picker, with animations, provider settings and tap previews.",
+            "name": "BTTV, FFZ and 7TV emotes",
             "options": []
         },
         {
@@ -140,16 +141,16 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "31.3.0"
+                            "version": "31.4.2"
                         },
                         {
                             "isExperimental": false,
-                            "version": "31.4.2"
+                            "version": "31.5.2"
                         }
                     ],
                     "versions": [
-                        "31.3.0",
-                        "31.4.2"
+                        "31.4.2",
+                        "31.5.2"
                     ]
                 }
             ],
@@ -159,7 +160,7 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Removes sponsored feed cards and display ads using Twitch's no-ad responses.",
+            "description": "Hides sponsored feed cards, banners and display ads.",
             "name": "Hide feed and display ads",
             "options": []
         },
@@ -173,16 +174,16 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "31.3.0"
+                            "version": "31.4.2"
                         },
                         {
                             "isExperimental": false,
-                            "version": "31.4.2"
+                            "version": "31.5.2"
                         }
                     ],
                     "versions": [
-                        "31.3.0",
-                        "31.4.2"
+                        "31.4.2",
+                        "31.5.2"
                     ]
                 }
             ],
@@ -192,7 +193,7 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Hides subscription offers and promotional labels, while retaining normal subscription actions.",
+            "description": "Hides subscription offers, discount banners and promotional labels.",
             "name": "Hide subscription discount banners",
             "options": []
         },
@@ -206,16 +207,16 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "31.3.0"
+                            "version": "31.4.2"
                         },
                         {
                             "isExperimental": false,
-                            "version": "31.4.2"
+                            "version": "31.5.2"
                         }
                     ],
                     "versions": [
-                        "31.3.0",
-                        "31.4.2"
+                        "31.4.2",
+                        "31.5.2"
                     ]
                 }
             ],
@@ -225,7 +226,7 @@
                 "BytecodePatch",
                 "ResourcePatch"
             ],
-            "description": "Hides Turbo entries, upsells and purchase buttons.",
+            "description": "Hides Twitch Turbo promotions and purchase prompts.",
             "name": "Hide Turbo promotions",
             "options": []
         },
@@ -239,22 +240,22 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "31.3.0"
+                            "version": "31.4.2"
                         },
                         {
                             "isExperimental": false,
-                            "version": "31.4.2"
+                            "version": "31.5.2"
                         }
                     ],
                     "versions": [
-                        "31.3.0",
-                        "31.4.2"
+                        "31.4.2",
+                        "31.5.2"
                     ]
                 }
             ],
             "default": false,
             "dependencies": [],
-            "description": "Reports package, version and DEX class count during patching. Does not change the app.",
+            "description": "Reports the APK package, version and DEX class count without modifying the app.",
             "name": "Inspect Twitch APK",
             "options": []
         },
@@ -268,16 +269,16 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "31.3.0"
+                            "version": "31.4.2"
                         },
                         {
                             "isExperimental": false,
-                            "version": "31.4.2"
+                            "version": "31.5.2"
                         }
                     ],
                     "versions": [
-                        "31.3.0",
-                        "31.4.2"
+                        "31.4.2",
+                        "31.5.2"
                     ]
                 }
             ],
@@ -285,7 +286,7 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Records playlist structure and playback frame counters. Disabled by default.",
+            "description": "Records playlist metadata and playback counters for troubleshooting.",
             "name": "Playback diagnostics",
             "options": []
         },
@@ -299,16 +300,16 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "31.3.0"
+                            "version": "31.4.2"
                         },
                         {
                             "isExperimental": false,
-                            "version": "31.4.2"
+                            "version": "31.5.2"
                         }
                     ],
                     "versions": [
-                        "31.3.0",
-                        "31.4.2"
+                        "31.4.2",
+                        "31.5.2"
                     ]
                 }
             ],
@@ -318,7 +319,7 @@
                 "ResourcePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds a reload button in live-player controls. Double-tap to reload.",
+            "description": "Reloads live streams with a double-tap control.",
             "name": "Reload stream",
             "options": []
         }
