@@ -1,6 +1,234 @@
 {
-    "version": "v0.0.9",
+    "version": "v0.0.11",
     "patches": [
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds switches, off by default, for a message's long-press menu. Repeat sends the message again to the same chat as a new message from you. Copy photo puts a downloaded photo on the clipboard, and Message details shows the message's IDs and times, plus the file's data center and size. Quick forward lists a few recent chats to forward to in one tap.",
+            "name": "Add Repeat to the message menu",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that lets phones Telegram rates as slow use its blurred chat header and panels.",
+            "name": "Allow chat blur on slower phones",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that turns the screens of Telegram's Night and Dark themes pure black and shows a patterned chat background's pattern over black. Message bubbles and pop-up menus keep the theme's colors. A change takes effect after Telegram restarts.",
+            "name": "AMOLED black",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds switches, off by default, that ask before a sticker, a GIF, a voice or video message or a call goes out. Cancel drops it.",
+            "name": "Ask before sending a sticker",
+            "options": [],
+            "use": true
+        },
         {
             "category": "Privacy",
             "compatibility": [
@@ -35,7 +263,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -92,7 +320,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -149,7 +377,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -206,7 +434,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -263,7 +491,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -320,7 +548,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -338,7 +566,64 @@
                 "BytecodePatch",
                 "HushTelegram settings"
             ],
-            "description": "Adds a switch, on by default, that stops pulling past the bottom of a channel from opening the next channel. Scrolling, opening channels directly and pulling between forum topics still work.",
+            "description": "Adds a switch, off by default, so pulling down the chat list doesn't bring up a hidden archive. The chat list's menu opens it instead.",
+            "name": "Disable pull to archive",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, on by default, that stops pulling past the bottom of a channel from opening the next channel, and a second one, off by default, that does the same for the next forum topic. Scrolling and opening channels or topics directly still work.",
             "name": "Disable pull to next channel",
             "options": [],
             "use": true
@@ -377,7 +662,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -397,6 +682,63 @@
             ],
             "description": "Stops telegram.org's Telegram offering its own updates, which can't install over a patched build. Patch the new version in Morphe Manager instead.",
             "name": "Disable update checks",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that shows member, subscriber, view, reply and reaction counts in full, like 12,345 instead of 12.3K.",
+            "name": "Exact numbers",
             "options": [],
             "use": true
         },
@@ -434,7 +776,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -491,7 +833,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -548,7 +890,406 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that leaves messages from people you've blocked out of groups and supergroups you open. Private chats and channel posts stay as they are, and nothing is deleted.",
+            "name": "Hide blocked users in groups",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that hides the Your contacts on Telegram list under a short chat list, with its heading and loading rows. Chats, folders, contact sync and search keep their usual behavior.",
+            "name": "Hide contacts on Telegram",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that hides the unread count on each folder tab above the chat list.",
+            "name": "Hide folder tab counters",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that takes the live camera tile out of the attachment menu's photo grid, so the grid starts with your photos.",
+            "name": "Hide gallery camera tile",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that hides the sticker an empty private chat offers to send as a greeting. The empty chat's text, business introductions, Premium and paid-message notices, the sticker picker and sending keep their usual behavior.",
+            "name": "Hide greeting stickers",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that closes the keyboard when you start scrolling through a chat.",
+            "name": "Hide keyboard on scroll",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Privacy",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that covers the digits of your own phone number wherever Telegram shows it, like the side menu, Settings and your profile.",
+            "name": "Hide phone number",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -605,7 +1346,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -662,7 +1403,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -719,7 +1460,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -739,6 +1480,63 @@
             ],
             "description": "Hides similar channels and bots, including cached recommendations. Telegram doesn't ask for new recommendations while the switch is on.",
             "name": "Hide recommendations",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that starts Telegram's Hide sender's name option on each time you forward. You can still turn it off before sending.",
+            "name": "Hide sender names when forwarding",
             "options": [],
             "use": true
         },
@@ -776,7 +1574,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -833,7 +1631,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -890,7 +1688,178 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that takes the Telegram Features row out of Settings and the Invite Friends rows out of Contacts.",
+            "name": "Hide Telegram Features and Invite Friends",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that takes the time and read checks off stickers and big animated emoji in chats.",
+            "name": "Hide time on stickers",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that hides the translate bar at the top of chats in another language. Translate moves to the chat's menu, and a chat you're translating keeps its bar so you can go back to the original.",
+            "name": "Hide translate bar",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -947,7 +1916,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -967,6 +1936,235 @@
             ],
             "description": "Adds a HushTelegram row to Telegram's Settings. You can also long-press Telegram's launcher icon, or open Additional settings in the app on Telegram's App info page, to turn features on or off, pause HushTelegram, save your switches to a file or load them, and export diagnostics. The licenses are there too.",
             "name": "HushTelegram settings",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, so a mention or a reply to you in a group or channel you've muted doesn't notify. Unmuted chats notify as before.",
+            "name": "Ignore mentions in muted chats",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings",
+                "Message times with seconds"
+            ],
+            "description": "Adds a switch, off by default, that keeps a message on your phone when someone else deletes it, and shows a deleted label next to its time. Your own deletes, disappearing messages and protected chats work as usual, and turning it off keeps what's already saved.",
+            "name": "Keep deleted messages",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that stops the volume keys in a chat from playing the video or round video on screen with sound, so they only change the volume.",
+            "name": "Keep videos muted on volume keys",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that shows seconds in the time on each message, like 9:41:27 PM.",
+            "name": "Message times with seconds",
             "options": [],
             "use": true
         },
@@ -1004,7 +2202,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -1062,7 +2260,64 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, so a voice or video message stops when it ends instead of playing the next one.",
+            "name": "Play voice messages one at a time",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -1119,7 +2374,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -1176,7 +2431,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -1194,8 +2449,179 @@
                 "BytecodePatch",
                 "HushTelegram settings"
             ],
-            "description": "Adds a switch, off by default, that shows a copyable local user or chat ID in the inspected profile's menu. It doesn't expose access hashes or ask Telegram's server for anything.",
+            "description": "Adds a switch, off by default, that shows spoiler text, photos and videos without the cover. View-once media, sensitive content and login codes stay covered.",
+            "name": "Reveal spoilers",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that shows a copyable local user or chat ID in the inspected profile's menu, and a second one, off by default, that adds the data center holding the profile's photo. Neither exposes access hashes or asks Telegram's server for anything.",
             "name": "Show user and chat IDs",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, so a private message from someone who isn't in your contacts shows its notification without sound or vibration. Bots, reminders and Telegram's login codes keep their sound.",
+            "name": "Silence people outside your contacts",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that starts the attachment menu's camera on the rear lens each time, instead of the lens you used last or the front one.",
+            "name": "Start the camera on the rear lens",
             "options": [],
             "use": true
         },
@@ -1233,7 +2659,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -1290,7 +2716,178 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, so a swipe to the right on a profile's photos or media tabs goes back, the way it does on the rest of the profile.",
+            "name": "Swipe back on profiles",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that stops Telegram vibrating for taps, long presses, swipes and wrong entries. Calls and notifications still vibrate.",
+            "name": "Turn off haptic feedback",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that stops the burst and fly-in effect Telegram plays when someone reacts. The reaction still shows on the message.",
+            "name": "Turn off reaction effects",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -1347,7 +2944,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -1411,7 +3008,7 @@
                             "experimental": false,
                             "version": "12.10.7",
                             "versionCodes": {
-                                "ARM64_V8A": 71179
+                                "ARM64_V8A": 71239
                             }
                         }
                     ]
@@ -1449,6 +3046,120 @@
                 }
             ],
             "use": false
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, that draws Telegram's bold, italic and monospace text in your phone's font instead of the Roboto files built into the app. Regular text already uses the phone's font. Some number displays and Instant View pages keep Telegram's own. A change takes effect after Telegram restarts.",
+            "name": "Use system font",
+            "options": [],
+            "use": true
+        },
+        {
+            "category": "Chats",
+            "compatibility": [
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram",
+                    "packageName": "org.telegram.messenger.web",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 71129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "appIconColor": 2796526,
+                    "description": null,
+                    "name": "Telegram Beta",
+                    "packageName": "org.telegram.messenger.beta",
+                    "signatures": [
+                        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+                    ],
+                    "targets": [
+                        {
+                            "experimental": false,
+                            "version": "12.10.7",
+                            "versionCodes": {
+                                "ARM64_V8A": 71239
+                            }
+                        }
+                    ]
+                }
+            ],
+            "compatiblePackages": {
+                "org.telegram.messenger.beta": [
+                    "12.10.7"
+                ],
+                "org.telegram.messenger.web": [
+                    "12.10.6"
+                ]
+            },
+            "dependencies": [
+                "BytecodePatch",
+                "HushTelegram settings"
+            ],
+            "description": "Adds a switch, off by default, so tapping the bar above a chat while a voice message plays opens Telegram's full music player with its seek bar instead of jumping to the message. View-once voice messages stay as they are.",
+            "name": "Voice messages in the music player",
+            "options": [],
+            "use": true
         }
     ]
 }
