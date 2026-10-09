@@ -1,10 +1,10 @@
 {
-    "version": "v2.6.0-experimental.11",
+    "version": "v2.6.0-experimental.13",
     "patches": [
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#0288D1",
                     "name": "NokoPrint - WiFi, Bluetooth, USB",
                     "packageName": "com.nokoprint",
@@ -56,7 +56,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#FF6700",
                     "name": "Xiaomi Earbuds",
                     "packageName": "com.mi.earphone",
@@ -88,7 +88,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#0288D1",
                     "name": "NokoPrint - WiFi, Bluetooth, USB",
                     "packageName": "com.nokoprint",
@@ -138,7 +138,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#FF6700",
                     "name": "Xiaomi Earbuds",
                     "packageName": "com.mi.earphone",
@@ -209,7 +209,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#0288D1",
                     "name": "NokoPrint - WiFi, Bluetooth, USB",
                     "packageName": "com.nokoprint",
@@ -346,7 +346,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#0288D1",
                     "name": "NokoPrint - WiFi, Bluetooth, USB",
                     "packageName": "com.nokoprint",
@@ -372,7 +372,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#FF6700",
                     "name": "Xiaomi Earbuds",
                     "packageName": "com.mi.earphone",
@@ -1242,7 +1242,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#FF6700",
                     "name": "Xiaomi Earbuds",
                     "packageName": "com.mi.earphone",
@@ -1706,7 +1706,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#FF6700",
                     "name": "Xiaomi Earbuds",
                     "packageName": "com.mi.earphone",
@@ -2419,7 +2419,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#FF6700",
                     "name": "Xiaomi Earbuds",
                     "packageName": "com.mi.earphone",
@@ -2980,7 +2980,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#FF6700",
                     "name": "Xiaomi Earbuds",
                     "packageName": "com.mi.earphone",
@@ -3004,7 +3004,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#0288D1",
                     "name": "NokoPrint - WiFi, Bluetooth, USB",
                     "packageName": "com.nokoprint",
@@ -3140,7 +3140,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#FF6700",
                     "name": "Xiaomi Earbuds",
                     "packageName": "com.mi.earphone",
@@ -3166,7 +3166,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#0288D1",
                     "name": "NokoPrint - WiFi, Bluetooth, USB",
                     "packageName": "com.nokoprint",
@@ -3247,7 +3247,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#FF6700",
                     "name": "Xiaomi Earbuds",
                     "packageName": "com.mi.earphone",
@@ -3752,7 +3752,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APK",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#0288D1",
                     "name": "NokoPrint - WiFi, Bluetooth, USB",
                     "packageName": "com.nokoprint",
@@ -3776,7 +3776,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#FF6700",
                     "name": "Xiaomi Earbuds",
                     "packageName": "com.mi.earphone",
@@ -3947,7 +3947,7 @@
         {
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKM",
+                    "apkFileType": "XAPK",
                     "appIconColor": "#FF6700",
                     "name": "Xiaomi Earbuds",
                     "packageName": "com.mi.earphone",
@@ -4621,6 +4621,15 @@
                     "key": "disableDeviceIdProviders",
                     "required": false,
                     "title": "Disable Device-ID & Cross-App Identity Providers",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Disable Google ML Kit InitProvider, ComponentDiscoveryService, and prune related registrars. WARNING: Breaks on-device barcode scanning, face detection, and text recognition.",
+                    "key": "disableMlKit",
+                    "required": false,
+                    "title": "Disable ML Kit On-Device Vision",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
