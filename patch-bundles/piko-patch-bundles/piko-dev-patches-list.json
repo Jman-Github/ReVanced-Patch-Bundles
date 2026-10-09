@@ -1,5 +1,5 @@
 {
-    "version": "v3.10.0-dev.12",
+    "version": "v3.10.0-dev.13",
     "patches": [
         {
             "compatiblePackages": [
@@ -64,6 +64,7 @@
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "ResourcePatch"
             ],
             "description": "Adds settings to control preferences are patching",
@@ -91,7 +92,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -1070,7 +1071,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch"
@@ -1332,7 +1333,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -2847,7 +2848,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
@@ -3814,7 +3815,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
@@ -3845,7 +3846,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [
                 "BytecodePatch"
             ],
@@ -3903,7 +3904,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
@@ -3934,7 +3935,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
@@ -3966,7 +3967,7 @@
                     ]
                 }
             ],
-            "default": true,
+            "default": false,
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
