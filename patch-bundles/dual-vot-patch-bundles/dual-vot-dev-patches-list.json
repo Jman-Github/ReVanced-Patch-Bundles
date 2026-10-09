@@ -1,5 +1,5 @@
 {
-    "version": "v1.47.0-dev.12-dualvot.8.5.3",
+    "version": "v1.47.0-dev.13-dualvot.8.5.3",
     "patches": [
         {
             "category": null,
@@ -1781,8 +1781,7 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
-                "BytecodePatch",
-                "ResourcePatch"
+                "BytecodePatch"
             ],
             "description": "Adds a true dual-player crossfade between consecutive tracks.",
             "name": "Crossfade",
