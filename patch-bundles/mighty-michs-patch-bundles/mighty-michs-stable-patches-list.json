@@ -1,5 +1,5 @@
 {
-    "version": "v1.9.0",
+    "version": "v1.10.0",
     "patches": [
         {
             "category": null,
@@ -376,6 +376,52 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "Camera Opus Companion",
+                    "packageName": "pl.mobimax.cameraopus",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "1.2.21"
+                        }
+                    ],
+                    "versions": [
+                        "1.2.21"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Camera Opus Companion premium by forcing the license check to return true. WARNING: May cause crashes.",
+            "name": "Unlock Premium (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "Photex Companion",
+                    "packageName": "pl.mobimax.photex",
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Unlocks Photex Companion premium by forcing the license check to return true. WARNING: May cause crashes.",
+            "name": "Unlock Premium (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
                     "appIconColor": "#070437",
                     "name": "Audio Editor",
                     "packageName": "audioeditor.musiceditor.soundeditor.songeditor",
@@ -606,52 +652,6 @@
             "default": true,
             "dependencies": [],
             "description": "Forces the purchase verification method to always return true, unlocking premium features in Music Player.",
-            "name": "Unlock Premium Features",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#FF5722",
-                    "name": "Camera Opus Companion",
-                    "packageName": "pl.mobimax.cameraopus",
-                    "targets": [
-                        {
-                            "isExperimental": true,
-                            "version": "1.2.21"
-                        }
-                    ],
-                    "versions": [
-                        "1.2.21"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks Camera Opus Companion premium by forcing the license check to return true.",
-            "name": "Unlock Premium Features",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APK",
-                    "appIconColor": "#FF5722",
-                    "name": "Photex Companion",
-                    "packageName": "pl.mobimax.photex",
-                    "targets": [
-                        {
-                            "isExperimental": true
-                        }
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Unlocks Photex Companion premium by forcing the license check to return true.",
             "name": "Unlock Premium Features",
             "options": []
         },
@@ -963,6 +963,52 @@
             "dependencies": [],
             "description": "Unlocks VIP features in Wearfit Pro by forcing getIsVip() to return 1.",
             "name": "Unlock VIP Features",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "Camera Opus Companion",
+                    "packageName": "pl.mobimax.cameraopus",
+                    "targets": [
+                        {
+                            "isExperimental": true,
+                            "version": "1.2.21"
+                        }
+                    ],
+                    "versions": [
+                        "1.2.21"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Fixes Wear Engine scope authorization errors by forcing the error code check to succeed. WARNING: May cause crashes.",
+            "name": "Wear Engine Scope Fix (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FF5722",
+                    "name": "Photex Companion",
+                    "packageName": "pl.mobimax.photex",
+                    "targets": [
+                        {
+                            "isExperimental": true
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Fixes Wear Engine scope authorization errors in Photex Companion by forcing the error code check to succeed. WARNING: May cause crashes.",
+            "name": "Wear Engine Scope Fix (Experimental)",
             "options": []
         }
     ]

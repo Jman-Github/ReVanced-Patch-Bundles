@@ -349,7 +349,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Plyrs1](#-plyrs1-bundle-patch-list) | 31 | 6 | Generated |
 | [Edge-Window](#-edge-window-bundle-patch-list) | 2 | 2 | Generated |
 | [Morphe-Google-Photos](#-morphe-google-photos-bundle-patch-list) | 13 | 1 | Generated |
-| [Mighty-Michs](#-mighty-michs-bundle-patch-list) | 38 | 35 | Generated |
+| [Mighty-Michs](#-mighty-michs-bundle-patch-list) | 40 | 35 | Generated |
 | [Newuser7171-Telegram](#-newuser7171-telegram-bundle-patch-list) | 20 | 4 | Generated |
 | [365Score](#-365score-bundle-patch-list) | 47 | 2 | Generated |
 | [PixelBoard](#-pixelboard-bundle-patch-list) | - | - | Pending patch list |
@@ -11232,7 +11232,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Mighty-Michs Bundle Patch List:
 [📦 MightyMichs-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-mightymichs-patches-bundle-morphe)
 <details>
-<summary><b>Mighty-Michs</b> - 38 patches, 35 apps</summary>
+<summary><b>Mighty-Michs</b> - 40 patches, 35 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -11241,7 +11241,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium Features``` | ```Forces the purchase verification method to always return true, unlocking premium features in Audio Editor.``` | ```Audio Editor``` | ```2.01.64.0916``` |
 | ```Unlock Premium Features``` | ```Forces the purchase verification method to always return true, unlocking premium features in Calendar.``` | ```Calendar``` | ```2.07.34.0918``` |
 | ```Unlock Premium (Experimental)``` | ```Unlocks Callfilter.app premium by forcing the 'isSubscribed' check to return true. WARNING: May cause crashes or unexpected behavior.``` | ```Callfilter.app``` | ```All versions``` |
-| ```Unlock Premium Features``` | ```Unlocks Camera Opus Companion premium by forcing the license check to return true.``` | ```Camera Opus Companion``` | ```1.2.21``` |
+| ```Unlock Premium (Experimental)``` | ```Unlocks Camera Opus Companion premium by forcing the license check to return true. WARNING: May cause crashes.``` | ```Camera Opus Companion``` | ```1.2.21``` |
+| ```Wear Engine Scope Fix (Experimental)``` | ```Fixes Wear Engine scope authorization errors by forcing the error code check to succeed. WARNING: May cause crashes.``` | ```Camera Opus Companion``` | ```1.2.21``` |
 | ```Unlock Pro Features``` | ```Unlocks Days Matter Pro by forcing the pro flag to true.``` | ```Days Matter``` | ```2.0.57``` |
 | ```Unlock Pro Features``` | ```Forces the 'is_pro_user' check to always return true, unlocking Pro features in Device Info.``` | ```Device Info``` | ```v3.2.3.0``` |
 | ```Unlock Premium Features``` | ```Unlocks Guitar Tuner premium.``` | ```Guitar Tuner``` | ```null``` |
@@ -11254,7 +11255,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Premium Features``` | ```Forces the purchase verification method to always return true, unlocking premium features in My Diary.``` | ```My Diary``` | ```1.04.16.0813, 1.04.17.0918``` |
 | ```Enable Prime (Experimental)``` | ```Enables Nova Launcher Prime WARNING: May cause crashes.``` | ```Nova Launcher``` | ```8.8.9``` |
 | ```Remove Internet permission (Nova)``` | ```Removes INTERNET permission from Nova Launcher and disables network-only entry points so Nova does not crash.``` | ```Nova Launcher``` | ```8.8.9``` |
-| ```Unlock Premium Features``` | ```Unlocks Photex Companion premium by forcing the license check to return true.``` | ```Photex Companion``` | ```All versions``` |
+| ```Unlock Premium (Experimental)``` | ```Unlocks Photex Companion premium by forcing the license check to return true. WARNING: May cause crashes.``` | ```Photex Companion``` | ```All versions``` |
+| ```Wear Engine Scope Fix (Experimental)``` | ```Fixes Wear Engine scope authorization errors in Photex Companion by forcing the error code check to succeed. WARNING: May cause crashes.``` | ```Photex Companion``` | ```All versions``` |
 | ```Unlock Premium``` | ```Unlocks PhotoApp Premium by forcing UserViewModel.isPremium to true. WARNING: May cause crashes.``` | ```PhotoApp``` | ```2.8.1``` |
 | ```Unlock Premium (Experimental)``` | ```Unlocks Polarr Premium by forcing isPremium to true. WARNING: May cause crashes.``` | ```Polarr``` | ```6.12.0``` |
 | ```Unlimited Coins (Experimental)``` | ```Gives unlimited coins in POU. WARNING: May cause crashes or reset progress.``` | ```Pou``` | ```1.4.135``` |
@@ -11896,7 +11898,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1, including Twitch's native live Video Stats overlay beside Reload Stream and single-tap reload.``` | ```Twitch``` | ```31.3.1``` |
+| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1, including Twitch's native live Video Stats panel beside single-tap Reload Stream, PurpleTV-style landscape brightness and volume swipe gestures with configurable progress overlay, and player visibility controls.``` | ```Twitch``` | ```31.3.1``` |
 
 </details>
 ### 🧩 hushgram Bundle Patch List:
