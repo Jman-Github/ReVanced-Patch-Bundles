@@ -1,5 +1,5 @@
 {
-    "version": "v2.6.0-experimental.8",
+    "version": "v2.6.0-experimental.9",
     "patches": [
         {
             "compatiblePackages": [
@@ -2597,6 +2597,32 @@
             ],
             "description": "Removes the Popular LIVEs recommendation card and live stream broadcasts from the search discovery page.",
             "name": "Hide Popular Lives In Search",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#FE2C55",
+                    "name": "TikTok",
+                    "packageName": "com.zhiliaoapp.musically",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "47.1.4"
+                        }
+                    ],
+                    "versions": [
+                        "47.1.4"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Filters videos disclosing branded/paid-promotional content (Contenido Promocional tag) from For You, Following and Friends feeds.",
+            "name": "Hide Promotional Content",
             "options": []
         },
         {

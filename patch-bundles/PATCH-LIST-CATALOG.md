@@ -88,7 +88,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Bufferk](#-bufferk-bundle-patch-list) | 13 | 7 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 26 | 13 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 6 | 2 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 96 | 42 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 97 | 42 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 5 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -214,7 +214,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RuStore-Privacy](#-rustore-privacy-bundle-patch-list) | 15 | 1 | Generated |
 | [Abhishek-Bhujang](#-abhishek-bhujang-bundle-patch-list) | 2 | 2 | Generated |
 | [MauroGamerVN](#-maurogamervn-bundle-patch-list) | 2 | 2 | Generated |
-| [Kveld](#-kveld-bundle-patch-list) | 135 | 10 | Generated |
+| [Kveld](#-kveld-bundle-patch-list) | 136 | 10 | Generated |
 | [Anime-Witcher](#-anime-witcher-bundle-patch-list) | 9 | 1 | Generated |
 | [Apos](#-apos-bundle-patch-list) | 1 | 1 | Generated |
 | [HH](#-hh-bundle-patch-list) | 4 | 1 | Generated |
@@ -366,7 +366,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [qqmusic-proxy](#-qqmusic-proxy-bundle-patch-list) | - | - | Pending patch list |
 | [bartlomiejfornalczyk](#-bartlomiejfornalczyk-bundle-patch-list) | 7 | 5 | Generated |
 | [uyu](#-uyu-bundle-patch-list) | 7 | 1 | Generated |
-| [hushmessenger](#-hushmessenger-bundle-patch-list) | 33 | 1 | Generated |
+| [hushmessenger](#-hushmessenger-bundle-patch-list) | 43 | 1 | Generated |
 | [lawnchair](#-lawnchair-bundle-patch-list) | - | - | Pending patch list |
 | [bakwudo-uyu](#-bakwudo-uyu-bundle-patch-list) | 7 | 1 | Generated |
 | [chrome-morphe](#-chrome-morphe-bundle-patch-list) | - | - | Pending patch list |
@@ -842,7 +842,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 96 patches, 42 apps</summary>
+<summary><b>Okish-Morphe</b> - 97 patches, 42 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -923,6 +923,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Shooty Skies Free store``` | ```Every store item is free — tap "Buy" and the purchase completes instantly with no Google Play payment, and owned items like ad removal are granted at startup.``` | ```Shooty Skies``` | ```3.441.100101``` |
 | ```Smash Hit Premium Unlock``` | ```Unlocks premium and all game modes without purchase.``` | ```Smash Hit``` | ```1.5.14``` |
 | ```Free Store``` | ```Everything in the shop is granted instantly and free — double coins, more gifts and the any-purchase perks — with no Google Play payment screen, no account and nothing charged.``` | ```Swamp Attack``` | ```4.8.7.0``` |
+| ```Instant Rewards``` | ```Rewarded videos give their reward instantly — no ad ever plays. Free revive, double coins, free items, etc. all work without watching anything.``` | ```Swamp Attack``` | ```4.8.7.0``` |
 | ```Remove Ads``` | ```Forced ads are gone for good — interstitials never load or show, even offline and regardless of server settings. Rewarded videos you choose to watch still work.``` | ```Swamp Attack``` | ```4.8.7.0``` |
 | ```Swamp Attack 2: Remove Ads``` | ```Removes all ads. No more forced ads between levels, no banners. When the game offers a reward for watching an ad, you still get the reward.``` | ```Swamp Attack 2``` | ```1.3.9``` |
 | ```Swamp Attack 2: Unlimited Currency Engine``` | ```Unlimited coins and gems. Buying things never lowers your balance, you earn 10x more, and your wallet always shows 99,999,999. Also removes ads and gives ad rewards instantly. Note: the number shown in the game doesn't matter — whatever it displays, your currency is unlimited. If it ever changes or looks wrong, simply restart the game and the currency will be unlimited again.``` | ```Swamp Attack 2``` | ```1.3.9``` |
@@ -7023,7 +7024,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Kveld Bundle Patch List:
 [📦 Kveld-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-kveld-patches-bundle-morphe)
 <details>
-<summary><b>Kveld</b> - 135 patches, 10 apps</summary>
+<summary><b>Kveld</b> - 136 patches, 10 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -7104,6 +7105,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide Inbox Promos & Alerts``` | ```Hides promotional banners, streak mascot cards, contact sync suggestions, friend recommendations, and migration guide tooltips in the inbox and direct messages.``` | ```TikTok``` | ```47.1.4``` |
 | ```Hide Inbox Story & Status Tray``` | ```Hides the horizontal story, notes, and status tray (Skylight) displayed at the top of direct messages and the inbox.``` | ```TikTok``` | ```47.1.4``` |
 | ```Hide Popular Lives In Search``` | ```Removes the Popular LIVEs recommendation card and live stream broadcasts from the search discovery page.``` | ```TikTok``` | ```47.1.4``` |
+| ```Hide Promotional Content``` | ```Filters videos disclosing branded/paid-promotional content (Contenido Promocional tag) from For You, Following and Friends feeds.``` | ```TikTok``` | ```47.1.4``` |
 | ```Hide Seen Videos``` | ```Filters previously watched videos from incoming For You feed batches.``` | ```TikTok``` | ```47.1.4``` |
 | ```Hide Suggested Accounts``` | ```Removes suggested-account cards from profile headers and inbox surfaces.``` | ```TikTok``` | ```47.1.4``` |
 | ```Hide Suggested Searches``` | ```Removes the suggested search keywords section ('You may like' / 'Search suggestions') from the search discovery page.``` | ```TikTok``` | ```47.1.4``` |
@@ -11684,12 +11686,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 hushmessenger Bundle Patch List:
 [📦 HushMessenger-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hushmessenger-patches-bundle-morphe)
 <details>
-<summary><b>hushmessenger</b> - 33 patches, 1 app</summary>
+<summary><b>hushmessenger</b> - 43 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Allow chat bubbles``` | ```Offers Stock, Chat Heads and Native Bubbles on verified Messenger routes on Android 11 and newer. Long-press Messenger's home screen icon > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
 | ```Allow screenshots``` | ```Lets you screenshot protected chat media, including view-once media and Quicksnap, and stops screenshot notices. This doesn't add replay or saving. Long-press Messenger's home screen icon > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
+| ```Clone install under another package name``` | ```Installs a second copy of Messenger beside the first, under its own package name and app name. Messenger's own permissions, providers, task affinities and push categories move to the new name, and encrypted chat backups still find their settings. Push notifications may not reach the copy. Facebook's sign-in shortcut and other Meta apps won't see its account, and a Root Mount install can't use it. Sign it with the same key as your other patched Meta apps.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
+| ```Custom new-message sound``` | ```Swaps Messenger's new-message sound for an .ogg, .mp3, .m4a or .wav file of 1 MB or less that you choose. Everything in Messenger that plays that sound plays yours. Leave the file empty to keep Messenger's sound. A sound picked for Messenger in Android's notification settings still takes its place. Starts unselected.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
 | ```Hide AI sticker tools``` | ```Hides the Generate AI sticker buttons, generated-sticker tab and AI sticker suggestions. Long-press Messenger's home screen icon > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
 | ```Hide avatar stickers``` | ```Hides the avatar tab in the sticker keyboard. Long-press Messenger's home screen icon > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
 | ```Hide business reply suggestions``` | ```Hides suggested replies in business conversations. Long-press Messenger's home screen icon > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
@@ -11711,15 +11715,23 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Hide stories and notes``` | ```Hides the horizontal tray above chats. Long-press Messenger's home screen icon > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
 | ```Hide typing indicator``` | ```Suppresses your outgoing active-typing signal, including in end-to-end encrypted chats. Long-press Messenger's home screen icon > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
 | ```Install beside Meta apps``` | ```Renames two shared permissions so a re-signed Messenger can install beside Meta apps. Checked 580 builds only. Earlier clean installs stopped at a blank first-run screen.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
+| ```Keep a message log``` | ```Keeps a copy of each message as its notification arrives, so an unsend can't take it back. This is the only way that reaches end-to-end encrypted chats. The log stays on your phone, encrypted with a key that never leaves it, and holds only messages that raised a notification. Read it or clear it from the log in settings. Long-press Messenger's home screen icon > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
+| ```Keep emoji search on emoji``` | ```Typing while the emoji keyboard is open no longer switches it to sticker search. The keyboard stays on emoji. Long-press Messenger's home screen icon > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
 | ```Keep unsent messages``` | ```Preserves messages on verified legacy unsend routes. End-to-end encrypted chats are unsupported, and group coverage is unverified. Activity records intercepted legacy unsends, not chat support. Your own unsend may be limited. Long-press Messenger's home screen icon > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
 | ```Material You theme``` | ```Gives Messenger's dark mode the colors of your wallpaper on Android 12 and newer, and a fixed blue palette on Android 11. Light mode stays as it is. Turn on dark mode in Messenger first.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
 | ```Open settings from menu``` | ```Adds a HushMessenger entry to the Menu tab and side menu. Always on.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
 | ```Open web links externally``` | ```Uses Messenger's external-browser branch for HTTP and HTTPS links. Long-press Messenger's home screen icon > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
+| ```Restore old emoji drawer``` | ```Turns off Meta's redesigned emoji drawer, so the emoji keyboard keeps its earlier layout. Changes apply after Restart Messenger. Accounts Meta never moved to the redesign see no difference. Long-press Messenger's home screen icon > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
 | ```Restore screens on re-signed builds``` | ```Answers Messenger's own signer lookup, and a Facebook signed with your key calling Messenger, with the original Meta certificate. Always on.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
 | ```Save any story``` | ```Adds Save to the More options menu on other people's stories. The photo or video goes to your phone the same way Messenger saves your own. Long-press Messenger's home screen icon > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
 | ```Send photos at original quality``` | ```With HD on, sends a JPEG photo's own image data instead of a re-encoded copy, without its metadata except the rotation tag. Videos and photos over 20 MB are still compressed. Long-press Messenger's home screen icon > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
+| ```Send videos without re-encoding``` | ```Sends a video file as it is when Messenger's own passthrough can take it, instead of a re-encoded copy. Videos over 25 MB are still compressed, and so are trimmed or edited videos and formats Messenger won't pass through. Long-press Messenger's home screen icon > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
 | ```Slide chats in and out``` | ```Slides a chat in from the side when you open it and back out when you go back, while the screen underneath holds still. Chat heads and bubbles keep their own animations. Long-press Messenger's home screen icon > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
+| ```Spoof package version``` | ```Gives Messenger a very high version code, so the Play Store stops offering Meta's updates over it. Messenger may report this number to Meta. Later builds need the same number or higher to install over it, so going back to Meta's number means uninstalling first, which deletes Messenger's data on your phone. Starts unselected.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
+| ```Stop analytics uploads``` | ```Stops the background services Messenger's analytics logger uploads through. Messenger still records those events on your phone, and they can upload after you turn this off. Doesn't stop other logging. Long-press Messenger's home screen icon > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
+| ```Unlock app icons``` | ```Makes every icon in Messenger's App icon setting selectable without a subscription. Messenger applies the icon with its own launcher switch. Messenger still decides whether that setting shows on your account, and switching this off can bring its default icon back. Long-press Messenger's home screen icon > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
 | ```Use system emoji``` | ```Renders emoji with the phone's own font instead of Messenger's. Long-press Messenger's home screen icon > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
+| ```Use the phone's camera app``` | ```The camera button in a chat opens your phone's own camera app instead of Messenger's camera. The photo you take opens in Messenger's editor for that chat, ready to send. Photos only. Long-press Messenger's home screen icon > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
 | ```View stories anonymously``` | ```Opens other people's stories without adding you to their viewer list. Stories you open this way are marked as seen on your side. Long-press Messenger's home screen icon > Patch controls. Starts off.``` | ```Messenger``` | ```580.0.0.49.91, 581.0.0.49.91``` |
 
 </details>

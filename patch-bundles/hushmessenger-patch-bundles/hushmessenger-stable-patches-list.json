@@ -1,5 +1,5 @@
 {
-    "version": "v0.21.0",
+    "version": "v0.22.0",
     "patches": [
         {
             "category": "Links and bubbles",
@@ -130,6 +130,138 @@
             "description": "Lets you screenshot protected chat media, including view-once media and Quicksnap, and stops screenshot notices. This doesn't add replay or saving. Long-press Messenger's home screen icon > Patch controls. Starts off.",
             "name": "Allow screenshots",
             "options": []
+        },
+        {
+            "category": "Fixes",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "name": "Messenger",
+                    "packageName": "com.facebook.orca",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "description": "Arm64 builds 346013387, 346013440, 346013442, 346013354, 346013370, 346013394, 346013423, 346013355, 346013356, 346013357, 346013358, 346013359, 346013372, 346013374, 346013375, 346013391, 346013427, 346013441, 346013443, 346013444 and 346013445; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "580.0.0.49.91"
+                        },
+                        {
+                            "description": "Arm64 builds 346213494, 346213498, 346213510, 346213514, 346213528, 346213531, 346213532, 346213564, 346213567, 346213568, 346213580, 346213581, 346213582, 346213583, 346213584 and 346213585; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "581.0.0.49.91"
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.49.91",
+                        "581.0.0.49.91"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [
+                                {
+                                    "dependencies": [],
+                                    "description": "Validate Messenger shared-permission bytecode",
+                                    "name": null,
+                                    "type": "BytecodePatch"
+                                }
+                            ],
+                            "description": "Rename Messenger shared permissions",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Renames two shared permissions so a re-signed Messenger can install beside Meta apps. Checked 580 builds only. Earlier clean installs stopped at a blank first-run screen.",
+                    "name": "Install beside Meta apps",
+                    "type": "BytecodePatch"
+                },
+                {
+                    "dependencies": [],
+                    "description": "Move Messenger's manifest to the clone's package name",
+                    "name": null,
+                    "type": "ResourcePatch"
+                }
+            ],
+            "description": "Installs a second copy of Messenger beside the first, under its own package name and app name. Messenger's own permissions, providers, task affinities and push categories move to the new name, and encrypted chat backups still find their settings. Push notifications may not reach the copy. Facebook's sign-in shortcut and other Meta apps won't see its account, and a Root Mount install can't use it. Sign it with the same key as your other patched Meta apps.",
+            "name": "Clone install under another package name",
+            "options": [
+                {
+                    "default": "Messenger Clone",
+                    "description": "The name under the copy's home screen icon. Up to 40 letters, numbers, spaces and simple punctuation.",
+                    "key": "cloneAppName",
+                    "required": true,
+                    "title": "App name",
+                    "type": "kotlin.String",
+                    "values": {}
+                },
+                {
+                    "default": "com.facebook.orca.hush",
+                    "description": "The copy's package name, such as com.facebook.orca.hush. It can't be Messenger's own or another Meta app's.",
+                    "key": "clonePackageName",
+                    "required": true,
+                    "title": "Package name",
+                    "type": "kotlin.String",
+                    "values": {}
+                }
+            ]
+        },
+        {
+            "category": "Sounds",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "name": "Messenger",
+                    "packageName": "com.facebook.orca",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "description": "Arm64 builds 346013387, 346013440, 346013442, 346013354, 346013370, 346013394, 346013423, 346013355, 346013356, 346013357, 346013358, 346013359, 346013372, 346013374, 346013375, 346013391, 346013427, 346013441, 346013443, 346013444 and 346013445; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "580.0.0.49.91"
+                        },
+                        {
+                            "description": "Arm64 builds 346213494, 346213498, 346213510, 346213514, 346213528, 346213531, 346213532, 346213564, 346213567, 346213568, 346213580, 346213581, 346213582, 346213583, 346213584 and 346213585; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "581.0.0.49.91"
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.49.91",
+                        "581.0.0.49.91"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Swaps Messenger's new-message sound for an .ogg, .mp3, .m4a or .wav file of 1 MB or less that you choose. Everything in Messenger that plays that sound plays yours. Leave the file empty to keep Messenger's sound. A sound picked for Messenger in Android's notification settings still takes its place. Starts unselected.",
+            "name": "Custom new-message sound",
+            "options": [
+                {
+                    "default": null,
+                    "description": "An .ogg, .mp3, .m4a or .wav file of 1 MB (1,048,576 bytes) or less. Leave it empty to keep Messenger's sound.",
+                    "key": "soundFile",
+                    "required": false,
+                    "title": "Sound file",
+                    "type": "kotlin.String",
+                    "values": {}
+                }
+            ]
         },
         {
             "category": "Stickers",
@@ -1539,6 +1671,136 @@
                             "type": "ResourcePatch"
                         }
                     ],
+                    "description": "Record HushMessenger capability: message_log",
+                    "name": null,
+                    "type": "ResourcePatch"
+                }
+            ],
+            "description": "Keeps a copy of each message as its notification arrives, so an unsend can't take it back. This is the only way that reaches end-to-end encrypted chats. The log stays on your phone, encrypted with a key that never leaves it, and holds only messages that raised a notification. Read it or clear it from the log in settings. Long-press Messenger's home screen icon > Patch controls. Starts off.",
+            "name": "Keep a message log",
+            "options": []
+        },
+        {
+            "category": "Stickers",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "name": "Messenger",
+                    "packageName": "com.facebook.orca",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "description": "Arm64 builds 346013387, 346013440, 346013442, 346013354, 346013370, 346013394, 346013423, 346013355, 346013356, 346013357, 346013358, 346013359, 346013372, 346013374, 346013375, 346013391, 346013427, 346013441, 346013443, 346013444 and 346013445; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "580.0.0.49.91"
+                        },
+                        {
+                            "description": "Arm64 builds 346213494, 346213498, 346213510, 346213514, 346213528, 346213531, 346213532, 346213564, 346213567, 346213568, 346213580, 346213581, 346213582, 346213583, 346213584 and 346213585; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "581.0.0.49.91"
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.49.91",
+                        "581.0.0.49.91"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Load HushMessenger runtime controls",
+                    "name": null,
+                    "type": "BytecodePatch"
+                },
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Record HushMessenger capability: emoji_search",
+                    "name": null,
+                    "type": "ResourcePatch"
+                }
+            ],
+            "description": "Typing while the emoji keyboard is open no longer switches it to sticker search. The keyboard stays on emoji. Long-press Messenger's home screen icon > Patch controls. Starts off.",
+            "name": "Keep emoji search on emoji",
+            "options": []
+        },
+        {
+            "category": "Privacy",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "name": "Messenger",
+                    "packageName": "com.facebook.orca",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "description": "Arm64 builds 346013387, 346013440, 346013442, 346013354, 346013370, 346013394, 346013423, 346013355, 346013356, 346013357, 346013358, 346013359, 346013372, 346013374, 346013375, 346013391, 346013427, 346013441, 346013443, 346013444 and 346013445; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "580.0.0.49.91"
+                        },
+                        {
+                            "description": "Arm64 builds 346213494, 346213498, 346213510, 346213514, 346213528, 346213531, 346213532, 346213564, 346213567, 346213568, 346213580, 346213581, 346213582, 346213583, 346213584 and 346213585; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "581.0.0.49.91"
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.49.91",
+                        "581.0.0.49.91"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Load HushMessenger runtime controls",
+                    "name": null,
+                    "type": "BytecodePatch"
+                },
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
                     "description": "Record HushMessenger capability: keep_unsent",
                     "name": null,
                     "type": "ResourcePatch"
@@ -1744,6 +2006,71 @@
             "options": []
         },
         {
+            "category": "Stickers",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "name": "Messenger",
+                    "packageName": "com.facebook.orca",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "description": "Arm64 builds 346013387, 346013440, 346013442, 346013354, 346013370, 346013394, 346013423, 346013355, 346013356, 346013357, 346013358, 346013359, 346013372, 346013374, 346013375, 346013391, 346013427, 346013441, 346013443, 346013444 and 346013445; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "580.0.0.49.91"
+                        },
+                        {
+                            "description": "Arm64 builds 346213494, 346213498, 346213510, 346213514, 346213528, 346213531, 346213532, 346213564, 346213567, 346213568, 346213580, 346213581, 346213582, 346213583, 346213584 and 346213585; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "581.0.0.49.91"
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.49.91",
+                        "581.0.0.49.91"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Load HushMessenger runtime controls",
+                    "name": null,
+                    "type": "BytecodePatch"
+                },
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Record HushMessenger capability: emoji_drawer",
+                    "name": null,
+                    "type": "ResourcePatch"
+                }
+            ],
+            "description": "Turns off Meta's redesigned emoji drawer, so the emoji keyboard keeps its earlier layout. Changes apply after Restart Messenger. Accounts Meta never moved to the redesign see no difference. Long-press Messenger's home screen icon > Patch controls. Starts off.",
+            "name": "Restore old emoji drawer",
+            "options": []
+        },
+        {
             "category": "Fixes",
             "compatiblePackages": [
                 {
@@ -1926,6 +2253,71 @@
             "options": []
         },
         {
+            "category": "Conversations",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "name": "Messenger",
+                    "packageName": "com.facebook.orca",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "description": "Arm64 builds 346013387, 346013440, 346013442, 346013354, 346013370, 346013394, 346013423, 346013355, 346013356, 346013357, 346013358, 346013359, 346013372, 346013374, 346013375, 346013391, 346013427, 346013441, 346013443, 346013444 and 346013445; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "580.0.0.49.91"
+                        },
+                        {
+                            "description": "Arm64 builds 346213494, 346213498, 346213510, 346213514, 346213528, 346213531, 346213532, 346213564, 346213567, 346213568, 346213580, 346213581, 346213582, 346213583, 346213584 and 346213585; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "581.0.0.49.91"
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.49.91",
+                        "581.0.0.49.91"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Load HushMessenger runtime controls",
+                    "name": null,
+                    "type": "BytecodePatch"
+                },
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Record HushMessenger capability: original_video",
+                    "name": null,
+                    "type": "ResourcePatch"
+                }
+            ],
+            "description": "Sends a video file as it is when Messenger's own passthrough can take it, instead of a re-encoded copy. Videos over 25 MB are still compressed, and so are trimmed or edited videos and formats Messenger won't pass through. Long-press Messenger's home screen icon > Patch controls. Starts off.",
+            "name": "Send videos without re-encoding",
+            "options": []
+        },
+        {
             "category": "Navigation",
             "compatiblePackages": [
                 {
@@ -1991,6 +2383,184 @@
             "options": []
         },
         {
+            "category": "Updates",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "name": "Messenger",
+                    "packageName": "com.facebook.orca",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "description": "Arm64 builds 346013387, 346013440, 346013442, 346013354, 346013370, 346013394, 346013423, 346013355, 346013356, 346013357, 346013358, 346013359, 346013372, 346013374, 346013375, 346013391, 346013427, 346013441, 346013443, 346013444 and 346013445; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "580.0.0.49.91"
+                        },
+                        {
+                            "description": "Arm64 builds 346213494, 346213498, 346213510, 346213514, 346213528, 346213531, 346213532, 346213564, 346213567, 346213568, 346213580, 346213581, 346213582, 346213583, 346213584 and 346213585; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "581.0.0.49.91"
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.49.91",
+                        "581.0.0.49.91"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Gives Messenger a very high version code, so the Play Store stops offering Meta's updates over it. Messenger may report this number to Meta. Later builds need the same number or higher to install over it, so going back to Meta's number means uninstalling first, which deletes Messenger's data on your phone. Starts unselected.",
+            "name": "Spoof package version",
+            "options": [
+                {
+                    "default": 2147483647,
+                    "description": "A whole number from 1 to 2147483647. It has to be higher than the Play Store's Messenger to stop update offers. The default is the highest Android allows.",
+                    "key": "versionCode",
+                    "required": true,
+                    "title": "Version code",
+                    "type": "kotlin.Int",
+                    "values": {}
+                }
+            ]
+        },
+        {
+            "category": "Privacy",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "name": "Messenger",
+                    "packageName": "com.facebook.orca",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "description": "Arm64 builds 346013387, 346013440, 346013442, 346013354, 346013370, 346013394, 346013423, 346013355, 346013356, 346013357, 346013358, 346013359, 346013372, 346013374, 346013375, 346013391, 346013427, 346013441, 346013443, 346013444 and 346013445; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "580.0.0.49.91"
+                        },
+                        {
+                            "description": "Arm64 builds 346213494, 346213498, 346213510, 346213514, 346213528, 346213531, 346213532, 346213564, 346213567, 346213568, 346213580, 346213581, 346213582, 346213583, 346213584 and 346213585; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "581.0.0.49.91"
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.49.91",
+                        "581.0.0.49.91"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Load HushMessenger runtime controls",
+                    "name": null,
+                    "type": "BytecodePatch"
+                },
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Record HushMessenger capability: analytics_uploads",
+                    "name": null,
+                    "type": "ResourcePatch"
+                }
+            ],
+            "description": "Stops the background services Messenger's analytics logger uploads through. Messenger still records those events on your phone, and they can upload after you turn this off. Doesn't stop other logging. Long-press Messenger's home screen icon > Patch controls. Starts off.",
+            "name": "Stop analytics uploads",
+            "options": []
+        },
+        {
+            "category": "Theme",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "name": "Messenger",
+                    "packageName": "com.facebook.orca",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "description": "Arm64 builds 346013387, 346013440, 346013442, 346013354, 346013370, 346013394, 346013423, 346013355, 346013356, 346013357, 346013358, 346013359, 346013372, 346013374, 346013375, 346013391, 346013427, 346013441, 346013443, 346013444 and 346013445; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "580.0.0.49.91"
+                        },
+                        {
+                            "description": "Arm64 builds 346213494, 346213498, 346213510, 346213514, 346213528, 346213531, 346213532, 346213564, 346213567, 346213568, 346213580, 346213581, 346213582, 346213583, 346213584 and 346213585; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "581.0.0.49.91"
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.49.91",
+                        "581.0.0.49.91"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Load HushMessenger runtime controls",
+                    "name": null,
+                    "type": "BytecodePatch"
+                },
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Record HushMessenger capability: app_icons",
+                    "name": null,
+                    "type": "ResourcePatch"
+                }
+            ],
+            "description": "Makes every icon in Messenger's App icon setting selectable without a subscription. Messenger applies the icon with its own launcher switch. Messenger still decides whether that setting shows on your account, and switching this off can bring its default icon back. Long-press Messenger's home screen icon > Patch controls. Starts off.",
+            "name": "Unlock app icons",
+            "options": []
+        },
+        {
             "category": "Conversations",
             "compatiblePackages": [
                 {
@@ -2053,6 +2623,71 @@
             ],
             "description": "Renders emoji with the phone's own font instead of Messenger's. Long-press Messenger's home screen icon > Patch controls. Starts off.",
             "name": "Use system emoji",
+            "options": []
+        },
+        {
+            "category": "Conversations",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#0084FF",
+                    "name": "Messenger",
+                    "packageName": "com.facebook.orca",
+                    "signatures": [
+                        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+                        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+                    ],
+                    "targets": [
+                        {
+                            "description": "Arm64 builds 346013387, 346013440, 346013442, 346013354, 346013370, 346013394, 346013423, 346013355, 346013356, 346013357, 346013358, 346013359, 346013372, 346013374, 346013375, 346013391, 346013427, 346013441, 346013443, 346013444 and 346013445; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "580.0.0.49.91"
+                        },
+                        {
+                            "description": "Arm64 builds 346213494, 346213498, 346213510, 346213514, 346213528, 346213531, 346213532, 346213564, 346213567, 346213568, 346213580, 346213581, 346213582, 346213583, 346213584 and 346213585; checked again during patching",
+                            "isExperimental": false,
+                            "minSdk": 28,
+                            "version": "581.0.0.49.91"
+                        }
+                    ],
+                    "versions": [
+                        "580.0.0.49.91",
+                        "581.0.0.49.91"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Load HushMessenger runtime controls",
+                    "name": null,
+                    "type": "BytecodePatch"
+                },
+                {
+                    "dependencies": [
+                        {
+                            "dependencies": [],
+                            "description": "Install HushMessenger settings",
+                            "name": null,
+                            "type": "ResourcePatch"
+                        }
+                    ],
+                    "description": "Record HushMessenger capability: system_camera",
+                    "name": null,
+                    "type": "ResourcePatch"
+                }
+            ],
+            "description": "The camera button in a chat opens your phone's own camera app instead of Messenger's camera. The photo you take opens in Messenger's editor for that chat, ready to send. Photos only. Long-press Messenger's home screen icon > Patch controls. Starts off.",
+            "name": "Use the phone's camera app",
             "options": []
         },
         {

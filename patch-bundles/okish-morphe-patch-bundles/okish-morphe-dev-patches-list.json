@@ -1,5 +1,5 @@
 {
-    "version": "v1.40.0-dev.4",
+    "version": "v1.40.0-dev.5",
     "patches": [
         {
             "compatiblePackages": [
@@ -1045,6 +1045,30 @@
             "dependencies": [],
             "description": "Reward buttons pay out instantly. Tap once and you get the reward, with no ad to watch.",
             "name": "Instant rewarded video",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#6D9B39",
+                    "name": "Swamp Attack",
+                    "packageName": "com.outfit7.movingeye.swampattack",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "4.8.7.0"
+                        }
+                    ],
+                    "versions": [
+                        "4.8.7.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Rewarded videos give their reward instantly — no ad ever plays. Free revive, double coins, free items, etc. all work without watching anything.",
+            "name": "Instant Rewards",
             "options": []
         },
         {
