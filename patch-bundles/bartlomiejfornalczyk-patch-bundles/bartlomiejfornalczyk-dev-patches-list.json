@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.4",
+    "version": "v1.1.0-dev.5",
     "patches": [
         {
             "category": "microG",
@@ -169,6 +169,47 @@
                     "required": true,
                     "title": "Package name",
                     "type": "kotlin.String",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1A73E8",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.36.04.973607363"
+                        }
+                    ],
+                    "versions": [
+                        "26.36.04.973607363"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "ResourcePatch",
+                "BytecodePatch"
+            ],
+            "description": "Adds a Location source choice to the Customization screen: Android's own location providers, microG's (microg Services) or Google Play services' fused provider. With Android, neither is ever asked for a location. A source that is missing or disabled is never used, so location keeps working without it. Also keeps the network (Wi-Fi/cell) provider registered when no fused provider answers, instead of GPS only, so a fix does not go stale indoors.",
+            "name": "Location provider toggle",
+            "options": [
+                {
+                    "default": false,
+                    "description": "The location source Maps starts with. On: the fused provider -- Google Play services', or microG's in microG Maps -- whenever it is installed and enabled, Android's own providers otherwise. Off: Android's own providers. Can be changed later on the Customization screen.",
+                    "key": "useFusedProvider",
+                    "required": false,
+                    "title": "Default to Play services location",
+                    "type": "kotlin.Boolean",
                     "values": null
                 }
             ]

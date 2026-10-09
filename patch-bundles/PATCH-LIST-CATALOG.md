@@ -364,7 +364,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [ggyasin](#-ggyasin-bundle-patch-list) | 9 | 3 | Generated |
 | [den-patch](#-den-patch-bundle-patch-list) | 3 | 2 | Generated |
 | [qqmusic-proxy](#-qqmusic-proxy-bundle-patch-list) | - | - | Pending patch list |
-| [bartlomiejfornalczyk](#-bartlomiejfornalczyk-bundle-patch-list) | 5 | 2 | Generated |
+| [bartlomiejfornalczyk](#-bartlomiejfornalczyk-bundle-patch-list) | 10 | 2 | Generated |
 | [uyu](#-uyu-bundle-patch-list) | 7 | 1 | Generated |
 | [hushmessenger](#-hushmessenger-bundle-patch-list) | 43 | 1 | Generated |
 | [lawnchair](#-lawnchair-bundle-patch-list) | - | - | Pending patch list |
@@ -11642,13 +11642,18 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 bartlomiejfornalczyk Bundle Patch List:
 [📦 Bartlomiejfornalczyk-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bartlomiejfornalczyk-patches-bundle-morphe)
 <details>
-<summary><b>bartlomiejfornalczyk</b> - 5 patches, 2 apps</summary>
+<summary><b>bartlomiejfornalczyk</b> - 10 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Add microG support``` | ```Builds microG Maps, a separate app (org.ungoogled.android.apps.maps.microg) that signs in to your Google account through microG: saved places and lists, Timeline, location sharing, contributions and push messages. Remove sign-in prompts, Trim account menu and Remove permissions are left out of this build, Offline saved places keeps only its Local saved screen, which copies your account's saved lists to the phone (Pull from Google account), and its icon carries microG's C. Needs microG: MicroG-RE or ReVanced GmsCore. Not for root (mount) installs.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Allow Morphe YouTube Music mini player``` | ```Enables YouTube Music and modded media apps as the navigation mini player.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Allow Morphe YouTube Music package visibility``` | ```Adds package queries and permission to AndroidManifest.xml for full media apps visibility.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Bypass Play Services checks``` | ```Makes Maps' bundled Play services signature and availability checks always pass, so it runs re-signed and with Play services disabled or absent, and lets it load tiles, search and routing by sending Google's own package and certificate in the identity headers the Maps backend checks. Where Play services rejects the re-signed app, Maps degrades instead of crashing.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Change package name``` | ```Installs alongside stock Google Maps under its own package name and adds MicroG spoofing.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Location provider toggle``` | ```Adds a Location source choice to the Customization screen: Android's own location providers, microG's (microg Services) or Google Play services' fused provider. With Android, neither is ever asked for a location. A source that is missing or disabled is never used, so location keeps working without it. Also keeps the network (Wi-Fi/cell) provider registered when no fused provider answers, instead of GPS only, so a fix does not go stale indoors.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Remove permissions``` | ```Removes permissions that only serve Google-account features or Google's data collection: background location, physical activity, contacts, microphone (voice search stops working), camera (Lens and Live View stop working), car speed, advertising ID, push messages and Google services settings. Left out with Add microG support, whose account features need them.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Remove telemetry``` | ```Points the Firebase Installations and Play services compliance check-ins at an unresolvable host, stops every ad impression and click ping from being sent, and deregisters Google's logging, performance-monitoring, survey and Location History libraries and the on-device federated-learning services. With Add microG support, Firebase Installations and Location History are left alone, so Timeline, account sync and push messages keep working.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Restore map data``` | ```Lets a re-signed Maps load tiles, search and routing, by sending Google's own package and certificate.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Allow external media browser connections``` | ```Allows Google Maps, Android Auto, and third-party media controllers to connect to YouTube Music.``` | ```YouTube Music``` | ```All versions``` |
 
