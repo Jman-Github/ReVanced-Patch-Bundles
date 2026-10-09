@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.1",
+    "version": "v1.1.0-dev.2",
     "patches": [
         {
             "category": null,
@@ -124,9 +124,10 @@
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Displays static and animated global and channel emotes with provider controls and tap previews.",
+            "description": "Adds static and animated global and channel emotes to chat and the emote picker, with provider controls and previews.",
             "name": "BTTV, FFZ and 7TV emotes",
             "options": []
         },

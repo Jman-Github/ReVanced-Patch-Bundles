@@ -11898,7 +11898,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1, including Twitch's native live Video Stats panel beside single-tap Reload Stream, landscape brightness and full-range media-volume gestures, configurable swipe-to-portrait collapse prevention, and player visibility controls.``` | ```Twitch``` | ```31.3.1``` |
+| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1, including Twitch's native live Video Stats panel beside single-tap Reload Stream, landscape brightness and full-range media-volume gestures, and a verified parent-level guard for configurable swipe-to-portrait collapse prevention.``` | ```Twitch``` | ```31.3.1``` |
 
 </details>
 ### 🧩 hushgram Bundle Patch List:
@@ -12189,7 +12189,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Auto-claim bonus channel points``` | ```Claims available bonus rewards in live playback.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
 | ```Block client-requested ads``` | ```Suppresses native ad requests. Restart Twitch after changing the setting.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
 | ```Block stream ads``` | ```Replaces detected live-stream ads with direct Twitch playback from alternate player contexts. Prefers matching video quality. No external stream proxy.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
-| ```BTTV, FFZ and 7TV emotes``` | ```Displays static and animated global and channel emotes with provider controls and tap previews.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
+| ```BTTV, FFZ and 7TV emotes``` | ```Adds static and animated global and channel emotes to chat and the emote picker, with provider controls and previews.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
 | ```Hide feed and display ads``` | ```Removes sponsored feed cards and display ads using Twitch's no-ad responses.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
 | ```Hide subscription discount banners``` | ```Hides subscription offers and promotional labels, while retaining normal subscription actions.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
 | ```Hide Turbo promotions``` | ```Hides Turbo entries, upsells and purchase buttons.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
