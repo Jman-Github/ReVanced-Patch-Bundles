@@ -273,7 +273,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [CrimeRadar](#-crimeradar-bundle-patch-list) | 13 | 2 | Generated |
 | [Vantage](#-vantage-bundle-patch-list) | 2 | 2 | Generated |
 | [BlueDragon4251-TikTok](#-bluedragon4251-tiktok-bundle-patch-list) | 37 | 1 | Generated |
-| [Santodan](#-santodan-bundle-patch-list) | 12 | 5 | Generated |
+| [Santodan](#-santodan-bundle-patch-list) | 18 | 5 | Generated |
 | [YouTube-VR](#-youtube-vr-bundle-patch-list) | 7 | 1 | Generated |
 | [LOCKhart07](#-lockhart07-bundle-patch-list) | 2 | 1 | Generated |
 | [Ekispert](#-ekispert-bundle-patch-list) | 1 | 1 | Generated |
@@ -8602,19 +8602,25 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Santodan Bundle Patch List:
 [📦 Santodan-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-santodan-patches-bundle-morphe)
 <details>
-<summary><b>Santodan</b> - 12 patches, 5 apps</summary>
+<summary><b>Santodan</b> - 18 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```MEO - Side-by-side installation``` | ```Installs a separately named MEO clone using a configurable package name and app name.``` | ```MEO (Android TV)``` | ```5.7.0``` |
 | ```MEO - Spoof supported device``` | ```Reports a Sagemcom DIW3930 to MEO provisioning and skips the server's non-blocking device-verification warning.``` | ```MEO (Android TV)``` | ```5.7.0``` |
-| ```NuvioTV - Finale dates in library and collections``` | ```Adds separate disabled-by-default settings to show the latest scheduled episode date in library and collection posters.``` | ```NuvioTV``` | ```1.1.0-beta.4``` |
-| ```NuvioTV - Keep airing series in Upcoming``` | ```Adds a disabled-by-default setting that keeps currently-airing library series in Upcoming until the scheduled finale.``` | ```NuvioTV``` | ```1.1.0-beta.4``` |
-| ```NuvioTV - Merge tracking progress``` | ```Merges Nuvio Sync and connected tracking-provider progress, preserving the previous snapshot while providers refresh.``` | ```NuvioTV``` | ```1.1.0-beta.2, 1.1.0-beta.4``` |
-| ```NuvioTV - Remaining episodes in Continue Watching``` | ```Adds a disabled-by-default setting that displays aired, unwatched episode counts for every tracking integration. Controlled by Layout > Santodan-Patches on beta4.``` | ```NuvioTV``` | ```1.1.0-beta.2, 1.1.0-beta.4``` |
-| ```NuvioTV - Side-by-side installation``` | ```Installs a separately named NuvioTV clone using a configurable package name and app name.``` | ```NuvioTV``` | ```1.1.0-beta.2, 1.1.0-beta.4``` |
+| ```NuvioTV - Finale dates in library and collections``` | ```Adds separate disabled-by-default settings to show the latest scheduled episode date in library and collection posters.``` | ```NuvioTV``` | ```1.1.0-beta.4, 1.1.0-beta.5``` |
+| ```NuvioTV - Keep airing series in Upcoming``` | ```Adds a disabled-by-default setting that keeps currently-airing library series in Upcoming until the scheduled finale.``` | ```NuvioTV``` | ```1.1.0-beta.4, 1.1.0-beta.5``` |
+| ```NuvioTV - Merge tracking progress``` | ```Merges Nuvio Sync and connected tracking-provider progress, preserving the previous snapshot while providers refresh.``` | ```NuvioTV``` | ```1.1.0-beta.2, 1.1.0-beta.4, 1.1.0-beta.5``` |
+| ```NuvioTV - Preload streams in Continue Watching``` | ```Adds an opt-in Streams setting to search sources in the background for visible Continue Watching episodes and movies, reusing Nuvio's native search cache.``` | ```NuvioTV``` | ```1.1.0-beta.4, 1.1.0-beta.5``` |
+| ```NuvioTV - Preload streams on detail page``` | ```Adds an opt-in Streams setting to search sources for the detail page's Play or Resume episode or movie, reusing Nuvio's native search cache.``` | ```NuvioTV``` | ```1.1.0-beta.4, 1.1.0-beta.5``` |
+| ```NuvioTV - Remaining episodes in Continue Watching``` | ```Adds a disabled-by-default setting that displays aired, unwatched episode counts for every tracking integration. Controlled by Layout > Santodan-Patches on beta4 and beta5.``` | ```NuvioTV``` | ```1.1.0-beta.2, 1.1.0-beta.4, 1.1.0-beta.5``` |
+| ```NuvioTV - Side-by-side installation``` | ```Installs a separately named NuvioTV clone using a configurable package name and app name.``` | ```NuvioTV``` | ```1.1.0-beta.2, 1.1.0-beta.4, 1.1.0-beta.5``` |
+| ```NuvioTV - Upcoming movie dates in library and collections``` | ```Adds separate disabled-by-default settings to show known release dates on unreleased movie posters in library and collections.``` | ```NuvioTV``` | ```1.1.0-beta.4, 1.1.0-beta.5``` |
 | ```Peafowl - Unlock Theme Ownership (Experimental)``` | ```Use Peafowl's local free-theme path without the billing preflight. Experimental; server downloads are not guaranteed.``` | ```Peafowl Theme Maker for EMUI``` | ```GMS_27.5.1``` |
 | ```Pillo - Hybrid Lock-Screen Notifications``` | ```Use fullscreen alarms while the phone is locked and banner notifications while it is unlocked. Select Pillo's Banner/Light notification mode.``` | ```Pillo``` | ```0.6.20, 0.6.19``` |
+| ```Pillo - Import weight history from JSON``` | ```Adds a native Import weights JSON button above Skip in Weight > Add record. Imports SWT backup weights with their dates into the selected profile, with kg/lb selection and duplicate skipping.``` | ```Pillo``` | ```0.6.20``` |
+| ```Pillo - Local backup and restore``` | ```Adds local-file export and restore of Pillo's database, settings and app-managed files, without Google sign-in. Restore replaces current data, keeps a recovery backup and restarts Pillo.``` | ```Pillo``` | ```0.6.20``` |
+| ```Pillo - Weight change summaries``` | ```Adds signed Total weight change, an All default filter, a selectable Last since date, and Last 30 days / Last 15 days / Change summaries using full profile history.``` | ```Pillo``` | ```0.6.20``` |
 | ```Reddit - Content filters (Experimental)``` | ```Adds keyword and per-community flair filters under Morphe > Filters. Home-feed flair filtering requires Show flairs in home feed, which is installed automatically.``` | ```Reddit``` | ```2026.37.0``` |
 | ```Reddit - Show flairs in home feed (Experimental)``` | ```Shows native post flair badges below titles in the home feed, including cached and joined-community posts. Controlled by Morphe > Layout.``` | ```Reddit``` | ```2026.37.0``` |
 | ```Reddit - Start as guest``` | ```Skips the forced startup login screen using Reddit's native browse-logged-out action. Login remains available from the account menu. Already included upstream in Morphe Patches PR #3109: https://github.com/MorpheApp/morphe-patches/pull/3109``` | ```Reddit``` | ```2026.37.0``` |

@@ -1,5 +1,5 @@
 {
-    "version": "v0.8.0",
+    "version": "v0.10.0",
     "patches": [
         {
             "compatiblePackages": [
@@ -78,10 +78,15 @@
                         {
                             "isExperimental": false,
                             "version": "1.1.0-beta.4"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.0-beta.5"
                         }
                     ],
                     "versions": [
-                        "1.1.0-beta.4"
+                        "1.1.0-beta.4",
+                        "1.1.0-beta.5"
                     ]
                 }
             ],
@@ -103,10 +108,15 @@
                         {
                             "isExperimental": false,
                             "version": "1.1.0-beta.4"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.0-beta.5"
                         }
                     ],
                     "versions": [
-                        "1.1.0-beta.4"
+                        "1.1.0-beta.4",
+                        "1.1.0-beta.5"
                     ]
                 }
             ],
@@ -132,11 +142,16 @@
                         {
                             "isExperimental": false,
                             "version": "1.1.0-beta.4"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.0-beta.5"
                         }
                     ],
                     "versions": [
                         "1.1.0-beta.2",
-                        "1.1.0-beta.4"
+                        "1.1.0-beta.4",
+                        "1.1.0-beta.5"
                     ]
                 }
             ],
@@ -157,16 +172,16 @@
                     "targets": [
                         {
                             "isExperimental": false,
-                            "version": "1.1.0-beta.2"
+                            "version": "1.1.0-beta.4"
                         },
                         {
                             "isExperimental": false,
-                            "version": "1.1.0-beta.4"
+                            "version": "1.1.0-beta.5"
                         }
                     ],
                     "versions": [
-                        "1.1.0-beta.2",
-                        "1.1.0-beta.4"
+                        "1.1.0-beta.4",
+                        "1.1.0-beta.5"
                     ]
                 }
             ],
@@ -174,7 +189,72 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Adds a disabled-by-default setting that displays aired, unwatched episode counts for every tracking integration. Controlled by Layout > Santodan-Patches on beta4.",
+            "description": "Adds an opt-in Streams setting to search sources in the background for visible Continue Watching episodes and movies, reusing Nuvio's native search cache.",
+            "name": "NuvioTV - Preload streams in Continue Watching",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "NuvioTV",
+                    "packageName": "com.nuvio.tv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.0-beta.4"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.0-beta.5"
+                        }
+                    ],
+                    "versions": [
+                        "1.1.0-beta.4",
+                        "1.1.0-beta.5"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds an opt-in Streams setting to search sources for the detail page's Play or Resume episode or movie, reusing Nuvio's native search cache.",
+            "name": "NuvioTV - Preload streams on detail page",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "NuvioTV",
+                    "packageName": "com.nuvio.tv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.0-beta.2"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.0-beta.4"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.0-beta.5"
+                        }
+                    ],
+                    "versions": [
+                        "1.1.0-beta.2",
+                        "1.1.0-beta.4",
+                        "1.1.0-beta.5"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds a disabled-by-default setting that displays aired, unwatched episode counts for every tracking integration. Controlled by Layout > Santodan-Patches on beta4 and beta5.",
             "name": "NuvioTV - Remaining episodes in Continue Watching",
             "options": []
         },
@@ -192,11 +272,16 @@
                         {
                             "isExperimental": false,
                             "version": "1.1.0-beta.4"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.0-beta.5"
                         }
                     ],
                     "versions": [
                         "1.1.0-beta.2",
-                        "1.1.0-beta.4"
+                        "1.1.0-beta.4",
+                        "1.1.0-beta.5"
                     ]
                 }
             ],
@@ -224,6 +309,36 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "NuvioTV",
+                    "packageName": "com.nuvio.tv",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.0-beta.4"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "1.1.0-beta.5"
+                        }
+                    ],
+                    "versions": [
+                        "1.1.0-beta.4",
+                        "1.1.0-beta.5"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Adds separate disabled-by-default settings to show known release dates on unreleased movie posters in library and collections.",
+            "name": "NuvioTV - Upcoming movie dates in library and collections",
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -274,6 +389,75 @@
             "dependencies": [],
             "description": "Use fullscreen alarms while the phone is locked and banner notifications while it is unlocked. Select Pillo's Banner/Light notification mode.",
             "name": "Pillo - Hybrid Lock-Screen Notifications",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Pillo",
+                    "packageName": "xyz.rtrvr.pillo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "0.6.20"
+                        }
+                    ],
+                    "versions": [
+                        "0.6.20"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Adds a native Import weights JSON button above Skip in Weight > Add record. Imports SWT backup weights with their dates into the selected profile, with kg/lb selection and duplicate skipping.",
+            "name": "Pillo - Import weight history from JSON",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Pillo",
+                    "packageName": "xyz.rtrvr.pillo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "0.6.20"
+                        }
+                    ],
+                    "versions": [
+                        "0.6.20"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Adds local-file export and restore of Pillo's database, settings and app-managed files, without Google sign-in. Restore replaces current data, keeps a recovery backup and restarts Pillo.",
+            "name": "Pillo - Local backup and restore",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Pillo",
+                    "packageName": "xyz.rtrvr.pillo",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "0.6.20"
+                        }
+                    ],
+                    "versions": [
+                        "0.6.20"
+                    ]
+                }
+            ],
+            "default": false,
+            "dependencies": [],
+            "description": "Adds signed Total weight change, an All default filter, a selectable Last since date, and Last 30 days / Last 15 days / Change summaries using full profile history.",
+            "name": "Pillo - Weight change summaries",
             "options": []
         },
         {
