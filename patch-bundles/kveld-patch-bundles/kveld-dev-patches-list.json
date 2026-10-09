@@ -1,5 +1,5 @@
 {
-    "version": "v2.6.0-experimental.10",
+    "version": "v2.6.0-experimental.11",
     "patches": [
         {
             "compatiblePackages": [
@@ -4044,7 +4044,7 @@
             "name": "TikTok Privacy Permissions Stripper",
             "options": [
                 {
-                    "default": true,
+                    "default": false,
                     "description": "Remove POST_NOTIFICATIONS permission (Android 13+). Notification channels cannot dispatch push alerts.",
                     "key": "stripNotifications",
                     "required": false,
@@ -4080,7 +4080,7 @@
                     "values": null
                 },
                 {
-                    "default": false,
+                    "default": true,
                     "description": "Remove BLUETOOTH, BLUETOOTH_SCAN, BLUETOOTH_CONNECT, and BLUETOOTH_ADVERTISE permissions. WARNING: Breaks Bluetooth audio accessories, wireless headphones low-latency sync, Cast devices, and external remote controls.",
                     "key": "stripBluetooth",
                     "required": false,
@@ -4098,7 +4098,7 @@
                     "values": null
                 },
                 {
-                    "default": false,
+                    "default": true,
                     "description": "Remove USE_BIOMETRIC and USE_FINGERPRINT permissions. WARNING: Breaks fingerprint/face biometric unlocking, passkeys, and biometric payment authorization.",
                     "key": "stripBiometric",
                     "required": false,
@@ -4121,15 +4121,6 @@
                     "key": "stripSystemAlertWindow",
                     "required": false,
                     "title": "Strip System Alert Window Permission",
-                    "type": "kotlin.Boolean",
-                    "values": null
-                },
-                {
-                    "default": false,
-                    "description": "Remove ACCESS_NETWORK_STATE, ACCESS_WIFI_STATE, CHANGE_NETWORK_STATE, CHANGE_WIFI_STATE, and ACCESS_LOCAL_NETWORK permissions. WARNING: May cause SecurityException crashes on startup if network monitoring components query Wi-Fi/cellular state without catch guards.",
-                    "key": "stripNetworkState",
-                    "required": false,
-                    "title": "Strip Network State Permissions",
                     "type": "kotlin.Boolean",
                     "values": null
                 },

@@ -355,7 +355,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [PixelBoard](#-pixelboard-bundle-patch-list) | - | - | Pending patch list |
 | [CK-Zombies](#-ck-zombies-bundle-patch-list) | 8 | 1 | Generated |
 | [HushFacebook](#-hushfacebook-bundle-patch-list) | 85 | 1 | Generated |
-| [BearInMindCat](#-bearinmindcat-bundle-patch-list) | 22 | 1 | Generated |
+| [BearInMindCat](#-bearinmindcat-bundle-patch-list) | 23 | 1 | Generated |
 | [Pixincreate-Morpheus](#-pixincreate-morpheus-bundle-patch-list) | 17 | 1 | Generated |
 | [3jPatch](#-3jpatch-bundle-patch-list) | 1 | 1 | Generated |
 | [Letterboxd-Stremio-Nuvio](#-letterboxd-stremio-nuvio-bundle-patch-list) | 1 | 1 | Generated |
@@ -11489,13 +11489,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 BearInMindCat Bundle Patch List:
 [📦 BearInMindCat-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bearinmindcat-patches-bundle-morphe)
 <details>
-<summary><b>BearInMindCat</b> - 22 patches, 1 app</summary>
+<summary><b>BearInMindCat</b> - 23 patches, 1 app</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```120 refresh rate``` | ```Lifts the 60 Hz limit Maps puts on itself, on the app and on the map, so it can run at your screen's full refresh rate (such as 120 Hz). Uses more battery, most of all while navigating. Off by default: switch it on on the Customization screen.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Account sheet cleanup``` | ```Removes the "More from this app" label from the account sheet, and keeps the sheet open when you come back from Settings or Customization or tap "Your profile", instead of dropping back to the map.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Add microG support``` | ```Builds microG Maps, a separate app (org.ungoogled.android.apps.maps.microg) that signs in to your Google account through microG: saved places and lists, Timeline, location sharing, contributions and push messages. Remove sign-in prompts, Trim account menu and Remove permissions are left out of this build, Offline saved places keeps only its Local saved screen, which copies your account's saved lists to the phone (Pull from Google account), and its icon carries microG's C. Needs microG: MicroG-RE or ReVanced GmsCore. Not for root (mount) installs.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Any media app``` | ```Navigation's Default media app (Settings > Navigation) offers every music and podcast app that works with Android Auto, such as Poweramp, not only Spotify, YouTube Music and Pandora.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Better offline maps``` | ```Reworks the offline area picker: zooming out really selects more instead of being shrunk to Google's size cap, the box can be resized by dragging its edges and corners, a large area is split into several downloads whose true total size is shown, and areas already downloaded are drawn on the map. Can be turned off on the Customization screen.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Black theme``` | ```AMOLED-black theme. Pins Maps' own dark mode and its separate navigation colour scheme, and remaps colour resources, drawable fills and draw-time paints so no surface is left grey.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Blue pin``` | ```Chromium-coloured flat map pin on every in-app product logo and the search bar's leading icon.``` | ```Google Maps``` | ```26.36.04.973607363``` |
