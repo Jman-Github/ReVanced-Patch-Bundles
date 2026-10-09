@@ -1,5 +1,5 @@
 {
-    "version": "v2.6.0-experimental.6",
+    "version": "v2.6.0-experimental.7",
     "patches": [
         {
             "compatiblePackages": [
@@ -4447,7 +4447,7 @@
                 },
                 {
                     "default": true,
-                    "description": "Neutralize Firebase Analytics, Matomo, Leanplum, Localytics, WebEngage, PostHog, MoEngage, Snowplow, mParticle, Treasure Data, Huawei Analytics, Yandex Metrica, and Facebook AppEvents event tracking, capture, and session logging methods.",
+                    "description": "Neutralize Firebase Analytics, Matomo, Leanplum, Localytics, WebEngage, PostHog, MoEngage, Snowplow, mParticle, Treasure Data, Huawei Analytics, Yandex Metrica, Facebook AppEvents, and Sensors Analytics event tracking, capture, and session logging methods.",
                     "key": "blockAnalytics",
                     "required": false,
                     "title": "Block Analytics SDKs",

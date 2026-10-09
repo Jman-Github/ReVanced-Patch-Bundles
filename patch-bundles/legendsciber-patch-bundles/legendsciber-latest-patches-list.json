@@ -1,5 +1,5 @@
 {
-    "version": "v1.43.9",
+    "version": "v1.43.10",
     "patches": [
         {
             "compatiblePackages": [
@@ -480,7 +480,7 @@
             ],
             "default": true,
             "dependencies": [],
-            "description": "Every in-app purchase package reports as purchased: the all weapons pack, all planets pack, remove ads and unlock levels and achievements stay permanently owned and unlocked, without contacting Google Play.",
+            "description": "Every in-app purchase package reports as purchased: the all weapons pack, all planets pack, remove ads and unlock levels and achievements stay permanently owned and unlocked, without contacting Google Play. Banner, interstitial and rewarded ads are suppressed via the Remove Ads entitlement.",
             "name": "Solar Smash All Packages Purchased",
             "options": []
         },
