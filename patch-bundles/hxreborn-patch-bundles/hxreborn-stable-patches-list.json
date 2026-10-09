@@ -1,5 +1,5 @@
 {
-    "version": "v1.45.0",
+    "version": "v1.46.0",
     "patches": [
         {
             "category": null,
@@ -299,6 +299,41 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
+                    "appIconColor": "#1B4A91",
+                    "name": "imo",
+                    "packageName": "com.imo.android.imoim",
+                    "signatures": [
+                        "44483f98c17bf49fbde08d3376af09c6fc1f9370c7a046c35a3dca45f5785150"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "2026.08.1041",
+                            "versionCodes": {
+                                "ARM64_V8A": 26081041,
+                                "ARMEABI_V7A": 26081041,
+                                "X86": 26081041,
+                                "X86_64": 26081041
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2026.08.1041"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Replaces the dark theme background with pure black.",
+            "name": "AMOLED dark theme",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
                     "appIconColor": "#53FC18",
                     "name": "Kick",
                     "packageName": "com.kick.mobile",
@@ -378,6 +413,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
+                            "version": "7.11.10",
+                            "versionCodes": {
+                                "ARM64_V8A": 18325,
+                                "ARMEABI_V7A": 18325,
+                                "X86": 18325,
+                                "X86_64": 18325
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "7.11.9",
                             "versionCodes": {
                                 "ARM64_V8A": 18324,
@@ -421,6 +467,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.10",
                         "7.11.9",
                         "7.11.8",
                         "7.11.5",
@@ -724,59 +771,6 @@
             "category": null,
             "compatiblePackages": [
                 {
-                    "apkFileType": "APKS",
-                    "appIconColor": "#256A93",
-                    "name": "Keepa",
-                    "packageName": "com.keepa.mobile",
-                    "signatures": [
-                        "43329e3a67415def40f307e5a7b3343498db9a821f436785d0a5487c636b9bcd"
-                    ],
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "minSdk": 30,
-                            "version": "6.2.1",
-                            "versionCodes": {
-                                "ARM64_V8A": 56014,
-                                "ARMEABI_V7A": 56014,
-                                "X86": 56014,
-                                "X86_64": 56014
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "6.2.1"
-                    ]
-                }
-            ],
-            "default": false,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Installs Keepa as a separate app alongside the original, with its own account and price watches. Each copy needs a different clone number.",
-            "name": "Clone app",
-            "options": [
-                {
-                    "default": "com.keepa.mobile.clone1",
-                    "description": "Package name of this copy.",
-                    "key": "packageName",
-                    "required": true,
-                    "title": "Package name",
-                    "type": "kotlin.String",
-                    "values": {
-                        "Clone 1": "com.keepa.mobile.clone1",
-                        "Clone 2": "com.keepa.mobile.clone2",
-                        "Clone 3": "com.keepa.mobile.clone3",
-                        "Clone 4": "com.keepa.mobile.clone4",
-                        "Clone 5": "com.keepa.mobile.clone5"
-                    }
-                }
-            ]
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
                     "apkFileType": "XAPK",
                     "appIconColor": "#226DF6",
                     "name": "TeraBox",
@@ -853,6 +847,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
+                            "version": "7.11.10",
+                            "versionCodes": {
+                                "ARM64_V8A": 18325,
+                                "ARMEABI_V7A": 18325,
+                                "X86": 18325,
+                                "X86_64": 18325
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "7.11.9",
                             "versionCodes": {
                                 "ARM64_V8A": 18324,
@@ -896,6 +901,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.10",
                         "7.11.9",
                         "7.11.8",
                         "7.11.5",
@@ -1068,6 +1074,43 @@
             ],
             "description": "Renders the app's dark theme and adds it to the settings.",
             "name": "Dark theme",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1B4A91",
+                    "name": "imo",
+                    "packageName": "com.imo.android.imoim",
+                    "signatures": [
+                        "44483f98c17bf49fbde08d3376af09c6fc1f9370c7a046c35a3dca45f5785150"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "2026.08.1041",
+                            "versionCodes": {
+                                "ARM64_V8A": 26081041,
+                                "ARMEABI_V7A": 26081041,
+                                "X86": 26081041,
+                                "X86_64": 26081041
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2026.08.1041"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Blocks usage statistics sent to imo, AppsFlyer, Firebase and Facebook, and the advertising ID upload.",
+            "name": "Disable analytics",
             "options": []
         },
         {
@@ -1599,6 +1642,41 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
+                    "appIconColor": "#1B4A91",
+                    "name": "imo",
+                    "packageName": "com.imo.android.imoim",
+                    "signatures": [
+                        "44483f98c17bf49fbde08d3376af09c6fc1f9370c7a046c35a3dca45f5785150"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "2026.08.1041",
+                            "versionCodes": {
+                                "ARM64_V8A": 26081041,
+                                "ARMEABI_V7A": 26081041,
+                                "X86": 26081041,
+                                "X86_64": 26081041
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2026.08.1041"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the forced update screen and the update prompts.",
+            "name": "Disable update check",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
                     "appIconColor": "#8E58FF",
                     "name": "RISE Sleep Tracker",
                     "packageName": "com.risesci.nyx",
@@ -1953,6 +2031,41 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
+                    "appIconColor": "#1B4A91",
+                    "name": "imo",
+                    "packageName": "com.imo.android.imoim",
+                    "signatures": [
+                        "44483f98c17bf49fbde08d3376af09c6fc1f9370c7a046c35a3dca45f5785150"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "2026.08.1041",
+                            "versionCodes": {
+                                "ARM64_V8A": 26081041,
+                                "ARMEABI_V7A": 26081041,
+                                "X86": 26081041,
+                                "X86_64": 26081041
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2026.08.1041"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes splash, chat list, story and end-of-call ads, and skips the ad consent form.",
+            "name": "Hide ads",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
                     "appIconColor": "#000F15",
                     "name": "Joyn",
                     "packageName": "de.prosiebensat1digital.seventv",
@@ -2253,6 +2366,41 @@
             ],
             "description": "Hides the ad consent form shown at startup.",
             "name": "Hide consent form",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1B4A91",
+                    "name": "imo",
+                    "packageName": "com.imo.android.imoim",
+                    "signatures": [
+                        "44483f98c17bf49fbde08d3376af09c6fc1f9370c7a046c35a3dca45f5785150"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "2026.08.1041",
+                            "versionCodes": {
+                                "ARM64_V8A": 26081041,
+                                "ARMEABI_V7A": 26081041,
+                                "X86": 26081041,
+                                "X86_64": 26081041
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2026.08.1041"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the invite friends dialog, the invite entry in the chat list and the call sharing banner.",
+            "name": "Hide invite prompts",
             "options": []
         },
         {
@@ -2622,6 +2770,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
+                            "version": "7.11.10",
+                            "versionCodes": {
+                                "ARM64_V8A": 18325,
+                                "ARMEABI_V7A": 18325,
+                                "X86": 18325,
+                                "X86_64": 18325
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "7.11.9",
                             "versionCodes": {
                                 "ARM64_V8A": 18324,
@@ -2665,6 +2824,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.10",
                         "7.11.9",
                         "7.11.8",
                         "7.11.5",
@@ -2870,6 +3030,41 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1B4A91",
+                    "name": "imo",
+                    "packageName": "com.imo.android.imoim",
+                    "signatures": [
+                        "44483f98c17bf49fbde08d3376af09c6fc1f9370c7a046c35a3dca45f5785150"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "2026.08.1041",
+                            "versionCodes": {
+                                "ARM64_V8A": 26081041,
+                                "ARMEABI_V7A": 26081041,
+                                "X86": 26081041,
+                                "X86_64": 26081041
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2026.08.1041"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the Voice Club tab from the home screen.",
+            "name": "Hide Voice Club tab",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "apkFileType": "APKS_REQUIRED",
                     "appIconColor": "#FA2A80",
                     "name": "Photo Editor Pro",
@@ -2931,6 +3126,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
+                            "version": "7.11.10",
+                            "versionCodes": {
+                                "ARM64_V8A": 18325,
+                                "ARMEABI_V7A": 18325,
+                                "X86": 18325,
+                                "X86_64": 18325
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "7.11.9",
                             "versionCodes": {
                                 "ARM64_V8A": 18324,
@@ -2974,6 +3180,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.10",
                         "7.11.9",
                         "7.11.8",
                         "7.11.5",
@@ -3220,6 +3427,76 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1B4A91",
+                    "name": "imo",
+                    "packageName": "com.imo.android.imoim",
+                    "signatures": [
+                        "44483f98c17bf49fbde08d3376af09c6fc1f9370c7a046c35a3dca45f5785150"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "2026.08.1041",
+                            "versionCodes": {
+                                "ARM64_V8A": 26081041,
+                                "ARMEABI_V7A": 26081041,
+                                "X86": 26081041,
+                                "X86_64": 26081041
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2026.08.1041"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops chats and calls from reporting screenshots and screen recordings to the other person.",
+            "name": "Prevent screenshot detection",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1B4A91",
+                    "name": "imo",
+                    "packageName": "com.imo.android.imoim",
+                    "signatures": [
+                        "44483f98c17bf49fbde08d3376af09c6fc1f9370c7a046c35a3dca45f5785150"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "2026.08.1041",
+                            "versionCodes": {
+                                "ARM64_V8A": 26081041,
+                                "ARMEABI_V7A": 26081041,
+                                "X86": 26081041,
+                                "X86_64": 26081041
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2026.08.1041"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Raises the limit on photos, videos and files sent at once to 100.",
+            "name": "Raise media sending limit",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#6D4AFF",
                     "name": "Proton Mail",
@@ -3228,6 +3505,17 @@
                         "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
                     ],
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.11.10",
+                            "versionCodes": {
+                                "ARM64_V8A": 18325,
+                                "ARMEABI_V7A": 18325,
+                                "X86": 18325,
+                                "X86_64": 18325
+                            }
+                        },
                         {
                             "isExperimental": false,
                             "minSdk": 29,
@@ -3274,6 +3562,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.10",
                         "7.11.9",
                         "7.11.8",
                         "7.11.5",
@@ -3370,6 +3659,111 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1B4A91",
+                    "name": "imo",
+                    "packageName": "com.imo.android.imoim",
+                    "signatures": [
+                        "44483f98c17bf49fbde08d3376af09c6fc1f9370c7a046c35a3dca45f5785150"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "2026.08.1041",
+                            "versionCodes": {
+                                "ARM64_V8A": 26081041,
+                                "ARMEABI_V7A": 26081041,
+                                "X86": 26081041,
+                                "X86_64": 26081041
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2026.08.1041"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Allows copying, sharing, forwarding and downloading messages protected by the sender's chat privacy settings or Time Machine.",
+            "name": "Remove chat protection",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1B4A91",
+                    "name": "imo",
+                    "packageName": "com.imo.android.imoim",
+                    "signatures": [
+                        "44483f98c17bf49fbde08d3376af09c6fc1f9370c7a046c35a3dca45f5785150"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "2026.08.1041",
+                            "versionCodes": {
+                                "ARM64_V8A": 26081041,
+                                "ARMEABI_V7A": 26081041,
+                                "X86": 26081041,
+                                "X86_64": 26081041
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2026.08.1041"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Raises the limit on contacts selected for iBubble close friends and Family Guard invites to 999. Experimental.",
+            "name": "Remove contact selection limit",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1B4A91",
+                    "name": "imo",
+                    "packageName": "com.imo.android.imoim",
+                    "signatures": [
+                        "44483f98c17bf49fbde08d3376af09c6fc1f9370c7a046c35a3dca45f5785150"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "2026.08.1041",
+                            "versionCodes": {
+                                "ARM64_V8A": 26081041,
+                                "ARMEABI_V7A": 26081041,
+                                "X86": 26081041,
+                                "X86_64": 26081041
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2026.08.1041"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Allows forwarding disappearing and view-once text messages.",
+            "name": "Remove forwarding restrictions",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "apkFileType": "APK",
                     "appIconColor": "#6D4AFF",
                     "name": "Proton Mail",
@@ -3378,6 +3772,17 @@
                         "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
                     ],
                     "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "7.11.10",
+                            "versionCodes": {
+                                "ARM64_V8A": 18325,
+                                "ARMEABI_V7A": 18325,
+                                "X86": 18325,
+                                "X86_64": 18325
+                            }
+                        },
                         {
                             "isExperimental": false,
                             "minSdk": 29,
@@ -3424,6 +3829,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.10",
                         "7.11.9",
                         "7.11.8",
                         "7.11.5",
@@ -3627,6 +4033,41 @@
             "category": null,
             "compatiblePackages": [
                 {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1B4A91",
+                    "name": "imo",
+                    "packageName": "com.imo.android.imoim",
+                    "signatures": [
+                        "44483f98c17bf49fbde08d3376af09c6fc1f9370c7a046c35a3dca45f5785150"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "2026.08.1041",
+                            "versionCodes": {
+                                "ARM64_V8A": 26081041,
+                                "ARMEABI_V7A": 26081041,
+                                "X86": 26081041,
+                                "X86_64": 26081041
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2026.08.1041"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Allows screenshots and screen recording in chats, calls, media and profiles.",
+            "name": "Remove screenshot restriction",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
                     "apkFileType": "XAPK_REQUIRED",
                     "appIconColor": "#6D4AFF",
                     "name": "Proton VPN",
@@ -3670,6 +4111,41 @@
             ],
             "description": "Removes the wait between server changes on free plans.",
             "name": "Remove server change delay",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1B4A91",
+                    "name": "imo",
+                    "packageName": "com.imo.android.imoim",
+                    "signatures": [
+                        "44483f98c17bf49fbde08d3376af09c6fc1f9370c7a046c35a3dca45f5785150"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "2026.08.1041",
+                            "versionCodes": {
+                                "ARM64_V8A": 26081041,
+                                "ARMEABI_V7A": 26081041,
+                                "X86": 26081041,
+                                "X86_64": 26081041
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2026.08.1041"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the length limit on story videos picked from the gallery or recorded.",
+            "name": "Remove story video limit",
             "options": []
         },
         {
@@ -3759,6 +4235,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
+                            "version": "7.11.10",
+                            "versionCodes": {
+                                "ARM64_V8A": 18325,
+                                "ARMEABI_V7A": 18325,
+                                "X86": 18325,
+                                "X86_64": 18325
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "7.11.9",
                             "versionCodes": {
                                 "ARM64_V8A": 18324,
@@ -3802,6 +4289,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.10",
                         "7.11.9",
                         "7.11.8",
                         "7.11.5",
@@ -3924,6 +4412,41 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "APKS",
+                    "appIconColor": "#1B4A91",
+                    "name": "imo",
+                    "packageName": "com.imo.android.imoim",
+                    "signatures": [
+                        "44483f98c17bf49fbde08d3376af09c6fc1f9370c7a046c35a3dca45f5785150"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "2026.08.1041",
+                            "versionCodes": {
+                                "ARM64_V8A": 26081041,
+                                "ARMEABI_V7A": 26081041,
+                                "X86": 26081041,
+                                "X86_64": 26081041
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2026.08.1041"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Opens profile photos in full size when their owner restricts it.",
+            "name": "Show full profile photos",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
                     "appIconColor": "#256A93",
                     "name": "Keepa",
                     "packageName": "com.keepa.mobile",
@@ -4004,6 +4527,41 @@
             ],
             "description": "Shortens the AI tool wait by polling for the result more often and uploading the photo in larger chunks.",
             "name": "Speed up AI tools",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1B4A91",
+                    "name": "imo",
+                    "packageName": "com.imo.android.imoim",
+                    "signatures": [
+                        "44483f98c17bf49fbde08d3376af09c6fc1f9370c7a046c35a3dca45f5785150"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "2026.08.1041",
+                            "versionCodes": {
+                                "ARM64_V8A": 26081041,
+                                "ARMEABI_V7A": 26081041,
+                                "X86": 26081041,
+                                "X86_64": 26081041
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2026.08.1041"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Restores phone verification by call when signing in.",
+            "name": "Spoof signature",
             "options": []
         },
         {
@@ -4156,6 +4714,17 @@
                         {
                             "isExperimental": false,
                             "minSdk": 29,
+                            "version": "7.11.10",
+                            "versionCodes": {
+                                "ARM64_V8A": 18325,
+                                "ARMEABI_V7A": 18325,
+                                "X86": 18325,
+                                "X86_64": 18325
+                            }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
                             "version": "7.11.9",
                             "versionCodes": {
                                 "ARM64_V8A": 18324,
@@ -4199,6 +4768,7 @@
                         }
                     ],
                     "versions": [
+                        "7.11.10",
                         "7.11.9",
                         "7.11.8",
                         "7.11.5",
@@ -4367,10 +4937,22 @@
                                 "X86": 386,
                                 "X86_64": 386
                             }
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "7.5.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 388,
+                                "ARMEABI_V7A": 388,
+                                "X86": 388,
+                                "X86_64": 388
+                            }
                         }
                     ],
                     "versions": [
-                        "7.5.4"
+                        "7.5.4",
+                        "7.5.6"
                     ]
                 }
             ],
@@ -5054,6 +5636,41 @@
                 "ResourcePatch"
             ],
             "description": "Unlocks premium and removes ads.",
+            "name": "Unlock premium",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKS",
+                    "appIconColor": "#1B4A91",
+                    "name": "imo",
+                    "packageName": "com.imo.android.imoim",
+                    "signatures": [
+                        "44483f98c17bf49fbde08d3376af09c6fc1f9370c7a046c35a3dca45f5785150"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 32,
+                            "version": "2026.08.1041",
+                            "versionCodes": {
+                                "ARM64_V8A": 26081041,
+                                "ARMEABI_V7A": 26081041,
+                                "X86": 26081041,
+                                "X86_64": 26081041
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "2026.08.1041"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks imo Premium.",
             "name": "Unlock premium",
             "options": []
         },

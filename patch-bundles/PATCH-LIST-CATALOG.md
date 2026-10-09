@@ -168,7 +168,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [RIVanced-Universal](#-rivanced-universal-bundle-patch-list) | 27 | 1 | Generated |
 | [Variablenine](#-variablenine-bundle-patch-list) | 168 | 4 | Generated |
 | [Stylus](#-stylus-bundle-patch-list) | 6 | 4 | Generated |
-| [HXReborn](#-hxreborn-bundle-patch-list) | 134 | 62 | Generated |
+| [HXReborn](#-hxreborn-bundle-patch-list) | 149 | 63 | Generated |
 | [Ikura](#-ikura-bundle-patch-list) | 6 | 1 | Generated |
 | [DH6K](#-dh6k-bundle-patch-list) | 12 | 9 | Generated |
 | [AndrewLiang25](#-andrewliang25-bundle-patch-list) | 49 | 2 | Generated |
@@ -364,7 +364,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [ggyasin](#-ggyasin-bundle-patch-list) | 9 | 3 | Generated |
 | [den-patch](#-den-patch-bundle-patch-list) | 3 | 2 | Generated |
 | [qqmusic-proxy](#-qqmusic-proxy-bundle-patch-list) | - | - | Pending patch list |
-| [bartlomiejfornalczyk](#-bartlomiejfornalczyk-bundle-patch-list) | 7 | 5 | Generated |
+| [bartlomiejfornalczyk](#-bartlomiejfornalczyk-bundle-patch-list) | 5 | 2 | Generated |
 | [uyu](#-uyu-bundle-patch-list) | 7 | 1 | Generated |
 | [hushmessenger](#-hushmessenger-bundle-patch-list) | 43 | 1 | Generated |
 | [lawnchair](#-lawnchair-bundle-patch-list) | - | - | Pending patch list |
@@ -5760,7 +5760,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 HXReborn Bundle Patch List:
 [📦 HXReborn-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-hxreborn-patches-bundle-morphe)
 <details>
-<summary><b>HXReborn</b> - 134 patches, 62 apps</summary>
+<summary><b>HXReborn</b> - 149 patches, 63 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -5776,7 +5776,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```GmsCore support``` | ```Signs in through GmsCore instead of Google Play Services. Requires GmsCore to be installed.``` | ```All-In-One Calculator``` | ```3.4.0``` |
 | ```Unlock premium``` | ```Grants the pro entitlement, which removes the ads and the paywalled tools.``` | ```All-In-One Calculator``` | ```3.4.0``` |
 | ```Unlock full version``` | ```Unlocks the Off-Road Explorer features gated behind activation.``` | ```AlpineQuest``` | ```2.4.0e``` |
-| ```Unlock Platinum``` | ```Unlocks the Platinum plan with unlimited tracked items, every-minute updates, widgets, watchlists and backups.``` | ```AnyTracker``` | ```7.5.4``` |
+| ```Unlock Platinum``` | ```Unlocks the Platinum plan with unlimited tracked items, every-minute updates, widgets, watchlists and backups.``` | ```AnyTracker``` | ```7.5.4, 7.5.6``` |
 | ```Unlock premium``` | ```Unlocks the custom map sources, navigation settings and backup restore. Premium map packages are not included.``` | ```AtloMaps``` | ```1.0.6, 1.1.0``` |
 | ```Unlock premium``` | ```Unlocks all features and removes the ads.``` | ```atvTools``` | ```1.3.2``` |
 | ```Hide membership upselling``` | ```Hides the membership promotion on the Home screen and the free trial bottom sheet.``` | ```Audible``` | ```26.30.05, 26.38.08``` |
@@ -5808,8 +5808,23 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock premium``` | ```Unlocks all premium features.``` | ```ForusApp``` | ```3.0.15, 3.0.18``` |
 | ```Disable tracking``` | ```Stops Firebase Analytics from collecting usage data.``` | ```Hindu Calendar``` | ```9.3.0``` |
 | ```Hide ads``` | ```Removes banner and interstitial ads and the Remove Ads menu item.``` | ```Hindu Calendar``` | ```9.3.0``` |
+| ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```imo``` | ```2026.08.1041``` |
+| ```Disable analytics``` | ```Blocks usage statistics sent to imo, AppsFlyer, Firebase and Facebook, and the advertising ID upload.``` | ```imo``` | ```2026.08.1041``` |
+| ```Disable update check``` | ```Removes the forced update screen and the update prompts.``` | ```imo``` | ```2026.08.1041``` |
+| ```Hide ads``` | ```Removes splash, chat list, story and end-of-call ads, and skips the ad consent form.``` | ```imo``` | ```2026.08.1041``` |
+| ```Hide invite prompts``` | ```Hides the invite friends dialog, the invite entry in the chat list and the call sharing banner.``` | ```imo``` | ```2026.08.1041``` |
+| ```Hide Voice Club tab``` | ```Removes the Voice Club tab from the home screen.``` | ```imo``` | ```2026.08.1041``` |
+| ```Prevent screenshot detection``` | ```Stops chats and calls from reporting screenshots and screen recordings to the other person.``` | ```imo``` | ```2026.08.1041``` |
+| ```Raise media sending limit``` | ```Raises the limit on photos, videos and files sent at once to 100.``` | ```imo``` | ```2026.08.1041``` |
+| ```Remove chat protection``` | ```Allows copying, sharing, forwarding and downloading messages protected by the sender's chat privacy settings or Time Machine.``` | ```imo``` | ```2026.08.1041``` |
+| ```Remove contact selection limit``` | ```Raises the limit on contacts selected for iBubble close friends and Family Guard invites to 999. Experimental.``` | ```imo``` | ```2026.08.1041``` |
+| ```Remove forwarding restrictions``` | ```Allows forwarding disappearing and view-once text messages.``` | ```imo``` | ```2026.08.1041``` |
+| ```Remove screenshot restriction``` | ```Allows screenshots and screen recording in chats, calls, media and profiles.``` | ```imo``` | ```2026.08.1041``` |
+| ```Remove story video limit``` | ```Removes the length limit on story videos picked from the gallery or recorded.``` | ```imo``` | ```2026.08.1041``` |
+| ```Show full profile photos``` | ```Opens profile photos in full size when their owner restricts it.``` | ```imo``` | ```2026.08.1041``` |
+| ```Spoof signature``` | ```Restores phone verification by call when signing in.``` | ```imo``` | ```2026.08.1041``` |
+| ```Unlock premium``` | ```Unlocks imo Premium.``` | ```imo``` | ```2026.08.1041``` |
 | ```Hide ads``` | ```Removes ads before and during videos. Live TV requires a German IP address.``` | ```Joyn``` | ```6.9.0-AOS-609012264``` |
-| ```Clone app``` | ```Installs Keepa as a separate app alongside the original, with its own account and price watches. Each copy needs a different clone number.``` | ```Keepa``` | ```6.2.1``` |
 | ```Disable tracking``` | ```Stops Firebase Analytics and Crashlytics from collecting usage data.``` | ```Keepa``` | ```6.2.1``` |
 | ```Multiple accounts``` | ```Signs in to several Keepa accounts at once and lists their price watches together. Accounts are added and removed in Settings > Accounts.``` | ```Keepa``` | ```6.2.1``` |
 | ```Remove app protection``` | ```Lets a patched build start.``` | ```Keepa``` | ```6.2.1``` |
@@ -5838,14 +5853,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock premium``` | ```Unlocks all whips.``` | ```Pocket Whip``` | ```2.3``` |
 | ```Disable tracking``` | ```Disables analytics and crash reporting.``` | ```Projectivy Launcher``` | ```4.71, 4.70``` |
 | ```Unlock premium``` | ```Unlocks all premium features.``` | ```Projectivy Launcher``` | ```4.71, 4.70``` |
-| ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Proton Mail``` | ```7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
-| ```Custom accent color``` | ```Changes the accent color. Choose a color in the patches menu.``` | ```Proton Mail``` | ```7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
-| ```Hide upgrade promotions``` | ```Hides the top-bar upgrade button, promotional sidebar rows and the auto-delete upgrade banner in Trash and Spam. Keeps the Empty trash and Empty spam buttons.``` | ```Proton Mail``` | ```7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
-| ```Material 3 switches``` | ```Shows switches in the Material 3 style with check and close icons.``` | ```Proton Mail``` | ```7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
-| ```Remove 'Sent from' signature``` | ```Removes the 'Sent from Proton Mail' signature and unlocks the mobile signature setting.``` | ```Proton Mail``` | ```7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
-| ```Remove free accounts limit``` | ```Removes the limit for maximum free accounts logged in.``` | ```Proton Mail``` | ```7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
-| ```Scheduled Trash and Spam deletion``` | ```Deletes all messages in Trash and Spam on separate configurable schedules. Deleted messages cannot be recovered.``` | ```Proton Mail``` | ```7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
-| ```Unlock custom time picker``` | ```Enables picking a custom date and time when snoozing conversations and scheduling messages.``` | ```Proton Mail``` | ```7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
+| ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Proton Mail``` | ```7.11.10, 7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
+| ```Custom accent color``` | ```Changes the accent color. Choose a color in the patches menu.``` | ```Proton Mail``` | ```7.11.10, 7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
+| ```Hide upgrade promotions``` | ```Hides the top-bar upgrade button, promotional sidebar rows and the auto-delete upgrade banner in Trash and Spam. Keeps the Empty trash and Empty spam buttons.``` | ```Proton Mail``` | ```7.11.10, 7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
+| ```Material 3 switches``` | ```Shows switches in the Material 3 style with check and close icons.``` | ```Proton Mail``` | ```7.11.10, 7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
+| ```Remove 'Sent from' signature``` | ```Removes the 'Sent from Proton Mail' signature and unlocks the mobile signature setting.``` | ```Proton Mail``` | ```7.11.10, 7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
+| ```Remove free accounts limit``` | ```Removes the limit for maximum free accounts logged in.``` | ```Proton Mail``` | ```7.11.10, 7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
+| ```Scheduled Trash and Spam deletion``` | ```Deletes all messages in Trash and Spam on separate configurable schedules. Deleted messages cannot be recovered.``` | ```Proton Mail``` | ```7.11.10, 7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
+| ```Unlock custom time picker``` | ```Enables picking a custom date and time when snoozing conversations and scheduling messages.``` | ```Proton Mail``` | ```7.11.10, 7.11.9, 7.11.8, 7.11.5, 7.10.4``` |
 | ```AMOLED dark theme``` | ```Replaces the dark theme background with pure black.``` | ```Proton Pass``` | ```1.40.3, 1.41.2``` |
 | ```Custom accent color``` | ```Changes the accent color. Choose a color in the patches menu.``` | ```Proton Pass``` | ```1.40.3, 1.41.2``` |
 | ```Hide promotional messages``` | ```Hides promotional banners, offers and pop-up messages.``` | ```Proton Pass``` | ```1.40.3, 1.41.2``` |
@@ -11626,17 +11641,15 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 bartlomiejfornalczyk Bundle Patch List:
 [📦 Bartlomiejfornalczyk-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bartlomiejfornalczyk-patches-bundle-morphe)
 <details>
-<summary><b>bartlomiejfornalczyk</b> - 7 patches, 5 apps</summary>
+<summary><b>bartlomiejfornalczyk</b> - 5 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Allow Morphe YouTube Music mini player``` | ```Enables YouTube Music and modded media apps as the navigation mini player.``` | ```Google Maps, Google Maps (ReVanced)``` | ```26.36.04.973607363``` |
-| ```Allow Morphe YouTube Music package visibility``` | ```Adds package queries and permission to AndroidManifest.xml for full media apps visibility.``` | ```Google Maps, Google Maps (ReVanced)``` | ```26.36.04.973607363``` |
-| ```Change package name``` | ```Installs alongside stock Google Maps under its own package name and adds MicroG spoofing.``` | ```Google Maps, Google Maps (ReVanced)``` | ```26.36.04.973607363``` |
-| ```MicroG manifest support``` | ```Adds MicroG package visibility queries, permissions, and spoofing metadata to AndroidManifest.xml.``` | ```Google Maps, Google Maps (ReVanced)``` | ```26.36.04.973607363``` |
-| ```MicroG support``` | ```Redirects Google account sign-in and authentication to MicroG (app.revanced.android.gms) on non-rooted devices.``` | ```Google Maps, Google Maps (ReVanced)``` | ```26.36.04.973607363``` |
-| ```Restore map data``` | ```Lets a re-signed Maps load tiles, search and routing, by sending Google's own package and certificate.``` | ```Google Maps, Google Maps (ReVanced)``` | ```26.36.04.973607363``` |
-| ```Allow external media browser connections``` | ```Allows Google Maps, Android Auto, and third-party media controllers to connect to YouTube Music.``` | ```YouTube Music, YouTube Music (Morphe), YouTube Music (ReVanced)``` | ```All versions``` |
+| ```Allow Morphe YouTube Music mini player``` | ```Enables YouTube Music and modded media apps as the navigation mini player.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Allow Morphe YouTube Music package visibility``` | ```Adds package queries and permission to AndroidManifest.xml for full media apps visibility.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Change package name``` | ```Installs alongside stock Google Maps under its own package name and adds MicroG spoofing.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Restore map data``` | ```Lets a re-signed Maps load tiles, search and routing, by sending Google's own package and certificate.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Allow external media browser connections``` | ```Allows Google Maps, Android Auto, and third-party media controllers to connect to YouTube Music.``` | ```YouTube Music``` | ```All versions``` |
 
 </details>
 ### 🧩 uyu Bundle Patch List:
