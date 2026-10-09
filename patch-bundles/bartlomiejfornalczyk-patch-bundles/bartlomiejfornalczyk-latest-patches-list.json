@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.5",
+    "version": "v1.1.0-dev.6",
     "patches": [
         {
             "category": "microG",
@@ -260,7 +260,7 @@
             "dependencies": [
                 "ResourcePatch"
             ],
-            "description": "Points the Firebase Installations and Play services compliance check-ins at an unresolvable host, stops every ad impression and click ping from being sent, and deregisters Google's logging, performance-monitoring, survey and Location History libraries and the on-device federated-learning services. With Add microG support, Firebase Installations and Location History are left alone, so Timeline, account sync and push messages keep working.",
+            "description": "Points the Firebase Installations and Play services compliance check-ins at an unresolvable host, stops every ad impression and click ping from being sent, and deregisters Google's logging, performance-monitoring, survey and Location History libraries and the on-device federated-learning services.",
             "name": "Remove telemetry",
             "options": []
         },
