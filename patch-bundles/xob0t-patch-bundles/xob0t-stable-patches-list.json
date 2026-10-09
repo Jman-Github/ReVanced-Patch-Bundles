@@ -1,5 +1,5 @@
 {
-    "version": "v1.13.9",
+    "version": "v1.13.10",
     "patches": [
         {
             "compatiblePackages": [
@@ -795,6 +795,12 @@
                         {
                             "isExperimental": false,
                             "minSdk": 26,
+                            "version": "19.38.2",
+                            "versionCode": 2724
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 26,
                             "version": "19.38.0",
                             "versionCode": 2721
                         },
@@ -872,6 +878,7 @@
                         }
                     ],
                     "versions": [
+                        "19.38.2",
                         "19.38.0",
                         "19.37.0",
                         "19.36.1",
