@@ -1,5 +1,5 @@
 {
-    "version": "v1.7.8",
+    "version": "v1.7.9",
     "patches": [
         {
             "category": null,
@@ -320,6 +320,7 @@
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
+                "BytecodePatch",
                 "ResourcePatch"
             ],
             "description": "Adds a Customization row under Settings on the account sheet, with switches for the patches here that can be turned back off inside the app.",
@@ -502,6 +503,7 @@
             ],
             "default": true,
             "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
