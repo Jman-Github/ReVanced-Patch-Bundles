@@ -11898,7 +11898,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1, including Twitch's native live Video Stats panel beside single-tap Reload Stream, landscape brightness and full-range media-volume gestures, and a verified parent-level guard for configurable swipe-to-portrait collapse prevention.``` | ```Twitch``` | ```31.3.1``` |
+| ```Twitch Enhancement``` | ```Kizu Twitch enhancements for Twitch 31.3.1, including Twitch's native live Video Stats panel beside single-tap Reload Stream, landscape brightness and full-range media-volume gestures, and a verified early parent-interception guard for configurable swipe-to-portrait collapse prevention.``` | ```Twitch``` | ```31.3.1``` |
 
 </details>
 ### 🧩 hushgram Bundle Patch List:
@@ -12186,16 +12186,16 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Auto-claim bonus channel points``` | ```Claims available bonus rewards in live playback.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
-| ```Block client-requested ads``` | ```Suppresses native ad requests. Restart Twitch after changing the setting.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
-| ```Block stream ads``` | ```Replaces detected live-stream ads with direct Twitch playback from alternate player contexts. Prefers matching video quality. No external stream proxy.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
-| ```BTTV, FFZ and 7TV emotes``` | ```Adds static and animated global and channel emotes to chat and the emote picker, with provider controls and previews.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
-| ```Hide feed and display ads``` | ```Removes sponsored feed cards and display ads using Twitch's no-ad responses.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
-| ```Hide subscription discount banners``` | ```Hides subscription offers and promotional labels, while retaining normal subscription actions.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
-| ```Hide Turbo promotions``` | ```Hides Turbo entries, upsells and purchase buttons.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
-| ```Inspect Twitch APK``` | ```Reports package, version and DEX class count during patching. Does not change the app.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
-| ```Playback diagnostics``` | ```Records playlist structure and playback frame counters. Disabled by default.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
-| ```Reload stream``` | ```Adds a reload button in live-player controls. Double-tap to reload.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
+| ```Auto-claim bonus channel points``` | ```Automatically claims bonus channel points while watching live streams.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
+| ```Block client-requested ads``` | ```Blocks native player ad requests. Restart Twitch after changing this setting.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
+| ```Block stream ads``` | ```Replaces detected preroll and midroll ads with direct Twitch playback.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
+| ```BTTV, FFZ and 7TV emotes``` | ```Adds global and channel emotes to chat and the emote picker, with animations, provider settings and tap previews.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
+| ```Hide feed and display ads``` | ```Hides sponsored feed cards, banners and display ads.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
+| ```Hide subscription discount banners``` | ```Hides subscription offers, discount banners and promotional labels.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
+| ```Hide Turbo promotions``` | ```Hides Twitch Turbo promotions and purchase prompts.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
+| ```Inspect Twitch APK``` | ```Reports the APK package, version and DEX class count without modifying the app.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
+| ```Playback diagnostics``` | ```Records playlist metadata and playback counters for troubleshooting.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
+| ```Reload stream``` | ```Reloads live streams with a double-tap control.``` | ```Twitch``` | ```31.4.2, 31.5.2``` |
 
 </details>
 ### 🧩 reddit-nsfw-blocker Bundle Patch List:
