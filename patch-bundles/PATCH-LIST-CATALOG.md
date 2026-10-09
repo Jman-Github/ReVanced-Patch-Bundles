@@ -3437,19 +3437,19 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable community tab``` | ```Hides the News/Community tab from the bottom navigation.``` | ```FatSecret``` | ```11.8.0.5``` |
-| ```Disable force update dialog``` | ```Makes the 'App must update' dialog skippable.``` | ```FatSecret``` | ```11.8.0.5``` |
-| ```Unlock Premium``` | ```Unlocks all FatSecret Gold features and hides the Premium tab.``` | ```FatSecret``` | ```11.8.0.5``` |
+| ```Disable community tab``` | ```Hides the News/Community tab from the bottom navigation.``` | ```FatSecret``` | ```11.8.1.1``` |
+| ```Disable force update dialog``` | ```Makes the 'App must update' dialog skippable.``` | ```FatSecret``` | ```11.8.1.1``` |
+| ```Unlock Premium``` | ```Unlocks all FatSecret Gold features and hides the Premium tab.``` | ```FatSecret``` | ```11.8.1.1``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Lifesum``` | ```20.9.0``` |
 | ```Support patched YouTube Music``` | ```Points the workout music button at a patched YouTube Music app instead of the stock package, so the button opens it.``` | ```Lyfta``` | ```1.600, 1.575``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Lyfta``` | ```1.600, 1.575``` |
 | ```Unlock Premium``` | ```Unlocks all premium features.``` | ```Medisafe``` | ```9.52.1``` |
 | ```Unlock Premium``` | ```Unlocks all Muscle Motion Strength Training Pro/Individual/Business features.``` | ```Muscle Motion Strength Training``` | ```3.5.0``` |
-| ```Unlock Premium``` | ```Unlocks Ornament subscription features.``` | ```Ornament``` | ```4.20.1``` |
+| ```Unlock Premium``` | ```Unlocks Ornament subscription features.``` | ```Ornament``` | ```4.21.1``` |
 | ```Unlock Premium``` | ```Unlocks premium features.``` | ```Parcels``` | ```3.0.11``` |
-| ```Disable analytics``` | ```Disables PulseSDK analytics.``` | ```Pillo``` | ```0.6.20``` |
-| ```MicroG support``` | ```Fixes Google sign-in and sync on patched builds: routes Google services through MicroG-RE and reports the original certificate to Firebase. Requires MicroG-RE with a Google account.``` | ```Pillo``` | ```0.6.20``` |
-| ```Unlock Premium``` | ```Unlocks premium features and removes ads.``` | ```Pillo``` | ```0.6.20``` |
+| ```Disable analytics``` | ```Disables PulseSDK analytics.``` | ```Pillo``` | ```0.6.24``` |
+| ```MicroG support``` | ```Fixes Google sign-in and sync on patched builds: routes Google services through MicroG-RE and reports the original certificate to Firebase. Requires MicroG-RE with a Google account.``` | ```Pillo``` | ```0.6.24``` |
+| ```Unlock Premium``` | ```Unlocks premium features and removes ads.``` | ```Pillo``` | ```0.6.24``` |
 | ```Disable analytics``` | ```Disables SoundCloud's analytics.``` | ```SoundCloud``` | ```2026.08.26-release``` |
 | ```Disable consent popup``` | ```Disables the OneTrust consent/cookies popup on first launch.``` | ```SoundCloud``` | ```2026.08.26-release``` |
 | ```Enable SoundCloud Go``` | ```Enables SoundCloud Go premium features.``` | ```SoundCloud``` | ```2026.08.26-release``` |
@@ -10756,14 +10756,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```10x Viewfinder Quick Zoom``` | ```Unlocks the discrete 10x quick zoom button on viewfinder in Photo mode.``` | ```Pixel Camera``` | ```11.0.073.972752740.32``` |
-| ```Camera Looks Backport``` | ```Enables Google Pixel 11's 10 signature Camera Looks (Sauce & Tomte) on Pixel 6 through Pixel 10, fixes Portrait Mode blur on all cameras, and resolves Pixel 10 photo saving.``` | ```Pixel Camera``` | ```11.0.073.972752740.32``` |
-| ```Permanent Portrait Mode Fix``` | ```Fixes front camera total blur and rear camera flat/bokeh-less portraits by routing portrait processing to Google's pure-TFLite monocular depth pipeline across all cameras.``` | ```Pixel Camera``` | ```11.0.073.972752740.32``` |
-| ```Pixel 10 Photo Saving Fix``` | ```Resolves Pixel 10 & Pro 12MP photos not saving by disabling failing Flare Removal (ceftazidime) and Eclipse AE, mapping binned RAW stream dimensions, and guarding telephoto streams.``` | ```Pixel Camera``` | ```11.0.073.972752740.32``` |
-| ```Pixel Camera Clone (Non-Root)``` | ```Changes package identifier to com.google.android.GoogleCamera.morphe to allow side-by-side installation alongside stock Camera.``` | ```Pixel Camera``` | ```11.0.073.972752740.32``` |
-| ```Pixel Camera Creator Suite``` | ```Enables Teleprompter HUD (Biotite), Live Audio VU Meter (Mica), and Social Framing Guides (Slate).``` | ```Pixel Camera``` | ```11.0.073.972752740.32``` |
-| ```Pro Manual Controls``` | ```Enables Pro Manual Controls (Manual Focus, Shutter Speed, ISO, Focus Peaking, and Live Badges) on non-Pro Pixel models.``` | ```Pixel Camera``` | ```11.0.073.972752740.32``` |
-| ```Viewfinder Quick Access Controls``` | ```Enables customizable Left/Right viewfinder quick-access shortcut slots and interactive 10-tick slider.``` | ```Pixel Camera``` | ```11.0.073.972752740.32``` |
+| ```10x Viewfinder Quick Zoom``` | ```Unlocks the discrete 10x quick zoom button on viewfinder in Photo mode.``` | ```Pixel Camera``` | ```11.1.040.982810059.19``` |
+| ```Camera Looks Backport``` | ```Enables Google Pixel 11's 10 signature Camera Looks (Sauce & Tomte) on Pixel 6 through Pixel 10, fixes Portrait Mode blur on all cameras, and resolves Pixel 10 photo saving.``` | ```Pixel Camera``` | ```11.1.040.982810059.19``` |
+| ```Permanent Portrait Mode Fix``` | ```Fixes front camera total blur and rear camera flat/bokeh-less portraits by routing portrait processing to Google's pure-TFLite monocular depth pipeline across all cameras.``` | ```Pixel Camera``` | ```11.1.040.982810059.19``` |
+| ```Pixel 10 Photo Saving Fix``` | ```Resolves Pixel 10 & Pro 12MP photos not saving by disabling failing Flare Removal (ceftazidime) and Eclipse AE, mapping binned RAW stream dimensions, and guarding telephoto streams.``` | ```Pixel Camera``` | ```11.1.040.982810059.19``` |
+| ```Pixel Camera Clone (Non-Root)``` | ```Changes package identifier to com.google.android.GoogleCamera.morphe to allow side-by-side installation alongside stock Camera.``` | ```Pixel Camera``` | ```11.1.040.982810059.19``` |
+| ```Pixel Camera Creator Suite``` | ```Enables Teleprompter HUD (Biotite), Live Audio VU Meter (Mica), and Social Framing Guides (Slate).``` | ```Pixel Camera``` | ```11.1.040.982810059.19``` |
+| ```Pro Manual Controls``` | ```Enables Pro Manual Controls (Manual Focus, Shutter Speed, ISO, Focus Peaking, and Live Badges) on non-Pro Pixel models.``` | ```Pixel Camera``` | ```11.1.040.982810059.19``` |
+| ```Viewfinder Quick Access Controls``` | ```Enables customizable Left/Right viewfinder quick-access shortcut slots, interactive 10-tick Brightness & Shadow slider with tap-focus guards, smooth shadow curve, and proper tone pipeline reset.``` | ```Pixel Camera``` | ```11.1.040.982810059.19``` |
 
 </details>
 
