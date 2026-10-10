@@ -1,0 +1,2432 @@
+[
+  {
+    "bundle_id": "d33f6f393fcf2fefcbafbf9f",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to remove ads in the video player.",
+    "id": "d33f6f393fcf2fefcbafbf9f:90",
+    "legacy_id": 20420,
+    "metadata_status": "verified",
+    "name": "Video ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.16.0-dev.1",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "d33f6f393fcf2fefcbafbf9f",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to set default video qualities and always use the advanced video quality menu.",
+    "id": "d33f6f393fcf2fefcbafbf9f:91",
+    "legacy_id": 20421,
+    "metadata_status": "verified",
+    "name": "Video quality",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.16.0-dev.1",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "d9856e604f29eb1216446592",
+    "compatiblePackages": {
+      "com.glu.android.zombsniper": [
+        "3.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Fixes the crash at launch on current Android and targets API 25 so that Android 14 and later install the game normally. If the OBB is missing, the game says why. The game is 32-bit only, so the device must still run 32-bit apps.",
+    "id": "d9856e604f29eb1216446592:0",
+    "legacy_id": 20422,
+    "metadata_status": "verified",
+    "name": "Modern Android compatibility",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.glu.android.zombsniper",
+        "versions": [
+          "3.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.1",
+    "source_id": "ef4d918e562fdc8d",
+    "use": true
+  },
+  {
+    "bundle_id": "d9856e604f29eb1216446592",
+    "compatiblePackages": {
+      "com.glu.android.zombsniper": [
+        "3.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Plays the intro video on the first launch after installing, and skips it after that.",
+    "id": "d9856e604f29eb1216446592:1",
+    "legacy_id": 20423,
+    "metadata_status": "verified",
+    "name": "Play intro once",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.glu.android.zombsniper",
+        "versions": [
+          "3.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.1",
+    "source_id": "ef4d918e562fdc8d",
+    "use": true
+  },
+  {
+    "bundle_id": "d9856e604f29eb1216446592",
+    "compatiblePackages": {
+      "com.glu.android.zombsniper": [
+        "3.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes permissions the game no longer needs, such as phone and accounts, along with the dead services that needed them.",
+    "id": "d9856e604f29eb1216446592:2",
+    "legacy_id": 20424,
+    "metadata_status": "verified",
+    "name": "Remove unused permissions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.glu.android.zombsniper",
+        "versions": [
+          "3.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.1",
+    "source_id": "ef4d918e562fdc8d",
+    "use": true
+  },
+  {
+    "bundle_id": "d9856e604f29eb1216446592",
+    "compatiblePackages": {
+      "com.glu.android.zombsniper": [
+        "3.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Makes the menus, text and pictures full size on screens above 720p, where they are otherwise small. The game is drawn at 720p and stretched to the screen, so it looks slightly blurry.",
+    "id": "d9856e604f29eb1216446592:3",
+    "legacy_id": 20425,
+    "metadata_status": "verified",
+    "name": "Render at 720p",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.glu.android.zombsniper",
+        "versions": [
+          "3.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.1",
+    "source_id": "ef4d918e562fdc8d",
+    "use": false
+  },
+  {
+    "bundle_id": "d9856e604f29eb1216446592",
+    "compatiblePackages": {
+      "com.glu.android.zombsniper": [
+        "3.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the stutter while firing, caused by the game building a new audio player for every sound.",
+    "id": "d9856e604f29eb1216446592:4",
+    "legacy_id": 20426,
+    "metadata_status": "verified",
+    "name": "Smooth sound",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.glu.android.zombsniper",
+        "versions": [
+          "3.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.1",
+    "source_id": "ef4d918e562fdc8d",
+    "use": true
+  },
+  {
+    "bundle_id": "d9856e604f29eb1216446592",
+    "compatiblePackages": {
+      "com.glu.android.zombsniper": [
+        "3.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the 30 second wait on the loading screen and the daily offline message, and stops the game from contacting Tapjoy, OpenFeint and Glu's dead servers.",
+    "id": "d9856e604f29eb1216446592:5",
+    "legacy_id": 20427,
+    "metadata_status": "verified",
+    "name": "Stop requests to dead servers",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.glu.android.zombsniper",
+        "versions": [
+          "3.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.1",
+    "source_id": "ef4d918e562fdc8d",
+    "use": true
+  },
+  {
+    "bundle_id": "d9856e604f29eb1216446592",
+    "compatiblePackages": {
+      "com.glu.android.zombsniper": [
+        "3.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "A fresh install starts with 999,999,999 Glu credits and 999,999,999 Cash. If you install the patched app as an update, your current balance stays as it is.",
+    "id": "d9856e604f29eb1216446592:6",
+    "legacy_id": 20428,
+    "metadata_status": "verified",
+    "name": "Unlimited currency",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.glu.android.zombsniper",
+        "versions": [
+          "3.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.1",
+    "source_id": "ef4d918e562fdc8d",
+    "use": true
+  },
+  {
+    "bundle_id": "d9fde864a866fd1cf8f95021",
+    "compatiblePackages": {
+      "com.vladlee.easyblacklist": [
+        "4.8.20"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables all ad purchase checks to hide ads globally.",
+    "id": "d9fde864a866fd1cf8f95021:0",
+    "legacy_id": 20429,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.vladlee.easyblacklist",
+        "versions": [
+          "4.8.20"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "10c45ad7ad88aae7",
+    "use": true
+  },
+  {
+    "bundle_id": "d9fde864a866fd1cf8f95021",
+    "compatiblePackages": {
+      "com.vladlee.easyblacklist": [
+        "4.8.20"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all premium features.",
+    "id": "d9fde864a866fd1cf8f95021:1",
+    "legacy_id": 20430,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.vladlee.easyblacklist",
+        "versions": [
+          "4.8.20"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "10c45ad7ad88aae7",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "db158d826a3561bafacf846b:0",
+    "legacy_id": 20431,
+    "metadata_status": "verified",
+    "name": "Add ability to copy video media link",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": false
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": "Bring back old twitter logo and name",
+    "id": "db158d826a3561bafacf846b:1",
+    "legacy_id": 20432,
+    "metadata_status": "verified",
+    "name": "Bring back twitter",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": false
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": "Removes tracking parameters when sharing links",
+    "id": "db158d826a3561bafacf846b:2",
+    "legacy_id": 20433,
+    "metadata_status": "verified",
+    "name": "Clear tracking params",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": "Change the download directory for video downloads",
+    "id": "db158d826a3561bafacf846b:3",
+    "legacy_id": 20434,
+    "metadata_status": "verified",
+    "name": "Custom download folder",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": "Allows for using domains like fxtwitter when sharing tweets/posts.",
+    "id": "db158d826a3561bafacf846b:4",
+    "legacy_id": 20435,
+    "metadata_status": "verified",
+    "name": "Custom sharing domain",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "db158d826a3561bafacf846b:5",
+    "legacy_id": 20436,
+    "metadata_status": "verified",
+    "name": "Customize profile tabs",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": false
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "db158d826a3561bafacf846b:6",
+    "legacy_id": 20437,
+    "metadata_status": "verified",
+    "name": "Customize timeline top bar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "db158d826a3561bafacf846b:7",
+    "legacy_id": 20438,
+    "metadata_status": "verified",
+    "name": "Disable chirp font",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": false
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": "Unlocks the ability to download videos and gifs from Twitter/X",
+    "id": "db158d826a3561bafacf846b:8",
+    "legacy_id": 20439,
+    "metadata_status": "verified",
+    "name": "Download patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": "Replaces the default Blue accent with the user's Material You palette and Dim Theme with Full Material Design.",
+    "id": "db158d826a3561bafacf846b:9",
+    "legacy_id": 20440,
+    "metadata_status": "verified",
+    "name": "Dynamic color",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Sets app version to a default value making installation of different versions possible",
+    "id": "db158d826a3561bafacf846b:10",
+    "legacy_id": 20441,
+    "metadata_status": "verified",
+    "name": "Enable app downgrading",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": false
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "db158d826a3561bafacf846b:11",
+    "legacy_id": 20442,
+    "metadata_status": "verified",
+    "name": "Enable custom app icon and nav icon settings",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": "Enables \"Reader Mode\" on long threads",
+    "id": "db158d826a3561bafacf846b:12",
+    "legacy_id": 20443,
+    "metadata_status": "verified",
+    "name": "Enable Reader Mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": "Enables ability to undo posts before posting",
+    "id": "db158d826a3561bafacf846b:13",
+    "legacy_id": 20444,
+    "metadata_status": "verified",
+    "name": "Enable Undo Posts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": "Hide new post banner",
+    "id": "db158d826a3561bafacf846b:14",
+    "legacy_id": 20445,
+    "metadata_status": "verified",
+    "name": "Hide Banner",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": false
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "db158d826a3561bafacf846b:15",
+    "legacy_id": 20446,
+    "metadata_status": "verified",
+    "name": "Hide bookmark icon in timeline",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "db158d826a3561bafacf846b:16",
+    "legacy_id": 20447,
+    "metadata_status": "verified",
+    "name": "Hide Community Notes",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": false
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": "Adds an option to hide Floating action bar",
+    "id": "db158d826a3561bafacf846b:17",
+    "legacy_id": 20448,
+    "metadata_status": "verified",
+    "name": "Hide FAB",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": false
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "db158d826a3561bafacf846b:18",
+    "legacy_id": 20449,
+    "metadata_status": "verified",
+    "name": "Hide FAB Menu Buttons",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": "Removes swipe up for more videos in video player",
+    "id": "db158d826a3561bafacf846b:19",
+    "legacy_id": 20450,
+    "metadata_status": "verified",
+    "name": "Hide immersive player",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "db158d826a3561bafacf846b:20",
+    "legacy_id": 20451,
+    "metadata_status": "verified",
+    "name": "Hide Live Threads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": false
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "db158d826a3561bafacf846b:21",
+    "legacy_id": 20452,
+    "metadata_status": "verified",
+    "name": "Hide Promoted Trends",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": "Hide recommended users that pops up when you follow someone",
+    "id": "db158d826a3561bafacf846b:22",
+    "legacy_id": 20453,
+    "metadata_status": "verified",
+    "name": "Hide Recommended Users",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "db158d826a3561bafacf846b:23",
+    "legacy_id": 20454,
+    "metadata_status": "verified",
+    "name": "Hook feature flag",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "db158d826a3561bafacf846b:24",
+    "legacy_id": 20455,
+    "metadata_status": "verified",
+    "name": "Hook for timeline entry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": "Get rid of t.co short urls.",
+    "id": "db158d826a3561bafacf846b:25",
+    "legacy_id": 20456,
+    "metadata_status": "verified",
+    "name": "No shortened URL",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": "Instead of open the link directly in one of the installed browsers",
+    "id": "db158d826a3561bafacf846b:26",
+    "legacy_id": 20457,
+    "metadata_status": "verified",
+    "name": "Open browser chooser on opening links",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "db158d826a3561bafacf846b:27",
+    "legacy_id": 20458,
+    "metadata_status": "verified",
+    "name": "Remove \"Communities to join\" Banner",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "db158d826a3561bafacf846b:28",
+    "legacy_id": 20459,
+    "metadata_status": "verified",
+    "name": "Remove \"Creators to subscribe\" Banner",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "db158d826a3561bafacf846b:29",
+    "legacy_id": 20460,
+    "metadata_status": "verified",
+    "name": "Remove \"Pinned posts by followers\" Banner",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "db158d826a3561bafacf846b:30",
+    "legacy_id": 20461,
+    "metadata_status": "verified",
+    "name": "Remove \"Revisit Bookmark\" Banner",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "db158d826a3561bafacf846b:31",
+    "legacy_id": 20462,
+    "metadata_status": "verified",
+    "name": "Remove \"Who to follow\" Banner",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "db158d826a3561bafacf846b:32",
+    "legacy_id": 20463,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": "Removes detailed posts in replies",
+    "id": "db158d826a3561bafacf846b:33",
+    "legacy_id": 20464,
+    "metadata_status": "verified",
+    "name": "Remove Detailed posts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "db158d826a3561bafacf846b:34",
+    "legacy_id": 20465,
+    "metadata_status": "verified",
+    "name": "Remove Google Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": "Removes the view count from the bottom of tweets",
+    "id": "db158d826a3561bafacf846b:35",
+    "legacy_id": 20466,
+    "metadata_status": "verified",
+    "name": "Remove view count",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": "Makes bio and username selectable",
+    "id": "db158d826a3561bafacf846b:36",
+    "legacy_id": 20467,
+    "metadata_status": "verified",
+    "name": "Selectable Text",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": "Adds an option to show poll results without voting",
+    "id": "db158d826a3561bafacf846b:37",
+    "legacy_id": 20468,
+    "metadata_status": "verified",
+    "name": "Show poll results",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "db158d826a3561bafacf846b",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": "Shows sensitive media",
+    "id": "db158d826a3561bafacf846b:38",
+    "legacy_id": 20469,
+    "metadata_status": "verified",
+    "name": "Show sensitive media",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.27.0-dev.2",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [
+      "Feed filter"
+    ],
+    "description": "Adds BlueIT feed rules for promotional music, LIVE replays, and minimum like/view ratio.",
+    "id": "e02a0f1c0339bf85c82e8f8a:0",
+    "legacy_id": 20470,
+    "metadata_status": "verified",
+    "name": "Advanced feed filter",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Always shows the publish date in video author information. Thanks to lyyako for the original implementation.",
+    "id": "e02a0f1c0339bf85c82e8f8a:1",
+    "legacy_id": 20471,
+    "metadata_status": "verified",
+    "name": "Always show publish date",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [
+      "Remember clear display"
+    ],
+    "description": "Automatically enters TikTok clear-display mode after a configurable delay for each newly played video.",
+    "id": "e02a0f1c0339bf85c82e8f8a:2",
+    "legacy_id": 20472,
+    "metadata_status": "verified",
+    "name": "Automatic clear display",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds the BlueIT Service settings menu to TikTok. Supports TikTok 46.4.3.",
+    "id": "e02a0f1c0339bf85c82e8f8a:3",
+    "legacy_id": 20473,
+    "metadata_status": "verified",
+    "name": "BlueIT Service",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Copies only the comment text without including the creator's username.",
+    "id": "e02a0f1c0339bf85c82e8f8a:4",
+    "legacy_id": 20474,
+    "metadata_status": "verified",
+    "name": "Copy comments without username",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a custom entry to TikTok's offline videos menu with a configurable limit of up to 500 videos.",
+    "id": "e02a0f1c0339bf85c82e8f8a:5",
+    "legacy_id": 20475,
+    "metadata_status": "verified",
+    "name": "Custom offline videos limit",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [
+      "BlueIT Service"
+    ],
+    "description": "Adds optional Morphe diagnostic logging, filtered reports, and local Java crash capture.",
+    "id": "e02a0f1c0339bf85c82e8f8a:6",
+    "legacy_id": 20476,
+    "metadata_status": "verified",
+    "name": "Diagnostic tools",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": false
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes TikTok's mandatory login gate from supported flows.",
+    "id": "e02a0f1c0339bf85c82e8f8a:7",
+    "legacy_id": 20477,
+    "metadata_status": "verified",
+    "name": "Disable login requirement",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Keeps long-pressing Share from opening TikTok's quick-share interaction.",
+    "id": "e02a0f1c0339bf85c82e8f8a:8",
+    "legacy_id": 20478,
+    "metadata_status": "verified",
+    "name": "Disable long-press quick share",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Prevents TikTok from reacting to screenshots and screen recordings.",
+    "id": "e02a0f1c0339bf85c82e8f8a:9",
+    "legacy_id": 20479,
+    "metadata_status": "verified",
+    "name": "Disable screen capture detection",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [
+      "Downloads"
+    ],
+    "description": "Selects automatic, highest, or target video quality and lets BlueIT choose the preferred TikTok download stream.",
+    "id": "e02a0f1c0339bf85c82e8f8a:10",
+    "legacy_id": 20480,
+    "metadata_status": "verified",
+    "name": "Download quality selector",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds watermark-free downloads, comment sticker saving, configurable folders, and filename templates.",
+    "id": "e02a0f1c0339bf85c82e8f8a:11",
+    "legacy_id": 20481,
+    "metadata_status": "verified",
+    "name": "Downloads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Shows TikTok's search entry in the Live drawer where supported.",
+    "id": "e02a0f1c0339bf85c82e8f8a:12",
+    "legacy_id": 20482,
+    "metadata_status": "verified",
+    "name": "Enable Live search",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Uses TikTok's non-personalized search mode instead of its saved account choice.",
+    "id": "e02a0f1c0339bf85c82e8f8a:13",
+    "legacy_id": 20483,
+    "metadata_status": "verified",
+    "name": "Enable non-personalized search",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [
+      "BlueIT Service"
+    ],
+    "description": "Adds a menu for viewing and overriding supported TikTok feature flags and configuration values.",
+    "id": "e02a0f1c0339bf85c82e8f8a:14",
+    "legacy_id": 20484,
+    "metadata_status": "verified",
+    "name": "Feature Gate Lab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [
+      "Feature Gate Lab"
+    ],
+    "description": "Adds BlueIT Learn mode for recording newly observed TikTok configuration candidates while using a feature.",
+    "id": "e02a0f1c0339bf85c82e8f8a:15",
+    "legacy_id": 20485,
+    "metadata_status": "verified",
+    "name": "Feature Gate Recorder",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides feed ads, TikTok Shop items, livestreams, stories, photo posts, and videos outside configured view or like ranges.",
+    "id": "e02a0f1c0339bf85c82e8f8a:16",
+    "legacy_id": 20486,
+    "metadata_status": "verified",
+    "name": "Feed filter",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, and can hide the Tako AI bubble.",
+    "id": "e02a0f1c0339bf85c82e8f8a:17",
+    "legacy_id": 20487,
+    "metadata_status": "verified",
+    "name": "Feed tab navigation",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Restores Google account sign-in after patching.",
+    "id": "e02a0f1c0339bf85c82e8f8a:18",
+    "legacy_id": 20488,
+    "metadata_status": "verified",
+    "name": "Fix Google login",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [
+      "Remember clear display",
+      "Hold-and-slide 2x lock",
+      "Disable long-press quick share"
+    ],
+    "description": "Remaps TikTok feed single tap, double tap, left/right seek, and long-press gestures.",
+    "id": "e02a0f1c0339bf85c82e8f8a:19",
+    "legacy_id": 20489,
+    "metadata_status": "verified",
+    "name": "Gesture remapper",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [
+      "Feed filter"
+    ],
+    "description": "Keeps a local BlueIT watch-history and filters videos you already watched from newly loaded feed batches.",
+    "id": "e02a0f1c0339bf85c82e8f8a:20",
+    "legacy_id": 20490,
+    "metadata_status": "verified",
+    "name": "Hide already seen videos",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a default-off setting to hide browsing and LIVE puzzle dialogs while preserving login and account verification.",
+    "id": "e02a0f1c0339bf85c82e8f8a:21",
+    "legacy_id": 20491,
+    "metadata_status": "verified",
+    "name": "Hide CAPTCHA popups",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes floating promotional badges, coin icons, and timer banners from the Home feed.",
+    "id": "e02a0f1c0339bf85c82e8f8a:22",
+    "legacy_id": 20492,
+    "metadata_status": "verified",
+    "name": "Hide floating promotions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides TikTok's exposed quick emoji row in supported comment inputs.",
+    "id": "e02a0f1c0339bf85c82e8f8a:23",
+    "legacy_id": 20493,
+    "metadata_status": "verified",
+    "name": "Hide quick comment reactions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables TikTok's native hold, slide down, and release gesture to lock 2x speed.",
+    "id": "e02a0f1c0339bf85c82e8f8a:24",
+    "legacy_id": 20494,
+    "metadata_status": "verified",
+    "name": "Hold-and-slide 2x lock",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Opens profile and story website links in the system browser instead of TikTok's in-app browser. Thanks to lyyako for the original implementation.",
+    "id": "e02a0f1c0339bf85c82e8f8a:25",
+    "legacy_id": 20495,
+    "metadata_status": "verified",
+    "name": "Open external links directly",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [
+      "Downloads"
+    ],
+    "description": "Downloads the original Photo Mode CDN assets instead of keeping TikTok's rendered copies when enabled.",
+    "id": "e02a0f1c0339bf85c82e8f8a:26",
+    "legacy_id": 20496,
+    "metadata_status": "verified",
+    "name": "Original Photo Mode downloader",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables playback-speed controls for all videos and remembers the selected speed between videos.",
+    "id": "e02a0f1c0339bf85c82e8f8a:27",
+    "legacy_id": 20497,
+    "metadata_status": "verified",
+    "name": "Playback speed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Remembers TikTok's clear-display state between videos.",
+    "id": "e02a0f1c0339bf85c82e8f8a:28",
+    "legacy_id": 20498,
+    "metadata_status": "verified",
+    "name": "Remember clear display",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Continues supported videos from where playback stopped when returning after a scroll.",
+    "id": "e02a0f1c0339bf85c82e8f8a:29",
+    "legacy_id": 20499,
+    "metadata_status": "verified",
+    "name": "Resume videos after scrolling",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes tracking parameters from TikTok links before they are shared.",
+    "id": "e02a0f1c0339bf85c82e8f8a:30",
+    "legacy_id": 20500,
+    "metadata_status": "verified",
+    "name": "Sanitize sharing links",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Shows TikTok's native video seekbar where it would normally be hidden.",
+    "id": "e02a0f1c0339bf85c82e8f8a:31",
+    "legacy_id": 20501,
+    "metadata_status": "verified",
+    "name": "Show seekbar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Shows TikTok's video preview thumbnail while dragging the seekbar.",
+    "id": "e02a0f1c0339bf85c82e8f8a:32",
+    "legacy_id": 20502,
+    "metadata_status": "verified",
+    "name": "Show seekbar thumbnail",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [
+      "BlueIT Service"
+    ],
+    "description": "Spoofs SIM country and operator information retrieved by TikTok, with country presets for easier setup.",
+    "id": "e02a0f1c0339bf85c82e8f8a:33",
+    "legacy_id": 20503,
+    "metadata_status": "verified",
+    "name": "SIM spoof",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops videos at the end instead of replaying them.",
+    "id": "e02a0f1c0339bf85c82e8f8a:34",
+    "legacy_id": 20504,
+    "metadata_status": "verified",
+    "name": "Stop video looping",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e02a0f1c0339bf85c82e8f8a",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.4.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds comment translation controls using TikTok's translation system, with selectable language exclusions.",
+    "id": "e02a0f1c0339bf85c82e8f8a:35",
+    "legacy_id": 20505,
+    "metadata_status": "verified",
+    "name": "Translate comments",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "1b049547af9319a7",
+    "use": true
+  },
+  {
+    "bundle_id": "e93bcf34050ade85677383bc",
+    "compatiblePackages": {
+      "com.avito.android": [
+        "233.1",
+        "232.0",
+        "231.5",
+        "231.0",
+        "230.5",
+        "230.0",
+        "229.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Makes dark-theme page, app navigation and system bars pure black (AMOLED) while keeping elevated cards, sheets and controls gray so their boundaries remain visible.",
+    "id": "e93bcf34050ade85677383bc:0",
+    "legacy_id": 20506,
+    "metadata_status": "verified",
+    "name": "AMOLED dark theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.avito.android",
+        "versions": [
+          "233.1",
+          "232.0",
+          "231.5",
+          "231.0",
+          "230.5",
+          "230.0",
+          "229.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.15",
+    "source_id": "fc45fbb2b70023b7",
+    "use": false
+  },
+  {
+    "bundle_id": "e93bcf34050ade85677383bc",
+    "compatiblePackages": {
+      "com.avito.android": [
+        "233.1",
+        "232.0",
+        "231.5",
+        "231.0",
+        "230.5",
+        "230.0",
+        "229.1"
+      ]
+    },
+    "dependencies": [
+      "Morphe settings"
+    ],
+    "description": "Hides Avito offers from blacklisted adverts or sellers and adds a blacklist manager (import/export compatible with the Ave Blacklist extension).",
+    "id": "e93bcf34050ade85677383bc:1",
+    "legacy_id": 20507,
+    "metadata_status": "verified",
+    "name": "Block listings",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.avito.android",
+        "versions": [
+          "233.1",
+          "232.0",
+          "231.5",
+          "231.0",
+          "230.5",
+          "230.0",
+          "229.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.15",
+    "source_id": "fc45fbb2b70023b7",
+    "use": true
+  },
+  {
+    "bundle_id": "e93bcf34050ade85677383bc",
+    "compatiblePackages": {
+      "com.idamob.tinkoff.android": [
+        "8.2.3",
+        "8.2.1",
+        "8.1.0",
+        "8.0.0",
+        "7.40.1",
+        "7.39.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stubs TBank's native RASP executor calls and neutralizes tamper flag reporting.",
+    "id": "e93bcf34050ade85677383bc:2",
+    "legacy_id": 20508,
+    "metadata_status": "verified",
+    "name": "Bypass anti-tamper",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.idamob.tinkoff.android",
+        "versions": [
+          "8.2.3",
+          "8.2.1",
+          "8.1.0",
+          "8.0.0",
+          "7.40.1",
+          "7.39.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.15",
+    "source_id": "fc45fbb2b70023b7",
+    "use": true
+  },
+  {
+    "bundle_id": "e93bcf34050ade85677383bc",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables Adjust attribution manifest entry points.",
+    "id": "e93bcf34050ade85677383bc:3",
+    "legacy_id": 20509,
+    "metadata_status": "verified",
+    "name": "Disable Adjust",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.15",
+    "source_id": "fc45fbb2b70023b7",
+    "use": false
+  },
+  {
+    "bundle_id": "e93bcf34050ade85677383bc",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables AppMetrica and legacy Yandex Metrica SDK entry points.",
+    "id": "e93bcf34050ade85677383bc:4",
+    "legacy_id": 20510,
+    "metadata_status": "verified",
+    "name": "Disable AppMetrica",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.15",
+    "source_id": "fc45fbb2b70023b7",
+    "use": false
+  },
+  {
+    "bundle_id": "e93bcf34050ade85677383bc",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables AppsFlyer install referrer and attribution manifest entry points.",
+    "id": "e93bcf34050ade85677383bc:5",
+    "legacy_id": 20511,
+    "metadata_status": "verified",
+    "name": "Disable AppsFlyer",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.15",
+    "source_id": "fc45fbb2b70023b7",
+    "use": false
+  },
+  {
+    "bundle_id": "e93bcf34050ade85677383bc",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables Firebase telemetry collection flags and DataTransport sender entry points.",
+    "id": "e93bcf34050ade85677383bc:6",
+    "legacy_id": 20512,
+    "metadata_status": "verified",
+    "name": "Disable Firebase telemetry",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.15",
+    "source_id": "fc45fbb2b70023b7",
+    "use": false
+  },
+  {
+    "bundle_id": "e93bcf34050ade85677383bc",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables the freeRASP mobile security SDK startup.",
+    "id": "e93bcf34050ade85677383bc:7",
+    "legacy_id": 20513,
+    "metadata_status": "verified",
+    "name": "Disable freeRASP",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.15",
+    "source_id": "fc45fbb2b70023b7",
+    "use": false
+  },
+  {
+    "bundle_id": "e93bcf34050ade85677383bc",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables legacy Google Analytics manifest entry points.",
+    "id": "e93bcf34050ade85677383bc:8",
+    "legacy_id": 20514,
+    "metadata_status": "verified",
+    "name": "Disable Google Analytics",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.15",
+    "source_id": "fc45fbb2b70023b7",
+    "use": false
+  },
+  {
+    "bundle_id": "e93bcf34050ade85677383bc",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables MyTracker manifest entry points.",
+    "id": "e93bcf34050ade85677383bc:9",
+    "legacy_id": 20515,
+    "metadata_status": "verified",
+    "name": "Disable MyTracker",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.15",
+    "source_id": "fc45fbb2b70023b7",
+    "use": false
+  },
+  {
+    "bundle_id": "e93bcf34050ade85677383bc",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables RuStore metrics manifest entry points.",
+    "id": "e93bcf34050ade85677383bc:10",
+    "legacy_id": 20516,
+    "metadata_status": "verified",
+    "name": "Disable RuStore metrics",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.15",
+    "source_id": "fc45fbb2b70023b7",
+    "use": false
+  },
+  {
+    "bundle_id": "e93bcf34050ade85677383bc",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables Sentry telemetry by turning off SDK auto-init and clearing the DSN.",
+    "id": "e93bcf34050ade85677383bc:11",
+    "legacy_id": 20517,
+    "metadata_status": "verified",
+    "name": "Disable Sentry telemetry",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.15",
+    "source_id": "fc45fbb2b70023b7",
+    "use": false
+  },
+  {
+    "bundle_id": "e93bcf34050ade85677383bc",
+    "compatiblePackages": {
+      "com.avito.android": [
+        "233.1",
+        "232.0",
+        "231.5",
+        "231.0",
+        "230.5",
+        "230.0",
+        "229.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.",
+    "id": "e93bcf34050ade85677383bc:12",
+    "legacy_id": 20518,
+    "metadata_status": "verified",
+    "name": "Disable telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.avito.android",
+        "versions": [
+          "233.1",
+          "232.0",
+          "231.5",
+          "231.0",
+          "230.5",
+          "230.0",
+          "229.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.15",
+    "source_id": "fc45fbb2b70023b7",
+    "use": true
+  },
+  {
+    "bundle_id": "e93bcf34050ade85677383bc",
+    "compatiblePackages": {
+      "com.avito.android": [
+        "233.1",
+        "232.0",
+        "231.5",
+        "231.0",
+        "230.5",
+        "230.0",
+        "229.1"
+      ]
+    },
+    "dependencies": [
+      "Morphe settings"
+    ],
+    "description": "Prevents Avito's force-update screen opener from launching update screens. Toggleable in Настройки Morphe.",
+    "id": "e93bcf34050ade85677383bc:13",
+    "legacy_id": 20519,
+    "metadata_status": "verified",
+    "name": "Disable update prompts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.avito.android",
+        "versions": [
+          "233.1",
+          "232.0",
+          "231.5",
+          "231.0",
+          "230.5",
+          "230.0",
+          "229.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.15",
+    "source_id": "fc45fbb2b70023b7",
+    "use": true
+  }
+]

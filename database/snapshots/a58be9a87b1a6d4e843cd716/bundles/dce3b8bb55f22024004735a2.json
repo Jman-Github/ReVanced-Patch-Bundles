@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-06-20T05:25:20Z",
+  "description": "## [1.0.2](https://github.com/Jagannath70086/jagas-morphe-patches/compare/v1.0.1...v1.0.2) (2026-06-20)\n\n### 🐛 Bug Fixes\n\n* a fix for crex ([4f8a7c8](https://github.com/Jagannath70086/jagas-morphe-patches/commit/4f8a7c8d6cd6d2394ca6880b146ad5a0dd68ec2b))\n",
+  "download_url": "https://github.com/Jagannath70086/jagas-morphe-patches/releases/download/v1.0.2/patches-1.0.2.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:751b26c3dda2a1923183114343ca0db16315e44f17bfd8b12a003394f9316f23",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "751b26c3dda2a1923183114343ca0db16315e44f17bfd8b12a003394f9316f23",
+  "id": "dce3b8bb55f22024004735a2",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FJagannath70086%2Fjagas-morphe-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FJagannath70086%2Fjagas-morphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 523,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "in.cricketexchange.app.cricketexchange"
+  ],
+  "patch_count": 1,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.0.2",
+  "patch_refresh_attempted_at": "2026-10-10T17:05:48.777298209Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:751b26c3dda2a1923183114343ca0db16315e44f17bfd8b12a003394f9316f23",
+  "release_status": "unverified",
+  "release_url": "https://github.com/Jagannath70086/jagas-morphe-patches/releases/tag/v1.0.2",
+  "signature_download_url": null,
+  "source_id": "1fca3c771a46482a",
+  "version": "v1.0.2"
+}

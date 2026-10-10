@@ -1,0 +1,44 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-10-09T19:08:15Z",
+  "description": "Vantage-only morphe patches 0.1.3 built from 4f21900. Stacked on top of the anddea bundle by pmaxhogan/vantage scripts/build.sh. Built 2026-10-09T19:09:56Z.",
+  "download_url": "https://github.com/pmaxhogan/vantage-patches/releases/download/v0.1.3/vantage-patches-0.1.3.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:6069e3c6d67e099bf2308af66633c50962cd8039e7f1cb55559c2a4c7a4d0fd1",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "6069e3c6d67e099bf2308af66633c50962cd8039e7f1cb55559c2a4c7a4d0fd1",
+  "id": "a7fc7b38fb4cbda5cf936283",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fpmaxhogan%2Fvantage-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fpmaxhogan%2Fvantage-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 5751,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.anthropic.claude",
+    "com.google.android.apps.youtube.music"
+  ],
+  "patch_count": 4,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v0.1.3",
+  "patch_refresh_attempted_at": "2026-10-10T17:08:00.153030708Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:6069e3c6d67e099bf2308af66633c50962cd8039e7f1cb55559c2a4c7a4d0fd1",
+  "release_status": "unverified",
+  "release_url": "https://github.com/pmaxhogan/vantage-patches/releases/tag/v0.1.3",
+  "signature_download_url": null,
+  "source_id": "693b19d1b7f0df18",
+  "version": "v0.1.3"
+}
