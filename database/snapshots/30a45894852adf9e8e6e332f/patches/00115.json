@@ -1,0 +1,95 @@
+[
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "HushPinterest settings"
+    ],
+    "description": "Uses Android's share sheet when sharing a pin link. Screenshot and download actions keep their usual behavior. Turn it off in HushPinterest settings at any time.",
+    "id": "ff822870ddac5862bd3e1c61:22",
+    "legacy_id": 11501,
+    "metadata_status": "unverified",
+    "name": "System share sheet",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": false
+  },
+  {
+    "bundle_id": "ffec1c8aa1a132b93398b8e3",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0033",
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "signatures": [
+          "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+          "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+        ],
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to enable Yandex voice-over translation of video audio tracks. Requires a Morphe Patches version with add-on support.",
+    "id": "ffec1c8aa1a132b93398b8e3:0",
+    "legacy_id": 11502,
+    "metadata_status": "unverified",
+    "name": "Voice Over Translation (Yandex)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "05038894f6489db0"
+  }
+]

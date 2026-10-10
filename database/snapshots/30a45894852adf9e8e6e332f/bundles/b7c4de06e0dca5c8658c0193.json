@@ -1,0 +1,43 @@
+{
+  "bundle_type": "ReVanced:V4",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-09-05T15:56:53",
+  "description": "## [0.1.4] - 2026-09-06\n\n### Fixed\n\n- メールの全選択・単独選択の切り替えで広告行の高さが一時復帰しないよう、広告コンテナの測定寸法を0に固定した。Pixel 10aの6.2.5へ上書きし、選択操作の録画で確認した。\n- 広告WebViewが親の`loadUrl`を呼ぶ際に自身へ再入し続けないよう、ネットワーク遮断時も親クラス呼び出しを維持した。未読メールを開いた際の間欠クラッシュとの因果関係は未確定。\n- Pixel 10aなど64-bit専用端末で32-bit XAPK由来のパッチAPKが「非対応」になることを事前に検出できるように、APKと実機のCPU ABI照合スクリプトを追加し、`arm64-v8a`バリアントの選択手順を明記した。\n\n",
+  "download_url": "https://github.com/roflsunriz/ymail-revanced/releases/download/v0.1.4/ymail-patches.rvp",
+  "ecosystem": "revanced",
+  "extracted_provider_digest": null,
+  "extraction_status": "unverified",
+  "extraction_terminal": false,
+  "file_hash": null,
+  "id": "b7c4de06e0dca5c8658c0193",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Froflsunriz%2Fymail-revanced&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Froflsunriz%2Fymail-revanced&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 439,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "jp.co.yahoo.android.ymail"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 0,
+  "patch_metadata_version": "v0.1.4",
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_config_hash": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "provider_digest": null,
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": "N/A",
+  "source_id": "efbc8db8b222fc67",
+  "version": "v0.1.4"
+}

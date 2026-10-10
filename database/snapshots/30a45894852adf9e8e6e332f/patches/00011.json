@@ -1,0 +1,4415 @@
+[
+  {
+    "bundle_id": "1ee449aa4bd0180641422c9c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1A237E",
+        "name": "Venabox Hub",
+        "packageName": "com.dubani.dub",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes ads from Venabox Hub.",
+    "id": "1ee449aa4bd0180641422c9c:0",
+    "legacy_id": 1101,
+    "metadata_status": "unverified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "3b21cc9df35450b6"
+  },
+  {
+    "bundle_id": "1f26b52cf0e440a3d7536258",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF0000",
+        "description": null,
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "signatures": null,
+        "targets": [
+          {
+            "description": null,
+            "isExperimental": false,
+            "minSdk": null,
+            "version": "20.51.39"
+          }
+        ],
+        "versions": [
+          "20.51.39"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF0000",
+        "description": null,
+        "name": "YouTube Music",
+        "packageName": "com.google.android.apps.youtube.music",
+        "signatures": null,
+        "targets": [
+          {
+            "description": null,
+            "isExperimental": false,
+            "minSdk": null,
+            "version": "8.51.51"
+          }
+        ],
+        "versions": [
+          "8.51.51"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Forces a custom display density in dots-per-inch for YouTube and YouTube Music.",
+    "id": "1f26b52cf0e440a3d7536258:0",
+    "legacy_id": 1102,
+    "metadata_status": "unverified",
+    "name": "Custom DPI",
+    "options": [
+      {
+        "default": 240,
+        "description": "Forced display density in dots-per-inch for this app only.",
+        "key": "dpi",
+        "required": false,
+        "title": "Custom DPI",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "YouTube",
+        "versions": [
+          "20.51.39"
+        ]
+      },
+      {
+        "name": "YouTube Music",
+        "versions": [
+          "8.51.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.1.0",
+    "source_id": "e00a5938f9d7e748"
+  },
+  {
+    "bundle_id": "1f26b52cf0e440a3d7536258",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF0000",
+        "description": null,
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "signatures": null,
+        "targets": [
+          {
+            "description": null,
+            "isExperimental": false,
+            "minSdk": null,
+            "version": "20.51.39"
+          }
+        ],
+        "versions": [
+          "20.51.39"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF0000",
+        "description": null,
+        "name": "YouTube Music",
+        "packageName": "com.google.android.apps.youtube.music",
+        "signatures": null,
+        "targets": [
+          {
+            "description": null,
+            "isExperimental": false,
+            "minSdk": null,
+            "version": "8.51.51"
+          }
+        ],
+        "versions": [
+          "8.51.51"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides the version notice dialog.",
+    "id": "1f26b52cf0e440a3d7536258:1",
+    "legacy_id": 1103,
+    "metadata_status": "unverified",
+    "name": "Hide version notice",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube",
+        "versions": [
+          "20.51.39"
+        ]
+      },
+      {
+        "name": "YouTube Music",
+        "versions": [
+          "8.51.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.1.0",
+    "source_id": "e00a5938f9d7e748"
+  },
+  {
+    "bundle_id": "1f26b52cf0e440a3d7536258",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF0000",
+        "description": null,
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "signatures": null,
+        "targets": [
+          {
+            "description": null,
+            "isExperimental": false,
+            "minSdk": null,
+            "version": "20.51.39"
+          }
+        ],
+        "versions": [
+          "20.51.39"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF0000",
+        "description": null,
+        "name": "YouTube Music",
+        "packageName": "com.google.android.apps.youtube.music",
+        "signatures": null,
+        "targets": [
+          {
+            "description": null,
+            "isExperimental": false,
+            "minSdk": null,
+            "version": "8.51.51"
+          }
+        ],
+        "versions": [
+          "8.51.51"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Overrides android:versionName so a repatched build can install as an update.",
+    "id": "1f26b52cf0e440a3d7536258:2",
+    "legacy_id": 1104,
+    "metadata_status": "unverified",
+    "name": "Custom version name",
+    "options": [
+      {
+        "default": "",
+        "description": "Full value written to android:versionName.",
+        "key": "versionName",
+        "required": false,
+        "title": "Version name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "YouTube",
+        "versions": [
+          "20.51.39"
+        ]
+      },
+      {
+        "name": "YouTube Music",
+        "versions": [
+          "8.51.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.1.0",
+    "source_id": "e00a5938f9d7e748"
+  },
+  {
+    "bundle_id": "1f9b6fc0829dbf8dc7dc7b90",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Appends \".morphe\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+    "id": "1f9b6fc0829dbf8dc7dc7b90:0",
+    "legacy_id": 1105,
+    "metadata_status": "unverified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "Default",
+        "description": "The name of the package to rename the app to.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      },
+      {
+        "default": false,
+        "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "updatePermissions",
+        "required": false,
+        "title": "Update permissions",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "updateProviders",
+        "required": false,
+        "title": "Update providers",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Update additional provider names declared by the app in the strings.xml file. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "updateProvidersStrings",
+        "required": false,
+        "title": "Update providers strings",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.38.0",
+    "source_id": "3e47f28122ebd27d"
+  },
+  {
+    "bundle_id": "1f9b6fc0829dbf8dc7dc7b90",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0000",
+        "name": "YouTube Music",
+        "packageName": "com.google.android.apps.youtube.music",
+        "signatures": [
+          "6a2f65ec694a6a632acdcb5080912a565f903d4b8d83f0eb8e44fbdf2660d8e1",
+          "a2a1ad7ba7f41dfca4514e2afeb90691719af6d0fdbed4b09bbf0ed897701ceb"
+        ],
+        "targets": [
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.24.51"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.23.52"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.22.53"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "9.15.51"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "8.51.51"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.29.52"
+          }
+        ],
+        "versions": [
+          "9.24.51",
+          "9.23.52",
+          "9.22.53",
+          "9.15.51",
+          "8.51.51",
+          "7.29.52"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Displays the currently playing track on your Discord profile.",
+    "id": "1f9b6fc0829dbf8dc7dc7b90:1",
+    "legacy_id": 1106,
+    "metadata_status": "unverified",
+    "name": "Discord Rich Presence",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube Music",
+        "versions": [
+          "9.24.51",
+          "9.23.52",
+          "9.22.53",
+          "9.15.51",
+          "8.51.51",
+          "7.29.52"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.38.0",
+    "source_id": "3e47f28122ebd27d"
+  },
+  {
+    "bundle_id": "1f9b6fc0829dbf8dc7dc7b90",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0000",
+        "name": "YouTube Music",
+        "packageName": "com.google.android.apps.youtube.music",
+        "signatures": [
+          "6a2f65ec694a6a632acdcb5080912a565f903d4b8d83f0eb8e44fbdf2660d8e1",
+          "a2a1ad7ba7f41dfca4514e2afeb90691719af6d0fdbed4b09bbf0ed897701ceb"
+        ],
+        "targets": [
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.24.51"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.23.52"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.22.53"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "9.15.51"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "8.51.51"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.29.52"
+          }
+        ],
+        "versions": [
+          "9.24.51",
+          "9.23.52",
+          "9.22.53",
+          "9.15.51",
+          "8.51.51",
+          "7.29.52"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to add played tracks to Last.fm and ListenBrainz.",
+    "id": "1f9b6fc0829dbf8dc7dc7b90:2",
+    "legacy_id": 1107,
+    "metadata_status": "unverified",
+    "name": "Scrobbling",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube Music",
+        "versions": [
+          "9.24.51",
+          "9.23.52",
+          "9.22.53",
+          "9.15.51",
+          "8.51.51",
+          "7.29.52"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.38.0",
+    "source_id": "3e47f28122ebd27d"
+  },
+  {
+    "bundle_id": "2178b558276c338d6fd15093",
+    "compatiblePackages": {
+      "ru.yandex.weatherplugin": null
+    },
+    "dependencies": [],
+    "description": "Prevents the Yandex account library from closing the app on start, because the patched app is not signed by Yandex. Signing in to a Yandex account may not work.",
+    "id": "2178b558276c338d6fd15093:0",
+    "legacy_id": 1108,
+    "metadata_status": "unverified",
+    "name": "Disable account library verification",
+    "options": [],
+    "packages": [
+      {
+        "name": "ru.yandex.weatherplugin",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "b2f0455c3383f255",
+    "use": true
+  },
+  {
+    "bundle_id": "2178b558276c338d6fd15093",
+    "compatiblePackages": {
+      "ru.yandex.weatherplugin": null
+    },
+    "dependencies": [],
+    "description": "Prevents the Yandex Mobile Ads SDK from loading banner, native, interstitial, rewarded, app open and instream ads.",
+    "id": "2178b558276c338d6fd15093:1",
+    "legacy_id": 1109,
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "ru.yandex.weatherplugin",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "b2f0455c3383f255",
+    "use": true
+  },
+  {
+    "bundle_id": "2178b558276c338d6fd15093",
+    "compatiblePackages": {
+      "ru.yandex.weatherplugin": null
+    },
+    "dependencies": [],
+    "description": "Removes the declarations of permissions shared with other Yandex apps and the original app, such as com.yandex.permission.READ_CREDENTIALS. Otherwise, the patched app can not be installed next to them, because they are signed with a different key. Signing in with an account from other Yandex apps will not work.",
+    "id": "2178b558276c338d6fd15093:2",
+    "legacy_id": 1110,
+    "metadata_status": "unverified",
+    "name": "Remove shared permissions",
+    "options": [],
+    "packages": [
+      {
+        "name": "ru.yandex.weatherplugin",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "b2f0455c3383f255",
+    "use": true
+  },
+  {
+    "bundle_id": "2178b558276c338d6fd15093",
+    "compatiblePackages": {
+      "ru.yandex.weatherplugin": null
+    },
+    "dependencies": [
+      "Patch"
+    ],
+    "description": "Renames the content providers that \"Change package name\" does not rename, and makes the app find its database under a changed package name. This allows installing the patched app next to the original app.",
+    "id": "2178b558276c338d6fd15093:3",
+    "legacy_id": 1111,
+    "metadata_status": "unverified",
+    "name": "Rename content providers",
+    "options": [],
+    "packages": [
+      {
+        "name": "ru.yandex.weatherplugin",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "b2f0455c3383f255",
+    "use": true
+  },
+  {
+    "bundle_id": "218e76fc8957c0f0b233649f",
+    "compatiblePackages": {
+      "org.telegram.messenger": null,
+      "org.telegram.messenger.web": null,
+      "uz.unnarsx.cherrygram": null
+    },
+    "dependencies": [],
+    "description": "Bypass integrity check to allow login",
+    "id": "218e76fc8957c0f0b233649f:0",
+    "legacy_id": 1112,
+    "metadata_status": "unverified",
+    "name": "Bypass Integrity",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger",
+        "versions": []
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": []
+      },
+      {
+        "name": "uz.unnarsx.cherrygram",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v2.0.0-dev.1",
+    "source_id": "0625a94bc41a1ce4",
+    "use": true
+  },
+  {
+    "bundle_id": "218e76fc8957c0f0b233649f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Appends \".revanced\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+    "id": "218e76fc8957c0f0b233649f:1",
+    "legacy_id": 1113,
+    "metadata_status": "unverified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "Default",
+        "description": "The name of the package to rename the app to.",
+        "name": "packageName",
+        "required": true,
+        "type": "java.lang.String (Kotlin reflection is not available)",
+        "values": {
+          "Default": "Default"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v2.0.0-dev.1",
+    "source_id": "0625a94bc41a1ce4",
+    "use": false
+  },
+  {
+    "bundle_id": "218e76fc8957c0f0b233649f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": null,
+    "id": "218e76fc8957c0f0b233649f:2",
+    "legacy_id": 1114,
+    "metadata_status": "unverified",
+    "name": "Deobfuscate Smob",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.0.0-dev.1",
+    "source_id": "0625a94bc41a1ce4",
+    "use": false
+  },
+  {
+    "bundle_id": "218e76fc8957c0f0b233649f",
+    "compatiblePackages": {
+      "org.telegram.messenger": null,
+      "org.telegram.messenger.web": null,
+      "uz.unnarsx.cherrygram": null
+    },
+    "dependencies": [],
+    "description": "Disable Auto Update",
+    "id": "218e76fc8957c0f0b233649f:3",
+    "legacy_id": 1115,
+    "metadata_status": "unverified",
+    "name": "Disable Auto Update",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger",
+        "versions": []
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": []
+      },
+      {
+        "name": "uz.unnarsx.cherrygram",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v2.0.0-dev.1",
+    "source_id": "0625a94bc41a1ce4",
+    "use": true
+  },
+  {
+    "bundle_id": "218e76fc8957c0f0b233649f",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "Disables the signature check that causes the app to crash on startup.",
+    "id": "218e76fc8957c0f0b233649f:4",
+    "legacy_id": 1116,
+    "metadata_status": "unverified",
+    "name": "Disable signature check",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v2.0.0-dev.1",
+    "source_id": "0625a94bc41a1ce4",
+    "use": true
+  },
+  {
+    "bundle_id": "218e76fc8957c0f0b233649f",
+    "compatiblePackages": {
+      "org.telegram.messenger": null,
+      "org.telegram.messenger.web": null,
+      "uz.unnarsx.cherrygram": null
+    },
+    "dependencies": [],
+    "description": "Boosts download speed",
+    "id": "218e76fc8957c0f0b233649f:5",
+    "legacy_id": 1117,
+    "metadata_status": "unverified",
+    "name": "Download Speed Boost",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger",
+        "versions": []
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": []
+      },
+      {
+        "name": "uz.unnarsx.cherrygram",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v2.0.0-dev.1",
+    "source_id": "0625a94bc41a1ce4",
+    "use": true
+  },
+  {
+    "bundle_id": "218e76fc8957c0f0b233649f",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "Enables the developer menu.",
+    "id": "218e76fc8957c0f0b233649f:6",
+    "legacy_id": 1118,
+    "metadata_status": "unverified",
+    "name": "Enable Developer Menu",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v2.0.0-dev.1",
+    "source_id": "0625a94bc41a1ce4",
+    "use": true
+  },
+  {
+    "bundle_id": "218e76fc8957c0f0b233649f",
+    "compatiblePackages": {
+      "com.instagram.android": null,
+      "com.instagram.barcelona": null
+    },
+    "dependencies": [],
+    "description": "Hides ads in stories, discover, profile, etc. An ad can still appear once when refreshing the home feed.",
+    "id": "218e76fc8957c0f0b233649f:7",
+    "legacy_id": 1119,
+    "metadata_status": "unverified",
+    "name": "Hide Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      },
+      {
+        "name": "com.instagram.barcelona",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v2.0.0-dev.1",
+    "source_id": "0625a94bc41a1ce4",
+    "use": true
+  },
+  {
+    "bundle_id": "218e76fc8957c0f0b233649f",
+    "compatiblePackages": {
+      "org.telegram.messenger": null,
+      "org.telegram.messenger.web": null,
+      "uz.unnarsx.cherrygram": null
+    },
+    "dependencies": [],
+    "description": "Hides sponsored ads in channels",
+    "id": "218e76fc8957c0f0b233649f:8",
+    "legacy_id": 1120,
+    "metadata_status": "unverified",
+    "name": "Hide sponsored ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger",
+        "versions": []
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": []
+      },
+      {
+        "name": "uz.unnarsx.cherrygram",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v2.0.0-dev.1",
+    "source_id": "0625a94bc41a1ce4",
+    "use": true
+  },
+  {
+    "bundle_id": "218e76fc8957c0f0b233649f",
+    "compatiblePackages": {
+      "app.revanced.android.youtube": null,
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "Hides the subtitle toast when toggling subtitles on/off and when changing subtitles",
+    "id": "218e76fc8957c0f0b233649f:9",
+    "legacy_id": 1121,
+    "metadata_status": "unverified",
+    "name": "Hide subtitle toast",
+    "options": [],
+    "packages": [
+      {
+        "name": "app.revanced.android.youtube",
+        "versions": []
+      },
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v2.0.0-dev.1",
+    "source_id": "0625a94bc41a1ce4",
+    "use": true
+  },
+  {
+    "bundle_id": "218e76fc8957c0f0b233649f",
+    "compatiblePackages": {
+      "org.telegram.messenger": null,
+      "org.telegram.messenger.web": null,
+      "uz.unnarsx.cherrygram": null
+    },
+    "dependencies": [],
+    "description": "Hides your typing indicator from other users",
+    "id": "218e76fc8957c0f0b233649f:10",
+    "legacy_id": 1122,
+    "metadata_status": "unverified",
+    "name": "Hide typing indicator",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger",
+        "versions": []
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": []
+      },
+      {
+        "name": "uz.unnarsx.cherrygram",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v2.0.0-dev.1",
+    "source_id": "0625a94bc41a1ce4",
+    "use": true
+  },
+  {
+    "bundle_id": "218e76fc8957c0f0b233649f",
+    "compatiblePackages": {
+      "app.revanced.android.youtube": null,
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "Adds a large pause button to the player",
+    "id": "218e76fc8957c0f0b233649f:11",
+    "legacy_id": 1123,
+    "metadata_status": "unverified",
+    "name": "Large pause button",
+    "options": [],
+    "packages": [
+      {
+        "name": "app.revanced.android.youtube",
+        "versions": []
+      },
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v2.0.0-dev.1",
+    "source_id": "0625a94bc41a1ce4",
+    "use": true
+  },
+  {
+    "bundle_id": "218e76fc8957c0f0b233649f",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "Enable max media quality.",
+    "id": "218e76fc8957c0f0b233649f:12",
+    "legacy_id": 1124,
+    "metadata_status": "unverified",
+    "name": "Max Media Quality",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v2.0.0-dev.1",
+    "source_id": "0625a94bc41a1ce4",
+    "use": true
+  },
+  {
+    "bundle_id": "218e76fc8957c0f0b233649f",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "Makes user's bio selectable.",
+    "id": "218e76fc8957c0f0b233649f:13",
+    "legacy_id": 1125,
+    "metadata_status": "unverified",
+    "name": "Selectable Bio",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v2.0.0-dev.1",
+    "source_id": "0625a94bc41a1ce4",
+    "use": true
+  },
+  {
+    "bundle_id": "218e76fc8957c0f0b233649f",
+    "compatiblePackages": {
+      "org.kustom.lockscreen": [
+        "3.73b314511"
+      ],
+      "org.kustom.wallpaper": [
+        "3.73b314511"
+      ],
+      "org.kustom.widget": [
+        "3.73b314511"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlock Pro features",
+    "id": "218e76fc8957c0f0b233649f:14",
+    "legacy_id": 1126,
+    "metadata_status": "unverified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.kustom.lockscreen",
+        "versions": [
+          "3.73b314511"
+        ]
+      },
+      {
+        "name": "org.kustom.wallpaper",
+        "versions": [
+          "3.73b314511"
+        ]
+      },
+      {
+        "name": "org.kustom.widget",
+        "versions": [
+          "3.73b314511"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.0.0-dev.1",
+    "source_id": "0625a94bc41a1ce4",
+    "use": true
+  },
+  {
+    "bundle_id": "218e76fc8957c0f0b233649f",
+    "compatiblePackages": {
+      "org.telegram.messenger": null,
+      "org.telegram.messenger.web": null,
+      "uz.unnarsx.cherrygram": null
+    },
+    "dependencies": [],
+    "description": "Unlock client-side Pro features",
+    "id": "218e76fc8957c0f0b233649f:15",
+    "legacy_id": 1127,
+    "metadata_status": "unverified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger",
+        "versions": []
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": []
+      },
+      {
+        "name": "uz.unnarsx.cherrygram",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v2.0.0-dev.1",
+    "source_id": "0625a94bc41a1ce4",
+    "use": true
+  },
+  {
+    "bundle_id": "21e3c0ffe8bec1d441f6e394",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#E10600",
+        "description": "F1 TV mobile APK",
+        "name": "F1 TV",
+        "packageName": "com.formulaone.production",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "3.0.49.4-SP166.4.1-release-R54.2-mobile"
+          }
+        ],
+        "versions": [
+          "3.0.49.4-SP166.4.1-release-R54.2-mobile"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Keeps Bitmovin playback alive and enables Tiledmedia background audio for F1 TV multiview.",
+    "id": "21e3c0ffe8bec1d441f6e394:0",
+    "legacy_id": 1128,
+    "metadata_status": "unverified",
+    "name": "F1 TV - Background playback",
+    "options": [],
+    "packages": [
+      {
+        "name": "F1 TV",
+        "versions": [
+          "3.0.49.4-SP166.4.1-release-R54.2-mobile"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.0",
+    "source_id": "582952d92f7a3685"
+  },
+  {
+    "bundle_id": "21e3c0ffe8bec1d441f6e394",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#E10600",
+        "description": "F1 TV mobile APK",
+        "name": "F1 TV",
+        "packageName": "com.formulaone.production",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "3.0.49.4-SP166.4.1-release-R54.2-mobile"
+          }
+        ],
+        "versions": [
+          "3.0.49.4-SP166.4.1-release-R54.2-mobile"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Changes the F1 TV package name to allow installing a separate patched instance. By default \".morphe\" is appended to the package name.",
+    "id": "21e3c0ffe8bec1d441f6e394:1",
+    "legacy_id": 1129,
+    "metadata_status": "unverified",
+    "name": "F1 TV - Change package name",
+    "options": [
+      {
+        "default": "Default",
+        "description": "Package name to use for the cloned F1 TV app.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      },
+      {
+        "default": true,
+        "description": "Update custom permissions declared by F1 TV. This can fix installation conflicts, but may break app features.",
+        "key": "updatePermissions",
+        "required": false,
+        "title": "Update permissions",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Update provider names declared by F1 TV. This can fix installation conflicts, but may break app features.",
+        "key": "updateProviders",
+        "required": false,
+        "title": "Update providers",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "F1 TV",
+        "versions": [
+          "3.0.49.4-SP166.4.1-release-R54.2-mobile"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.0",
+    "source_id": "582952d92f7a3685"
+  },
+  {
+    "bundle_id": "21e3c0ffe8bec1d441f6e394",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#E10600",
+        "description": "F1 TV mobile APK",
+        "name": "F1 TV",
+        "packageName": "com.formulaone.production",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "3.0.49.4-SP166.4.1-release-R54.2-mobile"
+          }
+        ],
+        "versions": [
+          "3.0.49.4-SP166.4.1-release-R54.2-mobile"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Disables Play Store updates for the F1 TV package by setting its version code to the maximum allowed.",
+    "id": "21e3c0ffe8bec1d441f6e394:2",
+    "legacy_id": 1130,
+    "metadata_status": "unverified",
+    "name": "F1 TV - Disable Play Store updates",
+    "options": [],
+    "packages": [
+      {
+        "name": "F1 TV",
+        "versions": [
+          "3.0.49.4-SP166.4.1-release-R54.2-mobile"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.0",
+    "source_id": "582952d92f7a3685"
+  },
+  {
+    "bundle_id": "21e3c0ffe8bec1d441f6e394",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#E10600",
+        "description": "F1 TV mobile APK",
+        "name": "F1 TV",
+        "packageName": "com.formulaone.production",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "3.0.49.4-SP166.4.1-release-R54.2-mobile"
+          }
+        ],
+        "versions": [
+          "3.0.49.4-SP166.4.1-release-R54.2-mobile"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Allows closing F1 TV's forced-update dialog without exiting the app.",
+    "id": "21e3c0ffe8bec1d441f6e394:3",
+    "legacy_id": 1131,
+    "metadata_status": "unverified",
+    "name": "F1 TV - Dismiss forced update prompt",
+    "options": [],
+    "packages": [
+      {
+        "name": "F1 TV",
+        "versions": [
+          "3.0.49.4-SP166.4.1-release-R54.2-mobile"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.0",
+    "source_id": "582952d92f7a3685"
+  },
+  {
+    "bundle_id": "21e3c0ffe8bec1d441f6e394",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#E10600",
+        "description": "F1 TV mobile APK",
+        "name": "F1 TV",
+        "packageName": "com.formulaone.production",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "3.0.49.4-SP166.4.1-release-R54.2-mobile"
+          }
+        ],
+        "versions": [
+          "3.0.49.4-SP166.4.1-release-R54.2-mobile"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Keeps background F1 TV playback alive with an Android media playback notification and playback/PiP controls.",
+    "id": "21e3c0ffe8bec1d441f6e394:4",
+    "legacy_id": 1132,
+    "metadata_status": "unverified",
+    "name": "F1 TV - Foreground playback service",
+    "options": [],
+    "packages": [
+      {
+        "name": "F1 TV",
+        "versions": [
+          "3.0.49.4-SP166.4.1-release-R54.2-mobile"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.0",
+    "source_id": "582952d92f7a3685"
+  },
+  {
+    "bundle_id": "21e3c0ffe8bec1d441f6e394",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#E10600",
+        "description": "F1 TV mobile APK",
+        "name": "F1 TV",
+        "packageName": "com.formulaone.production",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "3.0.49.4-SP166.4.1-release-R54.2-mobile"
+          }
+        ],
+        "versions": [
+          "3.0.49.4-SP166.4.1-release-R54.2-mobile"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Keeps F1 TV playback alive while entering Android Picture-in-Picture mode.",
+    "id": "21e3c0ffe8bec1d441f6e394:5",
+    "legacy_id": 1133,
+    "metadata_status": "unverified",
+    "name": "F1 TV - Picture-in-Picture",
+    "options": [],
+    "packages": [
+      {
+        "name": "F1 TV",
+        "versions": [
+          "3.0.49.4-SP166.4.1-release-R54.2-mobile"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.0",
+    "source_id": "582952d92f7a3685"
+  },
+  {
+    "bundle_id": "21e3c0ffe8bec1d441f6e394",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#111827",
+        "description": "Movie Paradise (Flutter) — distributed as split APK (XAPK)",
+        "name": "Movie Paradise",
+        "packageName": "com.techkitlabs.movieparadise",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 24,
+            "version": "5.2.0"
+          }
+        ],
+        "versions": [
+          "5.2.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Routes Google Play Services through microG (MicroG-RE) so Google sign-in works without stock Play Services.",
+    "id": "21e3c0ffe8bec1d441f6e394:6",
+    "legacy_id": 1134,
+    "metadata_status": "unverified",
+    "name": "Movie Paradise - GmsCore support (microG login)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Movie Paradise",
+        "versions": [
+          "5.2.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.0",
+    "source_id": "582952d92f7a3685"
+  },
+  {
+    "bundle_id": "21e3c0ffe8bec1d441f6e394",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#111827",
+        "description": "Movie Paradise (Flutter) — distributed as split APK (XAPK)",
+        "name": "Movie Paradise",
+        "packageName": "com.techkitlabs.movieparadise",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 24,
+            "version": "5.2.0"
+          }
+        ],
+        "versions": [
+          "5.2.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Neutralises Google Play integrity/license checks (PairIP) so a repackaged build launches.",
+    "id": "21e3c0ffe8bec1d441f6e394:7",
+    "legacy_id": 1135,
+    "metadata_status": "unverified",
+    "name": "Movie Paradise - PairIP license bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "Movie Paradise",
+        "versions": [
+          "5.2.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.0",
+    "source_id": "582952d92f7a3685"
+  },
+  {
+    "bundle_id": "2206265699a773638e3cc950",
+    "category": null,
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Scales text in this app without changing display density or layout sizing.",
+    "id": "2206265699a773638e3cc950:0",
+    "legacy_id": 1136,
+    "metadata_status": "unverified",
+    "name": "Adjust app font scale",
+    "options": [
+      {
+        "default": 1.2,
+        "description": "Multiplier applied to this app's current system font scale. 1.0 keeps it unchanged.",
+        "key": "fontScaleMultiplier",
+        "required": false,
+        "title": "Font scale multiplier",
+        "type": "kotlin.Float",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "ff48a5058959b0b9"
+  },
+  {
+    "bundle_id": "2206265699a773638e3cc950",
+    "category": null,
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Hides the status bar and removes top status-bar and cutout insets from app content.",
+    "id": "2206265699a773638e3cc950:1",
+    "legacy_id": 1137,
+    "metadata_status": "unverified",
+    "name": "Hide status bar and ignore display cutouts",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "ff48a5058959b0b9"
+  },
+  {
+    "bundle_id": "22365ad6445bf134337c109d",
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.11.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables Bugsnag crash reporting and analytics.",
+    "id": "22365ad6445bf134337c109d:0",
+    "legacy_id": 1138,
+    "metadata_status": "unverified",
+    "name": "Disable Bugsnag Telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.11.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1-dev.1",
+    "source_id": "65fa024a590c28c3",
+    "use": true
+  },
+  {
+    "bundle_id": "22365ad6445bf134337c109d",
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.11.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables various analytics and tracking tasks.",
+    "id": "22365ad6445bf134337c109d:1",
+    "legacy_id": 1139,
+    "metadata_status": "unverified",
+    "name": "Disable General Telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.11.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1-dev.1",
+    "source_id": "65fa024a590c28c3",
+    "use": true
+  },
+  {
+    "bundle_id": "22365ad6445bf134337c109d",
+    "compatiblePackages": {
+      "com.truecaller": [
+        "26.12.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables AppStartTracker and other telemetry points.",
+    "id": "22365ad6445bf134337c109d:2",
+    "legacy_id": 1140,
+    "metadata_status": "unverified",
+    "name": "Disable Telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.truecaller",
+        "versions": [
+          "26.12.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1-dev.1",
+    "source_id": "65fa024a590c28c3",
+    "use": true
+  },
+  {
+    "bundle_id": "22365ad6445bf134337c109d",
+    "compatiblePackages": {
+      "com.flyersoft.moonreader": [
+        "10.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the app title to 'Moon+ Reader Pro' and removes the 'Remove Ads' button from the drawer.",
+    "id": "22365ad6445bf134337c109d:3",
+    "legacy_id": 1141,
+    "metadata_status": "unverified",
+    "name": "Make UI look like Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.flyersoft.moonreader",
+        "versions": [
+          "10.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1-dev.1",
+    "source_id": "65fa024a590c28c3",
+    "use": true
+  },
+  {
+    "bundle_id": "22365ad6445bf134337c109d",
+    "compatiblePackages": {
+      "com.quickcursor": null
+    },
+    "dependencies": [],
+    "description": "Unlock all PRO features",
+    "id": "22365ad6445bf134337c109d:4",
+    "legacy_id": 1142,
+    "metadata_status": "unverified",
+    "name": "Quick Cursor PRO",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.quickcursor",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.3.1-dev.1",
+    "source_id": "65fa024a590c28c3",
+    "use": true
+  },
+  {
+    "bundle_id": "22365ad6445bf134337c109d",
+    "compatiblePackages": {
+      "com.truecaller": [
+        "26.12.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables all ad feature toggles globally.",
+    "id": "22365ad6445bf134337c109d:5",
+    "legacy_id": 1143,
+    "metadata_status": "unverified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.truecaller",
+        "versions": [
+          "26.12.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1-dev.1",
+    "source_id": "65fa024a590c28c3",
+    "use": true
+  },
+  {
+    "bundle_id": "22365ad6445bf134337c109d",
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.11.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables ad detection logic globally. Safe for Home feed.",
+    "id": "22365ad6445bf134337c109d:6",
+    "legacy_id": 1144,
+    "metadata_status": "unverified",
+    "name": "Remove Promoted Pins",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.11.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1-dev.1",
+    "source_id": "65fa024a590c28c3",
+    "use": true
+  },
+  {
+    "bundle_id": "22365ad6445bf134337c109d",
+    "compatiblePackages": {
+      "org.withouthat.acalendar": null
+    },
+    "dependencies": [],
+    "description": "Unlocks all aCalendar+ features.",
+    "id": "22365ad6445bf134337c109d:7",
+    "legacy_id": 1145,
+    "metadata_status": "unverified",
+    "name": "Unlock aCalendar+",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.withouthat.acalendar",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.3.1-dev.1",
+    "source_id": "65fa024a590c28c3",
+    "use": true
+  },
+  {
+    "bundle_id": "22365ad6445bf134337c109d",
+    "compatiblePackages": {
+      "com.burton999.notecal": [
+        "2.25.107"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all Pro features and removes ads.",
+    "id": "22365ad6445bf134337c109d:8",
+    "legacy_id": 1146,
+    "metadata_status": "unverified",
+    "name": "Unlock CalcNote Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.burton999.notecal",
+        "versions": [
+          "2.25.107"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1-dev.1",
+    "source_id": "65fa024a590c28c3",
+    "use": true
+  },
+  {
+    "bundle_id": "22365ad6445bf134337c109d",
+    "compatiblePackages": {
+      "com.flyersoft.moonreader": [
+        "10.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks Pro features including PDF support, ad-free experience, and more.",
+    "id": "22365ad6445bf134337c109d:9",
+    "legacy_id": 1147,
+    "metadata_status": "unverified",
+    "name": "Unlock Moon+ Reader Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.flyersoft.moonreader",
+        "versions": [
+          "10.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1-dev.1",
+    "source_id": "65fa024a590c28c3",
+    "use": true
+  },
+  {
+    "bundle_id": "22365ad6445bf134337c109d",
+    "compatiblePackages": {
+      "app.symfonik.music.player": [
+        "14.0.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks the trial version of Symfonium.",
+    "id": "22365ad6445bf134337c109d:10",
+    "legacy_id": 1148,
+    "metadata_status": "unverified",
+    "name": "Unlock Symfonium",
+    "options": [],
+    "packages": [
+      {
+        "name": "app.symfonik.music.player",
+        "versions": [
+          "14.0.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1-dev.1",
+    "source_id": "65fa024a590c28c3",
+    "use": true
+  },
+  {
+    "bundle_id": "226ad8d505eb5601524253fd",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1565C0",
+        "name": "Strong",
+        "packageName": "io.strongapp.strong",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "v6.2.2"
+          }
+        ],
+        "versions": [
+          "v6.2.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all Strong Pro features.",
+    "id": "226ad8d505eb5601524253fd:0",
+    "legacy_id": 1149,
+    "metadata_status": "unverified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "Strong",
+        "versions": [
+          "v6.2.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "e6125e5f9ed6cc9e"
+  },
+  {
+    "bundle_id": "22ddbcb11300a8fbbcd52295",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#DCBD1D",
+        "name": "SBS On Demand",
+        "packageName": "com.sbs.ondemand.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.3.0"
+          }
+        ],
+        "versions": [
+          "6.3.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Prefers an available Akamai live stream over Google DAI. Broadcast ads remain. Keeps original selection when no direct stream is available.",
+    "id": "22ddbcb11300a8fbbcd52295:0",
+    "legacy_id": 1150,
+    "metadata_status": "unverified",
+    "name": "Prefer direct live stream",
+    "options": [],
+    "packages": [
+      {
+        "name": "SBS On Demand",
+        "versions": [
+          "6.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "fab5cd248897c4b3"
+  },
+  {
+    "bundle_id": "22ddbcb11300a8fbbcd52295",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#DCBD1D",
+        "name": "SBS On Demand",
+        "packageName": "com.sbs.ondemand.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.3.0"
+          }
+        ],
+        "versions": [
+          "6.3.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Prefers an available Akamai VOD stream over Google DAI. Keeps original selection for live or missing alternatives. Ad removal is not guaranteed.",
+    "id": "22ddbcb11300a8fbbcd52295:1",
+    "legacy_id": 1151,
+    "metadata_status": "unverified",
+    "name": "Prefer direct VOD stream",
+    "options": [],
+    "packages": [
+      {
+        "name": "SBS On Demand",
+        "versions": [
+          "6.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "fab5cd248897c4b3"
+  },
+  {
+    "bundle_id": "22ddbcb11300a8fbbcd52295",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#DCBD1D",
+        "name": "SBS On Demand",
+        "packageName": "com.sbs.ondemand.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.3.0"
+          }
+        ],
+        "versions": [
+          "6.3.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Checks SBS 6.3.0 playback integration points. Does not remove advertisements.",
+    "id": "22ddbcb11300a8fbbcd52295:2",
+    "legacy_id": 1152,
+    "metadata_status": "unverified",
+    "name": "SBS playback compatibility check",
+    "options": [],
+    "packages": [
+      {
+        "name": "SBS On Demand",
+        "versions": [
+          "6.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "fab5cd248897c4b3"
+  },
+  {
+    "bundle_id": "2377136584c8cef52aa62596",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#A020F0",
+        "name": "Anghami",
+        "packageName": "com.anghami",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "8.0.28",
+            "versionCodes": {
+              "ARM64_V8A": 8000280,
+              "ARMEABI_V7A": 8000280,
+              "X86": 8000280,
+              "X86_64": 8000280
+            }
+          }
+        ],
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Forces pure-black app background in dark mode (window_background_color -> #000000). Surfaces/cards keep stock greys; light mode untouched.",
+    "id": "2377136584c8cef52aa62596:0",
+    "legacy_id": 1153,
+    "metadata_status": "unverified",
+    "name": "AMOLED black background",
+    "options": [],
+    "packages": [
+      {
+        "name": "Anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "e8a6c403849c7273"
+  },
+  {
+    "bundle_id": "2377136584c8cef52aa62596",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#A020F0",
+        "name": "Anghami",
+        "packageName": "com.anghami",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "8.0.28",
+            "versionCodes": {
+              "ARM64_V8A": 8000280,
+              "ARMEABI_V7A": 8000280,
+              "X86": 8000280,
+              "X86_64": 8000280
+            }
+          }
+        ],
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Forces AdSettings.noAd=true and PlayQueue.getDisableAds=true so songs are treated as ad-free locally. Client flag only.",
+    "id": "2377136584c8cef52aa62596:1",
+    "legacy_id": 1154,
+    "metadata_status": "unverified",
+    "name": "Disable audio ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "e8a6c403849c7273"
+  },
+  {
+    "bundle_id": "2377136584c8cef52aa62596",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#A020F0",
+        "name": "Anghami",
+        "packageName": "com.anghami",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "8.0.28",
+            "versionCodes": {
+              "ARM64_V8A": 8000280,
+              "ARMEABI_V7A": 8000280,
+              "X86": 8000280,
+              "X86_64": 8000280
+            }
+          }
+        ],
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Playlist/album headers show Play + Shuffle instead of Shuffle + Edit/Follow/Like (functional LEAVECOLLAB, local-songs ADD_MORE and podcasts untouched). Pulls in 'Unforce shuffle'.",
+    "id": "2377136584c8cef52aa62596:2",
+    "legacy_id": 1155,
+    "metadata_status": "unverified",
+    "name": "Header Play + Shuffle",
+    "options": [],
+    "packages": [
+      {
+        "name": "Anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "e8a6c403849c7273"
+  },
+  {
+    "bundle_id": "2377136584c8cef52aa62596",
+    "category": "Hide Gold features",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#A020F0",
+        "name": "Anghami",
+        "packageName": "com.anghami",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "8.0.28",
+            "versionCodes": {
+              "ARM64_V8A": 8000280,
+              "ARMEABI_V7A": 8000280,
+              "X86": 8000280,
+              "X86_64": 8000280
+            }
+          }
+        ],
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Forces Account.isGold/isGoldUser and all GoldUtilsKt.isGold overloads to false. Hides server-gated Gold UI instead of spoofing it.",
+    "id": "2377136584c8cef52aa62596:3",
+    "legacy_id": 1156,
+    "metadata_status": "unverified",
+    "name": "Hide Gold features",
+    "options": [],
+    "packages": [
+      {
+        "name": "Anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "e8a6c403849c7273"
+  },
+  {
+    "bundle_id": "2377136584c8cef52aa62596",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#A020F0",
+        "name": "Anghami",
+        "packageName": "com.anghami",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "8.0.28",
+            "versionCodes": {
+              "ARM64_V8A": 8000280,
+              "ARMEABI_V7A": 8000280,
+              "X86": 8000280,
+              "X86_64": 8000280
+            }
+          }
+        ],
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides PLAYS IN SHUFFLE badges on playlist/album headers, feed cards, and rows. Cosmetic only.",
+    "id": "2377136584c8cef52aa62596:4",
+    "legacy_id": 1157,
+    "metadata_status": "unverified",
+    "name": "Hide shuffle badges",
+    "options": [],
+    "packages": [
+      {
+        "name": "Anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "e8a6c403849c7273"
+  },
+  {
+    "bundle_id": "2377136584c8cef52aa62596",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#A020F0",
+        "name": "Anghami",
+        "packageName": "com.anghami",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "8.0.28",
+            "versionCodes": {
+              "ARM64_V8A": 8000280,
+              "ARMEABI_V7A": 8000280,
+              "X86": 8000280,
+              "X86_64": 8000280
+            }
+          }
+        ],
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides the nav upgrade entry, header promo banner, feed upsell cards and AI MIX button model (gap-free), and settings subscribe banner. Server-driven UI the Plus spoof cannot remove.",
+    "id": "2377136584c8cef52aa62596:5",
+    "legacy_id": 1158,
+    "metadata_status": "unverified",
+    "name": "Hide upgrade upsell",
+    "options": [],
+    "packages": [
+      {
+        "name": "Anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "e8a6c403849c7273"
+  },
+  {
+    "bundle_id": "2377136584c8cef52aa62596",
+    "category": "Hide Gold features",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#A020F0",
+        "name": "Anghami",
+        "packageName": "com.anghami",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "8.0.28",
+            "versionCodes": {
+              "ARM64_V8A": 8000280,
+              "ARMEABI_V7A": 8000280,
+              "X86": 8000280,
+              "X86_64": 8000280
+            }
+          }
+        ],
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides TRY SING ALONG karaoke upsell, disables the karaoke feature itself, and hides the player/playlist AI MIX buttons. Feature UI stays hidden rather than paywalled.",
+    "id": "2377136584c8cef52aa62596:6",
+    "legacy_id": 1159,
+    "metadata_status": "unverified",
+    "name": "Hide upsell feature buttons",
+    "options": [],
+    "packages": [
+      {
+        "name": "Anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "e8a6c403849c7273"
+  },
+  {
+    "bundle_id": "2377136584c8cef52aa62596",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#A020F0",
+        "name": "Anghami",
+        "packageName": "com.anghami",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "8.0.28",
+            "versionCodes": {
+              "ARM64_V8A": 8000280,
+              "ARMEABI_V7A": 8000280,
+              "X86": 8000280,
+              "X86_64": 8000280
+            }
+          }
+        ],
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "When the server returns truncated/empty lyrics, fetches the full text from LRCLIB (opt-in free source) into a separate cache. Native full lyrics and the Plus path are untouched.",
+    "id": "2377136584c8cef52aa62596:7",
+    "legacy_id": 1160,
+    "metadata_status": "unverified",
+    "name": "LRCLIB lyrics fallback",
+    "options": [],
+    "packages": [
+      {
+        "name": "Anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "e8a6c403849c7273"
+  },
+  {
+    "bundle_id": "2377136584c8cef52aa62596",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#A020F0",
+        "name": "Anghami",
+        "packageName": "com.anghami",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "8.0.28",
+            "versionCodes": {
+              "ARM64_V8A": 8000280,
+              "ARMEABI_V7A": 8000280,
+              "X86": 8000280,
+              "X86_64": 8000280
+            }
+          }
+        ],
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Long-press play/pause for lyrics options (retry, LRCLIB search, synced/plain toggle, server version) instead of the sleep timer. Pulls in 'LRCLIB lyrics fallback'.",
+    "id": "2377136584c8cef52aa62596:8",
+    "legacy_id": 1161,
+    "metadata_status": "unverified",
+    "name": "Lyrics options on play long-press",
+    "options": [],
+    "packages": [
+      {
+        "name": "Anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "e8a6c403849c7273"
+  },
+  {
+    "bundle_id": "2377136584c8cef52aa62596",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#A020F0",
+        "name": "Anghami",
+        "packageName": "com.anghami",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "8.0.28",
+            "versionCodes": {
+              "ARM64_V8A": 8000280,
+              "ARMEABI_V7A": 8000280,
+              "X86": 8000280,
+              "X86_64": 8000280
+            }
+          }
+        ],
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Replaces the static neon brand accents with wallpaper-based Monet dynamic colors (M3 Expressive primary/secondary/tertiary roles) on Android 12+. Older versions keep stock colors.",
+    "id": "2377136584c8cef52aa62596:9",
+    "legacy_id": 1162,
+    "metadata_status": "unverified",
+    "name": "Monet dynamic colors",
+    "options": [],
+    "packages": [
+      {
+        "name": "Anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "e8a6c403849c7273"
+  },
+  {
+    "bundle_id": "2377136584c8cef52aa62596",
+    "category": "Experimental",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#A020F0",
+        "name": "Anghami",
+        "packageName": "com.anghami",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "8.0.28",
+            "versionCodes": {
+              "ARM64_V8A": 8000280,
+              "ARMEABI_V7A": 8000280,
+              "X86": 8000280,
+              "X86_64": 8000280
+            }
+          }
+        ],
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Night-only player theme: removes the cover-art tint and paints the now-playing row, pills and action icons with the primary accent at night; day mode keeps the stock tinted player. Pulls in 'Player theme background' resources.",
+    "id": "2377136584c8cef52aa62596:10",
+    "legacy_id": 1163,
+    "metadata_status": "unverified",
+    "name": "Player theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "Anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "e8a6c403849c7273"
+  },
+  {
+    "bundle_id": "2377136584c8cef52aa62596",
+    "category": "Experimental",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#A020F0",
+        "name": "Anghami",
+        "packageName": "com.anghami",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "8.0.28",
+            "versionCodes": {
+              "ARM64_V8A": 8000280,
+              "ARMEABI_V7A": 8000280,
+              "X86": 8000280,
+              "X86_64": 8000280
+            }
+          }
+        ],
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Makes the player background, text, icons and seekbar follow the app's day/night theme. Keeps the darker split below the progress bar. Pair with 'Player theme'.",
+    "id": "2377136584c8cef52aa62596:11",
+    "legacy_id": 1164,
+    "metadata_status": "unverified",
+    "name": "Player theme background",
+    "options": [],
+    "packages": [
+      {
+        "name": "Anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "e8a6c403849c7273"
+  },
+  {
+    "bundle_id": "2377136584c8cef52aa62596",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#A020F0",
+        "name": "Anghami",
+        "packageName": "com.anghami",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "8.0.28",
+            "versionCodes": {
+              "ARM64_V8A": 8000280,
+              "ARMEABI_V7A": 8000280,
+              "X86": 8000280,
+              "X86_64": 8000280
+            }
+          }
+        ],
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "No-ops the in-house popup funnel, the fullscreen startup dialog, and the flyer ad callback. Google SDK ads untouched.",
+    "id": "2377136584c8cef52aa62596:12",
+    "legacy_id": 1165,
+    "metadata_status": "unverified",
+    "name": "Remove popup promos",
+    "options": [],
+    "packages": [
+      {
+        "name": "Anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "e8a6c403849c7273"
+  },
+  {
+    "bundle_id": "2377136584c8cef52aa62596",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#A020F0",
+        "name": "Anghami",
+        "packageName": "com.anghami",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "8.0.28",
+            "versionCodes": {
+              "ARM64_V8A": 8000280,
+              "ARMEABI_V7A": 8000280,
+              "X86": 8000280,
+              "X86_64": 8000280
+            }
+          }
+        ],
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Forces SignatureUtils.getAppSignature to hash with the stock cert prefix (he9B...kw=), so X-ANGH-APP-RGSIG matches a stock install. Salt/body hashing unchanged.",
+    "id": "2377136584c8cef52aa62596:13",
+    "legacy_id": 1166,
+    "metadata_status": "unverified",
+    "name": "Spoof stock app signature",
+    "options": [],
+    "packages": [
+      {
+        "name": "Anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "e8a6c403849c7273"
+  },
+  {
+    "bundle_id": "2377136584c8cef52aa62596",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#A020F0",
+        "name": "Anghami",
+        "packageName": "com.anghami",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "8.0.28",
+            "versionCodes": {
+              "ARM64_V8A": 8000280,
+              "ARMEABI_V7A": 8000280,
+              "X86": 8000280,
+              "X86_64": 8000280
+            }
+          }
+        ],
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Forces server shuffleOn=false at both sync points, never reports shuffle to the server, disables the pick-a-song radio redirect, enables shuffle buttons, and disarms the shuffle upsell dialog. Manual shuffle toggle and the header Shuffle button keep working.",
+    "id": "2377136584c8cef52aa62596:14",
+    "legacy_id": 1167,
+    "metadata_status": "unverified",
+    "name": "Unforce shuffle",
+    "options": [],
+    "packages": [
+      {
+        "name": "Anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "e8a6c403849c7273"
+  },
+  {
+    "bundle_id": "2377136584c8cef52aa62596",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#A020F0",
+        "name": "Anghami",
+        "packageName": "com.anghami",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "8.0.28",
+            "versionCodes": {
+              "ARM64_V8A": 8000280,
+              "ARMEABI_V7A": 8000280,
+              "X86": 8000280,
+              "X86_64": 8000280
+            }
+          }
+        ],
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "No-ops download limit asserts, forces limited-plan=false and large offline caps (999999). Local gates only; the server still authorizes files.",
+    "id": "2377136584c8cef52aa62596:15",
+    "legacy_id": 1168,
+    "metadata_status": "unverified",
+    "name": "Unlock downloads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "e8a6c403849c7273"
+  },
+  {
+    "bundle_id": "2377136584c8cef52aa62596",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#A020F0",
+        "name": "Anghami",
+        "packageName": "com.anghami",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "8.0.28",
+            "versionCodes": {
+              "ARM64_V8A": 8000280,
+              "ARMEABI_V7A": 8000280,
+              "X86": 8000280,
+              "X86_64": 8000280
+            }
+          }
+        ],
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Forces Account.isPlus/isPlusUser=true, enablePlayerRestrictions=false, canPlayOfflineAndFree=true. Local UI/gating only; server premium checks remain.",
+    "id": "2377136584c8cef52aa62596:16",
+    "legacy_id": 1169,
+    "metadata_status": "unverified",
+    "name": "Unlock local Plus",
+    "options": [],
+    "packages": [
+      {
+        "name": "Anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "e8a6c403849c7273"
+  },
+  {
+    "bundle_id": "2377136584c8cef52aa62596",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#A020F0",
+        "name": "Anghami",
+        "packageName": "com.anghami",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "8.0.28",
+            "versionCodes": {
+              "ARM64_V8A": 8000280,
+              "ARMEABI_V7A": 8000280,
+              "X86": 8000280,
+              "X86_64": 8000280
+            }
+          }
+        ],
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables skip and queue limits (skipLimitReached/queueRestrictionsEnabled=false, disable-flags=true). Local gates only.",
+    "id": "2377136584c8cef52aa62596:17",
+    "legacy_id": 1170,
+    "metadata_status": "unverified",
+    "name": "Unlock playback limits",
+    "options": [],
+    "packages": [
+      {
+        "name": "Anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "e8a6c403849c7273"
+  },
+  {
+    "bundle_id": "23ef5f826e5b11db7080b636",
+    "compatiblePackages": {
+      "com.chollometro": null,
+      "com.dealabs.apps.android": null,
+      "com.pepperdeals": null,
+      "com.preisjaeger": null,
+      "com.tippingcanoe.hukd": null,
+      "com.tippingcanoe.mydealz": null,
+      "com.tippingcanoe.peppernl": null,
+      "com.tippingcanoe.pepperpl": null,
+      "com.tippingcanoe.promodescuentos": null,
+      "se.pepperdeals": null
+    },
+    "dependencies": [
+      "Unlock tier-locked icons"
+    ],
+    "description": "Shows every event-themed app icon in the picker, even when its event is not currently active.",
+    "id": "23ef5f826e5b11db7080b636:0",
+    "legacy_id": 1171,
+    "metadata_status": "unverified",
+    "name": "Always show event-theming icons",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.chollometro",
+        "versions": []
+      },
+      {
+        "name": "com.dealabs.apps.android",
+        "versions": []
+      },
+      {
+        "name": "com.pepperdeals",
+        "versions": []
+      },
+      {
+        "name": "com.preisjaeger",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.hukd",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.mydealz",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.peppernl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.pepperpl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.promodescuentos",
+        "versions": []
+      },
+      {
+        "name": "se.pepperdeals",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1",
+    "source_id": "4d62b34f5a31eba6",
+    "use": true
+  },
+  {
+    "bundle_id": "23ef5f826e5b11db7080b636",
+    "compatiblePackages": {
+      "com.chollometro": null,
+      "com.dealabs.apps.android": null,
+      "com.pepperdeals": null,
+      "com.preisjaeger": null,
+      "com.tippingcanoe.hukd": null,
+      "com.tippingcanoe.mydealz": null,
+      "com.tippingcanoe.peppernl": null,
+      "com.tippingcanoe.pepperpl": null,
+      "com.tippingcanoe.promodescuentos": null,
+      "se.pepperdeals": null
+    },
+    "dependencies": [],
+    "description": "Stops Pepper's own behavioural tracker (thread visits, shares, push clicks, search suggestions) from reaching the server.",
+    "id": "23ef5f826e5b11db7080b636:1",
+    "legacy_id": 1172,
+    "metadata_status": "unverified",
+    "name": "Block Pepper analytics-event-report tracker",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.chollometro",
+        "versions": []
+      },
+      {
+        "name": "com.dealabs.apps.android",
+        "versions": []
+      },
+      {
+        "name": "com.pepperdeals",
+        "versions": []
+      },
+      {
+        "name": "com.preisjaeger",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.hukd",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.mydealz",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.peppernl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.pepperpl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.promodescuentos",
+        "versions": []
+      },
+      {
+        "name": "se.pepperdeals",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1",
+    "source_id": "4d62b34f5a31eba6",
+    "use": true
+  },
+  {
+    "bundle_id": "23ef5f826e5b11db7080b636",
+    "compatiblePackages": {
+      "com.chollometro": null,
+      "com.dealabs.apps.android": null,
+      "com.pepperdeals": null,
+      "com.preisjaeger": null,
+      "com.tippingcanoe.hukd": null,
+      "com.tippingcanoe.mydealz": null,
+      "com.tippingcanoe.peppernl": null,
+      "com.tippingcanoe.pepperpl": null,
+      "com.tippingcanoe.promodescuentos": null,
+      "se.pepperdeals": null
+    },
+    "dependencies": [],
+    "description": "Shrinks Pepper deal-list cards and their loading skeletons with targeted XML resource edits.",
+    "id": "23ef5f826e5b11db7080b636:2",
+    "legacy_id": 1173,
+    "metadata_status": "unverified",
+    "name": "Compact deal cards",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.chollometro",
+        "versions": []
+      },
+      {
+        "name": "com.dealabs.apps.android",
+        "versions": []
+      },
+      {
+        "name": "com.pepperdeals",
+        "versions": []
+      },
+      {
+        "name": "com.preisjaeger",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.hukd",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.mydealz",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.peppernl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.pepperpl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.promodescuentos",
+        "versions": []
+      },
+      {
+        "name": "se.pepperdeals",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1",
+    "source_id": "4d62b34f5a31eba6",
+    "use": false
+  },
+  {
+    "bundle_id": "23ef5f826e5b11db7080b636",
+    "compatiblePackages": {
+      "com.chollometro": null,
+      "com.dealabs.apps.android": null,
+      "com.pepperdeals": null,
+      "com.preisjaeger": null,
+      "com.tippingcanoe.hukd": null,
+      "com.tippingcanoe.mydealz": null,
+      "com.tippingcanoe.peppernl": null,
+      "com.tippingcanoe.pepperpl": null,
+      "com.tippingcanoe.promodescuentos": null,
+      "se.pepperdeals": null
+    },
+    "dependencies": [
+      "Redirect tracker URLs to localhost",
+      "Neuter tracker auto-init ContentProviders"
+    ],
+    "description": "Stops the Adjust SDK from initialising and tracking events.",
+    "id": "23ef5f826e5b11db7080b636:3",
+    "legacy_id": 1174,
+    "metadata_status": "unverified",
+    "name": "Disable Adjust SDK",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.chollometro",
+        "versions": []
+      },
+      {
+        "name": "com.dealabs.apps.android",
+        "versions": []
+      },
+      {
+        "name": "com.pepperdeals",
+        "versions": []
+      },
+      {
+        "name": "com.preisjaeger",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.hukd",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.mydealz",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.peppernl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.pepperpl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.promodescuentos",
+        "versions": []
+      },
+      {
+        "name": "se.pepperdeals",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1",
+    "source_id": "4d62b34f5a31eba6",
+    "use": true
+  },
+  {
+    "bundle_id": "23ef5f826e5b11db7080b636",
+    "compatiblePackages": {
+      "com.chollometro": null,
+      "com.dealabs.apps.android": null,
+      "com.pepperdeals": null,
+      "com.preisjaeger": null,
+      "com.tippingcanoe.hukd": null,
+      "com.tippingcanoe.mydealz": null,
+      "com.tippingcanoe.peppernl": null,
+      "com.tippingcanoe.pepperpl": null,
+      "com.tippingcanoe.promodescuentos": null,
+      "se.pepperdeals": null
+    },
+    "dependencies": [
+      "Redirect tracker URLs to localhost",
+      "Neuter tracker auto-init ContentProviders",
+      "Disable Google Mobile Ads SDK init"
+    ],
+    "description": "Blocks Google's Ad SDK from fetching native ads after init.",
+    "id": "23ef5f826e5b11db7080b636:4",
+    "legacy_id": 1175,
+    "metadata_status": "unverified",
+    "name": "Disable Google Mobile Ads ad-load entry points",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.chollometro",
+        "versions": []
+      },
+      {
+        "name": "com.dealabs.apps.android",
+        "versions": []
+      },
+      {
+        "name": "com.pepperdeals",
+        "versions": []
+      },
+      {
+        "name": "com.preisjaeger",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.hukd",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.mydealz",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.peppernl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.pepperpl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.promodescuentos",
+        "versions": []
+      },
+      {
+        "name": "se.pepperdeals",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1",
+    "source_id": "4d62b34f5a31eba6",
+    "use": true
+  },
+  {
+    "bundle_id": "23ef5f826e5b11db7080b636",
+    "compatiblePackages": {
+      "com.chollometro": null,
+      "com.dealabs.apps.android": null,
+      "com.pepperdeals": null,
+      "com.preisjaeger": null,
+      "com.tippingcanoe.hukd": null,
+      "com.tippingcanoe.mydealz": null,
+      "com.tippingcanoe.peppernl": null,
+      "com.tippingcanoe.pepperpl": null,
+      "com.tippingcanoe.promodescuentos": null,
+      "se.pepperdeals": null
+    },
+    "dependencies": [
+      "Redirect tracker URLs to localhost",
+      "Neuter tracker auto-init ContentProviders"
+    ],
+    "description": "Stops the Google Mobile Ads SDK from initialising.",
+    "id": "23ef5f826e5b11db7080b636:5",
+    "legacy_id": 1176,
+    "metadata_status": "unverified",
+    "name": "Disable Google Mobile Ads SDK init",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.chollometro",
+        "versions": []
+      },
+      {
+        "name": "com.dealabs.apps.android",
+        "versions": []
+      },
+      {
+        "name": "com.pepperdeals",
+        "versions": []
+      },
+      {
+        "name": "com.preisjaeger",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.hukd",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.mydealz",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.peppernl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.pepperpl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.promodescuentos",
+        "versions": []
+      },
+      {
+        "name": "se.pepperdeals",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1",
+    "source_id": "4d62b34f5a31eba6",
+    "use": true
+  },
+  {
+    "bundle_id": "23ef5f826e5b11db7080b636",
+    "compatiblePackages": {
+      "com.pepperdeals": null
+    },
+    "dependencies": [],
+    "description": "Removes Google Play's install-source DRM check from the US Pepper.com build, allowing sideloaded APKs to open.",
+    "id": "23ef5f826e5b11db7080b636:6",
+    "legacy_id": 1177,
+    "metadata_status": "unverified",
+    "name": "Disable PAIRIP license check",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pepperdeals",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1",
+    "source_id": "4d62b34f5a31eba6",
+    "use": true
+  },
+  {
+    "bundle_id": "23ef5f826e5b11db7080b636",
+    "compatiblePackages": {
+      "com.chollometro": null,
+      "com.dealabs.apps.android": null,
+      "com.pepperdeals": null,
+      "com.preisjaeger": null,
+      "com.tippingcanoe.hukd": null,
+      "com.tippingcanoe.mydealz": null,
+      "com.tippingcanoe.peppernl": null,
+      "com.tippingcanoe.pepperpl": null,
+      "com.tippingcanoe.promodescuentos": null,
+      "se.pepperdeals": null
+    },
+    "dependencies": [],
+    "description": "Re-enables the hidden debug menu in the main activity.",
+    "id": "23ef5f826e5b11db7080b636:7",
+    "legacy_id": 1178,
+    "metadata_status": "unverified",
+    "name": "Enable debug menu",
+    "options": [
+      {
+        "default": "0x7f0f0006",
+        "description": "Resource ID of R.menu.activity_main_debug. Default 0x7f0f0006 works for v8.12.00; if it shifts, look up the new ID in the APK's res/values/public.xml under name=\"activity_main_debug\".",
+        "name": "debugMenuResId",
+        "required": true,
+        "type": "java.lang.String (Kotlin reflection is not available)",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.chollometro",
+        "versions": []
+      },
+      {
+        "name": "com.dealabs.apps.android",
+        "versions": []
+      },
+      {
+        "name": "com.pepperdeals",
+        "versions": []
+      },
+      {
+        "name": "com.preisjaeger",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.hukd",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.mydealz",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.peppernl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.pepperpl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.promodescuentos",
+        "versions": []
+      },
+      {
+        "name": "se.pepperdeals",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1",
+    "source_id": "4d62b34f5a31eba6",
+    "use": false
+  },
+  {
+    "bundle_id": "23ef5f826e5b11db7080b636",
+    "compatiblePackages": {
+      "com.chollometro": null,
+      "com.dealabs.apps.android": null,
+      "com.pepperdeals": null,
+      "com.preisjaeger": null,
+      "com.tippingcanoe.hukd": null,
+      "com.tippingcanoe.mydealz": null,
+      "com.tippingcanoe.peppernl": null,
+      "com.tippingcanoe.pepperpl": null,
+      "com.tippingcanoe.promodescuentos": null,
+      "se.pepperdeals": null
+    },
+    "dependencies": [
+      "Hide banner ads in feed"
+    ],
+    "description": "Removes the empty space and shadow divider left behind by hidden banner-ad cells in deal-detail screens.",
+    "id": "23ef5f826e5b11db7080b636:8",
+    "legacy_id": 1179,
+    "metadata_status": "unverified",
+    "name": "Fix spacing around hidden ad cells",
+    "options": [
+      {
+        "default": "0x7f0a009e",
+        "description": "Resource ID of `adapter_delegate_view_type_small_ad`. Default is correct for Pepper PL v8.12.00; look up the package's value in res/values/public.xml if a future build shifts ID slots.",
+        "name": "smallAdViewTypeId",
+        "required": true,
+        "type": "java.lang.String (Kotlin reflection is not available)",
+        "values": null
+      },
+      {
+        "default": "0x7f0a0084",
+        "description": "Resource ID of `adapter_delegate_view_type_medium_ad`.",
+        "name": "mediumAdViewTypeId",
+        "required": true,
+        "type": "java.lang.String (Kotlin reflection is not available)",
+        "values": null
+      },
+      {
+        "default": "0x7f0a007c",
+        "description": "Resource ID of `adapter_delegate_view_type_large_ad`.",
+        "name": "largeAdViewTypeId",
+        "required": true,
+        "type": "java.lang.String (Kotlin reflection is not available)",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.chollometro",
+        "versions": []
+      },
+      {
+        "name": "com.dealabs.apps.android",
+        "versions": []
+      },
+      {
+        "name": "com.pepperdeals",
+        "versions": []
+      },
+      {
+        "name": "com.preisjaeger",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.hukd",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.mydealz",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.peppernl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.pepperpl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.promodescuentos",
+        "versions": []
+      },
+      {
+        "name": "se.pepperdeals",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1",
+    "source_id": "4d62b34f5a31eba6",
+    "use": true
+  },
+  {
+    "bundle_id": "23ef5f826e5b11db7080b636",
+    "compatiblePackages": {
+      "com.chollometro": null,
+      "com.dealabs.apps.android": null,
+      "com.pepperdeals": null,
+      "com.preisjaeger": null,
+      "com.tippingcanoe.hukd": null,
+      "com.tippingcanoe.mydealz": null,
+      "com.tippingcanoe.peppernl": null,
+      "com.tippingcanoe.pepperpl": null,
+      "com.tippingcanoe.promodescuentos": null,
+      "se.pepperdeals": null
+    },
+    "dependencies": [],
+    "description": "Removes the banner ads in the deal feed.",
+    "id": "23ef5f826e5b11db7080b636:9",
+    "legacy_id": 1180,
+    "metadata_status": "unverified",
+    "name": "Hide banner ads in feed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.chollometro",
+        "versions": []
+      },
+      {
+        "name": "com.dealabs.apps.android",
+        "versions": []
+      },
+      {
+        "name": "com.pepperdeals",
+        "versions": []
+      },
+      {
+        "name": "com.preisjaeger",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.hukd",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.mydealz",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.peppernl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.pepperpl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.promodescuentos",
+        "versions": []
+      },
+      {
+        "name": "se.pepperdeals",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1",
+    "source_id": "4d62b34f5a31eba6",
+    "use": true
+  },
+  {
+    "bundle_id": "23ef5f826e5b11db7080b636",
+    "compatiblePackages": {
+      "com.chollometro": null,
+      "com.dealabs.apps.android": null,
+      "com.pepperdeals": null,
+      "com.preisjaeger": null,
+      "com.tippingcanoe.hukd": null,
+      "com.tippingcanoe.mydealz": null,
+      "com.tippingcanoe.peppernl": null,
+      "com.tippingcanoe.pepperpl": null,
+      "com.tippingcanoe.promodescuentos": null,
+      "se.pepperdeals": null
+    },
+    "dependencies": [],
+    "description": "Keeps the chosen event-themed app icon after the event ends.",
+    "id": "23ef5f826e5b11db7080b636:10",
+    "legacy_id": 1181,
+    "metadata_status": "unverified",
+    "name": "Keep event icon after restart",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.chollometro",
+        "versions": []
+      },
+      {
+        "name": "com.dealabs.apps.android",
+        "versions": []
+      },
+      {
+        "name": "com.pepperdeals",
+        "versions": []
+      },
+      {
+        "name": "com.preisjaeger",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.hukd",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.mydealz",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.peppernl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.pepperpl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.promodescuentos",
+        "versions": []
+      },
+      {
+        "name": "se.pepperdeals",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1",
+    "source_id": "4d62b34f5a31eba6",
+    "use": true
+  },
+  {
+    "bundle_id": "23ef5f826e5b11db7080b636",
+    "compatiblePackages": {
+      "com.chollometro": null,
+      "com.dealabs.apps.android": null,
+      "com.pepperdeals": null,
+      "com.preisjaeger": null,
+      "com.tippingcanoe.hukd": null,
+      "com.tippingcanoe.mydealz": null,
+      "com.tippingcanoe.peppernl": null,
+      "com.tippingcanoe.pepperpl": null,
+      "com.tippingcanoe.promodescuentos": null,
+      "se.pepperdeals": null
+    },
+    "dependencies": [
+      "Redirect tracker URLs to localhost",
+      "Neuter tracker auto-init ContentProviders"
+    ],
+    "description": "Blocks Crashlytics report and Firebase log uploads from leaving the device.",
+    "id": "23ef5f826e5b11db7080b636:11",
+    "legacy_id": 1182,
+    "metadata_status": "unverified",
+    "name": "Kill Datatransport upload pipeline",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.chollometro",
+        "versions": []
+      },
+      {
+        "name": "com.dealabs.apps.android",
+        "versions": []
+      },
+      {
+        "name": "com.pepperdeals",
+        "versions": []
+      },
+      {
+        "name": "com.preisjaeger",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.hukd",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.mydealz",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.peppernl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.pepperpl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.promodescuentos",
+        "versions": []
+      },
+      {
+        "name": "se.pepperdeals",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1",
+    "source_id": "4d62b34f5a31eba6",
+    "use": true
+  },
+  {
+    "bundle_id": "23ef5f826e5b11db7080b636",
+    "compatiblePackages": {
+      "com.chollometro": null,
+      "com.dealabs.apps.android": null,
+      "com.pepperdeals": null,
+      "com.preisjaeger": null,
+      "com.tippingcanoe.hukd": null,
+      "com.tippingcanoe.mydealz": null,
+      "com.tippingcanoe.peppernl": null,
+      "com.tippingcanoe.pepperpl": null,
+      "com.tippingcanoe.promodescuentos": null,
+      "se.pepperdeals": null
+    },
+    "dependencies": [],
+    "description": "Blocks Pepper's first-party pixel-tracking pings and replaces the device-fingerprint header with a per-install random UUID.",
+    "id": "23ef5f826e5b11db7080b636:12",
+    "legacy_id": 1183,
+    "metadata_status": "unverified",
+    "name": "Kill Pepper first-party pixel tracking",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.chollometro",
+        "versions": []
+      },
+      {
+        "name": "com.dealabs.apps.android",
+        "versions": []
+      },
+      {
+        "name": "com.pepperdeals",
+        "versions": []
+      },
+      {
+        "name": "com.preisjaeger",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.hukd",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.mydealz",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.peppernl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.pepperpl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.promodescuentos",
+        "versions": []
+      },
+      {
+        "name": "se.pepperdeals",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1",
+    "source_id": "4d62b34f5a31eba6",
+    "use": true
+  },
+  {
+    "bundle_id": "23ef5f826e5b11db7080b636",
+    "compatiblePackages": {
+      "com.chollometro": null,
+      "com.dealabs.apps.android": null,
+      "com.pepperdeals": null,
+      "com.preisjaeger": null,
+      "com.tippingcanoe.hukd": null,
+      "com.tippingcanoe.mydealz": null,
+      "com.tippingcanoe.peppernl": null,
+      "com.tippingcanoe.pepperpl": null,
+      "com.tippingcanoe.promodescuentos": null,
+      "se.pepperdeals": null
+    },
+    "dependencies": [
+      "Redirect tracker URLs to localhost"
+    ],
+    "description": "Stops the Vungle, Adjust, and Facebook Audience Network SDKs from auto-initialising at app start.",
+    "id": "23ef5f826e5b11db7080b636:13",
+    "legacy_id": 1184,
+    "metadata_status": "unverified",
+    "name": "Neuter tracker auto-init ContentProviders",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.chollometro",
+        "versions": []
+      },
+      {
+        "name": "com.dealabs.apps.android",
+        "versions": []
+      },
+      {
+        "name": "com.pepperdeals",
+        "versions": []
+      },
+      {
+        "name": "com.preisjaeger",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.hukd",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.mydealz",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.peppernl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.pepperpl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.promodescuentos",
+        "versions": []
+      },
+      {
+        "name": "se.pepperdeals",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1",
+    "source_id": "4d62b34f5a31eba6",
+    "use": true
+  },
+  {
+    "bundle_id": "23ef5f826e5b11db7080b636",
+    "compatiblePackages": {
+      "com.chollometro": null,
+      "com.dealabs.apps.android": null,
+      "com.pepperdeals": null,
+      "com.preisjaeger": null,
+      "com.tippingcanoe.hukd": null,
+      "com.tippingcanoe.mydealz": null,
+      "com.tippingcanoe.peppernl": null,
+      "com.tippingcanoe.pepperpl": null,
+      "com.tippingcanoe.promodescuentos": null,
+      "se.pepperdeals": null
+    },
+    "dependencies": [],
+    "description": "Redirects every known tracker and analytics URL in the app to localhost so it cannot reach the network.",
+    "id": "23ef5f826e5b11db7080b636:14",
+    "legacy_id": 1185,
+    "metadata_status": "unverified",
+    "name": "Redirect tracker URLs to localhost",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.chollometro",
+        "versions": []
+      },
+      {
+        "name": "com.dealabs.apps.android",
+        "versions": []
+      },
+      {
+        "name": "com.pepperdeals",
+        "versions": []
+      },
+      {
+        "name": "com.preisjaeger",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.hukd",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.mydealz",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.peppernl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.pepperpl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.promodescuentos",
+        "versions": []
+      },
+      {
+        "name": "se.pepperdeals",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1",
+    "source_id": "4d62b34f5a31eba6",
+    "use": true
+  },
+  {
+    "bundle_id": "23ef5f826e5b11db7080b636",
+    "compatiblePackages": {
+      "com.chollometro": null,
+      "com.dealabs.apps.android": null,
+      "com.pepperdeals": null,
+      "com.preisjaeger": null,
+      "com.tippingcanoe.hukd": null,
+      "com.tippingcanoe.mydealz": null,
+      "com.tippingcanoe.peppernl": null,
+      "com.tippingcanoe.pepperpl": null,
+      "com.tippingcanoe.promodescuentos": null,
+      "se.pepperdeals": null
+    },
+    "dependencies": [
+      "Redirect tracker URLs to localhost"
+    ],
+    "description": "Skips the Usercentrics consent screen and its loading wait on cold start.",
+    "id": "23ef5f826e5b11db7080b636:15",
+    "legacy_id": 1186,
+    "metadata_status": "unverified",
+    "name": "Skip Usercentrics consent screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.chollometro",
+        "versions": []
+      },
+      {
+        "name": "com.dealabs.apps.android",
+        "versions": []
+      },
+      {
+        "name": "com.pepperdeals",
+        "versions": []
+      },
+      {
+        "name": "com.preisjaeger",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.hukd",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.mydealz",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.peppernl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.pepperpl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.promodescuentos",
+        "versions": []
+      },
+      {
+        "name": "se.pepperdeals",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1",
+    "source_id": "4d62b34f5a31eba6",
+    "use": true
+  },
+  {
+    "bundle_id": "23ef5f826e5b11db7080b636",
+    "compatiblePackages": {
+      "com.chollometro": null,
+      "com.dealabs.apps.android": null,
+      "com.pepperdeals": null,
+      "com.preisjaeger": null,
+      "com.tippingcanoe.hukd": null,
+      "com.tippingcanoe.mydealz": null,
+      "com.tippingcanoe.peppernl": null,
+      "com.tippingcanoe.pepperpl": null,
+      "com.tippingcanoe.promodescuentos": null,
+      "se.pepperdeals": null
+    },
+    "dependencies": [],
+    "description": "Unlocks all membership-tier app icons in the icon picker.",
+    "id": "23ef5f826e5b11db7080b636:16",
+    "legacy_id": 1187,
+    "metadata_status": "unverified",
+    "name": "Unlock tier-locked icons",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.chollometro",
+        "versions": []
+      },
+      {
+        "name": "com.dealabs.apps.android",
+        "versions": []
+      },
+      {
+        "name": "com.pepperdeals",
+        "versions": []
+      },
+      {
+        "name": "com.preisjaeger",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.hukd",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.mydealz",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.peppernl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.pepperpl",
+        "versions": []
+      },
+      {
+        "name": "com.tippingcanoe.promodescuentos",
+        "versions": []
+      },
+      {
+        "name": "se.pepperdeals",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1",
+    "source_id": "4d62b34f5a31eba6",
+    "use": true
+  },
+  {
+    "bundle_id": "241446a4aa94d126ceb36fc9",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#6200EE",
+        "name": "AI Audio Novel Reader",
+        "packageName": "com.thien.novelreader",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.3.23"
+          }
+        ],
+        "versions": [
+          "3.3.23"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Makes isPremium() always return true in AI Audio Novel Reader. Unlocks all premium features and disables the 10-hour trial countdown.",
+    "id": "241446a4aa94d126ceb36fc9:0",
+    "legacy_id": 1188,
+    "metadata_status": "unverified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "AI Audio Novel Reader",
+        "versions": [
+          "3.3.23"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "1a233a0ca3fdb291"
+  },
+  {
+    "bundle_id": "24792287004b8e85e20ae26c",
+    "category": "Font",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#181C20",
+        "name": "GitHub",
+        "packageName": "com.github.android",
+        "signatures": [
+          "df08c9f2d809189d9d506497c15745a7395a41536efb433e3aee1aedbe11b261"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 32,
+            "version": "1.278.0"
+          }
+        ],
+        "versions": [
+          "1.278.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Replaces GitHub's bundled Inter and Mona Sans UI fonts with a custom font file.",
+    "id": "24792287004b8e85e20ae26c:0",
+    "legacy_id": 1189,
+    "metadata_status": "unverified",
+    "name": "Custom font (GitHub)",
+    "options": [
+      {
+        "default": null,
+        "description": "The file path to your font file. Tap the file picker and select it. The font file must be in TTF or OTF format. A variable font is recommended so heading and body text keep their different weights.",
+        "key": "customFontFile",
+        "required": true,
+        "title": "Custom font",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "GitHub",
+        "versions": [
+          "1.278.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.0-dev.1",
+    "source_id": "8da0af729d0a8705"
+  },
+  {
+    "bundle_id": "24792287004b8e85e20ae26c",
+    "category": "Font",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#181C20",
+        "name": "GitHub",
+        "packageName": "com.github.android",
+        "signatures": [
+          "df08c9f2d809189d9d506497c15745a7395a41536efb433e3aee1aedbe11b261"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 32,
+            "version": "1.278.0"
+          }
+        ],
+        "versions": [
+          "1.278.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Replaces GitHub's bundled Roboto Mono code font with a custom monospace font file.",
+    "id": "24792287004b8e85e20ae26c:1",
+    "legacy_id": 1190,
+    "metadata_status": "unverified",
+    "name": "Custom monospace font (GitHub)",
+    "options": [
+      {
+        "default": null,
+        "description": "The file path to your monospace font file. Tap the file picker and select it. The font file must be in TTF or OTF format.",
+        "key": "customMonospaceFontFile",
+        "required": true,
+        "title": "Custom monospace font",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "GitHub",
+        "versions": [
+          "1.278.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.0-dev.1",
+    "source_id": "8da0af729d0a8705"
+  },
+  {
+    "bundle_id": "24792287004b8e85e20ae26c",
+    "category": "Font",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#175DDC",
+        "name": "Bitwarden",
+        "packageName": "com.x8bit.bitwarden",
+        "signatures": [
+          "24e06c04c208048f19f1c993b4dda4430ea8b06db8375ea0e37b834696b9ac3a"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "2026.9.0"
+          }
+        ],
+        "versions": [
+          "2026.9.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Renders the app using the device's system font instead of DM Sans / Roboto.",
+    "id": "24792287004b8e85e20ae26c:2",
+    "legacy_id": 1191,
+    "metadata_status": "unverified",
+    "name": "Force system font (Bitwarden)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Bitwarden",
+        "versions": [
+          "2026.9.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.0-dev.1",
+    "source_id": "8da0af729d0a8705"
+  },
+  {
+    "bundle_id": "24792287004b8e85e20ae26c",
+    "category": "Font",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#181C20",
+        "name": "GitHub",
+        "packageName": "com.github.android",
+        "signatures": [
+          "df08c9f2d809189d9d506497c15745a7395a41536efb433e3aee1aedbe11b261"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 32,
+            "version": "1.278.0"
+          }
+        ],
+        "versions": [
+          "1.278.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Renders GitHub UI text using the device system font by overriding bundled font resources at runtime.",
+    "id": "24792287004b8e85e20ae26c:3",
+    "legacy_id": 1192,
+    "metadata_status": "unverified",
+    "name": "Force system font (GitHub)",
+    "options": [],
+    "packages": [
+      {
+        "name": "GitHub",
+        "versions": [
+          "1.278.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.0-dev.1",
+    "source_id": "8da0af729d0a8705"
+  },
+  {
+    "bundle_id": "24792287004b8e85e20ae26c",
+    "category": "Font",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#181C20",
+        "name": "GitHub",
+        "packageName": "com.github.android",
+        "signatures": [
+          "df08c9f2d809189d9d506497c15745a7395a41536efb433e3aee1aedbe11b261"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 32,
+            "version": "1.278.0"
+          }
+        ],
+        "versions": [
+          "1.278.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Renders GitHub UI and monospace text using the device system UI font.",
+    "id": "24792287004b8e85e20ae26c:4",
+    "legacy_id": 1193,
+    "metadata_status": "unverified",
+    "name": "Force system font (including monospace) (GitHub)",
+    "options": [],
+    "packages": [
+      {
+        "name": "GitHub",
+        "versions": [
+          "1.278.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.0-dev.1",
+    "source_id": "8da0af729d0a8705"
+  },
+  {
+    "bundle_id": "24792287004b8e85e20ae26c",
+    "category": "Font",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram",
+        "packageName": "org.telegram.messenger",
+        "signatures": [
+          "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 23,
+            "version": "12.10.6",
+            "versionCodes": {
+              "ARM64_V8A": 71122,
+              "ARMEABI_V7A": 71122,
+              "X86": 71122,
+              "X86_64": 71122
+            }
+          }
+        ],
+        "versions": [
+          "12.10.6"
+        ]
+      },
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram (web version)",
+        "packageName": "org.telegram.messenger.web",
+        "signatures": [
+          "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 21,
+            "version": "12.10.5",
+            "versionCodes": {
+              "ARM64_V8A": 71059,
+              "ARMEABI_V7A": 71059,
+              "X86": 71059,
+              "X86_64": 71059
+            }
+          }
+        ],
+        "versions": [
+          "12.10.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Renders the app using the device's system font instead of Telegram's bundled font.",
+    "id": "24792287004b8e85e20ae26c:5",
+    "legacy_id": 1194,
+    "metadata_status": "unverified",
+    "name": "Force system font (Telegram)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Telegram",
+        "versions": [
+          "12.10.6"
+        ]
+      },
+      {
+        "name": "Telegram (web version)",
+        "versions": [
+          "12.10.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.0-dev.1",
+    "source_id": "8da0af729d0a8705"
+  },
+  {
+    "bundle_id": "24824e7ddbe2cb84c90cacf6",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to replace video thumbnails using the DeArrow API or image captures from the video.",
+    "id": "24824e7ddbe2cb84c90cacf6:0",
+    "legacy_id": 1195,
+    "metadata_status": "unverified",
+    "name": "Alternative thumbnails",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.17.0-dev.2",
+    "source_id": "3de441e6c0577d2c",
+    "use": true
+  },
+  {
+    "bundle_id": "24824e7ddbe2cb84c90cacf6",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to disable Ambient mode and to bypass Ambient mode restrictions.",
+    "id": "24824e7ddbe2cb84c90cacf6:1",
+    "legacy_id": 1196,
+    "metadata_status": "unverified",
+    "name": "Ambient mode control",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.17.0-dev.2",
+    "source_id": "3de441e6c0577d2c",
+    "use": true
+  },
+  {
+    "bundle_id": "24824e7ddbe2cb84c90cacf6",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "6.20.51",
+        "6.29.59",
+        "6.42.55",
+        "6.51.53",
+        "7.16.53",
+        "7.25.53",
+        "8.12.54",
+        "8.28.54",
+        "8.30.54"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Sets the audio quality to 'Always High' when you first install the app.",
+    "id": "24824e7ddbe2cb84c90cacf6:2",
+    "legacy_id": 1197,
+    "metadata_status": "unverified",
+    "name": "Bitrate default value",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "6.20.51",
+          "6.29.59",
+          "6.42.55",
+          "6.51.53",
+          "7.16.53",
+          "7.25.53",
+          "8.12.54",
+          "8.28.54",
+          "8.30.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.17.0-dev.2",
+    "source_id": "3de441e6c0577d2c",
+    "use": true
+  },
+  {
+    "bundle_id": "24824e7ddbe2cb84c90cacf6",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "6.20.51",
+        "6.29.59",
+        "6.42.55",
+        "6.51.53",
+        "7.16.53",
+        "7.25.53",
+        "8.12.54",
+        "8.28.54",
+        "8.30.54"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to use a different host for static images, so that images blocked in some countries can be received.",
+    "id": "24824e7ddbe2cb84c90cacf6:3",
+    "legacy_id": 1198,
+    "metadata_status": "unverified",
+    "name": "Bypass image region restrictions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "6.20.51",
+          "6.29.59",
+          "6.42.55",
+          "6.51.53",
+          "7.16.53",
+          "7.25.53",
+          "8.12.54",
+          "8.28.54",
+          "8.30.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.17.0-dev.2",
+    "source_id": "3de441e6c0577d2c",
+    "use": true
+  },
+  {
+    "bundle_id": "24824e7ddbe2cb84c90cacf6",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to use a different host for static images, so that images blocked in some countries can be received.",
+    "id": "24824e7ddbe2cb84c90cacf6:4",
+    "legacy_id": 1199,
+    "metadata_status": "unverified",
+    "name": "Bypass image region restrictions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.17.0-dev.2",
+    "source_id": "3de441e6c0577d2c",
+    "use": true
+  },
+  {
+    "bundle_id": "24824e7ddbe2cb84c90cacf6",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to bypass URL redirects and open the original URL directly.",
+    "id": "24824e7ddbe2cb84c90cacf6:5",
+    "legacy_id": 1200,
+    "metadata_status": "unverified",
+    "name": "Bypass URL redirects",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.17.0-dev.2",
+    "source_id": "3de441e6c0577d2c",
+    "use": true
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "bundle_type": "ReVanced:V4",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-08-10T01:33:15",
+  "description": "# chmate-revanced v1.0.3\n\n書き込み欄または新規スレッド作成を開くとChMateが終了するresource回帰を修正したリリースです。\n\n## 修正内容\n\n- v1.0.2で、ChMate独自属性を`app:`名前空間へ戻す処理が`<include>`のフレームワーク必須属性`layout`にも適用され、実行時にレイアウト指定なしとして扱われていた問題を修正\n- `<include layout=\"…\">`は無修飾のまま維持し、通常View上の同名カスタム属性だけを`app:layout`へ戻す文脈依存の判定を追加\n- 同名属性が共存するXMLを使った回帰テストを追加\n\n## 実機検証\n\n- 端末: AQUOS SH-R80P / Android 16\n- Manager: 公式ReVanced Manager 2.6.0\n- ChMate: `0.8.10.241`\n- v1.0.2: 既存スレッドの鉛筆ボタンから書き込み欄を開くと、`res_2131492990`の`<include>`に`layout`がないという`InflateException`で終了することを再現\n- v1.0.3: ReVanced Managerでpatch・署名・保存したAPKをデータ保持更新後、既存スレッドの書き込み欄と新規スレッド作成画面が終了せず開くことを確認\n\n検証に使用した入手時ファイルのSHA-256（ファイル自体は配布しません）:\n\n```text\n3fd5d2eab0aa34c97462cac8c84ae30e0d67877b21a460e94917eaee4e0fa417  ChMate_0.8.10.241_APKPure.xapk\n```\n\nRelease assetsはReVanced Managerが直接読み込める`patches-1.0.3.rvp`と、そのSHA-256ファイルだけです。ChMate APK、XAPK、patch済みAPKは含みません。\n\n## 配布物の SHA-256\n\n```text\n266e177c30831b64b5699542261f923016a6730bc5fb7b9c20b925187cbc14b6  patches-1.0.3.rvp\n```\n",
+  "download_url": "https://github.com/roflsunriz/chmate-revanced/releases/download/v1.0.3/patches-1.0.3.rvp",
+  "ecosystem": "revanced",
+  "extracted_provider_digest": null,
+  "extraction_status": "unverified",
+  "extraction_terminal": false,
+  "file_hash": null,
+  "id": "72e8e0deda0a62c6a25ad113",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Froflsunriz%2Fchmate-revanced&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Froflsunriz%2Fchmate-revanced&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 256,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "jp.co.airfront.android.a2chMate"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 0,
+  "patch_metadata_version": "v1.0.3",
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_config_hash": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "provider_digest": null,
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": "N/A",
+  "source_id": "49e48bfa11838123",
+  "version": "v1.0.3"
+}

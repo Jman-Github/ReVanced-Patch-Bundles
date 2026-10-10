@@ -1,0 +1,6404 @@
+[
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#5167F6",
+        "name": "Cx File Explorer",
+        "packageName": "com.cxinventor.file.explorer",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 21,
+            "version": "2.7.8",
+            "versionCodes": {
+              "ARM64_V8A": 278,
+              "ARMEABI_V7A": 278,
+              "X86": 278,
+              "X86_64": 278
+            }
+          }
+        ],
+        "versions": [
+          "2.7.8"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds a pure black option to the dark theme.",
+    "id": "4f685eef65e10a98097dcc94:1",
+    "legacy_id": 2901,
+    "metadata_status": "stale",
+    "name": "AMOLED dark theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "Cx File Explorer",
+        "versions": [
+          "2.7.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#53FC18",
+        "name": "Kick",
+        "packageName": "com.kick.mobile",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Replaces the dark theme background with pure black. Disables over-the-air updates that would restore the original background.",
+    "id": "4f685eef65e10a98097dcc94:2",
+    "legacy_id": 2902,
+    "metadata_status": "stale",
+    "name": "AMOLED dark theme",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#20808D",
+        "name": "Perplexity",
+        "packageName": "ai.perplexity.app.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 32,
+            "version": "2.95.0",
+            "versionCodes": {
+              "ARM64_V8A": 260642,
+              "ARMEABI_V7A": 260642,
+              "X86": 260642,
+              "X86_64": 260642
+            }
+          }
+        ],
+        "versions": [
+          "2.95.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Replaces the dark theme background with pure black.",
+    "id": "4f685eef65e10a98097dcc94:3",
+    "legacy_id": 2903,
+    "metadata_status": "stale",
+    "name": "AMOLED dark theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "Perplexity",
+        "versions": [
+          "2.95.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#6D4AFF",
+        "name": "Proton Mail",
+        "packageName": "ch.protonmail.android",
+        "signatures": [
+          "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "7.11.5",
+            "versionCodes": {
+              "ARM64_V8A": 18317,
+              "ARMEABI_V7A": 18317,
+              "X86": 18317,
+              "X86_64": 18317
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "7.10.4",
+            "versionCodes": {
+              "ARM64_V8A": 17667,
+              "ARMEABI_V7A": 17667,
+              "X86": 17667,
+              "X86_64": 17667
+            }
+          }
+        ],
+        "versions": [
+          "7.11.5",
+          "7.10.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Replaces the dark theme background with pure black.",
+    "id": "4f685eef65e10a98097dcc94:4",
+    "legacy_id": 2904,
+    "metadata_status": "stale",
+    "name": "AMOLED dark theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "Proton Mail",
+        "versions": [
+          "7.11.5",
+          "7.10.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#F44336",
+        "name": "Showly",
+        "packageName": "com.michaldrabik.showly2",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 23,
+            "version": "3.70.0",
+            "versionCodes": {
+              "ARM64_V8A": 840,
+              "ARMEABI_V7A": 840,
+              "X86": 840,
+              "X86_64": 840
+            }
+          }
+        ],
+        "versions": [
+          "3.70.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Replaces the dark theme background with pure black.",
+    "id": "4f685eef65e10a98097dcc94:5",
+    "legacy_id": 2905,
+    "metadata_status": "stale",
+    "name": "AMOLED dark theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "Showly",
+        "versions": [
+          "3.70.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1AACAC",
+        "name": "DWG FastView",
+        "packageName": "com.gstarmc.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "5.19.4",
+            "versionCodes": {
+              "ARM64_V8A": 614,
+              "ARMEABI_V7A": 614,
+              "X86": 614,
+              "X86_64": 614
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "5.19.6",
+            "versionCodes": {
+              "ARM64_V8A": 616,
+              "ARMEABI_V7A": 616,
+              "X86": 616,
+              "X86_64": 616
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "5.20.0",
+            "versionCodes": {
+              "ARM64_V8A": 620,
+              "ARMEABI_V7A": 620,
+              "X86": 620,
+              "X86_64": 620
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "5.21.0",
+            "versionCodes": {
+              "ARM64_V8A": 630,
+              "ARMEABI_V7A": 630,
+              "X86": 630,
+              "X86_64": 630
+            }
+          }
+        ],
+        "versions": [
+          "5.19.4",
+          "5.19.6",
+          "5.20.0",
+          "5.21.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "Blocks the Umeng, ByteDance and ad network analytics endpoints.",
+    "id": "4f685eef65e10a98097dcc94:6",
+    "legacy_id": 2906,
+    "metadata_status": "stale",
+    "name": "Block telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "DWG FastView",
+        "versions": [
+          "5.19.4",
+          "5.19.6",
+          "5.20.0",
+          "5.21.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#5167F6",
+        "name": "Cx File Explorer",
+        "packageName": "com.cxinventor.file.explorer",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 21,
+            "version": "2.7.8",
+            "versionCodes": {
+              "ARM64_V8A": 278,
+              "ARMEABI_V7A": 278,
+              "X86": 278,
+              "X86_64": 278
+            }
+          }
+        ],
+        "versions": [
+          "2.7.8"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Renders the app's dark theme and adds it to the settings.",
+    "id": "4f685eef65e10a98097dcc94:7",
+    "legacy_id": 2907,
+    "metadata_status": "stale",
+    "name": "Dark theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "Cx File Explorer",
+        "versions": [
+          "2.7.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#8E58FF",
+        "name": "RISE Sleep Tracker",
+        "packageName": "com.risesci.nyx",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "Android V1.78.49"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "Android V1.78.47"
+          }
+        ],
+        "versions": [
+          "Android V1.78.49",
+          "Android V1.78.47"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Stops crash and error reports from reaching Sentry.",
+    "id": "4f685eef65e10a98097dcc94:8",
+    "legacy_id": 2908,
+    "metadata_status": "stale",
+    "name": "Disable telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "RISE Sleep Tracker",
+        "versions": [
+          "Android V1.78.49",
+          "Android V1.78.47"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#089AED",
+        "name": "1Weather",
+        "packageName": "com.handmark.expressweather",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "13.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 130010,
+              "ARMEABI_V7A": 130010,
+              "X86": 130010,
+              "X86_64": 130010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "12.9.3",
+            "versionCodes": {
+              "ARM64_V8A": 120093,
+              "ARMEABI_V7A": 120093,
+              "X86": 120093,
+              "X86_64": 120093
+            }
+          }
+        ],
+        "versions": [
+          "13.1.0",
+          "12.9.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Stops installs, sessions and in-app events from reaching AppsFlyer.",
+    "id": "4f685eef65e10a98097dcc94:9",
+    "legacy_id": 2909,
+    "metadata_status": "stale",
+    "name": "Disable tracking",
+    "options": [],
+    "packages": [
+      {
+        "name": "1Weather",
+        "versions": [
+          "13.1.0",
+          "12.9.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#F08029",
+        "name": "Projectivy Launcher",
+        "packageName": "com.spocky.projengmenu",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 23,
+            "version": "4.71",
+            "versionCodes": {
+              "ARM64_V8A": 95,
+              "ARMEABI_V7A": 95,
+              "X86": 95,
+              "X86_64": 95
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 23,
+            "version": "4.70",
+            "versionCodes": {
+              "ARM64_V8A": 92,
+              "ARMEABI_V7A": 92,
+              "X86": 92,
+              "X86_64": 92
+            }
+          }
+        ],
+        "versions": [
+          "4.71",
+          "4.70"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables analytics and crash reporting.",
+    "id": "4f685eef65e10a98097dcc94:10",
+    "legacy_id": 2910,
+    "metadata_status": "stale",
+    "name": "Disable tracking",
+    "options": [],
+    "packages": [
+      {
+        "name": "Projectivy Launcher",
+        "versions": [
+          "4.71",
+          "4.70"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#8E58FF",
+        "name": "RISE Sleep Tracker",
+        "packageName": "com.risesci.nyx",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "Android V1.78.49"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "Android V1.78.47"
+          }
+        ],
+        "versions": [
+          "Android V1.78.49",
+          "Android V1.78.47"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Stops app usage events from being uploaded. Local usage tracking remains enabled.",
+    "id": "4f685eef65e10a98097dcc94:11",
+    "legacy_id": 2911,
+    "metadata_status": "stale",
+    "name": "Disable usage tracking",
+    "options": [],
+    "packages": [
+      {
+        "name": "RISE Sleep Tracker",
+        "versions": [
+          "Android V1.78.49",
+          "Android V1.78.47"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#455A64",
+        "name": "All-In-One Calculator",
+        "packageName": "all.in.one.calculator",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 24,
+            "version": "3.4.0",
+            "versionCodes": {
+              "ARM64_V8A": 340,
+              "ARMEABI_V7A": 340,
+              "X86": 340,
+              "X86_64": 340
+            }
+          }
+        ],
+        "versions": [
+          "3.4.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Signs in through GmsCore instead of Google Play Services. Requires GmsCore to be installed.",
+    "id": "4f685eef65e10a98097dcc94:12",
+    "legacy_id": 2912,
+    "metadata_status": "stale",
+    "name": "GmsCore support",
+    "options": [],
+    "packages": [
+      {
+        "name": "All-In-One Calculator",
+        "versions": [
+          "3.4.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#F1641E",
+        "name": "Etsy",
+        "packageName": "com.etsy.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 32,
+            "version": "7.90.0",
+            "versionCodes": {
+              "ARM64_V8A": 79000153,
+              "ARMEABI_V7A": 79000153,
+              "X86": 79000153,
+              "X86_64": 79000153
+            }
+          }
+        ],
+        "versions": [
+          "7.90.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes promoted listings and the \"with Ads\" label from search results.",
+    "id": "4f685eef65e10a98097dcc94:13",
+    "legacy_id": 2913,
+    "metadata_status": "stale",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Etsy",
+        "versions": [
+          "7.90.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#2196F3",
+        "name": "QR & Barcode Scanner",
+        "packageName": "com.gamma.scan",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 24,
+            "version": "2.2.221",
+            "versionCodes": {
+              "ARM64_V8A": 221,
+              "ARMEABI_V7A": 221,
+              "X86": 221,
+              "X86_64": 221
+            }
+          }
+        ],
+        "versions": [
+          "2.2.221"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables banner, interstitial, and native ads.",
+    "id": "4f685eef65e10a98097dcc94:14",
+    "legacy_id": 2914,
+    "metadata_status": "stale",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "QR & Barcode Scanner",
+        "versions": [
+          "2.2.221"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS_REQUIRED",
+        "appIconColor": "#FA2A80",
+        "name": "Photo Editor Pro",
+        "packageName": "photo.editor.photoeditor.photoeditorpro",
+        "signatures": [
+          "868aa1a8470b4214e88a5c9e65a1dbe475a32e1da7a23079ba6e0be0bd50b621"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "1.791.265",
+            "versionCodes": {
+              "ARM64_V8A": 265100,
+              "ARMEABI_V7A": 265100,
+              "X86": 265100,
+              "X86_64": 265100
+            }
+          }
+        ],
+        "versions": [
+          "1.791.265"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to hide banner, interstitial, app-open and rewarded ads.",
+    "id": "4f685eef65e10a98097dcc94:15",
+    "legacy_id": 2915,
+    "metadata_status": "stale",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Photo Editor Pro",
+        "versions": [
+          "1.791.265"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#00A88F",
+        "name": "Trainline",
+        "packageName": "com.thetrainline",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "407.0.0.178994",
+            "versionCodes": {
+              "ARM64_V8A": 1278994,
+              "ARMEABI_V7A": 1278994,
+              "X86": 1278994,
+              "X86_64": 1278994
+            }
+          }
+        ],
+        "versions": [
+          "407.0.0.178994"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the adverts shown between search results.",
+    "id": "4f685eef65e10a98097dcc94:16",
+    "legacy_id": 2916,
+    "metadata_status": "stale",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Trainline",
+        "versions": [
+          "407.0.0.178994"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#F8991C",
+        "name": "Audible",
+        "packageName": "com.audible.application",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "26.30.05",
+            "versionCodes": {
+              "ARM64_V8A": 2090263005,
+              "ARMEABI_V7A": 2090263005,
+              "X86": 2090263005,
+              "X86_64": 2090263005
+            }
+          }
+        ],
+        "versions": [
+          "26.30.05"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides the membership promotion on the Home screen and the free trial bottom sheet.",
+    "id": "4f685eef65e10a98097dcc94:17",
+    "legacy_id": 2917,
+    "metadata_status": "stale",
+    "name": "Hide membership upselling",
+    "options": [],
+    "packages": [
+      {
+        "name": "Audible",
+        "versions": [
+          "26.30.05"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1AACAC",
+        "name": "DWG FastView",
+        "packageName": "com.gstarmc.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "5.19.4",
+            "versionCodes": {
+              "ARM64_V8A": 614,
+              "ARMEABI_V7A": 614,
+              "X86": 614,
+              "X86_64": 614
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "5.19.6",
+            "versionCodes": {
+              "ARM64_V8A": 616,
+              "ARMEABI_V7A": 616,
+              "X86": 616,
+              "X86_64": 616
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "5.20.0",
+            "versionCodes": {
+              "ARM64_V8A": 620,
+              "ARMEABI_V7A": 620,
+              "X86": 620,
+              "X86_64": 620
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "5.21.0",
+            "versionCodes": {
+              "ARM64_V8A": 630,
+              "ARMEABI_V7A": 630,
+              "X86": 630,
+              "X86_64": 630
+            }
+          }
+        ],
+        "versions": [
+          "5.19.4",
+          "5.19.6",
+          "5.20.0",
+          "5.21.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "Removes the prompt asking for a store review.",
+    "id": "4f685eef65e10a98097dcc94:18",
+    "legacy_id": 2918,
+    "metadata_status": "stale",
+    "name": "Hide rating dialog",
+    "options": [],
+    "packages": [
+      {
+        "name": "DWG FastView",
+        "versions": [
+          "5.19.4",
+          "5.19.6",
+          "5.20.0",
+          "5.21.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#089AED",
+        "name": "1Weather",
+        "packageName": "com.handmark.expressweather",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "13.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 130010,
+              "ARMEABI_V7A": 130010,
+              "X86": 130010,
+              "X86_64": 130010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "12.9.3",
+            "versionCodes": {
+              "ARM64_V8A": 120093,
+              "ARMEABI_V7A": 120093,
+              "X86": 120093,
+              "X86_64": 120093
+            }
+          }
+        ],
+        "versions": [
+          "13.1.0",
+          "12.9.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides the 1Weather Shorts card from the Today screen.",
+    "id": "4f685eef65e10a98097dcc94:19",
+    "legacy_id": 2919,
+    "metadata_status": "stale",
+    "name": "Hide Shorts",
+    "options": [],
+    "packages": [
+      {
+        "name": "1Weather",
+        "versions": [
+          "13.1.0",
+          "12.9.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#089AED",
+        "name": "1Weather",
+        "packageName": "com.handmark.expressweather",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "13.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 130010,
+              "ARMEABI_V7A": 130010,
+              "X86": 130010,
+              "X86_64": 130010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "12.9.3",
+            "versionCodes": {
+              "ARM64_V8A": 120093,
+              "ARMEABI_V7A": 120093,
+              "X86": 120093,
+              "X86_64": 120093
+            }
+          }
+        ],
+        "versions": [
+          "13.1.0",
+          "12.9.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides the Skyla AI assistant, its prompts and the Summarize buttons.",
+    "id": "4f685eef65e10a98097dcc94:20",
+    "legacy_id": 2920,
+    "metadata_status": "stale",
+    "name": "Hide Skyla",
+    "options": [],
+    "packages": [
+      {
+        "name": "1Weather",
+        "versions": [
+          "13.1.0",
+          "12.9.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#6D4AFF",
+        "name": "Proton Mail",
+        "packageName": "ch.protonmail.android",
+        "signatures": [
+          "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "7.11.5",
+            "versionCodes": {
+              "ARM64_V8A": 18317,
+              "ARMEABI_V7A": 18317,
+              "X86": 18317,
+              "X86_64": 18317
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "7.10.4",
+            "versionCodes": {
+              "ARM64_V8A": 17667,
+              "ARMEABI_V7A": 17667,
+              "X86": 17667,
+              "X86_64": 17667
+            }
+          }
+        ],
+        "versions": [
+          "7.11.5",
+          "7.10.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Hides the top-bar upgrade button and promotional sidebar rows.",
+    "id": "4f685eef65e10a98097dcc94:21",
+    "legacy_id": 2921,
+    "metadata_status": "stale",
+    "name": "Hide upgrade upselling",
+    "options": [],
+    "packages": [
+      {
+        "name": "Proton Mail",
+        "versions": [
+          "7.11.5",
+          "7.10.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS_REQUIRED",
+        "appIconColor": "#FA2A80",
+        "name": "Photo Editor Pro",
+        "packageName": "photo.editor.photoeditor.photoeditorpro",
+        "signatures": [
+          "868aa1a8470b4214e88a5c9e65a1dbe475a32e1da7a23079ba6e0be0bd50b621"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "1.791.265",
+            "versionCodes": {
+              "ARM64_V8A": 265100,
+              "ARMEABI_V7A": 265100,
+              "X86": 265100,
+              "X86_64": 265100
+            }
+          }
+        ],
+        "versions": [
+          "1.791.265"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Shows the network calls an AI tool makes, such as HTTP requests and Firebase uploads, and keeps a log, so you can watch your photo fly to China or the US.",
+    "id": "4f685eef65e10a98097dcc94:22",
+    "legacy_id": 2922,
+    "metadata_status": "stale",
+    "name": "Inspect AI requests",
+    "options": [],
+    "packages": [
+      {
+        "name": "Photo Editor Pro",
+        "versions": [
+          "1.791.265"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#F8991C",
+        "name": "Audible",
+        "packageName": "com.audible.application",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "26.30.05",
+            "versionCodes": {
+              "ARM64_V8A": 2090263005,
+              "ARMEABI_V7A": 2090263005,
+              "X86": 2090263005,
+              "X86_64": 2090263005
+            }
+          }
+        ],
+        "versions": [
+          "26.30.05"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Opens the Library tab instead of Home on launch. Applies only while signed in.",
+    "id": "4f685eef65e10a98097dcc94:23",
+    "legacy_id": 2923,
+    "metadata_status": "stale",
+    "name": "Open Library on launch",
+    "options": [],
+    "packages": [
+      {
+        "name": "Audible",
+        "versions": [
+          "26.30.05"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#6D4AFF",
+        "name": "Proton Mail",
+        "packageName": "ch.protonmail.android",
+        "signatures": [
+          "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "7.11.5",
+            "versionCodes": {
+              "ARM64_V8A": 18317,
+              "ARMEABI_V7A": 18317,
+              "X86": 18317,
+              "X86_64": 18317
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "7.10.4",
+            "versionCodes": {
+              "ARM64_V8A": 17667,
+              "ARMEABI_V7A": 17667,
+              "X86": 17667,
+              "X86_64": 17667
+            }
+          }
+        ],
+        "versions": [
+          "7.11.5",
+          "7.10.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Removes the 'Sent from Proton Mail' signature from emails.",
+    "id": "4f685eef65e10a98097dcc94:24",
+    "legacy_id": 2924,
+    "metadata_status": "stale",
+    "name": "Remove 'Sent from' signature",
+    "options": [],
+    "packages": [
+      {
+        "name": "Proton Mail",
+        "versions": [
+          "7.11.5",
+          "7.10.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#6D4AFF",
+        "name": "Proton Mail",
+        "packageName": "ch.protonmail.android",
+        "signatures": [
+          "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "7.11.5",
+            "versionCodes": {
+              "ARM64_V8A": 18317,
+              "ARMEABI_V7A": 18317,
+              "X86": 18317,
+              "X86_64": 18317
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "7.10.4",
+            "versionCodes": {
+              "ARM64_V8A": 17667,
+              "ARMEABI_V7A": 17667,
+              "X86": 17667,
+              "X86_64": 17667
+            }
+          }
+        ],
+        "versions": [
+          "7.11.5",
+          "7.10.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Removes the limit for maximum free accounts logged in.",
+    "id": "4f685eef65e10a98097dcc94:25",
+    "legacy_id": 2925,
+    "metadata_status": "stale",
+    "name": "Remove free accounts limit",
+    "options": [],
+    "packages": [
+      {
+        "name": "Proton Mail",
+        "versions": [
+          "7.11.5",
+          "7.10.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#0061BD",
+        "name": "ReadEra",
+        "packageName": "org.readera",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 16,
+            "version": "26.05.20+2300",
+            "versionCodes": {
+              "ARM64_V8A": 2300,
+              "ARMEABI_V7A": 2300,
+              "X86": 2300,
+              "X86_64": 2300
+            }
+          }
+        ],
+        "versions": [
+          "26.05.20+2300"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the rate this app dialog and the promotional dialogs shown on startup.",
+    "id": "4f685eef65e10a98097dcc94:26",
+    "legacy_id": 2926,
+    "metadata_status": "stale",
+    "name": "Remove nags",
+    "options": [],
+    "packages": [
+      {
+        "name": "ReadEra",
+        "versions": [
+          "26.05.20+2300"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS_REQUIRED",
+        "appIconColor": "#FA2A80",
+        "name": "Photo Editor Pro",
+        "packageName": "photo.editor.photoeditor.photoeditorpro",
+        "signatures": [
+          "868aa1a8470b4214e88a5c9e65a1dbe475a32e1da7a23079ba6e0be0bd50b621"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "1.791.265",
+            "versionCodes": {
+              "ARM64_V8A": 265100,
+              "ARMEABI_V7A": 265100,
+              "X86": 265100,
+              "X86_64": 265100
+            }
+          }
+        ],
+        "versions": [
+          "1.791.265"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Reads the current stage off the real network activity instead of the fake progress bar InShot ships.",
+    "id": "4f685eef65e10a98097dcc94:27",
+    "legacy_id": 2927,
+    "metadata_status": "stale",
+    "name": "Show AI progress",
+    "options": [],
+    "packages": [
+      {
+        "name": "Photo Editor Pro",
+        "versions": [
+          "1.791.265"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS_REQUIRED",
+        "appIconColor": "#FA2A80",
+        "name": "Photo Editor Pro",
+        "packageName": "photo.editor.photoeditor.photoeditorpro",
+        "signatures": [
+          "868aa1a8470b4214e88a5c9e65a1dbe475a32e1da7a23079ba6e0be0bd50b621"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "1.791.265",
+            "versionCodes": {
+              "ARM64_V8A": 265100,
+              "ARMEABI_V7A": 265100,
+              "X86": 265100,
+              "X86_64": 265100
+            }
+          }
+        ],
+        "versions": [
+          "1.791.265"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Shortens the AI tool wait by polling for the result more often and uploading the photo in larger chunks.",
+    "id": "4f685eef65e10a98097dcc94:28",
+    "legacy_id": 2928,
+    "metadata_status": "stale",
+    "name": "Speed up AI tools",
+    "options": [],
+    "packages": [
+      {
+        "name": "Photo Editor Pro",
+        "versions": [
+          "1.791.265"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#6D4AFF",
+        "name": "Proton Mail",
+        "packageName": "ch.protonmail.android",
+        "signatures": [
+          "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "7.11.5",
+            "versionCodes": {
+              "ARM64_V8A": 18317,
+              "ARMEABI_V7A": 18317,
+              "X86": 18317,
+              "X86_64": 18317
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "7.10.4",
+            "versionCodes": {
+              "ARM64_V8A": 17667,
+              "ARMEABI_V7A": 17667,
+              "X86": 17667,
+              "X86_64": 17667
+            }
+          }
+        ],
+        "versions": [
+          "7.11.5",
+          "7.10.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Enables picking a custom date and time when snoozing conversations and scheduling messages.",
+    "id": "4f685eef65e10a98097dcc94:29",
+    "legacy_id": 2929,
+    "metadata_status": "stale",
+    "name": "Unlock custom time picker",
+    "options": [],
+    "packages": [
+      {
+        "name": "Proton Mail",
+        "versions": [
+          "7.11.5",
+          "7.10.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0057BD",
+        "name": "AlpineQuest",
+        "packageName": "psyberia.alpinequest.free",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.4.0e",
+            "versionCodes": {
+              "ARM64_V8A": 412,
+              "ARMEABI_V7A": 412,
+              "X86": 412,
+              "X86_64": 412
+            }
+          }
+        ],
+        "versions": [
+          "2.4.0e"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Unlocks the Off-Road Explorer features gated behind activation.",
+    "id": "4f685eef65e10a98097dcc94:30",
+    "legacy_id": 2930,
+    "metadata_status": "stale",
+    "name": "Unlock full version",
+    "options": [],
+    "packages": [
+      {
+        "name": "AlpineQuest",
+        "versions": [
+          "2.4.0e"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#455A64",
+        "name": "All-In-One Calculator",
+        "packageName": "all.in.one.calculator",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 24,
+            "version": "3.4.0",
+            "versionCodes": {
+              "ARM64_V8A": 340,
+              "ARMEABI_V7A": 340,
+              "X86": 340,
+              "X86_64": 340
+            }
+          }
+        ],
+        "versions": [
+          "3.4.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Grants the pro entitlement, which removes the ads and the paywalled tools.",
+    "id": "4f685eef65e10a98097dcc94:31",
+    "legacy_id": 2931,
+    "metadata_status": "stale",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "All-In-One Calculator",
+        "versions": [
+          "3.4.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS_REQUIRED",
+        "appIconColor": "#1D204B",
+        "name": "BetterSleep",
+        "packageName": "ipnossoft.rma.free",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "26.15",
+            "versionCodes": {
+              "ARM64_V8A": 26799,
+              "ARMEABI_V7A": 26799,
+              "X86": 26799,
+              "X86_64": 26799
+            }
+          }
+        ],
+        "versions": [
+          "26.15"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Unlocks all premium content and skips the free trial screen.",
+    "id": "4f685eef65e10a98097dcc94:32",
+    "legacy_id": 2932,
+    "metadata_status": "stale",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "BetterSleep",
+        "versions": [
+          "26.15"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#5167F6",
+        "name": "Cx File Explorer",
+        "packageName": "com.cxinventor.file.explorer",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 21,
+            "version": "2.7.8",
+            "versionCodes": {
+              "ARM64_V8A": 278,
+              "ARMEABI_V7A": 278,
+              "X86": 278,
+              "X86_64": 278
+            }
+          }
+        ],
+        "versions": [
+          "2.7.8"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks premium and removes ads.",
+    "id": "4f685eef65e10a98097dcc94:33",
+    "legacy_id": 2933,
+    "metadata_status": "stale",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Cx File Explorer",
+        "versions": [
+          "2.7.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0772BA",
+        "name": "ForusApp",
+        "packageName": "com.myvitale.forus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "3.0.15",
+            "versionCodes": {
+              "ARM64_V8A": 96,
+              "ARMEABI_V7A": 96,
+              "X86": 96,
+              "X86_64": 96
+            }
+          }
+        ],
+        "versions": [
+          "3.0.15"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all premium features.",
+    "id": "4f685eef65e10a98097dcc94:34",
+    "legacy_id": 2934,
+    "metadata_status": "stale",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "ForusApp",
+        "versions": [
+          "3.0.15"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1AACAC",
+        "name": "DWG FastView",
+        "packageName": "com.gstarmc.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "5.19.4",
+            "versionCodes": {
+              "ARM64_V8A": 614,
+              "ARMEABI_V7A": 614,
+              "X86": 614,
+              "X86_64": 614
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "5.19.6",
+            "versionCodes": {
+              "ARM64_V8A": 616,
+              "ARMEABI_V7A": 616,
+              "X86": 616,
+              "X86_64": 616
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "5.20.0",
+            "versionCodes": {
+              "ARM64_V8A": 620,
+              "ARMEABI_V7A": 620,
+              "X86": 620,
+              "X86_64": 620
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "5.21.0",
+            "versionCodes": {
+              "ARM64_V8A": 630,
+              "ARMEABI_V7A": 630,
+              "X86": 630,
+              "X86_64": 630
+            }
+          }
+        ],
+        "versions": [
+          "5.19.4",
+          "5.19.6",
+          "5.20.0",
+          "5.21.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "Unlocks the paid drawing, annotation and measurement tools, and removes ads.",
+    "id": "4f685eef65e10a98097dcc94:35",
+    "legacy_id": 2935,
+    "metadata_status": "stale",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "DWG FastView",
+        "versions": [
+          "5.19.4",
+          "5.19.6",
+          "5.20.0",
+          "5.21.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#089AED",
+        "name": "1Weather",
+        "packageName": "com.handmark.expressweather",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "13.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 130010,
+              "ARMEABI_V7A": 130010,
+              "X86": 130010,
+              "X86_64": 130010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "12.9.3",
+            "versionCodes": {
+              "ARM64_V8A": 120093,
+              "ARMEABI_V7A": 120093,
+              "X86": 120093,
+              "X86_64": 120093
+            }
+          }
+        ],
+        "versions": [
+          "13.1.0",
+          "12.9.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks premium and removes ads.",
+    "id": "4f685eef65e10a98097dcc94:36",
+    "legacy_id": 2936,
+    "metadata_status": "stale",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "1Weather",
+        "versions": [
+          "13.1.0",
+          "12.9.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS_REQUIRED",
+        "appIconColor": "#FA2A80",
+        "name": "Photo Editor Pro",
+        "packageName": "photo.editor.photoeditor.photoeditorpro",
+        "signatures": [
+          "868aa1a8470b4214e88a5c9e65a1dbe475a32e1da7a23079ba6e0be0bd50b621"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "1.791.265",
+            "versionCodes": {
+              "ARM64_V8A": 265100,
+              "ARMEABI_V7A": 265100,
+              "X86": 265100,
+              "X86_64": 265100
+            }
+          }
+        ],
+        "versions": [
+          "1.791.265"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to unlock the pro tools, remove the export watermark and hide the upgrade prompts.",
+    "id": "4f685eef65e10a98097dcc94:37",
+    "legacy_id": 2937,
+    "metadata_status": "stale",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Photo Editor Pro",
+        "versions": [
+          "1.791.265"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#F08029",
+        "name": "Projectivy Launcher",
+        "packageName": "com.spocky.projengmenu",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 23,
+            "version": "4.71",
+            "versionCodes": {
+              "ARM64_V8A": 95,
+              "ARMEABI_V7A": 95,
+              "X86": 95,
+              "X86_64": 95
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 23,
+            "version": "4.70",
+            "versionCodes": {
+              "ARM64_V8A": 92,
+              "ARMEABI_V7A": 92,
+              "X86": 92,
+              "X86_64": 92
+            }
+          }
+        ],
+        "versions": [
+          "4.71",
+          "4.70"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all premium features.",
+    "id": "4f685eef65e10a98097dcc94:38",
+    "legacy_id": 2938,
+    "metadata_status": "stale",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Projectivy Launcher",
+        "versions": [
+          "4.71",
+          "4.70"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#141414",
+        "name": "Quranify",
+        "packageName": "com.mchutov.Quranify",
+        "signatures": [
+          "6832f51be89158c630aa9a166c10781f2f68fc3bf1ef1e776e4fa2c218f0010d"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 33,
+            "version": "2.2.8",
+            "versionCodes": {
+              "ARM64_V8A": 77,
+              "ARMEABI_V7A": 77,
+              "X86": 77,
+              "X86_64": 77
+            }
+          }
+        ],
+        "versions": [
+          "2.2.8"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Unlocks downloading every surah, lyrics and tafsir, Android Auto, background playback controls, and insights.",
+    "id": "4f685eef65e10a98097dcc94:39",
+    "legacy_id": 2939,
+    "metadata_status": "stale",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Quranify",
+        "versions": [
+          "2.2.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#0D192C",
+        "name": "RateGlance",
+        "packageName": "com.sry.rateglance",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 32,
+            "version": "1.14.8",
+            "versionCodes": {
+              "ARM64_V8A": 278,
+              "ARMEABI_V7A": 278,
+              "X86": 278,
+              "X86_64": 278
+            }
+          }
+        ],
+        "versions": [
+          "1.14.8"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Unlocks all premium features.",
+    "id": "4f685eef65e10a98097dcc94:40",
+    "legacy_id": 2940,
+    "metadata_status": "stale",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "RateGlance",
+        "versions": [
+          "1.14.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#8E58FF",
+        "name": "RISE Sleep Tracker",
+        "packageName": "com.risesci.nyx",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "Android V1.78.49"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "Android V1.78.47"
+          }
+        ],
+        "versions": [
+          "Android V1.78.49",
+          "Android V1.78.47"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks the energy schedule, habit tools, smart alarm and progress insights. Requires a RISE account.",
+    "id": "4f685eef65e10a98097dcc94:41",
+    "legacy_id": 2941,
+    "metadata_status": "stale",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "RISE Sleep Tracker",
+        "versions": [
+          "Android V1.78.49",
+          "Android V1.78.47"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#FD8700",
+        "name": "Rubber Bands",
+        "packageName": "app.rubberbands.fit",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "3.9",
+            "versionCodes": {
+              "ARM64_V8A": 291,
+              "ARMEABI_V7A": 291,
+              "X86": 291,
+              "X86_64": 291
+            }
+          }
+        ],
+        "versions": [
+          "3.9"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Unlocks running and logging workouts, progress tracking and personal records (AI workout generation is not included).",
+    "id": "4f685eef65e10a98097dcc94:42",
+    "legacy_id": 2942,
+    "metadata_status": "stale",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Rubber Bands",
+        "versions": [
+          "3.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#F44336",
+        "name": "Showly",
+        "packageName": "com.michaldrabik.showly2",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 23,
+            "version": "3.70.0",
+            "versionCodes": {
+              "ARM64_V8A": 840,
+              "ARMEABI_V7A": 840,
+              "X86": 840,
+              "X86_64": 840
+            }
+          }
+        ],
+        "versions": [
+          "3.70.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Unlocks ad removal, light theme, custom images, list view types, quick ratings, and transparent widgets. The News feed is not included.",
+    "id": "4f685eef65e10a98097dcc94:43",
+    "legacy_id": 2943,
+    "metadata_status": "stale",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Showly",
+        "versions": [
+          "3.70.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#E22728",
+        "name": "Symfonium",
+        "packageName": "app.symfonik.music.player",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.0.0",
+            "versionCodes": {
+              "ARM64_V8A": 127708,
+              "ARMEABI_V7A": 127708,
+              "X86": 127708,
+              "X86_64": 127708
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 32,
+            "version": "14.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 127734,
+              "ARMEABI_V7A": 127734,
+              "X86": 127734,
+              "X86_64": 127734
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 32,
+            "version": "15.0.1",
+            "versionCodes": {
+              "ARM64_V8A": 127798,
+              "ARMEABI_V7A": 127798,
+              "X86": 127798,
+              "X86_64": 127798
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 32,
+            "version": "14.0.0 TV",
+            "versionCodes": {
+              "ARM64_V8A": 227708,
+              "ARMEABI_V7A": 227708,
+              "X86": 227708,
+              "X86_64": 227708
+            }
+          }
+        ],
+        "versions": [
+          "14.0.0",
+          "14.1.0",
+          "15.0.1",
+          "14.0.0 TV"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all premium features.",
+    "id": "4f685eef65e10a98097dcc94:44",
+    "legacy_id": 2944,
+    "metadata_status": "stale",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Symfonium",
+        "versions": [
+          "14.0.0",
+          "14.1.0",
+          "15.0.1",
+          "14.0.0 TV"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#008837",
+        "name": "Notesnook",
+        "packageName": "com.streetwriters.notesnook",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 24,
+            "version": "3.4.12",
+            "versionCodes": {
+              "ARM64_V8A": 4197422,
+              "ARMEABI_V7A": 4197422,
+              "X86": 4197422,
+              "X86_64": 4197422
+            }
+          }
+        ],
+        "versions": [
+          "3.4.12"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks task lists, callouts, app lock, and the notebook, tag, colour and reminder limits. Requires a signed-in account. The server still enforces storage, attachment size, monographs and SMS 2FA.",
+    "id": "4f685eef65e10a98097dcc94:45",
+    "legacy_id": 2945,
+    "metadata_status": "stale",
+    "name": "Unlock pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "Notesnook",
+        "versions": [
+          "3.4.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Advanced XR compatibility",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.20 build 5001712.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001712,
+              "ARMEABI_V7A": 5001712,
+              "X86": 5001712,
+              "X86_64": 5001712
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.20 build 5001812; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001812,
+              "ARMEABI_V7A": 5001812,
+              "X86": 5001812,
+              "X86_64": 5001812
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.21 build 5001968; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.21",
+            "versionCodes": {
+              "ARM64_V8A": 5001968,
+              "ARMEABI_V7A": 5001968,
+              "X86": 5001968,
+              "X86_64": 5001968
+            }
+          }
+        ],
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.22 build 5002244.",
+            "isExperimental": false,
+            "version": "2.0.22",
+            "versionCodes": {
+              "ARM64_V8A": 5002244,
+              "ARMEABI_V7A": 5002244,
+              "X86": 5002244,
+              "X86_64": 5002244
+            }
+          }
+        ],
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Replaces native Oculus face/eye permission checks with the Android XR permission names used by Galaxy XR on exact Steam Link 2.0.20/5001712, 2.0.20/5001812, 2.0.21/5001968, and 2.0.22/5002244 layouts.",
+    "id": "4fb56c0c2e751661e8897ed8:0",
+    "legacy_id": 2946,
+    "metadata_status": "unverified",
+    "name": "Android XR native permission names",
+    "options": [],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Startup & permissions",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.20 build 5001712.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001712,
+              "ARMEABI_V7A": 5001712,
+              "X86": 5001712,
+              "X86_64": 5001712
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.20 build 5001812; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001812,
+              "ARMEABI_V7A": 5001812,
+              "X86": 5001812,
+              "X86_64": 5001812
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.21 build 5001968; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.21",
+            "versionCodes": {
+              "ARM64_V8A": 5001968,
+              "ARMEABI_V7A": 5001968,
+              "X86": 5001968,
+              "X86_64": 5001968
+            }
+          }
+        ],
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.22 build 5002244.",
+            "isExperimental": false,
+            "version": "2.0.22",
+            "versionCodes": {
+              "ARM64_V8A": 5002244,
+              "ARMEABI_V7A": 5002244,
+              "X86": 5002244,
+              "X86_64": 5002244
+            }
+          }
+        ],
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Legacy overlay-permission fallback retained for older Steam Link builds. Adds SYSTEM_ALERT_WINDOW and the compositor signal window.",
+    "id": "4fb56c0c2e751661e8897ed8:1",
+    "legacy_id": 2947,
+    "metadata_status": "unverified",
+    "name": "Appear on top (legacy)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "App & device identity",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.20 build 5001712.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001712,
+              "ARMEABI_V7A": 5001712,
+              "X86": 5001712,
+              "X86_64": 5001712
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.20 build 5001812; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001812,
+              "ARMEABI_V7A": 5001812,
+              "X86": 5001812,
+              "X86_64": 5001812
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.21 build 5001968; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.21",
+            "versionCodes": {
+              "ARM64_V8A": 5001968,
+              "ARMEABI_V7A": 5001968,
+              "X86": 5001968,
+              "X86_64": 5001968
+            }
+          }
+        ],
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.22 build 5002244.",
+            "isExperimental": false,
+            "version": "2.0.22",
+            "versionCodes": {
+              "ARM64_V8A": 5002244,
+              "ARMEABI_V7A": 5002244,
+              "X86": 5002244,
+              "X86_64": 5002244
+            }
+          }
+        ],
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Renames the manifest package and Steam Link's internal VR-launch component so the patched app can coexist with the original installation.",
+    "id": "4fb56c0c2e751661e8897ed8:2",
+    "legacy_id": 2948,
+    "metadata_status": "unverified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "Default",
+        "description": "Accepts either a full Java package name (for example, com.valvesoftware.steamlinkvr.galaxyxr) or a display suffix (for example, Galaxy XR). Suffix input appends to app name and generates a package suffix automatically.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Tracking & audio",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.20 build 5001712.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001712,
+              "ARMEABI_V7A": 5001712,
+              "X86": 5001712,
+              "X86_64": 5001712
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.20 build 5001812; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001812,
+              "ARMEABI_V7A": 5001812,
+              "X86": 5001812,
+              "X86_64": 5001812
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.21 build 5001968; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.21",
+            "versionCodes": {
+              "ARM64_V8A": 5001968,
+              "ARMEABI_V7A": 5001968,
+              "X86": 5001968,
+              "X86_64": 5001968
+            }
+          }
+        ],
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.22 build 5002244.",
+            "isExperimental": false,
+            "version": "2.0.22",
+            "versionCodes": {
+              "ARM64_V8A": 5002244,
+              "ARMEABI_V7A": 5002244,
+              "X86": 5002244,
+              "X86_64": 5002244
+            }
+          }
+        ],
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Derives current controller linear and angular velocity from grip/aim pose history and can reduce VRLink's stock four controller pose sends per display frame.",
+    "id": "4fb56c0c2e751661e8897ed8:3",
+    "legacy_id": 2949,
+    "metadata_status": "unverified",
+    "name": "Controller velocity fix",
+    "options": [
+      {
+        "default": 50,
+        "description": "libgxr_controller_velocity.so config+32 (int64 ns = value×1e6). Falls back to runtime velocity when pose samples are farther apart. Allowed range: 5 to 100 ms.",
+        "key": "maxDeltaMs",
+        "required": true,
+        "title": "Maximum sample gap (ms)",
+        "type": "kotlin.Int",
+        "values": null
+      },
+      {
+        "default": "stock-4x",
+        "description": "libvrlink_scene.so QSVLClient::OnTopOfFrame: selects four, two, or one evenly phased controller pose sends per display frame. Actual send Hz equals display Hz multiplied by 4, 2, or 1. Stock preserves Valve behavior.",
+        "key": "poseSendCadence",
+        "required": true,
+        "title": "Controller pose-send cadence",
+        "type": "kotlin.String",
+        "values": {
+          "Display rate (1x)": "display-1x",
+          "Half (2x display rate)": "half-2x",
+          "Stock (4x display rate)": "stock-4x"
+        }
+      },
+      {
+        "default": 0.0,
+        "description": "libgxr_controller_velocity.so config+48 (float32 EMA weight). 0 = no smoothing, minimum lag; higher values reduce jitter. Allowed range: 0.0 to 0.9.",
+        "key": "smoothing",
+        "required": true,
+        "title": "Derived velocity smoothing",
+        "type": "kotlin.Float",
+        "values": null
+      },
+      {
+        "default": 20.0,
+        "description": "libgxr_controller_velocity.so config+40 (float32 m/s). Falls back to runtime velocity above this derived linear speed. Allowed range: 1 to 50 m/s.",
+        "key": "maxLinearSpeed",
+        "required": true,
+        "title": "Maximum linear speed (m/s)",
+        "type": "kotlin.Float",
+        "values": null
+      },
+      {
+        "default": 50.0,
+        "description": "libgxr_controller_velocity.so config+44 (float32 rad/s). Falls back to runtime velocity above this derived angular speed. Allowed range: 1 to 100 rad/s.",
+        "key": "maxAngularSpeed",
+        "required": true,
+        "title": "Maximum angular speed (rad/s)",
+        "type": "kotlin.Float",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "App & device identity",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.20 build 5001712.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001712,
+              "ARMEABI_V7A": 5001712,
+              "X86": 5001712,
+              "X86_64": 5001712
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.20 build 5001812; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001812,
+              "ARMEABI_V7A": 5001812,
+              "X86": 5001812,
+              "X86_64": 5001812
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.21 build 5001968; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.21",
+            "versionCodes": {
+              "ARM64_V8A": 5001968,
+              "ARMEABI_V7A": 5001968,
+              "X86": 5001968,
+              "X86_64": 5001968
+            }
+          }
+        ],
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.22 build 5002244.",
+            "isExperimental": false,
+            "version": "2.0.22",
+            "versionCodes": {
+              "ARM64_V8A": 5002244,
+              "ARMEABI_V7A": 5002244,
+              "X86": 5002244,
+              "X86_64": 5002244
+            }
+          }
+        ],
+        "versions": [
+          "2.0.22"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Build 5002363 recommends Galaxy XR high-resolution 3-projection fix, GXR tongue bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded. Decoded-base adaptation; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.23",
+            "versionCodes": {
+              "ARM64_V8A": 5002363,
+              "ARMEABI_V7A": 5002363,
+              "X86": 5002363,
+              "X86_64": 5002363
+            }
+          }
+        ],
+        "versions": [
+          "2.0.23"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "RawResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Overrides the HMD identity reported to SteamVR. Recommended selects Meta Quest Pro for exact legacy bundle targets through 5002244, including 2.0.20/5001712; otherwise Galaxy XR. The Galaxy profile installs its complete transport identity while preserving stock controller/hand routing and extensions. Optional on 2.0.23/5002363; explicit Quest Pro and Pico profiles populate exact Galaxy XR product entries.",
+    "id": "4fb56c0c2e751661e8897ed8:4",
+    "legacy_id": 2950,
+    "metadata_status": "unverified",
+    "name": "Device identity",
+    "options": [
+      {
+        "default": "recommended",
+        "description": "Recommended uses Meta Quest Pro on exact legacy bundle targets through 5002244 (including 5001712), and Galaxy XR otherwise. Explicit profiles override that choice. Native-XR routing and verified legacy payloads are preserved.",
+        "key": "profile",
+        "required": true,
+        "title": "HMD identity",
+        "type": "kotlin.String",
+        "values": {
+          "Meta Quest Pro": "meta-quest-pro",
+          "PICO 4 Pro": "pico-4-pro",
+          "Recommended for this build (legacy Quest Pro / native Galaxy XR)": "recommended",
+          "Samsung Galaxy XR": "samsung-galaxy-xr",
+          "Stock identity (no change)": "stock-no-change"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.22"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.23"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Advanced XR compatibility",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.20 build 5001712.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001712,
+              "ARMEABI_V7A": 5001712,
+              "X86": 5001712,
+              "X86_64": 5001712
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.20 build 5001812; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001812,
+              "ARMEABI_V7A": 5001812,
+              "X86": 5001812,
+              "X86_64": 5001812
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.21 build 5001968; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.21",
+            "versionCodes": {
+              "ARM64_V8A": 5001968,
+              "ARMEABI_V7A": 5001968,
+              "X86": 5001968,
+              "X86_64": 5001968
+            }
+          }
+        ],
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.22 build 5002244.",
+            "isExperimental": false,
+            "version": "2.0.22",
+            "versionCodes": {
+              "ARM64_V8A": 5002244,
+              "ARMEABI_V7A": 5002244,
+              "X86": 5002244,
+              "X86_64": 5002244
+            }
+          }
+        ],
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Bypasses the 2 verified capability gates in QSVLDeviceHmd::Init for exact Steam Link 2.0.20/5001712, 2.0.20/5001812, 2.0.21/5001968, and 2.0.22/5002244 layouts.",
+    "id": "4fb56c0c2e751661e8897ed8:5",
+    "legacy_id": 2951,
+    "metadata_status": "unverified",
+    "name": "Force HMD initialization gates",
+    "options": [],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Advanced XR compatibility",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.20 build 5001712.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001712,
+              "ARMEABI_V7A": 5001712,
+              "X86": 5001712,
+              "X86_64": 5001712
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.20 build 5001812; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001812,
+              "ARMEABI_V7A": 5001812,
+              "X86": 5001812,
+              "X86_64": 5001812
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.21 build 5001968; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.21",
+            "versionCodes": {
+              "ARM64_V8A": 5001968,
+              "ARMEABI_V7A": 5001968,
+              "X86": 5001968,
+              "X86_64": 5001968
+            }
+          }
+        ],
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.22 build 5002244.",
+            "isExperimental": false,
+            "version": "2.0.22",
+            "versionCodes": {
+              "ARM64_V8A": 5002244,
+              "ARMEABI_V7A": 5002244,
+              "X86": 5002244,
+              "X86_64": 5002244
+            }
+          }
+        ],
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Bypasses the verified permission-state gate in XrSceneLobby for exact Steam Link 2.0.20/5001712, 2.0.20/5001812, 2.0.21/5001968, and 2.0.22/5002244 layouts.",
+    "id": "4fb56c0c2e751661e8897ed8:6",
+    "legacy_id": 2952,
+    "metadata_status": "unverified",
+    "name": "Force lobby permission-state gate",
+    "options": [],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Advanced XR compatibility",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.20 build 5001712.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001712,
+              "ARMEABI_V7A": 5001712,
+              "X86": 5001712,
+              "X86_64": 5001712
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.20 build 5001812; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001812,
+              "ARMEABI_V7A": 5001812,
+              "X86": 5001812,
+              "X86_64": 5001812
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.21 build 5001968; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.21",
+            "versionCodes": {
+              "ARM64_V8A": 5001968,
+              "ARMEABI_V7A": 5001968,
+              "X86": 5001968,
+              "X86_64": 5001968
+            }
+          }
+        ],
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.22 build 5002244.",
+            "isExperimental": false,
+            "version": "2.0.22",
+            "versionCodes": {
+              "ARM64_V8A": 5002244,
+              "ARMEABI_V7A": 5002244,
+              "X86": 5002244,
+              "X86_64": 5002244
+            }
+          }
+        ],
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Bypasses the 3 verified XR gates in exact Steam Link 2.0.20/5001712, 2.0.20/5001812, 2.0.21/5001968, and 2.0.22/5002244 layouts.",
+    "id": "4fb56c0c2e751661e8897ed8:7",
+    "legacy_id": 2953,
+    "metadata_status": "unverified",
+    "name": "Force stream XR gates",
+    "options": [],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Image quality",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Exact Steam Link 2.0.20/5001712 high-resolution target with its isolated 2-projection to 3-layer payload. The topology correction has prior user-reported startup and delayed-frame runtime evidence; this rebuilt binary remains uninstalled.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001712,
+              "ARMEABI_V7A": 5001712,
+              "X86": 5001712,
+              "X86_64": 5001712
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Static decoded-base adaptation of the Galaxy XR high-resolution patch for exact Steam Link 2.0.20 build 5001812; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001812,
+              "ARMEABI_V7A": 5001812,
+              "X86": 5001812,
+              "X86_64": 5001812
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Static decoded-base adaptation of the Galaxy XR high-resolution patch for exact Steam Link 2.0.21 build 5001968; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.21",
+            "versionCodes": {
+              "ARM64_V8A": 5001968,
+              "ARMEABI_V7A": 5001968,
+              "X86": 5001968,
+              "X86_64": 5001968
+            }
+          }
+        ],
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Static decoded-base adaptation of the Galaxy XR high-resolution patch for exact Steam Link 2.0.22 build 5002244; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.22",
+            "versionCodes": {
+              "ARM64_V8A": 5002244,
+              "ARMEABI_V7A": 5002244,
+              "X86": 5002244,
+              "X86_64": 5002244
+            }
+          }
+        ],
+        "versions": [
+          "2.0.22"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Static decoded-base adaptation of the Galaxy XR high-resolution patch for exact Steam Link 2.0.23 build 5002363; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.23",
+            "versionCodes": {
+              "ARM64_V8A": 5002363,
+              "ARMEABI_V7A": 5002363,
+              "X86": 5002363,
+              "X86_64": 5002363
+            }
+          }
+        ],
+        "versions": [
+          "2.0.23"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "Permission-free resolution fix for exact builds 5001712, 5001812, 5001968, 5002244, and 5002363. Preserves each build's native projection layout (2 layers on the supported 2.0.20 and 2.0.21 builds; 3 layers on supported 2.0.22 and 2.0.23 builds) and source formats, including future RGB10_A2, while appending a static 2x2 Android-surface compositor trigger with no image copy or reconstruction.",
+    "id": "4fb56c0c2e751661e8897ed8:8",
+    "legacy_id": 2954,
+    "metadata_status": "unverified",
+    "name": "Galaxy XR high-resolution 3-projection fix",
+    "options": [],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.22"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.23"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Recommended sets",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.22 build 5002244.",
+            "isExperimental": false,
+            "version": "2.0.22",
+            "versionCodes": {
+              "ARM64_V8A": 5002244,
+              "ARMEABI_V7A": 5002244,
+              "X86": 5002244,
+              "X86_64": 5002244
+            }
+          }
+        ],
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "ResourcePatch",
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "BytecodePatch",
+      "RawResourcePatch",
+      "BytecodePatch",
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "RawResourcePatch"
+    ],
+    "description": "Selects the 17-patch Galaxy XR legacy set, including Meta Quest Pro identity, native gates, face bridge, OLED calibration, microphone, battery, Visual Delay, explicit startup permissions and splash, and XR foundation. High-resolution output is guarded to verified layouts.",
+    "id": "4fb56c0c2e751661e8897ed8:9",
+    "legacy_id": 2955,
+    "metadata_status": "unverified",
+    "name": "Galaxy XR legacy foundation (through 2.0.22/5002244)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Recommended sets",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.20 build 5001712.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001712,
+              "ARMEABI_V7A": 5001712,
+              "X86": 5001712,
+              "X86_64": 5001712
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "ResourcePatch",
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "BytecodePatch",
+      "RawResourcePatch",
+      "BytecodePatch",
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "RawResourcePatch"
+    ],
+    "description": "Applies the 17-patch Galaxy XR legacy set for exact Steam Link 2.0.20 build 5001712, including explicit startup permissions and splash, Meta Quest Pro identity, permission-free high resolution, and the Final balanced tested OLED profile.",
+    "id": "4fb56c0c2e751661e8897ed8:10",
+    "legacy_id": 2956,
+    "metadata_status": "unverified",
+    "name": "Galaxy XR recommended set (2.0.20/5001712)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Recommended sets",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.20 build 5001812; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001812,
+              "ARMEABI_V7A": 5001812,
+              "X86": 5001812,
+              "X86_64": 5001812
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "ResourcePatch",
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "BytecodePatch",
+      "RawResourcePatch",
+      "BytecodePatch",
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "RawResourcePatch"
+    ],
+    "description": "Applies the same 17-patch Galaxy XR legacy set as 2.0.20/5001712 for exact Steam Link 2.0.20 build 5001812, including explicit startup permissions and splash, Meta Quest Pro identity, permission-free high resolution, and the Final balanced tested OLED profile. Native and APK adaptation; headset validation pending.",
+    "id": "4fb56c0c2e751661e8897ed8:11",
+    "legacy_id": 2957,
+    "metadata_status": "unverified",
+    "name": "Galaxy XR recommended set (2.0.20/5001812)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Recommended sets",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.21 build 5001968; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.21",
+            "versionCodes": {
+              "ARM64_V8A": 5001968,
+              "ARMEABI_V7A": 5001968,
+              "X86": 5001968,
+              "X86_64": 5001968
+            }
+          }
+        ],
+        "versions": [
+          "2.0.21"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "ResourcePatch",
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "BytecodePatch",
+      "RawResourcePatch",
+      "BytecodePatch",
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "RawResourcePatch"
+    ],
+    "description": "Applies the same 17-patch Galaxy XR legacy set as 2.0.20/5001712 for exact Steam Link 2.0.21 build 5001968, including explicit startup permissions and splash, Meta Quest Pro identity, permission-free high resolution, and the Final balanced tested OLED profile. Native and APK adaptation; headset validation pending.",
+    "id": "4fb56c0c2e751661e8897ed8:12",
+    "legacy_id": 2958,
+    "metadata_status": "unverified",
+    "name": "Galaxy XR recommended set (2.0.21/5001968)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.21"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Recommended sets",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.23 build 5002363; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.23",
+            "versionCodes": {
+              "ARM64_V8A": 5002363,
+              "ARMEABI_V7A": 5002363,
+              "X86": 5002363,
+              "X86_64": 5002363
+            }
+          }
+        ],
+        "versions": [
+          "2.0.23"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch",
+      "RawResourcePatch",
+      "RawResourcePatch",
+      "BytecodePatch",
+      "RawResourcePatch",
+      "RawResourcePatch"
+    ],
+    "description": "Applies the 6-patch Galaxy XR set for exact Steam Link 2.0.23 build 5002363. Preserves stock startup and permission requests except battery settings; includes the Final balanced OLED profile. Decoded-base validation; headset validation pending.",
+    "id": "4fb56c0c2e751661e8897ed8:13",
+    "legacy_id": 2959,
+    "metadata_status": "unverified",
+    "name": "Galaxy XR recommended set (2.0.23/5002363)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.23"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Tracking & audio",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.20 build 5001712.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001712,
+              "ARMEABI_V7A": 5001712,
+              "X86": 5001712,
+              "X86_64": 5001712
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.20 build 5001812; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001812,
+              "ARMEABI_V7A": 5001812,
+              "X86": 5001812,
+              "X86_64": 5001812
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.21 build 5001968; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.21",
+            "versionCodes": {
+              "ARM64_V8A": 5001968,
+              "ARMEABI_V7A": 5001968,
+              "X86": 5001968,
+              "X86_64": 5001968
+            }
+          }
+        ],
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.22 build 5002244.",
+            "isExperimental": false,
+            "version": "2.0.22",
+            "versionCodes": {
+              "ARM64_V8A": 5002244,
+              "ARMEABI_V7A": 5002244,
+              "X86": 5002244,
+              "X86_64": 5002244
+            }
+          }
+        ],
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "RawResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "For exact older Steam Link builds only. Installs libgxr_face_bridge.so (XR_FB_face_tracking2 → XR_ANDROID_face_tracking API layer) and adds android.permission.FACE_TRACKING to the manifest. See the [GXR Face Bridge source](https://github.com/compdoge/gxr-face-bridge) and matching [Galaxy XR VRCFT module](https://github.com/compdoge/LinkFT).",
+    "id": "4fb56c0c2e751661e8897ed8:14",
+    "legacy_id": 2960,
+    "metadata_status": "unverified",
+    "name": "GXR face bridge (version 5002318 and below)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Tracking & audio",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.23 build 5002363; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.23",
+            "versionCodes": {
+              "ARM64_V8A": 5002363,
+              "ARMEABI_V7A": 5002363,
+              "X86": 5002363,
+              "X86_64": 5002363
+            }
+          }
+        ],
+        "versions": [
+          "2.0.23"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "For exact Steam Link 2.0.23/5002363 with Valve's native Android XR face mapping and its independently verified native layout. Preserves Valve's face expressions and standard TongueOut while exposing Galaxy XR tongue out/left/right/up/down to the matching Galaxy XR VRCFT module.",
+    "id": "4fb56c0c2e751661e8897ed8:15",
+    "legacy_id": 2961,
+    "metadata_status": "unverified",
+    "name": "GXR tongue bridge (version 5002322 and above)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.23"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Tracking & audio",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.20 build 5001712.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001712,
+              "ARMEABI_V7A": 5001712,
+              "X86": 5001712,
+              "X86_64": 5001712
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.20 build 5001812; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001812,
+              "ARMEABI_V7A": 5001812,
+              "X86": 5001812,
+              "X86_64": 5001812
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.21 build 5001968; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.21",
+            "versionCodes": {
+              "ARM64_V8A": 5001968,
+              "ARMEABI_V7A": 5001968,
+              "X86": 5001968,
+              "X86_64": 5001968
+            }
+          }
+        ],
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.22 build 5002244.",
+            "isExperimental": false,
+            "version": "2.0.22",
+            "versionCodes": {
+              "ARM64_V8A": 5002244,
+              "ARMEABI_V7A": 5002244,
+              "X86": 5002244,
+              "X86_64": 5002244
+            }
+          }
+        ],
+        "versions": [
+          "2.0.22"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Build 5002363 recommends Galaxy XR high-resolution 3-projection fix, GXR tongue bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded. Decoded-base adaptation; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.23",
+            "versionCodes": {
+              "ARM64_V8A": 5002363,
+              "ARMEABI_V7A": 5002363,
+              "X86": 5002363,
+              "X86_64": 5002363
+            }
+          }
+        ],
+        "versions": [
+          "2.0.23"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Selects the Android AAudio microphone processing mode used by Steam Link. Galaxy XR testing found Voice Recognition clearer and louder than stock Voice Communication.",
+    "id": "4fb56c0c2e751661e8897ed8:16",
+    "legacy_id": 2962,
+    "metadata_status": "unverified",
+    "name": "Microphone input preset",
+    "options": [
+      {
+        "default": "voice-recognition",
+        "description": "Voice Recognition was the clearest usable-level mode in Galaxy XR recordings. Voice Performance and Unprocessed were substantially quieter; Voice Communication sounded more processed.",
+        "key": "preset",
+        "required": true,
+        "title": "Microphone mode",
+        "type": "kotlin.String",
+        "values": {
+          "Unprocessed (quiet)": "unprocessed",
+          "Voice Communication (Valve stock)": "voice-communication",
+          "Voice Performance (quiet)": "voice-performance",
+          "Voice Recognition (Best from my tests)": "voice-recognition"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.22"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.23"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Image quality",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.20 build 5001712.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001712,
+              "ARMEABI_V7A": 5001712,
+              "X86": 5001712,
+              "X86_64": 5001712
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.20 build 5001812; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001812,
+              "ARMEABI_V7A": 5001812,
+              "X86": 5001812,
+              "X86_64": 5001812
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.21 build 5001968; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.21",
+            "versionCodes": {
+              "ARM64_V8A": 5001968,
+              "ARMEABI_V7A": 5001968,
+              "X86": 5001968,
+              "X86_64": 5001968
+            }
+          }
+        ],
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.22 build 5002244.",
+            "isExperimental": false,
+            "version": "2.0.22",
+            "versionCodes": {
+              "ARM64_V8A": 5002244,
+              "ARMEABI_V7A": 5002244,
+              "X86": 5002244,
+              "X86_64": 5002244
+            }
+          }
+        ],
+        "versions": [
+          "2.0.22"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Build 5002363 recommends Galaxy XR high-resolution 3-projection fix, GXR tongue bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded. Decoded-base adaptation; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.23",
+            "versionCodes": {
+              "ARM64_V8A": 5002363,
+              "ARMEABI_V7A": 5002363,
+              "X86": 5002363,
+              "X86_64": 5002363
+            }
+          }
+        ],
+        "versions": [
+          "2.0.23"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "OLED calibration with optional VD-informed SDR foveal processing and a separate foveal gamma adjustment, always with 8-bit sRGB output. The VD options bypass the calibration profile on the fovea while retaining Valve's decoder colour correction. Foveal gamma can darken that layer in any mode. Exact builds 5001712, 5001812, 5001968, 5002244, and 5002363; visible improvement requires headset verification.",
+    "id": "4fb56c0c2e751661e8897ed8:17",
+    "legacy_id": 2963,
+    "metadata_status": "unverified",
+    "name": "OLED color calibration",
+    "options": [
+      {
+        "default": "final-balanced",
+        "description": "Selects gamma and saturation for both layers when the VD options are off, or for the base layer when a VD foveal option is on.",
+        "key": "profile",
+        "required": true,
+        "title": "Calibration profile",
+        "type": "kotlin.String",
+        "values": {
+          "Custom gamma and saturation": "custom",
+          "Final balanced tested (gamma 1.20, saturation 1.45)": "final-balanced",
+          "Initial tested (gamma 1.06, saturation 1.12)": "initial",
+          "Neutral comparison (gamma 1.00, saturation 1.00)": "neutral"
+        }
+      },
+      {
+        "default": 1.2,
+        "description": "Used by Custom profile. Allowed range: 0.50 to 2.50.",
+        "key": "gamma",
+        "required": true,
+        "title": "Gamma",
+        "type": "kotlin.Float",
+        "values": null
+      },
+      {
+        "default": 1.45,
+        "description": "Used by Custom profile. Allowed range: 0.00 to 3.00.",
+        "key": "saturation",
+        "required": true,
+        "title": "Saturation",
+        "type": "kotlin.Float",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "VD-informed SDR processing for declared 10-bit input: use highp sampling, retain Valve's decoder colour correction, bypass the calibration profile on the foveal layer, and add no shader noise. The separate foveal gamma adjustment still applies. Output is 8-bit sRGB. Does not negotiate host depth or reproduce VD's raw-YUV decoder import. Mutually exclusive with the 8-bit option and separate blue-noise patch.",
+        "key": "foveaVdLike10Bit",
+        "required": true,
+        "title": "Fovea VD-Like Input 10 bit",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Uses the same VD-informed SDR foveal processing for declared 8-bit input, retaining Valve's decoder colour correction while bypassing the calibration profile and adding no shader noise. The separate foveal gamma adjustment still applies. Output is 8-bit sRGB. Cannot recover precision already lost in the source. Mutually exclusive with the 10-bit option and separate blue-noise patch; does not negotiate host depth.",
+        "key": "foveaVdLike8Bit",
+        "required": true,
+        "title": "Fovea VD-Like Input 8 bit",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": 1.0,
+        "description": "Additional gamma on the foveal layer only, after its colour processing. 1.00 leaves it unchanged; higher values darken shadows and midtones. Try 1.02 first for a lighter foveal region. Works with either VD option or both off, before fade and optional blue-noise dithering. Background calibration and edge blending stay unchanged; this is manual compensation, not a verified seam fix.",
+        "key": "fovealGamma",
+        "required": true,
+        "title": "Foveal gamma adjustment",
+        "type": "kotlin.Float",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.22"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.23"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Startup & permissions",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.20 build 5001712.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001712,
+              "ARMEABI_V7A": 5001712,
+              "X86": 5001712,
+              "X86_64": 5001712
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.20 build 5001812; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001812,
+              "ARMEABI_V7A": 5001812,
+              "X86": 5001812,
+              "X86_64": 5001812
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.21 build 5001968; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.21",
+            "versionCodes": {
+              "ARM64_V8A": 5001968,
+              "ARMEABI_V7A": 5001968,
+              "X86": 5001968,
+              "X86_64": 5001968
+            }
+          }
+        ],
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.22 build 5002244.",
+            "isExperimental": false,
+            "version": "2.0.22",
+            "versionCodes": {
+              "ARM64_V8A": 5002244,
+              "ARMEABI_V7A": 5002244,
+              "X86": 5002244,
+              "X86_64": 5002244
+            }
+          }
+        ],
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Requests hand, eye and face tracking, microphone and Bluetooth permissions before opening Steam Link on exact older builds. Battery settings and the visible startup splash are separate patches.",
+    "id": "4fb56c0c2e751661e8897ed8:18",
+    "legacy_id": 2964,
+    "metadata_status": "unverified",
+    "name": "Startup permission requests (before 5002322)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Startup & permissions",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.20 build 5001712.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001712,
+              "ARMEABI_V7A": 5001712,
+              "X86": 5001712,
+              "X86_64": 5001712
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.20 build 5001812; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001812,
+              "ARMEABI_V7A": 5001812,
+              "X86": 5001812,
+              "X86_64": 5001812
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.21 build 5001968; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.21",
+            "versionCodes": {
+              "ARM64_V8A": 5001968,
+              "ARMEABI_V7A": 5001968,
+              "X86": 5001968,
+              "X86_64": 5001968
+            }
+          }
+        ],
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.22 build 5002244.",
+            "isExperimental": false,
+            "version": "2.0.22",
+            "versionCodes": {
+              "ARM64_V8A": 5002244,
+              "ARMEABI_V7A": 5002244,
+              "X86": 5002244,
+              "X86_64": 5002244
+            }
+          }
+        ],
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds the Launching Steam Link splash, older-build panel sizing and explicit unmanaged VRLink startup. Does not request tracking, microphone or Bluetooth permissions; select Startup permission requests separately.",
+    "id": "4fb56c0c2e751661e8897ed8:19",
+    "legacy_id": 2965,
+    "metadata_status": "unverified",
+    "name": "Startup splash and XR launch mode (before 5002322)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Startup & permissions",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.20 build 5001712.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001712,
+              "ARMEABI_V7A": 5001712,
+              "X86": 5001712,
+              "X86_64": 5001712
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.20 build 5001812; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001812,
+              "ARMEABI_V7A": 5001812,
+              "X86": 5001812,
+              "X86_64": 5001812
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.21 build 5001968; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.21",
+            "versionCodes": {
+              "ARM64_V8A": 5001968,
+              "ARMEABI_V7A": 5001968,
+              "X86": 5001968,
+              "X86_64": 5001968
+            }
+          }
+        ],
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.22 build 5002244.",
+            "isExperimental": false,
+            "version": "2.0.22",
+            "versionCodes": {
+              "ARM64_V8A": 5002244,
+              "ARMEABI_V7A": 5002244,
+              "X86": 5002244,
+              "X86_64": 5002244
+            }
+          }
+        ],
+        "versions": [
+          "2.0.22"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Build 5002363 recommends Galaxy XR high-resolution 3-projection fix, GXR tongue bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded. Decoded-base adaptation; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.23",
+            "versionCodes": {
+              "ARM64_V8A": 5002363,
+              "ARMEABI_V7A": 5002363,
+              "X86": 5002363,
+              "X86_64": 5002363
+            }
+          }
+        ],
+        "versions": [
+          "2.0.23"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Opens Android's per-app Battery usage page at startup so Unrestricted can be selected for XR streaming.",
+    "id": "4fb56c0c2e751661e8897ed8:20",
+    "legacy_id": 2966,
+    "metadata_status": "unverified",
+    "name": "Unrestricted battery usage",
+    "options": [],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.22"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.23"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Tracking & audio",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.20 build 5001712.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001712,
+              "ARMEABI_V7A": 5001712,
+              "X86": 5001712,
+              "X86_64": 5001712
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.20 build 5001812; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001812,
+              "ARMEABI_V7A": 5001812,
+              "X86": 5001812,
+              "X86_64": 5001812
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.21 build 5001968; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.21",
+            "versionCodes": {
+              "ARM64_V8A": 5001968,
+              "ARMEABI_V7A": 5001968,
+              "X86": 5001968,
+              "X86_64": 5001968
+            }
+          }
+        ],
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.22 build 5002244.",
+            "isExperimental": false,
+            "version": "2.0.22",
+            "versionCodes": {
+              "ARM64_V8A": 5002244,
+              "ARMEABI_V7A": 5002244,
+              "X86": 5002244,
+              "X86_64": 5002244
+            }
+          }
+        ],
+        "versions": [
+          "2.0.22"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Build 5002363 recommends Galaxy XR high-resolution 3-projection fix, GXR tongue bridge, Microphone input preset (Voice Recognition), Unrestricted battery usage, Visual Delay Fix (60 ms), and OLED color calibration with the Final balanced tested profile. The retired projection experiments are excluded. Decoded-base adaptation; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.23",
+            "versionCodes": {
+              "ARM64_V8A": 5002363,
+              "ARMEABI_V7A": 5002363,
+              "X86": 5002363,
+              "X86_64": 5002363
+            }
+          }
+        ],
+        "versions": [
+          "2.0.23"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Adds a configurable offset to the HMD OpenXR pose-query time and zeroes all six exported HMD velocity fields. Does not affect controller paths. Its trampoline uses a dedicated executable mapping over non-runtime ELF comment bytes and preserves live PLT entries.",
+    "id": "4fb56c0c2e751661e8897ed8:21",
+    "legacy_id": 2967,
+    "metadata_status": "unverified",
+    "name": "Visual Delay Fix",
+    "options": [
+      {
+        "default": 60,
+        "description": "libvrlink_scene.so: AArch64 MOVZ/MOVK at PLT cave adds value×1e6 ns to X2 in QSVLDeviceHmd::GetPose. Tested default: 60 ms. Allowed range: 0 to 4000 ms.",
+        "key": "offsetMs",
+        "required": true,
+        "title": "Pose offset (ms)",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.22"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.23"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Advanced XR compatibility",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.20 build 5001712.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001712,
+              "ARMEABI_V7A": 5001712,
+              "X86": 5001712,
+              "X86_64": 5001712
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.20 build 5001812; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001812,
+              "ARMEABI_V7A": 5001812,
+              "X86": 5001812,
+              "X86_64": 5001812
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.21 build 5001968; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.21",
+            "versionCodes": {
+              "ARM64_V8A": 5001968,
+              "ARMEABI_V7A": 5001968,
+              "X86": 5001968,
+              "X86_64": 5001968
+            }
+          }
+        ],
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.22 build 5002244.",
+            "isExperimental": false,
+            "version": "2.0.22",
+            "versionCodes": {
+              "ARM64_V8A": 5002244,
+              "ARMEABI_V7A": 5002244,
+              "X86": 5002244,
+              "X86_64": 5002244
+            }
+          }
+        ],
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Installs the Galaxy XR runtime bridge resources and extension DEX foundation used by other XR patches.",
+    "id": "4fb56c0c2e751661e8897ed8:22",
+    "legacy_id": 2968,
+    "metadata_status": "unverified",
+    "name": "XR Core Runtime",
+    "options": [],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Advanced XR compatibility",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.20 build 5001712.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001712,
+              "ARMEABI_V7A": 5001712,
+              "X86": 5001712,
+              "X86_64": 5001712
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.20 build 5001812; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001812,
+              "ARMEABI_V7A": 5001812,
+              "X86": 5001812,
+              "X86_64": 5001812
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.21 build 5001968; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.21",
+            "versionCodes": {
+              "ARM64_V8A": 5001968,
+              "ARMEABI_V7A": 5001968,
+              "X86": 5001968,
+              "X86_64": 5001968
+            }
+          }
+        ],
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.22 build 5002244.",
+            "isExperimental": false,
+            "version": "2.0.22",
+            "versionCodes": {
+              "ARM64_V8A": 5002244,
+              "ARMEABI_V7A": 5002244,
+              "X86": 5002244,
+              "X86_64": 5002244
+            }
+          }
+        ],
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Installs baseline Galaxy XR HMD/controller/default config payloads and dashboard bootstrap assets.",
+    "id": "4fb56c0c2e751661e8897ed8:23",
+    "legacy_id": 2969,
+    "metadata_status": "unverified",
+    "name": "XR Device Config Baseline",
+    "options": [],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Tracking & audio",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.20 build 5001712.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001712,
+              "ARMEABI_V7A": 5001712,
+              "X86": 5001712,
+              "X86_64": 5001712
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.20 build 5001812; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001812,
+              "ARMEABI_V7A": 5001812,
+              "X86": 5001812,
+              "X86_64": 5001812
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.21 build 5001968; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.21",
+            "versionCodes": {
+              "ARM64_V8A": 5001968,
+              "ARMEABI_V7A": 5001968,
+              "X86": 5001968,
+              "X86_64": 5001968
+            }
+          }
+        ],
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.22 build 5002244.",
+            "isExperimental": false,
+            "version": "2.0.22",
+            "versionCodes": {
+              "ARM64_V8A": 5002244,
+              "ARMEABI_V7A": 5002244,
+              "X86": 5002244,
+              "X86_64": 5002244
+            }
+          }
+        ],
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Installs ui_config.json mappings for XR pointer/button routing in launcher UI flows.",
+    "id": "4fb56c0c2e751661e8897ed8:24",
+    "legacy_id": 2970,
+    "metadata_status": "unverified",
+    "name": "XR Input Routing Config",
+    "options": [],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "category": "Advanced XR compatibility",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.20 build 5001712.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001712,
+              "ARMEABI_V7A": 5001712,
+              "X86": 5001712,
+              "X86_64": 5001712
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.20 build 5001812; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.20",
+            "versionCodes": {
+              "ARM64_V8A": 5001812,
+              "ARMEABI_V7A": 5001812,
+              "X86": 5001812,
+              "X86_64": 5001812
+            }
+          }
+        ],
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Native and APK adaptation for exact Steam Link 2.0.21 build 5001968; headset validation pending.",
+            "isExperimental": false,
+            "version": "2.0.21",
+            "versionCodes": {
+              "ARM64_V8A": 5001968,
+              "ARMEABI_V7A": 5001968,
+              "X86": 5001968,
+              "X86_64": 5001968
+            }
+          }
+        ],
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B2838",
+        "name": "Steam Link",
+        "packageName": "com.valvesoftware.steamlinkvr",
+        "targets": [
+          {
+            "description": "Verified Steam Link 2.0.22 build 5002244.",
+            "isExperimental": false,
+            "version": "2.0.22",
+            "versionCodes": {
+              "ARM64_V8A": 5002244,
+              "ARMEABI_V7A": 5002244,
+              "X86": 5002244,
+              "X86_64": 5002244
+            }
+          }
+        ],
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds Android XR/OpenXR permissions, features, runtime queries, and app-level XR properties.",
+    "id": "4fb56c0c2e751661e8897ed8:25",
+    "legacy_id": 2971,
+    "metadata_status": "unverified",
+    "name": "XR Manifest Capability Pack",
+    "options": [],
+    "packages": [
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.20"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.21"
+        ]
+      },
+      {
+        "name": "Steam Link",
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c"
+  },
+  {
+    "bundle_id": "4fc7dc8e3520c0029ace981d",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FF4500",
+        "name": "Reddit",
+        "packageName": "com.reddit.frontpage",
+        "signatures": [],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "2026.14.0"
+          }
+        ],
+        "versions": [
+          "2026.14.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Hides interactive app and game posts in feeds.",
+    "id": "4fc7dc8e3520c0029ace981d:0",
+    "legacy_id": 2972,
+    "metadata_status": "unverified",
+    "name": "Reddit - Hide app posts",
+    "options": [],
+    "packages": [
+      {
+        "name": "Reddit",
+        "versions": [
+          "2026.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.4.1",
+    "source_id": "52be807160b2760c"
+  },
+  {
+    "bundle_id": "4fc7dc8e3520c0029ace981d",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FF4500",
+        "name": "Reddit",
+        "packageName": "com.reddit.frontpage",
+        "signatures": [],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "2026.14.0"
+          }
+        ],
+        "versions": [
+          "2026.14.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Shows only NSFW posts when on and only non-NSFW posts when off.",
+    "id": "4fc7dc8e3520c0029ace981d:1",
+    "legacy_id": 2973,
+    "metadata_status": "unverified",
+    "name": "Reddit - NSFW mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "Reddit",
+        "versions": [
+          "2026.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.4.1",
+    "source_id": "52be807160b2760c"
+  },
+  {
+    "bundle_id": "4fc7dc8e3520c0029ace981d",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FF4500",
+        "name": "Reddit",
+        "packageName": "com.reddit.frontpage",
+        "signatures": [],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "2026.14.0"
+          }
+        ],
+        "versions": [
+          "2026.14.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Adds a vertical media viewer for post feeds, with community navigation and synchronized scrolling.",
+    "id": "4fc7dc8e3520c0029ace981d:2",
+    "legacy_id": 2974,
+    "metadata_status": "unverified",
+    "name": "Reddit - Vertical home feed",
+    "options": [],
+    "packages": [
+      {
+        "name": "Reddit",
+        "versions": [
+          "2026.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.4.1",
+    "source_id": "52be807160b2760c"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Blocks MoEngage, PostHog and Firebase events while the Morphe setting is off. Crashlytics is untouched so bugs stay reportable.",
+    "id": "505d4328110262d0ca46beb8:0",
+    "legacy_id": 2975,
+    "metadata_status": "unverified",
+    "name": "Analytics toggle",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Removes Google Play licence verification, so the re-signed app starts outside the Play Store.",
+    "id": "505d4328110262d0ca46beb8:1",
+    "legacy_id": 2976,
+    "metadata_status": "unverified",
+    "name": "Bypass PairIP licence check",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Stops the Developer Options warning and the root / Frida detection that otherwise block the app from starting.",
+    "id": "505d4328110262d0ca46beb8:2",
+    "legacy_id": 2977,
+    "metadata_status": "unverified",
+    "name": "Bypass security check",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Stops the native signature check that closes the app when the APK is not signed by Ather.",
+    "id": "505d4328110262d0ca46beb8:3",
+    "legacy_id": 2978,
+    "metadata_status": "unverified",
+    "name": "Bypass signature guard",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Stops the startup integrity gate that closes the app with a 'modified operating system' message on custom ROMs such as GrapheneOS.",
+    "id": "505d4328110262d0ca46beb8:4",
+    "legacy_id": 2979,
+    "metadata_status": "unverified",
+    "name": "Bypass startup integrity",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Records the charge sessions the scooter reports, so the Morphe history screen can show them.",
+    "id": "505d4328110262d0ca46beb8:5",
+    "legacy_id": 2980,
+    "metadata_status": "unverified",
+    "name": "Charge log",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Turns on the ride-stats feature flag that the app ships disabled.",
+    "id": "505d4328110262d0ca46beb8:6",
+    "legacy_id": 2981,
+    "metadata_status": "unverified",
+    "name": "Enable ride stats",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Turns the track alerts the app receives into local notifications.",
+    "id": "505d4328110262d0ca46beb8:7",
+    "legacy_id": 2982,
+    "metadata_status": "unverified",
+    "name": "Local notifications",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Uses the map provider chosen in the Morphe settings row and falls back to OpenStreetMap when Google Maps or Mappls cannot load.",
+    "id": "505d4328110262d0ca46beb8:8",
+    "legacy_id": 2983,
+    "metadata_status": "unverified",
+    "name": "Map provider",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Registers the Morphe settings, history and ride screens, the background ride service and its boot receiver in the app manifest.",
+    "id": "505d4328110262d0ca46beb8:9",
+    "legacy_id": 2984,
+    "metadata_status": "unverified",
+    "name": "Morphe screens",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds a \"Morphe settings\" row to the account screen, which opens the map provider, analytics and ride log settings.",
+    "id": "505d4328110262d0ca46beb8:10",
+    "legacy_id": 2985,
+    "metadata_status": "unverified",
+    "name": "Morphe settings row",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Makes the setup wizard ask only for Nearby device access, so scooter pairing completes without call log, contact or SMS permissions.",
+    "id": "505d4328110262d0ca46beb8:11",
+    "legacy_id": 2986,
+    "metadata_status": "unverified",
+    "name": "Pairing wizard",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Drops phone location, call log, contact and SMS permissions from the request list, so the app asks only for the permissions its features use.",
+    "id": "505d4328110262d0ca46beb8:12",
+    "legacy_id": 2987,
+    "metadata_status": "unverified",
+    "name": "Permission filter",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Reports Ather's own signing-certificate hash to Google's APIs, so Firebase login and live vehicle data keep working after the app is re-signed.",
+    "id": "505d4328110262d0ca46beb8:13",
+    "legacy_id": 2988,
+    "metadata_status": "unverified",
+    "name": "Report Ather's signing certificate",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Shows the rides recorded on this phone in the ride story screens, including their detail screen.",
+    "id": "505d4328110262d0ca46beb8:14",
+    "legacy_id": 2989,
+    "metadata_status": "unverified",
+    "name": "Ride log",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Shows the K1 authentication token(s) in a dialog and logs it to logcat for pairing with GadgetBridge without requiring root access.",
+    "id": "505d4328110262d0ca46beb8:15",
+    "legacy_id": 2990,
+    "metadata_status": "unverified",
+    "name": "Show K1 token(s)",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Captures the True Health report while the app builds it, so the Morphe history screen can show the part wear.",
+    "id": "505d4328110262d0ca46beb8:16",
+    "legacy_id": 2991,
+    "metadata_status": "unverified",
+    "name": "True Health capture",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "50b59ca1d217daa80276cef9",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a",
+        "18.0.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Triggers continuous tactile feedback pulses when the backspace key is held down during repeated deletion (with settings toggle and empty text suppression).",
+    "id": "50b59ca1d217daa80276cef9:0",
+    "legacy_id": 2992,
+    "metadata_status": "unverified",
+    "name": "Backspace Repeat Haptic Feedback",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a",
+          "18.0.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "faf5b81797bd769d",
+    "use": true
+  },
+  {
+    "bundle_id": "50b59ca1d217daa80276cef9",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a",
+        "18.0.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Broadcasts an Intent event to Tasker whenever the Enter or IME action key is pressed on Gboard (with target package, action type, and cursor text).",
+    "id": "50b59ca1d217daa80276cef9:1",
+    "legacy_id": 2993,
+    "metadata_status": "unverified",
+    "name": "Enter Key Tasker Event",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a",
+          "18.0.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "faf5b81797bd769d",
+    "use": true
+  },
+  {
+    "bundle_id": "50b59ca1d217daa80276cef9",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a",
+        "18.0.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Allows customizing glide typing trail color (interactive HSV Color Wheel & Rainbow RGB), fade speed, thickness, and length.",
+    "id": "50b59ca1d217daa80276cef9:2",
+    "legacy_id": 2994,
+    "metadata_status": "unverified",
+    "name": "Glide Trail Customization",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a",
+          "18.0.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "faf5b81797bd769d",
+    "use": true
+  },
+  {
+    "bundle_id": "52569c1707e0e96c56c8783d",
+    "compatiblePackages": {
+      "com.formulaone.production": null
+    },
+    "dependencies": [],
+    "description": "Enables UHD/4K streaming on all devices by bypassing all device support checks.",
+    "id": "52569c1707e0e96c56c8783d:0",
+    "legacy_id": 2995,
+    "metadata_status": "unverified",
+    "name": "Enable UHD/4K",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.formulaone.production",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.0.5",
+    "source_id": "8ba3ef6c2039a876",
+    "use": true
+  },
+  {
+    "bundle_id": "52b7b5cb7afbbe5a26e28c3b",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#5865F2",
+        "name": "Discord",
+        "packageName": "com.discord",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides the gift button in the chat message composer.",
+    "id": "52b7b5cb7afbbe5a26e28c3b:0",
+    "legacy_id": 2996,
+    "metadata_status": "unverified",
+    "name": "Hide gift button",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "f12127d734258d56"
+  },
+  {
+    "bundle_id": "52b7b5cb7afbbe5a26e28c3b",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#5865F2",
+        "name": "Discord",
+        "packageName": "com.discord",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides the quest promo banner at the top of the server channel list.",
+    "id": "52b7b5cb7afbbe5a26e28c3b:1",
+    "legacy_id": 2997,
+    "metadata_status": "unverified",
+    "name": "Hide quest promo banner",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "f12127d734258d56"
+  },
+  {
+    "bundle_id": "52b7b5cb7afbbe5a26e28c3b",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#5865F2",
+        "name": "Discord",
+        "packageName": "com.discord",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Forces Discord to always run the bundle inside the APK and ignore downloaded (OTA) updates, which would otherwise silently undo the other patches. Turn this off (or update the APK) to receive official updates.",
+    "id": "52b7b5cb7afbbe5a26e28c3b:2",
+    "legacy_id": 2998,
+    "metadata_status": "unverified",
+    "name": "Pin app to built-in bundle",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "f12127d734258d56"
+  },
+  {
+    "bundle_id": "53278be5281b37ea4a097522",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#A020F0",
+        "name": "Anghami",
+        "packageName": "com.anghami",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "8.0.28",
+            "versionCodes": {
+              "ARM64_V8A": 8000280,
+              "ARMEABI_V7A": 8000280,
+              "X86": 8000280,
+              "X86_64": 8000280
+            }
+          }
+        ],
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Bypasses secure window restrictions to allow screenshots and screen recording across the app.",
+    "id": "53278be5281b37ea4a097522:0",
+    "legacy_id": 2999,
+    "metadata_status": "unverified",
+    "name": "Allow Screenshots",
+    "options": [],
+    "packages": [
+      {
+        "name": "Anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "9f405e88f9f460f0"
+  },
+  {
+    "bundle_id": "53278be5281b37ea4a097522",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#A020F0",
+        "name": "Anghami",
+        "packageName": "com.anghami",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "8.0.28",
+            "versionCodes": {
+              "ARM64_V8A": 8000280,
+              "ARMEABI_V7A": 8000280,
+              "X86": 8000280,
+              "X86_64": 8000280
+            }
+          }
+        ],
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Prevents audio advertisements between songs and treats playback tracks as ad-free.",
+    "id": "53278be5281b37ea4a097522:1",
+    "legacy_id": 3000,
+    "metadata_status": "unverified",
+    "name": "Block Audio Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "9f405e88f9f460f0"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev",
+    "latest"
+  ],
+  "created_at": "2026-09-26T12:44:55",
+  "description": "## 1.0.0-dev.1 (2026-09-26)\n\n### 🐛 Bug Fixes\n\n* preserve non-forwardable message types ([04792ec](https://github.com/cingxcong/morphe.patches.telegram/commit/04792ec4fcde6d5506fee7e19e78ff26693ef3ad))\n* preserve normal paste after disabling rich HTML ([381a623](https://github.com/cingxcong/morphe.patches.telegram/commit/381a623686c575e8a4deb28af4f6dff8b0ed0611))\n",
+  "download_url": "https://github.com/cingxcong/morphe.patches.telegram/releases/download/v1.0.0-dev.1/patches-1.0.0-dev.1.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": null,
+  "extraction_status": "unverified",
+  "extraction_terminal": false,
+  "file_hash": null,
+  "id": "f0963b8f7a658d8819ddf694",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fcingxcong%2Fmorphe.patches.telegram&version=latest&channel=prerelease",
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fcingxcong%2Fmorphe.patches.telegram&version=latest&channel=any"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 563,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "Telegram",
+    "Telegram Plus",
+    "Telegram Web"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 0,
+  "patch_metadata_version": "v1.0.0-dev.1",
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_config_hash": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "provider_digest": null,
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": "N/A",
+  "source_id": "480f115bf0a038e2",
+  "version": "v1.0.0-dev.1"
+}

@@ -1,0 +1,41 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-10-02T21:59:02",
+  "description": "### Fixed\r\n- The Nuvio button now opens Nuvio in its own entry in the app switcher, instead of appearing merged into Letterboxd's task.\r\n\r\n### Changed\r\n- Refactored the Stremio/Nuvio launch code to share one helper for targeting a package, giving it its own task, and falling back to the web player, instead of repeating that logic three times.\r\n- Simplified the internal app-selection logic from a three-state enum down to a boolean, since the third state was never actually treated differently anywhere. No user-facing behavior change beyond the task-switcher fix above.",
+  "download_url": "https://github.com/ethanm6/letterboxd-stremio-morphe-patch/releases/download/v1.4.3/patches-1.4.3.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": null,
+  "extraction_status": "unverified",
+  "extraction_terminal": false,
+  "file_hash": null,
+  "id": "81cfdded21d385b98572b76c",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fethanm6%2Fletterboxd-stremio-morphe-patch&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fethanm6%2Fletterboxd-stremio-morphe-patch&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 302,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 0,
+  "patch_metadata_version": "v1.4.3",
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_config_hash": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "provider_digest": null,
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": "N/A",
+  "source_id": "3e8e5a50c73396e6",
+  "version": "v1.4.3"
+}

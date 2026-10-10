@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-09-17T22:46:58",
+  "description": "**The Tracearr patches are now universal patches.**\n\nI originally wrote \"Unlock Premium\" and \"Disable Expo OTA updates\" for Tracearr specifically, not realizing existing universal patches (e.g. [hoo-dles' Pairip patch](https://github.com/hoo-dles/morphe-patches)) would've gotten me close. The mechanisms were never Tracearr-specific: Pairip's license classes are injected unobfuscated by Google into every protected app, and the expo-updates toggle applies to any Expo app, so both are now available for any app you patch:\n\n- **\"Unlock Premium\" → \"Disable Pairip license check\"** (now also covers Pairip's trial-end path)\n- **\"Disable Expo OTA updates\"** (unchanged behavior, any Expo app)\n\nBonus: unlike patches that fake a successful response, this one no-ops the check entirely, so it works on degoogled devices with no Play Store or microG needed.\n\nBoth are now **off by default**, enable them per app in Morphe. If you had \"Unlock Premium\" enabled for Tracearr, re-enable it under its new name.\n\n---\n\n## [2.3.0](https://github.com/braiNtropy/braintropy-patches/compare/v2.2.0...v2.3.0) (2026-09-17)\n\n### ✨ New Features\n\n* Turn Tracearr patches into universal patches ([f4f0874](https://github.com/braiNtropy/braintropy-patches/commit/f4f087408bb1d6f91419097e8a08a943ab2f885f))",
+  "download_url": "https://github.com/braiNtropy/braintropy-patches/releases/download/v2.3.0/patches-2.3.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": null,
+  "extraction_status": "unverified",
+  "extraction_terminal": false,
+  "file_hash": null,
+  "id": "430e1eb640c22ae2190e414f",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FbraiNtropy%2Fbraintropy-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FbraiNtropy%2Fbraintropy-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 148,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "Waking Up"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 0,
+  "patch_metadata_version": "v2.3.0",
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_config_hash": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "provider_digest": null,
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": "N/A",
+  "source_id": "077f3247474aceb4",
+  "version": "v2.3.0"
+}

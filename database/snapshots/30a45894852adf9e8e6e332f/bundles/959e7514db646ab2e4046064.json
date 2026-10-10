@@ -1,0 +1,44 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev",
+    "latest"
+  ],
+  "created_at": "2026-10-04T11:00:23",
+  "description": "## [1.6.0-dev.4](https://github.com/jkennethcarino/adobo/compare/v1.6.0-dev.3...v1.6.0-dev.4) (2026-10-04)\n\n### Updated App Support\n\n* **Reddit:** Add support for `2026.39.1` ([f2d95ec](https://github.com/jkennethcarino/adobo/commit/f2d95ece77ad68ff473e9ff3c15943964d31c123))\n* **Reddit:** Add support for `2026.40.0` ([ff85972](https://github.com/jkennethcarino/adobo/commit/ff85972f835b52ce19af1dc81355d038a0678197))\n",
+  "download_url": "https://github.com/jkennethcarino/adobo/releases/download/v1.6.0-dev.4/patches-1.6.0-dev.4.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": null,
+  "extraction_status": "unverified",
+  "extraction_terminal": false,
+  "file_hash": null,
+  "id": "959e7514db646ab2e4046064",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fjkennethcarino%2Fadobo&version=latest&channel=prerelease",
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fjkennethcarino%2Fadobo&version=latest&channel=any"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 344,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "9GAG",
+    "Reddit"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 0,
+  "patch_metadata_version": "v1.6.0-dev.4",
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_config_hash": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "provider_digest": null,
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": "N/A",
+  "source_id": "37b2e2602691a1f6",
+  "version": "v1.6.0-dev.4"
+}
