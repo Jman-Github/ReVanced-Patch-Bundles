@@ -1,0 +1,42 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "stable"
+  ],
+  "created_at": "2026-04-14T08:35:18Z",
+  "description": "# [1.4.0](https://github.com/polka-bear/morphe-patches/compare/v1.3.0...v1.4.0) (2026-04-14)\n\n\n### Features\n\n* **ipoji:** Unlock pro and remove ads ([ddd44d5](https://github.com/polka-bear/morphe-patches/commit/ddd44d52fc6663a1a8f50908442c51de4d4bf455))\n\n\n\n",
+  "download_url": "https://github.com/polka-bear/morphe-patches/releases/download/v1.4.0/patches-1.4.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:20d9d1cc26ee333d845d21b5c268a4796a628b6314588aa57bd6738b7fda040c",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "20d9d1cc26ee333d845d21b5c268a4796a628b6314588aa57bd6738b7fda040c",
+  "id": "d943d53bd5bb6057461cdc87",
+  "import_urls": {
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fpolka-bear%2Fmorphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 514,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.ipoji.app",
+    "com.vladlee.easyblacklist"
+  ],
+  "patch_count": 3,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.4.0",
+  "patch_refresh_attempted_at": "2026-10-10T16:47:21.565249186Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:20d9d1cc26ee333d845d21b5c268a4796a628b6314588aa57bd6738b7fda040c",
+  "release_status": "unverified",
+  "release_url": "https://github.com/polka-bear/morphe-patches/releases/tag/v1.4.0",
+  "signature_download_url": null,
+  "source_id": "10c45ad7ad88aae7",
+  "version": "v1.4.0"
+}

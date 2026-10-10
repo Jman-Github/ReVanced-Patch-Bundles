@@ -1,0 +1,42 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "stable"
+  ],
+  "created_at": "2026-08-23T07:52:59Z",
+  "description": "## [1.1.0](https://github.com/XTapped/morphe-patches/compare/v1.0.0...v1.1.0) (2026-08-23)\n\n### 🐛 Bug Fixes\n\n* use decoded MotionCam resource paths ([296b3db](https://github.com/XTapped/morphe-patches/commit/296b3db9939d86ddf17fa9fc68f5eb7951962f07))\n\n### ✨ New Features\n\n* add MotionCam Unlock Pro patch ([e08d476](https://github.com/XTapped/morphe-patches/commit/e08d476526bc6f05dd50844413ede7095a432ba0))\n* extend MotionCam Unlock Pro branding ([7b23096](https://github.com/XTapped/morphe-patches/commit/7b230966551ed50a4f6f4a6c6ddbb500763d5c70))\n* spoof MotionCam installer source ([6571ab6](https://github.com/XTapped/morphe-patches/commit/6571ab63308233ed2f452443f9360b2c97134775))\n",
+  "download_url": "https://github.com/XTapped/morphe-patches/releases/download/v1.1.0/patches-1.1.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:a923ac99214a3641696cad2a491d5a7eaaba52f7dafff6723bd51c51b23fde72",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "a923ac99214a3641696cad2a491d5a7eaaba52f7dafff6723bd51c51b23fde72",
+  "id": "285b5a7761b6b698db18de40",
+  "import_urls": {
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FXTapped%2Fmorphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 96,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.motioncam",
+    "com.robskie.tether"
+  ],
+  "patch_count": 2,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.1.0",
+  "patch_refresh_attempted_at": "2026-10-10T16:49:11.051456232Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:a923ac99214a3641696cad2a491d5a7eaaba52f7dafff6723bd51c51b23fde72",
+  "release_status": "unverified",
+  "release_url": "https://github.com/XTapped/morphe-patches/releases/tag/v1.1.0",
+  "signature_download_url": null,
+  "source_id": "f7788b819cbb04de",
+  "version": "v1.1.0"
+}
