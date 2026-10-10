@@ -103,7 +103,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Samsung-Morphe](#-samsung-morphe-bundle-patch-list) | 2 | 1 | Generated |
 | [YT-YA-Voiceover](#-yt-ya-voiceover-bundle-patch-list) | 3 | 1 | Generated |
 | [Perplexity-STT](#-perplexity-stt-bundle-patch-list) | 1 | 1 | Generated |
-| [Browzomje](#-browzomje-bundle-patch-list) | 33 | 2 | Generated |
+| [Browzomje](#-browzomje-bundle-patch-list) | 36 | 2 | Generated |
 | [Morphe-Portal](#-morphe-portal-bundle-patch-list) | 3 | 2 | Generated |
 | [Zpatches](#-zpatches-bundle-patch-list) | 14 | 7 | Generated |
 | [iHealth-Morphe](#-ihealth-morphe-bundle-patch-list) | 6 | 2 | Generated |
@@ -1225,7 +1225,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Browzomje Bundle Patch List:
 [📦 Browzomje-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-browzomje-patches-bundle-morphe)
 <details>
-<summary><b>Browzomje</b> - 33 patches, 2 apps</summary>
+<summary><b>Browzomje</b> - 36 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -1234,34 +1234,37 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Instant rewards``` | ```Grants the reward of every "watch an ad" button — hints, streak repairs, extra puzzles — immediately, without playing a video. This is what keeps those buttons working once "Remove ads" is enabled: without it the game believes no video is available and hands out nothing.``` | ```Easy Sudoku``` | ```5.70.0``` |
 | ```Reclaim ad banner space``` | ```Collapses the empty strip the banner used to occupy at the bottom of the board, so the puzzle gets the space back instead of staring at a blank rectangle. Only useful together with "Remove ads".``` | ```Easy Sudoku``` | ```5.70.0``` |
 | ```Remove ads``` | ```Turns off every ad Easy Sudoku shows: the home banner, the interstitials between puzzles, the app-open ad and all the background preloading. It works by telling the game its own "ads removed" purchase is already active, which also unlocks the Fun, Ice and Killer Sudoku modes that are otherwise gated behind watching ads. Keep "Instant rewards" enabled too, or the "watch an ad for a hint" buttons stop giving anything.``` | ```Easy Sudoku``` | ```5.70.0``` |
-| ```Copy direct link``` | ```Adds a "Copy direct link" option to the pin menu, copying the direct CDN media link instead of the Pinterest web link.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Disable ads``` | ```Removes sponsored pins from the home, search, related and board feeds. Also carries the "Hide product pins" and "Hide board modules in search" filters, both switchable from the Morphe settings screen.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Disable AppsFlyer tracking``` | ```Neutralises the AppsFlyer attribution SDK, so no install, event or uninstall data leaves the device.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Disable email confirmation dialog``` | ```Closes the "confirm your email" modal, and similar ones, when enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Disable Google Engage``` | ```Stops Pinterest publishing your content to Google (Discover, Assistant, Play Store).``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Disable Google Engage worker``` | ```Blocks the periodic Google Engage job, the other way content reaches Google.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Disable third-party trackers``` | ```Turns off the embedded advertising and telemetry SDKs (AdMob, Bugsnag, Firebase, Privacy Sandbox) and strips the Advertising ID permission. Push notifications keep working.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Download board``` | ```Adds an option to the board's "…" menu to bulk download the images and videos of the loaded pins.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Download pin from long press``` | ```Adds a download button to the circular menu you get by long-pressing a pin, so the image can be saved without opening it.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Download video``` | ```Adds a "Download video" option to the pin menu, saving the clip to the Downloads folder.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Hide ad views``` | ```Collapses Pinterest's ad-only views, so no ad chrome is drawn even if the app builds one. Follows the "Disable ads" switch.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Hide comments``` | ```Hides the pin comments section, the comment preview and the comments button, when the matching Morphe setting is enabled.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Hide Create nav button``` | ```Hides the "+" (create Pin) navigation button, when enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Hide greeting header buttons``` | ```Hides the create and inbox buttons in the home feed header, when the matching Morphe settings are enabled.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Hide Notifications nav button``` | ```Hides the notifications navigation button, when enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Hide screenshot share menu``` | ```Removes the panel Pinterest opens after a screenshot, and stops it watching for screenshots where possible.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Hide search history``` | ```Hides the "Recent searches" section on the search screen and below the search bar. Pinterest still logs searches server-side.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Hide Search nav button``` | ```Hides the search navigation button, when enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Morphe runtime names``` | ```Resolves the class Pinterest builds its toasts with, so Morphe's messages look like the app's own.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Morphe settings entry``` | ```Adds the "Morphe" item to the Account Settings list to open the toggle screen.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Morphe settings screen (label)``` | ```Renames the reused string resource for the "Morphe" entry in Settings, across all languages.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Morphe settings screen (manifest)``` | ```Registers the Morphe settings Activity in the manifest, with an intent-filter for the morphe:// scheme.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Neutralize advertising ID``` | ```Returns an empty Google Advertising ID and forces "limit ad tracking", without crashing the app.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Open links in the default browser``` | ```Opens links in the phone's default browser instead of Pinterest's in-app browser, when the matching Morphe setting is enabled.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Sanitize copied links``` | ```Turns the pin.it link that "Copy link" copies, whose slug identifies who shared it, into the plain pin link. Switchable from Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Sanitize shared links``` | ```Strips tracking parameters from the link on the Android share sheet and resolves pin.it short links to the plain pin link. Switchable from Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Set pin as wallpaper``` | ```Adds a "Set as wallpaper" option to the pin menu, which downloads the image and sets it as the device wallpaper.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
-| ```Use the system share sheet``` | ```Opens the Android system share sheet instead of Pinterest's in-app share sheet, when the matching Morphe setting is enabled.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0``` |
+| ```Copy direct link``` | ```Adds a "Copy direct link" option to the pin menu, copying the direct CDN media link instead of the Pinterest web link.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Disable ads``` | ```Removes sponsored pins from the home, search, related and board feeds. Also carries the "Hide product pins" and "Hide board modules in search" filters, both switchable from the Morphe settings screen.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Disable AppsFlyer tracking``` | ```Neutralises the AppsFlyer attribution SDK, so no install, event or uninstall data leaves the device.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Disable email confirmation dialog``` | ```Closes the "confirm your email" modal, and similar ones, when enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Disable Google Engage``` | ```Stops Pinterest publishing your content to Google (Discover, Assistant, Play Store).``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Disable Google Engage worker``` | ```Blocks the periodic Google Engage job, the other way content reaches Google.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Disable third-party trackers``` | ```Turns off the embedded advertising and telemetry SDKs (AdMob, Bugsnag, Firebase, Privacy Sandbox) and strips the Advertising ID permission. Push notifications keep working.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Download board``` | ```Adds an option to the board's "…" menu to bulk download the images and videos of the loaded pins.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Download images in highest available quality``` | ```Uses the largest image variant provided by Pinterest for the native Download image menu action.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Download pin from long press``` | ```Adds a download button to the circular menu you get by long-pressing a pin, so the image can be saved without opening it.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Download video``` | ```Adds a "Download video" option to the pin menu, saving the clip to the Downloads folder.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Filter pin menu actions``` | ```Hides selected native pin menu actions by their localized labels, one per line.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Hide ad views``` | ```Collapses Pinterest's ad-only views, so no ad chrome is drawn even if the app builds one. Follows the "Disable ads" switch.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Hide comments``` | ```Hides the pin comments section, the comment preview and the comments button, when the matching Morphe setting is enabled.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Hide Create nav button``` | ```Hides the "+" (create Pin) navigation button, when enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Hide greeting header buttons``` | ```Hides the create and inbox buttons in the home feed header, when the matching Morphe settings are enabled.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Hide Notifications nav button``` | ```Hides the notifications navigation button, when enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Hide screenshot share menu``` | ```Removes the panel Pinterest opens after a screenshot, and stops it watching for screenshots where possible.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Hide search history``` | ```Hides the "Recent searches" section on the search screen and below the search bar. Pinterest still logs searches server-side.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Hide Search nav button``` | ```Hides the search navigation button, when enabled in Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Morphe runtime names``` | ```Resolves the class Pinterest builds its toasts with, so Morphe's messages look like the app's own.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Morphe settings entry``` | ```Adds the "Morphe" item to the Account Settings list to open the toggle screen.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Morphe settings screen (label)``` | ```Renames the reused string resource for the "Morphe" entry in Settings, across all languages.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Morphe settings screen (manifest)``` | ```Registers the Morphe settings Activity in the manifest, with an intent-filter for the morphe:// scheme.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Neutralize advertising ID``` | ```Returns an empty Google Advertising ID and forces "limit ad tracking", without crashing the app.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Open links in the default browser``` | ```Opens links in the phone's default browser instead of Pinterest's in-app browser, when the matching Morphe setting is enabled.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Sanitize copied links``` | ```Turns the pin.it link that "Copy link" copies, whose slug identifies who shared it, into the plain pin link. Switchable from Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Sanitize shared links``` | ```Strips tracking parameters from the link on the Android share sheet and resolves pin.it short links to the plain pin link. Switchable from Morphe settings.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Set pin as wallpaper``` | ```Adds a "Set as wallpaper" option to the pin menu, which downloads the image and sets it as the device wallpaper.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Show pin image information``` | ```Adds optional image dimensions and format information to the pin menu.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
+| ```Use the system share sheet``` | ```Opens the Android system share sheet instead of Pinterest's in-app share sheet, when the matching Morphe setting is enabled.``` | ```Pinterest``` | ```14.23.0, 14.28.0, 14.32.0, 14.34.0, 14.39.0``` |
 
 </details>
 
@@ -4464,30 +4467,30 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Enable voice typing in incognito``` | ```Enables voice typing in incognito mode.``` | ```Gboard``` | ```All versions``` |
 | ```Toggle feature flags``` | ```Toggles Gboard feature flags to enable or disable experimental or hidden features.``` | ```Gboard``` | ```All versions``` |
 | ```Remove IMDb's ads, trackers, and analytics``` | ```Removes ads, trackers, and analytics in the IMDb app.``` | ```IMDb``` | ```All versions``` |
-| ```Colorize comment indent lines``` | ```Replaces the default gray comment indent lines with color-coded lines.``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
-| ```Disable bottom navigation bar auto-hide``` | ```Prevents the bottom navigation bar from hiding when scrolling down.``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
-| ```Disable home feed auto-refresh``` | ```Disables the automatic refresh of the home feed after viewing a post or after being away from the app.``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
-| ```Disable home feed refresh on back to exit``` | ```Disables the back-to-top scroll and home feed refresh on back navigation to exit.``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
-| ```Disable home feed swipe``` | ```Disables the horizontal page swipe gesture used to switch feeds.``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
-| ```Disable home screen redirect``` | ```Disables the automatic redirect to the home screen after being away from the app or returning from the background.``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
-| ```Disable post detail swipe``` | ```Disables the horizontal swipe gesture used to navigate between posts.``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
-| ```Disable screenshot banner``` | ```Disables the banner that shows up after taking a screenshot.``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
-| ```Enable guest mode``` | ```Enables browsing Reddit without signing in.``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
-| ```Hide Ask button from search bar``` | ```Hides the Ask button (Reddit Answers) from the search bar.``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
-| ```Hide awards``` | ```Hides the awards on Reddit posts and comments.``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
-| ```Hide community highlights``` | ```Hides the community highlights section.``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
-| ```Hide community menu badge``` | ```Hides the red notification badge on the community menu (hamburger menu).``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
-| ```Hide crosspost``` | ```Hides the crosspost on Reddit posts.``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
-| ```Hide post view counts``` | ```Removes the "views" indicator from the post metadata.``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
-| ```Hide prominent search bar``` | ```Hides the new prominent search bar on the main screen. Applicable only to version 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
-| ```Hide share count``` | ```Hides the share count on Reddit posts.``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
-| ```Hide upvote scores``` | ```Hides the scores on Reddit posts and comments.``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
-| ```Hide user community badges``` | ```Hides the user community badges on Reddit comments.``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
-| ```Hide user flairs``` | ```Hides the user flairs on Reddit comments.``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
-| ```Make system navigation bar transparent``` | ```Sets the system navigation bar to fully transparent.``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
-| ```Open external links directly``` | ```Opens external links directly without going through out.reddit.com.``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
-| ```Remove ads and telemetry``` | ```Removes ads and telemetry everywhere.``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
-| ```Sanitize share links``` | ```Unshortens and removes the tracking query parameters from shared links.``` | ```Reddit``` | ```2026.40.0, 2026.39.1, 2026.38.0, 2026.24.0, 2026.14.0``` |
+| ```Colorize comment indent lines``` | ```Replaces the default gray comment indent lines with color-coded lines.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
+| ```Disable bottom navigation bar auto-hide``` | ```Prevents the bottom navigation bar from hiding when scrolling down.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
+| ```Disable home feed auto-refresh``` | ```Disables the automatic refresh of the home feed after viewing a post or after being away from the app.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
+| ```Disable home feed refresh on back to exit``` | ```Disables the back-to-top scroll and home feed refresh on back navigation to exit.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
+| ```Disable home feed swipe``` | ```Disables the horizontal page swipe gesture used to switch feeds.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
+| ```Disable home screen redirect``` | ```Disables the automatic redirect to the home screen after being away from the app or returning from the background.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
+| ```Disable post detail swipe``` | ```Disables the horizontal swipe gesture used to navigate between posts.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
+| ```Disable screenshot banner``` | ```Disables the banner that shows up after taking a screenshot.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
+| ```Enable guest mode``` | ```Enables browsing Reddit without signing in.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
+| ```Hide Ask button from search bar``` | ```Hides the Ask button (Reddit Answers) from the search bar.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
+| ```Hide awards``` | ```Hides the awards on Reddit posts and comments.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
+| ```Hide community highlights``` | ```Hides the community highlights section.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
+| ```Hide community menu badge``` | ```Hides the red notification badge on the community menu (hamburger menu).``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
+| ```Hide crosspost``` | ```Hides the crosspost on Reddit posts.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
+| ```Hide post view counts``` | ```Removes the "views" indicator from the post metadata.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
+| ```Hide prominent search bar``` | ```Hides the new prominent search bar on the main screen. Applicable only to version 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
+| ```Hide share count``` | ```Hides the share count on Reddit posts.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
+| ```Hide upvote scores``` | ```Hides the scores on Reddit posts and comments.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
+| ```Hide user community badges``` | ```Hides the user community badges on Reddit comments.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
+| ```Hide user flairs``` | ```Hides the user flairs on Reddit comments.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
+| ```Make system navigation bar transparent``` | ```Sets the system navigation bar to fully transparent.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
+| ```Open external links directly``` | ```Opens external links directly without going through out.reddit.com.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
+| ```Remove ads and telemetry``` | ```Removes ads and telemetry everywhere.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
+| ```Sanitize share links``` | ```Unshortens and removes the tracking query parameters from shared links.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.1, 2026.24.0, 2026.14.0``` |
 | ```Block ads, trackers, and analytics``` | ```Blocks ads, trackers, analytics, and unwanted content in apps and games using a hosts file.``` | ```Universal``` | ```All versions``` |
 | ```Change package name``` | ```Appends ".adobo" to the package name by default. Changing the package name of the app can lead to unexpected issues.``` | ```Universal``` | ```All versions``` |
 | ```Deactivate Firebase Analytics``` | ```Deactivates Firebase Analytics and removes its associated broadcast receivers and services.``` | ```Universal``` | ```All versions``` |
@@ -12285,7 +12288,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Download photos``` | ```Adds "Download photo" to the menu of the photo viewer.``` | ```InterPals``` | ```All versions``` |
 | ```Feed age and gender filter``` | ```Adds "Age & gender" to the filter of the feed.``` | ```InterPals``` | ```All versions``` |
 | ```Hide ads``` | ```Blocks banner, interstitial, rewarded, app open and native Google ads.``` | ```InterPals, Untappd``` | ```All versions``` |
-| ```Hide ads``` | ```Hides ads in the feed, search results and listings.``` | ```Kleinanzeigen``` | ```All versions``` |
+| ```Hide ads``` | ```Hides ads in the feed, search results and listings, and the promoted sellers in the feed.``` | ```Kleinanzeigen``` | ```All versions``` |
 | ```Hide Pur``` | ```Hides the offers of the ad free subscription "Kleinanzeigen Pur".``` | ```Kleinanzeigen``` | ```All versions``` |
 | ```Sanitize sharing links``` | ```Removes the tracking parameters (utm_*) from shared listing and profile links.``` | ```Kleinanzeigen``` | ```All versions``` |
 | ```Block popup ads``` | ```Blocks fullscreen promotions ("Pendragon" messages) shown when opening the app.``` | ```Spotify``` | ```All versions``` |

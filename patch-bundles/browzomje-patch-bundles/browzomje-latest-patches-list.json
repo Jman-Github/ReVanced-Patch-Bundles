@@ -1,5 +1,5 @@
 {
-    "version": "v1.10.0",
+    "version": "v1.11.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -24,13 +24,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -87,13 +92,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -126,13 +136,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -165,13 +180,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -204,13 +224,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -243,13 +268,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -282,13 +312,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -345,13 +380,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -384,13 +424,62 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Uses the largest image variant provided by Pinterest for the native Download image menu action.",
+            "name": "Download images in highest available quality",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0",
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -423,13 +512,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -462,13 +556,62 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides selected native pin menu actions by their localized labels, one per line.",
+            "name": "Filter pin menu actions",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0",
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -501,13 +644,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -540,13 +688,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -579,13 +732,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -618,13 +776,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -657,13 +820,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -696,13 +864,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -735,13 +908,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -798,13 +976,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -837,13 +1020,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -879,13 +1067,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -918,13 +1111,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -957,13 +1155,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -996,13 +1199,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -1083,13 +1291,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -1122,13 +1335,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -1161,13 +1379,18 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
@@ -1202,13 +1425,62 @@
                         {
                             "isExperimental": false,
                             "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
                         }
                     ],
                     "versions": [
                         "14.23.0",
                         "14.28.0",
                         "14.32.0",
-                        "14.34.0"
+                        "14.34.0",
+                        "14.39.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds optional image dimensions and format information to the pin menu.",
+            "name": "Show pin image information",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "appIconColor": "#E60023",
+                    "name": "Pinterest",
+                    "packageName": "com.pinterest",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "14.23.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.28.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.32.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.34.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "14.39.0"
+                        }
+                    ],
+                    "versions": [
+                        "14.23.0",
+                        "14.28.0",
+                        "14.32.0",
+                        "14.34.0",
+                        "14.39.0"
                     ]
                 }
             ],
