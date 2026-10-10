@@ -1,0 +1,43 @@
+{
+  "bundle_type": "ReVanced:V4",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-05-25T21:55:45Z",
+  "description": "## Emby Patches\n\nPatch bundle for ReVanced Manager.\n\n### Spoof server host\nReplaces the Emby server validation host with a custom one to bypass premiere checks.\n\n### Usage\n1. Import this `.rvp` file in ReVanced Manager (Patches → ✏️ → + → Select from storage)\n2. Select the Emby app (com.mb.android)\n3. Enable \"Spoof server host\"\n4. Patch\n",
+  "download_url": "https://github.com/BakasuraRCE/bakasura-patches/releases/download/v1.0.0/patches-1.0.0.rvp",
+  "ecosystem": "revanced",
+  "extracted_provider_digest": "sha256:84d95fd1e9870194d03e09fca516cfb973f677b696150cd43af348b7cc5fccb1",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "84d95fd1e9870194d03e09fca516cfb973f677b696150cd43af348b7cc5fccb1",
+  "id": "4e568488bb0dd56942048162",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FBakasuraRCE%2Fbakasura-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FBakasuraRCE%2Fbakasura-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 177,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.mb.android"
+  ],
+  "patch_count": 1,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.0.0",
+  "patch_refresh_attempted_at": "2026-10-10T17:04:11.259497847Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.revanced:patcher-jvm:22.1.0-dev.1",
+  "provider_digest": "sha256:84d95fd1e9870194d03e09fca516cfb973f677b696150cd43af348b7cc5fccb1",
+  "release_status": "available",
+  "release_url": "https://github.com/BakasuraRCE/bakasura-patches/releases/tag/v1.0.0",
+  "signature_download_url": "N/A",
+  "source_id": "fb4782c266360e34",
+  "version": "v1.0.0"
+}

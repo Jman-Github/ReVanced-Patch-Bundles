@@ -1,0 +1,46 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev",
+    "latest"
+  ],
+  "created_at": "2026-10-10T08:51:09Z",
+  "description": "## [1.6.0-dev.5](https://github.com/jkennethcarino/adobo/compare/v1.6.0-dev.4...v1.6.0-dev.5) (2026-10-10)\n\n### Updated App Support\n\n* **Reddit:** Add support for `2026.41.0` ([dd85b6f](https://github.com/jkennethcarino/adobo/commit/dd85b6f0ffced0fa764496c1ec858c6c1b70c599))\n",
+  "download_url": "https://github.com/jkennethcarino/adobo/releases/download/v1.6.0-dev.5/patches-1.6.0-dev.5.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:984dcefff41d9f97d3225f27e85f38c9e970e8c8155d74238890dc557aaa36f5",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "984dcefff41d9f97d3225f27e85f38c9e970e8c8155d74238890dc557aaa36f5",
+  "id": "f87731a1d396274ac6f4384c",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fjkennethcarino%2Fadobo&version=latest&channel=prerelease",
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fjkennethcarino%2Fadobo&version=latest&channel=any"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 8193,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.google.android.inputmethod.latin",
+    "com.imdb.mobile",
+    "com.ninegag.android.app",
+    "com.reddit.frontpage"
+  ],
+  "patch_count": 50,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.6.0-dev.5",
+  "patch_refresh_attempted_at": "2026-10-10T17:34:45.669331182Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:984dcefff41d9f97d3225f27e85f38c9e970e8c8155d74238890dc557aaa36f5",
+  "release_status": "available",
+  "release_url": "https://github.com/jkennethcarino/adobo/releases/tag/v1.6.0-dev.5",
+  "signature_download_url": "N/A",
+  "source_id": "37b2e2602691a1f6",
+  "version": "v1.6.0-dev.5"
+}

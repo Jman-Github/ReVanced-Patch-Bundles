@@ -1,0 +1,45 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-10-10T09:30:54Z",
+  "description": "## [1.14.0](https://github.com/ahmedyarub/morphe-patches/compare/v1.13.0...v1.14.0) (2026-10-10)\n\n### ✨ New Features\n\n* Auto-not-interested, story netego filter, X 12.33.0 compat ([637ecec](https://github.com/ahmedyarub/morphe-patches/commit/637ecec6dc0c5890b8553f54e64d16e2a07ef662))\n* Remove Grok, hide suggested followings, filter Your Turn stories, reorder menu ([96f3902](https://github.com/ahmedyarub/morphe-patches/commit/96f3902959954067eecd4888e1c46ba34dbeffb7))\n",
+  "download_url": "https://github.com/ahmedyarub/morphe-patches/releases/download/v1.14.0/patches-1.14.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:e7c364652082884301ad6110633f04d836879b20823b671a2da300e98ee9ea83",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "e7c364652082884301ad6110633f04d836879b20823b671a2da300e98ee9ea83",
+  "id": "b479be9ee96f8a68c28a975e",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fahmedyarub%2Fmorphe-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fahmedyarub%2Fmorphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 6115,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.instagram.android",
+    "com.reddit.frontpage",
+    "com.twitter.android"
+  ],
+  "patch_count": 60,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.14.0",
+  "patch_refresh_attempted_at": "2026-10-10T17:34:49.281555147Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:e7c364652082884301ad6110633f04d836879b20823b671a2da300e98ee9ea83",
+  "release_status": "available",
+  "release_url": "https://github.com/ahmedyarub/morphe-patches/releases/tag/v1.14.0",
+  "signature_download_url": "N/A",
+  "source_id": "2d7b929ffc6870d6",
+  "version": "v1.14.0"
+}

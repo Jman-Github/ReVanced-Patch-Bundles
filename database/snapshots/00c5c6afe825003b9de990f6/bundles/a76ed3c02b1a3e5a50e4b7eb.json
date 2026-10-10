@@ -1,0 +1,46 @@
+{
+  "bundle_type": "ReVanced:V3",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2024-08-11T10:11:53Z",
+  "description": "",
+  "download_url": "https://github.com/Hepolise/LuckyToolPatches/releases/download/latest/revanced-patches-1.0.2.jar",
+  "ecosystem": "revanced",
+  "extracted_provider_digest": null,
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "ac1990f2193b2b8aea9fd47e2f59a9729fb5079bae1c56d021413b84d3b2b1fb",
+  "id": "a76ed3c02b1a3e5a50e4b7eb",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FHepolise%2FLuckyToolPatches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FHepolise%2FLuckyToolPatches&version=latest&channel=stable"
+  },
+  "integrations": {
+    "url": "https://github.com/ReVanced/revanced-integrations/releases/download/v1.16.0/revanced-integrations-1.16.0.apk",
+    "version": "v1.16.0"
+  },
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 400,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.luckyzyx.luckytool"
+  ],
+  "patch_count": 1,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "latest",
+  "patch_refresh_attempted_at": "2026-10-10T17:05:23.283287832Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.revanced:revanced-patcher:19.3.1",
+  "provider_digest": null,
+  "release_status": "available",
+  "release_url": "https://github.com/Hepolise/LuckyToolPatches/releases/tag/latest",
+  "signature_download_url": null,
+  "source_id": "e2fe9950340415a4",
+  "version": "latest"
+}

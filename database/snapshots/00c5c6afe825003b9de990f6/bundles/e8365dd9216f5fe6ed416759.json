@@ -1,0 +1,46 @@
+{
+  "bundle_type": "ReVanced:V3",
+  "channels": [
+    "stable"
+  ],
+  "created_at": "2024-03-26T06:35:19Z",
+  "description": "## Note: From this version, you have to use [GMSCore](https://github.com/Revanced/GmsCore/releases/latest)\r\n- **feat(YouTube Music):** Add support for `v6.43+`\r\n- **feat(MicroG Support):** Change default microG package name to `app.revanced`\r\n- **feat(Spoof Player Parameter):** Disabled by default\r\n- **feat(Hide Shorts Component):**: Add `Hide Shorts video title`, `Hide sound metadata label` and `Hide video link label` settings\r\n- **fix(Hide interstitial ads):** Prevent app crash if hiding interstitial ads is not possible",
+  "download_url": "https://github.com/fromhgbwithluv/ReX-patches/releases/download/v2.220.10/revanced-patches-2.220.10.jar",
+  "ecosystem": "revanced",
+  "extracted_provider_digest": null,
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "110d89a0f5332542505f3cdeb3f3cdafa18fa7a9f5b36fb22caa9d843e622d20",
+  "id": "e8365dd9216f5fe6ed416759",
+  "import_urls": {
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FYT-Advanced%2FReX-patches&version=latest&channel=stable"
+  },
+  "integrations": {
+    "url": "https://github.com/fromhgbwithluv/ReX-integrations/releases/download/v1.16.1/revanced-integrations-1.16.1.apk",
+    "version": "v1.16.1"
+  },
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 549,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.google.android.apps.youtube.music",
+    "com.google.android.youtube",
+    "com.reddit.frontpage"
+  ],
+  "patch_count": 194,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v2.220.10",
+  "patch_refresh_attempted_at": "2026-10-10T17:07:20.277122018Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.revanced:revanced-patcher:19.3.1",
+  "provider_digest": null,
+  "release_status": "unverified",
+  "release_url": "https://github.com/fromhgbwithluv/ReX-patches/releases/tag/v2.220.10",
+  "signature_download_url": null,
+  "source_id": "ffeda532a7e58a20",
+  "version": "v2.220.10"
+}
