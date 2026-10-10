@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-09-27T18:29:11Z",
+  "description": "## What's Changed\n\n\n\n### Features\n\n- **tiktok:** Add native comment sort controls by @icysymmetra ([`e1fb74c`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/e1fb74c740f862d702b2d03a2968960ca5d9d954))\n\n- **tiktok:** Add reviewed local feature patches by @icysymmetra ([`0e4a6e1`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/0e4a6e1d9b4687f41328d3112ef8c341de4a081a))\n\n- Add Split-View Comment Section for Foldable/Wide Devices by @HazyArc14 ([`2fc6eb1`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/2fc6eb148d5b8cb717192643c505ca30cad02d33))\n\n- Add share sheet modifications by @HazyArc14 ([`3e92957`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/3e92957509558f5b3c89817c6cb1e69fd27a2980))\n\n\n### Bug Fixes\n\n- **tiktok:** Split auto scroll into separate patch by @icysymmetra ([`683979b`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/683979b1ff98d5fc707a4ae401a8365306ec47b7))\n\n- Cover secure window flag writes by @icysymmetra ([`79abbbf`](https://github.com/hxreborn/hxreborn-tiktok-patches/commit/79abbbfc23c3ea21cc9350f3d206dfd2af125b88))\n\n\n\n",
+  "download_url": "https://github.com/hxreborn/hxreborn-tiktok-patches/releases/download/v1.4.0/patches-1.4.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:18a62e13f320246dd91b03273a7fd70f4e6e0f37fb1f370d627f7b65ebb3b456",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "18a62e13f320246dd91b03273a7fd70f4e6e0f37fb1f370d627f7b65ebb3b456",
+  "id": "84bb4c5d2eefb619ba8757d1",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fhxreborn%2Fhxreborn-tiktok-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fhxreborn%2Fhxreborn-tiktok-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 307,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.zhiliaoapp.musically"
+  ],
+  "patch_count": 43,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.4.0",
+  "patch_refresh_attempted_at": "2026-10-10T16:45:14.825125969Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:18a62e13f320246dd91b03273a7fd70f4e6e0f37fb1f370d627f7b65ebb3b456",
+  "release_status": "unverified",
+  "release_url": "https://github.com/hxreborn/hxreborn-tiktok-patches/releases/tag/v1.4.0",
+  "signature_download_url": null,
+  "source_id": "6a193c3149a2fd5a",
+  "version": "v1.4.0"
+}
