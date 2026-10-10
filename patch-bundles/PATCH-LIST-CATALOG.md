@@ -285,7 +285,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Hari-Telegram](#-hari-telegram-bundle-patch-list) | 20 | 3 | Generated |
 | [Travian](#-travian-bundle-patch-list) | 2 | 1 | Generated |
 | [HelioFloxZ](#-heliofloxz-bundle-patch-list) | 2 | 1 | Generated |
-| [Ahmedyarub](#-ahmedyarub-bundle-patch-list) | 59 | 3 | Generated |
+| [Ahmedyarub](#-ahmedyarub-bundle-patch-list) | 60 | 3 | Generated |
 | [Epxec](#-epxec-bundle-patch-list) | 16 | 15 | Generated |
 | [Dhrubonai](#-dhrubonai-bundle-patch-list) | 46 | 25 | Generated |
 | [PixivPatches](#-pixivpatches-bundle-patch-list) | 8 | 1 | Generated |
@@ -3818,26 +3818,26 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```App icon``` | ```Adds an option to select from the Reddit app icons available in the manifest.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Custom font``` | ```Adds an option to replace Reddit Sans / Roboto with a custom TTF or OTF font file at runtime.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Disable modern home``` | ```Adds an option to disable the modern home UI. This patch works with Reddit 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Force system font``` | ```Adds an option that renders Reddit with the device system font instead of Reddit Sans / Roboto.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Hide ads``` | ```Adds options to hide ads.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Hide communities shelf``` | ```Adds an option to hide the related or suggested communities shelf in subreddits.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Hide Trending shelves``` | ```Adds an option to hide the Trending shelves from feed and search suggestions.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
-| ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0, 2024.02.0``` |
-| ```Start as guest``` | ```Skips the forced startup login screen using Reddit's native guest browsing mode.``` | ```Reddit``` | ```2026.40.0, 2026.39.0, 2026.38.0, 2026.24.0, 2026.14.0, 2026.10.0``` |
+| ```App icon``` | ```Adds an option to select from the Reddit app icons available in the manifest.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.0, 2026.24.0, 2026.10.0``` |
+| ```Custom branding name for Reddit``` | ```Changes the Reddit app name to the name specified in patch options.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.0, 2026.24.0, 2026.10.0``` |
+| ```Custom font``` | ```Adds an option to replace Reddit Sans / Roboto with a custom TTF or OTF font file at runtime.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.0, 2026.24.0, 2026.10.0``` |
+| ```Disable modern home``` | ```Adds an option to disable the modern home UI. This patch works with Reddit 2026.24.0 and earlier.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.0, 2026.24.0, 2026.10.0``` |
+| ```Disable screenshot popup``` | ```Adds an option to disable the popup that appears when taking a screenshot.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.0, 2026.24.0, 2026.10.0``` |
+| ```Force system font``` | ```Adds an option that renders Reddit with the device system font instead of Reddit Sans / Roboto.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.0, 2026.24.0, 2026.10.0``` |
+| ```Hide ads``` | ```Adds options to hide ads.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.0, 2026.24.0, 2026.10.0``` |
+| ```Hide Ask button``` | ```Adds an option to hide Ask button in the search bar.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.0, 2026.24.0, 2026.10.0``` |
+| ```Hide communities shelf``` | ```Adds an option to hide the related or suggested communities shelf in subreddits.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.0, 2026.24.0, 2026.10.0``` |
+| ```Hide navigation buttons``` | ```Adds options to hide buttons in the navigation bar.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.0, 2026.24.0, 2026.10.0``` |
+| ```Hide Reddit search``` | ```Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.0, 2026.24.0, 2026.10.0``` |
+| ```Hide sidebar components``` | ```Adds options to hide the sidebar components.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.0, 2026.24.0, 2026.10.0``` |
+| ```Hide Trending shelves``` | ```Adds an option to hide the Trending shelves from feed and search suggestions.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.0, 2026.24.0, 2026.10.0``` |
+| ```Open links directly``` | ```Adds an option to skip over redirection URLs in external links.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.0, 2026.24.0, 2026.10.0``` |
+| ```Open links externally``` | ```Adds an option to always open links in your browser instead of with the in-app-browser.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.0, 2026.24.0, 2026.10.0``` |
+| ```Remove subreddit dialog``` | ```Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.0, 2026.24.0, 2026.10.0``` |
+| ```Sanitize sharing links``` | ```Adds an option to sanitize sharing links by removing tracking query parameters.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.0, 2026.24.0, 2026.10.0``` |
+| ```Show view count``` | ```Adds an option to show the view count of Posts.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.0, 2026.24.0, 2026.10.0``` |
+| ```Spoof signature``` | ```Spoofs the signature of the app to fix notification issues.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.0, 2026.24.0, 2026.10.0, 2024.02.0``` |
+| ```Start as guest``` | ```Skips the forced startup login screen using Reddit's native guest browsing mode.``` | ```Reddit``` | ```2026.41.0, 2026.40.0, 2026.39.0, 2026.24.0, 2026.10.0``` |
 | ```Change installer source``` | ```Spoofs the installer source so the app appears to be installed from an app store.``` | ```Universal``` | ```All versions``` |
 | ```Clone app``` | ```Changes the app package name to allow installing the same app multiple times. By default ".morphe" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.``` | ```Universal``` | ```All versions``` |
 | ```Disable Play Store updates``` | ```Disables Play Store updates by setting the version code to the maximum allowed. This patch may cause unexpected issues with some apps and does not work if the app is installed by root mounting``` | ```Universal``` | ```All versions``` |
@@ -8820,10 +8820,11 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Ahmedyarub Bundle Patch List:
 [📦 Ahmedyarub-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-ahmedyarub-patches-bundle-morphe)
 <details>
-<summary><b>Ahmedyarub</b> - 59 patches, 3 apps</summary>
+<summary><b>Ahmedyarub</b> - 60 patches, 3 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Auto not interested``` | ```Skips the reason popup and auto-submits when tapping Not Interested.``` | ```Instagram``` | ```450.0.0.50.77``` |
 | ```Bypass signature check``` | ```N/A``` | ```Instagram``` | ```450.0.0.50.77``` |
 | ```Disable analytics``` | ```Blocks analytics requests sent to Instagram and Facebook servers.``` | ```Instagram``` | ```450.0.0.50.77``` |
 | ```Disable screenshot detection``` | ```Disables screenshot detection in direct messages and stories.``` | ```Instagram``` | ```450.0.0.50.77``` |
@@ -8842,47 +8843,47 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Save deleted messages``` | ```Keeps a local copy of incoming DMs so ones the sender deletes stay readable. Messages are stored unencrypted in the app's private storage.``` | ```Instagram``` | ```450.0.0.50.77``` |
 | ```Remove Reddit Pro section``` | ```Removes the Reddit Pro section from the community drawer, and the Reddit Pro promos: the post creation and subreddit join upsell sheets, and the Reddit Pro banner on the profile feed.``` | ```Reddit``` | ```2026.37.0``` |
 | ```Remove Resources and Games on Reddit sections``` | ```Removes the Resources and Games on Reddit sections from the community drawer.``` | ```Reddit``` | ```2026.37.0``` |
-| ```Add ability to copy media link``` | ```Adds "Copy media link" to the post menu: the direct links of the post's photos, videos and GIFs.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Custom download folder``` | ```Saves downloaded photos and videos to a folder of your choice instead of Download/X.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Custom share menu``` | ```Hides options from the post menu.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Custom sharing domain``` | ```Shares and copies links with another domain, such as fxtwitter.com, in place of x.com.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Customize default reply sorting``` | ```Sets the sort replies open with.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Customize explore tabs``` | ```Hides tabs from the Explore page.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Customize Inline action Bar items``` | ```Hides actions from the bar under each post.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Customize Navigation Bar items``` | ```Hides tabs from the bottom navigation bar. Home always stays.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Customize notification tabs``` | ```Hides tabs from Notifications. At least one tab always stays.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Customize search suggestions``` | ```Hides kinds of suggestion from the search box.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Customize search tab items``` | ```Hides tabs from search results. At least one tab always stays.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Customize side bar items``` | ```Hides rows from the side bar.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Customize timeline top bar``` | ```Hides tabs from the top of the home timeline. At least one tab always stays.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Delete from database``` | ```Adds options to the Morphe settings to delete cached promoted entries or clear cached timelines.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Disable auto timeline scroll on launch``` | ```Opens the home timelines where you left them, instead of at the newest posts.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Enable debug menu for posts``` | ```Adds "Post data" to the post menu: everything the app knows about the post, as text.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Enable force HD videos``` | ```Always plays videos at the highest quality the device supports, whatever the connection.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Enable Undo Posts``` | ```Holds each post for a few seconds before sending it, so it can be undone.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Feed filters``` | ```Adds feed filters to timelines: media only (images, videos, GIFs), hide followed profiles, and include/exclude keyword filtering. Toggle each filter from the Morphe settings.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Filter posts by keyword``` | ```Hides posts whose text contains any of your keywords, ignoring case. Edit the keywords from "Filtered keywords" in any post's menu, or in the Morphe settings.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Force enable translate``` | ```Offers to translate every post, not only those the server marks translatable.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Handle custom twitter links``` | ```Opens links to other X frontends, such as fxtwitter and vxtwitter, in the app. They have to be enabled under "Open by default" in the app's system settings.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Hide badges from navigation bar icons``` | ```Hides the unread counts and dots on the bottom navigation bar.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Hide Banner``` | ```Hides the "See new posts" pill at the top of the timeline.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Hide Community Notes``` | ```Hides Community Notes under posts.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Hide FAB``` | ```Hides the floating Post button.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Hide promote button``` | ```Hides the Boost button on your posts and the Boost item in their menu.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Hook feature flag``` | ```Overrides the app's feature switches with values chosen when patching.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Import/Export login token``` | ```Adds Export login and Import login to the Morphe settings, opened from the app icon's shortcuts. An export holds everything needed to use your account.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Legacy share links``` | ```Shares posts as x.com/<username>/status/<id> rather than x.com/i/status/<id>.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Native downloader``` | ```Lets every photo, video and GIF be saved from its long-press menu and the media viewer, without a watermark.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Native reader mode``` | ```Adds "Reader mode" to the post menu: the post's text, selectable, with links to its media.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Native translator``` | ```Adds "Translate with Google" to the post menu.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```No shortened URL``` | ```Opens links in posts at their real address instead of through t.co.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Remove Ads``` | ```Removes promoted posts, accounts and trends from timelines.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Remove premium upsell``` | ```Removes Premium upsells: the Upgrade button on the home timeline, the Premium side bar row, and the Get verified cards and prompts.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Share Tweet as Image``` | ```Adds "Share as image" to the share sheet of a post, which shares it as an image card.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Show poll results``` | ```Shows the results of polls without voting. Polls cannot be voted on while this is applied.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Show sensitive media``` | ```Shows media marked sensitive without blurring it behind a warning.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Support external downloader``` | ```Adds "Open in downloader" to the post menu, which shares the post's link with an app of your choice.``` | ```X``` | ```12.32.0-prod.01``` |
-| ```Unlock Premium checks``` | ```Makes the app's own Premium subscription checks always pass. Features the server enforces still need a subscription.``` | ```X``` | ```12.32.0-prod.01``` |
+| ```Add ability to copy media link``` | ```Adds "Copy media link" to the post menu: the direct links of the post's photos, videos and GIFs.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Custom download folder``` | ```Saves downloaded photos and videos to a folder of your choice instead of Download/X.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Custom share menu``` | ```Hides options from the post menu.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Custom sharing domain``` | ```Shares and copies links with another domain, such as fxtwitter.com, in place of x.com.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Customize default reply sorting``` | ```Sets the sort replies open with.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Customize explore tabs``` | ```Hides tabs from the Explore page.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Customize Inline action Bar items``` | ```Hides actions from the bar under each post.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Customize Navigation Bar items``` | ```Hides tabs from the bottom navigation bar. Home always stays.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Customize notification tabs``` | ```Hides tabs from Notifications. At least one tab always stays.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Customize search suggestions``` | ```Hides kinds of suggestion from the search box.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Customize search tab items``` | ```Hides tabs from search results. At least one tab always stays.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Customize side bar items``` | ```Hides rows from the side bar.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Customize timeline top bar``` | ```Hides tabs from the top of the home timeline. At least one tab always stays.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Delete from database``` | ```Adds options to the Morphe settings to delete cached promoted entries or clear cached timelines.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Disable auto timeline scroll on launch``` | ```Opens the home timelines where you left them, instead of at the newest posts.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Enable debug menu for posts``` | ```Adds "Post data" to the post menu: everything the app knows about the post, as text.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Enable force HD videos``` | ```Always plays videos at the highest quality the device supports, whatever the connection.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Enable Undo Posts``` | ```Holds each post for a few seconds before sending it, so it can be undone.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Feed filters``` | ```Adds feed filters to timelines: media only (images, videos, GIFs), hide followed profiles, and include/exclude keyword filtering. Toggle each filter from the Morphe settings.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Filter posts by keyword``` | ```Hides posts whose text contains any of your keywords, ignoring case. Edit the keywords from "Filtered keywords" in any post's menu, or in the Morphe settings.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Force enable translate``` | ```Offers to translate every post, not only those the server marks translatable.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Handle custom twitter links``` | ```Opens links to other X frontends, such as fxtwitter and vxtwitter, in the app. They have to be enabled under "Open by default" in the app's system settings.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Hide badges from navigation bar icons``` | ```Hides the unread counts and dots on the bottom navigation bar.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Hide Banner``` | ```Hides the "See new posts" pill at the top of the timeline.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Hide Community Notes``` | ```Hides Community Notes under posts.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Hide FAB``` | ```Hides the floating Post button.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Hide promote button``` | ```Hides the Boost button on your posts and the Boost item in their menu.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Hook feature flag``` | ```Overrides the app's feature switches with values chosen when patching.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Import/Export login token``` | ```Adds Export login and Import login to the Morphe settings, opened from the app icon's shortcuts. An export holds everything needed to use your account.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Legacy share links``` | ```Shares posts as x.com/<username>/status/<id> rather than x.com/i/status/<id>.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Native downloader``` | ```Lets every photo, video and GIF be saved from its long-press menu and the media viewer, without a watermark.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Native reader mode``` | ```Adds "Reader mode" to the post menu: the post's text, selectable, with links to its media.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Native translator``` | ```Adds "Translate with Google" to the post menu.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```No shortened URL``` | ```Opens links in posts at their real address instead of through t.co.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Remove Ads``` | ```Removes promoted posts, accounts and trends from timelines.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Remove premium upsell``` | ```Removes Premium upsells: the Upgrade button on the home timeline, the Premium side bar row, and the Get verified cards and prompts.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Share Tweet as Image``` | ```Adds "Share as image" to the share sheet of a post, which shares it as an image card.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Show poll results``` | ```Shows the results of polls without voting. Polls cannot be voted on while this is applied.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Show sensitive media``` | ```Shows media marked sensitive without blurring it behind a warning.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Support external downloader``` | ```Adds "Open in downloader" to the post menu, which shares the post's link with an app of your choice.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
+| ```Unlock Premium checks``` | ```Makes the app's own Premium subscription checks always pass. Features the server enforces still need a subscription.``` | ```X``` | ```12.32.0-prod.01, 12.33.0-prod.01``` |
 
 </details>
 

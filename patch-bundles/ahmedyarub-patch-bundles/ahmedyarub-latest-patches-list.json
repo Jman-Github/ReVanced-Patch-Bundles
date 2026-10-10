@@ -1,5 +1,5 @@
 {
-    "version": "v1.14.0-dev.1",
+    "version": "v1.14.0",
     "patches": [
         {
             "category": null,
@@ -13,10 +13,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -24,6 +29,31 @@
             "dependencies": [],
             "description": "Adds \"Copy media link\" to the post menu: the direct links of the post's photos, videos and GIFs.",
             "name": "Add ability to copy media link",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#E1306C",
+                    "name": "Instagram",
+                    "packageName": "com.instagram.android",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "450.0.0.50.77"
+                        }
+                    ],
+                    "versions": [
+                        "450.0.0.50.77"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Skips the reason popup and auto-submits when tapping Not Interested.",
+            "name": "Auto not interested",
             "options": []
         },
         {
@@ -63,10 +93,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -98,10 +133,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -133,10 +173,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -168,10 +213,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -207,10 +257,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -242,10 +297,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -322,10 +382,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -384,10 +449,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -446,10 +516,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -490,10 +565,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -561,10 +641,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -722,10 +807,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -820,10 +910,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -870,10 +965,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -970,10 +1070,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -995,10 +1100,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -1020,10 +1130,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -1055,10 +1170,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -1090,10 +1210,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -1187,10 +1312,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -1212,10 +1342,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -1279,10 +1414,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -1304,10 +1444,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -1329,10 +1474,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -1354,10 +1504,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -1404,10 +1559,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -1498,10 +1658,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -1533,10 +1698,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -1583,10 +1753,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -1633,10 +1808,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -1658,10 +1838,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -1683,10 +1868,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -1708,10 +1898,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -1758,10 +1953,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -1783,10 +1983,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -1945,10 +2150,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -1970,10 +2180,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -1995,10 +2210,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -2020,10 +2240,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
@@ -2045,10 +2270,15 @@
                         {
                             "isExperimental": false,
                             "version": "12.32.0-prod.01"
+                        },
+                        {
+                            "isExperimental": false,
+                            "version": "12.33.0-prod.01"
                         }
                     ],
                     "versions": [
-                        "12.32.0-prod.01"
+                        "12.32.0-prod.01",
+                        "12.33.0-prod.01"
                     ]
                 }
             ],
