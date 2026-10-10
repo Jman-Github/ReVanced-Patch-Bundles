@@ -1,0 +1,42 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "stable"
+  ],
+  "created_at": "2026-08-28T05:12:10Z",
+  "description": "## [1.1.2](https://github.com/Seobject/Seobject-patches/compare/v1.1.1...v1.1.2) (2026-08-28)\n\n### Bug Fixes\n\n* **bunny:** stabilize fresh theme lifecycle ([a1e1e47](https://github.com/Seobject/Seobject-patches/commit/a1e1e47af00343bc884797bb55c56b3a97f3f6ce))\n",
+  "download_url": "https://github.com/Seobject/Seobject-patches/releases/download/v1.1.2/patches-1.1.2.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:df4c6c565ed16213bbb919cee255452575ed943ee31e3b3ad1d9868218fb993f",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "df4c6c565ed16213bbb919cee255452575ed943ee31e3b3ad1d9868218fb993f",
+  "id": "3d67d772b21b1b637fc60d5f",
+  "import_urls": {
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FSeobject%2FSeobject-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 133,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.discord",
+    "com.google.android.apps.youtube.music"
+  ],
+  "patch_count": 2,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.1.2",
+  "patch_refresh_attempted_at": "2026-10-10T17:07:37.585666776Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:df4c6c565ed16213bbb919cee255452575ed943ee31e3b3ad1d9868218fb993f",
+  "release_status": "unverified",
+  "release_url": "https://github.com/Seobject/Seobject-patches/releases/tag/v1.1.2",
+  "signature_download_url": null,
+  "source_id": "8eea2735ad37a834",
+  "version": "v1.1.2"
+}

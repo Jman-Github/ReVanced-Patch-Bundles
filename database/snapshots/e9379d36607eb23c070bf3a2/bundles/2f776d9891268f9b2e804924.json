@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-09-25T02:28:23Z",
+  "description": "## [1.2.0](https://github.com/JCapretta/chessable-patches/compare/v1.1.0...v1.2.0) (2026-09-25)\n\n### ✨ New Features\n\n* enable offline downloads for owned course videos ([#5](https://github.com/JCapretta/chessable-patches/issues/5)) ([6dacffd](https://github.com/JCapretta/chessable-patches/commit/6dacffd912e232db4c3a8613c01ff353e895e1a3))\n",
+  "download_url": "https://github.com/JCapretta/chessable-patches/releases/download/v1.2.0/patches-1.2.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:7465f7b391a050272e84a0d1f9ee00975a770e5827d767cea4f90c331079899c",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "7465f7b391a050272e84a0d1f9ee00975a770e5827d767cea4f90c331079899c",
+  "id": "2f776d9891268f9b2e804924",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FJCapretta%2Fchessable-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FJCapretta%2Fchessable-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 115,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.chessable.chessable"
+  ],
+  "patch_count": 2,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.2.0",
+  "patch_refresh_attempted_at": "2026-10-10T17:36:03.783998690Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:7465f7b391a050272e84a0d1f9ee00975a770e5827d767cea4f90c331079899c",
+  "release_status": "available",
+  "release_url": "https://github.com/JCapretta/chessable-patches/releases/tag/v1.2.0",
+  "signature_download_url": "N/A",
+  "source_id": "7158eac6d307025d",
+  "version": "v1.2.0"
+}

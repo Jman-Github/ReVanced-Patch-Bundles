@@ -1,0 +1,43 @@
+{
+  "bundle_type": "ReVanced:V4",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-08-13T00:15:27Z",
+  "description": "Automated Edge ReVanced build based on Microsoft Edge Canary 153.0.4213.0.\r\n\r\n- Source package: com.microsoft.emmx.canary\r\n- Architecture: arm64-v8a\r\n- Source APK SHA-256: be0c06033e2ddb1a9c2f561d453ea7e51824ebe6411945d0655609101bddcc79\r\n- Microsoft source signature verified\r\n- Patch commit: abef3de82973cef319ed273ffc1c82e0ab4ff0f5\r\n- Workflow run: https://github.com/AriesAlex/edge-revanced/actions/runs/31653812612\r\n",
+  "download_url": "https://github.com/AriesAlex/edge-revanced/releases/download/edge-canary-153.0.4213.0/edge-revanced-153.0.4213.0.rvp",
+  "ecosystem": "revanced",
+  "extracted_provider_digest": "sha256:aefb8837f6dce8cbce2f6c8c69e8fa425d1ca2e45cdb71db86d928d8af652000",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "aefb8837f6dce8cbce2f6c8c69e8fa425d1ca2e45cdb71db86d928d8af652000",
+  "id": "f3affc88e758fd3cf24e4d13",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FAriesAlex%2Fedge-revanced&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FAriesAlex%2Fedge-revanced&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 567,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.microsoft.emmx.canary"
+  ],
+  "patch_count": 8,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "edge-canary-153.0.4213.0",
+  "patch_refresh_attempted_at": "2026-10-10T17:36:40.910325308Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.revanced:patcher-jvm:22.1.0-dev.1",
+  "provider_digest": "sha256:aefb8837f6dce8cbce2f6c8c69e8fa425d1ca2e45cdb71db86d928d8af652000",
+  "release_status": "available",
+  "release_url": "https://github.com/AriesAlex/edge-revanced/releases/tag/edge-canary-153.0.4213.0",
+  "signature_download_url": "N/A",
+  "source_id": "ef6d9db301da8463",
+  "version": "edge-canary-153.0.4213.0"
+}

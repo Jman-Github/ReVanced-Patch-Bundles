@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-08-17T14:12:32Z",
+  "description": "## [1.1.0](https://github.com/isuruhg/cricinfo-tweaks/compare/v1.0.0...v1.1.0) (2026-08-17)\n\n\n\n",
+  "download_url": "https://github.com/isuruhg/cricinfo-tweaks/releases/download/v1.1.0/patches-1.1.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:4a422a7f4e025f9895aeb5be82058399634db527900bfb94d07e0075a7fe0596",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "4a422a7f4e025f9895aeb5be82058399634db527900bfb94d07e0075a7fe0596",
+  "id": "934fab393a2e1324cfcb567d",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fisuruhg%2Fcricinfo-tweaks&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fisuruhg%2Fcricinfo-tweaks&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 340,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.july.cricinfo"
+  ],
+  "patch_count": 3,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.1.0",
+  "patch_refresh_attempted_at": "2026-10-10T17:36:10.721104147Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:4a422a7f4e025f9895aeb5be82058399634db527900bfb94d07e0075a7fe0596",
+  "release_status": "available",
+  "release_url": "https://github.com/isuruhg/cricinfo-tweaks/releases/tag/v1.1.0",
+  "signature_download_url": "N/A",
+  "source_id": "1b20109b29a8f0a5",
+  "version": "v1.1.0"
+}

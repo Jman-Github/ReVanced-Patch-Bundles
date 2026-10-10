@@ -1,0 +1,2797 @@
+[
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.dcinside.app.android": [
+        "5.3.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a notification shortcut button above quick write in the post list.",
+    "id": "139244d40b24ae23c49df534:0",
+    "legacy_id": 16520,
+    "metadata_status": "verified",
+    "name": "Add notification shortcut",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dcinside.app.android",
+        "versions": [
+          "5.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adding the Loco Packet Handler allows external applications to handle the app's packets, which may compromise security.\nConflicts may occur on some systems.",
+    "id": "139244d40b24ae23c49df534:1",
+    "legacy_id": 16521,
+    "metadata_status": "verified",
+    "name": "Add Packet Handler",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": false
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "add libpine.so to the app's native libraries",
+    "id": "139244d40b24ae23c49df534:2",
+    "legacy_id": 16522,
+    "metadata_status": "verified",
+    "name": "Add Pine Lib",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": false
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.dcinside.app.android": [
+        "5.3.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings resources",
+      "Register settings activity"
+    ],
+    "description": "Adds a Morphe settings entry to the DCInside settings screen.",
+    "id": "139244d40b24ae23c49df534:3",
+    "legacy_id": 16523,
+    "metadata_status": "verified",
+    "name": "Add settings",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dcinside.app.android",
+        "versions": [
+          "5.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.dcinside.app.android": [
+        "5.3.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds Morphe settings resources to the app.",
+    "id": "139244d40b24ae23c49df534:4",
+    "legacy_id": 16524,
+    "metadata_status": "verified",
+    "name": "Add settings resources",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dcinside.app.android",
+        "versions": [
+          "5.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds Morphe settings layout resources to the app.",
+    "id": "139244d40b24ae23c49df534:5",
+    "legacy_id": 16525,
+    "metadata_status": "verified",
+    "name": "Add settings resources",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings resources",
+      "Register settings activity"
+    ],
+    "description": "Adds a settings tab to the app.",
+    "id": "139244d40b24ae23c49df534:6",
+    "legacy_id": 16526,
+    "metadata_status": "verified",
+    "name": "Add settings tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Adds or updates the sharedUserId attribute in the app's manifest. This allows multiple apps with the same sharedUserId to share data and run in the same process. Use with caution as this can affect app permissions and data isolation.",
+    "id": "139244d40b24ae23c49df534:7",
+    "legacy_id": 16527,
+    "metadata_status": "verified",
+    "name": "Add shared user ID",
+    "options": [
+      {
+        "default": "revanced",
+        "description": "The shared user ID to add to the app's manifest.",
+        "key": "sharedUserId",
+        "required": true,
+        "title": "Shared User ID",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "revanced"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": false
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.dcinside.app.android": [
+        "5.3.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Moves the image download menu buttons upward by adding bottom padding.",
+    "id": "139244d40b24ae23c49df534:8",
+    "legacy_id": 16528,
+    "metadata_status": "verified",
+    "name": "Adjust image download menu",
+    "options": [
+      {
+        "default": 180,
+        "description": "Bottom padding in dp for the image download menu. The original value is 10dp.",
+        "key": "bottomPadding",
+        "required": true,
+        "title": "Bottom padding",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.dcinside.app.android",
+        "versions": [
+          "5.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": false
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Shows the edit action when long-pressing your own thread replies in the main chat.",
+    "id": "139244d40b24ae23c49df534:9",
+    "legacy_id": 16529,
+    "metadata_status": "verified",
+    "name": "Allow direct thread reply editing",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Users with hiding privileges can hide any chat, including their own messages.",
+    "id": "139244d40b24ae23c49df534:10",
+    "legacy_id": 16530,
+    "metadata_status": "verified",
+    "name": "Allow Hide on Any Chat",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings tab"
+    ],
+    "description": "Stops zero width and other invisible characters from being stripped out of the chat input and out of the messages shown in a chat room.",
+    "id": "139244d40b24ae23c49df534:11",
+    "legacy_id": 16531,
+    "metadata_status": "verified",
+    "name": "Allow invisible characters",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Allows open chat room hosts and co-hosts to block regular members from their profiles.",
+    "id": "139244d40b24ae23c49df534:12",
+    "legacy_id": 16532,
+    "metadata_status": "verified",
+    "name": "Allow Open Chat Managers To Block Members",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings tab"
+    ],
+    "description": "Removes the open chat restriction that stops webp, gif and other media from being bundled into a single multi-photo message.",
+    "id": "139244d40b24ae23c49df534:13",
+    "legacy_id": 16533,
+    "metadata_status": "verified",
+    "name": "Allow open chat media bundle",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings tab"
+    ],
+    "description": "Adds the save option of the profile media viewer to the profile pictures and background images of other people.",
+    "id": "139244d40b24ae23c49df534:14",
+    "legacy_id": 16534,
+    "metadata_status": "verified",
+    "name": "Allow profile media download",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings tab"
+    ],
+    "description": "Adds a setting to allow swiping feed messages to reply, or to comment where chat room comments are enabled.",
+    "id": "139244d40b24ae23c49df534:15",
+    "legacy_id": 16535,
+    "metadata_status": "verified",
+    "name": "Allow reply to feed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Always shows the kick button in group member management.",
+    "id": "139244d40b24ae23c49df534:16",
+    "legacy_id": 16536,
+    "metadata_status": "verified",
+    "name": "Always Show Kick Button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.navercorp.game.android.community": [
+        "3.11.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Automatically claims CHZZK TongPow rewards when they become available while watching streams.",
+    "id": "139244d40b24ae23c49df534:17",
+    "legacy_id": 16537,
+    "metadata_status": "verified",
+    "name": "Auto claim TongPow",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.navercorp.game.android.community",
+        "versions": [
+          "3.11.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings tab",
+      "Show deleted, hidden, or edited messages"
+    ],
+    "description": "Stops reactions, including the double tap gesture, from being sent on messages that the server considers deleted or hidden and that are only still visible because they are kept by a patch.",
+    "id": "139244d40b24ae23c49df534:18",
+    "legacy_id": 16538,
+    "metadata_status": "verified",
+    "name": "Block reactions on deleted or hidden messages",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings tab",
+      "Show deleted, hidden, or edited messages"
+    ],
+    "description": "Stops the swipe gesture, and any reply or comment send, from targeting messages that the server considers deleted or hidden and that are only still visible because they are kept by a patch.",
+    "id": "139244d40b24ae23c49df534:19",
+    "legacy_id": 16539,
+    "metadata_status": "verified",
+    "name": "Block replies on deleted or hidden messages",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.dcinside.app.android": [
+        "5.3.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bypasses the integrity check for getText.",
+    "id": "139244d40b24ae23c49df534:20",
+    "legacy_id": 16540,
+    "metadata_status": "verified",
+    "name": "Bypass getText",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dcinside.app.android",
+        "versions": [
+          "5.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bypass the limit of input mentions in non-multichat rooms",
+    "id": "139244d40b24ae23c49df534:21",
+    "legacy_id": 16541,
+    "metadata_status": "verified",
+    "name": "Bypass input mention limit in non-multichat",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.flexcil.flexcilnote": [
+        "1.5.0.8",
+        "1.5.0.7",
+        "1.4.4.14",
+        "1.4.4.12",
+        "1.4.4.10",
+        "1.4.4.9"
+      ]
+    },
+    "dependencies": [],
+    "description": "Skips the mandatory account sign-in on launch and opens the app directly.",
+    "id": "139244d40b24ae23c49df534:22",
+    "legacy_id": 16542,
+    "metadata_status": "verified",
+    "name": "Bypass login",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.flexcil.flexcilnote",
+        "versions": [
+          "1.5.0.8",
+          "1.5.0.7",
+          "1.4.4.14",
+          "1.4.4.12",
+          "1.4.4.10",
+          "1.4.4.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings tab"
+    ],
+    "description": "Add a setting to bypass the KakaoPay Moat integrity check. It stops the native scan from running, so the tamper/root/hook verdict is never computed or reported and KakaoPay is not force-closed. Payments on a modified build are still risky.",
+    "id": "139244d40b24ae23c49df534:23",
+    "legacy_id": 16543,
+    "metadata_status": "verified",
+    "name": "Bypass Moat check",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the device model to supporting subdevice features",
+    "id": "139244d40b24ae23c49df534:24",
+    "legacy_id": 16544,
+    "metadata_status": "verified",
+    "name": "Change model",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.dcinside.app.android": [
+        "5.3.2"
+      ]
+    },
+    "dependencies": [
+      "Bypass getText",
+      "Spoof Signature"
+    ],
+    "description": "Appends \".revanced\" to the package name by default. For DCinside only",
+    "id": "139244d40b24ae23c49df534:25",
+    "legacy_id": 16545,
+    "metadata_status": "verified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "Default",
+        "description": "The name of the package to rename the app to.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      },
+      {
+        "default": false,
+        "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "updatePermissions",
+        "required": false,
+        "title": "Update permissions",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "updateProviders",
+        "required": false,
+        "title": "Update providers",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.dcinside.app.android",
+        "versions": [
+          "5.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": false
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Appends \".revanced\" to the package name by default. For KakaoTalk only",
+    "id": "139244d40b24ae23c49df534:26",
+    "legacy_id": 16546,
+    "metadata_status": "verified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "Default",
+        "description": "The name of the package to rename the app to.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      },
+      {
+        "default": false,
+        "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "updatePermissions",
+        "required": false,
+        "title": "Update permissions",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "updateProviders",
+        "required": false,
+        "title": "Update providers",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": false
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.dcinside.app.android": [
+        "5.3.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Customize app branding (name and icon)",
+    "id": "139244d40b24ae23c49df534:27",
+    "legacy_id": 16547,
+    "metadata_status": "verified",
+    "name": "Custom branding",
+    "options": [
+      {
+        "default": null,
+        "description": "Custom app name",
+        "key": "customName",
+        "required": false,
+        "title": "Custom app name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "Original",
+        "description": "            App icon source.\n\n            Special values:\n            - Original: Keep the original app icon.\n            - Bundled: Use the bundled icon from patches/src/main/resources/custom-branding.\n\n            Any other value is treated as a folder path with custom DCinside launcher icons.\n\n            A custom icon folder must contain one or more of the following directories:\n            - mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\n            Each icon directory must contain exactly one launcher icon file:\n            - ic_launcher.png\n- ic_launcher.webp\n\n            The expected launcher icon sizes are:\n            - mipmap-mdpi: 48x48 px\n- mipmap-hdpi: 72x72 px\n- mipmap-xhdpi: 96x96 px\n- mipmap-xxhdpi: 144x144 px\n- mipmap-xxxhdpi: 192x192 px\n\n            Optionally, you can provide a notification icon as either:\n            - drawable/ic_symbol.xml\n            - drawable-<dpi>/ic_symbol.png or ic_symbol.webp with sizes:\n            - drawable-mdpi: 24x24 px\n- drawable-hdpi: 36x36 px\n- drawable-xhdpi: 48x48 px\n- drawable-xxhdpi: 72x72 px\n- drawable-xxxhdpi: 96x96 px",
+        "key": "customIcon",
+        "required": false,
+        "title": "Custom app icon",
+        "type": "kotlin.String",
+        "values": {
+          "Bundled": "Bundled",
+          "Original": "Original"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.dcinside.app.android",
+        "versions": [
+          "5.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": false
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Customize app branding (name)",
+    "id": "139244d40b24ae23c49df534:28",
+    "legacy_id": 16548,
+    "metadata_status": "verified",
+    "name": "Custom branding",
+    "options": [
+      {
+        "default": null,
+        "description": "Custom app name",
+        "key": "customName",
+        "required": false,
+        "title": "Custom app name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": false
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings tab"
+    ],
+    "description": "Sets the default external browser for KakaoTalk to the system's default browser.",
+    "id": "139244d40b24ae23c49df534:29",
+    "legacy_id": 16549,
+    "metadata_status": "verified",
+    "name": "Default external browser",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.dcinside.app.android": [
+        "5.3.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "reassigns ad_minimum_height to 0dp to remove ads from the app.",
+    "id": "139244d40b24ae23c49df534:30",
+    "legacy_id": 16550,
+    "metadata_status": "verified",
+    "name": "Dimens Patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dcinside.app.android",
+        "versions": [
+          "5.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Always show the real unread count instead of '300+' in chatroom list",
+    "id": "139244d40b24ae23c49df534:31",
+    "legacy_id": 16551,
+    "metadata_status": "verified",
+    "name": "Disable 300+ unread limit",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings tab"
+    ],
+    "description": "Skip the 99-cap so unread count shows full value",
+    "id": "139244d40b24ae23c49df534:32",
+    "legacy_id": 16552,
+    "metadata_status": "verified",
+    "name": "Disable 99 unread limit",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Answers the startup and login integrity challenge with an empty token and a benign Play Integrity failure code instead of a Google-signed token that would expose the re-signed certificate. The report itself is still sent, so the client does not go conspicuously silent on the server's nonce the way suppressing it entirely would.",
+    "id": "139244d40b24ae23c49df534:33",
+    "legacy_id": 16553,
+    "metadata_status": "verified",
+    "name": "Disable abuse detection report",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.dcinside.app.android": [
+        "5.3.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the ad controller that manages ads in the app.",
+    "id": "139244d40b24ae23c49df534:34",
+    "legacy_id": 16554,
+    "metadata_status": "verified",
+    "name": "Disable ad controller",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dcinside.app.android",
+        "versions": [
+          "5.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops the AdFit ad SDK from reporting a root or emulator verdict to its telemetry and ad request endpoints.",
+    "id": "139244d40b24ae23c49df534:35",
+    "legacy_id": 16555,
+    "metadata_status": "verified",
+    "name": "Disable AdFit environment detection",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.navercorp.game.android.community": [
+        "3.11.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables CHZZK advertisements, including live stream pre-roll, mid-roll and post-roll ads and clip feed ads.",
+    "id": "139244d40b24ae23c49df534:36",
+    "legacy_id": 16556,
+    "metadata_status": "verified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.navercorp.game.android.community",
+        "versions": [
+          "3.11.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables native and global-region ads in the chat room list.",
+    "id": "139244d40b24ae23c49df534:37",
+    "legacy_id": 16557,
+    "metadata_status": "verified",
+    "name": "Disable chat room list ad",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the open-link chat room BizBoard ad controller.",
+    "id": "139244d40b24ae23c49df534:38",
+    "legacy_id": 16558,
+    "metadata_status": "verified",
+    "name": "Disable ChatRoomAdController",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disable collapse button on OpenChatList",
+    "id": "139244d40b24ae23c49df534:39",
+    "legacy_id": 16559,
+    "metadata_status": "verified",
+    "name": "Disable Collapse Button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.dcinside.app.android": [
+        "5.3.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the comment ad in the app.",
+    "id": "139244d40b24ae23c49df534:40",
+    "legacy_id": 16560,
+    "metadata_status": "verified",
+    "name": "Disable Comment Ad",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dcinside.app.android",
+        "versions": [
+          "5.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables Community Tab",
+    "id": "139244d40b24ae23c49df534:41",
+    "legacy_id": 16561,
+    "metadata_status": "verified",
+    "name": "Disable Community Tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.dcinside.app.android": [
+        "5.3.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Adds settings to block DCCon image loading in posts and replies.",
+    "id": "139244d40b24ae23c49df534:42",
+    "legacy_id": 16562,
+    "metadata_status": "verified",
+    "name": "Disable DCCon loading",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dcinside.app.android",
+        "versions": [
+          "5.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the Friend Feed tab in KakaoTalk.",
+    "id": "139244d40b24ae23c49df534:43",
+    "legacy_id": 16563,
+    "metadata_status": "verified",
+    "name": "Disable Friend Feed tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the friend tab BizBoard and global-region ads in KakaoTalk.",
+    "id": "139244d40b24ae23c49df534:44",
+    "legacy_id": 16564,
+    "metadata_status": "verified",
+    "name": "Disable Friend Lists ad",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.dcinside.app.android": [
+        "5.3.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the image ad in the app.",
+    "id": "139244d40b24ae23c49df534:45",
+    "legacy_id": 16565,
+    "metadata_status": "verified",
+    "name": "Disable Image Ad",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dcinside.app.android",
+        "versions": [
+          "5.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings tab"
+    ],
+    "description": "Adds a setting to disable comments in open chat rooms.",
+    "id": "139244d40b24ae23c49df534:46",
+    "legacy_id": 16566,
+    "metadata_status": "verified",
+    "name": "Disable open chat room comments",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the OpenChat tab feed ad load and render paths.",
+    "id": "139244d40b24ae23c49df534:47",
+    "legacy_id": 16567,
+    "metadata_status": "verified",
+    "name": "Disable OpenChat feed ad",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.navercorp.game.android.community": [
+        "3.11.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables CHZZK peer-assisted grid streaming and forces CDN playback.",
+    "id": "139244d40b24ae23c49df534:48",
+    "legacy_id": 16568,
+    "metadata_status": "verified",
+    "name": "Disable P2P",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.navercorp.game.android.community",
+        "versions": [
+          "3.11.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "kr.co.nowcom.mobile.afreeca": [
+        "8.29.3",
+        "8.28.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables SOOP peer-assisted grid streaming.",
+    "id": "139244d40b24ae23c49df534:49",
+    "legacy_id": 16569,
+    "metadata_status": "verified",
+    "name": "Disable P2P",
+    "options": [],
+    "packages": [
+      {
+        "name": "kr.co.nowcom.mobile.afreeca",
+        "versions": [
+          "8.29.3",
+          "8.28.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the KakaoPay banner ad load and render paths.",
+    "id": "139244d40b24ae23c49df534:50",
+    "legacy_id": 16570,
+    "metadata_status": "verified",
+    "name": "Disable Pay banner ad",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables Tracker",
+    "id": "139244d40b24ae23c49df534:51",
+    "legacy_id": 16571,
+    "metadata_status": "verified",
+    "name": "Disable S2Event",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the SDK Tracker in KakaoTalk.",
+    "id": "139244d40b24ae23c49df534:52",
+    "legacy_id": 16572,
+    "metadata_status": "verified",
+    "name": "Disable SDK Tracker",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [
+      "Disable Sentry telemetry"
+    ],
+    "description": "Disables Sentry error reporting in KakaoTalk.",
+    "id": "139244d40b24ae23c49df534:53",
+    "legacy_id": 16573,
+    "metadata_status": "verified",
+    "name": "Disable Sentry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables Sentry telemetry. See https://sentry.io/for/android/ for more information.",
+    "id": "139244d40b24ae23c49df534:54",
+    "legacy_id": 16574,
+    "metadata_status": "verified",
+    "name": "Disable Sentry telemetry",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": false
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the shortform ad load and render paths.",
+    "id": "139244d40b24ae23c49df534:55",
+    "legacy_id": 16575,
+    "metadata_status": "verified",
+    "name": "Disable ShortForm ad",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disable talk share log",
+    "id": "139244d40b24ae23c49df534:56",
+    "legacy_id": 16576,
+    "metadata_status": "verified",
+    "name": "Disable Talk Share Log",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.dcinside.app.android": [
+        "5.3.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the app's update check.",
+    "id": "139244d40b24ae23c49df534:57",
+    "legacy_id": 16577,
+    "metadata_status": "verified",
+    "name": "Disable update check",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dcinside.app.android",
+        "versions": [
+          "5.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the signature verification check that prevents the app from running.",
+    "id": "139244d40b24ae23c49df534:58",
+    "legacy_id": 16578,
+    "metadata_status": "verified",
+    "name": "Disable verifying signature",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings tab"
+    ],
+    "description": "Render plain text messages with markdown-style formatting.",
+    "id": "139244d40b24ae23c49df534:59",
+    "legacy_id": 16579,
+    "metadata_status": "verified",
+    "name": "Enable Markdown",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.samsung.android.honeyboard": [
+        "5.9.40.48"
+      ]
+    },
+    "dependencies": [],
+    "description": "Makes Samsung Keyboard installable and usable on non-One UI ROMs.",
+    "id": "139244d40b24ae23c49df534:60",
+    "legacy_id": 16580,
+    "metadata_status": "verified",
+    "name": "Enable non-One UI ROM support",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.samsung.android.honeyboard",
+        "versions": [
+          "5.9.40.48"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.dcinside.app.android": [
+        "5.3.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables the OneStore feature in DC Inside app.",
+    "id": "139244d40b24ae23c49df534:61",
+    "legacy_id": 16581,
+    "metadata_status": "verified",
+    "name": "Enable OneStore feature",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dcinside.app.android",
+        "versions": [
+          "5.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings tab"
+    ],
+    "description": "Allows sending big text messages in KakaoTalk.",
+    "id": "139244d40b24ae23c49df534:62",
+    "legacy_id": 16582,
+    "metadata_status": "verified",
+    "name": "Enable send big text",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.dcinside.app.android": [
+        "5.3.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a gallery filter below the recently viewed posts filters, which narrows the list down to the posts of a single gallery.",
+    "id": "139244d40b24ae23c49df534:63",
+    "legacy_id": 16583,
+    "metadata_status": "verified",
+    "name": "Filter recently viewed posts by gallery",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dcinside.app.android",
+        "versions": [
+          "5.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings tab"
+    ],
+    "description": "Enables debug mode in the app.",
+    "id": "139244d40b24ae23c49df534:64",
+    "legacy_id": 16584,
+    "metadata_status": "verified",
+    "name": "Force enable debug mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Force enable emoticon plus feature (Unpurchased emoticon can be sent once per day)",
+    "id": "139244d40b24ae23c49df534:65",
+    "legacy_id": 16585,
+    "metadata_status": "verified",
+    "name": "Force enable emoticon plus feature",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.dcinside.app.android": [
+        "5.3.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Keeps gallery auto-refresh active, highlights newly arrived posts, and optionally alerts with sound or vibration while the gallery is open.",
+    "id": "139244d40b24ae23c49df534:66",
+    "legacy_id": 16586,
+    "metadata_status": "verified",
+    "name": "Gallery watch mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dcinside.app.android",
+        "versions": [
+          "5.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings tab"
+    ],
+    "description": "Don't expose your typing status to the other party.",
+    "id": "139244d40b24ae23c49df534:67",
+    "legacy_id": 16587,
+    "metadata_status": "verified",
+    "name": "Ghost Mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.dcinside.app.android": [
+        "5.3.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Hides official DCInside operator notices from gallery notice lists.",
+    "id": "139244d40b24ae23c49df534:68",
+    "legacy_id": 16588,
+    "metadata_status": "verified",
+    "name": "Hide DC official notices",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dcinside.app.android",
+        "versions": [
+          "5.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.navercorp.game.android.community": [
+        "3.11.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides promotional banners on the CHZZK home recommend tab, including the top banner carousel and the in-feed event and image banners.",
+    "id": "139244d40b24ae23c49df534:69",
+    "legacy_id": 16589,
+    "metadata_status": "verified",
+    "name": "Hide home banners",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.navercorp.game.android.community",
+        "versions": [
+          "3.11.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.dcinside.app.android": [
+        "5.3.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Adds settings to hide selected DCInside home screen components.",
+    "id": "139244d40b24ae23c49df534:70",
+    "legacy_id": 16590,
+    "metadata_status": "verified",
+    "name": "Hide home components",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dcinside.app.android",
+        "versions": [
+          "5.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.dcinside.app.android": [
+        "5.3.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the main ad in the app.",
+    "id": "139244d40b24ae23c49df534:71",
+    "legacy_id": 16591,
+    "metadata_status": "verified",
+    "name": "Hide Main Ad",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dcinside.app.android",
+        "versions": [
+          "5.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.dcinside.app.android": [
+        "5.3.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Adds a setting to hide the mini gallery cover image above post lists.",
+    "id": "139244d40b24ae23c49df534:72",
+    "legacy_id": 16592,
+    "metadata_status": "verified",
+    "name": "Hide mini gallery cover image",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dcinside.app.android",
+        "versions": [
+          "5.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings tab"
+    ],
+    "description": "Adds options to hide components from the More tab.",
+    "id": "139244d40b24ae23c49df534:73",
+    "legacy_id": 16593,
+    "metadata_status": "verified",
+    "name": "Hide More tab components",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings tab"
+    ],
+    "description": "Hides the Game tab from the More tab.",
+    "id": "139244d40b24ae23c49df534:74",
+    "legacy_id": 16594,
+    "metadata_status": "verified",
+    "name": "Hide More tab Game tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.dcinside.app.android": [
+        "5.3.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Adds a setting to hide the Page N indicators between pages in post lists.",
+    "id": "139244d40b24ae23c49df534:75",
+    "legacy_id": 16595,
+    "metadata_status": "verified",
+    "name": "Hide post list page indicators",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dcinside.app.android",
+        "versions": [
+          "5.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hooks the Package Manager to bypass integrity checks.",
+    "id": "139244d40b24ae23c49df534:76",
+    "legacy_id": 16596,
+    "metadata_status": "verified",
+    "name": "Hook Package Manager",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Ignores the restrictions that stop messages such as KakaoLink from being forwarded to another chatroom.",
+    "id": "139244d40b24ae23c49df534:77",
+    "legacy_id": 16597,
+    "metadata_status": "verified",
+    "name": "Ignore forward restriction",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Opens open chat member profiles from join and leave feed messages.",
+    "id": "139244d40b24ae23c49df534:78",
+    "legacy_id": 16598,
+    "metadata_status": "verified",
+    "name": "Open profile from open chat feed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings tab"
+    ],
+    "description": "Overrides the feature flag to enable the feature.",
+    "id": "139244d40b24ae23c49df534:79",
+    "legacy_id": 16599,
+    "metadata_status": "verified",
+    "name": "Override feature flag",
+    "options": [
+      {
+        "default": null,
+        "description": "Enter feature flag overrides as semicolon-separated key=value pairs.",
+        "key": "featureFlags",
+        "required": false,
+        "title": "Feature flag overrides",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.dcinside.app.android": [
+        "5.3.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Registers the Morphe settings activity in the app manifest.",
+    "id": "139244d40b24ae23c49df534:80",
+    "legacy_id": 16600,
+    "metadata_status": "verified",
+    "name": "Register settings activity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dcinside.app.android",
+        "versions": [
+          "5.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Registers the Morphe settings activity in the app manifest.",
+    "id": "139244d40b24ae23c49df534:81",
+    "legacy_id": 16601,
+    "metadata_status": "verified",
+    "name": "Register settings activity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "kr.co.nowcom.mobile.afreeca": [
+        "8.29.3",
+        "8.28.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the VOD companion and search banner ads.",
+    "id": "139244d40b24ae23c49df534:82",
+    "legacy_id": 16602,
+    "metadata_status": "verified",
+    "name": "Remove banner ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "kr.co.nowcom.mobile.afreeca",
+        "versions": [
+          "8.29.3",
+          "8.28.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the BizBoard ad by forcing its dimensions to 0x0 and visibility to GONE in onMeasure.",
+    "id": "139244d40b24ae23c49df534:83",
+    "legacy_id": 16603,
+    "metadata_status": "verified",
+    "name": "Remove BizBoard ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "kr.co.nowcom.mobile.afreeca": [
+        "8.29.3",
+        "8.28.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the ads inserted between clips in the Catch feed by reporting no ad slots.",
+    "id": "139244d40b24ae23c49df534:84",
+    "legacy_id": 16604,
+    "metadata_status": "verified",
+    "name": "Remove Catch ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "kr.co.nowcom.mobile.afreeca",
+        "versions": [
+          "8.29.3",
+          "8.28.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "kr.co.nowcom.mobile.afreeca": [
+        "8.29.3",
+        "8.28.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the ad area shown in the app-exit confirmation dialog, keeping the dialog itself.",
+    "id": "139244d40b24ae23c49df534:85",
+    "legacy_id": 16605,
+    "metadata_status": "verified",
+    "name": "Remove exit dialog ad",
+    "options": [],
+    "packages": [
+      {
+        "name": "kr.co.nowcom.mobile.afreeca",
+        "versions": [
+          "8.29.3",
+          "8.28.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the feed ad from the app.",
+    "id": "139244d40b24ae23c49df534:86",
+    "legacy_id": 16606,
+    "metadata_status": "verified",
+    "name": "Remove feed ad",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the focus ad from the app.",
+    "id": "139244d40b24ae23c49df534:87",
+    "legacy_id": 16607,
+    "metadata_status": "verified",
+    "name": "Remove focus ad",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "kr.co.nowcom.mobile.afreeca": [
+        "8.29.3",
+        "8.28.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the image, video and cinema intro ad banners shown on launch.",
+    "id": "139244d40b24ae23c49df534:88",
+    "legacy_id": 16608,
+    "metadata_status": "verified",
+    "name": "Remove intro ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "kr.co.nowcom.mobile.afreeca",
+        "versions": [
+          "8.29.3",
+          "8.28.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "kr.co.nowcom.mobile.afreeca": [
+        "8.29.3",
+        "8.28.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the native banner ads under the live player and in feeds by stopping their ad request, so no banner is fetched or shown.",
+    "id": "139244d40b24ae23c49df534:89",
+    "legacy_id": 16609,
+    "metadata_status": "verified",
+    "name": "Remove list banner ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "kr.co.nowcom.mobile.afreeca",
+        "versions": [
+          "8.29.3",
+          "8.28.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "kr.co.nowcom.mobile.afreeca": [
+        "8.29.3",
+        "8.28.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the live pre-roll ad by routing every ad decision into the app's own no-video path so the stream starts immediately.",
+    "id": "139244d40b24ae23c49df534:90",
+    "legacy_id": 16610,
+    "metadata_status": "verified",
+    "name": "Remove live ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "kr.co.nowcom.mobile.afreeca",
+        "versions": [
+          "8.29.3",
+          "8.28.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "kr.co.nowcom.mobile.afreeca": [
+        "8.29.3",
+        "8.28.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the banner ads shown under the live player by stopping their driver from attaching the banner fragments.",
+    "id": "139244d40b24ae23c49df534:91",
+    "legacy_id": 16611,
+    "metadata_status": "verified",
+    "name": "Remove live banner ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "kr.co.nowcom.mobile.afreeca",
+        "versions": [
+          "8.29.3",
+          "8.28.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "kr.co.nowcom.mobile.afreeca": [
+        "8.29.3",
+        "8.28.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the native \"main board\" banner ad shown in feeds and under the live player.",
+    "id": "139244d40b24ae23c49df534:92",
+    "legacy_id": 16612,
+    "metadata_status": "verified",
+    "name": "Remove main board ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "kr.co.nowcom.mobile.afreeca",
+        "versions": [
+          "8.29.3",
+          "8.28.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the ad from the More tab.",
+    "id": "139244d40b24ae23c49df534:93",
+    "legacy_id": 16613,
+    "metadata_status": "verified",
+    "name": "Remove More tab ad",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the native ad from the app.",
+    "id": "139244d40b24ae23c49df534:94",
+    "legacy_id": 16614,
+    "metadata_status": "verified",
+    "name": "Remove native ad",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the OpenLink chat room list ad.",
+    "id": "139244d40b24ae23c49df534:95",
+    "legacy_id": 16615,
+    "metadata_status": "verified",
+    "name": "Remove OpenLink chat room list ad",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the shop tab from the bottom navigation bar.",
+    "id": "139244d40b24ae23c49df534:96",
+    "legacy_id": 16616,
+    "metadata_status": "verified",
+    "name": "Remove shop tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.kakao.talk": [
+        "26.7.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings tab"
+    ],
+    "description": "Removes the Short-form tab from the now fragment.",
+    "id": "139244d40b24ae23c49df534:97",
+    "legacy_id": 16617,
+    "metadata_status": "verified",
+    "name": "Remove Short-form Tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakao.talk",
+        "versions": [
+          "26.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "kr.co.nowcom.mobile.afreeca": [
+        "8.29.3",
+        "8.28.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes VOD pre-roll ads by reporting every stream as QuickView Plus to the player's own ad-skip check.",
+    "id": "139244d40b24ae23c49df534:98",
+    "legacy_id": 16618,
+    "metadata_status": "verified",
+    "name": "Remove VOD ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "kr.co.nowcom.mobile.afreeca",
+        "versions": [
+          "8.29.3",
+          "8.28.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  },
+  {
+    "bundle_id": "139244d40b24ae23c49df534",
+    "compatiblePackages": {
+      "com.dcinside.app.android": [
+        "5.3.2"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Adds a setting to render big DCCon at normal DCCon size.",
+    "id": "139244d40b24ae23c49df534:99",
+    "legacy_id": 16619,
+    "metadata_status": "verified",
+    "name": "Render big DCCon as normal size",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dcinside.app.android",
+        "versions": [
+          "5.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.16",
+    "source_id": "d40303c7e4bf0c8f",
+    "use": true
+  }
+]
