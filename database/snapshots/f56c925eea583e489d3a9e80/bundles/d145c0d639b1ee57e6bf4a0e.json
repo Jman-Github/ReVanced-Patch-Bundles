@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-08-30T13:00:01Z",
+  "description": "# 1.0.0 (2026-08-30)\n\n\n### Bug Fixes\n\n* bundle shared extension runtime ([90958b3](https://github.com/lootdev78/psylos-morphe-patches/commit/90958b31159d2b34ebedb14ac29ddf7e3905b64f))\n* make Gradle wrapper executable ([5788080](https://github.com/lootdev78/psylos-morphe-patches/commit/57880809e4e2f9494f39a84de9e7568abbf07d02))\n* restore Morphe release pipeline ([b8e786c](https://github.com/lootdev78/psylos-morphe-patches/commit/b8e786c5f2a3f963dce4902848dd42534ecff5ba))\n\n\n\n",
+  "download_url": "https://github.com/lootdev78/psylos-morphe-patches/releases/download/v1.0.0/patches-1.0.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:01be6d69af81bfd40ec9f6508ce5db837e4ec9fb57d550450ee279a31f5c0180",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "01be6d69af81bfd40ec9f6508ce5db837e4ec9fb57d550450ee279a31f5c0180",
+  "id": "d145c0d639b1ee57e6bf4a0e",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Flootdev78%2Fpsylos-morphe-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Flootdev78%2Fpsylos-morphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 498,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.soundcloud.android"
+  ],
+  "patch_count": 5,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.0.0",
+  "patch_refresh_attempted_at": "2026-10-10T15:20:43.954313823Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:01be6d69af81bfd40ec9f6508ce5db837e4ec9fb57d550450ee279a31f5c0180",
+  "release_status": "unverified",
+  "release_url": "https://github.com/lootdev78/psylos-morphe-patches/releases/tag/v1.0.0",
+  "signature_download_url": null,
+  "source_id": "8e0ac5329eb2cc5b",
+  "version": "v1.0.0"
+}

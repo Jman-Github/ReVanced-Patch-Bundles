@@ -1,0 +1,42 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev"
+  ],
+  "created_at": "2026-09-09T16:27:27Z",
+  "description": "## [1.7.2-dev.1](https://github.com/JacobPlaysGames/CrimeRadar-Morphe-Patches/compare/v1.7.1...v1.7.2-dev.1) (2026-09-09)\n\n### 🐛 Bug Fixes\n\n* **scannerradio:** use real smali class names not jadx deobfuscated names ([c1d8f13](https://github.com/JacobPlaysGames/CrimeRadar-Morphe-Patches/commit/c1d8f13474276dd606af7da4b5e2b334f950a826))\n",
+  "download_url": "https://github.com/JacobPlaysGames/CrimeRadar-Morphe-Patches/releases/download/v1.7.2-dev.1/patches-1.7.2-dev.1.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:bbd2b43cc0587f8181e5f7ee46f9108d8bce3951a7658be635e4191b2e5d59b8",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "bbd2b43cc0587f8181e5f7ee46f9108d8bce3951a7658be635e4191b2e5d59b8",
+  "id": "89f401bafc1a99ff60e7818a",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FJacobPlaysGames%2FCrimeRadar-Morphe-Patches&version=latest&channel=prerelease"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 315,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.newsbreak.crimeradar",
+    "com.scannerradio"
+  ],
+  "patch_count": 12,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.7.2-dev.1",
+  "patch_refresh_attempted_at": "2026-10-10T16:43:39.304649664Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:bbd2b43cc0587f8181e5f7ee46f9108d8bce3951a7658be635e4191b2e5d59b8",
+  "release_status": "available",
+  "release_url": "https://github.com/JacobPlaysGames/CrimeRadar-Morphe-Patches/releases/tag/v1.7.2-dev.1",
+  "signature_download_url": "N/A",
+  "source_id": "31e3d747d9e99954",
+  "version": "v1.7.2-dev.1"
+}
