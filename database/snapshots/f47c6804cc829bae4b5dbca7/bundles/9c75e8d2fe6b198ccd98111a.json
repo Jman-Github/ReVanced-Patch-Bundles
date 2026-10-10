@@ -1,0 +1,44 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-10-08T13:58:32Z",
+  "description": "## [3.5.0](https://github.com/andrewliang25/morphe-patches/compare/v3.4.0...v3.5.0) (2026-10-08)\n\n### ✨ New Features\n\n* **Facebook - [Reels] Picture-in-picture:** keep a reel playing in a small window ([a194a2f](https://github.com/andrewliang25/morphe-patches/commit/a194a2f4d45fce78fdb2dd130827d7447a026a1d)), closes [#174](https://github.com/andrewliang25/morphe-patches/issues/174)\n* **LINE:** add \"[General] Trust user-installed CAs\" for LIFF traffic ([2c00dd6](https://github.com/andrewliang25/morphe-patches/commit/2c00dd6be27cc89cdd1f764f286eb217d3ea9dd8)), closes [#182](https://github.com/andrewliang25/morphe-patches/issues/182)\n* **LINE:** add \"Andrew's Patch Setting\" to turn patches on or off in LINE ([a94eed6](https://github.com/andrewliang25/morphe-patches/commit/a94eed6481d74eaf4a4b760259b10fd520dad961))\n",
+  "download_url": "https://github.com/andrewliang25/morphe-patches/releases/download/v3.5.0/patches-3.5.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:4f15c5ff8cbd22a98513ea99766123838a79b896cb3bb15cc65fe61820257cbb",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "4f15c5ff8cbd22a98513ea99766123838a79b896cb3bb15cc65fe61820257cbb",
+  "id": "9c75e8d2fe6b198ccd98111a",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fandrewliang25%2Fmorphe-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fandrewliang25%2Fmorphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 5426,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.facebook.katana",
+    "jp.naver.line.android"
+  ],
+  "patch_count": 49,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v3.5.0",
+  "patch_refresh_attempted_at": "2026-10-10T17:03:57.286884393Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:4f15c5ff8cbd22a98513ea99766123838a79b896cb3bb15cc65fe61820257cbb",
+  "release_status": "available",
+  "release_url": "https://github.com/andrewliang25/morphe-patches/releases/tag/v3.5.0",
+  "signature_download_url": "N/A",
+  "source_id": "e55dbeb5c9cb1053",
+  "version": "v3.5.0"
+}
