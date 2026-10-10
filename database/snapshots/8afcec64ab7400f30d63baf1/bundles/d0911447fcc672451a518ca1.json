@@ -1,0 +1,45 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev",
+    "latest"
+  ],
+  "created_at": "2026-10-10T14:54:51Z",
+  "description": "## [1.47.0-dev.19](https://github.com/MorpheApp/morphe-patches/compare/v1.47.0-dev.18...v1.47.0-dev.19) (2026-10-10)\n\n### 🐛 Bug Fixes\n\n* **YouTube:** Live chat input field is obscured by Android navigation bar on live streams ([f9f5d58](https://github.com/MorpheApp/morphe-patches/commit/f9f5d587eb796f3abc0686c753f8f0ef605633ba))\n",
+  "download_url": "https://github.com/MorpheApp/morphe-patches/releases/download/v1.47.0-dev.19/patches-1.47.0-dev.19.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:453a32cebb75c117ec1b96182d1546b193739de1ad6d09894ed01a4d5fe42eb1",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "453a32cebb75c117ec1b96182d1546b193739de1ad6d09894ed01a4d5fe42eb1",
+  "id": "d0911447fcc672451a518ca1",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fmorpheapp%2Fmorphe-patches&version=latest&channel=prerelease",
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fmorpheapp%2Fmorphe-patches&version=latest&channel=any"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 6964,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.google.android.apps.youtube.music",
+    "com.google.android.youtube",
+    "com.reddit.frontpage"
+  ],
+  "patch_count": 169,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.47.0-dev.19",
+  "patch_refresh_attempted_at": "2026-10-10T15:19:58.146574742Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:453a32cebb75c117ec1b96182d1546b193739de1ad6d09894ed01a4d5fe42eb1",
+  "release_status": "unverified",
+  "release_url": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.47.0-dev.19",
+  "signature_download_url": null,
+  "source_id": "a142ee96279807e2",
+  "version": "v1.47.0-dev.19"
+}

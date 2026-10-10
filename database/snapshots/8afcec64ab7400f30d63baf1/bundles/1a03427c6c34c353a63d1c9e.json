@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-09-23T21:16:45Z",
+  "description": "## [1.0.1](https://github.com/Supperelias2/sbs-tv-morphe-patches/compare/v1.0.0...v1.0.1) (2026-09-23)\n\n### 🐛 Bug Fixes\n\n* allow patched TV app to launch when sideloaded ([8945aa8](https://github.com/Supperelias2/sbs-tv-morphe-patches/commit/8945aa80d5951fc90610f36bdb6848e703263845))\n",
+  "download_url": "https://github.com/Supperelias2/sbs-tv-morphe-patches/releases/download/v1.0.1/patches-1.0.1.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:810b5fbc91cb9fa4989c3bc2d3d29bb78e058e6dafb01f5c5a721ba2fec44959",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "810b5fbc91cb9fa4989c3bc2d3d29bb78e058e6dafb01f5c5a721ba2fec44959",
+  "id": "1a03427c6c34c353a63d1c9e",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FSupperelias2%2Fsbs-tv-morphe-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FSupperelias2%2Fsbs-tv-morphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 62,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.sbs.ondemand.tv"
+  ],
+  "patch_count": 4,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.0.1",
+  "patch_refresh_attempted_at": "2026-10-10T15:21:17.535939663Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:810b5fbc91cb9fa4989c3bc2d3d29bb78e058e6dafb01f5c5a721ba2fec44959",
+  "release_status": "unverified",
+  "release_url": "https://github.com/Supperelias2/sbs-tv-morphe-patches/releases/tag/v1.0.1",
+  "signature_download_url": null,
+  "source_id": "9b3a8c1939dab942",
+  "version": "v1.0.1"
+}
