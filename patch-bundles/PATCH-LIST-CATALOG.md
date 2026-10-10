@@ -291,7 +291,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [PixivPatches](#-pixivpatches-bundle-patch-list) | 8 | 1 | Generated |
 | [De-Vanced](#-de-vanced-bundle-patch-list) | 9 | 1 | Generated |
 | [CBC](#-cbc-bundle-patch-list) | 4 | 1 | Generated |
-| [D-moniak](#-d-moniak-bundle-patch-list) | 459 | 91 | Generated |
+| [D-moniak](#-d-moniak-bundle-patch-list) | 461 | 92 | Generated |
 | [Spicetify](#-spicetify-bundle-patch-list) | 8 | 1 | Generated |
 | [Piko-NewX](#-piko-newx-bundle-patch-list) | 43 | 1 | Generated |
 | [Channel-Blacklist](#-channel-blacklist-bundle-patch-list) | 89 | 2 | Generated |
@@ -9048,7 +9048,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 D-moniak Bundle Patch List:
 [📦 D-moniak-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-d-moniak-patches-bundle-morphe)
 <details>
-<summary><b>D-moniak</b> - 459 patches, 91 apps</summary>
+<summary><b>D-moniak</b> - 461 patches, 92 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -9061,6 +9061,8 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Free Shopping & Billing Bypass - Angry Birds (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hooks Google Play Billing SDK in Angry Birds to bypass in-app purchase verification, unlocking free shopping for Mighty Eagle, power-up bundles, and episode packs.``` | ```Angry Birds Classic``` | ```All versions``` |
 | ```Unlimited Mighty Eagle & Power-ups - Angry Birds Classic (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks the Mighty Eagle permanently with zero cooldown timer, and provides unlimited power-ups (Sling Scope, King Sling, Super Seeds, Birdquake).``` | ```Angry Birds Classic``` | ```All versions``` |
 | ```Unlock All Episodes & Golden Eggs - Angry Birds Classic (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks all legendary episodes, level packs, and Golden Egg secret stages in Angry Birds Classic.``` | ```Angry Birds Classic``` | ```All versions``` |
+| ```Block Ads & Declutter Feed - BandLab``` | ```Removes in-app promotional banners, upgrade prompts, sponsored artist cards, and interstitial ads across the BandLab home feed and studio screens.``` | ```BandLab``` | ```All versions``` |
+| ```Unlock Creator Membership & Audio Tools - BandLab``` | ```Hooks Google Play Billing Client and membership state models in BandLab to unlock client-side Creator Membership perks, audio presets, master presets, and removes membership upgrade paywalls.``` | ```BandLab``` | ```All versions``` |
 | ```Bypass Rewarded Ads - Beach Buggy Racing (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Bypasses rewarded video ads in Beach Buggy Racing for free spins of the Daily Fortune Wheel, post-race coin doublers, and instant ticket refills without viewing ads. (Experimental - Not yet tested on device).``` | ```Beach Buggy Racing``` | ```All versions``` |
 | ```Free Shopping - Beach Buggy Racing (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hooks Google Play BillingClient and in-game purchase verification in Beach Buggy Racing to unlock car packages, gem bundles, and coin packs for free. (Experimental - Not yet tested on device).``` | ```Beach Buggy Racing``` | ```All versions``` |
 | ```Infinite Race Tickets - Beach Buggy Racing (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Prevents race ticket depletion in Beach Buggy Racing, allowing unlimited participation in Career events and Championships without waiting for ticket recharge. (Experimental - Not yet tested on device).``` | ```Beach Buggy Racing``` | ```All versions``` |

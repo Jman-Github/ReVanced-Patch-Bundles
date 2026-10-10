@@ -1,5 +1,5 @@
 {
-    "version": "v1.48.2",
+    "version": "v1.48.3",
     "patches": [
         {
             "category": null,
@@ -1445,6 +1445,27 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Eliminates post-death full-screen ads, video revive popups, and banner ads in Temple Run 2 by intercepting mediation SDK calls.",
             "name": "Block Ads & Death Interstitials - Temple Run 2 (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#EE3344",
+                    "description": "BandLab: Music Making Studio, DAW, Beat Maker & Audio Recording",
+                    "name": "BandLab",
+                    "packageName": "com.bandlab.bandlab",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes in-app promotional banners, upgrade prompts, sponsored artist cards, and interstitial ads across the BandLab home feed and studio screens.",
+            "name": "Block Ads & Declutter Feed - BandLab",
             "options": []
         },
         {
@@ -8557,6 +8578,27 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Unlocks Pinterest Creator and Pro business dashboard analytics, advanced pin inspector, and rich pin creation preview tools.",
             "name": "Unlock Creator & Pro Tools - Pinterest (Experimental)",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#EE3344",
+                    "description": "BandLab: Music Making Studio, DAW, Beat Maker & Audio Recording",
+                    "name": "BandLab",
+                    "packageName": "com.bandlab.bandlab",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hooks Google Play Billing Client and membership state models in BandLab to unlock client-side Creator Membership perks, audio presets, master presets, and removes membership upgrade paywalls.",
+            "name": "Unlock Creator Membership & Audio Tools - BandLab",
             "options": []
         },
         {
