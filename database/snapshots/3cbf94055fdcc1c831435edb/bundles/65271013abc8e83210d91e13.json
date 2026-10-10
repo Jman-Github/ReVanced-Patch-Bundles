@@ -1,0 +1,44 @@
+{
+  "bundle_type": "ReVanced:V4",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-10-10T06:53:17Z",
+  "description": "### Fixes\n- Inline images no longer cut off the bottom of the text line above them when the image link comes right after text.\n\n### Adding this bundle\nIn ReVanced Manager, add `https://raw.githubusercontent.com/MojiRS/revanced-rif-patches/main/bundles/stable.json` as a remote patch source. Requires rif is fun **5.6.22** (free or Golden Platinum), patched together with the official ReVanced bundle's **Spoof client** patch.\n",
+  "download_url": "https://github.com/MojiRS/revanced-rif-patches/releases/download/v1.6.1/patches.rvp",
+  "ecosystem": "revanced",
+  "extracted_provider_digest": "sha256:b2c360104b64ec0836bdc3b782f92f612ae789220e41ceb5304ecc787a65ada2",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "b2c360104b64ec0836bdc3b782f92f612ae789220e41ceb5304ecc787a65ada2",
+  "id": "65271013abc8e83210d91e13",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FMojiRS%2Frevanced-rif-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FMojiRS%2Frevanced-rif-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 3718,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.andrewshu.android.reddit",
+    "com.andrewshu.android.redditdonation"
+  ],
+  "patch_count": 4,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.6.1",
+  "patch_refresh_attempted_at": "2026-10-10T17:38:57.251926848Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.revanced:patcher-jvm:22.1.0-dev.1",
+  "provider_digest": "sha256:b2c360104b64ec0836bdc3b782f92f612ae789220e41ceb5304ecc787a65ada2",
+  "release_status": "unverified",
+  "release_url": "https://github.com/MojiRS/revanced-rif-patches/releases/tag/v1.6.1",
+  "signature_download_url": null,
+  "source_id": "4fb414d6b2cd440e",
+  "version": "v1.6.1"
+}

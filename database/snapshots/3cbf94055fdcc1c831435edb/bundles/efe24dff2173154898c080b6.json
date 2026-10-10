@@ -1,0 +1,45 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev",
+    "latest"
+  ],
+  "created_at": "2026-08-27T10:19:45Z",
+  "description": "## [1.2.0-dev.1](https://github.com/Kecerim24/morphe-patches/compare/v1.1.0...v1.2.0-dev.1) (2026-08-27)\n\n### ✨ New Features\n\n* Add Czech translation for Merlin Bird ID ([e84d352](https://github.com/Kecerim24/morphe-patches/commit/e84d3521adc713fe1a8e6b817fbc948ce52e1c09))\n",
+  "download_url": "https://github.com/Kecerim24/morphe-patches/releases/download/v1.2.0-dev.1/patches-1.2.0-dev.1.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:c66bfccde7cccb921cedcac6beee674c1c8c899b307dab5a590d365b2c802d5a",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "c66bfccde7cccb921cedcac6beee674c1c8c899b307dab5a590d365b2c802d5a",
+  "id": "efe24dff2173154898c080b6",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FKecerim24%2Fmorphe-patches&version=latest&channel=prerelease",
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FKecerim24%2Fmorphe-patches&version=latest&channel=any"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 561,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.labs.merlinbirdid.app",
+    "cz.destil.settleup",
+    "de.cyberdream.dreamepg.player"
+  ],
+  "patch_count": 4,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.2.0-dev.1",
+  "patch_refresh_attempted_at": "2026-10-10T17:38:17.083204043Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:c66bfccde7cccb921cedcac6beee674c1c8c899b307dab5a590d365b2c802d5a",
+  "release_status": "unverified",
+  "release_url": "https://github.com/Kecerim24/morphe-patches/releases/tag/v1.2.0-dev.1",
+  "signature_download_url": null,
+  "source_id": "3abf3262552175a9",
+  "version": "v1.2.0-dev.1"
+}

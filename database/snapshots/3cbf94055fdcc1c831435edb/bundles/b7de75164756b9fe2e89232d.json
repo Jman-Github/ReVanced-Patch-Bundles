@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev",
+    "latest"
+  ],
+  "created_at": "2026-09-27T09:48:53Z",
+  "description": "Morphe patch bundle for Lawnchair.",
+  "download_url": "https://github.com/latanvillegas/lawnchair-morphe-patches/releases/download/v1.0.22/patches-1.0.22.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:fffa5bde89ba1fef3a32541b9b9bca190620e313260cbee18bc09995833098a0",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "fffa5bde89ba1fef3a32541b9b9bca190620e313260cbee18bc09995833098a0",
+  "id": "b7de75164756b9fe2e89232d",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Flatanvillegas%2Flawnchair-morphe-patches&version=latest&channel=prerelease",
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Flatanvillegas%2Flawnchair-morphe-patches&version=latest&channel=any"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 440,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "app.lawnchair.nightly"
+  ],
+  "patch_count": 5,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.0.22",
+  "patch_refresh_attempted_at": "2026-10-10T17:38:32.540703167Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:fffa5bde89ba1fef3a32541b9b9bca190620e313260cbee18bc09995833098a0",
+  "release_status": "unverified",
+  "release_url": "https://github.com/latanvillegas/lawnchair-morphe-patches/releases/tag/v1.0.22",
+  "signature_download_url": null,
+  "source_id": "a2a7133685791802",
+  "version": "v1.0.22"
+}

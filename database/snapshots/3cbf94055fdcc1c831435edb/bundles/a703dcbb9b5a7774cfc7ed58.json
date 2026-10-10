@@ -1,0 +1,47 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-10-06T06:25:58Z",
+  "description": "## [1.8.0](https://github.com/debakarr/morphe-patches/compare/v1.7.0...v1.8.0) (2026-10-06)\n\n### ✨ New Features\n\n* install alongside the original app ([5901471](https://github.com/debakarr/morphe-patches/commit/5901471a6aecab99b309d9e36af678aaf419daba))\n",
+  "download_url": "https://github.com/debakarr/morphe-patches/releases/download/v1.8.0/patches-1.8.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:49521d8df945ce9ca7fdfbba8c734b88538ec922ec91b14716f0752467c5559f",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "49521d8df945ce9ca7fdfbba8c734b88538ec922ec91b14716f0752467c5559f",
+  "id": "a703dcbb9b5a7774cfc7ed58",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fdebakarr%2Fmorphe-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fdebakarr%2Fmorphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 399,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.amazon.mShop.android.shopping",
+    "com.flipkart.android",
+    "com.meesho.supply",
+    "com.myntra.android",
+    "in.amazon.mShop.android.shopping"
+  ],
+  "patch_count": 5,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.8.0",
+  "patch_refresh_attempted_at": "2026-10-10T17:36:22.420556116Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:49521d8df945ce9ca7fdfbba8c734b88538ec922ec91b14716f0752467c5559f",
+  "release_status": "available",
+  "release_url": "https://github.com/debakarr/morphe-patches/releases/tag/v1.8.0",
+  "signature_download_url": "N/A",
+  "source_id": "cd26a4bb77d706e0",
+  "version": "v1.8.0"
+}

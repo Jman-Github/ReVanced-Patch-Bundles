@@ -1,0 +1,41 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev"
+  ],
+  "created_at": "2026-09-26T17:34:30Z",
+  "description": "### ✨ New Features\n\n* **Gboard:** add the `Frosted Glass` patch, bringing real-time background blur and customizable theme transparency to the keyboard. 👀\n\n### ✨ 新功能\n\n* **Gboard:** 新增 `Frosted Glass` Patch，為鍵盤加入即時背景模糊效果，並支援自訂主題透明度。👀\n",
+  "download_url": "https://github.com/jasonwu1994/Gboard-patches/releases/download/v3.12.0-dev.5/patches-3.12.0-dev.5.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:2f1011c72addcbe659132ebdd7aaece60143d70415d355468d78c0e486ecd77c",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "2f1011c72addcbe659132ebdd7aaece60143d70415d355468d78c0e486ecd77c",
+  "id": "9663f75f9990f0c3f25c6b4f",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fjasonwu1994%2FGboard-patches&version=latest&channel=prerelease"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 348,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.google.android.inputmethod.latin"
+  ],
+  "patch_count": 43,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v3.12.0-dev.5",
+  "patch_refresh_attempted_at": "2026-10-10T17:38:06.350285795Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:2f1011c72addcbe659132ebdd7aaece60143d70415d355468d78c0e486ecd77c",
+  "release_status": "unverified",
+  "release_url": "https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.12.0-dev.5",
+  "signature_download_url": null,
+  "source_id": "70111f7901243d81",
+  "version": "v3.12.0-dev.5"
+}

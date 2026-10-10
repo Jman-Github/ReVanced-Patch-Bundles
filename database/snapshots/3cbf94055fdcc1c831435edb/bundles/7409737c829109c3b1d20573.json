@@ -1,0 +1,44 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev",
+    "latest"
+  ],
+  "created_at": "2026-10-10T08:44:42Z",
+  "description": "## [1.11.0-dev.1](https://github.com/browzomje/browzomje-patches/compare/v1.10.0...v1.11.0-dev.1) (2026-10-10)\n\n### 🐛 Bug Fixes\n\n* **ci:** keep release notes preset compatible with writer 8 ([fb26297](https://github.com/browzomje/browzomje-patches/commit/fb26297c26e606d098824deecec2d45ce6e47702))\n* **Pinterest:** port navigation patches to 14.39.0 and track verification ([166c974](https://github.com/browzomje/browzomje-patches/commit/166c974af77056fd741c3f6313e404c53845a5f5))\n\n### ✨ New Features\n\n* **Pinterest:** add localized pin menu controls and image tools ([432b535](https://github.com/browzomje/browzomje-patches/commit/432b535dd31e632ab197508a6c38649c0263225b))\n",
+  "download_url": "https://github.com/browzomje/browzomje-patches/releases/download/v1.11.0-dev.1/patches-1.11.0-dev.1.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:676d6c18c3ff3d32e801da331e2f001278de4450440e78cc3840e826f9d11a2d",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "676d6c18c3ff3d32e801da331e2f001278de4450440e78cc3840e826f9d11a2d",
+  "id": "7409737c829109c3b1d20573",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fbrowzomje%2Fbrowzomje-patches&version=latest&channel=prerelease",
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fbrowzomje%2Fbrowzomje-patches&version=latest&channel=any"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 4181,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.pinterest",
+    "easy.sudoku.puzzle.solver.free"
+  ],
+  "patch_count": 36,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.11.0-dev.1",
+  "patch_refresh_attempted_at": "2026-10-10T17:35:52.385083826Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:676d6c18c3ff3d32e801da331e2f001278de4450440e78cc3840e826f9d11a2d",
+  "release_status": "available",
+  "release_url": "https://github.com/browzomje/browzomje-patches/releases/tag/v1.11.0-dev.1",
+  "signature_download_url": "N/A",
+  "source_id": "1f16d3b57d2fb56f",
+  "version": "v1.11.0-dev.1"
+}

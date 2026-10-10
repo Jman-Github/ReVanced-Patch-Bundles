@@ -1,0 +1,42 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev"
+  ],
+  "created_at": "2026-04-28T23:06:01Z",
+  "description": "## [1.0.1-dev.1](https://github.com/loskutov/youtube-domain-fronting-patch/compare/v1.0.0...v1.0.1-dev.1) (2026-04-28)\n\n\n### Bug Fixes\n\n* bump README, enable patches by default ([8569ce0](https://github.com/loskutov/youtube-domain-fronting-patch/commit/8569ce06debb67c522dca9fe70feb7e45a5d07bf))\n\n\n\n",
+  "download_url": "https://github.com/loskutov/youtube-domain-fronting-patch/releases/download/v1.0.1-dev.1/patches-1.0.1-dev.1.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:72ba1cea6fb9521a8838211e76ca381e7d4e1be73e61cd0c4ad4a59db78f6854",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "72ba1cea6fb9521a8838211e76ca381e7d4e1be73e61cd0c4ad4a59db78f6854",
+  "id": "268105e270a6872da32e1039",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Floskutov%2Fyoutube-domain-fronting-patch&version=latest&channel=prerelease"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 89,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.google.android.apps.youtube.music",
+    "com.google.android.youtube"
+  ],
+  "patch_count": 2,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.0.1-dev.1",
+  "patch_refresh_attempted_at": "2026-10-10T17:38:45.231358851Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:72ba1cea6fb9521a8838211e76ca381e7d4e1be73e61cd0c4ad4a59db78f6854",
+  "release_status": "unverified",
+  "release_url": "https://github.com/loskutov/youtube-domain-fronting-patch/releases/tag/v1.0.1-dev.1",
+  "signature_download_url": null,
+  "source_id": "8467eb35f6060bb1",
+  "version": "v1.0.1-dev.1"
+}

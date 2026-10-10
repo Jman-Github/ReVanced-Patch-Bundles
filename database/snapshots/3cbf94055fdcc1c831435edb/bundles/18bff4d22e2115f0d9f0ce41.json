@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev",
+    "latest"
+  ],
+  "created_at": "2026-10-09T17:04:22Z",
+  "description": "# Haiagaru 1.7.91 (Pre-release)\n\n## 1.7.9からの修正\n\n- 「ワッチョイ下4桁でNGName登録」を押しても登録画面が開かない問題を修正しました。ChMate独自のポップアップから追加項目のクリックが登録処理へ渡るよう補正しています。191 dev／226 dev／241／242 devが対象です。\n- フィルターの「画像」を長押しして開く画像一覧にも、追加メディア取得で解決済みのImgurアルバム・X・Instagramなどの画像を含めるようにしました。スレ本文からURLを抽出し直す際も同じメディア展開処理を使います。元の本文は書き換えず、既存のNG除外・重複除去・画像判定は維持します。\n\nメディア取得設定や配信元の制限は従来どおりです。非公開投稿や取得に失敗した画像を表示できるようにする変更ではありません。\n\n## 対応版\n\nChMate 0.8.10.191 dev／0.8.10.226 dev／0.8.10.241／0.8.10.242 dev。\n0.8.10.243 devは非推奨で、今回の修正対象には含めていません。\n\n正式版の取得先は変更せず、プレリリース版の取得先のみ更新します。\n\n## 検証状況\n\n- 4版の元APKへのパッチ適用と、生成APK内のNGメニュー・画像一覧の補正処理を確認。\n- NGメニューのクリック通知、下4桁の判定、名前メニュー、Imgur・X・Instagramの解析テストを実施。\n- 191のNG登録は実機でFridaによる同等補正後の反映を確認しました。今回生成したAPKでの実機再確認、画像一覧の実機表示確認は未実施です。\n",
+  "download_url": "https://github.com/areteruhiro/Haiagaru-Morphe/releases/download/1.7.91/haiagaru_patches-1.7.91.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:ce237134239c5818773194434246ca4a85e08b7ac37f2a9eabf79d50b67c1194",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "ce237134239c5818773194434246ca4a85e08b7ac37f2a9eabf79d50b67c1194",
+  "id": "18bff4d22e2115f0d9f0ce41",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fareteruhiro%2FHaiagaru-Morphe&version=latest&channel=prerelease",
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fareteruhiro%2FHaiagaru-Morphe&version=latest&channel=any"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 1354,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "jp.co.airfront.android.a2chMate"
+  ],
+  "patch_count": 4,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "1.7.91",
+  "patch_refresh_attempted_at": "2026-10-10T17:37:15.591518721Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:ce237134239c5818773194434246ca4a85e08b7ac37f2a9eabf79d50b67c1194",
+  "release_status": "available",
+  "release_url": "https://github.com/areteruhiro/Haiagaru-Morphe/releases/tag/1.7.91",
+  "signature_download_url": "N/A",
+  "source_id": "f005427a1ef4594f",
+  "version": "1.7.91"
+}
