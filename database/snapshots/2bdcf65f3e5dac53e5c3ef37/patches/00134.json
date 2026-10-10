@@ -1,0 +1,3672 @@
+[
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.rs.explorer.filemanager": [
+        "2.3.1.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Strips RsDownloadActivity's intent filters so it no longer offers itself as a handler in the system download/\"complete action using\" chooser.",
+    "id": "d2d82459de6a4d4a5b91cc9f:18",
+    "legacy_id": 13767,
+    "metadata_status": "verified",
+    "name": "Disable downloader from download menu",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rs.explorer.filemanager",
+        "versions": [
+          "2.3.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.downloader.videodownloader": null
+    },
+    "dependencies": [],
+    "description": "Removes the http/https <data> entries from BrowserDownloaderActivity's so the app stops offering itself in the system \"Download file with\" chooser for ordinary web downloads.",
+    "id": "d2d82459de6a4d4a5b91cc9f:19",
+    "legacy_id": 13768,
+    "metadata_status": "verified",
+    "name": "Disable downloader from download menu",
+    "options": [],
+    "packages": [
+      {
+        "name": "video.downloader.videodownloader",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.mixplorer": null
+    },
+    "dependencies": [],
+    "description": "Removes only the http/https <data> entries from MiXplorer's Explore/Download/Copy to/Extract to shell activities' VIEW intent filters, so the app stops showing up multiple times in browsers download link chooser.",
+    "id": "d2d82459de6a4d4a5b91cc9f:20",
+    "legacy_id": 13769,
+    "metadata_status": "verified",
+    "name": "Disable From Download Menu Of Browsers",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.mixplorer",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.player.videoplayer": [
+        "2.9.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the rate dialog counters so it never appears.",
+    "id": "d2d82459de6a4d4a5b91cc9f:21",
+    "legacy_id": 13770,
+    "metadata_status": "verified",
+    "name": "Disable Rate Dialog",
+    "options": [],
+    "packages": [
+      {
+        "name": "video.player.videoplayer",
+        "versions": [
+          "2.9.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "videoplayer.videodownloader.downloader": null
+    },
+    "dependencies": [],
+    "description": "Prevents the rate and star rating dialogs from showing.",
+    "id": "d2d82459de6a4d4a5b91cc9f:22",
+    "legacy_id": 13771,
+    "metadata_status": "verified",
+    "name": "Disable rate dialogs",
+    "options": [],
+    "packages": [
+      {
+        "name": "videoplayer.videodownloader.downloader",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "files.fileexplorer.filemanager": [
+        "1.5.5.7"
+      ]
+    },
+    "dependencies": [],
+    "description": "Prevents the in-app rate-us dialog from ever being shown.",
+    "id": "d2d82459de6a4d4a5b91cc9f:23",
+    "legacy_id": 13772,
+    "metadata_status": "verified",
+    "name": "Disable Rate Us Dialog",
+    "options": [],
+    "packages": [
+      {
+        "name": "files.fileexplorer.filemanager",
+        "versions": [
+          "1.5.5.7"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.rs.explorer.filemanager": [
+        "2.3.1.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Overrides show() on the in-app \"rate us\" dialog so it's still built but never displayed.",
+    "id": "d2d82459de6a4d4a5b91cc9f:24",
+    "legacy_id": 13773,
+    "metadata_status": "verified",
+    "name": "Disable rate us dialog",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rs.explorer.filemanager",
+        "versions": [
+          "2.3.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.estrongs.android.pop": [
+        "4.4.3.7"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes BookMark, New Files, Cleaner Row In HomePage, Cleans More menu actions",
+    "id": "d2d82459de6a4d4a5b91cc9f:25",
+    "legacy_id": 13774,
+    "metadata_status": "verified",
+    "name": "ES File Explorer Ui Cleanup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.estrongs.android.pop",
+        "versions": [
+          "4.4.3.7"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.player.videoplayer": [
+        "2.9.2"
+      ]
+    },
+    "dependencies": [
+      "Mod Settings"
+    ],
+    "description": "Shows resolution, date, size and last played on video rows, and video count, size and path on folder rows. Toggle in Mod Settings.",
+    "id": "d2d82459de6a4d4a5b91cc9f:26",
+    "legacy_id": 13775,
+    "metadata_status": "verified",
+    "name": "Extra File Info",
+    "options": [],
+    "packages": [
+      {
+        "name": "video.player.videoplayer",
+        "versions": [
+          "2.9.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.player.videoplayer": [
+        "2.9.2"
+      ]
+    },
+    "dependencies": [
+      "Mod Settings"
+    ],
+    "description": "Hides the bottom tab bar on the home screen. Toggle in Mod Settings.",
+    "id": "d2d82459de6a4d4a5b91cc9f:27",
+    "legacy_id": 13776,
+    "metadata_status": "verified",
+    "name": "Hide Bottom Bar",
+    "options": [],
+    "packages": [
+      {
+        "name": "video.player.videoplayer",
+        "versions": [
+          "2.9.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.allformatplayer.streamvideoplayer": [
+        "1.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the bottom navigation bar.",
+    "id": "d2d82459de6a4d4a5b91cc9f:28",
+    "legacy_id": 13777,
+    "metadata_status": "verified",
+    "name": "Hide bottom bar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.allformatplayer.streamvideoplayer",
+        "versions": [
+          "1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.player.videoplayer": [
+        "2.9.2"
+      ]
+    },
+    "dependencies": [
+      "Mod Settings"
+    ],
+    "description": "Hides the cast button in the toolbar menus. Toggle it in Mod Settings.",
+    "id": "d2d82459de6a4d4a5b91cc9f:29",
+    "legacy_id": 13778,
+    "metadata_status": "verified",
+    "name": "Hide Cast Button",
+    "options": [],
+    "packages": [
+      {
+        "name": "video.player.videoplayer",
+        "versions": [
+          "2.9.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.player.videoplayer": [
+        "2.9.2"
+      ]
+    },
+    "dependencies": [
+      "Mod Settings"
+    ],
+    "description": "Hides the cast, custom and 10 second forward/backward buttons in the player. Toggle in Mod Settings.",
+    "id": "d2d82459de6a4d4a5b91cc9f:30",
+    "legacy_id": 13779,
+    "metadata_status": "verified",
+    "name": "Hide Cast FF FB In Player",
+    "options": [],
+    "packages": [
+      {
+        "name": "video.player.videoplayer",
+        "versions": [
+          "2.9.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.mxtech.videoplayer.pro": null
+    },
+    "dependencies": [],
+    "description": "Removes the File Transfer, Video Playlist, and Private Folder tiles from settings Page.",
+    "id": "d2d82459de6a4d4a5b91cc9f:31",
+    "legacy_id": 13780,
+    "metadata_status": "verified",
+    "name": "Hide File Transfer, Video Playlist, Private Folder tiles",
+    "options": [
+      {
+        "default": true,
+        "description": "Removes the File Transfer tile.",
+        "key": "hideFileTransfer",
+        "required": false,
+        "title": "Hide File Transfer",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Removes the Private Folder tile.",
+        "key": "hidePrivateFolder",
+        "required": false,
+        "title": "Hide Private Folder",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Removes the Video Playlists tile.",
+        "key": "hideVideoPlaylists",
+        "required": false,
+        "title": "Hide Video Playlists",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.mxtech.videoplayer.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.player.videoplayer": [
+        "2.9.2"
+      ]
+    },
+    "dependencies": [
+      "Mod Settings"
+    ],
+    "description": "Hides the tile row at the top of the home page (All Videos, Downloader, Privacy, Cleaner...). Toggle in Mod Settings.",
+    "id": "d2d82459de6a4d4a5b91cc9f:32",
+    "legacy_id": 13781,
+    "metadata_status": "verified",
+    "name": "Hide Home Tiles",
+    "options": [],
+    "packages": [
+      {
+        "name": "video.player.videoplayer",
+        "versions": [
+          "2.9.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.rs.explorer.filemanager": [
+        "2.3.1.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides Hide, Add to desktop, Encrypt, Decrypt, Add bookmark, Web Search, Copy to, Move to, Transfer, and Playing from the \"More actions\" menu.",
+    "id": "d2d82459de6a4d4a5b91cc9f:33",
+    "legacy_id": 13782,
+    "metadata_status": "verified",
+    "name": "Hide more actions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rs.explorer.filemanager",
+        "versions": [
+          "2.3.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.rs.explorer.filemanager": [
+        "2.3.1.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the Network, Tools and Bookmarks sections from the home page section list.",
+    "id": "d2d82459de6a4d4a5b91cc9f:34",
+    "legacy_id": 13783,
+    "metadata_status": "verified",
+    "name": "Hide network, tools and bookmarks on home page",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rs.explorer.filemanager",
+        "versions": [
+          "2.3.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.player.videoplayer": [
+        "2.9.2"
+      ]
+    },
+    "dependencies": [
+      "Mod Settings"
+    ],
+    "description": "Hides the recent videos row on the home page. Toggle in Mod Settings.",
+    "id": "d2d82459de6a4d4a5b91cc9f:35",
+    "legacy_id": 13784,
+    "metadata_status": "verified",
+    "name": "Hide Recent Videos",
+    "options": [],
+    "packages": [
+      {
+        "name": "video.player.videoplayer",
+        "versions": [
+          "2.9.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "videoplayer.videodownloader.downloader": null
+    },
+    "dependencies": [],
+    "description": "Removes the Scan (AD) row from the browser overflow menu.",
+    "id": "d2d82459de6a4d4a5b91cc9f:36",
+    "legacy_id": 13785,
+    "metadata_status": "verified",
+    "name": "Hide Scan (AD) menu item",
+    "options": [],
+    "packages": [
+      {
+        "name": "videoplayer.videodownloader.downloader",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.mxtech.videoplayer.pro": null
+    },
+    "dependencies": [],
+    "description": "Collapses the WhatsApp, Legal, and Help entries on the Me tab.",
+    "id": "d2d82459de6a4d4a5b91cc9f:37",
+    "legacy_id": 13786,
+    "metadata_status": "verified",
+    "name": "Hide Settings Page UseLess Buttons",
+    "options": [
+      {
+        "default": true,
+        "description": "Collapses the WhatsApp entry.",
+        "key": "hideWhatsApp",
+        "required": false,
+        "title": "Hide WhatsApp",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Collapses the Legal entry.",
+        "key": "hideLegal",
+        "required": false,
+        "title": "Hide Legal",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Collapses the Help entry.",
+        "key": "hideHelp",
+        "required": false,
+        "title": "Hide Help",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.mxtech.videoplayer.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.mxtech.videoplayer.pro": null
+    },
+    "dependencies": [],
+    "description": "Hides the top tiles that appears in top of video folders in homescreen",
+    "id": "d2d82459de6a4d4a5b91cc9f:38",
+    "legacy_id": 13787,
+    "metadata_status": "verified",
+    "name": "Hide top tiles",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.mxtech.videoplayer.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.player.videoplayer": [
+        "2.9.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes Widgets from the home 3-dot menu.",
+    "id": "d2d82459de6a4d4a5b91cc9f:39",
+    "legacy_id": 13788,
+    "metadata_status": "verified",
+    "name": "Hide Widgets Menu Item",
+    "options": [],
+    "packages": [
+      {
+        "name": "video.player.videoplayer",
+        "versions": [
+          "2.9.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.mxtech.videoplayer.ad": [
+        "3.3.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Patches libmx-bh.so to kill signature verification.",
+    "id": "d2d82459de6a4d4a5b91cc9f:40",
+    "legacy_id": 13789,
+    "metadata_status": "verified",
+    "name": "Kill Signature Verification",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.mxtech.videoplayer.ad",
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.gombosdev.ampere": null
+    },
+    "dependencies": [],
+    "description": "Updates Accent/Primary/CardBgDark to the newer Material color palette.",
+    "id": "d2d82459de6a4d4a5b91cc9f:41",
+    "legacy_id": 13790,
+    "metadata_status": "verified",
+    "name": "Material Colors Upgrade Peach And Purple",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.gombosdev.ampere",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.player.videoplayer": [
+        "2.9.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a Mod Settings entry below Settings in the home 3-dot menu.",
+    "id": "d2d82459de6a4d4a5b91cc9f:42",
+    "legacy_id": 13791,
+    "metadata_status": "verified",
+    "name": "Mod Settings",
+    "options": [],
+    "packages": [
+      {
+        "name": "video.player.videoplayer",
+        "versions": [
+          "2.9.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "org.mozilla.fenix": [
+        "159.0a1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds \"Mod Settings\" to the 3 dot menu: switch between the stock bottom sheet menu and the old style popup menu, and pin extensions to the search bar.",
+    "id": "d2d82459de6a4d4a5b91cc9f:43",
+    "legacy_id": 13792,
+    "metadata_status": "verified",
+    "name": "Old style 3 dot menu",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.mozilla.fenix",
+        "versions": [
+          "159.0a1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.player.videoplayer": [
+        "2.9.2"
+      ]
+    },
+    "dependencies": [
+      "Mod Settings"
+    ],
+    "description": "Cleans the player side menu: audio, subtitle, cast, bookmark, favorite, play mode, brightness and volume. Applied while the menu inflates so remaining items stay aligned. Toggle in Mod Settings.",
+    "id": "d2d82459de6a4d4a5b91cc9f:44",
+    "legacy_id": 13793,
+    "metadata_status": "verified",
+    "name": "Player Side Cleaned",
+    "options": [],
+    "packages": [
+      {
+        "name": "video.player.videoplayer",
+        "versions": [
+          "2.9.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Quantizes PNG images to a 64-color palette (matching pngquant) and re-picks the optimal per-row filter before recompressing at maximum zlib compression (matching optipng), stripping hidden metadata along the way.",
+    "id": "d2d82459de6a4d4a5b91cc9f:45",
+    "legacy_id": 13794,
+    "metadata_status": "verified",
+    "name": "Png Optimizer",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.downloader.videodownloader": null
+    },
+    "dependencies": [],
+    "description": "Blocks popups and popunder redirects with Allow / Block / Always Block prompts. Adds \"Manage popup rules\" as the last item of the 3-dot menu.",
+    "id": "d2d82459de6a4d4a5b91cc9f:46",
+    "legacy_id": 13795,
+    "metadata_status": "verified",
+    "name": "Popup blocker",
+    "options": [],
+    "packages": [
+      {
+        "name": "video.downloader.videodownloader",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "org.mozilla.fenix": [
+        "159.0a1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Keeps the tab tray scroll position when it is closed and reopened.",
+    "id": "d2d82459de6a4d4a5b91cc9f:47",
+    "legacy_id": 13796,
+    "metadata_status": "verified",
+    "name": "Remember tab scroll position",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.mozilla.fenix",
+        "versions": [
+          "159.0a1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Cleans Apps Code From Ads Junk. Works In Most Apps Where There Isn't Any Check For Ads Loaded Or Not. If There Is A Check You Will Be Stuck In SplashActivity Due To Custom Ads Load Checks But It Is Superior.",
+    "id": "d2d82459de6a4d4a5b91cc9f:48",
+    "legacy_id": 13797,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Based On (Adobo's Block Ads+Mobile Ads) Use When Remove Ads Patch Caused Problem. It Is Weaker But Effective, No Need To Select A Host File Or Configure Anything. In Future It May Replace Remove Ads Patch If I Find No Problems.",
+    "id": "d2d82459de6a4d4a5b91cc9f:49",
+    "legacy_id": 13798,
+    "metadata_status": "verified",
+    "name": "Remove Ads Lite (Adobo)",
+    "options": [
+      {
+        "default": "0.0.0.0",
+        "description": "The IP address to redirect blocked domains to.",
+        "key": "redirectionIp",
+        "required": false,
+        "title": "Redirection IP",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "0.0.0.0",
+          "localhost": "127.0.0.1"
+        }
+      },
+      {
+        "default": null,
+        "description": "Optionally add your own hosts file to block extra domains on top of the bundled list. Select a file or paste the full file path. Leave empty to use only the bundled list.",
+        "key": "customHostsFile",
+        "required": false,
+        "title": "Additional hosts file (optional)",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Call finish on ad activities. Use Where Remove Ads And Remove Ads Lite (Adobo) Caused Problem. Its In Very Early Stage So Test And Provide FeedBack If You Still See Ads In Some App.",
+    "id": "d2d82459de6a4d4a5b91cc9f:50",
+    "legacy_id": 13799,
+    "metadata_status": "verified",
+    "name": "Remove Ads Ultra Lite",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables tracking and crash-reporting tools, corrupts analytics web links inside the code, and removes background tracking services.",
+    "id": "d2d82459de6a4d4a5b91cc9f:51",
+    "legacy_id": 13800,
+    "metadata_status": "verified",
+    "name": "Remove Analytics",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "DONT CHOOSE 2 SAME PATCHES...Corrupts analytics network URLs and split-scheme string obfuscation inside the code, and strips matching manifest components.",
+    "id": "d2d82459de6a4d4a5b91cc9f:52",
+    "legacy_id": 13801,
+    "metadata_status": "verified",
+    "name": "Remove Analytics New",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Removes debug information (line numbers, variable names, source file references) from every class in the .dex files to reduce overall APK size.",
+    "id": "d2d82459de6a4d4a5b91cc9f:53",
+    "legacy_id": 13802,
+    "metadata_status": "verified",
+    "name": "Remove Debug Info",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Keeps only one screen-density copy of every duplicated drawable/mipmap file, Mipmaps follow this same order. Optionally strips device-specific resources (smartwatch, Android TV, etc.) entirely.",
+    "id": "d2d82459de6a4d4a5b91cc9f:54",
+    "legacy_id": 13803,
+    "metadata_status": "verified",
+    "name": "Remove Duplicate Graphics",
+    "options": [
+      {
+        "default": "xhdpi",
+        "description": "Density bucket to prefer for images and other graphics; duplicates are stripped from every other bucket. If a particular resource was never shipped at this density, the next higher density available for it is kept instead, falling back to a lower one only if nothing higher exists either. Launcher icons ignore this setting and always keep their highest-quality copy.",
+        "key": "targetDensity",
+        "required": false,
+        "title": "Target density",
+        "type": "kotlin.String",
+        "values": {
+          "hdpi": "hdpi",
+          "ldpi": "ldpi",
+          "mdpi": "mdpi",
+          "xhdpi": "xhdpi",
+          "xxhdpi": "xxhdpi",
+          "xxxhdpi": "xxxhdpi"
+        }
+      },
+      {
+        "default": false,
+        "description": "Entirely removes resources qualified for smartwatches -- not just duplicate copies, all of them -- regardless of density. Off by default since it changes what device types the app supports.",
+        "key": "stripSmartwatch",
+        "required": false,
+        "title": "Remove smartwatch (Wear OS) resources",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Entirely removes resources qualified for Android TV -- not just duplicate copies, all of them -- regardless of density. Off by default since it changes what device types the app supports.",
+        "key": "stripAndroidTv",
+        "required": false,
+        "title": "Remove Android TV resources",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Entirely removes resources qualified for car head units, desk docks, or VR headsets -- not just duplicate copies, all of them -- regardless of density. Off by default since it changes what device types the app supports.",
+        "key": "stripOtherFormFactors",
+        "required": false,
+        "title": "Remove other device-specific resources (car, desk dock, VR headset)",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "videoplayer.videodownloader.downloader": [
+        "1.9.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the unscoped http/https <data> entries from MainActivity's first intent-filter carrying them so the app stops appearing as a candidate in the system's default browser / \"open with\" chooser.",
+    "id": "d2d82459de6a4d4a5b91cc9f:55",
+    "legacy_id": 13804,
+    "metadata_status": "verified",
+    "name": "Remove from default browser list",
+    "options": [],
+    "packages": [
+      {
+        "name": "videoplayer.videodownloader.downloader",
+        "versions": [
+          "1.9.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.snaptube.premium": [
+        "7.64.0.76450210"
+      ]
+    },
+    "dependencies": [],
+    "description": "Strips the LinkHandleActivity alias's unscoped so the app stops appearing as a candidate in the system's default browser / \"open with\" chooser.",
+    "id": "d2d82459de6a4d4a5b91cc9f:56",
+    "legacy_id": 13805,
+    "metadata_status": "verified",
+    "name": "Remove from default browser list",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.snaptube.premium",
+        "versions": [
+          "7.64.0.76450210"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.downloader.videodownloader": null
+    },
+    "dependencies": [],
+    "description": "Removes http/https <data> entries from MainTabsActivity's so the app stops appearing as a candidate in the system's default browser / \"open with\" chooser.",
+    "id": "d2d82459de6a4d4a5b91cc9f:57",
+    "legacy_id": 13806,
+    "metadata_status": "verified",
+    "name": "Remove from default browser list",
+    "options": [],
+    "packages": [
+      {
+        "name": "video.downloader.videodownloader",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Removes translations for languages you don't use, in EVERY resource package of resources.arsc. ",
+    "id": "d2d82459de6a4d4a5b91cc9f:58",
+    "legacy_id": 13807,
+    "metadata_status": "verified",
+    "name": "Remove Languages",
+    "options": [
+      {
+        "default": "[en, en-rIN, ru]",
+        "description": "Exact resource variants to preserve. \"ru\" keeps ONLY the unqualified ru dir (values-ru); it does NOT pull in ru-rRU or any other region. \"en-rIN\" keeps ONLY that region. List every variant you want kept, e.g. en, en-rIN, ru — anything not listed is removed.",
+        "key": "keepLanguages",
+        "required": false,
+        "title": "Languages to keep",
+        "type": "kotlin.collections.List<kotlin.String>",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.themausoft.wpsapppro": [
+        "1.7.05"
+      ]
+    },
+    "dependencies": [],
+    "description": "Spoofs every PackageManager.getInstallerPackageName() check to report \"com.android.vending\", so Pro features unlock regardless of install source.",
+    "id": "d2d82459de6a4d4a5b91cc9f:59",
+    "legacy_id": 13808,
+    "metadata_status": "verified",
+    "name": "Remove License Verification",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.themausoft.wpsapppro",
+        "versions": [
+          "1.7.05"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.mxtech.videoplayer.ad": [
+        "3.3.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Deleted files are always removed permanently, whenever this patch is applied - there's no safe way to make that half a runtime switch without the stock (unpatched) delete-dialog code to fall back to. The Me tab tile itself is a Mod Settings switch: off just brings the tile back, it doesn't restore recycling.",
+    "id": "d2d82459de6a4d4a5b91cc9f:60",
+    "legacy_id": 13809,
+    "metadata_status": "verified",
+    "name": "Remove Recycle Bin",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.mxtech.videoplayer.ad",
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.player.videoplayer": [
+        "2.9.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the player tutorial.",
+    "id": "d2d82459de6a4d4a5b91cc9f:61",
+    "legacy_id": 13810,
+    "metadata_status": "verified",
+    "name": "Remove Tutorial",
+    "options": [],
+    "packages": [
+      {
+        "name": "video.player.videoplayer",
+        "versions": [
+          "2.9.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.snaptube.premium": [
+        "7.64.0.76450210"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the requirement to watch a rewarded ad before a download starts.",
+    "id": "d2d82459de6a4d4a5b91cc9f:62",
+    "legacy_id": 13811,
+    "metadata_status": "verified",
+    "name": "Remove Watch Ad To Download",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.snaptube.premium",
+        "versions": [
+          "7.64.0.76450210"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.mxtech.videoplayer.ad": [
+        "3.3.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Replaces libffmpeg.mx.so in every lib/<abi>/ folder present in the APK with the matching file from a selected codec zip (EAC3 support). neon64 -> arm64-v8a, neon -> armeabi-v7a, x86 -> x86, x86_64 -> x86_64. ABI folders missing from the APK or from the zip are skipped.",
+    "id": "d2d82459de6a4d4a5b91cc9f:63",
+    "legacy_id": 13812,
+    "metadata_status": "verified",
+    "name": "Replace FFmpeg codec",
+    "options": [
+      {
+        "default": null,
+        "description": "Zip containing libffmpeg.mx.so.neon64.*, libffmpeg.mx.so.neon.*, libffmpeg.mx.so.x86.* and/or libffmpeg.mx.so.x86_64.* (any subfolder depth).",
+        "key": "ffmpegCodecZip",
+        "required": true,
+        "title": "FFmpeg codec zip",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.mxtech.videoplayer.ad",
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.mxtech.videoplayer.ad": [
+        "3.3.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Cleans the player sidebar and More menu; sets default shortcuts and subtitle view. Configurable in Mod Settings, except the default shortcuts bitmask, still a Morphe option pending its Mod Settings move.",
+    "id": "d2d82459de6a4d4a5b91cc9f:64",
+    "legacy_id": 13813,
+    "metadata_status": "verified",
+    "name": "Sidebar & Player Defaults",
+    "options": [
+      {
+        "default": true,
+        "description": "Settings > Player > Customize Shortcuts still works and always wins once touched.",
+        "key": "enableDefaultShortcuts",
+        "required": false,
+        "title": "Change default shortcuts",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": 30735,
+        "description": "Bit sum of enabled shortcuts, decimal or 0x-prefixed hex. Bits: 0x1 rotation, 0x2 speed, 0x4 background play, 0x8 loop, 0x10 mute, 0x20 shuffle, 0x40 equalizer, 0x100 sleep timer, 0x200 repeat A-B, 0x400 night mode, 0x800 customise items, 0x1000 screenshot, 0x2000 mirror mode, 0x4000 vertical flip, 0x8000 audio effect. Bit 0x80 isn't in this list (unused pre-3.2 legacy slot, suspected PiP shortcut on newer MX Player builds) and is never touched no matter what you set here - it always keeps MX Player's own default. Default 0x780F.",
+        "key": "defaultShortcutsMask",
+        "required": false,
+        "title": "Default shortcuts bitmask (hex)",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.mxtech.videoplayer.ad",
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "videoplayer.videodownloader.downloader": [
+        "1.9.8"
+      ]
+    },
+    "dependencies": [
+      "Spoof App Signature"
+    ],
+    "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation, the language-selection screen, DONT UNSELECT THIS,IT HAS SIGNATURE BYPASS INCLUDED.",
+    "id": "d2d82459de6a4d4a5b91cc9f:65",
+    "legacy_id": 13814,
+    "metadata_status": "verified",
+    "name": "Skip splash and language screens",
+    "options": [],
+    "packages": [
+      {
+        "name": "videoplayer.videodownloader.downloader",
+        "versions": [
+          "1.9.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.mxtech.videoplayer.pro": null
+    },
+    "dependencies": [],
+    "description": "Skips Splash Screen so the app boots straight past the splash and update screen.",
+    "id": "d2d82459de6a4d4a5b91cc9f:66",
+    "legacy_id": 13815,
+    "metadata_status": "verified",
+    "name": "Skip Splash Screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.mxtech.videoplayer.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.player.videoplayer": null
+    },
+    "dependencies": [],
+    "description": "Launches directly into the file explorer instead of the splash screen.",
+    "id": "d2d82459de6a4d4a5b91cc9f:67",
+    "legacy_id": 13816,
+    "metadata_status": "verified",
+    "name": "Skip Splash Screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "video.player.videoplayer",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.allformatplayer.streamvideoplayer": null
+    },
+    "dependencies": [],
+    "description": "Launches the app directly into the main screen.",
+    "id": "d2d82459de6a4d4a5b91cc9f:68",
+    "legacy_id": 13817,
+    "metadata_status": "verified",
+    "name": "Skip splash screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.allformatplayer.streamvideoplayer",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.rs.explorer.filemanager": [
+        "2.3.1.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Skips Splash Screen From 2nd App Opening",
+    "id": "d2d82459de6a4d4a5b91cc9f:69",
+    "legacy_id": 13818,
+    "metadata_status": "verified",
+    "name": "Skip splash screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rs.explorer.filemanager",
+        "versions": [
+          "2.3.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.downloader.videodownloader": null
+    },
+    "dependencies": [],
+    "description": "Skips splash screen so the app opens directly to the main screen.",
+    "id": "d2d82459de6a4d4a5b91cc9f:70",
+    "legacy_id": 13819,
+    "metadata_status": "verified",
+    "name": "Skip splash screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "video.downloader.videodownloader",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "cn.xender": [
+        "18.8.0.prime"
+      ]
+    },
+    "dependencies": [],
+    "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation entirely.",
+    "id": "d2d82459de6a4d4a5b91cc9f:71",
+    "legacy_id": 13820,
+    "metadata_status": "verified",
+    "name": "Skip splash screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "cn.xender",
+        "versions": [
+          "18.8.0.prime"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d33fc8ae69388cf79098b7d6",
+    "compatiblePackages": {
+      "com.scores365": [
+        "14.9.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Blocks the 'This app is out of date' update screen and popup on launch.",
+    "id": "d33fc8ae69388cf79098b7d6:0",
+    "legacy_id": 13821,
+    "metadata_status": "verified",
+    "name": "Block update screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.scores365",
+        "versions": [
+          "14.9.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "e61fc9f374580da3",
+    "use": true
+  },
+  {
+    "bundle_id": "d33fc8ae69388cf79098b7d6",
+    "compatiblePackages": {
+      "com.scores365": [
+        "14.9.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the version code of 365Score to prevent forced updates.",
+    "id": "d33fc8ae69388cf79098b7d6:1",
+    "legacy_id": 13822,
+    "metadata_status": "verified",
+    "name": "Change version code",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.scores365",
+        "versions": [
+          "14.9.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "e61fc9f374580da3",
+    "use": true
+  },
+  {
+    "bundle_id": "d33fc8ae69388cf79098b7d6",
+    "compatiblePackages": {
+      "com.scores365": [
+        "14.9.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes banner and interstitial advertisements from 365Score.",
+    "id": "d33fc8ae69388cf79098b7d6:2",
+    "legacy_id": 13823,
+    "metadata_status": "verified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.scores365",
+        "versions": [
+          "14.9.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "e61fc9f374580da3",
+    "use": true
+  },
+  {
+    "bundle_id": "d33fc8ae69388cf79098b7d6",
+    "compatiblePackages": {
+      "com.scores365": [
+        "14.9.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes analytics and tracking (Firebase Analytics) from 365Score.",
+    "id": "d33fc8ae69388cf79098b7d6:3",
+    "legacy_id": 13824,
+    "metadata_status": "verified",
+    "name": "Disable analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.scores365",
+        "versions": [
+          "14.9.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "e61fc9f374580da3",
+    "use": true
+  },
+  {
+    "bundle_id": "d33fc8ae69388cf79098b7d6",
+    "compatiblePackages": {
+      "com.scores365": [
+        "14.9.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks 365Score premium/pro features (ad-free, tipster, plus, notification sounds).",
+    "id": "d33fc8ae69388cf79098b7d6:4",
+    "legacy_id": 13825,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.scores365",
+        "versions": [
+          "14.9.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "e61fc9f374580da3",
+    "use": true
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0288D1",
+        "name": "NokoPrint - WiFi, Bluetooth, USB",
+        "packageName": "com.nokoprint",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "5.28.6"
+          }
+        ],
+        "versions": [
+          "5.28.6"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Neutralizes ad loaders, unlocks ad-free status, and strips mediation components & startup providers.",
+    "id": "d52b52012ef53295c29be904:0",
+    "legacy_id": 13868,
+    "metadata_status": "stale",
+    "name": "Ad Dispatch Governor",
+    "options": [],
+    "packages": [
+      {
+        "name": "NokoPrint - WiFi, Bluetooth, USB",
+        "versions": [
+          "5.28.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FE2C55",
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "47.1.4"
+          }
+        ],
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Forces video publish/upload date to remain visible in video author information across all feed types.",
+    "id": "d52b52012ef53295c29be904:1",
+    "legacy_id": 13869,
+    "metadata_status": "stale",
+    "name": "Always Show Publish Date",
+    "options": [],
+    "packages": [
+      {
+        "name": "TikTok",
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FF6700",
+        "name": "Xiaomi Earbuds",
+        "packageName": "com.mi.earphone",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.38.0i"
+          }
+        ],
+        "versions": [
+          "1.38.0i"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Bypasses Xposed and hook detection, neutralizes VPN and ADB security checks, bypasses root and emulator detection, and hardens WebView JavaScript bridges.",
+    "id": "d52b52012ef53295c29be904:2",
+    "legacy_id": 13870,
+    "metadata_status": "stale",
+    "name": "Anti-Tamper Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "Xiaomi Earbuds",
+        "versions": [
+          "1.38.0i"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Strips non-functional build metadata, compiler properties, Kotlin coroutines debug tables, and duplicate license texts from META-INF and APK root.",
+    "id": "d52b52012ef53295c29be904:3",
+    "legacy_id": 13871,
+    "metadata_status": "stale",
+    "name": "APK Junk Cleaner",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0288D1",
+        "name": "NokoPrint - WiFi, Bluetooth, USB",
+        "packageName": "com.nokoprint",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "5.28.6"
+          }
+        ],
+        "versions": [
+          "5.28.6"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Strips embedded ad DEX, tracking scripts, web templates, and ad drawables to reduce APK size.",
+    "id": "d52b52012ef53295c29be904:4",
+    "legacy_id": 13872,
+    "metadata_status": "stale",
+    "name": "Asset Debloat",
+    "options": [],
+    "packages": [
+      {
+        "name": "NokoPrint - WiFi, Bluetooth, USB",
+        "versions": [
+          "5.28.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FE2C55",
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "47.1.4"
+          }
+        ],
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Automatically pauses the first video when opening TikTok, allowing the application to finish background initialization and preventing playback lag.",
+    "id": "d52b52012ef53295c29be904:5",
+    "legacy_id": 13873,
+    "metadata_status": "stale",
+    "name": "Auto-Pause First Video",
+    "options": [],
+    "packages": [
+      {
+        "name": "TikTok",
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FF6700",
+        "name": "Xiaomi Earbuds",
+        "packageName": "com.mi.earphone",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.38.0i"
+          }
+        ],
+        "versions": [
+          "1.38.0i"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Neutralizes KeepAliveForegroundService, background BLE observation, companion device manager, and MIUI Nearby discovery to eliminate persistent notifications, wakelocks, and background battery drain.",
+    "id": "d52b52012ef53295c29be904:6",
+    "legacy_id": 13874,
+    "metadata_status": "stale",
+    "name": "Background Optimizer",
+    "options": [],
+    "packages": [
+      {
+        "name": "Xiaomi Earbuds",
+        "versions": [
+          "1.38.0i"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Strips RECEIVE_BOOT_COMPLETED and disables boot, package-replacement, and periodic background sync receivers and services in AndroidManifest.xml to eliminate background wakeups and conserve battery.",
+    "id": "d52b52012ef53295c29be904:7",
+    "legacy_id": 13875,
+    "metadata_status": "stale",
+    "name": "Background Sync & JobScheduler Purge",
+    "options": [
+      {
+        "default": true,
+        "description": "Remove android.permission.RECEIVE_BOOT_COMPLETED from AndroidManifest.xml.",
+        "key": "stripBootPermission",
+        "required": false,
+        "title": "Strip RECEIVE_BOOT_COMPLETED Permission",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Set android:enabled='false' on broadcast receivers listening for BOOT_COMPLETED, LOCKED_BOOT_COMPLETED, or MY_PACKAGE_REPLACED.",
+        "key": "disableBootReceivers",
+        "required": false,
+        "title": "Disable Boot & Package Receivers",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Disable AndroidX WorkManager, Google DataTransport, and ProfileInstaller background services and receivers.",
+        "key": "disableWorkManager",
+        "required": false,
+        "title": "Disable WorkManager & Job Schedulers",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Remove android.permission.WAKE_LOCK. Default is false to prevent interrupting background audio playback or active downloads.",
+        "key": "stripWakeLock",
+        "required": false,
+        "title": "Strip WAKE_LOCK Permission",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0288D1",
+        "name": "NokoPrint - WiFi, Bluetooth, USB",
+        "packageName": "com.nokoprint",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "5.28.6"
+          }
+        ],
+        "versions": [
+          "5.28.6"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Neutralizes background WorkManager constraint tasks and diagnostic wakelocks.",
+    "id": "d52b52012ef53295c29be904:8",
+    "legacy_id": 13876,
+    "metadata_status": "stale",
+    "name": "Background Sync Optimizer",
+    "options": [],
+    "packages": [
+      {
+        "name": "NokoPrint - WiFi, Bluetooth, USB",
+        "versions": [
+          "5.28.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FF4500",
+        "name": "Hevy - Gym Log Workout Tracker",
+        "packageName": "com.hevy",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.1.14"
+          }
+        ],
+        "versions": [
+          "3.1.14"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Disables background WorkManager alarms, periodic job schedulers, Google Play Billing IPC (~89 MB RAM), and removes largeHeap to force aggressive Garbage Collection.",
+    "id": "d52b52012ef53295c29be904:9",
+    "legacy_id": 13877,
+    "metadata_status": "stale",
+    "name": "Battery & Background Sync Optimizer",
+    "options": [],
+    "packages": [
+      {
+        "name": "Hevy - Gym Log Workout Tracker",
+        "versions": [
+          "3.1.14"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF4500",
+        "name": "Brave Private Web Browser, VPN",
+        "packageName": "com.brave.browser",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.96.61"
+          }
+        ],
+        "versions": [
+          "1.96.61"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "RawResourcePatch",
+      "ResourcePatch",
+      "RawResourcePatch"
+    ],
+    "description": "Blocks P3A product analytics, Brave Stats usage pings, crash dump uploads, WDP, Chromium UMA metrics, and Variations seed fetching.",
+    "id": "d52b52012ef53295c29be904:10",
+    "legacy_id": 13878,
+    "metadata_status": "stale",
+    "name": "Block Brave Telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "Brave Private Web Browser, VPN",
+        "versions": [
+          "1.96.61"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#4285F4",
+        "name": "Gboard Lite",
+        "packageName": "com.google.android.inputmethod.latin",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "18.4.1.985164140-lite_beta-arm64-v8a"
+          },
+          {
+            "isExperimental": false,
+            "version": "18.4.1.985164140-lite_beta-armeabi-v7a"
+          }
+        ],
+        "versions": [
+          "18.4.1.985164140-lite_beta-arm64-v8a",
+          "18.4.1.985164140-lite_beta-armeabi-v7a"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables background metrics dispatch, event logging, daily pings, Google Primes profiling, crash reporting, AppDoctor diagnostics, and Tenor share tracking.",
+    "id": "d52b52012ef53295c29be904:11",
+    "legacy_id": 13879,
+    "metadata_status": "stale",
+    "name": "Block Telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "Gboard Lite",
+        "versions": [
+          "18.4.1.985164140-lite_beta-arm64-v8a",
+          "18.4.1.985164140-lite_beta-armeabi-v7a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FF4500",
+        "name": "Hevy - Gym Log Workout Tracker",
+        "packageName": "com.hevy",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.1.14"
+          }
+        ],
+        "versions": [
+          "3.1.14"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Neutralizes Sentry crash reporting, Adjust attribution, Facebook AppEvents, Branch referral tracking, and WearOS background sync.",
+    "id": "d52b52012ef53295c29be904:12",
+    "legacy_id": 13880,
+    "metadata_status": "stale",
+    "name": "Block Telemetry & Trackers",
+    "options": [],
+    "packages": [
+      {
+        "name": "Hevy - Gym Log Workout Tracker",
+        "versions": [
+          "3.1.14"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0288D1",
+        "name": "NokoPrint - WiFi, Bluetooth, USB",
+        "packageName": "com.nokoprint",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "5.28.6"
+          }
+        ],
+        "versions": [
+          "5.28.6"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Neutralizes Firebase Analytics, Google Measurement, TikTok Business SDK, and crashlytics tracking.",
+    "id": "d52b52012ef53295c29be904:13",
+    "legacy_id": 13881,
+    "metadata_status": "stale",
+    "name": "Block Telemetry & Trackers",
+    "options": [],
+    "packages": [
+      {
+        "name": "NokoPrint - WiFi, Bluetooth, USB",
+        "versions": [
+          "5.28.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FF6700",
+        "name": "Xiaomi Earbuds",
+        "packageName": "com.mi.earphone",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.38.0i"
+          }
+        ],
+        "versions": [
+          "1.38.0i"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Neutralizes Firebase Analytics, Xiaomi OneTrack, AutoReportHelper, and GlobalReport telemetry and event dispatching.",
+    "id": "d52b52012ef53295c29be904:14",
+    "legacy_id": 13882,
+    "metadata_status": "stale",
+    "name": "Block Telemetry & Trackers",
+    "options": [],
+    "packages": [
+      {
+        "name": "Xiaomi Earbuds",
+        "versions": [
+          "1.38.0i"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF4500",
+        "name": "Brave Private Web Browser, VPN",
+        "packageName": "com.brave.browser",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.96.61"
+          }
+        ],
+        "versions": [
+          "1.96.61"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Eliminates background wakeups and notifications from Chromium tips scheduler (Job ID 105), Brave Rewards onboarding promo, and retention marketing campaigns.",
+    "id": "d52b52012ef53295c29be904:15",
+    "legacy_id": 13883,
+    "metadata_status": "stale",
+    "name": "Brave In-Product & Commercial Notification Optimizer",
+    "options": [],
+    "packages": [
+      {
+        "name": "Brave Private Web Browser, VPN",
+        "versions": [
+          "1.96.61"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF4500",
+        "name": "Brave Private Web Browser, VPN",
+        "packageName": "com.brave.browser",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.96.61"
+          }
+        ],
+        "versions": [
+          "1.96.61"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch",
+      "RawResourcePatch"
+    ],
+    "description": "Unlocks Brave Origin and enables local feature toggle controls.",
+    "id": "d52b52012ef53295c29be904:16",
+    "legacy_id": 13884,
+    "metadata_status": "stale",
+    "name": "Brave Origin",
+    "options": [],
+    "packages": [
+      {
+        "name": "Brave Private Web Browser, VPN",
+        "versions": [
+          "1.96.61"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF4500",
+        "name": "Brave Private Web Browser, VPN",
+        "packageName": "com.brave.browser",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.96.61"
+          }
+        ],
+        "versions": [
+          "1.96.61"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch",
+      "RawResourcePatch"
+    ],
+    "description": "Optimizes startup time and eliminates background CPU/disk overhead by disabling unused OEM carrier partner customizations.",
+    "id": "d52b52012ef53295c29be904:17",
+    "legacy_id": 13885,
+    "metadata_status": "stale",
+    "name": "Brave Startup Performance Optimization",
+    "options": [],
+    "packages": [
+      {
+        "name": "Brave Private Web Browser, VPN",
+        "versions": [
+          "1.96.61"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FE2C55",
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "47.1.4"
+          }
+        ],
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Neutralizes mandatory login walls, dynamic regional forced login gates, and guest browsing restrictions.",
+    "id": "d52b52012ef53295c29be904:18",
+    "legacy_id": 13886,
+    "metadata_status": "stale",
+    "name": "Bypass Mandatory Login",
+    "options": [],
+    "packages": [
+      {
+        "name": "TikTok",
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FE2C55",
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "47.1.4"
+          }
+        ],
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Clears FLAG_SECURE on protected windows, restores Circle to Search / screen translate and recent apps snapshots, and neutralizes screenshot detection listeners and feedback prompts.",
+    "id": "d52b52012ef53295c29be904:19",
+    "legacy_id": 13887,
+    "metadata_status": "stale",
+    "name": "Bypass Screen Capture Detection",
+    "options": [],
+    "packages": [
+      {
+        "name": "TikTok",
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF4500",
+        "name": "Brave Private Web Browser, VPN",
+        "packageName": "com.brave.browser",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.96.61"
+          }
+        ],
+        "versions": [
+          "1.96.61"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Removes sponsored wallpaper images, Brave News/Today feeds, marketing widgets, and promo cards from the New Tab Page.",
+    "id": "d52b52012ef53295c29be904:20",
+    "legacy_id": 13888,
+    "metadata_status": "stale",
+    "name": "Clean New Tab Page",
+    "options": [
+      {
+        "default": false,
+        "description": "Removes top sites shortcuts and most visited tiles from the New Tab Page for a completely blank home screen.",
+        "key": "hideTopSites",
+        "required": false,
+        "title": "Hide Top Sites & Shortcuts",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Brave Private Web Browser, VPN",
+        "versions": [
+          "1.96.61"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FE2C55",
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "47.1.4"
+          }
+        ],
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes clutter from the share panel and direct message dialog, including suggested quick emojis and the 'Send to new group' button.",
+    "id": "d52b52012ef53295c29be904:21",
+    "legacy_id": 13889,
+    "metadata_status": "stale",
+    "name": "Clean Share Panel",
+    "options": [
+      {
+        "default": true,
+        "description": "Removes the horizontal row of suggested quick emojis from the direct share panel.",
+        "key": "hideQuickEmojis",
+        "required": false,
+        "title": "Hide Quick Emojis",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Removes the 'Send to new group' button and hint from the direct share panel.",
+        "key": "hideSendToNewGroup",
+        "required": false,
+        "title": "Hide 'Send to New Group'",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "TikTok",
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF4500",
+        "name": "Brave Private Web Browser, VPN",
+        "packageName": "com.brave.browser",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.96.61"
+          }
+        ],
+        "versions": [
+          "1.96.61"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Strips tracking parameters (utm_*, fbclid, gclid, igshid, si, msclkid) when sharing or copying links.",
+    "id": "d52b52012ef53295c29be904:22",
+    "legacy_id": 13890,
+    "metadata_status": "stale",
+    "name": "Clean Share URL",
+    "options": [],
+    "packages": [
+      {
+        "name": "Brave Private Web Browser, VPN",
+        "versions": [
+          "1.96.61"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FE2C55",
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "47.1.4"
+          }
+        ],
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Strips tracking parameters, user IDs, device fingerprints, and marketing tokens from shared TikTok links.",
+    "id": "d52b52012ef53295c29be904:23",
+    "legacy_id": 13891,
+    "metadata_status": "stale",
+    "name": "Clean Share URL",
+    "options": [],
+    "packages": [
+      {
+        "name": "TikTok",
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FE2C55",
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "47.1.4"
+          }
+        ],
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Neutralizes on-device machine learning inference (Pitaya), Tako AI chatbot entry points and icons, and AI smart search suggestion clutter.",
+    "id": "d52b52012ef53295c29be904:24",
+    "legacy_id": 13892,
+    "metadata_status": "stale",
+    "name": "Client-Side AI & Behavioral Profiling Governor",
+    "options": [],
+    "packages": [
+      {
+        "name": "TikTok",
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#4285F4",
+        "name": "Gboard Lite",
+        "packageName": "com.google.android.inputmethod.latin",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "18.4.1.985164140-lite_beta-arm64-v8a"
+          },
+          {
+            "isExperimental": false,
+            "version": "18.4.1.985164140-lite_beta-armeabi-v7a"
+          }
+        ],
+        "versions": [
+          "18.4.1.985164140-lite_beta-arm64-v8a",
+          "18.4.1.985164140-lite_beta-armeabi-v7a"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Changes the package name by appending a dot and custom suffix (defaults to 'clone') to allow installing Gboard alongside the original application.",
+    "id": "d52b52012ef53295c29be904:25",
+    "legacy_id": 13893,
+    "metadata_status": "stale",
+    "name": "Clone Gboard",
+    "options": [
+      {
+        "default": "clone",
+        "description": "Suffix appended after the original package name and a dot (e.g. 'clone' -> 'com.google.android.inputmethod.latin.clone').",
+        "key": "packageSuffix",
+        "required": false,
+        "title": "Package name suffix",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Gboard Lite",
+        "versions": [
+          "18.4.1.985164140-lite_beta-arm64-v8a",
+          "18.4.1.985164140-lite_beta-armeabi-v7a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FE2C55",
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "47.1.4"
+          }
+        ],
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Customizes TikTok's comment section, including native sort controls, clean text copying, disabling suggested emojis bar, hiding comment quick actions, hiding in-comment surveys and feedback cards, hiding profile photo story rings, enabling voice comments, and automatic comment translation.",
+    "id": "d52b52012ef53295c29be904:26",
+    "legacy_id": 13894,
+    "metadata_status": "stale",
+    "name": "Comment Customizer",
+    "options": [
+      {
+        "default": true,
+        "description": "Unlocks TikTok's native comment sorting menu (Hot, Newest, Creator only, With media) across all posts.",
+        "key": "commentSortControls",
+        "required": false,
+        "title": "Comment Sort Controls",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Copies only the comment text without prepending the author username.",
+        "key": "copyWithoutUsername",
+        "required": false,
+        "title": "Copy Comments Without Username",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Removes the horizontal bar of suggested quick emojis displayed above the comment input box.",
+        "key": "disableSuggestedEmojis",
+        "required": false,
+        "title": "Disable Suggested Emojis",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Hides the quick action buttons (photo, emoji, and mention) inside the comment input bar.",
+        "key": "hideCommentQuickActions",
+        "required": false,
+        "title": "Hide Comment Quick Actions",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Hides surveys, opinion questionnaires, and feedback cards embedded within comment lists.",
+        "key": "hideCommentSurveys",
+        "required": false,
+        "title": "Hide Comment Surveys & Feedback Cards",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Removes profile photo story rings from avatars in the comment section.",
+        "key": "hideStoryRings",
+        "required": false,
+        "title": "Hide Comment Story Rings",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Forces the native voice comment recording button in comment input bars, bypassing regional rollout restrictions and remote server blocks.",
+        "key": "enableVoiceComments",
+        "required": false,
+        "title": "Enable Voice Comments",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Automatically translates comments into your preferred language using TikTok's native translation engine.",
+        "key": "autoTranslate",
+        "required": false,
+        "title": "Auto-Translate Comments",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "TikTok",
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FE2C55",
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "47.1.4"
+          }
+        ],
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Strips embedded Microblink/FinTech card scanner models, Pitaya AI & ByteNN LLM engines, C2PA origin verification, DLNA cast scanners, and redundant non-Latin fonts to save APK space.",
+    "id": "d52b52012ef53295c29be904:27",
+    "legacy_id": 13895,
+    "metadata_status": "stale",
+    "name": "Core Asset De-bloat",
+    "options": [],
+    "packages": [
+      {
+        "name": "TikTok",
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FE2C55",
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "47.1.4"
+          }
+        ],
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Customizes the maximum number of videos available for offline download caching.",
+    "id": "d52b52012ef53295c29be904:28",
+    "legacy_id": 13896,
+    "metadata_status": "stale",
+    "name": "Custom Offline Videos Limit",
+    "options": [
+      {
+        "default": 1000,
+        "description": "Maximum number of offline videos that can be cached for offline playback (default: 1000).",
+        "key": "customLimit",
+        "required": false,
+        "title": "Custom Offline Videos Limit",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "TikTok",
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FE2C55",
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "47.1.4"
+          }
+        ],
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Customizes and cleans the native TikTok share sheet via individual toggle switches for third-party apps, essential sharing features, and secondary utility actions.",
+    "id": "d52b52012ef53295c29be904:29",
+    "legacy_id": 13897,
+    "metadata_status": "stale",
+    "name": "Custom Share Sheet",
+    "options": [
+      {
+        "default": true,
+        "description": "Hides WhatsApp and WhatsApp Status from the share sheet.",
+        "key": "hideWhatsApp",
+        "required": false,
+        "title": "Hide WhatsApp",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Hides Instagram and Instagram Stories from the share sheet.",
+        "key": "hideInstagram",
+        "required": false,
+        "title": "Hide Instagram",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Hides Facebook, Facebook Stories, and Messenger from the share sheet.",
+        "key": "hideFacebook",
+        "required": false,
+        "title": "Hide Facebook & Messenger",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Hides Telegram from the share sheet.",
+        "key": "hideTelegram",
+        "required": false,
+        "title": "Hide Telegram",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Hides X (Twitter) from the share sheet.",
+        "key": "hideTwitter",
+        "required": false,
+        "title": "Hide X / Twitter",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Hides Snapchat from the share sheet.",
+        "key": "hideSnapchat",
+        "required": false,
+        "title": "Hide Snapchat",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Hides Reddit and Discord from the share sheet.",
+        "key": "hideReddit",
+        "required": false,
+        "title": "Hide Reddit & Discord",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Hides SMS and Google Messages from the share sheet.",
+        "key": "hideSms",
+        "required": false,
+        "title": "Hide SMS & Messages",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Hides regional and secondary third-party social apps (Line, Kakao, Viber, VK, Lemon8, etc.).",
+        "key": "hideSecondaryApps",
+        "required": false,
+        "title": "Hide Secondary Networks",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Hides the native Repost button from the share sheet. Note: disabling this also disables the long-press to repost gesture.",
+        "key": "hideRepost",
+        "required": false,
+        "title": "Hide 'Repost' Button",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Hides the QR code sharing button from the share sheet.",
+        "key": "hideQrCode",
+        "required": false,
+        "title": "Hide QR Code",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Hides the Copy link button from the share sheet.",
+        "key": "hideCopyLink",
+        "required": false,
+        "title": "Hide 'Copy Link'",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Hides the system share dialog ('More') button from the share sheet.",
+        "key": "hideSystemShare",
+        "required": false,
+        "title": "Hide System Share ('More')",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Hides the top row of direct message friend and contact avatars ('Send to') in the share sheet.",
+        "key": "hideFriendsRow",
+        "required": false,
+        "title": "Hide Friends / Direct Messages Row",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Hides the commercial Promote action from the bottom utilities row.",
+        "key": "hidePromote",
+        "required": false,
+        "title": "Hide 'Promote' Action",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Hides the recommendation explanation action from the bottom utilities row.",
+        "key": "hideWhyThisVideo",
+        "required": false,
+        "title": "Hide 'Why This Video'",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Hides the Create group action from the bottom utilities row.",
+        "key": "hideCreateGroup",
+        "required": false,
+        "title": "Hide 'Create Group' Action",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Hides the Add to Story action from the bottom utilities row.",
+        "key": "hideAddToStory",
+        "required": false,
+        "title": "Hide 'Add to Story'",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Hides the sticker creation tool from the bottom utilities row.",
+        "key": "hideCreateSticker",
+        "required": false,
+        "title": "Hide 'Create Sticker'",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Hides the Duet action from the bottom utilities row.",
+        "key": "hideDuet",
+        "required": false,
+        "title": "Hide 'Duet' Action",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Hides the Stitch action from the bottom utilities row.",
+        "key": "hideStitch",
+        "required": false,
+        "title": "Hide 'Stitch' Action",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Hides the Picture-in-Picture floating player action from the bottom utilities row.",
+        "key": "hidePip",
+        "required": false,
+        "title": "Hide 'Picture-in-Picture' (PiP)",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Hides the Clear display mode action from the bottom utilities row.",
+        "key": "hideClearDisplay",
+        "required": false,
+        "title": "Hide 'Clear Display'",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Hides the background audio playback action from the bottom utilities row.",
+        "key": "hideListenAudio",
+        "required": false,
+        "title": "Hide 'Background Audio'",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Hides Live wallpaper and GIF creation actions from the bottom utilities row.",
+        "key": "hideWallpaperAndGif",
+        "required": false,
+        "title": "Hide Live Wallpaper & GIF",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Hides the 'Not interested' action from the bottom utilities row.",
+        "key": "hideNotInterested",
+        "required": false,
+        "title": "Hide 'Not Interested'",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Hides the Report action from the bottom utilities row.",
+        "key": "hideReport",
+        "required": false,
+        "title": "Hide 'Report'",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "TikTok",
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FE2C55",
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "47.1.4"
+          }
+        ],
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Neutralizes invasive runtime permissions (contacts sync, location tracking, nearby devices), advertising ID profiling, background clipboard snooping routines, and motion sensor profiling to protect user data.",
+    "id": "d52b52012ef53295c29be904:30",
+    "legacy_id": 13898,
+    "metadata_status": "stale",
+    "name": "Device Privacy Guard",
+    "options": [],
+    "packages": [
+      {
+        "name": "TikTok",
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FF6700",
+        "name": "Xiaomi Earbuds",
+        "packageName": "com.mi.earphone",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.38.0i"
+          }
+        ],
+        "versions": [
+          "1.38.0i"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Blinds hardware device IDs, anonymizes device identifiers, neutralizes environment info leakage, and bypasses location checks for Bluetooth scanning.",
+    "id": "d52b52012ef53295c29be904:31",
+    "legacy_id": 13899,
+    "metadata_status": "stale",
+    "name": "Device Privacy Guard",
+    "options": [],
+    "packages": [
+      {
+        "name": "Xiaomi Earbuds",
+        "versions": [
+          "1.38.0i"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FE2C55",
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "47.1.4"
+          }
+        ],
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Removes visual clutter in direct messages and chat list, including the call button, reaction tray, message forward button, camera icons, input action buttons, try effect button, and sticker reply suggestions.",
+    "id": "d52b52012ef53295c29be904:32",
+    "legacy_id": 13900,
+    "metadata_status": "stale",
+    "name": "Direct Message Declutter",
+    "options": [
+      {
+        "default": true,
+        "description": "Removes the camera icon next to chats in the direct messages conversation list.",
+        "key": "hideChatListCamera",
+        "required": false,
+        "title": "Hide Chat List Camera Button",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Removes the phone receiver (voice/video call) button from the direct message chat header.",
+        "key": "hideCallButton",
+        "required": false,
+        "title": "Hide Header Call Button",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Removes the quick forward/share arrow button displayed next to messages and shared videos.",
+        "key": "hideMessageForwardButton",
+        "required": false,
+        "title": "Hide Message Forward Button",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Removes the reaction bar and streak mascot banner displayed above the text input bar.",
+        "key": "hideReactionTray",
+        "required": false,
+        "title": "Hide Reaction and Streak Bar",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Removes the camera button located to the left of the direct message text input field.",
+        "key": "hideInputCamera",
+        "required": false,
+        "title": "Hide Input Bar Camera Button",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Removes the photo gallery button located inside the right side of the text input field.",
+        "key": "hideGalleryButton",
+        "required": false,
+        "title": "Hide Gallery Button",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Removes the stickers and emoji button located inside the right side of the text input field.",
+        "key": "hideEmojiButton",
+        "required": false,
+        "title": "Hide Emoji/Stickers Button",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Removes the audio recording/microphone button located inside the right side of the text input field.",
+        "key": "hideVoiceRecordButton",
+        "required": false,
+        "title": "Hide Voice Recording Button",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Removes the 'Try effect' camera button shown on shared videos that use an effect in direct messages.",
+        "key": "hideTryEffectButton",
+        "required": false,
+        "title": "Hide Try Effect Button",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Removes the automatic 'Tap a sticker to reply' suggestion panel above the input bar. The manual sticker reply button keeps working.",
+        "key": "hideStickerReplySuggestions",
+        "required": false,
+        "title": "Hide Sticker Reply Suggestions",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "TikTok",
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#4285F4",
+        "name": "Gboard Lite",
+        "packageName": "com.google.android.inputmethod.latin",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "18.4.1.985164140-lite_beta-arm64-v8a"
+          },
+          {
+            "isExperimental": false,
+            "version": "18.4.1.985164140-lite_beta-armeabi-v7a"
+          }
+        ],
+        "versions": [
+          "18.4.1.985164140-lite_beta-arm64-v8a",
+          "18.4.1.985164140-lite_beta-armeabi-v7a"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Neutralizes AndroidX WorkManager schedulers, MDD (Mobile Data Download) periodic sync, and Superpacks eager asset synchronization (opt-in to preserve initial dictionary downloads).",
+    "id": "d52b52012ef53295c29be904:33",
+    "legacy_id": 13901,
+    "metadata_status": "stale",
+    "name": "Disable Background Sync",
+    "options": [],
+    "packages": [
+      {
+        "name": "Gboard Lite",
+        "versions": [
+          "18.4.1.985164140-lite_beta-arm64-v8a",
+          "18.4.1.985164140-lite_beta-armeabi-v7a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF4500",
+        "name": "Brave Private Web Browser, VPN",
+        "packageName": "com.brave.browser",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.96.61"
+          }
+        ],
+        "versions": [
+          "1.96.61"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Eliminates background wakeups, radio modem activity, and battery drain by forcing GooglePlayServicesChecker.shouldDisableBackgroundSync() -> true and neutralizing wakeup tasks.",
+    "id": "d52b52012ef53295c29be904:34",
+    "legacy_id": 13902,
+    "metadata_status": "stale",
+    "name": "Disable Background Sync & Periodic Sync",
+    "options": [],
+    "packages": [
+      {
+        "name": "Brave Private Web Browser, VPN",
+        "versions": [
+          "1.96.61"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF4500",
+        "name": "Brave Private Web Browser, VPN",
+        "packageName": "com.brave.browser",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.96.61"
+          }
+        ],
+        "versions": [
+          "1.96.61"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Neutralizes the Battery Status API (navigator.getBattery) to prevent cross-site device fingerprinting and drops OS battery change broadcasts.",
+    "id": "d52b52012ef53295c29be904:35",
+    "legacy_id": 13903,
+    "metadata_status": "stale",
+    "name": "Disable Battery Status API & OS Listener",
+    "options": [],
+    "packages": [
+      {
+        "name": "Brave Private Web Browser, VPN",
+        "versions": [
+          "1.96.61"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#4285F4",
+        "name": "Gboard Lite",
+        "packageName": "com.google.android.inputmethod.latin",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "18.4.1.985164140-lite_beta-arm64-v8a"
+          },
+          {
+            "isExperimental": false,
+            "version": "18.4.1.985164140-lite_beta-armeabi-v7a"
+          }
+        ],
+        "versions": [
+          "18.4.1.985164140-lite_beta-arm64-v8a",
+          "18.4.1.985164140-lite_beta-armeabi-v7a"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables Android backup for Gboard (allowBackup=false and backup agent removed) so keyboard settings, learned words, and personal dictionary data are never uploaded to Google Drive backups or copied by device-to-device transfer.",
+    "id": "d52b52012ef53295c29be904:36",
+    "legacy_id": 13904,
+    "metadata_status": "stale",
+    "name": "Disable Cloud Backup",
+    "options": [],
+    "packages": [
+      {
+        "name": "Gboard Lite",
+        "versions": [
+          "18.4.1.985164140-lite_beta-arm64-v8a",
+          "18.4.1.985164140-lite_beta-armeabi-v7a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FE2C55",
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "47.1.4"
+          }
+        ],
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Disables the double tap gesture to like videos in the feed, preventing accidental likes while scrolling or pausing. Videos can still be liked using the like button.",
+    "id": "d52b52012ef53295c29be904:37",
+    "legacy_id": 13905,
+    "metadata_status": "stale",
+    "name": "Disable Double Tap to Like",
+    "options": [],
+    "packages": [
+      {
+        "name": "TikTok",
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FE2C55",
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "47.1.4"
+          }
+        ],
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Disables long-press action gestures on feed buttons, including Like to repost, Share to quick DMs, and Comment to quick emojis.",
+    "id": "d52b52012ef53295c29be904:38",
+    "legacy_id": 13906,
+    "metadata_status": "stale",
+    "name": "Disable Feed Long-Press Actions",
+    "options": [
+      {
+        "default": true,
+        "description": "Prevents holding the Like button on feed videos from opening the Repost action panel.",
+        "key": "disableLikeRepost",
+        "required": false,
+        "title": "Disable Long-Press Like (Repost)",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Prevents holding the Share button on feed videos from opening the quick share recent contacts tray.",
+        "key": "disableShareQuickDms",
+        "required": false,
+        "title": "Disable Long-Press Share (Quick DMs)",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Prevents holding the Comment button on feed videos from opening the quick reaction emojis picker.",
+        "key": "disableCommentReactions",
+        "required": false,
+        "title": "Disable Long-Press Comment (Quick Emojis)",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "TikTok",
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FE2C55",
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "47.1.4"
+          }
+        ],
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Forces the video playback engine to select standard SDR bitrates (BT.709/sRGB) instead of HDR (HDR10/PQ/HLG), preventing blinding screen brightness spikes and display thermal throttling while preserving smooth playback.",
+    "id": "d52b52012ef53295c29be904:39",
+    "legacy_id": 13907,
+    "metadata_status": "stale",
+    "name": "Disable HDR Video Playback",
+    "options": [],
+    "packages": [
+      {
+        "name": "TikTok",
+        "versions": [
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  },
+  {
+    "bundle_id": "d52b52012ef53295c29be904",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#4285F4",
+        "name": "Gboard Lite",
+        "packageName": "com.google.android.inputmethod.latin",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "18.4.1.985164140-lite_beta-arm64-v8a"
+          },
+          {
+            "isExperimental": false,
+            "version": "18.4.1.985164140-lite_beta-armeabi-v7a"
+          }
+        ],
+        "versions": [
+          "18.4.1.985164140-lite_beta-arm64-v8a",
+          "18.4.1.985164140-lite_beta-armeabi-v7a"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Makes Gboard's Google Play services availability check always report SERVICE_DISABLED, so GMS-backed code paths (Clearcut logging, Phenotype, account sync, Google Help feedback) are skipped at the source instead of being attempted.",
+    "id": "d52b52012ef53295c29be904:40",
+    "legacy_id": 13908,
+    "metadata_status": "stale",
+    "name": "Disable Play Services Integration",
+    "options": [],
+    "packages": [
+      {
+        "name": "Gboard Lite",
+        "versions": [
+          "18.4.1.985164140-lite_beta-arm64-v8a",
+          "18.4.1.985164140-lite_beta-armeabi-v7a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "789f3d8b840196ce"
+  }
+]

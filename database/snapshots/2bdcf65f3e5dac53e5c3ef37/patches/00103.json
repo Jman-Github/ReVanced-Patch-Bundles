@@ -1,0 +1,5657 @@
+[
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Removes the restriction of capturing audio from apps that normally wouldn't allow it.",
+    "id": "e41368ebbe4c9312bae9a169:17",
+    "legacy_id": 10664,
+    "metadata_status": "unverified",
+    "name": "Remove screen capture restriction",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a"
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Removes the restriction of taking screenshots in apps that normally wouldn't allow it.",
+    "id": "e41368ebbe4c9312bae9a169:18",
+    "legacy_id": 10665,
+    "metadata_status": "unverified",
+    "name": "Remove screenshot restriction",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a"
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Removes share targets like directly sharing to a frequent contact.",
+    "id": "e41368ebbe4c9312bae9a169:19",
+    "legacy_id": 10666,
+    "metadata_status": "unverified",
+    "name": "Remove share targets",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a"
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Changes the target SDK to version 34 (Android 14). For devices running Android 15+, this will disable edge-to-edge display.",
+    "id": "e41368ebbe4c9312bae9a169:20",
+    "legacy_id": 10667,
+    "metadata_status": "unverified",
+    "name": "Set target SDK version 34",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a"
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Spoofs the information about the current build.",
+    "id": "e41368ebbe4c9312bae9a169:21",
+    "legacy_id": 10668,
+    "metadata_status": "unverified",
+    "name": "Spoof build info",
+    "options": [
+      {
+        "default": null,
+        "description": "The name of the underlying board, like \"goldfish\".",
+        "key": "Board",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The system bootloader version number.",
+        "key": "Bootloader",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The consumer-visible brand with which the product/hardware will be associated, if any.",
+        "key": "Brand",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "This field was deprecated in API level 21. Use SUPPORTED_ABIS instead.",
+        "key": "CPU ABI",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "This field was deprecated in API level 21. Use SUPPORTED_ABIS instead.",
+        "key": "CPU ABI 2",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The name of the industrial design.",
+        "key": "Device",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "A build ID string meant for displaying to the user.",
+        "key": "Display",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "A string that uniquely identifies this build.",
+        "key": "Fingerprint",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The name of the hardware (from the kernel command line or /proc).",
+        "key": "Hardware",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The host.",
+        "key": "Host",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "Either a changelist number, or a label like \"M4-rc20\".",
+        "key": "ID",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The manufacturer of the product/hardware.",
+        "key": "Manufacturer",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The end-user-visible name for the end product.",
+        "key": "Model",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The SKU of the device as set by the original design manufacturer (ODM).",
+        "key": "ODM SKU",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The name of the overall product.",
+        "key": "Product",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "This field was deprecated in API level 15. The radio firmware version is frequently not available when this class is initialized, leading to a blank or \"unknown\" value for this string. Use getRadioVersion() instead.",
+        "key": "Radio",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "This field was deprecated in API level 26. Use getSerial() instead.",
+        "key": "Serial",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The SKU of the hardware (from the kernel command line).",
+        "key": "SKU",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The manufacturer of the device's primary system-on-chip.",
+        "key": "SOC manufacturer",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The model name of the device's primary system-on-chip.",
+        "key": "SOC model",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "Comma-separated tags describing the build, like \"unsigned,debug\".",
+        "key": "Tags",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The time at which the build was produced, given in milliseconds since the UNIX epoch.",
+        "key": "Time",
+        "required": false,
+        "title": null,
+        "type": "kotlin.Long",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The type of build, like \"user\" or \"eng\".",
+        "key": "Type",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The user.",
+        "key": "User",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a"
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Forces apps to see Keymaster and Attestation security levels as 'StrongBox' (Level 2).",
+    "id": "e41368ebbe4c9312bae9a169:22",
+    "legacy_id": 10669,
+    "metadata_status": "unverified",
+    "name": "Spoof keystore security level",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a"
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Spoofs Google Play data about the user's age and verification status.",
+    "id": "e41368ebbe4c9312bae9a169:23",
+    "legacy_id": 10670,
+    "metadata_status": "unverified",
+    "name": "Spoof Play Age Signals",
+    "options": [
+      {
+        "default": 18,
+        "description": "A positive integer.",
+        "key": "Lower age bound",
+        "required": false,
+        "title": null,
+        "type": "kotlin.Int",
+        "values": null
+      },
+      {
+        "default": 2147483647,
+        "description": "A positive integer. Must be greater than the lower age bound.",
+        "key": "Upper age bound",
+        "required": false,
+        "title": null,
+        "type": "kotlin.Int",
+        "values": null
+      },
+      {
+        "default": 0,
+        "description": "An integer representing the user status.",
+        "key": "User status",
+        "required": false,
+        "title": null,
+        "type": "kotlin.Int",
+        "values": {
+          "DECLARED": 5,
+          "SUPERVISED": 1,
+          "SUPERVISED_APPROVAL_DENIED": 3,
+          "SUPERVISED_APPROVAL_PENDING": 2,
+          "UNKNOWN": 4,
+          "VERIFIED": 0
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a"
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Spoofs device integrity states (Locked Bootloader, Verified OS) for apps that perform local certificate attestation.",
+    "id": "e41368ebbe4c9312bae9a169:24",
+    "legacy_id": 10671,
+    "metadata_status": "unverified",
+    "name": "Spoof root of trust",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a"
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Spoofs information about the SIM card provider.",
+    "id": "e41368ebbe4c9312bae9a169:25",
+    "legacy_id": 10672,
+    "metadata_status": "unverified",
+    "name": "Spoof SIM provider",
+    "options": [
+      {
+        "default": null,
+        "description": null,
+        "key": "Network ISO country code",
+        "required": false,
+        "title": "ISO-3166-1 alpha-2 country code equivalent for the SIM provider's country code.",
+        "type": "kotlin.String",
+        "values": {
+          "Afghanistan": "AF",
+          "Albania": "AL",
+          "Algeria": "DZ",
+          "American Samoa": "AS",
+          "Andorra": "AD",
+          "Angola": "AO",
+          "Anguilla": "AI",
+          "Antarctica": "AQ",
+          "Antigua & Barbuda": "AG",
+          "Argentina": "AR",
+          "Armenia": "AM",
+          "Aruba": "AW",
+          "Australia": "AU",
+          "Austria": "AT",
+          "Azerbaijan": "AZ",
+          "Bahamas": "BS",
+          "Bahrain": "BH",
+          "Bangladesh": "BD",
+          "Barbados": "BB",
+          "Belarus": "BY",
+          "Belgium": "BE",
+          "Belize": "BZ",
+          "Benin": "BJ",
+          "Bermuda": "BM",
+          "Bhutan": "BT",
+          "Bolivia": "BO",
+          "Bosnia & Herzegovina": "BA",
+          "Botswana": "BW",
+          "Bouvet Island": "BV",
+          "Brazil": "BR",
+          "British Indian Ocean Territory": "IO",
+          "British Virgin Islands": "VG",
+          "Brunei": "BN",
+          "Bulgaria": "BG",
+          "Burkina Faso": "BF",
+          "Burundi": "BI",
+          "Cambodia": "KH",
+          "Cameroon": "CM",
+          "Canada": "CA",
+          "Cape Verde": "CV",
+          "Caribbean Netherlands": "BQ",
+          "Cayman Islands": "KY",
+          "Central African Republic": "CF",
+          "Chad": "TD",
+          "Chile": "CL",
+          "China": "CN",
+          "Christmas Island": "CX",
+          "Cocos (Keeling) Islands": "CC",
+          "Colombia": "CO",
+          "Comoros": "KM",
+          "Congo - Brazzaville": "CG",
+          "Congo - Kinshasa": "CD",
+          "Cook Islands": "CK",
+          "Costa Rica": "CR",
+          "Croatia": "HR",
+          "Cuba": "CU",
+          "Curaçao": "CW",
+          "Cyprus": "CY",
+          "Czechia": "CZ",
+          "Côte d’Ivoire": "CI",
+          "Denmark": "DK",
+          "Djibouti": "DJ",
+          "Dominica": "DM",
+          "Dominican Republic": "DO",
+          "Ecuador": "EC",
+          "Egypt": "EG",
+          "El Salvador": "SV",
+          "Equatorial Guinea": "GQ",
+          "Eritrea": "ER",
+          "Estonia": "EE",
+          "Eswatini": "SZ",
+          "Ethiopia": "ET",
+          "Falkland Islands": "FK",
+          "Faroe Islands": "FO",
+          "Fiji": "FJ",
+          "Finland": "FI",
+          "France": "FR",
+          "French Guiana": "GF",
+          "French Polynesia": "PF",
+          "French Southern Territories": "TF",
+          "Gabon": "GA",
+          "Gambia": "GM",
+          "Georgia": "GE",
+          "Germany": "DE",
+          "Ghana": "GH",
+          "Gibraltar": "GI",
+          "Greece": "GR",
+          "Greenland": "GL",
+          "Grenada": "GD",
+          "Guadeloupe": "GP",
+          "Guam": "GU",
+          "Guatemala": "GT",
+          "Guernsey": "GG",
+          "Guinea": "GN",
+          "Guinea-Bissau": "GW",
+          "Guyana": "GY",
+          "Haiti": "HT",
+          "Heard & McDonald Islands": "HM",
+          "Honduras": "HN",
+          "Hong Kong SAR China": "HK",
+          "Hungary": "HU",
+          "Iceland": "IS",
+          "India": "IN",
+          "Indonesia": "ID",
+          "Iran": "IR",
+          "Iraq": "IQ",
+          "Ireland": "IE",
+          "Isle of Man": "IM",
+          "Israel": "IL",
+          "Italy": "IT",
+          "Jamaica": "JM",
+          "Japan": "JP",
+          "Jersey": "JE",
+          "Jordan": "JO",
+          "Kazakhstan": "KZ",
+          "Kenya": "KE",
+          "Kiribati": "KI",
+          "Kuwait": "KW",
+          "Kyrgyzstan": "KG",
+          "Laos": "LA",
+          "Latvia": "LV",
+          "Lebanon": "LB",
+          "Lesotho": "LS",
+          "Liberia": "LR",
+          "Libya": "LY",
+          "Liechtenstein": "LI",
+          "Lithuania": "LT",
+          "Luxembourg": "LU",
+          "Macao SAR China": "MO",
+          "Madagascar": "MG",
+          "Malawi": "MW",
+          "Malaysia": "MY",
+          "Maldives": "MV",
+          "Mali": "ML",
+          "Malta": "MT",
+          "Marshall Islands": "MH",
+          "Martinique": "MQ",
+          "Mauritania": "MR",
+          "Mauritius": "MU",
+          "Mayotte": "YT",
+          "Mexico": "MX",
+          "Micronesia": "FM",
+          "Moldova": "MD",
+          "Monaco": "MC",
+          "Mongolia": "MN",
+          "Montenegro": "ME",
+          "Montserrat": "MS",
+          "Morocco": "MA",
+          "Mozambique": "MZ",
+          "Myanmar (Burma)": "MM",
+          "Namibia": "NA",
+          "Nauru": "NR",
+          "Nepal": "NP",
+          "Netherlands": "NL",
+          "New Caledonia": "NC",
+          "New Zealand": "NZ",
+          "Nicaragua": "NI",
+          "Niger": "NE",
+          "Nigeria": "NG",
+          "Niue": "NU",
+          "Norfolk Island": "NF",
+          "North Korea": "KP",
+          "North Macedonia": "MK",
+          "Northern Mariana Islands": "MP",
+          "Norway": "NO",
+          "Oman": "OM",
+          "Pakistan": "PK",
+          "Palau": "PW",
+          "Palestinian Territories": "PS",
+          "Panama": "PA",
+          "Papua New Guinea": "PG",
+          "Paraguay": "PY",
+          "Peru": "PE",
+          "Philippines": "PH",
+          "Pitcairn Islands": "PN",
+          "Poland": "PL",
+          "Portugal": "PT",
+          "Puerto Rico": "PR",
+          "Qatar": "QA",
+          "Romania": "RO",
+          "Russia": "RU",
+          "Rwanda": "RW",
+          "Réunion": "RE",
+          "Samoa": "WS",
+          "San Marino": "SM",
+          "Saudi Arabia": "SA",
+          "Senegal": "SN",
+          "Serbia": "RS",
+          "Seychelles": "SC",
+          "Sierra Leone": "SL",
+          "Singapore": "SG",
+          "Sint Maarten": "SX",
+          "Slovakia": "SK",
+          "Slovenia": "SI",
+          "Solomon Islands": "SB",
+          "Somalia": "SO",
+          "South Africa": "ZA",
+          "South Georgia & South Sandwich Islands": "GS",
+          "South Korea": "KR",
+          "South Sudan": "SS",
+          "Spain": "ES",
+          "Sri Lanka": "LK",
+          "St. Barthélemy": "BL",
+          "St. Helena": "SH",
+          "St. Kitts & Nevis": "KN",
+          "St. Lucia": "LC",
+          "St. Martin": "MF",
+          "St. Pierre & Miquelon": "PM",
+          "St. Vincent & Grenadines": "VC",
+          "Sudan": "SD",
+          "Suriname": "SR",
+          "Svalbard & Jan Mayen": "SJ",
+          "Sweden": "SE",
+          "Switzerland": "CH",
+          "Syria": "SY",
+          "São Tomé & Príncipe": "ST",
+          "Taiwan": "TW",
+          "Tajikistan": "TJ",
+          "Tanzania": "TZ",
+          "Thailand": "TH",
+          "Timor-Leste": "TL",
+          "Togo": "TG",
+          "Tokelau": "TK",
+          "Tonga": "TO",
+          "Trinidad & Tobago": "TT",
+          "Tunisia": "TN",
+          "Turkmenistan": "TM",
+          "Turks & Caicos Islands": "TC",
+          "Tuvalu": "TV",
+          "Türkiye": "TR",
+          "U.S. Outlying Islands": "UM",
+          "U.S. Virgin Islands": "VI",
+          "Uganda": "UG",
+          "Ukraine": "UA",
+          "United Arab Emirates": "AE",
+          "United Kingdom": "GB",
+          "United States": "US",
+          "Uruguay": "UY",
+          "Uzbekistan": "UZ",
+          "Vanuatu": "VU",
+          "Vatican City": "VA",
+          "Venezuela": "VE",
+          "Vietnam": "VN",
+          "Wallis & Futuna": "WF",
+          "Western Sahara": "EH",
+          "Yemen": "YE",
+          "Zambia": "ZM",
+          "Zimbabwe": "ZW",
+          "Åland Islands": "AX"
+        }
+      },
+      {
+        "default": null,
+        "description": "The 5 or 6 digits MCC+MNC (Mobile Country Code + Mobile Network Code) of the network operator.",
+        "key": "MCC+MNC network operator code",
+        "required": false,
+        "title": null,
+        "type": "kotlin.Int",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The full name of the network operator.",
+        "key": "Network operator name",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": null,
+        "key": "SIM ISO country code",
+        "required": false,
+        "title": "ISO-3166-1 alpha-2 country code equivalent for the SIM provider's country code.",
+        "type": "kotlin.String",
+        "values": {
+          "Afghanistan": "AF",
+          "Albania": "AL",
+          "Algeria": "DZ",
+          "American Samoa": "AS",
+          "Andorra": "AD",
+          "Angola": "AO",
+          "Anguilla": "AI",
+          "Antarctica": "AQ",
+          "Antigua & Barbuda": "AG",
+          "Argentina": "AR",
+          "Armenia": "AM",
+          "Aruba": "AW",
+          "Australia": "AU",
+          "Austria": "AT",
+          "Azerbaijan": "AZ",
+          "Bahamas": "BS",
+          "Bahrain": "BH",
+          "Bangladesh": "BD",
+          "Barbados": "BB",
+          "Belarus": "BY",
+          "Belgium": "BE",
+          "Belize": "BZ",
+          "Benin": "BJ",
+          "Bermuda": "BM",
+          "Bhutan": "BT",
+          "Bolivia": "BO",
+          "Bosnia & Herzegovina": "BA",
+          "Botswana": "BW",
+          "Bouvet Island": "BV",
+          "Brazil": "BR",
+          "British Indian Ocean Territory": "IO",
+          "British Virgin Islands": "VG",
+          "Brunei": "BN",
+          "Bulgaria": "BG",
+          "Burkina Faso": "BF",
+          "Burundi": "BI",
+          "Cambodia": "KH",
+          "Cameroon": "CM",
+          "Canada": "CA",
+          "Cape Verde": "CV",
+          "Caribbean Netherlands": "BQ",
+          "Cayman Islands": "KY",
+          "Central African Republic": "CF",
+          "Chad": "TD",
+          "Chile": "CL",
+          "China": "CN",
+          "Christmas Island": "CX",
+          "Cocos (Keeling) Islands": "CC",
+          "Colombia": "CO",
+          "Comoros": "KM",
+          "Congo - Brazzaville": "CG",
+          "Congo - Kinshasa": "CD",
+          "Cook Islands": "CK",
+          "Costa Rica": "CR",
+          "Croatia": "HR",
+          "Cuba": "CU",
+          "Curaçao": "CW",
+          "Cyprus": "CY",
+          "Czechia": "CZ",
+          "Côte d’Ivoire": "CI",
+          "Denmark": "DK",
+          "Djibouti": "DJ",
+          "Dominica": "DM",
+          "Dominican Republic": "DO",
+          "Ecuador": "EC",
+          "Egypt": "EG",
+          "El Salvador": "SV",
+          "Equatorial Guinea": "GQ",
+          "Eritrea": "ER",
+          "Estonia": "EE",
+          "Eswatini": "SZ",
+          "Ethiopia": "ET",
+          "Falkland Islands": "FK",
+          "Faroe Islands": "FO",
+          "Fiji": "FJ",
+          "Finland": "FI",
+          "France": "FR",
+          "French Guiana": "GF",
+          "French Polynesia": "PF",
+          "French Southern Territories": "TF",
+          "Gabon": "GA",
+          "Gambia": "GM",
+          "Georgia": "GE",
+          "Germany": "DE",
+          "Ghana": "GH",
+          "Gibraltar": "GI",
+          "Greece": "GR",
+          "Greenland": "GL",
+          "Grenada": "GD",
+          "Guadeloupe": "GP",
+          "Guam": "GU",
+          "Guatemala": "GT",
+          "Guernsey": "GG",
+          "Guinea": "GN",
+          "Guinea-Bissau": "GW",
+          "Guyana": "GY",
+          "Haiti": "HT",
+          "Heard & McDonald Islands": "HM",
+          "Honduras": "HN",
+          "Hong Kong SAR China": "HK",
+          "Hungary": "HU",
+          "Iceland": "IS",
+          "India": "IN",
+          "Indonesia": "ID",
+          "Iran": "IR",
+          "Iraq": "IQ",
+          "Ireland": "IE",
+          "Isle of Man": "IM",
+          "Israel": "IL",
+          "Italy": "IT",
+          "Jamaica": "JM",
+          "Japan": "JP",
+          "Jersey": "JE",
+          "Jordan": "JO",
+          "Kazakhstan": "KZ",
+          "Kenya": "KE",
+          "Kiribati": "KI",
+          "Kuwait": "KW",
+          "Kyrgyzstan": "KG",
+          "Laos": "LA",
+          "Latvia": "LV",
+          "Lebanon": "LB",
+          "Lesotho": "LS",
+          "Liberia": "LR",
+          "Libya": "LY",
+          "Liechtenstein": "LI",
+          "Lithuania": "LT",
+          "Luxembourg": "LU",
+          "Macao SAR China": "MO",
+          "Madagascar": "MG",
+          "Malawi": "MW",
+          "Malaysia": "MY",
+          "Maldives": "MV",
+          "Mali": "ML",
+          "Malta": "MT",
+          "Marshall Islands": "MH",
+          "Martinique": "MQ",
+          "Mauritania": "MR",
+          "Mauritius": "MU",
+          "Mayotte": "YT",
+          "Mexico": "MX",
+          "Micronesia": "FM",
+          "Moldova": "MD",
+          "Monaco": "MC",
+          "Mongolia": "MN",
+          "Montenegro": "ME",
+          "Montserrat": "MS",
+          "Morocco": "MA",
+          "Mozambique": "MZ",
+          "Myanmar (Burma)": "MM",
+          "Namibia": "NA",
+          "Nauru": "NR",
+          "Nepal": "NP",
+          "Netherlands": "NL",
+          "New Caledonia": "NC",
+          "New Zealand": "NZ",
+          "Nicaragua": "NI",
+          "Niger": "NE",
+          "Nigeria": "NG",
+          "Niue": "NU",
+          "Norfolk Island": "NF",
+          "North Korea": "KP",
+          "North Macedonia": "MK",
+          "Northern Mariana Islands": "MP",
+          "Norway": "NO",
+          "Oman": "OM",
+          "Pakistan": "PK",
+          "Palau": "PW",
+          "Palestinian Territories": "PS",
+          "Panama": "PA",
+          "Papua New Guinea": "PG",
+          "Paraguay": "PY",
+          "Peru": "PE",
+          "Philippines": "PH",
+          "Pitcairn Islands": "PN",
+          "Poland": "PL",
+          "Portugal": "PT",
+          "Puerto Rico": "PR",
+          "Qatar": "QA",
+          "Romania": "RO",
+          "Russia": "RU",
+          "Rwanda": "RW",
+          "Réunion": "RE",
+          "Samoa": "WS",
+          "San Marino": "SM",
+          "Saudi Arabia": "SA",
+          "Senegal": "SN",
+          "Serbia": "RS",
+          "Seychelles": "SC",
+          "Sierra Leone": "SL",
+          "Singapore": "SG",
+          "Sint Maarten": "SX",
+          "Slovakia": "SK",
+          "Slovenia": "SI",
+          "Solomon Islands": "SB",
+          "Somalia": "SO",
+          "South Africa": "ZA",
+          "South Georgia & South Sandwich Islands": "GS",
+          "South Korea": "KR",
+          "South Sudan": "SS",
+          "Spain": "ES",
+          "Sri Lanka": "LK",
+          "St. Barthélemy": "BL",
+          "St. Helena": "SH",
+          "St. Kitts & Nevis": "KN",
+          "St. Lucia": "LC",
+          "St. Martin": "MF",
+          "St. Pierre & Miquelon": "PM",
+          "St. Vincent & Grenadines": "VC",
+          "Sudan": "SD",
+          "Suriname": "SR",
+          "Svalbard & Jan Mayen": "SJ",
+          "Sweden": "SE",
+          "Switzerland": "CH",
+          "Syria": "SY",
+          "São Tomé & Príncipe": "ST",
+          "Taiwan": "TW",
+          "Tajikistan": "TJ",
+          "Tanzania": "TZ",
+          "Thailand": "TH",
+          "Timor-Leste": "TL",
+          "Togo": "TG",
+          "Tokelau": "TK",
+          "Tonga": "TO",
+          "Trinidad & Tobago": "TT",
+          "Tunisia": "TN",
+          "Turkmenistan": "TM",
+          "Turks & Caicos Islands": "TC",
+          "Tuvalu": "TV",
+          "Türkiye": "TR",
+          "U.S. Outlying Islands": "UM",
+          "U.S. Virgin Islands": "VI",
+          "Uganda": "UG",
+          "Ukraine": "UA",
+          "United Arab Emirates": "AE",
+          "United Kingdom": "GB",
+          "United States": "US",
+          "Uruguay": "UY",
+          "Uzbekistan": "UZ",
+          "Vanuatu": "VU",
+          "Vatican City": "VA",
+          "Venezuela": "VE",
+          "Vietnam": "VN",
+          "Wallis & Futuna": "WF",
+          "Western Sahara": "EH",
+          "Yemen": "YE",
+          "Zambia": "ZM",
+          "Zimbabwe": "ZW",
+          "Åland Islands": "AX"
+        }
+      },
+      {
+        "default": null,
+        "description": "The 5 or 6 digits MCC+MNC (Mobile Country Code + Mobile Network Code) of the SIM operator.",
+        "key": "MCC+MNC SIM operator code",
+        "required": false,
+        "title": null,
+        "type": "kotlin.Int",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The full name of the SIM operator.",
+        "key": "SIM operator name",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "15-digit IMEI to spoof, blank to skip, or 'random'.",
+        "key": "IMEI value",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "14-char hex MEID to spoof, blank to skip, or 'random'.",
+        "key": "MEID value",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "15-digit IMSI to spoof, blank to skip, or 'random'.",
+        "key": "IMSI (Subscriber ID)",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "19-digit ICCID to spoof, blank to skip, or 'random'.",
+        "key": "ICCID (SIM Serial)",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "Phone number to spoof, blank to skip, or 'random'.",
+        "key": "Phone number",
+        "required": false,
+        "title": null,
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a"
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Spoofs an existing Wi-Fi connection.",
+    "id": "e41368ebbe4c9312bae9a169:26",
+    "legacy_id": 10673,
+    "metadata_status": "unverified",
+    "name": "Spoof Wi-Fi connection",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a"
+  },
+  {
+    "bundle_id": "e4261ee0f630ebc61bd64f20",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#1CB0F6",
+        "name": "Heads Up!",
+        "packageName": "com.wb.headsup",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "4.15.11"
+          }
+        ],
+        "versions": [
+          "4.15.11"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks every deck without a purchase by forcing the native ownership checks in libil2cpp.so to report each deck as bought.",
+    "id": "e4261ee0f630ebc61bd64f20:0",
+    "legacy_id": 10674,
+    "metadata_status": "unverified",
+    "name": "Unlock all decks",
+    "options": [],
+    "packages": [
+      {
+        "name": "Heads Up!",
+        "versions": [
+          "4.15.11"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.1",
+    "source_id": "d6384aa75923b3e5"
+  },
+  {
+    "bundle_id": "e4428e13258e75e949ffb6d0",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FFFFFF",
+        "name": "Google Maps",
+        "packageName": "com.google.android.apps.maps",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.04.973607363"
+          }
+        ],
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Lifts the 60 Hz limit Maps puts on itself, on the app and on the map, so it can run at your screen's full refresh rate (such as 120 Hz). Uses more battery, most of all while navigating. Off by default: switch it on on the Customization screen.",
+    "id": "e4428e13258e75e949ffb6d0:0",
+    "legacy_id": 10675,
+    "metadata_status": "unverified",
+    "name": "120 refresh rate",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.3",
+    "source_id": "6da25d54b19c98a0"
+  },
+  {
+    "bundle_id": "e4428e13258e75e949ffb6d0",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FFFFFF",
+        "name": "Google Maps",
+        "packageName": "com.google.android.apps.maps",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.04.973607363"
+          }
+        ],
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Removes the \"More from this app\" label from the account sheet, and keeps the sheet open when you come back from Settings or Customization or tap \"Your profile\", instead of dropping back to the map.",
+    "id": "e4428e13258e75e949ffb6d0:1",
+    "legacy_id": 10676,
+    "metadata_status": "unverified",
+    "name": "Account sheet cleanup",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.3",
+    "source_id": "6da25d54b19c98a0"
+  },
+  {
+    "bundle_id": "e4428e13258e75e949ffb6d0",
+    "category": "microG",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FFFFFF",
+        "name": "Google Maps",
+        "packageName": "com.google.android.apps.maps",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.04.973607363"
+          }
+        ],
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Builds microG Maps, a separate app (org.ungoogled.android.apps.maps.microg) that signs in to your Google account through microG: saved places and lists, Timeline, location sharing, contributions and push messages. Remove sign-in prompts, Trim account menu and Remove permissions are left out of this build, Offline saved places keeps only its Local saved screen, which copies your account's saved lists to the phone (Pull from Google account), and its icon carries microG's C. Needs microG: MicroG-RE or ReVanced GmsCore. Not for root (mount) installs.",
+    "id": "e4428e13258e75e949ffb6d0:2",
+    "legacy_id": 10677,
+    "metadata_status": "unverified",
+    "name": "Add microG support",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.3",
+    "source_id": "6da25d54b19c98a0"
+  },
+  {
+    "bundle_id": "e4428e13258e75e949ffb6d0",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FFFFFF",
+        "name": "Google Maps",
+        "packageName": "com.google.android.apps.maps",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.04.973607363"
+          }
+        ],
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Reworks the offline area picker: zooming out really selects more instead of being shrunk to Google's size cap, the box can be resized by dragging its edges and corners, a large area is split into several downloads whose true total size is shown, and areas already downloaded are drawn on the map. Can be turned off on the Customization screen.",
+    "id": "e4428e13258e75e949ffb6d0:3",
+    "legacy_id": 10678,
+    "metadata_status": "unverified",
+    "name": "Better offline maps",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.3",
+    "source_id": "6da25d54b19c98a0"
+  },
+  {
+    "bundle_id": "e4428e13258e75e949ffb6d0",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FFFFFF",
+        "name": "Google Maps",
+        "packageName": "com.google.android.apps.maps",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.04.973607363"
+          }
+        ],
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "AMOLED-black theme. Pins Maps' own dark mode and its separate navigation colour scheme, and remaps colour resources, drawable fills and draw-time paints so no surface is left grey.",
+    "id": "e4428e13258e75e949ffb6d0:4",
+    "legacy_id": 10679,
+    "metadata_status": "unverified",
+    "name": "Black theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.3",
+    "source_id": "6da25d54b19c98a0"
+  },
+  {
+    "bundle_id": "e4428e13258e75e949ffb6d0",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FFFFFF",
+        "name": "Google Maps",
+        "packageName": "com.google.android.apps.maps",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.04.973607363"
+          }
+        ],
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Chromium-coloured flat map pin on every in-app product logo and the search bar's leading icon.",
+    "id": "e4428e13258e75e949ffb6d0:5",
+    "legacy_id": 10680,
+    "metadata_status": "unverified",
+    "name": "Blue pin",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.3",
+    "source_id": "6da25d54b19c98a0"
+  },
+  {
+    "bundle_id": "e4428e13258e75e949ffb6d0",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FFFFFF",
+        "name": "Google Maps",
+        "packageName": "com.google.android.apps.maps",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.04.973607363"
+          }
+        ],
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Makes Maps' bundled Play services signature and availability checks always pass, so it runs re-signed and with Play services disabled or absent, and lets it load tiles, search and routing by sending Google's own package and certificate in the identity headers the Maps backend checks. Where Play services rejects the re-signed app, Maps degrades instead of crashing.",
+    "id": "e4428e13258e75e949ffb6d0:6",
+    "legacy_id": 10681,
+    "metadata_status": "unverified",
+    "name": "Bypass Play Services checks",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.3",
+    "source_id": "6da25d54b19c98a0"
+  },
+  {
+    "bundle_id": "e4428e13258e75e949ffb6d0",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FFFFFF",
+        "name": "Google Maps",
+        "packageName": "com.google.android.apps.maps",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.04.973607363"
+          }
+        ],
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Sets the launcher and in-app app name.",
+    "id": "e4428e13258e75e949ffb6d0:7",
+    "legacy_id": 10682,
+    "metadata_status": "unverified",
+    "name": "Change app name",
+    "options": [
+      {
+        "default": "Ungoogled Maps",
+        "description": "The name shown under the launcher icon and in the app switcher. Left at Ungoogled Maps, Add microG support names the app microG Maps instead.",
+        "key": "appName",
+        "required": true,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Google Maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.3",
+    "source_id": "6da25d54b19c98a0"
+  },
+  {
+    "bundle_id": "e4428e13258e75e949ffb6d0",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FFFFFF",
+        "name": "Google Maps",
+        "packageName": "com.google.android.apps.maps",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.04.973607363"
+          }
+        ],
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Installs alongside stock Google Maps under its own package name. On by default, because stock Maps comes built into most phones and cannot be replaced by a patched copy.",
+    "id": "e4428e13258e75e949ffb6d0:8",
+    "legacy_id": 10683,
+    "metadata_status": "unverified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "org.ungoogled.android.apps.maps",
+        "description": "The package name to install under. Must be a valid Android package name. Left at org.ungoogled.android.apps.maps, Add microG support installs under org.ungoogled.android.apps.maps.microg instead.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Google Maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.3",
+    "source_id": "6da25d54b19c98a0"
+  },
+  {
+    "bundle_id": "e4428e13258e75e949ffb6d0",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FFFFFF",
+        "name": "Google Maps",
+        "packageName": "com.google.android.apps.maps",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.04.973607363"
+          }
+        ],
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds a Customization row under Settings on the account sheet, with switches for the patches here that can be turned back off inside the app.",
+    "id": "e4428e13258e75e949ffb6d0:9",
+    "legacy_id": 10684,
+    "metadata_status": "unverified",
+    "name": "Customization screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.3",
+    "source_id": "6da25d54b19c98a0"
+  },
+  {
+    "bundle_id": "e4428e13258e75e949ffb6d0",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FFFFFF",
+        "name": "Google Maps",
+        "packageName": "com.google.android.apps.maps",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.04.973607363"
+          }
+        ],
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Hides promoted map pins and \"Sponsored\" search results, Gemini's AI summaries (\"Know before you go\" and the review summary), the row of businesses under an address on its place sheet, the home tab's Explore feed and the Explore / Contribute / You tabs. Each can be switched back on on the Customization screen.",
+    "id": "e4428e13258e75e949ffb6d0:10",
+    "legacy_id": 10685,
+    "metadata_status": "unverified",
+    "name": "Hide ads and clutter",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.3",
+    "source_id": "6da25d54b19c98a0"
+  },
+  {
+    "bundle_id": "e4428e13258e75e949ffb6d0",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FFFFFF",
+        "name": "Google Maps",
+        "packageName": "com.google.android.apps.maps",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.04.973607363"
+          }
+        ],
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Uses the flat multicolour pin Maps had before the 2025 gradient icon as the launcher icon and on the screen Maps opens with. With Add microG support, microG's C sits in the pin's circle.",
+    "id": "e4428e13258e75e949ffb6d0:11",
+    "legacy_id": 10686,
+    "metadata_status": "unverified",
+    "name": "Legacy icon",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.3",
+    "source_id": "6da25d54b19c98a0"
+  },
+  {
+    "bundle_id": "e4428e13258e75e949ffb6d0",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FFFFFF",
+        "name": "Google Maps",
+        "packageName": "com.google.android.apps.maps",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.04.973607363"
+          }
+        ],
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds a Location source choice to the Customization screen: Android's own location providers, or Google Play services' fused provider. With Android, Play services is never asked for a location. Play services is never used while it is missing or disabled, so location keeps working on phones without it. Also keeps the network (Wi-Fi/cell) provider registered when no fused provider answers, instead of GPS only, so a fix does not go stale indoors.",
+    "id": "e4428e13258e75e949ffb6d0:12",
+    "legacy_id": 10687,
+    "metadata_status": "unverified",
+    "name": "Location provider toggle",
+    "options": [
+      {
+        "default": false,
+        "description": "The location source Maps starts with. On: Google Play services' fused provider whenever Play services is installed and enabled, Android's own providers otherwise. Off: Android's own providers. Either can be changed later on the Customization screen.",
+        "key": "useFusedProvider",
+        "required": false,
+        "title": "Default to Play services location",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Google Maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.3",
+    "source_id": "6da25d54b19c98a0"
+  },
+  {
+    "bundle_id": "e4428e13258e75e949ffb6d0",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FFFFFF",
+        "name": "Google Maps",
+        "packageName": "com.google.android.apps.maps",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.04.973607363"
+          }
+        ],
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Save places without a Google account, kept only on the phone: Save opens Maps' own \"Place saved\" sheet (Want to go, Travel plans, Starred places, Favorites, your own lists, a note), and a \"Local saved\" row on the account sheet rebuilds Maps' You tab -- your recent places, your lists and labels (Home, Work, your own) -- with export and import (backup file, KML, Google Takeout's Saved Places.json). It also has a Timeline: where the phone has been, grouped into days and visits, kept only on the phone, with GPX export. Recording is off until switched on there; it shows a notification while it runs. With Add microG support, Maps' own Save keeps syncing to your account and Local saved instead copies the account's saved lists to the phone (Pull from Google account).",
+    "id": "e4428e13258e75e949ffb6d0:13",
+    "legacy_id": 10688,
+    "metadata_status": "unverified",
+    "name": "Offline saved places",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.3",
+    "source_id": "6da25d54b19c98a0"
+  },
+  {
+    "bundle_id": "e4428e13258e75e949ffb6d0",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FFFFFF",
+        "name": "Google Maps",
+        "packageName": "com.google.android.apps.maps",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.04.973607363"
+          }
+        ],
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Brings the Pixel-only power saving mode to every phone: while driving with navigation, press the power button and Maps shows only key information such as the next turn on a black screen. Turn it on or off in Settings > Navigation > Power saving mode. Pixels that have it built in keep Google's own version unless Power saving mode is turned on in Power Saving Options, a row on the account sheet under Customization, which also has: a navigation button that opens the power saving screen without locking the phone, switching to it by itself when idle, a speedometer on it, a lower frame rate, and its black map in navigation or all over Maps.",
+    "id": "e4428e13258e75e949ffb6d0:14",
+    "legacy_id": 10689,
+    "metadata_status": "unverified",
+    "name": "Power saving mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.3",
+    "source_id": "6da25d54b19c98a0"
+  },
+  {
+    "bundle_id": "e4428e13258e75e949ffb6d0",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FFFFFF",
+        "name": "Google Maps",
+        "packageName": "com.google.android.apps.maps",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.04.973607363"
+          }
+        ],
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds a Proxy screen to Customization that sends Maps' own traffic, map data included, through an HTTP proxy -- for example Orbot's (127.0.0.1:8118) to use Tor. Map data never falls back to a direct connection: if the proxy stops, Maps stops loading. Needs a recent Play services network engine (Cronet); Maps warns when it cannot take the proxy.",
+    "id": "e4428e13258e75e949ffb6d0:15",
+    "legacy_id": 10690,
+    "metadata_status": "unverified",
+    "name": "Proxy",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.3",
+    "source_id": "6da25d54b19c98a0"
+  },
+  {
+    "bundle_id": "e4428e13258e75e949ffb6d0",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FFFFFF",
+        "name": "Google Maps",
+        "packageName": "com.google.android.apps.maps",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.04.973607363"
+          }
+        ],
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Squares off rounded corners across the UI, including the two round navigation buttons.",
+    "id": "e4428e13258e75e949ffb6d0:16",
+    "legacy_id": 10691,
+    "metadata_status": "unverified",
+    "name": "Rectangle shapes",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.3",
+    "source_id": "6da25d54b19c98a0"
+  },
+  {
+    "bundle_id": "e4428e13258e75e949ffb6d0",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FFFFFF",
+        "name": "Google Maps",
+        "packageName": "com.google.android.apps.maps",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.04.973607363"
+          }
+        ],
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes permissions that only serve Google-account features or Google's data collection: background location, physical activity, contacts, microphone (voice search stops working), camera (Lens and Live View stop working), car speed, advertising ID, push messages and Google services settings. Left out with Add microG support, whose account features need them.",
+    "id": "e4428e13258e75e949ffb6d0:17",
+    "legacy_id": 10692,
+    "metadata_status": "unverified",
+    "name": "Remove permissions",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.3",
+    "source_id": "6da25d54b19c98a0"
+  },
+  {
+    "bundle_id": "e4428e13258e75e949ffb6d0",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FFFFFF",
+        "name": "Google Maps",
+        "packageName": "com.google.android.apps.maps",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.04.973607363"
+          }
+        ],
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Removes Google's sign-in prompts: the first-launch \"Make it your map\" page, the search screen's \"Tired of typing?\" card and the account sheet's \"Sign in\" pill. Tapping \"Your profile\" (or the pill, where it still shows) answers with a \"Can't sign in\" toast instead of nothing. Left out with Add microG support, which signs in.",
+    "id": "e4428e13258e75e949ffb6d0:18",
+    "legacy_id": 10693,
+    "metadata_status": "unverified",
+    "name": "Remove sign-in prompts",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.3",
+    "source_id": "6da25d54b19c98a0"
+  },
+  {
+    "bundle_id": "e4428e13258e75e949ffb6d0",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FFFFFF",
+        "name": "Google Maps",
+        "packageName": "com.google.android.apps.maps",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.04.973607363"
+          }
+        ],
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Points the Firebase Installations and Play services compliance check-ins at an unresolvable host, stops every ad impression and click ping from being sent, and deregisters Google's logging, performance-monitoring, survey and Location History libraries and the on-device federated-learning services. With Add microG support, Firebase Installations and Location History are left alone, so Timeline, account sync and push messages keep working.",
+    "id": "e4428e13258e75e949ffb6d0:19",
+    "legacy_id": 10694,
+    "metadata_status": "unverified",
+    "name": "Remove telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.3",
+    "source_id": "6da25d54b19c98a0"
+  },
+  {
+    "bundle_id": "e4428e13258e75e949ffb6d0",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FFFFFF",
+        "name": "Google Maps",
+        "packageName": "com.google.android.apps.maps",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.04.973607363"
+          }
+        ],
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes Your Timeline, Location sharing, Your data in Maps and Help & feedback from the account sheet. Left out with Add microG support, whose account features need them.",
+    "id": "e4428e13258e75e949ffb6d0:20",
+    "legacy_id": 10695,
+    "metadata_status": "unverified",
+    "name": "Trim account menu",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.3",
+    "source_id": "6da25d54b19c98a0"
+  },
+  {
+    "bundle_id": "e4428e13258e75e949ffb6d0",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FFFFFF",
+        "name": "Google Maps",
+        "packageName": "com.google.android.apps.maps",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.04.973607363"
+          }
+        ],
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds +, − and reset tiles during turn-by-turn that change the navigation zoom while the camera keeps following the car.",
+    "id": "e4428e13258e75e949ffb6d0:21",
+    "legacy_id": 10696,
+    "metadata_status": "unverified",
+    "name": "Zoom controls in navigation",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.3",
+    "source_id": "6da25d54b19c98a0"
+  },
+  {
+    "bundle_id": "e44c5c03344c7ebb34a4d03e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF0000",
+        "description": null,
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "signatures": null,
+        "targets": [
+          {
+            "description": null,
+            "isExperimental": false,
+            "minSdk": null,
+            "version": "20.40.45"
+          }
+        ],
+        "versions": [
+          "20.40.45"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hooks YouTube video time, speed, status, and player controls overlay buttons.",
+    "id": "e44c5c03344c7ebb34a4d03e:0",
+    "legacy_id": 10697,
+    "metadata_status": "unverified",
+    "name": "Voice Over Translation Bytecode Hooks",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube",
+        "versions": [
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.2.1",
+    "source_id": "283ae6e448b3a06c"
+  },
+  {
+    "bundle_id": "e44c5c03344c7ebb34a4d03e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF0000",
+        "description": null,
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "signatures": null,
+        "targets": [
+          {
+            "description": null,
+            "isExperimental": false,
+            "minSdk": null,
+            "version": "20.40.45"
+          }
+        ],
+        "versions": [
+          "20.40.45"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hooks AudioTrack.setVolume to dim original audio when voice-over translation is playing.",
+    "id": "e44c5c03344c7ebb34a4d03e:1",
+    "legacy_id": 10698,
+    "metadata_status": "unverified",
+    "name": "VOT Original Audio Volume Hook",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube",
+        "versions": [
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.2.1",
+    "source_id": "283ae6e448b3a06c"
+  },
+  {
+    "bundle_id": "e44c5c03344c7ebb34a4d03e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF0000",
+        "description": null,
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "signatures": null,
+        "targets": [
+          {
+            "description": null,
+            "isExperimental": false,
+            "minSdk": null,
+            "version": "20.40.45"
+          }
+        ],
+        "versions": [
+          "20.40.45"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Adds Yandex Voice Over Translation to YouTube.",
+    "id": "e44c5c03344c7ebb34a4d03e:2",
+    "legacy_id": 10699,
+    "metadata_status": "unverified",
+    "name": "Yandex Voice Over Translation",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube",
+        "versions": [
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.2.1",
+    "source_id": "283ae6e448b3a06c"
+  },
+  {
+    "bundle_id": "e620fa11a64c3494f88394d1",
+    "compatiblePackages": {
+      "co.swasth.dbtcoach": [
+        "6.4.2",
+        "6.4.1",
+        "6.4.0",
+        "6.1.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Déverrouille toutes les fonctionnalités premium de DBT Coach en court-circuitant la vérification d'abonnement RevenueCat.",
+    "id": "e620fa11a64c3494f88394d1:0",
+    "legacy_id": 10700,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "co.swasth.dbtcoach",
+        "versions": [
+          "6.4.2",
+          "6.4.1",
+          "6.4.0",
+          "6.1.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "ca2850a147d2292a",
+    "use": true
+  },
+  {
+    "bundle_id": "e67f9b6d94dc8585ebaad4ed",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#9FC5E8",
+        "name": "IDOS",
+        "packageName": "cz.mafra.jizdnirady",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.8.0"
+          }
+        ],
+        "versions": [
+          "3.8.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables ads in Mafra AdView.",
+    "id": "e67f9b6d94dc8585ebaad4ed:0",
+    "legacy_id": 10701,
+    "metadata_status": "unverified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "IDOS",
+        "versions": [
+          "3.8.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "4fe7f2f21cb5842d"
+  },
+  {
+    "bundle_id": "e6d6fbb296605f0e11d44ede",
+    "compatiblePackages": {
+      "com.grindrapp.android": [
+        "24.9.0",
+        "24.10.0",
+        "24.11.0",
+        "24.12.0",
+        "24.13.0"
+      ]
+    },
+    "dependencies": [
+      "FirebaseGetCertPatchGrindr"
+    ],
+    "description": "Spoofs the grindr version number",
+    "id": "e6d6fbb296605f0e11d44ede:0",
+    "legacy_id": 10702,
+    "metadata_status": "unverified",
+    "name": "Spoof versions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.grindrapp.android",
+        "versions": [
+          "24.9.0",
+          "24.10.0",
+          "24.11.0",
+          "24.12.0",
+          "24.13.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.2",
+    "source_id": "34a5e295897a444f",
+    "use": true
+  },
+  {
+    "bundle_id": "e6d6fbb296605f0e11d44ede",
+    "compatiblePackages": {
+      "com.grindrapp.android": [
+        "24.9.0",
+        "24.10.0",
+        "24.11.0",
+        "24.12.0",
+        "24.13.0"
+      ]
+    },
+    "dependencies": [
+      "FirebaseGetCertPatchGrindr"
+    ],
+    "description": "Unlocks unlimited features.",
+    "id": "e6d6fbb296605f0e11d44ede:1",
+    "legacy_id": 10703,
+    "metadata_status": "unverified",
+    "name": "Unlock unlimited",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.grindrapp.android",
+        "versions": [
+          "24.9.0",
+          "24.10.0",
+          "24.11.0",
+          "24.12.0",
+          "24.13.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.2",
+    "source_id": "34a5e295897a444f",
+    "use": true
+  },
+  {
+    "bundle_id": "e7bd0f1e1ee03a723daedc56",
+    "compatiblePackages": {
+      "com.diskwalaapp": [
+        "24.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stubs AppLovin, AdMob, InMobi and other ad SDKs at the bytecode level to prevent ads from loading without breaking the app.",
+    "id": "e7bd0f1e1ee03a723daedc56:0",
+    "legacy_id": 10704,
+    "metadata_status": "verified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.diskwalaapp",
+        "versions": [
+          "24.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "f183e841efcc1f53",
+    "use": true
+  },
+  {
+    "bundle_id": "e7bd0f1e1ee03a723daedc56",
+    "compatiblePackages": {
+      "com.diskwalaapp": [
+        "24.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bypasses PairIP license check ('Download from Play Store'), Play Integrity, and signature verification to allow modified and sideloaded app usage.",
+    "id": "e7bd0f1e1ee03a723daedc56:1",
+    "legacy_id": 10705,
+    "metadata_status": "verified",
+    "name": "Disable forced update",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.diskwalaapp",
+        "versions": [
+          "24.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "f183e841efcc1f53",
+    "use": true
+  },
+  {
+    "bundle_id": "e7bd0f1e1ee03a723daedc56",
+    "compatiblePackages": {
+      "com.diskwalaapp": [
+        "24.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Neutralizes PairIP traps in native .so libraries and patches Hermes bundle.",
+    "id": "e7bd0f1e1ee03a723daedc56:2",
+    "legacy_id": 10706,
+    "metadata_status": "verified",
+    "name": "Patch native libraries",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.diskwalaapp",
+        "versions": [
+          "24.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "f183e841efcc1f53",
+    "use": true
+  },
+  {
+    "bundle_id": "e7bd0f1e1ee03a723daedc56",
+    "compatiblePackages": {
+      "com.diskwalaapp": [
+        "24.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Makes RevenueCat entitlements appear active so ads-free and premium features are unlocked.",
+    "id": "e7bd0f1e1ee03a723daedc56:3",
+    "legacy_id": 10707,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.diskwalaapp",
+        "versions": [
+          "24.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "f183e841efcc1f53",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds old style splash animation.",
+    "id": "e8365dd9216f5fe6ed416759:0",
+    "legacy_id": 10708,
+    "metadata_status": "unverified",
+    "name": "Add splash animation",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": false
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds options to replace video thumbnails using the DeArrow API or image captures from the video.",
+    "id": "e8365dd9216f5fe6ed416759:1",
+    "legacy_id": 10709,
+    "metadata_status": "unverified",
+    "name": "Alternative thumbnails",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds an option to bypass the restrictions of ambient mode or disable it completely.",
+    "id": "e8365dd9216f5fe6ed416759:2",
+    "legacy_id": 10710,
+    "metadata_status": "unverified",
+    "name": "Ambient mode switch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": []
+    },
+    "dependencies": [
+      "LithoThemePatch"
+    ],
+    "description": "Applies a pure black theme to some components.",
+    "id": "e8365dd9216f5fe6ed416759:3",
+    "legacy_id": 10711,
+    "metadata_status": "unverified",
+    "name": "Amoled",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "OverrideQualityHookPatch",
+      "OverrideSpeedHookPatch",
+      "Settings",
+      "SharedResourceIdPatch"
+    ],
+    "description": "Adds an option to add the current video quality or playback speed in brackets next to the current time.",
+    "id": "e8365dd9216f5fe6ed416759:4",
+    "legacy_id": 10712,
+    "metadata_status": "unverified",
+    "name": "Append time stamps information",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": []
+    },
+    "dependencies": [],
+    "description": "Enables playing music in the background.",
+    "id": "e8365dd9216f5fe6ed416759:5",
+    "legacy_id": 10713,
+    "metadata_status": "unverified",
+    "name": "Background play",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": []
+    },
+    "dependencies": [],
+    "description": "Sets the audio quality to \"Always High\" when you first install the app.",
+    "id": "e8365dd9216f5fe6ed416759:6",
+    "legacy_id": 10714,
+    "metadata_status": "unverified",
+    "name": "Bitrate default value",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": []
+    },
+    "dependencies": [],
+    "description": "Enables YouTube Music to work with Android Auto by spoofing the YouTube Music certificate.",
+    "id": "e8365dd9216f5fe6ed416759:7",
+    "legacy_id": 10715,
+    "metadata_status": "unverified",
+    "name": "Certificate spoof",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.reddit.frontpage": []
+    },
+    "dependencies": [],
+    "description": "Changes the package name for Reddit to the name specified in options.json.",
+    "id": "e8365dd9216f5fe6ed416759:8",
+    "legacy_id": 10716,
+    "metadata_status": "unverified",
+    "name": "Change package name",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": false
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds an option to use text toggles instead of switch toggles within the additional settings menu.",
+    "id": "e8365dd9216f5fe6ed416759:9",
+    "legacy_id": 10717,
+    "metadata_status": "unverified",
+    "name": "Change player flyout panel toggles",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": false
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": []
+    },
+    "dependencies": [
+      "IntentHookPatch",
+      "Settings"
+    ],
+    "description": "Adds an option to set which page the app opens in instead of the homepage.",
+    "id": "e8365dd9216f5fe6ed416759:10",
+    "legacy_id": 10718,
+    "metadata_status": "unverified",
+    "name": "Change start page",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds an option to set which page the app opens in instead of the homepage.",
+    "id": "e8365dd9216f5fe6ed416759:11",
+    "legacy_id": 10719,
+    "metadata_status": "unverified",
+    "name": "Change start page",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Applies a custom heading in the top left corner within the app.",
+    "id": "e8365dd9216f5fe6ed416759:12",
+    "legacy_id": 10720,
+    "metadata_status": "unverified",
+    "name": "Custom branding heading",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Change the YouTube launcher icon to the icon specified in options.json.",
+    "id": "e8365dd9216f5fe6ed416759:13",
+    "legacy_id": 10721,
+    "metadata_status": "unverified",
+    "name": "Custom branding icon YouTube",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": []
+    },
+    "dependencies": [],
+    "description": "Changes the YouTube Music app icon to the icon specified in options.json.",
+    "id": "e8365dd9216f5fe6ed416759:14",
+    "legacy_id": 10722,
+    "metadata_status": "unverified",
+    "name": "Custom branding icon YouTube Music",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.reddit.frontpage": []
+    },
+    "dependencies": [],
+    "description": "Renames the Reddit app to the name specified in options.json.",
+    "id": "e8365dd9216f5fe6ed416759:15",
+    "legacy_id": 10723,
+    "metadata_status": "unverified",
+    "name": "Custom branding name Reddit",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": false
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Rename the YouTube app to the name specified in options.json.",
+    "id": "e8365dd9216f5fe6ed416759:16",
+    "legacy_id": 10724,
+    "metadata_status": "unverified",
+    "name": "Custom branding name YouTube",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": []
+    },
+    "dependencies": [],
+    "description": "Renames the YouTube Music app to the name specified in options.json.",
+    "id": "e8365dd9216f5fe6ed416759:17",
+    "legacy_id": 10725,
+    "metadata_status": "unverified",
+    "name": "Custom branding name YouTube Music",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Add 'double-tap to seek' value.",
+    "id": "e8365dd9216f5fe6ed416759:18",
+    "legacy_id": 10726,
+    "metadata_status": "unverified",
+    "name": "Custom double tap length",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [],
+      "com.google.android.youtube": []
+    },
+    "dependencies": [],
+    "description": "Changes the package name for the non-root build of YouTube and YouTube Music to the name specified in options.json.",
+    "id": "e8365dd9216f5fe6ed416759:19",
+    "legacy_id": 10727,
+    "metadata_status": "unverified",
+    "name": "Custom package name",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": []
+    },
+    "dependencies": [
+      "IntentHookPatch"
+    ],
+    "description": "Adds an option to customize available playback speeds.",
+    "id": "e8365dd9216f5fe6ed416759:20",
+    "legacy_id": 10728,
+    "metadata_status": "unverified",
+    "name": "Custom playback speed",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "OldSpeedLayoutPatch",
+      "OverrideSpeedHookPatch",
+      "Settings"
+    ],
+    "description": "Adds options to customize available playback speeds.",
+    "id": "e8365dd9216f5fe6ed416759:21",
+    "legacy_id": 10729,
+    "metadata_status": "unverified",
+    "name": "Custom playback speed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings",
+      "SharedResourceIdPatch"
+    ],
+    "description": "Adds an option to change the opacity of the video player background when player controls are visible.",
+    "id": "e8365dd9216f5fe6ed416759:22",
+    "legacy_id": 10730,
+    "metadata_status": "unverified",
+    "name": "Custom player overlay opacity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "LithoThemePatch",
+      "Settings",
+      "SharedResourceIdPatch"
+    ],
+    "description": "Adds an option to customize seekbar colors in video players and video thumbnails.",
+    "id": "e8365dd9216f5fe6ed416759:23",
+    "legacy_id": 10731,
+    "metadata_status": "unverified",
+    "name": "Custom seekbar color",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "OverrideSpeedHookPatch",
+      "Settings",
+      "VideoCpnPatch"
+    ],
+    "description": "Adds an option to set the default playback speed.",
+    "id": "e8365dd9216f5fe6ed416759:24",
+    "legacy_id": 10732,
+    "metadata_status": "unverified",
+    "name": "Default playback speed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "OverrideQualityHookPatch",
+      "OverrideSpeedHookPatch",
+      "PlayerTypeHookPatch",
+      "Settings",
+      "VideoIdWithoutShortsPatch"
+    ],
+    "description": "Adds an option to set the default video quality.",
+    "id": "e8365dd9216f5fe6ed416759:25",
+    "legacy_id": 10733,
+    "metadata_status": "unverified",
+    "name": "Default video quality",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": []
+    },
+    "dependencies": [
+      "Settings",
+      "VideoIdPatch"
+    ],
+    "description": "Adds an option to disable captions from being automatically enabled.",
+    "id": "e8365dd9216f5fe6ed416759:26",
+    "legacy_id": 10734,
+    "metadata_status": "unverified",
+    "name": "Disable auto captions",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings",
+      "VideoIdPatch"
+    ],
+    "description": "Adds an option to disable captions from being automatically enabled.",
+    "id": "e8365dd9216f5fe6ed416759:27",
+    "legacy_id": 10735,
+    "metadata_status": "unverified",
+    "name": "Disable auto captions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds an option to disable haptic feedback when swiping the video player.",
+    "id": "e8365dd9216f5fe6ed416759:28",
+    "legacy_id": 10736,
+    "metadata_status": "unverified",
+    "name": "Disable haptic feedback",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds options to disable HDR video.",
+    "id": "e8365dd9216f5fe6ed416759:29",
+    "legacy_id": 10737,
+    "metadata_status": "unverified",
+    "name": "Disable HDR video",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds an option to disable landscape mode when entering fullscreen.",
+    "id": "e8365dd9216f5fe6ed416759:30",
+    "legacy_id": 10738,
+    "metadata_status": "unverified",
+    "name": "Disable landscape mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": false
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": []
+    },
+    "dependencies": [
+      "OverlayFilterBytecodePatch"
+    ],
+    "description": "Removes the dark overlay when comment, share, save to playlist, and flyout panels are open.",
+    "id": "e8365dd9216f5fe6ed416759:31",
+    "legacy_id": 10739,
+    "metadata_status": "unverified",
+    "name": "Disable overlay filter",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": false
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings",
+      "SharedResourceIdPatch"
+    ],
+    "description": "Disable pip notification when you first launch pip mode.",
+    "id": "e8365dd9216f5fe6ed416759:32",
+    "legacy_id": 10740,
+    "metadata_status": "unverified",
+    "name": "Disable pip notification",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds an option to disable CronetEngine's QUIC protocol.",
+    "id": "e8365dd9216f5fe6ed416759:33",
+    "legacy_id": 10741,
+    "metadata_status": "unverified",
+    "name": "Disable QUIC protocol",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds an option to disable rolling number animations of video view count, user likes, and upload time.",
+    "id": "e8365dd9216f5fe6ed416759:34",
+    "legacy_id": 10742,
+    "metadata_status": "unverified",
+    "name": "Disable rolling number animations",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.reddit.frontpage": []
+    },
+    "dependencies": [
+      "Settings",
+      "SharedResourceIdPatch"
+    ],
+    "description": "Adds an option to disable the popup that shows up when taking a screenshot.",
+    "id": "e8365dd9216f5fe6ed416759:35",
+    "legacy_id": 10743,
+    "metadata_status": "unverified",
+    "name": "Disable screenshot popup",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched.",
+    "id": "e8365dd9216f5fe6ed416759:36",
+    "legacy_id": 10744,
+    "metadata_status": "unverified",
+    "name": "Disable shorts on startup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds an option to disable 'Play at 2x speed' when pressing and holding in the video player.",
+    "id": "e8365dd9216f5fe6ed416759:37",
+    "legacy_id": 10745,
+    "metadata_status": "unverified",
+    "name": "Disable speed overlay",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds an option to disable the \"Update your app\" screen that appears when using an outdated client.",
+    "id": "e8365dd9216f5fe6ed416759:38",
+    "legacy_id": 10746,
+    "metadata_status": "unverified",
+    "name": "Disable update screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": []
+    },
+    "dependencies": [
+      "Settings",
+      "SharedResourceIdPatch"
+    ],
+    "description": "Adds an option to set the navigation bar color to black.",
+    "id": "e8365dd9216f5fe6ed416759:39",
+    "legacy_id": 10747,
+    "metadata_status": "unverified",
+    "name": "Enable black navigation bar",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds an option to enter fullscreen when swiping down below the video player.",
+    "id": "e8365dd9216f5fe6ed416759:40",
+    "legacy_id": 10748,
+    "metadata_status": "unverified",
+    "name": "Enable bottom player gestures",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "6.21.52",
+        "6.22.52",
+        "6.23.56",
+        "6.25.53",
+        "6.26.51",
+        "6.27.54",
+        "6.28.53",
+        "6.29.58",
+        "6.31.55",
+        "6.33.52"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds an option to match the color of the miniplayer to the fullscreen player. Deprecated on YT Music 6.34.51+.",
+    "id": "e8365dd9216f5fe6ed416759:41",
+    "legacy_id": 10749,
+    "metadata_status": "unverified",
+    "name": "Enable color match player",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "6.21.52",
+          "6.22.52",
+          "6.23.56",
+          "6.25.53",
+          "6.26.51",
+          "6.27.54",
+          "6.28.53",
+          "6.29.58",
+          "6.31.55",
+          "6.33.52"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": false
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings",
+      "SharedResourceIdPatch"
+    ],
+    "description": "Adds an option to make the fullscreen controls compact.",
+    "id": "e8365dd9216f5fe6ed416759:42",
+    "legacy_id": 10750,
+    "metadata_status": "unverified",
+    "name": "Enable compact controls overlay",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": []
+    },
+    "dependencies": [
+      "Settings",
+      "SharedResourceIdPatch"
+    ],
+    "description": "Adds an option to enable the compact flyout menu on phones.",
+    "id": "e8365dd9216f5fe6ed416759:43",
+    "legacy_id": 10751,
+    "metadata_status": "unverified",
+    "name": "Enable compact dialog",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": []
+    },
+    "dependencies": [
+      "LithoFilterPatch",
+      "Settings"
+    ],
+    "description": "Adds a custom filter which can be used to hide layout components.",
+    "id": "e8365dd9216f5fe6ed416759:44",
+    "legacy_id": 10752,
+    "metadata_status": "unverified",
+    "name": "Enable custom filter",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": []
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds an option to enable debug logging.",
+    "id": "e8365dd9216f5fe6ed416759:45",
+    "legacy_id": 10753,
+    "metadata_status": "unverified",
+    "name": "Enable debug logging",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": false
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds an option to enable debug logging.",
+    "id": "e8365dd9216f5fe6ed416759:46",
+    "legacy_id": 10754,
+    "metadata_status": "unverified",
+    "name": "Enable debug logging",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": false
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds an option to always open links in your browser instead of in the in-app-browser.",
+    "id": "e8365dd9216f5fe6ed416759:47",
+    "legacy_id": 10755,
+    "metadata_status": "unverified",
+    "name": "Enable external browser",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": []
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds an option to keep the miniplayer minimized even when another track is played.",
+    "id": "e8365dd9216f5fe6ed416759:48",
+    "legacy_id": 10756,
+    "metadata_status": "unverified",
+    "name": "Enable force minimized player",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds an option to enable gradient loading screen.",
+    "id": "e8365dd9216f5fe6ed416759:49",
+    "legacy_id": 10757,
+    "metadata_status": "unverified",
+    "name": "Enable gradient loading screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": []
+    },
+    "dependencies": [
+      "Settings",
+      "SharedResourceIdPatch"
+    ],
+    "description": "Adds an option to enable landscape mode when rotating the screen on phones.",
+    "id": "e8365dd9216f5fe6ed416759:50",
+    "legacy_id": 10758,
+    "metadata_status": "unverified",
+    "name": "Enable landscape mode",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds an option to enable or disable language switching toggle.",
+    "id": "e8365dd9216f5fe6ed416759:51",
+    "legacy_id": 10759,
+    "metadata_status": "unverified",
+    "name": "Enable language switch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": []
+    },
+    "dependencies": [],
+    "description": "Enables playback in miniplayer for Kids music.",
+    "id": "e8365dd9216f5fe6ed416759:52",
+    "legacy_id": 10760,
+    "metadata_status": "unverified",
+    "name": "Enable minimized playback",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "IntegrationsPatch",
+      "PlayerTypeHookPatch"
+    ],
+    "description": "Enables minimized and background playback.",
+    "id": "e8365dd9216f5fe6ed416759:53",
+    "legacy_id": 10761,
+    "metadata_status": "unverified",
+    "name": "Enable minimized playback",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "MainActivityResolvePatch",
+      "Settings",
+      "SharedResourceIdPatch"
+    ],
+    "description": "Adds an option to enable a new type of splash animation.",
+    "id": "e8365dd9216f5fe6ed416759:54",
+    "legacy_id": 10762,
+    "metadata_status": "unverified",
+    "name": "Enable new splash animation",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  },
+  {
+    "bundle_id": "e8365dd9216f5fe6ed416759",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "18.25.40",
+        "18.27.36",
+        "18.29.38",
+        "18.30.37",
+        "18.31.40",
+        "18.32.39",
+        "18.33.40",
+        "18.34.38",
+        "18.35.36",
+        "18.36.39",
+        "18.37.36",
+        "18.38.44",
+        "18.39.41",
+        "18.40.34",
+        "18.41.39",
+        "18.42.41",
+        "18.43.45",
+        "18.44.41",
+        "18.45.43",
+        "18.46.45",
+        "18.48.39",
+        "18.49.37",
+        "19.01.34",
+        "19.02.39",
+        "19.03.36",
+        "19.04.38",
+        "19.05.36",
+        "19.06.39",
+        "19.07.40"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds an option to enables the new seekbar thumbnails preview.",
+    "id": "e8365dd9216f5fe6ed416759:55",
+    "legacy_id": 10763,
+    "metadata_status": "unverified",
+    "name": "Enable new thumbnail preview",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "18.25.40",
+          "18.27.36",
+          "18.29.38",
+          "18.30.37",
+          "18.31.40",
+          "18.32.39",
+          "18.33.40",
+          "18.34.38",
+          "18.35.36",
+          "18.36.39",
+          "18.37.36",
+          "18.38.44",
+          "18.39.41",
+          "18.40.34",
+          "18.41.39",
+          "18.42.41",
+          "18.43.45",
+          "18.44.41",
+          "18.45.43",
+          "18.46.45",
+          "18.48.39",
+          "18.49.37",
+          "19.01.34",
+          "19.02.39",
+          "19.03.36",
+          "19.04.38",
+          "19.05.36",
+          "19.06.39",
+          "19.07.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.220.10",
+    "source_id": "ffeda532a7e58a20",
+    "use": true
+  }
+]

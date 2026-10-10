@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-09-24T01:02:45Z",
+  "description": "\n- Self-locating patches: the QuestBar gate and gift-bar flag are now\n  discovered in the bundle at patch time (string co-occurrence + head\n  shape + flag write/test validation) instead of baked-in byte anchors,\n  and compat is a NULL version (any com.discord build). New Discord\n  versions need no patch update as long as discovery holds; anything\n  unrecognized fails loudly with the update point named. Only the\n  attach-sheet push keeps legacy anchors (frozen facts about old\n  bundles) with skip-or-fail reasoning. Proven: discovery reproduces\n  every v1.4.0 site exactly on all five known bundles, CLI bytes\n  identical. (stable)",
+  "download_url": "https://github.com/jrddupont/discord-patches/releases/download/v1.5.0/patches-1.5.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:d78fbf6f22139159aa66f1fa41d316a62a2c406598138caed5ed7255b279a335",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "d78fbf6f22139159aa66f1fa41d316a62a2c406598138caed5ed7255b279a335",
+  "id": "52b7b5cb7afbbe5a26e28c3b",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fjrddupont%2Fdiscord-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fjrddupont%2Fdiscord-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 186,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.discord"
+  ],
+  "patch_count": 3,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.5.0",
+  "patch_refresh_attempted_at": "2026-10-10T15:17:58.222525510Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:d78fbf6f22139159aa66f1fa41d316a62a2c406598138caed5ed7255b279a335",
+  "release_status": "available",
+  "release_url": "https://github.com/jrddupont/discord-patches/releases/tag/v1.5.0",
+  "signature_download_url": "N/A",
+  "source_id": "f12127d734258d56",
+  "version": "v1.5.0"
+}

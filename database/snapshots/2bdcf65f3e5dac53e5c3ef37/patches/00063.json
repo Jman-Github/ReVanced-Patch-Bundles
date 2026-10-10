@@ -1,0 +1,4356 @@
+[
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "o.o.joey": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "9659b60c253e7843b22ef9ed:4",
+    "legacy_id": 6522,
+    "metadata_status": "unverified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "o.o.joey",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "io.syncapps.lemmy_sync": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "9659b60c253e7843b22ef9ed:5",
+    "legacy_id": 6523,
+    "metadata_status": "unverified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "io.syncapps.lemmy_sync",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": [
+        "v23.06.30-13:39"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "9659b60c253e7843b22ef9ed:6",
+    "legacy_id": 6524,
+    "metadata_status": "unverified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": [
+        "v23.06.30-13:39"
+      ],
+      "com.laurencedawson.reddit_sync.dev": null,
+      "com.laurencedawson.reddit_sync.pro": null
+    },
+    "dependencies": [],
+    "description": "Disables the bottom sheet at the startup that asks you to signup to \"Sync for Lemmy\".",
+    "id": "9659b60c253e7843b22ef9ed:7",
+    "legacy_id": 6525,
+    "metadata_status": "unverified",
+    "name": "Disable Sync for Lemmy bottom sheet",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.dev",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Enables Android developer debugging capabilities. Including this patch can slow down the app.",
+    "id": "9659b60c253e7843b22ef9ed:8",
+    "legacy_id": 6526,
+    "metadata_status": "unverified",
+    "name": "Enable Android debugging",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": false
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "com.andrewshu.android.reddit": [
+        "5.6.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Allows using pro features without ads.",
+    "id": "9659b60c253e7843b22ef9ed:9",
+    "legacy_id": 6527,
+    "metadata_status": "unverified",
+    "name": "Fake reddit premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.andrewshu.android.reddit",
+        "versions": [
+          "5.6.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "com.rubenmayayo.reddit": [
+        "1.12.12"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "9659b60c253e7843b22ef9ed:10",
+    "legacy_id": 6528,
+    "metadata_status": "unverified",
+    "name": "Fix /r/all",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rubenmayayo.reddit",
+        "versions": [
+          "1.12.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "com.rubenmayayo.reddit": [
+        "1.12.12"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "9659b60c253e7843b22ef9ed:11",
+    "legacy_id": 6529,
+    "metadata_status": "unverified",
+    "name": "Fix /s/ links",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rubenmayayo.reddit",
+        "versions": [
+          "1.12.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "free.reddit.news": [
+        "10.2.40"
+      ],
+      "reddit.news": [
+        "10.2.40"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "9659b60c253e7843b22ef9ed:12",
+    "legacy_id": 6530,
+    "metadata_status": "unverified",
+    "name": "Fix /s/ links",
+    "options": [],
+    "packages": [
+      {
+        "name": "free.reddit.news",
+        "versions": [
+          "10.2.40"
+        ]
+      },
+      {
+        "name": "reddit.news",
+        "versions": [
+          "10.2.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": [
+        "v23.06.30-13:39"
+      ],
+      "com.laurencedawson.reddit_sync.dev": null,
+      "com.laurencedawson.reddit_sync.pro": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "9659b60c253e7843b22ef9ed:13",
+    "legacy_id": 6531,
+    "metadata_status": "unverified",
+    "name": "Fix /s/ links",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.dev",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "com.rubenmayayo.reddit": [
+        "1.12.12"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Fixes audio missing in videos downloaded from v.redd.it.",
+    "id": "9659b60c253e7843b22ef9ed:14",
+    "legacy_id": 6532,
+    "metadata_status": "unverified",
+    "name": "Fix missing audio in video downloads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rubenmayayo.reddit",
+        "versions": [
+          "1.12.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": [
+        "v23.06.30-13:39"
+      ],
+      "com.laurencedawson.reddit_sync.dev": null,
+      "com.laurencedawson.reddit_sync.pro": null
+    },
+    "dependencies": [],
+    "description": "Fixes loading post thumbnails by correcting their URLs.",
+    "id": "9659b60c253e7843b22ef9ed:15",
+    "legacy_id": 6533,
+    "metadata_status": "unverified",
+    "name": "Fix post thumbnails",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.dev",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "com.onelouder.baconreader": [
+        "6.1.4"
+      ],
+      "com.onelouder.baconreader.premium": [
+        "6.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "9659b60c253e7843b22ef9ed:16",
+    "legacy_id": 6534,
+    "metadata_status": "unverified",
+    "name": "Fix Redgifs API",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.onelouder.baconreader",
+        "versions": [
+          "6.1.4"
+        ]
+      },
+      {
+        "name": "com.onelouder.baconreader.premium",
+        "versions": [
+          "6.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "com.rubenmayayo.reddit": [
+        "1.12.12"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "9659b60c253e7843b22ef9ed:17",
+    "legacy_id": 6535,
+    "metadata_status": "unverified",
+    "name": "Fix Redgifs API",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rubenmayayo.reddit",
+        "versions": [
+          "1.12.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": [
+        "v23.06.30-13:39"
+      ],
+      "com.laurencedawson.reddit_sync.dev": null,
+      "com.laurencedawson.reddit_sync.pro": null
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "9659b60c253e7843b22ef9ed:18",
+    "legacy_id": 6536,
+    "metadata_status": "unverified",
+    "name": "Fix Redgifs API",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.dev",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": [
+        "v23.06.30-13:39"
+      ],
+      "com.laurencedawson.reddit_sync.dev": null,
+      "com.laurencedawson.reddit_sync.pro": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Fixes a bug in Sync's MPD parser resulting in only the audio-track being saved.",
+    "id": "9659b60c253e7843b22ef9ed:19",
+    "legacy_id": 6537,
+    "metadata_status": "unverified",
+    "name": "Fix video downloads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.dev",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "com.rubenmayayo.reddit": [
+        "1.12.12"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hook the exception handler in Boost. Don't enable except for development purposes",
+    "id": "9659b60c253e7843b22ef9ed:20",
+    "legacy_id": 6538,
+    "metadata_status": "unverified",
+    "name": "Hook exception handler",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rubenmayayo.reddit",
+        "versions": [
+          "1.12.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": false
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "com.onelouder.baconreader": [
+        "6.1.4"
+      ],
+      "com.onelouder.baconreader.premium": [
+        "6.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Modify the WebView used for logging into reddit to prevent login issues",
+    "id": "9659b60c253e7843b22ef9ed:21",
+    "legacy_id": 6539,
+    "metadata_status": "unverified",
+    "name": "Modify login WebView",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.onelouder.baconreader",
+        "versions": [
+          "6.1.4"
+        ]
+      },
+      {
+        "name": "com.onelouder.baconreader.premium",
+        "versions": [
+          "6.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "com.rubenmayayo.reddit": [
+        "1.12.12"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Modify the WebView used for logging into reddit to prevent login issues",
+    "id": "9659b60c253e7843b22ef9ed:22",
+    "legacy_id": 6540,
+    "metadata_status": "unverified",
+    "name": "Modify login WebView",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rubenmayayo.reddit",
+        "versions": [
+          "1.12.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "ml.docilealligator.infinityforreddit.patreon": null,
+      "ml.docilealligator.infinityforreddit.plus": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Modify the WebView used for logging into reddit to prevent login issues",
+    "id": "9659b60c253e7843b22ef9ed:23",
+    "legacy_id": 6541,
+    "metadata_status": "unverified",
+    "name": "Modify login WebView",
+    "options": [],
+    "packages": [
+      {
+        "name": "ml.docilealligator.infinityforreddit.patreon",
+        "versions": []
+      },
+      {
+        "name": "ml.docilealligator.infinityforreddit.plus",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "o.o.joey": null,
+      "o.o.joey.dev": null,
+      "o.o.joey.pro": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Modify the WebView used for logging into reddit to prevent login issues",
+    "id": "9659b60c253e7843b22ef9ed:24",
+    "legacy_id": 6542,
+    "metadata_status": "unverified",
+    "name": "Modify login WebView",
+    "options": [],
+    "packages": [
+      {
+        "name": "o.o.joey",
+        "versions": []
+      },
+      {
+        "name": "o.o.joey.dev",
+        "versions": []
+      },
+      {
+        "name": "o.o.joey.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "com.andrewshu.android.reddit": [
+        "5.6.22"
+      ],
+      "com.andrewshu.android.redditdonation": [
+        "5.6.22"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Modify the WebView used for logging into reddit to prevent login issues",
+    "id": "9659b60c253e7843b22ef9ed:25",
+    "legacy_id": 6543,
+    "metadata_status": "unverified",
+    "name": "Modify login WebView",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.andrewshu.android.reddit",
+        "versions": [
+          "5.6.22"
+        ]
+      },
+      {
+        "name": "com.andrewshu.android.redditdonation",
+        "versions": [
+          "5.6.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "free.reddit.news": [
+        "10.2.40"
+      ],
+      "reddit.news": [
+        "10.2.40"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Modify the WebView used for logging into reddit to prevent login issues",
+    "id": "9659b60c253e7843b22ef9ed:26",
+    "legacy_id": 6544,
+    "metadata_status": "unverified",
+    "name": "Modify login WebView",
+    "options": [],
+    "packages": [
+      {
+        "name": "free.reddit.news",
+        "versions": [
+          "10.2.40"
+        ]
+      },
+      {
+        "name": "reddit.news",
+        "versions": [
+          "10.2.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": [
+        "v23.06.30-13:39"
+      ],
+      "com.laurencedawson.reddit_sync.dev": null,
+      "com.laurencedawson.reddit_sync.pro": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Modify the WebView used for logging into reddit to prevent login issues",
+    "id": "9659b60c253e7843b22ef9ed:27",
+    "legacy_id": 6545,
+    "metadata_status": "unverified",
+    "name": "Modify login WebView",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.dev",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "com.onelouder.baconreader": [
+        "6.1.4"
+      ],
+      "com.onelouder.baconreader.premium": [
+        "6.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Restores functionality of the app by using custom client ID.",
+    "id": "9659b60c253e7843b22ef9ed:28",
+    "legacy_id": 6546,
+    "metadata_status": "unverified",
+    "name": "Spoof client",
+    "options": [
+      {
+        "default": null,
+        "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
+        "key": "client-id",
+        "required": true,
+        "title": "OAuth client ID",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "redreader://rr_oauth_redir",
+        "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
+        "key": "redirect-uri",
+        "required": true,
+        "title": "Redirect URI",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "org.quantumbadger.redreader/1.25.1",
+        "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
+        "key": "user-agent",
+        "required": true,
+        "title": "User agent",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.onelouder.baconreader",
+        "versions": [
+          "6.1.4"
+        ]
+      },
+      {
+        "name": "com.onelouder.baconreader.premium",
+        "versions": [
+          "6.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "com.rubenmayayo.reddit": [
+        "1.12.12"
+      ]
+    },
+    "dependencies": [],
+    "description": "Restores functionality of the app by using custom client ID.",
+    "id": "9659b60c253e7843b22ef9ed:29",
+    "legacy_id": 6547,
+    "metadata_status": "unverified",
+    "name": "Spoof client",
+    "options": [
+      {
+        "default": null,
+        "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
+        "key": "client-id",
+        "required": true,
+        "title": "OAuth client ID",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "redreader://rr_oauth_redir",
+        "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
+        "key": "redirect-uri",
+        "required": true,
+        "title": "Redirect URI",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "org.quantumbadger.redreader/1.25.1",
+        "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
+        "key": "user-agent",
+        "required": true,
+        "title": "User agent",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.rubenmayayo.reddit",
+        "versions": [
+          "1.12.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "org.cygnusx1.continuum": null
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Allows modifying Continuum's client ID, redirect URI and user agent in API Keys settings menu. Patch options will modify default values.",
+    "id": "9659b60c253e7843b22ef9ed:30",
+    "legacy_id": 6548,
+    "metadata_status": "unverified",
+    "name": "Spoof client",
+    "options": [
+      {
+        "default": null,
+        "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
+        "key": "client-id",
+        "required": true,
+        "title": "OAuth client ID",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "redreader://rr_oauth_redir",
+        "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
+        "key": "redirect-uri",
+        "required": true,
+        "title": "Redirect URI",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "org.quantumbadger.redreader/1.25.1",
+        "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
+        "key": "user-agent",
+        "required": true,
+        "title": "User agent",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "org.cygnusx1.continuum",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "ml.docilealligator.infinityforreddit.patreon": null,
+      "ml.docilealligator.infinityforreddit.plus": null
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Restores functionality of the app by using custom client ID.",
+    "id": "9659b60c253e7843b22ef9ed:31",
+    "legacy_id": 6549,
+    "metadata_status": "unverified",
+    "name": "Spoof client",
+    "options": [
+      {
+        "default": null,
+        "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
+        "key": "client-id",
+        "required": true,
+        "title": "OAuth client ID",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "redreader://rr_oauth_redir",
+        "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
+        "key": "redirect-uri",
+        "required": true,
+        "title": "Redirect URI",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "org.quantumbadger.redreader/1.25.1",
+        "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
+        "key": "user-agent",
+        "required": true,
+        "title": "User agent",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "ml.docilealligator.infinityforreddit.patreon",
+        "versions": []
+      },
+      {
+        "name": "ml.docilealligator.infinityforreddit.plus",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "o.o.joey": null,
+      "o.o.joey.dev": null,
+      "o.o.joey.pro": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Restores functionality of the app by using custom client ID.",
+    "id": "9659b60c253e7843b22ef9ed:32",
+    "legacy_id": 6550,
+    "metadata_status": "unverified",
+    "name": "Spoof client",
+    "options": [
+      {
+        "default": null,
+        "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
+        "key": "client-id",
+        "required": true,
+        "title": "OAuth client ID",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "redreader://rr_oauth_redir",
+        "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
+        "key": "redirect-uri",
+        "required": true,
+        "title": "Redirect URI",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "org.quantumbadger.redreader/1.25.1",
+        "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
+        "key": "user-agent",
+        "required": true,
+        "title": "User agent",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "o.o.joey",
+        "versions": []
+      },
+      {
+        "name": "o.o.joey.dev",
+        "versions": []
+      },
+      {
+        "name": "o.o.joey.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "com.andrewshu.android.reddit": [
+        "5.6.22"
+      ],
+      "com.andrewshu.android.redditdonation": [
+        "5.6.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Restores functionality of the app by using custom client ID.",
+    "id": "9659b60c253e7843b22ef9ed:33",
+    "legacy_id": 6551,
+    "metadata_status": "unverified",
+    "name": "Spoof client",
+    "options": [
+      {
+        "default": null,
+        "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
+        "key": "client-id",
+        "required": true,
+        "title": "OAuth client ID",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "redreader://rr_oauth_redir",
+        "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
+        "key": "redirect-uri",
+        "required": true,
+        "title": "Redirect URI",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "org.quantumbadger.redreader/1.25.1",
+        "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
+        "key": "user-agent",
+        "required": true,
+        "title": "User agent",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.andrewshu.android.reddit",
+        "versions": [
+          "5.6.22"
+        ]
+      },
+      {
+        "name": "com.andrewshu.android.redditdonation",
+        "versions": [
+          "5.6.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "free.reddit.news": [
+        "10.2.40"
+      ],
+      "reddit.news": [
+        "10.2.40"
+      ]
+    },
+    "dependencies": [],
+    "description": "Restores functionality of the app by using custom client ID.",
+    "id": "9659b60c253e7843b22ef9ed:34",
+    "legacy_id": 6552,
+    "metadata_status": "unverified",
+    "name": "Spoof client",
+    "options": [
+      {
+        "default": null,
+        "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
+        "key": "client-id",
+        "required": true,
+        "title": "OAuth client ID",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "redreader://rr_oauth_redir",
+        "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
+        "key": "redirect-uri",
+        "required": true,
+        "title": "Redirect URI",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "org.quantumbadger.redreader/1.25.1",
+        "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
+        "key": "user-agent",
+        "required": true,
+        "title": "User agent",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "free.reddit.news",
+        "versions": [
+          "10.2.40"
+        ]
+      },
+      {
+        "name": "reddit.news",
+        "versions": [
+          "10.2.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "me.edgan.redditslide": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Allows modifying Slide's client ID, redirect URI and user agent in settings. Patch options will modify default values.",
+    "id": "9659b60c253e7843b22ef9ed:35",
+    "legacy_id": 6553,
+    "metadata_status": "unverified",
+    "name": "Spoof client",
+    "options": [
+      {
+        "default": null,
+        "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
+        "key": "client-id",
+        "required": true,
+        "title": "OAuth client ID",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "redreader://rr_oauth_redir",
+        "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
+        "key": "redirect-uri",
+        "required": true,
+        "title": "Redirect URI",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "org.quantumbadger.redreader/1.25.1",
+        "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
+        "key": "user-agent",
+        "required": true,
+        "title": "User agent",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "me.edgan.redditslide",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": [
+        "v23.06.30-13:39"
+      ],
+      "com.laurencedawson.reddit_sync.dev": null,
+      "com.laurencedawson.reddit_sync.pro": null
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Restores functionality of the app by using custom client ID.",
+    "id": "9659b60c253e7843b22ef9ed:36",
+    "legacy_id": 6554,
+    "metadata_status": "unverified",
+    "name": "Spoof client",
+    "options": [
+      {
+        "default": null,
+        "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
+        "key": "client-id",
+        "required": true,
+        "title": "OAuth client ID",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "redreader://rr_oauth_redir",
+        "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
+        "key": "redirect-uri",
+        "required": true,
+        "title": "Redirect URI",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "org.quantumbadger.redreader/1.25.1",
+        "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
+        "key": "user-agent",
+        "required": true,
+        "title": "User agent",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.dev",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": [
+        "v23.06.30-13:39"
+      ],
+      "com.laurencedawson.reddit_sync.dev": null,
+      "com.laurencedawson.reddit_sync.pro": null
+    },
+    "dependencies": [],
+    "description": "Replaces the deprecated endpoint for viewing user profiles /u with /user, that used to fix a bug.",
+    "id": "9659b60c253e7843b22ef9ed:37",
+    "legacy_id": 6555,
+    "metadata_status": "unverified",
+    "name": "Use /user/ endpoint",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.dev",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9659b60c253e7843b22ef9ed",
+    "compatiblePackages": {
+      "com.andrewshu.android.reddit": [
+        "5.6.22"
+      ],
+      "com.andrewshu.android.redditdonation": [
+        "5.6.22"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Fix imgur albums not loading.",
+    "id": "9659b60c253e7843b22ef9ed:38",
+    "legacy_id": 6556,
+    "metadata_status": "unverified",
+    "name": "Use public imgur API",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.andrewshu.android.reddit",
+        "versions": [
+          "5.6.22"
+        ]
+      },
+      {
+        "name": "com.andrewshu.android.redditdonation",
+        "versions": [
+          "5.6.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "切換新版或舊版 Access Points 選單樣式\nSwitch between the new and legacy Access Points menu styles.",
+    "id": "9663f75f9990f0c3f25c6b4f:0",
+    "legacy_id": 6557,
+    "metadata_status": "unverified",
+    "name": "Access Points menu style",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "攔截 Gboard 的簽章白名單檢查並強制通過\nBypass Gboard signature whitelist checks and force them to pass.",
+    "id": "9663f75f9990f0c3f25c6b4f:1",
+    "legacy_id": 6558,
+    "metadata_status": "unverified",
+    "name": "Add Gboard Signature Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "啟用進階語音輸入（包含自動標點功能），並另外為不支援進階語音輸入的繁體中文語音啟用自動標點\nEnable Advanced Voice Typing with automatic punctuation, and separately enable automatic punctuation for Traditional Chinese voice typing, which does not support Advanced Voice Typing.",
+    "id": "9663f75f9990f0c3f25c6b4f:2",
+    "legacy_id": 6559,
+    "metadata_status": "unverified",
+    "name": "Advanced Voice Typing",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "啟用 AI 撰寫工具，支援所有語言\nEnable AI writing tools with support for all languages.",
+    "id": "9663f75f9990f0c3f25c6b4f:3",
+    "legacy_id": 6560,
+    "metadata_status": "unverified",
+    "name": "AI Writing Tools",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "匯出或還原全部 Patches 設定，並備份、比較及還原 Gboard PB/XML flag store\nExport or restore all Patches settings, and back up, compare, or restore the Gboard PB/XML flag store.",
+    "id": "9663f75f9990f0c3f25c6b4f:4",
+    "legacy_id": 6561,
+    "metadata_status": "unverified",
+    "name": "Backup & Restore",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "變更表情符號大小\nChange emoji size.",
+    "id": "9663f75f9990f0c3f25c6b4f:5",
+    "legacy_id": 6562,
+    "metadata_status": "unverified",
+    "name": "Change emoji size",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "自訂每個文字剪貼簿項目的最大字元數\nCustomize the maximum character count for each text clipboard item.",
+    "id": "9663f75f9990f0c3f25c6b4f:6",
+    "legacy_id": 6563,
+    "metadata_status": "unverified",
+    "name": "Clipboard Custom Character Limit",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "增強剪貼簿的保留時間、數量上限、預覽行數、倒數/建立時間、順序編號與欄數\nEnhance clipboard retention time, item count limit, preview lines, countdown/creation time labels, order index, and column count.",
+    "id": "9663f75f9990f0c3f25c6b4f:7",
+    "legacy_id": 6564,
+    "metadata_status": "unverified",
+    "name": "Clipboard Enhancements",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "在主動建議列顯示關閉按鈕\nShow a dismiss button in the proactive suggestions bar.",
+    "id": "9663f75f9990f0c3f25c6b4f:8",
+    "legacy_id": 6565,
+    "metadata_status": "unverified",
+    "name": "Close Proactive Suggestions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "新增獨立的特殊符號分頁，長按逗號->愛心\nAdd a dedicated custom symbols tab and replace the long-press comma entry with a heart shortcut.",
+    "id": "9663f75f9990f0c3f25c6b4f:9",
+    "legacy_id": 6566,
+    "metadata_status": "unverified",
+    "name": "Custom Symbols",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "支援匯入自訂 ZIP 主題，並支援從 Rboard 官方儲存庫匯入精美主題。\nImport custom ZIP themes and beautiful themes from the official Rboard repository.",
+    "id": "9663f75f9990f0c3f25c6b4f:10",
+    "legacy_id": 6567,
+    "metadata_status": "unverified",
+    "name": "Custom Theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "啟用 開發人員選項 與 Flag 編輯器，你可以自己修改Flag的值\nEnable Developer options and the Flag Editor, allowing you to modify flag values.",
+    "id": "9663f75f9990f0c3f25c6b4f:11",
+    "legacy_id": 6568,
+    "metadata_status": "unverified",
+    "name": "Developer options",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "自訂 Gboard「Emojis, stickers & GIFs」底部 tabs 的排序，支援拖曳調整\nCustomize the bottom tab order in Gboard's Emojis, stickers & GIFs panel with drag-and-drop reordering.",
+    "id": "9663f75f9990f0c3f25c6b4f:12",
+    "legacy_id": 6569,
+    "metadata_status": "unverified",
+    "name": "Emojis, stickers & GIFs Tab Order",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "啟用無障礙鍵盤配置\nEnable accessibility layout.",
+    "id": "9663f75f9990f0c3f25c6b4f:13",
+    "legacy_id": 6570,
+    "metadata_status": "unverified",
+    "name": "Enable accessibility layout",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "長按空白鍵開啟游標觸控板與鎖定模式\nLong-press the space bar to use cursor trackpad and lock modes.",
+    "id": "9663f75f9990f0c3f25c6b4f:14",
+    "legacy_id": 6571,
+    "metadata_status": "unverified",
+    "name": "Enable cursor trackpad mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "啟用內嵌自動填入建議\nEnable Inline Autofill Suggestions",
+    "id": "9663f75f9990f0c3f25c6b4f:15",
+    "legacy_id": 6572,
+    "metadata_status": "unverified",
+    "name": "Enable Inline Autofill Suggestions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "啟用 OCR / 掃描文字功能，支援 拉丁、中文、日文、韓文 與 天城文 辨識後端\nEnable the OCR / Scan Text feature with Latin, Chinese, Japanese, Korean, and Devanagari recognition backends.",
+    "id": "9663f75f9990f0c3f25c6b4f:16",
+    "legacy_id": 6573,
+    "metadata_status": "unverified",
+    "name": "Enable OCR / Scan Text",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "啟用分離式鍵盤\nEnable the split keyboard layout.",
+    "id": "9663f75f9990f0c3f25c6b4f:17",
+    "legacy_id": 6574,
+    "metadata_status": "unverified",
+    "name": "Enable split keyboard",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "英文 QWERTY 鍵盤上滑大小寫\nFlick up on the English QWERTY keyboard to toggle uppercase and lowercase.",
+    "id": "9663f75f9990f0c3f25c6b4f:18",
+    "legacy_id": 6575,
+    "metadata_status": "unverified",
+    "name": "English QWERTY Up-Flick Uppercase",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "直接從 Gboard 開啟懸浮網頁，快速搜尋需要的資訊。\nOpen a floating web page directly from Gboard to quickly search for the information you need.",
+    "id": "9663f75f9990f0c3f25c6b4f:19",
+    "legacy_id": 6576,
+    "metadata_status": "unverified",
+    "name": "Floating Web Search",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "為鍵盤加入即時背景模糊與自訂主題透明度。\nAdd live background blur and custom-theme opacity to the keyboard.",
+    "id": "9663f75f9990f0c3f25c6b4f:20",
+    "legacy_id": 6577,
+    "metadata_status": "unverified",
+    "name": "Frosted Glass",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "新增區域網路 FTP 伺服器，支援檔案瀏覽、傳輸與下載續傳\nAdd a LAN FTP server with file browsing, transfers, and download resume.",
+    "id": "9663f75f9990f0c3f25c6b4f:21",
+    "legacy_id": 6578,
+    "metadata_status": "unverified",
+    "name": "FTP Server",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "在空白鍵顯示 G Logo，並隱藏語言名稱\nShow the G Logo on the spacebar and hide the language label.",
+    "id": "9663f75f9990f0c3f25c6b4f:22",
+    "legacy_id": 6579,
+    "metadata_status": "unverified",
+    "name": "G Logo on Spacebar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "啟用 修正和建議 > 文法檢查\nEnable Text correction > Grammar check.",
+    "id": "9663f75f9990f0c3f25c6b4f:23",
+    "legacy_id": 6580,
+    "metadata_status": "unverified",
+    "name": "Grammar Checker",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "持續快速輸入時顯示動畫，並支援所有鍵盤\nShow the animation during sustained fast typing with support for all keyboards.",
+    "id": "9663f75f9990f0c3f25c6b4f:24",
+    "legacy_id": 6581,
+    "metadata_status": "unverified",
+    "name": "Hyperspeed Typing Animation",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "在 Access Point 工具列新增無痕模式切換按鈕，並可設定無痕模式下是否啟用剪貼簿與語音輸入\nAdd an Incognito toggle to the Access Point toolbar and configure clipboard and voice typing availability while Incognito mode is active.",
+    "id": "9663f75f9990f0c3f25c6b4f:25",
+    "legacy_id": 6582,
+    "metadata_status": "unverified",
+    "name": "Incognito Mode Toggle",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "啟用 修正和建議 > 智慧撰寫\nEnable Text correction > Smart Compose.",
+    "id": "9663f75f9990f0c3f25c6b4f:26",
+    "legacy_id": 6583,
+    "metadata_status": "unverified",
+    "name": "Inline Suggestions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "啟用圓角按鍵，主題詳情 > 按鍵形狀\nEnable Key shape in Theme details.",
+    "id": "9663f75f9990f0c3f25c6b4f:27",
+    "legacy_id": 6584,
+    "metadata_status": "unverified",
+    "name": "Key Shape Selection",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "新增英文鍵盤地球鍵忽略時間覆寫，可獨立控制輸入後切語言延遲\nAdd an independent English globe key ignore interval override for post-typing language-switch delay.",
+    "id": "9663f75f9990f0c3f25c6b4f:28",
+    "legacy_id": 6585,
+    "metadata_status": "unverified",
+    "name": "Latin Globe Key Ignore Interval",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "在英文 QWERTY 與注音鍵盤加入全選、復原、複製、剪下、貼上與重做長按快捷鍵\nAdd Select all, Undo, Copy, Cut, Paste, and Redo long-press shortcuts to English QWERTY and Zhuyin.",
+    "id": "9663f75f9990f0c3f25c6b4f:29",
+    "legacy_id": 6586,
+    "metadata_status": "unverified",
+    "name": "Long-Press Editing Shortcuts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "將套件名稱改成 dev.jason.com.google.android.inputmethod.latin，並可自訂 App 名稱，以便共存安裝\nRename the package to dev.jason.com.google.android.inputmethod.latin and allow a custom app name so it can be installed alongside the official Gboard.",
+    "id": "9663f75f9990f0c3f25c6b4f:30",
+    "legacy_id": 6587,
+    "metadata_status": "unverified",
+    "name": "Package Rename",
+    "options": [
+      {
+        "default": "GboardWu",
+        "description": "",
+        "key": "app_display_name",
+        "required": true,
+        "title": "App 名稱 / App name",
+        "type": "kotlin.String",
+        "values": {
+          "Gboard": "Gboard",
+          "Gboard Dev": "Gboard Dev",
+          "Gboard Mod": "Gboard Mod",
+          "Gboard Patches": "Gboard Patches",
+          "GboardWu": "GboardWu"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "啟用快速插入面板與工具列入口\nEnable the Quick Insert panel and toolbar access point.",
+    "id": "9663f75f9990f0c3f25c6b4f:31",
+    "legacy_id": 6588,
+    "metadata_status": "unverified",
+    "name": "Quick Insert",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "自訂鍵盤面板哪些角落呈現圓角，並分別設定上方與下方半徑。\nCustomize which corners of the keyboard panel are rounded, and set the top and bottom radii separately.",
+    "id": "9663f75f9990f0c3f25c6b4f:32",
+    "legacy_id": 6589,
+    "metadata_status": "unverified",
+    "name": "Rounded Keyboard Panel",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "允許切換新版或舊版 Gboard 設定頁面\nAllow switching between the new and legacy Gboard settings pages.",
+    "id": "9663f75f9990f0c3f25c6b4f:33",
+    "legacy_id": 6590,
+    "metadata_status": "unverified",
+    "name": "Settings Homepage Override",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "直接輸入算式，在 Gboard 推薦列顯示可捲動算式與答案。\nType an expression and show a scrollable equation plus its answer in Gboard's suggestion row.",
+    "id": "9663f75f9990f0c3f25c6b4f:34",
+    "legacy_id": 6591,
+    "metadata_status": "unverified",
+    "name": "Simple Calculator",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "滑動鍵盤第一排，在原生列與可自訂文字/JavaScript 列之間切換\nSwipe the keyboard top row to switch between the stock row and a customizable text/JavaScript row.",
+    "id": "9663f75f9990f0c3f25c6b4f:35",
+    "legacy_id": 6592,
+    "metadata_status": "unverified",
+    "name": "Swipeable Custom Top Row",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "將全選、複製、剪下與貼上加入選單。\nAdd Select All, Copy, Cut and Paste to the menu.",
+    "id": "9663f75f9990f0c3f25c6b4f:36",
+    "legacy_id": 6593,
+    "metadata_status": "unverified",
+    "name": "Toolbar Editing Buttons",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "自訂 Gboard 頂端工具列項目數量\nCustomize the Gboard top toolbar item count.",
+    "id": "9663f75f9990f0c3f25c6b4f:37",
+    "legacy_id": 6594,
+    "metadata_status": "unverified",
+    "name": "Top Toolbar Item Count",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "啟用 語音輸入 -> 使用藍芽麥克風\nEnable Voice typing -> Use Bluetooth microphone.",
+    "id": "9663f75f9990f0c3f25c6b4f:38",
+    "legacy_id": 6595,
+    "metadata_status": "unverified",
+    "name": "Use Bluetooth Microphone",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "新增手機自架的 Web Clipboard，支援瀏覽器同步、配對碼與快速設定開關\nAdd the phone-hosted Web Clipboard with browser sync, pairing, and a Quick Settings Tile.",
+    "id": "9663f75f9990f0c3f25c6b4f:39",
+    "legacy_id": 6596,
+    "metadata_status": "unverified",
+    "name": "Web Clipboard",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "調整注音鍵盤底排按鍵大小\nAdjust Zhuyin keyboard bottom-row key sizes.",
+    "id": "9663f75f9990f0c3f25c6b4f:40",
+    "legacy_id": 6597,
+    "metadata_status": "unverified",
+    "name": "Zhuyin Bottom Row Key Sizes",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [
+      "Zhuyin Slide Input"
+    ],
+    "description": "注音 ㄥ 上滑快速切換繁簡\nSwipe up on Zhuyin ㄥ to quickly toggle Traditional and Simplified Chinese.",
+    "id": "9663f75f9990f0c3f25c6b4f:41",
+    "legacy_id": 6598,
+    "metadata_status": "unverified",
+    "name": "Zhuyin Quick Traditional/Simplified Toggle",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9663f75f9990f0c3f25c6b4f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "注音鍵盤支持上下滑輸入\nEnable slide-up and slide-down input on the Zhuyin keyboard.",
+    "id": "9663f75f9990f0c3f25c6b4f:42",
+    "legacy_id": 6599,
+    "metadata_status": "unverified",
+    "name": "Zhuyin Slide Input",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.12.0-dev.5",
+    "source_id": "70111f7901243d81",
+    "use": true
+  },
+  {
+    "bundle_id": "9681603e028d1c644ccaeeb7",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0033",
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "signatures": [
+          "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+          "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+        ],
+        "targets": [
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.39.522"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.38.130"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.28.208"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 28,
+            "version": "21.23.492"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.16.256"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.13.164"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "20.31.42"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "20.21.37"
+          }
+        ],
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Overrides the feed flyout 'Play next in queue' with the Morphe video queue.",
+    "id": "9681603e028d1c644ccaeeb7:0",
+    "legacy_id": 6600,
+    "metadata_status": "unverified",
+    "name": "Add to queue",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube",
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.6",
+    "source_id": "d265cf9427486996"
+  },
+  {
+    "bundle_id": "9681603e028d1c644ccaeeb7",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0033",
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "signatures": [
+          "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+          "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+        ],
+        "targets": [
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.39.522"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.38.130"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.28.208"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 28,
+            "version": "21.23.492"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.16.256"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.13.164"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "20.31.42"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "20.21.37"
+          }
+        ],
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to replace video thumbnails using the DeArrow API or image captures from the video.",
+    "id": "9681603e028d1c644ccaeeb7:1",
+    "legacy_id": 6601,
+    "metadata_status": "unverified",
+    "name": "Alternative thumbnails",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube",
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.6",
+    "source_id": "d265cf9427486996"
+  },
+  {
+    "bundle_id": "9681603e028d1c644ccaeeb7",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0033",
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "signatures": [
+          "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+          "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+        ],
+        "targets": [
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.39.522"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.38.130"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.28.208"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 28,
+            "version": "21.23.492"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.16.256"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.13.164"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "20.31.42"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "20.21.37"
+          }
+        ],
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to bypass power saving restrictions for Ambient mode and disable it entirely or in fullscreen.",
+    "id": "9681603e028d1c644ccaeeb7:2",
+    "legacy_id": 6602,
+    "metadata_status": "unverified",
+    "name": "Ambient mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube",
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.6",
+    "source_id": "d265cf9427486996"
+  },
+  {
+    "bundle_id": "9681603e028d1c644ccaeeb7",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FF4500",
+        "name": "Reddit",
+        "packageName": "com.reddit.frontpage",
+        "signatures": [
+          "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f"
+        ],
+        "targets": [
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "2026.39.0"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "2026.38.0"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "2026.37.0"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "2026.24.0"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "2026.14.0"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "2026.10.0"
+          }
+        ],
+        "versions": [
+          "2026.39.0",
+          "2026.38.0",
+          "2026.37.0",
+          "2026.24.0",
+          "2026.14.0",
+          "2026.10.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to select from the Reddit app icons available in the manifest.",
+    "id": "9681603e028d1c644ccaeeb7:3",
+    "legacy_id": 6603,
+    "metadata_status": "unverified",
+    "name": "App icon",
+    "options": [],
+    "packages": [
+      {
+        "name": "Reddit",
+        "versions": [
+          "2026.39.0",
+          "2026.38.0",
+          "2026.37.0",
+          "2026.24.0",
+          "2026.14.0",
+          "2026.10.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.6",
+    "source_id": "d265cf9427486996"
+  },
+  {
+    "bundle_id": "9681603e028d1c644ccaeeb7",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0000",
+        "name": "YouTube Music",
+        "packageName": "com.google.android.apps.youtube.music",
+        "signatures": [
+          "6a2f65ec694a6a632acdcb5080912a565f903d4b8d83f0eb8e44fbdf2660d8e1",
+          "a2a1ad7ba7f41dfca4514e2afeb90691719af6d0fdbed4b09bbf0ed897701ceb"
+        ],
+        "targets": [
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.38.51"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.37.54"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.36.50"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "9.15.51"
+          }
+        ],
+        "versions": [
+          "9.38.51",
+          "9.37.54",
+          "9.36.50",
+          "9.15.51"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to change the app refresh rate.",
+    "id": "9681603e028d1c644ccaeeb7:4",
+    "legacy_id": 6604,
+    "metadata_status": "unverified",
+    "name": "App refresh rate",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube Music",
+        "versions": [
+          "9.38.51",
+          "9.37.54",
+          "9.36.50",
+          "9.15.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.6",
+    "source_id": "d265cf9427486996"
+  },
+  {
+    "bundle_id": "9681603e028d1c644ccaeeb7",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0033",
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "signatures": [
+          "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+          "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+        ],
+        "targets": [
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.39.522"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.38.130"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.28.208"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 28,
+            "version": "21.23.492"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.16.256"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.13.164"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "20.31.42"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "20.21.37"
+          }
+        ],
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to change the app refresh rate.",
+    "id": "9681603e028d1c644ccaeeb7:5",
+    "legacy_id": 6605,
+    "metadata_status": "unverified",
+    "name": "App refresh rate",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube",
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.6",
+    "source_id": "d265cf9427486996"
+  },
+  {
+    "bundle_id": "9681603e028d1c644ccaeeb7",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0000",
+        "name": "YouTube Music",
+        "packageName": "com.google.android.apps.youtube.music",
+        "signatures": [
+          "6a2f65ec694a6a632acdcb5080912a565f903d4b8d83f0eb8e44fbdf2660d8e1",
+          "a2a1ad7ba7f41dfca4514e2afeb90691719af6d0fdbed4b09bbf0ed897701ceb"
+        ],
+        "targets": [
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.38.51"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.37.54"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.36.50"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "9.15.51"
+          }
+        ],
+        "versions": [
+          "9.38.51",
+          "9.37.54",
+          "9.36.50",
+          "9.15.51"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Bypasses certificate checks which prevent YouTube Music from working on Android Auto.",
+    "id": "9681603e028d1c644ccaeeb7:6",
+    "legacy_id": 6606,
+    "metadata_status": "unverified",
+    "name": "Bypass certificate checks",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube Music",
+        "versions": [
+          "9.38.51",
+          "9.37.54",
+          "9.36.50",
+          "9.15.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.6",
+    "source_id": "d265cf9427486996"
+  },
+  {
+    "bundle_id": "9681603e028d1c644ccaeeb7",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0033",
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "signatures": [
+          "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+          "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+        ],
+        "targets": [
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.39.522"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.38.130"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.28.208"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 28,
+            "version": "21.23.492"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.16.256"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.13.164"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "20.31.42"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "20.21.37"
+          }
+        ],
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries.",
+    "id": "9681603e028d1c644ccaeeb7:7",
+    "legacy_id": 6607,
+    "metadata_status": "unverified",
+    "name": "Bypass image region restrictions",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube",
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.6",
+    "source_id": "d265cf9427486996"
+  },
+  {
+    "bundle_id": "9681603e028d1c644ccaeeb7",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0033",
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "signatures": [
+          "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+          "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+        ],
+        "targets": [
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.39.522"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.38.130"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.28.208"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 28,
+            "version": "21.23.492"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.16.256"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.13.164"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "20.31.42"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "20.21.37"
+          }
+        ],
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to bypass redirects and open the original link directly.",
+    "id": "9681603e028d1c644ccaeeb7:8",
+    "legacy_id": 6608,
+    "metadata_status": "unverified",
+    "name": "Bypass link redirects",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube",
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.6",
+    "source_id": "d265cf9427486996"
+  },
+  {
+    "bundle_id": "9681603e028d1c644ccaeeb7",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0033",
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "signatures": [
+          "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+          "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+        ],
+        "targets": [
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.39.522"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.38.130"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.28.208"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 28,
+            "version": "21.23.492"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.16.256"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.13.164"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "20.31.42"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "20.21.37"
+          }
+        ],
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to disable captions from being automatically enabled or to set caption cookies.",
+    "id": "9681603e028d1c644ccaeeb7:9",
+    "legacy_id": 6609,
+    "metadata_status": "unverified",
+    "name": "Captions",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube",
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.6",
+    "source_id": "d265cf9427486996"
+  },
+  {
+    "bundle_id": "9681603e028d1c644ccaeeb7",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0033",
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "signatures": [
+          "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+          "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+        ],
+        "targets": [
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.39.522"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.38.130"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.28.208"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 28,
+            "version": "21.23.492"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.16.256"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.13.164"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "20.31.42"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "20.21.37"
+          }
+        ],
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds a cat button to the video player that locks the screen so a pet can watch without accidentally swiping the video away; unlock by quickly tapping alternating opposite sides of the screen.",
+    "id": "9681603e028d1c644ccaeeb7:10",
+    "legacy_id": 6610,
+    "metadata_status": "unverified",
+    "name": "Cat lock",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube",
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.6",
+    "source_id": "d265cf9427486996"
+  },
+  {
+    "bundle_id": "9681603e028d1c644ccaeeb7",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0033",
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "signatures": [
+          "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+          "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+        ],
+        "targets": [
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.39.522"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.38.130"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.28.208"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 28,
+            "version": "21.23.492"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.16.256"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.13.164"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "20.31.42"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "20.21.37"
+          }
+        ],
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to change the UI appearance to a phone, tablet, or automotive device.",
+    "id": "9681603e028d1c644ccaeeb7:11",
+    "legacy_id": 6611,
+    "metadata_status": "unverified",
+    "name": "Change form factor",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube",
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.6",
+    "source_id": "d265cf9427486996"
+  },
+  {
+    "bundle_id": "9681603e028d1c644ccaeeb7",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0000",
+        "name": "YouTube Music",
+        "packageName": "com.google.android.apps.youtube.music",
+        "signatures": [
+          "6a2f65ec694a6a632acdcb5080912a565f903d4b8d83f0eb8e44fbdf2660d8e1",
+          "a2a1ad7ba7f41dfca4514e2afeb90691719af6d0fdbed4b09bbf0ed897701ceb"
+        ],
+        "targets": [
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.38.51"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.37.54"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.36.50"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "9.15.51"
+          }
+        ],
+        "versions": [
+          "9.38.51",
+          "9.37.54",
+          "9.36.50",
+          "9.15.51"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to change the header logo in the top left corner of the app.",
+    "id": "9681603e028d1c644ccaeeb7:12",
+    "legacy_id": 6612,
+    "metadata_status": "unverified",
+    "name": "Change header",
+    "options": [
+      {
+        "default": null,
+        "description": "\n            Folder with images to use as a custom header logo.\n\n            The folder must contain one or more of the following folders, depending on the DPI of the device:\n            - drawable-hdpi\n- drawable-xhdpi\n- drawable-xxhdpi\n- drawable-xxxhdpi\n\n            Each of the folders must contain the following file(s):\n            - morphe_header_custom_dark.png\n\n            Required dimensions:\n            - drawable-hdpi: 121x36 px\n- drawable-xhdpi: 160x48 px\n- drawable-xxhdpi: 240x72 px\n- drawable-xxxhdpi: 320x96 px\n        ",
+        "key": "custom",
+        "required": false,
+        "title": "Custom header logo",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "YouTube Music",
+        "versions": [
+          "9.38.51",
+          "9.37.54",
+          "9.36.50",
+          "9.15.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.6",
+    "source_id": "d265cf9427486996"
+  },
+  {
+    "bundle_id": "9681603e028d1c644ccaeeb7",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0033",
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "signatures": [
+          "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+          "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+        ],
+        "targets": [
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.39.522"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.38.130"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.28.208"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 28,
+            "version": "21.23.492"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.16.256"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.13.164"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "20.31.42"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "20.21.37"
+          }
+        ],
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to change the header logo in the top left corner of the app.",
+    "id": "9681603e028d1c644ccaeeb7:13",
+    "legacy_id": 6613,
+    "metadata_status": "unverified",
+    "name": "Change header",
+    "options": [
+      {
+        "default": null,
+        "description": "\n            Folder with images to use as a custom header logo.\n\n            The folder must contain one or more of the following folders, depending on the DPI of the device:\n            - drawable-hdpi\n- drawable-xhdpi\n- drawable-xxhdpi\n- drawable-xxxhdpi\n\n            Each of the folders must contain the following file(s):\n            - morphe_header_custom_light.png\n- morphe_header_custom_dark.png\n\n            Required dimensions:\n            - drawable-hdpi: 194x72 px\n- drawable-xhdpi: 258x96 px\n- drawable-xxhdpi: 387x144 px\n- drawable-xxxhdpi: 512x192 px\n        ",
+        "key": "custom",
+        "required": false,
+        "title": "Custom header logo",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "YouTube",
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.6",
+    "source_id": "d265cf9427486996"
+  },
+  {
+    "bundle_id": "9681603e028d1c644ccaeeb7",
+    "category": null,
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Spoofs the installer source so the app appears to be installed from an app store.",
+    "id": "9681603e028d1c644ccaeeb7:14",
+    "legacy_id": 6614,
+    "metadata_status": "unverified",
+    "name": "Change installer source",
+    "options": [
+      {
+        "default": "com.android.vending",
+        "description": null,
+        "key": "packageInstallerName",
+        "required": false,
+        "title": "Spoofed package installer name",
+        "type": "kotlin.String",
+        "values": {
+          "Amazon Appstore": "com.amazon.venezia",
+          "Google Play": "com.android.vending",
+          "Huawei AppGallery": "com.huawei.appmarket",
+          "Samsung Galaxy Store": "com.sec.android.app.samsungapps",
+          "Xiaomi GetApps": "com.xiaomi.mipicks"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.4.6",
+    "source_id": "d265cf9427486996"
+  },
+  {
+    "bundle_id": "9681603e028d1c644ccaeeb7",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0000",
+        "name": "YouTube Music",
+        "packageName": "com.google.android.apps.youtube.music",
+        "signatures": [
+          "6a2f65ec694a6a632acdcb5080912a565f903d4b8d83f0eb8e44fbdf2660d8e1",
+          "a2a1ad7ba7f41dfca4514e2afeb90691719af6d0fdbed4b09bbf0ed897701ceb"
+        ],
+        "targets": [
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.38.51"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.37.54"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.36.50"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "9.15.51"
+          }
+        ],
+        "versions": [
+          "9.38.51",
+          "9.37.54",
+          "9.36.50",
+          "9.15.51"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to change the miniplayer background color to match the fullscreen player.",
+    "id": "9681603e028d1c644ccaeeb7:15",
+    "legacy_id": 6615,
+    "metadata_status": "unverified",
+    "name": "Change miniplayer color",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube Music",
+        "versions": [
+          "9.38.51",
+          "9.37.54",
+          "9.36.50",
+          "9.15.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.6",
+    "source_id": "d265cf9427486996"
+  },
+  {
+    "bundle_id": "9681603e028d1c644ccaeeb7",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0000",
+        "name": "YouTube Music",
+        "packageName": "com.google.android.apps.youtube.music",
+        "signatures": [
+          "6a2f65ec694a6a632acdcb5080912a565f903d4b8d83f0eb8e44fbdf2660d8e1",
+          "a2a1ad7ba7f41dfca4514e2afeb90691719af6d0fdbed4b09bbf0ed897701ceb"
+        ],
+        "targets": [
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.38.51"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.37.54"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.36.50"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "9.15.51"
+          }
+        ],
+        "versions": [
+          "9.38.51",
+          "9.37.54",
+          "9.36.50",
+          "9.15.51"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to set which page the app opens in instead of the homepage.",
+    "id": "9681603e028d1c644ccaeeb7:16",
+    "legacy_id": 6616,
+    "metadata_status": "unverified",
+    "name": "Change start page",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube Music",
+        "versions": [
+          "9.38.51",
+          "9.37.54",
+          "9.36.50",
+          "9.15.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.6",
+    "source_id": "d265cf9427486996"
+  },
+  {
+    "bundle_id": "9681603e028d1c644ccaeeb7",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0033",
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "signatures": [
+          "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+          "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+        ],
+        "targets": [
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.39.522"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.38.130"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.28.208"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 28,
+            "version": "21.23.492"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.16.256"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.13.164"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "20.31.42"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "20.21.37"
+          }
+        ],
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to set which page the app opens in instead of the homepage.",
+    "id": "9681603e028d1c644ccaeeb7:17",
+    "legacy_id": 6617,
+    "metadata_status": "unverified",
+    "name": "Change start page",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube",
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.6",
+    "source_id": "d265cf9427486996"
+  },
+  {
+    "bundle_id": "9681603e028d1c644ccaeeb7",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0033",
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "signatures": [
+          "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+          "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+        ],
+        "targets": [
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.39.522"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.38.130"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.28.208"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 28,
+            "version": "21.23.492"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.16.256"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.13.164"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "20.31.42"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "20.21.37"
+          }
+        ],
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to search inside the channel that is currently open instead of searching all of YouTube.",
+    "id": "9681603e028d1c644ccaeeb7:18",
+    "legacy_id": 6618,
+    "metadata_status": "unverified",
+    "name": "Channel search",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube",
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.6",
+    "source_id": "d265cf9427486996"
+  },
+  {
+    "bundle_id": "9681603e028d1c644ccaeeb7",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0000",
+        "name": "YouTube Music",
+        "packageName": "com.google.android.apps.youtube.music",
+        "signatures": [
+          "6a2f65ec694a6a632acdcb5080912a565f903d4b8d83f0eb8e44fbdf2660d8e1",
+          "a2a1ad7ba7f41dfca4514e2afeb90691719af6d0fdbed4b09bbf0ed897701ceb"
+        ],
+        "targets": [
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.38.51"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.37.54"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.36.50"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "9.15.51"
+          }
+        ],
+        "versions": [
+          "9.38.51",
+          "9.37.54",
+          "9.36.50",
+          "9.15.51"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Checks if the device DNS server is preventing user watch history from being saved.",
+    "id": "9681603e028d1c644ccaeeb7:19",
+    "legacy_id": 6619,
+    "metadata_status": "unverified",
+    "name": "Check watch history domain name resolution",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube Music",
+        "versions": [
+          "9.38.51",
+          "9.37.54",
+          "9.36.50",
+          "9.15.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.6",
+    "source_id": "d265cf9427486996"
+  },
+  {
+    "bundle_id": "9681603e028d1c644ccaeeb7",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0033",
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "signatures": [
+          "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+          "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+        ],
+        "targets": [
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.39.522"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.38.130"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 29,
+            "version": "21.28.208"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 28,
+            "version": "21.23.492"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.16.256"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "21.13.164"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "20.31.42"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "20.21.37"
+          }
+        ],
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Checks if the device DNS server is preventing user watch history from being saved.",
+    "id": "9681603e028d1c644ccaeeb7:20",
+    "legacy_id": 6620,
+    "metadata_status": "unverified",
+    "name": "Check watch history domain name resolution",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube",
+        "versions": [
+          "21.39.522",
+          "21.38.130",
+          "21.28.208",
+          "21.23.492",
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.6",
+    "source_id": "d265cf9427486996"
+  },
+  {
+    "bundle_id": "9681603e028d1c644ccaeeb7",
+    "category": null,
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Changes the app package name to allow installing the same app multiple times. By default \".morphe\" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.",
+    "id": "9681603e028d1c644ccaeeb7:21",
+    "legacy_id": 6621,
+    "metadata_status": "unverified",
+    "name": "Clone app",
+    "options": [
+      {
+        "default": "Default",
+        "description": "Package name to use for the cloned app.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      },
+      {
+        "default": false,
+        "description": "Update custom permissions declared by the app. Enabling this can fix installation conflicts, but this can also break features in certain apps.",
+        "key": "updatePermissions",
+        "required": false,
+        "title": "Update permissions",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Update provider names declared by the app. Enabling this can fix installation conflicts, but this can also break features in certain apps.",
+        "key": "updateProviders",
+        "required": false,
+        "title": "Update providers",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.4.6",
+    "source_id": "d265cf9427486996"
+  }
+]

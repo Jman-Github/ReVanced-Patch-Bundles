@@ -1,0 +1,580 @@
+[
+  {
+    "bundle_id": "d2b84d21a5a59647d37e214a",
+    "compatiblePackages": {
+      "com.yahoo.mobile.client.android.finance": [
+        "26.10.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops comScore, AppsFlyer, Embrace and Yahoo (YAnalytics) from collecting or sending tracking and telemetry data.",
+    "id": "d2b84d21a5a59647d37e214a:0",
+    "legacy_id": 15109,
+    "metadata_status": "verified",
+    "name": "Block tracking & telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.yahoo.mobile.client.android.finance",
+        "versions": [
+          "26.10.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "9cad4b3ad12842e2",
+    "use": true
+  },
+  {
+    "bundle_id": "d2b84d21a5a59647d37e214a",
+    "compatiblePackages": {
+      "com.yahoo.mobile.client.android.finance": [
+        "26.10.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes stream, pencil and markets ads from Yahoo Finance at the source so they are never fetched, loaded or shown.",
+    "id": "d2b84d21a5a59647d37e214a:1",
+    "legacy_id": 15110,
+    "metadata_status": "verified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.yahoo.mobile.client.android.finance",
+        "versions": [
+          "26.10.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "9cad4b3ad12842e2",
+    "use": true
+  },
+  {
+    "bundle_id": "d2b84d21a5a59647d37e214a",
+    "compatiblePackages": {
+      "com.yahoo.mobile.client.android.finance": [
+        "26.10.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Suppresses the 'Rate this app' prompt and the 'subscribe to Premium' upsell notification in the activity feed.",
+    "id": "d2b84d21a5a59647d37e214a:2",
+    "legacy_id": 15111,
+    "metadata_status": "verified",
+    "name": "Remove nags",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.yahoo.mobile.client.android.finance",
+        "versions": [
+          "26.10.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "9cad4b3ad12842e2",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "EXPERT USERS ONLY. Manually Configure It To Point At Real Splash And Main Activity As Many Apps Use Other Names. Check the log to know what the patch is doing. Ensure App Doesnt Ask For Permissions In Splash Screen.",
+    "id": "d2d82459de6a4d4a5b91cc9f:72",
+    "legacy_id": 15112,
+    "metadata_status": "verified",
+    "name": "Skip Splash Screen - Expert Only",
+    "options": [
+      {
+        "default": null,
+        "description": "Type just the class name, e.g. \"SplashActivity\" - no leading dot, it's added automatically. Leave blank to auto-detect the launcher activity and require it to score as a confident splash guess.",
+        "key": "sourceSuffix",
+        "required": false,
+        "title": "Splash activity name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "Type just the class name, e.g. \"MainActivity\" - no leading dot, it's added automatically. Leave blank to auto-detect the app's own most main-screen-like activity.",
+        "key": "targetSuffix",
+        "required": false,
+        "title": "Real main activity name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "videoplayer.videodownloader.downloader": null
+    },
+    "dependencies": [],
+    "description": "Closes the onboarding tips screen as soon as it opens.",
+    "id": "d2d82459de6a4d4a5b91cc9f:73",
+    "legacy_id": 15113,
+    "metadata_status": "verified",
+    "name": "Skip tips screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "videoplayer.videodownloader.downloader",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "calendar.agenda.schedule.event.advance.calendar.planner": [
+        "1.0.34"
+      ]
+    },
+    "dependencies": [],
+    "description": "By default, skips the splash screen entirely on launch. Turn on \"Boost splash\" to instead keep it briefly on screen (configurable delay) Useless To Boost Splash Screen If You Select Unlock Premium Patch Too Use If You Want To Skip Splash Screen Entirely",
+    "id": "d2d82459de6a4d4a5b91cc9f:74",
+    "legacy_id": 15114,
+    "metadata_status": "verified",
+    "name": "Skip/Boost splash screen",
+    "options": [
+      {
+        "default": false,
+        "description": "Off: splash is skipped entirely. On: splash briefly shows, then proceeds after the configured delay.",
+        "key": "boostSplash",
+        "required": false,
+        "title": "Boost splash instead of skipping",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": 200,
+        "description": "Only used when \"Boost splash\" is on. How long to show the splash before proceeding.",
+        "key": "boostDelayMs",
+        "required": false,
+        "title": "Boost delay (ms)",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "calendar.agenda.schedule.event.advance.calendar.planner",
+        "versions": [
+          "1.0.34"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.mxtech.videoplayer.ad": [
+        "3.3.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Applies Smart Enhance to every video at a level set in Mod Settings, and keeps it after lock/unlock.",
+    "id": "d2d82459de6a4d4a5b91cc9f:75",
+    "legacy_id": 15115,
+    "metadata_status": "verified",
+    "name": "Smart Enhance Always On",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.mxtech.videoplayer.ad",
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.mxtech.videoplayer.ad": [
+        "3.3.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Replaces the Smart Enhance toggle with a 0-100% popup slider and keeps the level after lock/unlock.",
+    "id": "d2d82459de6a4d4a5b91cc9f:76",
+    "legacy_id": 15116,
+    "metadata_status": "verified",
+    "name": "Smart Enhance Slider",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.mxtech.videoplayer.ad",
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "cn.xender": [
+        "18.8.0.prime"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enters the main activity directly after the splash screen.",
+    "id": "d2d82459de6a4d4a5b91cc9f:77",
+    "legacy_id": 15117,
+    "metadata_status": "verified",
+    "name": "Speed up splash screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "cn.xender",
+        "versions": [
+          "18.8.0.prime"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Makes the app think its signing certificate is unchanged after Morphe re-signs it, useful when an app crashes or shows a tamper warning because it checks its own certificate. Does not bypass Play Integrity / SafetyNet hardware attestation. Apply with Original app certificate patch.",
+    "id": "d2d82459de6a4d4a5b91cc9f:78",
+    "legacy_id": 15118,
+    "metadata_status": "verified",
+    "name": "Spoof App Signature",
+    "options": [
+      {
+        "default": null,
+        "description": "Leave blank — read automatically from the app. Only set this if you changed the app's package name and the patch is using the wrong one.",
+        "key": "packageName",
+        "required": false,
+        "title": "Package name override (optional)",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.bytedz.printflow": [
+        "1.4.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces SecurityTracker.isPremium() to always return true, so every feature gated by the \"st_01\" premium flag stays unlocked.",
+    "id": "d2d82459de6a4d4a5b91cc9f:79",
+    "legacy_id": 15119,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.bytedz.printflow",
+        "versions": [
+          "1.4.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "calendar.agenda.schedule.event.advance.calendar.planner": [
+        "1.0.34"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks premium features and removes ads.",
+    "id": "d2d82459de6a4d4a5b91cc9f:80",
+    "legacy_id": 15120,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "calendar.agenda.schedule.event.advance.calendar.planner",
+        "versions": [
+          "1.0.34"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.hdictionary.bn": [
+        "11.5.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces the purchase check to always return true, unlocking Pro.",
+    "id": "d2d82459de6a4d4a5b91cc9f:81",
+    "legacy_id": 15121,
+    "metadata_status": "verified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.hdictionary.bn",
+        "versions": [
+          "11.5.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.downloader.videodownloader": [
+        "2.7.2"
+      ]
+    },
+    "dependencies": [
+      "Spoof App Signature"
+    ],
+    "description": "Signature verification is spoofed automatically if this patch is selected the purchase check passes.",
+    "id": "d2d82459de6a4d4a5b91cc9f:82",
+    "legacy_id": 15122,
+    "metadata_status": "verified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "video.downloader.videodownloader",
+        "versions": [
+          "2.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "kallossoft.videotophoto": [
+        "5.0.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks Pro features.",
+    "id": "d2d82459de6a4d4a5b91cc9f:83",
+    "legacy_id": 15123,
+    "metadata_status": "verified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "kallossoft.videotophoto",
+        "versions": [
+          "5.0.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.tester.wpswpatester": [
+        "rc-5.164"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces the Pro flag true at every read and write site in the dex, unlocking Pro.",
+    "id": "d2d82459de6a4d4a5b91cc9f:84",
+    "legacy_id": 15124,
+    "metadata_status": "verified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tester.wpswpatester",
+        "versions": [
+          "rc-5.164"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.player.videoplayer": [
+        "2.9.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all pro features.",
+    "id": "d2d82459de6a4d4a5b91cc9f:85",
+    "legacy_id": 15125,
+    "metadata_status": "verified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "video.player.videoplayer",
+        "versions": [
+          "2.9.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "abdelrahman.wifianalyzerpro": [
+        "9.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces the premium check to always return true, unlocking every Pro feature, and stops the in-app \"rate us\" dialog from ever triggering.",
+    "id": "d2d82459de6a4d4a5b91cc9f:86",
+    "legacy_id": 15126,
+    "metadata_status": "verified",
+    "name": "Unlock Pro & Disable Rate Dialog",
+    "options": [],
+    "packages": [
+      {
+        "name": "abdelrahman.wifianalyzerpro",
+        "versions": [
+          "9.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "files.fileexplorer.filemanager": [
+        "1.5.5.7"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces the ad-removed/Pro check to always return true, and renames the launcher activity from SplashActivity to MainActivity so the splash screen is skipped.",
+    "id": "d2d82459de6a4d4a5b91cc9f:87",
+    "legacy_id": 15127,
+    "metadata_status": "verified",
+    "name": "Unlock Pro & Skip Splash Screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "files.fileexplorer.filemanager",
+        "versions": [
+          "1.5.5.7"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.downloader.videodownloader": null
+    },
+    "dependencies": [],
+    "description": "Replaces res/raw/hosts.txt with a text/host file you select.",
+    "id": "d2d82459de6a4d4a5b91cc9f:88",
+    "legacy_id": 15128,
+    "metadata_status": "verified",
+    "name": "Use Your Own Host File For Stronger AdBlock",
+    "options": [
+      {
+        "default": null,
+        "description": "Text/host file that replaces the built-in res/raw/hosts.txt.",
+        "key": "hostsFile",
+        "required": true,
+        "title": "Host file",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "video.downloader.videodownloader",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.player.videoplayer": [
+        "2.9.2"
+      ]
+    },
+    "dependencies": [
+      "Mod Settings"
+    ],
+    "description": "Raises the volume boost limit in the player and background playback. Toggle in Mod Settings.",
+    "id": "d2d82459de6a4d4a5b91cc9f:89",
+    "legacy_id": 15129,
+    "metadata_status": "verified",
+    "name": "Volume Booster",
+    "options": [],
+    "packages": [
+      {
+        "name": "video.player.videoplayer",
+        "versions": [
+          "2.9.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  }
+]

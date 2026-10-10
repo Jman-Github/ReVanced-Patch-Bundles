@@ -1,0 +1,3662 @@
+[
+  {
+    "bundle_id": "a791680d2133ba30705e3708",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "Sync for Reddit",
+        "packageName": "com.laurencedawson.reddit_sync",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "v23.06.30-13:39"
+          }
+        ],
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Merges profile submissions and comments from Arctic Shift and Reddit.",
+    "id": "a791680d2133ba30705e3708:8",
+    "legacy_id": 7422,
+    "metadata_status": "unverified",
+    "name": "Merge profile feeds",
+    "options": [],
+    "packages": [
+      {
+        "name": "Sync for Reddit",
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.8.0-dev.1",
+    "source_id": "78f1bdf7fad12036"
+  },
+  {
+    "bundle_id": "a791680d2133ba30705e3708",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "Sync for Reddit",
+        "packageName": "com.laurencedawson.reddit_sync",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "v23.06.30-13:39"
+          }
+        ],
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Falls back to Sync's in-app WebView when native Redgifs playback fails.",
+    "id": "a791680d2133ba30705e3708:9",
+    "legacy_id": 7423,
+    "metadata_status": "unverified",
+    "name": "Open Redgifs links in WebView on failure",
+    "options": [],
+    "packages": [
+      {
+        "name": "Sync for Reddit",
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.8.0-dev.1",
+    "source_id": "78f1bdf7fad12036"
+  },
+  {
+    "bundle_id": "a791680d2133ba30705e3708",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "Sync for Reddit",
+        "packageName": "com.laurencedawson.reddit_sync",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "v23.06.30-13:39"
+          }
+        ],
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Restores deleted or removed post content from Arctic Shift when available.",
+    "id": "a791680d2133ba30705e3708:10",
+    "legacy_id": 7424,
+    "metadata_status": "unverified",
+    "name": "Restore deleted posts",
+    "options": [],
+    "packages": [
+      {
+        "name": "Sync for Reddit",
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.8.0-dev.1",
+    "source_id": "78f1bdf7fad12036"
+  },
+  {
+    "bundle_id": "a791680d2133ba30705e3708",
+    "category": null,
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Spoofs the app's package certificate hash used by Firebase Installations so that push notifications, remote config, and other Firebase services continue to work as expected.",
+    "id": "a791680d2133ba30705e3708:11",
+    "legacy_id": 7425,
+    "metadata_status": "unverified",
+    "name": "Spoof Firebase certificate hash",
+    "options": [
+      {
+        "default": null,
+        "description": "The SHA-1 hash of the app's package certificate.",
+        "key": "certificateHash",
+        "required": true,
+        "title": "Certificate hash",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.8.0-dev.1",
+    "source_id": "78f1bdf7fad12036"
+  },
+  {
+    "bundle_id": "a791680d2133ba30705e3708",
+    "category": null,
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [
+      "ResourcePatch",
+      "RawResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Spoofs the signature verification when the app starts up. It is recommended to use the unmodified app to work properly.",
+    "id": "a791680d2133ba30705e3708:12",
+    "legacy_id": 7426,
+    "metadata_status": "unverified",
+    "name": "Spoof signature verification",
+    "options": [
+      {
+        "default": "Default",
+        "description": "The package name of the app, if modified. This must match the package name defined when the 'Change package name' patch is selected or as defined in the AndroidManifest.xml.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      },
+      {
+        "default": "Default",
+        "description": "The base64-encoded signature from the original, unmodified APK. This extracts the certificate/signature in the APK by default if blank.",
+        "key": "signature",
+        "required": true,
+        "title": "Base64-encoded signature",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.8.0-dev.1",
+    "source_id": "78f1bdf7fad12036"
+  },
+  {
+    "bundle_id": "a791680d2133ba30705e3708",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "Trakt",
+        "packageName": "tv.trakt.trakt",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.19.0"
+          }
+        ],
+        "versions": [
+          "3.19.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Remove ads, add VIP badge and allow to view 'Your Month in Review'.",
+    "id": "a791680d2133ba30705e3708:13",
+    "legacy_id": 7427,
+    "metadata_status": "unverified",
+    "name": "Unlock pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "Trakt",
+        "versions": [
+          "3.19.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.8.0-dev.1",
+    "source_id": "78f1bdf7fad12036"
+  },
+  {
+    "bundle_id": "a843e7a585bd1b15c687fac5",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#00695C",
+        "name": "MÁVPlusz",
+        "packageName": "hu.mav.emmapp",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.4.19-prod"
+          }
+        ],
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes SecurityException throws gating a BroadcastReceiver's onReceive, which fail when the broadcast sender isn't verified as the real Play Store.",
+    "id": "a843e7a585bd1b15c687fac5:0",
+    "legacy_id": 7428,
+    "metadata_status": "unverified",
+    "name": "Disable broadcast receiver security check",
+    "options": [],
+    "packages": [
+      {
+        "name": "MÁVPlusz",
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "fb739530e9f80363"
+  },
+  {
+    "bundle_id": "a843e7a585bd1b15c687fac5",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#00695C",
+        "name": "MÁVPlusz",
+        "packageName": "hu.mav.emmapp",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.4.19-prod"
+          }
+        ],
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Prevents the app's OkHttp CertificatePinner from ever being installed, allowing HTTPS traffic to be intercepted (e.g. by a proxy) for analysis.",
+    "id": "a843e7a585bd1b15c687fac5:1",
+    "legacy_id": 7429,
+    "metadata_status": "unverified",
+    "name": "Disable certificate pinning",
+    "options": [],
+    "packages": [
+      {
+        "name": "MÁVPlusz",
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "fb739530e9f80363"
+  },
+  {
+    "bundle_id": "a843e7a585bd1b15c687fac5",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#00695C",
+        "name": "MÁVPlusz",
+        "packageName": "hu.mav.emmapp",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.4.19-prod"
+          }
+        ],
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Adds the official firebase_crashlytics_collection_enabled=false manifest flag, disabling all crash/log reporting to Firebase Crashlytics at SDK init.",
+    "id": "a843e7a585bd1b15c687fac5:2",
+    "legacy_id": 7430,
+    "metadata_status": "unverified",
+    "name": "Disable Firebase Crashlytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "MÁVPlusz",
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "fb739530e9f80363"
+  },
+  {
+    "bundle_id": "a843e7a585bd1b15c687fac5",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#00695C",
+        "name": "MÁVPlusz",
+        "packageName": "hu.mav.emmapp",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.4.19-prod"
+          }
+        ],
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Prevents the Pairip-injected Application class from binding to the Play Store licensing service, which would otherwise redirect to / force-close for a side-loaded APK.",
+    "id": "a843e7a585bd1b15c687fac5:3",
+    "legacy_id": 7431,
+    "metadata_status": "unverified",
+    "name": "Disable Pairip license check",
+    "options": [],
+    "packages": [
+      {
+        "name": "MÁVPlusz",
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "fb739530e9f80363"
+  },
+  {
+    "bundle_id": "a843e7a585bd1b15c687fac5",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#00695C",
+        "name": "MÁVPlusz",
+        "packageName": "hu.mav.emmapp",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.4.19-prod"
+          }
+        ],
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Prevents SecurityException when the Play Integrity API call itself fails (APP_NOT_INSTALLED / APP_UID_MISMATCH), as happens for side-loaded APKs.",
+    "id": "a843e7a585bd1b15c687fac5:4",
+    "legacy_id": 7432,
+    "metadata_status": "unverified",
+    "name": "Disable Play Integrity failure crash",
+    "options": [],
+    "packages": [
+      {
+        "name": "MÁVPlusz",
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "fb739530e9f80363"
+  },
+  {
+    "bundle_id": "a843e7a585bd1b15c687fac5",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#00695C",
+        "name": "MÁVPlusz",
+        "packageName": "hu.mav.emmapp",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.4.19-prod"
+          }
+        ],
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Stops the startup coroutine from waiting forever on a Remote-Config-backed flag to decide whether to run the Play Integrity flow, by always treating it as disabled.",
+    "id": "a843e7a585bd1b15c687fac5:5",
+    "legacy_id": 7433,
+    "metadata_status": "unverified",
+    "name": "Disable Play Integrity gating flag wait",
+    "options": [],
+    "packages": [
+      {
+        "name": "MÁVPlusz",
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "fb739530e9f80363"
+  },
+  {
+    "bundle_id": "a843e7a585bd1b15c687fac5",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#00695C",
+        "name": "MÁVPlusz",
+        "packageName": "hu.mav.emmapp",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.4.19-prod"
+          }
+        ],
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Makes the Play Integrity token request always fail immediately with an unclassified exception, so the app treats it as gracefully unavailable and continues initialization instead of getting stuck on a Play-Store-required gate.",
+    "id": "a843e7a585bd1b15c687fac5:6",
+    "legacy_id": 7434,
+    "metadata_status": "unverified",
+    "name": "Disable Play Integrity token request",
+    "options": [],
+    "packages": [
+      {
+        "name": "MÁVPlusz",
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "fb739530e9f80363"
+  },
+  {
+    "bundle_id": "a843e7a585bd1b15c687fac5",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#00695C",
+        "name": "MÁVPlusz",
+        "packageName": "hu.mav.emmapp",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.4.19-prod"
+          }
+        ],
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes client-side SecurityException throws that reject unlicensed/unattested/unrecognized Play Integrity verdicts, without touching unrelated code sharing the same method.",
+    "id": "a843e7a585bd1b15c687fac5:7",
+    "legacy_id": 7435,
+    "metadata_status": "unverified",
+    "name": "Disable Play Integrity verdict validation",
+    "options": [],
+    "packages": [
+      {
+        "name": "MÁVPlusz",
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "fb739530e9f80363"
+  },
+  {
+    "bundle_id": "a843e7a585bd1b15c687fac5",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#00695C",
+        "name": "MÁVPlusz",
+        "packageName": "hu.mav.emmapp",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.4.19-prod"
+          }
+        ],
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Prevents the app from uploading queued client-side log entries to its own backend telemetry endpoint (.../Log/StoreLogs).",
+    "id": "a843e7a585bd1b15c687fac5:8",
+    "legacy_id": 7436,
+    "metadata_status": "unverified",
+    "name": "Disable StoreLogs telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "MÁVPlusz",
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "fb739530e9f80363"
+  },
+  {
+    "bundle_id": "a843e7a585bd1b15c687fac5",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF0045",
+        "name": "Időkép",
+        "packageName": "hu.idokep.idokep",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.3.7"
+          },
+          {
+            "isExperimental": false,
+            "version": "1.0.2"
+          }
+        ],
+        "versions": [
+          "4.3.7",
+          "1.0.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes ads from the idokep app.",
+    "id": "a843e7a585bd1b15c687fac5:9",
+    "legacy_id": 7437,
+    "metadata_status": "unverified",
+    "name": "Remove idokep ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Időkép",
+        "versions": [
+          "4.3.7",
+          "1.0.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "fb739530e9f80363"
+  },
+  {
+    "bundle_id": "a843e7a585bd1b15c687fac5",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#00695C",
+        "name": "MÁVPlusz",
+        "packageName": "hu.mav.emmapp",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.4.19-prod"
+          }
+        ],
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Adds a user certificate trust anchor to the network security config, so a MITM proxy's installed CA is accepted (this is separate from and in addition to disabling OkHttp's code-level certificate pinning).",
+    "id": "a843e7a585bd1b15c687fac5:10",
+    "legacy_id": 7438,
+    "metadata_status": "unverified",
+    "name": "Trust user-installed certificates",
+    "options": [],
+    "packages": [
+      {
+        "name": "MÁVPlusz",
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "fb739530e9f80363"
+  },
+  {
+    "bundle_id": "a859e3e06304a894d601f654",
+    "compatiblePackages": {
+      "me.pokeraid": [
+        "0.48.9"
+      ]
+    },
+    "dependencies": [],
+    "description": "Tap Bounty to open Daily Reward; long press it to open Bounty.",
+    "id": "a859e3e06304a894d601f654:0",
+    "legacy_id": 7439,
+    "metadata_status": "verified",
+    "name": "Bounty Daily Reward Shortcut",
+    "options": [],
+    "packages": [
+      {
+        "name": "me.pokeraid",
+        "versions": [
+          "0.48.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "d7ab00f453113018",
+    "use": true
+  },
+  {
+    "bundle_id": "a859e3e06304a894d601f654",
+    "compatiblePackages": {
+      "de.humbergsoftware.keyboarddesigner": [
+        "5.B8.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the name shown for Keyboard Designer in Android's keyboard/input-method switcher.",
+    "id": "a859e3e06304a894d601f654:1",
+    "legacy_id": 7440,
+    "metadata_status": "verified",
+    "name": "Change keyboard name",
+    "options": [
+      {
+        "default": "Poke Genie",
+        "description": "The name shown by Android when switching input methods.",
+        "key": "keyboardName",
+        "required": true,
+        "title": "Keyboard name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "de.humbergsoftware.keyboarddesigner",
+        "versions": [
+          "5.B8.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "d7ab00f453113018",
+    "use": true
+  },
+  {
+    "bundle_id": "a859e3e06304a894d601f654",
+    "compatiblePackages": {
+      "com.fitness.debugger": [
+        "0.8.2a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes DeFit's app name, header title, and displayed version.",
+    "id": "a859e3e06304a894d601f654:2",
+    "legacy_id": 7441,
+    "metadata_status": "verified",
+    "name": "Custom Branding",
+    "options": [
+      {
+        "default": "DeFit++",
+        "description": "Launcher/app display name.",
+        "key": "appName",
+        "required": true,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "DeFit++ - Unlimited Debugging",
+        "description": "Text shown in DeFit's top action bar.",
+        "key": "topBarText",
+        "required": true,
+        "title": "Top bar text",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "auto",
+        "description": "Version text shown in the app. Use \"auto\" to display the patched target version automatically.",
+        "key": "version",
+        "required": true,
+        "title": "Version",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.fitness.debugger",
+        "versions": [
+          "0.8.2a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "d7ab00f453113018",
+    "use": true
+  },
+  {
+    "bundle_id": "a859e3e06304a894d601f654",
+    "compatiblePackages": {
+      "me.pokeraid": [
+        "0.48.9"
+      ]
+    },
+    "dependencies": [],
+    "description": "Checks daily reward eligibility and automatically claims it (bypassing ads) if available. Invoke by sending intent as broadcast, with action app.danielthemaniel.pokeraid.CHECK_DAILY_REWARD, and package me.pokeraid.",
+    "id": "a859e3e06304a894d601f654:3",
+    "legacy_id": 7442,
+    "metadata_status": "verified",
+    "name": "Daily Reward Background Auto-Claim",
+    "options": [],
+    "packages": [
+      {
+        "name": "me.pokeraid",
+        "versions": [
+          "0.48.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "d7ab00f453113018",
+    "use": true
+  },
+  {
+    "bundle_id": "a859e3e06304a894d601f654",
+    "compatiblePackages": {
+      "me.pokeraid": [
+        "0.48.9"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables ads locally using PokeRaid's built-in Disabled ad strategy.",
+    "id": "a859e3e06304a894d601f654:4",
+    "legacy_id": 7443,
+    "metadata_status": "verified",
+    "name": "Disable Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "me.pokeraid",
+        "versions": [
+          "0.48.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "d7ab00f453113018",
+    "use": true
+  },
+  {
+    "bundle_id": "a859e3e06304a894d601f654",
+    "compatiblePackages": {
+      "me.pokeraid": [
+        "0.48.9"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables Firebase Analytics, Crashlytics, Performance Monitoring, and Advertising ID collection while preserving app functionality.",
+    "id": "a859e3e06304a894d601f654:5",
+    "legacy_id": 7444,
+    "metadata_status": "verified",
+    "name": "Disable Analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "me.pokeraid",
+        "versions": [
+          "0.48.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "d7ab00f453113018",
+    "use": true
+  },
+  {
+    "bundle_id": "a859e3e06304a894d601f654",
+    "compatiblePackages": {
+      "me.pokeraid": [
+        "0.48.9"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides PokeRaid announcement carousels without breaking Data Binding.",
+    "id": "a859e3e06304a894d601f654:6",
+    "legacy_id": 7445,
+    "metadata_status": "verified",
+    "name": "Hide News Banners",
+    "options": [],
+    "packages": [
+      {
+        "name": "me.pokeraid",
+        "versions": [
+          "0.48.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "d7ab00f453113018",
+    "use": true
+  },
+  {
+    "bundle_id": "a859e3e06304a894d601f654",
+    "compatiblePackages": {
+      "com.fitness.debugger": [
+        "0.8.2a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an in-app Google Fit login setup guide and a button to copy the installed APK's signing SHA-1.",
+    "id": "a859e3e06304a894d601f654:7",
+    "legacy_id": 7446,
+    "metadata_status": "verified",
+    "name": "Login Fix Tutorial",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.fitness.debugger",
+        "versions": [
+          "0.8.2a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "d7ab00f453113018",
+    "use": true
+  },
+  {
+    "bundle_id": "a859e3e06304a894d601f654",
+    "compatiblePackages": {
+      "com.fitness.debugger": [
+        "0.8.2a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Uses Android 12+ wallpaper-derived colors and enables safe system Force Dark without changing DeFit's AppCompat theme parent.",
+    "id": "a859e3e06304a894d601f654:8",
+    "legacy_id": 7447,
+    "metadata_status": "verified",
+    "name": "Material You Theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.fitness.debugger",
+        "versions": [
+          "0.8.2a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "d7ab00f453113018",
+    "use": true
+  },
+  {
+    "bundle_id": "a859e3e06304a894d601f654",
+    "compatiblePackages": {
+      "me.pokeraid": [
+        "0.48.9"
+      ]
+    },
+    "dependencies": [],
+    "description": "Uses Android 12+ wallpaper-derived Material You colors throughout PokeRaid while preserving semantic status and raid-type colors.",
+    "id": "a859e3e06304a894d601f654:9",
+    "legacy_id": 7448,
+    "metadata_status": "verified",
+    "name": "Material You Theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "me.pokeraid",
+        "versions": [
+          "0.48.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "d7ab00f453113018",
+    "use": true
+  },
+  {
+    "bundle_id": "a859e3e06304a894d601f654",
+    "compatiblePackages": {
+      "me.pokeraid": [
+        "0.48.9"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an optimistic JOIN button to room cards using PokeRaid's stock authenticated join request.",
+    "id": "a859e3e06304a894d601f654:10",
+    "legacy_id": 7449,
+    "metadata_status": "verified",
+    "name": "Quick Join Button",
+    "options": [],
+    "packages": [
+      {
+        "name": "me.pokeraid",
+        "versions": [
+          "0.48.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "d7ab00f453113018",
+    "use": true
+  },
+  {
+    "bundle_id": "a859e3e06304a894d601f654",
+    "compatiblePackages": {
+      "com.fitness.debugger": [
+        "0.8.2a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes DeFit's bottom banner-ad container from the main layout.",
+    "id": "a859e3e06304a894d601f654:11",
+    "legacy_id": 7450,
+    "metadata_status": "verified",
+    "name": "Remove Bottom Banner Ad",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.fitness.debugger",
+        "versions": [
+          "0.8.2a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "d7ab00f453113018",
+    "use": true
+  },
+  {
+    "bundle_id": "a859e3e06304a894d601f654",
+    "compatiblePackages": {
+      "de.humbergsoftware.keyboarddesigner": [
+        "5.B8.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds my PokeGenie-inspired keyboard design on fresh setup and makes it the portrait text-input default.",
+    "id": "a859e3e06304a894d601f654:12",
+    "legacy_id": 7451,
+    "metadata_status": "verified",
+    "name": "Start with PokeGenie keyboard",
+    "options": [],
+    "packages": [
+      {
+        "name": "de.humbergsoftware.keyboarddesigner",
+        "versions": [
+          "5.B8.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "d7ab00f453113018",
+    "use": true
+  },
+  {
+    "bundle_id": "a859e3e06304a894d601f654",
+    "compatiblePackages": {
+      "com.fitness.debugger": [
+        "0.8.2a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the ad requirement and grants the target DeFit version's maximum active time when the button is pressed.",
+    "id": "a859e3e06304a894d601f654:13",
+    "legacy_id": 7452,
+    "metadata_status": "verified",
+    "name": "Unlimited Time Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.fitness.debugger",
+        "versions": [
+          "0.8.2a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "d7ab00f453113018",
+    "use": true
+  },
+  {
+    "bundle_id": "a859e3e06304a894d601f654",
+    "compatiblePackages": {
+      "de.humbergsoftware.keyboarddesigner": [
+        "5.B8.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all premium features, extended design package, and extended keyboard package.",
+    "id": "a859e3e06304a894d601f654:14",
+    "legacy_id": 7453,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "de.humbergsoftware.keyboarddesigner",
+        "versions": [
+          "5.B8.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "d7ab00f453113018",
+    "use": true
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FFFFFF",
+        "name": "Manga Plus",
+        "packageName": "jp.co.shueisha.mangaplus",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "2.4.1"
+          }
+        ],
+        "versions": [
+          "2.4.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Bypass 'First Time Free' read limitation for all languages. Only affect 'Standard/Deluxe' plan titles, exclusive 'Deluxe' plan titles are server-driven.",
+    "id": "a8a14d7ea00d8e416f041c02:0",
+    "legacy_id": 7454,
+    "metadata_status": "unverified",
+    "name": "Bypass Reading Limitation",
+    "options": [],
+    "packages": [
+      {
+        "name": "Manga Plus",
+        "versions": [
+          "2.4.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Appends \".morphe\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+    "id": "a8a14d7ea00d8e416f041c02:1",
+    "legacy_id": 7455,
+    "metadata_status": "unverified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "Default",
+        "description": "The name of the package to rename the app to.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      },
+      {
+        "default": false,
+        "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "updatePermissions",
+        "required": false,
+        "title": "Update permissions",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "updateProviders",
+        "required": false,
+        "title": "Update providers",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FFFFFF",
+        "name": "UDisc",
+        "packageName": "com.regasoftware.udisc",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "24.1.2"
+          }
+        ],
+        "versions": [
+          "24.1.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Fix course maps not rendered by using your own Google Maps API key.",
+    "id": "a8a14d7ea00d8e416f041c02:2",
+    "legacy_id": 7456,
+    "metadata_status": "unverified",
+    "name": "Course Maps Fix",
+    "options": [
+      {
+        "default": null,
+        "description": "The API key you created in Google Cloud Console. The Free key should be enough for normal daily use. DON'T SHARE YOUR OWN KEY!\nIn the Google Cloud Console: Create a project -> Enable Maps SDK for Android -> A billing account is required, you will be prompted to create one if none exists (You will not get charged as long the monthly $200 limit not passed, use wisely) -> Under Credentials, create an API key. The easiest way is to leave it unrestricted. If you do, fill in the patched app package name and SHA-1 signature. -> If the maps still blank, either the app signature is invalid; the project missing Maps SDK for Android or billing account.",
+        "key": "apiKey",
+        "required": true,
+        "title": "Google Maps API Key",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "UDisc",
+        "versions": [
+          "24.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#01AA68",
+        "name": "Android Proxy Server",
+        "packageName": "cn.adonet.proxyevery",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "9.9"
+          }
+        ],
+        "versions": [
+          "9.9"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disable banner, splash, and rewarded ads.",
+    "id": "a8a14d7ea00d8e416f041c02:3",
+    "legacy_id": 7457,
+    "metadata_status": "unverified",
+    "name": "Disable Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Android Proxy Server",
+        "versions": [
+          "9.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FBC5D1",
+        "name": "Nekopoi",
+        "packageName": "com.kcstream.cing",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "2.5.3-build01"
+          }
+        ],
+        "versions": [
+          "2.5.3-build01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disable banner & splash ads.",
+    "id": "a8a14d7ea00d8e416f041c02:4",
+    "legacy_id": 7458,
+    "metadata_status": "unverified",
+    "name": "Disable Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Nekopoi",
+        "versions": [
+          "2.5.3-build01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FFFFFF",
+        "name": "Timestamp Camera Enterprise Free",
+        "packageName": "com.jeyluta.timestampcamerafreeent",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "1.237"
+          }
+        ],
+        "versions": [
+          "1.237"
+        ]
+      },
+      {
+        "appIconColor": "#FFFFFF",
+        "name": "Timestamp Camera Free",
+        "packageName": "com.jeyluta.timestampcamerafree",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "1.252"
+          }
+        ],
+        "versions": [
+          "1.252"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disable banner ads.",
+    "id": "a8a14d7ea00d8e416f041c02:5",
+    "legacy_id": 7459,
+    "metadata_status": "unverified",
+    "name": "Disable Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Timestamp Camera Enterprise Free",
+        "versions": [
+          "1.237"
+        ]
+      },
+      {
+        "name": "Timestamp Camera Free",
+        "versions": [
+          "1.252"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FFFFFF",
+        "name": "MediBang Paint",
+        "packageName": "com.medibang.android.paint.tablet",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "28.24"
+          }
+        ],
+        "versions": [
+          "28.24"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Disables app tracker, Google & Firebase Analytics",
+    "id": "a8a14d7ea00d8e416f041c02:6",
+    "legacy_id": 7460,
+    "metadata_status": "unverified",
+    "name": "Disable Analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "MediBang Paint",
+        "versions": [
+          "28.24"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FBC5D1",
+        "name": "Nekopoi",
+        "packageName": "com.kcstream.cing",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "2.5.3-build01"
+          }
+        ],
+        "versions": [
+          "2.5.3-build01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disable Anti-Tamper detection that force quit the app.",
+    "id": "a8a14d7ea00d8e416f041c02:7",
+    "legacy_id": 7461,
+    "metadata_status": "unverified",
+    "name": "Disable Anti-Tamper Detection",
+    "options": [],
+    "packages": [
+      {
+        "name": "Nekopoi",
+        "versions": [
+          "2.5.3-build01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.",
+    "id": "a8a14d7ea00d8e416f041c02:8",
+    "legacy_id": 7462,
+    "metadata_status": "unverified",
+    "name": "Disable Pairip license check",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#0B96E7",
+        "name": "Epic!",
+        "packageName": "com.getepic.Epic",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "3.141.43"
+          }
+        ],
+        "versions": [
+          "3.141.43"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Bypass restricted region contents; access it anywhere, anytime.",
+    "id": "a8a14d7ea00d8e416f041c02:9",
+    "legacy_id": 7463,
+    "metadata_status": "unverified",
+    "name": "Disable Region Lock",
+    "options": [],
+    "packages": [
+      {
+        "name": "Epic!",
+        "versions": [
+          "3.141.43"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FBC5D1",
+        "name": "Nekopoi",
+        "packageName": "com.kcstream.cing",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "2.5.3-build01"
+          }
+        ],
+        "versions": [
+          "2.5.3-build01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Allow app network traffic to be inspected.",
+    "id": "a8a14d7ea00d8e416f041c02:10",
+    "legacy_id": 7464,
+    "metadata_status": "unverified",
+    "name": "Enable Certificate Pinning",
+    "options": [],
+    "packages": [
+      {
+        "name": "Nekopoi",
+        "versions": [
+          "2.5.3-build01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FFFFFF",
+        "name": "Manga Plus",
+        "packageName": "jp.co.shueisha.mangaplus",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "2.4.1"
+          }
+        ],
+        "versions": [
+          "2.4.1"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Enable Deluxe plan badge on settings. Bypass the 'First Time Free' read limitation only for English language on 'Standard/Deluxe' plan titles. Other languages aren't affected.",
+    "id": "a8a14d7ea00d8e416f041c02:11",
+    "legacy_id": 7465,
+    "metadata_status": "unverified",
+    "name": "Enable Deluxe Plan",
+    "options": [],
+    "packages": [
+      {
+        "name": "Manga Plus",
+        "versions": [
+          "2.4.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#0B96E7",
+        "name": "Epic!",
+        "packageName": "com.getepic.Epic",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "3.141.43"
+          }
+        ],
+        "versions": [
+          "3.141.43"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlock access to all books, videos and audiobooks for lifetime.",
+    "id": "a8a14d7ea00d8e416f041c02:12",
+    "legacy_id": 7466,
+    "metadata_status": "unverified",
+    "name": "Enable Epic Family",
+    "options": [],
+    "packages": [
+      {
+        "name": "Epic!",
+        "versions": [
+          "3.141.43"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FFFFFF",
+        "name": "ChatBoost",
+        "packageName": "studio.muggle.chatboost",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "3.24.1"
+          }
+        ],
+        "versions": [
+          "3.24.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlock all premium benefits.",
+    "id": "a8a14d7ea00d8e416f041c02:13",
+    "legacy_id": 7467,
+    "metadata_status": "unverified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "ChatBoost",
+        "versions": [
+          "3.24.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FFFFFF",
+        "name": "iLovePDF",
+        "packageName": "com.ilovepdf.www",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "4.0.1"
+          }
+        ],
+        "versions": [
+          "4.0.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlock premium features such as Unlimited access to PDF tools, Enable Cloud Storage; Split, Merge, Compress documents, and more. Google login or Google Drive storage is broken, need MicroG integration patch.",
+    "id": "a8a14d7ea00d8e416f041c02:14",
+    "legacy_id": 7468,
+    "metadata_status": "unverified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "iLovePDF",
+        "versions": [
+          "4.0.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#5281B3",
+        "name": "Keymate",
+        "packageName": "net.nemostudio.keymate",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.2.0"
+          }
+        ],
+        "versions": [
+          "1.2.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Unlock all features in Pro.",
+    "id": "a8a14d7ea00d8e416f041c02:15",
+    "legacy_id": 7469,
+    "metadata_status": "unverified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Keymate",
+        "versions": [
+          "1.2.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FFFFFF",
+        "name": "Paletta",
+        "packageName": "com.medibang.android.medibangpro",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "4.11"
+          }
+        ],
+        "versions": [
+          "4.11"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disable trial time counter.",
+    "id": "a8a14d7ea00d8e416f041c02:16",
+    "legacy_id": 7470,
+    "metadata_status": "unverified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Paletta",
+        "versions": [
+          "4.11"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#E45A36",
+        "name": "Sketchbook",
+        "packageName": "com.adsk.sketchbook",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "6.2.6"
+          }
+        ],
+        "versions": [
+          "6.2.6"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlock premium features such as Advanced Color Tools, Clipping Masks & Alpha Masks, Manage layers with Groups, Import & customize brushes, and more...",
+    "id": "a8a14d7ea00d8e416f041c02:17",
+    "legacy_id": 7471,
+    "metadata_status": "unverified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Sketchbook",
+        "versions": [
+          "6.2.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FFFFFF",
+        "name": "Pixel Studio",
+        "packageName": "com.PixelStudio",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "5.51"
+          }
+        ],
+        "versions": [
+          "5.51"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "Unlock all pro features.",
+    "id": "a8a14d7ea00d8e416f041c02:18",
+    "legacy_id": 7472,
+    "metadata_status": "unverified",
+    "name": "Enable Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pixel Studio",
+        "versions": [
+          "5.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#3561A8",
+        "name": "Atomic",
+        "packageName": "com.jlindemann.science",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "4.7.0m"
+          }
+        ],
+        "versions": [
+          "4.7.0m"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlock all PRO+ features.",
+    "id": "a8a14d7ea00d8e416f041c02:19",
+    "legacy_id": 7473,
+    "metadata_status": "unverified",
+    "name": "Enable PRO+",
+    "options": [],
+    "packages": [
+      {
+        "name": "Atomic",
+        "versions": [
+          "4.7.0m"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#F9A128",
+        "name": "Camera FV-5 Lite",
+        "packageName": "com.flavionet.android.camera.lite",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "5.4.0"
+          }
+        ],
+        "versions": [
+          "5.4.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Force enable DNG raw capture option.",
+    "id": "a8a14d7ea00d8e416f041c02:20",
+    "legacy_id": 7474,
+    "metadata_status": "unverified",
+    "name": "Enable Raw Capture",
+    "options": [],
+    "packages": [
+      {
+        "name": "Camera FV-5 Lite",
+        "versions": [
+          "5.4.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#F01010",
+        "name": "Cinema FV-5 Lite",
+        "packageName": "com.flavionet.android.cinema.lite",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.2.1"
+          }
+        ],
+        "versions": [
+          "2.2.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Fix opening Camera FV-5 Lite when entering camera mode.",
+    "id": "a8a14d7ea00d8e416f041c02:21",
+    "legacy_id": 7475,
+    "metadata_status": "unverified",
+    "name": "Fix Camera Mode Intent",
+    "options": [],
+    "packages": [
+      {
+        "name": "Cinema FV-5 Lite",
+        "versions": [
+          "2.2.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#F9A128",
+        "name": "Camera FV-5 Lite",
+        "packageName": "com.flavionet.android.camera.lite",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "5.4.0"
+          }
+        ],
+        "versions": [
+          "5.4.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Fix opening Cinema FV-5 Lite from video recording menu.",
+    "id": "a8a14d7ea00d8e416f041c02:22",
+    "legacy_id": 7476,
+    "metadata_status": "unverified",
+    "name": "Fix Video Recording Intent",
+    "options": [],
+    "packages": [
+      {
+        "name": "Camera FV-5 Lite",
+        "versions": [
+          "5.4.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Hides the app icon from the Android launcher.",
+    "id": "a8a14d7ea00d8e416f041c02:23",
+    "legacy_id": 7477,
+    "metadata_status": "unverified",
+    "name": "Hide app icon",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#F9A128",
+        "name": "Camera FV-5 Lite",
+        "packageName": "com.flavionet.android.camera.lite",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "5.4.0"
+          }
+        ],
+        "versions": [
+          "5.4.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlock higher image resolutions that the device support.",
+    "id": "a8a14d7ea00d8e416f041c02:24",
+    "legacy_id": 7478,
+    "metadata_status": "unverified",
+    "name": "Higher Image Resolution",
+    "options": [],
+    "packages": [
+      {
+        "name": "Camera FV-5 Lite",
+        "versions": [
+          "5.4.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#F01010",
+        "name": "Cinema FV-5 Lite",
+        "packageName": "com.flavionet.android.cinema.lite",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.2.1"
+          }
+        ],
+        "versions": [
+          "2.2.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlock higher resolutions that limited by the app.",
+    "id": "a8a14d7ea00d8e416f041c02:25",
+    "legacy_id": 7479,
+    "metadata_status": "unverified",
+    "name": "Higher Video Resolution",
+    "options": [],
+    "packages": [
+      {
+        "name": "Cinema FV-5 Lite",
+        "versions": [
+          "2.2.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FFFFFF",
+        "name": "UDisc",
+        "packageName": "com.regasoftware.udisc",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "24.1.2"
+          }
+        ],
+        "versions": [
+          "24.1.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Fix login issue by spoofing the installation source to Play Store.",
+    "id": "a8a14d7ea00d8e416f041c02:26",
+    "legacy_id": 7480,
+    "metadata_status": "unverified",
+    "name": "Login Fix",
+    "options": [],
+    "packages": [
+      {
+        "name": "UDisc",
+        "versions": [
+          "24.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Overrides certificate pinning, allowing to inspect traffic via a proxy.",
+    "id": "a8a14d7ea00d8e416f041c02:27",
+    "legacy_id": 7481,
+    "metadata_status": "unverified",
+    "name": "Override certificate pinning",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Spoofs package installer checks to report the configured package name as the installation source. Default is Play Store.",
+    "id": "a8a14d7ea00d8e416f041c02:28",
+    "legacy_id": 7482,
+    "metadata_status": "unverified",
+    "name": "Spoof Install Source",
+    "options": [
+      {
+        "default": "com.android.vending",
+        "description": "The package name of the installation source.",
+        "key": "packageName",
+        "required": false,
+        "title": "Installer Package Name",
+        "type": "kotlin.String",
+        "values": {
+          "com.android.vending": "com.android.vending"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#E8BF55",
+        "name": "Boorusama (Play Store)",
+        "packageName": "com.degenk.boorusama",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.5.1"
+          }
+        ],
+        "versions": [
+          "4.5.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "Unlock plus features such as Exclusive Themes, Custom Layout & Home Screen, Enhanced Bulk Downloader.",
+    "id": "a8a14d7ea00d8e416f041c02:29",
+    "legacy_id": 7483,
+    "metadata_status": "unverified",
+    "name": "Unlock Plus",
+    "options": [],
+    "packages": [
+      {
+        "name": "Boorusama (Play Store)",
+        "versions": [
+          "4.5.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#2196F2",
+        "name": "AudioRelay",
+        "packageName": "com.azefsw.audioconnect",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "0.26.1"
+          }
+        ],
+        "versions": [
+          "0.26.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlock premium features.",
+    "id": "a8a14d7ea00d8e416f041c02:30",
+    "legacy_id": 7484,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "AudioRelay",
+        "versions": [
+          "0.26.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#5F7C8A",
+        "name": "Fake GPS Location",
+        "packageName": "com.hopefactory2021.fakegpslocation",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "113.0"
+          }
+        ],
+        "versions": [
+          "113.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlock premium features.",
+    "id": "a8a14d7ea00d8e416f041c02:31",
+    "legacy_id": 7485,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Fake GPS Location",
+        "versions": [
+          "113.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#E35252",
+        "name": "Hermit",
+        "packageName": "com.chimbori.hermitcrab",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "31.6.1"
+          }
+        ],
+        "versions": [
+          "31.6.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Enable premium features.",
+    "id": "a8a14d7ea00d8e416f041c02:32",
+    "legacy_id": 7486,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Hermit",
+        "versions": [
+          "31.6.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#2C303B",
+        "name": "Hidden Settings",
+        "packageName": "com.ceyhan.sets",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.34"
+          }
+        ],
+        "versions": [
+          "7.34"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "Unlock premium features such as Disable Ads and access AI Assistant.",
+    "id": "a8a14d7ea00d8e416f041c02:33",
+    "legacy_id": 7487,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Hidden Settings",
+        "versions": [
+          "7.34"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FFFFFF",
+        "name": "MediBang Paint",
+        "packageName": "com.medibang.android.paint.tablet",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "28.24"
+          }
+        ],
+        "versions": [
+          "28.24"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlock premium features such as No Ads, Premium Brushes, Filters & Fonts; Simultaneous Layer Operation. Server-side features is NOT included!",
+    "id": "a8a14d7ea00d8e416f041c02:34",
+    "legacy_id": 7488,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "MediBang Paint",
+        "versions": [
+          "28.24"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#3FA2E4",
+        "name": "PixelLab",
+        "packageName": "com.imaginstudio.imagetools.pixellab",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "2.1.9"
+          }
+        ],
+        "versions": [
+          "2.1.9"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlock 'Remove Ads' premium feature.",
+    "id": "a8a14d7ea00d8e416f041c02:35",
+    "legacy_id": 7489,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "PixelLab",
+        "versions": [
+          "2.1.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FFFFFF",
+        "name": "UDisc",
+        "packageName": "com.regasoftware.udisc",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "24.1.2"
+          }
+        ],
+        "versions": [
+          "24.1.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Enable premium features.",
+    "id": "a8a14d7ea00d8e416f041c02:36",
+    "legacy_id": 7490,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "UDisc",
+        "versions": [
+          "24.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FFFFFF",
+        "name": "Collage Maker - PhotoFancie",
+        "packageName": "com.surmin.photofancie.lite",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "5.8.3"
+          }
+        ],
+        "versions": [
+          "5.8.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Enable pro features.",
+    "id": "a8a14d7ea00d8e416f041c02:37",
+    "legacy_id": 7491,
+    "metadata_status": "unverified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "Collage Maker - PhotoFancie",
+        "versions": [
+          "5.8.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a8a14d7ea00d8e416f041c02",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#0078B7",
+        "name": "Super Proxy",
+        "packageName": "com.scheler.superproxy",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.2.2"
+          }
+        ],
+        "versions": [
+          "3.2.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "Unlock pro features such as Unlimited proxy usage, Allow/disallow specific apps, Block apps in firewall and many more...",
+    "id": "a8a14d7ea00d8e416f041c02:38",
+    "legacy_id": 7492,
+    "metadata_status": "unverified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "Super Proxy",
+        "versions": [
+          "3.2.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "0dbc596416cecac2"
+  },
+  {
+    "bundle_id": "a9255c47436918a0baef1bda",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2A1E9E",
+        "name": "Roost",
+        "packageName": "com.rookery.courier",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.4.12"
+          }
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Multiplies the player's bullet damage by 10 in the Bullet Hell minigame (damage 1 -> 10), applied to both enemies and bosses.",
+    "id": "a9255c47436918a0baef1bda:0",
+    "legacy_id": 7493,
+    "metadata_status": "unverified",
+    "name": "10x Bullet Damage",
+    "options": [],
+    "packages": [
+      {
+        "name": "Roost",
+        "versions": [
+          "1.4.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "2cc79d969e812693"
+  },
+  {
+    "bundle_id": "a9255c47436918a0baef1bda",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2A1E9E",
+        "name": "Roost",
+        "packageName": "com.rookery.courier",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.4.12"
+          }
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Multiplies the player's firing speed by 10 in the Bullet Hell minigame (fire interval 0.15 -> 0.015) for a near-continuous beam.",
+    "id": "a9255c47436918a0baef1bda:1",
+    "legacy_id": 7494,
+    "metadata_status": "unverified",
+    "name": "Beam of Death (10x Fire Rate)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Roost",
+        "versions": [
+          "1.4.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "2cc79d969e812693"
+  },
+  {
+    "bundle_id": "a9255c47436918a0baef1bda",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2A1E9E",
+        "name": "Roost",
+        "packageName": "com.rookery.courier",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.4.12"
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables the PairIP Play-license check so a non-Play (e.g. patched/sideloaded) install no longer redirects to the \"get it on Google Play\" wall on launch.",
+    "id": "a9255c47436918a0baef1bda:2",
+    "legacy_id": 7495,
+    "metadata_status": "unverified",
+    "name": "Bypass Play Store license check",
+    "options": [],
+    "packages": [
+      {
+        "name": "Roost",
+        "versions": [
+          "1.4.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "2cc79d969e812693"
+  },
+  {
+    "bundle_id": "a9255c47436918a0baef1bda",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2A1E9E",
+        "name": "Roost",
+        "packageName": "com.rookery.courier",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.4.12"
+          }
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Removes the client-side cooldown timer check on the nest-egg free-bird claim button so the claim request is sent to the server on every tap. The server still controls eligibility; this only stops the client from blocking the request.",
+    "id": "a9255c47436918a0baef1bda:3",
+    "legacy_id": 7496,
+    "metadata_status": "unverified",
+    "name": "Free Nest Egg (bypass claim cooldown)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Roost",
+        "versions": [
+          "1.4.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "2cc79d969e812693"
+  },
+  {
+    "bundle_id": "a9255c47436918a0baef1bda",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2A1E9E",
+        "name": "Roost",
+        "packageName": "com.rookery.courier",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.4.12"
+          }
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Routes Roost's Google Play Services calls to microG RE so a patched install can sign in with Google. Requires microG RE (app.revanced.android.gms) installed.",
+    "id": "a9255c47436918a0baef1bda:4",
+    "legacy_id": 7497,
+    "metadata_status": "unverified",
+    "name": "Redirect Google login to microG",
+    "options": [],
+    "packages": [
+      {
+        "name": "Roost",
+        "versions": [
+          "1.4.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "2cc79d969e812693"
+  },
+  {
+    "bundle_id": "a9255c47436918a0baef1bda",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2A1E9E",
+        "name": "Roost",
+        "packageName": "com.rookery.courier",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.4.12"
+          }
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Makes Play Integrity attestation fail fast instead of hanging ~60s under microG, removing the delay before Firebase logins, leaderboards, and other backend calls.",
+    "id": "a9255c47436918a0baef1bda:5",
+    "legacy_id": 7498,
+    "metadata_status": "unverified",
+    "name": "Skip Play Integrity (fix microG Firebase delay)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Roost",
+        "versions": [
+          "1.4.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "2cc79d969e812693"
+  },
+  {
+    "bundle_id": "a9255c47436918a0baef1bda",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2A1E9E",
+        "name": "Roost",
+        "packageName": "com.rookery.courier",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.4.12"
+          }
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Triples the on-screen size of the player's bullets in the Bullet Hell minigame (sizePx 6.0 -> 18.0).",
+    "id": "a9255c47436918a0baef1bda:6",
+    "legacy_id": 7499,
+    "metadata_status": "unverified",
+    "name": "Triple Bullet Size",
+    "options": [],
+    "packages": [
+      {
+        "name": "Roost",
+        "versions": [
+          "1.4.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "2cc79d969e812693"
+  },
+  {
+    "bundle_id": "aa6e9493e6ecb73392c8da1f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": null
+    },
+    "dependencies": [],
+    "description": "Always opens Gboard in incognito mode to disable typing history collection and personalization.",
+    "id": "aa6e9493e6ecb73392c8da1f:0",
+    "legacy_id": 7500,
+    "metadata_status": "verified",
+    "name": "Always-incognito mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "37b2e2602691a1f6",
+    "use": true
+  },
+  {
+    "bundle_id": "aa6e9493e6ecb73392c8da1f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Blocks ads, trackers, analytics, and unwanted content in apps and games using a hosts file.",
+    "id": "aa6e9493e6ecb73392c8da1f:1",
+    "legacy_id": 7501,
+    "metadata_status": "verified",
+    "name": "Block ads, trackers, and analytics",
+    "options": [
+      {
+        "default": null,
+        "description": "The hosts file containing hosts or domains you want to block. Select a file or paste the full file path.",
+        "key": "hosts",
+        "required": true,
+        "title": "Hosts file",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "0.0.0.0",
+        "description": "The IP address to redirect blocked domains to. This will be used with your hosts list to block content.",
+        "key": "redirectionIp",
+        "required": true,
+        "title": "Redirection IP",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "0.0.0.0",
+          "localhost": "127.0.0.1"
+        }
+      },
+      {
+        "default": true,
+        "description": "When enabled, entries like \"example.com\" also block subdomains like \"www.example.com\" and \"sub.www.example.com\".",
+        "key": "isWildcard",
+        "required": false,
+        "title": "Wildcard blocking",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "37b2e2602691a1f6",
+    "use": false
+  },
+  {
+    "bundle_id": "aa6e9493e6ecb73392c8da1f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Appends \".adobo\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+    "id": "aa6e9493e6ecb73392c8da1f:2",
+    "legacy_id": 7502,
+    "metadata_status": "verified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "Default",
+        "description": "The name of the package to rename the app to.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      },
+      {
+        "default": true,
+        "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "updatePermissions",
+        "required": false,
+        "title": "Update permissions",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Update other permissions declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "updateOtherPermissions",
+        "required": false,
+        "title": "Update other permissions",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Update content provider URI authorities. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "updateProviders",
+        "required": false,
+        "title": "Update content providers",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "37b2e2602691a1f6",
+    "use": false
+  },
+  {
+    "bundle_id": "aa6e9493e6ecb73392c8da1f",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.38.0",
+        "2026.37.0",
+        "2026.36.0",
+        "2026.24.0",
+        "2026.14.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Replaces the default gray comment indent lines with color-coded lines.",
+    "id": "aa6e9493e6ecb73392c8da1f:3",
+    "legacy_id": 7503,
+    "metadata_status": "verified",
+    "name": "Colorize comment indent lines",
+    "options": [
+      {
+        "default": false,
+        "description": "",
+        "key": "isCurrentLevelOnly",
+        "required": false,
+        "title": "Show indent line at current depth only",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": "#2A9D8F",
+        "description": "The hex color (#RRGGBB or #AARRGGBB) for comment indent line at depth 1.",
+        "key": "indentLineColors1",
+        "required": false,
+        "title": "Line color 1",
+        "type": "kotlin.String",
+        "values": {
+          "Default (Teal Cascade)": "#2A9D8F",
+          "Material (Crimson Flash)": "#F44336",
+          "Monokai (Charcoal Stone)": "#272822",
+          "Nord (Frost Mint)": "#8FBCBB",
+          "Solarized (Crimson Ember)": "#DC322F",
+          "Synthwave (Neon Blizzard)": "#0066FF"
+        }
+      },
+      {
+        "default": "#C96B2C",
+        "description": "The hex color (#RRGGBB or #AARRGGBB) for comment indent line at depth 2.",
+        "key": "indentLineColors2",
+        "required": false,
+        "title": "Line color 2",
+        "type": "kotlin.String",
+        "values": {
+          "Default (Burnt Apricot)": "#C96B2C",
+          "Material (Sunset Blaze)": "#FF5722",
+          "Monokai (Neon Pink)": "#F92672",
+          "Nord (Ice Shard)": "#88C0D0",
+          "Solarized (Rust Orange)": "#CB4B16",
+          "Synthwave (Laser Pink)": "#FF2E88"
+        }
+      },
+      {
+        "default": "#7A8F3A",
+        "description": "The hex color (#RRGGBB or #AARRGGBB) for comment indent line at depth 3.",
+        "key": "indentLineColors3",
+        "required": false,
+        "title": "Line color 3",
+        "type": "kotlin.String",
+        "values": {
+          "Default (Olive Moss)": "#7A8F3A",
+          "Material (Marigold Glow)": "#FF9800",
+          "Monokai (Lime Pop)": "#A6E22E",
+          "Nord (Arctic Skies)": "#81A1C1",
+          "Solarized (Dark Ochre)": "#B58900",
+          "Synthwave (Cyber Violet)": "#9B5CFF"
+        }
+      },
+      {
+        "default": "#8C4A5B",
+        "description": "The hex color (#RRGGBB or #AARRGGBB) for comment indent line at depth 4.",
+        "key": "indentLineColors4",
+        "required": false,
+        "title": "Line color 4",
+        "type": "kotlin.String",
+        "values": {
+          "Default (Muted Mulberry)": "#8C4A5B",
+          "Material (Honey Gold)": "#FFC107",
+          "Monokai (Sunset Amber)": "#FD971F",
+          "Nord (Deep Aurora)": "#5E81AC",
+          "Solarized (Moss Green)": "#859900",
+          "Synthwave (Electric Cyan)": "#2DE2E6"
+        }
+      },
+      {
+        "default": "#4A6FA5",
+        "description": "The hex color (#RRGGBB or #AARRGGBB) for comment indent line at depth 5.",
+        "key": "indentLineColors5",
+        "required": false,
+        "title": "Line color 5",
+        "type": "kotlin.String",
+        "values": {
+          "Default (Slate Blue)": "#4A6FA5",
+          "Material (Electric Lemon)": "#FFEB3B",
+          "Monokai (Electric Cyan)": "#66D9EF",
+          "Nord (Fjord Wave)": "#6D8FB3",
+          "Solarized (Deep Cyan)": "#2AA198",
+          "Synthwave (Miami Sunset)": "#FF5FA2"
+        }
+      },
+      {
+        "default": "#B85C38",
+        "description": "The hex color (#RRGGBB or #AARRGGBB) for comment indent line at depth 6.",
+        "key": "indentLineColors6",
+        "required": false,
+        "title": "Line color 6",
+        "type": "kotlin.String",
+        "values": {
+          "Default (Rust Clay)": "#B85C38",
+          "Material (Lime Zing)": "#CDDC39",
+          "Monokai (Vivid Purple)": "#AE81FF",
+          "Nord (Winter Denim)": "#7AA0C4",
+          "Solarized (Ocean Blue)": "#268BD2",
+          "Synthwave (Rad Orange)": "#FF8A3D"
+        }
+      },
+      {
+        "default": "#6B7A2B",
+        "description": "The hex color (#RRGGBB or #AARRGGBB) for comment indent line at depth 7.",
+        "key": "indentLineColors7",
+        "required": false,
+        "title": "Line color 7",
+        "type": "kotlin.String",
+        "values": {
+          "Default (Juniper Berry)": "#6B7A2B",
+          "Material (Sprout Green)": "#8BC34A",
+          "Monokai (Vintage Straw)": "#E6DB74",
+          "Nord (Powder Blue)": "#8BB2D1",
+          "Solarized (Cosmic Iris)": "#6C71C4",
+          "Synthwave (Retro Gold)": "#FFD166"
+        }
+      },
+      {
+        "default": "#7B5E8E",
+        "description": "The hex color (#RRGGBB or #AARRGGBB) for comment indent line at depth 8.",
+        "key": "indentLineColors8",
+        "required": false,
+        "title": "Line color 8",
+        "type": "kotlin.String",
+        "values": {
+          "Default (Heather Purple)": "#7B5E8E",
+          "Material (Shamrock Green)": "#4CAF50",
+          "Monokai (Stark Frost)": "#F8F8F2",
+          "Nord (Pale Ice)": "#9BC4DC",
+          "Solarized (Royal Magenta)": "#D33682",
+          "Synthwave (Arcade Lime)": "#3CFF7F"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.38.0",
+          "2026.37.0",
+          "2026.36.0",
+          "2026.24.0",
+          "2026.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "37b2e2602691a1f6",
+    "use": true
+  },
+  {
+    "bundle_id": "aa6e9493e6ecb73392c8da1f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Deactivates Firebase Analytics and removes its associated broadcast receivers and services.",
+    "id": "aa6e9493e6ecb73392c8da1f:4",
+    "legacy_id": 7504,
+    "metadata_status": "verified",
+    "name": "Deactivate Firebase Analytics",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "37b2e2602691a1f6",
+    "use": false
+  },
+  {
+    "bundle_id": "aa6e9493e6ecb73392c8da1f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Deactivates the collection of performance data on app start up time, network requests, and other related metrics.",
+    "id": "aa6e9493e6ecb73392c8da1f:5",
+    "legacy_id": 7505,
+    "metadata_status": "verified",
+    "name": "Deactivate Firebase Performance Monitoring",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "37b2e2602691a1f6",
+    "use": false
+  },
+  {
+    "bundle_id": "aa6e9493e6ecb73392c8da1f",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.38.0",
+        "2026.37.0",
+        "2026.36.0",
+        "2026.24.0",
+        "2026.14.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Prevents the bottom navigation bar from hiding when scrolling down.",
+    "id": "aa6e9493e6ecb73392c8da1f:6",
+    "legacy_id": 7506,
+    "metadata_status": "verified",
+    "name": "Disable bottom navigation bar auto-hide",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.38.0",
+          "2026.37.0",
+          "2026.36.0",
+          "2026.24.0",
+          "2026.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "37b2e2602691a1f6",
+    "use": false
+  },
+  {
+    "bundle_id": "aa6e9493e6ecb73392c8da1f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables the Google Safe Browsing checks in WebView. This doesn't apply to WebView within the SDK Runtime.",
+    "id": "aa6e9493e6ecb73392c8da1f:7",
+    "legacy_id": 7507,
+    "metadata_status": "verified",
+    "name": "Disable Google Safe Browsing in WebView",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "37b2e2602691a1f6",
+    "use": false
+  },
+  {
+    "bundle_id": "aa6e9493e6ecb73392c8da1f",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.38.0",
+        "2026.37.0",
+        "2026.36.0",
+        "2026.24.0",
+        "2026.14.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the automatic refresh of the home feed after viewing a post or after being away from the app.",
+    "id": "aa6e9493e6ecb73392c8da1f:8",
+    "legacy_id": 7508,
+    "metadata_status": "verified",
+    "name": "Disable home feed auto-refresh",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.38.0",
+          "2026.37.0",
+          "2026.36.0",
+          "2026.24.0",
+          "2026.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "37b2e2602691a1f6",
+    "use": false
+  },
+  {
+    "bundle_id": "aa6e9493e6ecb73392c8da1f",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.38.0",
+        "2026.37.0",
+        "2026.36.0",
+        "2026.24.0",
+        "2026.14.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the back-to-top scroll and home feed refresh on back navigation to exit.",
+    "id": "aa6e9493e6ecb73392c8da1f:9",
+    "legacy_id": 7509,
+    "metadata_status": "verified",
+    "name": "Disable home feed refresh on back to exit",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.38.0",
+          "2026.37.0",
+          "2026.36.0",
+          "2026.24.0",
+          "2026.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "37b2e2602691a1f6",
+    "use": false
+  },
+  {
+    "bundle_id": "aa6e9493e6ecb73392c8da1f",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.38.0",
+        "2026.37.0",
+        "2026.36.0",
+        "2026.24.0",
+        "2026.14.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the horizontal page swipe gesture used to switch feeds.",
+    "id": "aa6e9493e6ecb73392c8da1f:10",
+    "legacy_id": 7510,
+    "metadata_status": "verified",
+    "name": "Disable home feed swipe",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.38.0",
+          "2026.37.0",
+          "2026.36.0",
+          "2026.24.0",
+          "2026.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "37b2e2602691a1f6",
+    "use": false
+  },
+  {
+    "bundle_id": "aa6e9493e6ecb73392c8da1f",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.38.0",
+        "2026.37.0",
+        "2026.36.0",
+        "2026.24.0",
+        "2026.14.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the automatic redirect to the home screen after being away from the app or returning from the background.",
+    "id": "aa6e9493e6ecb73392c8da1f:11",
+    "legacy_id": 7511,
+    "metadata_status": "verified",
+    "name": "Disable home screen redirect",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.38.0",
+          "2026.37.0",
+          "2026.36.0",
+          "2026.24.0",
+          "2026.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "37b2e2602691a1f6",
+    "use": true
+  },
+  {
+    "bundle_id": "aa6e9493e6ecb73392c8da1f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables the collection of diagnostic data or usage statistics that are sent to Google.",
+    "id": "aa6e9493e6ecb73392c8da1f:12",
+    "legacy_id": 7512,
+    "metadata_status": "verified",
+    "name": "Disable metrics collection in WebView",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "37b2e2602691a1f6",
+    "use": false
+  },
+  {
+    "bundle_id": "aa6e9493e6ecb73392c8da1f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables banner, interstitial, and other ad formats.",
+    "id": "aa6e9493e6ecb73392c8da1f:13",
+    "legacy_id": 7513,
+    "metadata_status": "verified",
+    "name": "Disable mobile ads",
+    "options": [
+      {
+        "default": true,
+        "description": "Disable App Open, Banner & MREC, Interstitial, Native, and Rewarded ad formats.",
+        "key": "disableAppLovinMax",
+        "required": false,
+        "title": "AppLovin MAX",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Disable Banner, Native, Interstitial, Pop-up, Rewarded, and Splash ad formats.",
+        "key": "disableBigo",
+        "required": false,
+        "title": "BIGO",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Disable Banner, Interstitial, Native, Rewarded, Rewarded Interstitial, and App Open ad formats.",
+        "key": "disableGoogleAdMob",
+        "required": false,
+        "title": "Google AdMob",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Disable Banner, Medium rectangle, Interstitial, Native, Native Banner, Rewarded Video, and Rewarded Interstitial ad formats.",
+        "key": "disableMetaAudienceNetwork",
+        "required": false,
+        "title": "Meta Audience Network",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Disable Banner, Interstitial, Rewarded Video, Native, and Splash ad formats.",
+        "key": "disableMintegral",
+        "required": false,
+        "title": "Mintegral",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Disable Banner, Interstitial, Rewarded, Native, Native Banner, In-Stream Video and Audio, and Carousel ad formats.",
+        "key": "disableMyTarget",
+        "required": false,
+        "title": "myTarget",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Disable Banner, Interstitial, Native, Rewarded Video, and App Open ad formats.",
+        "key": "disablePangle",
+        "required": false,
+        "title": "Pangle",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Disable Banner, Interstitial, Native, Rewarded, and App Open ad formats.",
+        "key": "disableTopOn",
+        "required": false,
+        "title": "TopOn",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Disable Banner, Interstitial, Native, and Rewarded Video ad formats.",
+        "key": "disableUnity",
+        "required": false,
+        "title": "Unity",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Disable Banner, Interstitial, Native, Rewarded, and App Open ad formats.",
+        "key": "disableVungle",
+        "required": false,
+        "title": "Liftoff Monetize",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Disable Banner, Interstitial, Native, Rewarded, App Open, InStream, and Feed ad formats.",
+        "key": "disableYandex",
+        "required": false,
+        "title": "Yandex Advertising Network",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "37b2e2602691a1f6",
+    "use": false
+  },
+  {
+    "bundle_id": "aa6e9493e6ecb73392c8da1f",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.38.0",
+        "2026.37.0",
+        "2026.36.0",
+        "2026.24.0",
+        "2026.14.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the horizontal swipe gesture used to navigate between posts.",
+    "id": "aa6e9493e6ecb73392c8da1f:14",
+    "legacy_id": 7514,
+    "metadata_status": "verified",
+    "name": "Disable post detail swipe",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.38.0",
+          "2026.37.0",
+          "2026.36.0",
+          "2026.24.0",
+          "2026.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "37b2e2602691a1f6",
+    "use": false
+  },
+  {
+    "bundle_id": "aa6e9493e6ecb73392c8da1f",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.38.0",
+        "2026.37.0",
+        "2026.36.0",
+        "2026.24.0",
+        "2026.14.0"
+      ]
+    },
+    "dependencies": [
+      "Remove screenshot detection"
+    ],
+    "description": "Disables the banner that shows up after taking a screenshot.",
+    "id": "aa6e9493e6ecb73392c8da1f:15",
+    "legacy_id": 7515,
+    "metadata_status": "verified",
+    "name": "Disable screenshot banner",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.38.0",
+          "2026.37.0",
+          "2026.36.0",
+          "2026.24.0",
+          "2026.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "37b2e2602691a1f6",
+    "use": true
+  },
+  {
+    "bundle_id": "aa6e9493e6ecb73392c8da1f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": null
+    },
+    "dependencies": [],
+    "description": "Enables the redesign of the additional actions menu.",
+    "id": "aa6e9493e6ecb73392c8da1f:16",
+    "legacy_id": 7516,
+    "metadata_status": "verified",
+    "name": "Enable access points menu redesign",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "37b2e2602691a1f6",
+    "use": false
+  },
+  {
+    "bundle_id": "aa6e9493e6ecb73392c8da1f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": null
+    },
+    "dependencies": [],
+    "description": "Enables clipboard support in incognito mode.",
+    "id": "aa6e9493e6ecb73392c8da1f:17",
+    "legacy_id": 7517,
+    "metadata_status": "verified",
+    "name": "Enable clipboard in incognito",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "37b2e2602691a1f6",
+    "use": true
+  },
+  {
+    "bundle_id": "aa6e9493e6ecb73392c8da1f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": null
+    },
+    "dependencies": [],
+    "description": "Enables extending the clipboard history expiration time.",
+    "id": "aa6e9493e6ecb73392c8da1f:18",
+    "legacy_id": 7518,
+    "metadata_status": "verified",
+    "name": "Enable extended clipboard history",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "37b2e2602691a1f6",
+    "use": false
+  },
+  {
+    "bundle_id": "aa6e9493e6ecb73392c8da1f",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.38.0",
+        "2026.37.0",
+        "2026.36.0",
+        "2026.24.0",
+        "2026.14.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables browsing Reddit without signing in.",
+    "id": "aa6e9493e6ecb73392c8da1f:19",
+    "legacy_id": 7519,
+    "metadata_status": "verified",
+    "name": "Enable guest mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.38.0",
+          "2026.37.0",
+          "2026.36.0",
+          "2026.24.0",
+          "2026.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "37b2e2602691a1f6",
+    "use": false
+  },
+  {
+    "bundle_id": "aa6e9493e6ecb73392c8da1f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": null
+    },
+    "dependencies": [],
+    "description": "Enables an option to select a key shape from the theme.",
+    "id": "aa6e9493e6ecb73392c8da1f:20",
+    "legacy_id": 7520,
+    "metadata_status": "verified",
+    "name": "Enable key shape selection",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "37b2e2602691a1f6",
+    "use": false
+  },
+  {
+    "bundle_id": "aa6e9493e6ecb73392c8da1f",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": null
+    },
+    "dependencies": [],
+    "description": "Enables the Scan Text feature to extract text from images and insert them into text fields.",
+    "id": "aa6e9493e6ecb73392c8da1f:21",
+    "legacy_id": 7521,
+    "metadata_status": "verified",
+    "name": "Enable OCR feature",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "37b2e2602691a1f6",
+    "use": true
+  }
+]
