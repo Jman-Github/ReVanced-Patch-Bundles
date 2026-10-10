@@ -1,0 +1,45 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-07-15T18:06:57Z",
+  "description": "## [1.0.7](https://github.com/saieshshirodkar/saiesh-morphe-patches/compare/v1.0.6...v1.0.7) (2026-07-15)\n\n### App Support\n\n* add ISS Live Now patches (com.nicedayapps.iss_free) ([55df003](https://github.com/saieshshirodkar/saiesh-morphe-patches/commit/55df003f7136c184201d72d974484b6acb863e69))\n",
+  "download_url": "https://github.com/saieshshirodkar/saiesh-morphe-patches/releases/download/v1.0.7/patches-1.0.7.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:49766c1a8337b0f25e8ae6ef846a7f0c90bbc45b5473812d3db911ffff1dafad",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "49766c1a8337b0f25e8ae6ef846a7f0c90bbc45b5473812d3db911ffff1dafad",
+  "id": "9c566ca214beee88cfad9fca",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fsaieshshirodkar%2Fsaiesh-morphe-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fsaieshshirodkar%2Fsaiesh-morphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 365,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.nicedayapps.iss_free",
+    "com.overdevs.at4k",
+    "com.spocky.projengmenu"
+  ],
+  "patch_count": 10,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.0.7",
+  "patch_refresh_attempted_at": "2026-10-10T15:21:13.418396734Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:49766c1a8337b0f25e8ae6ef846a7f0c90bbc45b5473812d3db911ffff1dafad",
+  "release_status": "unverified",
+  "release_url": "https://github.com/saieshshirodkar/saiesh-morphe-patches/releases/tag/v1.0.7",
+  "signature_download_url": null,
+  "source_id": "8cbc08a9cbcb109e",
+  "version": "v1.0.7"
+}

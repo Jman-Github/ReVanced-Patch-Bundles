@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-09-05T17:58:46Z",
+  "description": "## What's new\n\n- **AMOLED black theme.** New optional **AMOLED black theme** patch turns the whole dark appearance true black (`#000000`) — window, toolbars, tabs, nav drawer, cards, dialogs and backgrounds — so OLED/AMOLED screens switch those pixels off and battery life improves. The light appearance is untouched.\n- **Rebranding is now on by default.** The recommended **Rebranding** patch renames the install/launcher package to `app.catsmoker.anime.witcher`, moves every `com.anime.witcher.*` permission under it and badges the icon with a red + — so the mod installs and runs even when the original app is still installed (fixes `INSTALL_FAILED_DUPLICATE_PERMISSION` / `INSTALL_FAILED_CONFLICTING_PROVIDER`).\n- **Configurable Telegram handle & About credit.** The `Rebranding: Telegram & About` sub-patch now exposes `telegram handle` and `about credit` options, so the support links and the About-screen credit line are fully customizable.\n- **Faster, more reliable D-pad fix.** The Android TV support patch wires `TvFocusHelper` as an Activity lifecycle callbacks object, applies the focusability pass to every activity and every dialog the app shows, and only consumes a top-bar D-pad press once focus actually moved into a content row — so in-content D-pad navigation is left untouched.\n- Website metadata on the patch source points to the original app page.\n\n## Patches\n\n| Patch | Default |\n|---|---|\n| AMOLED black theme | off |\n| Android TV | off |\n| Android TV: D-pad navigation | off |\n| Disable VPN detection and alerts | on |\n| Disable ads | on |\n| Play with external player | on |\n| Rebranding | on |\n| Rebranding: Telegram & About | off |\n| Remove AppLovin initialization | on |\n| Remove startup popup | on |\n\nFull details: https://github.com/catsmoker/anime-witcher-patches",
+  "download_url": "https://github.com/catsmoker/anime-witcher-patches/releases/download/v1.2.0/patches-1.2.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:6ec5203a77b106c9eefb7a065c330e9b49fc2d304f505e11fcc94910f18a8107",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "6ec5203a77b106c9eefb7a065c330e9b49fc2d304f505e11fcc94910f18a8107",
+  "id": "fb2fd12069e422454438deb4",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fcatsmoker%2Fanime-witcher-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fcatsmoker%2Fanime-witcher-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 580,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.anime.witcher"
+  ],
+  "patch_count": 10,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.2.0",
+  "patch_refresh_attempted_at": "2026-10-10T16:42:42.470358848Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:6ec5203a77b106c9eefb7a065c330e9b49fc2d304f505e11fcc94910f18a8107",
+  "release_status": "available",
+  "release_url": "https://github.com/catsmoker/anime-witcher-patches/releases/tag/v1.2.0",
+  "signature_download_url": "N/A",
+  "source_id": "384c5fc675a50bb4",
+  "version": "v1.2.0"
+}
