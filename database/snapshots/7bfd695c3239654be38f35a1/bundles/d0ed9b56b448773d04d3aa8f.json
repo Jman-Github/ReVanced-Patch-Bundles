@@ -1,0 +1,41 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev"
+  ],
+  "created_at": "2026-08-25T23:16:12Z",
+  "description": "## [1.0.6-dev.1](https://github.com/archie9211/morphe-patches/compare/v1.0.5...v1.0.6-dev.1) (2026-08-25)\n\n### 🐛 Bug Fixes\n\n* correct fingerprint method name from 'PremiumResponse toString' to 'toString' ([4d41b97](https://github.com/archie9211/morphe-patches/commit/4d41b973842461ed156a62504d4f414afe720ce8))\n",
+  "download_url": "https://github.com/archie9211/morphe-patches/releases/download/v1.0.6-dev.1/patches-1.0.6-dev.1.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:0ef45beb53edf232a518e5cb0ae39a080f5ff84bf36dc87c73b8071bb214158a",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "0ef45beb53edf232a518e5cb0ae39a080f5ff84bf36dc87c73b8071bb214158a",
+  "id": "d0ed9b56b448773d04d3aa8f",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Farchie9211%2Fmorphe-patches&version=latest&channel=prerelease"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 495,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.azefsw.audioconnect"
+  ],
+  "patch_count": 1,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.0.6-dev.1",
+  "patch_refresh_attempted_at": "2026-10-10T16:42:48.307647917Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:0ef45beb53edf232a518e5cb0ae39a080f5ff84bf36dc87c73b8071bb214158a",
+  "release_status": "available",
+  "release_url": "https://github.com/archie9211/morphe-patches/releases/tag/v1.0.6-dev.1",
+  "signature_download_url": "N/A",
+  "source_id": "f0f99ad8e8eb2209",
+  "version": "v1.0.6-dev.1"
+}

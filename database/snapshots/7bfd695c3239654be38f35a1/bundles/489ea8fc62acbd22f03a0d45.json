@@ -1,0 +1,53 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev"
+  ],
+  "created_at": "2026-09-29T16:19:43Z",
+  "description": "## [1.4.2-dev.3](https://github.com/franticg33k/morphe-patches/compare/v1.4.2-dev.2...v1.4.2-dev.3) (2026-09-29)\n\n### 🐛 Bug Fixes\n\n* Fricam Edge - take the first Boolean.valueOf, do not assert there is one ([126dbc8](https://github.com/franticg33k/morphe-patches/commit/126dbc885a70634aac36b6a6d822eb2c83383655))\n",
+  "download_url": "https://github.com/franticg33k/morphe-patches/releases/download/v1.4.2-dev.3/patches-1.4.2-dev.3.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:f1e71f4b384c7e755c8ab68517f77caebbfb4bf910b0f3c4199124e98ab48efb",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "f1e71f4b384c7e755c8ab68517f77caebbfb4bf910b0f3c4199124e98ab48efb",
+  "id": "489ea8fc62acbd22f03a0d45",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Ffranticg33k%2Fmorphe-patches&version=latest&channel=prerelease"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 163,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.bolpatranepal.axios",
+    "com.byairapp.android",
+    "com.bytecaretech.merokarobar",
+    "com.ensembleai.scoutai",
+    "com.hamropatro",
+    "com.harwin.prismatica",
+    "com.jellywatch.app",
+    "com.jellywatch.tv",
+    "com.nostalgiatv",
+    "com.providelite.epicplay",
+    "com.rawcam.app",
+    "com.tgezginis.fricam",
+    "np.com.nepalipatro"
+  ],
+  "patch_count": 26,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.4.2-dev.3",
+  "patch_refresh_attempted_at": "2026-10-10T16:44:27.627301226Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:f1e71f4b384c7e755c8ab68517f77caebbfb4bf910b0f3c4199124e98ab48efb",
+  "release_status": "available",
+  "release_url": "https://github.com/franticg33k/morphe-patches/releases/tag/v1.4.2-dev.3",
+  "signature_download_url": "N/A",
+  "source_id": "1d2ece18bafa27da",
+  "version": "v1.4.2-dev.3"
+}

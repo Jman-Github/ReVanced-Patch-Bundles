@@ -1,0 +1,2730 @@
+[
+  {
+    "bundle_id": "8c17a9b8a27482b35cd0af27",
+    "compatiblePackages": {
+      "com.rawcam.app": [
+        "1.4",
+        "1.4.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces the premium entitlement in Native Camera. Premium status is stored locally and controls features such as the sub-40-Mbps bitrate cap. Compatible with v1.4 and v1.4.1 (PairIP was removed in v1.4.1).",
+    "id": "8c17a9b8a27482b35cd0af27:6",
+    "legacy_id": 5825,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rawcam.app",
+        "versions": [
+          "1.4",
+          "1.4.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "0567d1817d0b149e",
+    "use": true
+  },
+  {
+    "bundle_id": "8c17a9b8a27482b35cd0af27",
+    "compatiblePackages": {
+      "com.guochao.faceshow": [
+        "3.2.90"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks SVIP features, blocks purchase flow and Unity Ads.",
+    "id": "8c17a9b8a27482b35cd0af27:7",
+    "legacy_id": 5826,
+    "metadata_status": "verified",
+    "name": "Unlock SVIP",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.guochao.faceshow",
+        "versions": [
+          "3.2.90"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "0567d1817d0b149e",
+    "use": true
+  },
+  {
+    "bundle_id": "8c58da72d8f61dbd6d18a62f",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#1CB0F6",
+        "name": "Heads Up!",
+        "packageName": "com.wb.headsup",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "4.15.11"
+          }
+        ],
+        "versions": [
+          "4.15.11"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to change the round length from the deck page.",
+    "id": "8c58da72d8f61dbd6d18a62f:0",
+    "legacy_id": 5827,
+    "metadata_status": "unverified",
+    "name": "Round length",
+    "options": [],
+    "packages": [
+      {
+        "name": "Heads Up!",
+        "versions": [
+          "4.15.11"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "d6384aa75923b3e5"
+  },
+  {
+    "bundle_id": "8c58da72d8f61dbd6d18a62f",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#1CB0F6",
+        "name": "Heads Up!",
+        "packageName": "com.wb.headsup",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "4.15.11"
+          }
+        ],
+        "versions": [
+          "4.15.11"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks every deck without a purchase by forcing the native ownership checks in libil2cpp.so to report each deck as bought.",
+    "id": "8c58da72d8f61dbd6d18a62f:1",
+    "legacy_id": 5828,
+    "metadata_status": "unverified",
+    "name": "Unlock all decks",
+    "options": [],
+    "packages": [
+      {
+        "name": "Heads Up!",
+        "versions": [
+          "4.15.11"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "d6384aa75923b3e5"
+  },
+  {
+    "bundle_id": "8c78844494ff65d6a6621e7f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Blocks ads and trackers by replacing hosts in XML string resources. Works alongside bytecode hosts blocker for comprehensive coverage.",
+    "id": "8c78844494ff65d6a6621e7f:0",
+    "legacy_id": 5829,
+    "metadata_status": "verified",
+    "name": "Block hosts in string resources",
+    "options": [
+      {
+        "default": null,
+        "description": "The hosts file containing hosts or domains you want to block.",
+        "key": "hosts",
+        "required": true,
+        "title": "Hosts file",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "0.0.0.0",
+        "description": "The IP address to redirect blocked domains to.",
+        "key": "redirectionIp",
+        "required": false,
+        "title": "Redirection IP",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "0.0.0.0",
+          "localhost": "127.0.0.1"
+        }
+      },
+      {
+        "default": true,
+        "description": "Enable subdomain matching.",
+        "key": "isWildcard",
+        "required": false,
+        "title": "Wildcard blocking",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "4d0b580371859614",
+    "use": false
+  },
+  {
+    "bundle_id": "8c78844494ff65d6a6621e7f",
+    "compatiblePackages": {
+      "com.example.app": [
+        "2.0.0",
+        "1.0.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Example patch to start with.",
+    "id": "8c78844494ff65d6a6621e7f:1",
+    "legacy_id": 5830,
+    "metadata_status": "verified",
+    "name": "Example Patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.example.app",
+        "versions": [
+          "2.0.0",
+          "1.0.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "4d0b580371859614",
+    "use": true
+  },
+  {
+    "bundle_id": "8d64b6418352ffb4be3b03ab",
+    "compatiblePackages": {
+      "com.google.android.dialer": null
+    },
+    "dependencies": [],
+    "description": "Remove the announcements when starting or stopping a call recording",
+    "id": "8d64b6418352ffb4be3b03ab:0",
+    "legacy_id": 5832,
+    "metadata_status": "verified",
+    "name": "Call recording announcements remover",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.dialer",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.2",
+    "source_id": "8806b6af3dd772b8",
+    "use": true
+  },
+  {
+    "bundle_id": "8d64b6418352ffb4be3b03ab",
+    "compatiblePackages": null,
+    "dependencies": [
+      "Start Pause Patcher"
+    ],
+    "description": "Pause the patcher Xs bat the end of the process",
+    "id": "8d64b6418352ffb4be3b03ab:1",
+    "legacy_id": 5833,
+    "metadata_status": "verified",
+    "name": "Pause Patcher",
+    "options": [
+      {
+        "default": 120,
+        "description": "The number of seconds tha patcher will wait.",
+        "name": "Pause duration",
+        "required": false,
+        "type": "kotlin.Long",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.2.0-dev.2",
+    "source_id": "8806b6af3dd772b8",
+    "use": false
+  },
+  {
+    "bundle_id": "8d64b6418352ffb4be3b03ab",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Notify the start of the pause.",
+    "id": "8d64b6418352ffb4be3b03ab:2",
+    "legacy_id": 5834,
+    "metadata_status": "verified",
+    "name": "Start Pause Patcher",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.2.0-dev.2",
+    "source_id": "8806b6af3dd772b8",
+    "use": false
+  },
+  {
+    "bundle_id": "8e7f85c54dcf1abf2ba309d6",
+    "compatiblePackages": {
+      "se.hedekonsult.sparkle": [
+        "2.3.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks Sparkle TV's Plus features without purchase, including DVR recording, timeshift, multiview, VOD (movies & series), multi-source setup, and custom channel/category editing.",
+    "id": "8e7f85c54dcf1abf2ba309d6:0",
+    "legacy_id": 5835,
+    "metadata_status": "verified",
+    "name": "Unlock Plus",
+    "options": [],
+    "packages": [
+      {
+        "name": "se.hedekonsult.sparkle",
+        "versions": [
+          "2.3.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "a4306ce0cabd43d2",
+    "use": true
+  },
+  {
+    "bundle_id": "8e7f85c54dcf1abf2ba309d6",
+    "compatiblePackages": {
+      "com.overdevs.at4k": [
+        "1.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks AT4K Launcher's premium features without paying, like more apps per row and the premium wallpaper options. It all runs on the device, so nothing stays locked.",
+    "id": "8e7f85c54dcf1abf2ba309d6:1",
+    "legacy_id": 5836,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.overdevs.at4k",
+        "versions": [
+          "1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "a4306ce0cabd43d2",
+    "use": true
+  },
+  {
+    "bundle_id": "8e80671c2260863446b1f557",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "573.0.0.37.74"
+      ]
+    },
+    "dependencies": [],
+    "description": "Suppresses lifecycle feed refresh while preserving explicit refresh paths.",
+    "id": "8e80671c2260863446b1f557:0",
+    "legacy_id": 5837,
+    "metadata_status": "verified",
+    "name": "Block Facebook automatic refresh (573)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "573.0.0.37.74"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.4",
+    "source_id": "4a1fa2985702394f",
+    "use": true
+  },
+  {
+    "bundle_id": "8e80671c2260863446b1f557",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "573.0.0.37.74"
+      ]
+    },
+    "dependencies": [],
+    "description": "Blocks sponsored and promoted units in the Facebook 573 Feed without touching Reels or Stories.",
+    "id": "8e80671c2260863446b1f557:1",
+    "legacy_id": 5838,
+    "metadata_status": "verified",
+    "name": "Block Facebook Feed ads (573)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "573.0.0.37.74"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.4",
+    "source_id": "4a1fa2985702394f",
+    "use": true
+  },
+  {
+    "bundle_id": "8e80671c2260863446b1f557",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "573.0.0.37.74"
+      ]
+    },
+    "dependencies": [],
+    "description": "Blocks sponsored Reels in the swipe feed plus Reels/video banners, video ads, and commercial breaks.",
+    "id": "8e80671c2260863446b1f557:2",
+    "legacy_id": 5839,
+    "metadata_status": "verified",
+    "name": "Block Facebook Reels ads (573)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "573.0.0.37.74"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.4",
+    "source_id": "4a1fa2985702394f",
+    "use": true
+  },
+  {
+    "bundle_id": "8e80671c2260863446b1f557",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "573.0.0.37.74"
+      ]
+    },
+    "dependencies": [],
+    "description": "Filters Story ad buckets only at the concrete X68 provider return boundary.",
+    "id": "8e80671c2260863446b1f557:3",
+    "legacy_id": 5840,
+    "metadata_status": "verified",
+    "name": "Block Facebook Story ads (573)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "573.0.0.37.74"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.4",
+    "source_id": "4a1fa2985702394f",
+    "use": true
+  },
+  {
+    "bundle_id": "8e80671c2260863446b1f557",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "573.0.0.37.74"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds direct downloads for the visible Story, Reel, and video media through MediaStore.",
+    "id": "8e80671c2260863446b1f557:4",
+    "legacy_id": 5841,
+    "metadata_status": "verified",
+    "name": "Download Facebook Media (573)",
+    "options": [
+      {
+        "default": "Pictures/FroggoPatches/Facebook/@",
+        "description": "Relative MediaStore folder prefix. The creator name is appended after @.",
+        "key": "facebookImageFolder",
+        "required": true,
+        "title": "Facebook image folder",
+        "type": "kotlin.String",
+        "values": {
+          "Pictures/FroggoPatches/Facebook/@": "Pictures/FroggoPatches/Facebook/@"
+        }
+      },
+      {
+        "default": "FroggoPatches/Facebook/@",
+        "description": "Folder below Movies. The creator name is appended after @.",
+        "key": "facebookVideoFolder",
+        "required": true,
+        "title": "Facebook video folder",
+        "type": "kotlin.String",
+        "values": {
+          "Movies/FroggoPatches/Facebook/@": "FroggoPatches/Facebook/@"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "573.0.0.37.74"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.4",
+    "source_id": "4a1fa2985702394f",
+    "use": true
+  },
+  {
+    "bundle_id": "8ecc4919d5d8eae8e987b07c",
+    "compatiblePackages": {
+      "com.movistarplus.androidtv": [
+        "26.03.100"
+      ]
+    },
+    "dependencies": [],
+    "description": "Blocks advertisements and promo clips.",
+    "id": "8ecc4919d5d8eae8e987b07c:0",
+    "legacy_id": 5842,
+    "metadata_status": "verified",
+    "name": "Block Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.movistarplus.androidtv",
+        "versions": [
+          "26.03.100"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.9",
+    "source_id": "5a6987b54313b735",
+    "use": true
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Makes ActivityManager.isBackgroundRestricted always return false so apps ignore background activity restrictions imposed by the system or user",
+    "id": "8fbfdcd920043d60a937839f:0",
+    "legacy_id": 5843,
+    "metadata_status": "verified",
+    "name": "Allow Background Activity",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Sets android:allowClearUserData so the system's Clear Data button stays available even for apps that try to disable it",
+    "id": "8fbfdcd920043d60a937839f:1",
+    "legacy_id": 5844,
+    "metadata_status": "verified",
+    "name": "Allow Clearing App Data",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Sets android:usesCleartextTraffic and drops any network security config so plain HTTP requests are allowed (useful for debugging through local proxies)",
+    "id": "8fbfdcd920043d60a937839f:2",
+    "legacy_id": 5845,
+    "metadata_status": "verified",
+    "name": "Allow Cleartext Traffic",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Forces WebSettings.setMixedContentMode(MIXED_CONTENT_ALWAYS_ALLOW) so WebViews load HTTP resources on HTTPS pages.",
+    "id": "8fbfdcd920043d60a937839f:3",
+    "legacy_id": 5846,
+    "metadata_status": "verified",
+    "name": "Allow Mixed Content",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": {
+      "com.bandcamp.android": null
+    },
+    "dependencies": [],
+    "description": "Bandcamp: allows audio cache downloads over mobile data without the confirmation dialog.",
+    "id": "8fbfdcd920043d60a937839f:4",
+    "legacy_id": 5847,
+    "metadata_status": "verified",
+    "name": "Allow Mobile Downloads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.bandcamp.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Remove the screenshot-blocking window flag",
+    "id": "8fbfdcd920043d60a937839f:5",
+    "legacy_id": 5848,
+    "metadata_status": "verified",
+    "name": "Allow Screenshots",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Makes protected text selectable and copyable.",
+    "id": "8fbfdcd920043d60a937839f:6",
+    "legacy_id": 5849,
+    "metadata_status": "verified",
+    "name": "Allow Text Selection",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Forces WebSettings.setMediaPlaybackRequiresUserGesture(false) so media in WebViews can autoplay without a tap.",
+    "id": "8fbfdcd920043d60a937839f:7",
+    "legacy_id": 5850,
+    "metadata_status": "verified",
+    "name": "Allow WebView Autoplay",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Forces WebSettings file-access flags on so WebViews can load local files and content URLs.",
+    "id": "8fbfdcd920043d60a937839f:8",
+    "legacy_id": 5851,
+    "metadata_status": "verified",
+    "name": "Allow WebView File Access",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Makes BiometricManager.canAuthenticate always return BIOMETRIC_SUCCESS so apps do not block biometric features on unsupported or unenrolled devices",
+    "id": "8fbfdcd920043d60a937839f:9",
+    "legacy_id": 5852,
+    "metadata_status": "verified",
+    "name": "Always Allow Biometrics",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Forces scrollbars to stay enabled so scroll position is always visible",
+    "id": "8fbfdcd920043d60a937839f:10",
+    "legacy_id": 5853,
+    "metadata_status": "verified",
+    "name": "Always Show Scrollbars",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Makes dark mode pure black for AMOLED screens. Light mode stays normal.",
+    "id": "8fbfdcd920043d60a937839f:11",
+    "legacy_id": 5854,
+    "metadata_status": "verified",
+    "name": "AMOLED Theme",
+    "options": [
+      {
+        "default": "#FF000000",
+        "description": "Hex color to use for AMOLED (e.g. #FF000000 pure black, #FF0A0A0A near-black).",
+        "key": "amoledColor",
+        "required": false,
+        "title": "AMOLED color",
+        "type": "kotlin.String",
+        "values": {
+          "Dark Charcoal": "#FF121212",
+          "Near Black": "#FF0A0A0A",
+          "Pure Black": "#FF000000"
+        }
+      },
+      {
+        "default": false,
+        "description": "Also force the status bar background to AMOLED on dark themes.",
+        "key": "amoledBlackenStatusBar",
+        "required": false,
+        "title": "Blacken Status Bar",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Also force the navigation bar background to AMOLED on dark themes.",
+        "key": "amoledBlackenNavigationBar",
+        "required": false,
+        "title": "Blacken Navigation Bar",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Also blacken Material3 surface container colors (recommended for full AMOLED).",
+        "key": "amoledBlackenSurfaces",
+        "required": false,
+        "title": "Blacken Surfaces",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Removes unused CPU libraries to shrink the APK. Keep only your device's architecture.",
+    "id": "8fbfdcd920043d60a937839f:12",
+    "legacy_id": 5855,
+    "metadata_status": "verified",
+    "name": "Apk Junk Cleanup",
+    "options": [
+      {
+        "default": "arm64-v8a",
+        "description": "Native libraries for other ABIs under lib/ will be deleted.",
+        "key": "keepArch",
+        "required": false,
+        "title": "Keep architecture",
+        "type": "kotlin.String",
+        "values": {
+          "arm64-v8a (most modern devices)": "arm64-v8a",
+          "armeabi-v7a (32-bit ARM)": "armeabi-v7a",
+          "x86 (32-bit Intel)": "x86",
+          "x86_64 (64-bit Intel)": "x86_64"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Stops smaller ad networks missed by Disable Ad SDK Init so their SDKs never initialize or serve ads",
+    "id": "8fbfdcd920043d60a937839f:13",
+    "legacy_id": 5856,
+    "metadata_status": "verified",
+    "name": "Block Ad Network Extras",
+    "options": [
+      {
+        "default": true,
+        "description": "Amazon mobile ads SDK.",
+        "key": "blockAmazonAds",
+        "required": false,
+        "title": "Block Amazon Ads",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Appodeal mediation SDK.",
+        "key": "blockAppodeal",
+        "required": false,
+        "title": "Block Appodeal",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "BidMachine header bidding SDK.",
+        "key": "blockBidMachine",
+        "required": false,
+        "title": "Block BidMachine",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Fyber (Digital Turbine) mediation SDK.",
+        "key": "blockFyber",
+        "required": false,
+        "title": "Block Fyber",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "HelpShift support and messaging SDK.",
+        "key": "blockHelpShift",
+        "required": false,
+        "title": "Block HelpShift",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "HyprMX rewarded ads SDK.",
+        "key": "blockHyprMx",
+        "required": false,
+        "title": "Block HyprMX",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "IAB OM SDK viewability measurement.",
+        "key": "blockIabOm",
+        "required": false,
+        "title": "Block IAB Open Measurement",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "SuperAwesome kid-safe ads SDK.",
+        "key": "blockSuperAwesome",
+        "required": false,
+        "title": "Block SuperAwesome",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Tapjoy offerwall ads SDK.",
+        "key": "blockTapjoy",
+        "required": false,
+        "title": "Block Tapjoy",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "AdColony video ads SDK.",
+        "key": "blockAdColony",
+        "required": false,
+        "title": "Block AdColony",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Smaato ads SDK.",
+        "key": "blockSmaato",
+        "required": false,
+        "title": "Block Smaato",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Ogury consent-driven ads SDK.",
+        "key": "blockOgury",
+        "required": false,
+        "title": "Block Ogury",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Stops smaller product analytics SDKs so events never reach their dashboards",
+    "id": "8fbfdcd920043d60a937839f:14",
+    "legacy_id": 5857,
+    "metadata_status": "verified",
+    "name": "Block Analytics Long Tail",
+    "options": [
+      {
+        "default": true,
+        "description": "Open source product analytics SDK.",
+        "key": "blockMatomo",
+        "required": false,
+        "title": "Block Matomo",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Lifecycle messaging and analytics SDK.",
+        "key": "blockLeanplum",
+        "required": false,
+        "title": "Block Leanplum",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "App analytics and marketing SDK.",
+        "key": "blockLocalytics",
+        "required": false,
+        "title": "Block Localytics",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Retention and journey analytics SDK.",
+        "key": "blockWebEngage",
+        "required": false,
+        "title": "Block WebEngage",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Stops app performance monitoring SDKs so timings, crashes and network traces never upload",
+    "id": "8fbfdcd920043d60a937839f:15",
+    "legacy_id": 5858,
+    "metadata_status": "verified",
+    "name": "Block APM Suites",
+    "options": [
+      {
+        "default": true,
+        "description": "Mobile performance monitoring SDK.",
+        "key": "blockNewRelic",
+        "required": false,
+        "title": "Block New Relic",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Observability and real user monitoring SDK.",
+        "key": "blockDatadog",
+        "required": false,
+        "title": "Block Datadog",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Performance and experience monitoring SDK.",
+        "key": "blockDynatrace",
+        "required": false,
+        "title": "Block Dynatrace",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Stops smaller attribution SDKs so installs and opens are never credited to ad networks",
+    "id": "8fbfdcd920043d60a937839f:16",
+    "legacy_id": 5859,
+    "metadata_status": "verified",
+    "name": "Block Attribution Extras",
+    "options": [
+      {
+        "default": true,
+        "description": "Mobile attribution and analytics SDK.",
+        "key": "blockKochava",
+        "required": false,
+        "title": "Block Kochava",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Marketing attribution SDK.",
+        "key": "blockSingular",
+        "required": false,
+        "title": "Block Singular",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Install attribution SDK.",
+        "key": "blockTenjin",
+        "required": false,
+        "title": "Block Tenjin",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Blocks Bluetooth Low Energy scans so apps cannot track nearby beacons or accessories",
+    "id": "8fbfdcd920043d60a937839f:17",
+    "legacy_id": 5860,
+    "metadata_status": "verified",
+    "name": "Block BLE Scan",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Stops smaller crash reporters missed by Disable Crash Reporters so stack traces never upload",
+    "id": "8fbfdcd920043d60a937839f:18",
+    "legacy_id": 5861,
+    "metadata_status": "verified",
+    "name": "Block Crash Extras",
+    "options": [
+      {
+        "default": true,
+        "description": "Crash reporting SDK.",
+        "key": "blockRaygun",
+        "required": false,
+        "title": "Block Raygun",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Bug reporting with screenshots SDK.",
+        "key": "blockShake",
+        "required": false,
+        "title": "Block Shake",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Mobile observability SDK.",
+        "key": "blockEmbrace",
+        "required": false,
+        "title": "Block Embrace",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Legacy crash and event SDK.",
+        "key": "blockSplunkMint",
+        "required": false,
+        "title": "Block Splunk Mint",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Microsoft App Center crashes and analytics.",
+        "key": "blockAppCenter",
+        "required": false,
+        "title": "Block App Center",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Sentry error tracking SDK.",
+        "key": "blockSentry",
+        "required": false,
+        "title": "Block Sentry",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "ACRA crash reporting SDK.",
+        "key": "blockAcra",
+        "required": false,
+        "title": "Block ACRA",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "OpenTelemetry (OpenCensus/OpenTracing) spans and export.",
+        "key": "blockOpenTelemetry",
+        "required": false,
+        "title": "Block OpenTelemetry",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Stops customer data pipeline SDKs so events never stream into warehouses or profiles",
+    "id": "8fbfdcd920043d60a937839f:19",
+    "legacy_id": 5862,
+    "metadata_status": "verified",
+    "name": "Block Data Pipelines",
+    "options": [
+      {
+        "default": true,
+        "description": "Customer data platform SDK.",
+        "key": "blockMparticle",
+        "required": false,
+        "title": "Block mParticle",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Cloud data pipeline SDK.",
+        "key": "blockTreasureData",
+        "required": false,
+        "title": "Block Treasure Data",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Blocks Google activity recognition and geofencing so apps cannot track movement or location zones",
+    "id": "8fbfdcd920043d60a937839f:20",
+    "legacy_id": 5863,
+    "metadata_status": "verified",
+    "name": "Block GMS Tracking",
+    "options": [
+      {
+        "default": true,
+        "description": "Stop walking, driving and stillness detection requests.",
+        "key": "blockActivityRecognition",
+        "required": false,
+        "title": "Block activity recognition",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Stop enter and exit tracking for location zones.",
+        "key": "blockGeofencing",
+        "required": false,
+        "title": "Block geofencing",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Stops Huawei Analytics event uploads so usage never reaches Huawei servers",
+    "id": "8fbfdcd920043d60a937839f:21",
+    "legacy_id": 5864,
+    "metadata_status": "verified",
+    "name": "Block Huawei Analytics",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Blocks the Play Install Referrer API so apps cannot read which ad or link installed them",
+    "id": "8fbfdcd920043d60a937839f:22",
+    "legacy_id": 5865,
+    "metadata_status": "verified",
+    "name": "Block Install Referrer",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Stops pre-Firebase Google Analytics so screen views and hits never upload",
+    "id": "8fbfdcd920043d60a937839f:23",
+    "legacy_id": 5866,
+    "metadata_status": "verified",
+    "name": "Block Legacy Analytics",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Stops location intelligence SDKs so visits and beacon sightings never upload",
+    "id": "8fbfdcd920043d60a937839f:24",
+    "legacy_id": 5867,
+    "metadata_status": "verified",
+    "name": "Block Location Trackers",
+    "options": [
+      {
+        "default": true,
+        "description": "Geofencing and place visit SDK.",
+        "key": "blockRadar",
+        "required": false,
+        "title": "Block Radar",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Beacon proximity SDK.",
+        "key": "blockGimbal",
+        "required": false,
+        "title": "Block Gimbal",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Beacon proximity SDK.",
+        "key": "blockEstimote",
+        "required": false,
+        "title": "Block Estimote",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Stops the MoEngage SDK so events and profile traits never reach its engagement cloud",
+    "id": "8fbfdcd920043d60a937839f:25",
+    "legacy_id": 5868,
+    "metadata_status": "verified",
+    "name": "Block MoEngage",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Stops the PostHog SDK so captures, screens and feature flags never upload",
+    "id": "8fbfdcd920043d60a937839f:26",
+    "legacy_id": 5869,
+    "metadata_status": "verified",
+    "name": "Block PostHog",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Stops user profile stitching in analytics SDKs whose events are blocked but identity calls are not",
+    "id": "8fbfdcd920043d60a937839f:27",
+    "legacy_id": 5870,
+    "metadata_status": "verified",
+    "name": "Block Profile Tracking",
+    "options": [
+      {
+        "default": true,
+        "description": "Mixpanel user profile updates.",
+        "key": "blockMixpanelPeople",
+        "required": false,
+        "title": "Block Mixpanel People",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "CleverTap login and profile pushes.",
+        "key": "blockCleverTapProfiles",
+        "required": false,
+        "title": "Block CleverTap profiles",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Amplitude user ID and property setters.",
+        "key": "blockAmplitudeIdentity",
+        "required": false,
+        "title": "Block Amplitude identity",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Block push notification ads (Firebase Cloud Messaging). Also blocks legitimate notifications.",
+    "id": "8fbfdcd920043d60a937839f:28",
+    "legacy_id": 5871,
+    "metadata_status": "verified",
+    "name": "Block Push Ads",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Stops push engagement SDKs so tags, outcomes and identity never reach push vendors",
+    "id": "8fbfdcd920043d60a937839f:29",
+    "legacy_id": 5872,
+    "metadata_status": "verified",
+    "name": "Block Push Analytics",
+    "options": [
+      {
+        "default": true,
+        "description": "Push notification and outcome SDK.",
+        "key": "blockOneSignal",
+        "required": false,
+        "title": "Block OneSignal",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Push engagement SDK, formerly Urban Airship.",
+        "key": "blockAirship",
+        "required": false,
+        "title": "Block Airship",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Messaging and engagement SDK, formerly Appboy.",
+        "key": "blockBraze",
+        "required": false,
+        "title": "Block Braze",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Adds FLAG_SECURE to every activity window so the system blocks screenshots, screen recording and recents previews of the app",
+    "id": "8fbfdcd920043d60a937839f:30",
+    "legacy_id": 5873,
+    "metadata_status": "verified",
+    "name": "Block Screenshot Detection",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Stops session recording SDKs so apps cannot film your taps, scrolling or screen content",
+    "id": "8fbfdcd920043d60a937839f:31",
+    "legacy_id": 5874,
+    "metadata_status": "verified",
+    "name": "Block Session Replay",
+    "options": [
+      {
+        "default": true,
+        "description": "Session replay and heatmap SDK.",
+        "key": "blockUxcam",
+        "required": false,
+        "title": "Block UXCam",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Session recording and funnel SDK.",
+        "key": "blockSmartlook",
+        "required": false,
+        "title": "Block Smartlook",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Digital experience recording SDK.",
+        "key": "blockFullStory",
+        "required": false,
+        "title": "Block FullStory",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Experience analytics and zoning SDK.",
+        "key": "blockContentsquare",
+        "required": false,
+        "title": "Block Contentsquare",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Beta session video recording SDK.",
+        "key": "blockTestFairy",
+        "required": false,
+        "title": "Block TestFairy",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Bug video report recording SDK.",
+        "key": "blockBugsee",
+        "required": false,
+        "title": "Block Bugsee",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Stops the Snowplow tracker so structured events never reach its collectors",
+    "id": "8fbfdcd920043d60a937839f:32",
+    "legacy_id": 5875,
+    "metadata_status": "verified",
+    "name": "Block Snowplow",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Stops the TikTok Events SDK so app activity never reaches TikTok for ad targeting",
+    "id": "8fbfdcd920043d60a937839f:33",
+    "legacy_id": 5876,
+    "metadata_status": "verified",
+    "name": "Block TikTok Events",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Stops Yandex Metrica activation and event reports so usage never reaches Yandex servers",
+    "id": "8fbfdcd920043d60a937839f:34",
+    "legacy_id": 5877,
+    "metadata_status": "verified",
+    "name": "Block Yandex Metrica",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Makes UserManager.isDemoUser() report false so apps that gate functionality in retail/demo mode run normally.",
+    "id": "8fbfdcd920043d60a937839f:35",
+    "legacy_id": 5878,
+    "metadata_status": "verified",
+    "name": "Bypass Demo User",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Lets automation apps work without Do Not Disturb permission.",
+    "id": "8fbfdcd920043d60a937839f:36",
+    "legacy_id": 5879,
+    "metadata_status": "verified",
+    "name": "Bypass DND Policy Access",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Hides emulator traces by spoofing Build info and related checks so apps cannot detect an emulator.",
+    "id": "8fbfdcd920043d60a937839f:37",
+    "legacy_id": 5880,
+    "metadata_status": "verified",
+    "name": "Bypass Emulator Detection",
+    "options": [
+      {
+        "default": "pixel6",
+        "description": "Which real device identity to imitate.",
+        "key": "emulatorProfile",
+        "required": false,
+        "title": "Device profile",
+        "type": "kotlin.String",
+        "values": {
+          "Pixel 6": "pixel6",
+          "Samsung Galaxy S23": "samsungS23",
+          "Xiaomi 13": "xiaomi13"
+        }
+      },
+      {
+        "default": false,
+        "description": "Make TelephonyManager report a normal GSM radio type.",
+        "key": "hideEmulatorRadio",
+        "required": false,
+        "title": "Hide Emulator Radio",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Spoof additional Build and Build.VERSION fields used by emulator checks.",
+        "key": "spoofBuildExtras",
+        "required": false,
+        "title": "Spoof Build Extras",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Skip forced update screens and keep using the app.",
+    "id": "8fbfdcd920043d60a937839f:38",
+    "legacy_id": 5881,
+    "metadata_status": "verified",
+    "name": "Bypass Forced Updates (Experimental)",
+    "options": [
+      {
+        "default": true,
+        "description": "Ignore high-confidence client-side checks that report an update is required",
+        "key": "bypassUpdateGate",
+        "required": false,
+        "title": "Bypass update gate",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Allow detected update dialogs to be canceled instead of forcing the user to update",
+        "key": "makeDialogsDismissible",
+        "required": false,
+        "title": "Make dialogs dismissible",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Block detected redirects to the Play Store, browser, or updater activity",
+        "key": "blockUpdateRedirects",
+        "required": false,
+        "title": "Block update redirects",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Remove detected finish or exit calls from update-related methods",
+        "key": "preventForcedExit",
+        "required": false,
+        "title": "Prevent forced exit",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Disable Google Play's in-app update flow when it is present",
+        "key": "patchPlayCore",
+        "required": false,
+        "title": "Patch Play Core updates",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Tricks the app into thinking Google Play Services is installed and working, so it does not disable features that depend on it.",
+    "id": "8fbfdcd920043d60a937839f:39",
+    "legacy_id": 5882,
+    "metadata_status": "verified",
+    "name": "Bypass Google Play Services Check",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Makes UserManager.isGuestUser() report false so apps that limit guest accounts behave as on a primary account.",
+    "id": "8fbfdcd920043d60a937839f:40",
+    "legacy_id": 5883,
+    "metadata_status": "verified",
+    "name": "Bypass Guest User",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Makes any HostnameVerifier.verify(String, SSLSession) always return true, accepting any certificate hostname without errors.",
+    "id": "8fbfdcd920043d60a937839f:41",
+    "legacy_id": 5884,
+    "metadata_status": "verified",
+    "name": "Bypass Hostname Verification",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Treats instant apps as full installs.",
+    "id": "8fbfdcd920043d60a937839f:42",
+    "legacy_id": 5885,
+    "metadata_status": "verified",
+    "name": "Bypass Instant App",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Makes KeyguardManager.isKeyguardSecure() report false so apps that require a secure lock screen run without one.",
+    "id": "8fbfdcd920043d60a937839f:43",
+    "legacy_id": 5886,
+    "metadata_status": "verified",
+    "name": "Bypass Keyguard Secure",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Forces Google Play's license (LVL) check to pass, so the app does not refuse to run on unlicensed or modified builds.",
+    "id": "8fbfdcd920043d60a937839f:44",
+    "legacy_id": 5887,
+    "metadata_status": "verified",
+    "name": "Bypass License Verification",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Makes UserManager.isLinkedUser() report false so apps that restrict linked/secondary profiles run normally.",
+    "id": "8fbfdcd920043d60a937839f:45",
+    "legacy_id": 5888,
+    "metadata_status": "verified",
+    "name": "Bypass Linked User",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Makes ActivityManager.isInLockTaskMode() report false so apps that change behavior under screen-pinning or kiosk mode run normally.",
+    "id": "8fbfdcd920043d60a937839f:46",
+    "legacy_id": 5889,
+    "metadata_status": "verified",
+    "name": "Bypass Lock Task Mode",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Makes ActivityManager.isLowEndDevice() report false so apps stop applying low-end-device restrictions and degraded quality.",
+    "id": "8fbfdcd920043d60a937839f:47",
+    "legacy_id": 5890,
+    "metadata_status": "verified",
+    "name": "Bypass Low-End Device",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Treats work profiles as regular profiles.",
+    "id": "8fbfdcd920043d60a937839f:48",
+    "legacy_id": 5891,
+    "metadata_status": "verified",
+    "name": "Bypass Managed Profile",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "No-ops the certificate verification entry points of bundled OkHttp clients so certificate pinning never rejects connections",
+    "id": "8fbfdcd920043d60a937839f:49",
+    "legacy_id": 5892,
+    "metadata_status": "verified",
+    "name": "Bypass OkHttp Pinning",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Lets apps work with screen overlays.",
+    "id": "8fbfdcd920043d60a937839f:50",
+    "legacy_id": 5893,
+    "metadata_status": "verified",
+    "name": "Bypass Overlay Detection",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Makes PackageManager.isPackageSuspended() report false so apps that refuse to run while suspended keep working.",
+    "id": "8fbfdcd920043d60a937839f:51",
+    "legacy_id": 5894,
+    "metadata_status": "verified",
+    "name": "Bypass Package Suspended",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Forces permission checks to report granted so permission-gated features skip dialogs",
+    "id": "8fbfdcd920043d60a937839f:52",
+    "legacy_id": 5895,
+    "metadata_status": "verified",
+    "name": "Bypass Permission Check",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Makes Activity.isInPictureInPictureMode() report false so apps that change behavior in PiP keep their full UI.",
+    "id": "8fbfdcd920043d60a937839f:53",
+    "legacy_id": 5896,
+    "metadata_status": "verified",
+    "name": "Bypass Picture-in-Picture Mode",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Answers the Play license check (LVL) with LICENSED without contacting Google. Only affects apps using the legacy licensing library.",
+    "id": "8fbfdcd920043d60a937839f:54",
+    "legacy_id": 5897,
+    "metadata_status": "verified",
+    "name": "Bypass Play License Check",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Makes PackageManager.isSafeMode() report false so apps that disable functionality in safe mode behave normally.",
+    "id": "8fbfdcd920043d60a937839f:55",
+    "legacy_id": 5898,
+    "metadata_status": "verified",
+    "name": "Bypass Safe Mode",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Makes UserManager.isSystemUser() report false so apps gating behavior to the system user treat the current user as normal.",
+    "id": "8fbfdcd920043d60a937839f:56",
+    "legacy_id": 5899,
+    "metadata_status": "verified",
+    "name": "Bypass System User",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Hides test and automation environment.",
+    "id": "8fbfdcd920043d60a937839f:57",
+    "legacy_id": 5900,
+    "metadata_status": "verified",
+    "name": "Bypass Test Environment",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Makes UserManager.isUserRestricted() report false so apps that limit restricted accounts run normally.",
+    "id": "8fbfdcd920043d60a937839f:58",
+    "legacy_id": 5901,
+    "metadata_status": "verified",
+    "name": "Bypass User Restricted",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Makes NetworkCapabilities report no VPN: hasTransport always returns false and hasCapability always returns true, so apps cannot block or alter behavior on VPN",
+    "id": "8fbfdcd920043d60a937839f:59",
+    "legacy_id": 5902,
+    "metadata_status": "verified",
+    "name": "Bypass VPN Detection",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Bypasses deceptive site warnings in WebView.",
+    "id": "8fbfdcd920043d60a937839f:60",
+    "legacy_id": 5903,
+    "metadata_status": "verified",
+    "name": "Bypass WebView Safe Browsing",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Ignores SSL errors in WebView.",
+    "id": "8fbfdcd920043d60a937839f:61",
+    "legacy_id": 5904,
+    "metadata_status": "verified",
+    "name": "Bypass WebView SSL Errors",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Clone the app with a new package name.",
+    "id": "8fbfdcd920043d60a937839f:62",
+    "legacy_id": 5905,
+    "metadata_status": "verified",
+    "name": "Change Package Name",
+    "options": [
+      {
+        "default": "",
+        "description": "Fully custom package name (e.g. com.example.clone). Leave empty to use suffix mode below.",
+        "key": "customPackageName",
+        "required": false,
+        "title": "Custom package name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": ".morphe",
+        "description": "Suffix appended to the original package when Custom package name is empty (e.g. .morphe, .clone). Must start with a dot.",
+        "key": "packageSuffix",
+        "required": false,
+        "title": "Package suffix",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Rewrite provider android:authorities that start with the old package to the new package to avoid install conflicts.",
+        "key": "updateProviders",
+        "required": false,
+        "title": "Update providers",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Rewrite custom permission android:name that starts with the old package (e.g. C2D_MESSAGE) to the new package.",
+        "key": "updatePermissions",
+        "required": false,
+        "title": "Update permissions",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Expand relative activity/service/receiver/provider names to the original package so components keep resolving after the rename.",
+        "key": "updateComponents",
+        "required": false,
+        "title": "Update components",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Overrides the android:versionCode declared in the manifest",
+    "id": "8fbfdcd920043d60a937839f:63",
+    "legacy_id": 5906,
+    "metadata_status": "verified",
+    "name": "Change Version Code",
+    "options": [
+      {
+        "default": -1,
+        "description": "New version code. Use -1 (default) to keep the original.",
+        "key": "versionCode",
+        "required": false,
+        "title": "Version code",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Overrides the android:versionName declared in the manifest",
+    "id": "8fbfdcd920043d60a937839f:64",
+    "legacy_id": 5907,
+    "metadata_status": "verified",
+    "name": "Change Version Name",
+    "options": [
+      {
+        "default": "",
+        "description": "New version name (e.g. 2.5.1). Leave empty to keep the original.",
+        "key": "versionName",
+        "required": false,
+        "title": "Version name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Sets android:enableOnBackInvokedCallback to false so apps that break under the Android 13+ predictive back system keep the classic back behavior",
+    "id": "8fbfdcd920043d60a937839f:65",
+    "legacy_id": 5908,
+    "metadata_status": "verified",
+    "name": "Classic Back Gesture",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Removes split-install manifest attributes and Play Store split metadata from the app manifest.",
+    "id": "8fbfdcd920043d60a937839f:66",
+    "legacy_id": 5909,
+    "metadata_status": "verified",
+    "name": "Clearing Split Metadata",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Replaces the app accent color (buttons, switches, highlights) in every theme",
+    "id": "8fbfdcd920043d60a937839f:67",
+    "legacy_id": 5910,
+    "metadata_status": "verified",
+    "name": "Custom Accent Color",
+    "options": [
+      {
+        "default": "#FF6200EE",
+        "description": "Hex color for accents (e.g. #FF6200EE purple, #FF03DAC5 teal, #FFFF0000 red).",
+        "key": "customAccentColor",
+        "required": false,
+        "title": "Accent color",
+        "type": "kotlin.String",
+        "values": {
+          "Blue": "#FF2196F3",
+          "Green": "#FF4CAF50",
+          "Material Purple": "#FF6200EE",
+          "Red": "#FFF44336",
+          "Teal": "#FF03DAC5"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Change the app icon.",
+    "id": "8fbfdcd920043d60a937839f:68",
+    "legacy_id": 5911,
+    "metadata_status": "verified",
+    "name": "Custom App Icon",
+    "options": [
+      {
+        "default": "",
+        "description": "Image source: an http(s) URL, a local file path, or base64 (optionally prefixed with 'data:image/png;base64,'). Leave empty to use original icon with effects.",
+        "key": "customAppIconSource",
+        "required": false,
+        "title": "Icon source",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": 0,
+        "description": "Hue rotation in degrees (0 = none, 180 = complementary). Applied after other effects.",
+        "key": "iconHue",
+        "required": false,
+        "title": "Hue shift (0-360)",
+        "type": "kotlin.Int",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Invert colors (negative).",
+        "key": "iconNegative",
+        "required": false,
+        "title": "Negative (Invert)",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Apply sepia tone.",
+        "key": "iconSepia",
+        "required": false,
+        "title": "Sepia",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Mirror icon horizontally.",
+        "key": "iconFlipH",
+        "required": false,
+        "title": "Flip Horizontal",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Mirror icon vertically.",
+        "key": "iconFlipV",
+        "required": false,
+        "title": "Flip Vertical",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": "#00000000",
+        "description": "Background layer of the adaptive icon as #RRGGBB or #AARRGGBB (default transparent).",
+        "key": "iconBackground",
+        "required": false,
+        "title": "Background color",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [
+      "Custom App Resolution Manifest (internal)"
+    ],
+    "description": "Set a custom resolution for the game",
+    "id": "8fbfdcd920043d60a937839f:69",
+    "legacy_id": 5912,
+    "metadata_status": "verified",
+    "name": "Custom App Resolution (Experimental)",
+    "options": [
+      {
+        "default": false,
+        "description": "Override the game's window size with the width and height below",
+        "key": "enableCustomResolution",
+        "required": false,
+        "title": "Enable Custom Resolution",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": 1920,
+        "description": "Horizontal resolution in pixels",
+        "key": "width",
+        "required": false,
+        "title": "Resolution width (px)",
+        "type": "kotlin.Int",
+        "values": null
+      },
+      {
+        "default": 1080,
+        "description": "Vertical resolution in pixels",
+        "key": "height",
+        "required": false,
+        "title": "Resolution height (px)",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Sets a custom background color for the navigation bar in every theme",
+    "id": "8fbfdcd920043d60a937839f:70",
+    "legacy_id": 5913,
+    "metadata_status": "verified",
+    "name": "Custom Navigation Bar Color",
+    "options": [
+      {
+        "default": "#FF000000",
+        "description": "Hex color for the navigation bar background (e.g. #FF000000 black, #FFFFFFFF white).",
+        "key": "customNavigationBarColor",
+        "required": false,
+        "title": "Navigation bar color",
+        "type": "kotlin.String",
+        "values": {
+          "Black": "#FF000000",
+          "Dark Gray": "#FF212121",
+          "Transparent": "#00000000",
+          "White": "#FFFFFFFF"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [
+      "Resolve Real Application (internal)"
+    ],
+    "description": "Shows a customizable dialog once when the app is opened",
+    "id": "8fbfdcd920043d60a937839f:71",
+    "legacy_id": 5914,
+    "metadata_status": "verified",
+    "name": "Custom Startup Dialog",
+    "options": [
+      {
+        "default": "Patched App",
+        "description": "Title of the startup dialog.",
+        "key": "startupDialogTitle",
+        "required": false,
+        "title": "Dialog title",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "This app has been modified by Nai's Patches.",
+        "description": "Body text of the startup dialog.",
+        "key": "startupDialogMessage",
+        "required": false,
+        "title": "Dialog message",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Allow closing the dialog with the back button or outside taps.",
+        "key": "startupDialogCancelable",
+        "required": false,
+        "title": "Dismissable",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [
+      "Resolve Real Application (internal)",
+      "Startup Sound Asset (internal)"
+    ],
+    "description": "Plays a custom sound once when the app starts.",
+    "id": "8fbfdcd920043d60a937839f:72",
+    "legacy_id": 5915,
+    "metadata_status": "verified",
+    "name": "Custom Startup Sound",
+    "options": [
+      {
+        "default": "",
+        "description": "Audio source: an http(s) URL, a local file path, or base64 (optionally prefixed with 'data:audio/mp3;base64,'). Keep short (<1 MB).",
+        "key": "startupSoundSource",
+        "required": false,
+        "title": "Sound source",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": 100,
+        "description": "Playback volume 0-100.",
+        "key": "startupSoundVolume",
+        "required": false,
+        "title": "Volume (%)",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [
+      "Resolve Real Application (internal)"
+    ],
+    "description": "Shows a customizable toast message every time the app starts",
+    "id": "8fbfdcd920043d60a937839f:73",
+    "legacy_id": 5916,
+    "metadata_status": "verified",
+    "name": "Custom Startup Toast",
+    "options": [
+      {
+        "default": "Patched by Nai's Patches",
+        "description": "Text shown in the toast on every app start.",
+        "key": "startupToastMessage",
+        "required": false,
+        "title": "Toast message",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "long",
+        "description": "How long the toast stays visible.",
+        "key": "startupToastDuration",
+        "required": false,
+        "title": "Duration",
+        "type": "kotlin.String",
+        "values": {
+          "Long": "long",
+          "Short": "short"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Sets a custom background color for the status bar in every theme",
+    "id": "8fbfdcd920043d60a937839f:74",
+    "legacy_id": 5917,
+    "metadata_status": "verified",
+    "name": "Custom Status Bar Color",
+    "options": [
+      {
+        "default": "#FF000000",
+        "description": "Hex color for the status bar background (e.g. #FF000000 black, #FFFFFFFF white).",
+        "key": "customStatusBarColor",
+        "required": false,
+        "title": "Status bar color",
+        "type": "kotlin.String",
+        "values": {
+          "Black": "#FF000000",
+          "Dark Gray": "#FF212121",
+          "Transparent": "#00000000",
+          "White": "#FFFFFFFF"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Sets a custom window background color in every theme",
+    "id": "8fbfdcd920043d60a937839f:75",
+    "legacy_id": 5918,
+    "metadata_status": "verified",
+    "name": "Custom Window Background",
+    "options": [
+      {
+        "default": "#FF000000",
+        "description": "Hex color for the window background (e.g. #FF000000 black, #FFFFFFFF white).",
+        "key": "customWindowBackgroundColor",
+        "required": false,
+        "title": "Background color",
+        "type": "kotlin.String",
+        "values": {
+          "Black": "#FF000000",
+          "Dark Gray": "#FF121212",
+          "Light Gray": "#FFF5F5F5",
+          "White": "#FFFFFFFF"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Forces permission checks to report denied so the app cannot silently access permission-gated data",
+    "id": "8fbfdcd920043d60a937839f:76",
+    "legacy_id": 5919,
+    "metadata_status": "verified",
+    "name": "Deny Permission Checks",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "No-ops Activity.overridePendingTransition(...) so the app's custom activity enter/exit animations are skipped.",
+    "id": "8fbfdcd920043d60a937839f:77",
+    "legacy_id": 5920,
+    "metadata_status": "verified",
+    "name": "Disable Activity Transitions",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Stops ad SDKs from initializing at startup (no tracking, faster launch). Aggressive: apps gating content on init callbacks may hang. Do not combine with Ads Free Rewards, which needs live SDKs.",
+    "id": "8fbfdcd920043d60a937839f:78",
+    "legacy_id": 5921,
+    "metadata_status": "verified",
+    "name": "Disable Ad SDK Init",
+    "options": [
+      {
+        "default": false,
+        "description": "Kill MobileAds.initialize.",
+        "key": "killAdMob",
+        "required": false,
+        "title": "AdMob",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Kill AppLovinSdk.initializeSdk.",
+        "key": "killMax",
+        "required": false,
+        "title": "MAX",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Kill UnityAds.initialize.",
+        "key": "killUnityAds",
+        "required": false,
+        "title": "Unity Ads",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Kill IronSource.init.",
+        "key": "killIronSource",
+        "required": false,
+        "title": "ironSource",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Kill TTAdSdk.init.",
+        "key": "killPangle",
+        "required": false,
+        "title": "Pangle",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Kill AudienceNetworkAds.initialize.",
+        "key": "killMeta",
+        "required": false,
+        "title": "Meta",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Kill Vungle init (new + legacy API).",
+        "key": "killVungle",
+        "required": false,
+        "title": "Vungle",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Kill HwAds.init.",
+        "key": "killHuawei",
+        "required": false,
+        "title": "Huawei Ads",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Kill Yandex MobileAds.initialize.",
+        "key": "killYandex",
+        "required": false,
+        "title": "Yandex",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Kill MyTarget, StartApp, Chartboost, InMobi and Mintegral init.",
+        "key": "killOthers",
+        "required": false,
+        "title": "Other networks",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Blocks app tracking and analytics.",
+    "id": "8fbfdcd920043d60a937839f:79",
+    "legacy_id": 5922,
+    "metadata_status": "verified",
+    "name": "Disable Analytics Events",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Forces Settings.Global window/transition/animator scale values to 0 so the app runs without UI animations (faster, less motion).",
+    "id": "8fbfdcd920043d60a937839f:80",
+    "legacy_id": 5923,
+    "metadata_status": "verified",
+    "name": "Disable Animations",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Prevents the app from backing up its data.",
+    "id": "8fbfdcd920043d60a937839f:81",
+    "legacy_id": 5924,
+    "metadata_status": "verified",
+    "name": "Disable App Backup",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  },
+  {
+    "bundle_id": "8fbfdcd920043d60a937839f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Removes android:autoVerify from intent filters so Android stops prompting to verify the app's web domains and never converts links into app opens",
+    "id": "8fbfdcd920043d60a937839f:82",
+    "legacy_id": 5925,
+    "metadata_status": "verified",
+    "name": "Disable App Links Verification",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.0",
+    "source_id": "417d4af4a2b15ae1",
+    "use": false
+  }
+]
