@@ -1,0 +1,44 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-06-19T03:52:52Z",
+  "description": "## [1.1.0](https://github.com/bdgerszewski/morphe-patches-ihealth/compare/v1.0.1...v1.1.0) (2026-06-19)\n\n### ✨ New Features\n\n* Unlock MultiTimer Pro ([0cc25bb](https://github.com/bdgerszewski/morphe-patches-ihealth/commit/0cc25bbe11cbe6c03bdc80a4858bc09964af81a7))\n",
+  "download_url": "https://github.com/bdgerszewski/morphe-patches-ihealth/releases/download/v1.1.0/patches-1.1.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:80d335abd221b5daea83f1c24f038583f23cb3aa95df86acaccafb1f25310e31",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "80d335abd221b5daea83f1c24f038583f23cb3aa95df86acaccafb1f25310e31",
+  "id": "4435554e491121acf087d20e",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fbdgerszewski%2Fmorphe-patches-ihealth&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fbdgerszewski%2Fmorphe-patches-ihealth&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 152,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.ihealthlabs.MyVitalsPro",
+    "com.persapps.multitimer"
+  ],
+  "patch_count": 6,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.1.0",
+  "patch_refresh_attempted_at": "2026-10-10T15:19:02.647334960Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:80d335abd221b5daea83f1c24f038583f23cb3aa95df86acaccafb1f25310e31",
+  "release_status": "unverified",
+  "release_url": "https://github.com/bdgerszewski/morphe-patches-ihealth/releases/tag/v1.1.0",
+  "signature_download_url": null,
+  "source_id": "62b1a663a6515e63",
+  "version": "v1.1.0"
+}
