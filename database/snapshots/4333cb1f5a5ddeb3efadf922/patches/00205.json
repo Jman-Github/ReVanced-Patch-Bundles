@@ -1,0 +1,2208 @@
+[
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Disables 'Seen' receipts in Direct Messages, hides story viewed tracking, silences live stream join broadcasts, and hides DM typing indicator.",
+    "id": "6a67cc9fb1417070cbc848a5:234",
+    "legacy_id": 20920,
+    "metadata_status": "verified",
+    "name": "Ghost Privacy Mode: Anonymous DMs & Stories - Instagram (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Redirects Google Play Services (GMS) dependencies to GmsCore / MicroG (app.revanced.android.gms / org.microg.gms.core), enabling Google account login and push notifications on non-rooted devices for morphed Google and third-party apps.",
+    "id": "6a67cc9fb1417070cbc848a5:235",
+    "legacy_id": 20921,
+    "metadata_status": "verified",
+    "name": "GmsCore (MicroG) Support (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": false
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Redirects Google Play Services and account authentication calls to GmsCore (MicroG / app.revanced.android.gms) to allow logging in to YouTube without root.",
+    "id": "6a67cc9fb1417070cbc848a5:236",
+    "legacy_id": 20922,
+    "metadata_status": "verified",
+    "name": "GmsCore Support - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds options to hide ads.",
+    "id": "6a67cc9fb1417070cbc848a5:237",
+    "legacy_id": 20923,
+    "metadata_status": "verified",
+    "name": "Hide ads - Reddit (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds options to hide general ads, Premium promotions and video ads.",
+    "id": "6a67cc9fb1417070cbc848a5:238",
+    "legacy_id": 20924,
+    "metadata_status": "verified",
+    "name": "Hide ads - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to hide Ask button in the search bar.",
+    "id": "6a67cc9fb1417070cbc848a5:239",
+    "legacy_id": 20925,
+    "metadata_status": "verified",
+    "name": "Hide Ask button - Reddit (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to hide the autoplay preview at the end of videos.",
+    "id": "6a67cc9fb1417070cbc848a5:240",
+    "legacy_id": 20926,
+    "metadata_status": "verified",
+    "name": "Hide autoplay preview - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to hide the related or suggested communities shelf in subreddits.",
+    "id": "6a67cc9fb1417070cbc848a5:241",
+    "legacy_id": 20927,
+    "metadata_status": "verified",
+    "name": "Hide communities shelf - Reddit (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to hide suggested video cards at the end of videos.",
+    "id": "6a67cc9fb1417070cbc848a5:242",
+    "legacy_id": 20928,
+    "metadata_status": "verified",
+    "name": "Hide end screen cards - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to hide the suggested video at the end of videos.",
+    "id": "6a67cc9fb1417070cbc848a5:243",
+    "legacy_id": 20929,
+    "metadata_status": "verified",
+    "name": "Hide end screen suggested video - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Hides floating endscreen cards, suggested video boxes, channel stickers, and overlay elements that clutter the end of videos.",
+    "id": "6a67cc9fb1417070cbc848a5:244",
+    "legacy_id": 20930,
+    "metadata_status": "verified",
+    "name": "Hide Endscreen Cards & Suggestions - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Enhances application behavior and unlocks additional user controls.",
+    "id": "6a67cc9fb1417070cbc848a5:245",
+    "legacy_id": 20931,
+    "metadata_status": "verified",
+    "name": "Hide group creation button on sharesheet - Instagram (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to hide info cards that creators add in the video player.",
+    "id": "6a67cc9fb1417070cbc848a5:246",
+    "legacy_id": 20932,
+    "metadata_status": "verified",
+    "name": "Hide info cards - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds options to hide general layout components.",
+    "id": "6a67cc9fb1417070cbc848a5:247",
+    "legacy_id": 20933,
+    "metadata_status": "verified",
+    "name": "Hide layout components - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Hides navigation bar buttons, such as the Reels and Create button.",
+    "id": "6a67cc9fb1417070cbc848a5:248",
+    "legacy_id": 20934,
+    "metadata_status": "verified",
+    "name": "Hide navigation buttons - Instagram (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds options to hide buttons in the navigation bar.",
+    "id": "6a67cc9fb1417070cbc848a5:249",
+    "legacy_id": 20935,
+    "metadata_status": "verified",
+    "name": "Hide navigation buttons - Reddit (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Hides notes tray in DM section",
+    "id": "6a67cc9fb1417070cbc848a5:250",
+    "legacy_id": 20936,
+    "metadata_status": "verified",
+    "name": "Hide notes tray - Instagram (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds options to hide menu components that appear when pressing the gear icon in the video player.",
+    "id": "6a67cc9fb1417070cbc848a5:251",
+    "legacy_id": 20937,
+    "metadata_status": "verified",
+    "name": "Hide player flyout menu components - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Hides unwanted player overlay buttons including Chromecast icon (prevents accidental casting), Autoplay toggle, Remix button, and Thanks button.",
+    "id": "6a67cc9fb1417070cbc848a5:252",
+    "legacy_id": 20938,
+    "metadata_status": "verified",
+    "name": "Hide Player Overlay Buttons (Cast, Autoplay, Remix) - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds options to hide the player Cast, Autoplay, Captions, Previous & Next buttons, and to hide or change the opacity of the player control buttons background.",
+    "id": "6a67cc9fb1417070cbc848a5:253",
+    "legacy_id": 20939,
+    "metadata_status": "verified",
+    "name": "Hide player overlay buttons - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting",
+    "id": "6a67cc9fb1417070cbc848a5:254",
+    "legacy_id": 20940,
+    "metadata_status": "verified",
+    "name": "Hide Reddit search - Reddit (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to hide the related video overlay shown when swiping up in fullscreen.",
+    "id": "6a67cc9fb1417070cbc848a5:255",
+    "legacy_id": 20941,
+    "metadata_status": "verified",
+    "name": "Hide related video overlay - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds options to hide related videos.",
+    "id": "6a67cc9fb1417070cbc848a5:256",
+    "legacy_id": 20942,
+    "metadata_status": "verified",
+    "name": "Hide related videos - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Hides the reshare button from both posts and reels.",
+    "id": "6a67cc9fb1417070cbc848a5:257",
+    "legacy_id": 20943,
+    "metadata_status": "verified",
+    "name": "Hide reshare button - Instagram (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds options to hide components related to Shorts.",
+    "id": "6a67cc9fb1417070cbc848a5:258",
+    "legacy_id": 20944,
+    "metadata_status": "verified",
+    "name": "Hide Shorts components - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds options to hide the sidebar components.",
+    "id": "6a67cc9fb1417070cbc848a5:259",
+    "legacy_id": 20945,
+    "metadata_status": "verified",
+    "name": "Hide sidebar components - Reddit (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to hide the system status bar. Swipe down from the top edge to show it for a moment.",
+    "id": "6a67cc9fb1417070cbc848a5:260",
+    "legacy_id": 20946,
+    "metadata_status": "verified",
+    "name": "Hide status bar - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Hides stories tray from main feed.",
+    "id": "6a67cc9fb1417070cbc848a5:261",
+    "legacy_id": 20947,
+    "metadata_status": "verified",
+    "name": "Hide stories tray - Instagram (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Hides suggested stories, reels, threads (Suggested posts will still be shown).",
+    "id": "6a67cc9fb1417070cbc848a5:262",
+    "legacy_id": 20948,
+    "metadata_status": "verified",
+    "name": "Hide suggested content - Instagram (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to hide the timestamp in the bottom left of the video player.",
+    "id": "6a67cc9fb1417070cbc848a5:263",
+    "legacy_id": 20949,
+    "metadata_status": "verified",
+    "name": "Hide timestamp - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to hide the Trending shelves from feed and search suggestions.",
+    "id": "6a67cc9fb1417070cbc848a5:264",
+    "legacy_id": 20950,
+    "metadata_status": "verified",
+    "name": "Hide Trending shelves - Reddit (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds options to hide video action buttons in fullscreen and portrait modes.",
+    "id": "6a67cc9fb1417070cbc848a5:265",
+    "legacy_id": 20951,
+    "metadata_status": "verified",
+    "name": "Hide video action buttons - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "ai.moises": [
+        "2.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bypasses client-side audio bitrate export caps (enabling 320kbps MP3 and WAV export options) and unlocks unlimited audio pitch shift, tempo changes, Smart Metronome, and chord detection in Moises (v2.7.2 recommandée).",
+    "id": "6a67cc9fb1417070cbc848a5:266",
+    "legacy_id": 20952,
+    "metadata_status": "verified",
+    "name": "High Quality Audio Export & Audio Tools - Moises",
+    "options": [],
+    "packages": [
+      {
+        "name": "ai.moises",
+        "versions": [
+          "2.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Fetches max resolution images from server.",
+    "id": "6a67cc9fb1417070cbc848a5:267",
+    "legacy_id": 20953,
+    "metadata_status": "verified",
+    "name": "Improve image viewing - Instagram (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.nekki.vector2": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Prevents armor kit battery and shield depletion in Vector 2, keeping protective shields active against lasers, floor mines, and electric hazards. (Experimental - Not yet tested on device).",
+    "id": "6a67cc9fb1417070cbc848a5:268",
+    "legacy_id": 20954,
+    "metadata_status": "verified",
+    "name": "Infinite Battery & Shields - Vector 2 (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.nekki.vector2",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.fgol.HungrySharkEvolution": null,
+      "com.ubisoft.hungrysharkworld": [
+        "8.1.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Disables boost meter depletion in Hungry Shark World and Hungry Shark Evolution, granting unlimited turbo swimming and continuous dash attacks without waiting for recharge. (Experimental - Not yet tested on device).",
+    "id": "6a67cc9fb1417070cbc848a5:269",
+    "legacy_id": 20955,
+    "metadata_status": "verified",
+    "name": "Infinite Boost - Hungry Shark (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.fgol.HungrySharkEvolution",
+        "versions": []
+      },
+      {
+        "name": "com.ubisoft.hungrysharkworld",
+        "versions": [
+          "8.1.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.nekki.shadowfight.shades": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Prevents energy consumption when entering shadow rifts and acts in Shades: Shadow Fight Roguelike. (Experimental - Not yet tested on device).",
+    "id": "6a67cc9fb1417070cbc848a5:270",
+    "legacy_id": 20956,
+    "metadata_status": "verified",
+    "name": "Infinite Energy - Shades Roguelike (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.nekki.shadowfight.shades",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.nekki.shadowfight": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Removes the 5-point energy cap in Shadow Fight 2, preventing stamina depletion so you can play unlimited duels, tournaments, and boss fights without waiting. (Experimental - Not yet tested on device).",
+    "id": "6a67cc9fb1417070cbc848a5:271",
+    "legacy_id": 20957,
+    "metadata_status": "verified",
+    "name": "Infinite Energy - Shadow Fight 2 (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.nekki.shadowfight",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.fingersoft.hillclimb": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Prevents fuel gauge depletion in Hill Climb Racing, allowing endless hill climbing and stunt driving without engine stall.",
+    "id": "6a67cc9fb1417070cbc848a5:272",
+    "legacy_id": 20958,
+    "metadata_status": "verified",
+    "name": "Infinite Fuel - Hill Climb Racing (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.fingersoft.hillclimb",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.vectorunit.cobalt.googleplay": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Prevents race ticket depletion in Beach Buggy Racing, allowing unlimited participation in Career events and Championships without waiting for ticket recharge. (Experimental - Not yet tested on device).",
+    "id": "6a67cc9fb1417070cbc848a5:273",
+    "legacy_id": 20959,
+    "metadata_status": "verified",
+    "name": "Infinite Race Tickets - Beach Buggy Racing (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.vectorunit.cobalt.googleplay",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.halfbrick.jetpackjoyride": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Keeps Barry's vehicle and gadget shields permanently active in Jetpack Joyride, preventing destruction upon contact with zappers, missiles, and laser fields.",
+    "id": "6a67cc9fb1417070cbc848a5:274",
+    "legacy_id": 20960,
+    "metadata_status": "verified",
+    "name": "Infinite Vehicle Shield - Jetpack Joyride (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.halfbrick.jetpackjoyride",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.noodlecake.altosadventure": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Provides unlimited wingsuit flight duration and keeps the scarf at maximum length without requiring endless trick combos in Alto's Adventure.",
+    "id": "6a67cc9fb1417070cbc848a5:275",
+    "legacy_id": 20961,
+    "metadata_status": "verified",
+    "name": "Infinite Wingsuit & Long Scarf - Alto's Adventure (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.noodlecake.altosadventure",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.vectorunit.cobalt.googleplay": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Eliminates vehicle tuning delivery and upgrade wait timers in Beach Buggy Racing for immediate horsepower, acceleration, and handling boosts. (Experimental - Not yet tested on device).",
+    "id": "6a67cc9fb1417070cbc848a5:276",
+    "legacy_id": 20962,
+    "metadata_status": "verified",
+    "name": "Instant Car Upgrades - Beach Buggy Racing (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.vectorunit.cobalt.googleplay",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.nekki.shadowfight3": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Eliminates the 3-hour, 8-hour, and 24-hour countdown timers on duel chests in Shadow Fight 3 for instant opening and card collection. (Experimental - Not yet tested on device).",
+    "id": "6a67cc9fb1417070cbc848a5:277",
+    "legacy_id": 20963,
+    "metadata_status": "verified",
+    "name": "Instant Chest Unlock - Shadow Fight 3 (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.nekki.shadowfight3",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.nekki.shadowfight": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Removes the real-time delivery wait timers when upgrading weapons, armor, and helmets at the Forge/Blacksmith in Shadow Fight 2. (Experimental - Not yet tested on device).",
+    "id": "6a67cc9fb1417070cbc848a5:278",
+    "legacy_id": 20964,
+    "metadata_status": "verified",
+    "name": "Instant Equipment Delivery - Shadow Fight 2 (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.nekki.shadowfight",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.openai.chatgpt": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Keeps the screen illuminated and active while ChatGPT is streaming responses and code snippets, preventing device sleep during long answers.",
+    "id": "6a67cc9fb1417070cbc848a5:279",
+    "legacy_id": 20965,
+    "metadata_status": "verified",
+    "name": "Keep Screen On During Generation - ChatGPT (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.openai.chatgpt",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Filters the home feed to display only content from profiles you follow.",
+    "id": "6a67cc9fb1417070cbc848a5:280",
+    "legacy_id": 20966,
+    "metadata_status": "verified",
+    "name": "Limit feed to following profiles - Instagram (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Replay the current story when it ends",
+    "id": "6a67cc9fb1417070cbc848a5:281",
+    "legacy_id": 20967,
+    "metadata_status": "verified",
+    "name": "Loop story - Instagram (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to loop videos and display loop video button in the video player.",
+    "id": "6a67cc9fb1417070cbc848a5:282",
+    "legacy_id": 20968,
+    "metadata_status": "verified",
+    "name": "Loop video - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Changes unexpired view once, view twice media to permanent view.",
+    "id": "6a67cc9fb1417070cbc848a5:283",
+    "legacy_id": 20969,
+    "metadata_status": "verified",
+    "name": "Make ephemeral media permanent - Instagram (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds option to mark a thread aka message as read manually",
+    "id": "6a67cc9fb1417070cbc848a5:284",
+    "legacy_id": 20970,
+    "metadata_status": "verified",
+    "name": "Mark chat as read manually - Instagram (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.ea.game.pvzfree_row": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Eliminates plant packet cooldown timers for instant replanting and accelerates sun drops across Plants vs. Zombies levels.",
+    "id": "6a67cc9fb1417070cbc848a5:285",
+    "legacy_id": 20971,
+    "metadata_status": "verified",
+    "name": "Max Sun & Instant Seed Recharge - Plants vs. Zombies (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ea.game.pvzfree_row",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Enables downloading original high-resolution photos, reels, stories, and voice messages without watermarks, and bypasses image/video compression downscalers on upload.",
+    "id": "6a67cc9fb1417070cbc848a5:286",
+    "legacy_id": 20972,
+    "metadata_status": "verified",
+    "name": "Media Downloader & Uncompressed Media Upload - Instagram (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds options to disable the seekbar and previous/next buttons in the media notification and headphone controls.",
+    "id": "6a67cc9fb1417070cbc848a5:287",
+    "legacy_id": 20973,
+    "metadata_status": "verified",
+    "name": "Media notification controls - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds options to change the in-app minimized player. Patching 21.28.206 and lower has more miniplayer types to choose from.",
+    "id": "6a67cc9fb1417070cbc848a5:288",
+    "legacy_id": 20974,
+    "metadata_status": "verified",
+    "name": "Miniplayer - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an overflow menu button to get more options on post/reels, like copy description, copy username etc",
+    "id": "6a67cc9fb1417070cbc848a5:289",
+    "legacy_id": 20975,
+    "metadata_status": "verified",
+    "name": "More options on post - Instagram (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds a new button to handle user related data like copy handle, download profile picture etc",
+    "id": "6a67cc9fb1417070cbc848a5:290",
+    "legacy_id": 20976,
+    "metadata_status": "verified",
+    "name": "More options on profile - Instagram (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to show a player button that mutes the video audio.",
+    "id": "6a67cc9fb1417070cbc848a5:291",
+    "legacy_id": 20977,
+    "metadata_status": "verified",
+    "name": "Mute button - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds options to hide and change the bottom navigation bar (such as the Shorts button) and the upper navigation toolbar.",
+    "id": "6a67cc9fb1417070cbc848a5:292",
+    "legacy_id": 20978,
+    "metadata_status": "verified",
+    "name": "Navigation bar - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.apps.maps": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Forces persistent speed camera & radar audio alerts, prevents high-speed auto-zoom out to keep your chosen map view, and keeps the screen awake during route guidance.",
+    "id": "6a67cc9fb1417070cbc848a5:293",
+    "legacy_id": 20979,
+    "metadata_status": "verified",
+    "name": "Navigation Supercharged: Speed Cameras & Auto-Zoom Lock - Google Maps (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.maps",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds settings to route supported network requests through an HTTP or HTTPS proxy. Including this patch may cause connectivity problems on certain devices",
+    "id": "6a67cc9fb1417070cbc848a5:294",
+    "legacy_id": 20980,
+    "metadata_status": "verified",
+    "name": "Network proxy - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Restores the classic direct video resolution menu (2160p, 1440p, 1080p, 720p, 480p), bypassing Google's simplified and confusing 'Higher picture quality / Data saver' sub-menus.",
+    "id": "6a67cc9fb1417070cbc848a5:295",
+    "legacy_id": 20981,
+    "metadata_status": "verified",
+    "name": "Old Video Quality Menu - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to prevent a channel's current live video from opening when tapping its avatar.",
+    "id": "6a67cc9fb1417070cbc848a5:296",
+    "legacy_id": 20982,
+    "metadata_status": "verified",
+    "name": "Open channel of live avatar - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to skip over redirection URLs in external links.",
+    "id": "6a67cc9fb1417070cbc848a5:297",
+    "legacy_id": 20983,
+    "metadata_status": "verified",
+    "name": "Open links directly - Reddit (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Changes links to always open in your external browser, instead of the in-app browser.",
+    "id": "6a67cc9fb1417070cbc848a5:298",
+    "legacy_id": 20984,
+    "metadata_status": "verified",
+    "name": "Open links externally - Instagram (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to always open links in your browser instead of with the in-app-browser.",
+    "id": "6a67cc9fb1417070cbc848a5:299",
+    "legacy_id": 20985,
+    "metadata_status": "verified",
+    "name": "Open links externally - Reddit (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to always open links in your browser instead of with the in-app browser.",
+    "id": "6a67cc9fb1417070cbc848a5:300",
+    "legacy_id": 20986,
+    "metadata_status": "verified",
+    "name": "Open links externally - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.infomaniak.euria": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Opens reference citations and external links directly in the system's default browser rather than an embedded webview.",
+    "id": "6a67cc9fb1417070cbc848a5:301",
+    "legacy_id": 20987,
+    "metadata_status": "verified",
+    "name": "Open Links in External Browser - Euria AI (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.infomaniak.euria",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds options to open Shorts in the regular video player.",
+    "id": "6a67cc9fb1417070cbc848a5:302",
+    "legacy_id": 20988,
+    "metadata_status": "verified",
+    "name": "Open Shorts in regular player - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to always open the system share sheet instead of the in-app share sheet.",
+    "id": "6a67cc9fb1417070cbc848a5:303",
+    "legacy_id": 20989,
+    "metadata_status": "verified",
+    "name": "Open system share sheet - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds options to automatically open videos in fullscreen portrait or landscape mode.",
+    "id": "6a67cc9fb1417070cbc848a5:304",
+    "legacy_id": 20990,
+    "metadata_status": "verified",
+    "name": "Open videos fullscreen - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Overrides YouTube Music buttons to open Morphe Music or any compatible third-party client.",
+    "id": "6a67cc9fb1417070cbc848a5:305",
+    "legacy_id": 20991,
+    "metadata_status": "verified",
+    "name": "Override YouTube Music buttons - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.alltrails.alltrails": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks 3D topographic trail elevation rendering, satellite weather overlays, and forces persistent wrong-turn audio alerts when straying off the trail.",
+    "id": "6a67cc9fb1417070cbc848a5:306",
+    "legacy_id": 20992,
+    "metadata_status": "verified",
+    "name": "Persistent Off-Route Audio Alerts & 3D Maps - AllTrails (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.alltrails.alltrails",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to display a picture-in-picture button in the video player.",
+    "id": "6a67cc9fb1417070cbc848a5:307",
+    "legacy_id": 20993,
+    "metadata_status": "verified",
+    "name": "Picture-in-picture button - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.apps.photos": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Spoofs the device model as an original Google Pixel to activate unlimited original-quality photo and video cloud storage backup in Google Photos.",
+    "id": "6a67cc9fb1417070cbc848a5:308",
+    "legacy_id": 20994,
+    "metadata_status": "verified",
+    "name": "Pixel Spoof for Unlimited Backup - Google Photos (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.photos",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to play all the videos from a channel and to display play all button in the video player.",
+    "id": "6a67cc9fb1417070cbc848a5:309",
+    "legacy_id": 20995,
+    "metadata_status": "verified",
+    "name": "Play all - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to change the video playback buffer size.",
+    "id": "6a67cc9fb1417070cbc848a5:310",
+    "legacy_id": 20996,
+    "metadata_status": "verified",
+    "name": "Playback buffer - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds the 'Playback in feeds' setting of YouTube to the Morphe settings, where it is always available even if YouTube hides it.",
+    "id": "6a67cc9fb1417070cbc848a5:311",
+    "legacy_id": 20997,
+    "metadata_status": "verified",
+    "name": "Playback in feeds - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds options to customize available playback speeds, set a default playback speed, and show a speed dialog button in the video player.",
+    "id": "6a67cc9fb1417070cbc848a5:312",
+    "legacy_id": 20998,
+    "metadata_status": "verified",
+    "name": "Playback speed - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to change the style of the player button icons.",
+    "id": "6a67cc9fb1417070cbc848a5:313",
+    "legacy_id": 20999,
+    "metadata_status": "verified",
+    "name": "Player icon style - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds option to get PoToken using an external PoToken minter app.",
+    "id": "6a67cc9fb1417070cbc848a5:314",
+    "legacy_id": 21000,
+    "metadata_status": "verified",
+    "name": "PoToken provider - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.robtopx.geometryjump": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Plays the real level soundtrack instead of the default repetitive practice loop song when playing in Practice Mode.",
+    "id": "6a67cc9fb1417070cbc848a5:315",
+    "legacy_id": 21001,
+    "metadata_status": "verified",
+    "name": "Practice Music Hack & Bypass - Geometry Dash (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.robtopx.geometryjump",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "org.zwanoo.android.speedtest": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for Speedtest VPN Premium (unlimited bandwidth indicators and server location selection).",
+    "id": "6a67cc9fb1417070cbc848a5:316",
+    "legacy_id": 21002,
+    "metadata_status": "verified",
+    "name": "Premium VPN & Unlimited Data - Speedtest by Ookla (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.zwanoo.android.speedtest",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Injects pure pitch-black (#000000) for OLED displays across main feed, reels, direct messages, stories bar, and profile in Instagram.",
+    "id": "6a67cc9fb1417070cbc848a5:317",
+    "legacy_id": 21003,
+    "metadata_status": "verified",
+    "name": "Pure AMOLED Black Theme - Instagram (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Injects pure pitch-black (#000000) for OLED screens across feeds, post viewer, comments, and drawer in Reddit.",
+    "id": "6a67cc9fb1417070cbc848a5:318",
+    "legacy_id": 21004,
+    "metadata_status": "verified",
+    "name": "Pure AMOLED Black Theme - Reddit (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Injects pure pitch-black (#000000) into YouTube player controls, navigation bars, comments bottom sheets, and panels for AMOLED battery saving.",
+    "id": "6a67cc9fb1417070cbc848a5:319",
+    "legacy_id": 21005,
+    "metadata_status": "verified",
+    "name": "Pure AMOLED Black Theme - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "org.videolan.vlc": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Forces a pitch-black AMOLED dark theme, hides tips and audio/video discovery clutter across the VLC player UI.",
+    "id": "6a67cc9fb1417070cbc848a5:320",
+    "legacy_id": 21006,
+    "metadata_status": "verified",
+    "name": "Pure AMOLED Dark Theme & Declutter - VLC (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.videolan.vlc",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "org.mozilla.firefox": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Forces a true pitch-black (#000000) AMOLED dark theme across the browser UI, new tab homepage, toolbar, and reader mode.",
+    "id": "6a67cc9fb1417070cbc848a5:321",
+    "legacy_id": 21007,
+    "metadata_status": "verified",
+    "name": "Pure AMOLED Dark Theme - Firefox (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.mozilla.firefox",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Developer flags suggested by the community",
+    "id": "6a67cc9fb1417070cbc848a5:322",
+    "legacy_id": 21008,
+    "metadata_status": "verified",
+    "name": "Recommended flags - Instagram (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Forces the interactive seekbar / progress bar to always display on Reels, allowing users to freely scrub, fast-forward, and rewind any Instagram Reel without waiting for it to loop.",
+    "id": "6a67cc9fb1417070cbc848a5:323",
+    "legacy_id": 21009,
+    "metadata_status": "verified",
+    "name": "Reels Seekbar & Fast-Forward Scrubbing - Instagram (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to display reload video button in the video player.",
+    "id": "6a67cc9fb1417070cbc848a5:324",
+    "legacy_id": 21010,
+    "metadata_status": "verified",
+    "name": "Reload video - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to remember the playback position of an ongoing live stream and resume from there when reopening that live stream.",
+    "id": "6a67cc9fb1417070cbc848a5:325",
+    "legacy_id": 21011,
+    "metadata_status": "verified",
+    "name": "Remember live stream playback position - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Forces and locks preferred default video resolution (such as 1080p, 1440p, or 4K) separately for Wi-Fi and mobile cellular networks, overriding YouTube's adaptive downscaling.",
+    "id": "6a67cc9fb1417070cbc848a5:326",
+    "legacy_id": 21012,
+    "metadata_status": "verified",
+    "name": "Remember Video Quality - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Removes restrictions on background playback, including playing kids videos in the background.",
+    "id": "6a67cc9fb1417070cbc848a5:327",
+    "legacy_id": 21013,
+    "metadata_status": "verified",
+    "name": "Remove background playback restrictions - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Removes the popup that appears after a while, when the app version ages.",
+    "id": "6a67cc9fb1417070cbc848a5:328",
+    "legacy_id": 21014,
+    "metadata_status": "verified",
+    "name": "Remove build expired popup - Instagram (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Removes empty space below bottom navigation bar",
+    "id": "6a67cc9fb1417070cbc848a5:329",
+    "legacy_id": 21015,
+    "metadata_status": "verified",
+    "name": "Remove empty bottom space - Instagram (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically.",
+    "id": "6a67cc9fb1417070cbc848a5:330",
+    "legacy_id": 21016,
+    "metadata_status": "verified",
+    "name": "Remove subreddit dialog - Reddit (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.",
+    "id": "6a67cc9fb1417070cbc848a5:331",
+    "legacy_id": 21017,
+    "metadata_status": "verified",
+    "name": "Remove viewer discretion dialog - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.canva.editor": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Bypasses watermark rendering on Canva freemium design elements, stock photos, and templates, allowing clean export of designs without Pro subscription watermarks.",
+    "id": "6a67cc9fb1417070cbc848a5:332",
+    "legacy_id": 21018,
+    "metadata_status": "verified",
+    "name": "Remove Watermarks on Free Elements - Canva (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.canva.editor",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "6a67cc9fb1417070cbc848a5",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to show the original video titles, video descriptions and channel descriptions instead of the auto-translated ones.",
+    "id": "6a67cc9fb1417070cbc848a5:333",
+    "legacy_id": 21019,
+    "metadata_status": "verified",
+    "name": "Restore original titles - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.48.10",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "bundle_type": "ReVanced:V4",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-10-04T05:06:04Z",
+  "description": "# 1.0.0 (2026-10-04)\n\n\n### Features\n\n* Disable ads and force Facebook web login patches ([e07c3f4](https://github.com/freethekitties/freethekitties/commit/e07c3f4fc450fbe370a0f73ccb3160e87e54488b))\n\n\n\n",
+  "download_url": "https://github.com/freethekitties/freethekitties/releases/download/v1.0.0/patches-1.0.0.rvp",
+  "ecosystem": "revanced",
+  "extracted_provider_digest": "sha256:7f8c360c9c77acf49b448af7f089a4a44d4574437b57fe2caeb204d3834b3766",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "7f8c360c9c77acf49b448af7f089a4a44d4574437b57fe2caeb204d3834b3766",
+  "id": "7e5100bec52817c75012891e",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Ffreethekitties%2Ffreethekitties&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Ffreethekitties%2Ffreethekitties&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 294,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.oakever.meowdoku"
+  ],
+  "patch_count": 2,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.0.0",
+  "patch_refresh_attempted_at": "2026-10-10T17:36:59.098107058Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.revanced:patcher-jvm:22.1.0-dev.1",
+  "provider_digest": "sha256:7f8c360c9c77acf49b448af7f089a4a44d4574437b57fe2caeb204d3834b3766",
+  "release_status": "available",
+  "release_url": "https://github.com/freethekitties/freethekitties/releases/tag/v1.0.0",
+  "signature_download_url": "https://github.com/freethekitties/freethekitties/releases/download/v1.0.0/patches-1.0.0.rvp.asc",
+  "source_id": "0eb9fd9eb578e2ec",
+  "version": "v1.0.0"
+}

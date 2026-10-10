@@ -1,0 +1,43 @@
+{
+  "bundle_type": "ReVanced:V4",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2025-01-06T02:22:53Z",
+  "description": "Added chalo package name for better support\r\n\r\n**Full Changelog**: https://github.com/forsyth47/revanced-patches/compare/v5.8.1...v5.8.2",
+  "download_url": "https://github.com/forsyth47/revanced-patches/releases/download/v5.8.2/patches-5.8.2.rvp",
+  "ecosystem": "revanced",
+  "extracted_provider_digest": null,
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "f4c6c2fdcfe45e1db895cdcc6236c4643eb9f587c92302179372e64c386172e5",
+  "id": "b943abb299cbdcbdcf9d9f78",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fforsyth47%2Frevanced-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fforsyth47%2Frevanced-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 443,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "app.zophop"
+  ],
+  "patch_count": 4,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v5.8.2",
+  "patch_refresh_attempted_at": "2026-10-10T17:36:55.558718049Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.revanced:revanced-patcher:21.1.0-dev.5",
+  "provider_digest": null,
+  "release_status": "available",
+  "release_url": "https://github.com/forsyth47/revanced-patches/releases/tag/v5.8.2",
+  "signature_download_url": "N/A",
+  "source_id": "0c87ac4fae004831",
+  "version": "v5.8.2"
+}
