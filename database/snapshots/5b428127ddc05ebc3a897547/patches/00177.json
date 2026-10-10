@@ -1,0 +1,2898 @@
+[
+  {
+    "bundle_id": "b6337070764e1de9231a355a",
+    "compatiblePackages": {
+      "com.zing.zalo": [
+        "26.08.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the name shown for Zalo under the launcher icon. Set the desired name in the patch options.",
+    "id": "b6337070764e1de9231a355a:3",
+    "legacy_id": 18120,
+    "metadata_status": "verified",
+    "name": "Change Zalo app name",
+    "options": [
+      {
+        "default": "Zalo Morphe",
+        "description": "The name shown under the app icon.",
+        "key": "appName",
+        "required": true,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.zing.zalo",
+        "versions": [
+          "26.08.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.3",
+    "source_id": "3308b75f160289de",
+    "use": false
+  },
+  {
+    "bundle_id": "b6337070764e1de9231a355a",
+    "compatiblePackages": {
+      "com.zing.zalo": [
+        "26.08.01"
+      ]
+    },
+    "dependencies": [
+      "Change Zalo package name resources"
+    ],
+    "description": "Changes Zalo's package name so a clone can be installed beside stock Zalo, including package-owned provider references used after login. WARNING: package- and certificate-bound login, push, sharing, deep links, and backup may not work with the renamed application.",
+    "id": "b6337070764e1de9231a355a:4",
+    "legacy_id": 18121,
+    "metadata_status": "verified",
+    "name": "Change Zalo package name",
+    "options": [
+      {
+        "default": "com.zing.zalo.morphe",
+        "description": "The new application package name (for example com.zing.zalo.morphe).",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.zing.zalo",
+        "versions": [
+          "26.08.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.3",
+    "source_id": "3308b75f160289de",
+    "use": false
+  },
+  {
+    "bundle_id": "b6337070764e1de9231a355a",
+    "compatiblePackages": {
+      "com.zing.zalo": [
+        "26.08.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables Zalo offline/Google ad networks (forces the Adtima offline gates closed, always drops admob/dfp/ima, and reports limit-ad-tracking opted-out). Sponsored Story/community placements need the companion patch.",
+    "id": "b6337070764e1de9231a355a:5",
+    "legacy_id": 18122,
+    "metadata_status": "verified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zing.zalo",
+        "versions": [
+          "26.08.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.3",
+    "source_id": "3308b75f160289de",
+    "use": true
+  },
+  {
+    "bundle_id": "b6337070764e1de9231a355a",
+    "compatiblePackages": {
+      "com.zing.zalo": [
+        "26.08.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces Zalo Story/community ad-enable flags to off at their config reads (normal content path kept). Server-stitched or OA-message promos may remain.",
+    "id": "b6337070764e1de9231a355a:6",
+    "legacy_id": 18123,
+    "metadata_status": "verified",
+    "name": "Disable sponsored placements",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zing.zalo",
+        "versions": [
+          "26.08.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.3",
+    "source_id": "3308b75f160289de",
+    "use": true
+  },
+  {
+    "bundle_id": "b6337070764e1de9231a355a",
+    "compatiblePackages": {
+      "com.zing.zalo": [
+        "26.08.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops Zalo's first-party analytics records and diagnostic crash data by suppressing its Room analytics writes, Firebase Crashlytics logs/keys, and native crash-handler registration. Messaging, sockets, and database initialization remain intact.",
+    "id": "b6337070764e1de9231a355a:7",
+    "legacy_id": 18124,
+    "metadata_status": "verified",
+    "name": "Disable telemetry and crash reporting",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zing.zalo",
+        "versions": [
+          "26.08.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.3",
+    "source_id": "3308b75f160289de",
+    "use": true
+  },
+  {
+    "bundle_id": "b6337070764e1de9231a355a",
+    "compatiblePackages": {
+      "com.zing.zalo": [
+        "26.08.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables Zalo's existing Google Drive photo-backup option. It does not bypass Google authorization, server retention, encryption, or media exclusions.",
+    "id": "b6337070764e1de9231a355a:8",
+    "legacy_id": 18125,
+    "metadata_status": "verified",
+    "name": "Enable Google Drive photo backup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zing.zalo",
+        "versions": [
+          "26.08.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.3",
+    "source_id": "3308b75f160289de",
+    "use": false
+  },
+  {
+    "bundle_id": "b6337070764e1de9231a355a",
+    "compatiblePackages": {
+      "com.zing.zalo": [
+        "26.08.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Skips Zalo Timeline/Stories and Zalo Video push notifications (like/comment digests, new feeds/stories, video reminders) in the push dispatcher. Message, call, friend-request and birthday notifications are untouched; reaction/activity pushes on other channels may remain.",
+    "id": "b6337070764e1de9231a355a:9",
+    "legacy_id": 18126,
+    "metadata_status": "verified",
+    "name": "Filter promo notifications",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zing.zalo",
+        "versions": [
+          "26.08.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.3",
+    "source_id": "3308b75f160289de",
+    "use": true
+  },
+  {
+    "bundle_id": "b6337070764e1de9231a355a",
+    "compatiblePackages": {
+      "com.instagram.barcelona": [
+        "434.0.0.41.74",
+        "445.0.0.46.83"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes sponsored posts from the Threads feed by filtering ad feed units (detected via Media.DED/DGK) out of the list merged into the feed cache, before they can render. Feed-scoped; other surfaces (clips/reels) are not affected.",
+    "id": "b6337070764e1de9231a355a:10",
+    "legacy_id": 18127,
+    "metadata_status": "verified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.barcelona",
+        "versions": [
+          "434.0.0.41.74",
+          "445.0.0.46.83"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.3",
+    "source_id": "3308b75f160289de",
+    "use": true
+  },
+  {
+    "bundle_id": "b6337070764e1de9231a355a",
+    "compatiblePackages": {
+      "com.zing.zalo": [
+        "26.08.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes Zalo's Business Box service entry from the main chat list without filtering ordinary conversations or user-initiated Official Account chats.",
+    "id": "b6337070764e1de9231a355a:11",
+    "legacy_id": 18128,
+    "metadata_status": "verified",
+    "name": "Hide Business Box",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zing.zalo",
+        "versions": [
+          "26.08.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.3",
+    "source_id": "3308b75f160289de",
+    "use": true
+  },
+  {
+    "bundle_id": "b6337070764e1de9231a355a",
+    "compatiblePackages": {
+      "com.zing.zalo": [
+        "26.08.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Keeps locally stored large chat media usable after Zalo's client-side expiry window by bypassing the expired/subscription state. It does not restore missing files or bypass server download authorization.",
+    "id": "b6337070764e1de9231a355a:12",
+    "legacy_id": 18129,
+    "metadata_status": "verified",
+    "name": "Keep expired media accessible",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zing.zalo",
+        "versions": [
+          "26.08.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.3",
+    "source_id": "3308b75f160289de",
+    "use": true
+  },
+  {
+    "bundle_id": "b6337070764e1de9231a355a",
+    "compatiblePackages": {
+      "com.zing.zalo": [
+        "26.08.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds Zalo launch/provider checks and redirects Google Drive account selection and token binding to microG-RE (app.revanced / app.revanced.android.gms). Initial photo restore and the complete backup/restore cycle were device-validated on Zalo 26.08.01.",
+    "id": "b6337070764e1de9231a355a:13",
+    "legacy_id": 18130,
+    "metadata_status": "verified",
+    "name": "microG Drive support",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zing.zalo",
+        "versions": [
+          "26.08.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.3",
+    "source_id": "3308b75f160289de",
+    "use": true
+  },
+  {
+    "bundle_id": "b6337070764e1de9231a355a",
+    "compatiblePackages": {
+      "com.zing.zalo": [
+        "26.08.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables Zalo's existing original-quality photo path by default. It does not change server upload limits, account restrictions, or video handling.",
+    "id": "b6337070764e1de9231a355a:14",
+    "legacy_id": 18131,
+    "metadata_status": "verified",
+    "name": "Prefer original photo quality",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zing.zalo",
+        "versions": [
+          "26.08.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.3",
+    "source_id": "3308b75f160289de",
+    "use": true
+  },
+  {
+    "bundle_id": "b6337070764e1de9231a355a",
+    "compatiblePackages": {
+      "com.instagram.barcelona": [
+        "434.0.0.41.74",
+        "445.0.0.46.83"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the advertising-id (AD_ID) permissions so the device advertising id cannot be read for ad tracking. Does not disable Meta's core analytics.",
+    "id": "b6337070764e1de9231a355a:15",
+    "legacy_id": 18132,
+    "metadata_status": "verified",
+    "name": "Remove AD_ID permission",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.barcelona",
+        "versions": [
+          "434.0.0.41.74",
+          "445.0.0.46.83"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.3",
+    "source_id": "3308b75f160289de",
+    "use": true
+  },
+  {
+    "bundle_id": "b6337070764e1de9231a355a",
+    "compatiblePackages": {
+      "com.zing.zalo": [
+        "26.08.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the advertising-id (AD_ID) permissions from Zalo so the device advertising id cannot be read for ad tracking. In-app readers fall back to \"unknown\"; core messaging is unaffected.",
+    "id": "b6337070764e1de9231a355a:16",
+    "legacy_id": 18133,
+    "metadata_status": "verified",
+    "name": "Remove AD_ID permission",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zing.zalo",
+        "versions": [
+          "26.08.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.3",
+    "source_id": "3308b75f160289de",
+    "use": true
+  },
+  {
+    "bundle_id": "b6337070764e1de9231a355a",
+    "compatiblePackages": {
+      "com.zing.zalo": [
+        "26.08.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Includes media of any age in Zalo's existing Google Drive backup/restore pipeline. It does not bypass Drive retention or media exclusions.",
+    "id": "b6337070764e1de9231a355a:17",
+    "legacy_id": 18134,
+    "metadata_status": "verified",
+    "name": "Remove media backup age limit",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zing.zalo",
+        "versions": [
+          "26.08.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.3",
+    "source_id": "3308b75f160289de",
+    "use": true
+  },
+  {
+    "bundle_id": "b6337070764e1de9231a355a",
+    "compatiblePackages": {
+      "com.zing.zalo": [
+        "26.08.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops Zalo from sending seen-status packets without changing message delivery or incoming status rendering.",
+    "id": "b6337070764e1de9231a355a:18",
+    "legacy_id": 18135,
+    "metadata_status": "verified",
+    "name": "Suppress outbound seen status",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zing.zalo",
+        "versions": [
+          "26.08.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.3",
+    "source_id": "3308b75f160289de",
+    "use": true
+  },
+  {
+    "bundle_id": "b6337070764e1de9231a355a",
+    "compatiblePackages": {
+      "com.zing.zalo": [
+        "26.08.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops Zalo from sending typing indicators. Incoming status rendering and messages remain unchanged.",
+    "id": "b6337070764e1de9231a355a:19",
+    "legacy_id": 18136,
+    "metadata_status": "verified",
+    "name": "Suppress outbound typing status",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zing.zalo",
+        "versions": [
+          "26.08.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.3",
+    "source_id": "3308b75f160289de",
+    "use": true
+  },
+  {
+    "bundle_id": "be07b950a6355cd41a575b68",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.1.3.962075747-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Exposes options to enable Google Rambler on any phone.",
+    "id": "be07b950a6355cd41a575b68:0",
+    "legacy_id": 18137,
+    "metadata_status": "verified",
+    "name": "Enable Google Rambler",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.1.3.962075747-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.4",
+    "source_id": "f7788b819cbb04de",
+    "use": true
+  },
+  {
+    "bundle_id": "be07b950a6355cd41a575b68",
+    "compatiblePackages": {
+      "com.motioncam": [
+        "5.0.8-trial"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enable unlimited photo exports from captured RAW frames, remove the 5-second video recording limit, enable pro tools, apply patched MotionCam branding, and spoof the installer source as Google Play. Installer source spoofing adapted from Morphe.",
+    "id": "be07b950a6355cd41a575b68:1",
+    "legacy_id": 18138,
+    "metadata_status": "verified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.motioncam",
+        "versions": [
+          "5.0.8-trial"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.4",
+    "source_id": "f7788b819cbb04de",
+    "use": true
+  },
+  {
+    "bundle_id": "be07b950a6355cd41a575b68",
+    "compatiblePackages": {
+      "com.robskie.tether": [
+        "1.3.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks Pro tethering and disables purchase actions in the shop.",
+    "id": "be07b950a6355cd41a575b68:2",
+    "legacy_id": 18139,
+    "metadata_status": "verified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.robskie.tether",
+        "versions": [
+          "1.3.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.4",
+    "source_id": "f7788b819cbb04de",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "org.telegram.messenger.web": [
+        "12.6.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Prevents deleted messages from being removed locally.",
+    "id": "d43920460330cd119b4ccc9e:0",
+    "legacy_id": 18140,
+    "metadata_status": "verified",
+    "name": "Anti-delete messages",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.6.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "org.telegram.messenger.web": [
+        "12.6.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Keeps view-once and self-destructing media viewable forever.",
+    "id": "d43920460330cd119b4ccc9e:1",
+    "legacy_id": 18141,
+    "metadata_status": "verified",
+    "name": "Anti-disappearing media",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.6.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "org.telegram.messenger.web": [
+        "12.6.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Allows opening copyrighted, sensitive, and temporarily disabled channels.",
+    "id": "d43920460330cd119b4ccc9e:2",
+    "legacy_id": 18142,
+    "metadata_status": "verified",
+    "name": "Bypass channel restrictions",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.6.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "org.telegram.messenger.web": [
+        "12.6.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Allows copying, saving, forwarding, and screenshots from restricted channels.",
+    "id": "d43920460330cd119b4ccc9e:3",
+    "legacy_id": 18143,
+    "metadata_status": "verified",
+    "name": "Bypass content restrictions",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.6.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "org.telegram.messenger.web": [
+        "12.6.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bypasses integrity check to allow login on patched app.",
+    "id": "d43920460330cd119b4ccc9e:4",
+    "legacy_id": 18144,
+    "metadata_status": "verified",
+    "name": "Bypass integrity",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.6.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "in.startv.hotstar": [
+        "26.04.13.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bypasses app signature verification to allow API access.",
+    "id": "d43920460330cd119b4ccc9e:5",
+    "legacy_id": 18145,
+    "metadata_status": "verified",
+    "name": "Bypass signature check",
+    "options": [],
+    "packages": [
+      {
+        "name": "in.startv.hotstar",
+        "versions": [
+          "26.04.13.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "in.cricketexchange.app.cricketexchange": [
+        "26.04.05"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks premium features and removes ads.",
+    "id": "d43920460330cd119b4ccc9e:6",
+    "legacy_id": 18146,
+    "metadata_status": "verified",
+    "name": "CREX Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "in.cricketexchange.app.cricketexchange",
+        "versions": [
+          "26.04.05"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "org.telegram.messenger.web": [
+        "12.6.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables automatic app update checks.",
+    "id": "d43920460330cd119b4ccc9e:7",
+    "legacy_id": 18147,
+    "metadata_status": "verified",
+    "name": "Disable auto update",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.6.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "ch.protonvpn.android": [
+        "5.17.72.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Blocks all telemetry, analytics, and observability data collection.",
+    "id": "d43920460330cd119b4ccc9e:8",
+    "legacy_id": 18148,
+    "metadata_status": "verified",
+    "name": "Disable telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "ch.protonvpn.android",
+        "versions": [
+          "5.17.72.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "com.truecaller": [
+        "26.10.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables AppStartTracker and other telemetry points.",
+    "id": "d43920460330cd119b4ccc9e:9",
+    "legacy_id": 18149,
+    "metadata_status": "verified",
+    "name": "Disable telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.truecaller",
+        "versions": [
+          "26.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "com.truecaller": [
+        "26.10.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the in-app update check.",
+    "id": "d43920460330cd119b4ccc9e:10",
+    "legacy_id": 18150,
+    "metadata_status": "verified",
+    "name": "Disable update check",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.truecaller",
+        "versions": [
+          "26.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "com.cv.docscanner": [
+        "6.8.18"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all premium features, removes ads, and enables pro themes.",
+    "id": "d43920460330cd119b4ccc9e:11",
+    "legacy_id": 18151,
+    "metadata_status": "verified",
+    "name": "Doc Scanner Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.cv.docscanner",
+        "versions": [
+          "6.8.18"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "org.telegram.messenger.web": [
+        "12.6.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Increases download chunk size and max concurrent requests.",
+    "id": "d43920460330cd119b4ccc9e:12",
+    "legacy_id": 18152,
+    "metadata_status": "verified",
+    "name": "Download speed boost",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.6.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "in.startv.hotstar": [
+        "26.04.13.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables all video codecs (H265, VP9, AV1) and 4K resolution by bypassing blacklist and capability checks.",
+    "id": "d43920460330cd119b4ccc9e:13",
+    "legacy_id": 18153,
+    "metadata_status": "verified",
+    "name": "Enable all codecs",
+    "options": [],
+    "packages": [
+      {
+        "name": "in.startv.hotstar",
+        "versions": [
+          "26.04.13.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "in.startv.hotstar": [
+        "26.04.13.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Allows playback while screen mirroring or HDMI is connected.",
+    "id": "d43920460330cd119b4ccc9e:14",
+    "legacy_id": 18154,
+    "metadata_status": "verified",
+    "name": "Enable screen mirroring",
+    "options": [],
+    "packages": [
+      {
+        "name": "in.startv.hotstar",
+        "versions": [
+          "26.04.13.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "in.startv.hotstar": [
+        "26.04.13.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes screenshot and screen recording restrictions.",
+    "id": "d43920460330cd119b4ccc9e:15",
+    "legacy_id": 18155,
+    "metadata_status": "verified",
+    "name": "Enable screenshots",
+    "options": [],
+    "packages": [
+      {
+        "name": "in.startv.hotstar",
+        "versions": [
+          "26.04.13.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "com.eyecon.global": [
+        "4.2026.04.05.1300"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks premium features.",
+    "id": "d43920460330cd119b4ccc9e:16",
+    "legacy_id": 18156,
+    "metadata_status": "verified",
+    "name": "Eyecon Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.eyecon.global",
+        "versions": [
+          "4.2026.04.05.1300"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "com.overlook.android.fing": [
+        "12.11.9"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks premium network tools and features.",
+    "id": "d43920460330cd119b4ccc9e:17",
+    "legacy_id": 18157,
+    "metadata_status": "verified",
+    "name": "Fing Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.overlook.android.fing",
+        "versions": [
+          "12.11.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "in.startv.hotstar": [
+        "26.04.13.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces HDR10 and HDR10+ playback on compatible devices by bypassing blacklist and capability checks.",
+    "id": "d43920460330cd119b4ccc9e:18",
+    "legacy_id": 18158,
+    "metadata_status": "verified",
+    "name": "Force HDR10",
+    "options": [],
+    "packages": [
+      {
+        "name": "in.startv.hotstar",
+        "versions": [
+          "26.04.13.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "com.truecaller": [
+        "26.10.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the Assistant tab from the bottom navigation bar.",
+    "id": "d43920460330cd119b4ccc9e:19",
+    "legacy_id": 18159,
+    "metadata_status": "verified",
+    "name": "Hide Assistant tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.truecaller",
+        "versions": [
+          "26.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "com.truecaller": [
+        "26.10.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the Family Protection button from the bottom navigation bar.",
+    "id": "d43920460330cd119b4ccc9e:20",
+    "legacy_id": 18160,
+    "metadata_status": "verified",
+    "name": "Hide Family Protection button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.truecaller",
+        "versions": [
+          "26.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "com.truecaller": [
+        "26.10.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the Premium options from the settings and user details pages.",
+    "id": "d43920460330cd119b4ccc9e:21",
+    "legacy_id": 18161,
+    "metadata_status": "verified",
+    "name": "Hide Premium from settings",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.truecaller",
+        "versions": [
+          "26.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "com.truecaller": [
+        "26.10.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the Premium tab from the bottom navigation bar.",
+    "id": "d43920460330cd119b4ccc9e:22",
+    "legacy_id": 18162,
+    "metadata_status": "verified",
+    "name": "Hide Premium tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.truecaller",
+        "versions": [
+          "26.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "com.truecaller": [
+        "26.10.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the Scams tab from the bottom navigation bar.",
+    "id": "d43920460330cd119b4ccc9e:23",
+    "legacy_id": 18163,
+    "metadata_status": "verified",
+    "name": "Hide Scams tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.truecaller",
+        "versions": [
+          "26.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "org.telegram.messenger.web": [
+        "12.6.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides your typing indicator from other users.",
+    "id": "d43920460330cd119b4ccc9e:24",
+    "legacy_id": 18164,
+    "metadata_status": "verified",
+    "name": "Hide typing indicator",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.6.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "com.markOne.ss_app": [
+        "6.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks premium features and removes ads.",
+    "id": "d43920460330cd119b4ccc9e:25",
+    "legacy_id": 18165,
+    "metadata_status": "verified",
+    "name": "Mark Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.markOne.ss_app",
+        "versions": [
+          "6.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "in.startv.hotstar": [
+        "26.04.13.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks premium UI features, removes subscription nudges, and enables downloads.",
+    "id": "d43920460330cd119b4ccc9e:26",
+    "legacy_id": 18166,
+    "metadata_status": "verified",
+    "name": "Premium unlock",
+    "options": [],
+    "packages": [
+      {
+        "name": "in.startv.hotstar",
+        "versions": [
+          "26.04.13.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "ch.protonvpn.android": [
+        "5.17.72.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks premium UI, removes upsells, and shows only free servers.",
+    "id": "d43920460330cd119b4ccc9e:27",
+    "legacy_id": 18167,
+    "metadata_status": "verified",
+    "name": "Proton VPN Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "ch.protonvpn.android",
+        "versions": [
+          "5.17.72.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "in.startv.hotstar": [
+        "26.04.13.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes pre-roll, mid-roll, and live match video ads.",
+    "id": "d43920460330cd119b4ccc9e:28",
+    "legacy_id": 18168,
+    "metadata_status": "verified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "in.startv.hotstar",
+        "versions": [
+          "26.04.13.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "org.telegram.messenger.web": [
+        "12.6.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes sponsored messages and video ads.",
+    "id": "d43920460330cd119b4ccc9e:29",
+    "legacy_id": 18169,
+    "metadata_status": "verified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.6.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "org.telegram.messenger.web": [
+        "12.6.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks premium features.",
+    "id": "d43920460330cd119b4ccc9e:30",
+    "legacy_id": 18170,
+    "metadata_status": "verified",
+    "name": "Telegram Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.6.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "com.solid.teleprompter": [
+        "6.8.2",
+        "6.8.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks premium features in Teleprompter Vlog & Scripts app.",
+    "id": "d43920460330cd119b4ccc9e:31",
+    "legacy_id": 18171,
+    "metadata_status": "verified",
+    "name": "Teleprompter Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.solid.teleprompter",
+        "versions": [
+          "6.8.2",
+          "6.8.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "com.ticktick.task": [
+        "8.0.6.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks premium features, removes limits, and enables AI tools.",
+    "id": "d43920460330cd119b4ccc9e:32",
+    "legacy_id": 18172,
+    "metadata_status": "verified",
+    "name": "TickTick Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ticktick.task",
+        "versions": [
+          "8.0.6.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "com.truecaller": [
+        "26.10.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks premium features.",
+    "id": "d43920460330cd119b4ccc9e:33",
+    "legacy_id": 18173,
+    "metadata_status": "verified",
+    "name": "Truecaller Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.truecaller",
+        "versions": [
+          "26.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "d43920460330cd119b4ccc9e",
+    "compatiblePackages": {
+      "com.frontrow.vlog": [
+        "2.12.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks premium features, removes watermark, and hides Pro tab.",
+    "id": "d43920460330cd119b4ccc9e:34",
+    "legacy_id": 18174,
+    "metadata_status": "verified",
+    "name": "VN Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.frontrow.vlog",
+        "versions": [
+          "2.12.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.2",
+    "source_id": "8f609b19e25ca00a",
+    "use": true
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Replaces native Oculus face/eye permission checks with the Android XR permission names used by Galaxy XR, including the verified Steam Link 5001712 layout.",
+    "id": "3ced0352e3f56509fb69e79c:0",
+    "legacy_id": 18175,
+    "metadata_status": "verified",
+    "name": "Android XR native permission names",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Legacy overlay-permission fallback retained for older Steam Link builds. Adds SYSTEM_ALERT_WINDOW and the compositor signal window.",
+    "id": "3ced0352e3f56509fb69e79c:1",
+    "legacy_id": 18176,
+    "metadata_status": "verified",
+    "name": "Appear on top (legacy)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Renames the manifest package and Steam Link's internal VR-launch component so the patched app can coexist with the original installation.",
+    "id": "3ced0352e3f56509fb69e79c:2",
+    "legacy_id": 18177,
+    "metadata_status": "verified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "Default",
+        "description": "Accepts either a full Java package name (for example, com.valvesoftware.steamlinkvr.galaxyxr) or a display suffix (for example, Galaxy XR). Suffix input appends to app name and generates a package suffix automatically.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [
+      "XR Core Runtime"
+    ],
+    "description": "Derives current controller linear and angular velocity from grip/aim pose history and can reduce VRLink's stock four controller pose sends per display frame.",
+    "id": "3ced0352e3f56509fb69e79c:3",
+    "legacy_id": 18178,
+    "metadata_status": "verified",
+    "name": "Controller velocity fix",
+    "options": [
+      {
+        "default": 50,
+        "description": "libgxr_controller_velocity.so config+32 (int64 ns = value×1e6). Falls back to runtime velocity when pose samples are farther apart. Allowed range: 5 to 100 ms.",
+        "key": "maxDeltaMs",
+        "required": true,
+        "title": "Maximum sample gap (ms)",
+        "type": "kotlin.Int",
+        "values": null
+      },
+      {
+        "default": "stock-4x",
+        "description": "libvrlink_scene.so QSVLClient::OnTopOfFrame: selects four, two, or one evenly phased controller pose sends per display frame. Actual send Hz equals display Hz multiplied by 4, 2, or 1. Stock preserves Valve behavior.",
+        "key": "poseSendCadence",
+        "required": true,
+        "title": "Controller pose-send cadence",
+        "type": "kotlin.String",
+        "values": {
+          "Display rate (1x)": "display-1x",
+          "Half (2x display rate)": "half-2x",
+          "Stock (4x display rate)": "stock-4x"
+        }
+      },
+      {
+        "default": 0.0,
+        "description": "libgxr_controller_velocity.so config+48 (float32 EMA weight). 0 = no smoothing, minimum lag; higher values reduce jitter. Allowed range: 0.0 to 0.9.",
+        "key": "smoothing",
+        "required": true,
+        "title": "Derived velocity smoothing",
+        "type": "kotlin.Float",
+        "values": null
+      },
+      {
+        "default": 20.0,
+        "description": "libgxr_controller_velocity.so config+40 (float32 m/s). Falls back to runtime velocity above this derived linear speed. Allowed range: 1 to 50 m/s.",
+        "key": "maxLinearSpeed",
+        "required": true,
+        "title": "Maximum linear speed (m/s)",
+        "type": "kotlin.Float",
+        "values": null
+      },
+      {
+        "default": 50.0,
+        "description": "libgxr_controller_velocity.so config+44 (float32 rad/s). Falls back to runtime velocity above this derived angular speed. Allowed range: 1 to 100 rad/s.",
+        "key": "maxAngularSpeed",
+        "required": true,
+        "title": "Maximum angular speed (rad/s)",
+        "type": "kotlin.Float",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [
+      "XR Device Config Baseline"
+    ],
+    "description": "Overrides the HMD identity reported to SteamVR. Recommended selects Meta Quest Pro for exact legacy bundle targets through 5002244, including 2.0.20/5001712; otherwise Galaxy XR. The Galaxy profile installs its complete transport identity while preserving stock controller/hand routing and extensions. Optional on 2.0.22/5002322; explicit Quest Pro and Pico profiles populate exact Galaxy XR product entries.",
+    "id": "3ced0352e3f56509fb69e79c:4",
+    "legacy_id": 18179,
+    "metadata_status": "verified",
+    "name": "Device identity",
+    "options": [
+      {
+        "default": "recommended",
+        "description": "Recommended uses Meta Quest Pro on exact legacy bundle targets through 5002244 (including 5001712), and Galaxy XR otherwise. Explicit profiles override that choice. Native-XR routing and verified legacy payloads are preserved.",
+        "key": "profile",
+        "required": true,
+        "title": "HMD identity",
+        "type": "kotlin.String",
+        "values": {
+          "Meta Quest Pro": "meta-quest-pro",
+          "PICO 4 Pro": "pico-4-pro",
+          "Recommended for this build (legacy Quest Pro / native Galaxy XR)": "recommended",
+          "Samsung Galaxy XR": "samsung-galaxy-xr",
+          "Stock identity (no change)": "stock-no-change"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bypasses the two verified capability gates in QSVLDeviceHmd::Init for Steam Link builds 5001712, 5001740, 5002244, and 5002313.",
+    "id": "3ced0352e3f56509fb69e79c:5",
+    "legacy_id": 18180,
+    "metadata_status": "verified",
+    "name": "Force HMD initialization gates",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bypasses the verified permission-state gate in XrSceneLobby for Steam Link builds 5001712, 5001740, 5002244, and 5002313.",
+    "id": "3ced0352e3f56509fb69e79c:6",
+    "legacy_id": 18181,
+    "metadata_status": "verified",
+    "name": "Force lobby permission-state gate",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bypasses the three verified XR gates in builds 5001712, 5001740, and 5002244. Build 5002313 rewrote XrSceneStream::Init and is intentionally left unchanged.",
+    "id": "3ced0352e3f56509fb69e79c:7",
+    "legacy_id": 18182,
+    "metadata_status": "verified",
+    "name": "Force stream XR gates",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Permission-free resolution fix for exact builds 5001712, 5002244, 5002296, 5002313, 5002318, and 5002322. Preserves each build's native projection layout (2 layers on 2.0.20/5001712; 3 layers on supported 2.0.22 builds) and source formats, including future RGB10_A2, while appending a static 2x2 Android-surface compositor trigger with no image copy or reconstruction.",
+    "id": "3ced0352e3f56509fb69e79c:8",
+    "legacy_id": 18183,
+    "metadata_status": "verified",
+    "name": "Galaxy XR high-resolution 3-projection fix",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [
+      "Android XR native permission names",
+      "Force HMD initialization gates",
+      "Force lobby permission-state gate",
+      "Force stream XR gates",
+      "GXR face bridge (version 5002318 and below)",
+      "Galaxy XR high-resolution 3-projection fix",
+      "Microphone input preset",
+      "OLED color calibration",
+      "Unrestricted battery usage",
+      "Visual Delay Fix",
+      "XR Core Runtime",
+      "XR Device Config Baseline",
+      "XR Input Routing Config",
+      "Startup splash and XR launch mode (before 5002322)",
+      "Startup permission requests (before 5002322)",
+      "XR Manifest Capability Pack",
+      "Device identity"
+    ],
+    "description": "Selects the 17-patch Galaxy XR legacy set, including Meta Quest Pro identity, native gates, face bridge, OLED calibration, microphone, battery, Visual Delay, explicit startup permissions and splash, and XR foundation. High-resolution output is guarded to verified layouts; unavailable on 5001740.",
+    "id": "3ced0352e3f56509fb69e79c:9",
+    "legacy_id": 18184,
+    "metadata_status": "verified",
+    "name": "Galaxy XR legacy foundation (through 2.0.22/5002244)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": true
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20"
+      ]
+    },
+    "dependencies": [
+      "Android XR native permission names",
+      "Force HMD initialization gates",
+      "Force lobby permission-state gate",
+      "Force stream XR gates",
+      "GXR face bridge (version 5002318 and below)",
+      "Galaxy XR high-resolution 3-projection fix",
+      "Microphone input preset",
+      "OLED color calibration",
+      "Unrestricted battery usage",
+      "Visual Delay Fix",
+      "XR Core Runtime",
+      "XR Device Config Baseline",
+      "XR Input Routing Config",
+      "Startup splash and XR launch mode (before 5002322)",
+      "Startup permission requests (before 5002322)",
+      "XR Manifest Capability Pack",
+      "Device identity"
+    ],
+    "description": "Applies the 17-patch Galaxy XR legacy set for exact Steam Link 2.0.20 build 5001712, including explicit startup permissions and splash, Meta Quest Pro identity, permission-free high resolution, and the Final balanced tested OLED profile.",
+    "id": "3ced0352e3f56509fb69e79c:10",
+    "legacy_id": 18185,
+    "metadata_status": "verified",
+    "name": "Galaxy XR recommended set (2.0.20/5001712)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": true
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.22"
+      ]
+    },
+    "dependencies": [
+      "Galaxy XR high-resolution 3-projection fix",
+      "GXR face bridge (version 5002318 and below)",
+      "Microphone input preset",
+      "Unrestricted battery usage",
+      "Visual Delay Fix",
+      "OLED color calibration",
+      "Device identity",
+      "Startup permission requests (before 5002322)",
+      "Startup splash and XR launch mode (before 5002322)"
+    ],
+    "description": "Applies the 9-patch Galaxy XR set for exact Steam Link 2.0.22 build 5002318, including separately listed startup permissions and splash/XR launch mode.",
+    "id": "3ced0352e3f56509fb69e79c:11",
+    "legacy_id": 18186,
+    "metadata_status": "verified",
+    "name": "Galaxy XR recommended set (2.0.22/5002318)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": true
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.22"
+      ]
+    },
+    "dependencies": [
+      "Galaxy XR high-resolution 3-projection fix",
+      "GXR tongue bridge (version 5002322 and above)",
+      "Microphone input preset",
+      "Unrestricted battery usage",
+      "Visual Delay Fix",
+      "OLED color calibration"
+    ],
+    "description": "Applies the 6-patch Galaxy XR set for exact Steam Link 2.0.22 build 5002322. Preserves stock startup and permission requests except battery settings; includes the Final balanced tested OLED profile.",
+    "id": "3ced0352e3f56509fb69e79c:12",
+    "legacy_id": 18187,
+    "metadata_status": "verified",
+    "name": "Galaxy XR recommended set (2.0.22/5002322)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": true
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "For exact older Steam Link builds only. Installs libgxr_face_bridge.so (XR_FB_face_tracking2 → XR_ANDROID_face_tracking API layer) and adds android.permission.FACE_TRACKING to the manifest. See the [GXR Face Bridge source](https://github.com/compdoge/gxr-face-bridge) and matching [Galaxy XR VRCFT module](https://github.com/compdoge/LinkFT).",
+    "id": "3ced0352e3f56509fb69e79c:13",
+    "legacy_id": 18188,
+    "metadata_status": "verified",
+    "name": "GXR face bridge (version 5002318 and below)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "For modern Steam Link builds with Valve's native Android XR face mapping. Currently verified and enabled only for exact build 5002322; newer builds require a separately verified native layout. Preserves Valve's face expressions and standard TongueOut while exposing Galaxy XR tongue out/left/right/up/down to the matching Galaxy XR VRCFT module.",
+    "id": "3ced0352e3f56509fb69e79c:14",
+    "legacy_id": 18189,
+    "metadata_status": "verified",
+    "name": "GXR tongue bridge (version 5002322 and above)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Selects the Android AAudio microphone processing mode used by Steam Link. Galaxy XR testing found Voice Recognition clearer and louder than stock Voice Communication.",
+    "id": "3ced0352e3f56509fb69e79c:15",
+    "legacy_id": 18190,
+    "metadata_status": "verified",
+    "name": "Microphone input preset",
+    "options": [
+      {
+        "default": "voice-recognition",
+        "description": "Voice Recognition was the clearest usable-level mode in Galaxy XR recordings. Voice Performance and Unprocessed were substantially quieter; Voice Communication sounded more processed.",
+        "key": "preset",
+        "required": true,
+        "title": "Microphone mode",
+        "type": "kotlin.String",
+        "values": {
+          "Unprocessed (quiet)": "unprocessed",
+          "Voice Communication (Valve stock)": "voice-communication",
+          "Voice Performance (quiet)": "voice-performance",
+          "Voice Recognition (Best from my tests)": "voice-recognition"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Calibrates Galaxy XR OLED color and selects a guarded high-precision video output path for Steam Link builds 5001712, 5001740, 5002244, 5002313, 5002318, and 5002322.",
+    "id": "3ced0352e3f56509fb69e79c:16",
+    "legacy_id": 18191,
+    "metadata_status": "verified",
+    "name": "OLED color calibration",
+    "options": [
+      {
+        "default": "final-balanced",
+        "description": "Selects the gamma and saturation pair used in the 1087-byte video shader.",
+        "key": "profile",
+        "required": true,
+        "title": "Calibration profile",
+        "type": "kotlin.String",
+        "values": {
+          "Custom gamma and saturation": "custom",
+          "Final balanced tested (gamma 1.20, saturation 1.45)": "final-balanced",
+          "Initial tested (gamma 1.06, saturation 1.12)": "initial",
+          "Neutral comparison (gamma 1.00, saturation 1.00)": "neutral"
+        }
+      },
+      {
+        "default": 1.2,
+        "description": "Used by Custom profile. Allowed range: 0.50 to 2.50.",
+        "key": "gamma",
+        "required": true,
+        "title": "Gamma",
+        "type": "kotlin.Float",
+        "values": null
+      },
+      {
+        "default": 1.45,
+        "description": "Used by Custom profile. Allowed range: 0.00 to 3.00.",
+        "key": "saturation",
+        "required": true,
+        "title": "Saturation",
+        "type": "kotlin.Float",
+        "values": null
+      },
+      {
+        "default": "srgb8-highp",
+        "description": "8-bit sRGB is the default after a Galaxy XR comparison showed less banding than RGB10 linear. RGB10 can have coarser near-black steps despite its higher bit count. Linear formats include sRGB conversion. FP16 support and performance are unverified; unsupported formats may prevent streaming. These choices do not change decoder depth or force compositor/panel depth.",
+        "key": "outputPrecision",
+        "required": true,
+        "title": "Video output precision",
+        "type": "kotlin.String",
+        "values": {
+          "8-bit sRGB highp output (recommended)": "srgb8-highp",
+          "FP16 linear output (experimental; runtime support required)": "rgba16f-experimental",
+          "RGB10_A2 linear output (experimental)": "rgb10-a2-experimental"
+        }
+      },
+      {
+        "default": "off",
+        "description": "Adds fine noise after calibration, before linear conversion, at any output precision. sRGB8 codes describe noise strength, not required input or output depth. Preserves exact black/white and fades noise near endpoints. This is app-side noise, not final compositor dithering.",
+        "key": "dithering",
+        "required": true,
+        "title": "Comparison dithering",
+        "type": "kotlin.String",
+        "values": {
+          "Low (0.5 sRGB8 code peak-to-peak)": "low",
+          "Off (default)": "off",
+          "Standard (1 sRGB8 code peak-to-peak)": "standard"
+        }
+      },
+      {
+        "default": false,
+        "description": "With Low or Standard dithering: checked submits 8-bit sRGB projection output; unchecked keeps Video output precision (8-bit sRGB by default). Select RGB10 or FP16 and leave unchecked to dither at that output precision. Ignored when dithering is Off. Does not change decoder input depth or force compositor/panel depth.",
+        "key": "use8BitOutputWhenDithering",
+        "required": true,
+        "title": "Use 8-bit output when dithering",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Requests hand, eye and face tracking, microphone and Bluetooth permissions before opening Steam Link on exact older builds. Battery settings and the visible startup splash are separate patches.",
+    "id": "3ced0352e3f56509fb69e79c:17",
+    "legacy_id": 18192,
+    "metadata_status": "verified",
+    "name": "Startup permission requests (before 5002322)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [
+      "XR Manifest Capability Pack"
+    ],
+    "description": "Adds the Launching Steam Link splash, older-build panel sizing and explicit unmanaged VRLink startup. Does not request tracking, microphone or Bluetooth permissions; select Startup permission requests separately.",
+    "id": "3ced0352e3f56509fb69e79c:18",
+    "legacy_id": 18193,
+    "metadata_status": "verified",
+    "name": "Startup splash and XR launch mode (before 5002322)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Opens Android's per-app Battery usage page at startup so Unrestricted can be selected for XR streaming.",
+    "id": "3ced0352e3f56509fb69e79c:19",
+    "legacy_id": 18194,
+    "metadata_status": "verified",
+    "name": "Unrestricted battery usage",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a configurable offset to the HMD OpenXR pose-query time and zeroes all six exported HMD velocity fields. Does not affect controller paths. Its trampoline uses a dedicated executable mapping over non-runtime ELF comment bytes and preserves live PLT entries.",
+    "id": "3ced0352e3f56509fb69e79c:20",
+    "legacy_id": 18195,
+    "metadata_status": "verified",
+    "name": "Visual Delay Fix",
+    "options": [
+      {
+        "default": 60,
+        "description": "libvrlink_scene.so: AArch64 MOVZ/MOVK at PLT cave adds value×1e6 ns to X2 in QSVLDeviceHmd::GetPose. Tested default: 60 ms. Allowed range: 0 to 4000 ms.",
+        "key": "offsetMs",
+        "required": true,
+        "title": "Pose offset (ms)",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Installs the Galaxy XR runtime bridge resources and extension DEX foundation used by other XR patches.",
+    "id": "3ced0352e3f56509fb69e79c:21",
+    "legacy_id": 18196,
+    "metadata_status": "verified",
+    "name": "XR Core Runtime",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [
+      "XR Core Runtime"
+    ],
+    "description": "Installs baseline Galaxy XR HMD/controller/default config payloads and dashboard bootstrap assets.",
+    "id": "3ced0352e3f56509fb69e79c:22",
+    "legacy_id": 18197,
+    "metadata_status": "verified",
+    "name": "XR Device Config Baseline",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [
+      "XR Manifest Capability Pack"
+    ],
+    "description": "Installs ui_config.json mappings for XR pointer/button routing in launcher UI flows.",
+    "id": "3ced0352e3f56509fb69e79c:23",
+    "legacy_id": 18198,
+    "metadata_status": "verified",
+    "name": "XR Input Routing Config",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "3ced0352e3f56509fb69e79c",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [
+      "XR Core Runtime"
+    ],
+    "description": "Adds Android XR/OpenXR permissions, features, runtime queries, and app-level XR properties.",
+    "id": "3ced0352e3f56509fb69e79c:24",
+    "legacy_id": 18199,
+    "metadata_status": "verified",
+    "name": "XR Manifest Capability Pack",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.15.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "40c64b7f1105d787016aab4d",
+    "compatiblePackages": {
+      "com.chess": [
+        "4.9.49",
+        "4.9.49-googleplay",
+        "4.10.0",
+        "4.10.0-googleplay"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes advertisements",
+    "id": "40c64b7f1105d787016aab4d:0",
+    "legacy_id": 18200,
+    "metadata_status": "verified",
+    "name": "Ad-Free",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.chess",
+        "versions": [
+          "4.9.49",
+          "4.9.49-googleplay",
+          "4.10.0",
+          "4.10.0-googleplay"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.1-dev.1",
+    "source_id": "22d2d62f85a9c22f",
+    "use": true
+  },
+  {
+    "bundle_id": "40c64b7f1105d787016aab4d",
+    "compatiblePackages": {
+      "com.chess": [
+        "4.9.49",
+        "4.9.49-googleplay",
+        "4.10.0",
+        "4.10.0-googleplay"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the package name to com.chess.prathxm, allowing the patched app to be installed side-by-side with the original Chess.com app.",
+    "id": "40c64b7f1105d787016aab4d:1",
+    "legacy_id": 18201,
+    "metadata_status": "verified",
+    "name": "Clone Chess.com",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.chess",
+        "versions": [
+          "4.9.49",
+          "4.9.49-googleplay",
+          "4.10.0",
+          "4.10.0-googleplay"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.1-dev.1",
+    "source_id": "22d2d62f85a9c22f",
+    "use": false
+  },
+  {
+    "bundle_id": "40c64b7f1105d787016aab4d",
+    "compatiblePackages": {
+      "com.chess": [
+        "4.9.49",
+        "4.9.49-googleplay",
+        "4.10.0",
+        "4.10.0-googleplay"
+      ]
+    },
+    "dependencies": [],
+    "description": "Fetches and applies custom titles for users from a remote database. DM PrathxmOp to get yours for fun lol!",
+    "id": "40c64b7f1105d787016aab4d:2",
+    "legacy_id": 18202,
+    "metadata_status": "verified",
+    "name": "Custom Titles",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.chess",
+        "versions": [
+          "4.9.49",
+          "4.9.49-googleplay",
+          "4.10.0",
+          "4.10.0-googleplay"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.1-dev.1",
+    "source_id": "22d2d62f85a9c22f",
+    "use": true
+  },
+  {
+    "bundle_id": "40c64b7f1105d787016aab4d",
+    "compatiblePackages": {
+      "com.chess": [
+        "4.9.49",
+        "4.9.49-googleplay",
+        "4.10.0",
+        "4.10.0-googleplay"
+      ]
+    },
+    "dependencies": [],
+    "description": "Catches uncaught exceptions and displays a custom crash screen with details to report issues.",
+    "id": "40c64b7f1105d787016aab4d:3",
+    "legacy_id": 18203,
+    "metadata_status": "verified",
+    "name": "Global Crash Handler",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.chess",
+        "versions": [
+          "4.9.49",
+          "4.9.49-googleplay",
+          "4.10.0",
+          "4.10.0-googleplay"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.1-dev.1",
+    "source_id": "22d2d62f85a9c22f",
+    "use": true
+  },
+  {
+    "bundle_id": "40c64b7f1105d787016aab4d",
+    "compatiblePackages": {
+      "com.chess": [
+        "4.9.49",
+        "4.9.49-googleplay",
+        "4.10.0",
+        "4.10.0-googleplay"
+      ]
+    },
+    "dependencies": [],
+    "description": "Loads daily puzzles from Lichess and bypasses Chess.com puzzle premium limits.",
+    "id": "40c64b7f1105d787016aab4d:4",
+    "legacy_id": 18204,
+    "metadata_status": "verified",
+    "name": "Lichess Puzzles",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.chess",
+        "versions": [
+          "4.9.49",
+          "4.9.49-googleplay",
+          "4.10.0",
+          "4.10.0-googleplay"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.1-dev.1",
+    "source_id": "22d2d62f85a9c22f",
+    "use": true
+  },
+  {
+    "bundle_id": "40c64b7f1105d787016aab4d",
+    "compatiblePackages": {
+      "com.chess": [
+        "4.9.49",
+        "4.9.49-googleplay",
+        "4.10.0",
+        "4.10.0-googleplay"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables local Stockfish engine for post-game review & analysis.",
+    "id": "40c64b7f1105d787016aab4d:5",
+    "legacy_id": 18205,
+    "metadata_status": "verified",
+    "name": "Local Stockfish Analysis",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.chess",
+        "versions": [
+          "4.9.49",
+          "4.9.49-googleplay",
+          "4.10.0",
+          "4.10.0-googleplay"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.1-dev.1",
+    "source_id": "22d2d62f85a9c22f",
+    "use": true
+  },
+  {
+    "bundle_id": "40c64b7f1105d787016aab4d",
+    "compatiblePackages": {
+      "com.chess": [
+        "4.9.49",
+        "4.9.49-googleplay",
+        "4.10.0",
+        "4.10.0-googleplay"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all premium and restricted bots in the Versus Bots feature.",
+    "id": "40c64b7f1105d787016aab4d:6",
+    "legacy_id": 18206,
+    "metadata_status": "verified",
+    "name": "Unlock All Bots",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.chess",
+        "versions": [
+          "4.9.49",
+          "4.9.49-googleplay",
+          "4.10.0",
+          "4.10.0-googleplay"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.1-dev.1",
+    "source_id": "22d2d62f85a9c22f",
+    "use": true
+  },
+  {
+    "bundle_id": "5644be79dc78ba6db0c5c13c",
+    "compatiblePackages": {
+      "com.kiloo.subwaysurf": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Forces 120Hz display refresh rate in Subway Surfers by configuring WindowManager.LayoutParams.preferredRefreshRate on the game activity.",
+    "id": "5644be79dc78ba6db0c5c13c:0",
+    "legacy_id": 18207,
+    "metadata_status": "verified",
+    "name": "120 FPS High Refresh Rate & Low Latency - Subway Surfers (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kiloo.subwaysurf",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.40.0",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "5644be79dc78ba6db0c5c13c",
+    "compatiblePackages": {
+      "com.imangi.templerun2": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Forces 120Hz display refresh rate in Temple Run 2 by configuring WindowManager.LayoutParams.preferredRefreshRate on the game activity.",
+    "id": "5644be79dc78ba6db0c5c13c:1",
+    "legacy_id": 18208,
+    "metadata_status": "verified",
+    "name": "120 FPS High Refresh Rate & Low Latency - Temple Run 2 (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.imangi.templerun2",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.40.0",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "5644be79dc78ba6db0c5c13c",
+    "compatiblePackages": {
+      "com.truecaller": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Removes intrusive post-call ads, banner ads inside the call history and dialer tabs, and promotional Gold upsells by neutralizing ad SDK calls.",
+    "id": "5644be79dc78ba6db0c5c13c:2",
+    "legacy_id": 18209,
+    "metadata_status": "verified",
+    "name": "Ad-Free & Clean Dialer - Truecaller (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.truecaller",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.40.0",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "5644be79dc78ba6db0c5c13c",
+    "compatiblePackages": {
+      "com.shazam.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Strips post-recognition banner ads, sponsored track cards, and Apple Music / Spotify subscription nags by neutralizing ad SDK calls.",
+    "id": "5644be79dc78ba6db0c5c13c:3",
+    "legacy_id": 18210,
+    "metadata_status": "verified",
+    "name": "Ad-Free & Clean Interface - Shazam (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.shazam.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.40.0",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "5644be79dc78ba6db0c5c13c",
+    "compatiblePackages": {
+      "com.duolingo": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Blocks interstitial video ads shown between lessons and disables intrusive Super Duolingo subscription promotional popups.",
+    "id": "5644be79dc78ba6db0c5c13c:4",
+    "legacy_id": 18211,
+    "metadata_status": "verified",
+    "name": "Ad-Free & Declutter - Duolingo (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.duolingo",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.40.0",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "5644be79dc78ba6db0c5c13c",
+    "compatiblePackages": {
+      "com.mxtech.videoplayer.ad": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Strips all banner ads on the main folder list, full-screen interstitial video ads upon pausing or exiting videos, and online OTT feed promotions by neutralizing ad SDK calls.",
+    "id": "5644be79dc78ba6db0c5c13c:5",
+    "legacy_id": 18212,
+    "metadata_status": "verified",
+    "name": "Ad-Free & Pure Player - MX Player (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.mxtech.videoplayer.ad",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.40.0",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "5644be79dc78ba6db0c5c13c",
+    "compatiblePackages": {
+      "org.zwanoo.android.speedtest": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Removes post-test video ads, top and bottom banner ads, and sponsored server promotions by neutralizing ad SDK calls.",
+    "id": "5644be79dc78ba6db0c5c13c:6",
+    "legacy_id": 18213,
+    "metadata_status": "verified",
+    "name": "Ad-Free Speedtest by Ookla (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.zwanoo.android.speedtest",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.40.0",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "5644be79dc78ba6db0c5c13c",
+    "compatiblePackages": {
+      "free.vpn.unblock.proxy.turbovpn": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Removes full-screen video ads on connect and disconnect, banner ads at the bottom of the interface, and intrusive interstitial popups by intercepting ad SDK calls.",
+    "id": "5644be79dc78ba6db0c5c13c:7",
+    "legacy_id": 18214,
+    "metadata_status": "verified",
+    "name": "Ad-Free Turbo VPN (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "free.vpn.unblock.proxy.turbovpn",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.40.0",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "5644be79dc78ba6db0c5c13c",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds settings to control preferences are patching",
+    "id": "5644be79dc78ba6db0c5c13c:8",
+    "legacy_id": 18215,
+    "metadata_status": "verified",
+    "name": "Add settings - Instagram (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.40.0",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "5644be79dc78ba6db0c5c13c",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Overrides the feed flyout 'Play next in queue' with the Morphe video queue.",
+    "id": "5644be79dc78ba6db0c5c13c:9",
+    "legacy_id": 18216,
+    "metadata_status": "verified",
+    "name": "Add to queue - YouTube (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.40.0",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "5644be79dc78ba6db0c5c13c",
+    "compatiblePackages": {
+      "ch.protonvpn.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Enforces persistent VPN tunnel keep-alive packets and instant automatic reconnection upon network switches or screen unlock.",
+    "id": "5644be79dc78ba6db0c5c13c:10",
+    "legacy_id": 18217,
+    "metadata_status": "verified",
+    "name": "Aggressive Keep-Alive & Auto-Reconnect - Proton VPN (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "ch.protonvpn.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.40.0",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "5644be79dc78ba6db0c5c13c",
+    "compatiblePackages": {
+      "org.telegram.messenger": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Bypasses 'Copying and forwarding is not allowed' channel restrictions, allowing users to save photos, videos, and copy text from restricted channels.",
+    "id": "5644be79dc78ba6db0c5c13c:11",
+    "legacy_id": 18218,
+    "metadata_status": "verified",
+    "name": "Allow Saving Restricted Media - Telegram (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.40.0",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  },
+  {
+    "bundle_id": "5644be79dc78ba6db0c5c13c",
+    "compatiblePackages": {
+      "com.snapchat.android": null
+    },
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Removes FLAG_SECURE restrictions on Snapchat chat and media viewer activities, allowing screen capture without black screen restrictions.",
+    "id": "5644be79dc78ba6db0c5c13c:12",
+    "legacy_id": 18219,
+    "metadata_status": "verified",
+    "name": "Allow Screenshots & Anti-Screen Security - Snapchat (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.snapchat.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.40.0",
+    "source_id": "ff3294dc5dc950ed",
+    "use": true
+  }
+]
