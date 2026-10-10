@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.0-dev.12",
+    "version": "v1.1.0-dev.13",
     "patches": [
         {
             "category": "microG",
@@ -250,6 +250,40 @@
                 }
             ],
             "default": true,
+            "dependencies": [],
+            "description": "Elevates the right-side navigation buttons (Search, Sound, Report, Media) above the media player and bottom panel during turn-by-turn navigation in portrait mode.",
+            "name": "Elevate right navigation buttons",
+            "options": [
+                {
+                    "default": 165,
+                    "description": "Height in dp to elevate the right navigation buttons above the media player.",
+                    "key": "elevationDp",
+                    "required": false,
+                    "title": "Elevation (dp)",
+                    "type": "kotlin.Int",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "appIconColor": "#1A73E8",
+                    "name": "Google Maps",
+                    "packageName": "com.google.android.apps.maps",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.36.04.973607363"
+                        }
+                    ],
+                    "versions": [
+                        "26.36.04.973607363"
+                    ]
+                }
+            ],
+            "default": true,
             "dependencies": [
                 "BytecodePatch",
                 "BytecodePatch",
@@ -400,7 +434,7 @@
                 "BytecodePatch",
                 "BytecodePatch"
             ],
-            "description": "Adds +, − and reset tiles during turn-by-turn that change the navigation zoom while the camera keeps following the car. Elevates right-side navigation buttons above media player panel.",
+            "description": "Adds +, − and reset tiles during turn-by-turn that change the navigation zoom while the camera keeps following the car.",
             "name": "Zoom controls in navigation",
             "options": []
         }

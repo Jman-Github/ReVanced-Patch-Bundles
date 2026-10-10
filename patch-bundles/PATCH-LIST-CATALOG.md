@@ -364,7 +364,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [ggyasin](#-ggyasin-bundle-patch-list) | 9 | 3 | Generated |
 | [den-patch](#-den-patch-bundle-patch-list) | 3 | 2 | Generated |
 | [qqmusic-proxy](#-qqmusic-proxy-bundle-patch-list) | - | - | Pending patch list |
-| [bartlomiejfornalczyk](#-bartlomiejfornalczyk-bundle-patch-list) | 14 | 2 | Generated |
+| [bartlomiejfornalczyk](#-bartlomiejfornalczyk-bundle-patch-list) | 15 | 2 | Generated |
 | [uyu](#-uyu-bundle-patch-list) | 7 | 1 | Generated |
 | [hushmessenger](#-hushmessenger-bundle-patch-list) | 43 | 1 | Generated |
 | [lawnchair](#-lawnchair-bundle-patch-list) | - | - | Pending patch list |
@@ -11657,7 +11657,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 bartlomiejfornalczyk Bundle Patch List:
 [📦 Bartlomiejfornalczyk-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-bartlomiejfornalczyk-patches-bundle-morphe)
 <details>
-<summary><b>bartlomiejfornalczyk</b> - 14 patches, 2 apps</summary>
+<summary><b>bartlomiejfornalczyk</b> - 15 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -11668,12 +11668,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Bypass Play Services checks``` | ```Makes Maps' bundled Play services signature and availability checks always pass, so it runs re-signed and with Play services disabled or absent, and lets it load tiles, search and routing by sending Google's own package and certificate in the identity headers the Maps backend checks. Where Play services rejects the re-signed app, Maps degrades instead of crashing.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Change package name``` | ```Installs alongside stock Google Maps under its own package name and adds MicroG spoofing.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Customization screen``` | ```Adds a Customization row under Settings on the account sheet, with switches for the patches here that can be turned back off inside the app.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Elevate right navigation buttons``` | ```Elevates the right-side navigation buttons (Search, Sound, Report, Media) above the media player and bottom panel during turn-by-turn navigation in portrait mode.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Location provider toggle``` | ```Adds a Location source choice to the Customization screen: Android's own location providers, microG's (microg Services) or Google Play services' fused provider. With Android, neither is ever asked for a location. A source that is missing or disabled is never used, so location keeps working without it. Also keeps the network (Wi-Fi/cell) provider registered when no fused provider answers, instead of GPS only, so a fix does not go stale indoors.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Power saving mode``` | ```Brings the Pixel-only power saving mode to every phone: while driving with navigation, press the power button and Maps shows only key information such as the next turn on a black screen. Turn it on or off in Settings > Navigation > Power saving mode. Pixels that have it built in keep Google's own version unless Power saving mode is turned on in Power Saving Options, a row on the account sheet under Customization, which also has: a navigation button that opens the power saving screen without locking the phone, switching to it by itself when idle, a speedometer on it, a lower frame rate, and its black map in navigation or all over Maps.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Remove permissions``` | ```Removes permissions that only serve Google-account features or Google's data collection: background location, physical activity, contacts, microphone (voice search stops working), camera (Lens and Live View stop working), car speed, advertising ID, push messages and Google services settings. Left out with Add microG support, whose account features need them.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Remove telemetry``` | ```Points the Firebase Installations and Play services compliance check-ins at an unresolvable host, stops every ad impression and click ping from being sent, and deregisters Google's logging, performance-monitoring, survey and Location History libraries and the on-device federated-learning services.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Restore map data``` | ```Lets a re-signed Maps load tiles, search and routing, by sending Google's own package and certificate.``` | ```Google Maps``` | ```26.36.04.973607363``` |
-| ```Zoom controls in navigation``` | ```Adds +, − and reset tiles during turn-by-turn that change the navigation zoom while the camera keeps following the car. Elevates right-side navigation buttons above media player panel.``` | ```Google Maps``` | ```26.36.04.973607363``` |
+| ```Zoom controls in navigation``` | ```Adds +, − and reset tiles during turn-by-turn that change the navigation zoom while the camera keeps following the car.``` | ```Google Maps``` | ```26.36.04.973607363``` |
 | ```Allow external media browser connections``` | ```Allows Google Maps, Android Auto, and third-party media controllers to connect to YouTube Music.``` | ```YouTube Music``` | ```All versions``` |
 
 </details>
