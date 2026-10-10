@@ -1,0 +1,2918 @@
+[
+  {
+    "bundle_id": "ca7e5b5f957739fe8164e019",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#1DB954",
+        "name": "Spotify",
+        "packageName": "com.spotify.music",
+        "targets": [
+          {
+            "description": "Experimental Android customization patches; runtime compatibility is still being verified.",
+            "isExperimental": true,
+            "version": "9.1.80.2221",
+            "versionCodes": {
+              "ARM64_V8A": 145767611
+            }
+          }
+        ],
+        "versions": [
+          "9.1.80.2221"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hides the Premium navigation tab. Change this in Spicetify settings, then restart Spotify. Does not change your subscription or remove other ads.",
+    "id": "ca7e5b5f957739fe8164e019:3",
+    "legacy_id": 9872,
+    "metadata_status": "unverified",
+    "name": "Hide Premium tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "Spotify",
+        "versions": [
+          "9.1.80.2221"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "b15ce22bc0e09560"
+  },
+  {
+    "bundle_id": "ca7e5b5f957739fe8164e019",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#1DB954",
+        "name": "Spotify",
+        "packageName": "com.spotify.music",
+        "targets": [
+          {
+            "description": "Experimental Android customization patches; runtime compatibility is still being verified.",
+            "isExperimental": true,
+            "version": "9.1.80.2221",
+            "versionCodes": {
+              "ARM64_V8A": 145767611
+            }
+          }
+        ],
+        "versions": [
+          "9.1.80.2221"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Streams audio from an HTTPS WebDAV folder or Jellyfin music library into Local Files and Your Library. Configure the server in Spicetify settings; playback needs Spotify's Local audio files setting. Experimental; requires byte-range support. Not available for root mount installs.",
+    "id": "ca7e5b5f957739fe8164e019:4",
+    "legacy_id": 9873,
+    "metadata_status": "unverified",
+    "name": "Local files from a server",
+    "options": [],
+    "packages": [
+      {
+        "name": "Spotify",
+        "versions": [
+          "9.1.80.2221"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "b15ce22bc0e09560"
+  },
+  {
+    "bundle_id": "ca7e5b5f957739fe8164e019",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#1DB954",
+        "name": "Spotify",
+        "packageName": "com.spotify.music",
+        "targets": [
+          {
+            "description": "Experimental Android customization patches; runtime compatibility is still being verified.",
+            "isExperimental": true,
+            "version": "9.1.80.2221",
+            "versionCodes": {
+              "ARM64_V8A": 145767611
+            }
+          }
+        ],
+        "versions": [
+          "9.1.80.2221"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Choose which of Spotify's Home shortcuts appear first in Spicetify settings. Pins are saved on this device. Restart Spotify after changing pins.",
+    "id": "ca7e5b5f957739fe8164e019:5",
+    "legacy_id": 9874,
+    "metadata_status": "unverified",
+    "name": "Pin shortcuts on Home",
+    "options": [],
+    "packages": [
+      {
+        "name": "Spotify",
+        "versions": [
+          "9.1.80.2221"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "b15ce22bc0e09560"
+  },
+  {
+    "bundle_id": "ca7e5b5f957739fe8164e019",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#1DB954",
+        "name": "Spotify",
+        "packageName": "com.spotify.music",
+        "targets": [
+          {
+            "description": "Experimental Android customization patches; runtime compatibility is still being verified.",
+            "isExperimental": true,
+            "version": "9.1.80.2221",
+            "versionCodes": {
+              "ARM64_V8A": 145767611
+            }
+          }
+        ],
+        "versions": [
+          "9.1.80.2221"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Choose a theme, such as OLED, or your own colors in Spicetify settings. Requires Android 11 or later. Some screens and hardcoded colors keep Spotify's colors.",
+    "id": "ca7e5b5f957739fe8164e019:6",
+    "legacy_id": 9875,
+    "metadata_status": "unverified",
+    "name": "Theme colors",
+    "options": [],
+    "packages": [
+      {
+        "name": "Spotify",
+        "versions": [
+          "9.1.80.2221"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "b15ce22bc0e09560"
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "com.calistree.calistree": [
+        "5.8.5",
+        "5.9.1"
+      ]
+    },
+    "dependencies": [
+      "Premium Unlock"
+    ],
+    "description": "Applies the 10 Dart AOT hex patches to libapp.so that unlock the native Pro gates.",
+    "id": "cb43a824caa6fba851303cd9:0",
+    "legacy_id": 9876,
+    "metadata_status": "verified",
+    "name": "Dart Pro gates (libapp.so)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.calistree.calistree",
+        "versions": [
+          "5.8.5",
+          "5.9.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "bin.mt.plus": [
+        "2.26.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Self-heals the empty file browser by listing the real filesystem into the active file source on first access.",
+    "id": "cb43a824caa6fba851303cd9:1",
+    "legacy_id": 9877,
+    "metadata_status": "verified",
+    "name": "Feed file browser data (extension)",
+    "options": [],
+    "packages": [
+      {
+        "name": "bin.mt.plus",
+        "versions": [
+          "2.26.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "bin.mt.plus": [
+        "2.26.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Seeds the visible file browser's tab getters with the real directory listing via the MtTools extension, so the slide panel renders all files instead of only the breadcrumb.",
+    "id": "cb43a824caa6fba851303cd9:2",
+    "legacy_id": 9878,
+    "metadata_status": "verified",
+    "name": "Feed slide-panel file list (extension)",
+    "options": [],
+    "packages": [
+      {
+        "name": "bin.mt.plus",
+        "versions": [
+          "2.26.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "bin.mt.plus": [
+        "2.26.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Makes l.ۨ᩸ܰ.۟()Ljava/util/Map; return an empty HashMap instead of null to prevent Purchase-VIP / account screen crashes.",
+    "id": "cb43a824caa6fba851303cd9:3",
+    "legacy_id": 9879,
+    "metadata_status": "verified",
+    "name": "Fix account map getter",
+    "options": [],
+    "packages": [
+      {
+        "name": "bin.mt.plus",
+        "versions": [
+          "2.26.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "bin.mt.plus": [
+        "2.26.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces the node-factory mount check and node validation to pass so folders and file pickers populate.",
+    "id": "cb43a824caa6fba851303cd9:4",
+    "legacy_id": 9880,
+    "metadata_status": "verified",
+    "name": "Fix file listing (direct FileSource)",
+    "options": [],
+    "packages": [
+      {
+        "name": "bin.mt.plus",
+        "versions": [
+          "2.26.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "bin.mt.plus": [
+        "2.26.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Makes the file-browser onItemClick read the fed file list (l/ۤۚܳ.᩷()) instead of the stale warm-state list, fixing IndexOutOfBounds on row clicks.",
+    "id": "cb43a824caa6fba851303cd9:5",
+    "legacy_id": 9881,
+    "metadata_status": "verified",
+    "name": "Fix file-browser click (fed list)",
+    "options": [],
+    "packages": [
+      {
+        "name": "bin.mt.plus",
+        "versions": [
+          "2.26.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "bin.mt.plus": [
+        "2.26.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Makes l.ۗ᩺ܰ measure the pane at full available height and never translate it down, so all file rows render and scroll.",
+    "id": "cb43a824caa6fba851303cd9:6",
+    "legacy_id": 9882,
+    "metadata_status": "verified",
+    "name": "Fix file-browser pane geometry (full height + no shift)",
+    "options": [],
+    "packages": [
+      {
+        "name": "bin.mt.plus",
+        "versions": [
+          "2.26.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "bin.mt.plus": [
+        "2.26.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces l.ۗ᩺ܰ.addView to keep pane children VISIBLE so the file list renders.",
+    "id": "cb43a824caa6fba851303cd9:7",
+    "legacy_id": 9883,
+    "metadata_status": "verified",
+    "name": "Fix file-browser pane visibility",
+    "options": [],
+    "packages": [
+      {
+        "name": "bin.mt.plus",
+        "versions": [
+          "2.26.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "bin.mt.plus": [
+        "2.26.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Rebuilds l.ۤۚܳ.᩷() to return the real file list (native warm state) or feed real items via the MtTools extension on fresh installs, never NPEing the browser.",
+    "id": "cb43a824caa6fba851303cd9:8",
+    "legacy_id": 9884,
+    "metadata_status": "verified",
+    "name": "Fix file-browser status counter (self-feeding)",
+    "options": [],
+    "packages": [
+      {
+        "name": "bin.mt.plus",
+        "versions": [
+          "2.26.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "bin.mt.plus": [
+        "2.26.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces l.۠᩺ܳ rows to stay in the complex measure branch so file names and sub-text render instead of being 0-width.",
+    "id": "cb43a824caa6fba851303cd9:9",
+    "legacy_id": 9885,
+    "metadata_status": "verified",
+    "name": "Fix two-pane row text width (expanded rows)",
+    "options": [],
+    "packages": [
+      {
+        "name": "bin.mt.plus",
+        "versions": [
+          "2.26.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "bin.mt.plus": [
+        "2.26.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Makes l.᩷ۛܰ.ܿ() (VIP file-list variant) delegate to the working normal variant so ۘ()=true keeps file listing intact.",
+    "id": "cb43a824caa6fba851303cd9:10",
+    "legacy_id": 9886,
+    "metadata_status": "verified",
+    "name": "Fix VIP list variant",
+    "options": [],
+    "packages": [
+      {
+        "name": "bin.mt.plus",
+        "versions": [
+          "2.26.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "bin.mt.plus": [
+        "2.26.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Replaces l.ܳۚܰ.draw with a plain super call so the file browser's ListView always paints its rows.",
+    "id": "cb43a824caa6fba851303cd9:11",
+    "legacy_id": 9887,
+    "metadata_status": "verified",
+    "name": "Force file-browser ListView to draw rows (real target)",
+    "options": [],
+    "packages": [
+      {
+        "name": "bin.mt.plus",
+        "versions": [
+          "2.26.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "bin.mt.plus": [
+        "2.26.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Replaces l.ܳۚܰ.layoutChildren with a plain super call so the file browser's ListView lays out all its rows.",
+    "id": "cb43a824caa6fba851303cd9:12",
+    "legacy_id": 9888,
+    "metadata_status": "verified",
+    "name": "Force file-browser ListView to layout rows",
+    "options": [],
+    "packages": [
+      {
+        "name": "bin.mt.plus",
+        "versions": [
+          "2.26.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "bin.mt.plus": [
+        "2.26.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Replaces l.֡ۚܰ.dispatchDraw with a plain super call so the visible file list always paints its rows.",
+    "id": "cb43a824caa6fba851303cd9:13",
+    "legacy_id": 9889,
+    "metadata_status": "verified",
+    "name": "Force file-browser pane to draw rows",
+    "options": [],
+    "packages": [
+      {
+        "name": "bin.mt.plus",
+        "versions": [
+          "2.26.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "bin.mt.plus": [
+        "2.26.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Makes l.۬۟᩶.getBoolean return true for the user_agreement key so the EULA never re-shows.",
+    "id": "cb43a824caa6fba851303cd9:14",
+    "legacy_id": 9890,
+    "metadata_status": "verified",
+    "name": "Force User Agreement accepted",
+    "options": [],
+    "packages": [
+      {
+        "name": "bin.mt.plus",
+        "versions": [
+          "2.26.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "bin.mt.plus": [
+        "2.26.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Makes the app think you are logged into an MT account.",
+    "id": "cb43a824caa6fba851303cd9:15",
+    "legacy_id": 9891,
+    "metadata_status": "verified",
+    "name": "Login removal / bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "bin.mt.plus",
+        "versions": [
+          "2.26.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "bin.mt.plus": [
+        "2.26.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the RuntimeException self-verification throws in Main.<init>/onCreate.",
+    "id": "cb43a824caa6fba851303cd9:16",
+    "legacy_id": 9892,
+    "metadata_status": "verified",
+    "name": "Neutralize anti-tamper",
+    "options": [],
+    "packages": [
+      {
+        "name": "bin.mt.plus",
+        "versions": [
+          "2.26.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "bin.mt.plus": [
+        "2.26.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stubs K2M7 <clinit> canaries and patches the 39 native XOR keys / 12 bool flags to constants.",
+    "id": "cb43a824caa6fba851303cd9:17",
+    "legacy_id": 9893,
+    "metadata_status": "verified",
+    "name": "Patch native keys",
+    "options": [],
+    "packages": [
+      {
+        "name": "bin.mt.plus",
+        "versions": [
+          "2.26.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "com.calistree.calistree": [
+        "5.8.5",
+        "5.9.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all Calistree PRO features.",
+    "id": "cb43a824caa6fba851303cd9:18",
+    "legacy_id": 9894,
+    "metadata_status": "verified",
+    "name": "Premium Unlock",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.calistree.calistree",
+        "versions": [
+          "5.8.5",
+          "5.9.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "com.jeffprod.cubesolver": [
+        "5.0.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all puzzles.",
+    "id": "cb43a824caa6fba851303cd9:19",
+    "legacy_id": 9895,
+    "metadata_status": "verified",
+    "name": "Puzzles Unlock",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.jeffprod.cubesolver",
+        "versions": [
+          "5.0.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "bin.mt.plus": [
+        "2.26.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Reroutes Dex2Smali / Dex2Jar / Sign to pure-Java reimplementations bundled in the mtmanager extension.",
+    "id": "cb43a824caa6fba851303cd9:20",
+    "legacy_id": 9896,
+    "metadata_status": "verified",
+    "name": "Reimplement native tools (extension)",
+    "options": [],
+    "packages": [
+      {
+        "name": "bin.mt.plus",
+        "versions": [
+          "2.26.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "com.jeffprod.cubesolver": [
+        "5.0.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes ads.",
+    "id": "cb43a824caa6fba851303cd9:21",
+    "legacy_id": 9897,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.jeffprod.cubesolver",
+        "versions": [
+          "5.0.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "bin.mt.plus": [
+        "2.26.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Replaces all l.* native methods with safe Java defaults so the app no longer depends on native registration.",
+    "id": "cb43a824caa6fba851303cd9:22",
+    "legacy_id": 9898,
+    "metadata_status": "verified",
+    "name": "Stub native methods",
+    "options": [],
+    "packages": [
+      {
+        "name": "bin.mt.plus",
+        "versions": [
+          "2.26.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "com.locket.Locket": [
+        "1.235.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks Locket Gold by forcing the internal android_gold_subscription_override flag to true.",
+    "id": "cb43a824caa6fba851303cd9:23",
+    "legacy_id": 9899,
+    "metadata_status": "verified",
+    "name": "Unlock Locket Gold",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.locket.Locket",
+        "versions": [
+          "1.235.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "bin.mt.plus": [
+        "2.26.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks VIP features (FTP/SFTP/SMB/WebDav, MT_Protector, themes).",
+    "id": "cb43a824caa6fba851303cd9:24",
+    "legacy_id": 9900,
+    "metadata_status": "verified",
+    "name": "Unlock VIP",
+    "options": [],
+    "packages": [
+      {
+        "name": "bin.mt.plus",
+        "versions": [
+          "2.26.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": false
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "bin.mt.plus": [
+        "2.26.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Replaces all seven VIP getter methods on l.ۨ᩸ܰ to always return true.",
+    "id": "cb43a824caa6fba851303cd9:25",
+    "legacy_id": 9901,
+    "metadata_status": "verified",
+    "name": "Unlock VIP (methods)",
+    "options": [],
+    "packages": [
+      {
+        "name": "bin.mt.plus",
+        "versions": [
+          "2.26.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": true
+  },
+  {
+    "bundle_id": "cb43a824caa6fba851303cd9",
+    "compatiblePackages": {
+      "bin.mt.plus": [
+        "2.26.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces the four pure-Java VIP wrapper methods (l/ܽۜ.᩷ۢ᩶, l/ᩴ᩶.۫ۨۢ, l/᩵᩶.۠֫ۧ, l/᩸ۗ.᩹֡۫) to return true — splice-safe (no native methods touched).",
+    "id": "cb43a824caa6fba851303cd9:26",
+    "legacy_id": 9902,
+    "metadata_status": "verified",
+    "name": "Unlock VIP (wrappers)",
+    "options": [],
+    "packages": [
+      {
+        "name": "bin.mt.plus",
+        "versions": [
+          "2.26.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "75e46657fd655666",
+    "use": false
+  },
+  {
+    "bundle_id": "cb47668edf88c1b6a12bad6f",
+    "compatiblePackages": {
+      "com.eksiteknoloji.eksisozluk": null
+    },
+    "dependencies": [],
+    "description": "Removes Ekşi Sözlük ad placements and disables ad loading.",
+    "id": "cb47668edf88c1b6a12bad6f:0",
+    "legacy_id": 9903,
+    "metadata_status": "verified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.eksiteknoloji.eksisozluk",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v0.1.4",
+    "source_id": "c3ec0f0a357ad4b6",
+    "use": true
+  },
+  {
+    "bundle_id": "cb47668edf88c1b6a12bad6f",
+    "compatiblePackages": {
+      "com.eksiteknoloji.eksisozluk": null
+    },
+    "dependencies": [],
+    "description": "Opens external web links in the default browser instead of a Chrome Custom Tab.",
+    "id": "cb47668edf88c1b6a12bad6f:1",
+    "legacy_id": 9904,
+    "metadata_status": "verified",
+    "name": "Open external links in browser",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.eksiteknoloji.eksisozluk",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v0.1.4",
+    "source_id": "c3ec0f0a357ad4b6",
+    "use": true
+  },
+  {
+    "bundle_id": "cb4db6788b9cb40160bdf867",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#E53935",
+        "name": "SeriesGuide",
+        "packageName": "com.battlelancer.seriesguide",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2026.2.2"
+          },
+          {
+            "isExperimental": false,
+            "version": "2026.3.0"
+          },
+          {
+            "isExperimental": false,
+            "version": "2026.3.1"
+          },
+          {
+            "isExperimental": false,
+            "version": "2026.4.0"
+          },
+          {
+            "isExperimental": false,
+            "version": "2026.4.1"
+          },
+          {
+            "isExperimental": false,
+            "version": "2026.4.2"
+          },
+          {
+            "isExperimental": false,
+            "version": "2026.4.3"
+          }
+        ],
+        "versions": [
+          "2026.2.2",
+          "2026.3.0",
+          "2026.3.1",
+          "2026.4.0",
+          "2026.4.1",
+          "2026.4.2",
+          "2026.4.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all premium features.",
+    "id": "cb4db6788b9cb40160bdf867:0",
+    "legacy_id": 9905,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "SeriesGuide",
+        "versions": [
+          "2026.2.2",
+          "2026.3.0",
+          "2026.3.1",
+          "2026.4.0",
+          "2026.4.1",
+          "2026.4.2",
+          "2026.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.6",
+    "source_id": "76f53ee0efd4ed5a"
+  },
+  {
+    "bundle_id": "cb6dd78196439dba638665bb",
+    "compatiblePackages": {
+      "com.discord": [
+        "341.13 - Stable"
+      ]
+    },
+    "dependencies": [],
+    "description": "Revives the Bunny Discord client mod without Xposed or LSPosed.",
+    "id": "cb6dd78196439dba638665bb:0",
+    "legacy_id": 9906,
+    "metadata_status": "verified",
+    "name": "Bunny",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.discord",
+        "versions": [
+          "341.13 - Stable"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.4",
+    "source_id": "8eea2735ad37a834",
+    "use": true
+  },
+  {
+    "bundle_id": "cb6dd78196439dba638665bb",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "9.28.51",
+        "9.26.51",
+        "9.25.50",
+        "9.24.51"
+      ]
+    },
+    "dependencies": [],
+    "description": "Pins playlists to the top of the YouTube Music Library.",
+    "id": "cb6dd78196439dba638665bb:1",
+    "legacy_id": 9907,
+    "metadata_status": "verified",
+    "name": "Pin playlists",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "9.28.51",
+          "9.26.51",
+          "9.25.50",
+          "9.24.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.4",
+    "source_id": "8eea2735ad37a834",
+    "use": true
+  },
+  {
+    "bundle_id": "cb72708e9e29af2dc7ae4d8a",
+    "compatiblePackages": {
+      "com.glu.android.zombsniper": [
+        "3.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the annoying Daily Deal popup that shows at every launch. The deal is still in the store.",
+    "id": "cb72708e9e29af2dc7ae4d8a:0",
+    "legacy_id": 9908,
+    "metadata_status": "verified",
+    "name": "Hide Daily Deal popup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.glu.android.zombsniper",
+        "versions": [
+          "3.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.2",
+    "source_id": "ef4d918e562fdc8d",
+    "use": true
+  },
+  {
+    "bundle_id": "cb72708e9e29af2dc7ae4d8a",
+    "compatiblePackages": {
+      "com.glu.android.zombsniper": [
+        "3.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Fixes the crash at launch on current Android and targets API 25 so that Android 14 and later install the game normally. The game is 32-bit only, so the device must still run 32-bit apps.",
+    "id": "cb72708e9e29af2dc7ae4d8a:1",
+    "legacy_id": 9909,
+    "metadata_status": "verified",
+    "name": "Modern Android compatibility",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.glu.android.zombsniper",
+        "versions": [
+          "3.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.2",
+    "source_id": "ef4d918e562fdc8d",
+    "use": true
+  },
+  {
+    "bundle_id": "cb72708e9e29af2dc7ae4d8a",
+    "compatiblePackages": {
+      "com.glu.android.zombsniper": [
+        "3.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Plays the intro video on the first launch after installing, and skips it after that.",
+    "id": "cb72708e9e29af2dc7ae4d8a:2",
+    "legacy_id": 9910,
+    "metadata_status": "verified",
+    "name": "Play intro once",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.glu.android.zombsniper",
+        "versions": [
+          "3.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.2",
+    "source_id": "ef4d918e562fdc8d",
+    "use": true
+  },
+  {
+    "bundle_id": "cb72708e9e29af2dc7ae4d8a",
+    "compatiblePackages": {
+      "com.glu.android.zombsniper": [
+        "3.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes permissions the game no longer needs, such as phone and accounts, along with the dead services that needed them.",
+    "id": "cb72708e9e29af2dc7ae4d8a:3",
+    "legacy_id": 9911,
+    "metadata_status": "verified",
+    "name": "Remove unused permissions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.glu.android.zombsniper",
+        "versions": [
+          "3.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.2",
+    "source_id": "ef4d918e562fdc8d",
+    "use": true
+  },
+  {
+    "bundle_id": "cb72708e9e29af2dc7ae4d8a",
+    "compatiblePackages": {
+      "com.glu.android.zombsniper": [
+        "3.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Makes the menus, text and pictures full size on screens above 720p, where they are otherwise small. Menus are drawn at 720p and stretched to the screen, so they look slightly blurry. The 3D gameplay keeps the screen's own resolution and stays sharp.",
+    "id": "cb72708e9e29af2dc7ae4d8a:4",
+    "legacy_id": 9912,
+    "metadata_status": "verified",
+    "name": "Render at 720p",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.glu.android.zombsniper",
+        "versions": [
+          "3.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.2",
+    "source_id": "ef4d918e562fdc8d",
+    "use": true
+  },
+  {
+    "bundle_id": "cb72708e9e29af2dc7ae4d8a",
+    "compatiblePackages": {
+      "com.glu.android.zombsniper": [
+        "3.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the stutter while firing, caused by the game building a new audio player for every sound.",
+    "id": "cb72708e9e29af2dc7ae4d8a:5",
+    "legacy_id": 9913,
+    "metadata_status": "verified",
+    "name": "Smooth sound",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.glu.android.zombsniper",
+        "versions": [
+          "3.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.2",
+    "source_id": "ef4d918e562fdc8d",
+    "use": true
+  },
+  {
+    "bundle_id": "cb72708e9e29af2dc7ae4d8a",
+    "compatiblePackages": {
+      "com.glu.android.zombsniper": [
+        "3.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the 30 second wait on the loading screen and the daily offline message, and stops the game from contacting Tapjoy, OpenFeint and Glu's dead servers.",
+    "id": "cb72708e9e29af2dc7ae4d8a:6",
+    "legacy_id": 9914,
+    "metadata_status": "verified",
+    "name": "Stop requests to dead servers",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.glu.android.zombsniper",
+        "versions": [
+          "3.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.2",
+    "source_id": "ef4d918e562fdc8d",
+    "use": true
+  },
+  {
+    "bundle_id": "cb72708e9e29af2dc7ae4d8a",
+    "compatiblePackages": {
+      "com.glu.android.zombsniper": [
+        "3.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "A fresh install starts with 999,999,999 Glu credits and 999,999,999 Cash. If you install the patched app as an update, your current balance stays as it is.",
+    "id": "cb72708e9e29af2dc7ae4d8a:7",
+    "legacy_id": 9915,
+    "metadata_status": "verified",
+    "name": "Unlimited currency",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.glu.android.zombsniper",
+        "versions": [
+          "3.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.2",
+    "source_id": "ef4d918e562fdc8d",
+    "use": true
+  },
+  {
+    "bundle_id": "cbca3e64dd22b80e86c3c749",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "8.51.51"
+      ],
+      "com.google.android.youtube": [
+        "20.51.39"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces a higher display density for this app only, so the whole UI scales up without changing the system density. Intended for low-dpi devices such as Meta Portal (160 dpi).",
+    "id": "cbca3e64dd22b80e86c3c749:0",
+    "legacy_id": 9916,
+    "metadata_status": "verified",
+    "name": "Custom DPI",
+    "options": [
+      {
+        "default": 240,
+        "description": "Forced display density in dots-per-inch for this app only. 160 = system default (mdpi), 240 is roughly 1.5x larger. Range 96-640.",
+        "key": "dpi",
+        "required": false,
+        "title": "Custom DPI",
+        "type": "kotlin.Long",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "8.51.51"
+        ]
+      },
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.51.39"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.3",
+    "source_id": "d295e69db5ad855d",
+    "use": false
+  },
+  {
+    "bundle_id": "cbca3e64dd22b80e86c3c749",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "8.51.51"
+      ],
+      "com.google.android.youtube": [
+        "20.51.39"
+      ]
+    },
+    "dependencies": [],
+    "description": "Overrides the app versionName so a re-patched build of the same upstream version is recognised as a new version. Lets patch-only changes propagate as updates even when the upstream YouTube/YT Music version is unchanged.",
+    "id": "cbca3e64dd22b80e86c3c749:1",
+    "legacy_id": 9917,
+    "metadata_status": "verified",
+    "name": "Custom version name",
+    "options": [
+      {
+        "default": "",
+        "description": "Full value written to android:versionName, e.g. \"20.51.39+1781904670\". Use a monotonic numeric suffix so newer builds compare greater.",
+        "key": "versionName",
+        "required": false,
+        "title": "Version name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "8.51.51"
+        ]
+      },
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.51.39"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.3",
+    "source_id": "d295e69db5ad855d",
+    "use": false
+  },
+  {
+    "bundle_id": "cbca3e64dd22b80e86c3c749",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "8.51.51"
+      ],
+      "com.google.android.youtube": [
+        "20.51.39"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the morphe experimental-version warning dialog, which otherwise nags on every re-patched build whose version differs from the recommended one.",
+    "id": "cbca3e64dd22b80e86c3c749:2",
+    "legacy_id": 9918,
+    "metadata_status": "verified",
+    "name": "Disable experimental notice",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "8.51.51"
+        ]
+      },
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.51.39"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.3",
+    "source_id": "d295e69db5ad855d",
+    "use": false
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.strava": [
+        "477.14"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a button that triggers the same action as shaking your phone would.",
+    "id": "cc872086f88a6eebfcf5489a:0",
+    "legacy_id": 9919,
+    "metadata_status": "verified",
+    "name": "Add 'Give Kudos' button to 'Group Activity'",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.strava",
+        "versions": [
+          "477.14"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.strava": [
+        "477.14"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an \"Export GPX\" item to the activity overflow menu, which saves the activity's GPS track as a GPX file in Downloads/Strava.",
+    "id": "cc872086f88a6eebfcf5489a:1",
+    "legacy_id": 9920,
+    "metadata_status": "verified",
+    "name": "Add activity export",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.strava",
+        "versions": [
+          "477.14"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.strava": [
+        "477.14"
+      ]
+    },
+    "dependencies": [],
+    "description": "Extends the full-screen media viewer menu with items to copy or open their URLs or download them directly.",
+    "id": "cc872086f88a6eebfcf5489a:2",
+    "legacy_id": 9921,
+    "metadata_status": "verified",
+    "name": "Add media download",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.strava",
+        "versions": [
+          "477.14"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.strava": [
+        "477.14"
+      ]
+    },
+    "dependencies": [],
+    "description": "Allows exporting and downloading Strava routes as GPX or TCX files directly from the app.",
+    "id": "cc872086f88a6eebfcf5489a:3",
+    "legacy_id": 9922,
+    "metadata_status": "verified",
+    "name": "Add route export",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.strava",
+        "versions": [
+          "477.14"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.amazon.mShop.android.shopping": null
+    },
+    "dependencies": [],
+    "description": "Open Amazon links, even if the app is not set to handle Amazon links.",
+    "id": "cc872086f88a6eebfcf5489a:4",
+    "legacy_id": 9923,
+    "metadata_status": "verified",
+    "name": "Always allow deep-linking",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.amazon.mShop.android.shopping",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "580.0.0.51.74"
+      ]
+    },
+    "dependencies": [],
+    "description": "Makes Facebook's native dark themes use pure-black AMOLED surfaces.",
+    "id": "cc872086f88a6eebfcf5489a:5",
+    "legacy_id": 9924,
+    "metadata_status": "verified",
+    "name": "AMOLED dark theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "580.0.0.51.74"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "tv.twitch.android.app": [
+        "16.9.1",
+        "25.3.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Automatically claim Channel Points.",
+    "id": "cc872086f88a6eebfcf5489a:6",
+    "legacy_id": 9925,
+    "metadata_status": "verified",
+    "name": "Auto claim channel points",
+    "options": [],
+    "packages": [
+      {
+        "name": "tv.twitch.android.app",
+        "versions": [
+          "16.9.1",
+          "25.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "tv.twitch.android.app": [
+        "16.9.1",
+        "25.3.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Blocks audio ads in streams and VODs.",
+    "id": "cc872086f88a6eebfcf5489a:7",
+    "legacy_id": 9926,
+    "metadata_status": "verified",
+    "name": "Block audio ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "tv.twitch.android.app",
+        "versions": [
+          "16.9.1",
+          "25.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "tv.twitch.android.app": [
+        "16.9.1",
+        "25.3.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Blocks embedded stream ads using services like Luminous or PurpleAdBlocker.",
+    "id": "cc872086f88a6eebfcf5489a:8",
+    "legacy_id": 9927,
+    "metadata_status": "verified",
+    "name": "Block embedded ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "tv.twitch.android.app",
+        "versions": [
+          "16.9.1",
+          "25.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.strava": [
+        "477.14"
+      ]
+    },
+    "dependencies": [],
+    "description": "Blocks Snowplow analytics. See https://snowplow.io for more information.",
+    "id": "cc872086f88a6eebfcf5489a:9",
+    "legacy_id": 9928,
+    "metadata_status": "verified",
+    "name": "Block Snowplow tracking",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.strava",
+        "versions": [
+          "477.14"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "tv.twitch.android.app": [
+        "16.9.1",
+        "25.3.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Blocks video ads in streams and VODs.",
+    "id": "cc872086f88a6eebfcf5489a:10",
+    "legacy_id": 9929,
+    "metadata_status": "verified",
+    "name": "Block video ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "tv.twitch.android.app",
+        "versions": [
+          "16.9.1",
+          "25.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.adobe.photoshopmix": null
+    },
+    "dependencies": [],
+    "description": "Allows the use of the app after its discontinuation.",
+    "id": "cc872086f88a6eebfcf5489a:11",
+    "legacy_id": 9930,
+    "metadata_status": "verified",
+    "name": "Bypass login",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.adobe.photoshopmix",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "580.0.0.51.74"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides Home Reels panels, the Stories tray, and exact recommendation feed units.",
+    "id": "cc872086f88a6eebfcf5489a:12",
+    "legacy_id": 9931,
+    "metadata_status": "verified",
+    "name": "Clean Home feed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "580.0.0.51.74"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Changes the app package name to allow installing the same app multiple times. By default \".morphe\" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.",
+    "id": "cc872086f88a6eebfcf5489a:13",
+    "legacy_id": 9932,
+    "metadata_status": "verified",
+    "name": "Clone app",
+    "options": [
+      {
+        "default": "Default",
+        "description": "The name of the package to rename the app to.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      },
+      {
+        "default": false,
+        "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "updatePermissions",
+        "required": false,
+        "title": "Update permissions",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "updateProviders",
+        "required": false,
+        "title": "Update providers",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": false
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "580.0.0.51.74"
+      ]
+    },
+    "dependencies": [
+      "AMOLED dark theme",
+      "Material You theme",
+      "Disable analytics and telemetry",
+      "Disable all ads",
+      "Optimize Facebook",
+      "Facebook signature compatibility",
+      "Media quality controls",
+      "Picture-in-picture",
+      "Clean Home feed",
+      "Disable auto refresh",
+      "Open Marketplace on launch"
+    ],
+    "description": "Adds De-Vanced controls to Facebook Profile Settings.",
+    "id": "cc872086f88a6eebfcf5489a:14",
+    "legacy_id": 9933,
+    "metadata_status": "verified",
+    "name": "De-Vanced Settings",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "580.0.0.51.74"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "tv.twitch.android.app": [
+        "16.9.1",
+        "25.3.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables Twitch's internal debugging mode.",
+    "id": "cc872086f88a6eebfcf5489a:15",
+    "legacy_id": 9934,
+    "metadata_status": "verified",
+    "name": "Debug mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "tv.twitch.android.app",
+        "versions": [
+          "16.9.1",
+          "25.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": false
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.myprog.hexedit": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "cc872086f88a6eebfcf5489a:16",
+    "legacy_id": 9935,
+    "metadata_status": "verified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.myprog.hexedit",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "580.0.0.51.74"
+      ]
+    },
+    "dependencies": [],
+    "description": "Blocks Facebook sponsored feed units, Stories ads, Reels ads, Marketplace ads, and Instant Games/Audience Network ads.",
+    "id": "cc872086f88a6eebfcf5489a:17",
+    "legacy_id": 9936,
+    "metadata_status": "verified",
+    "name": "Disable all ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "580.0.0.51.74"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "580.0.0.51.74"
+      ]
+    },
+    "dependencies": [],
+    "description": "Blocks Facebook Analytics2, Falco, Papaya, QPL, XAnalytics, crash/trace uploads, and attribution trackers.",
+    "id": "cc872086f88a6eebfcf5489a:18",
+    "legacy_id": 9937,
+    "metadata_status": "verified",
+    "name": "Disable analytics and telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "580.0.0.51.74"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "580.0.0.51.74"
+      ]
+    },
+    "dependencies": [],
+    "description": "Keeps the current feed position when you return to Facebook within ten minutes.",
+    "id": "cc872086f88a6eebfcf5489a:19",
+    "legacy_id": 9938,
+    "metadata_status": "verified",
+    "name": "Disable auto refresh",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "580.0.0.51.74"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.strava": [
+        "477.14"
+      ]
+    },
+    "dependencies": [],
+    "description": "Prevents the Quick Edit prompt from popping up.",
+    "id": "cc872086f88a6eebfcf5489a:20",
+    "legacy_id": 9939,
+    "metadata_status": "verified",
+    "name": "Disable Quick Edit",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.strava",
+        "versions": [
+          "477.14"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.facebook.orca": [
+        "573.0.0.44.88"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the indicator while typing a message.",
+    "id": "cc872086f88a6eebfcf5489a:21",
+    "legacy_id": 9940,
+    "metadata_status": "verified",
+    "name": "Disable typing indicator",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.orca",
+        "versions": [
+          "573.0.0.44.88"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "580.0.0.51.74"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a native-styled Download media action to Facebook Reels and Stories menus.",
+    "id": "cc872086f88a6eebfcf5489a:22",
+    "legacy_id": 9941,
+    "metadata_status": "verified",
+    "name": "Download Media",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "580.0.0.51.74"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.google.android.apps.photos": [
+        "7.92.0.977185651",
+        "7.80.0.929302933"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up.",
+    "id": "cc872086f88a6eebfcf5489a:23",
+    "legacy_id": 9942,
+    "metadata_status": "verified",
+    "name": "Enable DCIM folders backup control",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.photos",
+        "versions": [
+          "7.92.0.977185651",
+          "7.80.0.929302933"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": false
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.strava": [
+        "477.14"
+      ]
+    },
+    "dependencies": [],
+    "description": "Re-enables password login after having used an OTP code.",
+    "id": "cc872086f88a6eebfcf5489a:24",
+    "legacy_id": 9943,
+    "metadata_status": "verified",
+    "name": "Enable password login",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.strava",
+        "versions": [
+          "477.14"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "580.0.0.51.74"
+      ]
+    },
+    "dependencies": [],
+    "description": "Keeps Facebook first-party navigation working after signing with the established De-Vanced key.",
+    "id": "cc872086f88a6eebfcf5489a:25",
+    "legacy_id": 9944,
+    "metadata_status": "verified",
+    "name": "Facebook signature compatibility",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "580.0.0.51.74"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.google.android.apps.photos": [
+        "7.92.0.977185651",
+        "7.80.0.929302933"
+      ]
+    },
+    "dependencies": [],
+    "description": "Prevents Google Photos from clearing the selected account after cold start when using MicroG.",
+    "id": "cc872086f88a6eebfcf5489a:26",
+    "legacy_id": 9945,
+    "metadata_status": "verified",
+    "name": "Fix selected account persistence",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.photos",
+        "versions": [
+          "7.92.0.977185651",
+          "7.80.0.929302933"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "de.gmx.mobile.android.mail": null
+    },
+    "dependencies": [],
+    "description": "Enables the FreePhone menu in the navigation drawer even on devices that do not support eSIM.",
+    "id": "cc872086f88a6eebfcf5489a:27",
+    "legacy_id": 9946,
+    "metadata_status": "verified",
+    "name": "Force enable FreePhone",
+    "options": [],
+    "packages": [
+      {
+        "name": "de.gmx.mobile.android.mail",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.google.android.apps.photos": [
+        "7.92.0.977185651",
+        "7.80.0.929302933"
+      ]
+    },
+    "dependencies": [
+      "Clone app",
+      "Fix selected account persistence"
+    ],
+    "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
+    "id": "cc872086f88a6eebfcf5489a:28",
+    "legacy_id": 9947,
+    "metadata_status": "verified",
+    "name": "GmsCore support",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.photos",
+        "versions": [
+          "7.92.0.977185651",
+          "7.80.0.929302933"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.viber.voip": [
+        "25.9.2.0",
+        "26.1.2.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides ad banners between chats.",
+    "id": "cc872086f88a6eebfcf5489a:29",
+    "legacy_id": 9948,
+    "metadata_status": "verified",
+    "name": "Hide Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.viber.voip",
+        "versions": [
+          "25.9.2.0",
+          "26.1.2.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.drinkplusplus.angulus": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "cc872086f88a6eebfcf5489a:30",
+    "legacy_id": 9949,
+    "metadata_status": "verified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.drinkplusplus.angulus",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.cricbuzz.android": [
+        "6.24.01"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "cc872086f88a6eebfcf5489a:31",
+    "legacy_id": 9950,
+    "metadata_status": "verified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.cricbuzz.android",
+        "versions": [
+          "6.24.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "de.gmx.mobile.android.mail": null
+    },
+    "dependencies": [],
+    "description": "Hides sponsored ads.",
+    "id": "cc872086f88a6eebfcf5489a:32",
+    "legacy_id": 9951,
+    "metadata_status": "verified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "de.gmx.mobile.android.mail",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.letterboxd.letterboxd": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "cc872086f88a6eebfcf5489a:33",
+    "legacy_id": 9952,
+    "metadata_status": "verified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.letterboxd.letterboxd",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "nl.sanomamedia.android.nu": null
+    },
+    "dependencies": [],
+    "description": "Hide ads and sponsored articles in list pages and remove pre-roll ads on videos.",
+    "id": "cc872086f88a6eebfcf5489a:34",
+    "legacy_id": 9953,
+    "metadata_status": "verified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "nl.sanomamedia.android.nu",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.peacocktv.peacockandroid": [
+        "7.9.21"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides all video ads.",
+    "id": "cc872086f88a6eebfcf5489a:35",
+    "legacy_id": 9954,
+    "metadata_status": "verified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.peacocktv.peacockandroid",
+        "versions": [
+          "7.9.21"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "jp.pxv.android": [
+        "6.141.1",
+        "6.196.0"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "cc872086f88a6eebfcf5489a:36",
+    "legacy_id": 9955,
+    "metadata_status": "verified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "jp.pxv.android",
+        "versions": [
+          "6.141.1",
+          "6.196.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.strava": [
+        "477.14"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides elements that are not essential.",
+    "id": "cc872086f88a6eebfcf5489a:37",
+    "legacy_id": 9956,
+    "metadata_status": "verified",
+    "name": "Hide distractions",
+    "options": [
+      {
+        "default": true,
+        "description": "Elements that suggest you subscribe.",
+        "key": "upselling",
+        "required": true,
+        "title": "Upselling",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Elements that promote features, challenges, clubs, etc.",
+        "key": "promo",
+        "required": true,
+        "title": "Promotions",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Popular athletes, followers, people near you etc.",
+        "key": "followSuggestions",
+        "required": true,
+        "title": "Who to Follow",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Random challenges Strava wants you to join.",
+        "key": "challengeSuggestions",
+        "required": true,
+        "title": "Suggested Challenges",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Challenges your follows have joined.",
+        "key": "joinChallenge",
+        "required": true,
+        "title": "Join Challenge",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Clubs your follows have joined.",
+        "key": "joinClub",
+        "required": true,
+        "title": "Joined a club",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Your activity from X years ago",
+        "key": "activityLookback",
+        "required": true,
+        "title": "Activity lookback",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.strava",
+        "versions": [
+          "477.14"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.facebook.orca": [
+        "573.0.0.44.88"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides buttons and shortcuts that open Facebook.",
+    "id": "cc872086f88a6eebfcf5489a:38",
+    "legacy_id": 9957,
+    "metadata_status": "verified",
+    "name": "Hide Facebook buttons",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.orca",
+        "versions": [
+          "573.0.0.44.88"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.facebook.orca": [
+        "573.0.0.44.88"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides ads in inbox.",
+    "id": "cc872086f88a6eebfcf5489a:39",
+    "legacy_id": 9958,
+    "metadata_status": "verified",
+    "name": "Hide inbox ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.orca",
+        "versions": [
+          "573.0.0.44.88"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.facebook.orca": [
+        "573.0.0.44.88"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the stories and notes horizontal tray at the top of the inbox.",
+    "id": "cc872086f88a6eebfcf5489a:40",
+    "legacy_id": 9959,
+    "metadata_status": "verified",
+    "name": "Hide inbox stories and notes tray",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.orca",
+        "versions": [
+          "573.0.0.44.88"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.facebook.orca": [
+        "573.0.0.44.88"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides Home and Channels tabs between active now tray and chats.",
+    "id": "cc872086f88a6eebfcf5489a:41",
+    "legacy_id": 9960,
+    "metadata_status": "verified",
+    "name": "Hide inbox subtabs",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.orca",
+        "versions": [
+          "573.0.0.44.88"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.viber.voip": null
+    },
+    "dependencies": [],
+    "description": "Permanently hides navigation bar buttons, such as Explore and Marketplace.",
+    "id": "cc872086f88a6eebfcf5489a:42",
+    "legacy_id": 9961,
+    "metadata_status": "verified",
+    "name": "Hide navigation buttons",
+    "options": [
+      {
+        "default": true,
+        "description": "",
+        "key": "hideExplore",
+        "required": true,
+        "title": "hideExplore",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "",
+        "key": "hidePay",
+        "required": true,
+        "title": "hidePay",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "",
+        "key": "hideCamera",
+        "required": true,
+        "title": "hideCamera",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "",
+        "key": "hideMarketplace",
+        "required": true,
+        "title": "hideMarketplace",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.viber.voip",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": false
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.microsoft.office.officelens": null
+    },
+    "dependencies": [],
+    "description": "Hides the OneDrive migration prompt when opening Microsoft Office Lens.",
+    "id": "cc872086f88a6eebfcf5489a:43",
+    "legacy_id": 9962,
+    "metadata_status": "verified",
+    "name": "Hide OneDrive migration",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.microsoft.office.officelens",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "de.gmx.mobile.android.mail": null
+    },
+    "dependencies": [],
+    "description": "Hides the Premium upgrade button in the navigation drawer.",
+    "id": "cc872086f88a6eebfcf5489a:44",
+    "legacy_id": 9963,
+    "metadata_status": "verified",
+    "name": "Hide Premium upgrade button",
+    "options": [],
+    "packages": [
+      {
+        "name": "de.gmx.mobile.android.mail",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.microblink.photomath": null
+    },
+    "dependencies": [],
+    "description": "Prevents the update popup from showing up.",
+    "id": "cc872086f88a6eebfcf5489a:45",
+    "legacy_id": 9964,
+    "metadata_status": "verified",
+    "name": "Hide update popup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.microblink.photomath",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "580.0.0.51.74"
+      ]
+    },
+    "dependencies": [
+      "AMOLED dark theme"
+    ],
+    "description": "Tints Facebook's dark theme with the phone's wallpaper palette.",
+    "id": "cc872086f88a6eebfcf5489a:46",
+    "legacy_id": 9965,
+    "metadata_status": "verified",
+    "name": "Material You theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "580.0.0.51.74"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "580.0.0.51.74"
+      ]
+    },
+    "dependencies": [],
+    "description": "Applies De-Vanced resolution choices to Facebook Reels and video Stories.",
+    "id": "cc872086f88a6eebfcf5489a:47",
+    "legacy_id": 9966,
+    "metadata_status": "verified",
+    "name": "Media quality controls",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "580.0.0.51.74"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "580.0.0.51.74"
+      ]
+    },
+    "dependencies": [],
+    "description": "Namespaces Facebook's shared signature permissions so official Messenger installs beside a re-signed Facebook build.",
+    "id": "cc872086f88a6eebfcf5489a:48",
+    "legacy_id": 9967,
+    "metadata_status": "verified",
+    "name": "Messenger install compatibility",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "580.0.0.51.74"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.facebook.orca": [
+        "573.0.0.44.88"
+      ]
+    },
+    "dependencies": [],
+    "description": "Always opens links in your default browser instead of the in-app browser, regardless of the in-app setting.",
+    "id": "cc872086f88a6eebfcf5489a:49",
+    "legacy_id": 9968,
+    "metadata_status": "verified",
+    "name": "Open links externally",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.orca",
+        "versions": [
+          "573.0.0.44.88"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "580.0.0.51.74"
+      ]
+    },
+    "dependencies": [],
+    "description": "Opens Marketplace when Facebook is started from its launcher icon.",
+    "id": "cc872086f88a6eebfcf5489a:50",
+    "legacy_id": 9969,
+    "metadata_status": "verified",
+    "name": "Open Marketplace on launch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "580.0.0.51.74"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "580.0.0.51.74"
+      ]
+    },
+    "dependencies": [],
+    "description": "Suppresses explicit GC stalls, trims extension caches under memory pressure, and reduces render-time reflection.",
+    "id": "cc872086f88a6eebfcf5489a:51",
+    "legacy_id": 9970,
+    "metadata_status": "verified",
+    "name": "Optimize Facebook",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "580.0.0.51.74"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  },
+  {
+    "bundle_id": "cc872086f88a6eebfcf5489a",
+    "compatiblePackages": {
+      "com.strava": [
+        "477.14"
+      ]
+    },
+    "dependencies": [],
+    "description": "Overwrites the compression, resize and trim media (images and videos) parameters returned by Strava's server before upload.",
+    "id": "cc872086f88a6eebfcf5489a:52",
+    "legacy_id": 9971,
+    "metadata_status": "verified",
+    "name": "Overwrite media upload parameters",
+    "options": [
+      {
+        "default": null,
+        "description": "This is used as the JPEG quality setting (≤ 100).",
+        "key": "compressionQuality",
+        "required": false,
+        "title": "Compression quality (percent)",
+        "type": "kotlin.Int",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The maximum length (≤ 3600) of a video before it gets trimmed.",
+        "key": "maxDuration",
+        "required": false,
+        "title": "Max duration (seconds)",
+        "type": "kotlin.Long",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The image gets resized so that the smaller dimension (width/height) does not exceed this value (≤ 10000).",
+        "key": "maxSize",
+        "required": false,
+        "title": "Max size (pixels)",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.strava",
+        "versions": [
+          "477.14"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "0e7b44a26eb71702",
+    "use": true
+  }
+]

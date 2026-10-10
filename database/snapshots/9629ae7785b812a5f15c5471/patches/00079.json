@@ -1,0 +1,3443 @@
+[
+  {
+    "bundle_id": "ace4842af7319eeaf779d7e6",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "name": "1DM",
+        "packageName": "idm.internet.download.manager",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "18.2",
+            "versionCodes": {
+              "ARM64_V8A": 30249,
+              "ARMEABI_V7A": 30249,
+              "X86": 30249,
+              "X86_64": 30249
+            }
+          }
+        ],
+        "versions": [
+          "18.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Keep the home screen banner from loading, rotating, or rendering. The banner in the footer is Appodeal's, so the ad SDK is never brought up; 1DM's own promo banner, including the built-in \"install 1DM+\" ad and the server-driven fallback banner (defaultBannerViewNew), is suppressed at its source, never rendered, and its footer slot is collapsed.",
+    "id": "ace4842af7319eeaf779d7e6:4",
+    "legacy_id": 8130,
+    "metadata_status": "unverified",
+    "name": "Disable home screen ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "1DM",
+        "versions": [
+          "18.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.6.0-dev.26",
+    "source_id": "f218bb2079c09a36"
+  },
+  {
+    "bundle_id": "ace4842af7319eeaf779d7e6",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "ADM",
+        "packageName": "com.dv.adm",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "14.0.39",
+            "versionCodes": {
+              "ARM64_V8A": 140039,
+              "ARMEABI_V7A": 140039,
+              "X86": 140039,
+              "X86_64": 140039
+            }
+          }
+        ],
+        "versions": [
+          "14.0.39"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Skip ADM's automatic rating prompt. The menu item that opens the same dialog on request is left intact.",
+    "id": "ace4842af7319eeaf779d7e6:5",
+    "legacy_id": 8131,
+    "metadata_status": "unverified",
+    "name": "Disable rating prompts",
+    "options": [],
+    "packages": [
+      {
+        "name": "ADM",
+        "versions": [
+          "14.0.39"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.6.0-dev.26",
+    "source_id": "f218bb2079c09a36"
+  },
+  {
+    "bundle_id": "ace4842af7319eeaf779d7e6",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010,
+              "ARMEABI_V7A": 14388010,
+              "X86": 14388010,
+              "X86_64": 14388010
+            }
+          }
+        ],
+        "versions": [
+          "14.38.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Load the original full-resolution asset for pin images instead of the 736x rendition, at the cost of considerably more data.",
+    "id": "ace4842af7319eeaf779d7e6:6",
+    "legacy_id": 8132,
+    "metadata_status": "unverified",
+    "name": "Force original image download",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.38.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.6.0-dev.26",
+    "source_id": "f218bb2079c09a36"
+  },
+  {
+    "bundle_id": "ace4842af7319eeaf779d7e6",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "name": "Djezzy",
+        "packageName": "com.djezzy.internet",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.0.9",
+            "versionCodes": {
+              "ARM64_V8A": 40076,
+              "ARMEABI_V7A": 40076,
+              "X86": 40076,
+              "X86_64": 40076
+            }
+          }
+        ],
+        "versions": [
+          "3.0.9"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Make Djezzy's Walk & Win counter read 10,000 with no walk at all, by forcing the stored step total itself rather than the pedometer event stream. The card's figures are lifetime accumulators read back out of storage, so an event delivered before a walk is never counted.",
+    "id": "ace4842af7319eeaf779d7e6:7",
+    "legacy_id": 8133,
+    "metadata_status": "unverified",
+    "name": "Force Walk & Win steps to 10000",
+    "options": [],
+    "packages": [
+      {
+        "name": "Djezzy",
+        "versions": [
+          "3.0.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.6.0-dev.26",
+    "source_id": "f218bb2079c09a36"
+  },
+  {
+    "bundle_id": "ace4842af7319eeaf779d7e6",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010,
+              "ARMEABI_V7A": 14388010,
+              "X86": 14388010,
+              "X86_64": 14388010
+            }
+          }
+        ],
+        "versions": [
+          "14.38.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hide the suggested-topics section shown under a pin.",
+    "id": "ace4842af7319eeaf779d7e6:8",
+    "legacy_id": 8134,
+    "metadata_status": "unverified",
+    "name": "Hide \"Ideas you might love\" section",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.38.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.6.0-dev.26",
+    "source_id": "f218bb2079c09a36"
+  },
+  {
+    "bundle_id": "ace4842af7319eeaf779d7e6",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010,
+              "ARMEABI_V7A": 14388010,
+              "X86": 14388010,
+              "X86_64": 14388010
+            }
+          }
+        ],
+        "versions": [
+          "14.38.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hide the comments button on a pin, so comments cannot be opened from the pin.",
+    "id": "ace4842af7319eeaf779d7e6:9",
+    "legacy_id": 8135,
+    "metadata_status": "unverified",
+    "name": "Hide comments",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.38.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.6.0-dev.26",
+    "source_id": "f218bb2079c09a36"
+  },
+  {
+    "bundle_id": "ace4842af7319eeaf779d7e6",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010,
+              "ARMEABI_V7A": 14388010,
+              "X86": 14388010,
+              "X86_64": 14388010
+            }
+          }
+        ],
+        "versions": [
+          "14.38.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hide the create (+) button in the bottom navigation bar.",
+    "id": "ace4842af7319eeaf779d7e6:10",
+    "legacy_id": 8136,
+    "metadata_status": "unverified",
+    "name": "Hide Create nav button",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.38.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.6.0-dev.26",
+    "source_id": "f218bb2079c09a36"
+  },
+  {
+    "bundle_id": "ace4842af7319eeaf779d7e6",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010,
+              "ARMEABI_V7A": 14388010,
+              "X86": 14388010,
+              "X86_64": 14388010
+            }
+          }
+        ],
+        "versions": [
+          "14.38.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hide the notifications button in the bottom navigation bar.",
+    "id": "ace4842af7319eeaf779d7e6:11",
+    "legacy_id": 8137,
+    "metadata_status": "unverified",
+    "name": "Hide Notifications nav button",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.38.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.6.0-dev.26",
+    "source_id": "f218bb2079c09a36"
+  },
+  {
+    "bundle_id": "ace4842af7319eeaf779d7e6",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010,
+              "ARMEABI_V7A": 14388010,
+              "X86": 14388010,
+              "X86_64": 14388010
+            }
+          }
+        ],
+        "versions": [
+          "14.38.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hide the search button in the bottom navigation bar.",
+    "id": "ace4842af7319eeaf779d7e6:12",
+    "legacy_id": 8138,
+    "metadata_status": "unverified",
+    "name": "Hide Search nav button",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.38.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.6.0-dev.26",
+    "source_id": "f218bb2079c09a36"
+  },
+  {
+    "bundle_id": "ace4842af7319eeaf779d7e6",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "ADM",
+        "packageName": "com.dv.adm",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "14.0.39",
+            "versionCodes": {
+              "ARM64_V8A": 140039,
+              "ARMEABI_V7A": 140039,
+              "X86": 140039,
+              "X86_64": 140039
+            }
+          }
+        ],
+        "versions": [
+          "14.0.39"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Raise the download ceilings to 32 simultaneous downloads and 64 connections per download, and set torrent defaults to 500 global and 100 per torrent.",
+    "id": "ace4842af7319eeaf779d7e6:13",
+    "legacy_id": 8139,
+    "metadata_status": "unverified",
+    "name": "Increase connection limits",
+    "options": [],
+    "packages": [
+      {
+        "name": "ADM",
+        "versions": [
+          "14.0.39"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.6.0-dev.26",
+    "source_id": "f218bb2079c09a36"
+  },
+  {
+    "bundle_id": "ace4842af7319eeaf779d7e6",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010,
+              "ARMEABI_V7A": 14388010,
+              "X86": 14388010,
+              "X86_64": 14388010
+            }
+          }
+        ],
+        "versions": [
+          "14.38.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Add the \"Morphe\" entry to the Account Settings list, opening the Morphe settings screen.",
+    "id": "ace4842af7319eeaf779d7e6:14",
+    "legacy_id": 8140,
+    "metadata_status": "unverified",
+    "name": "Morphe settings entry",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.38.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.6.0-dev.26",
+    "source_id": "f218bb2079c09a36"
+  },
+  {
+    "bundle_id": "ace4842af7319eeaf779d7e6",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010,
+              "ARMEABI_V7A": 14388010,
+              "X86": 14388010,
+              "X86_64": 14388010
+            }
+          }
+        ],
+        "versions": [
+          "14.38.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Rename the reused string resource to \"Morphe\" in every shipped language, so the settings entry is identifiable.",
+    "id": "ace4842af7319eeaf779d7e6:15",
+    "legacy_id": 8141,
+    "metadata_status": "unverified",
+    "name": "Morphe settings screen (label)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.38.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.6.0-dev.26",
+    "source_id": "f218bb2079c09a36"
+  },
+  {
+    "bundle_id": "ace4842af7319eeaf779d7e6",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010,
+              "ARMEABI_V7A": 14388010,
+              "X86": 14388010,
+              "X86_64": 14388010
+            }
+          }
+        ],
+        "versions": [
+          "14.38.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Register the Morphe settings activity in the manifest, with an intent-filter for the morphe:// scheme.",
+    "id": "ace4842af7319eeaf779d7e6:16",
+    "legacy_id": 8142,
+    "metadata_status": "unverified",
+    "name": "Morphe settings screen (manifest)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.38.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.6.0-dev.26",
+    "source_id": "f218bb2079c09a36"
+  },
+  {
+    "bundle_id": "ace4842af7319eeaf779d7e6",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010,
+              "ARMEABI_V7A": 14388010,
+              "X86": 14388010,
+              "X86_64": 14388010
+            }
+          }
+        ],
+        "versions": [
+          "14.38.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Return a random advertising ID instead of the real one, so the app has no advertising identifier to hand to Pinterest or to any bundled tracker.",
+    "id": "ace4842af7319eeaf779d7e6:17",
+    "legacy_id": 8143,
+    "metadata_status": "unverified",
+    "name": "Neutralize advertising ID",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.38.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.6.0-dev.26",
+    "source_id": "f218bb2079c09a36"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "sksa.aa.customapps": [
+        "2.8.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks AAAD Pro subscription features by bypassing Stripe and Firebase subscription checks.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:0",
+    "legacy_id": 8144,
+    "metadata_status": "verified",
+    "name": "AAAD Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "sksa.aa.customapps",
+        "versions": [
+          "2.8.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "sksa.aa.customapps": [
+        "2.8.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables AAAD's anti-tamper, anti-debug, and integrity checks to allow running on patched installations.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:1",
+    "legacy_id": 8145,
+    "metadata_status": "verified",
+    "name": "AAAD Security Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "sksa.aa.customapps",
+        "versions": [
+          "2.8.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.facebook.orca": [
+        "576.0.0.47.92"
+      ]
+    },
+    "dependencies": [],
+    "description": "Allows screenshots and screen recording in all conversations including end-to-end encrypted ones.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:2",
+    "legacy_id": 8146,
+    "metadata_status": "verified",
+    "name": "Allow screen capture",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.orca",
+        "versions": [
+          "576.0.0.47.92"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.google.android.apps.photos": [
+        "7.92.0.977185651"
+      ]
+    },
+    "dependencies": [],
+    "description": "Makes Google Photos dark surfaces true black.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:3",
+    "legacy_id": 8147,
+    "metadata_status": "verified",
+    "name": "AMOLED dark theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.photos",
+        "versions": [
+          "7.92.0.977185651"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": false
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "org.telegram.messenger": [
+        "12.10.1"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.1"
+      ],
+      "org.telegram.plus": [
+        "12.10.1.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Prevents messages deleted by other users from being removed locally.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:4",
+    "legacy_id": 8148,
+    "metadata_status": "verified",
+    "name": "Anti-delete messages",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "org.telegram.plus",
+        "versions": [
+          "12.10.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "org.telegram.messenger": [
+        "12.10.1"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.1"
+      ],
+      "org.telegram.plus": [
+        "12.10.1.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Keeps view-once photos, videos and voice messages viewable indefinitely.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:5",
+    "legacy_id": 8149,
+    "metadata_status": "verified",
+    "name": "Anti-disappearing media",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "org.telegram.plus",
+        "versions": [
+          "12.10.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "org.telegram.messenger": [
+        "12.10.1"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.1"
+      ],
+      "org.telegram.plus": [
+        "12.10.1.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Blocks screenshot notifications from being sent to the other user.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:6",
+    "legacy_id": 8150,
+    "metadata_status": "verified",
+    "name": "Anti-screenshot notification",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "org.telegram.plus",
+        "versions": [
+          "12.10.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.facebook.orca": [
+        "576.0.0.47.92"
+      ]
+    },
+    "dependencies": [],
+    "description": "Prevents Messenger from notifying other participants when you take a screenshot or screen recording.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:7",
+    "legacy_id": 8151,
+    "metadata_status": "verified",
+    "name": "Block screenshot detection",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.orca",
+        "versions": [
+          "576.0.0.47.92"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "org.telegram.messenger": [
+        "12.10.1"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.1"
+      ],
+      "org.telegram.plus": [
+        "12.10.1.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Allows opening, viewing, saving and forwarding content from restricted, sensitive, and copyright-restricted channels.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:8",
+    "legacy_id": 8152,
+    "metadata_status": "verified",
+    "name": "Bypass channel restrictions",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "org.telegram.plus",
+        "versions": [
+          "12.10.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "org.telegram.messenger": [
+        "12.10.1"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.1"
+      ],
+      "org.telegram.plus": [
+        "12.10.1.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Allows saving and forwarding content from restricted channels, chats, and users.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:9",
+    "legacy_id": 8153,
+    "metadata_status": "verified",
+    "name": "Bypass content restrictions",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "org.telegram.plus",
+        "versions": [
+          "12.10.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "org.telegram.messenger": [
+        "12.10.1"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.1"
+      ],
+      "org.telegram.plus": [
+        "12.10.1.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Spoofs certificate fingerprint and SafetyNet results so login works on patched APK.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:10",
+    "legacy_id": 8154,
+    "metadata_status": "verified",
+    "name": "Bypass integrity check",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "org.telegram.plus",
+        "versions": [
+          "12.10.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.king.moja": [
+        "9.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bypasses DNS blocker gate and tamper class detection.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:11",
+    "legacy_id": 8155,
+    "metadata_status": "verified",
+    "name": "Bypass Protections",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.king.moja",
+        "versions": [
+          "9.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.google.android.apps.photos": [
+        "7.92.0.977185651"
+      ]
+    },
+    "dependencies": [],
+    "description": "Installs Google Photos beside the system Photos app by changing package, permissions, providers, and app name.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:12",
+    "legacy_id": 8156,
+    "metadata_status": "verified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "app.morphe.android.apps.photos",
+        "description": "Package name for the cloned Google Photos app.",
+        "key": "googlePhotosPackageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "Photos Morphe",
+        "description": "Launcher name for the cloned Google Photos app.",
+        "key": "googlePhotosAppName",
+        "required": true,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.apps.photos",
+        "versions": [
+          "7.92.0.977185651"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.facebook.orca": [
+        "576.0.0.47.92"
+      ]
+    },
+    "dependencies": [],
+    "description": "Installs Messenger beside the original by renaming the manifest package and provider authorities, removing duplicate permission declarations.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:13",
+    "legacy_id": 8157,
+    "metadata_status": "verified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "app.morphe.messenger.orca",
+        "description": "Package name for the cloned Messenger app.",
+        "key": "messengerPackageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "Messenger Morphe",
+        "description": "Launcher label for the cloned Messenger.",
+        "key": "messengerAppName",
+        "required": true,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.facebook.orca",
+        "versions": [
+          "576.0.0.47.92"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.google.android.apps.photos": [
+        "7.92.0.977185651"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to replace the Google Photos launcher icon.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:14",
+    "legacy_id": 8158,
+    "metadata_status": "verified",
+    "name": "Custom branding",
+    "options": [
+      {
+        "default": null,
+        "description": "Folder containing a Morphe adaptive icon set.\n\nSupported density folders:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach included density folder must contain:\n- morphe_adaptive_background_custom.png\n- morphe_adaptive_foreground_custom.png\n\nOptional themed icon:\n- drawable/morphe_adaptive_monochrome_custom.xml",
+        "key": "customIcon",
+        "required": true,
+        "title": "Custom icon",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.apps.photos",
+        "versions": [
+          "7.92.0.977185651"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": false
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.amazon.mShop.android.shopping": [
+        "32.17.0.100"
+      ],
+      "in.amazon.mShop.android.shopping": [
+        "32.17.0.300"
+      ]
+    },
+    "dependencies": [],
+    "description": "Force dark mode for Amazon Shopping.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:15",
+    "legacy_id": 8159,
+    "metadata_status": "verified",
+    "name": "Dark mode",
+    "options": [
+      {
+        "default": "follow_system",
+        "description": "Off / Follow system / Always on.",
+        "key": "amazonDarkMode",
+        "required": false,
+        "title": "Dark mode",
+        "type": "kotlin.String",
+        "values": {
+          "Always on": "on",
+          "Follow system": "follow_system",
+          "Off": "off"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.amazon.mShop.android.shopping",
+        "versions": [
+          "32.17.0.100"
+        ]
+      },
+      {
+        "name": "in.amazon.mShop.android.shopping",
+        "versions": [
+          "32.17.0.300"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.feeperfect.airsend.android": [
+        "6.10.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables AdMob interstitial and banner ads.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:16",
+    "legacy_id": 8160,
+    "metadata_status": "verified",
+    "name": "Disable Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.feeperfect.airsend.android",
+        "versions": [
+          "6.10.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "org.telegram.plus": [
+        "12.10.1.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Blocks Firebase analytics and event tracking in Telegram Plus. FirebaseApp.initializeApp() is preserved so push notifications keep working.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:17",
+    "legacy_id": 8161,
+    "metadata_status": "verified",
+    "name": "Disable analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.plus",
+        "versions": [
+          "12.10.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.cloudflare.onedotonedotonedotone": [
+        "6.38.9"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables all Cloudflare telemetry by no-oping the analytics bundle builder and the Firebase event dispatchers.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:18",
+    "legacy_id": 8162,
+    "metadata_status": "verified",
+    "name": "Disable Analytics / Telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.cloudflare.onedotonedotonedotone",
+        "versions": [
+          "6.38.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "org.telegram.messenger": [
+        "12.10.1"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.1"
+      ],
+      "org.telegram.plus": [
+        "12.10.1.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables automatic app update checks, the blocking update screen, and the proxy sponsor channel insertion. On Telegram Plus also disables the Plus-specific updater and update settings flag.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:19",
+    "legacy_id": 8163,
+    "metadata_status": "verified",
+    "name": "Disable auto-update",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "org.telegram.plus",
+        "versions": [
+          "12.10.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "org.telegram.messenger": [
+        "12.10.1"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.1"
+      ],
+      "org.telegram.plus": [
+        "12.10.1.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the pull-down gesture that switches to the next unread channel.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:20",
+    "legacy_id": 8164,
+    "metadata_status": "verified",
+    "name": "Disable channel switching",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "org.telegram.plus",
+        "versions": [
+          "12.10.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.facebook.orca": [
+        "576.0.0.47.92"
+      ]
+    },
+    "dependencies": [],
+    "description": "Sends photos and videos at original quality without re-encoding.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:21",
+    "legacy_id": 8165,
+    "metadata_status": "verified",
+    "name": "Disable media transcoding",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.orca",
+        "versions": [
+          "576.0.0.47.92"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables PairIP license verification, VM checks, and repeated background checks.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:22",
+    "legacy_id": 8166,
+    "metadata_status": "verified",
+    "name": "Disable PairIP license check",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": false
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.amazon.mShop.android.shopping": [
+        "32.17.0.100"
+      ],
+      "in.amazon.mShop.android.shopping": [
+        "32.17.0.300"
+      ]
+    },
+    "dependencies": [],
+    "description": "Prevents search keypress and focus events from being sent with suggestion requests.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:23",
+    "legacy_id": 8167,
+    "metadata_status": "verified",
+    "name": "Disable search suggestions tracking",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.amazon.mShop.android.shopping",
+        "versions": [
+          "32.17.0.100"
+        ]
+      },
+      {
+        "name": "in.amazon.mShop.android.shopping",
+        "versions": [
+          "32.17.0.300"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.cloudflare.onedotonedotonedotone": [
+        "6.38.9"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bypasses OkHttp certificate pinning on Cloudflare API calls to allow TLS traffic inspection.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:24",
+    "legacy_id": 8168,
+    "metadata_status": "verified",
+    "name": "Disable SSL Pinning",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.cloudflare.onedotonedotonedotone",
+        "versions": [
+          "6.38.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": false
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.intsig.camscanner": [
+        "7.24.5.2608200000"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables CamScanner's custom telemetry/log-agent system.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:25",
+    "legacy_id": 8169,
+    "metadata_status": "verified",
+    "name": "Disable telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.intsig.camscanner",
+        "versions": [
+          "7.24.5.2608200000"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.facebook.orca": [
+        "576.0.0.47.92"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the indicator while typing a message.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:26",
+    "legacy_id": 8170,
+    "metadata_status": "verified",
+    "name": "Disable typing indicator",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.orca",
+        "versions": [
+          "576.0.0.47.92"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.amazon.mShop.android.shopping": [
+        "32.17.0.100"
+      ],
+      "in.amazon.mShop.android.shopping": [
+        "32.17.0.300"
+      ]
+    },
+    "dependencies": [],
+    "description": "Prevents videos from autoplaying in Amazon's in-app WebView pages.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:27",
+    "legacy_id": 8171,
+    "metadata_status": "verified",
+    "name": "Disable video autoplay",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.amazon.mShop.android.shopping",
+        "versions": [
+          "32.17.0.100"
+        ]
+      },
+      {
+        "name": "in.amazon.mShop.android.shopping",
+        "versions": [
+          "32.17.0.300"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "org.telegram.messenger": [
+        "12.10.1"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.1"
+      ],
+      "org.telegram.plus": [
+        "12.10.1.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Increases download chunk size to 1 MB and max concurrent requests to 12.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:28",
+    "legacy_id": 8172,
+    "metadata_status": "verified",
+    "name": "Download speed boost",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "org.telegram.plus",
+        "versions": [
+          "12.10.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.facebook.orca": [
+        "576.0.0.47.92"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables chat heads (bubbles) for all devices regardless of API level or RAM class.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:29",
+    "legacy_id": 8173,
+    "metadata_status": "verified",
+    "name": "Enable chat heads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.orca",
+        "versions": [
+          "576.0.0.47.92"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.google.android.apps.photos": [
+        "7.92.0.977185651"
+      ]
+    },
+    "dependencies": [],
+    "description": "Allows controlling Camera and other DCIM folder backup individually.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:30",
+    "legacy_id": 8174,
+    "metadata_status": "verified",
+    "name": "Enable DCIM folders backup control",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.photos",
+        "versions": [
+          "7.92.0.977185651"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.amazon.mShop.android.shopping": [
+        "32.17.0.100"
+      ],
+      "in.amazon.mShop.android.shopping": [
+        "32.17.0.300"
+      ]
+    },
+    "dependencies": [],
+    "description": "Updates shared Amazon permissions so other Amazon apps can coexist.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:31",
+    "legacy_id": 8175,
+    "metadata_status": "verified",
+    "name": "Fix Amazon manifest conflicts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.amazon.mShop.android.shopping",
+        "versions": [
+          "32.17.0.100"
+        ]
+      },
+      {
+        "name": "in.amazon.mShop.android.shopping",
+        "versions": [
+          "32.17.0.300"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.google.android.apps.photos": [
+        "7.92.0.977185651"
+      ]
+    },
+    "dependencies": [],
+    "description": "Prevents non-Camera DCIM folders from being grouped as Camera.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:32",
+    "legacy_id": 8176,
+    "metadata_status": "verified",
+    "name": "Fix DCIM folder classification",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.photos",
+        "versions": [
+          "7.92.0.977185651"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": null,
+    "dependencies": [
+      "Provide Original app certificate"
+    ],
+    "description": "Fixes Firebase services (push notifications, Remote Config, Firebase Auth) that break after Morphe re-signs the app with a different certificate.\n\nApply with Original app certificate patch — no other config needed.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:33",
+    "legacy_id": 8177,
+    "metadata_status": "verified",
+    "name": "Fix Firebase after re-signing",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": false
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.google.android.apps.photos": [
+        "7.92.0.977185651"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds MicroG/GmsCore support metadata for Google Photos.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:34",
+    "legacy_id": 8178,
+    "metadata_status": "verified",
+    "name": "GmsCore support",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.photos",
+        "versions": [
+          "7.92.0.977185651"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": null,
+    "dependencies": [
+      "Provide Original app certificate"
+    ],
+    "description": "Routes Google Play Services calls through MicroG instead of real GPS.\n\nWorks for: Google apps (YouTube, Maps, News, Photos) and third-party apps using classic Google Sign-In (Android 13 and below).\n\nDoes not work for: Android 14+ Credential Manager sign-in (most modern third-party apps), Play Integrity / SafetyNet checks, or apps with custom auth.\n\nRequires MicroG RE installed. Apply with Original app certificate patch.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:35",
+    "legacy_id": 8179,
+    "metadata_status": "verified",
+    "name": "GmsCore support (MicroG)",
+    "options": [
+      {
+        "default": "app.revanced.android.gms",
+        "description": "Which MicroG / GmsCore app is installed on your device. Check your device's app list for \"MicroG\" or \"GmsCore\" if unsure — most users should leave this as the default.",
+        "key": "gmsCoreVendor",
+        "required": true,
+        "title": "MicroG package name",
+        "type": "kotlin.String",
+        "values": {
+          "app.morphe.android.gms": "app.morphe.android.gms",
+          "app.morphe.manager": "app.morphe.manager",
+          "app.revanced.android.gms (default)": "app.revanced.android.gms",
+          "app.revanced.manager": "app.revanced.manager",
+          "app.rvx.manager": "app.rvx.manager",
+          "com.google.android.gms": "com.google.android.gms",
+          "org.microg.gms": "org.microg.gms"
+        }
+      },
+      {
+        "default": null,
+        "description": "The app's main Activity class name ending with a semicolon, e.g. /MainActivity; Used to inject the MicroG check at startup. Leave blank for auto-detection.",
+        "key": "mainActivityName",
+        "required": false,
+        "title": "Main activity class (optional)",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "Rename the app to this package name. Leave blank to keep the original. Must be a valid package name (e.g. com.example.myapp).",
+        "key": "packageName",
+        "required": false,
+        "title": "Custom package name (optional)",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": false
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.facebook.orca": [
+        "576.0.0.47.92"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides buttons and shortcuts that open Facebook.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:36",
+    "legacy_id": 8180,
+    "metadata_status": "verified",
+    "name": "Hide Facebook buttons",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.orca",
+        "versions": [
+          "576.0.0.47.92"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.facebook.orca": [
+        "576.0.0.47.92"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides ads in the Messenger inbox.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:37",
+    "legacy_id": 8181,
+    "metadata_status": "verified",
+    "name": "Hide inbox ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.orca",
+        "versions": [
+          "576.0.0.47.92"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.facebook.orca": [
+        "576.0.0.47.92"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the stories and notes horizontal tray at the top of the inbox.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:38",
+    "legacy_id": 8182,
+    "metadata_status": "verified",
+    "name": "Hide inbox stories and notes tray",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.orca",
+        "versions": [
+          "576.0.0.47.92"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.facebook.orca": [
+        "576.0.0.47.92"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides Home and Channels tabs between active now tray and chats.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:39",
+    "legacy_id": 8183,
+    "metadata_status": "verified",
+    "name": "Hide inbox subtabs",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.orca",
+        "versions": [
+          "576.0.0.47.92"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.amazon.mShop.android.shopping": [
+        "32.17.0.100"
+      ],
+      "in.amazon.mShop.android.shopping": [
+        "32.17.0.300"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the Rufus AI assistant tab from Amazon's bottom navigation bar.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:40",
+    "legacy_id": 8184,
+    "metadata_status": "verified",
+    "name": "Hide Rufus tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.amazon.mShop.android.shopping",
+        "versions": [
+          "32.17.0.100"
+        ]
+      },
+      {
+        "name": "in.amazon.mShop.android.shopping",
+        "versions": [
+          "32.17.0.300"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "org.telegram.messenger": [
+        "12.10.1"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.1"
+      ],
+      "org.telegram.plus": [
+        "12.10.1.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides your typing indicator from other users in all chats. On Telegram Plus also silences the controller-level sendTyping dispatcher.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:41",
+    "legacy_id": 8185,
+    "metadata_status": "verified",
+    "name": "Hide typing indicator",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "org.telegram.plus",
+        "versions": [
+          "12.10.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "app.simple.inure": [
+        "build107.2.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bypasses the 15-day trial gate and unlocks all premium features in Inure App Manager (GitHub).",
+    "id": "ad4b7c19d2523b4c5d34ec1e:42",
+    "legacy_id": 8186,
+    "metadata_status": "verified",
+    "name": "Inure — Unlock Full Version (GitHub)",
+    "options": [],
+    "packages": [
+      {
+        "name": "app.simple.inure",
+        "versions": [
+          "build107.2.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.life360.android.safetymapd": [
+        "26.31.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a proper Android adaptive launcher icon and a monochrome Material You themed icon.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:43",
+    "legacy_id": 8187,
+    "metadata_status": "verified",
+    "name": "Material You themed icon",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.life360.android.safetymapd",
+        "versions": [
+          "26.31.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.facebook.orca": [
+        "576.0.0.47.92"
+      ]
+    },
+    "dependencies": [],
+    "description": "Opens links in the external browser instead of the in-app browser.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:44",
+    "legacy_id": 8188,
+    "metadata_status": "verified",
+    "name": "Open links externally",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.orca",
+        "versions": [
+          "576.0.0.47.92"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.amazon.mShop.android.shopping": [
+        "32.17.0.100"
+      ],
+      "in.amazon.mShop.android.shopping": [
+        "32.17.0.300"
+      ]
+    },
+    "dependencies": [],
+    "description": "Opens non-Amazon URLs in the default browser instead of the in-app WebView.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:45",
+    "legacy_id": 8189,
+    "metadata_status": "verified",
+    "name": "Open links in browser",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.amazon.mShop.android.shopping",
+        "versions": [
+          "32.17.0.100"
+        ]
+      },
+      {
+        "name": "in.amazon.mShop.android.shopping",
+        "versions": [
+          "32.17.0.300"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.amazon.mShop.android.shopping": [
+        "32.17.0.100"
+      ],
+      "in.amazon.mShop.android.shopping": [
+        "32.17.0.300"
+      ]
+    },
+    "dependencies": [],
+    "description": "Injects Keepa and CamelCamelCamel price history charts on Amazon product pages.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:46",
+    "legacy_id": 8190,
+    "metadata_status": "verified",
+    "name": "Price history charts",
+    "options": [
+      {
+        "default": "1y",
+        "description": "Default time range for the price history charts.",
+        "key": "amazonPriceChartPeriod",
+        "required": false,
+        "title": "Chart period",
+        "type": "kotlin.String",
+        "values": {
+          "1 month": "1m",
+          "1 year": "1y",
+          "3 years": "3y",
+          "5 years": "5y",
+          "6 months": "6m",
+          "All time": "all"
+        }
+      },
+      {
+        "default": true,
+        "description": "Add period buttons under each chart to switch views.",
+        "key": "amazonPriceChartToggle",
+        "required": false,
+        "title": "Show period toggle",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": "[1m, 6m, 1y, 3y, 5y, all]",
+        "description": "Which periods appear in the toggle buttons.",
+        "key": "amazonPriceChartTogglePeriods",
+        "required": false,
+        "title": "Toggle periods",
+        "type": "kotlin.collections.List<kotlin.String>",
+        "values": {
+          "1 month": "[1m]",
+          "1 year": "[1y]",
+          "3 years": "[3y]",
+          "5 years": "[5y]",
+          "6 months": "[6m]",
+          "All time": "[all]"
+        }
+      },
+      {
+        "default": "all",
+        "description": "Which price series the Keepa chart shows.",
+        "key": "amazonKeepaSeries",
+        "required": false,
+        "title": "Keepa price lines",
+        "type": "kotlin.String",
+        "values": {
+          "New + Used": "new_used",
+          "New + Used + Amazon": "all",
+          "New only": "new"
+        }
+      },
+      {
+        "default": "new_used",
+        "description": "Which price lines the CCC chart shows.",
+        "key": "amazonCccChartType",
+        "required": false,
+        "title": "CamelCamelCamel chart",
+        "type": "kotlin.String",
+        "values": {
+          "New + Used": "new_used",
+          "New only": "new",
+          "Used only": "used"
+        }
+      },
+      {
+        "default": false,
+        "description": "Omit flat zero-price segments on the CCC chart.",
+        "key": "amazonCccHideZero",
+        "required": false,
+        "title": "Hide zero-price gaps",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": "625",
+        "description": "Width of the CCC chart image (Keepa renders at a fixed size).",
+        "key": "amazonChartSize",
+        "required": false,
+        "title": "Chart size",
+        "type": "kotlin.String",
+        "values": {
+          "Compact": "500",
+          "Default": "625",
+          "Large": "750"
+        }
+      },
+      {
+        "default": true,
+        "description": "Render the charts inside a collapsed section; tap to expand.",
+        "key": "amazonChartsCollapsed",
+        "required": false,
+        "title": "Start collapsed",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.amazon.mShop.android.shopping",
+        "versions": [
+          "32.17.0.100"
+        ]
+      },
+      {
+        "name": "in.amazon.mShop.android.shopping",
+        "versions": [
+          "32.17.0.300"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.microsoft.teams": [
+        "1416/1.0.0.2026152302"
+      ]
+    },
+    "dependencies": [],
+    "description": "Suppresses outbound read receipts and prevents admin quiet-hours policies from overriding your presence status.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:47",
+    "legacy_id": 8191,
+    "metadata_status": "verified",
+    "name": "Privacy Enhancements",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.microsoft.teams",
+        "versions": [
+          "1416/1.0.0.2026152302"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Automatically reads the signing certificate from the APK you are patching — no original app installed or file provided needed. Only fill the options below if you are patching an APK that was already re-signed (e.g. a previously patched build): in that case point to the original APK file, or enter the certificate manually.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:48",
+    "legacy_id": 8192,
+    "metadata_status": "verified",
+    "name": "Provide Original app certificate",
+    "options": [
+      {
+        "default": null,
+        "description": "Full path to the original APK or .apks bundle. Example: /sdcard/Download/Waze.apks",
+        "key": "originalApkPath",
+        "required": false,
+        "title": "Path to original APK (if uninstalled)",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "40-char hex. Found on APKMirror under app signature info.",
+        "key": "manualCertSha1",
+        "required": false,
+        "title": "Certificate SHA-1 (manual)",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "64-char hex. Optional companion to SHA-1.",
+        "key": "manualCertSha256",
+        "required": false,
+        "title": "Certificate SHA-256 (manual)",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "Needed only for Signature spoof patch. Get it with: apksigner verify --print-certs original.apk",
+        "key": "manualCertBase64",
+        "required": false,
+        "title": "Certificate Base64 DER (manual)",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": false
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.jeffprod.cubesolver": [
+        "5.0.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all puzzle designs including kilominx and ad-gated variants.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:49",
+    "legacy_id": 8193,
+    "metadata_status": "verified",
+    "name": "Puzzles Unlock",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.jeffprod.cubesolver",
+        "versions": [
+          "5.0.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.toomics.global.google": [
+        "1.6.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Remove in-app ads",
+    "id": "ad4b7c19d2523b4c5d34ec1e:50",
+    "legacy_id": 8194,
+    "metadata_status": "verified",
+    "name": "Remove ADS",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.toomics.global.google",
+        "versions": [
+          "1.6.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.jeffprod.cubesolver": [
+        "5.0.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes advertisements and disables crash/analytics telemetry.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:51",
+    "legacy_id": 8195,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.jeffprod.cubesolver",
+        "versions": [
+          "5.0.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.king.moja": [
+        "9.8"
+      ]
+    },
+    "dependencies": [
+      "Spoof app signature",
+      "Spoof install source",
+      "Fix Firebase after re-signing"
+    ],
+    "description": "Disables AdMob, Unity, IMA SDK, and WebView pre-roll ads in the player.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:52",
+    "legacy_id": 8196,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.king.moja",
+        "versions": [
+          "9.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.delphicoder.flud": [
+        "2.0.16"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes all ads in app",
+    "id": "ad4b7c19d2523b4c5d34ec1e:53",
+    "legacy_id": 8197,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.delphicoder.flud",
+        "versions": [
+          "2.0.16"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.mobond.mindicator": [
+        "18.0.365"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes interstitial and exit native ads from m-Indicator.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:54",
+    "legacy_id": 8198,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.mobond.mindicator",
+        "versions": [
+          "18.0.365"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.opera.app.news": [
+        "14.2.2254.84245"
+      ]
+    },
+    "dependencies": [],
+    "description": "Blocks all ad display across Opera News's five ad networks and all mediation layers (AdsFacade, AppLovin MAX, TopOn, MCSDK, SmartDigiMkt).",
+    "id": "ad4b7c19d2523b4c5d34ec1e:55",
+    "legacy_id": 8199,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.opera.app.news",
+        "versions": [
+          "14.2.2254.84245"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.arjanvlek.oxygenupdater": [
+        "7.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks the ad-free experience by spoofing the purchase state as acknowledged.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:56",
+    "legacy_id": 8200,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.arjanvlek.oxygenupdater",
+        "versions": [
+          "7.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.picsart.studio": [
+        "30.7.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables PicsArt banner and interstitial ads by forcing the central AdsManager gate to ads-off.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:57",
+    "legacy_id": 8201,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.picsart.studio",
+        "versions": [
+          "30.7.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.bluematter.qbitconnect": [
+        "2.0.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks the Remove Ads purchase in qBitConnect by injecting IAP ownership flags into SharedPreferences before Flutter reads them.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:58",
+    "legacy_id": 8202,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.bluematter.qbitconnect",
+        "versions": [
+          "2.0.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.yablio.sendfilestotv": [
+        "1.4.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes ads.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:59",
+    "legacy_id": 8203,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.yablio.sendfilestotv",
+        "versions": [
+          "1.4.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "intelligems.torrdroid": [
+        "2.0.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes ads from TorrDroid.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:60",
+    "legacy_id": 8204,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "intelligems.torrdroid",
+        "versions": [
+          "2.0.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.vizmanga.android": [
+        "4.14.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Remove in-app ads.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:61",
+    "legacy_id": 8205,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.vizmanga.android",
+        "versions": [
+          "4.14.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.finalwire.aida64": [
+        "2.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stubs all ad loading paths: banner/interstitial loaders, billing callbacks, and ad SDK init.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:62",
+    "legacy_id": 8206,
+    "metadata_status": "verified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.finalwire.aida64",
+        "versions": [
+          "2.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.amazon.mShop.android.shopping": [
+        "32.17.0.100"
+      ],
+      "in.amazon.mShop.android.shopping": [
+        "32.17.0.300"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides sponsored and ad content in Amazon Shopping via CSS injection.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:63",
+    "legacy_id": 8207,
+    "metadata_status": "verified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.amazon.mShop.android.shopping",
+        "versions": [
+          "32.17.0.100"
+        ]
+      },
+      {
+        "name": "in.amazon.mShop.android.shopping",
+        "versions": [
+          "32.17.0.300"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "game.puzzle.blockpuzzle": [
+        "6.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables Block Puzzle AdMob initialization, banner, and interstitial ads.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:64",
+    "legacy_id": 8208,
+    "metadata_status": "verified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "game.puzzle.blockpuzzle",
+        "versions": [
+          "6.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.livescore": [
+        "10.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables LiveScore banner, native, and interstitial ad requests.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:65",
+    "legacy_id": 8209,
+    "metadata_status": "verified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.livescore",
+        "versions": [
+          "10.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "org.telegram.messenger": [
+        "12.10.1"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.1"
+      ],
+      "org.telegram.plus": [
+        "12.10.1.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes sponsored messages and video ads from all chats and channels. On Telegram Plus also blocks native banner and inline ads.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:66",
+    "legacy_id": 8210,
+    "metadata_status": "verified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "org.telegram.plus",
+        "versions": [
+          "12.10.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.facebook.orca": [
+        "576.0.0.47.92"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the Meta AI floating button, drawer items, and search suggestions.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:67",
+    "legacy_id": 8211,
+    "metadata_status": "verified",
+    "name": "Remove Meta AI",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.orca",
+        "versions": [
+          "576.0.0.47.92"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.king.moja": [
+        "9.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes nodepointer background SDK and bypasses forced update screen.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:68",
+    "legacy_id": 8212,
+    "metadata_status": "verified",
+    "name": "Remove Reward Service",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.king.moja",
+        "versions": [
+          "9.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.apple.trackerdetect": [
+        "1.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the 10-minute waiting period before playing a sound on a detected tracker.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:69",
+    "legacy_id": 8213,
+    "metadata_status": "verified",
+    "name": "Remove Sound Delay",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.apple.trackerdetect",
+        "versions": [
+          "1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.canva.editor": [
+        "2.377.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes watermarks from Canva exports and previews.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:70",
+    "legacy_id": 8214,
+    "metadata_status": "verified",
+    "name": "Remove Watermark",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.canva.editor",
+        "versions": [
+          "2.377.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.picsart.studio": [
+        "30.7.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the PicsArt watermark from exported photos and videos.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:71",
+    "legacy_id": 8215,
+    "metadata_status": "verified",
+    "name": "Remove Watermark",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.picsart.studio",
+        "versions": [
+          "30.7.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.server.auditor.ssh.client": [
+        "7.9.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks Pro features by forcing the UserType mapper to always return UserType$Pro.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:72",
+    "legacy_id": 8216,
+    "metadata_status": "verified",
+    "name": "Server Auditor Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.server.auditor.ssh.client",
+        "versions": [
+          "7.9.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": null,
+    "dependencies": [
+      "Provide Original app certificate"
+    ],
+    "description": "Makes the app think its signing certificate is unchanged after Morphe re-signs it.\n\nUseful when an app crashes or shows a tamper warning because it checks its own certificate.\n\nDoes not bypass Play Integrity / SafetyNet hardware attestation.\n\nApply with Original app certificate patch.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:73",
+    "legacy_id": 8217,
+    "metadata_status": "verified",
+    "name": "Spoof app signature",
+    "options": [
+      {
+        "default": null,
+        "description": "Leave blank — read automatically from the app. Only set this if you changed the app's package name and the patch is using the wrong one.",
+        "key": "packageName",
+        "required": false,
+        "title": "Package name override (optional)",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": false
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.google.android.apps.photos": [
+        "7.92.0.977185651"
+      ]
+    },
+    "dependencies": [],
+    "description": "Spoofs selectable Pixel Photos build and feature flags.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:74",
+    "legacy_id": 8218,
+    "metadata_status": "verified",
+    "name": "Spoof features",
+    "options": [
+      {
+        "default": "pixel_xl",
+        "description": "Device profile used for Build fields and Pixel feature levels.",
+        "key": "googlePhotosSpoofProfile",
+        "required": true,
+        "title": "Pixel profile",
+        "type": "kotlin.String",
+        "values": {
+          "Pixel - unlimited original quality": "pixel",
+          "Pixel 10 Pro XL - latest Pixel AI": "pixel_10_pro_xl",
+          "Pixel 2 - storage saver": "pixel_2",
+          "Pixel 3 XL - storage saver": "pixel_3_xl",
+          "Pixel 3a XL - storage saver": "pixel_3a_xl",
+          "Pixel 4 XL - storage saver": "pixel_4_xl",
+          "Pixel 4a - storage saver": "pixel_4a",
+          "Pixel 5 - storage saver": "pixel_5",
+          "Pixel 5a - storage saver": "pixel_5a",
+          "Pixel 6 Pro - feature gates only": "pixel_6_pro",
+          "Pixel 6a - feature gates only": "pixel_6a",
+          "Pixel 7 - feature gates only": "pixel_7",
+          "Pixel 7 Pro - feature gates only": "pixel_7_pro",
+          "Pixel 7a - feature gates only": "pixel_7a",
+          "Pixel 8 - feature gates only": "pixel_8",
+          "Pixel 8 Pro - Video Boost": "pixel_8_pro",
+          "Pixel 8a - feature gates only": "pixel_8a",
+          "Pixel 9 - AI editing": "pixel_9",
+          "Pixel 9 Pro - AI editing": "pixel_9_pro",
+          "Pixel 9 Pro XL - AI editing": "pixel_9_pro_xl",
+          "Pixel 9a - AI editing": "pixel_9a",
+          "Pixel XL - unlimited original quality": "pixel_xl"
+        }
+      },
+      {
+        "default": "none",
+        "description": "Optionally spoof Build.VERSION fields. Follow profile uses the selected Pixel's matching Android version.",
+        "key": "googlePhotosAndroidVersion",
+        "required": false,
+        "title": "Android version",
+        "type": "kotlin.String",
+        "values": {
+          "Android 13": "android_13",
+          "Android 14": "android_14",
+          "Android 15": "android_15",
+          "Android 16": "android_16",
+          "Android 17": "android_17",
+          "Do not spoof Android version": "none",
+          "Follow Pixel profile": "follow_profile",
+          "Nougat 7.1.2": "nougat_7_1_2",
+          "Oreo 8.1.0": "oreo_8_1_0",
+          "Pie 9.0": "pie_9_0",
+          "Q 10.0": "q_10_0",
+          "R 11.0": "r_11_0",
+          "S 12.0": "s_12_0"
+        }
+      },
+      {
+        "default": true,
+        "description": "Force newer Pixel feature flags off when the selected profile should not have them.",
+        "key": "googlePhotosOverrideRomFeatureLevels",
+        "required": false,
+        "title": "Override ROM feature levels",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.apps.photos",
+        "versions": [
+          "7.92.0.977185651"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Makes the app think it was installed from a specific store (default: Google Play).\n\nUseful when an app blocks features or shows errors because it detects it was not installed from the Play Store.\n\nOnly affects what the app itself sees - does not change the real system install record.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:75",
+    "legacy_id": 8219,
+    "metadata_status": "verified",
+    "name": "Spoof install source",
+    "options": [
+      {
+        "default": "com.android.vending",
+        "description": "Most apps only check for the Google Play Store, so the default is usually correct. Pick from the list, or type any package name directly if your app checks for a different store.",
+        "key": "installerPackageName",
+        "required": true,
+        "title": "Store to impersonate",
+        "type": "kotlin.String",
+        "values": {
+          "Amazon Appstore": "com.amazon.venezia",
+          "F-Droid": "org.fdroid.fdroid",
+          "Google Play Store": "com.android.vending",
+          "Huawei AppGallery": "com.huawei.appmarket",
+          "Samsung Galaxy Store": "com.sec.android.app.samsungapps",
+          "Xiaomi GetApps": "com.xiaomi.mipicks"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": false
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.facebook.orca": [
+        "576.0.0.47.92"
+      ]
+    },
+    "dependencies": [],
+    "description": "Sets a very high version code so the Play Store treats the app as already up to date and never offers an update.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:76",
+    "legacy_id": 8220,
+    "metadata_status": "verified",
+    "name": "Spoof package version",
+    "options": [
+      {
+        "default": "2147483647",
+        "description": "The version code to set. Must be higher than the Play Store version to suppress updates. Defaults to the maximum value.",
+        "key": "messengerVersionCode",
+        "required": true,
+        "title": "Version code",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.facebook.orca",
+        "versions": [
+          "576.0.0.47.92"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": false
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.cloudflare.onedotonedotonedotone": [
+        "6.38.9"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces WarpPlusState to UNLIMITED on every AccountData instance by intercepting the primary constructor before the account type field is written.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:77",
+    "legacy_id": 8221,
+    "metadata_status": "verified",
+    "name": "Spoof WARP+ Unlimited UI",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.cloudflare.onedotonedotonedotone",
+        "versions": [
+          "6.38.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Reports Widevine L1 (hardware DRM) to apps that check DRM level locally.\n\nUseful for apps that refuse to play HD/4K content on L3 devices or after re-signing.\n\nDoes not bypass server-side DRM - Netflix, Disney+ and similar are not affected.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:78",
+    "legacy_id": 8222,
+    "metadata_status": "verified",
+    "name": "Spoof Widevine / DRM level",
+    "options": [
+      {
+        "default": "L1",
+        "description": "L1 = hardware DRM (highest quality). L3 = software only. Default L1.",
+        "key": "securityLevel",
+        "required": true,
+        "title": "Widevine security level to report",
+        "type": "kotlin.String",
+        "values": {
+          "L1 (highest — hardware)": "L1",
+          "L2": "L2",
+          "L3 (software only)": "L3"
+        }
+      },
+      {
+        "default": "HDCP_V2_2",
+        "description": "HDCP_V2_2 is required for 4K content on most streaming apps.",
+        "key": "hdcpLevel",
+        "required": false,
+        "title": "HDCP level to report",
+        "type": "kotlin.String",
+        "values": {
+          "HDCP 1.x": "HDCP_V1",
+          "HDCP 2.2": "HDCP_V2_2",
+          "HDCP 2.3": "HDCP_V2_3",
+          "None (disable)": "HDCP_LEVEL_NONE"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": false
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.flightaware.android.liveFlightTracker": [
+        "5.16.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces FlightAware ad-free subscribed state.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:79",
+    "legacy_id": 8223,
+    "metadata_status": "verified",
+    "name": "Unlock Ad-Free",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.flightaware.android.liveFlightTracker",
+        "versions": [
+          "5.16.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "org.zwanoo.android.speedtest": [
+        "7.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes ads and unlocks ad-free status in Speedtest by Ookla.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:80",
+    "legacy_id": 8224,
+    "metadata_status": "verified",
+    "name": "Unlock Ad-Free",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.zwanoo.android.speedtest",
+        "versions": [
+          "7.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.kevinforeman.nzb360": [
+        "24.4.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks All access in Nzb360.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:81",
+    "legacy_id": 8225,
+    "metadata_status": "verified",
+    "name": "Unlock All Access",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kevinforeman.nzb360",
+        "versions": [
+          "24.4.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.flightradar24free": [
+        "11.10.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks Business-tier features in Flightradar24: ad-free experience, weather layers, ATC routes, 3D view, flight history playback, and unlimited saved locations.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:82",
+    "legacy_id": 8226,
+    "metadata_status": "verified",
+    "name": "Unlock Business Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.flightradar24free",
+        "versions": [
+          "11.10.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.blurams.ipc": [
+        "5.1049.4.921"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks BluramsGuard cloud storage, AI detection, and playback features.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:83",
+    "legacy_id": 8227,
+    "metadata_status": "verified",
+    "name": "Unlock Cloud Service",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.blurams.ipc",
+        "versions": [
+          "5.1049.4.921"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "com.citymapper.app.release": [
+        "11.58"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks Citymapper Club Membership. Note: requires a manual purchase attempt inside the app.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:84",
+    "legacy_id": 8228,
+    "metadata_status": "verified",
+    "name": "Unlock Club",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.citymapper.app.release",
+        "versions": [
+          "11.58"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": {
+      "jp.co.shueisha.mangaplus": [
+        "2.6.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks the Deluxe subscription.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:85",
+    "legacy_id": 8229,
+    "metadata_status": "verified",
+    "name": "Unlock Deluxe",
+    "options": [],
+    "packages": [
+      {
+        "name": "jp.co.shueisha.mangaplus",
+        "versions": [
+          "2.6.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742",
+    "use": true
+  }
+]

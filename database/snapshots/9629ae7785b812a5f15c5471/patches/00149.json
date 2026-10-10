@@ -1,0 +1,2963 @@
+[
+  {
+    "bundle_id": "60bf4e5158611cbf6ca0dcdd",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "426.0.0.37.68"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces Instagram notifications into one group, or into separate groups by notification category.",
+    "id": "60bf4e5158611cbf6ca0dcdd:4",
+    "legacy_id": 15319,
+    "metadata_status": "verified",
+    "name": "Force notification grouping",
+    "options": [
+      {
+        "default": "all",
+        "description": "Choose whether every Instagram notification uses one notification group or separate groups by category.",
+        "key": "groupingMode",
+        "required": true,
+        "title": "Grouping mode",
+        "type": "kotlin.String",
+        "values": {
+          "all": "All notifications",
+          "category": "By category"
+        }
+      },
+      {
+        "default": false,
+        "description": "Print notification grouping decisions to logcat.",
+        "key": "debugLogging",
+        "required": false,
+        "title": "Debug logging",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "When grouping all notifications together, remove sort keys and conversation hints that can make Android or One UI split Instagram notifications anyway.",
+        "key": "strictAllGrouping",
+        "required": false,
+        "title": "Strict all-notifications grouping",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "426.0.0.37.68"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.5.0",
+    "source_id": "ce87c1fd9c9509db",
+    "use": false
+  },
+  {
+    "bundle_id": "60bf4e5158611cbf6ca0dcdd",
+    "compatiblePackages": {
+      "com.samsung.android.homemode": [
+        "15.1.01.3"
+      ]
+    },
+    "dependencies": [
+      "Enable phone support"
+    ],
+    "description": "Replaces Samsung weather with Open-Meteo using approximate location. Includes Enable phone support.",
+    "id": "60bf4e5158611cbf6ca0dcdd:5",
+    "legacy_id": 15320,
+    "metadata_status": "verified",
+    "name": "Use Open-Meteo weather",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.samsung.android.homemode",
+        "versions": [
+          "15.1.01.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.5.0",
+    "source_id": "ce87c1fd9c9509db",
+    "use": false
+  },
+  {
+    "bundle_id": "60bf4e5158611cbf6ca0dcdd",
+    "compatiblePackages": {
+      "com.samsung.android.homemode": [
+        "15.1.01.3"
+      ]
+    },
+    "dependencies": [
+      "Enable phone support"
+    ],
+    "description": "Treats wireless charging or charging in landscape as a dock and updates the charging labels. Includes Enable phone support.",
+    "id": "60bf4e5158611cbf6ca0dcdd:6",
+    "legacy_id": 15321,
+    "metadata_status": "verified",
+    "name": "Use phone charging as dock",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.samsung.android.homemode",
+        "versions": [
+          "15.1.01.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.5.0",
+    "source_id": "ce87c1fd9c9509db",
+    "use": false
+  },
+  {
+    "bundle_id": "65271013abc8e83210d91e13",
+    "compatiblePackages": {
+      "com.andrewshu.android.reddit": [
+        "5.6.22"
+      ],
+      "com.andrewshu.android.redditdonation": [
+        "5.6.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Shows images, GIFs and videos linked in comments and text posts inline.",
+    "id": "65271013abc8e83210d91e13:3",
+    "legacy_id": 15322,
+    "metadata_status": "verified",
+    "name": "Inline comment images",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.andrewshu.android.reddit",
+        "versions": [
+          "5.6.22"
+        ]
+      },
+      {
+        "name": "com.andrewshu.android.redditdonation",
+        "versions": [
+          "5.6.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.1",
+    "source_id": "4fb414d6b2cd440e",
+    "use": true
+  },
+  {
+    "bundle_id": "7d8f4e29579c67dd713c94fa",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "449.0.0.52.84",
+        "448.0.0.52.84"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops a swipe right on the home feed from opening the camera. The camera button and deep links still open it.",
+    "id": "7d8f4e29579c67dd713c94fa:0",
+    "legacy_id": 15323,
+    "metadata_status": "verified",
+    "name": "Disable swipe to camera",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "449.0.0.52.84",
+          "448.0.0.52.84"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.2.0-dev.1",
+    "source_id": "f6fb2abdf4da7a38",
+    "use": true
+  },
+  {
+    "bundle_id": "7d8f4e29579c67dd713c94fa",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "449.0.0.52.84",
+        "448.0.0.52.84"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a download button beside the save icon on feed posts and reels and beside the reply pill on stories. Posts with several media open a bottom sheet to pick what to save.",
+    "id": "7d8f4e29579c67dd713c94fa:1",
+    "legacy_id": 15324,
+    "metadata_status": "verified",
+    "name": "Downloads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "449.0.0.52.84",
+          "448.0.0.52.84"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.2.0-dev.1",
+    "source_id": "f6fb2abdf4da7a38",
+    "use": true
+  },
+  {
+    "bundle_id": "7d8f4e29579c67dd713c94fa",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "449.0.0.52.84",
+        "448.0.0.52.84"
+      ]
+    },
+    "dependencies": [],
+    "description": "Lets you watch stories, Instants and messages without being marked as seen. Each surface has its own toggle in Piko settings.",
+    "id": "7d8f4e29579c67dd713c94fa:2",
+    "legacy_id": 15325,
+    "metadata_status": "verified",
+    "name": "Ghost mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "449.0.0.52.84",
+          "448.0.0.52.84"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.2.0-dev.1",
+    "source_id": "f6fb2abdf4da7a38",
+    "use": true
+  },
+  {
+    "bundle_id": "7d8f4e29579c67dd713c94fa",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "449.0.0.52.84",
+        "448.0.0.52.84"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes sponsored posts and ad units from the main feed.",
+    "id": "7d8f4e29579c67dd713c94fa:3",
+    "legacy_id": 15326,
+    "metadata_status": "verified",
+    "name": "Hide feed ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "449.0.0.52.84",
+          "448.0.0.52.84"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.2.0-dev.1",
+    "source_id": "f6fb2abdf4da7a38",
+    "use": true
+  },
+  {
+    "bundle_id": "7d8f4e29579c67dd713c94fa",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "449.0.0.52.84",
+        "448.0.0.52.84"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops Instagram from inserting ads into Reels and Stories. The same ad injector also feeds Explore and the contextual feeds, so they stay ad-free too.",
+    "id": "7d8f4e29579c67dd713c94fa:4",
+    "legacy_id": 15327,
+    "metadata_status": "verified",
+    "name": "Hide reels and stories ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "449.0.0.52.84",
+          "448.0.0.52.84"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.2.0-dev.1",
+    "source_id": "f6fb2abdf4da7a38",
+    "use": true
+  },
+  {
+    "bundle_id": "91408a7c9345fb2043d74407",
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Return a random advertising ID instead of the real one, so the app has no advertising identifier to hand to Pinterest or to any bundled tracker.",
+    "id": "91408a7c9345fb2043d74407:18",
+    "legacy_id": 15328,
+    "metadata_status": "verified",
+    "name": "Neutralize advertising ID",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.6.0-dev.34",
+    "source_id": "f218bb2079c09a36",
+    "use": true
+  },
+  {
+    "bundle_id": "91408a7c9345fb2043d74407",
+    "compatiblePackages": {
+      "com.truecaller": [
+        "26.31.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Make the app see an empty contact list, so nothing is shown from your address book and nothing can be matched or uploaded from it.",
+    "id": "91408a7c9345fb2043d74407:19",
+    "legacy_id": 15329,
+    "metadata_status": "verified",
+    "name": "Return an empty contact list",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.truecaller",
+        "versions": [
+          "26.31.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.6.0-dev.34",
+    "source_id": "f218bb2079c09a36",
+    "use": true
+  },
+  {
+    "bundle_id": "91408a7c9345fb2043d74407",
+    "compatiblePackages": {
+      "com.truecaller": [
+        "26.31.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stop uploading your call history to Truecaller's servers, and stop it reading the system call log to do so.",
+    "id": "91408a7c9345fb2043d74407:20",
+    "legacy_id": 15330,
+    "metadata_status": "verified",
+    "name": "Stop call history sync",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.truecaller",
+        "versions": [
+          "26.31.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.6.0-dev.34",
+    "source_id": "f218bb2079c09a36",
+    "use": true
+  },
+  {
+    "bundle_id": "92c0eb941f8bf2b5512a72f7",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a",
+        "18.3.1.977415014-beta-arm64-v8a",
+        "18.3.1.977415014-release-arm64-v8a",
+        "18.4.1.985164140-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bypass Gboard signature whitelist checks and force them to pass.",
+    "id": "92c0eb941f8bf2b5512a72f7:0",
+    "legacy_id": 15331,
+    "metadata_status": "verified",
+    "name": "Add Gboard Signature Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a",
+          "18.3.1.977415014-beta-arm64-v8a",
+          "18.3.1.977415014-release-arm64-v8a",
+          "18.4.1.985164140-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v18.4.1-Stable",
+    "source_id": "2df9304213ecb348",
+    "use": true
+  },
+  {
+    "bundle_id": "92c0eb941f8bf2b5512a72f7",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a",
+        "18.3.1.977415014-beta-arm64-v8a",
+        "18.3.1.977415014-release-arm64-v8a",
+        "18.4.1.985164140-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enable Advanced Voice Typing with automatic punctuation and rambler mode.",
+    "id": "92c0eb941f8bf2b5512a72f7:1",
+    "legacy_id": 15332,
+    "metadata_status": "verified",
+    "name": "Advanced Voice Typing",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a",
+          "18.3.1.977415014-beta-arm64-v8a",
+          "18.3.1.977415014-release-arm64-v8a",
+          "18.4.1.985164140-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v18.4.1-Stable",
+    "source_id": "2df9304213ecb348",
+    "use": true
+  },
+  {
+    "bundle_id": "92c0eb941f8bf2b5512a72f7",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a",
+        "18.3.1.977415014-beta-arm64-v8a",
+        "18.3.1.977415014-release-arm64-v8a",
+        "18.4.1.985164140-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enable AI writing tools with support for all languages.",
+    "id": "92c0eb941f8bf2b5512a72f7:2",
+    "legacy_id": 15333,
+    "metadata_status": "verified",
+    "name": "AI Writing Tools",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a",
+          "18.3.1.977415014-beta-arm64-v8a",
+          "18.3.1.977415014-release-arm64-v8a",
+          "18.4.1.985164140-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v18.4.1-Stable",
+    "source_id": "2df9304213ecb348",
+    "use": true
+  },
+  {
+    "bundle_id": "92c0eb941f8bf2b5512a72f7",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a",
+        "18.3.1.977415014-beta-arm64-v8a",
+        "18.3.1.977415014-release-arm64-v8a",
+        "18.4.1.985164140-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Rename the package to com.akshaykadam.pixelboard and allow a custom app name so it can be installed alongside the official Gboard.",
+    "id": "92c0eb941f8bf2b5512a72f7:3",
+    "legacy_id": 15334,
+    "metadata_status": "verified",
+    "name": "Package Rename",
+    "options": [
+      {
+        "default": "PixelBoard",
+        "description": "",
+        "key": "app_display_name",
+        "required": true,
+        "title": "App Name",
+        "type": "kotlin.String",
+        "values": {
+          "Gboard": "Gboard",
+          "Gboard Dev": "Gboard Dev",
+          "Gboard Mod": "Gboard Mod",
+          "Gboard Patches": "Gboard Patches",
+          "PixelBoard": "PixelBoard"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a",
+          "18.3.1.977415014-beta-arm64-v8a",
+          "18.3.1.977415014-release-arm64-v8a",
+          "18.4.1.985164140-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v18.4.1-Stable",
+    "source_id": "2df9304213ecb348",
+    "use": true
+  },
+  {
+    "bundle_id": "9e2dcbebb60a940a13b140c7",
+    "compatiblePackages": {
+      "com.andrewshu.android.reddit": [
+        "5.6.22"
+      ],
+      "com.andrewshu.android.redditdonation": [
+        "5.6.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Fixes imgur albums crashing or failing to load when patched alongside the official ReVanced rif patches. Does nothing without them.",
+    "id": "9e2dcbebb60a940a13b140c7:2",
+    "legacy_id": 15335,
+    "metadata_status": "verified",
+    "name": "Fix imgur albums",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.andrewshu.android.reddit",
+        "versions": [
+          "5.6.22"
+        ]
+      },
+      {
+        "name": "com.andrewshu.android.redditdonation",
+        "versions": [
+          "5.6.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.0-rc8",
+    "source_id": "4fb414d6b2cd440e",
+    "use": true
+  },
+  {
+    "bundle_id": "9e2dcbebb60a940a13b140c7",
+    "compatiblePackages": {
+      "com.andrewshu.android.reddit": [
+        "5.6.22"
+      ],
+      "com.andrewshu.android.redditdonation": [
+        "5.6.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Shows images, GIFs and videos linked in comments and text posts inline.",
+    "id": "9e2dcbebb60a940a13b140c7:3",
+    "legacy_id": 15336,
+    "metadata_status": "verified",
+    "name": "Inline comment images",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.andrewshu.android.reddit",
+        "versions": [
+          "5.6.22"
+        ]
+      },
+      {
+        "name": "com.andrewshu.android.redditdonation",
+        "versions": [
+          "5.6.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.0-rc8",
+    "source_id": "4fb414d6b2cd440e",
+    "use": true
+  },
+  {
+    "bundle_id": "a05baa66780ca34cdbdeb788",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": null,
+    "id": "a05baa66780ca34cdbdeb788:132",
+    "legacy_id": 15337,
+    "metadata_status": "verified",
+    "name": "View DMs anonymously",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0",
+    "source_id": "4abe8f323b2f3212",
+    "use": false
+  },
+  {
+    "bundle_id": "a05baa66780ca34cdbdeb788",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": null,
+    "id": "a05baa66780ca34cdbdeb788:133",
+    "legacy_id": 15338,
+    "metadata_status": "verified",
+    "name": "View live anonymously",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0",
+    "source_id": "4abe8f323b2f3212",
+    "use": false
+  },
+  {
+    "bundle_id": "a05baa66780ca34cdbdeb788",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": null,
+    "id": "a05baa66780ca34cdbdeb788:134",
+    "legacy_id": 15339,
+    "metadata_status": "verified",
+    "name": "View stories anonymously",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0",
+    "source_id": "4abe8f323b2f3212",
+    "use": false
+  },
+  {
+    "bundle_id": "a05baa66780ca34cdbdeb788",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Add option to view visible and hidden story mentions.",
+    "id": "a05baa66780ca34cdbdeb788:135",
+    "legacy_id": 15340,
+    "metadata_status": "verified",
+    "name": "View story mentions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "df663614f87b0b0231ceda67",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "449.0.0.52.84",
+        "448.0.0.52.84"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops a swipe right on the home feed from opening the camera. The camera button and deep links still open it.",
+    "id": "df663614f87b0b0231ceda67:0",
+    "legacy_id": 15341,
+    "metadata_status": "verified",
+    "name": "Disable swipe to camera",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "449.0.0.52.84",
+          "448.0.0.52.84"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.2.0",
+    "source_id": "f6fb2abdf4da7a38",
+    "use": true
+  },
+  {
+    "bundle_id": "df663614f87b0b0231ceda67",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "449.0.0.52.84",
+        "448.0.0.52.84"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a download button beside the save icon on feed posts and reels and beside the reply pill on stories. Posts with several media open a bottom sheet to pick what to save.",
+    "id": "df663614f87b0b0231ceda67:1",
+    "legacy_id": 15342,
+    "metadata_status": "verified",
+    "name": "Downloads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "449.0.0.52.84",
+          "448.0.0.52.84"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.2.0",
+    "source_id": "f6fb2abdf4da7a38",
+    "use": true
+  },
+  {
+    "bundle_id": "df663614f87b0b0231ceda67",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "449.0.0.52.84",
+        "448.0.0.52.84"
+      ]
+    },
+    "dependencies": [],
+    "description": "Lets you watch stories, Instants and messages without being marked as seen. Each surface has its own toggle in Piko settings.",
+    "id": "df663614f87b0b0231ceda67:2",
+    "legacy_id": 15343,
+    "metadata_status": "verified",
+    "name": "Ghost mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "449.0.0.52.84",
+          "448.0.0.52.84"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.2.0",
+    "source_id": "f6fb2abdf4da7a38",
+    "use": true
+  },
+  {
+    "bundle_id": "df663614f87b0b0231ceda67",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "449.0.0.52.84",
+        "448.0.0.52.84"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes sponsored posts and ad units from the main feed.",
+    "id": "df663614f87b0b0231ceda67:3",
+    "legacy_id": 15344,
+    "metadata_status": "verified",
+    "name": "Hide feed ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "449.0.0.52.84",
+          "448.0.0.52.84"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.2.0",
+    "source_id": "f6fb2abdf4da7a38",
+    "use": true
+  },
+  {
+    "bundle_id": "df663614f87b0b0231ceda67",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "449.0.0.52.84",
+        "448.0.0.52.84"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops Instagram from inserting ads into Reels and Stories. The same ad injector also feeds Explore and the contextual feeds, so they stay ad-free too.",
+    "id": "df663614f87b0b0231ceda67:4",
+    "legacy_id": 15345,
+    "metadata_status": "verified",
+    "name": "Hide reels and stories ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "449.0.0.52.84",
+          "448.0.0.52.84"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.2.0",
+    "source_id": "f6fb2abdf4da7a38",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a debug option to browse the tweet object in NewX post menus.",
+    "id": "e61d0946c371c0fdff45bd96:0",
+    "legacy_id": 15346,
+    "metadata_status": "verified",
+    "name": "NewX: Browse tweet object",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": false
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Lays out post action bars with the spacing NewX used before 12.28.0-alpha.04: counted actions share the row width and icon-only actions keep their intrinsic size, so hiding an action never leaves a gap.",
+    "id": "e61d0946c371c0fdff45bd96:1",
+    "legacy_id": 15347,
+    "metadata_status": "verified",
+    "name": "NewX: Classic inline action spacing",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the package name and the app name. This allows you to install the patched X alongside the original X or other patched X.",
+    "id": "e61d0946c371c0fdff45bd96:2",
+    "legacy_id": 15348,
+    "metadata_status": "verified",
+    "name": "NewX: Clone",
+    "options": [
+      {
+        "default": "com.twitter.android.piko",
+        "description": "A new package name for the patched app.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "X Piko",
+        "description": "A new app name (label). Entering \"X\" will skip changing the app name.",
+        "key": "appName",
+        "required": true,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": false
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Saves crash logs and shows a notification with share and copy actions.",
+    "id": "e61d0946c371c0fdff45bd96:3",
+    "legacy_id": 15349,
+    "metadata_status": "verified",
+    "name": "NewX: Crash logs",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Customise font style",
+    "id": "e61d0946c371c0fdff45bd96:4",
+    "legacy_id": 15350,
+    "metadata_status": "verified",
+    "name": "NewX: Custom font",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Allows for using domains like fxtwitter when sharing tweets/posts.",
+    "id": "e61d0946c371c0fdff45bd96:5",
+    "legacy_id": 15351,
+    "metadata_status": "verified",
+    "name": "NewX: Custom sharing domain",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [
+      "NewX: Resolve drawer resource names"
+    ],
+    "description": "Lets you hide selected items from the NewX navigation drawer, and optionally add Messages and Grok shortcuts.",
+    "id": "e61d0946c371c0fdff45bd96:6",
+    "legacy_id": 15352,
+    "metadata_status": "verified",
+    "name": "NewX: Customize drawer items",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Lets you hide selected actions from NewX post action bars.",
+    "id": "e61d0946c371c0fdff45bd96:7",
+    "legacy_id": 15353,
+    "metadata_status": "verified",
+    "name": "NewX: Customize inline actions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Lets you hide selected items from the NewX photo and video long-press menu.",
+    "id": "e61d0946c371c0fdff45bd96:8",
+    "legacy_id": 15354,
+    "metadata_status": "verified",
+    "name": "NewX: Customize media menu items",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Reorder, hide, and replace NewX bottom navigation bar items.",
+    "id": "e61d0946c371c0fdff45bd96:9",
+    "legacy_id": 15355,
+    "metadata_status": "verified",
+    "name": "NewX: Customize navigation bar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Lets you hide selected items from the NewX post menu.",
+    "id": "e61d0946c371c0fdff45bd96:10",
+    "legacy_id": 15356,
+    "metadata_status": "verified",
+    "name": "NewX: Customize post menu items",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Reorder and hide the tabs shown on profile screens.",
+    "id": "e61d0946c371c0fdff45bd96:11",
+    "legacy_id": 15357,
+    "metadata_status": "verified",
+    "name": "NewX: Customize profile tabs",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Lets you hide the For You or Following tab from the NewX home timeline.",
+    "id": "e61d0946c371c0fdff45bd96:12",
+    "legacy_id": 15358,
+    "metadata_status": "verified",
+    "name": "NewX: Customize timeline tabs",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Prevents automatic timeline jumps on startup and foregrounding.",
+    "id": "e61d0946c371c0fdff45bd96:13",
+    "legacy_id": 15359,
+    "metadata_status": "verified",
+    "name": "NewX: Disable automatic timeline refresh",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables Haze blur in NewX Compose UI while preserving configured fallback tint and scrim effects.",
+    "id": "e61d0946c371c0fdff45bd96:14",
+    "legacy_id": 15360,
+    "metadata_status": "verified",
+    "name": "NewX: Disable blur effects",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables vertical swipes in the NewX video player while keeping playback controls and other gestures available.",
+    "id": "e61d0946c371c0fdff45bd96:15",
+    "legacy_id": 15361,
+    "metadata_status": "verified",
+    "name": "NewX: Disable video player scrolling",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds searchable, typed NewX feature switch overrides.",
+    "id": "e61d0946c371c0fdff45bd96:16",
+    "legacy_id": 15362,
+    "metadata_status": "verified",
+    "name": "NewX: Feature switch overrides",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Restricts the NewX For You timeline to selected topics.",
+    "id": "e61d0946c371c0fdff45bd96:17",
+    "legacy_id": 15363,
+    "metadata_status": "verified",
+    "name": "NewX: Filter For You by topic",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Filters NewX posts using user-defined words and phrases.",
+    "id": "e61d0946c371c0fdff45bd96:18",
+    "legacy_id": 15364,
+    "metadata_status": "verified",
+    "name": "NewX: Filter posts by keyword",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces video playback to always select the highest available video and audio stream quality without adaptive quality downscaling or network bitrate caps.",
+    "id": "e61d0946c371c0fdff45bd96:19",
+    "legacy_id": 15365,
+    "metadata_status": "verified",
+    "name": "NewX: Force highest video/audio quality",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [
+      "NewX: Set default media tab"
+    ],
+    "description": "Replaces the profile Photos timeline with a three-column media gallery.",
+    "id": "e61d0946c371c0fdff45bd96:20",
+    "legacy_id": 15366,
+    "metadata_status": "verified",
+    "name": "NewX: Gallery profile Photos tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides selected AI-generated posts from NewX timelines.",
+    "id": "e61d0946c371c0fdff45bd96:21",
+    "legacy_id": 15367,
+    "metadata_status": "verified",
+    "name": "NewX: Hide AI-generated posts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the compose button from NewX timelines.",
+    "id": "e61d0946c371c0fdff45bd96:22",
+    "legacy_id": 15368,
+    "metadata_status": "verified",
+    "name": "NewX: Hide compose button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the Discover more module from post-detail timelines.",
+    "id": "e61d0946c371c0fdff45bd96:23",
+    "legacy_id": 15369,
+    "metadata_status": "verified",
+    "name": "NewX: Hide Discover more",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the new posts pill in NewX timelines.",
+    "id": "e61d0946c371c0fdff45bd96:24",
+    "legacy_id": 15370,
+    "metadata_status": "verified",
+    "name": "NewX: Hide new posts pill",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes post and reply dividers shown in NewX timelines.",
+    "id": "e61d0946c371c0fdff45bd96:25",
+    "legacy_id": 15371,
+    "metadata_status": "verified",
+    "name": "NewX: Hide post dividers",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": false
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the persistent post-detail reply bar while keeping the compose button available.",
+    "id": "e61d0946c371c0fdff45bd96:26",
+    "legacy_id": 15372,
+    "metadata_status": "verified",
+    "name": "NewX: Hide post reply bar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides posts and replies authored by selected timeline-reported verification types.",
+    "id": "e61d0946c371c0fdff45bd96:27",
+    "legacy_id": 15373,
+    "metadata_status": "verified",
+    "name": "NewX: Hide posts by verified account type",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the premium upsell chip from the NewX home top bar.",
+    "id": "e61d0946c371c0fdff45bd96:28",
+    "legacy_id": 15374,
+    "metadata_status": "verified",
+    "name": "NewX: Hide premium upsell",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the Spaces bar above NewX timelines.",
+    "id": "e61d0946c371c0fdff45bd96:29",
+    "legacy_id": 15375,
+    "metadata_status": "verified",
+    "name": "NewX: Hide Spaces bar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the For You and Following tabs bar from NewX home timelines, with an option to hide the add-tab (+) button.",
+    "id": "e61d0946c371c0fdff45bd96:30",
+    "legacy_id": 15376,
+    "metadata_status": "verified",
+    "name": "NewX: Hide timeline tabs bar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides recommended-user sections (\"Who to follow\") from NewX timelines and profile pages.",
+    "id": "e61d0946c371c0fdff45bd96:31",
+    "legacy_id": 15377,
+    "metadata_status": "verified",
+    "name": "NewX: Hide who to follow",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [
+      "NewX: Customize inline actions"
+    ],
+    "description": "Adds a Download button below NewX posts and saves media to a folder you choose, with a customizable filename template.",
+    "id": "e61d0946c371c0fdff45bd96:32",
+    "legacy_id": 15378,
+    "metadata_status": "verified",
+    "name": "NewX: Inline download button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Opens the expanded (canonical) URL directly when clicking links instead of the shortened t.co link.",
+    "id": "e61d0946c371c0fdff45bd96:33",
+    "legacy_id": 15379,
+    "metadata_status": "verified",
+    "name": "NewX: Open canonical URLs",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [
+      "NewX: Inline download button"
+    ],
+    "description": "Saves media downloaded with NewX's own download buttons into the folders chosen for the download feature, using the configured filename template.",
+    "id": "e61d0946c371c0fdff45bd96:34",
+    "legacy_id": 15380,
+    "metadata_status": "verified",
+    "name": "NewX: Redirect downloads to chosen folder",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Filters promoted posts and modules from NewX timelines.",
+    "id": "e61d0946c371c0fdff45bd96:35",
+    "legacy_id": 15381,
+    "metadata_status": "verified",
+    "name": "NewX: Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Reopens the pinned list, topic or community tab you last viewed when the app starts.",
+    "id": "e61d0946c371c0fdff45bd96:36",
+    "legacy_id": 15382,
+    "metadata_status": "verified",
+    "name": "NewX: Restore pinned home tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Persists supported timeline positions, then restores them after the app process restarts.",
+    "id": "e61d0946c371c0fdff45bd96:37",
+    "legacy_id": 15383,
+    "metadata_status": "verified",
+    "name": "NewX: Restore timeline position",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bring back old Twitter icons and name",
+    "id": "e61d0946c371c0fdff45bd96:38",
+    "legacy_id": 15384,
+    "metadata_status": "verified",
+    "name": "NewX: Restore Twitter branding",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": false
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Captures parsed NewX server errors in memory and exports them on demand.",
+    "id": "e61d0946c371c0fdff45bd96:39",
+    "legacy_id": 15385,
+    "metadata_status": "verified",
+    "name": "NewX: Server error logging",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": false
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Lets you choose the default sub-tab (Photos or Videos) for the NewX profile media tab.",
+    "id": "e61d0946c371c0fdff45bd96:40",
+    "legacy_id": 15386,
+    "metadata_status": "verified",
+    "name": "NewX: Set default media tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Lets you choose whether profile posts open sorted by the most recent or popular posts.",
+    "id": "e61d0946c371c0fdff45bd96:41",
+    "legacy_id": 15387,
+    "metadata_status": "verified",
+    "name": "NewX: Set default profile post sorting",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Lets you choose the default reply sorting order for NewX post detail.",
+    "id": "e61d0946c371c0fdff45bd96:42",
+    "legacy_id": 15388,
+    "metadata_status": "verified",
+    "name": "NewX: Set default reply sorting",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a rendered-image share action to NewX post menus.",
+    "id": "e61d0946c371c0fdff45bd96:43",
+    "legacy_id": 15389,
+    "metadata_status": "verified",
+    "name": "NewX: Share post as image",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to show NewX poll results without voting.",
+    "id": "e61d0946c371c0fdff45bd96:44",
+    "legacy_id": 15390,
+    "metadata_status": "verified",
+    "name": "NewX: Show poll results",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Shows sensitive media without requiring confirmation in NewX.",
+    "id": "e61d0946c371c0fdff45bd96:45",
+    "legacy_id": 15391,
+    "metadata_status": "verified",
+    "name": "NewX: Show sensitive media",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Chooses between the original NewX colors and the Material You, high-contrast, and Dim themes.",
+    "id": "e61d0946c371c0fdff45bd96:46",
+    "legacy_id": 15392,
+    "metadata_status": "verified",
+    "name": "NewX: Theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks the built-in app color selector for non-Premium users.",
+    "id": "e61d0946c371c0fdff45bd96:47",
+    "legacy_id": 15393,
+    "metadata_status": "verified",
+    "name": "NewX: Unlock color customization",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "e61d0946c371c0fdff45bd96",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.30.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks media downloads and offline video saving in NewX.",
+    "id": "e61d0946c371c0fdff45bd96:48",
+    "legacy_id": 15394,
+    "metadata_status": "verified",
+    "name": "NewX: Unlock downloads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.30.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.54.2",
+    "source_id": "9661234b890fe73d",
+    "use": true
+  },
+  {
+    "bundle_id": "f6eba947723168d564a10833",
+    "compatiblePackages": {
+      "com.rebeltwins.aliensdrivemecrazy": [
+        "3.2.10"
+      ]
+    },
+    "dependencies": [],
+    "description": "Coin save reads always return ~1.34 billion coins (native libil2cpp.so patch on Org.TotalCoins).",
+    "id": "f6eba947723168d564a10833:90",
+    "legacy_id": 15395,
+    "metadata_status": "verified",
+    "name": "Unlimited coins",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rebeltwins.aliensdrivemecrazy",
+        "versions": [
+          "3.2.10"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.41.0",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "f6eba947723168d564a10833",
+    "compatiblePackages": {
+      "com.vng.g6.a.zombie": [
+        "4.183.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Your cash, gold and diamonds always show the maximum. You never run short of money.",
+    "id": "f6eba947723168d564a10833:91",
+    "legacy_id": 15396,
+    "metadata_status": "verified",
+    "name": "Unlimited currency",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.vng.g6.a.zombie",
+        "versions": [
+          "4.183.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.41.0",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "f6eba947723168d564a10833",
+    "compatiblePackages": {
+      "com.halfbrick.dantheman": [
+        "1.14.05"
+      ]
+    },
+    "dependencies": [],
+    "description": "Loads the unlimited money save into the game the first time you open it.",
+    "id": "f6eba947723168d564a10833:92",
+    "legacy_id": 15397,
+    "metadata_status": "verified",
+    "name": "Unlimited money (restore save)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.halfbrick.dantheman",
+        "versions": [
+          "1.14.05"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.41.0",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "f6eba947723168d564a10833",
+    "compatiblePackages": {
+      "com.halfbrick.dantheman": [
+        "1.14.05"
+      ]
+    },
+    "dependencies": [],
+    "description": "Packs the special save file (unlimited coins & gems, everything unlocked) inside the app.",
+    "id": "f6eba947723168d564a10833:93",
+    "legacy_id": 15398,
+    "metadata_status": "verified",
+    "name": "Unlimited money (save bundle)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.halfbrick.dantheman",
+        "versions": [
+          "1.14.05"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.41.0",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "f6eba947723168d564a10833",
+    "compatiblePackages": {
+      "com.dnddream.HeadBasketball": [
+        "4.6.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Free coins forever. Your point balance always reads as the maximum, so you can afford anything in the shop. You can still spend and save normally.",
+    "id": "f6eba947723168d564a10833:94",
+    "legacy_id": 15399,
+    "metadata_status": "verified",
+    "name": "Unlimited Points",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dnddream.HeadBasketball",
+        "versions": [
+          "4.6.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.41.0",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "f6eba947723168d564a10833",
+    "compatiblePackages": {
+      "com.nekki.vector": [
+        "2.10.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Spoofs rewarded ad callbacks to grant coins/rewards without showing ads.",
+    "id": "f6eba947723168d564a10833:95",
+    "legacy_id": 15400,
+    "metadata_status": "verified",
+    "name": "Vector Ad Spoof",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.nekki.vector",
+        "versions": [
+          "2.10.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.41.0",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "f6eba947723168d564a10833",
+    "compatiblePackages": {
+      "com.nekki.vector": [
+        "2.10.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Spending money increases your balance instead of decreasing it (native libil2cpp.so patch).",
+    "id": "f6eba947723168d564a10833:96",
+    "legacy_id": 15401,
+    "metadata_status": "verified",
+    "name": "Vector Money Mod",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.nekki.vector",
+        "versions": [
+          "2.10.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.41.0",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0b2d8f7291cb6f2dfbdbca4d",
+    "compatiblePackages": {
+      "com.netbiscuits.kicker": null
+    },
+    "dependencies": [],
+    "description": "Unlocks the Plus subscription.",
+    "id": "0b2d8f7291cb6f2dfbdbca4d:2",
+    "legacy_id": 15402,
+    "metadata_status": "verified",
+    "name": "Unlock Plus",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.netbiscuits.kicker",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "6043f7396300931d",
+    "use": true
+  },
+  {
+    "bundle_id": "0b2d8f7291cb6f2dfbdbca4d",
+    "compatiblePackages": {
+      "com.netbiscuits.kicker": null
+    },
+    "dependencies": [],
+    "description": "Unlocks the Pur subscription.",
+    "id": "0b2d8f7291cb6f2dfbdbca4d:3",
+    "legacy_id": 15403,
+    "metadata_status": "verified",
+    "name": "Unlock Pur",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.netbiscuits.kicker",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "6043f7396300931d",
+    "use": true
+  },
+  {
+    "bundle_id": "4a664c1126eb1002a177b450",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.24.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Shares user profile links as username only.",
+    "id": "4a664c1126eb1002a177b450:0",
+    "legacy_id": 15404,
+    "metadata_status": "verified",
+    "name": "Share profile as username",
+    "options": [
+      {
+        "default": true,
+        "description": "",
+        "key": "Share profile as username",
+        "required": false,
+        "title": "Share profile as username",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.24.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "2026.40.0-morphe-ver-14",
+    "source_id": "51cef806f8250c87",
+    "use": true
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.21",
+        "2.0.22",
+        "2.0.23"
+      ]
+    },
+    "dependencies": [],
+    "description": "OLED calibration with optional VD-informed SDR foveal processing and a separate foveal gamma adjustment, always with 8-bit sRGB output. The VD options bypass the calibration profile on the fovea while retaining Valve's decoder colour correction. Foveal gamma can darken that layer in any mode. Exact builds 5001712, 5001812, 5001968, 5002244, and 5002363; visible improvement requires headset verification.",
+    "id": "4fb56c0c2e751661e8897ed8:26",
+    "legacy_id": 15405,
+    "metadata_status": "verified",
+    "name": "OLED color calibration",
+    "options": [
+      {
+        "default": "final-balanced",
+        "description": "Selects gamma and saturation for both layers when the VD options are off, or for the base layer when a VD foveal option is on.",
+        "key": "profile",
+        "required": true,
+        "title": "Calibration profile",
+        "type": "kotlin.String",
+        "values": {
+          "Custom gamma and saturation": "custom",
+          "Final balanced tested (gamma 1.20, saturation 1.45)": "final-balanced",
+          "Initial tested (gamma 1.06, saturation 1.12)": "initial",
+          "Neutral comparison (gamma 1.00, saturation 1.00)": "neutral"
+        }
+      },
+      {
+        "default": 1.2,
+        "description": "Used by Custom profile. Allowed range: 0.50 to 2.50.",
+        "key": "gamma",
+        "required": true,
+        "title": "Gamma",
+        "type": "kotlin.Float",
+        "values": null
+      },
+      {
+        "default": 1.45,
+        "description": "Used by Custom profile. Allowed range: 0.00 to 3.00.",
+        "key": "saturation",
+        "required": true,
+        "title": "Saturation",
+        "type": "kotlin.Float",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "VD-informed SDR processing for declared 10-bit input: use highp sampling, retain Valve's decoder colour correction, bypass the calibration profile on the foveal layer, and add no shader noise. The separate foveal gamma adjustment still applies. Output is 8-bit sRGB. Does not negotiate host depth or reproduce VD's raw-YUV decoder import. Mutually exclusive with the 8-bit option and separate blue-noise patch.",
+        "key": "foveaVdLike10Bit",
+        "required": true,
+        "title": "Fovea VD-Like Input 10 bit",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Uses the same VD-informed SDR foveal processing for declared 8-bit input, retaining Valve's decoder colour correction while bypassing the calibration profile and adding no shader noise. The separate foveal gamma adjustment still applies. Output is 8-bit sRGB. Cannot recover precision already lost in the source. Mutually exclusive with the 10-bit option and separate blue-noise patch; does not negotiate host depth.",
+        "key": "foveaVdLike8Bit",
+        "required": true,
+        "title": "Fovea VD-Like Input 8 bit",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": 1.0,
+        "description": "Additional gamma on the foveal layer only, after its colour processing. 1.00 leaves it unchanged; higher values darken shadows and midtones. Try 1.02 first for a lighter foveal region. Works with either VD option or both off, before fade and optional blue-noise dithering. Background calibration and edge blending stay unchanged; this is manual compensation, not a verified seam fix.",
+        "key": "fovealGamma",
+        "required": true,
+        "title": "Foveal gamma adjustment",
+        "type": "kotlin.Float",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.21",
+          "2.0.22",
+          "2.0.23"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.21",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Requests hand, eye and face tracking, microphone and Bluetooth permissions before opening Steam Link on exact older builds. Battery settings and the visible startup splash are separate patches.",
+    "id": "4fb56c0c2e751661e8897ed8:27",
+    "legacy_id": 15406,
+    "metadata_status": "verified",
+    "name": "Startup permission requests (before 5002322)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.21",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.21",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [
+      "XR Manifest Capability Pack"
+    ],
+    "description": "Adds the Launching Steam Link splash, older-build panel sizing and explicit unmanaged VRLink startup. Does not request tracking, microphone or Bluetooth permissions; select Startup permission requests separately.",
+    "id": "4fb56c0c2e751661e8897ed8:28",
+    "legacy_id": 15407,
+    "metadata_status": "verified",
+    "name": "Startup splash and XR launch mode (before 5002322)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.21",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.21",
+        "2.0.22",
+        "2.0.23"
+      ]
+    },
+    "dependencies": [],
+    "description": "Opens Android's per-app Battery usage page at startup so Unrestricted can be selected for XR streaming.",
+    "id": "4fb56c0c2e751661e8897ed8:29",
+    "legacy_id": 15408,
+    "metadata_status": "verified",
+    "name": "Unrestricted battery usage",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.21",
+          "2.0.22",
+          "2.0.23"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.21",
+        "2.0.22",
+        "2.0.23"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a configurable offset to the HMD OpenXR pose-query time and zeroes all six exported HMD velocity fields. Does not affect controller paths. Its trampoline uses a dedicated executable mapping over non-runtime ELF comment bytes and preserves live PLT entries.",
+    "id": "4fb56c0c2e751661e8897ed8:30",
+    "legacy_id": 15409,
+    "metadata_status": "verified",
+    "name": "Visual Delay Fix",
+    "options": [
+      {
+        "default": 60,
+        "description": "libvrlink_scene.so: AArch64 MOVZ/MOVK at PLT cave adds value×1e6 ns to X2 in QSVLDeviceHmd::GetPose. Tested default: 60 ms. Allowed range: 0 to 4000 ms.",
+        "key": "offsetMs",
+        "required": true,
+        "title": "Pose offset (ms)",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.21",
+          "2.0.22",
+          "2.0.23"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.21",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Installs the Galaxy XR runtime bridge resources and extension DEX foundation used by other XR patches.",
+    "id": "4fb56c0c2e751661e8897ed8:31",
+    "legacy_id": 15410,
+    "metadata_status": "verified",
+    "name": "XR Core Runtime",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.21",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.21",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [
+      "XR Core Runtime"
+    ],
+    "description": "Installs baseline Galaxy XR HMD/controller/default config payloads and dashboard bootstrap assets.",
+    "id": "4fb56c0c2e751661e8897ed8:32",
+    "legacy_id": 15411,
+    "metadata_status": "verified",
+    "name": "XR Device Config Baseline",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.21",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.21",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [
+      "XR Manifest Capability Pack"
+    ],
+    "description": "Installs ui_config.json mappings for XR pointer/button routing in launcher UI flows.",
+    "id": "4fb56c0c2e751661e8897ed8:33",
+    "legacy_id": 15412,
+    "metadata_status": "verified",
+    "name": "XR Input Routing Config",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.21",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "4fb56c0c2e751661e8897ed8",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.21",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [
+      "XR Core Runtime"
+    ],
+    "description": "Adds Android XR/OpenXR permissions, features, runtime queries, and app-level XR properties.",
+    "id": "4fb56c0c2e751661e8897ed8:34",
+    "legacy_id": 15413,
+    "metadata_status": "verified",
+    "name": "XR Manifest Capability Pack",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.21",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.27.0",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "7a2e4cf52ef7bdb001e72911",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.39.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides NSFW posts, always turns off 'Show mature content' (also on the Reddit account) and turns on safe search and NSFW image blurring. Removes the NSFW options from settings and incognito mode. This patch cannot be turned off in the app settings.",
+    "id": "7a2e4cf52ef7bdb001e72911:0",
+    "legacy_id": 15414,
+    "metadata_status": "verified",
+    "name": "Block NSFW content",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.39.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "6ecf7015a93fd92d",
+    "use": true
+  },
+  {
+    "bundle_id": "7c28b89a7e982d9f1c4427b6",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.21",
+        "2.0.22",
+        "2.0.23"
+      ]
+    },
+    "dependencies": [],
+    "description": "OLED calibration with optional VD-informed SDR foveal processing and a separate foveal gamma adjustment, always with 8-bit sRGB output. The VD options bypass the calibration profile on the fovea while retaining Valve's decoder colour correction. Foveal gamma can darken that layer in any mode. Exact builds 5001712, 5001812, 5001968, 5002244, and 5002363; visible improvement requires headset verification.",
+    "id": "7c28b89a7e982d9f1c4427b6:26",
+    "legacy_id": 15415,
+    "metadata_status": "verified",
+    "name": "OLED color calibration",
+    "options": [
+      {
+        "default": "final-balanced",
+        "description": "Selects gamma and saturation for both layers when the VD options are off, or for the base layer when a VD foveal option is on.",
+        "key": "profile",
+        "required": true,
+        "title": "Calibration profile",
+        "type": "kotlin.String",
+        "values": {
+          "Custom gamma and saturation": "custom",
+          "Final balanced tested (gamma 1.20, saturation 1.45)": "final-balanced",
+          "Initial tested (gamma 1.06, saturation 1.12)": "initial",
+          "Neutral comparison (gamma 1.00, saturation 1.00)": "neutral"
+        }
+      },
+      {
+        "default": 1.2,
+        "description": "Used by Custom profile. Allowed range: 0.50 to 2.50.",
+        "key": "gamma",
+        "required": true,
+        "title": "Gamma",
+        "type": "kotlin.Float",
+        "values": null
+      },
+      {
+        "default": 1.45,
+        "description": "Used by Custom profile. Allowed range: 0.00 to 3.00.",
+        "key": "saturation",
+        "required": true,
+        "title": "Saturation",
+        "type": "kotlin.Float",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "VD-informed SDR processing for declared 10-bit input: use highp sampling, retain Valve's decoder colour correction, bypass the calibration profile on the foveal layer, and add no shader noise. The separate foveal gamma adjustment still applies. Output is 8-bit sRGB. Does not negotiate host depth or reproduce VD's raw-YUV decoder import. Mutually exclusive with the 8-bit option and separate blue-noise patch.",
+        "key": "foveaVdLike10Bit",
+        "required": true,
+        "title": "Fovea VD-Like Input 10 bit",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Uses the same VD-informed SDR foveal processing for declared 8-bit input, retaining Valve's decoder colour correction while bypassing the calibration profile and adding no shader noise. The separate foveal gamma adjustment still applies. Output is 8-bit sRGB. Cannot recover precision already lost in the source. Mutually exclusive with the 10-bit option and separate blue-noise patch; does not negotiate host depth.",
+        "key": "foveaVdLike8Bit",
+        "required": true,
+        "title": "Fovea VD-Like Input 8 bit",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": 1.0,
+        "description": "Additional gamma on the foveal layer only, after its colour processing. 1.00 leaves it unchanged; higher values darken shadows and midtones. Try 1.02 first for a lighter foveal region. Works with either VD option or both off, before fade and optional blue-noise dithering. Background calibration and edge blending stay unchanged; this is manual compensation, not a verified seam fix.",
+        "key": "fovealGamma",
+        "required": true,
+        "title": "Foveal gamma adjustment",
+        "type": "kotlin.Float",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.21",
+          "2.0.22",
+          "2.0.23"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.28.0-dev.3",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "7c28b89a7e982d9f1c4427b6",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.21",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Requests hand, eye and face tracking, microphone and Bluetooth permissions before opening Steam Link on exact older builds. Battery settings and the visible startup splash are separate patches.",
+    "id": "7c28b89a7e982d9f1c4427b6:27",
+    "legacy_id": 15416,
+    "metadata_status": "verified",
+    "name": "Startup permission requests (before 5002322)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.21",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.28.0-dev.3",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "7c28b89a7e982d9f1c4427b6",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.21",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [
+      "XR Manifest Capability Pack"
+    ],
+    "description": "Adds the Launching Steam Link splash, older-build panel sizing and explicit unmanaged VRLink startup. Does not request tracking, microphone or Bluetooth permissions; select Startup permission requests separately.",
+    "id": "7c28b89a7e982d9f1c4427b6:28",
+    "legacy_id": 15417,
+    "metadata_status": "verified",
+    "name": "Startup splash and XR launch mode (before 5002322)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.21",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.28.0-dev.3",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "7c28b89a7e982d9f1c4427b6",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.21",
+        "2.0.22",
+        "2.0.23"
+      ]
+    },
+    "dependencies": [],
+    "description": "Opens Android's per-app Battery usage page at startup so Unrestricted can be selected for XR streaming.",
+    "id": "7c28b89a7e982d9f1c4427b6:29",
+    "legacy_id": 15418,
+    "metadata_status": "verified",
+    "name": "Unrestricted battery usage",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.21",
+          "2.0.22",
+          "2.0.23"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.28.0-dev.3",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  }
+]

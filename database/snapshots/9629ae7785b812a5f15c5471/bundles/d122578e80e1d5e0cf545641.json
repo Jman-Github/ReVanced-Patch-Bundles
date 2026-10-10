@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-09-28T22:00:23Z",
+  "description": "## [1.15.0](https://github.com/PrathxmOp/Prathxm-Patches/compare/v1.14.0...v1.15.0) (2026-09-28)\n\n### ✨ New Features\n\n* **Chess.com:** set 4.10.0 as primary target version ([a7fbdc3](https://github.com/PrathxmOp/Prathxm-Patches/commit/a7fbdc3f54fd80fac8b8539ac03708f8f83543ba))\n",
+  "download_url": "https://github.com/PrathxmOp/Prathxm-Patches/releases/download/v1.15.0/patches-1.15.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:31728e4232fd82069c881ac56a47fd04f60f8735be2cd8fd4753d0290e437ff1",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "31728e4232fd82069c881ac56a47fd04f60f8735be2cd8fd4753d0290e437ff1",
+  "id": "d122578e80e1d5e0cf545641",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FPrathxmOp%2FPrathxm-Patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FPrathxmOp%2FPrathxm-Patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 497,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.chess"
+  ],
+  "patch_count": 8,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.15.0",
+  "patch_refresh_attempted_at": "2026-10-10T15:20:37.683424262Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:31728e4232fd82069c881ac56a47fd04f60f8735be2cd8fd4753d0290e437ff1",
+  "release_status": "available",
+  "release_url": "https://github.com/PrathxmOp/Prathxm-Patches/releases/tag/v1.15.0",
+  "signature_download_url": "N/A",
+  "source_id": "22d2d62f85a9c22f",
+  "version": "v1.15.0"
+}

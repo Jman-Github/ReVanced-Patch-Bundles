@@ -1,0 +1,52 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-05-14T00:49:09Z",
+  "description": "## Pepper PL 8.13.02 prebuilt variants\n\nMaintenance release: **patches and `.mpp` bundle are byte-equivalent to v1.0.0** — the only change is a fresh set of four prebuilt XAPKs targeting Pepper PL **8.13.02** (versionCode 81302) instead of 8.13.00.\n\nIf you build through Morphe Manager / `morphe-cli` you can keep using v1.0.0's bundle — there is no patch delta. The new release exists so that anyone grabbing a ready XAPK doesn't have to start from the old 8.13.00 base.\n\n> 📦 **Also on ReVanced** → [pepper-revanced-patches v1.4.1](https://github.com/PawiX25/pepper-revanced-patches/releases/tag/v1.4.1) — same patch set, upstream [ReVanced Patcher](https://github.com/ReVanced/revanced-patcher) bundle for [ReVanced Manager](https://github.com/ReVanced/revanced-manager).\n\n### What changed in Pepper 8.13.02 (upstream)\n\nDiffed against 8.13.00 — the delta is one new feature plus the usual build-time noise. **None of it touches any patch's fingerprint surface**, so every patch from v1.0.0 applies unchanged:\n\n| Layer | Change |\n|---|---|\n| New feature | **Views Challenge** — weekly-visit Club-points streak system: 15 new `views_challenge_*` strings, 1 plural, 1 vector drawable (`branding_mascot_smiling.xml`), corresponding DEX |\n| Strings | +15 in base APK; same 15 translated in `config.de` / `config.es` / `config.fr` splits (+4 KB each) |\n| `AndroidManifest.xml` (decoded) | **no semantic change** |\n| Permissions | **no change** |\n| `target_sdk` / `min_sdk` | 36 / 24 — unchanged |\n| Noise | Crashlytics `mapping_file_id`, `version-control-info.textproto` revision, R8 service renames (`c95→e95`, `i18→r18`, `rr2→sr2` under `META-INF/services/`), regenerated `baseline.prof` / `baseline.profm` |\n\nAll 14 patches apply cleanly. Verified end-to-end against the APKPure 8.13.02 XAPK.\n\n### Prebuilt XAPK variants\n\nSame 2×2 matrix as v1.0.0 (debug menu × compact cards):\n\n| File | Debug menu | Compact cards |\n|---|---|---|\n| `pepperpl-8.13.02.xapk` | ✗ | ✗ |\n| `pepperpl-8.13.02-debug.xapk` | ✓ | ✗ |\n| `pepperpl-8.13.02-compact.xapk` | ✗ | ✓ |\n| `pepperpl-8.13.02-debug-compact.xapk` | ✓ | ✓ |\n\nEach XAPK ships:\n- patched **base** APK (DEX-rewritten, all default-on patches applied)\n- `config.arm64_v8a` + `config.xxxhdpi` splits\n- `config.en` + `config.pl` language splits\n\nFor any other ABI / DPI / language combo, grab the matching split from the unpatched APKPure 8.13.02 XAPK and side-load alongside via `adb install-multiple`.\n\n### Patches in the bundle (unchanged from v1.0.0)\n\n| # | Patch | Default | Effect |\n|---|---|---|---|\n| 1 | Enable debug menu | **opt-in** | Re-enables the hidden 3-dot debug menu (45 dev actions). |\n| 2 | Unlock tier-locked icons | on | All 12 membership-tier icons available in the picker. |\n| 3 | Hide banner ads in feed | on | Pubmatic / DFPBanner ads never load; empty cell collapsed. |\n| 4 | Always show event-theming icons | on | All 4 event icons available regardless of the active event. |\n| 5 | Keep event icon after restart | on | Chosen event icon stays after the event ends. |\n| 6 | Fix spacing around hidden ad cells | on | Companion to patch #3. |\n| 7 | Compact deal cards | **opt-in** | Resource-only XML edits to deal-list cards + skeletons. |\n| T1 | Redirect tracker URLs to localhost | on | dex string-pool rewrite — Iterable, Pepper Ocular, Usercentrics, Adjust, Vungle, Pubmatic, FB, GMA. |\n| T2 | Neuter tracker auto-init ContentProviders | on | Vungle, Adjust, FB Audience Network. |\n| T3 | Kill Pepper first-party pixel tracking | on | NOP pixel worker + mock hwid (32-char MD5-hex format). |\n| T4 | Kill Datatransport upload pipeline | on | Crashlytics + Firebase logging upload jobs. |\n| T5 | Disable Google Mobile Ads SDK init | on | NOP `MobileAds.initialize`. |\n| T6 | Disable GMA ad-load entry points | on | NOP every `loadAd*` on AdLoader / AdManager / RewardedAd. |\n| T7 | Disable Adjust SDK | on | NOP every state-mutating `Adjust.*` static method. |\n| T8 | Disable PAIRIP license check | on (`com.pepperdeals` only) | Sideloaded US build can open. |\n| T9 | Skip Usercentrics consent screen | on | CMP screen + fetch wait → straight to notif prompt. |\n| T10 | Block Pepper analytics-event-report tracker | on | Retrofit `@POST` rewrite to `http://127.0.0.1:1`. |\n\nSee [v1.0.0 release notes](https://github.com/PawiX25/pepper-morphe-patches/releases/tag/v1.0.0) for the full visual diff of compact deal cards and per-element XML breakdown.\n\n### Files\n\n- `patches.mpp` / `patches-1.0.1.mpp` — patch bundle for [Morphe Manager](https://github.com/MorpheApp/morphe-manager) / [morphe-cli](https://github.com/MorpheApp/morphe-cli) (functionally equivalent to v1.0.0)\n- `patches-list.json` — patch metadata for Morphe Manager\n- `manifest.json` — Morphe Manager source URL pointer\n- `pepperpl-8.13.02.xapk` — vanilla telemetry-blocked Pepper PL\n- `pepperpl-8.13.02-debug.xapk` — + debug menu\n- `pepperpl-8.13.02-compact.xapk` — + compact cards\n- `pepperpl-8.13.02-debug-compact.xapk` — + debug menu **and** compact cards\n\nInstall the XAPK with SAI / APKMirror Installer / Morphe Manager.\n\n### Compatible with\n\nAll 10 sister apps from the family (Pepper PL, NL, DE, UK, FR, MX, ES, AT, SE and the US `com.pepperdeals` build). T8 is restricted to `com.pepperdeals` (only that build ships PAIRIP).\n",
+  "download_url": "https://github.com/PawiX25/pepper-morphe-patches/releases/download/v1.0.1/patches-1.0.1.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:24d94f11947d43373727ef61364479306ef0482770b62bbe32f3d8d301f7e127",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "24d94f11947d43373727ef61364479306ef0482770b62bbe32f3d8d301f7e127",
+  "id": "925e0d9e5a1fa8e145dd1816",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FPawiX25%2Fpepper-morphe-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FPawiX25%2Fpepper-morphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 334,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.chollometro",
+    "com.dealabs.apps.android",
+    "com.pepperdeals",
+    "com.preisjaeger",
+    "com.tippingcanoe.hukd",
+    "com.tippingcanoe.mydealz",
+    "com.tippingcanoe.peppernl",
+    "com.tippingcanoe.pepperpl",
+    "com.tippingcanoe.promodescuentos",
+    "se.pepperdeals"
+  ],
+  "patch_count": 17,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.0.1",
+  "patch_refresh_attempted_at": "2026-10-10T15:20:18.256633759Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:24d94f11947d43373727ef61364479306ef0482770b62bbe32f3d8d301f7e127",
+  "release_status": "available",
+  "release_url": "https://github.com/PawiX25/pepper-morphe-patches/releases/tag/v1.0.1",
+  "signature_download_url": "N/A",
+  "source_id": "dd34891c32398c62",
+  "version": "v1.0.1"
+}

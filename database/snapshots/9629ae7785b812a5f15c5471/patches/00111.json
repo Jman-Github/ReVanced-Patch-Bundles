@@ -1,0 +1,4042 @@
+[
+  {
+    "bundle_id": "fea903b27335a498da7ef3dc",
+    "category": "Links and bubbles",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0084FF",
+        "name": "Messenger",
+        "packageName": "com.facebook.orca",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "description": "Arm64 builds 346013387, 346013440, 346013442, 346013354, 346013370, 346013394, 346013423, 346013355, 346013356, 346013357, 346013358, 346013359, 346013372, 346013374, 346013375, 346013391, 346013427, 346013441, 346013443, 346013444 and 346013445; checked again during patching",
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "580.0.0.49.91"
+          },
+          {
+            "description": "Arm64 builds 346213494, 346213498, 346213510, 346213514, 346213528, 346213531, 346213532, 346213564, 346213567, 346213568, 346213580, 346213581, 346213582, 346213583, 346213584 and 346213585; checked again during patching",
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "581.0.0.49.91"
+          }
+        ],
+        "versions": [
+          "580.0.0.49.91",
+          "581.0.0.49.91"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      {
+        "dependencies": [
+          {
+            "dependencies": [],
+            "description": "Install HushMessenger settings",
+            "name": null,
+            "type": "ResourcePatch"
+          }
+        ],
+        "description": "Load HushMessenger runtime controls",
+        "name": null,
+        "type": "BytecodePatch"
+      },
+      {
+        "dependencies": [
+          {
+            "dependencies": [],
+            "description": "Install HushMessenger settings",
+            "name": null,
+            "type": "ResourcePatch"
+          }
+        ],
+        "description": "Record HushMessenger capability: external_browser",
+        "name": null,
+        "type": "ResourcePatch"
+      }
+    ],
+    "description": "Uses Messenger's external-browser branch for HTTP and HTTPS links. Long-press Messenger's home screen icon > Patch controls. Starts off.",
+    "id": "fea903b27335a498da7ef3dc:26",
+    "legacy_id": 11472,
+    "metadata_status": "unverified",
+    "name": "Open web links externally",
+    "options": [],
+    "packages": [
+      {
+        "name": "Messenger",
+        "versions": [
+          "580.0.0.49.91",
+          "581.0.0.49.91"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.21.0",
+    "source_id": "17fa2a3ccb2d9eb5"
+  },
+  {
+    "bundle_id": "fea903b27335a498da7ef3dc",
+    "category": "Fixes",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0084FF",
+        "name": "Messenger",
+        "packageName": "com.facebook.orca",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "description": "Arm64 builds 346013387, 346013440, 346013442, 346013354, 346013370, 346013394, 346013423, 346013355, 346013356, 346013357, 346013358, 346013359, 346013372, 346013374, 346013375, 346013391, 346013427, 346013441, 346013443, 346013444 and 346013445; checked again during patching",
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "580.0.0.49.91"
+          },
+          {
+            "description": "Arm64 builds 346213494, 346213498, 346213510, 346213514, 346213528, 346213531, 346213532, 346213564, 346213567, 346213568, 346213580, 346213581, 346213582, 346213583, 346213584 and 346213585; checked again during patching",
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "581.0.0.49.91"
+          }
+        ],
+        "versions": [
+          "580.0.0.49.91",
+          "581.0.0.49.91"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      {
+        "dependencies": [
+          {
+            "dependencies": [],
+            "description": "Install HushMessenger settings",
+            "name": null,
+            "type": "ResourcePatch"
+          }
+        ],
+        "description": "Load HushMessenger runtime controls",
+        "name": null,
+        "type": "BytecodePatch"
+      }
+    ],
+    "description": "Answers Messenger's own signer lookup, and a Facebook signed with your key calling Messenger, with the original Meta certificate. Always on.",
+    "id": "fea903b27335a498da7ef3dc:27",
+    "legacy_id": 11473,
+    "metadata_status": "unverified",
+    "name": "Restore screens on re-signed builds",
+    "options": [],
+    "packages": [
+      {
+        "name": "Messenger",
+        "versions": [
+          "580.0.0.49.91",
+          "581.0.0.49.91"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.21.0",
+    "source_id": "17fa2a3ccb2d9eb5"
+  },
+  {
+    "bundle_id": "fea903b27335a498da7ef3dc",
+    "category": "Privacy",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0084FF",
+        "name": "Messenger",
+        "packageName": "com.facebook.orca",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "description": "Arm64 builds 346013387, 346013440, 346013442, 346013354, 346013370, 346013394, 346013423, 346013355, 346013356, 346013357, 346013358, 346013359, 346013372, 346013374, 346013375, 346013391, 346013427, 346013441, 346013443, 346013444 and 346013445; checked again during patching",
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "580.0.0.49.91"
+          },
+          {
+            "description": "Arm64 builds 346213494, 346213498, 346213510, 346213514, 346213528, 346213531, 346213532, 346213564, 346213567, 346213568, 346213580, 346213581, 346213582, 346213583, 346213584 and 346213585; checked again during patching",
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "581.0.0.49.91"
+          }
+        ],
+        "versions": [
+          "580.0.0.49.91",
+          "581.0.0.49.91"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      {
+        "dependencies": [
+          {
+            "dependencies": [],
+            "description": "Install HushMessenger settings",
+            "name": null,
+            "type": "ResourcePatch"
+          }
+        ],
+        "description": "Load HushMessenger runtime controls",
+        "name": null,
+        "type": "BytecodePatch"
+      },
+      {
+        "dependencies": [
+          {
+            "dependencies": [],
+            "description": "Install HushMessenger settings",
+            "name": null,
+            "type": "ResourcePatch"
+          }
+        ],
+        "description": "Record HushMessenger capability: save_stories",
+        "name": null,
+        "type": "ResourcePatch"
+      }
+    ],
+    "description": "Adds Save to the More options menu on other people's stories. The photo or video goes to your phone the same way Messenger saves your own. Long-press Messenger's home screen icon > Patch controls. Starts off.",
+    "id": "fea903b27335a498da7ef3dc:28",
+    "legacy_id": 11474,
+    "metadata_status": "unverified",
+    "name": "Save any story",
+    "options": [],
+    "packages": [
+      {
+        "name": "Messenger",
+        "versions": [
+          "580.0.0.49.91",
+          "581.0.0.49.91"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.21.0",
+    "source_id": "17fa2a3ccb2d9eb5"
+  },
+  {
+    "bundle_id": "fea903b27335a498da7ef3dc",
+    "category": "Conversations",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0084FF",
+        "name": "Messenger",
+        "packageName": "com.facebook.orca",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "description": "Arm64 builds 346013387, 346013440, 346013442, 346013354, 346013370, 346013394, 346013423, 346013355, 346013356, 346013357, 346013358, 346013359, 346013372, 346013374, 346013375, 346013391, 346013427, 346013441, 346013443, 346013444 and 346013445; checked again during patching",
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "580.0.0.49.91"
+          },
+          {
+            "description": "Arm64 builds 346213494, 346213498, 346213510, 346213514, 346213528, 346213531, 346213532, 346213564, 346213567, 346213568, 346213580, 346213581, 346213582, 346213583, 346213584 and 346213585; checked again during patching",
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "581.0.0.49.91"
+          }
+        ],
+        "versions": [
+          "580.0.0.49.91",
+          "581.0.0.49.91"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      {
+        "dependencies": [
+          {
+            "dependencies": [],
+            "description": "Install HushMessenger settings",
+            "name": null,
+            "type": "ResourcePatch"
+          }
+        ],
+        "description": "Load HushMessenger runtime controls",
+        "name": null,
+        "type": "BytecodePatch"
+      },
+      {
+        "dependencies": [
+          {
+            "dependencies": [],
+            "description": "Install HushMessenger settings",
+            "name": null,
+            "type": "ResourcePatch"
+          }
+        ],
+        "description": "Record HushMessenger capability: original_photo",
+        "name": null,
+        "type": "ResourcePatch"
+      }
+    ],
+    "description": "With HD on, sends a JPEG photo's own image data instead of a re-encoded copy, without its metadata except the rotation tag. Videos and photos over 20 MB are still compressed. Long-press Messenger's home screen icon > Patch controls. Starts off.",
+    "id": "fea903b27335a498da7ef3dc:29",
+    "legacy_id": 11475,
+    "metadata_status": "unverified",
+    "name": "Send photos at original quality",
+    "options": [],
+    "packages": [
+      {
+        "name": "Messenger",
+        "versions": [
+          "580.0.0.49.91",
+          "581.0.0.49.91"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.21.0",
+    "source_id": "17fa2a3ccb2d9eb5"
+  },
+  {
+    "bundle_id": "fea903b27335a498da7ef3dc",
+    "category": "Navigation",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0084FF",
+        "name": "Messenger",
+        "packageName": "com.facebook.orca",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "description": "Arm64 builds 346013387, 346013440, 346013442, 346013354, 346013370, 346013394, 346013423, 346013355, 346013356, 346013357, 346013358, 346013359, 346013372, 346013374, 346013375, 346013391, 346013427, 346013441, 346013443, 346013444 and 346013445; checked again during patching",
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "580.0.0.49.91"
+          },
+          {
+            "description": "Arm64 builds 346213494, 346213498, 346213510, 346213514, 346213528, 346213531, 346213532, 346213564, 346213567, 346213568, 346213580, 346213581, 346213582, 346213583, 346213584 and 346213585; checked again during patching",
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "581.0.0.49.91"
+          }
+        ],
+        "versions": [
+          "580.0.0.49.91",
+          "581.0.0.49.91"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      {
+        "dependencies": [
+          {
+            "dependencies": [],
+            "description": "Install HushMessenger settings",
+            "name": null,
+            "type": "ResourcePatch"
+          }
+        ],
+        "description": "Load HushMessenger runtime controls",
+        "name": null,
+        "type": "BytecodePatch"
+      },
+      {
+        "dependencies": [
+          {
+            "dependencies": [],
+            "description": "Install HushMessenger settings",
+            "name": null,
+            "type": "ResourcePatch"
+          }
+        ],
+        "description": "Record HushMessenger capability: chat_animation",
+        "name": null,
+        "type": "ResourcePatch"
+      }
+    ],
+    "description": "Slides a chat in from the side when you open it and back out when you go back, while the screen underneath holds still. Chat heads and bubbles keep their own animations. Long-press Messenger's home screen icon > Patch controls. Starts off.",
+    "id": "fea903b27335a498da7ef3dc:30",
+    "legacy_id": 11476,
+    "metadata_status": "unverified",
+    "name": "Slide chats in and out",
+    "options": [],
+    "packages": [
+      {
+        "name": "Messenger",
+        "versions": [
+          "580.0.0.49.91",
+          "581.0.0.49.91"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.21.0",
+    "source_id": "17fa2a3ccb2d9eb5"
+  },
+  {
+    "bundle_id": "fea903b27335a498da7ef3dc",
+    "category": "Conversations",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0084FF",
+        "name": "Messenger",
+        "packageName": "com.facebook.orca",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "description": "Arm64 builds 346013387, 346013440, 346013442, 346013354, 346013370, 346013394, 346013423, 346013355, 346013356, 346013357, 346013358, 346013359, 346013372, 346013374, 346013375, 346013391, 346013427, 346013441, 346013443, 346013444 and 346013445; checked again during patching",
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "580.0.0.49.91"
+          },
+          {
+            "description": "Arm64 builds 346213494, 346213498, 346213510, 346213514, 346213528, 346213531, 346213532, 346213564, 346213567, 346213568, 346213580, 346213581, 346213582, 346213583, 346213584 and 346213585; checked again during patching",
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "581.0.0.49.91"
+          }
+        ],
+        "versions": [
+          "580.0.0.49.91",
+          "581.0.0.49.91"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      {
+        "dependencies": [
+          {
+            "dependencies": [],
+            "description": "Install HushMessenger settings",
+            "name": null,
+            "type": "ResourcePatch"
+          }
+        ],
+        "description": "Load HushMessenger runtime controls",
+        "name": null,
+        "type": "BytecodePatch"
+      },
+      {
+        "dependencies": [
+          {
+            "dependencies": [],
+            "description": "Install HushMessenger settings",
+            "name": null,
+            "type": "ResourcePatch"
+          }
+        ],
+        "description": "Record HushMessenger capability: use_system_emoji",
+        "name": null,
+        "type": "ResourcePatch"
+      }
+    ],
+    "description": "Renders emoji with the phone's own font instead of Messenger's. Long-press Messenger's home screen icon > Patch controls. Starts off.",
+    "id": "fea903b27335a498da7ef3dc:31",
+    "legacy_id": 11477,
+    "metadata_status": "unverified",
+    "name": "Use system emoji",
+    "options": [],
+    "packages": [
+      {
+        "name": "Messenger",
+        "versions": [
+          "580.0.0.49.91",
+          "581.0.0.49.91"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.21.0",
+    "source_id": "17fa2a3ccb2d9eb5"
+  },
+  {
+    "bundle_id": "fea903b27335a498da7ef3dc",
+    "category": "Privacy",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0084FF",
+        "name": "Messenger",
+        "packageName": "com.facebook.orca",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "description": "Arm64 builds 346013387, 346013440, 346013442, 346013354, 346013370, 346013394, 346013423, 346013355, 346013356, 346013357, 346013358, 346013359, 346013372, 346013374, 346013375, 346013391, 346013427, 346013441, 346013443, 346013444 and 346013445; checked again during patching",
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "580.0.0.49.91"
+          },
+          {
+            "description": "Arm64 builds 346213494, 346213498, 346213510, 346213514, 346213528, 346213531, 346213532, 346213564, 346213567, 346213568, 346213580, 346213581, 346213582, 346213583, 346213584 and 346213585; checked again during patching",
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "581.0.0.49.91"
+          }
+        ],
+        "versions": [
+          "580.0.0.49.91",
+          "581.0.0.49.91"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      {
+        "dependencies": [
+          {
+            "dependencies": [],
+            "description": "Install HushMessenger settings",
+            "name": null,
+            "type": "ResourcePatch"
+          }
+        ],
+        "description": "Load HushMessenger runtime controls",
+        "name": null,
+        "type": "BytecodePatch"
+      },
+      {
+        "dependencies": [
+          {
+            "dependencies": [],
+            "description": "Install HushMessenger settings",
+            "name": null,
+            "type": "ResourcePatch"
+          }
+        ],
+        "description": "Record HushMessenger capability: anonymous_stories",
+        "name": null,
+        "type": "ResourcePatch"
+      }
+    ],
+    "description": "Opens other people's stories without adding you to their viewer list. Stories you open this way are marked as seen on your side. Long-press Messenger's home screen icon > Patch controls. Starts off.",
+    "id": "fea903b27335a498da7ef3dc:32",
+    "legacy_id": 11478,
+    "metadata_status": "unverified",
+    "name": "View stories anonymously",
+    "options": [],
+    "packages": [
+      {
+        "name": "Messenger",
+        "versions": [
+          "580.0.0.49.91",
+          "581.0.0.49.91"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.21.0",
+    "source_id": "17fa2a3ccb2d9eb5"
+  },
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Privacy",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "HushPinterest settings",
+      "ResourcePatch"
+    ],
+    "description": "Stops Pinterest's usage-event and performance uploads, AppsFlyer tracking, Bugsnag crash reports and the recommendations Pinterest publishes to Google Engage. A switch and Pause restore those runtime paths. In the manifest it also turns off Firebase Analytics, Crashlytics and Performance collection and Google Analytics' ad ID collection, and sets Google's default analytics and ad consent to denied. That part stays until you patch again without this patch. Sign-in, pin requests and Firebase push components are preserved.",
+    "id": "ff822870ddac5862bd3e1c61:0",
+    "legacy_id": 11479,
+    "metadata_status": "unverified",
+    "name": "Disable analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": true
+  },
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "HushPinterest settings"
+    ],
+    "description": "Stops Pinterest's in-app Play Store update prompts. You can still update Pinterest yourself.",
+    "id": "ff822870ddac5862bd3e1c61:1",
+    "legacy_id": 11480,
+    "metadata_status": "unverified",
+    "name": "Disable update nag",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": false
+  },
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Downloads",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "HushPinterest settings"
+    ],
+    "description": "Downloads a pin or selected visible grid pins using original images and the highest-resolution MP4 Pinterest supplies. Saves in Downloads on Android 10 or newer, or asks for a save location on Android 9. The pin menu can also copy that media's link. Turn it off in HushPinterest settings at any time.",
+    "id": "ff822870ddac5862bd3e1c61:2",
+    "legacy_id": 11481,
+    "metadata_status": "unverified",
+    "name": "Download pins",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": false
+  },
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "HushPinterest settings"
+    ],
+    "description": "Adds separate switches for collage, visual-search and Promote pin menu entries. Download, share and copy-link actions remain available.",
+    "id": "ff822870ddac5862bd3e1c61:3",
+    "legacy_id": 11482,
+    "metadata_status": "unverified",
+    "name": "Filter pin menu",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": false
+  },
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Ads",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "HushPinterest settings"
+    ],
+    "description": "Removes promoted pins from the home feed, search, related pins and boards, and hides Pinterest's ad-only panels. Google's ad SDK isn't started when Pinterest opens. Turn it off in HushPinterest settings at any time.",
+    "id": "ff822870ddac5862bd3e1c61:4",
+    "legacy_id": 11483,
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": true
+  },
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Privacy",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "HushPinterest settings"
+    ],
+    "description": "Pinterest and the ad and tracking code inside it read an all-zero advertising ID with ad tracking limited, the same answer Android gives after you delete your ad ID. A switch and Pause hand back the real ID.",
+    "id": "ff822870ddac5862bd3e1c61:5",
+    "legacy_id": 11484,
+    "metadata_status": "unverified",
+    "name": "Hide advertising ID",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": true
+  },
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "HushPinterest settings"
+    ],
+    "description": "Removes pins that Pinterest labels as made or changed with AI from the home feed, search, related pins and boards. AI images without Pinterest's label still show.",
+    "id": "ff822870ddac5862bd3e1c61:6",
+    "legacy_id": 11485,
+    "metadata_status": "unverified",
+    "name": "Hide AI-labeled pins",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": false
+  },
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "HushPinterest settings"
+    ],
+    "description": "Collapses comments panels and comment previews beneath pins. It doesn't change who can comment on your pins.",
+    "id": "ff822870ddac5862bd3e1c61:7",
+    "legacy_id": 11486,
+    "metadata_status": "unverified",
+    "name": "Hide comments",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": false
+  },
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "HushPinterest settings"
+    ],
+    "description": "Hides trailing header icon buttons. Back buttons, text actions and account controls remain available.",
+    "id": "ff822870ddac5862bd3e1c61:8",
+    "legacy_id": 11487,
+    "metadata_status": "unverified",
+    "name": "Hide header buttons",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": false
+  },
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "HushPinterest settings"
+    ],
+    "description": "Adds separate switches for the Create, Updates and Search navigation buttons. Home and Profile remain available.",
+    "id": "ff822870ddac5862bd3e1c61:9",
+    "legacy_id": 11488,
+    "metadata_status": "unverified",
+    "name": "Hide navigation buttons",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": false
+  },
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "HushPinterest settings"
+    ],
+    "description": "Stops the pop-up Pinterest shows after you save a pin, such as \"Saved to\" your board or the suggestion to follow the pin's creator. The pin is still saved.",
+    "id": "ff822870ddac5862bd3e1c61:10",
+    "legacy_id": 11489,
+    "metadata_status": "unverified",
+    "name": "Hide save toasts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": false
+  },
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "HushPinterest settings"
+    ],
+    "description": "Hides recent-search rows and carousels on this device. It doesn't delete your account's search history.",
+    "id": "ff822870ddac5862bd3e1c61:11",
+    "legacy_id": 11490,
+    "metadata_status": "unverified",
+    "name": "Hide search history",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": false
+  },
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "HushPinterest settings"
+    ],
+    "description": "Hides shoppable pins, shopping stories and featured board placements. Off by default. Turn it on in HushPinterest settings when you want a feed without shopping.",
+    "id": "ff822870ddac5862bd3e1c61:12",
+    "legacy_id": 11491,
+    "metadata_status": "unverified",
+    "name": "Hide shopping and product pins",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": false
+  },
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "HushPinterest settings"
+    ],
+    "description": "Hides the \"Ideas you might love\" row of topic bubbles under pins without leaving a gap. Comments and related pins stay. Its switch starts off, so turn it on in HushPinterest settings.",
+    "id": "ff822870ddac5862bd3e1c61:13",
+    "legacy_id": 11492,
+    "metadata_status": "unverified",
+    "name": "Hide topic suggestions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": false
+  },
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Settings",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds HushPinterest settings to Pinterest. Long-press Pinterest's launcher icon, or open Additional settings in the app on Pinterest's App info page, to turn features on or off, pause HushPinterest, save your switches to a file or load them, and export diagnostics. The licenses are there too.",
+    "id": "ff822870ddac5862bd3e1c61:14",
+    "legacy_id": 11493,
+    "metadata_status": "unverified",
+    "name": "HushPinterest settings",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": true
+  },
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "HushPinterest settings"
+    ],
+    "description": "Stops Pinterest's screenshot observer from opening sharing suggestions. Screenshots still work normally.",
+    "id": "ff822870ddac5862bd3e1c61:15",
+    "legacy_id": 11494,
+    "metadata_status": "unverified",
+    "name": "No screenshot share menu",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": false
+  },
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "HushPinterest settings",
+      "ResourcePatch"
+    ],
+    "description": "Opens pin Visit links and profile websites in your web browser. Pinterest links and sign-in keep their usual behavior. Turn it off in HushPinterest settings at any time.",
+    "id": "ff822870ddac5862bd3e1c61:16",
+    "legacy_id": 11495,
+    "metadata_status": "unverified",
+    "name": "Open links in your browser",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": false
+  },
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "HushPinterest settings"
+    ],
+    "description": "Asks Pinterest for the original image with each pin and shows it in the pin closeup, and has collages pick the original before the large size. Uses more data.",
+    "id": "ff822870ddac5862bd3e1c61:17",
+    "legacy_id": 11496,
+    "metadata_status": "unverified",
+    "name": "Original-quality images",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": false
+  },
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "HushPinterest settings"
+    ],
+    "description": "Dismisses the optional confirm-your-email reminder. Account verification and sign-in checks still apply.",
+    "id": "ff822870ddac5862bd3e1c61:18",
+    "legacy_id": 11497,
+    "metadata_status": "unverified",
+    "name": "Quiet email reminders",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": false
+  },
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Privacy",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "HushPinterest settings",
+      "ResourcePatch"
+    ],
+    "description": "Removes Google's advertising ID permission and Android's Privacy Sandbox ad services from Pinterest. It can't be turned back on in settings, only by patching again without it. While it's in, Hide advertising ID's switch can't hand back the real ID, because Google Play services answers with zeros.",
+    "id": "ff822870ddac5862bd3e1c61:19",
+    "legacy_id": 11498,
+    "metadata_status": "unverified",
+    "name": "Remove ad tracking permissions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": true
+  },
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Privacy",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "HushPinterest settings",
+      "ResourcePatch"
+    ],
+    "description": "Adds Pinterest's original signing certificate to its manifest, so Google sign-in can work in the patched app. It only helps with microG-RE in place of Google Play services, or with the XSpoofSignatures LSPosed module and its permission granted. Stock Google Play services ignores it, and email and password sign-in doesn't need it.",
+    "id": "ff822870ddac5862bd3e1c61:20",
+    "legacy_id": 11499,
+    "metadata_status": "unverified",
+    "name": "Spoof signature for Google sign-in",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": false
+  },
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Privacy",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "HushPinterest settings"
+    ],
+    "description": "Removes known tracking parameters from URLs shared or copied from Pinterest. Keeps the destination, other parameters and opaque pin.it links. Turn it off or pause HushPinterest to share the original URLs.",
+    "id": "ff822870ddac5862bd3e1c61:21",
+    "legacy_id": 11500,
+    "metadata_status": "unverified",
+    "name": "Strip link tracking",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": true
+  },
+  {
+    "bundle_id": "ff822870ddac5862bd3e1c61",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 15073315,
+        "description": null,
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "14.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 14388010
+            }
+          },
+          {
+            "experimental": false,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.38.0",
+        "14.25.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "HushPinterest settings"
+    ],
+    "description": "Uses Android's share sheet when sharing a pin link. Screenshot and download actions keep their usual behavior. Turn it off in HushPinterest settings at any time.",
+    "id": "ff822870ddac5862bd3e1c61:22",
+    "legacy_id": 11501,
+    "metadata_status": "unverified",
+    "name": "System share sheet",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.38.0",
+          "14.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.5",
+    "source_id": "492eb160e9a4ecbb",
+    "use": false
+  },
+  {
+    "bundle_id": "ffec1c8aa1a132b93398b8e3",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0033",
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "signatures": [
+          "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+          "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a"
+        ],
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to enable Yandex voice-over translation of video audio tracks. Requires a Morphe Patches version with add-on support.",
+    "id": "ffec1c8aa1a132b93398b8e3:0",
+    "legacy_id": 11502,
+    "metadata_status": "unverified",
+    "name": "Voice Over Translation (Yandex)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "05038894f6489db0"
+  },
+  {
+    "bundle_id": "05fae832a265209b582ffc0b",
+    "compatiblePackages": {
+      "com.google.android.youtube": null
+    },
+    "dependencies": [],
+    "description": "Hides the status bar and removes top status-bar and cutout insets from app content.",
+    "id": "05fae832a265209b582ffc0b:0",
+    "legacy_id": 11503,
+    "metadata_status": "verified",
+    "name": "Hide status bar and ignore display cutouts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "ff48a5058959b0b9",
+    "use": false
+  },
+  {
+    "bundle_id": "05fae832a265209b582ffc0b",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Hides the status bar and removes top status-bar and cutout insets from app content in any app.",
+    "id": "05fae832a265209b582ffc0b:1",
+    "legacy_id": 11504,
+    "metadata_status": "verified",
+    "name": "Hide status bar and ignore display cutouts (universal)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "ff48a5058959b0b9",
+    "use": false
+  },
+  {
+    "bundle_id": "088b3238b38010be0393b0b6",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Raises how many icons Gboard's toolbar can hold — five on a stock build — to 12, so Flexboard's hotkeys and text action buttons fit alongside Gboard's own. How many actually show stays yours, set by dragging them in Gboard's toolbar settings. Force-stop Gboard afterwards: a cached keyboard view can go on showing the old capacity.",
+    "id": "088b3238b38010be0393b0b6:0",
+    "legacy_id": 11505,
+    "metadata_status": "verified",
+    "name": "Bigger Toolbar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "3671cd304f646639",
+    "use": true
+  },
+  {
+    "bundle_id": "088b3238b38010be0393b0b6",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bypass Gboard's own startup signature check without changing other callers.",
+    "id": "088b3238b38010be0393b0b6:1",
+    "legacy_id": 11506,
+    "metadata_status": "verified",
+    "name": "Bypass Gboard Signature",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "3671cd304f646639",
+    "use": true
+  },
+  {
+    "bundle_id": "088b3238b38010be0393b0b6",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "For debugging. After a keyboard crash, the error is saved and copied to your clipboard the next time the keyboard starts, so it can be pasted into a bug report. This replaces whatever was on the clipboard. Off by default.",
+    "id": "088b3238b38010be0393b0b6:2",
+    "legacy_id": 11507,
+    "metadata_status": "verified",
+    "name": "Crash reporter (debug)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "3671cd304f646639",
+    "use": false
+  },
+  {
+    "bundle_id": "088b3238b38010be0393b0b6",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Exposes Google Rambler — Gboard's agentic dictation, which rewrites what you say into composed text — as a choice in Voice settings. It is not switched on for you: the feature uses a Google server, has its own quota and asks for consent, so picking it is left to you.",
+    "id": "088b3238b38010be0393b0b6:3",
+    "legacy_id": 11508,
+    "metadata_status": "verified",
+    "name": "Enable Rambler",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "3671cd304f646639",
+    "use": true
+  },
+  {
+    "bundle_id": "088b3238b38010be0393b0b6",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Turns on two finished Gboard features that a resigned build can never receive: grammar check, and a close control on the chips Gboard offers unprompted. Their flags are delivered per app signature, so resigning the APK means they never arrive and stay off. Both are confirmed working on a device; five other flags were tried and dropped.",
+    "id": "088b3238b38010be0393b0b6:4",
+    "legacy_id": 11509,
+    "metadata_status": "verified",
+    "name": "Hidden Features",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "3671cd304f646639",
+    "use": true
+  },
+  {
+    "bundle_id": "088b3238b38010be0393b0b6",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Rename the package to dev.jz6.com.google.android.inputmethod.latin so the patched build installs alongside the official Gboard instead of replacing it.",
+    "id": "088b3238b38010be0393b0b6:5",
+    "legacy_id": 11510,
+    "metadata_status": "verified",
+    "name": "Install as Gboard Clone",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "3671cd304f646639",
+    "use": true
+  },
+  {
+    "bundle_id": "088b3238b38010be0393b0b6",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Uses Android's haptic primitives for keypresses — the crisp tick the rest of the system uses — instead of a plain buzz. Gboard has the code and disables it with an impossible minimum Android version; this removes that. Devices whose vibrator cannot do primitives are unaffected, because Gboard's own hardware check still runs. Note that it changes what the vibration strength slider means, from milliseconds to intensity.",
+    "id": "088b3238b38010be0393b0b6:6",
+    "legacy_id": 11511,
+    "metadata_status": "verified",
+    "name": "Modern keypress haptics",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "3671cd304f646639",
+    "use": true
+  },
+  {
+    "bundle_id": "088b3238b38010be0393b0b6",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Turns on flick keys for symbols, touch & hold keys for numbers, suggestion strip, grammar check and smart replies, and turns off block offensive words and word suggestions. Written once as defaults, so each can still be changed in Gboard's own settings. Grammar check is the switch, not the feature: the row only exists on a resigned build if Hidden Features is applied too.",
+    "id": "088b3238b38010be0393b0b6:7",
+    "legacy_id": 11512,
+    "metadata_status": "verified",
+    "name": "Suggested Settings",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "3671cd304f646639",
+    "use": true
+  },
+  {
+    "bundle_id": "088b3238b38010be0393b0b6",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Swipe left anywhere on the keyboard to delete the previous word, and swipe right to restore it. Uses Gboard's word-scrub engine; anywhere swipes have a one-word default cap, while deliberate backspace swipes keep Gboard's uncapped behaviour.",
+    "id": "088b3238b38010be0393b0b6:8",
+    "legacy_id": 11513,
+    "metadata_status": "verified",
+    "name": "Swipe Left to Delete",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "3671cd304f646639",
+    "use": true
+  },
+  {
+    "bundle_id": "088b3238b38010be0393b0b6",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Swipe right after deleting to put the words back — the swipe starts on the Delete key, or anywhere when Swipe Left to Delete is also applied. Uses Gboard's own undo, which already records what a delete swipe removed.",
+    "id": "088b3238b38010be0393b0b6:9",
+    "legacy_id": 11514,
+    "metadata_status": "verified",
+    "name": "Swipe Right to Undo",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "3671cd304f646639",
+    "use": true
+  },
+  {
+    "bundle_id": "088b3238b38010be0393b0b6",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Swipe up on the keyboard to undo the last autocorrection: the word you typed comes back, as with Gboard's own undo autocorrect on backspace. It works right after the correction, before you type anything else; otherwise the swipe does nothing. The key you swiped on is not typed.",
+    "id": "088b3238b38010be0393b0b6:10",
+    "legacy_id": 11515,
+    "metadata_status": "verified",
+    "name": "Swipe up to undo autocorrect",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "3671cd304f646639",
+    "use": true
+  },
+  {
+    "bundle_id": "088b3238b38010be0393b0b6",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Add Select all, Copy and Paste buttons to the toolbar above the keyboard, so each is one tap instead of opening Gboard's text editing panel first. Registered natively, so drag-to-reorder through the toolbar customize page persists. These three share the toolbar with Gboard's own icons and with Toolbar Hotkeys. Bigger Toolbar, which is applied unless you deselect it, raises the ceiling from five to twelve; without it, five is all the bar can hold.",
+    "id": "088b3238b38010be0393b0b6:11",
+    "legacy_id": 11516,
+    "metadata_status": "verified",
+    "name": "Text Action Buttons",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "3671cd304f646639",
+    "use": true
+  },
+  {
+    "bundle_id": "088b3238b38010be0393b0b6",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds eight configurable hotkey slots to Gboard's toolbar — each commits a text of your choice on tap. A slot appears when its text is set; when cleared it hides at the next toolbar rebuild (rotate, switch IME, or restart — there's no mid-session un-register). Text and icon edits apply on the next keyboard open. The slots share the toolbar with Gboard's own icons: Bigger Toolbar, which is applied unless you deselect it, makes room for twelve, but on a stock ceiling of five not all eight fit.",
+    "id": "088b3238b38010be0393b0b6:12",
+    "legacy_id": 11517,
+    "metadata_status": "verified",
+    "name": "Toolbar Hotkeys",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "3671cd304f646639",
+    "use": true
+  },
+  {
+    "bundle_id": "088b3238b38010be0393b0b6",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces Gboard to show its own vibration strength slider on every device, rather than deferring to the system haptic settings page, so the strength is adjustable instead of being fixed by whichever rollout the device landed in.",
+    "id": "088b3238b38010be0393b0b6:13",
+    "legacy_id": 11518,
+    "metadata_status": "verified",
+    "name": "Vibration Slider Everywhere",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.5.0",
+    "source_id": "3671cd304f646639",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Adds Repeat, Copy photo, Message details and Quick forward to a message's press-and-hold menu, for resending, copying and forwarding faster. All four start off. Turn them on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:0",
+    "legacy_id": 11520,
+    "metadata_status": "verified",
+    "name": "Add Repeat to the message menu",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Lets slower phones show the blurred chat header and panels that Telegram keeps for fast phones. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:1",
+    "legacy_id": 11521,
+    "metadata_status": "verified",
+    "name": "Allow chat blur on slower phones",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Gives Telegram's Night and Dark themes pure black screens for a darker look. Message bubbles and menus keep their colors. Starts off. Turn it on in HushTelegram settings > Chats, then restart Telegram.",
+    "id": "0a06dea1730e385c8eb7b4c1:2",
+    "legacy_id": 11522,
+    "metadata_status": "verified",
+    "name": "AMOLED black",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Asks you to confirm before a sticker, GIF, voice or video message, or call goes out, so a stray tap doesn't send it. All four start off. Turn them on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:3",
+    "legacy_id": 11523,
+    "metadata_status": "verified",
+    "name": "Ask before sending a sticker",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Stops Telegram from reporting how you use the app, like how long you read channel posts and what you tap on Premium screens. On Telegram Beta it also turns off Firebase's crash and session reports from the next start. Messages, calls and notifications work as before. On by default. Turn it off in HushTelegram settings > Privacy.",
+    "id": "0a06dea1730e385c8eb7b4c1:4",
+    "legacy_id": 11524,
+    "metadata_status": "verified",
+    "name": "Disable analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Stops your phone from sending call problem reports and log files to Telegram when its server asks for them. On by default. Turn it off in HushTelegram settings > Privacy.",
+    "id": "0a06dea1730e385c8eb7b4c1:5",
+    "legacy_id": 11525,
+    "metadata_status": "verified",
+    "name": "Disable call debug upload",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Stops a sideways swipe on a chat from archiving, muting, pinning, deleting or marking it read, so a slip can't change a chat. Press and hold still has every action. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:6",
+    "legacy_id": 11526,
+    "metadata_status": "verified",
+    "name": "Disable chat swipe actions",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Stops a double tap on a message from adding a reaction, handy if you keep reacting by accident. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:7",
+    "legacy_id": 11527,
+    "metadata_status": "verified",
+    "name": "Disable double-tap reactions",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Keeps Telegram from looking up a link's preview before you send the message. Sent messages still get a preview. Starts off. Turn it on in HushTelegram settings > Privacy.",
+    "id": "0a06dea1730e385c8eb7b4c1:8",
+    "legacy_id": 11528,
+    "metadata_status": "verified",
+    "name": "Disable draft link previews",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Stops pulling down the chat list from opening the hidden archive. Open it from Archived chats in the chat list's menu instead. Starts off. Turn it on in HushTelegram settings > Chats, then restart Telegram.",
+    "id": "0a06dea1730e385c8eb7b4c1:9",
+    "legacy_id": 11529,
+    "metadata_status": "verified",
+    "name": "Disable pull to archive",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Stops pulling up at the bottom of a channel from jumping to the next channel. A second switch does the same for forum topics. The channel switch starts on and the topic switch starts off. Find them in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:10",
+    "legacy_id": 11530,
+    "metadata_status": "verified",
+    "name": "Disable pull to next channel",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Stops Telegram from offering its own updates from telegram.org, which can't install over a patched app. Patch each new version in Morphe Manager instead. On by default. Turn it off in HushTelegram settings > More settings > Updates.",
+    "id": "0a06dea1730e385c8eb7b4c1:11",
+    "legacy_id": 11531,
+    "metadata_status": "verified",
+    "name": "Disable update checks",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Shows member, subscriber, view, reply and reaction counts in full, like 12,345 instead of 12.3K. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:12",
+    "legacy_id": 11532,
+    "metadata_status": "verified",
+    "name": "Exact numbers",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Keeps the attachment gallery from starting the camera or asking for camera access when it opens. The camera starts when you tap its tile. Starts off. Turn it on in HushTelegram settings > Privacy.",
+    "id": "0a06dea1730e385c8eb7b4c1:13",
+    "legacy_id": 11533,
+    "metadata_status": "verified",
+    "name": "Gallery camera on tap",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Removes sponsored messages in channels, sponsored accounts in search and ads in Telegram's video player, so you see fewer ads. On by default. Turn it off in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:14",
+    "legacy_id": 11534,
+    "metadata_status": "verified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Leaves messages from people you've blocked out of groups and supergroups you open. Nothing is deleted. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:15",
+    "legacy_id": 11535,
+    "metadata_status": "verified",
+    "name": "Hide blocked users in groups",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Hides the Your contacts on Telegram list that shows under a short chat list. Chats, folders and search stay. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:16",
+    "legacy_id": 11536,
+    "metadata_status": "verified",
+    "name": "Hide contacts on Telegram",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Hides the unread count on each folder tab above the chat list, for a calmer look. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:17",
+    "legacy_id": 11537,
+    "metadata_status": "verified",
+    "name": "Hide folder tab counters",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Removes the live camera tile from the attachment menu's photo grid, so the grid starts with your photos. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:18",
+    "legacy_id": 11538,
+    "metadata_status": "verified",
+    "name": "Hide gallery camera tile",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Hides the sticker that an empty private chat offers to send as a greeting. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:19",
+    "legacy_id": 11539,
+    "metadata_status": "verified",
+    "name": "Hide greeting stickers",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Closes the on-screen keyboard when you start scrolling a chat, so you can read more. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:20",
+    "legacy_id": 11540,
+    "metadata_status": "verified",
+    "name": "Hide keyboard on scroll",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Covers your own phone number with dots in the side menu, Settings and your profile, which helps when you share your screen. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:21",
+    "legacy_id": 11541,
+    "metadata_status": "verified",
+    "name": "Hide phone number",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Hides the Popular apps list on the Apps tab of search and stops Telegram from loading it. On by default. Turn it off in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:22",
+    "legacy_id": 11542,
+    "metadata_status": "verified",
+    "name": "Hide popular apps",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Removes Premium, Stars, My Grams, Business and Send a Gift from Settings, Gifts tabs on profiles, and the Gift button in channels, for a less cluttered app. On by default. Turn it off in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:23",
+    "legacy_id": 11543,
+    "metadata_status": "verified",
+    "name": "Hide Premium, gifts and Stars",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Hides Premium, birthday and low Stars balance banners above your chat list. Account security notices still show. On by default. Turn it off in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:24",
+    "legacy_id": 11544,
+    "metadata_status": "verified",
+    "name": "Hide promotional banners",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0b2d8f7291cb6f2dfbdbca4d",
+    "compatiblePackages": {
+      "de.swr.avp.ard": [
+        "12.4.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a YouTube-like gesture: hold the video to temporarily play it faster.",
+    "id": "0b2d8f7291cb6f2dfbdbca4d:0",
+    "legacy_id": 11545,
+    "metadata_status": "verified",
+    "name": "Hold to speed up",
+    "options": [
+      {
+        "default": 2.0,
+        "description": "Playback speed while holding the video.",
+        "key": "speed",
+        "required": true,
+        "title": "Speed",
+        "type": "kotlin.Float",
+        "values": null
+      },
+      {
+        "default": 400,
+        "description": "Milliseconds the video must be held before it speeds up.",
+        "key": "holdDelay",
+        "required": true,
+        "title": "Hold delay",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "de.swr.avp.ard",
+        "versions": [
+          "12.4.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "6043f7396300931d",
+    "use": true
+  },
+  {
+    "bundle_id": "0b2d8f7291cb6f2dfbdbca4d",
+    "compatiblePackages": {
+      "com.disney.disneyplus": [
+        "26.18.0+rc5-2026.10.05"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a YouTube-like gesture: hold the video to temporarily play it faster.",
+    "id": "0b2d8f7291cb6f2dfbdbca4d:1",
+    "legacy_id": 11546,
+    "metadata_status": "verified",
+    "name": "Hold to speed up",
+    "options": [
+      {
+        "default": 2.0,
+        "description": "Playback speed while holding the video.",
+        "key": "speed",
+        "required": true,
+        "title": "Speed",
+        "type": "kotlin.Float",
+        "values": null
+      },
+      {
+        "default": 400,
+        "description": "Milliseconds the video must be held before it speeds up.",
+        "key": "holdDelay",
+        "required": true,
+        "title": "Hold delay",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.disney.disneyplus",
+        "versions": [
+          "26.18.0+rc5-2026.10.05"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "6043f7396300931d",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.pikpok.dr2.play": [
+        "1.87.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Grants rewarded-video rewards instantly",
+    "id": "0ee54ae23f611e1a35247d32:0",
+    "legacy_id": 11547,
+    "metadata_status": "verified",
+    "name": "AD Instant Rewards",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pikpok.dr2.play",
+        "versions": [
+          "1.87.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.sidheinteractive.sif.DR": [
+        "2.9.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes all ads (interstitials, banners, app-open) and grants rewarded-video perk boosts instantly on tap (no ad watch) using the correct reward name PERKS_BOOST, verified against a real rewarded event.",
+    "id": "0ee54ae23f611e1a35247d32:1",
+    "legacy_id": 11548,
+    "metadata_status": "verified",
+    "name": "Ad Removal & Instant Boost Rewards",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.sidheinteractive.sif.DR",
+        "versions": [
+          "2.9.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.adda247.app": [
+        "12.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Blocks all Google AdMob ads (banner, interstitial, rewarded, rewarded interstitial, native, app open and Ad Manager) by neutralizing the Flutter Google Mobile Ads plugin: no ad is ever requested and no ad can ever be shown.",
+    "id": "0ee54ae23f611e1a35247d32:2",
+    "legacy_id": 11549,
+    "metadata_status": "verified",
+    "name": "Adda247 Ad Removal",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.adda247.app",
+        "versions": [
+          "12.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.adda247.app": [
+        "12.7.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Blocks the app's own MoEngage in-app promotions (the recurring \"recommended for you\" nudge with no close button, and full-screen standard in-app messages) by no-oping MoEngage's HTML render chokepoint, so no in-app WebView is ever built or attached. Separate from the Google AdMob block.",
+    "id": "0ee54ae23f611e1a35247d32:3",
+    "legacy_id": 11550,
+    "metadata_status": "verified",
+    "name": "Adda247 MoEngage In-App Blocker",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.adda247.app",
+        "versions": [
+          "12.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.vng.g6.a.zombie": [
+        "4.183.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Every gun, skin, glove and drone shows as unlocked, and you can equip any of them. Your save file is not changed.",
+    "id": "0ee54ae23f611e1a35247d32:4",
+    "legacy_id": 11551,
+    "metadata_status": "verified",
+    "name": "All items owned",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.vng.g6.a.zombie",
+        "versions": [
+          "4.183.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.kakarod.bighunter": [
+        "3.1.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Tapping any store item grants the product immediately (via the game's own confirmed-purchase path -> native applyProduct) without opening Google Play billing. Entitlements persist across restarts.",
+    "id": "0ee54ae23f611e1a35247d32:5",
+    "legacy_id": 11552,
+    "metadata_status": "verified",
+    "name": "Big Hunter Fake Purchase",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakarod.bighunter",
+        "versions": [
+          "3.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.kakarod.bighunter": [
+        "3.1.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the PairIP license check (installer verification + Google Play licensing service validation + paywall/exit dialog). Required for patched APKs — the original check fails on any non-Play signature and force-closes the app.",
+    "id": "0ee54ae23f611e1a35247d32:6",
+    "legacy_id": 11553,
+    "metadata_status": "verified",
+    "name": "Big Hunter PairIP License Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakarod.bighunter",
+        "versions": [
+          "3.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.kakarod.bighunter": [
+        "3.1.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Interstitial ads are never shown (show() short-circuits via the ad-not-ready path on all three network bridges: AdMob, AppLovin, Unity Ads).",
+    "id": "0ee54ae23f611e1a35247d32:7",
+    "legacy_id": 11554,
+    "metadata_status": "verified",
+    "name": "Big Hunter Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakarod.bighunter",
+        "versions": [
+          "3.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.kakarod.bighunter": [
+        "3.1.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Rewarded video requests grant the reward immediately via the game's own native rewardCallback() without loading or showing any ad (AdMob, AppLovin, Unity Ads).",
+    "id": "0ee54ae23f611e1a35247d32:8",
+    "legacy_id": 11555,
+    "metadata_status": "verified",
+    "name": "Big Hunter Rewards Without Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakarod.bighunter",
+        "versions": [
+          "3.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.madfingergames.deadtrigger": [
+        "2.3.4"
+      ]
+    },
+    "dependencies": [
+      "Dead Trigger Native IAP Verifier Bypass"
+    ],
+    "description": "Free store: tap any gold or money pack in the shop and it's yours instantly.",
+    "id": "0ee54ae23f611e1a35247d32:9",
+    "legacy_id": 11556,
+    "metadata_status": "verified",
+    "name": "Dead Trigger Free Store",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.madfingergames.deadtrigger",
+        "versions": [
+          "2.3.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.cv.docscanner": [
+        "6.9.9"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all premium features, removes ads, and enables pro themes.",
+    "id": "0ee54ae23f611e1a35247d32:10",
+    "legacy_id": 11557,
+    "metadata_status": "verified",
+    "name": "Doc Scanner Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.cv.docscanner",
+        "versions": [
+          "6.9.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.lima.doodlejump": [
+        "3.11.38",
+        "3.11.40"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks the full game by bypassing Google Play billing.",
+    "id": "0ee54ae23f611e1a35247d32:11",
+    "legacy_id": 11558,
+    "metadata_status": "verified",
+    "name": "Doodle Jump Billing Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.lima.doodlejump",
+        "versions": [
+          "3.11.38",
+          "3.11.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.lima.doodlejump": [
+        "3.11.38",
+        "3.11.40"
+      ]
+    },
+    "dependencies": [],
+    "description": "Resurrect instantly after death without watching a rewarded ad.",
+    "id": "0ee54ae23f611e1a35247d32:12",
+    "legacy_id": 11559,
+    "metadata_status": "verified",
+    "name": "Doodle Jump Resurrection Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.lima.doodlejump",
+        "versions": [
+          "3.11.38",
+          "3.11.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.ansangha.drdriving": [
+        "1.73"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes all Google AdMob ads (banner, interstitial, rewarded).",
+    "id": "0ee54ae23f611e1a35247d32:13",
+    "legacy_id": 11560,
+    "metadata_status": "verified",
+    "name": "Dr. Driving Ad Removal",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ansangha.drdriving",
+        "versions": [
+          "1.73"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.ansangha.drdriving": [
+        "1.73"
+      ]
+    },
+    "dependencies": [],
+    "description": "Coins inflated to 1,000,000,000 on save load; purchases, upgrades, rentals and repairs never cost coins.",
+    "id": "0ee54ae23f611e1a35247d32:14",
+    "legacy_id": 11561,
+    "metadata_status": "verified",
+    "name": "Dr. Driving Unlimited Coins",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ansangha.drdriving",
+        "versions": [
+          "1.73"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.ansangha.drdriving": [
+        "1.73"
+      ]
+    },
+    "dependencies": [],
+    "description": "Gold is inflated to 1,000,000,000 on save load; gold packs in the store also grant gold.",
+    "id": "0ee54ae23f611e1a35247d32:15",
+    "legacy_id": 11562,
+    "metadata_status": "verified",
+    "name": "Dr. Driving Unlimited Gold",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ansangha.drdriving",
+        "versions": [
+          "1.73"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.notdoppler.earntodie2": [
+        "1.5.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Intercepts all in-app purchases and calls the native on_purchase(String[], String) grant directly, unlocking paid content (cash doubler) for free without Play Billing.",
+    "id": "0ee54ae23f611e1a35247d32:16",
+    "legacy_id": 11563,
+    "metadata_status": "verified",
+    "name": "Earn to Die 2 Free IAP",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.notdoppler.earntodie2",
+        "versions": [
+          "1.5.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.notdoppler.earntodie2": [
+        "1.5.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes interstitial and rewarded ads, and grants rewarded-video rewards instantly by firing the native callbacks.",
+    "id": "0ee54ae23f611e1a35247d32:17",
+    "legacy_id": 11564,
+    "metadata_status": "verified",
+    "name": "Earn to Die 2 No Ads + Instant Rewards",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.notdoppler.earntodie2",
+        "versions": [
+          "1.5.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.notdoppler.earntodie2": [
+        "1.5.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bypasses the native Google Play distribution checks (installer package + signing signature) so the app runs when sideloaded.",
+    "id": "0ee54ae23f611e1a35247d32:18",
+    "legacy_id": 11565,
+    "metadata_status": "verified",
+    "name": "Earn to Die 2 Remove Google Play Check",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.notdoppler.earntodie2",
+        "versions": [
+          "1.5.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.overthetopgames.fancypants": [
+        "1.0.30"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks premium, wardrobe, world 1 and world 2 by forcing OTTBilling.isPurchased to always return true.",
+    "id": "0ee54ae23f611e1a35247d32:19",
+    "legacy_id": 11566,
+    "metadata_status": "verified",
+    "name": "Fancy Pants Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.overthetopgames.fancypants",
+        "versions": [
+          "1.0.30"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.kongregate.mobile.burritobison3.google": [
+        "3.75"
+      ]
+    },
+    "dependencies": [],
+    "description": "Required so the modified app opens without crashing — skips signature, root and emulator checks.",
+    "id": "0ee54ae23f611e1a35247d32:20",
+    "legacy_id": 11567,
+    "metadata_status": "verified",
+    "name": "Fix app opening",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kongregate.mobile.burritobison3.google",
+        "versions": [
+          "3.75"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.dnddream.HeadBasketball": [
+        "4.6.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Get your ad rewards for free. Every \"watch ad\" button gives you the reward right away — no ad to sit through, no waiting.",
+    "id": "0ee54ae23f611e1a35247d32:21",
+    "legacy_id": 11568,
+    "metadata_status": "verified",
+    "name": "Free Ad Rewards",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dnddream.HeadBasketball",
+        "versions": [
+          "4.6.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.dnddream.headsoccer.android": [
+        "7.1.7"
+      ]
+    },
+    "dependencies": [],
+    "description": "Every \"watch ad\" reward is granted instantly — no ad appears, no \"failed to load advertisement\" popup, and nothing to wait for.",
+    "id": "0ee54ae23f611e1a35247d32:22",
+    "legacy_id": 11569,
+    "metadata_status": "verified",
+    "name": "Free Ad Rewards",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dnddream.headsoccer.android",
+        "versions": [
+          "7.1.7"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.kongregate.mobile.burritobison3.google": [
+        "3.75"
+      ]
+    },
+    "dependencies": [],
+    "description": "Get paid items for free — tapping buy grants the item instantly without Google Play payment popup.",
+    "id": "0ee54ae23f611e1a35247d32:23",
+    "legacy_id": 11570,
+    "metadata_status": "verified",
+    "name": "Free purchases",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kongregate.mobile.burritobison3.google",
+        "versions": [
+          "3.75"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.dnddream.HeadBasketball": [
+        "4.6.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Everything in the shop is free. Tap an item and you get it instantly — no paying, no waiting, no Google Play involved.",
+    "id": "0ee54ae23f611e1a35247d32:24",
+    "legacy_id": 11571,
+    "metadata_status": "verified",
+    "name": "Free Store",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dnddream.HeadBasketball",
+        "versions": [
+          "4.6.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  },
+  {
+    "bundle_id": "0ee54ae23f611e1a35247d32",
+    "compatiblePackages": {
+      "com.dnddream.headsoccer.android": [
+        "7.1.7"
+      ]
+    },
+    "dependencies": [],
+    "description": "Everything in the shop is free. Tap an item and you get it right away — points, characters and presents — with no Google Play payment screen and nothing charged.",
+    "id": "0ee54ae23f611e1a35247d32:25",
+    "legacy_id": 11572,
+    "metadata_status": "verified",
+    "name": "Free Store",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dnddream.headsoccer.android",
+        "versions": [
+          "7.1.7"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.42.0-dev.1",
+    "source_id": "b149043aa62e2c0a",
+    "use": true
+  }
+]
