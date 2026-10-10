@@ -1,0 +1,44 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-09-04T20:13:31Z",
+  "description": "## [1.1.0](https://github.com/rabilrbl/fluffy-patches/compare/v1.0.0...v1.1.0) (2026-09-04)\n\n### ✨ New Features\n\n* add BlockerX premium and instant approval patches ([#28](https://github.com/rabilrbl/fluffy-patches/issues/28)) ([9148213](https://github.com/rabilrbl/fluffy-patches/commit/9148213857840e479ffdfca0a6a6e164b8b97661))\n",
+  "download_url": "https://github.com/rabilrbl/fluffy-patches/releases/download/v1.1.0/patches-1.1.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:6f8d99efb512443b964a8de1a2ffa86bc30e6faecec4bd4b0d89d533c5d82b04",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "6f8d99efb512443b964a8de1a2ffa86bc30e6faecec4bd4b0d89d533c5d82b04",
+  "id": "0f9052bf97067f423b65ded7",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Frabilrbl%2Ffluffy-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Frabilrbl%2Ffluffy-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 38,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "droom.sleepIfUCan",
+    "io.funswitch.blocker"
+  ],
+  "patch_count": 3,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.1.0",
+  "patch_refresh_attempted_at": "2026-10-10T15:20:49.000845972Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:6f8d99efb512443b964a8de1a2ffa86bc30e6faecec4bd4b0d89d533c5d82b04",
+  "release_status": "unverified",
+  "release_url": "https://github.com/rabilrbl/fluffy-patches/releases/tag/v1.1.0",
+  "signature_download_url": "N/A",
+  "source_id": "a1338496adca279e",
+  "version": "v1.1.0"
+}

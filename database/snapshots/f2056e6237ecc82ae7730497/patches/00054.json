@@ -1,0 +1,3369 @@
+[
+  {
+    "bundle_id": "84bb4c5d2eefb619ba8757d1",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Shows TikTok's video preview thumbnail while dragging the seekbar.",
+    "id": "84bb4c5d2eefb619ba8757d1:40",
+    "legacy_id": 5578,
+    "metadata_status": "verified",
+    "name": "Show seekbar thumbnail",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "84bb4c5d2eefb619ba8757d1",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops videos at the end instead of replaying them.",
+    "id": "84bb4c5d2eefb619ba8757d1:41",
+    "legacy_id": 5579,
+    "metadata_status": "verified",
+    "name": "Stop video looping",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "84bb4c5d2eefb619ba8757d1",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds comment translation controls using TikTok's translation system, with selectable language exclusions.",
+    "id": "84bb4c5d2eefb619ba8757d1:42",
+    "legacy_id": 5580,
+    "metadata_status": "verified",
+    "name": "Translate comments",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "84fee74ee5b103d74e697252",
+    "compatiblePackages": {
+      "com.lemon.lvoverseas": [
+        "9.0.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Fixes effects/transitions not loading (Shark WAF block) by spoofing device_platform from \"android\" to \"windows\" in effect API requests.",
+    "id": "84fee74ee5b103d74e697252:0",
+    "legacy_id": 5581,
+    "metadata_status": "verified",
+    "name": "Bypass effects region restriction",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.lemon.lvoverseas",
+        "versions": [
+          "9.0.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.2.0",
+    "source_id": "28aafed32185ad0f",
+    "use": true
+  },
+  {
+    "bundle_id": "84fee74ee5b103d74e697252",
+    "compatiblePackages": {
+      "com.lemon.lvoverseas": [
+        "9.0.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Opt-in CapCut-only WireGuard tunnel. Import your own wg-quick .conf (paste or file) in-app; traffic is scoped to CapCut only. Requires Android VPN consent once. Independent of Unlock Premium.",
+    "id": "84fee74ee5b103d74e697252:1",
+    "legacy_id": 5582,
+    "metadata_status": "verified",
+    "name": "CapCut network tunnel",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.lemon.lvoverseas",
+        "versions": [
+          "9.0.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.2.0",
+    "source_id": "28aafed32185ad0f",
+    "use": false
+  },
+  {
+    "bundle_id": "84fee74ee5b103d74e697252",
+    "compatiblePackages": {
+      "com.mahersafadi.electron": [
+        "3.0.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Spoofs premium/unlocked state to disable ad-gated behavior.",
+    "id": "84fee74ee5b103d74e697252:2",
+    "legacy_id": 5583,
+    "metadata_status": "verified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.mahersafadi.electron",
+        "versions": [
+          "3.0.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.2.0",
+    "source_id": "28aafed32185ad0f",
+    "use": true
+  },
+  {
+    "bundle_id": "84fee74ee5b103d74e697252",
+    "compatiblePackages": {
+      "com.Meteosolutions.Meteo3b": [
+        "4.9.16"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes banner, native, cover and interstitial ads and unlocks premium features.",
+    "id": "84fee74ee5b103d74e697252:3",
+    "legacy_id": 5584,
+    "metadata_status": "verified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.Meteosolutions.Meteo3b",
+        "versions": [
+          "4.9.16"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.2.0",
+    "source_id": "28aafed32185ad0f",
+    "use": true
+  },
+  {
+    "bundle_id": "84fee74ee5b103d74e697252",
+    "compatiblePackages": {
+      "com.frontrow.vlog": [
+        "2.12.0",
+        "2.20.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the post-export review dialog and the inspiring-tips guidance banner.",
+    "id": "84fee74ee5b103d74e697252:4",
+    "legacy_id": 5585,
+    "metadata_status": "verified",
+    "name": "Hide export nags",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.frontrow.vlog",
+        "versions": [
+          "2.12.0",
+          "2.20.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.2.0",
+    "source_id": "28aafed32185ad0f",
+    "use": true
+  },
+  {
+    "bundle_id": "84fee74ee5b103d74e697252",
+    "compatiblePackages": {
+      "com.frontrow.vlog": [
+        "2.12.0",
+        "2.20.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides AdsLayout banners (Projects list and other in-app ad slots).",
+    "id": "84fee74ee5b103d74e697252:5",
+    "legacy_id": 5586,
+    "metadata_status": "verified",
+    "name": "Hide projects ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.frontrow.vlog",
+        "versions": [
+          "2.12.0",
+          "2.20.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.2.0",
+    "source_id": "28aafed32185ad0f",
+    "use": true
+  },
+  {
+    "bundle_id": "84fee74ee5b103d74e697252",
+    "compatiblePackages": {
+      "de.komoot.android": [
+        "2026.34.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Spoof Komoot Maps ownership client-side (world pack / owned regions in shop and offline UI). Server-side limits may still apply: offline tile download auth, sync overwriting local state, and Play receipt validation. Does not replace a real Play Store purchase.",
+    "id": "84fee74ee5b103d74e697252:6",
+    "legacy_id": 5587,
+    "metadata_status": "verified",
+    "name": "Unlock map regions",
+    "options": [],
+    "packages": [
+      {
+        "name": "de.komoot.android",
+        "versions": [
+          "2026.34.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.2.0",
+    "source_id": "28aafed32185ad0f",
+    "use": true
+  },
+  {
+    "bundle_id": "84fee74ee5b103d74e697252",
+    "compatiblePackages": {
+      "com.lemon.lvoverseas": [
+        "9.0.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces CapCut 9.0 VIP gates to true (VipSubscribeManager, SubscribeImpl, UserVipInfo, benefits). Cloud-gated assets may still fail.",
+    "id": "84fee74ee5b103d74e697252:7",
+    "legacy_id": 5588,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.lemon.lvoverseas",
+        "versions": [
+          "9.0.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.2.0",
+    "source_id": "28aafed32185ad0f",
+    "use": true
+  },
+  {
+    "bundle_id": "84fee74ee5b103d74e697252",
+    "compatiblePackages": {
+      "com.frontrow.vlog": [
+        "2.12.0",
+        "2.20.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks premium features, removes watermark, hides Pro tab, and hides the home upgrade-to-Pro banner.",
+    "id": "84fee74ee5b103d74e697252:8",
+    "legacy_id": 5589,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.frontrow.vlog",
+        "versions": [
+          "2.12.0",
+          "2.20.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.2.0",
+    "source_id": "28aafed32185ad0f",
+    "use": true
+  },
+  {
+    "bundle_id": "84fee74ee5b103d74e697252",
+    "compatiblePackages": {
+      "de.komoot.android": [
+        "2026.34.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlock Premium features. Some features are not possible to patch (server sided), such as saving a multi-days hike.",
+    "id": "84fee74ee5b103d74e697252:9",
+    "legacy_id": 5590,
+    "metadata_status": "verified",
+    "name": "Unlock Premium features",
+    "options": [],
+    "packages": [
+      {
+        "name": "de.komoot.android",
+        "versions": [
+          "2026.34.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.2.0",
+    "source_id": "28aafed32185ad0f",
+    "use": true
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0864FF",
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 30,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ],
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Stops Facebook watching for screenshots of ads and reporting which apps you install for ad attribution.",
+    "id": "859f3422acb1756bb9ea4167:0",
+    "legacy_id": 5591,
+    "metadata_status": "unverified",
+    "name": "[Ad] Block ad telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "Facebook",
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0864FF",
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 30,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ],
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Stops Facebook downloading ads and its ad model in the background, which saves data, battery and storage.",
+    "id": "859f3422acb1756bb9ea4167:1",
+    "legacy_id": 5592,
+    "metadata_status": "unverified",
+    "name": "[Ad] Block background ad prefetch",
+    "options": [],
+    "packages": [
+      {
+        "name": "Facebook",
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0864FF",
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 30,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ],
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Stops Facebook serving ads to other apps. Those apps then show their own ads or none, and rewarded ads can fail.",
+    "id": "859f3422acb1756bb9ea4167:2",
+    "legacy_id": 5593,
+    "metadata_status": "unverified",
+    "name": "[Ad] Disable Audience Network",
+    "options": [],
+    "packages": [
+      {
+        "name": "Facebook",
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides LINE display ads: the LINE Ads banners, the Smart Channel banner in the chat list and Google AdManager ads.",
+    "id": "859f3422acb1756bb9ea4167:3",
+    "legacy_id": 5594,
+    "metadata_status": "unverified",
+    "name": "[Ad] Hide ad views",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "LINE no longer loads the Smart Channel banner ads. This patch makes the getBanners and getPrefetchableBanners responses null.",
+    "id": "859f3422acb1756bb9ea4167:4",
+    "legacy_id": 5595,
+    "metadata_status": "unverified",
+    "name": "[Ad] Remove banner ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the AI Friends button from the Chats tab header. The Album button shows in its place.",
+    "id": "859f3422acb1756bb9ea4167:5",
+    "legacy_id": 5596,
+    "metadata_status": "unverified",
+    "name": "[Chat] Hide AI Friends button",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the server-provided tools (Poll, Schedule and more) from the + menu in a chat. Built-in tiles stay.",
+    "id": "859f3422acb1756bb9ea4167:6",
+    "legacy_id": 5597,
+    "metadata_status": "unverified",
+    "name": "[Chat] Hide attach menu extra tools",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes every LINE Calendar button: in the Chats tab, the chat toolbar and menus, and the Home tab.",
+    "id": "859f3422acb1756bb9ea4167:7",
+    "legacy_id": 5598,
+    "metadata_status": "unverified",
+    "name": "[Chat] Hide calendar buttons",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the community (OpenChat) button from the top of the Chats tab header.",
+    "id": "859f3422acb1756bb9ea4167:8",
+    "legacy_id": 5599,
+    "metadata_status": "unverified",
+    "name": "[Chat] Hide community button",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the \"Events\" row from the slide-out menu in a chat room. Events is a different feature from LINE Calendar, and it opens a server-hosted page.",
+    "id": "859f3422acb1756bb9ea4167:9",
+    "legacy_id": 5600,
+    "metadata_status": "unverified",
+    "name": "[Chat] Hide Events button",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the LINE GIFT tile from the + attach menu in a chat room.",
+    "id": "859f3422acb1756bb9ea4167:10",
+    "legacy_id": 5601,
+    "metadata_status": "unverified",
+    "name": "[Chat] Hide LINE GIFT button",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides the \"CHECK\" tips under some messages, such as a received video.",
+    "id": "859f3422acb1756bb9ea4167:11",
+    "legacy_id": 5602,
+    "metadata_status": "unverified",
+    "name": "[Chat] Hide tips under messages",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the Transfer (LINE Pay) tile from the + attach menu in a chat room.",
+    "id": "859f3422acb1756bb9ea4167:12",
+    "legacy_id": 5603,
+    "metadata_status": "unverified",
+    "name": "[Chat] Hide Transfer button",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "When you open a chat, LINE does not mark it read or send a read receipt. \"Mark as read\" still works.",
+    "id": "859f3422acb1756bb9ea4167:13",
+    "legacy_id": 5604,
+    "metadata_status": "unverified",
+    "name": "[Chat] Keep chats unread",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Keeps messages that others unsend in 1:1 and group chats, with a notice below each one. OpenChat is not covered.",
+    "id": "859f3422acb1756bb9ea4167:14",
+    "legacy_id": 5605,
+    "metadata_status": "unverified",
+    "name": "[Chat] Keep unsent messages",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0864FF",
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 30,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ],
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Keeps your place in the news feed when you come back to Facebook. Pull down to refresh the feed.",
+    "id": "859f3422acb1756bb9ea4167:15",
+    "legacy_id": 5606,
+    "metadata_status": "unverified",
+    "name": "[Feed] Block feed auto refresh",
+    "options": [],
+    "packages": [
+      {
+        "name": "Facebook",
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0864FF",
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 30,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ],
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the items that Facebook adds to the feed, such as \"Pages you may like\", promo cards and surveys. \"Suggested for you\" posts stay.",
+    "id": "859f3422acb1756bb9ea4167:16",
+    "legacy_id": 5607,
+    "metadata_status": "unverified",
+    "name": "[Feed] Hide page suggestions and promo cards",
+    "options": [],
+    "packages": [
+      {
+        "name": "Facebook",
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0864FF",
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 30,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ],
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the prompts Facebook adds inside a post, such as \"Are you interested in this post?\".",
+    "id": "859f3422acb1756bb9ea4167:17",
+    "legacy_id": 5608,
+    "metadata_status": "unverified",
+    "name": "[Feed] Hide post prompts",
+    "options": [],
+    "packages": [
+      {
+        "name": "Facebook",
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0864FF",
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 30,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ],
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes sponsored posts from the news feed, with no gap left behind.",
+    "id": "859f3422acb1756bb9ea4167:18",
+    "legacy_id": 5609,
+    "metadata_status": "unverified",
+    "name": "[Feed] Hide sponsored posts",
+    "options": [],
+    "packages": [
+      {
+        "name": "Facebook",
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Makes Google Drive chat backup and restore work on a re-signed build, through MicroG-RE. Root Mount does not need it.",
+    "id": "859f3422acb1756bb9ea4167:19",
+    "legacy_id": 5610,
+    "metadata_status": "unverified",
+    "name": "[Fix] Restore chat backup sign-in via MicroG-RE",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Shows maps again on a re-signed build, with OpenFreeMap tiles. It needs MicroG-RE 7.0.0 or later. Root Mount does not need it.",
+    "id": "859f3422acb1756bb9ea4167:20",
+    "legacy_id": 5611,
+    "metadata_status": "unverified",
+    "name": "[Fix] Restore location maps via MicroG-RE",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "When LINE is fully closed, push notifications work again on a re-signed build. A Root Mount install does not need this patch.",
+    "id": "859f3422acb1756bb9ea4167:21",
+    "legacy_id": 5612,
+    "metadata_status": "unverified",
+    "name": "[Fix] Restore push notifications",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0864FF",
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 30,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ],
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Makes profiles and some Settings pages open again on a re-signed build. A Root Mount install does not need this patch.",
+    "id": "859f3422acb1756bb9ea4167:22",
+    "legacy_id": 5613,
+    "metadata_status": "unverified",
+    "name": "[Fix] Restore screens on re-signed builds",
+    "options": [],
+    "packages": [
+      {
+        "name": "Facebook",
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0864FF",
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 30,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ],
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Makes Facebook's dark mode black instead of dark grey. Turn on dark mode in Facebook first.",
+    "id": "859f3422acb1756bb9ea4167:23",
+    "legacy_id": 5614,
+    "metadata_status": "unverified",
+    "name": "[General] AMOLED black theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "Facebook",
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "VOOM deep links, shares, and notifications do nothing. If you open the standalone VOOM feed, it closes. Messaging and the other tabs do not change.",
+    "id": "859f3422acb1756bb9ea4167:24",
+    "legacy_id": 5615,
+    "metadata_status": "unverified",
+    "name": "[General] Disable VOOM",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0864FF",
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 30,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ],
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the product cards of affiliate shop links from Reels, feed posts and comments. The \"Commission eligible\" label stays.",
+    "id": "859f3422acb1756bb9ea4167:25",
+    "legacy_id": 5616,
+    "metadata_status": "unverified",
+    "name": "[General] Hide affiliate product links",
+    "options": [],
+    "packages": [
+      {
+        "name": "Facebook",
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the Agent i button from the Home header and from the search bar.",
+    "id": "859f3422acb1756bb9ea4167:26",
+    "legacy_id": 5617,
+    "metadata_status": "unverified",
+    "name": "[General] Hide Agent i buttons",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides the green dots and N badges that mark new items, on header buttons, tabs, menus, lists and settings rows. Unread message counts do not change.",
+    "id": "859f3422acb1756bb9ea4167:27",
+    "legacy_id": 5618,
+    "metadata_status": "unverified",
+    "name": "[General] Hide new item badges",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0864FF",
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 30,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ],
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Opens web links in your default browser instead of Facebook's in-app browser. Facebook pages still open in the app.",
+    "id": "859f3422acb1756bb9ea4167:28",
+    "legacy_id": 5619,
+    "metadata_status": "unverified",
+    "name": "[General] Open links in external browser",
+    "options": [],
+    "packages": [
+      {
+        "name": "Facebook",
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Opens web links in your default browser instead of LINE's in-app browser. LIFF mini-apps and LINE links stay in LINE.",
+    "id": "859f3422acb1756bb9ea4167:29",
+    "legacy_id": 5620,
+    "metadata_status": "unverified",
+    "name": "[General] Open links in external browser",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Opens LINE Pay in the standalone LINE Pay app, so the integrity check that fails on a re-signed build never runs.",
+    "id": "859f3422acb1756bb9ea4167:30",
+    "legacy_id": 5621,
+    "metadata_status": "unverified",
+    "name": "[General] Redirect LINE Pay",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the content feed below the friends list on the Home tab: LINE NEWS, official account posts and rankings.",
+    "id": "859f3422acb1756bb9ea4167:31",
+    "legacy_id": 5622,
+    "metadata_status": "unverified",
+    "name": "[Home] Hide Home content feed",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides the recommended content, hot-topics and ad modules on the Home tab.",
+    "id": "859f3422acb1756bb9ea4167:32",
+    "legacy_id": 5623,
+    "metadata_status": "unverified",
+    "name": "[Home] Hide Home modules",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides all LINE Premium upsells, badges and pages. It unlocks nothing, because the server enforces Premium.",
+    "id": "859f3422acb1756bb9ea4167:33",
+    "legacy_id": 5624,
+    "metadata_status": "unverified",
+    "name": "[Premium] Disable LINE Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the Premium unsend upsells that \"Disable LINE Premium\" leaves. Ordinary unsend still works.",
+    "id": "859f3422acb1756bb9ea4167:34",
+    "legacy_id": 5625,
+    "metadata_status": "unverified",
+    "name": "[Premium] Hide premium unsend upsells",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0864FF",
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 30,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ],
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Adds a Download button beside every reel. Videos save at the best quality the player streams.",
+    "id": "859f3422acb1756bb9ea4167:35",
+    "legacy_id": 5626,
+    "metadata_status": "unverified",
+    "name": "[Reels] Download any reel",
+    "options": [
+      {
+        "default": false,
+        "description": "Saves videos as H.264 with AAC sound, so that apps such as WhatsApp can send them. The device converts a video in another format. This makes the save slower and the file larger.",
+        "key": "saveAsH264",
+        "required": false,
+        "title": "Save as H.264",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Facebook",
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0864FF",
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 30,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ],
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the \"Are you interested in this reel?\" prompt from Reels.",
+    "id": "859f3422acb1756bb9ea4167:36",
+    "legacy_id": 5627,
+    "metadata_status": "unverified",
+    "name": "[Reels] Hide interest prompts",
+    "options": [],
+    "packages": [
+      {
+        "name": "Facebook",
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0864FF",
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 30,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ],
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes ads from Reels and Watch, including product banners over a reel and ads inside a video.",
+    "id": "859f3422acb1756bb9ea4167:37",
+    "legacy_id": 5628,
+    "metadata_status": "unverified",
+    "name": "[Reels] Hide sponsored reels",
+    "options": [],
+    "packages": [
+      {
+        "name": "Facebook",
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0864FF",
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 30,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ],
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Keeps each story on the screen until you tap or swipe to the next one.",
+    "id": "859f3422acb1756bb9ea4167:38",
+    "legacy_id": 5629,
+    "metadata_status": "unverified",
+    "name": "[Stories] Disable auto advance",
+    "options": [],
+    "packages": [
+      {
+        "name": "Facebook",
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0864FF",
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 30,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ],
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Adds Save to the menu of any story, including stories with music. Videos save at the best quality the player streams.",
+    "id": "859f3422acb1756bb9ea4167:39",
+    "legacy_id": 5630,
+    "metadata_status": "unverified",
+    "name": "[Stories] Download any story",
+    "options": [
+      {
+        "default": false,
+        "description": "Saves videos as H.264 with AAC sound, so that apps such as WhatsApp can send them. The device converts a video in another format. This makes the save slower and the file larger.",
+        "key": "saveAsH264",
+        "required": false,
+        "title": "Save as H.264",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Facebook",
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0864FF",
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 30,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ],
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes ad cards from the story viewer, so swiping through stories only shows stories people posted.",
+    "id": "859f3422acb1756bb9ea4167:40",
+    "legacy_id": 5631,
+    "metadata_status": "unverified",
+    "name": "[Stories] Hide sponsored stories",
+    "options": [],
+    "packages": [
+      {
+        "name": "Facebook",
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0864FF",
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 30,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ],
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Stops Facebook telling the server which stories you saw, so you are not in the viewer list. Stories that you saw still show as seen on this device.",
+    "id": "859f3422acb1756bb9ea4167:41",
+    "legacy_id": 5632,
+    "metadata_status": "unverified",
+    "name": "[Stories] View stories anonymously",
+    "options": [],
+    "packages": [
+      {
+        "name": "Facebook",
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the LINE TODAY (News) tab from the main bottom navigation, in both the news-tab and news-row layouts.",
+    "id": "859f3422acb1756bb9ea4167:42",
+    "legacy_id": 5633,
+    "metadata_status": "unverified",
+    "name": "[Tab] Hide LINE TODAY tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the Shopping tab from the main bottom navigation. This includes the Japan variant (Shopping, ショッピング) and the Taiwan variant (Discover, 逛逛).",
+    "id": "859f3422acb1756bb9ea4167:43",
+    "legacy_id": 5634,
+    "metadata_status": "unverified",
+    "name": "[Tab] Hide Shopping tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the VOOM (formerly Timeline) tab from the main bottom navigation.",
+    "id": "859f3422acb1756bb9ea4167:44",
+    "legacy_id": 5635,
+    "metadata_status": "unverified",
+    "name": "[Tab] Hide VOOM tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "859f3422acb1756bb9ea4167",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the Wallet (LINE Pay) tab from the main bottom navigation, in both the normal and mini-tab layouts.",
+    "id": "859f3422acb1756bb9ea4167:45",
+    "legacy_id": 5636,
+    "metadata_status": "unverified",
+    "name": "[Tab] Hide Wallet tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.4.0",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": null
+    },
+    "dependencies": [],
+    "description": "Always opens Gboard in incognito mode to disable typing history collection and personalization.",
+    "id": "87a8c517ffca9c6cf850896a:0",
+    "legacy_id": 5684,
+    "metadata_status": "verified",
+    "name": "Always-incognito mode for Gboard",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": false
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Blocks ads, trackers, analytics, and unwanted content in apps and games using a hosts file.",
+    "id": "87a8c517ffca9c6cf850896a:1",
+    "legacy_id": 5685,
+    "metadata_status": "verified",
+    "name": "Block ads, trackers, and analytics",
+    "options": [
+      {
+        "default": null,
+        "description": "The hosts file containing hosts or domains you want to block, one per line.",
+        "name": "hosts",
+        "required": true,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "0.0.0.0",
+        "description": "The IP address to redirect blocked domains to. This will be used with your hosts list to block content.",
+        "name": "redirectionIp",
+        "required": true,
+        "type": "kotlin.String",
+        "values": {
+          "Default": "0.0.0.0",
+          "localhost": "127.0.0.1"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": false
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Bypasses the signature verification checks when the app starts up. It is recommended to use the unmodified app to work properly.",
+    "id": "87a8c517ffca9c6cf850896a:2",
+    "legacy_id": 5686,
+    "metadata_status": "verified",
+    "name": "Bypass signature verification checks",
+    "options": [
+      {
+        "default": "Default",
+        "description": "The package name of the app, if modified. This must match the package name defined when the 'Change package name' patch is selected or as defined in the AndroidManifest.xml.",
+        "name": "packageName",
+        "required": true,
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      },
+      {
+        "default": "Default",
+        "description": "The base64-encoded signature from the original, unmodified APK. This extracts the certificate/signature in the APK by default.",
+        "name": "signature",
+        "required": true,
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": false
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Appends \".revanced\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+    "id": "87a8c517ffca9c6cf850896a:3",
+    "legacy_id": 5687,
+    "metadata_status": "verified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "Default",
+        "description": "The name of the package to rename the app to.",
+        "name": "packageName",
+        "required": true,
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      },
+      {
+        "default": false,
+        "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "name": "updatePermissions",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Update other permissions declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "name": "updateOtherPermissions",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Update content provider URI authorities. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "name": "updateProviders",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": false
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Deactivates Firebase Analytics and removes its associated broadcast receivers and services.",
+    "id": "87a8c517ffca9c6cf850896a:4",
+    "legacy_id": 5688,
+    "metadata_status": "verified",
+    "name": "Deactivate Firebase Analytics",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": false
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Deactivates the collection of performance data on app start up time, network requests, and other related metrics.",
+    "id": "87a8c517ffca9c6cf850896a:5",
+    "legacy_id": 5689,
+    "metadata_status": "verified",
+    "name": "Deactivate Firebase Performance Monitoring",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": false
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables the Google Safe Browsing checks in WebView. This doesn't apply to WebView within the SDK Runtime.",
+    "id": "87a8c517ffca9c6cf850896a:6",
+    "legacy_id": 5690,
+    "metadata_status": "verified",
+    "name": "Disable Google Safe Browsing in WebView",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": false
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables the collection of diagnostic data or usage statistics that are uploaded to Google.",
+    "id": "87a8c517ffca9c6cf850896a:7",
+    "legacy_id": 5691,
+    "metadata_status": "verified",
+    "name": "Disable metrics collection in WebView",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": false
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables banner, interstitial, and other ad formats.",
+    "id": "87a8c517ffca9c6cf850896a:8",
+    "legacy_id": 5692,
+    "metadata_status": "verified",
+    "name": "Disable mobile ads",
+    "options": [
+      {
+        "default": true,
+        "description": "Disable App Open, Banner & MREC, Interstitial, Native, and Rewarded ad formats.",
+        "name": "disableAppLovinMax",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Disable Banner, Native, Interstitial, Pop-up, Rewarded, and Splash ad formats.",
+        "name": "disableBigo",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Disable Banner, Interstitial, Native, Rewarded, Rewarded Interstitial, and App Open ad formats.",
+        "name": "disableGoogleAdMob",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Disable Banner, Medium rectangle, Interstitial, Native, Native Banner, Rewarded Video, and Rewarded Interstitial ad formats.",
+        "name": "disableMetaAudienceNetwork",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Disable Banner, Interstitial, Rewarded Video, Native, and Splash ad formats.",
+        "name": "disableMintegral",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Disable Banner, Interstitial, Rewarded, Native, Native Banner, In-Stream Video and Audio, and Carousel ad formats.",
+        "name": "disableMyTarget",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Disable Banner, Interstitial, Native, Rewarded Video, and App Open ad formats.",
+        "name": "disablePangle",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Disable Banner, Interstitial, Native, Rewarded, and App Open ad formats.",
+        "name": "disableTopOn",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Disable Banner, Interstitial, Native, and Rewarded Video ad formats.",
+        "name": "disableUnity",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Disable Banner, Interstitial, Native, Rewarded, and App Open ad formats.",
+        "name": "disableVungle",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Disable Banner, Interstitial, Native, Rewarded, App Open, InStream, and Feed ad formats.",
+        "name": "disableYandex",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": false
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
+    "dependencies": [],
+    "description": "Disables the banner that shows up after taking a screenshot.",
+    "id": "87a8c517ffca9c6cf850896a:9",
+    "legacy_id": 5693,
+    "metadata_status": "verified",
+    "name": "Disable screenshot banner",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": true
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": null
+    },
+    "dependencies": [],
+    "description": "Enables clipboard support in incognito mode.",
+    "id": "87a8c517ffca9c6cf850896a:10",
+    "legacy_id": 5694,
+    "metadata_status": "verified",
+    "name": "Enable clipboard in incognito",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": false
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": null
+    },
+    "dependencies": [],
+    "description": "Enables OCR feature to extract text from images and insert it into text fields.",
+    "id": "87a8c517ffca9c6cf850896a:11",
+    "legacy_id": 5695,
+    "metadata_status": "verified",
+    "name": "Enable OCR feature for Gboard",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": false
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": null
+    },
+    "dependencies": [],
+    "description": "Enables undo feature to quickly undo or correct typing mistakes.",
+    "id": "87a8c517ffca9c6cf850896a:12",
+    "legacy_id": 5696,
+    "metadata_status": "verified",
+    "name": "Enable Undo feature for Gboard",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": false
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
+    "dependencies": [],
+    "description": "Hides the experimental Ask button (Reddit Answers) from the search bar.",
+    "id": "87a8c517ffca9c6cf850896a:13",
+    "legacy_id": 5697,
+    "metadata_status": "verified",
+    "name": "Hide Ask button from search bar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": false
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
+    "dependencies": [],
+    "description": "Hides the community highlights section.",
+    "id": "87a8c517ffca9c6cf850896a:14",
+    "legacy_id": 5698,
+    "metadata_status": "verified",
+    "name": "Hide community highlights",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": false
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
+    "dependencies": [],
+    "description": "Hides the new experimental, prominent search bar on the main screen.",
+    "id": "87a8c517ffca9c6cf850896a:15",
+    "legacy_id": 5699,
+    "metadata_status": "verified",
+    "name": "Hide prominent search bar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": true
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
+    "dependencies": [],
+    "description": "Hides the share count on Reddit posts.",
+    "id": "87a8c517ffca9c6cf850896a:16",
+    "legacy_id": 5700,
+    "metadata_status": "verified",
+    "name": "Hide share count",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": false
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
+    "dependencies": [],
+    "description": "Hides the scores on Reddit posts and comments.",
+    "id": "87a8c517ffca9c6cf850896a:17",
+    "legacy_id": 5701,
+    "metadata_status": "verified",
+    "name": "Hide upvote scores",
+    "options": [
+      {
+        "default": true,
+        "description": "Removes scores from posts in feeds and search results.",
+        "name": "hidePostScores",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Removes scores from comments in threads and search results.",
+        "name": "hideCommentScores",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": false
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
+    "dependencies": [],
+    "description": "Opens external links directly without going through out.reddit.com.",
+    "id": "87a8c517ffca9c6cf850896a:18",
+    "legacy_id": 5702,
+    "metadata_status": "verified",
+    "name": "Open external links directly",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": true
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
+    "dependencies": [],
+    "description": "Removes ads and telemetry from Home, Popular, Watch, Latest, All, Custom feeds, Search, and Subreddits, including comments.",
+    "id": "87a8c517ffca9c6cf850896a:19",
+    "legacy_id": 5703,
+    "metadata_status": "verified",
+    "name": "Remove ads and telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": true
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Removes unnecessary internet permission from apps that can still work without internet access.",
+    "id": "87a8c517ffca9c6cf850896a:20",
+    "legacy_id": 5704,
+    "metadata_status": "verified",
+    "name": "Remove internet permission",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": false
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
+    "dependencies": [],
+    "description": "Unshortens and removes the tracking query parameters from shared links.",
+    "id": "87a8c517ffca9c6cf850896a:21",
+    "legacy_id": 5705,
+    "metadata_status": "verified",
+    "name": "Sanitize share links",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": true
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Spoofs the device's advertising ID with a string of zeros.",
+    "id": "87a8c517ffca9c6cf850896a:22",
+    "legacy_id": 5706,
+    "metadata_status": "verified",
+    "name": "Spoof Advertising ID",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": false
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Spoofs the app's package certificate hash used by Firebase Installations so that push notifications, remote config, and other Firebase services continue to work as expected.",
+    "id": "87a8c517ffca9c6cf850896a:23",
+    "legacy_id": 5707,
+    "metadata_status": "verified",
+    "name": "Spoof Firebase certificate hash",
+    "options": [
+      {
+        "default": null,
+        "description": "The SHA-1 hash of the app's package certificate.",
+        "name": "certificateHash",
+        "required": true,
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": false
+  },
+  {
+    "bundle_id": "87a8c517ffca9c6cf850896a",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": null
+    },
+    "dependencies": [],
+    "description": "Toggles Gboard feature flags to enable or disable experimental or hidden features.",
+    "id": "87a8c517ffca9c6cf850896a:24",
+    "legacy_id": 5708,
+    "metadata_status": "verified",
+    "name": "Toggle feature flags",
+    "options": [
+      {
+        "default": null,
+        "description": "The Gboard feature flags to toggle, such as experimental or hidden features.",
+        "name": "featureFlags",
+        "required": true,
+        "type": "kotlin.collections.List<kotlin.String>",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Enables or disables all specified feature flags.",
+        "name": "enableFlags",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v4.6.0",
+    "source_id": "2ba9f498b1b07381",
+    "use": false
+  },
+  {
+    "bundle_id": "8827132d056da189b66e08e1",
+    "compatiblePackages": {
+      "com.transsion.oraimohealth": [
+        "2.0.4",
+        "2.0.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hardcodes DNS lookup in OkHttp to fail locally with UnknownHostException, preventing any remote DNS or HTTP traffic.",
+    "id": "8827132d056da189b66e08e1:0",
+    "legacy_id": 5709,
+    "metadata_status": "verified",
+    "name": "DNS Hardcoding",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.transsion.oraimohealth",
+        "versions": [
+          "2.0.4",
+          "2.0.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.10.0",
+    "source_id": "c73931248d234d5d",
+    "use": true
+  },
+  {
+    "bundle_id": "8827132d056da189b66e08e1",
+    "compatiblePackages": {
+      "com.transsion.oraimohealth": [
+        "2.0.4",
+        "2.0.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Statically collapses Mall, Sport, and Mine tabs to 0dp in activity_main.xml, keeping Data and Device tabs.",
+    "id": "8827132d056da189b66e08e1:1",
+    "legacy_id": 5710,
+    "metadata_status": "verified",
+    "name": "Hide Navigation Tabs (Layout)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.transsion.oraimohealth",
+        "versions": [
+          "2.0.4",
+          "2.0.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.10.0",
+    "source_id": "c73931248d234d5d",
+    "use": true
+  },
+  {
+    "bundle_id": "8827132d056da189b66e08e1",
+    "compatiblePackages": {
+      "com.transsion.oraimohealth": [
+        "2.0.4",
+        "2.0.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Prunes background telemetry upload services, aggressive keepalive daemons, and cloud activities from AndroidManifest.xml.",
+    "id": "8827132d056da189b66e08e1:2",
+    "legacy_id": 5711,
+    "metadata_status": "verified",
+    "name": "Manifest Debloat",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.transsion.oraimohealth",
+        "versions": [
+          "2.0.4",
+          "2.0.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.10.0",
+    "source_id": "c73931248d234d5d",
+    "use": true
+  },
+  {
+    "bundle_id": "8827132d056da189b66e08e1",
+    "compatiblePackages": {
+      "com.transsion.oraimohealth": [
+        "2.0.4",
+        "2.0.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces network utilities to report disconnected and disables network change listeners.",
+    "id": "8827132d056da189b66e08e1:3",
+    "legacy_id": 5712,
+    "metadata_status": "verified",
+    "name": "Offline Network Mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.transsion.oraimohealth",
+        "versions": [
+          "2.0.4",
+          "2.0.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.10.0",
+    "source_id": "c73931248d234d5d",
+    "use": true
+  },
+  {
+    "bundle_id": "884b013af1e024699d68dfd6",
+    "compatiblePackages": [
+      {
+        "name": "CarbitLink",
+        "packageName": "net.easyconn.carman.wws",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.4.0"
+          }
+        ],
+        "versions": [
+          "6.4.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables debugger detection and process tracer exit checks.",
+    "id": "884b013af1e024699d68dfd6:0",
+    "legacy_id": 5713,
+    "metadata_status": "unverified",
+    "name": "Bypass anti-debug",
+    "options": [],
+    "packages": [
+      {
+        "name": "CarbitLink",
+        "versions": [
+          "6.4.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "2d37438052454535"
+  },
+  {
+    "bundle_id": "884b013af1e024699d68dfd6",
+    "compatiblePackages": [
+      {
+        "name": "CarbitLink",
+        "packageName": "net.easyconn.carman.wws",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.4.0"
+          }
+        ],
+        "versions": [
+          "6.4.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Forces Accounts.isLogin() to return true, enabling account-gated cards and feature tiles without signing in.",
+    "id": "884b013af1e024699d68dfd6:1",
+    "legacy_id": 5714,
+    "metadata_status": "unverified",
+    "name": "Bypass local account login requirement",
+    "options": [],
+    "packages": [
+      {
+        "name": "CarbitLink",
+        "versions": [
+          "6.4.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "2d37438052454535"
+  },
+  {
+    "bundle_id": "884b013af1e024699d68dfd6",
+    "compatiblePackages": [
+      {
+        "name": "CarbitLink",
+        "packageName": "net.easyconn.carman.wws",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.4.0"
+          }
+        ],
+        "versions": [
+          "6.4.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Redirects Google Play Services authorization calls to MicroG (app.revanced.android.gms) to fix Google login failure.",
+    "id": "884b013af1e024699d68dfd6:2",
+    "legacy_id": 5715,
+    "metadata_status": "unverified",
+    "name": "MicroG / GmsCore support for Google login",
+    "options": [],
+    "packages": [
+      {
+        "name": "CarbitLink",
+        "versions": [
+          "6.4.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "2d37438052454535"
+  },
+  {
+    "bundle_id": "884b013af1e024699d68dfd6",
+    "compatiblePackages": [
+      {
+        "name": "CarbitLink",
+        "packageName": "net.easyconn.carman.wws",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.4.0"
+          }
+        ],
+        "versions": [
+          "6.4.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Google Maps, Mapbox, Spotify, and Twin Space features.",
+    "id": "884b013af1e024699d68dfd6:3",
+    "legacy_id": 5716,
+    "metadata_status": "unverified",
+    "name": "Premium bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "CarbitLink",
+        "versions": [
+          "6.4.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "2d37438052454535"
+  },
+  {
+    "bundle_id": "884b013af1e024699d68dfd6",
+    "compatiblePackages": [
+      {
+        "name": "CarbitLink",
+        "packageName": "net.easyconn.carman.wws",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.4.0"
+          }
+        ],
+        "versions": [
+          "6.4.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Enables Twin Space, Mapbox visibility, Mapbox demo validity, dashboard VIP tile badges, and Member Center card.",
+    "id": "884b013af1e024699d68dfd6:4",
+    "legacy_id": 5717,
+    "metadata_status": "unverified",
+    "name": "Unlock feature gates",
+    "options": [],
+    "packages": [
+      {
+        "name": "CarbitLink",
+        "versions": [
+          "6.4.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "2d37438052454535"
+  },
+  {
+    "bundle_id": "884b013af1e024699d68dfd6",
+    "compatiblePackages": [
+      {
+        "name": "CarbitLink",
+        "packageName": "net.easyconn.carman.wws",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.4.0"
+          }
+        ],
+        "versions": [
+          "6.4.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Enables Web Browser tile, bypasses driving video motion masks, and forces screen mirroring support.",
+    "id": "884b013af1e024699d68dfd6:5",
+    "legacy_id": 5718,
+    "metadata_status": "unverified",
+    "name": "Unlock Web Browser & Screen Mirroring",
+    "options": [],
+    "packages": [
+      {
+        "name": "CarbitLink",
+        "versions": [
+          "6.4.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "2d37438052454535"
+  },
+  {
+    "bundle_id": "89e8ec28fcccf64c6b843aa4",
+    "compatiblePackages": {
+      "com.linkedin.android": [
+        "4.1.1255.1",
+        "4.1.1258"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option (off by default) to stop sending most LinkedIn analytics events.",
+    "id": "89e8ec28fcccf64c6b843aa4:0",
+    "legacy_id": 5719,
+    "metadata_status": "verified",
+    "name": "Block tracking",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.linkedin.android",
+        "versions": [
+          "4.1.1255.1",
+          "4.1.1258"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "7390fd47b871bc73",
+    "use": true
+  },
+  {
+    "bundle_id": "89e8ec28fcccf64c6b843aa4",
+    "compatiblePackages": {
+      "com.linkedin.android": [
+        "4.1.1255.1",
+        "4.1.1258"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops double tapping a post or photo from liking it.",
+    "id": "89e8ec28fcccf64c6b843aa4:1",
+    "legacy_id": 5720,
+    "metadata_status": "verified",
+    "name": "Disable double-tap like",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.linkedin.android",
+        "versions": [
+          "4.1.1255.1",
+          "4.1.1258"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "7390fd47b871bc73",
+    "use": true
+  },
+  {
+    "bundle_id": "89e8ec28fcccf64c6b843aa4",
+    "compatiblePackages": {
+      "com.linkedin.android": [
+        "4.1.1255.1",
+        "4.1.1258"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a download button to the full screen photo and video viewer.",
+    "id": "89e8ec28fcccf64c6b843aa4:2",
+    "legacy_id": 5721,
+    "metadata_status": "verified",
+    "name": "Download media",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.linkedin.android",
+        "versions": [
+          "4.1.1255.1",
+          "4.1.1258"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "7390fd47b871bc73",
+    "use": true
+  },
+  {
+    "bundle_id": "89e8ec28fcccf64c6b843aa4",
+    "compatiblePackages": {
+      "com.linkedin.android": [
+        "4.1.1255.1",
+        "4.1.1258"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds optional filters (off by default, turned on in Michii Patches): focus mode, celebrations, job cards, reposts, video posts, the \"New posts\" pill and \"See translation\".",
+    "id": "89e8ec28fcccf64c6b843aa4:3",
+    "legacy_id": 5722,
+    "metadata_status": "verified",
+    "name": "Feed filters",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.linkedin.android",
+        "versions": [
+          "4.1.1255.1",
+          "4.1.1258"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "7390fd47b871bc73",
+    "use": true
+  },
+  {
+    "bundle_id": "89e8ec28fcccf64c6b843aa4",
+    "compatiblePackages": {
+      "com.linkedin.android": [
+        "4.1.1255.1",
+        "4.1.1258"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes promoted (sponsored) posts from the feed.",
+    "id": "89e8ec28fcccf64c6b843aa4:4",
+    "legacy_id": 5723,
+    "metadata_status": "verified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.linkedin.android",
+        "versions": [
+          "4.1.1255.1",
+          "4.1.1258"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "7390fd47b871bc73",
+    "use": true
+  },
+  {
+    "bundle_id": "89e8ec28fcccf64c6b843aa4",
+    "compatiblePackages": {
+      "com.linkedin.android": [
+        "4.1.1255.1",
+        "4.1.1258"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes Premium and AI upsell cards and banners, including on profiles and the Me panel.",
+    "id": "89e8ec28fcccf64c6b843aa4:5",
+    "legacy_id": 5724,
+    "metadata_status": "verified",
+    "name": "Hide Premium upsells",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.linkedin.android",
+        "versions": [
+          "4.1.1255.1",
+          "4.1.1258"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "7390fd47b871bc73",
+    "use": true
+  }
+]

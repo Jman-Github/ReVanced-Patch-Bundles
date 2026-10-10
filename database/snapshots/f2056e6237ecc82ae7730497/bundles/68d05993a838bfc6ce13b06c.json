@@ -1,0 +1,51 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-10-07T15:01:27Z",
+  "description": "## [1.14.0](https://github.com/totsiaw/proxma-patches/compare/1.13.0...1.14.0) (2026-10-07)\n\n### New Features\n\n* add foodpanda order-tracking ad + PandaMart popup removal ([804b285](https://github.com/totsiaw/proxma-patches/commit/804b2854313bf446f327883158562aebd0d29877))\n* add Safar (com.safar.fyi) ad removal ([299dc68](https://github.com/totsiaw/proxma-patches/commit/299dc68b66bdd3978784079923aef927605a5cc7))\n* bypass PairIP license check for Safar re-signed builds ([e00e097](https://github.com/totsiaw/proxma-patches/commit/e00e0972c78b36b789b72a8fac1b89326d657fe9))\n* update NetMonster premium unlock for 4.0.4 ([5ae6b63](https://github.com/totsiaw/proxma-patches/commit/5ae6b63e5dc8771c171f2d59632aae8622ea0c88))\n",
+  "download_url": "https://github.com/totsiaw/proxma-patches/releases/download/1.14.0/patches-1.14.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:869adf3a669f447819c80c58a512b530430314da6693f246cc6161127fdacfcb",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "869adf3a669f447819c80c58a512b530430314da6693f246cc6161127fdacfcb",
+  "id": "68d05993a838bfc6ce13b06c",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Ftotsiaw%2Fproxma-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Ftotsiaw%2Fproxma-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 240,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.blueinklabs.investifystocks.free",
+    "com.global.foodpanda.android",
+    "com.jazz.jazzworld",
+    "com.olx.pk",
+    "com.safar.fyi",
+    "com.sdev.mtproxy",
+    "com.telenor.pakistan.mytelenor",
+    "com.zong.customercare",
+    "cz.mroczis.netmonster"
+  ],
+  "patch_count": 20,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "1.14.0",
+  "patch_refresh_attempted_at": "2026-10-10T15:20:41.843218316Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:869adf3a669f447819c80c58a512b530430314da6693f246cc6161127fdacfcb",
+  "release_status": "unverified",
+  "release_url": "https://github.com/totsiaw/proxma-patches/releases/tag/1.14.0",
+  "signature_download_url": "N/A",
+  "source_id": "a4b8645cb6754a72",
+  "version": "1.14.0"
+}

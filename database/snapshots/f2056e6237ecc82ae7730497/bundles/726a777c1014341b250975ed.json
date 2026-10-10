@@ -1,0 +1,44 @@
+{
+  "bundle_type": "ReVanced:V4",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-09-25T07:21:43Z",
+  "description": "Исправлено отсутствие экранной клавиатуры при входе в Яндекс ID. Окно WebView теперь разрешает ввод в поля страницы после её загрузки.\n\n### Скачать и установить\n\nОсновной способ: **ReVanced Manager → Патчи → добавить → удалённый источник / URL**. Вставьте:\n\n```text\nhttps://raw.githubusercontent.com/SergeyBelentev/voice-over-translation-revanced/main/patches.json\n```\n\nМожно включить автообновление набора. Если VOT уже импортирован локально, удалите старый локальный набор, сохранив официальный источник ReVanced.\n\nАльтернатива: скачайте **vot-standalone-0.3.1.rvp** из **Assets** ниже и импортируйте как локальный набор. Выберите один способ, чтобы VOT не дублировался.\n\n**[Актуальная инструкция установки](https://github.com/SergeyBelentev/voice-over-translation-revanced/blob/main/docs/INSTALL.md)**\n\nПроверяемая связка: **YouTube 20.40.45 + официальные ReVanced Patches 6.2.1 + Manager 2.6.0**. В `.rvp` только патч **Add VOT (voice-over translation)**. Применяйте его со стандартным официальным набором за один проход к **чистому APK**.\n\nПри обновлении обновите удалённый источник либо замените прежний локальный набор VOT, пересоберите APK и установите его через тот же Manager. Обновление набора само по себе не обновляет установленный YouTube.\n\n### Управление\n\n- Нажать **VT** — включить/выключить перевод.\n- Удерживать **VT** — языки, отдельные громкости и автоперевод.\n- Только перевод: оригинал **0%**, перевод **100%**, **Сохранить**.\n- Живые голоса: **Настройки → ReVanced → VOT — Живые голоса**, вход в Яндекс; перевод на русский.\n\n### Проверено при сборке\n\nDocker-сборка и применение всех 62 выбранных патчей прошли успешно. Проверены 44 класса VOT, 149 ссылок на методы, кнопка и пункт настроек. Функциональные проверки полного входа Яндекс ID и воспроизведения на устройстве не входят в автоматическую проверку.\n\nВложения: `.rvp`, архив исходников, инструкция и `SHA256SUMS.txt`. APK YouTube не включён.\n",
+  "download_url": "https://github.com/SergeyBelentev/voice-over-translation-revanced/releases/download/v0.3.1/vot-standalone-0.3.1.rvp",
+  "ecosystem": "revanced",
+  "extracted_provider_digest": "sha256:b9287345591505f8d67b7952b2f9cebc82bc86f1af8bcd512e3355d9b65235b4",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "b9287345591505f8d67b7952b2f9cebc82bc86f1af8bcd512e3355d9b65235b4",
+  "id": "726a777c1014341b250975ed",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FSergeyBelentev%2Fvoice-over-translation-revanced&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FSergeyBelentev%2Fvoice-over-translation-revanced&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 254,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "app.revanced.android.youtube",
+    "com.google.android.youtube"
+  ],
+  "patch_count": 1,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v0.3.1",
+  "patch_refresh_attempted_at": "2026-10-10T15:21:55.330864208Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.revanced:patcher-jvm:22.1.0-dev.1",
+  "provider_digest": "sha256:b9287345591505f8d67b7952b2f9cebc82bc86f1af8bcd512e3355d9b65235b4",
+  "release_status": "unverified",
+  "release_url": "https://github.com/SergeyBelentev/voice-over-translation-revanced/releases/tag/v0.3.1",
+  "signature_download_url": "N/A",
+  "source_id": "2d32011d511b5b51",
+  "version": "v0.3.1"
+}

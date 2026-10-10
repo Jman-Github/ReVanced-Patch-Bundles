@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-10-06T14:14:31.339Z",
+  "description": "## [1.1.0](https://gitlab.com/kmru/nai64extrapatches/compare/1.0.0...1.1.0) (2026-10-06)\n\n### Bug Fixes\n\n* install git in the GitLab CI image ([7900b72](https://gitlab.com/kmru/nai64extrapatches/commit/7900b72cf6296652ef72766d42756b295fd9b684))\n* use Node 22 for semantic-release in GitLab CI ([f9c930d](https://gitlab.com/kmru/nai64extrapatches/commit/f9c930d0fb6e8ed6f1b939c696b01e620e191b45))\n* use reference tags so GitLab accepts the CI config ([0f84003](https://gitlab.com/kmru/nai64extrapatches/commit/0f8400373f3ea5b7b73cb14ac6622874baa421cc))\n\n### New Features\n\n* cover more ad networks and diagnostics from tracker wishlist ([54b924c](https://gitlab.com/kmru/nai64extrapatches/commit/54b924ca0518cd77d7a404c3447516704365f9bf))\n* emit adaptive icon with configurable background for Custom App Icon ([3aa33f6](https://gitlab.com/kmru/nai64extrapatches/commit/3aa33f69de7228525877e4562b7cead7b4e150b8))\n",
+  "download_url": "https://gitlab.com/api/v4/projects/87212174/packages/generic/nai64extrapatches/1.1.0/patches-1.1.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": null,
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "4a6f1688a14d8838e147dbdfb8d02d40f19052bd65719d0d52fa2e976ae89d7d",
+  "id": "8fbfdcd920043d60a937839f",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgitlab.com%2Fkmru%2Fnai64extrapatches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgitlab.com%2Fkmru%2Fnai64extrapatches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 331,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.bandcamp.android"
+  ],
+  "patch_count": 432,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "1.1.0",
+  "patch_refresh_attempted_at": "2026-10-10T15:20:03.658862107Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": null,
+  "release_status": "unverified",
+  "release_url": "https://gitlab.com/kmru/nai64extrapatches/-/releases/1.1.0",
+  "signature_download_url": "N/A",
+  "source_id": "417d4af4a2b15ae1",
+  "version": "1.1.0"
+}
