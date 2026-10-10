@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev"
+  ],
+  "created_at": "2026-10-10T09:23:19Z",
+  "description": "## [1.14.0-dev.2](https://github.com/ahmedyarub/morphe-patches/compare/v1.14.0-dev.1...v1.14.0-dev.2) (2026-10-10)\n\n### ✨ New Features\n\n* Auto-not-interested, story netego filter, X 12.33.0 compat ([637ecec](https://github.com/ahmedyarub/morphe-patches/commit/637ecec6dc0c5890b8553f54e64d16e2a07ef662))\n",
+  "download_url": "https://github.com/ahmedyarub/morphe-patches/releases/download/v1.14.0-dev.2/patches-1.14.0-dev.2.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:d3508ef4a42dd4517a4cc545cff22f6fe8e231e9b5e9a89ea30d7fad2a568ba7",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "d3508ef4a42dd4517a4cc545cff22f6fe8e231e9b5e9a89ea30d7fad2a568ba7",
+  "id": "106ff384ff5a14e7c336c14a",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fahmedyarub%2Fmorphe-patches&version=latest&channel=prerelease"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 1107,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.instagram.android",
+    "com.reddit.frontpage",
+    "com.twitter.android"
+  ],
+  "patch_count": 60,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.14.0-dev.2",
+  "patch_refresh_attempted_at": "2026-10-10T17:03:41.410652950Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:d3508ef4a42dd4517a4cc545cff22f6fe8e231e9b5e9a89ea30d7fad2a568ba7",
+  "release_status": "available",
+  "release_url": "https://github.com/ahmedyarub/morphe-patches/releases/tag/v1.14.0-dev.2",
+  "signature_download_url": "N/A",
+  "source_id": "2d7b929ffc6870d6",
+  "version": "v1.14.0-dev.2"
+}
