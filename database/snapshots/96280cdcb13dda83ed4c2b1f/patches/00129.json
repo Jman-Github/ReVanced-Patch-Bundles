@@ -1,0 +1,2799 @@
+[
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Opens links to other X frontends, such as fxtwitter and vxtwitter, in the app. They have to be enabled under \"Open by default\" in the app's system settings.",
+    "id": "b479be9ee96f8a68c28a975e:28",
+    "legacy_id": 13275,
+    "metadata_status": "verified",
+    "name": "Handle custom twitter links",
+    "options": [
+      {
+        "default": "[vxtwitter.com, fixvx.com, fxtwitter.com, fixupx.com, twittpr.com, xcancel.com]",
+        "description": "Link hosts to open in the app. Subdomains are included.",
+        "key": "customLinkHosts",
+        "required": true,
+        "title": "Hosts",
+        "type": "kotlin.collections.List<kotlin.String>",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides ads in the feed.",
+    "id": "b479be9ee96f8a68c28a975e:29",
+    "legacy_id": 13276,
+    "metadata_status": "verified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the unread counts and dots on the bottom navigation bar.",
+    "id": "b479be9ee96f8a68c28a975e:30",
+    "legacy_id": 13277,
+    "metadata_status": "verified",
+    "name": "Hide badges from navigation bar icons",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the \"See new posts\" pill at the top of the timeline.",
+    "id": "b479be9ee96f8a68c28a975e:31",
+    "legacy_id": 13278,
+    "metadata_status": "verified",
+    "name": "Hide Banner",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides Community Notes under posts.",
+    "id": "b479be9ee96f8a68c28a975e:32",
+    "legacy_id": 13279,
+    "metadata_status": "verified",
+    "name": "Hide Community Notes",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the floating Post button.",
+    "id": "b479be9ee96f8a68c28a975e:33",
+    "legacy_id": 13280,
+    "metadata_status": "verified",
+    "name": "Hide FAB",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides Instants from DMs page.",
+    "id": "b479be9ee96f8a68c28a975e:34",
+    "legacy_id": 13281,
+    "metadata_status": "verified",
+    "name": "Hide Instants",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": false
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the Boost button on your posts and the Boost item in their menu.",
+    "id": "b479be9ee96f8a68c28a975e:35",
+    "legacy_id": 13282,
+    "metadata_status": "verified",
+    "name": "Hide promote button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides suggested reels and suggested accounts. Suggested stories are hidden by Filter stories.",
+    "id": "b479be9ee96f8a68c28a975e:36",
+    "legacy_id": 13283,
+    "metadata_status": "verified",
+    "name": "Hide suggested content",
+    "options": [
+      {
+        "default": true,
+        "description": "Hides suggested reels from feed and reels tab.",
+        "key": "hideSuggestedReels",
+        "required": false,
+        "title": "Hide suggested reels",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Hides suggested accounts from the list of followers and from other profiles.",
+        "key": "hideSuggestedAccount",
+        "required": false,
+        "title": "Hide suggested accounts",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the Threads button from the profile page action bar (top right of the profile page).",
+    "id": "b479be9ee96f8a68c28a975e:37",
+    "legacy_id": 13284,
+    "metadata_status": "verified",
+    "name": "Hide Threads profile button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": false
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Overrides the app's feature switches with values chosen when patching.",
+    "id": "b479be9ee96f8a68c28a975e:38",
+    "legacy_id": 13285,
+    "metadata_status": "verified",
+    "name": "Hook feature flag",
+    "options": [
+      {
+        "default": "[]",
+        "description": "One key=value per entry, e.g. some_feature_enabled=true. true and false set a boolean, whole numbers an integer, other numbers a decimal, and anything else a string.",
+        "key": "flags",
+        "required": false,
+        "title": "Feature switches",
+        "type": "kotlin.collections.List<kotlin.String>",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds Export login and Import login to the Morphe settings, opened from the app icon's shortcuts. An export holds everything needed to use your account.",
+    "id": "b479be9ee96f8a68c28a975e:39",
+    "legacy_id": 13286,
+    "metadata_status": "verified",
+    "name": "Import/Export login token",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [],
+    "description": "Requests the maximum resolution images from the server.",
+    "id": "b479be9ee96f8a68c28a975e:40",
+    "legacy_id": 13287,
+    "metadata_status": "verified",
+    "name": "Improve image viewing",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Shares posts as x.com/<username>/status/<id> rather than x.com/i/status/<id>.",
+    "id": "b479be9ee96f8a68c28a975e:41",
+    "legacy_id": 13288,
+    "metadata_status": "verified",
+    "name": "Legacy share links",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes unexpired view once, view twice media to permanent view.",
+    "id": "b479be9ee96f8a68c28a975e:42",
+    "legacy_id": 13289,
+    "metadata_status": "verified",
+    "name": "Make ephemeral media permanent",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Lets every photo, video and GIF be saved from its long-press menu and the media viewer, without a watermark.",
+    "id": "b479be9ee96f8a68c28a975e:43",
+    "legacy_id": 13290,
+    "metadata_status": "verified",
+    "name": "Native downloader",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds \"Reader mode\" to the post menu: the post's text, selectable, with links to its media.",
+    "id": "b479be9ee96f8a68c28a975e:44",
+    "legacy_id": 13291,
+    "metadata_status": "verified",
+    "name": "Native reader mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds \"Translate with Google\" to the post menu.",
+    "id": "b479be9ee96f8a68c28a975e:45",
+    "legacy_id": 13292,
+    "metadata_status": "verified",
+    "name": "Native translator",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Opens links in posts at their real address instead of through t.co.",
+    "id": "b479be9ee96f8a68c28a975e:46",
+    "legacy_id": 13293,
+    "metadata_status": "verified",
+    "name": "No shortened URL",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [],
+    "description": "Opens links in the system browser instead of the in-app browser.",
+    "id": "b479be9ee96f8a68c28a975e:47",
+    "legacy_id": 13294,
+    "metadata_status": "verified",
+    "name": "Open links externally",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes promoted posts, accounts and trends from timelines.",
+    "id": "b479be9ee96f8a68c28a975e:48",
+    "legacy_id": 13295,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes Premium upsells: the Upgrade button on the home timeline, the Premium side bar row, and the Get verified cards and prompts.",
+    "id": "b479be9ee96f8a68c28a975e:49",
+    "legacy_id": 13296,
+    "metadata_status": "verified",
+    "name": "Remove premium upsell",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.37.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the Reddit Pro section from the community drawer, and the Reddit Pro promos: the post creation and subreddit join upsell sheets, and the Reddit Pro banner on the profile feed.",
+    "id": "b479be9ee96f8a68c28a975e:50",
+    "legacy_id": 13297,
+    "metadata_status": "verified",
+    "name": "Remove Reddit Pro section",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.37.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.37.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the Resources and Games on Reddit sections from the community drawer.",
+    "id": "b479be9ee96f8a68c28a975e:51",
+    "legacy_id": 13298,
+    "metadata_status": "verified",
+    "name": "Remove Resources and Games on Reddit sections",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.37.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [],
+    "description": "Moves Interested and Not Interested to the top of the post menu.",
+    "id": "b479be9ee96f8a68c28a975e:52",
+    "legacy_id": 13299,
+    "metadata_status": "verified",
+    "name": "Reorder menu options",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes tracking parameters from links shared out of the app.",
+    "id": "b479be9ee96f8a68c28a975e:53",
+    "legacy_id": 13300,
+    "metadata_status": "verified",
+    "name": "Sanitize share links",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [],
+    "description": "Keeps a local copy of incoming DMs so ones the sender deletes stay readable. Messages are stored unencrypted in the app's private storage.",
+    "id": "b479be9ee96f8a68c28a975e:54",
+    "legacy_id": 13301,
+    "metadata_status": "verified",
+    "name": "Save deleted messages",
+    "options": [
+      {
+        "default": 30,
+        "description": "How long a copy of a message that was not deleted is kept. A message deleted after this is not recoverable. Deleted messages are kept until cleared.",
+        "key": "retentionDays",
+        "required": true,
+        "title": "Days to keep messages",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds \"Share as image\" to the share sheet of a post, which shares it as an image card.",
+    "id": "b479be9ee96f8a68c28a975e:55",
+    "legacy_id": 13302,
+    "metadata_status": "verified",
+    "name": "Share Tweet as Image",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b479be9ee96f8a68c28a975e",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Shows the results of polls without voting. Polls cannot be voted on while this is applied.",
+    "id": "b479be9ee96f8a68c28a975e:56",
+    "legacy_id": 13303,
+    "metadata_status": "verified",
+    "name": "Show poll results",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "b4a60c94c080e693d8414c82",
+    "compatiblePackages": {
+      "com.google.android.apps.maps": [
+        "26.36.04.973607363"
+      ]
+    },
+    "dependencies": [],
+    "description": "Builds microG Maps, a separate app (org.ungoogled.android.apps.maps.microg) that signs in to your Google account through microG: saved places and lists, Timeline, location sharing, contributions and push messages. Remove sign-in prompts, Trim account menu and Remove permissions are left out of this build, Offline saved places keeps only its Local saved screen, which copies your account's saved lists to the phone (Pull from Google account), and its icon carries microG's C. Needs microG: MicroG-RE or ReVanced GmsCore. Not for root (mount) installs.",
+    "id": "b4a60c94c080e693d8414c82:0",
+    "legacy_id": 13304,
+    "metadata_status": "verified",
+    "name": "Add microG support",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.13",
+    "source_id": "25cb4160ad617030",
+    "use": false
+  },
+  {
+    "bundle_id": "b4a60c94c080e693d8414c82",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": null
+    },
+    "dependencies": [],
+    "description": "Allows Google Maps, Android Auto, and third-party media controllers to connect to YouTube Music.",
+    "id": "b4a60c94c080e693d8414c82:1",
+    "legacy_id": 13305,
+    "metadata_status": "verified",
+    "name": "Allow external media browser connections",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.13",
+    "source_id": "25cb4160ad617030",
+    "use": true
+  },
+  {
+    "bundle_id": "b4a60c94c080e693d8414c82",
+    "compatiblePackages": {
+      "com.google.android.apps.maps": [
+        "26.36.04.973607363"
+      ]
+    },
+    "dependencies": [
+      "Allow Morphe YouTube Music package visibility"
+    ],
+    "description": "Enables YouTube Music and modded media apps as the navigation mini player.",
+    "id": "b4a60c94c080e693d8414c82:2",
+    "legacy_id": 13306,
+    "metadata_status": "verified",
+    "name": "Allow Morphe YouTube Music mini player",
+    "options": [
+      {
+        "default": "app.morphe.android.apps.youtube.music",
+        "description": "Package name of your modded YouTube Music app.",
+        "key": "targetPackage",
+        "required": false,
+        "title": "YouTube Music package name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.apps.maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.13",
+    "source_id": "25cb4160ad617030",
+    "use": true
+  },
+  {
+    "bundle_id": "b4a60c94c080e693d8414c82",
+    "compatiblePackages": {
+      "com.google.android.apps.maps": [
+        "26.36.04.973607363"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds package queries and permission to AndroidManifest.xml for full media apps visibility.",
+    "id": "b4a60c94c080e693d8414c82:3",
+    "legacy_id": 13307,
+    "metadata_status": "verified",
+    "name": "Allow Morphe YouTube Music package visibility",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.13",
+    "source_id": "25cb4160ad617030",
+    "use": true
+  },
+  {
+    "bundle_id": "b4a60c94c080e693d8414c82",
+    "compatiblePackages": {
+      "com.google.android.apps.maps": [
+        "26.36.04.973607363"
+      ]
+    },
+    "dependencies": [],
+    "description": "AMOLED-black theme. Pins Maps' own dark mode and its separate navigation colour scheme, and remaps colour resources, drawable fills and draw-time paints so no surface is left grey.",
+    "id": "b4a60c94c080e693d8414c82:4",
+    "legacy_id": 13308,
+    "metadata_status": "verified",
+    "name": "Black theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.13",
+    "source_id": "25cb4160ad617030",
+    "use": true
+  },
+  {
+    "bundle_id": "b4a60c94c080e693d8414c82",
+    "compatiblePackages": {
+      "com.google.android.apps.maps": [
+        "26.36.04.973607363"
+      ]
+    },
+    "dependencies": [
+      "Restore map data"
+    ],
+    "description": "Makes Maps' bundled Play services signature and availability checks always pass, so it runs re-signed and with Play services disabled or absent, and lets it load tiles, search and routing by sending Google's own package and certificate in the identity headers the Maps backend checks. Where Play services rejects the re-signed app, Maps degrades instead of crashing.",
+    "id": "b4a60c94c080e693d8414c82:5",
+    "legacy_id": 13309,
+    "metadata_status": "verified",
+    "name": "Bypass Play Services checks",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.13",
+    "source_id": "25cb4160ad617030",
+    "use": true
+  },
+  {
+    "bundle_id": "b4a60c94c080e693d8414c82",
+    "compatiblePackages": {
+      "com.google.android.apps.maps": [
+        "26.36.04.973607363"
+      ]
+    },
+    "dependencies": [],
+    "description": "Installs alongside stock Google Maps under its own package name and adds MicroG spoofing.",
+    "id": "b4a60c94c080e693d8414c82:6",
+    "legacy_id": 13310,
+    "metadata_status": "verified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "app.morphe.android.apps.maps",
+        "description": "The package name to install under.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.apps.maps",
+        "versions": [
+          "26.36.04.973607363"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.13",
+    "source_id": "25cb4160ad617030",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "b532c3c82ddc44ce69be5484:0",
+    "legacy_id": 13311,
+    "metadata_status": "verified",
+    "name": "Add ability to copy media link",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds settings to control preferences are patching",
+    "id": "b532c3c82ddc44ce69be5484:1",
+    "legacy_id": 13312,
+    "metadata_status": "verified",
+    "name": "Add settings",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Allows user network certificate for whitehat testing",
+    "id": "b532c3c82ddc44ce69be5484:2",
+    "legacy_id": 13313,
+    "metadata_status": "verified",
+    "name": "Allow user network certificate",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": false
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Blocks redirecting to the new X Android UI on launch",
+    "id": "b532c3c82ddc44ce69be5484:3",
+    "legacy_id": 13314,
+    "metadata_status": "verified",
+    "name": "Block redirecting to X Lite",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Blocks the 'This app is out of date' update screen from being shown on launch",
+    "id": "b532c3c82ddc44ce69be5484:4",
+    "legacy_id": 13315,
+    "metadata_status": "verified",
+    "name": "Block update screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bring back old twitter logo and name",
+    "id": "b532c3c82ddc44ce69be5484:5",
+    "legacy_id": 13316,
+    "metadata_status": "verified",
+    "name": "Bring back twitter",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": false
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "b532c3c82ddc44ce69be5484:6",
+    "legacy_id": 13317,
+    "metadata_status": "verified",
+    "name": "Change app icon",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Change the animation to one from existing Rings like animations",
+    "id": "b532c3c82ddc44ce69be5484:7",
+    "legacy_id": 13318,
+    "metadata_status": "verified",
+    "name": "Change like animation",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ],
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.",
+    "id": "b532c3c82ddc44ce69be5484:8",
+    "legacy_id": 13319,
+    "metadata_status": "verified",
+    "name": "Change version code",
+    "options": [
+      {
+        "default": 2147483647,
+        "description": "The version code to use. Using the highest value turns off app store updates and allows downgrading an existing app install to an older app version.",
+        "key": "versionCode",
+        "required": true,
+        "title": "Version code",
+        "type": "kotlin.Int",
+        "values": {
+          "Highest": 2147483647,
+          "Lowest": 1
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      },
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes tracking parameters when sharing links",
+    "id": "b532c3c82ddc44ce69be5484:9",
+    "legacy_id": 13320,
+    "metadata_status": "verified",
+    "name": "Clear tracking params",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the package name and the app name. This allows you to install the patched app alongside the original Instagram app.\nCaution: Do not select the official Morphe's \"Change package name\" universal patch.",
+    "id": "b532c3c82ddc44ce69be5484:10",
+    "legacy_id": 13321,
+    "metadata_status": "verified",
+    "name": "Clone",
+    "options": [
+      {
+        "default": "com.instagram.android.piko",
+        "description": "A new package name for the patched app.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "Piko Instagram",
+        "description": "A new app name (label). Entering \"Instagram\" will skip changing the app name.",
+        "key": "appName",
+        "required": true,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": false
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Control video auto scroll in immersive view",
+    "id": "b532c3c82ddc44ce69be5484:11",
+    "legacy_id": 13322,
+    "metadata_status": "verified",
+    "name": "Control video auto scroll",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Adds a button to copy comments on posts and reels.",
+    "id": "b532c3c82ddc44ce69be5484:12",
+    "legacy_id": 13323,
+    "metadata_status": "verified",
+    "name": "Copy comment",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Change the download directory for video downloads",
+    "id": "b532c3c82ddc44ce69be5484:13",
+    "legacy_id": 13324,
+    "metadata_status": "verified",
+    "name": "Custom download folder",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Customise emoji font style",
+    "id": "b532c3c82ddc44ce69be5484:14",
+    "legacy_id": 13325,
+    "metadata_status": "verified",
+    "name": "Custom emoji font",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Adds an option to replace the app font with a font file from the device storage.",
+    "id": "b532c3c82ddc44ce69be5484:15",
+    "legacy_id": 13326,
+    "metadata_status": "verified",
+    "name": "Custom font",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Customise font style",
+    "id": "b532c3c82ddc44ce69be5484:16",
+    "legacy_id": 13327,
+    "metadata_status": "verified",
+    "name": "Custom font",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Overrides existing share menu and adds a new one",
+    "id": "b532c3c82ddc44ce69be5484:17",
+    "legacy_id": 13328,
+    "metadata_status": "verified",
+    "name": "Custom share menu",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [],
+    "description": "Allows for using custom domains when sharing posts, reels and stories.",
+    "id": "b532c3c82ddc44ce69be5484:18",
+    "legacy_id": 13329,
+    "metadata_status": "verified",
+    "name": "Custom sharing domain",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Allows for using domains like fxtwitter when sharing tweets/posts.",
+    "id": "b532c3c82ddc44ce69be5484:19",
+    "legacy_id": 13330,
+    "metadata_status": "verified",
+    "name": "Custom sharing domain",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "b532c3c82ddc44ce69be5484:20",
+    "legacy_id": 13331,
+    "metadata_status": "verified",
+    "name": "Customise post font size",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": null,
+    "id": "b532c3c82ddc44ce69be5484:21",
+    "legacy_id": 13332,
+    "metadata_status": "verified",
+    "name": "Customise story ring size",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Customise the timestamp that shows when the story was posted",
+    "id": "b532c3c82ddc44ce69be5484:22",
+    "legacy_id": 13333,
+    "metadata_status": "verified",
+    "name": "Customise story timestamp",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "b532c3c82ddc44ce69be5484:23",
+    "legacy_id": 13334,
+    "metadata_status": "verified",
+    "name": "Customize default reply sorting",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "b532c3c82ddc44ce69be5484:24",
+    "legacy_id": 13335,
+    "metadata_status": "verified",
+    "name": "Customize explore tabs",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "b532c3c82ddc44ce69be5484:25",
+    "legacy_id": 13336,
+    "metadata_status": "verified",
+    "name": "Customize Inline action Bar items",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Choose which tabs appear in the bottom navigation bar and reorder them",
+    "id": "b532c3c82ddc44ce69be5484:26",
+    "legacy_id": 13337,
+    "metadata_status": "verified",
+    "name": "Customize navigation bar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "b532c3c82ddc44ce69be5484:27",
+    "legacy_id": 13338,
+    "metadata_status": "verified",
+    "name": "Customize Navigation Bar items",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "b532c3c82ddc44ce69be5484:28",
+    "legacy_id": 13339,
+    "metadata_status": "verified",
+    "name": "Customize notification tabs",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "b532c3c82ddc44ce69be5484:29",
+    "legacy_id": 13340,
+    "metadata_status": "verified",
+    "name": "Customize profile tabs",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "b532c3c82ddc44ce69be5484:30",
+    "legacy_id": 13341,
+    "metadata_status": "verified",
+    "name": "Customize search suggestions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "b532c3c82ddc44ce69be5484:31",
+    "legacy_id": 13342,
+    "metadata_status": "verified",
+    "name": "Customize search tab items",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "b532c3c82ddc44ce69be5484:32",
+    "legacy_id": 13343,
+    "metadata_status": "verified",
+    "name": "Customize side bar items",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "b532c3c82ddc44ce69be5484:33",
+    "legacy_id": 13344,
+    "metadata_status": "verified",
+    "name": "Customize timeline top bar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Delete entries from database(cache)",
+    "id": "b532c3c82ddc44ce69be5484:34",
+    "legacy_id": 13345,
+    "metadata_status": "verified",
+    "name": "Delete from database",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": null,
+    "id": "b532c3c82ddc44ce69be5484:35",
+    "legacy_id": 13346,
+    "metadata_status": "verified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Block analytics that are sent to Instagram/Facebook servers.",
+    "id": "b532c3c82ddc44ce69be5484:36",
+    "legacy_id": 13347,
+    "metadata_status": "verified",
+    "name": "Disable analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": false
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "b532c3c82ddc44ce69be5484:37",
+    "legacy_id": 13348,
+    "metadata_status": "verified",
+    "name": "Disable auto timeline scroll on launch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [
+      "Hook feature flag"
+    ],
+    "description": null,
+    "id": "b532c3c82ddc44ce69be5484:38",
+    "legacy_id": 13349,
+    "metadata_status": "verified",
+    "name": "Disable chirp font",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Disables comments and hides comment buttons and counts on posts and reels.",
+    "id": "b532c3c82ddc44ce69be5484:39",
+    "legacy_id": 13350,
+    "metadata_status": "verified",
+    "name": "Disable comments",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Hides suggested accounts",
+    "id": "b532c3c82ddc44ce69be5484:40",
+    "legacy_id": 13351,
+    "metadata_status": "verified",
+    "name": "Disable discover people",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Disable double tap like on post, reel, comment and message",
+    "id": "b532c3c82ddc44ce69be5484:41",
+    "legacy_id": 13352,
+    "metadata_status": "verified",
+    "name": "Disable double tap like",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": null,
+    "id": "b532c3c82ddc44ce69be5484:42",
+    "legacy_id": 13353,
+    "metadata_status": "verified",
+    "name": "Disable explore",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": null,
+    "id": "b532c3c82ddc44ce69be5484:43",
+    "legacy_id": 13354,
+    "metadata_status": "verified",
+    "name": "Disable highlights",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.",
+    "id": "b532c3c82ddc44ce69be5484:44",
+    "legacy_id": 13355,
+    "metadata_status": "verified",
+    "name": "Disable Reels scrolling",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Disables screenshots detection in DM",
+    "id": "b532c3c82ddc44ce69be5484:45",
+    "legacy_id": 13356,
+    "metadata_status": "verified",
+    "name": "Disable screenshot detection",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": false
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": null,
+    "id": "b532c3c82ddc44ce69be5484:46",
+    "legacy_id": 13357,
+    "metadata_status": "verified",
+    "name": "Disable stories",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Disable automatic flipping/moving to next story",
+    "id": "b532c3c82ddc44ce69be5484:47",
+    "legacy_id": 13358,
+    "metadata_status": "verified",
+    "name": "Disable story flipping",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Prevents opening the creation screen by swiping right on the home tab.",
+    "id": "b532c3c82ddc44ce69be5484:48",
+    "legacy_id": 13359,
+    "metadata_status": "verified",
+    "name": "Disable swipe to create",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": null,
+    "id": "b532c3c82ddc44ce69be5484:49",
+    "legacy_id": 13360,
+    "metadata_status": "verified",
+    "name": "Disable typing status",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": null,
+    "id": "b532c3c82ddc44ce69be5484:50",
+    "legacy_id": 13361,
+    "metadata_status": "verified",
+    "name": "Disable video autoplay",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Adds ability to download posts, reels, stories and highlights",
+    "id": "b532c3c82ddc44ce69be5484:51",
+    "legacy_id": 13362,
+    "metadata_status": "verified",
+    "name": "Download media",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks the ability to download videos and gifs from Twitter/X",
+    "id": "b532c3c82ddc44ce69be5484:52",
+    "legacy_id": 13363,
+    "metadata_status": "verified",
+    "name": "Download patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables ability to download voice messages",
+    "id": "b532c3c82ddc44ce69be5484:53",
+    "legacy_id": 13364,
+    "metadata_status": "verified",
+    "name": "Download voice message",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Replaces the default Twitter Blue with the user's Material You palette.",
+    "id": "b532c3c82ddc44ce69be5484:54",
+    "legacy_id": 13365,
+    "metadata_status": "verified",
+    "name": "Dynamic color",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": false
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "b532c3c82ddc44ce69be5484:55",
+    "legacy_id": 13366,
+    "metadata_status": "verified",
+    "name": "Enable debug menu for posts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Videos will be played in highest quality always",
+    "id": "b532c3c82ddc44ce69be5484:56",
+    "legacy_id": 13367,
+    "metadata_status": "verified",
+    "name": "Enable force HD videos",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables PiP mode when you close the app",
+    "id": "b532c3c82ddc44ce69be5484:57",
+    "legacy_id": 13368,
+    "metadata_status": "verified",
+    "name": "Enable PiP mode automatically",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables ability to undo posts before posting",
+    "id": "b532c3c82ddc44ce69be5484:58",
+    "legacy_id": 13369,
+    "metadata_status": "verified",
+    "name": "Enable Undo Posts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Makes all app activities exportable.",
+    "id": "b532c3c82ddc44ce69be5484:59",
+    "legacy_id": 13370,
+    "metadata_status": "verified",
+    "name": "Export all activities",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": false
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Adds support to share post links directly to external downloader",
+    "id": "b532c3c82ddc44ce69be5484:60",
+    "legacy_id": 13371,
+    "metadata_status": "verified",
+    "name": "External downloader",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings"
+    ],
+    "description": "Filter stories to hide based on different categories",
+    "id": "b532c3c82ddc44ce69be5484:61",
+    "legacy_id": 13372,
+    "metadata_status": "verified",
+    "name": "Filter stories",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "447.0.0.55.81"
+      ]
+    },
+    "dependencies": [
+      "Add settings",
+      "Customize navigation bar",
+      "Disable Reels scrolling",
+      "Disable explore"
+    ],
+    "description": "Commitment mode for cutting down on Instagram. Pick what to block (Reels, Explore) and a duration; once locked those protections are forced on and cannot be switched off. Reels shared with you still open. Unlocking early requires a 24 hour cooling-off period, and resetting or importing settings is blocked while locked.",
+    "id": "b532c3c82ddc44ce69be5484:62",
+    "legacy_id": 13373,
+    "metadata_status": "verified",
+    "name": "Focus Lock",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  },
+  {
+    "bundle_id": "b532c3c82ddc44ce69be5484",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.19.1-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Get translate option for all posts",
+    "id": "b532c3c82ddc44ce69be5484:63",
+    "legacy_id": 13374,
+    "metadata_status": "verified",
+    "name": "Force enable translate",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.14",
+    "source_id": "4abe8f323b2f3212",
+    "use": true
+  }
+]

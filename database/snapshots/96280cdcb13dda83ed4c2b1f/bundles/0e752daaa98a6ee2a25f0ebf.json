@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-05-05T11:51:32Z",
+  "description": "# [1.30.0](https://github.com/AlexNaga/android-patches/compare/v1.29.0...v1.30.0) (2026-05-05)\n\n\n### Bug Fixes\n\n* drop npm cache from release workflow ([e4316c1](https://github.com/AlexNaga/android-patches/commit/e4316c1972604285581fefdcc346d85fc8032cd3))\n\n\n### Features\n\n* switch release pipeline to semantic-release ([e64a398](https://github.com/AlexNaga/android-patches/commit/e64a398b6aaa2114e51bca6eafeaa1f3b6110e49))\n\n\n\n",
+  "download_url": "https://github.com/AlexNaga/android-patches/releases/download/v1.30.0/patches-1.30.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:0d6de0d4b8bc10f63d51dc1bd81b9e622e10d9784f4e08059a9b2b60f9ddb747",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "0d6de0d4b8bc10f63d51dc1bd81b9e622e10d9784f4e08059a9b2b60f9ddb747",
+  "id": "0e752daaa98a6ee2a25f0ebf",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FAlexNaga%2Fandroid-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FAlexNaga%2Fandroid-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 36,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "se.matlistan.free"
+  ],
+  "patch_count": 2,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.30.0",
+  "patch_refresh_attempted_at": "2026-10-10T15:16:19.020230641Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:0d6de0d4b8bc10f63d51dc1bd81b9e622e10d9784f4e08059a9b2b60f9ddb747",
+  "release_status": "available",
+  "release_url": "https://github.com/AlexNaga/android-patches/releases/tag/v1.30.0",
+  "signature_download_url": "N/A",
+  "source_id": "d564b6d450587e30",
+  "version": "v1.30.0"
+}

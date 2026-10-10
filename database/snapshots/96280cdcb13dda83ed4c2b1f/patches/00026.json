@@ -1,0 +1,2684 @@
+[
+  {
+    "bundle_id": "489ea8fc62acbd22f03a0d45",
+    "compatiblePackages": {
+      "com.providelite.epicplay": null
+    },
+    "dependencies": [],
+    "description": "Blocks all ad display in Provide Lite by forcing the app's central ad gate (in libapp.so) to always take its 'skip' path. Two branch instructions are rewritten to unconditional skips: the global 'ad enabled' flag check (tbz -> b #skip) and the interstitial/rewarded cooldown gate (b.ge -> b #skip). Verified on v1.4.6 (Dart 3.7.0, arm64, obfuscated) — no ad-show invocation is reached.",
+    "id": "489ea8fc62acbd22f03a0d45:5",
+    "legacy_id": 2683,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.providelite.epicplay",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2-dev.3",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "489ea8fc62acbd22f03a0d45",
+    "compatiblePackages": {
+      "com.ensembleai.scoutai": null
+    },
+    "dependencies": [],
+    "description": "Removes the PairIP LicenseActivity from AndroidManifest.xml.",
+    "id": "489ea8fc62acbd22f03a0d45:6",
+    "legacy_id": 2684,
+    "metadata_status": "verified",
+    "name": "Remove License Activity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ensembleai.scoutai",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2-dev.3",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "489ea8fc62acbd22f03a0d45",
+    "compatiblePackages": {
+      "com.tgezginis.fricam": [
+        "1.6.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the PairIP LicenseActivity from AndroidManifest.xml so the app runs without a valid Play Store license (required because the APK is re-signed during patching).",
+    "id": "489ea8fc62acbd22f03a0d45:7",
+    "legacy_id": 2685,
+    "metadata_status": "verified",
+    "name": "Remove License Activity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tgezginis.fricam",
+        "versions": [
+          "1.6.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2-dev.3",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "489ea8fc62acbd22f03a0d45",
+    "compatiblePackages": {
+      "com.jellywatch.app": [
+        "2.0.REV-1712"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the PairIP LicenseActivity from AndroidManifest.xml.",
+    "id": "489ea8fc62acbd22f03a0d45:8",
+    "legacy_id": 2686,
+    "metadata_status": "verified",
+    "name": "Remove License Activity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.jellywatch.app",
+        "versions": [
+          "2.0.REV-1712"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2-dev.3",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "489ea8fc62acbd22f03a0d45",
+    "compatiblePackages": {
+      "com.jellywatch.tv": [
+        "1.0.REV-0570"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the PairIP LicenseActivity from AndroidManifest.xml.",
+    "id": "489ea8fc62acbd22f03a0d45:9",
+    "legacy_id": 2687,
+    "metadata_status": "verified",
+    "name": "Remove License Activity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.jellywatch.tv",
+        "versions": [
+          "1.0.REV-0570"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2-dev.3",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "489ea8fc62acbd22f03a0d45",
+    "compatiblePackages": {
+      "com.nostalgiatv": [
+        "0.10.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the PairIP LicenseActivity from AndroidManifest.xml so the licensing layer can never launch the Play Store paywall, even if a license code path is reached.",
+    "id": "489ea8fc62acbd22f03a0d45:10",
+    "legacy_id": 2688,
+    "metadata_status": "verified",
+    "name": "Remove License Activity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.nostalgiatv",
+        "versions": [
+          "0.10.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2-dev.3",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "489ea8fc62acbd22f03a0d45",
+    "compatiblePackages": {
+      "com.harwin.prismatica": null
+    },
+    "dependencies": [],
+    "description": "Removes the PairIP LicenseActivity from AndroidManifest.xml.",
+    "id": "489ea8fc62acbd22f03a0d45:11",
+    "legacy_id": 2689,
+    "metadata_status": "verified",
+    "name": "Remove License Activity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.harwin.prismatica",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2-dev.3",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "489ea8fc62acbd22f03a0d45",
+    "compatiblePackages": {
+      "com.providelite.epicplay": null
+    },
+    "dependencies": [],
+    "description": "Removes the PairIP LicenseActivity and LicenseContentProvider from AndroidManifest.xml and the com.android.vending.CHECK_LICENSE permission, so the app runs without a valid Play Store license (required because the APK is re-signed during patching).",
+    "id": "489ea8fc62acbd22f03a0d45:12",
+    "legacy_id": 2690,
+    "metadata_status": "verified",
+    "name": "Remove License Activity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.providelite.epicplay",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2-dev.3",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "489ea8fc62acbd22f03a0d45",
+    "compatiblePackages": {
+      "com.ensembleai.scoutai": null
+    },
+    "dependencies": [],
+    "description": "Bypasses the PairIP Google Play Licensing check so Atlas Photo runs without a valid Play Store license.",
+    "id": "489ea8fc62acbd22f03a0d45:13",
+    "legacy_id": 2691,
+    "metadata_status": "verified",
+    "name": "Remove License Check",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ensembleai.scoutai",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2-dev.3",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "489ea8fc62acbd22f03a0d45",
+    "compatiblePackages": {
+      "com.harwin.prismatica": null
+    },
+    "dependencies": [],
+    "description": "Bypasses the PairIP Google Play Licensing check so the app runs without a valid Play Store license.",
+    "id": "489ea8fc62acbd22f03a0d45:14",
+    "legacy_id": 2692,
+    "metadata_status": "verified",
+    "name": "Remove License Check",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.harwin.prismatica",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2-dev.3",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "489ea8fc62acbd22f03a0d45",
+    "compatiblePackages": {
+      "com.harwin.prismatica": null
+    },
+    "dependencies": [],
+    "description": "Patches the procedural GLSL shader in libharwin_native.so to disable the \"PRISMATICA\" watermark in the video player and exported videos.",
+    "id": "489ea8fc62acbd22f03a0d45:15",
+    "legacy_id": 2693,
+    "metadata_status": "verified",
+    "name": "Remove Watermark",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.harwin.prismatica",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2-dev.3",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "489ea8fc62acbd22f03a0d45",
+    "compatiblePackages": {
+      "com.tgezginis.fricam": [
+        "1.6.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks the Fricam Edge feature for free. Edge is a self-hosted companion sidecar that runs beside your Frigate NVR and streams low-latency + AI-detection frames into the app over WebRTC. Unlike Pro there is no local persistence for Edge: on every RevenueCat sync the app recomputes the \"fricam_edge\" entitlement and publishes it into an in-memory StateFlow that drives the pairing/settings/diagnostics UI. The patch forces that published flag true so the Edge UI and the self-hosted (edge-local / Frigate-direct) routes open without a subscription. Note: Fricam's managed Cloudflare relay (edge-remote, monthly allowance) is authenticated server-side and is not bypassed - run the open-source sidecar yourself to get the full value.",
+    "id": "489ea8fc62acbd22f03a0d45:16",
+    "legacy_id": 2694,
+    "metadata_status": "verified",
+    "name": "Unlock Edge",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tgezginis.fricam",
+        "versions": [
+          "1.6.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2-dev.3",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "489ea8fc62acbd22f03a0d45",
+    "compatiblePackages": {
+      "com.tgezginis.fricam": [
+        "1.6.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all Fricam Pro features for free. Fricam's Pro state terminates in a plain SharedPreferences boolean (pro_unlocked in fricam_billing) written by a single PurchaseManager writer; every UI feature gate re-reads it via the static master ProGate. Fingerprints anchor on the stable prefs keys + signatures, so they survive the R8 class/method renames between 1.3.x and 1.4.0.1. The patch forces the RevenueCat entitlement check and the master gate to always return true (layered P1+P2), hardens the persist path so no refresh can downgrade, and neutralizes the PairIP Play Store license check that gates the app on launch.",
+    "id": "489ea8fc62acbd22f03a0d45:17",
+    "legacy_id": 2695,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tgezginis.fricam",
+        "versions": [
+          "1.6.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2-dev.3",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "489ea8fc62acbd22f03a0d45",
+    "compatiblePackages": {
+      "com.jellywatch.app": [
+        "2.0.REV-1712"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all premium features and shop items in JellyWatch.",
+    "id": "489ea8fc62acbd22f03a0d45:18",
+    "legacy_id": 2696,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.jellywatch.app",
+        "versions": [
+          "2.0.REV-1712"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2-dev.3",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "489ea8fc62acbd22f03a0d45",
+    "compatiblePackages": {
+      "com.jellywatch.tv": [
+        "1.0.REV-0570"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all premium features in JellyWatch TV. Premium entitlement is server-verified against verify.jellywatch.app and surfaced to the UI as a PremiumStatus data class (isPremium = first boolean field); the patch forces that field to true and neutralizes the PairIP Play Store license check that gates the app on launch.",
+    "id": "489ea8fc62acbd22f03a0d45:19",
+    "legacy_id": 2697,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.jellywatch.tv",
+        "versions": [
+          "1.0.REV-0570"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2-dev.3",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "489ea8fc62acbd22f03a0d45",
+    "compatiblePackages": {
+      "com.bytecaretech.merokarobar": null
+    },
+    "dependencies": [],
+    "description": "Patches Dart AOT-compiled libapp.so to unlock all premium features. Forces hasPremiumAccess and isPaidUser to always return true by NOPing their ARM64 conditional branch instructions.",
+    "id": "489ea8fc62acbd22f03a0d45:20",
+    "legacy_id": 2698,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.bytecaretech.merokarobar",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2-dev.3",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "489ea8fc62acbd22f03a0d45",
+    "compatiblePackages": {
+      "com.rawcam.app": [
+        "1.4",
+        "1.4.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces the premium entitlement in Native Camera. Premium status is a local 'is_premium' SharedPreferences flag (in the 'rawcam_prefs' file) read on cold start into a StateFlow. Unlocks RAW DNG, 10-bit/HLG/UHDR video, custom boosted modes and the sub-40-Mbps bitrate cap. It also neutralizes PairIP's Play Store licensing (fired from both Application.attachBaseContext and LicenseContentProvider.onCreate, so a repacked copy no longer gets bounced to the Play Store paywall at launch).",
+    "id": "489ea8fc62acbd22f03a0d45:21",
+    "legacy_id": 2699,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rawcam.app",
+        "versions": [
+          "1.4",
+          "1.4.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2-dev.3",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "489ea8fc62acbd22f03a0d45",
+    "compatiblePackages": {
+      "com.nostalgiatv": [
+        "0.10.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks every client-side NostalgiaTV Pro feature by pinning the single pro state authority to true, and removes the PairIP Play Store license/paywall wrapper. All pro gating reads one StateFlow (ProStatusRepository.isProUser) that is written through one setter; the setter's argument is forced to true and the flow's initial seed is flipped to true, so the flag can never be revoked. That covers the 10-channel lineup cap, Docker companion link, on-demand library, custom themes, simulated commercials, channel editor, multiple profiles and player controls. PairIP's license check, response handling, paywall launch and error dialog are stubbed out so the app never redirects to the Play Store on launch.",
+    "id": "489ea8fc62acbd22f03a0d45:22",
+    "legacy_id": 2700,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.nostalgiatv",
+        "versions": [
+          "0.10.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2-dev.3",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "489ea8fc62acbd22f03a0d45",
+    "compatiblePackages": {
+      "com.providelite.epicplay": null
+    },
+    "dependencies": [],
+    "description": "Patches the Dart AOT-compiled libapp.so to unlock all premium / VIP features. Forces the VIP state to always be true by rewriting the constant-pool loads (add xN, x22, #0x30 -> add xN, x22, #0x20) inside the cacheIsVipKey readers (getter + 3 callers). Verified on v1.4.6 (Dart 3.7.0, arm64, obfuscated) — flutter.cacheIsVipKey=true on device.",
+    "id": "489ea8fc62acbd22f03a0d45:23",
+    "legacy_id": 2701,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.providelite.epicplay",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2-dev.3",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "489ea8fc62acbd22f03a0d45",
+    "compatiblePackages": {
+      "com.bolpatranepal.axios": null
+    },
+    "dependencies": [],
+    "description": "Patches the Dart AOT-compiled libapp.so of Bolpatra Nepal to skip the login screen, unlock premium/paid features, and make the 7-day free trial permanent. LoginManager::isNotValidatedUser is forced to always return false, lifting the Free-plan paywall and the trial-expiry gate: the trial expiry is computed client-side from the server plan_end_date into statics (isPaid = (plan_end_date - now).inDays <= 0) that only isNotValidatedUser reads, so with it pinned to false the free trial never expires and premium features stay unlocked forever (PPMO/EGP contact redirect, hidden works tab, document download and gallery gates). The isActive() result is left honest so the app stops attaching the invalid Authorization header, and the four login redirects (notice View, document download, gallery, subscription purchase) are bypassed at the branch level so actions run straight through without sending the user to the login page. Verified on v1.1.33 (Dart 3.9.2, arm64, non-obfuscated).",
+    "id": "489ea8fc62acbd22f03a0d45:24",
+    "legacy_id": 2702,
+    "metadata_status": "verified",
+    "name": "Unlock Premium, Skip Login & Make Free Trial Permanent",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.bolpatranepal.axios",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2-dev.3",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "489ea8fc62acbd22f03a0d45",
+    "compatiblePackages": {
+      "com.ensembleai.scoutai": null
+    },
+    "dependencies": [],
+    "description": "Forces Atlas Photo's Hermes (React Native) JS runtime to treat every session as a Pro subscriber by patching the setIsProMember reducer so its isPro field is always truthy. Unlocks all Pro features and removes the Pro paywall.",
+    "id": "489ea8fc62acbd22f03a0d45:25",
+    "legacy_id": 2703,
+    "metadata_status": "verified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ensembleai.scoutai",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2-dev.3",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "4926717fd977267f8faa6f49",
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.11.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables Bugsnag crash reporting and analytics.",
+    "id": "4926717fd977267f8faa6f49:0",
+    "legacy_id": 2704,
+    "metadata_status": "verified",
+    "name": "Disable Bugsnag Telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.11.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "65fa024a590c28c3",
+    "use": true
+  },
+  {
+    "bundle_id": "4926717fd977267f8faa6f49",
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.11.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables various analytics and tracking tasks.",
+    "id": "4926717fd977267f8faa6f49:1",
+    "legacy_id": 2705,
+    "metadata_status": "verified",
+    "name": "Disable General Telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.11.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "65fa024a590c28c3",
+    "use": true
+  },
+  {
+    "bundle_id": "4926717fd977267f8faa6f49",
+    "compatiblePackages": {
+      "com.truecaller": [
+        "26.12.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables AppStartTracker and other telemetry points.",
+    "id": "4926717fd977267f8faa6f49:2",
+    "legacy_id": 2706,
+    "metadata_status": "verified",
+    "name": "Disable Telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.truecaller",
+        "versions": [
+          "26.12.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "65fa024a590c28c3",
+    "use": true
+  },
+  {
+    "bundle_id": "4926717fd977267f8faa6f49",
+    "compatiblePackages": {
+      "com.flyersoft.moonreader": [
+        "10.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the app title to 'Moon+ Reader Pro' and removes the 'Remove Ads' button from the drawer.",
+    "id": "4926717fd977267f8faa6f49:3",
+    "legacy_id": 2707,
+    "metadata_status": "verified",
+    "name": "Make UI look like Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.flyersoft.moonreader",
+        "versions": [
+          "10.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "65fa024a590c28c3",
+    "use": true
+  },
+  {
+    "bundle_id": "4926717fd977267f8faa6f49",
+    "compatiblePackages": {
+      "com.quickcursor": null
+    },
+    "dependencies": [],
+    "description": "Unlock all PRO features",
+    "id": "4926717fd977267f8faa6f49:4",
+    "legacy_id": 2708,
+    "metadata_status": "verified",
+    "name": "Quick Cursor PRO",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.quickcursor",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "65fa024a590c28c3",
+    "use": true
+  },
+  {
+    "bundle_id": "4926717fd977267f8faa6f49",
+    "compatiblePackages": {
+      "com.truecaller": [
+        "26.12.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables all ad feature toggles globally.",
+    "id": "4926717fd977267f8faa6f49:5",
+    "legacy_id": 2709,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.truecaller",
+        "versions": [
+          "26.12.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "65fa024a590c28c3",
+    "use": true
+  },
+  {
+    "bundle_id": "4926717fd977267f8faa6f49",
+    "compatiblePackages": {
+      "com.pinterest": [
+        "14.11.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables ad detection logic globally. Safe for Home feed.",
+    "id": "4926717fd977267f8faa6f49:6",
+    "legacy_id": 2710,
+    "metadata_status": "verified",
+    "name": "Remove Promoted Pins",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pinterest",
+        "versions": [
+          "14.11.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "65fa024a590c28c3",
+    "use": true
+  },
+  {
+    "bundle_id": "4926717fd977267f8faa6f49",
+    "compatiblePackages": {
+      "org.withouthat.acalendar": null
+    },
+    "dependencies": [],
+    "description": "Unlocks all aCalendar+ features.",
+    "id": "4926717fd977267f8faa6f49:7",
+    "legacy_id": 2711,
+    "metadata_status": "verified",
+    "name": "Unlock aCalendar+",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.withouthat.acalendar",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "65fa024a590c28c3",
+    "use": true
+  },
+  {
+    "bundle_id": "4926717fd977267f8faa6f49",
+    "compatiblePackages": {
+      "com.burton999.notecal": [
+        "2.25.107"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all Pro features and removes ads.",
+    "id": "4926717fd977267f8faa6f49:8",
+    "legacy_id": 2712,
+    "metadata_status": "verified",
+    "name": "Unlock CalcNote Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.burton999.notecal",
+        "versions": [
+          "2.25.107"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "65fa024a590c28c3",
+    "use": true
+  },
+  {
+    "bundle_id": "4926717fd977267f8faa6f49",
+    "compatiblePackages": {
+      "com.flyersoft.moonreader": [
+        "10.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks Pro features including PDF support, ad-free experience, and more.",
+    "id": "4926717fd977267f8faa6f49:9",
+    "legacy_id": 2713,
+    "metadata_status": "verified",
+    "name": "Unlock Moon+ Reader Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.flyersoft.moonreader",
+        "versions": [
+          "10.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "65fa024a590c28c3",
+    "use": true
+  },
+  {
+    "bundle_id": "4926717fd977267f8faa6f49",
+    "compatiblePackages": {
+      "app.symfonik.music.player": [
+        "14.0.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks the trial version of Symfonium.",
+    "id": "4926717fd977267f8faa6f49:10",
+    "legacy_id": 2714,
+    "metadata_status": "verified",
+    "name": "Unlock Symfonium",
+    "options": [],
+    "packages": [
+      {
+        "name": "app.symfonik.music.player",
+        "versions": [
+          "14.0.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "65fa024a590c28c3",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "net.nutrilio": [
+        "1.20.2"
+      ]
+    },
+    "dependencies": [
+      "Food search bar layout"
+    ],
+    "description": "Adds a live search box below each meal-time header in the day/meal form. Typing filters that meal's food chips as you type; filtering only hides chips, so items you have already added stay added. The hardest patch to keep working — it hooks the obfuscated form adapter and will likely need re-fingerprinting after Nutrilio updates.",
+    "id": "496babb7c2916aae6ea11125:0",
+    "legacy_id": 2715,
+    "metadata_status": "verified",
+    "name": "Add food search bar",
+    "options": [],
+    "packages": [
+      {
+        "name": "net.nutrilio",
+        "versions": [
+          "1.20.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": false
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.sonyliv": [
+        "6.23.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Automatically skips the intro, recap and song segments as soon as the 'Skip' button would appear, without waiting for a tap.",
+    "id": "496babb7c2916aae6ea11125:1",
+    "legacy_id": 2716,
+    "metadata_status": "verified",
+    "name": "Auto skip intro and recap",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.sonyliv",
+        "versions": [
+          "6.23.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.graymatrix.did": [
+        "5.83.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Automatically skips the intro and recap of a show instead of waiting for you to press the Skip button. When the player reaches an intro (SKIP_INTRO_MARKER=1) or recap (SKIP_RECAP_MARKER=2) marker, it does exactly what tapping the Skip button does — sets seek-exact and seeks straight to that marker's end. Seek-exact is required: without it the seek snaps to a keyframe before the intro end, which lands back inside the marker window and loops. It only acts on intro/recap markers, never on next-episode or ad markers. Disable this if a title's markers are wrong and it skips too far.",
+    "id": "496babb7c2916aae6ea11125:2",
+    "legacy_id": 2717,
+    "metadata_status": "verified",
+    "name": "Auto-skip intro and recap",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.graymatrix.did",
+        "versions": [
+          "5.83.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.sonyliv": [
+        "6.23.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Plays the next episode immediately when the \"Up Next\" card appears, skipping the auto-play countdown.",
+    "id": "496babb7c2916aae6ea11125:3",
+    "legacy_id": 2718,
+    "metadata_status": "verified",
+    "name": "Auto-skip Up Next",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.sonyliv",
+        "versions": [
+          "6.23.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.kakarod.bighunter": [
+        "3.1.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops the PairIP (Google Play) license check from redirecting a re-signed build to the Play Store (\"get this game from Play\") and killing the app. Forces LicenseClient.initializeLicenseCheck() to a no-op (no Play bind, no paywall) and neuters startPaywallActivity()/startErrorDialogActivity() as defense. Nothing outside com.pairip.* reads the license state, so gameplay is unaffected. Required for the re-signed offline build to launch at all.",
+    "id": "496babb7c2916aae6ea11125:4",
+    "legacy_id": 2719,
+    "metadata_status": "verified",
+    "name": "Bypass license check",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakarod.bighunter",
+        "versions": [
+          "3.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.crazygames.crazygamesapp": [
+        "1.6.7"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops Google Play's Automatic Integrity Protection (PairIP) license check that, on a re-signed/sideloaded build, redirects the app to the Play Store (\"get it on Google Play\"). Neuters both entry points of com.pairip.licensecheck.LicenseClient (checkLicense / initializeLicenseCheck) so the check never runs. Required for the patched app to open at all.",
+    "id": "496babb7c2916aae6ea11125:5",
+    "legacy_id": 2720,
+    "metadata_status": "verified",
+    "name": "Bypass Play license check",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.crazygames.crazygamesapp",
+        "versions": [
+          "1.6.7"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "in.startv.hotstar": [
+        "26.06.22.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops the \"Something is interfering with your secure connection\" (NET_201) screen that JioHotstar shows when it detects a VPN/proxy. The app self-enforces a proxy verdict the server sends via the X-Hs-SetProxyState response header: the client stores it and, when it is BLOCKED/RESTRICTED, shows the security error. This neuters the handler that stores that verdict, so the client keeps reporting a clean (unblocked) proxy state and never blocks itself. It also neuters the store's periodic proxy-state refresh coroutines, which would otherwise re-fetch endlessly (the verdict is never stored, so the TTL check always sees it expired) and make the app feel laggy/retrying. Note: if JioHotstar also refuses playback server-side based on the connection IP, video may still fail even though the error screen is gone.",
+    "id": "496babb7c2916aae6ea11125:6",
+    "legacy_id": 2721,
+    "metadata_status": "verified",
+    "name": "Bypass proxy/VPN security block",
+    "options": [],
+    "packages": [
+      {
+        "name": "in.startv.hotstar",
+        "versions": [
+          "26.06.22.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.easybrain.arrow.puzzle.game": [
+        "1.7.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the app name shown under the launcher icon. Set the desired name in the patch options.",
+    "id": "496babb7c2916aae6ea11125:7",
+    "legacy_id": 2722,
+    "metadata_status": "verified",
+    "name": "Change app name",
+    "options": [
+      {
+        "default": "Arrow Puzzle Morphe",
+        "description": "The name shown under the app icon.",
+        "key": "appName",
+        "required": true,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.easybrain.arrow.puzzle.game",
+        "versions": [
+          "1.7.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.crazygames.crazygamesapp": [
+        "1.6.7"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the app name shown under the launcher icon. Set the desired name in the patch options.",
+    "id": "496babb7c2916aae6ea11125:8",
+    "legacy_id": 2723,
+    "metadata_status": "verified",
+    "name": "Change app name",
+    "options": [
+      {
+        "default": "CrazyGames Morphe",
+        "description": "The name shown under the app icon.",
+        "key": "appName",
+        "required": true,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.crazygames.crazygamesapp",
+        "versions": [
+          "1.6.7"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "in.startv.hotstar": [
+        "26.06.22.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the app name shown under the launcher icon. Set the desired name in the patch options.",
+    "id": "496babb7c2916aae6ea11125:9",
+    "legacy_id": 2724,
+    "metadata_status": "verified",
+    "name": "Change app name",
+    "options": [
+      {
+        "default": "JioHotstar Morphe",
+        "description": "The name shown under the app icon.",
+        "key": "appName",
+        "required": true,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "in.startv.hotstar",
+        "versions": [
+          "26.06.22.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.jio.media.jiotvplus": [
+        "2.6.4_2076"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the app name shown under the launcher icon. Set the desired name in the patch options.",
+    "id": "496babb7c2916aae6ea11125:10",
+    "legacy_id": 2725,
+    "metadata_status": "verified",
+    "name": "Change app name",
+    "options": [
+      {
+        "default": "JioTV+ Morphe",
+        "description": "The name shown under the app icon.",
+        "key": "appName",
+        "required": true,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.jio.media.jiotvplus",
+        "versions": [
+          "2.6.4_2076"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "net.nutrilio": [
+        "1.20.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the app name shown under the launcher icon. Set the desired name in the patch options.",
+    "id": "496babb7c2916aae6ea11125:11",
+    "legacy_id": 2726,
+    "metadata_status": "verified",
+    "name": "Change app name",
+    "options": [
+      {
+        "default": "Nutrilio Morphe",
+        "description": "The name shown under the app icon.",
+        "key": "appName",
+        "required": true,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "net.nutrilio",
+        "versions": [
+          "1.20.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.sonyliv": [
+        "6.23.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the app name shown under the launcher icon. Set the desired name in the patch options.",
+    "id": "496babb7c2916aae6ea11125:12",
+    "legacy_id": 2727,
+    "metadata_status": "verified",
+    "name": "Change app name",
+    "options": [
+      {
+        "default": "Sony LIV",
+        "description": "The name shown under the app icon.",
+        "key": "appName",
+        "required": true,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.sonyliv",
+        "versions": [
+          "6.23.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": false
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.instagram.barcelona": [
+        "434.0.0.41.74"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the app name shown under the launcher icon. Set the desired name in the patch options.",
+    "id": "496babb7c2916aae6ea11125:13",
+    "legacy_id": 2728,
+    "metadata_status": "verified",
+    "name": "Change app name",
+    "options": [
+      {
+        "default": "Threads Morphe",
+        "description": "The name shown under the app icon.",
+        "key": "appName",
+        "required": true,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.instagram.barcelona",
+        "versions": [
+          "434.0.0.41.74"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.vimtv": [
+        "10.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the app name shown under the launcher icon. Set the desired name in the patch options.",
+    "id": "496babb7c2916aae6ea11125:14",
+    "legacy_id": 2729,
+    "metadata_status": "verified",
+    "name": "Change app name",
+    "options": [
+      {
+        "default": "Vi Movies and TV Morphe",
+        "description": "The name shown under the app icon.",
+        "key": "appName",
+        "required": true,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.vimtv",
+        "versions": [
+          "10.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.graymatrix.did": [
+        "5.83.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the app name shown under the launcher icon. Set the desired name in the patch options.",
+    "id": "496babb7c2916aae6ea11125:15",
+    "legacy_id": 2730,
+    "metadata_status": "verified",
+    "name": "Change app name",
+    "options": [
+      {
+        "default": "ZEE5 Morphe",
+        "description": "The name shown under the app icon.",
+        "key": "appName",
+        "required": true,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.graymatrix.did",
+        "versions": [
+          "5.83.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.easybrain.arrow.puzzle.game": [
+        "1.7.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the app package name so the patched app installs alongside the original. Set the desired package name in the patch options. WARNING: this game ships native integrity/signing libraries; a renamed + re-signed package may trip a native tamper check. Disable this patch if the app crashes or closes on launch.",
+    "id": "496babb7c2916aae6ea11125:16",
+    "legacy_id": 2731,
+    "metadata_status": "verified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "com.easybrain.arrow.puzzle.game.morphe",
+        "description": "The new application package name (e.g. com.easybrain.arrow.puzzle.game.morphe).",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.easybrain.arrow.puzzle.game",
+        "versions": [
+          "1.7.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "net.nutrilio": [
+        "1.20.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the app package name so the patched app installs alongside the original. Set the desired package name in the patch options. Changing the package name can cause unexpected issues with some app features.",
+    "id": "496babb7c2916aae6ea11125:17",
+    "legacy_id": 2732,
+    "metadata_status": "verified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "net.nutrilio.morphe",
+        "description": "The new application package name (e.g. net.nutrilio.morphe).",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "net.nutrilio",
+        "versions": [
+          "1.20.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.sonyliv": [
+        "6.23.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the app package name so the patched app installs alongside the original. Set the desired package name in the patch options. Changing the package name can cause unexpected issues with some app features.",
+    "id": "496babb7c2916aae6ea11125:18",
+    "legacy_id": 2733,
+    "metadata_status": "verified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "com.sonyliv.chiggi",
+        "description": "The new application package name (e.g. com.sonyliv.chiggi).",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.sonyliv",
+        "versions": [
+          "6.23.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": false
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.instagram.barcelona": [
+        "434.0.0.41.74"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the app package name so the patched app installs alongside the original Threads. Set the desired package name in the patch options. WARNING: Meta apps hardcode many component/provider references — renaming the package can break Facebook login (SSO), content providers, or push. Disable this patch if you hit such issues.",
+    "id": "496babb7c2916aae6ea11125:19",
+    "legacy_id": 2734,
+    "metadata_status": "verified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "com.instagram.barcelona.morphe",
+        "description": "The new application package name (e.g. com.instagram.barcelona.morphe).",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.instagram.barcelona",
+        "versions": [
+          "434.0.0.41.74"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.easybrain.arrow.puzzle.game": [
+        "1.7.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops Easybrain analytics event upload (Unity AnalyticsPlugin send + the central AnalyticsController collector). SDK init is left intact so ad removal stays stable. Does not disable deep GMS/Firebase auto-collection; pair with Remove AD_ID for advertising-id.",
+    "id": "496babb7c2916aae6ea11125:20",
+    "legacy_id": 2735,
+    "metadata_status": "verified",
+    "name": "Disable analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.easybrain.arrow.puzzle.game",
+        "versions": [
+          "1.7.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.crazygames.crazygamesapp": [
+        "1.6.7"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops native Sentry crash/telemetry upload by neutering the Capacitor Sentry plugin's native init (io.sentry.capacitor.SentryCapacitor.initNativeSdk), so it resolves without starting the native Sentry SDK. Firebase auth, ConfigCat and push are unaffected.",
+    "id": "496babb7c2916aae6ea11125:21",
+    "legacy_id": 2736,
+    "metadata_status": "verified",
+    "name": "Disable analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.crazygames.crazygamesapp",
+        "versions": [
+          "1.6.7"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "in.startv.hotstar": [
+        "26.06.22.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables Firebase/Google Analytics, Crashlytics and Performance data collection via manifest flags. CleverTap is left intact (it drives in-app UI and disabling it would crash the app). Push notifications are unaffected.",
+    "id": "496babb7c2916aae6ea11125:22",
+    "legacy_id": 2737,
+    "metadata_status": "verified",
+    "name": "Disable analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "in.startv.hotstar",
+        "versions": [
+          "26.06.22.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.jio.media.jiotvplus": [
+        "2.6.4_2076"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables Firebase/Google Analytics, Crashlytics and Performance data collection via manifest flags. CleverTap is left intact (it drives in-app UI and disabling it would crash the app). Push notifications are unaffected.",
+    "id": "496babb7c2916aae6ea11125:23",
+    "legacy_id": 2738,
+    "metadata_status": "verified",
+    "name": "Disable analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.jio.media.jiotvplus",
+        "versions": [
+          "2.6.4_2076"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "net.nutrilio": [
+        "1.20.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables Firebase/Google Analytics, Crashlytics and Performance data collection via manifest flags and removes the advertising-id (AD_ID) permissions. Push notifications are unaffected.",
+    "id": "496babb7c2916aae6ea11125:24",
+    "legacy_id": 2739,
+    "metadata_status": "verified",
+    "name": "Disable analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "net.nutrilio",
+        "versions": [
+          "1.20.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.vimtv": [
+        "10.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables Firebase/Google Analytics, Crashlytics and Performance data collection via manifest flags. CleverTap is left intact (it drives in-app UI and disabling it would crash the app). Push notifications are unaffected.",
+    "id": "496babb7c2916aae6ea11125:25",
+    "legacy_id": 2740,
+    "metadata_status": "verified",
+    "name": "Disable analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.vimtv",
+        "versions": [
+          "10.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.sonyliv": [
+        "6.23.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables AppsFlyer attribution and event tracking. Other SDKs (CleverTap, Firebase Analytics/Crashlytics) are not affected by this patch.",
+    "id": "496babb7c2916aae6ea11125:26",
+    "legacy_id": 2741,
+    "metadata_status": "verified",
+    "name": "Disable AppsFlyer tracking",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.sonyliv",
+        "versions": [
+          "6.23.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.sonyliv": [
+        "6.23.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables Firebase Analytics, Crashlytics and Performance data collection via manifest flags. Push notifications are unaffected.",
+    "id": "496babb7c2916aae6ea11125:27",
+    "legacy_id": 2742,
+    "metadata_status": "verified",
+    "name": "Disable Firebase tracking",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.sonyliv",
+        "versions": [
+          "6.23.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.sonyliv": [
+        "6.23.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the forced ('immediate') and optional ('flexi') 'update available' popup shown on the home screen.",
+    "id": "496babb7c2916aae6ea11125:28",
+    "legacy_id": 2743,
+    "metadata_status": "verified",
+    "name": "Disable forced update",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.sonyliv",
+        "versions": [
+          "6.23.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.vimtv": [
+        "10.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the 'update available' popup (both the forced/non-cancelable and the optional variant) shown on splash/home. The pinned 10.8 re-signed build would otherwise be nagged — or hard-blocked — to update whenever the server reports a newer version. The popup is gated on ClientInfo.getVersionNumber(); forcing it to \"0\" makes the version check in SplashActivity and MainActivity conclude no update is needed.",
+    "id": "496babb7c2916aae6ea11125:29",
+    "legacy_id": 2744,
+    "metadata_status": "verified",
+    "name": "Disable forced update",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.vimtv",
+        "versions": [
+          "10.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.graymatrix.did": [
+        "5.83.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops ZEE5 from forcing an app update. BlockerScreenInfo.isBlocked() gates the block/upgrade wall; forcing it false lets the current version keep running. This is the only hard client block screen in the app (there is no geo/VPN/tamper block).",
+    "id": "496babb7c2916aae6ea11125:30",
+    "legacy_id": 2745,
+    "metadata_status": "verified",
+    "name": "Disable forced upgrade",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.graymatrix.did",
+        "versions": [
+          "5.83.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.graymatrix.did": [
+        "5.83.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Suppresses the ZEE5 app-rating prompt and the subscription 'Buy Plan' upsell popup on the home screen by forcing HomeActivityViewModel.canLaunchAppRating() and toShowBuyPlanPopup() to false. Both are plain boolean gates, so this only stops the dialogs from being shown; nothing else changes.",
+    "id": "496babb7c2916aae6ea11125:31",
+    "legacy_id": 2746,
+    "metadata_status": "verified",
+    "name": "Disable nuisance popups",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.graymatrix.did",
+        "versions": [
+          "5.83.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "in.startv.hotstar": [
+        "26.06.22.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces all video codecs (H265/VP9/AV1) and 4K support on by bypassing the capability/blacklist checks. Off by default: forcing a codec/resolution a TV cannot actually decode can break playback. Approach adapted from Paresh-Maheshwari's patches (GPL-3.0).",
+    "id": "496babb7c2916aae6ea11125:32",
+    "legacy_id": 2747,
+    "metadata_status": "verified",
+    "name": "Enable all codecs",
+    "options": [],
+    "packages": [
+      {
+        "name": "in.startv.hotstar",
+        "versions": [
+          "26.06.22.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "in.startv.hotstar": [
+        "26.06.22.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Allows playback to continue while screen mirroring or an external HDMI display is connected, instead of showing the multiple-display block. Approach adapted from Paresh-Maheshwari's patches (GPL-3.0).",
+    "id": "496babb7c2916aae6ea11125:33",
+    "legacy_id": 2748,
+    "metadata_status": "verified",
+    "name": "Enable screen mirroring",
+    "options": [],
+    "packages": [
+      {
+        "name": "in.startv.hotstar",
+        "versions": [
+          "26.06.22.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "in.startv.hotstar": [
+        "26.06.22.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes screenshot and screen-recording restrictions on the app UI (the DRM video itself stays protected by Widevine). Approach adapted from Paresh-Maheshwari's patches (GPL-3.0).",
+    "id": "496babb7c2916aae6ea11125:34",
+    "legacy_id": 2749,
+    "metadata_status": "verified",
+    "name": "Enable screenshots",
+    "options": [],
+    "packages": [
+      {
+        "name": "in.startv.hotstar",
+        "versions": [
+          "26.06.22.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.graymatrix.did": [
+        "5.83.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Lowers the ExoPlayer start buffer (bufferForPlayback) to 1500ms by forcing DefaultPlayerConfig.defaultBuffersForPlaybackMs() to return 1500 instead of the server value (~2500ms). Playback starts after less initial buffering, so the first frame appears sooner. The player still fills the full min/max buffer in the background; only the start threshold drops. On a weak network or slow CPU this slightly raises the chance of an early re-buffer. Does not affect the DRM-license/manifest part of startup.",
+    "id": "496babb7c2916aae6ea11125:35",
+    "legacy_id": 2750,
+    "metadata_status": "verified",
+    "name": "Faster video start",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.graymatrix.did",
+        "versions": [
+          "5.83.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "net.nutrilio": [
+        "1.20.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds the search box view below each meal-time header in the day/meal form. Enabled automatically by \"Add food search bar\".",
+    "id": "496babb7c2916aae6ea11125:36",
+    "legacy_id": 2751,
+    "metadata_status": "verified",
+    "name": "Food search bar layout",
+    "options": [],
+    "packages": [
+      {
+        "name": "net.nutrilio",
+        "versions": [
+          "1.20.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": false
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "in.startv.hotstar": [
+        "26.06.22.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces HDR10 / HDR10+ / Dolby Vision playback by bypassing the capability/blacklist check. Off by default: forcing HDR on a panel that cannot render it can wash out or break playback. Approach adapted from Paresh-Maheshwari's patches (GPL-3.0).",
+    "id": "496babb7c2916aae6ea11125:37",
+    "legacy_id": 2752,
+    "metadata_status": "verified",
+    "name": "Force HDR10",
+    "options": [],
+    "packages": [
+      {
+        "name": "in.startv.hotstar",
+        "versions": [
+          "26.06.22.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.kakarod.bighunter": [
+        "3.1.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Makes every in-app purchase free and unlimited. KKJPaymentGoogle.startPurchase(key) normally opens the Google Play billing flow; this redirects it straight to the native grant applyProduct(key), skipping payment. There is no client receipt check (verifyDeveloperPayload returns true) and no server validation, so the product is granted for real — consumables (coins) can be re-bought unlimitedly. NOTE: no money changes hands and nothing is sent to Google; this only works because the grant is client-side.",
+    "id": "496babb7c2916aae6ea11125:38",
+    "legacy_id": 2753,
+    "metadata_status": "verified",
+    "name": "Free in-app purchases",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakarod.bighunter",
+        "versions": [
+          "3.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.instagram.barcelona": [
+        "434.0.0.41.74"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides sponsored posts and injected \"suggested\" netego units from the Threads feed. Marks every media as organic (Media.DED) and blocks the feed ad-injection scheduler (BarcelonaSpoolFeedCacheHandler). Client-side only.",
+    "id": "496babb7c2916aae6ea11125:39",
+    "legacy_id": 2754,
+    "metadata_status": "verified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.barcelona",
+        "versions": [
+          "434.0.0.41.74"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.sonyliv": [
+        "6.23.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the CleverTap-driven subscribe/premium promo banners and promo trays on the home screen. Content rows and CleverTap pop-ups/overlays are not affected.",
+    "id": "496babb7c2916aae6ea11125:40",
+    "legacy_id": 2755,
+    "metadata_status": "verified",
+    "name": "Hide promo banners",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.sonyliv",
+        "versions": [
+          "6.23.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "net.nutrilio": [
+        "1.20.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a native \"Local backup & restore\" row to the Backup screen (above Restore Backup) that opens Nutrilio's built-in (but normally hidden) local file backup/restore. There you can export a complete backup — all entries, images and settings — to a portable .nutrilio file (a ZIP) via the share sheet, and restore one from a file you pick. No Google account, no premium needed. (Google Drive auto-backup is separate and still requires sign-in, which does not work on a re-signed app.)",
+    "id": "496babb7c2916aae6ea11125:41",
+    "legacy_id": 2756,
+    "metadata_status": "verified",
+    "name": "Local backup & restore",
+    "options": [],
+    "packages": [
+      {
+        "name": "net.nutrilio",
+        "versions": [
+          "1.20.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "in.startv.hotstar": [
+        "26.06.22.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "For PHONE builds only: makes a phone APK installable on Android TV / Google TV by marking touchscreen, portrait-screen and other phone-only features optional (they are why the TV installer reports \"not compatible with your TV\"), declaring the leanback feature optional, and adding the leanback launcher category. Off by default because the JioHotstar TV build (.apkm) is already a native leanback D-pad app and does not need it. Note: a phone build patched this way still shows a portrait touch UI — a mouse or air-remote may be needed since it expects touch, not a D-pad.",
+    "id": "496babb7c2916aae6ea11125:42",
+    "legacy_id": 2757,
+    "metadata_status": "verified",
+    "name": "Make installable on TV",
+    "options": [],
+    "packages": [
+      {
+        "name": "in.startv.hotstar",
+        "versions": [
+          "26.06.22.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": false
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.graymatrix.did": [
+        "5.83.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Makes the ZEE5 APK install on Android TV / Chromecast with Google TV. The build marks android.software.live_tv as required, but streamer devices without a TV tuner do not have that feature, so the installer reports \"not compatible with your TV\". This marks live_tv and leanback optional so it installs everywhere; the leanback launcher entry is kept, so it still appears on the TV home screen.",
+    "id": "496babb7c2916aae6ea11125:43",
+    "legacy_id": 2758,
+    "metadata_status": "verified",
+    "name": "Make installable on TV",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.graymatrix.did",
+        "versions": [
+          "5.83.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "in.startv.hotstar": [
+        "26.06.22.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks premium UI state: shows the subscribed badge, enables the download button for all content and suppresses subscription nudges during playback. This is a UI unlock only — it does not grant access to DRM content you are not entitled to. Approach adapted from Paresh-Maheshwari's patches (GPL-3.0).",
+    "id": "496babb7c2916aae6ea11125:44",
+    "legacy_id": 2759,
+    "metadata_status": "verified",
+    "name": "Premium unlock",
+    "options": [],
+    "packages": [
+      {
+        "name": "in.startv.hotstar",
+        "versions": [
+          "26.06.22.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.vimtv": [
+        "10.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces the client 'subscribed' flags true so premium UI state shows unlocked. OFF by default: Vi Movies and TV enforces entitlement server-side with Widevine DRM, so this does NOT grant content you are not entitled to — it only changes UI, and content that appears playable may still be refused by the server. Cosmetic UI change only.",
+    "id": "496babb7c2916aae6ea11125:45",
+    "legacy_id": 2760,
+    "metadata_status": "verified",
+    "name": "Premium unlock (UI)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.vimtv",
+        "versions": [
+          "10.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.easybrain.arrow.puzzle.game": [
+        "1.7.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the advertising-id and Ad Services (Privacy Sandbox) permissions so the device advertising id, Topics and Attribution signals cannot be read for ad tracking.",
+    "id": "496babb7c2916aae6ea11125:46",
+    "legacy_id": 2761,
+    "metadata_status": "verified",
+    "name": "Remove AD_ID permission",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.easybrain.arrow.puzzle.game",
+        "versions": [
+          "1.7.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.crazygames.crazygamesapp": [
+        "1.6.7"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the advertising-id and Ad Services (Privacy Sandbox) permissions so the device advertising id, Topics, Attribution and Custom Audience signals cannot be read for ad tracking.",
+    "id": "496babb7c2916aae6ea11125:47",
+    "legacy_id": 2762,
+    "metadata_status": "verified",
+    "name": "Remove AD_ID permission",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.crazygames.crazygamesapp",
+        "versions": [
+          "1.6.7"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "in.startv.hotstar": [
+        "26.06.22.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the advertising-id and Ad Services (Privacy Sandbox) permissions so the device advertising id, Attribution and Topics signals cannot be read for ad tracking.",
+    "id": "496babb7c2916aae6ea11125:48",
+    "legacy_id": 2763,
+    "metadata_status": "verified",
+    "name": "Remove AD_ID permission",
+    "options": [],
+    "packages": [
+      {
+        "name": "in.startv.hotstar",
+        "versions": [
+          "26.06.22.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.jio.media.jiotvplus": [
+        "2.6.4_2076"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the advertising-id and Ad Services (Privacy Sandbox) permissions so the device advertising id, Attribution and Topics signals cannot be read for ad tracking.",
+    "id": "496babb7c2916aae6ea11125:49",
+    "legacy_id": 2764,
+    "metadata_status": "verified",
+    "name": "Remove AD_ID permission",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.jio.media.jiotvplus",
+        "versions": [
+          "2.6.4_2076"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.instagram.barcelona": [
+        "434.0.0.41.74"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the advertising-id (AD_ID) permissions so the device advertising id cannot be read for ad tracking. Does not disable Meta's core analytics.",
+    "id": "496babb7c2916aae6ea11125:50",
+    "legacy_id": 2765,
+    "metadata_status": "verified",
+    "name": "Remove AD_ID permission",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.barcelona",
+        "versions": [
+          "434.0.0.41.74"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.vimtv": [
+        "10.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the advertising-id and Ad Services (Privacy Sandbox) permissions so the device advertising id, Attribution and Topics signals cannot be read for ad tracking.",
+    "id": "496babb7c2916aae6ea11125:51",
+    "legacy_id": 2766,
+    "metadata_status": "verified",
+    "name": "Remove AD_ID permission",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.vimtv",
+        "versions": [
+          "10.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.easybrain.arrow.puzzle.game": [
+        "1.7.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes ALL ads (banner, interstitial and rewarded) by neutering the Unity<->Android ad facade (com.easybrain.ads.unity.AdsPlugin): availability/show booleans return false, banner shows are no-ops and banner height is 0. The game treats every ad type as never ready. Note: rewarded ads are also removed, so watch-to-earn rewards no longer work.",
+    "id": "496babb7c2916aae6ea11125:52",
+    "legacy_id": 2767,
+    "metadata_status": "verified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.easybrain.arrow.puzzle.game",
+        "versions": [
+          "1.7.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.kakarod.bighunter": [
+        "3.1.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Suppresses AppLovin MAX / AdMob / Unity ads. Interstitial show() becomes a no-op (only releases the native processing lock via stopProcess). Rewarded showWithReward() skips the ad but still fires the native rewardCallback() so reward-gated features (revive, bonus coins, etc.) keep working, then releases the lock. getIsReadyReward() is forced true so the reward button stays available without a preloaded ad. Unity's reward is not wired to a Java callback, so its showWithReward only skips the ad.",
+    "id": "496babb7c2916aae6ea11125:53",
+    "legacy_id": 2768,
+    "metadata_status": "verified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.kakarod.bighunter",
+        "versions": [
+          "3.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.crazygames.crazygamesapp": [
+        "1.6.7"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes native ads (AdMob and its Pangle/Audience Network mediation) by neutering the Capacitor AdMob plugin (com.getcapacitor.community.admob.AdMob): no video is shown for interstitial or rewarded ads — instead the show methods fire the ad's lifecycle events so the game's loading overlay dismisses and rewarded ads still credit their reward; banners never display. Note: in-page web video ads served remotely inside the WebView (from crazygames.com) are not part of the app bytecode and cannot be removed here.",
+    "id": "496babb7c2916aae6ea11125:54",
+    "legacy_id": 2769,
+    "metadata_status": "verified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.crazygames.crazygamesapp",
+        "versions": [
+          "1.6.7"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "in.startv.hotstar": [
+        "26.06.22.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes pre-roll, mid-roll and live-match video ads by clearing the SSAI ad tag in the AdMetadata constructor, so the client requests a clean, non-ad-stitched stream at the source. This surgical approach lets the app's own ad machinery see \"no ads\" and behave normally (no retry loops, no empty ad slots). Approach adapted from Paresh-Maheshwari's patches (GPL-3.0).",
+    "id": "496babb7c2916aae6ea11125:55",
+    "legacy_id": 2770,
+    "metadata_status": "verified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "in.startv.hotstar",
+        "versions": [
+          "26.06.22.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.jio.media.jiotvplus": [
+        "2.6.4_2076"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes JioTV+ ads. Display/banner ads are neutered at the JioAds SDK entry (JioAdView.loadAd / cacheAd), and player video ads (pre-roll, mid-roll, post-roll and SSAI stitched ads) are removed by no-oping VMAPAdsHelper.fetchAds — the single method that fetches and sets up all player ads from the playback-rights model.",
+    "id": "496babb7c2916aae6ea11125:56",
+    "legacy_id": 2771,
+    "metadata_status": "verified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.jio.media.jiotvplus",
+        "versions": [
+          "2.6.4_2076"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.vimtv": [
+        "10.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes pre-roll, mid-roll and SSAI video ads. The player builds its IMA/SSAI ad-tag URL from AdUrlResponse.getAdUrlTypes(); forcing that to null (and the TorcAiAdConfig.isAdEnabled() gate to false) means no ad tag is ever loaded, so no ad plays.",
+    "id": "496babb7c2916aae6ea11125:57",
+    "legacy_id": 2772,
+    "metadata_status": "verified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.vimtv",
+        "versions": [
+          "10.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.graymatrix.did": [
+        "5.83.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes ZEE5 non-video display ads: the home-screen native masthead banner (HomeActivityViewModel.getNeedToShowNativeMastheadAd() forced false, so it never loads) and the on-pause display overlay (FetchPlaybackUrlUseCase.toPauseAds() forced null). No extra ad requests are made, so this makes the UI lighter rather than laggier.",
+    "id": "496babb7c2916aae6ea11125:58",
+    "legacy_id": 2773,
+    "metadata_status": "verified",
+    "name": "Remove display ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.graymatrix.did",
+        "versions": [
+          "5.83.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.graymatrix.did": [
+        "5.83.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the ZEE5/channel logo overlaid on the video player. The logo is shown via WaterMarkViewModel's _logoVisibility LiveData; forcing updateLogoVisibility(...) to always post false keeps the logo hidden. Client render only — this does not affect any logo baked into a partner's video stream.",
+    "id": "496babb7c2916aae6ea11125:59",
+    "legacy_id": 2774,
+    "metadata_status": "verified",
+    "name": "Remove player logo",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.graymatrix.did",
+        "versions": [
+          "5.83.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.vimtv": [
+        "10.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the per-content watermark/logo overlaid on the video (the one that changes depending on what you play). The player only shows the watermark ImageView when Configs.getWaterMarkInfoOnPlayer() returns non-empty JSON; forcing that getter to null makes the player's own guard hide the overlay. Client render only, so this is fully removable (it is not baked into the stream).",
+    "id": "496babb7c2916aae6ea11125:60",
+    "legacy_id": 2775,
+    "metadata_status": "verified",
+    "name": "Remove player watermark",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.vimtv",
+        "versions": [
+          "10.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.sonyliv": [
+        "6.23.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces PlayerUtil.isAdEnable() to false so the player neither requests nor plays ads. Removes client-side (Google IMA) ads. Server-side stitched ads on some live content (MediaTailor/SSAI) may still appear.",
+    "id": "496babb7c2916aae6ea11125:61",
+    "legacy_id": 2776,
+    "metadata_status": "verified",
+    "name": "Remove video ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.sonyliv",
+        "versions": [
+          "6.23.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.graymatrix.did": [
+        "5.83.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Blocks ZEE5 video ads (pre-roll, mid-roll and the video-start slate) client-side. The player inserts ads from an ad-tag URL supplied by MediaData (adsUrl + adTags), not from the stream, and ad-free users already receive a null adsUrl / empty adTags — a supported path. This forces MediaData.getAdsUrl() to null and getAdTags() to an empty list so no ad break is ever built, and forces FetchPlaybackUrlUseCase.toPreRollDaiSlateMedia() to null so no pre-roll slate is prepended. Content goes straight to play — fewer ad requests, so it is lighter, not laggy. Server-DAI mid-roll (if a title is DAI-only) is not affected.",
+    "id": "496babb7c2916aae6ea11125:62",
+    "legacy_id": 2777,
+    "metadata_status": "verified",
+    "name": "Remove video ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.graymatrix.did",
+        "versions": [
+          "5.83.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "in.startv.hotstar": [
+        "26.06.22.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces the device-attestation blob JioHotstar sends to the server to report a clean device (IsTampered/IsRooted/IsProxy/isVpnActive/IsEmulator/suspicious-file/open-ports/debugger all false). The re-signed build otherwise sends IsTampered=true, which the server flags as \"suspicious activity\" and locks the account for 24 hours (error NM-4290). WARNING: this reduces one client-sent signal but does NOT make the account safe — the server still sees the VPN exit IP, and an already-flagged account stays on Hotstar's radar. Do not run this on an account you cannot afford to lose.",
+    "id": "496babb7c2916aae6ea11125:63",
+    "legacy_id": 2778,
+    "metadata_status": "verified",
+    "name": "Spoof device attestation",
+    "options": [],
+    "packages": [
+      {
+        "name": "in.startv.hotstar",
+        "versions": [
+          "26.06.22.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "in.startv.hotstar": [
+        "26.06.22.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Replaces the device id JioHotstar derives from Settings.Secure ANDROID_ID with a stable-per-install random UUID, so the re-signed build presents as a device the server has never flagged. This is the verified single source of both the X-HS-Device-Id request header and the /v2/start body device ids; ANDROID_ID otherwise survives an app-data clear (it is keyed to the signing key), which is why a flagged device kept getting the \"device logged out / suspicious activity\" page on every launch. The id is persisted, and regenerates on an app-data clear so a re-flagged device can be rotated. NOTE: the server also sees the connection IP — pair this with a clean (ideally residential) India IP; a flagged exit IP is not something the client can change. Do not run on an account you cannot afford to lose.",
+    "id": "496babb7c2916aae6ea11125:64",
+    "legacy_id": 2779,
+    "metadata_status": "verified",
+    "name": "Spoof device id",
+    "options": [],
+    "packages": [
+      {
+        "name": "in.startv.hotstar",
+        "versions": [
+          "26.06.22.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "in.startv.hotstar": [
+        "26.06.22.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces JioHotstar's security-suite checks (VPN, proxy, root, debugger, open ports, suspicious files) to report false, so the device-integrity attestation the app sends to the server looks clean. Helps rooted/modded devices and complements the VPN bypass. Note: the attestation is also server-validated (signed nonce) and the server sees the connection IP, so this is not guaranteed to defeat a server-side check on its own.",
+    "id": "496babb7c2916aae6ea11125:65",
+    "legacy_id": 2780,
+    "metadata_status": "verified",
+    "name": "Spoof device-integrity self-report",
+    "options": [],
+    "packages": [
+      {
+        "name": "in.startv.hotstar",
+        "versions": [
+          "26.06.22.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "com.sonyliv": [
+        "6.23.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops the dedicated \"not available in your region\" and \"VPN detected\" block screens by downgrading the geo/EPD block to a generic error. Geoblocking is enforced server-side by IP, so this does not grant access without a valid in-region IP (e.g. a working India connection).",
+    "id": "496babb7c2916aae6ea11125:66",
+    "legacy_id": 2781,
+    "metadata_status": "verified",
+    "name": "Suppress geo / VPN block",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.sonyliv",
+        "versions": [
+          "6.23.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  },
+  {
+    "bundle_id": "496babb7c2916aae6ea11125",
+    "compatiblePackages": {
+      "net.nutrilio": [
+        "1.20.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks Nutrilio PLUS+ by forcing the premium gate (PremiumModule.t2()) to return true. Every premium feature (custom colors, all charts, app lock, all tracking options) and the paywall treat the user as a subscriber. Client-side only; does not grant a real Google Play subscription.",
+    "id": "496babb7c2916aae6ea11125:67",
+    "legacy_id": 2782,
+    "metadata_status": "verified",
+    "name": "Unlock Plus",
+    "options": [],
+    "packages": [
+      {
+        "name": "net.nutrilio",
+        "versions": [
+          "1.20.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.1",
+    "source_id": "f4898d6cedb53bec",
+    "use": true
+  }
+]

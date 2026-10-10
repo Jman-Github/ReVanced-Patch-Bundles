@@ -1,0 +1,2976 @@
+[
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Removes restrictions on background playback, including for music and kids videos.",
+    "id": "605d1f6e56503cf27a415d3a:85",
+    "legacy_id": 3384,
+    "metadata_status": "unverified",
+    "name": "Remove background playback restrictions",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.",
+    "id": "605d1f6e56503cf27a415d3a:86",
+    "legacy_id": 3385,
+    "metadata_status": "unverified",
+    "name": "Remove viewer discretion dialog",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.",
+    "id": "605d1f6e56503cf27a415d3a:87",
+    "legacy_id": 3386,
+    "metadata_status": "unverified",
+    "name": "Remove viewer discretion dialog",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to return the Library tab to the old style.",
+    "id": "605d1f6e56503cf27a415d3a:88",
+    "legacy_id": 3387,
+    "metadata_status": "unverified",
+    "name": "Restore old style library shelf",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to show the dislike count of songs using the Return YouTube Dislike API.",
+    "id": "605d1f6e56503cf27a415d3a:89",
+    "legacy_id": 3388,
+    "metadata_status": "unverified",
+    "name": "Return YouTube Dislike",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to show the dislike count of videos using the Return YouTube Dislike API.",
+    "id": "605d1f6e56503cf27a415d3a:90",
+    "legacy_id": 3389,
+    "metadata_status": "unverified",
+    "name": "Return YouTube Dislike",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to replace YouTube handles with usernames in comments using YouTube Data API v3.",
+    "id": "605d1f6e56503cf27a415d3a:91",
+    "legacy_id": 3390,
+    "metadata_status": "unverified",
+    "name": "Return YouTube Username",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to replace YouTube handles with usernames in comments using YouTube Data API v3.",
+    "id": "605d1f6e56503cf27a415d3a:92",
+    "legacy_id": 3391,
+    "metadata_status": "unverified",
+    "name": "Return YouTube Username",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to sanitize sharing links by removing tracking query parameters.",
+    "id": "605d1f6e56503cf27a415d3a:93",
+    "legacy_id": 3392,
+    "metadata_status": "unverified",
+    "name": "Sanitize sharing links",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to sanitize sharing links by removing tracking query parameters.",
+    "id": "605d1f6e56503cf27a415d3a:94",
+    "legacy_id": 3393,
+    "metadata_status": "unverified",
+    "name": "Sanitize sharing links",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to save videos to Watch later from the video player or feed flyout menu.",
+    "id": "605d1f6e56503cf27a415d3a:95",
+    "legacy_id": 3394,
+    "metadata_status": "unverified",
+    "name": "Save to Watch later",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to hide or change components related to the seekbar.",
+    "id": "605d1f6e56503cf27a415d3a:96",
+    "legacy_id": 3395,
+    "metadata_status": "unverified",
+    "name": "Seekbar components",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to set Cookies in YouTube Transcript API requests.",
+    "id": "605d1f6e56503cf27a415d3a:97",
+    "legacy_id": 3396,
+    "metadata_status": "unverified",
+    "name": "Set transcript cookies",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Applies mandatory patches to implement ReVanced Extended settings into the application.",
+    "id": "605d1f6e56503cf27a415d3a:98",
+    "legacy_id": 3397,
+    "metadata_status": "unverified",
+    "name": "Settings for YouTube",
+    "options": [
+      {
+        "default": "RVX",
+        "description": "The name of the RVX settings menu.",
+        "key": "rvxSettingsLabel",
+        "required": true,
+        "title": "RVX settings label",
+        "type": "kotlin.String",
+        "values": {
+          "RVX": "RVX",
+          "ReVanced Extended": "ReVanced Extended"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Applies mandatory patches to implement ReVanced Extended settings into the application.",
+    "id": "605d1f6e56503cf27a415d3a:99",
+    "legacy_id": 3398,
+    "metadata_status": "unverified",
+    "name": "Settings for YouTube Music",
+    "options": [
+      {
+        "default": "pref_key_parent_tools",
+        "description": "The settings menu name that the RVX settings menu should be above.",
+        "key": "insertPosition",
+        "required": true,
+        "title": "Insert position",
+        "type": "kotlin.String",
+        "values": {
+          "About YouTube Music": "settings_header_about_youtube_music",
+          "Data saving": "settings_header_data_saving",
+          "Downloads & storage": "settings_header_downloads_and_storage",
+          "General": "settings_header_general",
+          "Notifications": "settings_header_notifications",
+          "Paid memberships": "settings_header_paid_memberships",
+          "Parent settings": "pref_key_parent_tools",
+          "Playback": "settings_header_playback",
+          "Privacy & data": "settings_header_privacy_and_location",
+          "Recommendations": "settings_header_recommendations"
+        }
+      },
+      {
+        "default": "RVX",
+        "description": "The name of the RVX settings menu.",
+        "key": "rvxSettingsLabel",
+        "required": true,
+        "title": "RVX settings label",
+        "type": "kotlin.String",
+        "values": {
+          "RVX": "RVX",
+          "ReVanced Extended": "ReVanced Extended"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to hide items on the standard YouTube Music settings screen by their visible name.",
+    "id": "605d1f6e56503cf27a415d3a:100",
+    "legacy_id": 3399,
+    "metadata_status": "unverified",
+    "name": "Settings menu filter",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to hide items on the standard YouTube settings screen by their visible name.",
+    "id": "605d1f6e56503cf27a415d3a:101",
+    "legacy_id": 3400,
+    "metadata_status": "unverified",
+    "name": "Settings menu filter",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to hide or change components related to YouTube Shorts.",
+    "id": "605d1f6e56503cf27a415d3a:102",
+    "legacy_id": 3401,
+    "metadata_status": "unverified",
+    "name": "Shorts components",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to hide or change components related to the snack bar.",
+    "id": "605d1f6e56503cf27a415d3a:103",
+    "legacy_id": 3402,
+    "metadata_status": "unverified",
+    "name": "Snack bar components",
+    "options": [
+      {
+        "default": "8.0dip",
+        "description": "Specify a corner radius for the snack bar.",
+        "key": "cornerRadius",
+        "required": true,
+        "title": "Corner radius",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Whether to apply the same corner radius to the bottom bar of the playlist as the snack bar.",
+        "key": "applyCornerRadiusToPlaylistBottomBar",
+        "required": true,
+        "title": "Apply corner radius to playlist bottom bar",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": "@color/yt_black3",
+        "description": "Specify a background color for the snack bar. You can specify hex color (#AARRGGBB) or color resource reference.",
+        "key": "darkThemeBackgroundColor",
+        "required": true,
+        "title": "Dark theme background color",
+        "type": "kotlin.String",
+        "values": {
+          "Black": "#FF000000",
+          "Catppuccin (Mocha)": "#FF181825",
+          "Classic (Old YouTube)": "#FF212121",
+          "Dark Blue": "#FF001029",
+          "Dark Green": "#FF002905",
+          "Dark Orange": "#FF291800",
+          "Dark Pink": "#FF290025",
+          "Dark Red": "#FF290000",
+          "Dark Yellow": "#FF282900",
+          "Material You (Neutral)": "@android:color/system_neutral1_900",
+          "Material You - Primary": "@android:color/system_accent1_800",
+          "Material You - Secondary": "@android:color/system_accent2_800",
+          "Material You - Tertiary": "@android:color/system_accent3_800",
+          "Modern YouTube": "#FF0F0F0F",
+          "YouTube Dark": "@color/yt_black3"
+        }
+      },
+      {
+        "default": "@color/yt_white3",
+        "description": "Specify a background color for the snack bar. You can specify hex color (#AARRGGBB) or color resource reference.",
+        "key": "lightThemeBackgroundColor",
+        "required": true,
+        "title": "Light theme background color",
+        "type": "kotlin.String",
+        "values": {
+          "Catppuccin (Latte)": "#FFE6E9EF",
+          "Light Blue": "#FFD1E0FF",
+          "Light Green": "#FFCCFFCC",
+          "Light Orange": "#FFFFE6CC",
+          "Light Pink": "#FFFCCFF3",
+          "Light Red": "#FFFFD6D6",
+          "Light Yellow": "#FFFDFFCC",
+          "Material You (Neutral)": "@android:color/system_neutral1_100",
+          "Material You - Primary": "@android:color/system_accent1_200",
+          "Material You - Secondary": "@android:color/system_accent2_200",
+          "Material You - Tertiary": "@android:color/system_accent3_200",
+          "White": "#FFFFFFFF",
+          "YouTube Light": "@color/yt_white3"
+        }
+      },
+      {
+        "default": "",
+        "description": "Specify a stroke color for the snack bar. You can specify hex color.",
+        "key": "strokeColor",
+        "required": false,
+        "title": "Stroke color",
+        "type": "kotlin.String",
+        "values": {
+          "Blue": "?attr/ytThemedBlue",
+          "Chip": "?attr/ytChipBackground",
+          "None": ""
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as non-music sections.",
+    "id": "605d1f6e56503cf27a415d3a:104",
+    "legacy_id": 3403,
+    "metadata_status": "unverified",
+    "name": "SponsorBlock",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as sponsored content.",
+    "id": "605d1f6e56503cf27a415d3a:105",
+    "legacy_id": 3404,
+    "metadata_status": "unverified",
+    "name": "SponsorBlock",
+    "options": [
+      {
+        "default": "right",
+        "description": "Align new segment window.",
+        "key": "NewSegmentAlignment",
+        "required": true,
+        "title": "New segment alignment",
+        "type": "kotlin.String",
+        "values": {
+          "Left": "left",
+          "Right": "right"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to spoof the YouTube Music client version. This can be used to restore old UI elements and features.",
+    "id": "605d1f6e56503cf27a415d3a:106",
+    "legacy_id": 3405,
+    "metadata_status": "unverified",
+    "name": "Spoof app version",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to spoof the YouTube client version. This can be used to restore old UI elements and features.",
+    "id": "605d1f6e56503cf27a415d3a:107",
+    "legacy_id": 3406,
+    "metadata_status": "unverified",
+    "name": "Spoof app version",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to spoof the YouTube Music client version. This can be used to restore old lyrics UI.",
+    "id": "605d1f6e56503cf27a415d3a:108",
+    "legacy_id": 3407,
+    "metadata_status": "unverified",
+    "name": "Spoof app version for lyrics",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Spoofs the signature of the app.",
+    "id": "605d1f6e56503cf27a415d3a:109",
+    "legacy_id": 3408,
+    "metadata_status": "unverified",
+    "name": "Spoof signature",
+    "options": [
+      {
+        "default": "",
+        "description": "Package name.",
+        "key": "packageName",
+        "required": false,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "",
+        "description": "Base64-encoded string of the certificate.",
+        "key": "certificateData",
+        "required": false,
+        "title": "Certificate data",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": false
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to spoof the client video streams to fix playback.",
+    "id": "605d1f6e56503cf27a415d3a:110",
+    "legacy_id": 3409,
+    "metadata_status": "unverified",
+    "name": "Spoof video streams",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to spoof the client video streams to fix playback.",
+    "id": "605d1f6e56503cf27a415d3a:111",
+    "legacy_id": 3410,
+    "metadata_status": "unverified",
+    "name": "Spoof video streams",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to change the domain of the watch history or check its status.",
+    "id": "605d1f6e56503cf27a415d3a:112",
+    "legacy_id": 3411,
+    "metadata_status": "unverified",
+    "name": "Spoof watch history",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Spoofs an existing Wi-Fi connection.",
+    "id": "605d1f6e56503cf27a415d3a:113",
+    "legacy_id": 3412,
+    "metadata_status": "unverified",
+    "name": "Spoof Wi-Fi connection",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": false
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options for controlling volume and brightness with swiping, and whether to enter fullscreen when swiping down below the player.",
+    "id": "605d1f6e56503cf27a415d3a:114",
+    "legacy_id": 3413,
+    "metadata_status": "unverified",
+    "name": "Swipe controls",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Changes the app's dark theme to the values specified in patch options.",
+    "id": "605d1f6e56503cf27a415d3a:115",
+    "legacy_id": 3414,
+    "metadata_status": "unverified",
+    "name": "Theme",
+    "options": [
+      {
+        "default": "#FF000000",
+        "description": "Static system splash color for the in-app Custom dark theme. Can be a hex color (#AARRGGBB) or a color resource reference.",
+        "key": "darkThemeColor",
+        "required": true,
+        "title": "Custom dark theme color",
+        "type": "kotlin.String",
+        "values": {
+          "Black": "#FF000000",
+          "Catppuccin Mocha": "#FF181825",
+          "Classic Youtube": "#FF212121",
+          "Dark Blue": "#FF001029",
+          "Dark Green": "#FF002905",
+          "Dark Orange": "#FF291800",
+          "Dark Pink": "#FF290025",
+          "Dark Red": "#FF290000",
+          "Dark Yellow": "#FF282900",
+          "Material You Neutral": "@android:color/system_neutral1_900",
+          "Material You Primary": "@android:color/system_accent1_800",
+          "Material You Secondary": "@android:color/system_accent2_800",
+          "Material You Tertiary": "@android:color/system_accent3_800",
+          "Modern Youtube": "#FF0F0F0F",
+          "Stock": "#FF0F0F0F"
+        }
+      },
+      {
+        "default": false,
+        "description": "Precompile 15 theme palettes into resources for Android 8–10 devices. Required for theme presets on Android 8–10. On Android 11+, leave this disabled to speed up patching and reduce APK size.",
+        "key": "precompileLegacyThemes",
+        "required": false,
+        "title": "Precompile legacy themes (Android 8–10)",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to change the app's themes and splash screen style.",
+    "id": "605d1f6e56503cf27a415d3a:116",
+    "legacy_id": 3415,
+    "metadata_status": "unverified",
+    "name": "Theme",
+    "options": [
+      {
+        "default": "#FF000000",
+        "description": "Color for the in-app Patch option and its system splash theme. Can be a hex color (#AARRGGBB) or a color resource reference.",
+        "key": "darkThemeColor",
+        "required": true,
+        "title": "Custom dark theme color",
+        "type": "kotlin.String",
+        "values": {
+          "Black": "#FF000000",
+          "Catppuccin Mocha": "#FF181825",
+          "Classic Youtube": "#FF212121",
+          "Dark Blue": "#FF001029",
+          "Dark Green": "#FF002905",
+          "Dark Orange": "#FF291800",
+          "Dark Pink": "#FF290025",
+          "Dark Red": "#FF290000",
+          "Dark Yellow": "#FF282900",
+          "Material You Neutral": "@android:color/system_neutral1_900",
+          "Material You Primary": "@android:color/system_accent1_800",
+          "Material You Secondary": "@android:color/system_accent2_800",
+          "Material You Tertiary": "@android:color/system_accent3_800",
+          "Modern Youtube": "#FF0F0F0F",
+          "Stock": "#FF0F0F0F"
+        }
+      },
+      {
+        "default": "#FFFFFFFF",
+        "description": "Color for the in-app Patch option and its system splash theme. Can be a hex color (#AARRGGBB) or a color resource reference.",
+        "key": "lightThemeColor",
+        "required": true,
+        "title": "Custom light theme color",
+        "type": "kotlin.String",
+        "values": {
+          "Catppuccin Latte": "#FFE6E9EF",
+          "Light Blue": "#FFD1E0FF",
+          "Light Green": "#FFCCFFCC",
+          "Light Orange": "#FFFFE6CC",
+          "Light Pink": "#FFFCCFF3",
+          "Light Red": "#FFFFD6D6",
+          "Light Yellow": "#FFFDFFCC",
+          "Material You Neutral": "@android:color/system_neutral1_100",
+          "Material You Primary": "@android:color/system_accent1_200",
+          "Material You Secondary": "@android:color/system_accent2_200",
+          "Material You Tertiary": "@android:color/system_accent3_200",
+          "Pale Blue": "#FFD4FFF8",
+          "Pale Green": "#FFD1FFCC",
+          "Pale Yellow": "#FFFFE9AA",
+          "White": "#FFFFFFFF"
+        }
+      },
+      {
+        "default": false,
+        "description": "Precompile all 768 theme permutations into resources for Android 8–10 devices. Required for theme presets on Android 8–10. On Android 11+, leave this disabled to significantly speed up patching and reduce APK size.",
+        "key": "precompileLegacyThemes",
+        "required": false,
+        "title": "Precompile legacy themes (Android 8–10)",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to show synced lyrics with experience enhancement from 15+ providers in the lyrics panel.",
+    "id": "605d1f6e56503cf27a415d3a:117",
+    "legacy_id": 3416,
+    "metadata_status": "unverified",
+    "name": "Third-party lyrics",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to hide or change components located on the toolbar, such as the search bar, header, and toolbar buttons.",
+    "id": "605d1f6e56503cf27a415d3a:118",
+    "legacy_id": 3417,
+    "metadata_status": "unverified",
+    "name": "Toolbar components",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.",
+    "id": "605d1f6e56503cf27a415d3a:119",
+    "legacy_id": 3418,
+    "metadata_status": "unverified",
+    "name": "Track crossfade",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Add translations or remove string resources.",
+    "id": "605d1f6e56503cf27a415d3a:120",
+    "legacy_id": 3419,
+    "metadata_status": "unverified",
+    "name": "Translations for YouTube",
+    "options": [
+      {
+        "default": "",
+        "description": "The path to the 'strings.xml' file.\nPlease note that applying the 'strings.xml' file will overwrite all existing translations.",
+        "key": "customTranslations",
+        "required": false,
+        "title": "Custom translations",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "ar, az-rAZ, bn, cs-rCZ, de-rDE, el-rGR, es-rES, fa-rIR, fr-rFR, hu-rHU, in, it-rIT, iw-rIL, ja-rJP, ko-rKR, pl-rPL, pt-rBR, ru-rRU, th-rTH, tr-rTR, uk-rUA, vi-rVN, zh-rCN, zh-rTW",
+        "description": "A list of translations to be added for the RVX settings, separated by commas.",
+        "key": "selectedTranslations",
+        "required": true,
+        "title": "Translations to add",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "af, am, ar, ar-rXB, as, az, b+es+419, b+sr+Latn, be, bg, bn, bs, ca, cs, da, de, el, en-rAU, en-rCA, en-rGB, en-rIN, en-rXA, en-rXC, es, es-rUS, et, eu, fa, fi, fil-rPH, fr, fr-rCA, gl, gu, hi, hr, hu, hy, id, in, is, it, iw, ja, ka, kk, km, kn, ko, ky, lo, lt, lv, mk, ml, mn, mr, ms, my, nb, ne, nl, no, or, pa, pl, pt, pt-rBR, pt-rPT, ro, ru, si, sk, sl, sq, sr, sv, sw, ta, te, th, tl, tr, uk, ur, uz, vi, zh, zh-rCN, zh-rHK, zh-rTW, zu",
+        "description": "A list of string resources to be kept, separated by commas.\nString resources not in the list will be removed from the app.\n\nDefault string resource, English, is not removed.",
+        "key": "selectedStringResources",
+        "required": true,
+        "title": "String resources to keep",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Add translations or remove string resources.",
+    "id": "605d1f6e56503cf27a415d3a:121",
+    "legacy_id": 3420,
+    "metadata_status": "unverified",
+    "name": "Translations for YouTube Music",
+    "options": [
+      {
+        "default": "",
+        "description": "The path to the 'strings.xml' file.\nPlease note that applying the 'strings.xml' file will overwrite all existing translations.",
+        "key": "customTranslations",
+        "required": false,
+        "title": "Custom translations",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "ar, de-rDE, es-rES, fr-rFR, hu-rHU, in, it-rIT, ja-rJP, ko-rKR, pl-rPL, pt-rBR, ru-rRU, tr-rTR, uk-rUA, zh-rCN, zh-rTW",
+        "description": "A list of translations to be added for the RVX settings, separated by commas.",
+        "key": "selectedTranslations",
+        "required": true,
+        "title": "Translations to add",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "af, am, ar, ar-rXB, as, az, b+es+419, b+sr+Latn, be, bg, bn, bs, ca, cs, da, de, el, en-rAU, en-rCA, en-rGB, en-rIN, en-rXA, en-rXC, es, es-rUS, et, eu, fa, fi, fil-rPH, fr, fr-rCA, gl, gu, hi, hr, hu, hy, id, in, is, it, iw, ja, ka, kk, km, kn, ko, ky, lo, lt, lv, mk, ml, mn, mr, ms, my, nb, ne, nl, no, or, pa, pl, pt, pt-rBR, pt-rPT, ro, ru, si, sk, sl, sq, sr, sv, sw, ta, te, th, tl, tr, uk, ur, uz, vi, zh, zh-rCN, zh-rHK, zh-rTW, zu",
+        "description": "A list of string resources to be kept, separated by commas.\nString resources not in the list will be removed from the app.\n\nDefault string resource, English, is not removed.",
+        "key": "selectedStringResources",
+        "required": true,
+        "title": "String resources to keep",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to customize settings related to video playback, such as default video quality and playback speed.",
+    "id": "605d1f6e56503cf27a415d3a:122",
+    "legacy_id": 3421,
+    "metadata_status": "unverified",
+    "name": "Video playback",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to customize settings related to video playback, such as default video quality and playback speed.",
+    "id": "605d1f6e56503cf27a415d3a:123",
+    "legacy_id": 3422,
+    "metadata_status": "unverified",
+    "name": "Video playback",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Adds icons to specific preferences in the settings.",
+    "id": "605d1f6e56503cf27a415d3a:124",
+    "legacy_id": 3423,
+    "metadata_status": "unverified",
+    "name": "Visual preferences icons for YouTube",
+    "options": [
+      {
+        "default": "extension",
+        "description": "The icon for the RVX settings menu.",
+        "key": "settingsMenuIcon",
+        "required": true,
+        "title": "RVX settings menu icon",
+        "type": "kotlin.String",
+        "values": {
+          "Extension": "extension",
+          "Gear": "gear",
+          "RVX Letters": "rvx_letters",
+          "RVX Letters Bold": "rvx_letters_bold",
+          "ReVanced": "revanced",
+          "ReVanced Colored": "revanced_colored",
+          "YT alt": "yt_alt"
+        }
+      },
+      {
+        "default": false,
+        "description": "Whether to apply Visual preferences icons to all settings menus.\n\nIf true: icons are applied to the parent PreferenceScreen of YouTube settings, the parent PreferenceScreen of RVX settings and the RVX sub-settings (if supported).\n\nIf false: icons are applied only to the parent PreferenceScreen of YouTube settings and RVX settings.",
+        "key": "applyToAll",
+        "required": true,
+        "title": "Apply to all settings menu",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Adds icons to specific preferences in the settings.",
+    "id": "605d1f6e56503cf27a415d3a:125",
+    "legacy_id": 3424,
+    "metadata_status": "unverified",
+    "name": "Visual preferences icons for YouTube Music",
+    "options": [
+      {
+        "default": "extension",
+        "description": "The icon for the RVX settings menu.",
+        "key": "settingsMenuIcon",
+        "required": true,
+        "title": "RVX settings menu icon",
+        "type": "kotlin.String",
+        "values": {
+          "Extension": "extension",
+          "Gear": "gear",
+          "RVX Letters": "rvx_letters",
+          "RVX Letters Bold": "rvx_letters_bold",
+          "ReVanced": "revanced",
+          "ReVanced Colored": "revanced_colored",
+          "YT alt": "yt_alt"
+        }
+      },
+      {
+        "default": true,
+        "description": "Whether to apply Visual preferences icons to all settings menus.\n\nIf true: icons are applied to the parent PreferenceScreen of YouTube settings, the parent PreferenceScreen of RVX settings and the RVX sub-settings (if supported).\n\nIf false: icons are applied only to the parent PreferenceScreen of YouTube settings and RVX settings.",
+        "key": "applyToAll",
+        "required": true,
+        "title": "Apply to all settings menu",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to enable Yandex voice-over translation of video audio tracks.",
+    "id": "605d1f6e56503cf27a415d3a:126",
+    "legacy_id": 3425,
+    "metadata_status": "unverified",
+    "name": "Voice Over Translation",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to change the domain of the watch history or check its status.",
+    "id": "605d1f6e56503cf27a415d3a:127",
+    "legacy_id": 3426,
+    "metadata_status": "unverified",
+    "name": "Watch history",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch",
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds a wide search bar to the top of the home and subscription feed.",
+    "id": "605d1f6e56503cf27a415d3a:128",
+    "legacy_id": 3427,
+    "metadata_status": "unverified",
+    "name": "Wide search bar",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "60fbf8f72a5576de83bccb62",
+    "compatiblePackages": {
+      "com.insigniadpfgmailcom.oplmonitor": [
+        "1.0.3.65"
+      ]
+    },
+    "dependencies": [],
+    "description": "Passes the startup license check by making the app appear installed from an app store. Only works on Android 10 and newer. On Android 9 and older use 'Remove license check' instead.",
+    "id": "60fbf8f72a5576de83bccb62:0",
+    "legacy_id": 3521,
+    "metadata_status": "verified",
+    "name": "Change installer source",
+    "options": [
+      {
+        "default": "com.android.vending",
+        "description": "Package name of the app store the app will appear to be installed from.",
+        "key": "packageInstallerName",
+        "required": true,
+        "title": "Spoofed package installer name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.insigniadpfgmailcom.oplmonitor",
+        "versions": [
+          "1.0.3.65"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "8ec319dd5240cdbd",
+    "use": true
+  },
+  {
+    "bundle_id": "60fbf8f72a5576de83bccb62",
+    "compatiblePackages": {
+      "com.insigniadpfgmailcom.oplmonitor": [
+        "1.0.3.65"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes banner, interstitial, rewarded and native ads by preventing the Google Mobile Ads SDK from loading them.",
+    "id": "60fbf8f72a5576de83bccb62:1",
+    "legacy_id": 3522,
+    "metadata_status": "verified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.insigniadpfgmailcom.oplmonitor",
+        "versions": [
+          "1.0.3.65"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "8ec319dd5240cdbd",
+    "use": true
+  },
+  {
+    "bundle_id": "60fbf8f72a5576de83bccb62",
+    "compatiblePackages": {
+      "com.insigniadpfgmailcom.oplmonitor": [
+        "1.0.3.65"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the INTERNET permission, blocking all network access including update checks. Breaks DTC descriptions, VIN decoder gauges and function downloads.",
+    "id": "60fbf8f72a5576de83bccb62:2",
+    "legacy_id": 3523,
+    "metadata_status": "verified",
+    "name": "Remove internet permission",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.insigniadpfgmailcom.oplmonitor",
+        "versions": [
+          "1.0.3.65"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "8ec319dd5240cdbd",
+    "use": false
+  },
+  {
+    "bundle_id": "60fbf8f72a5576de83bccb62",
+    "compatiblePackages": {
+      "com.insigniadpfgmailcom.oplmonitor": [
+        "1.0.3.65"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the startup license check (PairIP). Use this on Android 9 and older, where 'Change installer source' has no effect. Does not affect purchases or premium features.",
+    "id": "60fbf8f72a5576de83bccb62:3",
+    "legacy_id": 3524,
+    "metadata_status": "verified",
+    "name": "Remove license check",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.insigniadpfgmailcom.oplmonitor",
+        "versions": [
+          "1.0.3.65"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "8ec319dd5240cdbd",
+    "use": false
+  },
+  {
+    "bundle_id": "60fbf8f72a5576de83bccb62",
+    "compatiblePackages": {
+      "com.insigniadpfgmailcom.oplmonitor": [
+        "1.0.3.65"
+      ]
+    },
+    "dependencies": [],
+    "description": "Reports a high app version (default 9.9.9) to prevent the in-app update prompt. Also changes the version shown in the app's about screen.",
+    "id": "60fbf8f72a5576de83bccb62:4",
+    "legacy_id": 3525,
+    "metadata_status": "verified",
+    "name": "Spoof app version",
+    "options": [
+      {
+        "default": "9.9.9",
+        "description": "Version name to report. Must be higher than the latest released app version.",
+        "key": "version",
+        "required": true,
+        "title": "Spoofed version",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.insigniadpfgmailcom.oplmonitor",
+        "versions": [
+          "1.0.3.65"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "8ec319dd5240cdbd",
+    "use": false
+  },
+  {
+    "bundle_id": "610238f985614cbfd514b600",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "name": "MEO (Android TV)",
+        "packageName": "com.alticelabs.meo.androidtv",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "5.7.0"
+          }
+        ],
+        "versions": [
+          "5.7.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Installs a separately named MEO clone using a configurable package name and app name.",
+    "id": "610238f985614cbfd514b600:0",
+    "legacy_id": 3526,
+    "metadata_status": "unverified",
+    "name": "MEO - Side-by-side installation",
+    "options": [
+      {
+        "default": "com.alticelabs.meo.androidtv.santodan",
+        "description": "Unique Android package name for this installation.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "MEO Patched",
+        "description": "Name displayed by Android launchers for this installation.",
+        "key": "appName",
+        "required": true,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "MEO (Android TV)",
+        "versions": [
+          "5.7.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "0e6ae70a7bfa1280"
+  },
+  {
+    "bundle_id": "610238f985614cbfd514b600",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "name": "MEO (Android TV)",
+        "packageName": "com.alticelabs.meo.androidtv",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "5.7.0"
+          }
+        ],
+        "versions": [
+          "5.7.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Reports a Sagemcom DIW3930 to MEO provisioning and skips the server's non-blocking device-verification warning.",
+    "id": "610238f985614cbfd514b600:1",
+    "legacy_id": 3527,
+    "metadata_status": "unverified",
+    "name": "MEO - Spoof supported device",
+    "options": [],
+    "packages": [
+      {
+        "name": "MEO (Android TV)",
+        "versions": [
+          "5.7.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "0e6ae70a7bfa1280"
+  },
+  {
+    "bundle_id": "610238f985614cbfd514b600",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "NuvioTV",
+        "packageName": "com.nuvio.tv",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.1.0-beta.4"
+          }
+        ],
+        "versions": [
+          "1.1.0-beta.4"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds separate disabled-by-default settings to show the latest scheduled episode date in library and collection posters.",
+    "id": "610238f985614cbfd514b600:2",
+    "legacy_id": 3528,
+    "metadata_status": "unverified",
+    "name": "NuvioTV - Finale dates in library and collections",
+    "options": [],
+    "packages": [
+      {
+        "name": "NuvioTV",
+        "versions": [
+          "1.1.0-beta.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "0e6ae70a7bfa1280"
+  },
+  {
+    "bundle_id": "610238f985614cbfd514b600",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "NuvioTV",
+        "packageName": "com.nuvio.tv",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.1.0-beta.4"
+          }
+        ],
+        "versions": [
+          "1.1.0-beta.4"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds a disabled-by-default setting that keeps currently-airing library series in Upcoming until the scheduled finale.",
+    "id": "610238f985614cbfd514b600:3",
+    "legacy_id": 3529,
+    "metadata_status": "unverified",
+    "name": "NuvioTV - Keep airing series in Upcoming",
+    "options": [],
+    "packages": [
+      {
+        "name": "NuvioTV",
+        "versions": [
+          "1.1.0-beta.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "0e6ae70a7bfa1280"
+  },
+  {
+    "bundle_id": "610238f985614cbfd514b600",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "NuvioTV",
+        "packageName": "com.nuvio.tv",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.1.0-beta.2"
+          },
+          {
+            "isExperimental": false,
+            "version": "1.1.0-beta.4"
+          }
+        ],
+        "versions": [
+          "1.1.0-beta.2",
+          "1.1.0-beta.4"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Merges Nuvio Sync and connected tracking-provider progress, preserving the previous snapshot while providers refresh.",
+    "id": "610238f985614cbfd514b600:4",
+    "legacy_id": 3530,
+    "metadata_status": "unverified",
+    "name": "NuvioTV - Merge tracking progress",
+    "options": [],
+    "packages": [
+      {
+        "name": "NuvioTV",
+        "versions": [
+          "1.1.0-beta.2",
+          "1.1.0-beta.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "0e6ae70a7bfa1280"
+  },
+  {
+    "bundle_id": "610238f985614cbfd514b600",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "NuvioTV",
+        "packageName": "com.nuvio.tv",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.1.0-beta.2"
+          },
+          {
+            "isExperimental": false,
+            "version": "1.1.0-beta.4"
+          }
+        ],
+        "versions": [
+          "1.1.0-beta.2",
+          "1.1.0-beta.4"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds a disabled-by-default setting that displays aired, unwatched episode counts for every tracking integration. Controlled by Layout > Santodan-Patches on beta4.",
+    "id": "610238f985614cbfd514b600:5",
+    "legacy_id": 3531,
+    "metadata_status": "unverified",
+    "name": "NuvioTV - Remaining episodes in Continue Watching",
+    "options": [],
+    "packages": [
+      {
+        "name": "NuvioTV",
+        "versions": [
+          "1.1.0-beta.2",
+          "1.1.0-beta.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "0e6ae70a7bfa1280"
+  },
+  {
+    "bundle_id": "610238f985614cbfd514b600",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "NuvioTV",
+        "packageName": "com.nuvio.tv",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.1.0-beta.2"
+          },
+          {
+            "isExperimental": false,
+            "version": "1.1.0-beta.4"
+          }
+        ],
+        "versions": [
+          "1.1.0-beta.2",
+          "1.1.0-beta.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Installs a separately named NuvioTV clone using a configurable package name and app name.",
+    "id": "610238f985614cbfd514b600:6",
+    "legacy_id": 3532,
+    "metadata_status": "unverified",
+    "name": "NuvioTV - Side-by-side installation",
+    "options": [
+      {
+        "default": "com.nuvio.santodan",
+        "description": "Unique Android package name for this installation, for example com.nuvio.testing.one.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "NuvioTV Patched",
+        "description": "Name displayed by Android launchers for this installation.",
+        "key": "appName",
+        "required": true,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "NuvioTV",
+        "versions": [
+          "1.1.0-beta.2",
+          "1.1.0-beta.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "0e6ae70a7bfa1280"
+  },
+  {
+    "bundle_id": "610238f985614cbfd514b600",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "Peafowl Theme Maker for EMUI",
+        "packageName": "h7.hamzio.emuithemeotg",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "GMS_27.5.1"
+          }
+        ],
+        "versions": [
+          "GMS_27.5.1"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Use Peafowl's local free-theme path without the billing preflight. Experimental; server downloads are not guaranteed.",
+    "id": "610238f985614cbfd514b600:7",
+    "legacy_id": 3533,
+    "metadata_status": "unverified",
+    "name": "Peafowl - Unlock Theme Ownership (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Peafowl Theme Maker for EMUI",
+        "versions": [
+          "GMS_27.5.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "0e6ae70a7bfa1280"
+  },
+  {
+    "bundle_id": "610238f985614cbfd514b600",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "Pillo",
+        "packageName": "xyz.rtrvr.pillo",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "0.6.20"
+          },
+          {
+            "isExperimental": false,
+            "version": "0.6.19"
+          }
+        ],
+        "versions": [
+          "0.6.20",
+          "0.6.19"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Use fullscreen alarms while the phone is locked and banner notifications while it is unlocked. Select Pillo's Banner/Light notification mode.",
+    "id": "610238f985614cbfd514b600:8",
+    "legacy_id": 3534,
+    "metadata_status": "unverified",
+    "name": "Pillo - Hybrid Lock-Screen Notifications",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pillo",
+        "versions": [
+          "0.6.20",
+          "0.6.19"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "0e6ae70a7bfa1280"
+  },
+  {
+    "bundle_id": "610238f985614cbfd514b600",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "Reddit",
+        "packageName": "com.reddit.frontpage",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2026.37.0"
+          }
+        ],
+        "versions": [
+          "2026.37.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds keyword and per-community flair filters under Morphe > Filters. Home-feed flair filtering requires Show flairs in home feed, which is installed automatically.",
+    "id": "610238f985614cbfd514b600:9",
+    "legacy_id": 3535,
+    "metadata_status": "unverified",
+    "name": "Reddit - Content filters (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Reddit",
+        "versions": [
+          "2026.37.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "0e6ae70a7bfa1280"
+  },
+  {
+    "bundle_id": "610238f985614cbfd514b600",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "Reddit",
+        "packageName": "com.reddit.frontpage",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2026.37.0"
+          }
+        ],
+        "versions": [
+          "2026.37.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Shows native post flair badges below titles in the home feed, including cached and joined-community posts. Controlled by Morphe > Layout.",
+    "id": "610238f985614cbfd514b600:10",
+    "legacy_id": 3536,
+    "metadata_status": "unverified",
+    "name": "Reddit - Show flairs in home feed (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Reddit",
+        "versions": [
+          "2026.37.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "0e6ae70a7bfa1280"
+  },
+  {
+    "bundle_id": "610238f985614cbfd514b600",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "Reddit",
+        "packageName": "com.reddit.frontpage",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2026.37.0"
+          }
+        ],
+        "versions": [
+          "2026.37.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Skips the forced startup login screen using Reddit's native browse-logged-out action. Login remains available from the account menu. Already included upstream in Morphe Patches PR #3109: https://github.com/MorpheApp/morphe-patches/pull/3109",
+    "id": "610238f985614cbfd514b600:11",
+    "legacy_id": 3537,
+    "metadata_status": "unverified",
+    "name": "Reddit - Start as guest",
+    "options": [],
+    "packages": [
+      {
+        "name": "Reddit",
+        "versions": [
+          "2026.37.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "0e6ae70a7bfa1280"
+  },
+  {
+    "bundle_id": "61372e28b6609ed310a324fb",
+    "compatiblePackages": {
+      "com.jcdecaux.vls.lyon": [
+        "3.1.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Replace Velo'v Google Maps key with your own to fix it",
+    "id": "61372e28b6609ed310a324fb:0",
+    "legacy_id": 3538,
+    "metadata_status": "unverified",
+    "name": "Custom Maps API Key",
+    "options": [
+      {
+        "default": "",
+        "description": "Google Maps API key",
+        "key": "mapApiKey",
+        "required": true,
+        "title": "Google Maps API key",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.jcdecaux.vls.lyon",
+        "versions": [
+          "3.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "4df3c6e598c53ff1",
+    "use": true
+  },
+  {
+    "bundle_id": "61372e28b6609ed310a324fb",
+    "compatiblePackages": {
+      "com.jcdecaux.vls.lyon": [
+        "3.1.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disable the map zoom-in animation",
+    "id": "61372e28b6609ed310a324fb:1",
+    "legacy_id": 3539,
+    "metadata_status": "unverified",
+    "name": "Disable map animations",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.jcdecaux.vls.lyon",
+        "versions": [
+          "3.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "4df3c6e598c53ff1",
+    "use": true
+  },
+  {
+    "bundle_id": "61372e28b6609ed310a324fb",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Makes all activities launchable externally by setting android:exported=\"true\" in the manifest",
+    "id": "61372e28b6609ed310a324fb:2",
+    "legacy_id": 3540,
+    "metadata_status": "unverified",
+    "name": "Export all activities",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "4df3c6e598c53ff1",
+    "use": false
+  },
+  {
+    "bundle_id": "61372e28b6609ed310a324fb",
+    "compatiblePackages": {
+      "com.jcdecaux.vls.lyon": [
+        "3.1.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Allows you to unlock a bike even if you're not near the station.",
+    "id": "61372e28b6609ed310a324fb:3",
+    "legacy_id": 3541,
+    "metadata_status": "unverified",
+    "name": "No geolocalisation check",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.jcdecaux.vls.lyon",
+        "versions": [
+          "3.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "4df3c6e598c53ff1",
+    "use": true
+  },
+  {
+    "bundle_id": "61372e28b6609ed310a324fb",
+    "compatiblePackages": {
+      "ee.dustland.android.minesweeper": [
+        "1.21.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlock all purchasables options",
+    "id": "61372e28b6609ed310a324fb:4",
+    "legacy_id": 3542,
+    "metadata_status": "unverified",
+    "name": "Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "ee.dustland.android.minesweeper",
+        "versions": [
+          "1.21.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "4df3c6e598c53ff1",
+    "use": true
+  },
+  {
+    "bundle_id": "61372e28b6609ed310a324fb",
+    "compatiblePackages": {
+      "com.jcdecaux.vls.lyon": [
+        "3.1.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Spoofs the package signature required for Firebase, fixes notifications",
+    "id": "61372e28b6609ed310a324fb:5",
+    "legacy_id": 3543,
+    "metadata_status": "unverified",
+    "name": "Spoof package signature",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.jcdecaux.vls.lyon",
+        "versions": [
+          "3.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "4df3c6e598c53ff1",
+    "use": true
+  },
+  {
+    "bundle_id": "61f4776bc5196822d127decf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "name": "Sony | Sound Connect",
+        "packageName": "com.sony.songpal.mdr",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "13.2.1",
+            "versionCodes": {
+              "ARM64_V8A": 130215029,
+              "ARMEABI_V7A": 130215029,
+              "X86": 130215029,
+              "X86_64": 130215029
+            }
+          },
+          {
+            "isExperimental": false,
+            "version": "13.2.2",
+            "versionCodes": {
+              "ARM64_V8A": 130225039,
+              "ARMEABI_V7A": 130225039,
+              "X86": 130225039,
+              "X86_64": 130225039
+            }
+          }
+        ],
+        "versions": [
+          "13.2.1",
+          "13.2.2"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Redirects the YouTube Music Scene integration to the patched YouTube Music package.",
+    "id": "61f4776bc5196822d127decf:0",
+    "legacy_id": 3544,
+    "metadata_status": "unverified",
+    "name": "Use patched YouTube Music in Scene",
+    "options": [],
+    "packages": [
+      {
+        "name": "Sony | Sound Connect",
+        "versions": [
+          "13.2.1",
+          "13.2.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.1",
+    "source_id": "cdf877c4fcd3fada"
+  },
+  {
+    "bundle_id": "62bfa30cc9184ee8080ab5c7",
+    "compatiblePackages": {
+      "com.anime.witcher": [
+        "1.4.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables all ad display logic in the app.",
+    "id": "62bfa30cc9184ee8080ab5c7:0",
+    "legacy_id": 3545,
+    "metadata_status": "verified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.anime.witcher",
+        "versions": [
+          "1.4.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "384c5fc675a50bb4",
+    "use": true
+  },
+  {
+    "bundle_id": "62bfa30cc9184ee8080ab5c7",
+    "compatiblePackages": {
+      "com.anime.witcher": [
+        "1.4.8"
+      ]
+    },
+    "dependencies": [
+      "Disable ads"
+    ],
+    "description": "Removes AppLovin SDK initialization from the Application class.",
+    "id": "62bfa30cc9184ee8080ab5c7:1",
+    "legacy_id": 3546,
+    "metadata_status": "verified",
+    "name": "Remove AppLovin initialization",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.anime.witcher",
+        "versions": [
+          "1.4.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "384c5fc675a50bb4",
+    "use": true
+  },
+  {
+    "bundle_id": "62bfa30cc9184ee8080ab5c7",
+    "compatiblePackages": {
+      "com.anime.witcher": [
+        "1.4.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Replaces the AWPlayer video player with VLC via system intent chooser.",
+    "id": "62bfa30cc9184ee8080ab5c7:2",
+    "legacy_id": 3547,
+    "metadata_status": "verified",
+    "name": "Replace AWPlayer with VLC",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.anime.witcher",
+        "versions": [
+          "1.4.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "384c5fc675a50bb4",
+    "use": true
+  },
+  {
+    "bundle_id": "6324b4f171b85a103041a840",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1428A0",
+        "name": "Samsung Daily Board",
+        "packageName": "com.samsung.android.homemode",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 34,
+            "version": "15.1.01.3"
+          }
+        ],
+        "versions": [
+          "15.1.01.3"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Runs Samsung Daily Board on phones and treats wireless charging, or charging in landscape, as docking.",
+    "id": "6324b4f171b85a103041a840:0",
+    "legacy_id": 3548,
+    "metadata_status": "unverified",
+    "name": "Enable phone support",
+    "options": [],
+    "packages": [
+      {
+        "name": "Samsung Daily Board",
+        "versions": [
+          "15.1.01.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.3.3",
+    "source_id": "ce87c1fd9c9509db"
+  },
+  {
+    "bundle_id": "6324b4f171b85a103041a840",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "426.0.0.37.68"
+          }
+        ],
+        "versions": [
+          "426.0.0.37.68"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Forces Instagram notifications into one group, or into separate groups by notification category.",
+    "id": "6324b4f171b85a103041a840:1",
+    "legacy_id": 3549,
+    "metadata_status": "unverified",
+    "name": "Force notification grouping",
+    "options": [
+      {
+        "default": "all",
+        "description": "Choose whether every Instagram notification uses one notification group or separate groups by category.",
+        "key": "groupingMode",
+        "required": true,
+        "title": "Grouping mode",
+        "type": "kotlin.String",
+        "values": {
+          "all": "All notifications",
+          "category": "By category"
+        }
+      },
+      {
+        "default": false,
+        "description": "Print notification grouping decisions to logcat.",
+        "key": "debugLogging",
+        "required": false,
+        "title": "Debug logging",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "When grouping all notifications together, remove sort keys and conversation hints that can make Android or One UI split Instagram notifications anyway.",
+        "key": "strictAllGrouping",
+        "required": false,
+        "title": "Strict all-notifications grouping",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "426.0.0.37.68"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.3.3",
+    "source_id": "ce87c1fd9c9509db"
+  },
+  {
+    "bundle_id": "635de1700027026061be9477",
+    "compatiblePackages": {
+      "com.sauzask.nicoid": [
+        "6.49"
+      ]
+    },
+    "dependencies": [],
+    "description": "Morphe patch for nicoid. Supports the current NicoNico video service, dark mode, and Android 16, with additional feature improvements.",
+    "id": "635de1700027026061be9477:0",
+    "legacy_id": 3550,
+    "metadata_status": "verified",
+    "name": "nicoid Re",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.sauzask.nicoid",
+        "versions": [
+          "6.49"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0-dev.8",
+    "source_id": "39a7769dab96ea9f",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "np.com.nepalipatro": null
+    },
+    "dependencies": [],
+    "description": "Stops Nepali Patro's interstitial ads. Two edits to libapp.so: the ad-only host ads-delivery.nepalipatro.com.np is rewritten to an unresolvable .xx domain of the same length, and AdsBloc::featureInterstitialAdWithHtmlPopup - the single callee behind all 24 interstitial call sites - is forced down its existing 'popup blocked' return, so the full-screen ad page and its countdown never open. The host rewrite alone is not enough: the ad URLs are also cached in SharedPreferences under PREF_SLIDER_DATA, and whether to show the page at all comes from remote config, which the app rewrites on every launch. Pairs with Remove Ads, which stops the ad content itself and the AdMob interstitials.",
+    "id": "643e9ffeb004b22315c18a32:0",
+    "legacy_id": 3551,
+    "metadata_status": "verified",
+    "name": "Block Ad Server",
+    "options": [],
+    "packages": [
+      {
+        "name": "np.com.nepalipatro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.byairapp.android": null
+    },
+    "dependencies": [
+      "Enable Pro"
+    ],
+    "description": "Experimental companion patch that keeps byAir's online Pro gates open without forcing the crash-prone global entitlement refresh path.",
+    "id": "643e9ffeb004b22315c18a32:1",
+    "legacy_id": 3552,
+    "metadata_status": "verified",
+    "name": "Enable Online Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.byairapp.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": false
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.byairapp.android": null
+    },
+    "dependencies": [],
+    "description": "Suppresses the main byAir paywall, unlock banners, local user gating, and the notifications preferences \"All\" gate.",
+    "id": "643e9ffeb004b22315c18a32:2",
+    "legacy_id": 3553,
+    "metadata_status": "verified",
+    "name": "Enable Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.byairapp.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.hamropatro": [
+        "10.7.33"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables all ad serving in Hamro Patro by no-oping the native ad-placement resolver (HamroAdsPlacements). Every banner, native, interstitial, fullscreen and roadblock placement funnels through these leaf builders, so returning an empty list means no ad request is ever built for the bundled MAX, Pangle, ironSource, Facebook Audience, Unity, Vungle and Google Ads SDKs, and no mediation cycle ever starts. Re-verified on v10.7.33. Works on its own, and combines cleanly with Nai64's universal No Ads patch if you have it enabled - the two act on different layers, so together they also cover the Google ads_mobile_sdk layer that no SDK-level patch reaches.",
+    "id": "643e9ffeb004b22315c18a32:3",
+    "legacy_id": 3554,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.hamropatro",
+        "versions": [
+          "10.7.33"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "np.com.nepalipatro": null
+    },
+    "dependencies": [],
+    "description": "Disables both ad stacks in Nepali Patro: Google Mobile Ads (AdMob) and the first-party flutter_adserver HTML ad server. AdMob's method-channel entry point is short-circuited for every load and show call so no ad is ever created, and the WebView loaders the ad server uses are neutralised - loadData and loadDataWithBaseUrl become no-ops, while loadUrl only refuses the ads-delivery.nepalipatro.com.np host and data: URLs so normal in-app browsing keeps working.",
+    "id": "643e9ffeb004b22315c18a32:4",
+    "legacy_id": 3555,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "np.com.nepalipatro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.providelite.epicplay": null
+    },
+    "dependencies": [],
+    "description": "Blocks all ad display in Provide Lite by forcing the app's central ad gate (in libapp.so) to always take its 'skip' path. Two branch instructions are rewritten to unconditional skips: the global 'ad enabled' flag check (tbz -> b #skip) and the interstitial/rewarded cooldown gate (b.ge -> b #skip). Verified on v1.4.6 (Dart 3.7.0, arm64, obfuscated) — no ad-show invocation is reached.",
+    "id": "643e9ffeb004b22315c18a32:5",
+    "legacy_id": 3556,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.providelite.epicplay",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.ensembleai.scoutai": null
+    },
+    "dependencies": [],
+    "description": "Removes the PairIP LicenseActivity from AndroidManifest.xml.",
+    "id": "643e9ffeb004b22315c18a32:6",
+    "legacy_id": 3557,
+    "metadata_status": "verified",
+    "name": "Remove License Activity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ensembleai.scoutai",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.tgezginis.fricam": [
+        "1.6.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the PairIP LicenseActivity from AndroidManifest.xml so the app runs without a valid Play Store license (required because the APK is re-signed during patching).",
+    "id": "643e9ffeb004b22315c18a32:7",
+    "legacy_id": 3558,
+    "metadata_status": "verified",
+    "name": "Remove License Activity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tgezginis.fricam",
+        "versions": [
+          "1.6.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.jellywatch.app": [
+        "2.0.REV-1712"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the PairIP LicenseActivity from AndroidManifest.xml.",
+    "id": "643e9ffeb004b22315c18a32:8",
+    "legacy_id": 3559,
+    "metadata_status": "verified",
+    "name": "Remove License Activity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.jellywatch.app",
+        "versions": [
+          "2.0.REV-1712"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.jellywatch.tv": [
+        "1.0.REV-0570"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the PairIP LicenseActivity from AndroidManifest.xml.",
+    "id": "643e9ffeb004b22315c18a32:9",
+    "legacy_id": 3560,
+    "metadata_status": "verified",
+    "name": "Remove License Activity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.jellywatch.tv",
+        "versions": [
+          "1.0.REV-0570"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.nostalgiatv": [
+        "0.10.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the PairIP LicenseActivity from AndroidManifest.xml so the licensing layer can never launch the Play Store paywall, even if a license code path is reached.",
+    "id": "643e9ffeb004b22315c18a32:10",
+    "legacy_id": 3561,
+    "metadata_status": "verified",
+    "name": "Remove License Activity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.nostalgiatv",
+        "versions": [
+          "0.10.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.harwin.prismatica": null
+    },
+    "dependencies": [],
+    "description": "Removes the PairIP LicenseActivity from AndroidManifest.xml.",
+    "id": "643e9ffeb004b22315c18a32:11",
+    "legacy_id": 3562,
+    "metadata_status": "verified",
+    "name": "Remove License Activity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.harwin.prismatica",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.providelite.epicplay": null
+    },
+    "dependencies": [],
+    "description": "Removes the PairIP LicenseActivity and LicenseContentProvider from AndroidManifest.xml and the com.android.vending.CHECK_LICENSE permission, so the app runs without a valid Play Store license (required because the APK is re-signed during patching).",
+    "id": "643e9ffeb004b22315c18a32:12",
+    "legacy_id": 3563,
+    "metadata_status": "verified",
+    "name": "Remove License Activity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.providelite.epicplay",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.ensembleai.scoutai": null
+    },
+    "dependencies": [],
+    "description": "Bypasses the PairIP Google Play Licensing check so Atlas Photo runs without a valid Play Store license.",
+    "id": "643e9ffeb004b22315c18a32:13",
+    "legacy_id": 3564,
+    "metadata_status": "verified",
+    "name": "Remove License Check",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ensembleai.scoutai",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.harwin.prismatica": null
+    },
+    "dependencies": [],
+    "description": "Bypasses the PairIP Google Play Licensing check so the app runs without a valid Play Store license.",
+    "id": "643e9ffeb004b22315c18a32:14",
+    "legacy_id": 3565,
+    "metadata_status": "verified",
+    "name": "Remove License Check",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.harwin.prismatica",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.harwin.prismatica": null
+    },
+    "dependencies": [],
+    "description": "Patches the procedural GLSL shader in libharwin_native.so to disable the \"PRISMATICA\" watermark in the video player and exported videos.",
+    "id": "643e9ffeb004b22315c18a32:15",
+    "legacy_id": 3566,
+    "metadata_status": "verified",
+    "name": "Remove Watermark",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.harwin.prismatica",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.tgezginis.fricam": [
+        "1.6.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks the Fricam Edge feature for free. Edge is a self-hosted companion sidecar that runs beside your Frigate NVR and streams low-latency + AI-detection frames into the app over WebRTC. Unlike Pro there is no local persistence for Edge: on every RevenueCat sync the app recomputes the \"fricam_edge\" entitlement and publishes it into an in-memory StateFlow that drives the pairing/settings/diagnostics UI. The patch forces that published flag true so the Edge UI and the self-hosted (edge-local / Frigate-direct) routes open without a subscription. Note: Fricam's managed Cloudflare relay (edge-remote, monthly allowance) is authenticated server-side and is not bypassed - run the open-source sidecar yourself to get the full value.",
+    "id": "643e9ffeb004b22315c18a32:16",
+    "legacy_id": 3567,
+    "metadata_status": "verified",
+    "name": "Unlock Edge",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tgezginis.fricam",
+        "versions": [
+          "1.6.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.tgezginis.fricam": [
+        "1.6.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all Fricam Pro features for free. Fricam's Pro state terminates in a plain SharedPreferences boolean (pro_unlocked in fricam_billing) written by a single PurchaseManager writer; every UI feature gate re-reads it via the static master ProGate. Fingerprints anchor on the stable prefs keys + signatures, so they survive the R8 class/method renames between 1.3.x and 1.4.0.1. The patch forces the RevenueCat entitlement check and the master gate to always return true (layered P1+P2), hardens the persist path so no refresh can downgrade, and neutralizes the PairIP Play Store license check that gates the app on launch.",
+    "id": "643e9ffeb004b22315c18a32:17",
+    "legacy_id": 3568,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tgezginis.fricam",
+        "versions": [
+          "1.6.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.jellywatch.app": [
+        "2.0.REV-1712"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all premium features and shop items in JellyWatch.",
+    "id": "643e9ffeb004b22315c18a32:18",
+    "legacy_id": 3569,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.jellywatch.app",
+        "versions": [
+          "2.0.REV-1712"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.jellywatch.tv": [
+        "1.0.REV-0570"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all premium features in JellyWatch TV. Premium entitlement is server-verified against verify.jellywatch.app and surfaced to the UI as a PremiumStatus data class (isPremium = first boolean field); the patch forces that field to true and neutralizes the PairIP Play Store license check that gates the app on launch.",
+    "id": "643e9ffeb004b22315c18a32:19",
+    "legacy_id": 3570,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.jellywatch.tv",
+        "versions": [
+          "1.0.REV-0570"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.bytecaretech.merokarobar": null
+    },
+    "dependencies": [],
+    "description": "Patches Dart AOT-compiled libapp.so to unlock all premium features. Forces hasPremiumAccess and isPaidUser to always return true by NOPing their ARM64 conditional branch instructions.",
+    "id": "643e9ffeb004b22315c18a32:20",
+    "legacy_id": 3571,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.bytecaretech.merokarobar",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.rawcam.app": [
+        "1.4",
+        "1.4.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces the premium entitlement in Native Camera. Premium status is a local 'is_premium' SharedPreferences flag (in the 'rawcam_prefs' file) read on cold start into a StateFlow. Unlocks RAW DNG, 10-bit/HLG/UHDR video, custom boosted modes and the sub-40-Mbps bitrate cap. It also neutralizes PairIP's Play Store licensing (fired from both Application.attachBaseContext and LicenseContentProvider.onCreate, so a repacked copy no longer gets bounced to the Play Store paywall at launch).",
+    "id": "643e9ffeb004b22315c18a32:21",
+    "legacy_id": 3572,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rawcam.app",
+        "versions": [
+          "1.4",
+          "1.4.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.nostalgiatv": [
+        "0.10.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks every client-side NostalgiaTV Pro feature by pinning the single pro state authority to true, and removes the PairIP Play Store license/paywall wrapper. All pro gating reads one StateFlow (ProStatusRepository.isProUser) that is written through one setter; the setter's argument is forced to true and the flow's initial seed is flipped to true, so the flag can never be revoked. That covers the 10-channel lineup cap, Docker companion link, on-demand library, custom themes, simulated commercials, channel editor, multiple profiles and player controls. PairIP's license check, response handling, paywall launch and error dialog are stubbed out so the app never redirects to the Play Store on launch.",
+    "id": "643e9ffeb004b22315c18a32:22",
+    "legacy_id": 3573,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.nostalgiatv",
+        "versions": [
+          "0.10.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.providelite.epicplay": null
+    },
+    "dependencies": [],
+    "description": "Patches the Dart AOT-compiled libapp.so to unlock all premium / VIP features. Forces the VIP state to always be true by rewriting the constant-pool loads (add xN, x22, #0x30 -> add xN, x22, #0x20) inside the cacheIsVipKey readers (getter + 3 callers). Verified on v1.4.6 (Dart 3.7.0, arm64, obfuscated) — flutter.cacheIsVipKey=true on device.",
+    "id": "643e9ffeb004b22315c18a32:23",
+    "legacy_id": 3574,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.providelite.epicplay",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.bolpatranepal.axios": null
+    },
+    "dependencies": [],
+    "description": "Patches the Dart AOT-compiled libapp.so of Bolpatra Nepal to skip the login screen, unlock premium/paid features, and make the 7-day free trial permanent. LoginManager::isNotValidatedUser is forced to always return false, lifting the Free-plan paywall and the trial-expiry gate: the trial expiry is computed client-side from the server plan_end_date into statics (isPaid = (plan_end_date - now).inDays <= 0) that only isNotValidatedUser reads, so with it pinned to false the free trial never expires and premium features stay unlocked forever (PPMO/EGP contact redirect, hidden works tab, document download and gallery gates). The isActive() result is left honest so the app stops attaching the invalid Authorization header, and the four login redirects (notice View, document download, gallery, subscription purchase) are bypassed at the branch level so actions run straight through without sending the user to the login page. Verified on v1.1.33 (Dart 3.9.2, arm64, non-obfuscated).",
+    "id": "643e9ffeb004b22315c18a32:24",
+    "legacy_id": 3575,
+    "metadata_status": "verified",
+    "name": "Unlock Premium, Skip Login & Make Free Trial Permanent",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.bolpatranepal.axios",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.ensembleai.scoutai": null
+    },
+    "dependencies": [],
+    "description": "Forces Atlas Photo's Hermes (React Native) JS runtime to treat every session as a Pro subscriber by patching the setIsProMember reducer so its isPro field is always truthy. Unlocks all Pro features and removes the Pro paywall.",
+    "id": "643e9ffeb004b22315c18a32:25",
+    "legacy_id": 3576,
+    "metadata_status": "verified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ensembleai.scoutai",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  }
+]
