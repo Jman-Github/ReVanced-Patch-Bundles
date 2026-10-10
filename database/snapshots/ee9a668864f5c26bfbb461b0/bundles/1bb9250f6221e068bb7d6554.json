@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-06-12T19:32:17Z",
+  "description": "## 1.0.0 (2026-06-12)\n\n### ✨ New Features\n\n* add Bypass Session Expiry patch ([5e120e3](https://github.com/lyyako/realme-link-patches/commit/5e120e33d6ce52d62306a25dd76038f5dc6c3618))\n",
+  "download_url": "https://github.com/lyyako/realme-link-patches/releases/download/v1.0.0/patches-1.0.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:7c8fbd64e96c4bdd6843513a7a57f85841f332336c810ca4c416fc0697db8375",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "7c8fbd64e96c4bdd6843513a7a57f85841f332336c810ca4c416fc0697db8375",
+  "id": "1bb9250f6221e068bb7d6554",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Flyyako%2Frealme-link-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Flyyako%2Frealme-link-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 64,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.realme.link"
+  ],
+  "patch_count": 1,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.0.0",
+  "patch_refresh_attempted_at": "2026-10-10T16:47:44.974312077Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:7c8fbd64e96c4bdd6843513a7a57f85841f332336c810ca4c416fc0697db8375",
+  "release_status": "unverified",
+  "release_url": "https://github.com/lyyako/realme-link-patches/releases/tag/v1.0.0",
+  "signature_download_url": null,
+  "source_id": "c86fff5167865a7b",
+  "version": "v1.0.0"
+}

@@ -1,0 +1,47 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev",
+    "latest"
+  ],
+  "created_at": "2026-10-04T14:54:08Z",
+  "description": "## [2.2.0-dev.1](https://github.com/riky-dev/morphe-patches/compare/v2.1.0...v2.2.0-dev.1) (2026-10-04)\n\n### ✨ New Features\n\n* **config:** verify APKPure package identifiers and fix meteo3b slug ([30e4d5b](https://github.com/riky-dev/morphe-patches/commit/30e4d5bc121491ceb4e606d4fd54b99313668c61))\n",
+  "download_url": "https://github.com/riky-dev/morphe-patches/releases/download/v2.2.0-dev.1/patches-2.2.0-dev.1.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:60deaa757c29e5661de5c1385f68d92c3bcad525eac7282b469a2fea33cfcb05",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "60deaa757c29e5661de5c1385f68d92c3bcad525eac7282b469a2fea33cfcb05",
+  "id": "2e568a23728e69b4123878f9",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Friky-dev%2Fmorphe-patches&version=latest&channel=prerelease",
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Friky-dev%2Fmorphe-patches&version=latest&channel=any"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 112,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.Meteosolutions.Meteo3b",
+    "com.frontrow.vlog",
+    "com.lemon.lvoverseas",
+    "com.mahersafadi.electron",
+    "de.komoot.android"
+  ],
+  "patch_count": 10,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v2.2.0-dev.1",
+  "patch_refresh_attempted_at": "2026-10-10T16:47:53.209004546Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:60deaa757c29e5661de5c1385f68d92c3bcad525eac7282b469a2fea33cfcb05",
+  "release_status": "unverified",
+  "release_url": "https://github.com/riky-dev/morphe-patches/releases/tag/v2.2.0-dev.1",
+  "signature_download_url": null,
+  "source_id": "28aafed32185ad0f",
+  "version": "v2.2.0-dev.1"
+}

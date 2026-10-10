@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-04-20T14:52:25Z",
+  "description": "Morphe patches bundle. Add source: https://morphe.software/add-source?github=vladon/morphe-patches-navi&name=Yandex+Navigator+patches",
+  "download_url": "https://github.com/vladon/morphe-patches-navi/releases/download/v1.0.6/patches-1.0.6.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:cc9a90aba7f4a7423c3e6d9c88b9ea32cdd881838eab5141ea0df1b62d03d2eb",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "cc9a90aba7f4a7423c3e6d9c88b9ea32cdd881838eab5141ea0df1b62d03d2eb",
+  "id": "da6b4147964e0a903fe19f56",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fvladon%2Fmorphe-patches-navi&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fvladon%2Fmorphe-patches-navi&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 519,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "ru.yandex.yandexnavi"
+  ],
+  "patch_count": 3,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.0.6",
+  "patch_refresh_attempted_at": "2026-10-10T16:48:58.480034863Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:cc9a90aba7f4a7423c3e6d9c88b9ea32cdd881838eab5141ea0df1b62d03d2eb",
+  "release_status": "unverified",
+  "release_url": "https://github.com/vladon/morphe-patches-navi/releases/tag/v1.0.6",
+  "signature_download_url": null,
+  "source_id": "42897bef2cd06f3b",
+  "version": "v1.0.6"
+}
