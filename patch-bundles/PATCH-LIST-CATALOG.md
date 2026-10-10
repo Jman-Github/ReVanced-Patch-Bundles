@@ -88,7 +88,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Bufferk](#-bufferk-bundle-patch-list) | 13 | 7 | Generated |
 | [Franticg33k](#-franticg33k-bundle-patch-list) | 26 | 13 | Generated |
 | [Gryphous-Morphe](#-gryphous-morphe-bundle-patch-list) | 6 | 2 | Generated |
-| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 97 | 42 | Generated |
+| [Okish-Morphe](#-okish-morphe-bundle-patch-list) | 100 | 43 | Generated |
 | [Xhehab](#-xhehab-bundle-patch-list) | 14 | 13 | Generated |
 | [Nai64](#-nai64-bundle-patch-list) | 5 | 1 | Generated |
 | [Morphe-Google](#-morphe-google-bundle-patch-list) | 2 | 1 | Generated |
@@ -842,7 +842,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Okish-Morphe Bundle Patch List:
 [📦 Okish-Morphe-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-okish-morphe-patches-bundle-morphe)
 <details>
-<summary><b>Okish-Morphe</b> - 97 patches, 42 apps</summary>
+<summary><b>Okish-Morphe</b> - 100 patches, 43 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -917,6 +917,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Prince of Persia: Anti-tamper bypass``` | ```The game has a built-in self-check that shuts it down if it detects the app was modified. This patch quietly turns that check off so the game can start.``` | ```Prince of Persia: The Lost Crown``` | ```1.1.9``` |
 | ```Prince of Persia: Full Game Unlock Engine``` | ```Adds a tiny hidden helper into the game. About 30 seconds after the game starts, it presses the game's own secret 'unlock full game' button — no purchases needed.``` | ```Prince of Persia: The Lost Crown``` | ```1.1.9``` |
 | ```Prince of Persia: Full Game Unlock Trigger``` | ```Tells the game to start that hidden helper the moment the app opens, so the unlock happens automatically.``` | ```Prince of Persia: The Lost Crown``` | ```1.1.9``` |
+| ```Free Store``` | ```Tap any shop item to get it free. No payment, no Google Play popup.``` | ```Progressbar95``` | ```1.1110``` |
+| ```License Fix``` | ```Stops license checks from blocking the game on patched installs.``` | ```Progressbar95``` | ```1.1110``` |
+| ```No Ads + Free Rewards``` | ```Blocks all ads and gives reward-ad gifts instantly, no video needed.``` | ```Progressbar95``` | ```1.1110``` |
 | ```Rodeo Stampede Ad-Free (Ads blocked + instant rewards)``` | ```Blocks banner/app-open/native ads and turns rewarded + interstitial ads into instant no-ad events so the game never fetches or displays ads.``` | ```Rodeo Stampede: Sky Zoo Safari``` | ```4.25.0``` |
 | ```Rodeo Stampede Free Purchase``` | ```Spoofs in-app purchases as instantly successful at the Yodo1 purchase funnel.``` | ```Rodeo Stampede: Sky Zoo Safari``` | ```4.25.0``` |
 | ```Shooty Skies Ad-Free (Ads blocked + instant rewards)``` | ```Blocks banner, interstitial, app-open and native ads, and turns rewarded videos into instant rewards — nothing is ever fetched or displayed.``` | ```Shooty Skies``` | ```3.441.100101``` |

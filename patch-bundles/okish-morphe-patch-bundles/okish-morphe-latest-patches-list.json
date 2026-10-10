@@ -1,5 +1,5 @@
 {
-    "version": "v1.41.1-dev.1",
+    "version": "v1.42.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -641,6 +641,30 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
+                    "appIconColor": "#00ACC1",
+                    "name": "Progressbar95",
+                    "packageName": "com.spookyhousestudios.progressbar95",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1110"
+                        }
+                    ],
+                    "versions": [
+                        "1.1110"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Tap any shop item to get it free. No payment, no Google Play popup.",
+            "name": "Free Store",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
                     "appIconColor": "#6D9B39",
                     "name": "Swamp Attack",
                     "packageName": "com.outfit7.movingeye.swampattack",
@@ -1147,6 +1171,30 @@
             "compatiblePackages": [
                 {
                     "apkFileType": "XAPK",
+                    "appIconColor": "#00ACC1",
+                    "name": "Progressbar95",
+                    "packageName": "com.spookyhousestudios.progressbar95",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1110"
+                        }
+                    ],
+                    "versions": [
+                        "1.1110"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stops license checks from blocking the game on patched installs.",
+            "name": "License Fix",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
                     "appIconColor": "#6200EE",
                     "name": "Lumina Walls",
                     "packageName": "com.lumina.wallpapers",
@@ -1261,6 +1309,30 @@
             "dependencies": [],
             "description": "Bypasses the Pairip Play Store license check so the app launches normally.",
             "name": "Missiles License Bypass",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#00ACC1",
+                    "name": "Progressbar95",
+                    "packageName": "com.spookyhousestudios.progressbar95",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.1110"
+                        }
+                    ],
+                    "versions": [
+                        "1.1110"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Blocks all ads and gives reward-ad gifts instantly, no video needed.",
+            "name": "No Ads + Free Rewards",
             "options": []
         },
         {
