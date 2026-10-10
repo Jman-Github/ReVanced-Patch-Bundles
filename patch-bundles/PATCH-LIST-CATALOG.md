@@ -925,9 +925,9 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Free Store``` | ```Everything in the shop is granted instantly and free — double coins, more gifts and the any-purchase perks — with no Google Play payment screen, no account and nothing charged.``` | ```Swamp Attack``` | ```4.8.7.0``` |
 | ```Instant Rewards``` | ```Rewarded videos give their reward instantly — no ad ever plays. Free revive, double coins, free items, etc. all work without watching anything.``` | ```Swamp Attack``` | ```4.8.7.0``` |
 | ```Remove Ads``` | ```Forced ads are gone for good — interstitials never load or show, even offline and regardless of server settings. Rewarded videos you choose to watch still work.``` | ```Swamp Attack``` | ```4.8.7.0``` |
-| ```Swamp Attack 2: Instant Rewarded Ads``` | ```Watch-ad offers grant their reward instantly with no ad. Forced interstitials stay gone.``` | ```Swamp Attack 2``` | ```1.3.9``` |
-| ```Swamp Attack 2: Remove Ads``` | ```Removes forced ads. No more ads between levels, no banners.``` | ```Swamp Attack 2``` | ```1.3.9``` |
-| ```Swamp Attack 2: Unlimited Currency``` | ```Never run out of coins, gems or other resources. Buying things never lowers your balance. Note: ignore the coins/diamonds value shown — even if it shows less than the item price, just tap the item and it will be granted.``` | ```Swamp Attack 2``` | ```1.3.9``` |
+| ```Swamp Attack 2: Instant Rewarded Ads``` | ```Watch-ad offers grant their reward instantly with no ad. Forced interstitials stay gone.``` | ```Swamp Attack 2``` | ```1.3.10``` |
+| ```Swamp Attack 2: Remove Ads``` | ```Removes forced ads. No more ads between levels, no banners.``` | ```Swamp Attack 2``` | ```1.3.10``` |
+| ```Swamp Attack 2: Unlimited Currency``` | ```Never run out of coins, gems or other resources. Buying things never lowers your balance. Note: ignore the coins/diamonds value shown — even if it shows less than the item price, just tap the item and it will be granted.``` | ```Swamp Attack 2``` | ```1.3.10``` |
 | ```Swift Backup Premium Unlock``` | ```Unlocks all Premium features.``` | ```Swift Backup``` | ```5.1.0``` |
 | ```Swift Backup Tamper Protection``` | ```Stops the app from closing itself on patched installs.``` | ```Swift Backup``` | ```5.1.0``` |
 | ```Swift Backup Web Login``` | ```Makes Google sign-in work for connecting cloud accounts.``` | ```Swift Backup``` | ```5.1.0``` |
