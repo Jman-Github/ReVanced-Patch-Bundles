@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-10-09T18:30:21Z",
+  "description": "## [2.11.2](https://github.com/anxyis/anxy-patches/compare/v2.11.1...v2.11.2) (2026-10-09)\n\n\n### Bug Fixes\n\n* **deprotect:** only mark matching classes mutable in license call strip ([fa8def5](https://github.com/anxyis/anxy-patches/commit/fa8def5a549564c8ca3669d1870836d8e889c440))\n\n\n\n",
+  "download_url": "https://github.com/anxyis/anxy-patches/releases/download/v2.11.2/patches-2.11.2.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:c6d64a68d6c33d140e26dcdbbc08f92a9a6348a5e60a3fe9a290706f9d21ef9c",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "c6d64a68d6c33d140e26dcdbbc08f92a9a6348a5e60a3fe9a290706f9d21ef9c",
+  "id": "2b8f1aadb311c36c7781eb69",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fanxyis%2Fanxy-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fanxyis%2Fanxy-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 1926,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.alightcreative.motion"
+  ],
+  "patch_count": 16,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v2.11.2",
+  "patch_refresh_attempted_at": "2026-10-10T17:04:04.384652320Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:c6d64a68d6c33d140e26dcdbbc08f92a9a6348a5e60a3fe9a290706f9d21ef9c",
+  "release_status": "available",
+  "release_url": "https://github.com/anxyis/anxy-patches/releases/tag/v2.11.2",
+  "signature_download_url": "N/A",
+  "source_id": "741a57ea30b25cb7",
+  "version": "v2.11.2"
+}

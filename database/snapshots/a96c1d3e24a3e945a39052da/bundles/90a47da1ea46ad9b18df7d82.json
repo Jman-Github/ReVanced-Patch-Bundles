@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-07-24T08:12:47Z",
+  "description": "## [1.1.0](https://github.com/ciraolone/morphe-watch-later/compare/v1.0.0...v1.1.0) (2026-07-24)\n\n### ✨ New Features\n\n* add link navigation, clock icon, Later label and position before profile ([80bff2f](https://github.com/ciraolone/morphe-watch-later/commit/80bff2fb0458812c035613c8dd9b875fa4b7bb6b))\n",
+  "download_url": "https://github.com/ciraolone/morphe-watch-later/releases/download/v1.1.0/patches-1.1.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:12a2e65f2da4064c1217b3cc8f771117f994e2541d663cb6bcfa15c0b8dbc65e",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "12a2e65f2da4064c1217b3cc8f771117f994e2541d663cb6bcfa15c0b8dbc65e",
+  "id": "90a47da1ea46ad9b18df7d82",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fciraolone%2Fmorphe-watch-later&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fciraolone%2Fmorphe-watch-later&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 332,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.google.android.youtube"
+  ],
+  "patch_count": 1,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.1.0",
+  "patch_refresh_attempted_at": "2026-10-10T17:08:06.120510429Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:12a2e65f2da4064c1217b3cc8f771117f994e2541d663cb6bcfa15c0b8dbc65e",
+  "release_status": "unverified",
+  "release_url": "https://github.com/ciraolone/morphe-watch-later/releases/tag/v1.1.0",
+  "signature_download_url": null,
+  "source_id": "d514c5d084968393",
+  "version": "v1.1.0"
+}

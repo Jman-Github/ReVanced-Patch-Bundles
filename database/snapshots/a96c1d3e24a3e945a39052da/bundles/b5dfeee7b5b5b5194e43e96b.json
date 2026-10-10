@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev",
+    "latest"
+  ],
+  "created_at": "2026-09-09T12:27:15Z",
+  "description": "## [1.1.0-dev.1](https://github.com/WalkTheEarth/morphe-ytvr-patches/compare/v1.0.0...v1.1.0-dev.1) (2026-09-09)\n\n### 🐛 Bug Fixes\n\n* Close the authorities set and import the GmsCore constants ([8f5394c](https://github.com/WalkTheEarth/morphe-ytvr-patches/commit/8f5394c4b6257b8f502bf7788f4e880dc0004b12))\n\n### ✨ New Features\n\n* Add GmsCore support patch and strengthen viewer discretion fix ([b0f0462](https://github.com/WalkTheEarth/morphe-ytvr-patches/commit/b0f0462beb2c1afd4d21e309343a556a12316884))\n",
+  "download_url": "https://github.com/WalkTheEarth/morphe-ytvr-patches/releases/download/v1.1.0-dev.1/patches-1.1.0-dev.1.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:169bc796ee8dd1ae76e4f7c9d2ea473caf010c8381c94a4defbf1d33a6a877b8",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "169bc796ee8dd1ae76e4f7c9d2ea473caf010c8381c94a4defbf1d33a6a877b8",
+  "id": "b5dfeee7b5b5b5194e43e96b",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FWalkTheEarth%2Fmorphe-ytvr-patches&version=latest&channel=prerelease",
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FWalkTheEarth%2Fmorphe-ytvr-patches&version=latest&channel=any"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 434,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.google.android.apps.youtube.vr.oculus"
+  ],
+  "patch_count": 7,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.1.0-dev.1",
+  "patch_refresh_attempted_at": "2026-10-10T17:08:15.907870916Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:169bc796ee8dd1ae76e4f7c9d2ea473caf010c8381c94a4defbf1d33a6a877b8",
+  "release_status": "unverified",
+  "release_url": "https://github.com/WalkTheEarth/morphe-ytvr-patches/releases/tag/v1.1.0-dev.1",
+  "signature_download_url": null,
+  "source_id": "bceec0b3210cdffe",
+  "version": "v1.1.0-dev.1"
+}

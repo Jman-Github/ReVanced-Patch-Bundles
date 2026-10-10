@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-10-10T17:31:32Z",
+  "description": "### Highlights & Critical Fixes\r\n\r\n#### Fixed Startup Crash on Pixel 9 Pro, 9 Pro XL & Pixel 8 Pro (`knq` VerifyError)\r\n- **Root Cause**: In the 10x Viewfinder Quick Zoom patch, register `v5` was overwritten with an object reference (`Lyqc`), clobbering the primitive `Float` (`2.0f`) expected by `gei.o(FLabjo;)V`. This caused Android ART's verifier to reject class `knq` with a fatal `java.lang.VerifyError` during camera startup.\r\n- **Resolution**: Rebuilt `ZoomControllers.dex` with safe register routing (`v11`), ensuring primitive float `v5` is intact. Applied the same register protection to `knk` (Pixel 7 Pro).\r\n\r\n#### Preserved Stock Tensor G4 Capabilities on Pixel 9 Series\r\n- Ensured stock `vku.g` and `vku.f` hardware capability flags are preserved on Pixel 9 and Pixel 9 Pro devices to prevent unintended fallback to Tensor G3 profiles.\r\n\r\n#### Fixed 64-bit Pointer Register Pair in Camera Looks (`mtt.K`)\r\n- Resolved a register overlap in `mtt.K` (`ShotParams_tomte_type_set`) by moving the look ID scratch register to `v15`, ensuring the 64-bit wide register pair (`v6:v7`) remains uncorrupted.\r\n\r\n#### Viewfinder & Quick Access Null-Safety Hardening\r\n- Removed legacy `EvCompView.onMeasure` bytecode hook that triggered verification conflicts on Android 15.\r\n- Added null-safety checks across Viewfinder Quick Access and Camera Looks initialization paths to prevent startup NPEs.\r\n\r\n---\r\n\r\n### Included Patches\r\n- **Camera Looks Backport**: Unlocks Pixel 9 / Pixel 10 real-time and post-capture Film, Classic, and Warm styles.\r\n- **Viewfinder Quick Access Controls**: Direct EV, WB, and Focus sliders on the main viewfinder.\r\n- **10x Viewfinder Quick Zoom**: Discrete 10x button on Photo, Night Sight, and Video modes for Pro/telephoto models.\r\n- **Permanent Portrait Mode Fix**: Telephoto portrait pipeline fix for supported devices.\r\n- **Pixel 10 Photo Saving Fix**: Fixes shot processing and crash prevention during rapid capture.\r\n- **Pro Manual Controls**: Full shutter speed, ISO, and manual focus toggle.\r\n- **Pixel Camera Creator Suite**: Extended creative tools and settings.\r\n- **Pixel Camera Clone (Non-Root)**: Allows parallel installation alongside the stock Pixel Camera app.\r\n\r\n---\r\n\r\n### Downloads\r\n- **Morphe Patch Bundle**: `morphe-patches-pixelcamera-1.0.5.mpp`\r\n- **Source Code**: Available on `main` branch (Tag: `1.0.5`)\r\n",
+  "download_url": "https://github.com/Akshayykadam/Pixel-Camera/releases/download/1.0.5/morphe-patches-pixelcamera-1.0.5.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": null,
+  "extraction_status": "unverified",
+  "extraction_terminal": false,
+  "file_hash": null,
+  "id": "8ce036e4fa61ed4012e9fa24",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FAkshayykadam%2FPixel-Camera&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FAkshayykadam%2FPixel-Camera&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 8449,
+  "metadata_status": "stale",
+  "need_patches_update": true,
+  "packages": [
+    "com.google.android.GoogleCamera"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "1.0.4",
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_config_hash": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "provider_digest": "sha256:c62fdd0c28b7b97d30b1f9687f305d89b5afb1fc8a743834f40e5e8207c3e8fd",
+  "release_status": "available",
+  "release_url": "https://github.com/Akshayykadam/Pixel-Camera/releases/tag/1.0.5",
+  "signature_download_url": "N/A",
+  "source_id": "9ad0ec934e3016db",
+  "version": "1.0.5"
+}
