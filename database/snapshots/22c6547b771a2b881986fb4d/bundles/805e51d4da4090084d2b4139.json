@@ -1,0 +1,44 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-09-29T10:51:04Z",
+  "description": "**Full Changelog**: https://github.com/feixiangdao/letterboxd-stremio-nuvio-morphe-patch/compare/v0.2.1...v0.2.2",
+  "download_url": "https://github.com/feixiangdao/letterboxd-stremio-nuvio-morphe-patch/releases/download/v0.2.2/patches-0.2.2.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:98d33c74fcf1f9ef8382fc089c51ce05718aeff8bb7363863d71e06697a62f08",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "98d33c74fcf1f9ef8382fc089c51ce05718aeff8bb7363863d71e06697a62f08",
+  "id": "805e51d4da4090084d2b4139",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Ffeixiangdao%2Fletterboxd-stremio-nuvio-morphe-patch&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Ffeixiangdao%2Fletterboxd-stremio-nuvio-morphe-patch&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 4556,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.douban.frodo",
+    "com.letterboxd.letterboxd"
+  ],
+  "patch_count": 3,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v0.2.2",
+  "patch_refresh_attempted_at": "2026-10-10T15:19:38.317747115Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:98d33c74fcf1f9ef8382fc089c51ce05718aeff8bb7363863d71e06697a62f08",
+  "release_status": "unverified",
+  "release_url": "https://github.com/feixiangdao/letterboxd-stremio-nuvio-morphe-patch/releases/tag/v0.2.2",
+  "signature_download_url": null,
+  "source_id": "2ec81aae4eb460a5",
+  "version": "v0.2.2"
+}

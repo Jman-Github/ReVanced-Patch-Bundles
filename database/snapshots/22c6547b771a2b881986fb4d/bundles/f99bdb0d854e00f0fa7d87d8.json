@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev",
+    "latest"
+  ],
+  "created_at": "2026-08-18T12:02:44Z",
+  "description": "# [1.7.0-dev.1](https://github.com/dumb-software/T2C-App-Patch-Morphe/compare/v1.6.0...v1.7.0-dev.1) (2026-08-18)\n\n\n### Features\n\n* **patches:** add custom map styles, security bypass, and granular endpoints ([2de2237](https://github.com/dumb-software/T2C-App-Patch-Morphe/commit/2de2237667a59af532107262a8bc8b0c30a8a91d))\n",
+  "download_url": "https://github.com/dumb-software/T2C-App-Patch-Morphe/releases/download/v1.7.0-dev.1/patches-1.7.0-dev.1.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:a86d7918f563db0204158c34b44fc5eb79ac49704f357a7eecdaa3c34487b551",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "a86d7918f563db0204158c34b44fc5eb79ac49704f357a7eecdaa3c34487b551",
+  "id": "f99bdb0d854e00f0fa7d87d8",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fdumb-software%2FT2C-App-Patch-Morphe&version=latest&channel=prerelease",
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fdumb-software%2FT2C-App-Patch-Morphe&version=latest&channel=any"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 577,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "fr.t2c.t2c"
+  ],
+  "patch_count": 12,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.7.0-dev.1",
+  "patch_refresh_attempted_at": "2026-10-10T15:21:32.089552839Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:a86d7918f563db0204158c34b44fc5eb79ac49704f357a7eecdaa3c34487b551",
+  "release_status": "unverified",
+  "release_url": "https://github.com/dumb-software/T2C-App-Patch-Morphe/releases/tag/v1.7.0-dev.1",
+  "signature_download_url": null,
+  "source_id": "5e4a61e1dcb41d3a",
+  "version": "v1.7.0-dev.1"
+}
