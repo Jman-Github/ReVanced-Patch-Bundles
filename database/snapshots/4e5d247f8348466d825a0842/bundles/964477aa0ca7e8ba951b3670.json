@@ -1,0 +1,46 @@
+{
+  "bundle_type": "ReVanced:V3",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2024-01-09T21:55:58Z",
+  "description": "# [1.2.0](https://github.com/xrogers/revanced-patches-galaxy/compare/v1.1.0...v1.2.0) (2024-01-09)\n\n\n### Bug Fixes\n\n* **galaxy:** Fix compile errors ([562d370](https://github.com/xrogers/revanced-patches-galaxy/commit/562d3703379dd5e7a1d8af9cba1073114f26fe0b))\n\n\n### Features\n\n* **galaxy:** Remove sharedUserId attribute to provide ability to install other galaxy apps ([901aa48](https://github.com/xrogers/revanced-patches-galaxy/commit/901aa4837ff02735ca3da2eebaa46764d7bbe76f))\n\n\n\n",
+  "download_url": "https://github.com/xrogers/revanced-patches-galaxy/releases/download/v1.2.0/revanced-patches-1.2.0.jar",
+  "ecosystem": "revanced",
+  "extracted_provider_digest": null,
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "a9be9d05e8a2955f3254f25cb8e8129e8bf6e8646a0e4c02dd34797beae2b652",
+  "id": "964477aa0ca7e8ba951b3670",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fxrogers%2Frevanced-patches-galaxy&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fxrogers%2Frevanced-patches-galaxy&version=latest&channel=stable"
+  },
+  "integrations": {
+    "url": "https://github.com/ReVanced/revanced-integrations/releases/download/v1.16.0/revanced-integrations-1.16.0.apk",
+    "version": "v1.16.0"
+  },
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 346,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.samsung.android.app.watchmanager"
+  ],
+  "patch_count": 2,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.2.0",
+  "patch_refresh_attempted_at": "2026-10-10T15:22:03.907260919Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.revanced:revanced-patcher:19.3.1",
+  "provider_digest": null,
+  "release_status": "available",
+  "release_url": "https://github.com/xrogers/revanced-patches-galaxy/releases/tag/v1.2.0",
+  "signature_download_url": null,
+  "source_id": "8e212a96833cd5c5",
+  "version": "v1.2.0"
+}

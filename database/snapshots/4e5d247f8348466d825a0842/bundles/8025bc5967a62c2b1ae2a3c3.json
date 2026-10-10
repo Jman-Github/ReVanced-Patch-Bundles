@@ -1,0 +1,44 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-10-09T04:43:12Z",
+  "description": "## [1.1.0](https://github.com/rahaaatul/morphe-patches/compare/v1.0.1...v1.1.0) (2026-10-09)\n\n### ✨ New Features\n\n* add ProtonVPN patches, fix PrivacyKit v3.x fingerprint mismatches ([1f648f8](https://github.com/rahaaatul/morphe-patches/commit/1f648f809d305e0412748bac2cdfd0a9f51237b9))\n* ProtonVPN premium ([4fd3f02](https://github.com/rahaaatul/morphe-patches/commit/4fd3f028425b9eed767802e44b30044b03737e9e))\n",
+  "download_url": "https://github.com/rahaaatul/morphe-patches/releases/download/v1.1.0/patches-1.1.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:02b5d961df0c3d450a849745e5462ae0f504736d098d4b5a1689a244286b9f1e",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "02b5d961df0c3d450a849745e5462ae0f504736d098d4b5a1689a244286b9f1e",
+  "id": "8025bc5967a62c2b1ae2a3c3",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Frahaaatul%2Fmorphe-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Frahaaatul%2Fmorphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 4544,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "ch.protonvpn.android",
+    "com.sal.privacykit"
+  ],
+  "patch_count": 2,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.1.0",
+  "patch_refresh_attempted_at": "2026-10-10T15:20:50.465458906Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:02b5d961df0c3d450a849745e5462ae0f504736d098d4b5a1689a244286b9f1e",
+  "release_status": "available",
+  "release_url": "https://github.com/rahaaatul/morphe-patches/releases/tag/v1.1.0",
+  "signature_download_url": "N/A",
+  "source_id": "f1279b78b6e94a88",
+  "version": "v1.1.0"
+}

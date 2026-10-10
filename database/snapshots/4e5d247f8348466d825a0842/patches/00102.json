@@ -1,0 +1,3425 @@
+[
+  {
+    "bundle_id": "e00b76a3e6f9b22385e08f61",
+    "compatiblePackages": {
+      "org.cris.aikyam": [
+        "2.1.66",
+        "2.1.62"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces the app's own signing-certificate check (SHA-256 of the APK signature) to return true, so a re-signed build is accepted by the Flutter layer.",
+    "id": "e00b76a3e6f9b22385e08f61:1",
+    "legacy_id": 10573,
+    "metadata_status": "verified",
+    "name": "Bypass signature verification",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.cris.aikyam",
+        "versions": [
+          "2.1.66",
+          "2.1.62"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "625e865887dc8fb1",
+    "use": true
+  },
+  {
+    "bundle_id": "e00b76a3e6f9b22385e08f61",
+    "compatiblePackages": {
+      "org.cris.aikyam": [
+        "2.1.66",
+        "2.1.62"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces the adb_enabled, adb_wifi_enabled and development_settings_enabled checks to return false, so the app runs normally while USB debugging / developer options are on.",
+    "id": "e00b76a3e6f9b22385e08f61:2",
+    "legacy_id": 10574,
+    "metadata_status": "verified",
+    "name": "Bypass USB-debugging detection",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.cris.aikyam",
+        "versions": [
+          "2.1.66",
+          "2.1.62"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "625e865887dc8fb1",
+    "use": true
+  },
+  {
+    "bundle_id": "e00b76a3e6f9b22385e08f61",
+    "compatiblePackages": {
+      "org.cris.aikyam": [
+        "2.1.66",
+        "2.1.62"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops AikyamApplication.onCreate() from loading libnative-lib.so, disarming the native anti-tamper SDK that force-stops the app and wipes its data. Root cause fix: the other patches only matter once this one is applied.",
+    "id": "e00b76a3e6f9b22385e08f61:3",
+    "legacy_id": 10575,
+    "metadata_status": "verified",
+    "name": "Disable native security SDK",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.cris.aikyam",
+        "versions": [
+          "2.1.66",
+          "2.1.62"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "625e865887dc8fb1",
+    "use": true
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": {
+      "org.zwanoo.android.speedtest": [
+        "7.0.4"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:0",
+    "legacy_id": 10576,
+    "metadata_status": "verified",
+    "name": "AdFree Account",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.zwanoo.android.speedtest",
+        "versions": [
+          "7.0.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": true
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:1",
+    "legacy_id": 10577,
+    "metadata_status": "verified",
+    "name": "Bypass ADB/Developer Options Detection",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": false
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": {
+      "com.llamalab.automate": [
+        "1.51.1"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:2",
+    "legacy_id": 10578,
+    "metadata_status": "verified",
+    "name": "Bypass Blocks Limit",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.llamalab.automate",
+        "versions": [
+          "1.51.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": true
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:3",
+    "legacy_id": 10579,
+    "metadata_status": "verified",
+    "name": "Disable Facebook SDK Tracking",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": false
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:4",
+    "legacy_id": 10580,
+    "metadata_status": "verified",
+    "name": "Disable Firebase(Google) Analytics",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": false
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": {
+      "com.vitotechnology.sky.tonight.map.star.walk": [
+        "2.5.0"
+      ]
+    },
+    "dependencies": [
+      "Disable Firebase(Google) Analytics"
+    ],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:5",
+    "legacy_id": 10581,
+    "metadata_status": "verified",
+    "name": "Disable In-App Telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.vitotechnology.sky.tonight.map.star.walk",
+        "versions": [
+          "2.5.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": true
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": {
+      "com.vitotechnology.StarWalk2Free": [
+        "2.20.3"
+      ]
+    },
+    "dependencies": [
+      "Disable Firebase(Google) Analytics"
+    ],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:6",
+    "legacy_id": 10582,
+    "metadata_status": "verified",
+    "name": "Disable In-App Telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.vitotechnology.StarWalk2Free",
+        "versions": [
+          "2.20.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": true
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": {
+      "org.zwanoo.android.speedtest": [
+        "7.0.4"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:7",
+    "legacy_id": 10583,
+    "metadata_status": "verified",
+    "name": "Disable Logging(analytics)",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.zwanoo.android.speedtest",
+        "versions": [
+          "7.0.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": true
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": {
+      "pl.solidexplorer2": [
+        "3.4.10",
+        "3.5.7b"
+      ]
+    },
+    "dependencies": [
+      "Disable Firebase(Google) Analytics"
+    ],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:8",
+    "legacy_id": 10584,
+    "metadata_status": "verified",
+    "name": "Disable Telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "pl.solidexplorer2",
+        "versions": [
+          "3.4.10",
+          "3.5.7b"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": true
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": {
+      "com.atmfee": [
+        "3.7.9"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:9",
+    "legacy_id": 10585,
+    "metadata_status": "verified",
+    "name": "Hide Location Permission Popup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.atmfee",
+        "versions": [
+          "3.7.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": true
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": {
+      "com.noctuasoftware.stellarium_free": [
+        "1.16.2",
+        "1.16.3"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:10",
+    "legacy_id": 10586,
+    "metadata_status": "verified",
+    "name": "Install Extended (Deep Sky) Catalog",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.noctuasoftware.stellarium_free",
+        "versions": [
+          "1.16.2",
+          "1.16.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": true
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": {
+      "com.ttxapps.autosync": [
+        "7.5.10"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:11",
+    "legacy_id": 10587,
+    "metadata_status": "verified",
+    "name": "Purchase All Items",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ttxapps.autosync",
+        "versions": [
+          "7.5.10"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": true
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": {
+      "com.nis.app": [
+        "6.12.15",
+        "6.12.18"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:12",
+    "legacy_id": 10588,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.nis.app",
+        "versions": [
+          "6.12.15",
+          "6.12.18"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": true
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": {
+      "com.nis.app": [
+        "6.12.15",
+        "6.12.18"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:13",
+    "legacy_id": 10589,
+    "metadata_status": "verified",
+    "name": "Skip Login",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.nis.app",
+        "versions": [
+          "6.12.15",
+          "6.12.18"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": true
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": {
+      "com.proto.circuitsimulator": [
+        "1.48.0",
+        "1.49.0"
+      ]
+    },
+    "dependencies": [
+      "Disable Firebase(Google) Analytics"
+    ],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:14",
+    "legacy_id": 10590,
+    "metadata_status": "verified",
+    "name": "Unlock All Features",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.proto.circuitsimulator",
+        "versions": [
+          "1.48.0",
+          "1.49.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": true
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": {
+      "com.noctuasoftware.stellarium_free": [
+        "1.16.2",
+        "1.16.3"
+      ]
+    },
+    "dependencies": [
+      "Disable Firebase(Google) Analytics"
+    ],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:15",
+    "legacy_id": 10591,
+    "metadata_status": "verified",
+    "name": "Unlock Plus",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.noctuasoftware.stellarium_free",
+        "versions": [
+          "1.16.2",
+          "1.16.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": true
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": {
+      "com.atmfee": [
+        "3.7.9"
+      ]
+    },
+    "dependencies": [
+      "Disable Firebase(Google) Analytics"
+    ],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:16",
+    "legacy_id": 10592,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.atmfee",
+        "versions": [
+          "3.7.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": true
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": {
+      "com.backdrops.wallpapers": [
+        "6.1.2"
+      ]
+    },
+    "dependencies": [
+      "Disable Firebase(Google) Analytics"
+    ],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:17",
+    "legacy_id": 10593,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.backdrops.wallpapers",
+        "versions": [
+          "6.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": true
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": {
+      "io.funswitch.blocker": [
+        "5.0.67"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:18",
+    "legacy_id": 10594,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "io.funswitch.blocker",
+        "versions": [
+          "5.0.67"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": true
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": {
+      "com.vitotechnology.sky.tonight.map.star.walk": [
+        "2.5.0"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:19",
+    "legacy_id": 10595,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.vitotechnology.sky.tonight.map.star.walk",
+        "versions": [
+          "2.5.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": true
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": {
+      "com.vitotechnology.StarWalk2Free": [
+        "2.20.3"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:20",
+    "legacy_id": 10596,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.vitotechnology.StarWalk2Free",
+        "versions": [
+          "2.20.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": true
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": {
+      "com.ufovpn.connect.velnet": [
+        "2.5.5",
+        "2.5.8"
+      ]
+    },
+    "dependencies": [
+      "Disable Firebase(Google) Analytics"
+    ],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:21",
+    "legacy_id": 10597,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ufovpn.connect.velnet",
+        "versions": [
+          "2.5.5",
+          "2.5.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": true
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": {
+      "com.vpn.free.hotspot.secure.vpnify": [
+        "2.2.9"
+      ]
+    },
+    "dependencies": [
+      "Disable Firebase(Google) Analytics"
+    ],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:22",
+    "legacy_id": 10598,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.vpn.free.hotspot.secure.vpnify",
+        "versions": [
+          "2.2.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": true
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": {
+      "pl.solidexplorer2": [
+        "3.4.10",
+        "3.5.7b"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:23",
+    "legacy_id": 10599,
+    "metadata_status": "verified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "pl.solidexplorer2",
+        "versions": [
+          "3.4.10",
+          "3.5.7b"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd",
+    "use": true
+  },
+  {
+    "bundle_id": "e0956fdc11dd9dda6a8b569f",
+    "compatiblePackages": {
+      "com.brave.browser": [
+        "1.92.140"
+      ]
+    },
+    "dependencies": [
+      "Brave Origin Resource Defaults"
+    ],
+    "description": "Unlocks Brave Origin and enables feature toggle controls.",
+    "id": "e0956fdc11dd9dda6a8b569f:0",
+    "legacy_id": 10600,
+    "metadata_status": "verified",
+    "name": "Brave Origin",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.brave.browser",
+        "versions": [
+          "1.92.140"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.8.0",
+    "source_id": "f9980210f0dda55b",
+    "use": true
+  },
+  {
+    "bundle_id": "e0956fdc11dd9dda6a8b569f",
+    "compatiblePackages": {
+      "com.bounce.connect": null
+    },
+    "dependencies": [],
+    "description": "Bypasses the Google Play LVL backend license check, allowing full app access without activation.",
+    "id": "e0956fdc11dd9dda6a8b569f:1",
+    "legacy_id": 10601,
+    "metadata_status": "verified",
+    "name": "Bypass license check",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.bounce.connect",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.8.0",
+    "source_id": "f9980210f0dda55b",
+    "use": true
+  },
+  {
+    "bundle_id": "e0956fdc11dd9dda6a8b569f",
+    "compatiblePackages": {
+      "com.truecaller": [
+        "26.10.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Suppresses Truecaller's CleverTap behavioural event tracking to prevent user-activity telemetry.",
+    "id": "e0956fdc11dd9dda6a8b569f:2",
+    "legacy_id": 10602,
+    "metadata_status": "verified",
+    "name": "Disable analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.truecaller",
+        "versions": [
+          "26.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.8.0",
+    "source_id": "f9980210f0dda55b",
+    "use": true
+  },
+  {
+    "bundle_id": "e0956fdc11dd9dda6a8b569f",
+    "compatiblePackages": {
+      "com.truecaller": [
+        "26.10.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all client-side premium features by bypassing the feature-availability gate.",
+    "id": "e0956fdc11dd9dda6a8b569f:3",
+    "legacy_id": 10603,
+    "metadata_status": "verified",
+    "name": "Enable premium features",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.truecaller",
+        "versions": [
+          "26.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.8.0",
+    "source_id": "f9980210f0dda55b",
+    "use": true
+  },
+  {
+    "bundle_id": "e0956fdc11dd9dda6a8b569f",
+    "compatiblePackages": {
+      "com.medium.reader": [
+        "4.5.1302097"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a profile setting to choose the Freedium Mirror host, and a floating button on articles that opens the current article using the chosen Freedium Mirror in a webview.",
+    "id": "e0956fdc11dd9dda6a8b569f:4",
+    "legacy_id": 10604,
+    "metadata_status": "verified",
+    "name": "Freedium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.medium.reader",
+        "versions": [
+          "4.5.1302097"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.8.0",
+    "source_id": "f9980210f0dda55b",
+    "use": true
+  },
+  {
+    "bundle_id": "e0956fdc11dd9dda6a8b569f",
+    "compatiblePackages": {
+      "com.truecaller": [
+        "26.10.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Dismisses premium upgrade prompts and paywall screens automatically.",
+    "id": "e0956fdc11dd9dda6a8b569f:5",
+    "legacy_id": 10605,
+    "metadata_status": "verified",
+    "name": "Hide 'Get Premium' banners",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.truecaller",
+        "versions": [
+          "26.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.8.0",
+    "source_id": "f9980210f0dda55b",
+    "use": true
+  },
+  {
+    "bundle_id": "e0956fdc11dd9dda6a8b569f",
+    "compatiblePackages": {
+      "com.truecaller": [
+        "26.10.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes ads from the after-call screen and caller-ID overlay.",
+    "id": "e0956fdc11dd9dda6a8b569f:6",
+    "legacy_id": 10606,
+    "metadata_status": "verified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.truecaller",
+        "versions": [
+          "26.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.8.0",
+    "source_id": "f9980210f0dda55b",
+    "use": true
+  },
+  {
+    "bundle_id": "e0956fdc11dd9dda6a8b569f",
+    "compatiblePackages": {
+      "com.truecaller": [
+        "26.10.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes 'Get Premium' and 'Switch to Premium' buttons from the nav bar, settings, and profile.",
+    "id": "e0956fdc11dd9dda6a8b569f:7",
+    "legacy_id": 10607,
+    "metadata_status": "verified",
+    "name": "Hide premium upgrade prompts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.truecaller",
+        "versions": [
+          "26.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.8.0",
+    "source_id": "f9980210f0dda55b",
+    "use": true
+  },
+  {
+    "bundle_id": "e0956fdc11dd9dda6a8b569f",
+    "compatiblePackages": {
+      "com.truecaller": [
+        "26.10.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Always shows the premium/gold badge and unlocks premium UI features.",
+    "id": "e0956fdc11dd9dda6a8b569f:8",
+    "legacy_id": 10608,
+    "metadata_status": "verified",
+    "name": "Mock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.truecaller",
+        "versions": [
+          "26.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.8.0",
+    "source_id": "f9980210f0dda55b",
+    "use": true
+  },
+  {
+    "bundle_id": "e0956fdc11dd9dda6a8b569f",
+    "compatiblePackages": {
+      "com.mygate.user": [
+        "7.31.0",
+        "7.26.1"
+      ]
+    },
+    "dependencies": [
+      "MyGate Flutter Premium",
+      "MyGate Hide Ads"
+    ],
+    "description": "Unlocks MyGate premium, removes ads, fixes notifications and e-Intercom.",
+    "id": "e0956fdc11dd9dda6a8b569f:9",
+    "legacy_id": 10609,
+    "metadata_status": "verified",
+    "name": "MyGate",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.mygate.user",
+        "versions": [
+          "7.31.0",
+          "7.26.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.8.0",
+    "source_id": "f9980210f0dda55b",
+    "use": true
+  },
+  {
+    "bundle_id": "e0956fdc11dd9dda6a8b569f",
+    "compatiblePackages": {
+      "com.truecaller": [
+        "26.10.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the Premium tab from the bottom navigation bar and the Premium row in the profile section.",
+    "id": "e0956fdc11dd9dda6a8b569f:10",
+    "legacy_id": 10610,
+    "metadata_status": "verified",
+    "name": "Remove Premium UI",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.truecaller",
+        "versions": [
+          "26.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.8.0",
+    "source_id": "f9980210f0dda55b",
+    "use": true
+  },
+  {
+    "bundle_id": "e0956fdc11dd9dda6a8b569f",
+    "compatiblePackages": {
+      "com.overdevs.at4k": null
+    },
+    "dependencies": [],
+    "description": "Unlocks all AT4K premium features by forcing the premium status to true.",
+    "id": "e0956fdc11dd9dda6a8b569f:11",
+    "legacy_id": 10611,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.overdevs.at4k",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.8.0",
+    "source_id": "f9980210f0dda55b",
+    "use": true
+  },
+  {
+    "bundle_id": "e0956fdc11dd9dda6a8b569f",
+    "compatiblePackages": {
+      "com.Splitwise.SplitwiseMobile": [
+        "26.4.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Spoofs Splitwise Pro subscription status everywhere it is checked — bypasses the server-driven feature gate (charts, receipt scanning, currency conversion, default splits, auto-split, transaction import, itemization), forces Person.isPro() to true for receipt quality and UI gating, and suppresses all in-app upsell ad banners (home-screen, recent activity, post-add-expense). Works entirely client-side with no server interaction.",
+    "id": "e0956fdc11dd9dda6a8b569f:12",
+    "legacy_id": 10612,
+    "metadata_status": "verified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.Splitwise.SplitwiseMobile",
+        "versions": [
+          "26.4.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.8.0",
+    "source_id": "f9980210f0dda55b",
+    "use": true
+  },
+  {
+    "bundle_id": "e1013cd10b83bf7387348d73",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#9147FF",
+        "name": "Twitch",
+        "packageName": "tv.twitch.android.app",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "31.3.1"
+          }
+        ],
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to claim the channel points bonus chest automatically on the channel you are watching. It works while chat or the points button is hidden, for example in fullscreen. Streams open in Twitch's native player instead of the new React Native one, which this relies on.",
+    "id": "e1013cd10b83bf7387348d73:0",
+    "legacy_id": 10613,
+    "metadata_status": "unverified",
+    "name": "Auto claim channel points",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitch",
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "470fef9224838710"
+  },
+  {
+    "bundle_id": "e1013cd10b83bf7387348d73",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#9147FF",
+        "name": "Twitch",
+        "packageName": "tv.twitch.android.app",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "31.3.1"
+          }
+        ],
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to block ads. Streams are requested as Twitch's embedded web player, which gets fewer ads, and the app no longer requests or plays ads itself. Ads that are part of the stream are covered with a black screen and muted until they end. Display ads are not shown. Live streams can optionally be loaded through a proxy. Streams open in Twitch's native player instead of the new React Native one, which this relies on.",
+    "id": "e1013cd10b83bf7387348d73:1",
+    "legacy_id": 10614,
+    "metadata_status": "unverified",
+    "name": "Block ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitch",
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "470fef9224838710"
+  },
+  {
+    "bundle_id": "e1013cd10b83bf7387348d73",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#9147FF",
+        "name": "Twitch",
+        "packageName": "tv.twitch.android.app",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "31.3.1"
+          }
+        ],
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to scroll chat messages across the video on live streams, Niconico style, in landscape fullscreen and optionally in portrait, the mini player and picture in picture. A button in the player turns it on and off, and the rows, speed, number of comments, font and colors can be changed in the uyu settings. An option hides Twitch's chat in landscape so the stream fills the screen. Streams open in Twitch's native player instead of the new React Native one, which this relies on.",
+    "id": "e1013cd10b83bf7387348d73:2",
+    "legacy_id": 10615,
+    "metadata_status": "unverified",
+    "name": "Danmaku comments",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitch",
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "470fef9224838710"
+  },
+  {
+    "bundle_id": "e1013cd10b83bf7387348d73",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#9147FF",
+        "name": "Twitch",
+        "packageName": "tv.twitch.android.app",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "31.3.1"
+          }
+        ],
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Fixes the \"This app version/OS is not currently supported\" error that blocks login after patching. Twitch reports a Play Integrity result to its login server and the re-signed app fails that check. This stops the app from sending the attestation, so it behaves like a device without Google Play, where login works normally.",
+    "id": "e1013cd10b83bf7387348d73:3",
+    "legacy_id": 10616,
+    "metadata_status": "unverified",
+    "name": "Fix login",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitch",
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "470fef9224838710"
+  },
+  {
+    "bundle_id": "e1013cd10b83bf7387348d73",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#9147FF",
+        "name": "Twitch",
+        "packageName": "tv.twitch.android.app",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "31.3.1"
+          }
+        ],
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Fixes push notifications after patching. Firebase rejects device registration because the patched app has a different signing certificate, and a different package name when it is installed as a separate app. This sends Twitch's original certificate fingerprint and package name with Firebase Installations requests only.",
+    "id": "e1013cd10b83bf7387348d73:4",
+    "legacy_id": 10617,
+    "metadata_status": "unverified",
+    "name": "Fix notifications",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitch",
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "470fef9224838710"
+  },
+  {
+    "bundle_id": "e1013cd10b83bf7387348d73",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#9147FF",
+        "name": "Twitch",
+        "packageName": "tv.twitch.android.app",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "31.3.1"
+          }
+        ],
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to hide the subscribe and Bits buttons above chat, the Bits button in the chat box, the gift leaderboard and banners that advertise subscriptions. All of them are hidden by default. They can be shown again in the Appearance section of the uyu settings. Streams open in Twitch's native player instead of the new React Native one, which this relies on.",
+    "id": "e1013cd10b83bf7387348d73:5",
+    "legacy_id": 10618,
+    "metadata_status": "unverified",
+    "name": "Hide promotions",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitch",
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "470fef9224838710"
+  },
+  {
+    "bundle_id": "e1013cd10b83bf7387348d73",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#9147FF",
+        "name": "Twitch",
+        "packageName": "tv.twitch.android.app",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "31.3.1"
+          }
+        ],
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Installs the patched app as \"uyu\" next to the official Twitch app instead of replacing it. The package name becomes io.github.trivisa_itihasa.uyu.",
+    "id": "e1013cd10b83bf7387348d73:6",
+    "legacy_id": 10619,
+    "metadata_status": "unverified",
+    "name": "Install as a separate app",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitch",
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0-dev.1",
+    "source_id": "470fef9224838710"
+  },
+  {
+    "bundle_id": "e13bcd586a0410edcf8e2c2f",
+    "compatiblePackages": {
+      "at.gv.oe.app": [
+        "3.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "e13bcd586a0410edcf8e2c2f:0",
+    "legacy_id": 10620,
+    "metadata_status": "verified",
+    "name": "Fix crash on Android 14+",
+    "options": [],
+    "packages": [
+      {
+        "name": "at.gv.oe.app",
+        "versions": [
+          "3.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "1f18136e1cbebe3d",
+    "use": true
+  },
+  {
+    "bundle_id": "e13bcd586a0410edcf8e2c2f",
+    "compatiblePackages": {
+      "at.gv.oe.app": null
+    },
+    "dependencies": [],
+    "description": "Removes the check for root permissions and unlocked bootloader.",
+    "id": "e13bcd586a0410edcf8e2c2f:1",
+    "legacy_id": 10621,
+    "metadata_status": "verified",
+    "name": "Remove root detection",
+    "options": [],
+    "packages": [
+      {
+        "name": "at.gv.oe.app",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "1f18136e1cbebe3d",
+    "use": true
+  },
+  {
+    "bundle_id": "e13bcd586a0410edcf8e2c2f",
+    "compatiblePackages": {
+      "at.gv.oe.app": null
+    },
+    "dependencies": [],
+    "description": "Spoofs the signature of the app.",
+    "id": "e13bcd586a0410edcf8e2c2f:2",
+    "legacy_id": 10622,
+    "metadata_status": "verified",
+    "name": "Spoof signature",
+    "options": [],
+    "packages": [
+      {
+        "name": "at.gv.oe.app",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "1f18136e1cbebe3d",
+    "use": true
+  },
+  {
+    "bundle_id": "e1ccaf7573f188e31889d121",
+    "compatiblePackages": {
+      "com.miruronative": null
+    },
+    "dependencies": [],
+    "description": "Fixes recycled bitmap crashes on Android 14/15+ during media playback metadata updates and notification creation.",
+    "id": "e1ccaf7573f188e31889d121:0",
+    "legacy_id": 10623,
+    "metadata_status": "verified",
+    "name": "Fix Recycled Bitmap Crash",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.miruronative",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "d063815fef056be6",
+    "use": true
+  },
+  {
+    "bundle_id": "e22839eecc56dc699b09d733",
+    "compatiblePackages": {
+      "com.sankakucomplex.channel.black": [
+        "4.23",
+        "4.24",
+        "4.25",
+        "4.26"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the \"Want unlimited access? Get Sankaku Infinite!\" upsell popup that periodically appears while browsing the app.",
+    "id": "e22839eecc56dc699b09d733:0",
+    "legacy_id": 10624,
+    "metadata_status": "verified",
+    "name": "Disable Infinite Upgrade Popup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.sankakucomplex.channel.black",
+        "versions": [
+          "4.23",
+          "4.24",
+          "4.25",
+          "4.26"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.2-dev.1",
+    "source_id": "3a581a8d3f891e0d",
+    "use": true
+  },
+  {
+    "bundle_id": "e2a56df27ae09c0fab6194c8",
+    "compatiblePackages": {
+      "com.isaakhanimann.journal": null
+    },
+    "dependencies": [],
+    "description": "Renames the package and app label so the patched build installs alongside a stock Journal instead of replacing it.",
+    "id": "e2a56df27ae09c0fab6194c8:0",
+    "legacy_id": 10625,
+    "metadata_status": "verified",
+    "name": "Clone",
+    "options": [
+      {
+        "default": "com.isaakhanimann.journal.morphe",
+        "description": "A new package name for the patched app.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "Journal Morphe",
+        "description": "A new app name (label). Entering \"Journal\" skips changing the label.",
+        "key": "appName",
+        "required": true,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.isaakhanimann.journal",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "3e6779d1fd62e4fa",
+    "use": false
+  },
+  {
+    "bundle_id": "e2a56df27ae09c0fab6194c8",
+    "compatiblePackages": {
+      "com.isaakhanimann.journal": null
+    },
+    "dependencies": [],
+    "description": "Replaces the bundled Substances.json asset with your own file.",
+    "id": "e2a56df27ae09c0fab6194c8:1",
+    "legacy_id": 10626,
+    "metadata_status": "verified",
+    "name": "Custom substances database",
+    "options": [
+      {
+        "default": "",
+        "description": "Absolute path on your machine to the replacement Substances.json file.",
+        "key": "substancesFile",
+        "required": true,
+        "title": "Substances JSON path",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.isaakhanimann.journal",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "3e6779d1fd62e4fa",
+    "use": false
+  },
+  {
+    "bundle_id": "e2a56df27ae09c0fab6194c8",
+    "compatiblePackages": {
+      "com.isaakhanimann.journal": null
+    },
+    "dependencies": [],
+    "description": "Lets you individually hide the Stats, Drugs and Safer tabs from the bottom navigation bar. Journal and Settings can't be hidden.",
+    "id": "e2a56df27ae09c0fab6194c8:2",
+    "legacy_id": 10627,
+    "metadata_status": "verified",
+    "name": "Hide bottom tabs",
+    "options": [
+      {
+        "default": true,
+        "description": "Removes the Stats tab from the bottom navigation bar.",
+        "key": "hideStats",
+        "required": false,
+        "title": "Hide Stats tab",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Removes the Drugs tab from the bottom navigation bar.",
+        "key": "hideDrugs",
+        "required": false,
+        "title": "Hide Drugs tab",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Removes the Safer tab from the bottom navigation bar.",
+        "key": "hideSafer",
+        "required": false,
+        "title": "Hide Safer tab",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.isaakhanimann.journal",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "3e6779d1fd62e4fa",
+    "use": true
+  },
+  {
+    "bundle_id": "e2a56df27ae09c0fab6194c8",
+    "compatiblePackages": {
+      "com.isaakhanimann.journal": null
+    },
+    "dependencies": [],
+    "description": "Removes the \"Feedback\" section (FAQ, bug report, copy support info) from Settings.",
+    "id": "e2a56df27ae09c0fab6194c8:3",
+    "legacy_id": 10628,
+    "metadata_status": "verified",
+    "name": "Hide feedback section",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.isaakhanimann.journal",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "3e6779d1fd62e4fa",
+    "use": true
+  },
+  {
+    "bundle_id": "e2a56df27ae09c0fab6194c8",
+    "compatiblePackages": {
+      "com.isaakhanimann.journal": null
+    },
+    "dependencies": [],
+    "description": "Stops the app from ever talking to RevenueCat's servers: skips SDK initialization on startup and neuters the app's periodic \"refresh entitlement\" network calls. Requires Unlock premium to also be enabled - without it, premium status has no way to ever resolve as active.",
+    "id": "e2a56df27ae09c0fab6194c8:4",
+    "legacy_id": 10629,
+    "metadata_status": "verified",
+    "name": "Purge RevenueCat",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.isaakhanimann.journal",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "3e6779d1fd62e4fa",
+    "use": false
+  },
+  {
+    "bundle_id": "e2a56df27ae09c0fab6194c8",
+    "compatiblePackages": {
+      "com.isaakhanimann.journal": null
+    },
+    "dependencies": [],
+    "description": "Removes the ACCESS_NETWORK_STATE permission, and optionally INTERNET too.",
+    "id": "e2a56df27ae09c0fab6194c8:5",
+    "legacy_id": 10630,
+    "metadata_status": "verified",
+    "name": "Remove internet permission",
+    "options": [
+      {
+        "default": false,
+        "description": "Also removes the INTERNET permission. Requires \"Purge RevenueCat\" to also be enabled - without it, RevenueCat's SDK crashes on startup when it can't find INTERNET declared in the manifest.",
+        "key": "removeInternet",
+        "required": false,
+        "title": "Also remove INTERNET",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.isaakhanimann.journal",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "3e6779d1fd62e4fa",
+    "use": true
+  },
+  {
+    "bundle_id": "e2a56df27ae09c0fab6194c8",
+    "compatiblePackages": {
+      "com.isaakhanimann.journal": null
+    },
+    "dependencies": [],
+    "description": "Forces the RevenueCat \"premium\" entitlement check to always resolve as active, including before the app has ever reached RevenueCat's servers.",
+    "id": "e2a56df27ae09c0fab6194c8:6",
+    "legacy_id": 10631,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.isaakhanimann.journal",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "3e6779d1fd62e4fa",
+    "use": true
+  },
+  {
+    "bundle_id": "e2b3940278aafdc42089991a",
+    "compatiblePackages": {
+      "com.spocky.projengmenu": null
+    },
+    "dependencies": [],
+    "description": "Disables analytics and crash reporting.",
+    "id": "e2b3940278aafdc42089991a:0",
+    "legacy_id": 10632,
+    "metadata_status": "verified",
+    "name": "Disable tracking",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.spocky.projengmenu",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "e2b3940278aafdc42089991a",
+    "compatiblePackages": {
+      "ch.protonmail.android": [
+        "4.15.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the 'Upgrade to Mail Plus' entry from the sidebar.",
+    "id": "e2b3940278aafdc42089991a:1",
+    "legacy_id": 10633,
+    "metadata_status": "verified",
+    "name": "Hide sidebar upselling",
+    "options": [],
+    "packages": [
+      {
+        "name": "ch.protonmail.android",
+        "versions": [
+          "4.15.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "e2b3940278aafdc42089991a",
+    "compatiblePackages": {
+      "ch.protonmail.android": [
+        "4.15.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the 'Sent from Proton Mail mobile' signature from emails.",
+    "id": "e2b3940278aafdc42089991a:2",
+    "legacy_id": 10634,
+    "metadata_status": "verified",
+    "name": "Remove 'Sent from' signature",
+    "options": [],
+    "packages": [
+      {
+        "name": "ch.protonmail.android",
+        "versions": [
+          "4.15.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "e2b3940278aafdc42089991a",
+    "compatiblePackages": {
+      "ch.protonmail.android": [
+        "4.15.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the limit for maximum free accounts logged in.",
+    "id": "e2b3940278aafdc42089991a:3",
+    "legacy_id": 10635,
+    "metadata_status": "verified",
+    "name": "Remove free accounts limit",
+    "options": [],
+    "packages": [
+      {
+        "name": "ch.protonmail.android",
+        "versions": [
+          "4.15.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "e2b3940278aafdc42089991a",
+    "compatiblePackages": {
+      "com.myvitale.forus": null
+    },
+    "dependencies": [],
+    "description": "Unlocks all premium features.",
+    "id": "e2b3940278aafdc42089991a:4",
+    "legacy_id": 10636,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.myvitale.forus",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "e2b3940278aafdc42089991a",
+    "compatiblePackages": {
+      "com.spocky.projengmenu": null
+    },
+    "dependencies": [],
+    "description": "Unlocks all premium features.",
+    "id": "e2b3940278aafdc42089991a:5",
+    "legacy_id": 10637,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.spocky.projengmenu",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "e2b3940278aafdc42089991a",
+    "compatiblePackages": {
+      "com.michaldrabik.showly2": null
+    },
+    "dependencies": [],
+    "description": "Unlocks ad removal, light theme, custom images, list view types, quick ratings, and transparent widgets.",
+    "id": "e2b3940278aafdc42089991a:6",
+    "legacy_id": 10638,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.michaldrabik.showly2",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "e31fd4dff64860c9c5c3bbda",
+    "compatiblePackages": {
+      "com.iptvprostreamplayer.v1": [
+        "1.2.7",
+        "2.7.17"
+      ]
+    },
+    "dependencies": [],
+    "description": "Deactivates subscription_needed, forces the pro entitlement active, and spoofs Google Play for app-internal installer-source checks.",
+    "id": "e31fd4dff64860c9c5c3bbda:0",
+    "legacy_id": 10639,
+    "metadata_status": "verified",
+    "name": "Unlock Pro (IPTV)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.iptvprostreamplayer.v1",
+        "versions": [
+          "1.2.7",
+          "2.7.17"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.2-dev.1",
+    "source_id": "8551b3a1add92525",
+    "use": true
+  },
+  {
+    "bundle_id": "e35901348ad6a4f0f96e2d8c",
+    "compatiblePackages": {
+      "nextapp.fx": null
+    },
+    "dependencies": [],
+    "description": "Unlock features like 'Web Access', 'Network' and 'FX Connect'.",
+    "id": "e35901348ad6a4f0f96e2d8c:0",
+    "legacy_id": 10640,
+    "metadata_status": "verified",
+    "name": "Unlock FX Plus",
+    "options": [],
+    "packages": [
+      {
+        "name": "nextapp.fx",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.0-dev.5",
+    "source_id": "87b9d6dc7405e4c9",
+    "use": true
+  },
+  {
+    "bundle_id": "e35901348ad6a4f0f96e2d8c",
+    "compatiblePackages": {
+      "com.teslacoilsw.launcher": null
+    },
+    "dependencies": [],
+    "description": "Unlocks Nova Prime and all functions of the app.",
+    "id": "e35901348ad6a4f0f96e2d8c:1",
+    "legacy_id": 10641,
+    "metadata_status": "verified",
+    "name": "Unlock prime",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.teslacoilsw.launcher",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.0-dev.5",
+    "source_id": "87b9d6dc7405e4c9",
+    "use": true
+  },
+  {
+    "bundle_id": "e35901348ad6a4f0f96e2d8c",
+    "compatiblePackages": {
+      "net.dinglisch.android.taskerm": null
+    },
+    "dependencies": [],
+    "description": "Unlocks the trial version.",
+    "id": "e35901348ad6a4f0f96e2d8c:2",
+    "legacy_id": 10642,
+    "metadata_status": "verified",
+    "name": "Unlock trial",
+    "options": [],
+    "packages": [
+      {
+        "name": "net.dinglisch.android.taskerm",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.0-dev.5",
+    "source_id": "87b9d6dc7405e4c9",
+    "use": true
+  },
+  {
+    "bundle_id": "e3c401eef404fd055baf8727",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "17.0.10.880768217-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "啟用 AI 撰寫工具，支援所有語言\nEnable AI writing tools with support for all languages.",
+    "id": "e3c401eef404fd055baf8727:0",
+    "legacy_id": 10643,
+    "metadata_status": "verified",
+    "name": "AI Writing Tools",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "17.0.10.880768217-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "ba130bb19b3d2105",
+    "use": true
+  },
+  {
+    "bundle_id": "e3c401eef404fd055baf8727",
+    "compatiblePackages": {
+      "com.example.app": [
+        "2.0.0",
+        "1.0.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Example patch to start with.",
+    "id": "e3c401eef404fd055baf8727:1",
+    "legacy_id": 10644,
+    "metadata_status": "verified",
+    "name": "Example Patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.example.app",
+        "versions": [
+          "2.0.0",
+          "1.0.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "ba130bb19b3d2105",
+    "use": true
+  },
+  {
+    "bundle_id": "e3c401eef404fd055baf8727",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "17.0.10.880768217-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "將 Gboard 內部讀取的裝置型號與產品名稱改為 Pixel 9 Pro，藉此解除 Pixel 8 等舊裝置的官方限制。\nSpoof Gboard's device model, device name, and product name to Pixel 9 Pro to bypass model restrictions natively.",
+    "id": "e3c401eef404fd055baf8727:2",
+    "legacy_id": 10645,
+    "metadata_status": "verified",
+    "name": "Gboard Model Spoof (Pixel 9 Pro)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "17.0.10.880768217-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "ba130bb19b3d2105",
+    "use": false
+  },
+  {
+    "bundle_id": "e3c401eef404fd055baf8727",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "17.0.10.880768217-release-arm64-v8a"
+      ]
+    },
+    "dependencies": [],
+    "description": "將套件名稱改成 dev.jason.com.google.android.inputmethod.latin 以便在 Pixel 等裝置共存安裝，並更名自訂權限防止衝突。\nRename the package to dev.jason.com.google.android.inputmethod.latin for co-existence on Pixel/system-Gboard devices, and rename custom permissions to avoid installation conflicts.",
+    "id": "e3c401eef404fd055baf8727:3",
+    "legacy_id": 10646,
+    "metadata_status": "verified",
+    "name": "Gboard Package Rename (Pixel)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "17.0.10.880768217-release-arm64-v8a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "ba130bb19b3d2105",
+    "use": true
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Appends \".rivanced\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+    "id": "e41368ebbe4c9312bae9a169:0",
+    "legacy_id": 10647,
+    "metadata_status": "verified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "Default",
+        "description": "The name of the package to rename the app to.",
+        "key": "Package name",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      },
+      {
+        "default": false,
+        "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "Update permissions",
+        "required": false,
+        "title": "Update permissions",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "Update providers",
+        "required": false,
+        "title": "Update providers",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.",
+    "id": "e41368ebbe4c9312bae9a169:1",
+    "legacy_id": 10648,
+    "metadata_status": "verified",
+    "name": "Change version code",
+    "options": [
+      {
+        "default": 2147483647,
+        "description": "The version code to use. Using the highest value turns off app store updates and allows downgrading an existing app install to an older app version.",
+        "key": "Version code",
+        "required": true,
+        "title": "Version code",
+        "type": "kotlin.Int",
+        "values": {
+          "Highest": 2147483647,
+          "Lowest": 1
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Allows trusting custom certificate authorities for a specific domain.",
+    "id": "e41368ebbe4c9312bae9a169:2",
+    "legacy_id": 10649,
+    "metadata_status": "verified",
+    "name": "Custom network security",
+    "options": [
+      {
+        "default": "[example.com]",
+        "description": "List of domains to which the custom trust configuration will be applied (one domain per entry).",
+        "key": "Target domains",
+        "required": true,
+        "title": "Target domains",
+        "type": "kotlin.collections.List<kotlin.String>",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Applies the configuration to all subdomains of the target domains.",
+        "key": "Include subdomains",
+        "required": true,
+        "title": "Include subdomains",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "List of paths to files in PEM or DER format (one file path per entry).\n\nMakes an app trust the provided custom certificate authorities (CAs),\nfor the specified domains, and if the option \"Include Subdomains\" is enabled then also the subdomains.\n\n\nCA files will be bundled in res/raw/ of resulting APK",
+        "key": "Custom CA file paths",
+        "required": false,
+        "title": "Custom CA file paths",
+        "type": "kotlin.collections.List<kotlin.String>",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Makes an app trust certificates from the Android user store for the specified domains, and if the option \"Include Subdomains\" is enabled then also the subdomains.",
+        "key": "Trust user added CAs",
+        "required": true,
+        "title": "Trust user added CAs",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Makes an app trust certificates from the Android system store for the specified domains, and and if the option \"Include Subdomains\" is enabled then also the subdomains.",
+        "key": "Trust system CAs",
+        "required": true,
+        "title": "Trust system CAs",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Allows unencrypted HTTP traffic for the specified domains, and if \"Include Subdomains\" is enabled then also the subdomains.",
+        "key": "Allow cleartext traffic (HTTP)",
+        "required": true,
+        "title": "Allow cleartext traffic (HTTP)",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Overrides certificate pinning for the specified domains and their subdomains if the option \"Include Subdomains\" is enabled to allow inspecting app traffic via a proxy.",
+        "key": "Override certificate pinning",
+        "required": true,
+        "title": "Override certificate pinning",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disable PairIP license and VM checks.",
+    "id": "e41368ebbe4c9312bae9a169:3",
+    "legacy_id": 10650,
+    "metadata_status": "verified",
+    "name": "Disable PairIP license check",
+    "options": [
+      {
+        "default": false,
+        "description": "Enables detailed native library and VM logging for debugging PairIP.",
+        "key": "Enable VM logging",
+        "required": false,
+        "title": "Enable VM logging",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Prevents apps from using Play Integrity by pretending it is not available.",
+    "id": "e41368ebbe4c9312bae9a169:4",
+    "legacy_id": 10651,
+    "metadata_status": "verified",
+    "name": "Disable Play Integrity",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables Sentry telemetry. See https://sentry.io/for/android/ for more information.",
+    "id": "e41368ebbe4c9312bae9a169:5",
+    "legacy_id": 10652,
+    "metadata_status": "verified",
+    "name": "Disable Sentry telemetry",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Enables Android debugging capabilities. This can slow down the app.",
+    "id": "e41368ebbe4c9312bae9a169:6",
+    "legacy_id": 10653,
+    "metadata_status": "verified",
+    "name": "Enable Android debugging",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Spoofs the signature via the manifest meta-data \"fake-signature\". This patch only works with ROMs that support signature spoofing.",
+    "id": "e41368ebbe4c9312bae9a169:7",
+    "legacy_id": 10654,
+    "metadata_status": "verified",
+    "name": "Enable ROM signature spoofing",
+    "options": [
+      {
+        "default": null,
+        "description": "The hex-encoded signature or path to an APK file with the desired signature.",
+        "key": "Signature or APK file path",
+        "required": true,
+        "title": "Signature or APK file path",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Makes all app activities exportable.",
+    "id": "e41368ebbe4c9312bae9a169:8",
+    "legacy_id": 10655,
+    "metadata_status": "verified",
+    "name": "Export all activities",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Exports a documents provider that grants access to the internal data directory of this app to file managers and other apps that support the Storage Access Framework.",
+    "id": "e41368ebbe4c9312bae9a169:9",
+    "legacy_id": 10656,
+    "metadata_status": "verified",
+    "name": "Export internal data documents provider",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Replaces a hexadecimal patterns of bytes of files in an APK.",
+    "id": "e41368ebbe4c9312bae9a169:10",
+    "legacy_id": 10657,
+    "metadata_status": "verified",
+    "name": "Hex",
+    "options": [
+      {
+        "default": null,
+        "description": "Hexadecimal patterns to search for and replace with another in a target file.\n\nA pattern is a sequence of case insensitive strings, each representing hexadecimal bytes, separated by spaces.\nAn example pattern is 'aa 01 02 FF'.\n\nEvery pattern must be followed by a pipe ('|'), the replacement pattern,\nanother pipe ('|'), and the path to the file to make the changes in relative to the APK root. \nThe replacement pattern must be shorter or equal in length to the pattern.\n\nFull example of a valid replacement:\n'01 02 aa FF|03 04|path/to/file'",
+        "key": "Replacements",
+        "required": true,
+        "title": "Replacements",
+        "type": "kotlin.collections.List<kotlin.String>",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Hides enabled development settings and/or ADB.",
+    "id": "e41368ebbe4c9312bae9a169:11",
+    "legacy_id": 10658,
+    "metadata_status": "verified",
+    "name": "Hide ADB status",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Hides the app icon from the Android launcher.",
+    "id": "e41368ebbe4c9312bae9a169:12",
+    "legacy_id": 10659,
+    "metadata_status": "verified",
+    "name": "Hide app icon",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Prevents the app from knowing the device location is being mocked by a third party app.",
+    "id": "e41368ebbe4c9312bae9a169:13",
+    "legacy_id": 10660,
+    "metadata_status": "verified",
+    "name": "Hide mock location",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [
+      "Enable Android debugging"
+    ],
+    "description": "Overrides certificate pinning, allowing to inspect traffic via a proxy.",
+    "id": "e41368ebbe4c9312bae9a169:14",
+    "legacy_id": 10661,
+    "metadata_status": "verified",
+    "name": "Override certificate pinning",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Enables the predictive back gesture introduced on Android 13.",
+    "id": "e41368ebbe4c9312bae9a169:15",
+    "legacy_id": 10662,
+    "metadata_status": "verified",
+    "name": "Predictive back gesture",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Removes the registration of all screen capture callbacks. This prevents the app from detecting screenshots.",
+    "id": "e41368ebbe4c9312bae9a169:16",
+    "legacy_id": 10663,
+    "metadata_status": "verified",
+    "name": "Prevent screenshot detection",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Removes the restriction of capturing audio from apps that normally wouldn't allow it.",
+    "id": "e41368ebbe4c9312bae9a169:17",
+    "legacy_id": 10664,
+    "metadata_status": "verified",
+    "name": "Remove screen capture restriction",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Removes the restriction of taking screenshots in apps that normally wouldn't allow it.",
+    "id": "e41368ebbe4c9312bae9a169:18",
+    "legacy_id": 10665,
+    "metadata_status": "verified",
+    "name": "Remove screenshot restriction",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Removes share targets like directly sharing to a frequent contact.",
+    "id": "e41368ebbe4c9312bae9a169:19",
+    "legacy_id": 10666,
+    "metadata_status": "verified",
+    "name": "Remove share targets",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Changes the target SDK to version 34 (Android 14). For devices running Android 15+, this will disable edge-to-edge display.",
+    "id": "e41368ebbe4c9312bae9a169:20",
+    "legacy_id": 10667,
+    "metadata_status": "verified",
+    "name": "Set target SDK version 34",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Spoofs the information about the current build.",
+    "id": "e41368ebbe4c9312bae9a169:21",
+    "legacy_id": 10668,
+    "metadata_status": "verified",
+    "name": "Spoof build info",
+    "options": [
+      {
+        "default": null,
+        "description": "The name of the underlying board, like \"goldfish\".",
+        "key": "Board",
+        "required": false,
+        "title": "Board",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The system bootloader version number.",
+        "key": "Bootloader",
+        "required": false,
+        "title": "Bootloader",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The consumer-visible brand with which the product/hardware will be associated, if any.",
+        "key": "Brand",
+        "required": false,
+        "title": "Brand",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "This field was deprecated in API level 21. Use SUPPORTED_ABIS instead.",
+        "key": "CPU ABI",
+        "required": false,
+        "title": "CPU ABI",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "This field was deprecated in API level 21. Use SUPPORTED_ABIS instead.",
+        "key": "CPU ABI 2",
+        "required": false,
+        "title": "CPU ABI 2",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The name of the industrial design.",
+        "key": "Device",
+        "required": false,
+        "title": "Device",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "A build ID string meant for displaying to the user.",
+        "key": "Display",
+        "required": false,
+        "title": "Display",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "A string that uniquely identifies this build.",
+        "key": "Fingerprint",
+        "required": false,
+        "title": "Fingerprint",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The name of the hardware (from the kernel command line or /proc).",
+        "key": "Hardware",
+        "required": false,
+        "title": "Hardware",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The host.",
+        "key": "Host",
+        "required": false,
+        "title": "Host",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "Either a changelist number, or a label like \"M4-rc20\".",
+        "key": "ID",
+        "required": false,
+        "title": "ID",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The manufacturer of the product/hardware.",
+        "key": "Manufacturer",
+        "required": false,
+        "title": "Manufacturer",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The end-user-visible name for the end product.",
+        "key": "Model",
+        "required": false,
+        "title": "Model",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The SKU of the device as set by the original design manufacturer (ODM).",
+        "key": "ODM SKU",
+        "required": false,
+        "title": "ODM SKU",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The name of the overall product.",
+        "key": "Product",
+        "required": false,
+        "title": "Product",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "This field was deprecated in API level 15. The radio firmware version is frequently not available when this class is initialized, leading to a blank or \"unknown\" value for this string. Use getRadioVersion() instead.",
+        "key": "Radio",
+        "required": false,
+        "title": "Radio",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "This field was deprecated in API level 26. Use getSerial() instead.",
+        "key": "Serial",
+        "required": false,
+        "title": "Serial",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The SKU of the hardware (from the kernel command line).",
+        "key": "SKU",
+        "required": false,
+        "title": "SKU",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The manufacturer of the device's primary system-on-chip.",
+        "key": "SOC manufacturer",
+        "required": false,
+        "title": "SOC manufacturer",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The model name of the device's primary system-on-chip.",
+        "key": "SOC model",
+        "required": false,
+        "title": "SOC model",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "Comma-separated tags describing the build, like \"unsigned,debug\".",
+        "key": "Tags",
+        "required": false,
+        "title": "Tags",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The time at which the build was produced, given in milliseconds since the UNIX epoch.",
+        "key": "Time",
+        "required": false,
+        "title": "Time",
+        "type": "kotlin.Long",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The type of build, like \"user\" or \"eng\".",
+        "key": "Type",
+        "required": false,
+        "title": "Type",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The user.",
+        "key": "User",
+        "required": false,
+        "title": "User",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Forces apps to see Keymaster and Attestation security levels as 'StrongBox' (Level 2).",
+    "id": "e41368ebbe4c9312bae9a169:22",
+    "legacy_id": 10669,
+    "metadata_status": "verified",
+    "name": "Spoof keystore security level",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Spoofs Google Play data about the user's age and verification status.",
+    "id": "e41368ebbe4c9312bae9a169:23",
+    "legacy_id": 10670,
+    "metadata_status": "verified",
+    "name": "Spoof Play Age Signals",
+    "options": [
+      {
+        "default": 18,
+        "description": "A positive integer.",
+        "key": "Lower age bound",
+        "required": false,
+        "title": "Lower age bound",
+        "type": "kotlin.Int",
+        "values": null
+      },
+      {
+        "default": 2147483647,
+        "description": "A positive integer. Must be greater than the lower age bound.",
+        "key": "Upper age bound",
+        "required": false,
+        "title": "Upper age bound",
+        "type": "kotlin.Int",
+        "values": null
+      },
+      {
+        "default": 0,
+        "description": "An integer representing the user status.",
+        "key": "User status",
+        "required": false,
+        "title": "User status",
+        "type": "kotlin.Int",
+        "values": {
+          "DECLARED": 5,
+          "SUPERVISED": 1,
+          "SUPERVISED_APPROVAL_DENIED": 3,
+          "SUPERVISED_APPROVAL_PENDING": 2,
+          "UNKNOWN": 4,
+          "VERIFIED": 0
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Spoofs device integrity states (Locked Bootloader, Verified OS) for apps that perform local certificate attestation.",
+    "id": "e41368ebbe4c9312bae9a169:24",
+    "legacy_id": 10671,
+    "metadata_status": "verified",
+    "name": "Spoof root of trust",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  },
+  {
+    "bundle_id": "e41368ebbe4c9312bae9a169",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Spoofs information about the SIM card provider.",
+    "id": "e41368ebbe4c9312bae9a169:25",
+    "legacy_id": 10672,
+    "metadata_status": "verified",
+    "name": "Spoof SIM provider",
+    "options": [
+      {
+        "default": null,
+        "description": "",
+        "key": "Network ISO country code",
+        "required": false,
+        "title": "ISO-3166-1 alpha-2 country code equivalent for the SIM provider's country code.",
+        "type": "kotlin.String",
+        "values": {
+          "Afghanistan": "AF",
+          "Albania": "AL",
+          "Algeria": "DZ",
+          "American Samoa": "AS",
+          "Andorra": "AD",
+          "Angola": "AO",
+          "Anguilla": "AI",
+          "Antarctica": "AQ",
+          "Antigua & Barbuda": "AG",
+          "Argentina": "AR",
+          "Armenia": "AM",
+          "Aruba": "AW",
+          "Australia": "AU",
+          "Austria": "AT",
+          "Azerbaijan": "AZ",
+          "Bahamas": "BS",
+          "Bahrain": "BH",
+          "Bangladesh": "BD",
+          "Barbados": "BB",
+          "Belarus": "BY",
+          "Belgium": "BE",
+          "Belize": "BZ",
+          "Benin": "BJ",
+          "Bermuda": "BM",
+          "Bhutan": "BT",
+          "Bolivia": "BO",
+          "Bosnia & Herzegovina": "BA",
+          "Botswana": "BW",
+          "Bouvet Island": "BV",
+          "Brazil": "BR",
+          "British Indian Ocean Territory": "IO",
+          "British Virgin Islands": "VG",
+          "Brunei": "BN",
+          "Bulgaria": "BG",
+          "Burkina Faso": "BF",
+          "Burundi": "BI",
+          "Cambodia": "KH",
+          "Cameroon": "CM",
+          "Canada": "CA",
+          "Cape Verde": "CV",
+          "Caribbean Netherlands": "BQ",
+          "Cayman Islands": "KY",
+          "Central African Republic": "CF",
+          "Chad": "TD",
+          "Chile": "CL",
+          "China": "CN",
+          "Christmas Island": "CX",
+          "Cocos (Keeling) Islands": "CC",
+          "Colombia": "CO",
+          "Comoros": "KM",
+          "Congo - Brazzaville": "CG",
+          "Congo - Kinshasa": "CD",
+          "Cook Islands": "CK",
+          "Costa Rica": "CR",
+          "Croatia": "HR",
+          "Cuba": "CU",
+          "Curaçao": "CW",
+          "Cyprus": "CY",
+          "Czechia": "CZ",
+          "Côte d’Ivoire": "CI",
+          "Denmark": "DK",
+          "Djibouti": "DJ",
+          "Dominica": "DM",
+          "Dominican Republic": "DO",
+          "Ecuador": "EC",
+          "Egypt": "EG",
+          "El Salvador": "SV",
+          "Equatorial Guinea": "GQ",
+          "Eritrea": "ER",
+          "Estonia": "EE",
+          "Eswatini": "SZ",
+          "Ethiopia": "ET",
+          "Falkland Islands": "FK",
+          "Faroe Islands": "FO",
+          "Fiji": "FJ",
+          "Finland": "FI",
+          "France": "FR",
+          "French Guiana": "GF",
+          "French Polynesia": "PF",
+          "French Southern Territories": "TF",
+          "Gabon": "GA",
+          "Gambia": "GM",
+          "Georgia": "GE",
+          "Germany": "DE",
+          "Ghana": "GH",
+          "Gibraltar": "GI",
+          "Greece": "GR",
+          "Greenland": "GL",
+          "Grenada": "GD",
+          "Guadeloupe": "GP",
+          "Guam": "GU",
+          "Guatemala": "GT",
+          "Guernsey": "GG",
+          "Guinea": "GN",
+          "Guinea-Bissau": "GW",
+          "Guyana": "GY",
+          "Haiti": "HT",
+          "Heard & McDonald Islands": "HM",
+          "Honduras": "HN",
+          "Hong Kong SAR China": "HK",
+          "Hungary": "HU",
+          "Iceland": "IS",
+          "India": "IN",
+          "Indonesia": "ID",
+          "Iran": "IR",
+          "Iraq": "IQ",
+          "Ireland": "IE",
+          "Isle of Man": "IM",
+          "Israel": "IL",
+          "Italy": "IT",
+          "Jamaica": "JM",
+          "Japan": "JP",
+          "Jersey": "JE",
+          "Jordan": "JO",
+          "Kazakhstan": "KZ",
+          "Kenya": "KE",
+          "Kiribati": "KI",
+          "Kuwait": "KW",
+          "Kyrgyzstan": "KG",
+          "Laos": "LA",
+          "Latvia": "LV",
+          "Lebanon": "LB",
+          "Lesotho": "LS",
+          "Liberia": "LR",
+          "Libya": "LY",
+          "Liechtenstein": "LI",
+          "Lithuania": "LT",
+          "Luxembourg": "LU",
+          "Macao SAR China": "MO",
+          "Madagascar": "MG",
+          "Malawi": "MW",
+          "Malaysia": "MY",
+          "Maldives": "MV",
+          "Mali": "ML",
+          "Malta": "MT",
+          "Marshall Islands": "MH",
+          "Martinique": "MQ",
+          "Mauritania": "MR",
+          "Mauritius": "MU",
+          "Mayotte": "YT",
+          "Mexico": "MX",
+          "Micronesia": "FM",
+          "Moldova": "MD",
+          "Monaco": "MC",
+          "Mongolia": "MN",
+          "Montenegro": "ME",
+          "Montserrat": "MS",
+          "Morocco": "MA",
+          "Mozambique": "MZ",
+          "Myanmar (Burma)": "MM",
+          "Namibia": "NA",
+          "Nauru": "NR",
+          "Nepal": "NP",
+          "Netherlands": "NL",
+          "New Caledonia": "NC",
+          "New Zealand": "NZ",
+          "Nicaragua": "NI",
+          "Niger": "NE",
+          "Nigeria": "NG",
+          "Niue": "NU",
+          "Norfolk Island": "NF",
+          "North Korea": "KP",
+          "North Macedonia": "MK",
+          "Northern Mariana Islands": "MP",
+          "Norway": "NO",
+          "Oman": "OM",
+          "Pakistan": "PK",
+          "Palau": "PW",
+          "Palestinian Territories": "PS",
+          "Panama": "PA",
+          "Papua New Guinea": "PG",
+          "Paraguay": "PY",
+          "Peru": "PE",
+          "Philippines": "PH",
+          "Pitcairn Islands": "PN",
+          "Poland": "PL",
+          "Portugal": "PT",
+          "Puerto Rico": "PR",
+          "Qatar": "QA",
+          "Romania": "RO",
+          "Russia": "RU",
+          "Rwanda": "RW",
+          "Réunion": "RE",
+          "Samoa": "WS",
+          "San Marino": "SM",
+          "Saudi Arabia": "SA",
+          "Senegal": "SN",
+          "Serbia": "RS",
+          "Seychelles": "SC",
+          "Sierra Leone": "SL",
+          "Singapore": "SG",
+          "Sint Maarten": "SX",
+          "Slovakia": "SK",
+          "Slovenia": "SI",
+          "Solomon Islands": "SB",
+          "Somalia": "SO",
+          "South Africa": "ZA",
+          "South Georgia & South Sandwich Islands": "GS",
+          "South Korea": "KR",
+          "South Sudan": "SS",
+          "Spain": "ES",
+          "Sri Lanka": "LK",
+          "St. Barthélemy": "BL",
+          "St. Helena": "SH",
+          "St. Kitts & Nevis": "KN",
+          "St. Lucia": "LC",
+          "St. Martin": "MF",
+          "St. Pierre & Miquelon": "PM",
+          "St. Vincent & Grenadines": "VC",
+          "Sudan": "SD",
+          "Suriname": "SR",
+          "Svalbard & Jan Mayen": "SJ",
+          "Sweden": "SE",
+          "Switzerland": "CH",
+          "Syria": "SY",
+          "São Tomé & Príncipe": "ST",
+          "Taiwan": "TW",
+          "Tajikistan": "TJ",
+          "Tanzania": "TZ",
+          "Thailand": "TH",
+          "Timor-Leste": "TL",
+          "Togo": "TG",
+          "Tokelau": "TK",
+          "Tonga": "TO",
+          "Trinidad & Tobago": "TT",
+          "Tunisia": "TN",
+          "Turkey": "TR",
+          "Turkmenistan": "TM",
+          "Turks & Caicos Islands": "TC",
+          "Tuvalu": "TV",
+          "U.S. Outlying Islands": "UM",
+          "U.S. Virgin Islands": "VI",
+          "Uganda": "UG",
+          "Ukraine": "UA",
+          "United Arab Emirates": "AE",
+          "United Kingdom": "GB",
+          "United States": "US",
+          "Uruguay": "UY",
+          "Uzbekistan": "UZ",
+          "Vanuatu": "VU",
+          "Vatican City": "VA",
+          "Venezuela": "VE",
+          "Vietnam": "VN",
+          "Wallis & Futuna": "WF",
+          "Western Sahara": "EH",
+          "Yemen": "YE",
+          "Zambia": "ZM",
+          "Zimbabwe": "ZW",
+          "Åland Islands": "AX"
+        }
+      },
+      {
+        "default": null,
+        "description": "The 5 or 6 digits MCC+MNC (Mobile Country Code + Mobile Network Code) of the network operator.",
+        "key": "MCC+MNC network operator code",
+        "required": false,
+        "title": "MCC+MNC network operator code",
+        "type": "kotlin.Int",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The full name of the network operator.",
+        "key": "Network operator name",
+        "required": false,
+        "title": "Network operator name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "",
+        "key": "SIM ISO country code",
+        "required": false,
+        "title": "ISO-3166-1 alpha-2 country code equivalent for the SIM provider's country code.",
+        "type": "kotlin.String",
+        "values": {
+          "Afghanistan": "AF",
+          "Albania": "AL",
+          "Algeria": "DZ",
+          "American Samoa": "AS",
+          "Andorra": "AD",
+          "Angola": "AO",
+          "Anguilla": "AI",
+          "Antarctica": "AQ",
+          "Antigua & Barbuda": "AG",
+          "Argentina": "AR",
+          "Armenia": "AM",
+          "Aruba": "AW",
+          "Australia": "AU",
+          "Austria": "AT",
+          "Azerbaijan": "AZ",
+          "Bahamas": "BS",
+          "Bahrain": "BH",
+          "Bangladesh": "BD",
+          "Barbados": "BB",
+          "Belarus": "BY",
+          "Belgium": "BE",
+          "Belize": "BZ",
+          "Benin": "BJ",
+          "Bermuda": "BM",
+          "Bhutan": "BT",
+          "Bolivia": "BO",
+          "Bosnia & Herzegovina": "BA",
+          "Botswana": "BW",
+          "Bouvet Island": "BV",
+          "Brazil": "BR",
+          "British Indian Ocean Territory": "IO",
+          "British Virgin Islands": "VG",
+          "Brunei": "BN",
+          "Bulgaria": "BG",
+          "Burkina Faso": "BF",
+          "Burundi": "BI",
+          "Cambodia": "KH",
+          "Cameroon": "CM",
+          "Canada": "CA",
+          "Cape Verde": "CV",
+          "Caribbean Netherlands": "BQ",
+          "Cayman Islands": "KY",
+          "Central African Republic": "CF",
+          "Chad": "TD",
+          "Chile": "CL",
+          "China": "CN",
+          "Christmas Island": "CX",
+          "Cocos (Keeling) Islands": "CC",
+          "Colombia": "CO",
+          "Comoros": "KM",
+          "Congo - Brazzaville": "CG",
+          "Congo - Kinshasa": "CD",
+          "Cook Islands": "CK",
+          "Costa Rica": "CR",
+          "Croatia": "HR",
+          "Cuba": "CU",
+          "Curaçao": "CW",
+          "Cyprus": "CY",
+          "Czechia": "CZ",
+          "Côte d’Ivoire": "CI",
+          "Denmark": "DK",
+          "Djibouti": "DJ",
+          "Dominica": "DM",
+          "Dominican Republic": "DO",
+          "Ecuador": "EC",
+          "Egypt": "EG",
+          "El Salvador": "SV",
+          "Equatorial Guinea": "GQ",
+          "Eritrea": "ER",
+          "Estonia": "EE",
+          "Eswatini": "SZ",
+          "Ethiopia": "ET",
+          "Falkland Islands": "FK",
+          "Faroe Islands": "FO",
+          "Fiji": "FJ",
+          "Finland": "FI",
+          "France": "FR",
+          "French Guiana": "GF",
+          "French Polynesia": "PF",
+          "French Southern Territories": "TF",
+          "Gabon": "GA",
+          "Gambia": "GM",
+          "Georgia": "GE",
+          "Germany": "DE",
+          "Ghana": "GH",
+          "Gibraltar": "GI",
+          "Greece": "GR",
+          "Greenland": "GL",
+          "Grenada": "GD",
+          "Guadeloupe": "GP",
+          "Guam": "GU",
+          "Guatemala": "GT",
+          "Guernsey": "GG",
+          "Guinea": "GN",
+          "Guinea-Bissau": "GW",
+          "Guyana": "GY",
+          "Haiti": "HT",
+          "Heard & McDonald Islands": "HM",
+          "Honduras": "HN",
+          "Hong Kong SAR China": "HK",
+          "Hungary": "HU",
+          "Iceland": "IS",
+          "India": "IN",
+          "Indonesia": "ID",
+          "Iran": "IR",
+          "Iraq": "IQ",
+          "Ireland": "IE",
+          "Isle of Man": "IM",
+          "Israel": "IL",
+          "Italy": "IT",
+          "Jamaica": "JM",
+          "Japan": "JP",
+          "Jersey": "JE",
+          "Jordan": "JO",
+          "Kazakhstan": "KZ",
+          "Kenya": "KE",
+          "Kiribati": "KI",
+          "Kuwait": "KW",
+          "Kyrgyzstan": "KG",
+          "Laos": "LA",
+          "Latvia": "LV",
+          "Lebanon": "LB",
+          "Lesotho": "LS",
+          "Liberia": "LR",
+          "Libya": "LY",
+          "Liechtenstein": "LI",
+          "Lithuania": "LT",
+          "Luxembourg": "LU",
+          "Macao SAR China": "MO",
+          "Madagascar": "MG",
+          "Malawi": "MW",
+          "Malaysia": "MY",
+          "Maldives": "MV",
+          "Mali": "ML",
+          "Malta": "MT",
+          "Marshall Islands": "MH",
+          "Martinique": "MQ",
+          "Mauritania": "MR",
+          "Mauritius": "MU",
+          "Mayotte": "YT",
+          "Mexico": "MX",
+          "Micronesia": "FM",
+          "Moldova": "MD",
+          "Monaco": "MC",
+          "Mongolia": "MN",
+          "Montenegro": "ME",
+          "Montserrat": "MS",
+          "Morocco": "MA",
+          "Mozambique": "MZ",
+          "Myanmar (Burma)": "MM",
+          "Namibia": "NA",
+          "Nauru": "NR",
+          "Nepal": "NP",
+          "Netherlands": "NL",
+          "New Caledonia": "NC",
+          "New Zealand": "NZ",
+          "Nicaragua": "NI",
+          "Niger": "NE",
+          "Nigeria": "NG",
+          "Niue": "NU",
+          "Norfolk Island": "NF",
+          "North Korea": "KP",
+          "North Macedonia": "MK",
+          "Northern Mariana Islands": "MP",
+          "Norway": "NO",
+          "Oman": "OM",
+          "Pakistan": "PK",
+          "Palau": "PW",
+          "Palestinian Territories": "PS",
+          "Panama": "PA",
+          "Papua New Guinea": "PG",
+          "Paraguay": "PY",
+          "Peru": "PE",
+          "Philippines": "PH",
+          "Pitcairn Islands": "PN",
+          "Poland": "PL",
+          "Portugal": "PT",
+          "Puerto Rico": "PR",
+          "Qatar": "QA",
+          "Romania": "RO",
+          "Russia": "RU",
+          "Rwanda": "RW",
+          "Réunion": "RE",
+          "Samoa": "WS",
+          "San Marino": "SM",
+          "Saudi Arabia": "SA",
+          "Senegal": "SN",
+          "Serbia": "RS",
+          "Seychelles": "SC",
+          "Sierra Leone": "SL",
+          "Singapore": "SG",
+          "Sint Maarten": "SX",
+          "Slovakia": "SK",
+          "Slovenia": "SI",
+          "Solomon Islands": "SB",
+          "Somalia": "SO",
+          "South Africa": "ZA",
+          "South Georgia & South Sandwich Islands": "GS",
+          "South Korea": "KR",
+          "South Sudan": "SS",
+          "Spain": "ES",
+          "Sri Lanka": "LK",
+          "St. Barthélemy": "BL",
+          "St. Helena": "SH",
+          "St. Kitts & Nevis": "KN",
+          "St. Lucia": "LC",
+          "St. Martin": "MF",
+          "St. Pierre & Miquelon": "PM",
+          "St. Vincent & Grenadines": "VC",
+          "Sudan": "SD",
+          "Suriname": "SR",
+          "Svalbard & Jan Mayen": "SJ",
+          "Sweden": "SE",
+          "Switzerland": "CH",
+          "Syria": "SY",
+          "São Tomé & Príncipe": "ST",
+          "Taiwan": "TW",
+          "Tajikistan": "TJ",
+          "Tanzania": "TZ",
+          "Thailand": "TH",
+          "Timor-Leste": "TL",
+          "Togo": "TG",
+          "Tokelau": "TK",
+          "Tonga": "TO",
+          "Trinidad & Tobago": "TT",
+          "Tunisia": "TN",
+          "Turkey": "TR",
+          "Turkmenistan": "TM",
+          "Turks & Caicos Islands": "TC",
+          "Tuvalu": "TV",
+          "U.S. Outlying Islands": "UM",
+          "U.S. Virgin Islands": "VI",
+          "Uganda": "UG",
+          "Ukraine": "UA",
+          "United Arab Emirates": "AE",
+          "United Kingdom": "GB",
+          "United States": "US",
+          "Uruguay": "UY",
+          "Uzbekistan": "UZ",
+          "Vanuatu": "VU",
+          "Vatican City": "VA",
+          "Venezuela": "VE",
+          "Vietnam": "VN",
+          "Wallis & Futuna": "WF",
+          "Western Sahara": "EH",
+          "Yemen": "YE",
+          "Zambia": "ZM",
+          "Zimbabwe": "ZW",
+          "Åland Islands": "AX"
+        }
+      },
+      {
+        "default": null,
+        "description": "The 5 or 6 digits MCC+MNC (Mobile Country Code + Mobile Network Code) of the SIM operator.",
+        "key": "MCC+MNC SIM operator code",
+        "required": false,
+        "title": "MCC+MNC SIM operator code",
+        "type": "kotlin.Int",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The full name of the SIM operator.",
+        "key": "SIM operator name",
+        "required": false,
+        "title": "SIM operator name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "15-digit IMEI to spoof, blank to skip, or 'random'.",
+        "key": "IMEI value",
+        "required": false,
+        "title": "IMEI value",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "14-char hex MEID to spoof, blank to skip, or 'random'.",
+        "key": "MEID value",
+        "required": false,
+        "title": "MEID value",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "15-digit IMSI to spoof, blank to skip, or 'random'.",
+        "key": "IMSI (Subscriber ID)",
+        "required": false,
+        "title": "IMSI (Subscriber ID)",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "19-digit ICCID to spoof, blank to skip, or 'random'.",
+        "key": "ICCID (SIM Serial)",
+        "required": false,
+        "title": "ICCID (SIM Serial)",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "Phone number to spoof, blank to skip, or 'random'.",
+        "key": "Phone number",
+        "required": false,
+        "title": "Phone number",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.0.3",
+    "source_id": "a954c0c54d12fb9a",
+    "use": false
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-10-07T16:03:52Z",
+  "description": "### ✨ New Features\n* **Zalo - Hide chat list ads:** Removes dedicated Zinstant ad cards from the message list; server-inserted promotions or other ad surfaces may remain.\n* **Zalo - Hide Media Box:** Hides the Media Box row without deleting its content.\n",
+  "download_url": "https://github.com/zeldrisho/morphe-patches/releases/download/v1.9.0/patches-1.9.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:66a21d1b6a67adad8020fbda25f0437a5bf281e556de81e21fb53b34636d2e59",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "66a21d1b6a67adad8020fbda25f0437a5bf281e556de81e21fb53b34636d2e59",
+  "id": "4631dbd802405272372ffb4e",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fzeldrisho%2Fmorphe-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fzeldrisho%2Fmorphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 158,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.instagram.barcelona",
+    "com.zing.zalo"
+  ],
+  "patch_count": 27,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.9.0",
+  "patch_refresh_attempted_at": "2026-10-10T15:22:17.085543263Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:66a21d1b6a67adad8020fbda25f0437a5bf281e556de81e21fb53b34636d2e59",
+  "release_status": "available",
+  "release_url": "https://github.com/zeldrisho/morphe-patches/releases/tag/v1.9.0",
+  "signature_download_url": "N/A",
+  "source_id": "3308b75f160289de",
+  "version": "v1.9.0"
+}
