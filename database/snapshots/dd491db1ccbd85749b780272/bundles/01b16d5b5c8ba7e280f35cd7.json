@@ -1,0 +1,44 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-08-31T10:27:07Z",
+  "description": "## [1.3.5](https://github.com/archie9211/morphe-patches/compare/v1.3.4...v1.3.5) (2026-08-31)\n\n### 🐛 Bug Fixes\n\n* mock PairIP LicenseCheckState to LOCAL_CHECK_OK to prevent native overlay ([09791a6](https://github.com/archie9211/morphe-patches/commit/09791a6b90dcf7aff93d21334a60772e9b0022de))\n",
+  "download_url": "https://github.com/archie9211/morphe-patches/releases/download/v1.3.5/patches-1.3.5.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": null,
+  "extraction_status": "unverified",
+  "extraction_terminal": false,
+  "file_hash": null,
+  "id": "01b16d5b5c8ba7e280f35cd7",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Farchie9211%2Fmorphe-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Farchie9211%2Fmorphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 6,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "AudioRelay",
+    "Medium"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 0,
+  "patch_metadata_version": "v1.3.5",
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_config_hash": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "provider_digest": "sha256:206945e08cb924ebd7914cdbe28a055ef2d204d24f7812ba638fa266251f92e3",
+  "release_status": "available",
+  "release_url": "https://github.com/archie9211/morphe-patches/releases/tag/v1.3.5",
+  "signature_download_url": "N/A",
+  "source_id": "f0f99ad8e8eb2209",
+  "version": "v1.3.5"
+}

@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-07-18T20:35:57Z",
+  "description": "## 1.0.0 (2026-07-18)\n\n### 🐛 Bug Fixes\n\n* restore patches_end tag ([d66e55a](https://github.com/drosoCode/morphe-patches/commit/d66e55a7fd3b91a2e4f86bf0ef0111656be01a1f))\n\n### ✨ New Features\n\n* imperihome patch ([7f20aae](https://github.com/drosoCode/morphe-patches/commit/7f20aae53c13ecf30c2f72cd538c1f8d70e9ff40))\n",
+  "download_url": "https://github.com/drosoCode/morphe-patches/releases/download/v1.0.0/patches-1.0.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": null,
+  "extraction_status": "unverified",
+  "extraction_terminal": false,
+  "file_hash": null,
+  "id": "7c09a0ceb4e3defe866b9973",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FdrosoCode%2Fmorphe-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FdrosoCode%2Fmorphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 285,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "ImperiHome"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 0,
+  "patch_metadata_version": "v1.0.0",
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_config_hash": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "provider_digest": "sha256:4f61dc396a7f779d407271f3998d7c16295e1e9372c8b6ed54179cd19ceb3a73",
+  "release_status": "available",
+  "release_url": "https://github.com/drosoCode/morphe-patches/releases/tag/v1.0.0",
+  "signature_download_url": "N/A",
+  "source_id": "f2bd1f5ada31db1e",
+  "version": "v1.0.0"
+}
