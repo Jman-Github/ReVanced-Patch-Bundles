@@ -1,5 +1,5 @@
 {
-    "version": "v3.10.0-dev.13",
+    "version": "v3.10.0-dev.14",
     "patches": [
         {
             "compatiblePackages": [
@@ -52,6 +52,9 @@
             "dependencies": [
                 "BytecodePatch",
                 "ResourcePatch",
+                "BytecodePatch",
+                "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
                 "BytecodePatch",
@@ -3241,35 +3244,6 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Removes the popup that appears after a while, when the app version ages.",
-            "name": "Remove build expired popup",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FC483C",
-                    "name": "Instagram",
-                    "packageName": "com.instagram.android",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "447.0.0.55.81",
-                            "versionCodes": {
-                                "ARM64_V8A": 385311895
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "447.0.0.55.81"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
             "description": "Removes empty space below bottom navigation bar",
             "name": "Remove empty bottom space",
             "options": []
@@ -3852,35 +3826,6 @@
             ],
             "description": "Unlocks 'Plus' subscription benefits that are checked locally. USE IT AT YOUR OWN RISK",
             "name": "Unlock Plus benefits",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
-                    "apkFileType": "APKM",
-                    "appIconColor": "#FC483C",
-                    "name": "Instagram",
-                    "packageName": "com.instagram.android",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "447.0.0.55.81",
-                            "versionCodes": {
-                                "ARM64_V8A": 385311895
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "447.0.0.55.81"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [
-                "BytecodePatch"
-            ],
-            "description": "Fixes app crashing issue while opening links from a different app",
-            "name": "Validate links",
             "options": []
         },
         {

@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0-dev.1",
+    "version": "v1.6.0-dev.2",
     "patches": [
         {
             "category": "Features",
@@ -564,6 +564,36 @@
             "options": []
         },
         {
+            "category": "Interface",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#007D46",
+                    "name": "Geocaching",
+                    "packageName": "com.groundspeak.geocaching.intro",
+                    "signatures": [
+                        "7f000458070a8272e5960f2b3c9d3348372f31b0e600c86af34fc06e85f8db8c",
+                        "6959a7790bff42cc28fbe41c20d457401e32f4854f414dbc390de9f1529c9295"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "10.21.0"
+                        }
+                    ],
+                    "versions": [
+                        "10.21.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables local Premium membership status across profile and account screens, removes upgrade promotions, banners, and icons, and preserves loaded non-traditional cache details.",
+            "name": "Local Premium",
+            "options": []
+        },
+        {
             "category": "Customization",
             "compatiblePackages": [
                 {
@@ -600,6 +630,99 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "category": "Customization",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#007D46",
+                    "name": "Geocaching",
+                    "packageName": "com.groundspeak.geocaching.intro",
+                    "signatures": [
+                        "7f000458070a8272e5960f2b3c9d3348372f31b0e600c86af34fc06e85f8db8c",
+                        "6959a7790bff42cc28fbe41c20d457401e32f4854f414dbc390de9f1529c9295"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "10.21.0"
+                        }
+                    ],
+                    "versions": [
+                        "10.21.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "OpenStreetMap Resource Strings",
+                "OpenStreetMap Preview Assets"
+            ],
+            "description": "Replaces Google Maps with OpenStreetMap (MapLibre vector engine) and adds in-app OpenStreetMap style switching and custom URL configuration to Map settings.",
+            "name": "OpenStreetMap Drop-in Replacement",
+            "options": []
+        },
+        {
+            "category": "Customization",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#007D46",
+                    "name": "Geocaching",
+                    "packageName": "com.groundspeak.geocaching.intro",
+                    "signatures": [
+                        "7f000458070a8272e5960f2b3c9d3348372f31b0e600c86af34fc06e85f8db8c",
+                        "6959a7790bff42cc28fbe41c20d457401e32f4854f414dbc390de9f1529c9295"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "10.21.0"
+                        }
+                    ],
+                    "versions": [
+                        "10.21.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Replaces proprietary Google Map type preview webp images with rendered OpenStreetMap style thumbnails in a busy location.",
+            "name": "OpenStreetMap Preview Assets",
+            "options": []
+        },
+        {
+            "category": "Customization",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#007D46",
+                    "name": "Geocaching",
+                    "packageName": "com.groundspeak.geocaching.intro",
+                    "signatures": [
+                        "7f000458070a8272e5960f2b3c9d3348372f31b0e600c86af34fc06e85f8db8c",
+                        "6959a7790bff42cc28fbe41c20d457401e32f4854f414dbc390de9f1529c9295"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "10.21.0"
+                        }
+                    ],
+                    "versions": [
+                        "10.21.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Updates map type names and descriptions in strings.xml to reflect OpenStreetMap styles.",
+            "name": "OpenStreetMap Resource Strings",
+            "options": []
         },
         {
             "category": "Security",
@@ -914,6 +1037,68 @@
             ]
         },
         {
+            "category": "Interface",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#007D46",
+                    "name": "Geocaching",
+                    "packageName": "com.groundspeak.geocaching.intro",
+                    "signatures": [
+                        "7f000458070a8272e5960f2b3c9d3348372f31b0e600c86af34fc06e85f8db8c",
+                        "6959a7790bff42cc28fbe41c20d457401e32f4854f414dbc390de9f1529c9295"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "10.21.0"
+                        }
+                    ],
+                    "versions": [
+                        "10.21.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "Remove Lists Resource"
+            ],
+            "description": "Removes the Lists option from the bottom navigation bar.",
+            "name": "Remove Lists",
+            "options": []
+        },
+        {
+            "category": "Interface",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#007D46",
+                    "name": "Geocaching",
+                    "packageName": "com.groundspeak.geocaching.intro",
+                    "signatures": [
+                        "7f000458070a8272e5960f2b3c9d3348372f31b0e600c86af34fc06e85f8db8c",
+                        "6959a7790bff42cc28fbe41c20d457401e32f4854f414dbc390de9f1529c9295"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "10.21.0"
+                        }
+                    ],
+                    "versions": [
+                        "10.21.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the Lists option from bottom_nav_menu.xml.",
+            "name": "Remove Lists Resource",
+            "options": []
+        },
+        {
             "category": "Security",
             "compatiblePackages": [
                 {
@@ -1216,6 +1401,36 @@
             "options": []
         },
         {
+            "category": "Interface",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#007D46",
+                    "name": "Geocaching",
+                    "packageName": "com.groundspeak.geocaching.intro",
+                    "signatures": [
+                        "7f000458070a8272e5960f2b3c9d3348372f31b0e600c86af34fc06e85f8db8c",
+                        "6959a7790bff42cc28fbe41c20d457401e32f4854f414dbc390de9f1529c9295"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "10.21.0"
+                        }
+                    ],
+                    "versions": [
+                        "10.21.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the Shop Geocaching promotional section and link from the Profile screen.",
+            "name": "Remove Shop",
+            "options": []
+        },
+        {
             "category": "Privacy",
             "compatiblePackages": [
                 {
@@ -1316,6 +1531,73 @@
                     "key": "disableCrashReporting",
                     "required": false,
                     "title": "Disable Crash Reporting",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
+        },
+        {
+            "category": "Privacy",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#007D46",
+                    "name": "Geocaching",
+                    "packageName": "com.groundspeak.geocaching.intro",
+                    "signatures": [
+                        "7f000458070a8272e5960f2b3c9d3348372f31b0e600c86af34fc06e85f8db8c",
+                        "6959a7790bff42cc28fbe41c20d457401e32f4854f414dbc390de9f1529c9295"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "10.21.0"
+                        }
+                    ],
+                    "versions": [
+                        "10.21.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Neutralizes first-party analytics (AnalyticsRepo), Google Analytics / Firebase (Analytics, Crashlytics, Performance, In-App Messaging), Facebook App Events, Iterable marketing telemetry, Usercentrics consent collection, and zeros the Google Play Advertising ID (AAID).",
+            "name": "Remove Tracking and Analytics",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Neutralizes Firebase Crashlytics diagnostic telemetry and crash reporting.",
+                    "key": "stripCrashlytics",
+                    "required": false,
+                    "title": "Disable Firebase Crashlytics",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Neutralizes Facebook App Events SDK logging and activation pings.",
+                    "key": "stripFacebook",
+                    "required": false,
+                    "title": "Disable Facebook Telemetry",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Neutralizes Iterable marketing SDK event and push tracking.",
+                    "key": "stripIterable",
+                    "required": false,
+                    "title": "Disable Iterable Marketing Telemetry",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": true,
+                    "description": "Neutralizes Usercentrics consent management and tracking telemetry.",
+                    "key": "stripUsercentrics",
+                    "required": false,
+                    "title": "Disable Usercentrics Consent Telemetry",
                     "type": "kotlin.Boolean",
                     "values": null
                 }
@@ -1727,6 +2009,36 @@
             ]
         },
         {
+            "category": "Features",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#007D46",
+                    "name": "Geocaching",
+                    "packageName": "com.groundspeak.geocaching.intro",
+                    "signatures": [
+                        "7f000458070a8272e5960f2b3c9d3348372f31b0e600c86af34fc06e85f8db8c",
+                        "6959a7790bff42cc28fbe41c20d457401e32f4854f414dbc390de9f1529c9295"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "10.21.0"
+                        }
+                    ],
+                    "versions": [
+                        "10.21.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks advanced cache search filters and sorting options without prompting for Geocaching Premium.",
+            "name": "Unlock Cache Filter and Sorting Tools",
+            "options": []
+        },
+        {
             "category": "Customization",
             "compatiblePackages": [
                 {
@@ -1777,6 +2089,46 @@
             "description": "Makes the internal Development Settings menu visible to every signed-in account.",
             "name": "Unlock Developer Settings",
             "options": []
+        },
+        {
+            "category": "Features",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#007D46",
+                    "name": "Geocaching",
+                    "packageName": "com.groundspeak.geocaching.intro",
+                    "signatures": [
+                        "7f000458070a8272e5960f2b3c9d3348372f31b0e600c86af34fc06e85f8db8c",
+                        "6959a7790bff42cc28fbe41c20d457401e32f4854f414dbc390de9f1529c9295"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "10.21.0"
+                        }
+                    ],
+                    "versions": [
+                        "10.21.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks beta and experimental features in Settings without Geocaching Premium.",
+            "name": "Unlock Experimental Features",
+            "options": [
+                {
+                    "default": true,
+                    "description": "Unlocks all 10% beta features (Activity Feed, Cache Log Translation, Autofill, Confetti, etc.).",
+                    "key": "unlockAllBetaFeatures",
+                    "required": false,
+                    "title": "Unlock All Beta Projects",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                }
+            ]
         },
         {
             "category": "Features",
@@ -1852,6 +2204,36 @@
             ],
             "description": "Makes the receipt scanner available from Development Settings and forces its V2 flow to render. REQUIRES Unlock Developer Settings to be enabled.",
             "name": "Unlock Receipt Scanner",
+            "options": []
+        },
+        {
+            "category": "Features",
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APKM",
+                    "appIconColor": "#007D46",
+                    "name": "Geocaching",
+                    "packageName": "com.groundspeak.geocaching.intro",
+                    "signatures": [
+                        "7f000458070a8272e5960f2b3c9d3348372f31b0e600c86af34fc06e85f8db8c",
+                        "6959a7790bff42cc28fbe41c20d457401e32f4854f414dbc390de9f1529c9295"
+                    ],
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 29,
+                            "version": "10.21.0"
+                        }
+                    ],
+                    "versions": [
+                        "10.21.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks geocache log templates, allowing creating, editing, and applying custom log templates without Geocaching Premium.",
+            "name": "Unlock Templates",
             "options": []
         },
         {

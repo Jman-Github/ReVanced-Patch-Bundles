@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.1-dev.1",
+    "version": "v1.1.0-dev.1",
     "patches": [
         {
             "category": null,
@@ -19,6 +19,63 @@
             "dependencies": [],
             "description": "Blocks fullscreen promotions (\"Pendragon\" messages) shown when opening the app.",
             "name": "Block popup ads",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "name": "InterPals",
+                    "packageName": "net.interpals",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Turns off all ad placements of the app, also the ones shown before the ad config is loaded.",
+            "name": "Disable ad placements",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "name": "InterPals",
+                    "packageName": "net.interpals",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds \"Download photo\" to the menu of the photo viewer.",
+            "name": "Download photos",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "name": "InterPals",
+                    "packageName": "net.interpals",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Adds \"Age & gender\" to the filter of the feed.",
+            "name": "Feed age and gender filter",
             "options": []
         },
         {

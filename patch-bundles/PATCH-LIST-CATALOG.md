@@ -113,7 +113,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Lain](#-lain-bundle-patch-list) | 45 | 33 | Generated |
 | [Edge-Morphe](#-edge-morphe-bundle-patch-list) | 5 | 2 | Generated |
 | [Anddea](#-anddea-bundle-patch-list) | 129 | 3 | Generated |
-| [Piko](#-piko-bundle-patch-list) | 138 | 2 | Generated |
+| [Piko](#-piko-bundle-patch-list) | 136 | 2 | Generated |
 | [HK-Morphe](#-hk-morphe-bundle-patch-list) | 12 | 4 | Generated |
 | [BholeyKaBhakt](#-bholeykabhakt-bundle-patch-list) | 24 | 15 | Generated |
 | [Andronedev](#-andronedev-bundle-patch-list) | 5 | 2 | Generated |
@@ -326,7 +326,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Akshay-Pixel-Camera](#-akshay-pixel-camera-bundle-patch-list) | 8 | 1 | Generated |
 | [Wagg13](#-wagg13-bundle-patch-list) | 8 | 6 | Generated |
 | [Anilili](#-anilili-bundle-patch-list) | 1 | 1 | Generated |
-| [Aidans](#-aidans-bundle-patch-list) | 52 | 8 | Generated |
+| [Aidans](#-aidans-bundle-patch-list) | 63 | 9 | Generated |
 | [Gboard-ENC](#-gboard-enc-bundle-patch-list) | 3 | 1 | Generated |
 | [Dhl0](#-dhl0-bundle-patch-list) | 13 | 5 | Generated |
 | [Virzak](#-virzak-bundle-patch-list) | 5 | 1 | Generated |
@@ -394,7 +394,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [anghamiplus](#-anghamiplus-bundle-patch-list) | 17 | 1 | Generated |
 | [pigfoot](#-pigfoot-bundle-patch-list) | 3 | 1 | Generated |
 | [walmart-morphe](#-walmart-morphe-bundle-patch-list) | 1 | 1 | Generated |
-| [2eno](#-2eno-bundle-patch-list) | 16 | 4 | Generated |
+| [2eno](#-2eno-bundle-patch-list) | 19 | 4 | Generated |
 | [johns-morphe](#-johns-morphe-bundle-patch-list) | 1 | 1 | Generated |
 | [lockhart07-gitlab](#-lockhart07-gitlab-bundle-patch-list) | 2 | 1 | Generated |
 | [fmkorea-splash](#-fmkorea-splash-bundle-patch-list) | - | - | Pending patch list |
@@ -2107,7 +2107,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 ### 🧩 Piko Bundle Patch List:
 [📦 Piko-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-piko-patches-bundle-morphe)
 <details>
-<summary><b>Piko</b> - 138 patches, 2 apps</summary>
+<summary><b>Piko</b> - 136 patches, 2 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -2159,7 +2159,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```More options on profile``` | ```Adds a new button to handle user related data like copy handle, download profile picture etc``` | ```Instagram``` | ```447.0.0.55.81``` |
 | ```Open links externally``` | ```Changes links to always open in your external browser, instead of the in-app browser.``` | ```Instagram``` | ```447.0.0.55.81``` |
 | ```Recommended flags``` | ```Developer flags suggested by the community``` | ```Instagram``` | ```447.0.0.55.81``` |
-| ```Remove build expired popup``` | ```Removes the popup that appears after a while, when the app version ages.``` | ```Instagram``` | ```447.0.0.55.81``` |
 | ```Remove empty bottom space``` | ```Removes empty space below bottom navigation bar``` | ```Instagram``` | ```447.0.0.55.81``` |
 | ```Sanitize share links``` | ```N/A``` | ```Instagram``` | ```447.0.0.55.81``` |
 | ```Save deleted messages``` | ```Captures incoming DMs locally as they arrive from the server and marks them when the sender deletes them.``` | ```Instagram``` | ```447.0.0.55.81``` |
@@ -2169,7 +2168,6 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | ```Unlock developer options``` | ```Unlocks developer option by long pressing home icon``` | ```Instagram``` | ```447.0.0.55.81``` |
 | ```Unlock employee options``` | ```Unlocks all options using by employee for debugging``` | ```Instagram``` | ```447.0.0.55.81``` |
 | ```Unlock Plus benefits``` | ```Unlocks 'Plus' subscription benefits that are checked locally. USE IT AT YOUR OWN RISK``` | ```Instagram``` | ```447.0.0.55.81``` |
-| ```Validate links``` | ```Fixes app crashing issue while opening links from a different app``` | ```Instagram``` | ```447.0.0.55.81``` |
 | ```View DMs anonymously``` | ```N/A``` | ```Instagram``` | ```447.0.0.55.81``` |
 | ```View live anonymously``` | ```N/A``` | ```Instagram``` | ```447.0.0.55.81``` |
 | ```View stories anonymously``` | ```N/A``` | ```Instagram``` | ```447.0.0.55.81``` |
@@ -10813,7 +10811,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Aidans Bundle Patch List:
 [📦 Aidans-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-aidans-patches-bundle-morphe)
 <details>
-<summary><b>Aidans</b> - 52 patches, 8 apps</summary>
+<summary><b>Aidans</b> - 63 patches, 9 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -10846,6 +10844,17 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Remove Tracking and Analytics``` | ```Neutralizes first-party client event tracking, Mixpanel analytics, Airbridge and Adjust attribution SDKs, Google Advertising ID (AAID) collection, and bypasses PairIP Play Integrity verification, with options for silent DM screenshots and Sentry telemetry removal.``` | ```Fizz``` | ```1.54.0``` |
 | ```Replace Emoji Font with iOS``` | ```Replaces Android system emoji with iOS Apple Color Emoji across Compose UI, posts, comments, and direct messages.``` | ```Fizz``` | ```1.54.0``` |
 | ```Replace Emoji Font with iOS Asset``` | ```Copies the packaged Apple Color Emoji font into the target APK assets.``` | ```Fizz``` | ```1.54.0``` |
+| ```Local Premium``` | ```Enables local Premium membership status across profile and account screens, removes upgrade promotions, banners, and icons, and preserves loaded non-traditional cache details.``` | ```Geocaching``` | ```10.21.0``` |
+| ```OpenStreetMap Drop-in Replacement``` | ```Replaces Google Maps with OpenStreetMap (MapLibre vector engine) and adds in-app OpenStreetMap style switching and custom URL configuration to Map settings.``` | ```Geocaching``` | ```10.21.0``` |
+| ```OpenStreetMap Preview Assets``` | ```Replaces proprietary Google Map type preview webp images with rendered OpenStreetMap style thumbnails in a busy location.``` | ```Geocaching``` | ```10.21.0``` |
+| ```OpenStreetMap Resource Strings``` | ```Updates map type names and descriptions in strings.xml to reflect OpenStreetMap styles.``` | ```Geocaching``` | ```10.21.0``` |
+| ```Remove Lists``` | ```Removes the Lists option from the bottom navigation bar.``` | ```Geocaching``` | ```10.21.0``` |
+| ```Remove Lists Resource``` | ```Removes the Lists option from bottom_nav_menu.xml.``` | ```Geocaching``` | ```10.21.0``` |
+| ```Remove Shop``` | ```Removes the Shop Geocaching promotional section and link from the Profile screen.``` | ```Geocaching``` | ```10.21.0``` |
+| ```Remove Tracking and Analytics``` | ```Neutralizes first-party analytics (AnalyticsRepo), Google Analytics / Firebase (Analytics, Crashlytics, Performance, In-App Messaging), Facebook App Events, Iterable marketing telemetry, Usercentrics consent collection, and zeros the Google Play Advertising ID (AAID).``` | ```Geocaching``` | ```10.21.0``` |
+| ```Unlock Cache Filter and Sorting Tools``` | ```Unlocks advanced cache search filters and sorting options without prompting for Geocaching Premium.``` | ```Geocaching``` | ```10.21.0``` |
+| ```Unlock Experimental Features``` | ```Unlocks beta and experimental features in Settings without Geocaching Premium.``` | ```Geocaching``` | ```10.21.0``` |
+| ```Unlock Templates``` | ```Unlocks geocache log templates, allowing creating, editing, and applying custom log templates without Geocaching Premium.``` | ```Geocaching``` | ```10.21.0``` |
 | ```Remove Tracking and Telemetry``` | ```Neutralizes Gainsight PX behavioral analytics (session tracking, screen views, custom events, user identification) and disables the Cordova Gainsight native plugin.``` | ```Navigate360 Student``` | ```26.19.22``` |
 | ```Remove Web Telemetry``` | ```Removes Sentry error/performance reporting, CSP telemetry endpoints, and Gainsight web bootstrap scripts from the embedded Cordova web bundle.``` | ```Navigate360 Student``` | ```26.19.22``` |
 | ```Clean Authentication``` | ```Shows Google sign-in only and removes the unavailable phone sign-in controls.``` | ```Sezzle``` | ```5.3.9``` |
@@ -12268,10 +12277,13 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 2eno Bundle Patch List:
 [📦 2eno-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-2eno-patches-bundle-morphe)
 <details>
-<summary><b>2eno</b> - 16 patches, 4 apps</summary>
+<summary><b>2eno</b> - 19 patches, 4 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
+| ```Disable ad placements``` | ```Turns off all ad placements of the app, also the ones shown before the ad config is loaded.``` | ```InterPals``` | ```All versions``` |
+| ```Download photos``` | ```Adds "Download photo" to the menu of the photo viewer.``` | ```InterPals``` | ```All versions``` |
+| ```Feed age and gender filter``` | ```Adds "Age & gender" to the filter of the feed.``` | ```InterPals``` | ```All versions``` |
 | ```Hide ads``` | ```Blocks banner, interstitial, rewarded, app open and native Google ads.``` | ```InterPals, Untappd``` | ```All versions``` |
 | ```Hide ads``` | ```Hides ads in the feed, search results and listings.``` | ```Kleinanzeigen``` | ```All versions``` |
 | ```Hide Pur``` | ```Hides the offers of the ad free subscription "Kleinanzeigen Pur".``` | ```Kleinanzeigen``` | ```All versions``` |
