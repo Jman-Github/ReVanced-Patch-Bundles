@@ -1,0 +1,3823 @@
+[
+  {
+    "bundle_id": "c77f2a4bde90a092b4c7341c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FFFFFF",
+        "name": "apk-signer",
+        "packageName": "com.haibison.apksigner",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "7.3.13",
+            "versionCodes": {
+              "ARM64_V8A": 123,
+              "ARMEABI_V7A": 123,
+              "X86": 123,
+              "X86_64": 123
+            }
+          }
+        ],
+        "versions": [
+          "7.3.13"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Turns off annoying forground service warning at startup",
+    "id": "c77f2a4bde90a092b4c7341c:1",
+    "legacy_id": 9656,
+    "metadata_status": "unverified",
+    "name": "Disable Forground Services Warning",
+    "options": [],
+    "packages": [
+      {
+        "name": "apk-signer",
+        "versions": [
+          "7.3.13"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0-dev.1",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "c77f2a4bde90a092b4c7341c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0866FF",
+        "name": "Facebook Lite",
+        "packageName": "com.facebook.lite",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables the in-built browser in Facebook Lite by removing its activities from the manifest.",
+    "id": "c77f2a4bde90a092b4c7341c:2",
+    "legacy_id": 9657,
+    "metadata_status": "unverified",
+    "name": "Disable In-Built Browser",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.1",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "c77f2a4bde90a092b4c7341c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#4CAF50",
+        "name": "CandyLink VPN",
+        "packageName": "com.candylink.openvpn",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "4.0.2"
+          }
+        ],
+        "versions": [
+          "4.0.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disable tracking statistics for CandyLink VPN .",
+    "id": "c77f2a4bde90a092b4c7341c:3",
+    "legacy_id": 9658,
+    "metadata_status": "unverified",
+    "name": "Disable Tracking",
+    "options": [],
+    "packages": [
+      {
+        "name": "CandyLink VPN",
+        "versions": [
+          "4.0.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0-dev.1",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "c77f2a4bde90a092b4c7341c",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Replaces System.currentTimeMillis() and System.nanoTime() with a fixed timestamp.",
+    "id": "c77f2a4bde90a092b4c7341c:4",
+    "legacy_id": 9659,
+    "metadata_status": "unverified",
+    "name": "Fake System Time",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.1",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "c77f2a4bde90a092b4c7341c",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Hides the app's launcher icon.",
+    "id": "c77f2a4bde90a092b4c7341c:5",
+    "legacy_id": 9660,
+    "metadata_status": "unverified",
+    "name": "Hide launcher icon",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.1",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "c77f2a4bde90a092b4c7341c",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Removes the title/action bar from every declared style, in every res/values*/styles.xml resource file.",
+    "id": "c77f2a4bde90a092b4c7341c:6",
+    "legacy_id": 9661,
+    "metadata_status": "unverified",
+    "name": "Hide title/action bar",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.1",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "c77f2a4bde90a092b4c7341c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#00C300",
+        "name": "FFmpeg Media Encoder",
+        "packageName": "com.silentlexx.ffmpeggui",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.1.3_1",
+            "versionCodes": {
+              "ARM64_V8A": 6131,
+              "ARMEABI_V7A": 6131,
+              "X86": 6131,
+              "X86_64": 6131
+            }
+          }
+        ],
+        "versions": [
+          "6.1.3_1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlock donator features and removes ads.",
+    "id": "c77f2a4bde90a092b4c7341c:7",
+    "legacy_id": 9662,
+    "metadata_status": "unverified",
+    "name": "Remove Ads of FFmpeg",
+    "options": [],
+    "packages": [
+      {
+        "name": "FFmpeg Media Encoder",
+        "versions": [
+          "6.1.3_1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0-dev.1",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "c77f2a4bde90a092b4c7341c",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Removes every <receiver> declaration from AndroidManifest.xml.",
+    "id": "c77f2a4bde90a092b4c7341c:8",
+    "legacy_id": 9663,
+    "metadata_status": "unverified",
+    "name": "Remove all receivers",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.1",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "c77f2a4bde90a092b4c7341c",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Replaces every read of Build.SERIAL with the constant string \"Serial\", across every class in the app.",
+    "id": "c77f2a4bde90a092b4c7341c:9",
+    "legacy_id": 9664,
+    "metadata_status": "unverified",
+    "name": "Spoof Build.SERIAL",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.1",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "c77f2a4bde90a092b4c7341c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0B0217",
+        "name": "Beat.ly",
+        "packageName": "vinkle.video.editor",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.46.10897",
+            "versionCodes": {
+              "ARM64_V8A": 10897,
+              "ARMEABI_V7A": 10897,
+              "X86": 10897,
+              "X86_64": 10897
+            }
+          }
+        ],
+        "versions": [
+          "2.46.10897"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "All VIP features are unlocked.",
+    "id": "c77f2a4bde90a092b4c7341c:10",
+    "legacy_id": 9665,
+    "metadata_status": "unverified",
+    "name": "Unlock Beat.ly VIP",
+    "options": [],
+    "packages": [
+      {
+        "name": "Beat.ly",
+        "versions": [
+          "2.46.10897"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0-dev.1",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "c77f2a4bde90a092b4c7341c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#008D85",
+        "name": "Footej Camera",
+        "packageName": "com.footej.camera",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.4.1 build 202",
+            "versionCodes": {
+              "ARM64_V8A": 20202,
+              "ARMEABI_V7A": 20202,
+              "X86": 20202,
+              "X86_64": 20202
+            }
+          }
+        ],
+        "versions": [
+          "2.4.1 build 202"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "All Premium features are unlocked.",
+    "id": "c77f2a4bde90a092b4c7341c:11",
+    "legacy_id": 9666,
+    "metadata_status": "unverified",
+    "name": "Unlock Footej Camera Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Footej Camera",
+        "versions": [
+          "2.4.1 build 202"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0-dev.1",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "c77f2a4bde90a092b4c7341c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#000000",
+        "name": "GoCut",
+        "packageName": "com.videoedit.gocut",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.0.4",
+            "versionCodes": {
+              "ARM64_V8A": 311,
+              "ARMEABI_V7A": 311,
+              "X86": 311,
+              "X86_64": 311
+            }
+          }
+        ],
+        "versions": [
+          "3.0.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Enables premium features and functionality in the GoCut application.",
+    "id": "c77f2a4bde90a092b4c7341c:12",
+    "legacy_id": 9667,
+    "metadata_status": "unverified",
+    "name": "Unlock GoCut Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "GoCut",
+        "versions": [
+          "3.0.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0-dev.1",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "c77f2a4bde90a092b4c7341c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#7DFD91",
+        "name": "Mvideo",
+        "packageName": "music.videomaker.slideshow",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.0.11515",
+            "versionCodes": {
+              "ARM64_V8A": 11515,
+              "ARMEABI_V7A": 11515,
+              "X86": 11515,
+              "X86_64": 11515
+            }
+          }
+        ],
+        "versions": [
+          "1.0.11515"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "All VIP features are unlocked.",
+    "id": "c77f2a4bde90a092b4c7341c:13",
+    "legacy_id": 9668,
+    "metadata_status": "unverified",
+    "name": "Unlock Mvideo VIP",
+    "options": [],
+    "packages": [
+      {
+        "name": "Mvideo",
+        "versions": [
+          "1.0.11515"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0-dev.1",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "c77f2a4bde90a092b4c7341c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1C2029",
+        "name": "OviCut",
+        "packageName": "video.editor.videoeditor.musicvideoeditor",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.3.1",
+            "versionCodes": {
+              "ARM64_V8A": 3203017,
+              "ARMEABI_V7A": 3203017,
+              "X86": 3203017,
+              "X86_64": 3203017
+            }
+          }
+        ],
+        "versions": [
+          "2.3.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Enables premium features and functionality in the OviCut application.",
+    "id": "c77f2a4bde90a092b4c7341c:14",
+    "legacy_id": 9669,
+    "metadata_status": "unverified",
+    "name": "Unlock OviCut Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "OviCut",
+        "versions": [
+          "2.3.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0-dev.1",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "c77f2a4bde90a092b4c7341c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#4CAF50",
+        "name": "CandyLink VPN",
+        "packageName": "com.candylink.openvpn",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "4.0.2"
+          }
+        ],
+        "versions": [
+          "4.0.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Premium features are unlocked and ads are disabled.",
+    "id": "c77f2a4bde90a092b4c7341c:15",
+    "legacy_id": 9670,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "CandyLink VPN",
+        "versions": [
+          "4.0.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0-dev.1",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "c77f2a4bde90a092b4c7341c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#4CAF50",
+        "name": "Manglish Keyboard",
+        "packageName": "com.clusterdev.malayalamkeyboard",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "10.1.0"
+          }
+        ],
+        "versions": [
+          "10.1.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Premium features are unlocked and ads are disabled.",
+    "id": "c77f2a4bde90a092b4c7341c:16",
+    "legacy_id": 9671,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Manglish Keyboard",
+        "versions": [
+          "10.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0-dev.1",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "c77f2a4bde90a092b4c7341c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#4CAF50",
+        "name": "Sticker Maker",
+        "packageName": "com.marsvard.stickermakerforwhatsapp",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "1.0.10-5",
+            "versionCodes": {
+              "ARM64_V8A": 1001005,
+              "ARMEABI_V7A": 1001005,
+              "X86": 1001005,
+              "X86_64": 1001005
+            }
+          }
+        ],
+        "versions": [
+          "1.0.10-5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Premium features are unlocked and ads are disabled.",
+    "id": "c77f2a4bde90a092b4c7341c:17",
+    "legacy_id": 9672,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Sticker Maker",
+        "versions": [
+          "1.0.10-5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0-dev.1",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "c77f2a4bde90a092b4c7341c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#CE2492",
+        "name": "Video to MP3",
+        "packageName": "mp3videoconverter.videotomp3.videotomp3converter",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.2.7.1",
+            "versionCodes": {
+              "ARM64_V8A": 227100,
+              "ARMEABI_V7A": 227100,
+              "X86": 227100,
+              "X86_64": 227100
+            }
+          }
+        ],
+        "versions": [
+          "2.2.7.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Enables premium features and functionality in the Video to MP3 application.",
+    "id": "c77f2a4bde90a092b4c7341c:18",
+    "legacy_id": 9673,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium of Video to MP3",
+    "options": [],
+    "packages": [
+      {
+        "name": "Video to MP3",
+        "versions": [
+          "2.2.7.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0-dev.1",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "c77f2a4bde90a092b4c7341c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#4CAF50",
+        "name": "Melon VPN",
+        "packageName": "com.vpnbottle.melon.free.unblock.fast.vpn",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "8.0.527",
+            "versionCodes": {
+              "ARM64_V8A": 80527,
+              "ARMEABI_V7A": 80527,
+              "X86": 80527,
+              "X86_64": 80527
+            }
+          }
+        ],
+        "versions": [
+          "8.0.527"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlimited access to everything. 80+ Servers, Removed Ad, 5x Speed, Unlimited Time",
+    "id": "c77f2a4bde90a092b4c7341c:19",
+    "legacy_id": 9674,
+    "metadata_status": "unverified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "Melon VPN",
+        "versions": [
+          "8.0.527"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0-dev.1",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "c77f2a4bde90a092b4c7341c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#F8FBFF",
+        "name": "Reverso Context",
+        "packageName": "com.softissimo.reverso.context",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "16.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 12000096,
+              "ARMEABI_V7A": 12000096,
+              "X86": 12000096,
+              "X86_64": 12000096
+            }
+          }
+        ],
+        "versions": [
+          "16.1.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "All Premium features are unlocked.",
+    "id": "c77f2a4bde90a092b4c7341c:20",
+    "legacy_id": 9675,
+    "metadata_status": "unverified",
+    "name": "Unlock Reverso Context Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Reverso Context",
+        "versions": [
+          "16.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0-dev.1",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "c77f2a4bde90a092b4c7341c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#293F53",
+        "name": "TrebEdit",
+        "packageName": "com.teejay.trebedit",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.5.5",
+            "versionCodes": {
+              "ARM64_V8A": 114,
+              "ARMEABI_V7A": 114,
+              "X86": 114,
+              "X86_64": 114
+            }
+          }
+        ],
+        "versions": [
+          "3.5.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks lifetime access to TrebEdit Premium.",
+    "id": "c77f2a4bde90a092b4c7341c:21",
+    "legacy_id": 9676,
+    "metadata_status": "unverified",
+    "name": "Unlock TrebEdit Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "TrebEdit",
+        "versions": [
+          "3.5.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0-dev.1",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "c77f2a4bde90a092b4c7341c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1C1C1C",
+        "name": "Vidma",
+        "packageName": "vidma.video.editor.videomaker",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.11.5",
+            "versionCodes": {
+              "ARM64_V8A": 20110501,
+              "ARMEABI_V7A": 20110501,
+              "X86": 20110501,
+              "X86_64": 20110501
+            }
+          }
+        ],
+        "versions": [
+          "2.11.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlock Vip features and removes ads.",
+    "id": "c77f2a4bde90a092b4c7341c:22",
+    "legacy_id": 9677,
+    "metadata_status": "unverified",
+    "name": "Unlock Vip Of Vidma",
+    "options": [],
+    "packages": [
+      {
+        "name": "Vidma",
+        "versions": [
+          "2.11.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0-dev.1",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "c861baf91ad7bbf0bcf9d261",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FFCF00",
+        "name": "Beeline",
+        "packageName": "co.beeline",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.2.8014"
+          }
+        ],
+        "versions": [
+          "4.2.8014"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Beeline plus features such as round-trip generation, live traffic and premium map types.",
+    "id": "c861baf91ad7bbf0bcf9d261:0",
+    "legacy_id": 9678,
+    "metadata_status": "unverified",
+    "name": "Unlock Beeline Plus features",
+    "options": [],
+    "packages": [
+      {
+        "name": "Beeline",
+        "versions": [
+          "4.2.8014"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "0d8dc3ac07723609"
+  },
+  {
+    "bundle_id": "c88fce27dc993aa64614716f",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#F42F34",
+        "name": "Vélo'v",
+        "packageName": "com.jcdecaux.vls.lyon",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.1.1"
+          }
+        ],
+        "versions": [
+          "3.1.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Block Didomi & Matomo tracking SDKs, hide consent prompts for 3rd party & geolocation data",
+    "id": "c88fce27dc993aa64614716f:0",
+    "legacy_id": 9679,
+    "metadata_status": "unverified",
+    "name": "Block data collection",
+    "options": [],
+    "packages": [
+      {
+        "name": "Vélo'v",
+        "versions": [
+          "3.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.1",
+    "source_id": "4df3c6e598c53ff1"
+  },
+  {
+    "bundle_id": "c88fce27dc993aa64614716f",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#3C3C3C",
+        "name": "Sudoku The Clean One",
+        "packageName": "ee.dustland.android.dustlandsudoku",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.18.3"
+          }
+        ],
+        "versions": [
+          "2.18.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Bypass the PairIp license check preventing app modification",
+    "id": "c88fce27dc993aa64614716f:1",
+    "legacy_id": 9680,
+    "metadata_status": "unverified",
+    "name": "Bypass PairIp",
+    "options": [],
+    "packages": [
+      {
+        "name": "Sudoku The Clean One",
+        "versions": [
+          "2.18.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.1",
+    "source_id": "4df3c6e598c53ff1"
+  },
+  {
+    "bundle_id": "c88fce27dc993aa64614716f",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#3C3C3C",
+        "name": "Sudoku The Clean One",
+        "packageName": "ee.dustland.android.dustlandsudoku",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.18.3"
+          }
+        ],
+        "versions": [
+          "2.18.3"
+        ]
+      },
+      {
+        "appIconColor": "#3C3C3C",
+        "name": "Minesweeper The Clean One",
+        "packageName": "ee.dustland.android.minesweeper",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.21.3"
+          }
+        ],
+        "versions": [
+          "1.21.3"
+        ]
+      },
+      {
+        "appIconColor": "#3C3C3C",
+        "name": "Solitaire The Clean One",
+        "packageName": "ee.dustland.android.solitaire",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.20.3"
+          }
+        ],
+        "versions": [
+          "1.20.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disable Internet and Telemetry by removing all non-necessary permissions from the manifest",
+    "id": "c88fce27dc993aa64614716f:2",
+    "legacy_id": 9681,
+    "metadata_status": "unverified",
+    "name": "Disable Internet and Telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "Sudoku The Clean One",
+        "versions": [
+          "2.18.3"
+        ]
+      },
+      {
+        "name": "Minesweeper The Clean One",
+        "versions": [
+          "1.21.3"
+        ]
+      },
+      {
+        "name": "Solitaire The Clean One",
+        "versions": [
+          "1.20.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.1",
+    "source_id": "4df3c6e598c53ff1"
+  },
+  {
+    "bundle_id": "c88fce27dc993aa64614716f",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#F42F34",
+        "name": "Vélo'v",
+        "packageName": "com.jcdecaux.vls.lyon",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.1.1"
+          }
+        ],
+        "versions": [
+          "3.1.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disable the map zoom-in animation",
+    "id": "c88fce27dc993aa64614716f:3",
+    "legacy_id": 9682,
+    "metadata_status": "unverified",
+    "name": "Disable map animations",
+    "options": [],
+    "packages": [
+      {
+        "name": "Vélo'v",
+        "versions": [
+          "3.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.1",
+    "source_id": "4df3c6e598c53ff1"
+  },
+  {
+    "bundle_id": "c88fce27dc993aa64614716f",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#F42F34",
+        "name": "Vélo'v",
+        "packageName": "com.jcdecaux.vls.lyon",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.1.1"
+          }
+        ],
+        "versions": [
+          "3.1.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Allows easy configuration of deeplinks (velov.cyclocity.fr, velov.grandlyon.com) required by the app to sign-in",
+    "id": "c88fce27dc993aa64614716f:4",
+    "legacy_id": 9683,
+    "metadata_status": "unverified",
+    "name": "Easy deeplinks configuration",
+    "options": [],
+    "packages": [
+      {
+        "name": "Vélo'v",
+        "versions": [
+          "3.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.1",
+    "source_id": "4df3c6e598c53ff1"
+  },
+  {
+    "bundle_id": "c88fce27dc993aa64614716f",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#37AA2F",
+        "name": "Citymapper",
+        "packageName": "com.citymapper.app.release",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "11.58"
+          }
+        ],
+        "versions": [
+          "11.58"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Enable Citymapper Club subscription",
+    "id": "c88fce27dc993aa64614716f:5",
+    "legacy_id": 9684,
+    "metadata_status": "unverified",
+    "name": "Enable Club",
+    "options": [],
+    "packages": [
+      {
+        "name": "Citymapper",
+        "versions": [
+          "11.58"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.1",
+    "source_id": "4df3c6e598c53ff1"
+  },
+  {
+    "bundle_id": "c88fce27dc993aa64614716f",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#3C3C3C",
+        "name": "Sudoku The Clean One",
+        "packageName": "ee.dustland.android.dustlandsudoku",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.18.3"
+          }
+        ],
+        "versions": [
+          "2.18.3"
+        ]
+      },
+      {
+        "appIconColor": "#3C3C3C",
+        "name": "Minesweeper The Clean One",
+        "packageName": "ee.dustland.android.minesweeper",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.21.3"
+          }
+        ],
+        "versions": [
+          "1.21.3"
+        ]
+      },
+      {
+        "appIconColor": "#3C3C3C",
+        "name": "Solitaire The Clean One",
+        "packageName": "ee.dustland.android.solitaire",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.20.3"
+          }
+        ],
+        "versions": [
+          "1.20.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlock all purchasables options",
+    "id": "c88fce27dc993aa64614716f:6",
+    "legacy_id": 9685,
+    "metadata_status": "unverified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Sudoku The Clean One",
+        "versions": [
+          "2.18.3"
+        ]
+      },
+      {
+        "name": "Minesweeper The Clean One",
+        "versions": [
+          "1.21.3"
+        ]
+      },
+      {
+        "name": "Solitaire The Clean One",
+        "versions": [
+          "1.20.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.1",
+    "source_id": "4df3c6e598c53ff1"
+  },
+  {
+    "bundle_id": "c88fce27dc993aa64614716f",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#B2FF4B",
+        "name": "Undercover",
+        "packageName": "com.yanstarstudio.joss.undercover",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "5.0.1"
+          }
+        ],
+        "versions": [
+          "5.0.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlock Full Access Pack",
+    "id": "c88fce27dc993aa64614716f:7",
+    "legacy_id": 9686,
+    "metadata_status": "unverified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Undercover",
+        "versions": [
+          "5.0.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.1",
+    "source_id": "4df3c6e598c53ff1"
+  },
+  {
+    "bundle_id": "c88fce27dc993aa64614716f",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Makes all activities launchable externally by setting android:exported=\"true\" in the manifest",
+    "id": "c88fce27dc993aa64614716f:8",
+    "legacy_id": 9687,
+    "metadata_status": "unverified",
+    "name": "Export all activities",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.13.1",
+    "source_id": "4df3c6e598c53ff1"
+  },
+  {
+    "bundle_id": "c88fce27dc993aa64614716f",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#37AA2F",
+        "name": "Citymapper",
+        "packageName": "com.citymapper.app.release",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "11.58"
+          }
+        ],
+        "versions": [
+          "11.58"
+        ]
+      },
+      {
+        "appIconColor": "#F42F34",
+        "name": "Vélo'v",
+        "packageName": "com.jcdecaux.vls.lyon",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.1.1"
+          }
+        ],
+        "versions": [
+          "3.1.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Use a different Google Maps API key to fix modified apps",
+    "id": "c88fce27dc993aa64614716f:9",
+    "legacy_id": 9688,
+    "metadata_status": "unverified",
+    "name": "Google Maps API key",
+    "options": [
+      {
+        "default": "",
+        "description": "Google Maps API key",
+        "key": "mapApiKey",
+        "required": true,
+        "title": "Google Maps API key",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Citymapper",
+        "versions": [
+          "11.58"
+        ]
+      },
+      {
+        "name": "Vélo'v",
+        "versions": [
+          "3.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.1",
+    "source_id": "4df3c6e598c53ff1"
+  },
+  {
+    "bundle_id": "c88fce27dc993aa64614716f",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#F42F34",
+        "name": "Vélo'v",
+        "packageName": "com.jcdecaux.vls.lyon",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.1.1"
+          }
+        ],
+        "versions": [
+          "3.1.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hide the onboarding \"Plan your journey\" screen",
+    "id": "c88fce27dc993aa64614716f:10",
+    "legacy_id": 9689,
+    "metadata_status": "unverified",
+    "name": "Hide onboarding screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "Vélo'v",
+        "versions": [
+          "3.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.1",
+    "source_id": "4df3c6e598c53ff1"
+  },
+  {
+    "bundle_id": "c88fce27dc993aa64614716f",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#F42F34",
+        "name": "Vélo'v",
+        "packageName": "com.jcdecaux.vls.lyon",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.1.1"
+          }
+        ],
+        "versions": [
+          "3.1.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Allows you to unlock a bike even if you're not near the station.",
+    "id": "c88fce27dc993aa64614716f:11",
+    "legacy_id": 9690,
+    "metadata_status": "unverified",
+    "name": "No geolocalisation check",
+    "options": [],
+    "packages": [
+      {
+        "name": "Vélo'v",
+        "versions": [
+          "3.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.1",
+    "source_id": "4df3c6e598c53ff1"
+  },
+  {
+    "bundle_id": "c88fce27dc993aa64614716f",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#F42F34",
+        "name": "Vélo'v",
+        "packageName": "com.jcdecaux.vls.lyon",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.1.1"
+          }
+        ],
+        "versions": [
+          "3.1.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Spoofs the package signature required for Firebase, fixes notifications",
+    "id": "c88fce27dc993aa64614716f:12",
+    "legacy_id": 9691,
+    "metadata_status": "unverified",
+    "name": "Spoof package signature",
+    "options": [],
+    "packages": [
+      {
+        "name": "Vélo'v",
+        "versions": [
+          "3.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.1",
+    "source_id": "4df3c6e598c53ff1"
+  },
+  {
+    "bundle_id": "c88fce27dc993aa64614716f",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#F42F34",
+        "name": "Vélo'v",
+        "packageName": "com.jcdecaux.vls.lyon",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.1.1"
+          }
+        ],
+        "versions": [
+          "3.1.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Fix the login error \"Access denied. This account is already in use on another device.\" by pretending to be the web client",
+    "id": "c88fce27dc993aa64614716f:13",
+    "legacy_id": 9692,
+    "metadata_status": "unverified",
+    "name": "Use multiple devices",
+    "options": [],
+    "packages": [
+      {
+        "name": "Vélo'v",
+        "versions": [
+          "3.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.1",
+    "source_id": "4df3c6e598c53ff1"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [
+      "RawResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Unpacks bundled save-data zip(s) into the app's storage on first launch.",
+    "id": "c893b3b1dd6ff44b856020dc:0",
+    "legacy_id": 9693,
+    "metadata_status": "unverified",
+    "name": "Add Save Data",
+    "options": [
+      {
+        "default": null,
+        "description": "Zip of the app's internal storage. Restored to /data/data/<package> on first launch.",
+        "key": "internalDataZip",
+        "required": false,
+        "title": "1. Select data/data zip",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "Zip of the app's external storage folder. Restored to Android/data/<package> on first launch.",
+        "key": "externalDataZip",
+        "required": false,
+        "title": "2. Select Android/data zip",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "Zip of the app's OBB files. Restored to Android/obb/<package> on first launch.",
+        "key": "obbZip",
+        "required": false,
+        "title": "3. Select Android/obb zip",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Also show a toast message on first launch.",
+        "key": "addToast",
+        "required": false,
+        "title": "Add toast",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": "Mod By BlazeFTL",
+        "description": "Only used if 'Add toast' is on.",
+        "key": "message",
+        "required": false,
+        "title": "Toast message",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "On: the toast only shows on the first launch. Off: it shows on every launch.",
+        "key": "showOnce",
+        "required": false,
+        "title": "Show toast once",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Shows a custom toast message when the app starts. Works on any app.",
+    "id": "c893b3b1dd6ff44b856020dc:1",
+    "legacy_id": 9694,
+    "metadata_status": "unverified",
+    "name": "Add Toast",
+    "options": [
+      {
+        "default": "Mod By BlazeFTL",
+        "description": "Text shown in the toast.",
+        "key": "message",
+        "required": false,
+        "title": "Toast message",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "On: the toast only shows on the first launch. Off: it shows on every launch.",
+        "key": "showOnce",
+        "required": false,
+        "title": "Show once",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Removes junk and useless files with no runtime purpose inside apk. Native libraries are left untouched unless the 'Strip native architectures' toggle is enabled.",
+    "id": "c893b3b1dd6ff44b856020dc:2",
+    "legacy_id": 9695,
+    "metadata_status": "unverified",
+    "name": "APK Junk Cleanup",
+    "options": [
+      {
+        "default": false,
+        "description": "OFF (default): libs are left completely untouched. ON: deletes libs of every architecture except the one selected below.",
+        "key": "stripLibs",
+        "required": false,
+        "title": "Strip native architectures",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": "arm64-v8a",
+        "description": "Used only when 'Strip native architectures' is ON. Deletes libs of every other architecture from the patched APK. Requires patcher v1.13.0+ (delete() on unstaged entries).",
+        "key": "keepAbi",
+        "required": false,
+        "title": "Architecture to keep",
+        "type": "kotlin.String",
+        "values": {
+          "Keep only arm64-v8a (most phones)": "arm64-v8a",
+          "Keep only armeabi-v7a (old 32-bit phones)": "armeabi-v7a",
+          "Keep only x86 (old emulators)": "x86",
+          "Keep only x86_64 (emulators)": "x86_64"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "All Video Downloader & Ace Player",
+        "packageName": "videoplayer.videodownloader.downloader",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.9.8"
+          }
+        ],
+        "versions": [
+          "1.9.8"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Fixes Remove Ads And Remove Ads Lite Gettings Stuck In Splash Screen Useless if you also select skip splash and language activity patch. Also stops the splash from hiding the on-screen navigation buttons.",
+    "id": "c893b3b1dd6ff44b856020dc:3",
+    "legacy_id": 9696,
+    "metadata_status": "unverified",
+    "name": "Boost Splash Screen",
+    "options": [
+      {
+        "default": 100,
+        "description": "How long the splash screen stays visible before continuing.",
+        "key": "boostDelayMs",
+        "required": false,
+        "title": "Splash duration (ms)",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "All Video Downloader & Ace Player",
+        "versions": [
+          "1.9.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "MX Player",
+        "packageName": "com.mxtech.videoplayer.ad",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.3.0",
+            "versionCodes": {
+              "ARM64_V8A": 2001003540,
+              "ARMEABI_V7A": 2001003540,
+              "X86": 2001003540,
+              "X86_64": 2001003540
+            }
+          }
+        ],
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Dont Apply These Patches Over Some Other Persons Mod, Use Untouched Apk. Disables MX Player's welcome/splash ad so playback starts immediately.",
+    "id": "c893b3b1dd6ff44b856020dc:4",
+    "legacy_id": 9697,
+    "metadata_status": "unverified",
+    "name": "Boost Splash Screen Time",
+    "options": [],
+    "packages": [
+      {
+        "name": "MX Player",
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "File Manager - XFolder",
+        "packageName": "files.fileexplorer.filemanager",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.5.5.7",
+            "versionCodes": {
+              "ARM64_V8A": 1557000,
+              "ARMEABI_V7A": 1557000,
+              "X86": 1557000,
+              "X86_64": 1557000
+            }
+          }
+        ],
+        "versions": [
+          "1.5.5.7"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Changes first-run defaults: hides the Image, Video, Audio and Cleaner tabs, and shows hidden files by default. Only affects users who have never changed the setting themselves - the preference override still takes priority.",
+    "id": "c893b3b1dd6ff44b856020dc:5",
+    "legacy_id": 9698,
+    "metadata_status": "unverified",
+    "name": "Change Cleaner & Media Tab Defaults",
+    "options": [],
+    "packages": [
+      {
+        "name": "File Manager - XFolder",
+        "versions": [
+          "1.5.5.7"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Change any app's display size without touching your phone's system settings. Make it bigger if things look too small, or smaller to fit more on screen. You Need To Configure 100(No Change), 90(10% Smaller App Ui), 110(10% Bigger App Ui).",
+    "id": "c893b3b1dd6ff44b856020dc:6",
+    "legacy_id": 9699,
+    "metadata_status": "unverified",
+    "name": "Change Display Size",
+    "options": [
+      {
+        "default": "100",
+        "description": "Scales this app's display relative to the device's own setting. 100% = no change, 150% = 1.5x larger, 50% = half size. Range 25-300%.",
+        "key": "dpi",
+        "required": true,
+        "title": "Display scale",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "Xender",
+        "packageName": "cn.xender",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "18.8.0.prime"
+          }
+        ],
+        "versions": [
+          "18.8.0.prime"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Hides the bottom navigation bar, the top-right guide icon, and the Rate/Help/About drawer items, keeps the connect/create/join buttons on top, and stops them from being auto-hidden.",
+    "id": "c893b3b1dd6ff44b856020dc:7",
+    "legacy_id": 9700,
+    "metadata_status": "unverified",
+    "name": "Clean main UI",
+    "options": [],
+    "packages": [
+      {
+        "name": "Xender",
+        "versions": [
+          "18.8.0.prime"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "MX Player",
+        "packageName": "com.mxtech.videoplayer.ad",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.3.0",
+            "versionCodes": {
+              "ARM64_V8A": 2001003540,
+              "ARMEABI_V7A": 2001003540,
+              "X86": 2001003540,
+              "X86_64": 2001003540
+            }
+          }
+        ],
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds Mod Settings switches, on by default, that hide promo rows, unused tiles, and Private Folder / File Transfer / Add to Playlist entries.",
+    "id": "c893b3b1dd6ff44b856020dc:8",
+    "legacy_id": 9701,
+    "metadata_status": "unverified",
+    "name": "Clean Me Tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "MX Player",
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "RS File Manager",
+        "packageName": "com.rs.explorer.filemanager",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.3.1.2",
+            "versionCodes": {
+              "ARM64_V8A": 242,
+              "ARMEABI_V7A": 242,
+              "X86": 242,
+              "X86_64": 242
+            }
+          }
+        ],
+        "versions": [
+          "2.3.1.2"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Hides the Bookmarks, remote-connection and Category sections from the navigation sidebar, and hides Encrypt and Downloader from the Storage section.",
+    "id": "c893b3b1dd6ff44b856020dc:9",
+    "legacy_id": 9702,
+    "metadata_status": "unverified",
+    "name": "Clean sidebar",
+    "options": [],
+    "packages": [
+      {
+        "name": "RS File Manager",
+        "versions": [
+          "2.3.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "SnapTube",
+        "packageName": "com.snaptube.premium",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.64.0.76450210",
+            "versionCodes": {
+              "ARM64_V8A": 76450210,
+              "ARMEABI_V7A": 76450210,
+              "X86": 76450210,
+              "X86_64": 76450210
+            }
+          }
+        ],
+        "versions": [
+          "7.64.0.76450210"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Removes the Download tools and Phone clean categories, and their sub-items, from Settings.",
+    "id": "c893b3b1dd6ff44b856020dc:10",
+    "legacy_id": 9703,
+    "metadata_status": "unverified",
+    "name": "Clean SnapTube Settings Page",
+    "options": [],
+    "packages": [
+      {
+        "name": "SnapTube",
+        "versions": [
+          "7.64.0.76450210"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "MX Player",
+        "packageName": "com.mxtech.videoplayer.ad",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.3.0",
+            "versionCodes": {
+              "ARM64_V8A": 2001003540,
+              "ARMEABI_V7A": 2001003540,
+              "X86": 2001003540,
+              "X86_64": 2001003540
+            }
+          }
+        ],
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Removes the Smart Enhance disable toast and adds Mod Settings switches for the intro popup and the enable toast.",
+    "id": "c893b3b1dd6ff44b856020dc:11",
+    "legacy_id": 9704,
+    "metadata_status": "unverified",
+    "name": "Configure Smart Enhance",
+    "options": [],
+    "packages": [
+      {
+        "name": "MX Player",
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "MX Player",
+        "packageName": "com.mxtech.videoplayer.ad",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.3.0",
+            "versionCodes": {
+              "ARM64_V8A": 2001003540,
+              "ARMEABI_V7A": 2001003540,
+              "X86": 2001003540,
+              "X86_64": 2001003540
+            }
+          }
+        ],
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Fixes the stock leftover-visible-view bug in the long-press SpeedUp overlay. \"No UI\" is toggled in Me tab > Mod Settings.",
+    "id": "c893b3b1dd6ff44b856020dc:12",
+    "legacy_id": 9705,
+    "metadata_status": "unverified",
+    "name": "Configure SpeedUp overlay",
+    "options": [],
+    "packages": [
+      {
+        "name": "MX Player",
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "All Video Downloader & Ace Player",
+        "packageName": "videoplayer.videodownloader.downloader",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.9.8"
+          }
+        ],
+        "versions": [
+          "1.9.8"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Prevents the full-screen \"loading ad\" dialog from appearing when the app is reopened after being minimized.",
+    "id": "c893b3b1dd6ff44b856020dc:13",
+    "legacy_id": 9706,
+    "metadata_status": "unverified",
+    "name": "Disable ad dialog when reopening app",
+    "options": [],
+    "packages": [
+      {
+        "name": "All Video Downloader & Ace Player",
+        "versions": [
+          "1.9.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "SnapTube",
+        "packageName": "com.snaptube.premium",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.64.0.76450210",
+            "versionCodes": {
+              "ARM64_V8A": 76450210,
+              "ARMEABI_V7A": 76450210,
+              "X86": 76450210,
+              "X86_64": 76450210
+            }
+          }
+        ],
+        "versions": [
+          "7.64.0.76450210"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Turns off the Toolbar, Recommended contents, and Tool notifications channels by default.",
+    "id": "c893b3b1dd6ff44b856020dc:14",
+    "legacy_id": 9707,
+    "metadata_status": "unverified",
+    "name": "Disable Annoying Snaptube Notifications",
+    "options": [],
+    "packages": [
+      {
+        "name": "SnapTube",
+        "versions": [
+          "7.64.0.76450210"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "MX Player",
+        "packageName": "com.mxtech.videoplayer.ad",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.3.0",
+            "versionCodes": {
+              "ARM64_V8A": 2001003540,
+              "ARMEABI_V7A": 2001003540,
+              "X86": 2001003540,
+              "X86_64": 2001003540
+            }
+          }
+        ],
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds a permanent Me tab button to the toolbar. Hiding the bottom bar itself is toggled live in Me tab > Mod Settings, not here - the Me tab button always stays wired, on purpose, since Mod Settings lives behind it and turning it off should never be able to lock you out of turning it back on.",
+    "id": "c893b3b1dd6ff44b856020dc:15",
+    "legacy_id": 9708,
+    "metadata_status": "unverified",
+    "name": "Disable Bottom Bar And Add Me Tab To Top",
+    "options": [],
+    "packages": [
+      {
+        "name": "MX Player",
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "All Video Downloader & Ace Player",
+        "packageName": "videoplayer.videodownloader.downloader",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.9.8"
+          }
+        ],
+        "versions": [
+          "1.9.8"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Strips WebDownloadActivity's intent-filter data so it no longer offers itself as a handler in the system download/\"complete action using\" chooser.",
+    "id": "c893b3b1dd6ff44b856020dc:16",
+    "legacy_id": 9709,
+    "metadata_status": "unverified",
+    "name": "Disable downloader from download menu",
+    "options": [],
+    "packages": [
+      {
+        "name": "All Video Downloader & Ace Player",
+        "versions": [
+          "1.9.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "RS File Manager",
+        "packageName": "com.rs.explorer.filemanager",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.3.1.2",
+            "versionCodes": {
+              "ARM64_V8A": 242,
+              "ARMEABI_V7A": 242,
+              "X86": 242,
+              "X86_64": 242
+            }
+          }
+        ],
+        "versions": [
+          "2.3.1.2"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Strips RsDownloadActivity's intent filters so it no longer offers itself as a handler in the system download/\"complete action using\" chooser.",
+    "id": "c893b3b1dd6ff44b856020dc:17",
+    "legacy_id": 9710,
+    "metadata_status": "unverified",
+    "name": "Disable downloader from download menu",
+    "options": [],
+    "packages": [
+      {
+        "name": "RS File Manager",
+        "versions": [
+          "2.3.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "Video Downloader",
+        "packageName": "video.downloader.videodownloader",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Removes the http/https <data> entries from BrowserDownloaderActivity's so the app stops offering itself in the system \"Download file with\" chooser for ordinary web downloads.",
+    "id": "c893b3b1dd6ff44b856020dc:18",
+    "legacy_id": 9711,
+    "metadata_status": "unverified",
+    "name": "Disable downloader from download menu",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "MiXplorer",
+        "packageName": "com.mixplorer",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Removes only the http/https <data> entries from MiXplorer's Explore/Download/Copy to/Extract to shell activities' VIEW intent filters, so the app stops showing up multiple times in browsers download link chooser.",
+    "id": "c893b3b1dd6ff44b856020dc:19",
+    "legacy_id": 9712,
+    "metadata_status": "unverified",
+    "name": "Disable From Download Menu Of Browsers",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "videoplayer.videodownloader.downloader",
+        "packageName": "videoplayer.videodownloader.downloader",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Prevents the rate and star rating dialogs from showing.",
+    "id": "c893b3b1dd6ff44b856020dc:20",
+    "legacy_id": 9713,
+    "metadata_status": "unverified",
+    "name": "Disable rate dialogs",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "File Manager - XFolder",
+        "packageName": "files.fileexplorer.filemanager",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.5.5.7",
+            "versionCodes": {
+              "ARM64_V8A": 1557000,
+              "ARMEABI_V7A": 1557000,
+              "X86": 1557000,
+              "X86_64": 1557000
+            }
+          }
+        ],
+        "versions": [
+          "1.5.5.7"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Prevents the in-app rate-us dialog from ever being shown.",
+    "id": "c893b3b1dd6ff44b856020dc:21",
+    "legacy_id": 9714,
+    "metadata_status": "unverified",
+    "name": "Disable Rate Us Dialog",
+    "options": [],
+    "packages": [
+      {
+        "name": "File Manager - XFolder",
+        "versions": [
+          "1.5.5.7"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "RS File Manager",
+        "packageName": "com.rs.explorer.filemanager",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.3.1.2",
+            "versionCodes": {
+              "ARM64_V8A": 242,
+              "ARMEABI_V7A": 242,
+              "X86": 242,
+              "X86_64": 242
+            }
+          }
+        ],
+        "versions": [
+          "2.3.1.2"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Overrides show() on the in-app \"rate us\" dialog so it's still built but never displayed.",
+    "id": "c893b3b1dd6ff44b856020dc:22",
+    "legacy_id": 9715,
+    "metadata_status": "unverified",
+    "name": "Disable rate us dialog",
+    "options": [],
+    "packages": [
+      {
+        "name": "RS File Manager",
+        "versions": [
+          "2.3.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "MX Player",
+        "packageName": "com.mxtech.videoplayer.ad",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.3.0",
+            "versionCodes": {
+              "ARM64_V8A": 2001003540,
+              "ARMEABI_V7A": 2001003540,
+              "X86": 2001003540,
+              "X86_64": 2001003540
+            }
+          }
+        ],
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Patches libc++_shared.so (arm64-v8a and armeabi-v7a) to branch-to-self at the signature check call site, hanging that code path instead of letting it fail the app.",
+    "id": "c893b3b1dd6ff44b856020dc:23",
+    "legacy_id": 9716,
+    "metadata_status": "unverified",
+    "name": "Disable signature verification",
+    "options": [],
+    "packages": [
+      {
+        "name": "MX Player",
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "ES File Explorer",
+        "packageName": "com.estrongs.android.pop",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.4.3.7",
+            "versionCodes": {
+              "ARM64_V8A": 10353,
+              "ARMEABI_V7A": 10353,
+              "X86": 10353,
+              "X86_64": 10353
+            }
+          }
+        ],
+        "versions": [
+          "4.4.3.7"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Removes BookMark, New Files, Cleaner Row In HomePage, Cleans More menu actions",
+    "id": "c893b3b1dd6ff44b856020dc:24",
+    "legacy_id": 9717,
+    "metadata_status": "unverified",
+    "name": "ES File Explorer Ui Cleanup",
+    "options": [],
+    "packages": [
+      {
+        "name": "ES File Explorer",
+        "versions": [
+          "4.4.3.7"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "MX Player Pro",
+        "packageName": "com.mxtech.videoplayer.pro",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Removes the File Transfer, Video Playlist, and Private Folder tiles from settings Page.",
+    "id": "c893b3b1dd6ff44b856020dc:25",
+    "legacy_id": 9718,
+    "metadata_status": "unverified",
+    "name": "Hide File Transfer, Video Playlist, Private Folder tiles",
+    "options": [
+      {
+        "default": true,
+        "description": "Removes the File Transfer tile.",
+        "key": "hideFileTransfer",
+        "required": false,
+        "title": "Hide File Transfer",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Removes the Private Folder tile.",
+        "key": "hidePrivateFolder",
+        "required": false,
+        "title": "Hide Private Folder",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Removes the Video Playlists tile.",
+        "key": "hideVideoPlaylists",
+        "required": false,
+        "title": "Hide Video Playlists",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "RS File Manager",
+        "packageName": "com.rs.explorer.filemanager",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.3.1.2",
+            "versionCodes": {
+              "ARM64_V8A": 242,
+              "ARMEABI_V7A": 242,
+              "X86": 242,
+              "X86_64": 242
+            }
+          }
+        ],
+        "versions": [
+          "2.3.1.2"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Hides Hide, Add to desktop, Encrypt, Decrypt, Add bookmark, Web Search, Copy to, Move to, Transfer, and Playing from the \"More actions\" menu.",
+    "id": "c893b3b1dd6ff44b856020dc:26",
+    "legacy_id": 9719,
+    "metadata_status": "unverified",
+    "name": "Hide more actions",
+    "options": [],
+    "packages": [
+      {
+        "name": "RS File Manager",
+        "versions": [
+          "2.3.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "RS File Manager",
+        "packageName": "com.rs.explorer.filemanager",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.3.1.2",
+            "versionCodes": {
+              "ARM64_V8A": 242,
+              "ARMEABI_V7A": 242,
+              "X86": 242,
+              "X86_64": 242
+            }
+          }
+        ],
+        "versions": [
+          "2.3.1.2"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Hides the Network, Tools and Bookmarks sections from the home page section list.",
+    "id": "c893b3b1dd6ff44b856020dc:27",
+    "legacy_id": 9720,
+    "metadata_status": "unverified",
+    "name": "Hide network, tools and bookmarks on home page",
+    "options": [],
+    "packages": [
+      {
+        "name": "RS File Manager",
+        "versions": [
+          "2.3.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "videoplayer.videodownloader.downloader",
+        "packageName": "videoplayer.videodownloader.downloader",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the Scan (AD) row from the browser overflow menu.",
+    "id": "c893b3b1dd6ff44b856020dc:28",
+    "legacy_id": 9721,
+    "metadata_status": "unverified",
+    "name": "Hide Scan (AD) menu item",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "MX Player Pro",
+        "packageName": "com.mxtech.videoplayer.pro",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Collapses the WhatsApp, Legal, and Help entries on the Me tab.",
+    "id": "c893b3b1dd6ff44b856020dc:29",
+    "legacy_id": 9722,
+    "metadata_status": "unverified",
+    "name": "Hide Settings Page UseLess Buttons",
+    "options": [
+      {
+        "default": true,
+        "description": "Collapses the WhatsApp entry.",
+        "key": "hideWhatsApp",
+        "required": false,
+        "title": "Hide WhatsApp",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Collapses the Legal entry.",
+        "key": "hideLegal",
+        "required": false,
+        "title": "Hide Legal",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Collapses the Help entry.",
+        "key": "hideHelp",
+        "required": false,
+        "title": "Hide Help",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "MX Player Pro",
+        "packageName": "com.mxtech.videoplayer.pro",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Hides the top tiles that appears in top of video folders in homescreen",
+    "id": "c893b3b1dd6ff44b856020dc:30",
+    "legacy_id": 9723,
+    "metadata_status": "unverified",
+    "name": "Hide top tiles",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "Ampere",
+        "packageName": "com.gombosdev.ampere",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Updates Accent/Primary/CardBgDark to the newer Material color palette.",
+    "id": "c893b3b1dd6ff44b856020dc:31",
+    "legacy_id": 9724,
+    "metadata_status": "unverified",
+    "name": "Material Colors Upgrade Peach And Purple",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "Firefox Nightly",
+        "packageName": "org.mozilla.fenix",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "159.0a1",
+            "versionCodes": {
+              "ARM64_V8A": 2016187231,
+              "ARMEABI_V7A": 2016187231,
+              "X86": 2016187231,
+              "X86_64": 2016187231
+            }
+          }
+        ],
+        "versions": [
+          "159.0a1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Adds \"Mod Settings\" to the 3 dot menu: switch between the stock bottom sheet menu and the old style popup menu, and pin extensions to the search bar.",
+    "id": "c893b3b1dd6ff44b856020dc:32",
+    "legacy_id": 9725,
+    "metadata_status": "unverified",
+    "name": "Old style 3 dot menu",
+    "options": [],
+    "packages": [
+      {
+        "name": "Firefox Nightly",
+        "versions": [
+          "159.0a1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Quantizes PNG images to a 64-color palette (matching pngquant) and re-picks the optimal per-row filter before recompressing at maximum zlib compression (matching optipng), stripping hidden metadata along the way.",
+    "id": "c893b3b1dd6ff44b856020dc:33",
+    "legacy_id": 9726,
+    "metadata_status": "unverified",
+    "name": "Png Optimizer",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "Video Downloader",
+        "packageName": "video.downloader.videodownloader",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Blocks popups and popunder redirects with Allow / Block / Always Block prompts. Adds \"Manage popup rules\" as the last item of the 3-dot menu.",
+    "id": "c893b3b1dd6ff44b856020dc:34",
+    "legacy_id": 9727,
+    "metadata_status": "unverified",
+    "name": "Popup blocker",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "Firefox Nightly",
+        "packageName": "org.mozilla.fenix",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "159.0a1"
+          }
+        ],
+        "versions": [
+          "159.0a1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Keeps the tab tray scroll position when it is closed and reopened.",
+    "id": "c893b3b1dd6ff44b856020dc:35",
+    "legacy_id": 9728,
+    "metadata_status": "unverified",
+    "name": "Remember tab scroll position",
+    "options": [],
+    "packages": [
+      {
+        "name": "Firefox Nightly",
+        "versions": [
+          "159.0a1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Cleans Apps Code From Ads Junk. Works In Most Apps Where There Isn't Any Check For Ads Loaded Or Not. If There Is A Check You Will Be Stuck In SplashActivity Due To Custom Ads Load Checks But It Is Superior.",
+    "id": "c893b3b1dd6ff44b856020dc:36",
+    "legacy_id": 9729,
+    "metadata_status": "unverified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Based On (Adobo's Block Ads+Mobile Ads) Use When Remove Ads Patch Caused Problem. It Is Weaker But Effective, No Need To Select A Host File Or Configure Anything. In Future It May Replace Remove Ads Patch If I Find No Problems.",
+    "id": "c893b3b1dd6ff44b856020dc:37",
+    "legacy_id": 9730,
+    "metadata_status": "unverified",
+    "name": "Remove Ads Lite (Adobo)",
+    "options": [
+      {
+        "default": "0.0.0.0",
+        "description": "The IP address to redirect blocked domains to.",
+        "key": "redirectionIp",
+        "required": false,
+        "title": "Redirection IP",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "0.0.0.0",
+          "localhost": "127.0.0.1"
+        }
+      },
+      {
+        "default": null,
+        "description": "Optionally add your own hosts file to block extra domains on top of the bundled list. Select a file or paste the full file path. Leave empty to use only the bundled list.",
+        "key": "customHostsFile",
+        "required": false,
+        "title": "Additional hosts file (optional)",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Call finish on ad activities. Use Where Remove Ads And Remove Ads Lite (Adobo) Caused Problem. Its In Very Early Stage So Test And Provide FeedBack If You Still See Ads In Some App.",
+    "id": "c893b3b1dd6ff44b856020dc:38",
+    "legacy_id": 9731,
+    "metadata_status": "unverified",
+    "name": "Remove Ads Ultra Lite",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Disables tracking and crash-reporting tools, corrupts analytics web links inside the code, and removes background tracking services.",
+    "id": "c893b3b1dd6ff44b856020dc:39",
+    "legacy_id": 9732,
+    "metadata_status": "unverified",
+    "name": "Remove Analytics",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "DONT CHOOSE 2 SAME PATCHES...Corrupts analytics network URLs and split-scheme string obfuscation inside the code, and strips matching manifest components.",
+    "id": "c893b3b1dd6ff44b856020dc:40",
+    "legacy_id": 9733,
+    "metadata_status": "unverified",
+    "name": "Remove Analytics New",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Removes debug information (line numbers, variable names, source file references) from every class in the .dex files to reduce overall APK size.",
+    "id": "c893b3b1dd6ff44b856020dc:41",
+    "legacy_id": 9734,
+    "metadata_status": "unverified",
+    "name": "Remove Debug Info",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Keeps only one screen-density copy of every duplicated drawable/mipmap file, Mipmaps follow this same order. Optionally strips device-specific resources (smartwatch, Android TV, etc.) entirely.",
+    "id": "c893b3b1dd6ff44b856020dc:42",
+    "legacy_id": 9735,
+    "metadata_status": "unverified",
+    "name": "Remove Duplicate Graphics",
+    "options": [
+      {
+        "default": "xhdpi",
+        "description": "Density bucket to prefer for images and other graphics; duplicates are stripped from every other bucket. If a particular resource was never shipped at this density, the next higher density available for it is kept instead, falling back to a lower one only if nothing higher exists either. Launcher icons ignore this setting and always keep their highest-quality copy.",
+        "key": "targetDensity",
+        "required": false,
+        "title": "Target density",
+        "type": "kotlin.String",
+        "values": {
+          "hdpi": "hdpi",
+          "ldpi": "ldpi",
+          "mdpi": "mdpi",
+          "xhdpi": "xhdpi",
+          "xxhdpi": "xxhdpi",
+          "xxxhdpi": "xxxhdpi"
+        }
+      },
+      {
+        "default": false,
+        "description": "Entirely removes resources qualified for smartwatches -- not just duplicate copies, all of them -- regardless of density. Off by default since it changes what device types the app supports.",
+        "key": "stripSmartwatch",
+        "required": false,
+        "title": "Remove smartwatch (Wear OS) resources",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Entirely removes resources qualified for Android TV -- not just duplicate copies, all of them -- regardless of density. Off by default since it changes what device types the app supports.",
+        "key": "stripAndroidTv",
+        "required": false,
+        "title": "Remove Android TV resources",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Entirely removes resources qualified for car head units, desk docks, or VR headsets -- not just duplicate copies, all of them -- regardless of density. Off by default since it changes what device types the app supports.",
+        "key": "stripOtherFormFactors",
+        "required": false,
+        "title": "Remove other device-specific resources (car, desk dock, VR headset)",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "All Video Downloader & Ace Player",
+        "packageName": "videoplayer.videodownloader.downloader",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.9.8"
+          }
+        ],
+        "versions": [
+          "1.9.8"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Removes the unscoped http/https <data> entries from MainActivity's first intent-filter carrying them so the app stops appearing as a candidate in the system's default browser / \"open with\" chooser.",
+    "id": "c893b3b1dd6ff44b856020dc:43",
+    "legacy_id": 9736,
+    "metadata_status": "unverified",
+    "name": "Remove from default browser list",
+    "options": [],
+    "packages": [
+      {
+        "name": "All Video Downloader & Ace Player",
+        "versions": [
+          "1.9.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "SnapTube",
+        "packageName": "com.snaptube.premium",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.64.0.76450210",
+            "versionCodes": {
+              "ARM64_V8A": 76450210,
+              "ARMEABI_V7A": 76450210,
+              "X86": 76450210,
+              "X86_64": 76450210
+            }
+          }
+        ],
+        "versions": [
+          "7.64.0.76450210"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Strips the LinkHandleActivity alias's unscoped so the app stops appearing as a candidate in the system's default browser / \"open with\" chooser.",
+    "id": "c893b3b1dd6ff44b856020dc:44",
+    "legacy_id": 9737,
+    "metadata_status": "unverified",
+    "name": "Remove from default browser list",
+    "options": [],
+    "packages": [
+      {
+        "name": "SnapTube",
+        "versions": [
+          "7.64.0.76450210"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "Video Downloader",
+        "packageName": "video.downloader.videodownloader",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Removes http/https <data> entries from MainTabsActivity's so the app stops appearing as a candidate in the system's default browser / \"open with\" chooser.",
+    "id": "c893b3b1dd6ff44b856020dc:45",
+    "legacy_id": 9738,
+    "metadata_status": "unverified",
+    "name": "Remove from default browser list",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Removes translations for languages you don't use, in EVERY resource package of resources.arsc. ",
+    "id": "c893b3b1dd6ff44b856020dc:46",
+    "legacy_id": 9739,
+    "metadata_status": "unverified",
+    "name": "Remove Languages",
+    "options": [
+      {
+        "default": [
+          "en",
+          "en-rIN",
+          "ru"
+        ],
+        "description": "Exact resource variants to preserve. \"ru\" keeps ONLY the unqualified ru dir (values-ru); it does NOT pull in ru-rRU or any other region. \"en-rIN\" keeps ONLY that region. List every variant you want kept, e.g. en, en-rIN, ru — anything not listed is removed.",
+        "key": "keepLanguages",
+        "required": false,
+        "title": "Languages to keep",
+        "type": "kotlin.collections.List<kotlin.String>",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "WPSApp Pro",
+        "packageName": "com.themausoft.wpsapppro",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.7.05",
+            "versionCodes": {
+              "ARM64_V8A": 118,
+              "ARMEABI_V7A": 118,
+              "X86": 118,
+              "X86_64": 118
+            }
+          }
+        ],
+        "versions": [
+          "1.7.05"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Spoofs every PackageManager.getInstallerPackageName() check to report \"com.android.vending\", so Pro features unlock regardless of install source.",
+    "id": "c893b3b1dd6ff44b856020dc:47",
+    "legacy_id": 9740,
+    "metadata_status": "unverified",
+    "name": "Remove License Verification",
+    "options": [],
+    "packages": [
+      {
+        "name": "WPSApp Pro",
+        "versions": [
+          "1.7.05"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "MX Player",
+        "packageName": "com.mxtech.videoplayer.ad",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.3.0",
+            "versionCodes": {
+              "ARM64_V8A": 2001003540,
+              "ARMEABI_V7A": 2001003540,
+              "X86": 2001003540,
+              "X86_64": 2001003540
+            }
+          }
+        ],
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Deleted files are always removed permanently, whenever this patch is applied - there's no safe way to make that half a runtime switch without the stock (unpatched) delete-dialog code to fall back to. The Me tab tile itself is a Mod Settings switch: off just brings the tile back, it doesn't restore recycling.",
+    "id": "c893b3b1dd6ff44b856020dc:48",
+    "legacy_id": 9741,
+    "metadata_status": "unverified",
+    "name": "Remove Recycle Bin",
+    "options": [],
+    "packages": [
+      {
+        "name": "MX Player",
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "SnapTube",
+        "packageName": "com.snaptube.premium",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.64.0.76450210",
+            "versionCodes": {
+              "ARM64_V8A": 76450210,
+              "ARMEABI_V7A": 76450210,
+              "X86": 76450210,
+              "X86_64": 76450210
+            }
+          }
+        ],
+        "versions": [
+          "7.64.0.76450210"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Removes the requirement to watch a rewarded ad before a download starts.",
+    "id": "c893b3b1dd6ff44b856020dc:49",
+    "legacy_id": 9742,
+    "metadata_status": "unverified",
+    "name": "Remove Watch Ad To Download",
+    "options": [],
+    "packages": [
+      {
+        "name": "SnapTube",
+        "versions": [
+          "7.64.0.76450210"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "MX Player",
+        "packageName": "com.mxtech.videoplayer.ad",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.3.0",
+            "versionCodes": {
+              "ARM64_V8A": 2001003540,
+              "ARMEABI_V7A": 2001003540,
+              "X86": 2001003540,
+              "X86_64": 2001003540
+            }
+          }
+        ],
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Replaces libffmpeg.mx.so in every lib/<abi>/ folder present in the APK with the matching file from a selected codec zip (EAC3 support). neon64 -> arm64-v8a, neon -> armeabi-v7a, x86 -> x86, x86_64 -> x86_64. ABI folders missing from the APK or from the zip are skipped.",
+    "id": "c893b3b1dd6ff44b856020dc:50",
+    "legacy_id": 9743,
+    "metadata_status": "unverified",
+    "name": "Replace FFmpeg codec",
+    "options": [
+      {
+        "default": null,
+        "description": "Zip containing libffmpeg.mx.so.neon64.*, libffmpeg.mx.so.neon.*, libffmpeg.mx.so.x86.* and/or libffmpeg.mx.so.x86_64.* (any subfolder depth).",
+        "key": "ffmpegCodecZip",
+        "required": true,
+        "title": "FFmpeg codec zip",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "MX Player",
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "MX Player",
+        "packageName": "com.mxtech.videoplayer.ad",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.3.0",
+            "versionCodes": {
+              "ARM64_V8A": 2001003540,
+              "ARMEABI_V7A": 2001003540,
+              "X86": 2001003540,
+              "X86_64": 2001003540
+            }
+          }
+        ],
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Cleans the player sidebar and More menu; sets default shortcuts and subtitle view. Configurable in Mod Settings, except the default shortcuts bitmask, still a Morphe option pending its Mod Settings move.",
+    "id": "c893b3b1dd6ff44b856020dc:51",
+    "legacy_id": 9744,
+    "metadata_status": "unverified",
+    "name": "Sidebar & Player Defaults",
+    "options": [
+      {
+        "default": true,
+        "description": "Settings > Player > Customize Shortcuts still works and always wins once touched.",
+        "key": "enableDefaultShortcuts",
+        "required": false,
+        "title": "Change default shortcuts",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": 30735,
+        "description": "Bit sum of enabled shortcuts, decimal or 0x-prefixed hex. Bits: 0x1 rotation, 0x2 speed, 0x4 background play, 0x8 loop, 0x10 mute, 0x20 shuffle, 0x40 equalizer, 0x100 sleep timer, 0x200 repeat A-B, 0x400 night mode, 0x800 customise items, 0x1000 screenshot, 0x2000 mirror mode, 0x4000 vertical flip, 0x8000 audio effect. Bit 0x80 isn't in this list (unused pre-3.2 legacy slot, suspected PiP shortcut on newer MX Player builds) and is never touched no matter what you set here - it always keeps MX Player's own default. Default 0x780F.",
+        "key": "defaultShortcutsMask",
+        "required": false,
+        "title": "Default shortcuts bitmask (hex)",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "MX Player",
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "All Video Downloader & Ace Player",
+        "packageName": "videoplayer.videodownloader.downloader",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.9.8"
+          }
+        ],
+        "versions": [
+          "1.9.8"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation, the language-selection screen, DONT UNSELECT THIS,IT HAS SIGNATURE BYPASS INCLUDED.",
+    "id": "c893b3b1dd6ff44b856020dc:52",
+    "legacy_id": 9745,
+    "metadata_status": "unverified",
+    "name": "Skip splash and language screens",
+    "options": [],
+    "packages": [
+      {
+        "name": "All Video Downloader & Ace Player",
+        "versions": [
+          "1.9.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "MX Player Pro",
+        "packageName": "com.mxtech.videoplayer.pro",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Skips Splash Screen so the app boots straight past the splash and update screen.",
+    "id": "c893b3b1dd6ff44b856020dc:53",
+    "legacy_id": 9746,
+    "metadata_status": "unverified",
+    "name": "Skip Splash Screen",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "RS File Manager",
+        "packageName": "com.rs.explorer.filemanager",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.3.1.2",
+            "versionCodes": {
+              "ARM64_V8A": 242,
+              "ARMEABI_V7A": 242,
+              "X86": 242,
+              "X86_64": 242
+            }
+          }
+        ],
+        "versions": [
+          "2.3.1.2"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Skips Splash Screen From 2nd App Opening",
+    "id": "c893b3b1dd6ff44b856020dc:54",
+    "legacy_id": 9747,
+    "metadata_status": "unverified",
+    "name": "Skip splash screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "RS File Manager",
+        "versions": [
+          "2.3.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "Video Downloader",
+        "packageName": "video.downloader.videodownloader",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Skips splash screen so the app opens directly to the main screen.",
+    "id": "c893b3b1dd6ff44b856020dc:55",
+    "legacy_id": 9748,
+    "metadata_status": "unverified",
+    "name": "Skip splash screen",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "Xender",
+        "packageName": "cn.xender",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "18.8.0.prime"
+          }
+        ],
+        "versions": [
+          "18.8.0.prime"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Jumps straight to the main activity from the splash screen, skipping the splash animation entirely.",
+    "id": "c893b3b1dd6ff44b856020dc:56",
+    "legacy_id": 9749,
+    "metadata_status": "unverified",
+    "name": "Skip splash screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "Xender",
+        "versions": [
+          "18.8.0.prime"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "EXPERT USERS ONLY. Manually Configure It To Point At Real Splash And Main Activity As Many Apps Use Other Names. Check the log to know what the patch is doing. Ensure App Doesnt Ask For Permissions In Splash Screen.",
+    "id": "c893b3b1dd6ff44b856020dc:57",
+    "legacy_id": 9750,
+    "metadata_status": "unverified",
+    "name": "Skip Splash Screen - Expert Only",
+    "options": [
+      {
+        "default": null,
+        "description": "Type just the class name, e.g. \"SplashActivity\" - no leading dot, it's added automatically. Leave blank to auto-detect the launcher activity and require it to score as a confident splash guess.",
+        "key": "sourceSuffix",
+        "required": false,
+        "title": "Splash activity name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "Type just the class name, e.g. \"MainActivity\" - no leading dot, it's added automatically. Leave blank to auto-detect the app's own most main-screen-like activity.",
+        "key": "targetSuffix",
+        "required": false,
+        "title": "Real main activity name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "videoplayer.videodownloader.downloader",
+        "packageName": "videoplayer.videodownloader.downloader",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Closes the onboarding tips screen as soon as it opens.",
+    "id": "c893b3b1dd6ff44b856020dc:58",
+    "legacy_id": 9751,
+    "metadata_status": "unverified",
+    "name": "Skip tips screen",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "Calendar",
+        "packageName": "calendar.agenda.schedule.event.advance.calendar.planner",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.0.34",
+            "versionCodes": {
+              "ARM64_V8A": 34,
+              "ARMEABI_V7A": 34,
+              "X86": 34,
+              "X86_64": 34
+            }
+          }
+        ],
+        "versions": [
+          "1.0.34"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "By default, skips the splash screen entirely on launch. Turn on \"Boost splash\" to instead keep it briefly on screen (configurable delay) Useless To Boost Splash Screen If You Select Unlock Premium Patch Too Use If You Want To Skip Splash Screen Entirely",
+    "id": "c893b3b1dd6ff44b856020dc:59",
+    "legacy_id": 9752,
+    "metadata_status": "unverified",
+    "name": "Skip/Boost splash screen",
+    "options": [
+      {
+        "default": false,
+        "description": "Off: splash is skipped entirely. On: splash briefly shows, then proceeds after the configured delay.",
+        "key": "boostSplash",
+        "required": false,
+        "title": "Boost splash instead of skipping",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": 200,
+        "description": "Only used when \"Boost splash\" is on. How long to show the splash before proceeding.",
+        "key": "boostDelayMs",
+        "required": false,
+        "title": "Boost delay (ms)",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Calendar",
+        "versions": [
+          "1.0.34"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "MX Player",
+        "packageName": "com.mxtech.videoplayer.ad",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.3.0",
+            "versionCodes": {
+              "ARM64_V8A": 2001003540,
+              "ARMEABI_V7A": 2001003540,
+              "X86": 2001003540,
+              "X86_64": 2001003540
+            }
+          }
+        ],
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Applies Smart Enhance to every video at a level set in Mod Settings, and keeps it after lock/unlock.",
+    "id": "c893b3b1dd6ff44b856020dc:60",
+    "legacy_id": 9753,
+    "metadata_status": "unverified",
+    "name": "Smart Enhance Always On",
+    "options": [],
+    "packages": [
+      {
+        "name": "MX Player",
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "MX Player",
+        "packageName": "com.mxtech.videoplayer.ad",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.3.0",
+            "versionCodes": {
+              "ARM64_V8A": 2001003540,
+              "ARMEABI_V7A": 2001003540,
+              "X86": 2001003540,
+              "X86_64": 2001003540
+            }
+          }
+        ],
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Replaces the Smart Enhance toggle with a 0-100% popup slider and keeps the level after lock/unlock.",
+    "id": "c893b3b1dd6ff44b856020dc:61",
+    "legacy_id": 9754,
+    "metadata_status": "unverified",
+    "name": "Smart Enhance Slider",
+    "options": [],
+    "packages": [
+      {
+        "name": "MX Player",
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  },
+  {
+    "bundle_id": "c893b3b1dd6ff44b856020dc",
+    "compatiblePackages": [
+      {
+        "name": "Xender",
+        "packageName": "cn.xender",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "18.8.0.prime"
+          }
+        ],
+        "versions": [
+          "18.8.0.prime"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Enters the main activity directly after the splash screen.",
+    "id": "c893b3b1dd6ff44b856020dc:62",
+    "legacy_id": 9755,
+    "metadata_status": "unverified",
+    "name": "Speed up splash screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "Xender",
+        "versions": [
+          "18.8.0.prime"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.2",
+    "source_id": "40a47c7b9066441e"
+  }
+]

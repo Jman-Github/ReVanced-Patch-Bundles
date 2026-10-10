@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-10-09T10:15:19Z",
+  "description": "## 1.8.1 (2026-10-09)\n\n### ✨ New Features\n\n* **nicoid:** Add double-tap seeking with a 1–60 second slider and an Off position at the left end. ([#41](https://github.com/chikuwadon/nicoid-re-patches/issues/41))\n* **nicoid:** Open video actions in a popup on long press.\n* **nicoid:** Add an uploader-blocking action with confirmation, registering the uploader or channel name as an exact-match content filter.\n* **nicoid:** Add device-local playlists with folder creation and deletion, video moves, and single or batch video deletion.\n* **nicoid:** Add checkbox controls for continuous and shuffle playback within the current playlist folder, supporting normal, popup and background playback.\n* **nicoid:** Add shuffle playback to device and account watch history.\n* **nicoid:** Allow folder creation when choosing an account mylist for video registration.\n* **nicoid:** Show series, parent works and child works for Shorts, and support creator following. ([#43](https://github.com/chikuwadon/nicoid-re-patches/issues/43))\n\n### 🐛 Bug Fixes\n\n* **nicoid:** Restore channel following and correct navigation to creator pages. ([#42](https://github.com/chikuwadon/nicoid-re-patches/issues/42))\n* **nicoid:** Fix crashes when posting comments. ([#44](https://github.com/chikuwadon/nicoid-re-patches/issues/44))\n* **nicoid:** Restore Watch Later registration using the current endpoint. ([#45](https://github.com/chikuwadon/nicoid-re-patches/issues/45))\n* **nicoid:** Restore portrait Shorts playback when entering fullscreen from the normal player. ([#46](https://github.com/chikuwadon/nicoid-re-patches/issues/46))\n* **nicoid:** Restore official-channel uploaded-video lists, including thumbnails and statistics, using the same row layout as user uploads. ([#47](https://github.com/chikuwadon/nicoid-re-patches/issues/47))\n* **nicoid:** Show downloaded thumbnail artwork in media controls during offline cache playback. ([#48](https://github.com/chikuwadon/nicoid-re-patches/issues/48))\n* **nicoid:** Restore app-private cache storage as the default and a selectable location, allowing downloads without choosing a shared-storage folder. ([#49](https://github.com/chikuwadon/nicoid-re-patches/issues/49))\n* **nicoid:** Remove empty cache folders after deleting their cached videos.\n* **nicoid:** Preserve the settings screen and scroll position when changing the app language.\n* **nicoid:** Fix video-list taps and honor the configured playback mode in playlists.\n* **nicoid:** Synchronize Shorts overlays with playback controls and resume paused Shorts on video taps.\n* **nicoid:** Clear selected rows when leaving multiple-selection mode.\n* **nicoid:** Fix crashes when opening settings, creator pages, Shorts and video-action popups.\n\n### 🔧 Improvements\n\n* **nicoid:** Match device-playlist layouts and selection controls to account mylists.\n* **nicoid:** Use an extended long press to enter multiple-selection mode in watch history, mylists, cache lists and playlists, while retaining the action popup on a regular long press.\n* **nicoid:** Unify multiple-selection controls, show the selected-item count, remove the Copy action, and remove Delete all history from overflow menus.\n* **nicoid:** Simplify the Shorts overlay with compact creator and title text, translucent like and follow icons, and an oval comment entry while preserving the bottom controls.\n* **nicoid:** Apply consistent dark-mode and theme colors to action popups, comment forms, folder dialogs and playback-setting sliders.\n* **nicoid:** Add a reset-to-default control for the default playback speed.\n* **nicoid:** Clarify content-filter setting summaries.\n",
+  "download_url": "https://github.com/chikuwadon/nicoid-re-patches/releases/download/v1.8.1/patches-1.8.1.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": null,
+  "extraction_status": "unverified",
+  "extraction_terminal": false,
+  "file_hash": null,
+  "id": "1f96f03f1cfcbc691bf8efbb",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fchikuwadon%2Fnicoid-re-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fchikuwadon%2Fnicoid-re-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 1556,
+  "metadata_status": "stale",
+  "need_patches_update": true,
+  "packages": [
+    "nicoid"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 0,
+  "patch_metadata_version": "v1.7.2",
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_config_hash": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "provider_digest": "sha256:a9ea80c54def92fd520f5029c30d30a1ae208159ade706dfb4a05767f3e6cfd2",
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": null,
+  "source_id": "39a7769dab96ea9f",
+  "version": "v1.8.1"
+}

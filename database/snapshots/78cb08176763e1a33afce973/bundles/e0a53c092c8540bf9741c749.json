@@ -1,0 +1,41 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-06-02T20:22:04Z",
+  "description": "fix: use methodOrNull to gracefully skip fingerprint match failure instead of throwing PatchException",
+  "download_url": "https://github.com/Quantro100/Morphe-patches/releases/download/v1.0.7/patches-1.0.7.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": null,
+  "extraction_status": "unverified",
+  "extraction_terminal": false,
+  "file_hash": null,
+  "id": "e0a53c092c8540bf9741c749",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FQuantro100%2FMorphe-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FQuantro100%2FMorphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 530,
+  "metadata_status": "missing",
+  "need_patches_update": true,
+  "packages": [],
+  "patch_count": 0,
+  "patch_list_available": false,
+  "patch_metadata_schema_version": 0,
+  "patch_metadata_version": null,
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_config_hash": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "provider_digest": "sha256:ebd450b758c9bd4bb3d841c6e3bb2932518151e001ae9d7d46fe1ec2304dfcf8",
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": null,
+  "source_id": "24e0c9a326310459",
+  "version": "v1.0.7"
+}
