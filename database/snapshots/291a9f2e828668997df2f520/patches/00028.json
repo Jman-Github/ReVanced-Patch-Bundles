@@ -1,0 +1,3295 @@
+[
+  {
+    "bundle_id": "4d7f41f6ad698252803418b0",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#177BCE",
+        "name": "Prime Video Android TV",
+        "packageName": "com.amazon.amazonvideo.livingroom",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.23.23+v15.5.0.70-armv7a"
+          },
+          {
+            "isExperimental": false,
+            "version": "6.24.5+v16.0.0.231-allAbis"
+          },
+          {
+            "isExperimental": false,
+            "version": "6.24.8+v16.0.0.361-allAbis"
+          }
+        ],
+        "versions": [
+          "6.23.23+v15.5.0.70-armv7a",
+          "6.24.5+v16.0.0.231-allAbis",
+          "6.24.8+v16.0.0.361-allAbis"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Integrates the Prime Video ATV extension for ad group skipping.",
+    "id": "4d7f41f6ad698252803418b0:13",
+    "legacy_id": 2808,
+    "metadata_status": "unverified",
+    "name": "Prime Video extension",
+    "options": [],
+    "packages": [
+      {
+        "name": "Prime Video Android TV",
+        "versions": [
+          "6.23.23+v15.5.0.70-armv7a",
+          "6.24.5+v16.0.0.231-allAbis",
+          "6.24.8+v16.0.0.361-allAbis"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1-dev.1",
+    "source_id": "f4b7e4980dced090"
+  },
+  {
+    "bundle_id": "4d7f41f6ad698252803418b0",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#177BCE",
+        "name": "Prime Video Android TV",
+        "packageName": "com.amazon.amazonvideo.livingroom",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.23.23+v15.5.0.70-armv7a"
+          }
+        ],
+        "versions": [
+          "6.23.23+v15.5.0.70-armv7a"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Multi-layer ad suppression targeting the SSAI schedule, impression reporting, and the Volley network chokepoint.",
+    "id": "4d7f41f6ad698252803418b0:14",
+    "legacy_id": 2809,
+    "metadata_status": "unverified",
+    "name": "Skip ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Prime Video Android TV",
+        "versions": [
+          "6.23.23+v15.5.0.70-armv7a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1-dev.1",
+    "source_id": "f4b7e4980dced090"
+  },
+  {
+    "bundle_id": "4d7f41f6ad698252803418b0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#FF6B35",
+        "name": "Coloring and Learn",
+        "packageName": "com.orange.coloring.learn.kids",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 23,
+            "version": "2.28"
+          }
+        ],
+        "versions": [
+          "2.28"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hooks CoronaRuntime.onWillLoadMain() to execute a Lua bootstrap script that stubs in-app purchases (Tienda.ProductoComprado returning 'S'), hides promo/ad UI buttons, and stubs libads.",
+    "id": "4d7f41f6ad698252803418b0:15",
+    "legacy_id": 2810,
+    "metadata_status": "unverified",
+    "name": "Unlock ad-free",
+    "options": [],
+    "packages": [
+      {
+        "name": "Coloring and Learn",
+        "versions": [
+          "2.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1-dev.1",
+    "source_id": "f4b7e4980dced090"
+  },
+  {
+    "bundle_id": "4d854cea9b69dcd8490d1a84",
+    "compatiblePackages": {
+      "harmonium.music.gameg.real.harmoniumfree": [
+        "harmony_29.0.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes all banner ads, interstitial ads, open app ads, and enables permanent ad-free status.",
+    "id": "4d854cea9b69dcd8490d1a84:0",
+    "legacy_id": 2811,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "harmonium.music.gameg.real.harmoniumfree",
+        "versions": [
+          "harmony_29.0.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.0",
+    "source_id": "9c01a4872432b01d",
+    "use": true
+  },
+  {
+    "bundle_id": "4d854cea9b69dcd8490d1a84",
+    "compatiblePackages": {
+      "com.psslabs.rhythm": [
+        "6.23"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all Pro and Premium features, taals, variations, scales, Manjeera audio engine, and disables store alerts & ads.",
+    "id": "4d854cea9b69dcd8490d1a84:1",
+    "legacy_id": 2812,
+    "metadata_status": "verified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.psslabs.rhythm",
+        "versions": [
+          "6.23"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.0",
+    "source_id": "9c01a4872432b01d",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.rubenmayayo.reddit": [
+        "1.12.12"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "4d98f8a0d2205537591a37a6:0",
+    "legacy_id": 2813,
+    "metadata_status": "unverified",
+    "name": "Add archive links to context menu",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rubenmayayo.reddit",
+        "versions": [
+          "1.12.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.rubenmayayo.reddit": [
+        "1.12.12"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "4d98f8a0d2205537591a37a6:1",
+    "legacy_id": 2814,
+    "metadata_status": "unverified",
+    "name": "Automatically undelete Imgur images",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rubenmayayo.reddit",
+        "versions": [
+          "1.12.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.rubenmayayo.reddit": [
+        "1.12.12"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "4d98f8a0d2205537591a37a6:2",
+    "legacy_id": 2815,
+    "metadata_status": "unverified",
+    "name": "Automatically undelete Reddit content",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rubenmayayo.reddit",
+        "versions": [
+          "1.12.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.rubenmayayo.reddit": [
+        "1.12.12"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "4d98f8a0d2205537591a37a6:3",
+    "legacy_id": 2816,
+    "metadata_status": "unverified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rubenmayayo.reddit",
+        "versions": [
+          "1.12.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "o.o.joey": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "4d98f8a0d2205537591a37a6:4",
+    "legacy_id": 2817,
+    "metadata_status": "unverified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "o.o.joey",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "io.syncapps.lemmy_sync": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "4d98f8a0d2205537591a37a6:5",
+    "legacy_id": 2818,
+    "metadata_status": "unverified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "io.syncapps.lemmy_sync",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": [
+        "v23.06.30-13:39"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "4d98f8a0d2205537591a37a6:6",
+    "legacy_id": 2819,
+    "metadata_status": "unverified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": [
+        "v23.06.30-13:39"
+      ],
+      "com.laurencedawson.reddit_sync.dev": null,
+      "com.laurencedawson.reddit_sync.pro": null
+    },
+    "dependencies": [],
+    "description": "Disables the bottom sheet at the startup that asks you to signup to \"Sync for Lemmy\".",
+    "id": "4d98f8a0d2205537591a37a6:7",
+    "legacy_id": 2820,
+    "metadata_status": "unverified",
+    "name": "Disable Sync for Lemmy bottom sheet",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.dev",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Enables Android developer debugging capabilities. Including this patch can slow down the app.",
+    "id": "4d98f8a0d2205537591a37a6:8",
+    "legacy_id": 2821,
+    "metadata_status": "unverified",
+    "name": "Enable Android debugging",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": false
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.andrewshu.android.reddit": [
+        "5.6.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Allows using pro features without ads.",
+    "id": "4d98f8a0d2205537591a37a6:9",
+    "legacy_id": 2822,
+    "metadata_status": "unverified",
+    "name": "Fake reddit premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.andrewshu.android.reddit",
+        "versions": [
+          "5.6.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.rubenmayayo.reddit": [
+        "1.12.12"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "4d98f8a0d2205537591a37a6:10",
+    "legacy_id": 2823,
+    "metadata_status": "unverified",
+    "name": "Fix /r/all",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rubenmayayo.reddit",
+        "versions": [
+          "1.12.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.rubenmayayo.reddit": [
+        "1.12.12"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "4d98f8a0d2205537591a37a6:11",
+    "legacy_id": 2824,
+    "metadata_status": "unverified",
+    "name": "Fix /s/ links",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rubenmayayo.reddit",
+        "versions": [
+          "1.12.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "free.reddit.news": [
+        "10.2.40"
+      ],
+      "reddit.news": [
+        "10.2.40"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "4d98f8a0d2205537591a37a6:12",
+    "legacy_id": 2825,
+    "metadata_status": "unverified",
+    "name": "Fix /s/ links",
+    "options": [],
+    "packages": [
+      {
+        "name": "free.reddit.news",
+        "versions": [
+          "10.2.40"
+        ]
+      },
+      {
+        "name": "reddit.news",
+        "versions": [
+          "10.2.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": [
+        "v23.06.30-13:39"
+      ],
+      "com.laurencedawson.reddit_sync.dev": null,
+      "com.laurencedawson.reddit_sync.pro": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "4d98f8a0d2205537591a37a6:13",
+    "legacy_id": 2826,
+    "metadata_status": "unverified",
+    "name": "Fix /s/ links",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.dev",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.rubenmayayo.reddit": [
+        "1.12.12"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Fixes audio missing in videos downloaded from v.redd.it.",
+    "id": "4d98f8a0d2205537591a37a6:14",
+    "legacy_id": 2827,
+    "metadata_status": "unverified",
+    "name": "Fix missing audio in video downloads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rubenmayayo.reddit",
+        "versions": [
+          "1.12.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": [
+        "v23.06.30-13:39"
+      ],
+      "com.laurencedawson.reddit_sync.dev": null,
+      "com.laurencedawson.reddit_sync.pro": null
+    },
+    "dependencies": [],
+    "description": "Fixes loading post thumbnails by correcting their URLs.",
+    "id": "4d98f8a0d2205537591a37a6:15",
+    "legacy_id": 2828,
+    "metadata_status": "unverified",
+    "name": "Fix post thumbnails",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.dev",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.onelouder.baconreader": [
+        "6.1.4"
+      ],
+      "com.onelouder.baconreader.premium": [
+        "6.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "4d98f8a0d2205537591a37a6:16",
+    "legacy_id": 2829,
+    "metadata_status": "unverified",
+    "name": "Fix Redgifs API",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.onelouder.baconreader",
+        "versions": [
+          "6.1.4"
+        ]
+      },
+      {
+        "name": "com.onelouder.baconreader.premium",
+        "versions": [
+          "6.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.rubenmayayo.reddit": [
+        "1.12.12"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "4d98f8a0d2205537591a37a6:17",
+    "legacy_id": 2830,
+    "metadata_status": "unverified",
+    "name": "Fix Redgifs API",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rubenmayayo.reddit",
+        "versions": [
+          "1.12.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": [
+        "v23.06.30-13:39"
+      ],
+      "com.laurencedawson.reddit_sync.dev": null,
+      "com.laurencedawson.reddit_sync.pro": null
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "4d98f8a0d2205537591a37a6:18",
+    "legacy_id": 2831,
+    "metadata_status": "unverified",
+    "name": "Fix Redgifs API",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.dev",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": [
+        "v23.06.30-13:39"
+      ],
+      "com.laurencedawson.reddit_sync.dev": null,
+      "com.laurencedawson.reddit_sync.pro": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Fixes a bug in Sync's MPD parser resulting in only the audio-track being saved.",
+    "id": "4d98f8a0d2205537591a37a6:19",
+    "legacy_id": 2832,
+    "metadata_status": "unverified",
+    "name": "Fix video downloads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.dev",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.rubenmayayo.reddit": [
+        "1.12.12"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hook the exception handler in Boost. Don't enable except for development purposes",
+    "id": "4d98f8a0d2205537591a37a6:20",
+    "legacy_id": 2833,
+    "metadata_status": "unverified",
+    "name": "Hook exception handler",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rubenmayayo.reddit",
+        "versions": [
+          "1.12.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": false
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.onelouder.baconreader": [
+        "6.1.4"
+      ],
+      "com.onelouder.baconreader.premium": [
+        "6.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Modify the WebView used for logging into reddit to prevent login issues",
+    "id": "4d98f8a0d2205537591a37a6:21",
+    "legacy_id": 2834,
+    "metadata_status": "unverified",
+    "name": "Modify login WebView",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.onelouder.baconreader",
+        "versions": [
+          "6.1.4"
+        ]
+      },
+      {
+        "name": "com.onelouder.baconreader.premium",
+        "versions": [
+          "6.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.rubenmayayo.reddit": [
+        "1.12.12"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Modify the WebView used for logging into reddit to prevent login issues",
+    "id": "4d98f8a0d2205537591a37a6:22",
+    "legacy_id": 2835,
+    "metadata_status": "unverified",
+    "name": "Modify login WebView",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rubenmayayo.reddit",
+        "versions": [
+          "1.12.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "ml.docilealligator.infinityforreddit.patreon": null,
+      "ml.docilealligator.infinityforreddit.plus": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Modify the WebView used for logging into reddit to prevent login issues",
+    "id": "4d98f8a0d2205537591a37a6:23",
+    "legacy_id": 2836,
+    "metadata_status": "unverified",
+    "name": "Modify login WebView",
+    "options": [],
+    "packages": [
+      {
+        "name": "ml.docilealligator.infinityforreddit.patreon",
+        "versions": []
+      },
+      {
+        "name": "ml.docilealligator.infinityforreddit.plus",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "o.o.joey": null,
+      "o.o.joey.dev": null,
+      "o.o.joey.pro": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Modify the WebView used for logging into reddit to prevent login issues",
+    "id": "4d98f8a0d2205537591a37a6:24",
+    "legacy_id": 2837,
+    "metadata_status": "unverified",
+    "name": "Modify login WebView",
+    "options": [],
+    "packages": [
+      {
+        "name": "o.o.joey",
+        "versions": []
+      },
+      {
+        "name": "o.o.joey.dev",
+        "versions": []
+      },
+      {
+        "name": "o.o.joey.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.andrewshu.android.reddit": [
+        "5.6.22"
+      ],
+      "com.andrewshu.android.redditdonation": [
+        "5.6.22"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Modify the WebView used for logging into reddit to prevent login issues",
+    "id": "4d98f8a0d2205537591a37a6:25",
+    "legacy_id": 2838,
+    "metadata_status": "unverified",
+    "name": "Modify login WebView",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.andrewshu.android.reddit",
+        "versions": [
+          "5.6.22"
+        ]
+      },
+      {
+        "name": "com.andrewshu.android.redditdonation",
+        "versions": [
+          "5.6.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "free.reddit.news": [
+        "10.2.40"
+      ],
+      "reddit.news": [
+        "10.2.40"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Modify the WebView used for logging into reddit to prevent login issues",
+    "id": "4d98f8a0d2205537591a37a6:26",
+    "legacy_id": 2839,
+    "metadata_status": "unverified",
+    "name": "Modify login WebView",
+    "options": [],
+    "packages": [
+      {
+        "name": "free.reddit.news",
+        "versions": [
+          "10.2.40"
+        ]
+      },
+      {
+        "name": "reddit.news",
+        "versions": [
+          "10.2.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": [
+        "v23.06.30-13:39"
+      ],
+      "com.laurencedawson.reddit_sync.dev": null,
+      "com.laurencedawson.reddit_sync.pro": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Modify the WebView used for logging into reddit to prevent login issues",
+    "id": "4d98f8a0d2205537591a37a6:27",
+    "legacy_id": 2840,
+    "metadata_status": "unverified",
+    "name": "Modify login WebView",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.dev",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.onelouder.baconreader": [
+        "6.1.4"
+      ],
+      "com.onelouder.baconreader.premium": [
+        "6.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Restores functionality of the app by using custom client ID.",
+    "id": "4d98f8a0d2205537591a37a6:28",
+    "legacy_id": 2841,
+    "metadata_status": "unverified",
+    "name": "Spoof client",
+    "options": [
+      {
+        "default": null,
+        "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
+        "key": "client-id",
+        "required": true,
+        "title": "OAuth client ID",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "redreader://rr_oauth_redir",
+        "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
+        "key": "redirect-uri",
+        "required": true,
+        "title": "Redirect URI",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "org.quantumbadger.redreader/1.25.1",
+        "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
+        "key": "user-agent",
+        "required": true,
+        "title": "User agent",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.onelouder.baconreader",
+        "versions": [
+          "6.1.4"
+        ]
+      },
+      {
+        "name": "com.onelouder.baconreader.premium",
+        "versions": [
+          "6.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.rubenmayayo.reddit": [
+        "1.12.12"
+      ]
+    },
+    "dependencies": [],
+    "description": "Restores functionality of the app by using custom client ID.",
+    "id": "4d98f8a0d2205537591a37a6:29",
+    "legacy_id": 2842,
+    "metadata_status": "unverified",
+    "name": "Spoof client",
+    "options": [
+      {
+        "default": null,
+        "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
+        "key": "client-id",
+        "required": true,
+        "title": "OAuth client ID",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "redreader://rr_oauth_redir",
+        "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
+        "key": "redirect-uri",
+        "required": true,
+        "title": "Redirect URI",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "org.quantumbadger.redreader/1.25.1",
+        "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
+        "key": "user-agent",
+        "required": true,
+        "title": "User agent",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.rubenmayayo.reddit",
+        "versions": [
+          "1.12.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "org.cygnusx1.continuum": null
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Allows modifying Continuum's client ID, redirect URI and user agent in API Keys settings menu. Patch options will modify default values.",
+    "id": "4d98f8a0d2205537591a37a6:30",
+    "legacy_id": 2843,
+    "metadata_status": "unverified",
+    "name": "Spoof client",
+    "options": [
+      {
+        "default": null,
+        "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
+        "key": "client-id",
+        "required": true,
+        "title": "OAuth client ID",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "redreader://rr_oauth_redir",
+        "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
+        "key": "redirect-uri",
+        "required": true,
+        "title": "Redirect URI",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "org.quantumbadger.redreader/1.25.1",
+        "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
+        "key": "user-agent",
+        "required": true,
+        "title": "User agent",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "org.cygnusx1.continuum",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "ml.docilealligator.infinityforreddit.patreon": null,
+      "ml.docilealligator.infinityforreddit.plus": null
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Restores functionality of the app by using custom client ID.",
+    "id": "4d98f8a0d2205537591a37a6:31",
+    "legacy_id": 2844,
+    "metadata_status": "unverified",
+    "name": "Spoof client",
+    "options": [
+      {
+        "default": null,
+        "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
+        "key": "client-id",
+        "required": true,
+        "title": "OAuth client ID",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "redreader://rr_oauth_redir",
+        "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
+        "key": "redirect-uri",
+        "required": true,
+        "title": "Redirect URI",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "org.quantumbadger.redreader/1.25.1",
+        "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
+        "key": "user-agent",
+        "required": true,
+        "title": "User agent",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "ml.docilealligator.infinityforreddit.patreon",
+        "versions": []
+      },
+      {
+        "name": "ml.docilealligator.infinityforreddit.plus",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "o.o.joey": null,
+      "o.o.joey.dev": null,
+      "o.o.joey.pro": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Restores functionality of the app by using custom client ID.",
+    "id": "4d98f8a0d2205537591a37a6:32",
+    "legacy_id": 2845,
+    "metadata_status": "unverified",
+    "name": "Spoof client",
+    "options": [
+      {
+        "default": null,
+        "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
+        "key": "client-id",
+        "required": true,
+        "title": "OAuth client ID",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "redreader://rr_oauth_redir",
+        "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
+        "key": "redirect-uri",
+        "required": true,
+        "title": "Redirect URI",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "org.quantumbadger.redreader/1.25.1",
+        "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
+        "key": "user-agent",
+        "required": true,
+        "title": "User agent",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "o.o.joey",
+        "versions": []
+      },
+      {
+        "name": "o.o.joey.dev",
+        "versions": []
+      },
+      {
+        "name": "o.o.joey.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.andrewshu.android.reddit": [
+        "5.6.22"
+      ],
+      "com.andrewshu.android.redditdonation": [
+        "5.6.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Restores functionality of the app by using custom client ID.",
+    "id": "4d98f8a0d2205537591a37a6:33",
+    "legacy_id": 2846,
+    "metadata_status": "unverified",
+    "name": "Spoof client",
+    "options": [
+      {
+        "default": null,
+        "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
+        "key": "client-id",
+        "required": true,
+        "title": "OAuth client ID",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "redreader://rr_oauth_redir",
+        "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
+        "key": "redirect-uri",
+        "required": true,
+        "title": "Redirect URI",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "org.quantumbadger.redreader/1.25.1",
+        "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
+        "key": "user-agent",
+        "required": true,
+        "title": "User agent",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.andrewshu.android.reddit",
+        "versions": [
+          "5.6.22"
+        ]
+      },
+      {
+        "name": "com.andrewshu.android.redditdonation",
+        "versions": [
+          "5.6.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "free.reddit.news": [
+        "10.2.40"
+      ],
+      "reddit.news": [
+        "10.2.40"
+      ]
+    },
+    "dependencies": [],
+    "description": "Restores functionality of the app by using custom client ID.",
+    "id": "4d98f8a0d2205537591a37a6:34",
+    "legacy_id": 2847,
+    "metadata_status": "unverified",
+    "name": "Spoof client",
+    "options": [
+      {
+        "default": null,
+        "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
+        "key": "client-id",
+        "required": true,
+        "title": "OAuth client ID",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "redreader://rr_oauth_redir",
+        "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
+        "key": "redirect-uri",
+        "required": true,
+        "title": "Redirect URI",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "org.quantumbadger.redreader/1.25.1",
+        "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
+        "key": "user-agent",
+        "required": true,
+        "title": "User agent",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "free.reddit.news",
+        "versions": [
+          "10.2.40"
+        ]
+      },
+      {
+        "name": "reddit.news",
+        "versions": [
+          "10.2.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "me.edgan.redditslide": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Allows modifying Slide's client ID, redirect URI and user agent in settings. Patch options will modify default values.",
+    "id": "4d98f8a0d2205537591a37a6:35",
+    "legacy_id": 2848,
+    "metadata_status": "unverified",
+    "name": "Spoof client",
+    "options": [
+      {
+        "default": null,
+        "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
+        "key": "client-id",
+        "required": true,
+        "title": "OAuth client ID",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "redreader://rr_oauth_redir",
+        "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
+        "key": "redirect-uri",
+        "required": true,
+        "title": "Redirect URI",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "org.quantumbadger.redreader/1.25.1",
+        "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
+        "key": "user-agent",
+        "required": true,
+        "title": "User agent",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "me.edgan.redditslide",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": [
+        "v23.06.30-13:39"
+      ],
+      "com.laurencedawson.reddit_sync.dev": null,
+      "com.laurencedawson.reddit_sync.pro": null
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Restores functionality of the app by using custom client ID.",
+    "id": "4d98f8a0d2205537591a37a6:36",
+    "legacy_id": 2849,
+    "metadata_status": "unverified",
+    "name": "Spoof client",
+    "options": [
+      {
+        "default": null,
+        "description": "The Reddit OAuth client ID. Refer to Patcheddit documentation for more information on what to put here.",
+        "key": "client-id",
+        "required": true,
+        "title": "OAuth client ID",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "redreader://rr_oauth_redir",
+        "description": "The Reddit OAuth redirect URI. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's redirect URI.",
+        "key": "redirect-uri",
+        "required": true,
+        "title": "Redirect URI",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "org.quantumbadger.redreader/1.25.1",
+        "description": "The app's user agent. Refer to Patcheddit documentation for more information on what to put here. Default value is RedReader's user agent.",
+        "key": "user-agent",
+        "required": true,
+        "title": "User agent",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.dev",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": [
+        "v23.06.30-13:39"
+      ],
+      "com.laurencedawson.reddit_sync.dev": null,
+      "com.laurencedawson.reddit_sync.pro": null
+    },
+    "dependencies": [],
+    "description": "Replaces the deprecated endpoint for viewing user profiles /u with /user, that used to fix a bug.",
+    "id": "4d98f8a0d2205537591a37a6:37",
+    "legacy_id": 2850,
+    "metadata_status": "unverified",
+    "name": "Use /user/ endpoint",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.dev",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4d98f8a0d2205537591a37a6",
+    "compatiblePackages": {
+      "com.andrewshu.android.reddit": [
+        "5.6.22"
+      ],
+      "com.andrewshu.android.redditdonation": [
+        "5.6.22"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Fix imgur albums not loading.",
+    "id": "4d98f8a0d2205537591a37a6:38",
+    "legacy_id": 2851,
+    "metadata_status": "unverified",
+    "name": "Use public imgur API",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.andrewshu.android.reddit",
+        "versions": [
+          "5.6.22"
+        ]
+      },
+      {
+        "name": "com.andrewshu.android.redditdonation",
+        "versions": [
+          "5.6.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1-dev.1",
+    "source_id": "1a8b238ea552594e",
+    "use": true
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [],
+    "description": "Black bird with white background.",
+    "id": "4de6d16f4cecc03a02c374df:0",
+    "legacy_id": 2852,
+    "metadata_status": "unverified",
+    "name": "Black Bird icon",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": false
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [],
+    "description": "Removes tracking parameters when sharing links",
+    "id": "4de6d16f4cecc03a02c374df:1",
+    "legacy_id": 2853,
+    "metadata_status": "unverified",
+    "name": "Clear tracking params",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": true
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [
+      "SettingsPatch"
+    ],
+    "description": "Change the download directory for video downloads",
+    "id": "4de6d16f4cecc03a02c374df:2",
+    "legacy_id": 2854,
+    "metadata_status": "unverified",
+    "name": "Custom download folder",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": true
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [
+      "SettingsPatch"
+    ],
+    "description": "",
+    "id": "4de6d16f4cecc03a02c374df:3",
+    "legacy_id": 2855,
+    "metadata_status": "unverified",
+    "name": "Disable chirp font",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": false
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [],
+    "description": "Unlocks the ability to download videos and gifs from Twitter/X",
+    "id": "4de6d16f4cecc03a02c374df:4",
+    "legacy_id": 2856,
+    "metadata_status": "unverified",
+    "name": "Download patch",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": true
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [],
+    "description": "Replaces the default Twitter (X) Blue signature theme with the user's Material You palette.",
+    "id": "4de6d16f4cecc03a02c374df:5",
+    "legacy_id": 2857,
+    "metadata_status": "unverified",
+    "name": "Dynamic color",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": true
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [],
+    "description": "Enables reader mode on long threads",
+    "id": "4de6d16f4cecc03a02c374df:6",
+    "legacy_id": 2858,
+    "metadata_status": "unverified",
+    "name": "Enable Reader Mode",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": false
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [],
+    "description": "Enable ability to undo posts before it gets posted",
+    "id": "4de6d16f4cecc03a02c374df:7",
+    "legacy_id": 2859,
+    "metadata_status": "unverified",
+    "name": "Enable Undo Posts",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": false
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [],
+    "description": "Replaces the Twitter Bluish Dim theme with the user's Material You 3 neutral palette.",
+    "id": "4de6d16f4cecc03a02c374df:8",
+    "legacy_id": 2860,
+    "metadata_status": "unverified",
+    "name": "Full Monet Theme",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": true
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [],
+    "description": "Replaces the LightsOut (Amoled) Twitter theme with lighter Grey color.",
+    "id": "4de6d16f4cecc03a02c374df:9",
+    "legacy_id": 2861,
+    "metadata_status": "unverified",
+    "name": "Grey Theme Patch",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": true
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [
+      "JsonHookPatch"
+    ],
+    "description": "DON'T USE WHEN PATCHING ALONG WITH CRIMERA PATCHES AND INTEGRATIONS (NOT NEEDED ANYWAYS THEN).",
+    "id": "4de6d16f4cecc03a02c374df:10",
+    "legacy_id": 2862,
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": false
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [
+      "SettingsPatch"
+    ],
+    "description": "Hide new post banner",
+    "id": "4de6d16f4cecc03a02c374df:11",
+    "legacy_id": 2863,
+    "metadata_status": "unverified",
+    "name": "Hide Banner",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": false
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [
+      "SettingsPatch"
+    ],
+    "description": "",
+    "id": "4de6d16f4cecc03a02c374df:12",
+    "legacy_id": 2864,
+    "metadata_status": "unverified",
+    "name": "Hide Community Notes",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": false
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "4de6d16f4cecc03a02c374df:13",
+    "legacy_id": 2865,
+    "metadata_status": "unverified",
+    "name": "Hide FAB",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": false
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "4de6d16f4cecc03a02c374df:14",
+    "legacy_id": 2866,
+    "metadata_status": "unverified",
+    "name": "Hide FAB Menu Buttons",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": false
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [
+      "SettingsPatch"
+    ],
+    "description": "Hides For You tab from timeline",
+    "id": "4de6d16f4cecc03a02c374df:15",
+    "legacy_id": 2867,
+    "metadata_status": "unverified",
+    "name": "Hide For You",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": false
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [
+      "SettingsPatch"
+    ],
+    "description": "",
+    "id": "4de6d16f4cecc03a02c374df:16",
+    "legacy_id": 2868,
+    "metadata_status": "unverified",
+    "name": "Hide Live Threads",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": false
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [
+      "SettingsPatch"
+    ],
+    "description": "",
+    "id": "4de6d16f4cecc03a02c374df:17",
+    "legacy_id": 2869,
+    "metadata_status": "unverified",
+    "name": "Hide Promoted Trends",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": true
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [
+      "JsonHookPatch"
+    ],
+    "description": "DON'T USE WHEN PATCHING ALONG WITH CRIMERA PATCHES AND INTEGRATIONS (NOT NEEDED ANYWAYS THEN).",
+    "id": "4de6d16f4cecc03a02c374df:18",
+    "legacy_id": 2870,
+    "metadata_status": "unverified",
+    "name": "Hide promoted users",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": false
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [],
+    "description": "Hide recommended users that pops up when you follow someone",
+    "id": "4de6d16f4cecc03a02c374df:19",
+    "legacy_id": 2871,
+    "metadata_status": "unverified",
+    "name": "Hide Recommended Users",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": true
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "4de6d16f4cecc03a02c374df:20",
+    "legacy_id": 2872,
+    "metadata_status": "unverified",
+    "name": "Hook for timeline entry",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": true
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [],
+    "description": "Get rid of t.co short urls.",
+    "id": "4de6d16f4cecc03a02c374df:21",
+    "legacy_id": 2873,
+    "metadata_status": "unverified",
+    "name": "No shortened URL",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": true
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [],
+    "description": "Replaces the X icon with original Blue Twitter icon.",
+    "id": "4de6d16f4cecc03a02c374df:22",
+    "legacy_id": 2874,
+    "metadata_status": "unverified",
+    "name": "OG Bird icon",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": true
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [],
+    "description": "Replaces the app name from nonsense X to Twitter and words like post to tweet, repost to retweet, etc.",
+    "id": "4de6d16f4cecc03a02c374df:23",
+    "legacy_id": 2875,
+    "metadata_status": "unverified",
+    "name": "OG Twitter brand",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": true
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [
+      "SettingsPatch",
+      "Hook for timeline entry"
+    ],
+    "description": "",
+    "id": "4de6d16f4cecc03a02c374df:24",
+    "legacy_id": 2876,
+    "metadata_status": "unverified",
+    "name": "Remove \"Communities to join\" Banner",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": true
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [
+      "SettingsPatch",
+      "Hook for timeline entry"
+    ],
+    "description": "",
+    "id": "4de6d16f4cecc03a02c374df:25",
+    "legacy_id": 2877,
+    "metadata_status": "unverified",
+    "name": "Remove \"Creators to subscribe\" Banner",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": true
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [
+      "SettingsPatch",
+      "Hook for timeline entry"
+    ],
+    "description": "",
+    "id": "4de6d16f4cecc03a02c374df:26",
+    "legacy_id": 2878,
+    "metadata_status": "unverified",
+    "name": "Remove \"Pinned posts by followers\" Banner",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": true
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [
+      "SettingsPatch",
+      "Hook for timeline entry"
+    ],
+    "description": "",
+    "id": "4de6d16f4cecc03a02c374df:27",
+    "legacy_id": 2879,
+    "metadata_status": "unverified",
+    "name": "Remove \"Who to follow\" Banner",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": false
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [
+      "SettingsPatch",
+      "Hook for timeline entry"
+    ],
+    "description": "",
+    "id": "4de6d16f4cecc03a02c374df:28",
+    "legacy_id": 2880,
+    "metadata_status": "unverified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": true
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [
+      "SettingsPatch",
+      "Hook for timeline entry"
+    ],
+    "description": "Removes detailed posts in replies",
+    "id": "4de6d16f4cecc03a02c374df:29",
+    "legacy_id": 2881,
+    "metadata_status": "unverified",
+    "name": "Remove Detailed posts",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": false
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [
+      "SettingsPatch",
+      "Hook for timeline entry"
+    ],
+    "description": "",
+    "id": "4de6d16f4cecc03a02c374df:30",
+    "legacy_id": 2882,
+    "metadata_status": "unverified",
+    "name": "Remove Google Ads",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": true
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [],
+    "description": "Removes the view count from the bottom of tweets",
+    "id": "4de6d16f4cecc03a02c374df:31",
+    "legacy_id": 2883,
+    "metadata_status": "unverified",
+    "name": "Remove view count",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": false
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [],
+    "description": "Makes bio and username selectable",
+    "id": "4de6d16f4cecc03a02c374df:32",
+    "legacy_id": 2884,
+    "metadata_status": "unverified",
+    "name": "Selectable Text",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": true
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [],
+    "description": "Shows sensitive media",
+    "id": "4de6d16f4cecc03a02c374df:33",
+    "legacy_id": 2885,
+    "metadata_status": "unverified",
+    "name": "Show sensitive media",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": true
+  },
+  {
+    "bundle_id": "4de6d16f4cecc03a02c374df",
+    "compatiblePackages": {
+      "com.twitter.android": []
+    },
+    "dependencies": [],
+    "description": "Replaces the X icon with a white Bird keeping black background.",
+    "id": "4de6d16f4cecc03a02c374df:34",
+    "legacy_id": 2886,
+    "metadata_status": "unverified",
+    "name": "White Bird icon",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0-dev.5",
+    "source_id": "c74f458a26b7c4c2",
+    "use": false
+  },
+  {
+    "bundle_id": "4df4f3676aaa73c9ed840ff0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "TIDAL",
+        "packageName": "com.aspiro.tidal",
+        "signatures": [
+          "2e8a4794a95418367e36c84303feb43774919d6a351129d23d0fcf1b0b729454"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "2.202.0"
+          }
+        ],
+        "versions": [
+          "2.202.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Adds a Spotify style swipe right gesture that adds the swiped item to the play queue, on every screen that lists tracks, albums, playlists or mixes.",
+    "id": "4df4f3676aaa73c9ed840ff0:0",
+    "legacy_id": 2887,
+    "metadata_status": "unverified",
+    "name": "Swipe to add to queue",
+    "options": [],
+    "packages": [
+      {
+        "name": "TIDAL",
+        "versions": [
+          "2.202.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.0",
+    "source_id": "1a48cb656eca33c7"
+  },
+  {
+    "bundle_id": "4e01604d03398d9a6a37c3cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#E60012",
+        "name": "Petal Maps",
+        "packageName": "com.huawei.maps.app",
+        "signatures": [
+          "ddab0c1db857b116ab1f7a41583f8b452a609cdbd9a2ef088f5592d6fadb5cff"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "4.7.0.322(001)"
+          }
+        ],
+        "versions": [
+          "4.7.0.322(001)"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Forces AccountPickerSignInHubPresenter to always use the WebView H5 login path, bypassing HMS Core availability checks that fail on non-Huawei devices.",
+    "id": "4e01604d03398d9a6a37c3cf:0",
+    "legacy_id": 2888,
+    "metadata_status": "unverified",
+    "name": "AccountPicker WebView force",
+    "options": [],
+    "packages": [
+      {
+        "name": "Petal Maps",
+        "versions": [
+          "4.7.0.322(001)"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "f08dd77ba1cca8bc"
+  },
+  {
+    "bundle_id": "4e01604d03398d9a6a37c3cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#E60012",
+        "name": "Petal Maps",
+        "packageName": "com.huawei.maps.app",
+        "signatures": [
+          "ddab0c1db857b116ab1f7a41583f8b452a609cdbd9a2ef088f5592d6fadb5cff"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "4.7.0.322(001)"
+          }
+        ],
+        "versions": [
+          "4.7.0.322(001)"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Neutralizes the native integrity check (SecurityDetect.irpj) that kills the process upon detecting APK re-signing.",
+    "id": "4e01604d03398d9a6a37c3cf:1",
+    "legacy_id": 2889,
+    "metadata_status": "unverified",
+    "name": "Anti-Repack Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "Petal Maps",
+        "versions": [
+          "4.7.0.322(001)"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "f08dd77ba1cca8bc"
+  },
+  {
+    "bundle_id": "4e01604d03398d9a6a37c3cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#E60012",
+        "name": "Petal Maps",
+        "packageName": "com.huawei.maps.app",
+        "signatures": [
+          "ddab0c1db857b116ab1f7a41583f8b452a609cdbd9a2ef088f5592d6fadb5cff"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "4.7.0.322(001)"
+          }
+        ],
+        "versions": [
+          "4.7.0.322(001)"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Changes the package name from com.huawei.maps.app to morphe.huawei.petal.maps by default, allowing the patched app to coexist with the original. Changing the package name can lead to unexpected issues.",
+    "id": "4e01604d03398d9a6a37c3cf:2",
+    "legacy_id": 2890,
+    "metadata_status": "unverified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "Default",
+        "description": "The package name to rename the app to. Leave as 'Default' to use morphe.huawei.petal.maps.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      },
+      {
+        "default": true,
+        "description": "Update custom permissions declared by the app. Required for Petal Maps coexistence.",
+        "key": "updatePermissions",
+        "required": false,
+        "title": "Update permissions",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Update provider authorities declared by the app. Required for Petal Maps coexistence.",
+        "key": "updateProviders",
+        "required": false,
+        "title": "Update providers",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Petal Maps",
+        "versions": [
+          "4.7.0.322(001)"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "f08dd77ba1cca8bc"
+  },
+  {
+    "bundle_id": "4e01604d03398d9a6a37c3cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#E60012",
+        "name": "Petal Maps",
+        "packageName": "com.huawei.maps.app",
+        "signatures": [
+          "ddab0c1db857b116ab1f7a41583f8b452a609cdbd9a2ef088f5592d6fadb5cff"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "4.7.0.322(001)"
+          }
+        ],
+        "versions": [
+          "4.7.0.322(001)"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Forces HMS Core sign-in path (a.g) in AccountFactory. Requires HMS Core installed. Disable if HMS Core is not available.",
+    "id": "4e01604d03398d9a6a37c3cf:3",
+    "legacy_id": 2891,
+    "metadata_status": "unverified",
+    "name": "Huawei login fix",
+    "options": [],
+    "packages": [
+      {
+        "name": "Petal Maps",
+        "versions": [
+          "4.7.0.322(001)"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "f08dd77ba1cca8bc"
+  },
+  {
+    "bundle_id": "4e01604d03398d9a6a37c3cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#E60012",
+        "name": "Petal Maps",
+        "packageName": "com.huawei.maps.app",
+        "signatures": [
+          "ddab0c1db857b116ab1f7a41583f8b452a609cdbd9a2ef088f5592d6fadb5cff"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "4.7.0.322(001)"
+          }
+        ],
+        "versions": [
+          "4.7.0.322(001)"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Changes PetalMapsActivity's screenOrientation from \"behind\" to \"unspecified\", allowing the app to rotate freely.",
+    "id": "4e01604d03398d9a6a37c3cf:4",
+    "legacy_id": 2892,
+    "metadata_status": "unverified",
+    "name": "Main activity orientation fix",
+    "options": [],
+    "packages": [
+      {
+        "name": "Petal Maps",
+        "versions": [
+          "4.7.0.322(001)"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "f08dd77ba1cca8bc"
+  },
+  {
+    "bundle_id": "4e01604d03398d9a6a37c3cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#E60012",
+        "name": "Petal Maps",
+        "packageName": "com.huawei.maps.app",
+        "signatures": [
+          "ddab0c1db857b116ab1f7a41583f8b452a609cdbd9a2ef088f5592d6fadb5cff"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "4.7.0.322(001)"
+          }
+        ],
+        "versions": [
+          "4.7.0.322(001)"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Forces the Huawei manufacturer check to always return true, allowing non-Huawei devices to use the app.",
+    "id": "4e01604d03398d9a6a37c3cf:5",
+    "legacy_id": 2893,
+    "metadata_status": "unverified",
+    "name": "Manufacturer Check Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "Petal Maps",
+        "versions": [
+          "4.7.0.322(001)"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "f08dd77ba1cca8bc"
+  },
+  {
+    "bundle_id": "4e2c31e555cf50cf8d5d27c3",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF0045",
+        "name": "XYZ app",
+        "packageName": "com.example.app",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.0.0"
+          },
+          {
+            "isExperimental": false,
+            "version": "1.0.2"
+          }
+        ],
+        "versions": [
+          "2.0.0",
+          "1.0.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Example patch to start with.",
+    "id": "4e2c31e555cf50cf8d5d27c3:0",
+    "legacy_id": 2894,
+    "metadata_status": "unverified",
+    "name": "Example Patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "XYZ app",
+        "versions": [
+          "2.0.0",
+          "1.0.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "4170fdbf4348a9a4"
+  },
+  {
+    "bundle_id": "4e2c31e555cf50cf8d5d27c3",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FF0088",
+        "name": "MP3 Cutter and Ringtone Maker",
+        "packageName": "ringtone.maker.mp3.cutter.audio",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.3.5.1"
+          }
+        ],
+        "versions": [
+          "2.3.5.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes splash, interstitial and banner ads from MP3 Cutter and Ringtone Maker.",
+    "id": "4e2c31e555cf50cf8d5d27c3:1",
+    "legacy_id": 2895,
+    "metadata_status": "unverified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "MP3 Cutter and Ringtone Maker",
+        "versions": [
+          "2.3.5.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "4170fdbf4348a9a4"
+  },
+  {
+    "bundle_id": "4e2c31e555cf50cf8d5d27c3",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FF0088",
+        "name": "MP3 Cutter and Ringtone Maker",
+        "packageName": "ringtone.maker.mp3.cutter.audio",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.3.5.1"
+          }
+        ],
+        "versions": [
+          "2.3.5.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all premium features in MP3 Cutter and Ringtone Maker.",
+    "id": "4e2c31e555cf50cf8d5d27c3:2",
+    "legacy_id": 2896,
+    "metadata_status": "unverified",
+    "name": "Unlock all features",
+    "options": [],
+    "packages": [
+      {
+        "name": "MP3 Cutter and Ringtone Maker",
+        "versions": [
+          "2.3.5.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "4170fdbf4348a9a4"
+  },
+  {
+    "bundle_id": "4e44ad4beb9ec016c6a5525a",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "TIDAL",
+        "packageName": "com.aspiro.tidal",
+        "signatures": [
+          "2e8a4794a95418367e36c84303feb43774919d6a351129d23d0fcf1b0b729454"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "2.202.0"
+          }
+        ],
+        "versions": [
+          "2.202.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Adds a Spotify style swipe right gesture that adds the swiped item to the play queue, on every screen that lists tracks, albums, playlists or mixes.",
+    "id": "4e44ad4beb9ec016c6a5525a:0",
+    "legacy_id": 2897,
+    "metadata_status": "unverified",
+    "name": "Swipe to add to queue",
+    "options": [],
+    "packages": [
+      {
+        "name": "TIDAL",
+        "versions": [
+          "2.202.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.0-dev.1",
+    "source_id": "1a48cb656eca33c7"
+  },
+  {
+    "bundle_id": "4e568488bb0dd56942048162",
+    "compatiblePackages": {
+      "com.mb.android": null
+    },
+    "dependencies": [
+      "Patch"
+    ],
+    "description": "Replaces the Emby server validation host with a custom one to bypass premiere checks.",
+    "id": "4e568488bb0dd56942048162:0",
+    "legacy_id": 2898,
+    "metadata_status": "unverified",
+    "name": "Spoof server host",
+    "options": [
+      {
+        "default": "xexample.com",
+        "description": "The replacement host for Emby server validation.",
+        "name": "Server host",
+        "required": true,
+        "type": "java.lang.String (Kotlin reflection is not available)",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.mb.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "fb4782c266360e34",
+    "use": true
+  },
+  {
+    "bundle_id": "4e8b4944a664d847a98dcfc8",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.15.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Opens web links from Reddit in Android's default external browser.",
+    "id": "4e8b4944a664d847a98dcfc8:0",
+    "legacy_id": 2899,
+    "metadata_status": "unverified",
+    "name": "Open links in default browser",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.15.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.1",
+    "source_id": "1b1222a82ffee3c8",
+    "use": true
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#30E66D",
+        "name": "MovieBox",
+        "packageName": "com.community.oneroom",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "4.0.02.0828.03",
+            "versionCodes": {
+              "ARM64_V8A": 50020125,
+              "ARMEABI_V7A": 50020125,
+              "X86": 50020125,
+              "X86_64": 50020125
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "4.0.02.0831.03",
+            "versionCodes": {
+              "ARM64_V8A": 50020126,
+              "ARMEABI_V7A": 50020126,
+              "X86": 50020126,
+              "X86_64": 50020126
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "4.0.02.0903.02",
+            "versionCodes": {
+              "ARM64_V8A": 50020128,
+              "ARMEABI_V7A": 50020128,
+              "X86": 50020128,
+              "X86_64": 50020128
+            }
+          }
+        ],
+        "versions": [
+          "4.0.02.0828.03",
+          "4.0.02.0831.03",
+          "4.0.02.0903.02"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Enables video playback and downloads, removes ads and upsell prompts, bypasses the region block, unlocks the hidden Laboratory menu, and adds a Telegram channel popup and a floating support button. Requires Android 10 or later.",
+    "id": "4f685eef65e10a98097dcc94:0",
+    "legacy_id": 2900,
+    "metadata_status": "stale",
+    "name": "All-In-One",
+    "options": [],
+    "packages": [
+      {
+        "name": "MovieBox",
+        "versions": [
+          "4.0.02.0828.03",
+          "4.0.02.0831.03",
+          "4.0.02.0903.02"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#5167F6",
+        "name": "Cx File Explorer",
+        "packageName": "com.cxinventor.file.explorer",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 21,
+            "version": "2.7.8",
+            "versionCodes": {
+              "ARM64_V8A": 278,
+              "ARMEABI_V7A": 278,
+              "X86": 278,
+              "X86_64": 278
+            }
+          }
+        ],
+        "versions": [
+          "2.7.8"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds a pure black option to the dark theme.",
+    "id": "4f685eef65e10a98097dcc94:1",
+    "legacy_id": 2901,
+    "metadata_status": "stale",
+    "name": "AMOLED dark theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "Cx File Explorer",
+        "versions": [
+          "2.7.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#53FC18",
+        "name": "Kick",
+        "packageName": "com.kick.mobile",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Replaces the dark theme background with pure black. Disables over-the-air updates that would restore the original background.",
+    "id": "4f685eef65e10a98097dcc94:2",
+    "legacy_id": 2902,
+    "metadata_status": "stale",
+    "name": "AMOLED dark theme",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#20808D",
+        "name": "Perplexity",
+        "packageName": "ai.perplexity.app.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 32,
+            "version": "2.95.0",
+            "versionCodes": {
+              "ARM64_V8A": 260642,
+              "ARMEABI_V7A": 260642,
+              "X86": 260642,
+              "X86_64": 260642
+            }
+          }
+        ],
+        "versions": [
+          "2.95.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Replaces the dark theme background with pure black.",
+    "id": "4f685eef65e10a98097dcc94:3",
+    "legacy_id": 2903,
+    "metadata_status": "stale",
+    "name": "AMOLED dark theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "Perplexity",
+        "versions": [
+          "2.95.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#6D4AFF",
+        "name": "Proton Mail",
+        "packageName": "ch.protonmail.android",
+        "signatures": [
+          "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "7.11.5",
+            "versionCodes": {
+              "ARM64_V8A": 18317,
+              "ARMEABI_V7A": 18317,
+              "X86": 18317,
+              "X86_64": 18317
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "7.10.4",
+            "versionCodes": {
+              "ARM64_V8A": 17667,
+              "ARMEABI_V7A": 17667,
+              "X86": 17667,
+              "X86_64": 17667
+            }
+          }
+        ],
+        "versions": [
+          "7.11.5",
+          "7.10.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Replaces the dark theme background with pure black.",
+    "id": "4f685eef65e10a98097dcc94:4",
+    "legacy_id": 2904,
+    "metadata_status": "stale",
+    "name": "AMOLED dark theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "Proton Mail",
+        "versions": [
+          "7.11.5",
+          "7.10.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#F44336",
+        "name": "Showly",
+        "packageName": "com.michaldrabik.showly2",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 23,
+            "version": "3.70.0",
+            "versionCodes": {
+              "ARM64_V8A": 840,
+              "ARMEABI_V7A": 840,
+              "X86": 840,
+              "X86_64": 840
+            }
+          }
+        ],
+        "versions": [
+          "3.70.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Replaces the dark theme background with pure black.",
+    "id": "4f685eef65e10a98097dcc94:5",
+    "legacy_id": 2905,
+    "metadata_status": "stale",
+    "name": "AMOLED dark theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "Showly",
+        "versions": [
+          "3.70.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1AACAC",
+        "name": "DWG FastView",
+        "packageName": "com.gstarmc.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "5.19.4",
+            "versionCodes": {
+              "ARM64_V8A": 614,
+              "ARMEABI_V7A": 614,
+              "X86": 614,
+              "X86_64": 614
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "5.19.6",
+            "versionCodes": {
+              "ARM64_V8A": 616,
+              "ARMEABI_V7A": 616,
+              "X86": 616,
+              "X86_64": 616
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "5.20.0",
+            "versionCodes": {
+              "ARM64_V8A": 620,
+              "ARMEABI_V7A": 620,
+              "X86": 620,
+              "X86_64": 620
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "5.21.0",
+            "versionCodes": {
+              "ARM64_V8A": 630,
+              "ARMEABI_V7A": 630,
+              "X86": 630,
+              "X86_64": 630
+            }
+          }
+        ],
+        "versions": [
+          "5.19.4",
+          "5.19.6",
+          "5.20.0",
+          "5.21.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "Blocks the Umeng, ByteDance and ad network analytics endpoints.",
+    "id": "4f685eef65e10a98097dcc94:6",
+    "legacy_id": 2906,
+    "metadata_status": "stale",
+    "name": "Block telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "DWG FastView",
+        "versions": [
+          "5.19.4",
+          "5.19.6",
+          "5.20.0",
+          "5.21.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  },
+  {
+    "bundle_id": "4f685eef65e10a98097dcc94",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#5167F6",
+        "name": "Cx File Explorer",
+        "packageName": "com.cxinventor.file.explorer",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 21,
+            "version": "2.7.8",
+            "versionCodes": {
+              "ARM64_V8A": 278,
+              "ARMEABI_V7A": 278,
+              "X86": 278,
+              "X86_64": 278
+            }
+          }
+        ],
+        "versions": [
+          "2.7.8"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Renders the app's dark theme and adds it to the settings.",
+    "id": "4f685eef65e10a98097dcc94:7",
+    "legacy_id": 2907,
+    "metadata_status": "stale",
+    "name": "Dark theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "Cx File Explorer",
+        "versions": [
+          "2.7.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0",
+    "source_id": "fc1270c71c72708c"
+  }
+]

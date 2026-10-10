@@ -1,0 +1,46 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-09-21T19:00:16.632Z",
+  "description": "## [1.0.4](https://gitlab.com/dhl0/morphe-patches/compare/v1.0.3...v1.0.4) (2026-09-21)\n\n### 🐛 Bug Fixes\n\n* use DECLARED_SYNCHRONIZED, not SYNCHRONIZED, in fingerprint ([901e562](https://gitlab.com/dhl0/morphe-patches/commit/901e562221ff7d3a9643784433e56ba854a4190a))\n",
+  "download_url": "https://gitlab.com/dhl0/morphe-patches/-/releases/v1.0.4/downloads/patches-1.0.4.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": null,
+  "extraction_status": "unverified",
+  "extraction_terminal": false,
+  "file_hash": null,
+  "id": "19c4d35331041a31b604a514",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgitlab.com%2Fdhl0%2Fmorphe-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgitlab.com%2Fdhl0%2Fmorphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 61,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "RailOne",
+    "Sync for Reddit",
+    "Trakt",
+    "iPay Sri Lanka"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 0,
+  "patch_metadata_version": "v1.0.4",
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_config_hash": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "provider_digest": null,
+  "release_status": "available",
+  "release_url": "https://gitlab.com/dhl0/morphe-patches/-/releases/v1.0.4",
+  "signature_download_url": "N/A",
+  "source_id": "e1d7d014cf840933",
+  "version": "v1.0.4"
+}

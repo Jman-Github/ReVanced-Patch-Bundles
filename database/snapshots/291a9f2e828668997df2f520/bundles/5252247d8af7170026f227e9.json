@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-10-09T18:07:09Z",
+  "description": "**Release Tag:** `1.0.4`  \r\n**Target App:** Google Pixel Camera `11.1.040.982810059.19` (APKM -> https://www.apkmirror.com/apk/google-inc/camera/pixel-camera-11-1-040-982810059-19-release/)  \r\n**Supported Devices:** Google Pixel 6, 7, 8, 9, 10 series (Tensor G1 – G5)\r\n\r\n---\r\n\r\n## What's New in v1.0.4\r\n\r\n### 1. All 13 Camera Looks Unlocked (3 New Looks Added)\r\nIn addition to the 10 original signature Looks, all **3 brand-new Pixel Camera 11.1 Looks** are now fully enabled and integrated directly into the carousel UI:\r\n* **Flat** (`qvd` / *Pesto*): Low-contrast, high dynamic range flat color profile optimized for post-shot color grading.\r\n* **Buffalo** (`qvg` / *Unflat*): Warm, punchy earth tones with balanced contrast and expanded dynamic latitude.\r\n* **Dijon** (`qvi` / *Yellow-Green Faded*): Nostalgic retro analog look with olive-tinted highlights and muted shadows.\r\n* *Total available Looks:* **13** (Original, Natural, Vanilla, Editorial, Shadows, Velvet, Classic, Digi, Black Tie, Minimal, Flat, Buffalo, Dijon).\r\n\r\n---\r\n\r\n### 2. Viewfinder Dual Sliders & Universal Bidirectional Sync\r\n* **Viewfinder Tap-to-Focus Sliders Restored:** Resolved the issue where the dual sliders were missing from the viewfinder. Sliders now reliably appear on tap-to-focus across all modes.\r\n* **Full Dynamic Exposure Range:** Restored full range on both sliders:\r\n  * **Brightness:** -4.0 to +4.0 stops.\r\n  * **Shadow:** Linearized HDR+ shadow boost up to 15.3x.\r\n* **Bidirectional Synchronization:** Viewfinder on-screen knobs and bottom sheet drawers now share the exact same underlying HAL observables—scrubbing either slider updates the other instantly in real time.\r\n* **Camera2 HAL Preview Integration:** Decoupled `DualEvCtrl` from twilight flags (`ptm.g = false`), allowing real-time tone mapping previews directly in the viewfinder.\r\n\r\n---\r\n\r\n### 3. Pixel 10 & Pro 12MP Photo Saving Fix\r\n* Fixed an issue on Pixel 10 / Tensor G5 hardware where 12MP captures failed to save or froze during post-processing.\r\n* Disabled incompatible Tensor G5-exclusive pipelines (`camera.ceftazidime = 0` Flare Removal and `camera.use_eclipse = 0` Eclipse AE).\r\n* Injected fallbacks for binned RAW stream dimensions (`tele_binned_raw_width` = 2016, `tele_binned_raw_height` = 1512, `binned_row_start` = 0) to ensure zero capture drops.\r\n\r\n---\r\n\r\n### 4. Complete Feature Matrix\r\n* **Permanent Portrait Mode Fix:** Pure-TFLite monocular depth routing (`midasnet`, `portrait_matting_mask`) fixing front camera blur and rear camera bokeh drops.\r\n* **Pro Manual Controls:** Unlocks Manual Focus, Shutter Speed, ISO, and Focus Peaking on all supported models.\r\n* **10x Quick Zoom:** Discrete 10x viewfinder zoom toggle in Photo mode.\r\n* **Creator Suite:** Teleprompter HUD (`biotite`), Live Audio VU Meter (`mica`), and Social Framing Guides (`slate`).\r\n* **Non-Root App Clone:** Installable side-by-side with stock Pixel Camera (`com.google.android.GoogleCamera.morphe`).\r\n\r\n---\r\n\r\n##  How to Install via Morphe Manager\r\n\r\n1. Download and install the latest **Morphe Manager** on your device.\r\n2. Download official **Pixel Camera 11.1** APK (`11.1.040.982810059.19`). \r\n3. Download **`morphe-patches-pixelcamera-1.0.4.mpp`** (or `patches-1.0.4.mpp`) from the Assets below.\r\n4. In Morphe Manager:\r\n   * Select the downloaded Pixel Camera APK.\r\n   * Load the patch bundle (`.mpp`).\r\n   * Select your preferred patches and tap **Patch**.\r\n5. Install the generated APK and enjoy!\r\n\r\n---\r\n\r\n## Assets\r\n\r\n* **`morphe-patches-pixelcamera-1.0.4.mpp`** — Morphe patch bundle\r\n* **`patches-1.0.4.mpp`** — Standalone bundle mirror\r\n",
+  "download_url": "https://github.com/Akshayykadam/Pixel-Camera/releases/download/1.0.4/morphe-patches-pixelcamera-1.0.4.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:592e4351af9a061c9fc7fd92e529619a1a855ef14b5ab2ef3ccd64bbb88cf211",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "592e4351af9a061c9fc7fd92e529619a1a855ef14b5ab2ef3ccd64bbb88cf211",
+  "id": "5252247d8af7170026f227e9",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FAkshayykadam%2FPixel-Camera&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FAkshayykadam%2FPixel-Camera&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 3174,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.google.android.GoogleCamera"
+  ],
+  "patch_count": 8,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "1.0.4",
+  "patch_refresh_attempted_at": "2026-10-10T15:16:34.904512879Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:592e4351af9a061c9fc7fd92e529619a1a855ef14b5ab2ef3ccd64bbb88cf211",
+  "release_status": "available",
+  "release_url": "https://github.com/Akshayykadam/Pixel-Camera/releases/tag/1.0.4",
+  "signature_download_url": "N/A",
+  "source_id": "9ad0ec934e3016db",
+  "version": "1.0.4"
+}

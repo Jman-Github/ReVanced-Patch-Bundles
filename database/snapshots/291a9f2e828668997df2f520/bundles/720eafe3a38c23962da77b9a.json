@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-09-30T07:35:18Z",
+  "description": "## [2.1.0](https://github.com/0x0day-0wl/morphe-patches/compare/v2.0.0...v2.1.0) (2026-09-30)\n\n### ✨ New Features\n\n* republish bundle above cached upstream 2.0.0 ([13e9dbe](https://github.com/0x0day-0wl/morphe-patches/commit/13e9dbe783ea5a7d3766b69ed0d3654b90d82d6b))\n",
+  "download_url": "https://github.com/0x0day-0wl/morphe-patches/releases/download/v2.1.0/patches-2.1.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:1aa49681107f9b282836d54087a722b5cc7bbecce744bb048070562851fcda63",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "1aa49681107f9b282836d54087a722b5cc7bbecce744bb048070562851fcda63",
+  "id": "720eafe3a38c23962da77b9a",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2F0x0day-0wl%2Fmorphe-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2F0x0day-0wl%2Fmorphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 253,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "de.pixelhouse"
+  ],
+  "patch_count": 3,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v2.1.0",
+  "patch_refresh_attempted_at": "2026-10-10T15:16:14.516499617Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:1aa49681107f9b282836d54087a722b5cc7bbecce744bb048070562851fcda63",
+  "release_status": "available",
+  "release_url": "https://github.com/0x0day-0wl/morphe-patches/releases/tag/v2.1.0",
+  "signature_download_url": "N/A",
+  "source_id": "1740483094d79213",
+  "version": "v2.1.0"
+}
