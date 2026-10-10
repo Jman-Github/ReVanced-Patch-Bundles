@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-04-11T21:51:31Z",
+  "description": "# 1.0.0 (2026-04-11)\n\n\n### Bug Fixes\n\n* **ci:** restore semantic-release rules so feat, fix, and release commits trigger versions ([3728b97](https://github.com/meridianfresco/morphe-meta-patches/commit/3728b978519854968a56847075aa9d58565a85e3))\n* google photos patch logic ([58f8bc8](https://github.com/meridianfresco/morphe-meta-patches/commit/58f8bc80dfd601cfe5a5dfee81e64d78bab0f496))\n* make Google Photos spoof build patch self-contained ([7b431dd](https://github.com/meridianfresco/morphe-meta-patches/commit/7b431dd5a707231b5289db60a6fdee5d24b27832))\n* make gradlew executable ([3be2ec5](https://github.com/meridianfresco/morphe-meta-patches/commit/3be2ec51fff5990c174c166e7a02625971832063))\n* Relax sponsored data fingerprint to match non-split APKs ([b585486](https://github.com/meridianfresco/morphe-meta-patches/commit/b585486635154de3267c3ca9cfdb83ef32b00ce7))\n* release 1.0.1 ([b68b315](https://github.com/meridianfresco/morphe-meta-patches/commit/b68b31503e57a9253237a3bf2be8bacfd23f7c86))\n* release 1.0.1 ([26175cf](https://github.com/meridianfresco/morphe-meta-patches/commit/26175cf2910917be08734a741087018e127a1648))\n* release v1.0.3 with Google Recorder fix ([c03c701](https://github.com/meridianfresco/morphe-meta-patches/commit/c03c701a6ba658afb4f4f2093faca9e6bc91e49c))\n* Remove dead resource mapping imports and fix GPR auth token ([d10cbc6](https://github.com/meridianfresco/morphe-meta-patches/commit/d10cbc647a4c0f3fb847ea03d72cccc9077ed546))\n* Use CONTAINS match for GraphQLFBMultiAdsFeedUnit class lookup ([bc766b3](https://github.com/meridianfresco/morphe-meta-patches/commit/bc766b337843fc1e8eb4814e2c20042fd38e508e))\n\n\n### Features\n\n* release v1.1.0 ([901b2ec](https://github.com/meridianfresco/morphe-meta-patches/commit/901b2ec28fb8e5863d2085d471f0cf529de08422))\n\n\n\n",
+  "download_url": "https://github.com/meridianfresco/morphe-meta-patches/releases/download/v1.0.0/patches-1.0.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:90232dc0c46980aa22f50d38f1058d10529a2982a07629a81fb685af75719656",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "90232dc0c46980aa22f50d38f1058d10529a2982a07629a81fb685af75719656",
+  "id": "cebcffd169e50c20debf5efb",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fmeridianfresco%2Fmorphe-meta-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fmeridianfresco%2Fmorphe-meta-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 490,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.facebook.katana"
+  ],
+  "patch_count": 2,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.0.0",
+  "patch_refresh_attempted_at": "2026-10-10T15:19:49.999485169Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:90232dc0c46980aa22f50d38f1058d10529a2982a07629a81fb685af75719656",
+  "release_status": "unverified",
+  "release_url": "https://github.com/meridianfresco/morphe-meta-patches/releases/tag/v1.0.0",
+  "signature_download_url": "N/A",
+  "source_id": "eddf378393761d58",
+  "version": "v1.0.0"
+}

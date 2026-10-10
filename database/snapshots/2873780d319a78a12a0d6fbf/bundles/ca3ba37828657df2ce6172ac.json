@@ -1,0 +1,44 @@
+{
+  "bundle_type": "ReVanced:V4",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2024-11-29T11:38:34Z",
+  "description": "**No Changelog**",
+  "download_url": "https://github.com/korhelyleves/revanced-patches/releases/download/v1.0.4/patches-1.0.4.rvp",
+  "ecosystem": "revanced",
+  "extracted_provider_digest": null,
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "22fb9ab9946a4477b9412a830839ab6533a90c61228ae72af15d875ffab4b6e2",
+  "id": "ca3ba37828657df2ce6172ac",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fkorhelyleves%2Frevanced-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fkorhelyleves%2Frevanced-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 476,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.example.app",
+    "hu.gov.dap.app"
+  ],
+  "patch_count": 2,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.0.4",
+  "patch_refresh_attempted_at": "2026-10-10T15:19:28.321658044Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.revanced:revanced-patcher:21.1.0-dev.5",
+  "provider_digest": null,
+  "release_status": "unverified",
+  "release_url": "https://github.com/korhelyleves/revanced-patches/releases/tag/v1.0.4",
+  "signature_download_url": "N/A",
+  "source_id": "71e41f8f6fbad91e",
+  "version": "v1.0.4"
+}
