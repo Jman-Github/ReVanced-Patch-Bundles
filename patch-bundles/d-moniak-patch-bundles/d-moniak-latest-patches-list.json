@@ -1,5 +1,5 @@
 {
-    "version": "v1.48.3",
+    "version": "v1.48.4",
     "patches": [
         {
             "category": null,
@@ -818,66 +818,6 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Injects pure OLED pitch black (#000000) into navigation mode and map exploration screens to minimize battery consumption and glare.",
             "name": "AMOLED Black Navigation - Google Maps (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#E50914",
-                    "description": "Movix: Movies & Series Streaming",
-                    "name": "Movix",
-                    "packageName": "com.movix.app",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.5"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.4"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.3"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.2"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.5.3"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.5.2"
-                        }
-                    ],
-                    "versions": [
-                        "2.6.5",
-                        "2.6.4",
-                        "2.6.3",
-                        "2.6.2",
-                        "2.6.1",
-                        "2.6.0",
-                        "2.5.3",
-                        "2.5.2"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Injects true OLED pitch black (#000000) into Movix catalog and unlocks Picture-in-Picture (PiP) and background audio playback.",
-            "name": "AMOLED Black Player & Picture-in-Picture - Movix",
             "options": []
         },
         {
@@ -2030,66 +1970,6 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Prevents full-screen commercial banner popups from appearing when the vehicle is stopped at traffic lights or in congestion, and hides sponsored venue pins by neutralizing ad mediation SDKs.",
             "name": "Block Zero-Speed Ads & Sponsored Pins - Waze (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#E50914",
-                    "description": "Movix: Movies & Series Streaming",
-                    "name": "Movix",
-                    "packageName": "com.movix.app",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.5"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.4"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.3"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.2"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.5.3"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.5.2"
-                        }
-                    ],
-                    "versions": [
-                        "2.6.5",
-                        "2.6.4",
-                        "2.6.3",
-                        "2.6.2",
-                        "2.6.1",
-                        "2.6.0",
-                        "2.5.3",
-                        "2.5.2"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Bypasses offline download tier restrictions to allow downloading any movie or series episode for offline viewing without a Premium subscription, and removes download quality caps.",
-            "name": "Bypass Download Restrictions - Movix",
             "options": []
         },
         {
@@ -3253,66 +3133,6 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Adds an option to stop feeds from refreshing automatically after they become outdated.",
             "name": "Disable auto feed refresh - YouTube (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#E50914",
-                    "description": "Movix: Movies & Series Streaming",
-                    "name": "Movix",
-                    "packageName": "com.movix.app",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.5"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.4"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.3"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.2"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.5.3"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.5.2"
-                        }
-                    ],
-                    "versions": [
-                        "2.6.5",
-                        "2.6.4",
-                        "2.6.3",
-                        "2.6.2",
-                        "2.6.1",
-                        "2.6.0",
-                        "2.5.3",
-                        "2.5.2"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Prevents Movix from automatically pausing or stopping video playback when the app transitions to the background, enabling audio-only listening and uninterrupted casting.",
-            "name": "Disable Auto-Pause on Background - Movix",
             "options": []
         },
         {
@@ -4575,66 +4395,6 @@
             "dependencies": [],
             "description": "⚠️ [En cours de développement / Non testé] Adds an option to rotate the player to landscape when entering fullscreen mode on tablets and other large screen devices.",
             "name": "Force fullscreen landscape - YouTube (Experimental)",
-            "options": []
-        },
-        {
-            "category": null,
-            "compatiblePackages": [
-                {
-                    "appIconColor": "#E50914",
-                    "description": "Movix: Movies & Series Streaming",
-                    "name": "Movix",
-                    "packageName": "com.movix.app",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.5"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.4"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.3"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.2"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.1"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.6.0"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.5.3"
-                        },
-                        {
-                            "isExperimental": false,
-                            "version": "2.5.2"
-                        }
-                    ],
-                    "versions": [
-                        "2.6.5",
-                        "2.6.4",
-                        "2.6.3",
-                        "2.6.2",
-                        "2.6.1",
-                        "2.6.0",
-                        "2.5.3",
-                        "2.5.2"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Forces maximum available video quality (HD 1080p / 4K) on all content regardless of subscription tier or network quality detection thresholds.",
-            "name": "Force HD & 4K Quality Unlock - Movix",
             "options": []
         },
         {

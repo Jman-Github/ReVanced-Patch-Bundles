@@ -291,7 +291,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [PixivPatches](#-pixivpatches-bundle-patch-list) | 8 | 1 | Generated |
 | [De-Vanced](#-de-vanced-bundle-patch-list) | 9 | 1 | Generated |
 | [CBC](#-cbc-bundle-patch-list) | 4 | 1 | Generated |
-| [D-moniak](#-d-moniak-bundle-patch-list) | 461 | 92 | Generated |
+| [D-moniak](#-d-moniak-bundle-patch-list) | 457 | 92 | Generated |
 | [Spicetify](#-spicetify-bundle-patch-list) | 8 | 1 | Generated |
 | [Piko-NewX](#-piko-newx-bundle-patch-list) | 43 | 1 | Generated |
 | [Channel-Blacklist](#-channel-blacklist-bundle-patch-list) | 89 | 2 | Generated |
@@ -9048,7 +9048,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 D-moniak Bundle Patch List:
 [📦 D-moniak-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-d-moniak-patches-bundle-morphe)
 <details>
-<summary><b>D-moniak</b> - 461 patches, 92 apps</summary>
+<summary><b>D-moniak</b> - 457 patches, 92 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -9227,11 +9227,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Unlock Memrise Pro - Memrise (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for Memrise Pro (all language courses, Learn with Locals clips, and grammar bot).``` | ```Memrise``` | ```All versions``` |
 | ```High Quality Audio Export & Audio Tools - Moises``` | ```Bypasses client-side audio bitrate export caps (enabling 320kbps MP3 and WAV export options) and unlocks unlimited audio pitch shift, tempo changes, Smart Metronome, and chord detection in Moises (v2.7.2 recommandée).``` | ```Moises``` | ```2.7.2``` |
 | ```Unlock Premium & Pro Features - Moises``` | ```Hooks Google Play BillingClient, RevenueCat EntitlementInfo, and subscription data models in Moises (v2.7.2 recommandée) to unlock client-side Pro features, bypass startup upgrade paywalls, Smart Metronome, chord detection, and pitch/speed controls.``` | ```Moises``` | ```2.7.2``` |
-| ```AMOLED Black Player & Picture-in-Picture - Movix``` | ```Injects true OLED pitch black (#000000) into Movix catalog and unlocks Picture-in-Picture (PiP) and background audio playback.``` | ```Movix``` | ```2.6.5, 2.6.4, 2.6.3, 2.6.2, 2.6.1, 2.6.0, 2.5.3, 2.5.2``` |
 | ```Block Video Ads & Interstitials - Movix``` | ```Strips video pre-roll and mid-roll ads, banner ads, and redirect popups across Movix movie and series player screens.``` | ```Movix``` | ```2.6.5, 2.6.4, 2.6.3, 2.6.2, 2.6.1, 2.6.0, 2.5.3, 2.5.2``` |
-| ```Bypass Download Restrictions - Movix``` | ```Bypasses offline download tier restrictions to allow downloading any movie or series episode for offline viewing without a Premium subscription, and removes download quality caps.``` | ```Movix``` | ```2.6.5, 2.6.4, 2.6.3, 2.6.2, 2.6.1, 2.6.0, 2.5.3, 2.5.2``` |
-| ```Disable Auto-Pause on Background - Movix``` | ```Prevents Movix from automatically pausing or stopping video playback when the app transitions to the background, enabling audio-only listening and uninterrupted casting.``` | ```Movix``` | ```2.6.5, 2.6.4, 2.6.3, 2.6.2, 2.6.1, 2.6.0, 2.5.3, 2.5.2``` |
-| ```Force HD & 4K Quality Unlock - Movix``` | ```Forces maximum available video quality (HD 1080p / 4K) on all content regardless of subscription tier or network quality detection thresholds.``` | ```Movix``` | ```2.6.5, 2.6.4, 2.6.3, 2.6.2, 2.6.1, 2.6.0, 2.5.3, 2.5.2``` |
 | ```Unlock Premium Subscription - Movix``` | ```Bypasses Movix VIP/Premium subscription checks to unlock all premium and exclusive content, series, and movie libraries without an active paid subscription.``` | ```Movix``` | ```2.6.5, 2.6.4, 2.6.3, 2.6.2, 2.6.1, 2.6.0, 2.5.3, 2.5.2``` |
 | ```Ad-Free & Pure Player - MX Player (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Strips all banner ads on the main folder list, full-screen interstitial video ads upon pausing or exiting videos, and online OTT feed promotions by neutralizing ad SDK calls.``` | ```MX Player``` | ```All versions``` |
 | ```Unlock Pro Player Controls - MX Player (Experimental)``` | ```⚠️ [En cours de développement / Non testé] Unlocks background video playback with screen off, Picture-in-Picture (PIP) mode, and 200% volume audio boost.``` | ```MX Player``` | ```All versions``` |
