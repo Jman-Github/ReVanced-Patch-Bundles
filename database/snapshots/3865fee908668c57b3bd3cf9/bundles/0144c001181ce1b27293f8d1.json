@@ -1,0 +1,46 @@
+{
+  "bundle_type": "ReVanced:V3",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2024-04-14T13:46:15Z",
+  "description": "# [1.1.0](https://github.com/1fexd/revanced-patches/compare/v1.0.0...v1.1.0) (2024-04-14)\n\n\n### Features\n\n* Add all ID Austria patches ([f615adf](https://github.com/1fexd/revanced-patches/commit/f615adf937045a4fe14286547f095760a85b75ba))\n\n\n\n",
+  "download_url": "https://github.com/1fexd/revanced-patches/releases/download/v1.1.0/revanced-patches-template-1.1.0.jar",
+  "ecosystem": "revanced",
+  "extracted_provider_digest": null,
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "be4fe1e66dda2095fb86d0ddc01f59e94297d73e55876e6d9835416fcd633f54",
+  "id": "0144c001181ce1b27293f8d1",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2F1fexd%2Frevanced-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2F1fexd%2Frevanced-patches&version=latest&channel=stable"
+  },
+  "integrations": {
+    "url": "https://github.com/ReVanced/revanced-integrations/releases/download/v1.16.0/revanced-integrations-1.16.0.apk",
+    "version": "v1.16.0"
+  },
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 4,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "at.gv.oe.app"
+  ],
+  "patch_count": 3,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.1.0",
+  "patch_refresh_attempted_at": "2026-10-10T17:03:29.869777353Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.revanced:revanced-patcher:19.3.1",
+  "provider_digest": null,
+  "release_status": "available",
+  "release_url": "https://github.com/1fexd/revanced-patches/releases/tag/v1.1.0",
+  "signature_download_url": "https://github.com/1fexd/revanced-patches/releases/download/v1.1.0/revanced-patches-template-1.1.0.jar.asc",
+  "source_id": "1f18136e1cbebe3d",
+  "version": "v1.1.0"
+}
