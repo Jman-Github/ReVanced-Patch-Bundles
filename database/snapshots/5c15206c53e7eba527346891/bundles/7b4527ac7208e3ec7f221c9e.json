@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-08-09T02:27:08Z",
+  "description": "## [1.7.0](https://github.com/SouBryan/pinterest-morphed/compare/v1.6.0...v1.7.0) (2026-08-09)\n\n### 🐛 Bug Fixes\n\n* **auth:** disable Google login patch by default — unproven end-to-end ([cf31d99](https://github.com/SouBryan/pinterest-morphed/commit/cf31d996eccc79073217a4b2afcec9c020701e22))\n* **auth:** don't redeclare FAKE_PACKAGE_SIGNATURE — XSpoofSignatures owns it ([ffea710](https://github.com/SouBryan/pinterest-morphed/commit/ffea71043f1576c7117db603de01a8d2cb478fe0))\n* **auth:** fake-signature needs the whole certificate, not its SHA-1 ([3f240f3](https://github.com/SouBryan/pinterest-morphed/commit/3f240f3d6f5d3da4b4bcc7a8a5cb89af4ab246a1))\n\n### ✨ New Features\n\n* **auth:** SpoofGoogleAuthPatch — restore Google Sign-In on microG-RE ([8d4fc62](https://github.com/SouBryan/pinterest-morphed/commit/8d4fc6281c68e13b22f6f949a5fcb6067e185ce2))\n* **auth:** support stock Play Services via XSpoofSignatures LSPosed module ([652d65e](https://github.com/SouBryan/pinterest-morphed/commit/652d65eff4c7e3222312b321d0ab6f22d14ed47c))\n* **compat:** extend Pinterest support to 14.28.0 - 14.30.0 ([bb7a5f0](https://github.com/SouBryan/pinterest-morphed/commit/bb7a5f045c7299d13437db84ac5a328761c3ce29)), closes [#1](https://github.com/SouBryan/pinterest-morphed/issues/1)\n",
+  "download_url": "https://github.com/SouBryan/pinterest-morphed/releases/download/v1.7.0/patches-1.7.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:e4c8a9748fc87c704fe7b85d1cd86bfe262ef38cb1ac4975896221d2c7721f9d",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "e4c8a9748fc87c704fe7b85d1cd86bfe262ef38cb1ac4975896221d2c7721f9d",
+  "id": "7b4527ac7208e3ec7f221c9e",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FSouBryan%2Fpinterest-morphed&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FSouBryan%2Fpinterest-morphed&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 280,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.pinterest"
+  ],
+  "patch_count": 14,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.7.0",
+  "patch_refresh_attempted_at": "2026-10-10T16:47:14.657030889Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:e4c8a9748fc87c704fe7b85d1cd86bfe262ef38cb1ac4975896221d2c7721f9d",
+  "release_status": "unverified",
+  "release_url": "https://github.com/SouBryan/pinterest-morphed/releases/tag/v1.7.0",
+  "signature_download_url": null,
+  "source_id": "480de387b20151c6",
+  "version": "v1.7.0"
+}

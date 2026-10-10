@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-06-01T22:16:33Z",
+  "description": "Yahoo Finance ad-removal patch bundle. Download patches.mpp and import it into Morphe Manager (local file), then patch Yahoo Finance on-device.",
+  "download_url": "https://github.com/isuruhg/fin-tweaks/releases/download/v1.0.0/patches-1.0.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:b109090da40f1fa9f225e0c3efe90bbef9cc722b90040892338f32431ace0c42",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "b109090da40f1fa9f225e0c3efe90bbef9cc722b90040892338f32431ace0c42",
+  "id": "d2b84d21a5a59647d37e214a",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fisuruhg%2Ffin-tweaks&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fisuruhg%2Ffin-tweaks&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 501,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.yahoo.mobile.client.android.finance"
+  ],
+  "patch_count": 3,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.0.0",
+  "patch_refresh_attempted_at": "2026-10-10T16:44:21.275683245Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:b109090da40f1fa9f225e0c3efe90bbef9cc722b90040892338f32431ace0c42",
+  "release_status": "available",
+  "release_url": "https://github.com/isuruhg/fin-tweaks/releases/tag/v1.0.0",
+  "signature_download_url": "N/A",
+  "source_id": "9cad4b3ad12842e2",
+  "version": "v1.0.0"
+}

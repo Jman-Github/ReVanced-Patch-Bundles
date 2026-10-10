@@ -1,0 +1,45 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev"
+  ],
+  "created_at": "2026-10-10T12:30:56Z",
+  "description": "## [1.4.0-dev.1](https://github.com/WZSE/aapam-patches/compare/v1.3.1...v1.4.0-dev.1) (2026-10-10)\n\n### ✨ New Features\n\n* add MyGate patches for premium plan unlock and ad blocking ([12f1c2f](https://github.com/WZSE/aapam-patches/commit/12f1c2f230e013414aedd2f3786797fa55691642))\n",
+  "download_url": "https://github.com/WZSE/aapam-patches/releases/download/v1.4.0-dev.1/patches-1.4.0-dev.1.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:e34f3b0c376c953651a74d503cab325f3b1d8ba8eea7d2b92339f3a09d8a949a",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "e34f3b0c376c953651a74d503cab325f3b1d8ba8eea7d2b92339f3a09d8a949a",
+  "id": "2852d747deb928a3dcb7018f",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FWZSE%2Faapam-patches&version=latest&channel=prerelease"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 1810,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.amazon.amazonvideo.livingroom",
+    "com.graymatrix.did",
+    "com.mygate.user",
+    "com.orange.coloring.learn.kids",
+    "org.telegram.messenger.web"
+  ],
+  "patch_count": 18,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.4.0-dev.1",
+  "patch_refresh_attempted_at": "2026-10-10T17:03:35.257720537Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:e34f3b0c376c953651a74d503cab325f3b1d8ba8eea7d2b92339f3a09d8a949a",
+  "release_status": "available",
+  "release_url": "https://github.com/WZSE/aapam-patches/releases/tag/v1.4.0-dev.1",
+  "signature_download_url": "N/A",
+  "source_id": "f4b7e4980dced090",
+  "version": "v1.4.0-dev.1"
+}
