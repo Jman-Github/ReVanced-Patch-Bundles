@@ -1,5 +1,5 @@
 {
-    "version": "v1.30.1",
+    "version": "v1.30.2",
     "patches": [
         {
             "category": "Ads Block Enhanced",
@@ -1085,7 +1085,7 @@
             "options": [
                 {
                     "default": false,
-                    "description": "Report a compatible target SDK so older apps can install or launch on modern Android. This may change platform behavior and does not repair incompatible code. Explicit opt-in is required because lowering an app's target SDK can weaken platform protections.",
+                    "description": "Try this if Android blocks an older app from installing or launching because its target SDK is too old. Lowering the target can restore older Android behavior and reduce platform protections; it cannot fix incompatible app code. Leave off unless you have this specific problem.",
                     "key": "legacyCompatibilitySpoofTargetSdk",
                     "required": false,
                     "title": "Legacy App Compatibility > Installation and manifest > Spoof Target SDK",
@@ -1094,7 +1094,7 @@
                 },
                 {
                     "default": 34,
-                    "description": "Target SDK value used by the Custom profile. Values outside 23..40 are rejected. Default: 34.",
+                    "description": "Choose the target SDK number only when the Custom profile is selected. Android accepts values 23–40 here; other values are rejected. Lower values can restore legacy behavior but may weaken security and privacy protections. Default: 34.",
                     "key": "legacyCompatibilityTargetSdk",
                     "required": false,
                     "title": "Legacy App Compatibility > Installation and manifest > Target SDK version",
@@ -1102,22 +1102,22 @@
                     "values": null
                 },
                 {
-                    "default": "custom",
-                    "description": "Custom uses the Target SDK version value above. Automatic uses target 27 for apps originally below 30 and the custom value otherwise. Target 27 or Target 29 are fixed legacy profiles. This does not repair incompatible code.",
+                    "default": "automatic",
+                    "description": "Choose Custom to use the number above; Automatic to keep the APK's existing target (or use 27 if it has none); or fixed target 27/29 profiles for troubleshooting. Prefer Automatic unless you know the app needs another target: changing it alters Android's compatibility rules, and cannot repair broken code.",
                     "key": "legacyCompatibilityTargetSdkProfile",
                     "required": false,
                     "title": "Legacy App Compatibility > Installation and manifest > Target SDK compatibility profile",
                     "type": "kotlin.String",
                     "values": {
-                        "Automatic legacy profile": "automatic",
                         "Custom target SDK": "custom",
+                        "Preserve original target (automatic)": "automatic",
                         "Target SDK 27": "27",
                         "Target SDK 29": "29"
                     }
                 },
                 {
                     "default": true,
-                    "description": "Enable selected manifest compatibility declarations for older apps. The sub-options apply only when this feature is enabled.",
+                    "description": "Turn this on to add the compatibility declarations selected below. Leave it off if the app does not need them; enabling declarations does not grant runtime permissions or guarantee the app will work.",
                     "key": "legacyCompatibilityReviver",
                     "required": false,
                     "title": "Legacy App Compatibility > Installation and manifest > Legacy App Reviver",
@@ -1126,7 +1126,7 @@
                 },
                 {
                     "default": true,
-                    "description": "When Legacy App Reviver is enabled, add org.apache.http.legacy as an optional shared library for old HttpClient users.",
+                    "description": "Use when the app crashes or fails to start because it uses the removed Apache HttpClient library. Adds that library as optional; it will not help if the app needs other missing libraries. Requires Legacy App Reviver.",
                     "key": "legacyCompatibilityApacheLegacy",
                     "required": false,
                     "title": "Legacy App Compatibility > Installation and manifest > Apache HTTP legacy library",
@@ -1135,7 +1135,7 @@
                 },
                 {
                     "default": true,
-                    "description": "When Legacy App Reviver is enabled, declare FOREGROUND_SERVICE for older background-service apps.",
+                    "description": "Use when an older app starts a foreground service and fails because its manifest lacks this permission. This only declares permission; Android may require additional service permissions or user-visible behavior. Requires Legacy App Reviver.",
                     "key": "legacyCompatibilityForegroundService",
                     "required": false,
                     "title": "Legacy App Compatibility > Installation and manifest > Foreground service permission",
@@ -1144,7 +1144,7 @@
                 },
                 {
                     "default": false,
-                    "description": "When Legacy App Reviver is enabled, declare SCHEDULE_EXACT_ALARM. Android may still require user approval; enable only for apps that schedule exact alarms.",
+                    "description": "Use only if the app's reminders or scheduled actions must run at an exact time and are blocked by the missing declaration. Android can still require user approval, and this does not grant that approval. Requires Legacy App Reviver.",
                     "key": "legacyCompatibilityExactAlarms",
                     "required": false,
                     "title": "Legacy App Compatibility > Installation and manifest > Exact alarm permission",
@@ -1153,7 +1153,7 @@
                 },
                 {
                     "default": true,
-                    "description": "When Legacy App Reviver is enabled, declare modern Bluetooth permissions. Declarations do not grant runtime access.",
+                    "description": "Use when the app needs Bluetooth discovery or connections on newer Android. The manifest declarations do not grant runtime access; Android may still show permission prompts. Requires Legacy App Reviver.",
                     "key": "legacyCompatibilityBluetooth",
                     "required": false,
                     "title": "Legacy App Compatibility > Installation and manifest > Bluetooth permissions",
@@ -1162,7 +1162,7 @@
                 },
                 {
                     "default": "automatic",
-                    "description": "Automatic applies the fix only when the exact OpenIAB UnityPlugin call, receiver ownership, resolvable IntentFilter actions, recognized internal or external-store action set, and safe register layout are confirmed. It uses NOT_EXPORTED for internal receivers and EXPORTED only for verified external-store broadcasts; unknown or mixed actions are skipped. Disabled leaves OpenIAB unchanged. Force applies the exact method fix for troubleshooting and may affect external billing broadcasts. Automatic is recommended.",
+                    "description": "Choose Automatic (recommended) if OpenIAB billing broadcasts fail: it patches only a recognized UnityPlugin receiver setup and skips uncertain cases. Disabled leaves it unchanged. Force applies the fix even when automatic checks cannot confirm the setup; this may stop external-store billing broadcasts, so use only to diagnose a known OpenIAB issue.",
                     "key": "legacyCompatibilityOpenIabReceiverRegistrationMode",
                     "required": false,
                     "title": "Legacy App Compatibility > Runtime compatibility > Fix OpenIAB dynamic receiver registration",
@@ -1175,7 +1175,7 @@
                 },
                 {
                     "default": false,
-                    "description": "Exempt all hidden non-SDK interfaces for this app on Android 9 and newer, so old apps using reflection on framework internals keep working. Applies at app startup; affects only this app's process. Explicit opt-in is required because this weakens Android's non-SDK API boundary.",
+                    "description": "Try this only if the app fails because it uses hidden Android framework APIs through reflection. It bypasses the non-SDK API restriction for this app's process on Android 9+, which can reduce stability and security; leave off otherwise. Takes effect at app startup.",
                     "key": "legacyCompatibilityHiddenApi",
                     "required": false,
                     "title": "Legacy App Compatibility > Runtime compatibility > Bypass Hidden API Restrictions",
@@ -1184,7 +1184,7 @@
                 },
                 {
                     "default": false,
-                    "description": "Security risk: disables TLS certificate and hostname validation for HttpsURLConnection traffic, allowing man-in-the-middle interception. Only enable for legacy apps whose servers use expired or self-signed certificates. WebView traffic is not covered. A separate acknowledgement is required.",
+                    "description": "Last-resort workaround if this app cannot connect because its server uses an expired or self-signed certificate. It disables certificate and hostname checks for HttpsURLConnection, so attackers on the network could read or alter traffic. Do not use for sensitive accounts or payments. Does not affect WebView; requires the separate risk acknowledgement.",
                     "key": "legacyCompatibilityTrustCertificates",
                     "required": false,
                     "title": "Legacy App Compatibility > Runtime compatibility > Trust All Certificates",
@@ -1193,7 +1193,7 @@
                 },
                 {
                     "default": false,
-                    "description": "Explicitly acknowledge that trust-all TLS is a high-risk, process-wide override. Trust All Certificates is ignored unless this acknowledgement is enabled too.",
+                    "description": "Enable only after understanding that Trust All Certificates allows network interception by disabling TLS checks. It is required for that option to take effect; leave both off unless diagnosing a certificate problem.",
                     "key": "legacyCompatibilityAcknowledgeTrustCertificates",
                     "required": false,
                     "title": "Legacy App Compatibility > Runtime compatibility > Acknowledge Trust-All TLS Risk",
@@ -1202,7 +1202,7 @@
                 },
                 {
                     "default": false,
-                    "description": "Rewrite direct Environment.getExternalStorageDirectory and getExternalStoragePublicDirectory calls to app-scoped directories so games and apps writing to storage root no longer crash or lose saves. This can break code that builds shared-storage or OBB paths from the returned root; use only when intended and keep it disabled for apps using conventional OBB paths.",
+                    "description": "Try this if the app crashes or loses saves because it writes directly to the shared-storage root. Those API calls are redirected to app-specific storage, which can break shared-file access and OBB paths. Leave off if the app relies on files visible to other apps or uses conventional OBB directories.",
                     "key": "legacyCompatibilityRedirectLegacyStorage",
                     "required": false,
                     "title": "Legacy App Compatibility > Runtime compatibility > Redirect Legacy External Storage Paths",
@@ -1211,7 +1211,7 @@
                 },
                 {
                     "default": true,
-                    "description": "Wrap every Context.registerReceiver call that has no receiver flags with a runtime branch passing RECEIVER_NOT_EXPORTED on Android 13 and newer. Without it, apps targeting SDK 33+ crash at registration. System broadcasts still reach NOT_EXPORTED receivers, but custom broadcasts sent by other apps may no longer arrive. OpenIAB classes are left to the dedicated OpenIAB option.",
+                    "description": "Keep enabled for older apps that crash while registering a broadcast receiver on Android 13+. The patch marks affected app receivers as private to this app; broadcasts sent by other apps may stop arriving, and some broadcasts from privileged system apps may also be unavailable. OpenIAB is handled by its separate option. Turn off if this breaks a receiver you rely on.",
                     "key": "legacyCompatibilityReceiverFixAppWide",
                     "required": false,
                     "title": "Legacy App Compatibility > Runtime compatibility > Fix Dynamic Receiver Registrations (App Wide)",
@@ -1220,7 +1220,7 @@
                 },
                 {
                     "default": false,
-                    "description": "Add missing android:exported values to activities, aliases, services, and receivers that have intent filters. Do NOT enable this together with Export All Activities because they overlap. If both are selected accidentally, Export All Activities takes precedence. Explicit opt-in is required because exported components expand the app's attack surface.",
+                    "description": "Use if Android refuses to install the APK because a component with an intent filter has no exported setting. The patch fills only missing values; exported components can be launched by other apps, so enable only to fix that install error. Do not combine with Export All Activities; if both are on, that option takes precedence.",
                     "key": "legacyCompatibilityRepairExportFlags",
                     "required": false,
                     "title": "Legacy App Compatibility > Installation and manifest > Repair Missing Component Export Flags",
@@ -1229,7 +1229,7 @@
                 },
                 {
                     "default": false,
-                    "description": "Set android:exported=true on every activity and activity-alias. Do NOT enable this together with Repair Missing Component Export Flags because they overlap. If both are selected accidentally, this option takes precedence.",
+                    "description": "Use only if a launcher activity is not visible or Android rejects the APK because an activity or alias with an intent filter lacks an exported setting. It exposes those matching components to other apps; existing explicit values are preserved. Do not combine with Repair Missing Component Export Flags.",
                     "key": "legacyCompatibilityExportAllActivities",
                     "required": false,
                     "title": "Legacy App Compatibility > Installation and manifest > Export All Activities",
@@ -1238,7 +1238,7 @@
                 },
                 {
                     "default": false,
-                    "description": "Allow HTTP traffic through android:usesCleartextTraffic. Existing networkSecurityConfig is preserved and may continue restricting cleartext traffic.",
+                    "description": "Try this if the app cannot connect to a server that supports only plain HTTP. Unencrypted traffic can be read or changed on the network, so do not enable for logins, payments, or other sensitive data. An existing network security configuration may still block HTTP.",
                     "key": "legacyCompatibilityAllowCleartext",
                     "required": false,
                     "title": "Legacy App Compatibility > Installation and manifest > Allow Cleartext Traffic",
@@ -1247,7 +1247,7 @@
                 },
                 {
                     "default": false,
-                    "description": "Mark required uses-library entries as optional so missing shared libraries do not block installation. The app may still crash if it actually requires a library.",
+                    "description": "Use if Android will not install the app because an optional device library is missing. This lets installation continue, but the app may crash or lose features if it truly needs that library.",
                     "key": "legacyCompatibilityRelaxLibraries",
                     "required": false,
                     "title": "Legacy App Compatibility > Installation and manifest > Relax Shared Libraries",
@@ -1256,16 +1256,25 @@
                 },
                 {
                     "default": false,
-                    "description": "Declare QUERY_ALL_PACKAGES so old apps can detect the Play Store and other installed apps on Android 11 and newer instead of receiving NameNotFoundException.",
-                    "key": "legacyCompatibilityPackageVisibility",
+                    "description": "Use if the app incorrectly reports that Google Play is not installed on Android 11+. It allows checks for Google Play only, not other apps, and is preferable to broad package visibility when Play is the only check needed.",
+                    "key": "legacyCompatibilityPlayStoreVisibility",
                     "required": false,
-                    "title": "Legacy App Compatibility > Installation and manifest > Bypass Package Visibility",
+                    "title": "Legacy App Compatibility > Installation and manifest > Play Store Package Visibility",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
-                    "description": "Enable android:largeHeap (bigger heap for old games) and android:hardwareAccelerated (fixes blank screens in apps that disabled GPU rendering; may conflict with software-drawing apps).",
+                    "description": "Use only if the app must check for many different installed apps and those checks fail on Android 11+. This requests visibility into all installed packages, which exposes more information and may be restricted by app-store policy. Prefer Play Store Package Visibility if only Google Play is needed.",
+                    "key": "legacyCompatibilityPackageVisibility",
+                    "required": false,
+                    "title": "Legacy App Compatibility > Installation and manifest > Bypass Package Visibility (Broad)",
+                    "type": "kotlin.Boolean",
+                    "values": null
+                },
+                {
+                    "default": false,
+                    "description": "Try if the app runs out of memory or shows a blank screen: enables a larger heap and hardware-accelerated drawing. The larger heap can increase memory pressure, and GPU drawing may break apps that depend on software rendering; leave off if the app already displays and runs correctly.",
                     "key": "legacyCompatibilityManifestAttributes",
                     "required": false,
                     "title": "Legacy App Compatibility > Installation and manifest > Extra Manifest Compatibility Attributes",
@@ -1274,7 +1283,7 @@
                 },
                 {
                     "default": false,
-                    "description": "Request the Android 10 legacy shared-storage model and add WRITE_EXTERNAL_STORAGE if absent. Android 11 and newer may ignore this setting.",
+                    "description": "Use if an older app cannot read or save files because it expects the Android 10 shared-storage model. Android 11+ may ignore this request, and it does not bypass newer storage restrictions.",
                     "key": "legacyCompatibilityLegacyStorage",
                     "required": false,
                     "title": "Legacy App Compatibility > Storage and display > Legacy External Storage",
@@ -1283,52 +1292,52 @@
                 },
                 {
                     "default": "",
-                    "description": "Optional main.<versionCode>.<package>.obb source. Leave empty unless APK startup expects a missing Play expansion file.",
+                    "description": "Select the app's matching main or patch .obb file only when it fails to start because its Play expansion data is missing. Use the exact version and package naming expected by the app; leave empty if it does not need an OBB.",
                     "key": "legacyCompatibilityExpansionObbPath",
                     "required": false,
-                    "title": "Legacy App Compatibility > Unity/OBB > Expansion OBB file",
+                    "title": "Legacy App Compatibility > Expansion data and OBB > Expansion OBB file",
                     "type": "kotlin.String",
                     "values": null
                 },
                 {
                     "default": false,
-                    "description": "Copy assets/libs/<abi>/*.so entries from the selected OBB into APK lib/<abi>/ paths. Use when Unity/Mono native libraries are incomplete or misplaced in the OBB.",
+                    "description": "Use if the app's native .so libraries are incorrectly stored inside the selected OBB and the game cannot load them. Copies them into the APK's matching ABI library folders; leave off if the OBB has no such libraries or the app already works.",
                     "key": "legacyCompatibilityRelocateExpansionNativeLibraries",
                     "required": false,
-                    "title": "Legacy App Compatibility > Unity/OBB > Relocate full native libraries from OBB",
+                    "title": "Legacy App Compatibility > Expansion data and OBB > Relocate native libraries from OBB",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
-                    "description": "When native-library relocation and OBB embedding are both enabled, omit relocated assets/libs/<abi>/*.so entries from the embedded OBB without changing the source file.",
+                    "description": "Use together with library relocation and OBB embedding to avoid storing the same native libraries twice. It removes those copied .so entries from the APK's embedded OBB only; the selected source OBB file is not changed.",
                     "key": "legacyCompatibilityRemoveRelocatedNativeLibrariesFromObb",
                     "required": false,
-                    "title": "Legacy App Compatibility > Unity/OBB > Remove relocated native libraries from embedded OBB",
+                    "title": "Legacy App Compatibility > Expansion data and OBB > Remove relocated native libraries from embedded OBB",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
-                    "description": "Embed selected OBB as an APK asset and stage it into Android's conventional OBB directory before app startup. Large APK growth and external-storage policy limits still apply.",
+                    "description": "Use when the app needs an OBB at first launch and no downloader can provide it. The file is bundled inside the APK and copied to the expected OBB folder; this can greatly increase APK size and may hit storage or distribution limits.",
                     "key": "legacyCompatibilityEmbedExpansionObb",
                     "required": false,
-                    "title": "Legacy App Compatibility > Unity/OBB > Embed and stage expansion OBB",
+                    "title": "Legacy App Compatibility > Expansion data and OBB > Embed and stage expansion OBB",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": false,
-                    "description": "Move the launcher filter from com.google.android.vending.expansion.downloader_impl.DownloaderActivity to the known Unity launcher. Requires Embed and stage expansion OBB.",
+                    "description": "Use only for the recognized Unity expansion downloader when it blocks startup despite bundling the OBB. It redirects launcher handling to Unity's known launcher; it is not a general downloader repair and requires Embed and stage expansion OBB.",
                     "key": "legacyCompatibilityBypassExpansionDownloader",
                     "required": false,
-                    "title": "Legacy App Compatibility > Unity/OBB > Bypass expansion downloader launcher",
+                    "title": "Legacy App Compatibility > Expansion data and OBB > Bypass known Unity expansion downloader",
                     "type": "kotlin.Boolean",
                     "values": null
                 },
                 {
                     "default": true,
-                    "description": "Remove compatible-screens restrictions and mark common screen sizes and densities as supported.",
+                    "description": "Keep enabled so Android can install the app on phones and tablets whose screen size or density is not listed in its original manifest. This changes compatibility declarations, not the app's layout; some screens may still display poorly.",
                     "key": "legacyCompatibilityAllScreens",
                     "required": false,
                     "title": "Legacy App Compatibility > Storage and display > Support All Screens",
@@ -1337,7 +1346,7 @@
                 },
                 {
                     "default": false,
-                    "description": "Set android:extractNativeLibs=true for old native loaders that cannot execute compressed APK libraries. This increases installed storage use.",
+                    "description": "Use if an older game cannot load its native .so files from the APK. Android will extract those libraries during installation, using more device storage; leave off if native libraries already load normally.",
                     "key": "legacyCompatibilityExtractNativeLibs",
                     "required": false,
                     "title": "Legacy App Compatibility > Native runtime > Extract native libraries",
@@ -1346,7 +1355,7 @@
                 },
                 {
                     "default": false,
-                    "description": "Disable native heap pointer tagging for older native apps that fail under newer Android memory behavior.",
+                    "description": "Try this if an older native game crashes on startup with a memory/tagging-related error on newer Android. It changes native memory behavior for compatibility; leave off if there is no such crash.",
                     "key": "legacyCompatibilityDisableHeapTagging",
                     "required": false,
                     "title": "Legacy App Compatibility > Native runtime > Disable Heap Pointer Tagging",
@@ -1355,7 +1364,7 @@
                 },
                 {
                     "default": false,
-                    "description": "Disable selected VM AOT/JIT optimizations for compatibility. This can reduce performance.",
+                    "description": "Try this only if an older app crashes or misbehaves because of Android runtime compilation. Disabling selected optimizations can make the app slower; leave off unless testing shows it fixes the problem.",
                     "key": "legacyCompatibilityVmSafeMode",
                     "required": false,
                     "title": "Legacy App Compatibility > Native runtime > VM Safe Mode",
@@ -1364,7 +1373,7 @@
                 },
                 {
                     "default": false,
-                    "description": "Replace recognized TelephonyManager IMEI getter results. This is limited to matching bytecode calls.",
+                    "description": "Use only if the app refuses to run because it expects an IMEI value. Replaces recognized IMEI getter results with the value below; only matching calls are changed, and apps may use other identifiers instead. Avoid using an identifier that belongs to another device.",
                     "key": "legacyCompatibilitySpoofImei",
                     "required": false,
                     "title": "Legacy App Compatibility > Device compatibility > Spoof IMEI",
@@ -1373,7 +1382,7 @@
                 },
                 {
                     "default": "000000000000000",
-                    "description": "Exactly 15 digits used when Spoof IMEI is enabled. Invalid values are rejected.",
+                    "description": "Enter exactly 15 digits to return from the IMEI calls affected by Spoof IMEI. Invalid values are rejected. This is an app-compatibility override, not a real device identifier.",
                     "key": "legacyCompatibilityImei",
                     "required": false,
                     "title": "Legacy App Compatibility > Device compatibility > IMEI value",
