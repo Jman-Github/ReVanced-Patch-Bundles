@@ -1,0 +1,2463 @@
+[
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Turns the track alerts the app receives into local notifications.",
+    "id": "505d4328110262d0ca46beb8:7",
+    "legacy_id": 2982,
+    "metadata_status": "unverified",
+    "name": "Local notifications",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Uses the map provider chosen in the Morphe settings row and falls back to OpenStreetMap when Google Maps or Mappls cannot load.",
+    "id": "505d4328110262d0ca46beb8:8",
+    "legacy_id": 2983,
+    "metadata_status": "unverified",
+    "name": "Map provider",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Registers the Morphe settings, history and ride screens, the background ride service and its boot receiver in the app manifest.",
+    "id": "505d4328110262d0ca46beb8:9",
+    "legacy_id": 2984,
+    "metadata_status": "unverified",
+    "name": "Morphe screens",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds a \"Morphe settings\" row to the account screen, which opens the map provider, analytics and ride log settings.",
+    "id": "505d4328110262d0ca46beb8:10",
+    "legacy_id": 2985,
+    "metadata_status": "unverified",
+    "name": "Morphe settings row",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Makes the setup wizard ask only for Nearby device access, so scooter pairing completes without call log, contact or SMS permissions.",
+    "id": "505d4328110262d0ca46beb8:11",
+    "legacy_id": 2986,
+    "metadata_status": "unverified",
+    "name": "Pairing wizard",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Drops phone location, call log, contact and SMS permissions from the request list, so the app asks only for the permissions its features use.",
+    "id": "505d4328110262d0ca46beb8:12",
+    "legacy_id": 2987,
+    "metadata_status": "unverified",
+    "name": "Permission filter",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Reports Ather's own signing-certificate hash to Google's APIs, so Firebase login and live vehicle data keep working after the app is re-signed.",
+    "id": "505d4328110262d0ca46beb8:13",
+    "legacy_id": 2988,
+    "metadata_status": "unverified",
+    "name": "Report Ather's signing certificate",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Shows the rides recorded on this phone in the ride story screens, including their detail screen.",
+    "id": "505d4328110262d0ca46beb8:14",
+    "legacy_id": 2989,
+    "metadata_status": "unverified",
+    "name": "Ride log",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Shows the K1 authentication token(s) in a dialog and logs it to logcat for pairing with GadgetBridge without requiring root access.",
+    "id": "505d4328110262d0ca46beb8:15",
+    "legacy_id": 2990,
+    "metadata_status": "unverified",
+    "name": "Show K1 token(s)",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "505d4328110262d0ca46beb8",
+    "category": null,
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Captures the True Health report while the app builds it, so the Morphe history screen can show the part wear.",
+    "id": "505d4328110262d0ca46beb8:16",
+    "legacy_id": 2991,
+    "metadata_status": "unverified",
+    "name": "True Health capture",
+    "packages": [],
+    "patch_metadata_version": "v0.1.10",
+    "source_id": "7dcf36b7f445e3d8"
+  },
+  {
+    "bundle_id": "50b59ca1d217daa80276cef9",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a",
+        "18.0.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Triggers continuous tactile feedback pulses when the backspace key is held down during repeated deletion.",
+    "id": "50b59ca1d217daa80276cef9:0",
+    "legacy_id": 2992,
+    "metadata_status": "verified",
+    "name": "Backspace Repeat Haptic Feedback",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a",
+          "18.0.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "faf5b81797bd769d",
+    "use": true
+  },
+  {
+    "bundle_id": "50b59ca1d217daa80276cef9",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a",
+        "18.0.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Broadcasts an Intent event to Tasker whenever the Enter or IME action key is pressed on Gboard.",
+    "id": "50b59ca1d217daa80276cef9:1",
+    "legacy_id": 2993,
+    "metadata_status": "verified",
+    "name": "Enter Key Tasker Event",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a",
+          "18.0.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "faf5b81797bd769d",
+    "use": true
+  },
+  {
+    "bundle_id": "50b59ca1d217daa80276cef9",
+    "compatiblePackages": {
+      "com.google.android.inputmethod.latin": [
+        "18.0.3.954559732-release-arm64-v8a",
+        "18.0.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Allows customizing glide typing trail color (including dynamic Rainbow RGB and Color Wheel), fade speed, thickness, and length.",
+    "id": "50b59ca1d217daa80276cef9:2",
+    "legacy_id": 2994,
+    "metadata_status": "verified",
+    "name": "Glide Trail Customization",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.inputmethod.latin",
+        "versions": [
+          "18.0.3.954559732-release-arm64-v8a",
+          "18.0.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "faf5b81797bd769d",
+    "use": true
+  },
+  {
+    "bundle_id": "52569c1707e0e96c56c8783d",
+    "compatiblePackages": {
+      "com.formulaone.production": null
+    },
+    "dependencies": [],
+    "description": "Enables UHD/4K streaming on all devices by bypassing all device support checks.",
+    "id": "52569c1707e0e96c56c8783d:0",
+    "legacy_id": 2995,
+    "metadata_status": "verified",
+    "name": "Enable UHD/4K",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.formulaone.production",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.0.5",
+    "source_id": "8ba3ef6c2039a876",
+    "use": true
+  },
+  {
+    "bundle_id": "52b7b5cb7afbbe5a26e28c3b",
+    "compatiblePackages": {
+      "com.discord": null
+    },
+    "dependencies": [],
+    "description": "Hides the gift button in the chat message composer.",
+    "id": "52b7b5cb7afbbe5a26e28c3b:0",
+    "legacy_id": 2996,
+    "metadata_status": "verified",
+    "name": "Hide gift button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.discord",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "f12127d734258d56",
+    "use": true
+  },
+  {
+    "bundle_id": "52b7b5cb7afbbe5a26e28c3b",
+    "compatiblePackages": {
+      "com.discord": null
+    },
+    "dependencies": [],
+    "description": "Hides the quest promo banner at the top of the server channel list.",
+    "id": "52b7b5cb7afbbe5a26e28c3b:1",
+    "legacy_id": 2997,
+    "metadata_status": "verified",
+    "name": "Hide quest promo banner",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.discord",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "f12127d734258d56",
+    "use": true
+  },
+  {
+    "bundle_id": "52b7b5cb7afbbe5a26e28c3b",
+    "compatiblePackages": {
+      "com.discord": null
+    },
+    "dependencies": [],
+    "description": "Forces Discord to always run the bundle inside the APK and ignore downloaded (OTA) updates, which would otherwise silently undo the other patches. Turn this off (or update the APK) to receive official updates.",
+    "id": "52b7b5cb7afbbe5a26e28c3b:2",
+    "legacy_id": 2998,
+    "metadata_status": "verified",
+    "name": "Pin app to built-in bundle",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.discord",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "f12127d734258d56",
+    "use": true
+  },
+  {
+    "bundle_id": "53278be5281b37ea4a097522",
+    "compatiblePackages": {
+      "com.anghami": [
+        "8.0.28"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bypasses secure window restrictions to allow screenshots and screen recording across the app.",
+    "id": "53278be5281b37ea4a097522:0",
+    "legacy_id": 2999,
+    "metadata_status": "verified",
+    "name": "Allow Screenshots",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "9f405e88f9f460f0",
+    "use": true
+  },
+  {
+    "bundle_id": "53278be5281b37ea4a097522",
+    "compatiblePackages": {
+      "com.anghami": [
+        "8.0.28"
+      ]
+    },
+    "dependencies": [],
+    "description": "Prevents audio advertisements between songs and treats playback tracks as ad-free.",
+    "id": "53278be5281b37ea4a097522:1",
+    "legacy_id": 3000,
+    "metadata_status": "verified",
+    "name": "Block Audio Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "9f405e88f9f460f0",
+    "use": true
+  },
+  {
+    "bundle_id": "53278be5281b37ea4a097522",
+    "compatiblePackages": {
+      "com.anghami": [
+        "8.0.28"
+      ]
+    },
+    "dependencies": [],
+    "description": "Blocks startup popup offers, promotional flyers, and marketing dialogs.",
+    "id": "53278be5281b37ea4a097522:2",
+    "legacy_id": 3001,
+    "metadata_status": "verified",
+    "name": "Block Promotional Popups",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "9f405e88f9f460f0",
+    "use": true
+  },
+  {
+    "bundle_id": "53278be5281b37ea4a097522",
+    "compatiblePackages": {
+      "com.anghami": [
+        "8.0.28"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables third-party trackers (Braze, Adjust, Firebase, Google, Bugsnag), in-house Silo tracking, and listening telemetry.",
+    "id": "53278be5281b37ea4a097522:3",
+    "legacy_id": 3002,
+    "metadata_status": "verified",
+    "name": "Disable Analytics & Crash Logging",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "9f405e88f9f460f0",
+    "use": true
+  },
+  {
+    "bundle_id": "53278be5281b37ea4a097522",
+    "compatiblePackages": {
+      "com.anghami": [
+        "8.0.28"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables forced shuffle mode on playlists and radio, enabling full on-demand song selection.",
+    "id": "53278be5281b37ea4a097522:4",
+    "legacy_id": 3003,
+    "metadata_status": "verified",
+    "name": "Disable Forced Shuffle",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "9f405e88f9f460f0",
+    "use": true
+  },
+  {
+    "bundle_id": "53278be5281b37ea4a097522",
+    "compatiblePackages": {
+      "com.anghami": [
+        "8.0.28"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the in-app review dialogs and 'Love us? Rate us!' rating prompts.",
+    "id": "53278be5281b37ea4a097522:5",
+    "legacy_id": 3004,
+    "metadata_status": "verified",
+    "name": "Disable In-App Rating",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "9f405e88f9f460f0",
+    "use": true
+  },
+  {
+    "bundle_id": "53278be5281b37ea4a097522",
+    "compatiblePackages": {
+      "com.anghami": [
+        "8.0.28"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes local offline storage caps and disables limited-plan quota checks.",
+    "id": "53278be5281b37ea4a097522:6",
+    "legacy_id": 3005,
+    "metadata_status": "verified",
+    "name": "Expand Download Limits",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "9f405e88f9f460f0",
+    "use": true
+  },
+  {
+    "bundle_id": "53278be5281b37ea4a097522",
+    "compatiblePackages": {
+      "com.anghami": [
+        "8.0.28"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides Gold-tier promotional sections and unsupported server-gated features.",
+    "id": "53278be5281b37ea4a097522:7",
+    "legacy_id": 3006,
+    "metadata_status": "verified",
+    "name": "Hide Gold Upsell",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "9f405e88f9f460f0",
+    "use": true
+  },
+  {
+    "bundle_id": "53278be5281b37ea4a097522",
+    "compatiblePackages": {
+      "com.anghami": [
+        "8.0.28"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides locked upsell buttons including Sing Along (Karaoke) and AI Mix triggers.",
+    "id": "53278be5281b37ea4a097522:8",
+    "legacy_id": 3007,
+    "metadata_status": "verified",
+    "name": "Hide Premium Feature Buttons",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "9f405e88f9f460f0",
+    "use": true
+  },
+  {
+    "bundle_id": "53278be5281b37ea4a097522",
+    "compatiblePackages": {
+      "com.anghami": [
+        "8.0.28"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides 'Plays in shuffle' badges from playlists, album headers, and feed rows.",
+    "id": "53278be5281b37ea4a097522:9",
+    "legacy_id": 3008,
+    "metadata_status": "verified",
+    "name": "Hide Shuffle Badges",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "9f405e88f9f460f0",
+    "use": true
+  },
+  {
+    "bundle_id": "53278be5281b37ea4a097522",
+    "compatiblePackages": {
+      "com.anghami": [
+        "8.0.28"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides navigation upgrade tab, header promo banners, and feed subscription upsell cards.",
+    "id": "53278be5281b37ea4a097522:10",
+    "legacy_id": 3009,
+    "metadata_status": "verified",
+    "name": "Hide Upgrade Banners",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "9f405e88f9f460f0",
+    "use": true
+  },
+  {
+    "bundle_id": "53278be5281b37ea4a097522",
+    "compatiblePackages": {
+      "com.anghami": [
+        "8.0.28"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides sponsored cards, recommended promotions in Car Mode, and radar sponsored content.",
+    "id": "53278be5281b37ea4a097522:11",
+    "legacy_id": 3010,
+    "metadata_status": "verified",
+    "name": "Remove Sponsored Content",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "9f405e88f9f460f0",
+    "use": true
+  },
+  {
+    "bundle_id": "53278be5281b37ea4a097522",
+    "compatiblePackages": {
+      "com.anghami": [
+        "8.0.28"
+      ]
+    },
+    "dependencies": [],
+    "description": "Displays the official Plus badge on your profile header and account settings.",
+    "id": "53278be5281b37ea4a097522:12",
+    "legacy_id": 3011,
+    "metadata_status": "verified",
+    "name": "Show Profile Plus Badge",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "9f405e88f9f460f0",
+    "use": true
+  },
+  {
+    "bundle_id": "53278be5281b37ea4a097522",
+    "compatiblePackages": {
+      "com.anghami": [
+        "8.0.28"
+      ]
+    },
+    "dependencies": [],
+    "description": "Emulates official application signature headers to preserve API authorization compatibility.",
+    "id": "53278be5281b37ea4a097522:13",
+    "legacy_id": 3012,
+    "metadata_status": "verified",
+    "name": "Spoof App Signature",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "9f405e88f9f460f0",
+    "use": true
+  },
+  {
+    "bundle_id": "53278be5281b37ea4a097522",
+    "compatiblePackages": {
+      "com.anghami": [
+        "8.0.28"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes song skip limitations and queue navigation restrictions.",
+    "id": "53278be5281b37ea4a097522:14",
+    "legacy_id": 3013,
+    "metadata_status": "verified",
+    "name": "Unlimited Track Skips",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "9f405e88f9f460f0",
+    "use": true
+  },
+  {
+    "bundle_id": "53278be5281b37ea4a097522",
+    "compatiblePackages": {
+      "com.anghami": [
+        "8.0.28"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables full synced lyrics display and removes paywall banners on song lyrics.",
+    "id": "53278be5281b37ea4a097522:15",
+    "legacy_id": 3014,
+    "metadata_status": "verified",
+    "name": "Unlock Full Lyrics",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "9f405e88f9f460f0",
+    "use": true
+  },
+  {
+    "bundle_id": "53278be5281b37ea4a097522",
+    "compatiblePackages": {
+      "com.anghami": [
+        "8.0.28"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables client-side Plus features, eliminates free-tier playback restrictions, and enables offline UI mode.",
+    "id": "53278be5281b37ea4a097522:16",
+    "legacy_id": 3015,
+    "metadata_status": "verified",
+    "name": "Unlock Plus Experience",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.anghami",
+        "versions": [
+          "8.0.28"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.4",
+    "source_id": "9f405e88f9f460f0",
+    "use": true
+  },
+  {
+    "bundle_id": "5329e7034e8cd99aa61fa281",
+    "compatiblePackages": {
+      "hu.mav.emmapp": [
+        "2.4.19-prod"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes SecurityException throws gating a BroadcastReceiver's onReceive, which fail when the broadcast sender isn't verified as the real Play Store.",
+    "id": "5329e7034e8cd99aa61fa281:0",
+    "legacy_id": 3016,
+    "metadata_status": "verified",
+    "name": "Disable broadcast receiver security check",
+    "options": [],
+    "packages": [
+      {
+        "name": "hu.mav.emmapp",
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "fb739530e9f80363",
+    "use": true
+  },
+  {
+    "bundle_id": "5329e7034e8cd99aa61fa281",
+    "compatiblePackages": {
+      "hu.mav.emmapp": [
+        "2.4.19-prod"
+      ]
+    },
+    "dependencies": [],
+    "description": "Prevents the app's OkHttp CertificatePinner from ever being installed, allowing HTTPS traffic to be intercepted (e.g. by a proxy) for analysis.",
+    "id": "5329e7034e8cd99aa61fa281:1",
+    "legacy_id": 3017,
+    "metadata_status": "verified",
+    "name": "Disable certificate pinning",
+    "options": [],
+    "packages": [
+      {
+        "name": "hu.mav.emmapp",
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "fb739530e9f80363",
+    "use": false
+  },
+  {
+    "bundle_id": "5329e7034e8cd99aa61fa281",
+    "compatiblePackages": {
+      "hu.mav.emmapp": [
+        "2.4.19-prod"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds the official firebase_crashlytics_collection_enabled=false manifest flag, disabling all crash/log reporting to Firebase Crashlytics at SDK init.",
+    "id": "5329e7034e8cd99aa61fa281:2",
+    "legacy_id": 3018,
+    "metadata_status": "verified",
+    "name": "Disable Firebase Crashlytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "hu.mav.emmapp",
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "fb739530e9f80363",
+    "use": true
+  },
+  {
+    "bundle_id": "5329e7034e8cd99aa61fa281",
+    "compatiblePackages": {
+      "hu.mav.emmapp": [
+        "2.4.19-prod"
+      ]
+    },
+    "dependencies": [],
+    "description": "Prevents the Pairip-injected Application class from binding to the Play Store licensing service, which would otherwise redirect to / force-close for a side-loaded APK.",
+    "id": "5329e7034e8cd99aa61fa281:3",
+    "legacy_id": 3019,
+    "metadata_status": "verified",
+    "name": "Disable Pairip license check",
+    "options": [],
+    "packages": [
+      {
+        "name": "hu.mav.emmapp",
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "fb739530e9f80363",
+    "use": true
+  },
+  {
+    "bundle_id": "5329e7034e8cd99aa61fa281",
+    "compatiblePackages": {
+      "hu.mav.emmapp": [
+        "2.4.19-prod"
+      ]
+    },
+    "dependencies": [],
+    "description": "Prevents SecurityException when the Play Integrity API call itself fails (APP_NOT_INSTALLED / APP_UID_MISMATCH), as happens for side-loaded APKs.",
+    "id": "5329e7034e8cd99aa61fa281:4",
+    "legacy_id": 3020,
+    "metadata_status": "verified",
+    "name": "Disable Play Integrity failure crash",
+    "options": [],
+    "packages": [
+      {
+        "name": "hu.mav.emmapp",
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "fb739530e9f80363",
+    "use": true
+  },
+  {
+    "bundle_id": "5329e7034e8cd99aa61fa281",
+    "compatiblePackages": {
+      "hu.mav.emmapp": [
+        "2.4.19-prod"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops the startup coroutine from waiting forever on a Remote-Config-backed flag to decide whether to run the Play Integrity flow, by always treating it as disabled.",
+    "id": "5329e7034e8cd99aa61fa281:5",
+    "legacy_id": 3021,
+    "metadata_status": "verified",
+    "name": "Disable Play Integrity gating flag wait",
+    "options": [],
+    "packages": [
+      {
+        "name": "hu.mav.emmapp",
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "fb739530e9f80363",
+    "use": true
+  },
+  {
+    "bundle_id": "5329e7034e8cd99aa61fa281",
+    "compatiblePackages": {
+      "hu.mav.emmapp": [
+        "2.4.19-prod"
+      ]
+    },
+    "dependencies": [],
+    "description": "Makes the Play Integrity token request always fail immediately with an unclassified exception, so the app treats it as gracefully unavailable and continues initialization instead of getting stuck on a Play-Store-required gate.",
+    "id": "5329e7034e8cd99aa61fa281:6",
+    "legacy_id": 3022,
+    "metadata_status": "verified",
+    "name": "Disable Play Integrity token request",
+    "options": [],
+    "packages": [
+      {
+        "name": "hu.mav.emmapp",
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "fb739530e9f80363",
+    "use": true
+  },
+  {
+    "bundle_id": "5329e7034e8cd99aa61fa281",
+    "compatiblePackages": {
+      "hu.mav.emmapp": [
+        "2.4.19-prod"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes client-side SecurityException throws that reject unlicensed/unattested/unrecognized Play Integrity verdicts, without touching unrelated code sharing the same method.",
+    "id": "5329e7034e8cd99aa61fa281:7",
+    "legacy_id": 3023,
+    "metadata_status": "verified",
+    "name": "Disable Play Integrity verdict validation",
+    "options": [],
+    "packages": [
+      {
+        "name": "hu.mav.emmapp",
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "fb739530e9f80363",
+    "use": true
+  },
+  {
+    "bundle_id": "5329e7034e8cd99aa61fa281",
+    "compatiblePackages": {
+      "hu.mav.emmapp": [
+        "2.4.19-prod"
+      ]
+    },
+    "dependencies": [],
+    "description": "Prevents the app from uploading queued client-side log entries to its own backend telemetry endpoint (.../Log/StoreLogs).",
+    "id": "5329e7034e8cd99aa61fa281:8",
+    "legacy_id": 3024,
+    "metadata_status": "verified",
+    "name": "Disable StoreLogs telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "hu.mav.emmapp",
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "fb739530e9f80363",
+    "use": true
+  },
+  {
+    "bundle_id": "5329e7034e8cd99aa61fa281",
+    "compatiblePackages": {
+      "hu.idokep.idokep": [
+        "4.3.7",
+        "1.0.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes ads from the idokep app.",
+    "id": "5329e7034e8cd99aa61fa281:9",
+    "legacy_id": 3025,
+    "metadata_status": "verified",
+    "name": "Remove idokep ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "hu.idokep.idokep",
+        "versions": [
+          "4.3.7",
+          "1.0.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "fb739530e9f80363",
+    "use": true
+  },
+  {
+    "bundle_id": "5329e7034e8cd99aa61fa281",
+    "compatiblePackages": {
+      "hu.mav.emmapp": [
+        "2.4.19-prod"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a user certificate trust anchor to the network security config, so a MITM proxy's installed CA is accepted (this is separate from and in addition to disabling OkHttp's code-level certificate pinning).",
+    "id": "5329e7034e8cd99aa61fa281:10",
+    "legacy_id": 3026,
+    "metadata_status": "verified",
+    "name": "Trust user-installed certificates",
+    "options": [],
+    "packages": [
+      {
+        "name": "hu.mav.emmapp",
+        "versions": [
+          "2.4.19-prod"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.1",
+    "source_id": "fb739530e9f80363",
+    "use": false
+  },
+  {
+    "bundle_id": "5354e7a1189b5314785d5e16",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "name": "com.amazon.spiderpork",
+        "packageName": "com.amazon.spiderpork",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Forces Amazon Luna to avoid codecs not supporting low latency, reducing input lag (based on mocelet patch).",
+    "id": "5354e7a1189b5314785d5e16:0",
+    "legacy_id": 3027,
+    "metadata_status": "unverified",
+    "name": "Luna Low Latency Codecs",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.1.3",
+    "source_id": "53947f170dc106b6"
+  },
+  {
+    "bundle_id": "53697bf802d07ed64ec897aa",
+    "compatiblePackages": {
+      "ru.oneme.app": [
+        "26.10.1",
+        "26.11.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces you to check the IP address only on Yandex",
+    "id": "53697bf802d07ed64ec897aa:0",
+    "legacy_id": 3028,
+    "metadata_status": "unverified",
+    "name": "Bypass VPN Check",
+    "options": [],
+    "packages": [
+      {
+        "name": "ru.oneme.app",
+        "versions": [
+          "26.10.1",
+          "26.11.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.1",
+    "source_id": "c70e453ca3c39ced",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:0",
+    "legacy_id": 3029,
+    "metadata_status": "verified",
+    "name": null,
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds missing translation files from YouTube.",
+    "id": "539602deb45d7dd2b3ab486e:1",
+    "legacy_id": 3030,
+    "metadata_status": "verified",
+    "name": "add-missing-translation-patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:2",
+    "legacy_id": 3031,
+    "metadata_status": "verified",
+    "name": "always-autorepeat",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "If the device is Android 6.0 or higher, show a warning dialog.",
+    "id": "539602deb45d7dd2b3ab486e:3",
+    "legacy_id": 3032,
+    "metadata_status": "verified",
+    "name": "check-android-version",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {},
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:4",
+    "legacy_id": 3033,
+    "metadata_status": "verified",
+    "name": "check-android-version-bytecode-patch",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the YouTube launcher icon (Afn / Blue).",
+    "id": "539602deb45d7dd2b3ab486e:5",
+    "legacy_id": 3034,
+    "metadata_status": "verified",
+    "name": "custom-branding-icon-afn-blue",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the YouTube launcher icon (Afn / Red).",
+    "id": "539602deb45d7dd2b3ab486e:6",
+    "legacy_id": 3035,
+    "metadata_status": "verified",
+    "name": "custom-branding-icon-afn-red",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the YouTube launcher icon (Revancify).",
+    "id": "539602deb45d7dd2b3ab486e:7",
+    "legacy_id": 3036,
+    "metadata_status": "verified",
+    "name": "custom-branding-icon-revancify",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the YouTube launcher name to your choice (defaults to ReVanced Extended).",
+    "id": "539602deb45d7dd2b3ab486e:8",
+    "legacy_id": 3037,
+    "metadata_status": "verified",
+    "name": "custom-branding-name",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Change seekbar color in dark mode.",
+    "id": "539602deb45d7dd2b3ab486e:9",
+    "legacy_id": 3038,
+    "metadata_status": "verified",
+    "name": "custom-seekbar-color",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:10",
+    "legacy_id": 3039,
+    "metadata_status": "verified",
+    "name": "custom-seekbar-color-bytecode-patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:11",
+    "legacy_id": 3040,
+    "metadata_status": "verified",
+    "name": "custom-speed-bytecode-patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds more video speed options.",
+    "id": "539602deb45d7dd2b3ab486e:12",
+    "legacy_id": 3041,
+    "metadata_status": "verified",
+    "name": "custom-video-speed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds ability to set default video quality settings.",
+    "id": "539602deb45d7dd2b3ab486e:13",
+    "legacy_id": 3042,
+    "metadata_status": "verified",
+    "name": "default-video-quality",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:14",
+    "legacy_id": 3043,
+    "metadata_status": "verified",
+    "name": "default-video-quality-bytecode-patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds ability to set default video speed settings.",
+    "id": "539602deb45d7dd2b3ab486e:15",
+    "legacy_id": 3044,
+    "metadata_status": "verified",
+    "name": "default-video-speed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:16",
+    "legacy_id": 3045,
+    "metadata_status": "verified",
+    "name": "default-video-speed-bytecode-patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disable haptic feedback when swiping.",
+    "id": "539602deb45d7dd2b3ab486e:17",
+    "legacy_id": 3046,
+    "metadata_status": "verified",
+    "name": "disable-haptic-feedback",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:18",
+    "legacy_id": 3047,
+    "metadata_status": "verified",
+    "name": "disable-haptic-feedback-bytecode-patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disable landscape mode when entering fullscreen.",
+    "id": "539602deb45d7dd2b3ab486e:19",
+    "legacy_id": 3048,
+    "metadata_status": "verified",
+    "name": "disable-landscape-mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the app update screen.",
+    "id": "539602deb45d7dd2b3ab486e:20",
+    "legacy_id": 3049,
+    "metadata_status": "verified",
+    "name": "disable-update-screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:21",
+    "legacy_id": 3050,
+    "metadata_status": "verified",
+    "name": "disable-update-screen-bytecode-patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:22",
+    "legacy_id": 3051,
+    "metadata_status": "verified",
+    "name": "double-back-to-close",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Use an external browser to open the url.",
+    "id": "539602deb45d7dd2b3ab486e:23",
+    "legacy_id": 3052,
+    "metadata_status": "verified",
+    "name": "enable-external-browser",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:24",
+    "legacy_id": 3053,
+    "metadata_status": "verified",
+    "name": "enable-external-browser-bytecode-patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables minimized and background playback.",
+    "id": "539602deb45d7dd2b3ab486e:25",
+    "legacy_id": 3054,
+    "metadata_status": "verified",
+    "name": "enable-minimized-playback",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:26",
+    "legacy_id": 3055,
+    "metadata_status": "verified",
+    "name": "enable-minimized-playback-bytecode-patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables the original quality flyout menu.",
+    "id": "539602deb45d7dd2b3ab486e:27",
+    "legacy_id": 3056,
+    "metadata_status": "verified",
+    "name": "enable-old-quality-layout",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:28",
+    "legacy_id": 3057,
+    "metadata_status": "verified",
+    "name": "enable-old-quality-layout-bytecode-patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bypass URL redirects (youtube.com/redirect) when opening links in video descriptions.",
+    "id": "539602deb45d7dd2b3ab486e:29",
+    "legacy_id": 3058,
+    "metadata_status": "verified",
+    "name": "enable-open-links-directly",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:30",
+    "legacy_id": 3059,
+    "metadata_status": "verified",
+    "name": "enable-open-links-directly-bytecode-patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables tap-to-seek on the seekbar of the video player.",
+    "id": "539602deb45d7dd2b3ab486e:31",
+    "legacy_id": 3060,
+    "metadata_status": "verified",
+    "name": "enable-seekbar-tapping",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:32",
+    "legacy_id": 3061,
+    "metadata_status": "verified",
+    "name": "enable-seekbar-tapping-bytecode-patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:33",
+    "legacy_id": 3062,
+    "metadata_status": "verified",
+    "name": "enable-swipe-gesture-brightness-in-hdr-patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enable swipe refresh.",
+    "id": "539602deb45d7dd2b3ab486e:34",
+    "legacy_id": 3063,
+    "metadata_status": "verified",
+    "name": "enable-swipe-refresh",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables the tablet mini player layout.",
+    "id": "539602deb45d7dd2b3ab486e:35",
+    "legacy_id": 3064,
+    "metadata_status": "verified",
+    "name": "enable-tablet-miniplayer",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:36",
+    "legacy_id": 3065,
+    "metadata_status": "verified",
+    "name": "enable-tablet-miniplayer-bytecode-patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Replaces the search icon with a wide search bar. This will hide the YouTube logo when active.",
+    "id": "539602deb45d7dd2b3ab486e:37",
+    "legacy_id": 3066,
+    "metadata_status": "verified",
+    "name": "enable-wide-searchbar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:38",
+    "legacy_id": 3067,
+    "metadata_status": "verified",
+    "name": "enable-wide-searchbar-bytecode-patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces premium heading on the home screen.",
+    "id": "539602deb45d7dd2b3ab486e:39",
+    "legacy_id": 3068,
+    "metadata_status": "verified",
+    "name": "force-premium-heading",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces the VP9 codec for videos.",
+    "id": "539602deb45d7dd2b3ab486e:40",
+    "legacy_id": 3069,
+    "metadata_status": "verified",
+    "name": "force-vp9-codec",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:41",
+    "legacy_id": 3070,
+    "metadata_status": "verified",
+    "name": "force-vp9-codec-bytecode-patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:42",
+    "legacy_id": 3071,
+    "metadata_status": "verified",
+    "name": "general-theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {},
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:43",
+    "legacy_id": 3072,
+    "metadata_status": "verified",
+    "name": "general-theme-resource-patch",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {},
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:44",
+    "legacy_id": 3073,
+    "metadata_status": "verified",
+    "name": "general-video-ads-patch",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Add switch to change header.",
+    "id": "539602deb45d7dd2b3ab486e:45",
+    "legacy_id": 3074,
+    "metadata_status": "verified",
+    "name": "header-switch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:46",
+    "legacy_id": 3075,
+    "metadata_status": "verified",
+    "name": "header-switch-bytecode-patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hide captions from being automatically enabled.",
+    "id": "539602deb45d7dd2b3ab486e:47",
+    "legacy_id": 3076,
+    "metadata_status": "verified",
+    "name": "hide-auto-captions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:48",
+    "legacy_id": 3077,
+    "metadata_status": "verified",
+    "name": "hide-auto-captions-bytecode-patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hide automatic popup panels (playlist or live chat) on video player.",
+    "id": "539602deb45d7dd2b3ab486e:49",
+    "legacy_id": 3078,
+    "metadata_status": "verified",
+    "name": "hide-auto-player-popup-panels",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:50",
+    "legacy_id": 3079,
+    "metadata_status": "verified",
+    "name": "hide-auto-player-popup-panels-bytecode-patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the autoplay button in the video player.",
+    "id": "539602deb45d7dd2b3ab486e:51",
+    "legacy_id": 3080,
+    "metadata_status": "verified",
+    "name": "hide-autoplay-button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  },
+  {
+    "bundle_id": "539602deb45d7dd2b3ab486e",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "16.40.36"
+      ]
+    },
+    "dependencies": [],
+    "description": "",
+    "id": "539602deb45d7dd2b3ab486e:52",
+    "legacy_id": 3081,
+    "metadata_status": "verified",
+    "name": "hide-autoplay-button-bytecode-patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "16.40.36"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.161.5",
+    "source_id": "c44a37a089695367",
+    "use": true
+  }
+]

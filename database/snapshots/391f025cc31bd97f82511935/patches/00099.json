@@ -1,0 +1,4291 @@
+[
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.",
+    "id": "d1aa4d7f61720011e299e619:44",
+    "legacy_id": 10265,
+    "metadata_status": "unverified",
+    "name": "Disable Reels scrolling",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Disables screenshots detection in DM",
+    "id": "d1aa4d7f61720011e299e619:45",
+    "legacy_id": 10266,
+    "metadata_status": "unverified",
+    "name": "Disable screenshot detection",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "d1aa4d7f61720011e299e619:46",
+    "legacy_id": 10267,
+    "metadata_status": "unverified",
+    "name": "Disable stories",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Disable automatic flipping/moving to next story",
+    "id": "d1aa4d7f61720011e299e619:47",
+    "legacy_id": 10268,
+    "metadata_status": "unverified",
+    "name": "Disable story flipping",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Prevents opening the creation screen by swiping right on the home tab.",
+    "id": "d1aa4d7f61720011e299e619:48",
+    "legacy_id": 10269,
+    "metadata_status": "unverified",
+    "name": "Disable swipe to create",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "d1aa4d7f61720011e299e619:49",
+    "legacy_id": 10270,
+    "metadata_status": "unverified",
+    "name": "Disable typing status",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "d1aa4d7f61720011e299e619:50",
+    "legacy_id": 10271,
+    "metadata_status": "unverified",
+    "name": "Disable video autoplay",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds ability to download posts, reels, stories and highlights",
+    "id": "d1aa4d7f61720011e299e619:51",
+    "legacy_id": 10272,
+    "metadata_status": "unverified",
+    "name": "Download media",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Unlocks the ability to download videos and gifs from Twitter/X",
+    "id": "d1aa4d7f61720011e299e619:52",
+    "legacy_id": 10273,
+    "metadata_status": "unverified",
+    "name": "Download patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Enables ability to download voice messages",
+    "id": "d1aa4d7f61720011e299e619:53",
+    "legacy_id": 10274,
+    "metadata_status": "unverified",
+    "name": "Download voice message",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Replaces the default Twitter Blue with the user's Material You palette.",
+    "id": "d1aa4d7f61720011e299e619:54",
+    "legacy_id": 10275,
+    "metadata_status": "unverified",
+    "name": "Dynamic color",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "d1aa4d7f61720011e299e619:55",
+    "legacy_id": 10276,
+    "metadata_status": "unverified",
+    "name": "Enable debug menu for posts",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Videos will be played in highest quality always",
+    "id": "d1aa4d7f61720011e299e619:56",
+    "legacy_id": 10277,
+    "metadata_status": "unverified",
+    "name": "Enable force HD videos",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Enables PiP mode when you close the app",
+    "id": "d1aa4d7f61720011e299e619:57",
+    "legacy_id": 10278,
+    "metadata_status": "unverified",
+    "name": "Enable PiP mode automatically",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Enables ability to undo posts before posting",
+    "id": "d1aa4d7f61720011e299e619:58",
+    "legacy_id": 10279,
+    "metadata_status": "unverified",
+    "name": "Enable Undo Posts",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Makes all app activities exportable.",
+    "id": "d1aa4d7f61720011e299e619:59",
+    "legacy_id": 10280,
+    "metadata_status": "unverified",
+    "name": "Export all activities",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds support to share post links directly to external downloader",
+    "id": "d1aa4d7f61720011e299e619:60",
+    "legacy_id": 10281,
+    "metadata_status": "unverified",
+    "name": "External downloader",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Filter stories to hide based on different categories",
+    "id": "d1aa4d7f61720011e299e619:61",
+    "legacy_id": 10282,
+    "metadata_status": "unverified",
+    "name": "Filter stories",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Commitment mode for cutting down on Instagram. Pick what to block (Reels, Explore) and a duration; once locked those protections are forced on and cannot be switched off. Reels shared with you still open. Unlocking early requires a 24 hour cooling-off period, and resetting or importing settings is blocked while locked.",
+    "id": "d1aa4d7f61720011e299e619:62",
+    "legacy_id": 10283,
+    "metadata_status": "unverified",
+    "name": "Focus Lock",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Get translate option for all posts",
+    "id": "d1aa4d7f61720011e299e619:63",
+    "legacy_id": 10284,
+    "metadata_status": "unverified",
+    "name": "Force enable translate",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds a follows you back status label on the profile page andshows a detailed friendship status breakdown on click",
+    "id": "d1aa4d7f61720011e299e619:64",
+    "legacy_id": 10285,
+    "metadata_status": "unverified",
+    "name": "Friendship status indicator",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds support for opening custom twitter links such as vxtwitter, fxtwitter, and fixupx within the app. These will have to be manually enabled under the \"Open by default\" section in the app info!",
+    "id": "d1aa4d7f61720011e299e619:65",
+    "legacy_id": 10286,
+    "metadata_status": "unverified",
+    "name": "Handle custom twitter links",
+    "options": [
+      {
+        "default": [
+          "vxtwitter.com",
+          "fixvx.com",
+          "fxtwitter.com",
+          "fixupx.com",
+          "twittpr.com",
+          "xcancel.com"
+        ],
+        "description": "The custom sharing domains to register to be opened in Twitter",
+        "key": "customLinkHosts",
+        "required": true,
+        "title": "Custom sharing domains",
+        "type": "kotlin.collections.List<kotlin.String>",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Links might look unhinged/NSFW",
+        "key": "unofficialInstanceLinks",
+        "required": false,
+        "title": "Include unofficial vxtwitter/fxtwitter instance links",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hides notification nudges & counts from navigation bar icons",
+    "id": "d1aa4d7f61720011e299e619:66",
+    "legacy_id": 10287,
+    "metadata_status": "unverified",
+    "name": "Hide badges from navigation bar icons",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hide new post banner",
+    "id": "d1aa4d7f61720011e299e619:67",
+    "legacy_id": 10288,
+    "metadata_status": "unverified",
+    "name": "Hide Banner",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "d1aa4d7f61720011e299e619:68",
+    "legacy_id": 10289,
+    "metadata_status": "unverified",
+    "name": "Hide bookmark icon in timeline",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "d1aa4d7f61720011e299e619:69",
+    "legacy_id": 10290,
+    "metadata_status": "unverified",
+    "name": "Hide community badges",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "d1aa4d7f61720011e299e619:70",
+    "legacy_id": 10291,
+    "metadata_status": "unverified",
+    "name": "Hide Community Notes",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to hide Floating action button",
+    "id": "d1aa4d7f61720011e299e619:71",
+    "legacy_id": 10292,
+    "metadata_status": "unverified",
+    "name": "Hide FAB",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "d1aa4d7f61720011e299e619:72",
+    "legacy_id": 10293,
+    "metadata_status": "unverified",
+    "name": "Hide FAB Menu Buttons",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hides followed by context under profile",
+    "id": "d1aa4d7f61720011e299e619:73",
+    "legacy_id": 10294,
+    "metadata_status": "unverified",
+    "name": "Hide followed by context",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "d1aa4d7f61720011e299e619:74",
+    "legacy_id": 10295,
+    "metadata_status": "unverified",
+    "name": "Hide group creation button on sharesheet",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "d1aa4d7f61720011e299e619:75",
+    "legacy_id": 10296,
+    "metadata_status": "unverified",
+    "name": "Hide hidden replies",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Removes swipe up for more videos in video player",
+    "id": "d1aa4d7f61720011e299e619:76",
+    "legacy_id": 10297,
+    "metadata_status": "unverified",
+    "name": "Hide immersive player",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "d1aa4d7f61720011e299e619:77",
+    "legacy_id": 10298,
+    "metadata_status": "unverified",
+    "name": "Hide Live Threads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hides notes tray in DM section",
+    "id": "d1aa4d7f61720011e299e619:78",
+    "legacy_id": 10299,
+    "metadata_status": "unverified",
+    "name": "Hide notes tray",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hides follow/subscribe/follow back buttons on posts",
+    "id": "d1aa4d7f61720011e299e619:79",
+    "legacy_id": 10300,
+    "metadata_status": "unverified",
+    "name": "Hide nudge button",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hides like, reposts etc counts.",
+    "id": "d1aa4d7f61720011e299e619:80",
+    "legacy_id": 10301,
+    "metadata_status": "unverified",
+    "name": "Hide post metrics",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Hides promote button under self posts",
+    "id": "d1aa4d7f61720011e299e619:81",
+    "legacy_id": 10302,
+    "metadata_status": "unverified",
+    "name": "Hide promote button",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to hide recommendation items such as \"Who to follow\" and \"Today's news\" in timeline, search, and replies.",
+    "id": "d1aa4d7f61720011e299e619:82",
+    "legacy_id": 10303,
+    "metadata_status": "unverified",
+    "name": "Hide recommendation items",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hide recommended users that pops up when you follow someone",
+    "id": "d1aa4d7f61720011e299e619:83",
+    "legacy_id": 10304,
+    "metadata_status": "unverified",
+    "name": "Hide Recommended Users",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Removes the follow button from Reels.",
+    "id": "d1aa4d7f61720011e299e619:84",
+    "legacy_id": 10305,
+    "metadata_status": "unverified",
+    "name": "Hide Reels follow button",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hides the reshare button from both posts and reels.",
+    "id": "d1aa4d7f61720011e299e619:85",
+    "legacy_id": 10306,
+    "metadata_status": "unverified",
+    "name": "Hide reshare button",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Hides save buttons on posts and reels",
+    "id": "d1aa4d7f61720011e299e619:86",
+    "legacy_id": 10307,
+    "metadata_status": "unverified",
+    "name": "Hide save buttons",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hides the share button on posts and reels",
+    "id": "d1aa4d7f61720011e299e619:87",
+    "legacy_id": 10308,
+    "metadata_status": "unverified",
+    "name": "Hide share button",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hides stories tray from main feed.",
+    "id": "d1aa4d7f61720011e299e619:88",
+    "legacy_id": 10309,
+    "metadata_status": "unverified",
+    "name": "Hide stories tray",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hides suggested stories, reels, threads (Suggested posts will still be shown).",
+    "id": "d1aa4d7f61720011e299e619:89",
+    "legacy_id": 10310,
+    "metadata_status": "unverified",
+    "name": "Hide suggested content",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "d1aa4d7f61720011e299e619:90",
+    "legacy_id": 10311,
+    "metadata_status": "unverified",
+    "name": "Hook feature flag",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an feature to export and import the token of accounts. This is useful when logging in on your second device or when re-installing piko.",
+    "id": "d1aa4d7f61720011e299e619:91",
+    "legacy_id": 10312,
+    "metadata_status": "unverified",
+    "name": "Import/Export login token",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Fetches max resolution images from server.",
+    "id": "d1aa4d7f61720011e299e619:92",
+    "legacy_id": 10313,
+    "metadata_status": "unverified",
+    "name": "Improve image viewing",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Asks for your fingerprint, face or screen lock before the inbox is shown.",
+    "id": "d1aa4d7f61720011e299e619:93",
+    "legacy_id": 10314,
+    "metadata_status": "unverified",
+    "name": "Inbox lock",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Brings back username on post share links. Works post 11.4x.xx",
+    "id": "d1aa4d7f61720011e299e619:94",
+    "legacy_id": 10315,
+    "metadata_status": "unverified",
+    "name": "Legacy share links",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Filters the home feed to display only content from profiles you follow.",
+    "id": "d1aa4d7f61720011e299e619:95",
+    "legacy_id": 10316,
+    "metadata_status": "unverified",
+    "name": "Limit feed to following profiles",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Log json responses received from server",
+    "id": "d1aa4d7f61720011e299e619:96",
+    "legacy_id": 10317,
+    "metadata_status": "unverified",
+    "name": "Log server response",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Replay the current story when it ends",
+    "id": "d1aa4d7f61720011e299e619:97",
+    "legacy_id": 10318,
+    "metadata_status": "unverified",
+    "name": "Loop story",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Changes unexpired view once, view twice media to permanent view.",
+    "id": "d1aa4d7f61720011e299e619:98",
+    "legacy_id": 10319,
+    "metadata_status": "unverified",
+    "name": "Make ephemeral media permanent",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds option to mark a thread aka message as read manually",
+    "id": "d1aa4d7f61720011e299e619:99",
+    "legacy_id": 10320,
+    "metadata_status": "unverified",
+    "name": "Mark chat as read manually",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds more details on the profile page",
+    "id": "d1aa4d7f61720011e299e619:100",
+    "legacy_id": 10321,
+    "metadata_status": "unverified",
+    "name": "More information on profile",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an overflow menu button to get more options on post/reels, like copy description, copy username etc",
+    "id": "d1aa4d7f61720011e299e619:101",
+    "legacy_id": 10322,
+    "metadata_status": "unverified",
+    "name": "More options on post",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds a new button to handle user related data like copy handle, download profile picture etc",
+    "id": "d1aa4d7f61720011e299e619:102",
+    "legacy_id": 10323,
+    "metadata_status": "unverified",
+    "name": "More options on profile",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Requires X 11.0.0-release.0 or higher.",
+    "id": "d1aa4d7f61720011e299e619:103",
+    "legacy_id": 10324,
+    "metadata_status": "unverified",
+    "name": "Native downloader",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Requires X 11.0.0-release.0 or higher.",
+    "id": "d1aa4d7f61720011e299e619:104",
+    "legacy_id": 10325,
+    "metadata_status": "unverified",
+    "name": "Native reader mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Requires X 11.0.0-release.0 or higher.",
+    "id": "d1aa4d7f61720011e299e619:105",
+    "legacy_id": 10326,
+    "metadata_status": "unverified",
+    "name": "Native translator",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Get rid of t.co short urls.",
+    "id": "d1aa4d7f61720011e299e619:106",
+    "legacy_id": 10327,
+    "metadata_status": "unverified",
+    "name": "No shortened URL",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Changes links to always open in your external browser, instead of the in-app browser.",
+    "id": "d1aa4d7f61720011e299e619:107",
+    "legacy_id": 10328,
+    "metadata_status": "unverified",
+    "name": "Open links externally",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Search suggestions will not be saved locally",
+    "id": "d1aa4d7f61720011e299e619:108",
+    "legacy_id": 10329,
+    "metadata_status": "unverified",
+    "name": "Pause search suggestions",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Developer flags suggested by the community",
+    "id": "d1aa4d7f61720011e299e619:109",
+    "legacy_id": 10330,
+    "metadata_status": "unverified",
+    "name": "Recommended flags",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Removed promoted posts, trends and google ads",
+    "id": "d1aa4d7f61720011e299e619:110",
+    "legacy_id": 10331,
+    "metadata_status": "unverified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Removes the popup that appears after a while, when the app version ages.",
+    "id": "d1aa4d7f61720011e299e619:111",
+    "legacy_id": 10332,
+    "metadata_status": "unverified",
+    "name": "Remove build expired popup",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Removes empty space below bottom navigation bar",
+    "id": "d1aa4d7f61720011e299e619:112",
+    "legacy_id": 10333,
+    "metadata_status": "unverified",
+    "name": "Remove empty bottom space",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Removes premium upsells",
+    "id": "d1aa4d7f61720011e299e619:113",
+    "legacy_id": 10334,
+    "metadata_status": "unverified",
+    "name": "Remove premium upsell",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hide/Remove search suggestion in explore section",
+    "id": "d1aa4d7f61720011e299e619:114",
+    "legacy_id": 10335,
+    "metadata_status": "unverified",
+    "name": "Remove search suggestions",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Removes the view count from the bottom of tweets",
+    "id": "d1aa4d7f61720011e299e619:115",
+    "legacy_id": 10336,
+    "metadata_status": "unverified",
+    "name": "Remove view count",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Restores the legacy follower and following list screen.",
+    "id": "d1aa4d7f61720011e299e619:116",
+    "legacy_id": 10337,
+    "metadata_status": "unverified",
+    "name": "Restore legacy follower lists",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Enable or disable rounding off numbers",
+    "id": "d1aa4d7f61720011e299e619:117",
+    "legacy_id": 10338,
+    "metadata_status": "unverified",
+    "name": "Round off numbers",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "d1aa4d7f61720011e299e619:118",
+    "legacy_id": 10339,
+    "metadata_status": "unverified",
+    "name": "Sanitize share links",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Captures incoming DMs locally as they arrive from the server and marks them when the sender deletes them.",
+    "id": "d1aa4d7f61720011e299e619:119",
+    "legacy_id": 10340,
+    "metadata_status": "unverified",
+    "name": "Save deleted messages",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Captures view-once Instants as you view them so you can re-view and download them later.",
+    "id": "d1aa4d7f61720011e299e619:120",
+    "legacy_id": 10341,
+    "metadata_status": "unverified",
+    "name": "Save Instants",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds a button to save media comments on posts and reels.",
+    "id": "d1aa4d7f61720011e299e619:121",
+    "legacy_id": 10342,
+    "metadata_status": "unverified",
+    "name": "Save media comment",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Makes bio and username selectable",
+    "id": "d1aa4d7f61720011e299e619:122",
+    "legacy_id": 10343,
+    "metadata_status": "unverified",
+    "name": "Selectable Text",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Share tweets as rendered image. Requires X 11.0.0-release.0 or higher.",
+    "id": "d1aa4d7f61720011e299e619:123",
+    "legacy_id": 10344,
+    "metadata_status": "unverified",
+    "name": "Share Tweet as Image",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Shows changelogs when new a patch is installed.",
+    "id": "d1aa4d7f61720011e299e619:124",
+    "legacy_id": 10345,
+    "metadata_status": "unverified",
+    "name": "Show changelogs",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to show poll results without voting",
+    "id": "d1aa4d7f61720011e299e619:125",
+    "legacy_id": 10346,
+    "metadata_status": "unverified",
+    "name": "Show poll results",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Source label will be shown only on public posts",
+    "id": "d1aa4d7f61720011e299e619:126",
+    "legacy_id": 10347,
+    "metadata_status": "unverified",
+    "name": "Show post source label",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "d1aa4d7f61720011e299e619:127",
+    "legacy_id": 10348,
+    "metadata_status": "unverified",
+    "name": "Show sensitive media",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "Twitter",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.19.1-release.0"
+          }
+        ],
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "d1aa4d7f61720011e299e619:128",
+    "legacy_id": 10349,
+    "metadata_status": "unverified",
+    "name": "Support external downloader",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitter",
+        "versions": [
+          "12.19.1-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds Material You and AMOLED controls to Piko settings on Android 12 and later. On Android 8–11, it applies a fixed Material You-style theme or an optional AMOLED theme.",
+    "id": "d1aa4d7f61720011e299e619:129",
+    "legacy_id": 10350,
+    "metadata_status": "unverified",
+    "name": "Theme",
+    "options": [
+      {
+        "default": false,
+        "description": "Use a fixed pure-black AMOLED theme instead of the fixed Material You-style theme on Android 8–11. On Android 12 and later, use the AMOLED control in Piko settings.",
+        "key": "amoled",
+        "required": false,
+        "title": "Pure-black AMOLED theme for Android 8–11",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Unlocks developer option by long pressing home icon",
+    "id": "d1aa4d7f61720011e299e619:130",
+    "legacy_id": 10351,
+    "metadata_status": "unverified",
+    "name": "Unlock developer options",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Unlocks all options using by employee for debugging",
+    "id": "d1aa4d7f61720011e299e619:131",
+    "legacy_id": 10352,
+    "metadata_status": "unverified",
+    "name": "Unlock employee options",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Unlocks 'Plus' subscription benefits that are checked locally. USE IT AT YOUR OWN RISK",
+    "id": "d1aa4d7f61720011e299e619:132",
+    "legacy_id": 10353,
+    "metadata_status": "unverified",
+    "name": "Unlock Plus benefits",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Fixes app crashing issue while opening links from a different app",
+    "id": "d1aa4d7f61720011e299e619:133",
+    "legacy_id": 10354,
+    "metadata_status": "unverified",
+    "name": "Validate links",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "d1aa4d7f61720011e299e619:134",
+    "legacy_id": 10355,
+    "metadata_status": "unverified",
+    "name": "View DMs anonymously",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "d1aa4d7f61720011e299e619:135",
+    "legacy_id": 10356,
+    "metadata_status": "unverified",
+    "name": "View live anonymously",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "d1aa4d7f61720011e299e619:136",
+    "legacy_id": 10357,
+    "metadata_status": "unverified",
+    "name": "View stories anonymously",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1aa4d7f61720011e299e619",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "447.0.0.55.81",
+            "versionCodes": {
+              "ARM64_V8A": 385311895
+            }
+          }
+        ],
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Add option to view visible and hidden story mentions.",
+    "id": "d1aa4d7f61720011e299e619:137",
+    "legacy_id": 10358,
+    "metadata_status": "unverified",
+    "name": "View story mentions",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "447.0.0.55.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.10.0-dev.12",
+    "source_id": "4abe8f323b2f3212"
+  },
+  {
+    "bundle_id": "d1c916384ad69bc09a5bf97b",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#9147FF",
+        "name": "Twitch",
+        "packageName": "tv.twitch.android.app",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "31.3.1"
+          }
+        ],
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to claim the channel points bonus chest automatically on the channel you are watching. It works while chat or the points button is hidden, for example in fullscreen. Streams open in Twitch's native player instead of the new React Native one, which this relies on.",
+    "id": "d1c916384ad69bc09a5bf97b:0",
+    "legacy_id": 10359,
+    "metadata_status": "unverified",
+    "name": "Auto claim channel points",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitch",
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "470fef9224838710"
+  },
+  {
+    "bundle_id": "d1c916384ad69bc09a5bf97b",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#9147FF",
+        "name": "Twitch",
+        "packageName": "tv.twitch.android.app",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "31.3.1"
+          }
+        ],
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to block ads. Streams are requested as Twitch's embedded web player, which gets fewer ads, and the app no longer requests or plays ads itself. Ads that are part of the stream are covered with a black screen and muted until they end. Display ads are not shown. Live streams can optionally be loaded through a proxy. Streams open in Twitch's native player instead of the new React Native one, which this relies on.",
+    "id": "d1c916384ad69bc09a5bf97b:1",
+    "legacy_id": 10360,
+    "metadata_status": "unverified",
+    "name": "Block ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitch",
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "470fef9224838710"
+  },
+  {
+    "bundle_id": "d1c916384ad69bc09a5bf97b",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#9147FF",
+        "name": "Twitch",
+        "packageName": "tv.twitch.android.app",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "31.3.1"
+          }
+        ],
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to scroll chat messages across the video on live streams, Niconico style, in landscape fullscreen and optionally in portrait, the mini player and picture in picture. A button in the player turns it on and off, and the rows, speed, number of comments, font and colors can be changed in the uyu settings. An option hides Twitch's chat in landscape so the stream fills the screen. Streams open in Twitch's native player instead of the new React Native one, which this relies on.",
+    "id": "d1c916384ad69bc09a5bf97b:2",
+    "legacy_id": 10361,
+    "metadata_status": "unverified",
+    "name": "Danmaku comments",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitch",
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "470fef9224838710"
+  },
+  {
+    "bundle_id": "d1c916384ad69bc09a5bf97b",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#9147FF",
+        "name": "Twitch",
+        "packageName": "tv.twitch.android.app",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "31.3.1"
+          }
+        ],
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Fixes the \"This app version/OS is not currently supported\" error that blocks login after patching. Twitch reports a Play Integrity result to its login server and the re-signed app fails that check. This stops the app from sending the attestation, so it behaves like a device without Google Play, where login works normally.",
+    "id": "d1c916384ad69bc09a5bf97b:3",
+    "legacy_id": 10362,
+    "metadata_status": "unverified",
+    "name": "Fix login",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitch",
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "470fef9224838710"
+  },
+  {
+    "bundle_id": "d1c916384ad69bc09a5bf97b",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#9147FF",
+        "name": "Twitch",
+        "packageName": "tv.twitch.android.app",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "31.3.1"
+          }
+        ],
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Fixes push notifications after patching. Firebase rejects device registration because the patched app has a different signing certificate, and a different package name when it is installed as a separate app. This sends Twitch's original certificate fingerprint and package name with Firebase Installations requests only.",
+    "id": "d1c916384ad69bc09a5bf97b:4",
+    "legacy_id": 10363,
+    "metadata_status": "unverified",
+    "name": "Fix notifications",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitch",
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "470fef9224838710"
+  },
+  {
+    "bundle_id": "d1c916384ad69bc09a5bf97b",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#9147FF",
+        "name": "Twitch",
+        "packageName": "tv.twitch.android.app",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "31.3.1"
+          }
+        ],
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to hide the subscribe and Bits buttons above chat, the Bits button in the chat box, the gift leaderboard and banners that advertise subscriptions. All of them are hidden by default. They can be shown again in the Appearance section of the uyu settings. Streams open in Twitch's native player instead of the new React Native one, which this relies on.",
+    "id": "d1c916384ad69bc09a5bf97b:5",
+    "legacy_id": 10364,
+    "metadata_status": "unverified",
+    "name": "Hide promotions",
+    "options": [],
+    "packages": [
+      {
+        "name": "Twitch",
+        "versions": [
+          "31.3.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "470fef9224838710"
+  }
+]

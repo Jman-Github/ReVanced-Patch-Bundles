@@ -1,0 +1,3191 @@
+[
+  {
+    "bundle_id": "d2b84d21a5a59647d37e214a",
+    "compatiblePackages": {
+      "com.yahoo.mobile.client.android.finance": [
+        "26.10.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes stream, pencil and markets ads from Yahoo Finance at the source so they are never fetched, loaded or shown.",
+    "id": "d2b84d21a5a59647d37e214a:1",
+    "legacy_id": 15110,
+    "metadata_status": "verified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.yahoo.mobile.client.android.finance",
+        "versions": [
+          "26.10.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "9cad4b3ad12842e2",
+    "use": true
+  },
+  {
+    "bundle_id": "d2b84d21a5a59647d37e214a",
+    "compatiblePackages": {
+      "com.yahoo.mobile.client.android.finance": [
+        "26.10.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Suppresses the 'Rate this app' prompt and the 'subscribe to Premium' upsell notification in the activity feed.",
+    "id": "d2b84d21a5a59647d37e214a:2",
+    "legacy_id": 15111,
+    "metadata_status": "verified",
+    "name": "Remove nags",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.yahoo.mobile.client.android.finance",
+        "versions": [
+          "26.10.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "9cad4b3ad12842e2",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "EXPERT USERS ONLY. Manually Configure It To Point At Real Splash And Main Activity As Many Apps Use Other Names. Check the log to know what the patch is doing. Ensure App Doesnt Ask For Permissions In Splash Screen.",
+    "id": "d2d82459de6a4d4a5b91cc9f:72",
+    "legacy_id": 15112,
+    "metadata_status": "verified",
+    "name": "Skip Splash Screen - Expert Only",
+    "options": [
+      {
+        "default": null,
+        "description": "Type just the class name, e.g. \"SplashActivity\" - no leading dot, it's added automatically. Leave blank to auto-detect the launcher activity and require it to score as a confident splash guess.",
+        "key": "sourceSuffix",
+        "required": false,
+        "title": "Splash activity name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "Type just the class name, e.g. \"MainActivity\" - no leading dot, it's added automatically. Leave blank to auto-detect the app's own most main-screen-like activity.",
+        "key": "targetSuffix",
+        "required": false,
+        "title": "Real main activity name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "videoplayer.videodownloader.downloader": null
+    },
+    "dependencies": [],
+    "description": "Closes the onboarding tips screen as soon as it opens.",
+    "id": "d2d82459de6a4d4a5b91cc9f:73",
+    "legacy_id": 15113,
+    "metadata_status": "verified",
+    "name": "Skip tips screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "videoplayer.videodownloader.downloader",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "calendar.agenda.schedule.event.advance.calendar.planner": [
+        "1.0.34"
+      ]
+    },
+    "dependencies": [],
+    "description": "By default, skips the splash screen entirely on launch. Turn on \"Boost splash\" to instead keep it briefly on screen (configurable delay) Useless To Boost Splash Screen If You Select Unlock Premium Patch Too Use If You Want To Skip Splash Screen Entirely",
+    "id": "d2d82459de6a4d4a5b91cc9f:74",
+    "legacy_id": 15114,
+    "metadata_status": "verified",
+    "name": "Skip/Boost splash screen",
+    "options": [
+      {
+        "default": false,
+        "description": "Off: splash is skipped entirely. On: splash briefly shows, then proceeds after the configured delay.",
+        "key": "boostSplash",
+        "required": false,
+        "title": "Boost splash instead of skipping",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": 200,
+        "description": "Only used when \"Boost splash\" is on. How long to show the splash before proceeding.",
+        "key": "boostDelayMs",
+        "required": false,
+        "title": "Boost delay (ms)",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "calendar.agenda.schedule.event.advance.calendar.planner",
+        "versions": [
+          "1.0.34"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.mxtech.videoplayer.ad": [
+        "3.3.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Applies Smart Enhance to every video at a level set in Mod Settings, and keeps it after lock/unlock.",
+    "id": "d2d82459de6a4d4a5b91cc9f:75",
+    "legacy_id": 15115,
+    "metadata_status": "verified",
+    "name": "Smart Enhance Always On",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.mxtech.videoplayer.ad",
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.mxtech.videoplayer.ad": [
+        "3.3.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Replaces the Smart Enhance toggle with a 0-100% popup slider and keeps the level after lock/unlock.",
+    "id": "d2d82459de6a4d4a5b91cc9f:76",
+    "legacy_id": 15116,
+    "metadata_status": "verified",
+    "name": "Smart Enhance Slider",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.mxtech.videoplayer.ad",
+        "versions": [
+          "3.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "cn.xender": [
+        "18.8.0.prime"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enters the main activity directly after the splash screen.",
+    "id": "d2d82459de6a4d4a5b91cc9f:77",
+    "legacy_id": 15117,
+    "metadata_status": "verified",
+    "name": "Speed up splash screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "cn.xender",
+        "versions": [
+          "18.8.0.prime"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Makes the app think its signing certificate is unchanged after Morphe re-signs it, useful when an app crashes or shows a tamper warning because it checks its own certificate. Does not bypass Play Integrity / SafetyNet hardware attestation. Apply with Original app certificate patch.",
+    "id": "d2d82459de6a4d4a5b91cc9f:78",
+    "legacy_id": 15118,
+    "metadata_status": "verified",
+    "name": "Spoof App Signature",
+    "options": [
+      {
+        "default": null,
+        "description": "Leave blank — read automatically from the app. Only set this if you changed the app's package name and the patch is using the wrong one.",
+        "key": "packageName",
+        "required": false,
+        "title": "Package name override (optional)",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.bytedz.printflow": [
+        "1.4.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces SecurityTracker.isPremium() to always return true, so every feature gated by the \"st_01\" premium flag stays unlocked.",
+    "id": "d2d82459de6a4d4a5b91cc9f:79",
+    "legacy_id": 15119,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.bytedz.printflow",
+        "versions": [
+          "1.4.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "calendar.agenda.schedule.event.advance.calendar.planner": [
+        "1.0.34"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks premium features and removes ads.",
+    "id": "d2d82459de6a4d4a5b91cc9f:80",
+    "legacy_id": 15120,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "calendar.agenda.schedule.event.advance.calendar.planner",
+        "versions": [
+          "1.0.34"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.hdictionary.bn": [
+        "11.5.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces the purchase check to always return true, unlocking Pro.",
+    "id": "d2d82459de6a4d4a5b91cc9f:81",
+    "legacy_id": 15121,
+    "metadata_status": "verified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.hdictionary.bn",
+        "versions": [
+          "11.5.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.downloader.videodownloader": [
+        "2.7.2"
+      ]
+    },
+    "dependencies": [
+      "Spoof App Signature"
+    ],
+    "description": "Signature verification is spoofed automatically if this patch is selected the purchase check passes.",
+    "id": "d2d82459de6a4d4a5b91cc9f:82",
+    "legacy_id": 15122,
+    "metadata_status": "verified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "video.downloader.videodownloader",
+        "versions": [
+          "2.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "kallossoft.videotophoto": [
+        "5.0.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks Pro features.",
+    "id": "d2d82459de6a4d4a5b91cc9f:83",
+    "legacy_id": 15123,
+    "metadata_status": "verified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "kallossoft.videotophoto",
+        "versions": [
+          "5.0.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "com.tester.wpswpatester": [
+        "rc-5.164"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces the Pro flag true at every read and write site in the dex, unlocking Pro.",
+    "id": "d2d82459de6a4d4a5b91cc9f:84",
+    "legacy_id": 15124,
+    "metadata_status": "verified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tester.wpswpatester",
+        "versions": [
+          "rc-5.164"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.player.videoplayer": [
+        "2.9.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all pro features.",
+    "id": "d2d82459de6a4d4a5b91cc9f:85",
+    "legacy_id": 15125,
+    "metadata_status": "verified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "video.player.videoplayer",
+        "versions": [
+          "2.9.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "abdelrahman.wifianalyzerpro": [
+        "9.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces the premium check to always return true, unlocking every Pro feature, and stops the in-app \"rate us\" dialog from ever triggering.",
+    "id": "d2d82459de6a4d4a5b91cc9f:86",
+    "legacy_id": 15126,
+    "metadata_status": "verified",
+    "name": "Unlock Pro & Disable Rate Dialog",
+    "options": [],
+    "packages": [
+      {
+        "name": "abdelrahman.wifianalyzerpro",
+        "versions": [
+          "9.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "files.fileexplorer.filemanager": [
+        "1.5.5.7"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces the ad-removed/Pro check to always return true, and renames the launcher activity from SplashActivity to MainActivity so the splash screen is skipped.",
+    "id": "d2d82459de6a4d4a5b91cc9f:87",
+    "legacy_id": 15127,
+    "metadata_status": "verified",
+    "name": "Unlock Pro & Skip Splash Screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "files.fileexplorer.filemanager",
+        "versions": [
+          "1.5.5.7"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.downloader.videodownloader": null
+    },
+    "dependencies": [],
+    "description": "Replaces res/raw/hosts.txt with a text/host file you select.",
+    "id": "d2d82459de6a4d4a5b91cc9f:88",
+    "legacy_id": 15128,
+    "metadata_status": "verified",
+    "name": "Use Your Own Host File For Stronger AdBlock",
+    "options": [
+      {
+        "default": null,
+        "description": "Text/host file that replaces the built-in res/raw/hosts.txt.",
+        "key": "hostsFile",
+        "required": true,
+        "title": "Host file",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "video.downloader.videodownloader",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": false
+  },
+  {
+    "bundle_id": "d2d82459de6a4d4a5b91cc9f",
+    "compatiblePackages": {
+      "video.player.videoplayer": [
+        "2.9.2"
+      ]
+    },
+    "dependencies": [
+      "Mod Settings"
+    ],
+    "description": "Raises the volume boost limit in the player and background playback. Toggle in Mod Settings.",
+    "id": "d2d82459de6a4d4a5b91cc9f:89",
+    "legacy_id": 15129,
+    "metadata_status": "verified",
+    "name": "Volume Booster",
+    "options": [],
+    "packages": [
+      {
+        "name": "video.player.videoplayer",
+        "versions": [
+          "2.9.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.43.3-dev.1",
+    "source_id": "40a47c7b9066441e",
+    "use": true
+  },
+  {
+    "bundle_id": "09aadf876a44a186069ec908",
+    "compatiblePackages": {
+      "app.lawnchair.nightly": null
+    },
+    "dependencies": [],
+    "description": "Shows pure black and pure white as selectable Lawnchair color options.",
+    "id": "09aadf876a44a186069ec908:0",
+    "legacy_id": 15130,
+    "metadata_status": "verified",
+    "name": "Pure black and white color options",
+    "options": [],
+    "packages": [
+      {
+        "name": "app.lawnchair.nightly",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.0.21",
+    "source_id": "a2a7133685791802",
+    "use": true
+  },
+  {
+    "bundle_id": "09aadf876a44a186069ec908",
+    "compatiblePackages": {
+      "app.lawnchair.nightly": null
+    },
+    "dependencies": [],
+    "description": "Adds persistent pure_black and pure_white color values to Lawnchair's color option parser.",
+    "id": "09aadf876a44a186069ec908:1",
+    "legacy_id": 15131,
+    "metadata_status": "verified",
+    "name": "Pure black and white color parsing",
+    "options": [],
+    "packages": [
+      {
+        "name": "app.lawnchair.nightly",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.0.21",
+    "source_id": "a2a7133685791802",
+    "use": true
+  },
+  {
+    "bundle_id": "09aadf876a44a186069ec908",
+    "compatiblePackages": {
+      "app.lawnchair.nightly": null
+    },
+    "dependencies": [],
+    "description": "Removes the handle and its reserved area from the top of Lawnchair's app drawer.",
+    "id": "09aadf876a44a186069ec908:2",
+    "legacy_id": 15132,
+    "metadata_status": "verified",
+    "name": "Remove All Apps handle",
+    "options": [],
+    "packages": [
+      {
+        "name": "app.lawnchair.nightly",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.0.21",
+    "source_id": "a2a7133685791802",
+    "use": true
+  },
+  {
+    "bundle_id": "09aadf876a44a186069ec908",
+    "compatiblePackages": {
+      "app.lawnchair.nightly": null
+    },
+    "dependencies": [],
+    "description": "Removes the handle spacing and remaining top padding from All Apps.",
+    "id": "09aadf876a44a186069ec908:3",
+    "legacy_id": 15133,
+    "metadata_status": "verified",
+    "name": "Remove All Apps handle spacing",
+    "options": [],
+    "packages": [
+      {
+        "name": "app.lawnchair.nightly",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.0.21",
+    "source_id": "a2a7133685791802",
+    "use": true
+  },
+  {
+    "bundle_id": "09aadf876a44a186069ec908",
+    "compatiblePackages": {
+      "app.lawnchair.nightly": null
+    },
+    "dependencies": [],
+    "description": "Removes the obsolete All Apps bottom-sheet handle hit target.",
+    "id": "09aadf876a44a186069ec908:4",
+    "legacy_id": 15134,
+    "metadata_status": "verified",
+    "name": "Remove All Apps handle touch area",
+    "options": [],
+    "packages": [
+      {
+        "name": "app.lawnchair.nightly",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.0.21",
+    "source_id": "a2a7133685791802",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Hides suggested similar channels and bots, and stops Telegram from loading new suggestions. On by default. Turn it off in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:25",
+    "legacy_id": 15135,
+    "metadata_status": "verified",
+    "name": "Hide recommendations",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Turns on Telegram's Hide sender's name option each time you forward, so copies arrive without the original author. You can turn it off before sending. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:26",
+    "legacy_id": 15136,
+    "metadata_status": "verified",
+    "name": "Hide sender names when forwarding",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Hides the sponsored channel a proxy adds to your chat list and folders. Your proxy settings aren't touched. On by default. Turn it off in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:27",
+    "legacy_id": 15137,
+    "metadata_status": "verified",
+    "name": "Hide sponsored proxy channel",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Removes the story bar above your chats, the rings around profile pictures and the Post Story button. Profile stories and archives stay. On by default. Turn it off in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:28",
+    "legacy_id": 15138,
+    "metadata_status": "verified",
+    "name": "Hide Stories",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Removes the Telegram Features row from Settings and the Invite Friends rows from Contacts. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:29",
+    "legacy_id": 15139,
+    "metadata_status": "verified",
+    "name": "Hide Telegram Features and Invite Friends",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Removes the time and read checks from stickers and big animated emoji in chats. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:30",
+    "legacy_id": 15140,
+    "metadata_status": "verified",
+    "name": "Hide time on stickers",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Hides the translate bar at the top of chats in another language. Translate moves to the chat's menu. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:31",
+    "legacy_id": 15141,
+    "metadata_status": "verified",
+    "name": "Hide translate bar",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Shows Telegram's Santa hat and New Year snow all year, not just around New Year. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:32",
+    "legacy_id": 15142,
+    "metadata_status": "verified",
+    "name": "Holiday look all year",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a HushTelegram row to Telegram's Settings, where you turn features on or off, pause HushTelegram, save your choices and export a report. You can also press and hold Telegram's app icon. Works as soon as you patch it in, with no switch.",
+    "id": "0a06dea1730e385c8eb7b4c1:33",
+    "legacy_id": 15143,
+    "metadata_status": "verified",
+    "name": "HushTelegram settings",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Stops mentions and replies in groups or channels you've muted from notifying you. Chats you haven't muted notify as before. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:34",
+    "legacy_id": 15144,
+    "metadata_status": "verified",
+    "name": "Ignore mentions in muted chats",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings",
+      "Message times with seconds"
+    ],
+    "description": "Keeps a message on your phone when someone else deletes it, and marks it deleted next to the time. Your own deletes still work normally. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:35",
+    "legacy_id": 15145,
+    "metadata_status": "verified",
+    "name": "Keep deleted messages",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Makes the volume keys only change the volume in a chat, instead of playing the video on screen with sound. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:36",
+    "legacy_id": 15146,
+    "metadata_status": "verified",
+    "name": "Keep videos muted on volume keys",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Shows seconds in each message's time, like 9:41:27 PM, so messages sent close together are easy to tell apart. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:37",
+    "legacy_id": 15147,
+    "metadata_status": "verified",
+    "name": "Message times with seconds",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Opens ordinary web links in your browser instead of inside Telegram. Telegram links, sign-in and payment pages work as before. On by default. Turn it off in HushTelegram settings > More settings > Links.",
+    "id": "0a06dea1730e385c8eb7b4c1:38",
+    "legacy_id": 15148,
+    "metadata_status": "verified",
+    "name": "Open links externally",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Stops the next voice or video message from playing by itself when one ends. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:39",
+    "legacy_id": 15149,
+    "metadata_status": "verified",
+    "name": "Play voice messages one at a time",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Once you've said no, stops the Contacts tab from asking for contacts access again and clears its warning badge. On by default. Turn it off in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:40",
+    "legacy_id": 15150,
+    "metadata_status": "verified",
+    "name": "Quiet contacts nag",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Tries to help a patched Telegram sign up for push notifications, by giving Google's Firebase service Telegram's original certificate. On by default. Turn it off in HushTelegram settings > More settings > Notifications.",
+    "id": "0a06dea1730e385c8eb7b4c1:41",
+    "legacy_id": 15151,
+    "metadata_status": "verified",
+    "name": "Repair Firebase push registration",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Shows spoiler text, photos and videos without the cover, so you don't have to tap. View-once media, sensitive content and login codes stay covered. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:42",
+    "legacy_id": 15152,
+    "metadata_status": "verified",
+    "name": "Reveal spoilers",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Adds a copyable ID number for a user or chat to the profile menu. A second switch also shows where the profile photo is stored. Both start off. Turn them on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:43",
+    "legacy_id": 15153,
+    "metadata_status": "verified",
+    "name": "Show user and chat IDs",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Shows notifications from people who aren't in your contacts without sound or vibration. Bots, reminders and login codes keep their sound. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:44",
+    "legacy_id": 15154,
+    "metadata_status": "verified",
+    "name": "Silence people outside your contacts",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Opens the attachment menu's camera on the rear lens every time, not the lens you used last. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:45",
+    "legacy_id": 15155,
+    "metadata_status": "verified",
+    "name": "Start the camera on the rear lens",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Removes tracking tags like utm_source, gclid and fbclid from links you open or share. Links with any other extra part stay unchanged. Starts off. Turn it on in HushTelegram settings > More settings > Links.",
+    "id": "0a06dea1730e385c8eb7b4c1:46",
+    "legacy_id": 15156,
+    "metadata_status": "verified",
+    "name": "Strip link tracking",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Makes a swipe right on a profile's photos or media tabs go back, like the rest of the profile. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:47",
+    "legacy_id": 15157,
+    "metadata_status": "verified",
+    "name": "Swipe back on profiles",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Telegram Beta always writes debug logs to your phone, its connection log included, and its own debug menu can't stop that. This stops them, so the beta only logs when you turn logs on in its debug menu. The regular telegram.org build doesn't force them, so nothing changes there. Starts off. Turn it on in HushTelegram settings > Chats, then restart Telegram.",
+    "id": "0a06dea1730e385c8eb7b4c1:48",
+    "legacy_id": 15158,
+    "metadata_status": "verified",
+    "name": "Turn off beta debug logs",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Stops Telegram from vibrating for taps, long presses, swipes and wrong entries. Calls and notifications still vibrate. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:49",
+    "legacy_id": 15159,
+    "metadata_status": "verified",
+    "name": "Turn off haptic feedback",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Stops the emoji burst and fly-in when someone reacts. The reaction still shows on the message. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:50",
+    "legacy_id": 15160,
+    "metadata_status": "verified",
+    "name": "Turn off reaction effects",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Pastes text exactly as you copied it, without Telegram adding formatting, tables or code styling. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:51",
+    "legacy_id": 15161,
+    "metadata_status": "verified",
+    "name": "Use normal paste",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Lets maps in your patched Telegram use a Google Maps key you registered. Leave the option empty to keep Telegram's key. It has no switch and isn't selected by default. Turn on Expert mode in Morphe Manager to pick it and enter your key.",
+    "id": "0a06dea1730e385c8eb7b4c1:52",
+    "legacy_id": 15162,
+    "metadata_status": "verified",
+    "name": "Use registered Maps API key",
+    "options": [
+      {
+        "default": null,
+        "description": "A Google Maps key for Android apps, made in your own Google Cloud project. Limit it to Telegram's package name and your signing certificate (SHA-1).",
+        "key": "apiKey",
+        "required": false,
+        "title": "Your Google Maps key",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": false
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Signs in to Telegram with the API ID and hash you registered at my.telegram.org. Fill in both options, or leave both empty to keep the originals. It has no switch and isn't selected by default. Use Expert mode in Morphe Manager.",
+    "id": "0a06dea1730e385c8eb7b4c1:53",
+    "legacy_id": 15163,
+    "metadata_status": "verified",
+    "name": "Use registered Telegram API credentials",
+    "options": [
+      {
+        "default": null,
+        "description": "The number shown as App api_id at my.telegram.org/apps. Fill in the API hash too, or leave both empty.",
+        "key": "apiId",
+        "required": false,
+        "title": "Your API ID",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The 32-character code shown as App api_hash at my.telegram.org/apps. Keep it private, and fill in the API ID too.",
+        "key": "apiHash",
+        "required": false,
+        "title": "Your API hash",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": false
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Draws Telegram's bold, italic and code text in your phone's font instead of the one built into the app. Starts off. Turn it on in HushTelegram settings > Chats, then restart Telegram.",
+    "id": "0a06dea1730e385c8eb7b4c1:54",
+    "legacy_id": 15164,
+    "metadata_status": "verified",
+    "name": "Use system font",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "0a06dea1730e385c8eb7b4c1",
+    "compatiblePackages": {
+      "org.telegram.messenger.beta": [
+        "12.10.7"
+      ],
+      "org.telegram.messenger.web": [
+        "12.10.6"
+      ]
+    },
+    "dependencies": [
+      "HushTelegram settings"
+    ],
+    "description": "Makes tapping the bar above a chat, while a voice message plays, open Telegram's full music player with a seek bar. Starts off. Turn it on in HushTelegram settings > Chats.",
+    "id": "0a06dea1730e385c8eb7b4c1:55",
+    "legacy_id": 15165,
+    "metadata_status": "verified",
+    "name": "Voice messages in the music player",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.beta",
+        "versions": [
+          "12.10.7"
+        ]
+      },
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.10.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.12",
+    "source_id": "ba25316c1dd23442",
+    "use": true
+  },
+  {
+    "bundle_id": "18bff4d22e2115f0d9f0ce41",
+    "compatiblePackages": {
+      "jp.co.airfront.android.a2chMate": [
+        "0.8.10.191 dev",
+        "0.8.10.226 dev",
+        "0.8.10.241",
+        "0.8.10.242 dev",
+        "0.8.10.243 dev"
+      ]
+    },
+    "dependencies": [],
+    "description": "Change ChMate's package name, app name, icon, and version code.",
+    "id": "18bff4d22e2115f0d9f0ce41:0",
+    "legacy_id": 15166,
+    "metadata_status": "verified",
+    "name": "Change ChMate package name",
+    "options": [
+      {
+        "default": "jp.co.airfront.android.a2chMate.haiagaru",
+        "description": "Choose a valid Android package name. ChMate's package-dependent startup values are adjusted during patching.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "Haiagaru",
+        "description": "Launcher name for the separately installed app. Leave empty to keep the original name.",
+        "key": "appName",
+        "required": false,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "Path to a PNG or WebP launcher icon. Leave empty to keep the original icon.",
+        "key": "appIcon",
+        "required": false,
+        "title": "App icon",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "Positive integer from 1 to 2100000000. Leave unset to keep the original version code.",
+        "key": "versionCode",
+        "required": false,
+        "title": "Version code",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "jp.co.airfront.android.a2chMate",
+        "versions": [
+          "0.8.10.191 dev",
+          "0.8.10.226 dev",
+          "0.8.10.241",
+          "0.8.10.242 dev",
+          "0.8.10.243 dev"
+        ]
+      }
+    ],
+    "patch_metadata_version": "1.7.91",
+    "source_id": "f005427a1ef4594f",
+    "use": true
+  },
+  {
+    "bundle_id": "18bff4d22e2115f0d9f0ce41",
+    "compatiblePackages": {
+      "jp.co.airfront.android.a2chMate": [
+        "0.8.10.191 dev",
+        "0.8.10.226 dev",
+        "0.8.10.241",
+        "0.8.10.242 dev",
+        "0.8.10.243 dev"
+      ]
+    },
+    "dependencies": [],
+    "description": "Haiagaruの機能とアプリ内設定を追加します。ChMate 0.8.10.243 devは一部機能が未実装のため非推奨です（パッチ適用は可能）。",
+    "id": "18bff4d22e2115f0d9f0ce41:1",
+    "legacy_id": 15167,
+    "metadata_status": "verified",
+    "name": "Haiagaru",
+    "options": [
+      {
+        "default": "",
+        "description": "http(s)://から始まるURLをカンマ区切りで指定。末尾/*は配下も対象です。ChMateが解析できる板・スレURLに使用してください。",
+        "key": "additionalOpenUrls",
+        "required": false,
+        "title": "アプリで開くURLを追加",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "missing",
+        "description": "missing=端末にない絵文字だけ（推奨）、all=全絵文字、off=無効。",
+        "key": "emojiMode",
+        "required": false,
+        "title": "絵文字フォントの適用範囲",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "",
+        "description": "パッチ実行PC上のTTF/OTFファイルの絶対パス。空欄なら内蔵Noto Color Emojiを使用します。",
+        "key": "emojiFontPath",
+        "required": false,
+        "title": "任意の絵文字フォント（任意）",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "true",
+        "description": "true=ChMate内の専用ビュワーを有効化、false=ChMate本来の外部ブラウザ動作。",
+        "key": "dedicatedCheckerViewer",
+        "required": false,
+        "title": "必死チェッカー専用ビュワー",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "",
+        "description": "パッチ実行端末上のPNG/WebP画像の絶対パス。空欄なら内蔵アイコンを使用します。",
+        "key": "edgeArchiveToolbarIconPath",
+        "required": false,
+        "title": "エッジ過去ログのツールバー画像（任意）",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "true",
+        "description": "true=修正版TFLiteを適用（推奨）、false=元のライブラリを維持。191 devのみ対象です。",
+        "key": "imageNgTfliteFix",
+        "required": false,
+        "title": "191の自動NG画像判定クラッシュを修正",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "jp.co.airfront.android.a2chMate",
+        "versions": [
+          "0.8.10.191 dev",
+          "0.8.10.226 dev",
+          "0.8.10.241",
+          "0.8.10.242 dev",
+          "0.8.10.243 dev"
+        ]
+      }
+    ],
+    "patch_metadata_version": "1.7.91",
+    "source_id": "f005427a1ef4594f",
+    "use": true
+  },
+  {
+    "bundle_id": "18bff4d22e2115f0d9f0ce41",
+    "compatiblePackages": {
+      "jp.co.airfront.android.a2chMate": [
+        "0.8.10.191 dev",
+        "0.8.10.226 dev",
+        "0.8.10.241",
+        "0.8.10.242 dev",
+        "0.8.10.243 dev"
+      ]
+    },
+    "dependencies": [
+      "Change ChMate package name"
+    ],
+    "description": "Optionally copy shared data from the original ChMate package using Shizuku.",
+    "id": "18bff4d22e2115f0d9f0ce41:2",
+    "legacy_id": 15168,
+    "metadata_status": "verified",
+    "name": "Migrate ChMate data with Shizuku",
+    "options": [],
+    "packages": [
+      {
+        "name": "jp.co.airfront.android.a2chMate",
+        "versions": [
+          "0.8.10.191 dev",
+          "0.8.10.226 dev",
+          "0.8.10.241",
+          "0.8.10.242 dev",
+          "0.8.10.243 dev"
+        ]
+      }
+    ],
+    "patch_metadata_version": "1.7.91",
+    "source_id": "f005427a1ef4594f",
+    "use": false
+  },
+  {
+    "bundle_id": "18bff4d22e2115f0d9f0ce41",
+    "compatiblePackages": {
+      "jp.co.airfront.android.a2chMate": [
+        "0.8.10.191 dev",
+        "0.8.10.226 dev",
+        "0.8.10.241",
+        "0.8.10.242 dev",
+        "0.8.10.243 dev"
+      ]
+    },
+    "dependencies": [],
+    "description": "Save uncaught ChMate crash logs to Download/Haiagaru.",
+    "id": "18bff4d22e2115f0d9f0ce41:3",
+    "legacy_id": 15169,
+    "metadata_status": "verified",
+    "name": "Save ChMate crash logs",
+    "options": [],
+    "packages": [
+      {
+        "name": "jp.co.airfront.android.a2chMate",
+        "versions": [
+          "0.8.10.191 dev",
+          "0.8.10.226 dev",
+          "0.8.10.241",
+          "0.8.10.242 dev",
+          "0.8.10.243 dev"
+        ]
+      }
+    ],
+    "patch_metadata_version": "1.7.91",
+    "source_id": "f005427a1ef4594f",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Stops HDR photos and reels from making the screen brighter than everything else. Starts off. Turn it on in HushGram settings > Playback.",
+    "id": "1c59e4c170b7235f963d8a78:75",
+    "legacy_id": 15170,
+    "metadata_status": "verified",
+    "name": "Turn off HDR brightness boosts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Holds back the Opened notice for view once photos and videos in messages, so the sender doesn't see you opened them. Ghost mode turns it on too. Starts off. Turn it on in HushGram settings > Ads and privacy.",
+    "id": "1c59e4c170b7235f963d8a78:76",
+    "legacy_id": 15171,
+    "metadata_status": "verified",
+    "name": "View DM photos and videos anonymously",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": false
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Keeps you off the viewer list of the lives you watch, so the host isn't told you're there. Your own lives still count their viewers. Ghost mode turns it on too. Starts off. Turn it on in HushGram settings > Stories.",
+    "id": "1c59e4c170b7235f963d8a78:77",
+    "legacy_id": 15172,
+    "metadata_status": "verified",
+    "name": "View live anonymously",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Keeps you off the viewer list of the stories you watch. Replying or reacting still shows you. An optional Mark as seen button lets you choose. Ghost mode turns it on too. Starts off. Turn it on in HushGram settings > Stories.",
+    "id": "1c59e4c170b7235f963d8a78:78",
+    "legacy_id": 15173,
+    "metadata_status": "verified",
+    "name": "View stories anonymously",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Lets you hide items you never use from Facebook's share sheet, such as WhatsApp, Meta AI or Copy link, so the ones you want are easier to reach. Nothing is hidden until you pick. Choose them in Hushfacebook settings > Links, where a switch that starts off also takes away the buttons that send to the people you picked as a new group chat.",
+    "id": "254f56da92322b30056b3014:70",
+    "legacy_id": 15174,
+    "metadata_status": "verified",
+    "name": "Share sheet items",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Adds View profile to every seller's Marketplace page. It opens their regular Facebook profile, so you can check who you're buying from. Facebook shows that button to only some accounts. On by default. Turn it off in Hushfacebook settings > Marketplace.",
+    "id": "254f56da92322b30056b3014:71",
+    "legacy_id": 15175,
+    "metadata_status": "verified",
+    "name": "Show View profile on Marketplace sellers",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Stops Facebook crashing or freezing at start on x86 devices, such as computer emulators and x86 Chromebooks. Most phones and tablets don't need it, and it doesn't change how they start. Works as soon as you patch it in, with no switch.",
+    "id": "254f56da92322b30056b3014:72",
+    "legacy_id": 15176,
+    "metadata_status": "verified",
+    "name": "Start on x86 devices",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Keeps each story on screen until you tap or swipe, so you can take your time with it. A second switch replays a finished story from the start. Starts off. Turn it on in Hushfacebook settings > Stories.",
+    "id": "254f56da92322b30056b3014:73",
+    "legacy_id": 15177,
+    "metadata_status": "verified",
+    "name": "Stop Story auto-advance",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Stops Facebook asking you to update, since a patched app can't install Meta's updates anyway. Meta App Manager's update prompts and chat prompts aimed at older versions go too. On by default. Turn it off in Hushfacebook settings > Updates.",
+    "id": "254f56da92322b30056b3014:74",
+    "legacy_id": 15178,
+    "metadata_status": "verified",
+    "name": "Stop update prompts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Moves Facebook's tab bar to the bottom of the screen on accounts that have it at the top, where it's easier to reach. A second switch lets it slide away as you scroll. Starts off. Turn it on in Hushfacebook settings > Appearance, then restart Facebook.",
+    "id": "254f56da92322b30056b3014:75",
+    "legacy_id": 15179,
+    "metadata_status": "verified",
+    "name": "Tab bar at the bottom",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Stops Facebook offering people to tag while you type ordinary words in posts and comments, so names don't pop up in your way. Typing @ still brings up the list. Starts off. Turn it on in Hushfacebook settings > Writing.",
+    "id": "254f56da92322b30056b3014:76",
+    "legacy_id": 15180,
+    "metadata_status": "verified",
+    "name": "Tag suggestions only after @",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Videos, reels, stories and music wait for your tap instead of starting by themselves, so nothing plays until you want it to. Starts off. Turn it on in Hushfacebook settings > Playback.",
+    "id": "254f56da92322b30056b3014:77",
+    "legacy_id": 15181,
+    "metadata_status": "verified",
+    "name": "Tap to play",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Shows posts and reel captions in the language they were written in, instead of Facebook's automatic translation, so you read people's own words. See translation still works. Starts off. Turn it on in Hushfacebook settings > News feed.",
+    "id": "254f56da92322b30056b3014:78",
+    "legacy_id": 15182,
+    "metadata_status": "verified",
+    "name": "Turn off auto-translation",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Stops a double tap on a reel or video from liking it, so you don't like things by accident. A single tap still plays or pauses, and the Like button still works. Starts off. Turn it on in Hushfacebook settings > Reels and Watch.",
+    "id": "254f56da92322b30056b3014:79",
+    "legacy_id": 15183,
+    "metadata_status": "verified",
+    "name": "Turn off double tap to like",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Stops the short vibrations Facebook plays when you tap and swipe in it, if you find them distracting. Your keyboard and your phone's own vibrations stay. Starts off. Turn it on in Hushfacebook settings > Appearance.",
+    "id": "254f56da92322b30056b3014:80",
+    "legacy_id": 15184,
+    "metadata_status": "verified",
+    "name": "Turn off haptics",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Stops HDR videos and photos from turning your screen up to full brightness, which can be harsh in the dark. They keep their resolution. Starts off. Turn it on in Hushfacebook settings > Playback.",
+    "id": "254f56da92322b30056b3014:81",
+    "legacy_id": 15185,
+    "metadata_status": "verified",
+    "name": "Turn off HDR brightness",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Shows Facebook's tabs, Menu and new screens at once, without the slide between them, so the app feels quicker. Swipes and animations inside a page stay. Starts off. Turn it on in Hushfacebook settings > Appearance.",
+    "id": "254f56da92322b30056b3014:82",
+    "legacy_id": 15186,
+    "metadata_status": "verified",
+    "name": "Turn off screen transitions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Draws emoji with your phone's own emoji font instead of Meta's, so emoji in posts, comments and chats match your keyboard. Reactions and stickers stay as they are. Starts off. Turn it on in Hushfacebook settings > Appearance, then restart Facebook.",
+    "id": "254f56da92322b30056b3014:83",
+    "legacy_id": 15187,
+    "metadata_status": "verified",
+    "name": "Use the phone's emoji",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Draws Facebook's text in your phone's font instead of Meta's, or in a font file you pick, so Facebook matches the rest of your phone. Icons and emoji keep their own. Starts off. Turn it on in Hushfacebook settings > Appearance, then restart Facebook.",
+    "id": "254f56da92322b30056b3014:84",
+    "legacy_id": 15188,
+    "metadata_status": "verified",
+    "name": "Use the system font",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Keeps you off the viewer list of stories you watch, because Facebook isn't told which ones you've seen. Replying or reacting still shows you, and watched stories still look new. Starts off. Turn it on in Hushfacebook settings > Stories.",
+    "id": "254f56da92322b30056b3014:85",
+    "legacy_id": 15189,
+    "metadata_status": "verified",
+    "name": "View stories anonymously",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "2ff45299eacb8a4dbaef84c6",
+    "compatiblePackages": {
+      "io.lightray.photone": [
+        "1.5.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all light sources, extended PAR, Pro guides, Pro settings and the full toolbox. Pro support is not included.",
+    "id": "2ff45299eacb8a4dbaef84c6:129",
+    "legacy_id": 15190,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "io.lightray.photone",
+        "versions": [
+          "1.5.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "2ff45299eacb8a4dbaef84c6",
+    "compatiblePackages": {
+      "com.greenstone.pocketwhip": [
+        "2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all whips.",
+    "id": "2ff45299eacb8a4dbaef84c6:130",
+    "legacy_id": 15191,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.greenstone.pocketwhip",
+        "versions": [
+          "2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "2ff45299eacb8a4dbaef84c6",
+    "compatiblePackages": {
+      "com.spocky.projengmenu": [
+        "4.71",
+        "4.70"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all premium features.",
+    "id": "2ff45299eacb8a4dbaef84c6:131",
+    "legacy_id": 15192,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.spocky.projengmenu",
+        "versions": [
+          "4.71",
+          "4.70"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "2ff45299eacb8a4dbaef84c6",
+    "compatiblePackages": {
+      "com.mchutov.Quranify": [
+        "2.2.8",
+        "2.2.9"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks downloading every surah, lyrics and tafsir, Android Auto, background playback controls, and insights.",
+    "id": "2ff45299eacb8a4dbaef84c6:132",
+    "legacy_id": 15193,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.mchutov.Quranify",
+        "versions": [
+          "2.2.8",
+          "2.2.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "2ff45299eacb8a4dbaef84c6",
+    "compatiblePackages": {
+      "com.sry.rateglance": [
+        "1.17.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all premium features.",
+    "id": "2ff45299eacb8a4dbaef84c6:133",
+    "legacy_id": 15194,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.sry.rateglance",
+        "versions": [
+          "1.17.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "2ff45299eacb8a4dbaef84c6",
+    "compatiblePackages": {
+      "ringtonemaker.musiccutter.customringtones.freeringtonemaker": [
+        "1.01.99.0909",
+        "1.01.98.0831",
+        "1.01.98.0824",
+        "1.01.97.0818",
+        "1.01.96.0716",
+        "1.01.94.0602",
+        "1.01.90.0421"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks premium, removes ads and skips the upgrade screens.",
+    "id": "2ff45299eacb8a4dbaef84c6:134",
+    "legacy_id": 15195,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "ringtonemaker.musiccutter.customringtones.freeringtonemaker",
+        "versions": [
+          "1.01.99.0909",
+          "1.01.98.0831",
+          "1.01.98.0824",
+          "1.01.97.0818",
+          "1.01.96.0716",
+          "1.01.94.0602",
+          "1.01.90.0421"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "2ff45299eacb8a4dbaef84c6",
+    "compatiblePackages": {
+      "com.risesci.nyx": [
+        "Android V1.78.51",
+        "Android V1.78.49",
+        "Android V1.78.47"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks the energy schedule, habit tools, smart alarm and progress insights. Requires a RISE account.",
+    "id": "2ff45299eacb8a4dbaef84c6:135",
+    "legacy_id": 15196,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.risesci.nyx",
+        "versions": [
+          "Android V1.78.51",
+          "Android V1.78.49",
+          "Android V1.78.47"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "2ff45299eacb8a4dbaef84c6",
+    "compatiblePackages": {
+      "app.rubberbands.fit": [
+        "3.9",
+        "3.11"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks running and logging workouts, progress tracking and personal records (AI workout generation is not included).",
+    "id": "2ff45299eacb8a4dbaef84c6:136",
+    "legacy_id": 15197,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "app.rubberbands.fit",
+        "versions": [
+          "3.9",
+          "3.11"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "2ff45299eacb8a4dbaef84c6",
+    "compatiblePackages": {
+      "com.michaldrabik.showly2": [
+        "3.70.0",
+        "3.72.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks ad removal, light theme, custom images, list view types, quick ratings, and transparent widgets. The News feed is not included.",
+    "id": "2ff45299eacb8a4dbaef84c6:137",
+    "legacy_id": 15198,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.michaldrabik.showly2",
+        "versions": [
+          "3.70.0",
+          "3.72.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "2ff45299eacb8a4dbaef84c6",
+    "compatiblePackages": {
+      "app.symfonik.music.player": [
+        "14.0.0",
+        "14.1.0",
+        "15.0.1",
+        "15.1.0",
+        "14.0.0 TV",
+        "15.1.0 TV"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all premium features.",
+    "id": "2ff45299eacb8a4dbaef84c6:138",
+    "legacy_id": 15199,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "app.symfonik.music.player",
+        "versions": [
+          "14.0.0",
+          "14.1.0",
+          "15.0.1",
+          "15.1.0",
+          "14.0.0 TV",
+          "15.1.0 TV"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "2ff45299eacb8a4dbaef84c6",
+    "compatiblePackages": {
+      "com.darinsoft.vimo": [
+        "13.9.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks premium editing features, removes ads and the export watermark, and skips the ad before importing audio. Hides the store button. The AI tools are not included.",
+    "id": "2ff45299eacb8a4dbaef84c6:139",
+    "legacy_id": 15200,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.darinsoft.vimo",
+        "versions": [
+          "13.9.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "2ff45299eacb8a4dbaef84c6",
+    "compatiblePackages": {
+      "com.vpn.free.hotspot.secure.vpnify": [
+        "2.3.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks premium, removes ads and the free session time limit.",
+    "id": "2ff45299eacb8a4dbaef84c6:140",
+    "legacy_id": 15201,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.vpn.free.hotspot.secure.vpnify",
+        "versions": [
+          "2.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "2ff45299eacb8a4dbaef84c6",
+    "compatiblePackages": {
+      "com.free.vpn.super.hotspot.open": [
+        "2.32.0",
+        "2.33.0",
+        "2.33.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks premium servers and removes ads, upgrade banners, the launch paywall and the Android TV sign-in screen.",
+    "id": "2ff45299eacb8a4dbaef84c6:141",
+    "legacy_id": 15202,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.free.vpn.super.hotspot.open",
+        "versions": [
+          "2.32.0",
+          "2.33.0",
+          "2.33.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "2ff45299eacb8a4dbaef84c6",
+    "compatiblePackages": {
+      "pl.neptis.yanosik.mobi.android": [
+        "26.9.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes ads and enables the floating widget, dynamic island, route editing and tab customization. Points, quests and rankings are not included.",
+    "id": "2ff45299eacb8a4dbaef84c6:142",
+    "legacy_id": 15203,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "pl.neptis.yanosik.mobi.android",
+        "versions": [
+          "26.9.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "2ff45299eacb8a4dbaef84c6",
+    "compatiblePackages": {
+      "com.dubox.drive": [
+        "4.26.0",
+        "4.26.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks HD up to original quality, playback speeds up to 3x and video uploads. HD buffers faster over parallel connections.",
+    "id": "2ff45299eacb8a4dbaef84c6:143",
+    "legacy_id": 15204,
+    "metadata_status": "verified",
+    "name": "Unlock Premium Plus",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.dubox.drive",
+        "versions": [
+          "4.26.0",
+          "4.26.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "2ff45299eacb8a4dbaef84c6",
+    "compatiblePackages": {
+      "com.keepa.mobile": [
+        "6.2.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds the rise option when creating or editing a price watch.",
+    "id": "2ff45299eacb8a4dbaef84c6:144",
+    "legacy_id": 15205,
+    "metadata_status": "verified",
+    "name": "Unlock price increase tracking",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.keepa.mobile",
+        "versions": [
+          "6.2.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "2ff45299eacb8a4dbaef84c6",
+    "compatiblePackages": {
+      "com.streetwriters.notesnook": [
+        "3.4.12",
+        "3.4.13"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks task lists, callouts, app lock, and the notebook, tag, colour and reminder limits. Requires a signed-in account. The server still enforces storage, attachment size, monographs and SMS 2FA.",
+    "id": "2ff45299eacb8a4dbaef84c6:145",
+    "legacy_id": 15206,
+    "metadata_status": "verified",
+    "name": "Unlock pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.streetwriters.notesnook",
+        "versions": [
+          "3.4.12",
+          "3.4.13"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "2ff45299eacb8a4dbaef84c6",
+    "compatiblePackages": {
+      "io.raindrop.raindropio": [
+        "4.7.44"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks reminders and highlight notes. Adds duplicate and broken link filters, collection and tag suggestions, full-text search of saved pages, Wayback Machine copies and a weekly bookmark export to Downloads. Requires a signed-in account.",
+    "id": "2ff45299eacb8a4dbaef84c6:146",
+    "legacy_id": 15207,
+    "metadata_status": "verified",
+    "name": "Unlock pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "io.raindrop.raindropio",
+        "versions": [
+          "4.7.44"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "2ff45299eacb8a4dbaef84c6",
+    "compatiblePackages": {
+      "ch.protonvpn.android": [
+        "5.20.39.0",
+        "5.20.57.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks profiles on free plans and limits them to free locations. Profiles for other locations are hidden.",
+    "id": "2ff45299eacb8a4dbaef84c6:147",
+    "legacy_id": 15208,
+    "metadata_status": "verified",
+    "name": "Unlock profiles",
+    "options": [],
+    "packages": [
+      {
+        "name": "ch.protonvpn.android",
+        "versions": [
+          "5.20.39.0",
+          "5.20.57.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  },
+  {
+    "bundle_id": "2ff45299eacb8a4dbaef84c6",
+    "compatiblePackages": {
+      "ch.protonvpn.android": [
+        "5.20.39.0",
+        "5.20.57.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks split tunneling on free plans.",
+    "id": "2ff45299eacb8a4dbaef84c6:148",
+    "legacy_id": 15209,
+    "metadata_status": "verified",
+    "name": "Unlock split tunneling",
+    "options": [],
+    "packages": [
+      {
+        "name": "ch.protonvpn.android",
+        "versions": [
+          "5.20.39.0",
+          "5.20.57.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0",
+    "source_id": "c1f06178caad9800",
+    "use": true
+  }
+]

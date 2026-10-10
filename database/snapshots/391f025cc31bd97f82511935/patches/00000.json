@@ -1,0 +1,2713 @@
+[
+  {
+    "bundle_id": "00bbeef2268ccc931ce31b97",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": null,
+    "id": "00bbeef2268ccc931ce31b97:0",
+    "legacy_id": 1,
+    "metadata_status": "verified",
+    "name": "MicroG Support",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "1.1.3",
+    "source_id": "b1e2320b57613830",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.github.android": [
+        "1.271.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the default dark theme to use true blacks for AMOLED screens.",
+    "id": "00f1d1f17b042045ef4bb04f:0",
+    "legacy_id": 2,
+    "metadata_status": "verified",
+    "name": "AMOLED dark theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.github.android",
+        "versions": [
+          "1.271.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.soundcloud.android": [
+        "2026.08.26-release"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the default dark theme to use true blacks for AMOLED screens.",
+    "id": "00f1d1f17b042045ef4bb04f:1",
+    "legacy_id": 3,
+    "metadata_status": "verified",
+    "name": "AMOLED dark theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.soundcloud.android",
+        "versions": [
+          "2026.08.26-release"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": false
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.superchinese": [
+        "6.8.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Prevents the premium upsell popup on app launch.",
+    "id": "00f1d1f17b042045ef4bb04f:2",
+    "legacy_id": 4,
+    "metadata_status": "verified",
+    "name": "Block launch upsell",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.superchinese",
+        "versions": [
+          "6.8.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "org.languageapp.lingory": [
+        "1.2.75"
+      ]
+    },
+    "dependencies": [],
+    "description": "Blocks the request of notification permissions on load of app. Requirements: arm64-v8a, strict apk version",
+    "id": "00f1d1f17b042045ef4bb04f:3",
+    "legacy_id": 5,
+    "metadata_status": "verified",
+    "name": "Block Permissions Request",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.languageapp.lingory",
+        "versions": [
+          "1.2.75"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Appends \".morphe\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+    "id": "00f1d1f17b042045ef4bb04f:4",
+    "legacy_id": 6,
+    "metadata_status": "verified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "Default",
+        "description": "The name of the package to rename the app to.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      },
+      {
+        "default": false,
+        "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "updatePermissions",
+        "required": false,
+        "title": "Update permissions",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "updateProviders",
+        "required": false,
+        "title": "Update providers",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": false
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.goodreads": [
+        "2.75.0 Build 3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables all ads contained within the UI.",
+    "id": "00f1d1f17b042045ef4bb04f:5",
+    "legacy_id": 7,
+    "metadata_status": "verified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.goodreads",
+        "versions": [
+          "2.75.0 Build 3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.pandora.android": null
+    },
+    "dependencies": [],
+    "description": "Disables ads during audio streaming.",
+    "id": "00f1d1f17b042045ef4bb04f:6",
+    "legacy_id": 8,
+    "metadata_status": "verified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pandora.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.sofascore.results": [
+        "26.08.18"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables all ads contained within the UI.",
+    "id": "00f1d1f17b042045ef4bb04f:7",
+    "legacy_id": 9,
+    "metadata_status": "verified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.sofascore.results",
+        "versions": [
+          "26.08.18"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.duolingo": [
+        "6.98.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Prevents Duolingo from changing the app icon. Only the default icon will be available.",
+    "id": "00f1d1f17b042045ef4bb04f:8",
+    "legacy_id": 10,
+    "metadata_status": "verified",
+    "name": "Disable dynamic app icon",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.duolingo",
+        "versions": [
+          "6.98.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": false
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.",
+    "id": "00f1d1f17b042045ef4bb04f:9",
+    "legacy_id": 11,
+    "metadata_status": "verified",
+    "name": "Disable Pairip license check",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": false
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.intsig.camscanner": [
+        "7.20.0.2606230000"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables CamScanner's custom telemetry system.",
+    "id": "00f1d1f17b042045ef4bb04f:10",
+    "legacy_id": 12,
+    "metadata_status": "verified",
+    "name": "Disable telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.intsig.camscanner",
+        "versions": [
+          "7.20.0.2606230000"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "nom.vrd": [
+        "1.9.3-GooglePlay",
+        "1.9.3-storage"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables event logging sent to the app's custom endpoint.",
+    "id": "00f1d1f17b042045ef4bb04f:11",
+    "legacy_id": 13,
+    "metadata_status": "verified",
+    "name": "Disable telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "nom.vrd",
+        "versions": [
+          "1.9.3-GooglePlay",
+          "1.9.3-storage"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.soundcloud.android": [
+        "2026.08.26-release"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables SoundCloud's telemetry system.",
+    "id": "00f1d1f17b042045ef4bb04f:12",
+    "legacy_id": 14,
+    "metadata_status": "verified",
+    "name": "Disable telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.soundcloud.android",
+        "versions": [
+          "2026.08.26-release"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.superchinese": [
+        "6.8.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Blocks SuperChinese's custom telemetry reporting.",
+    "id": "00f1d1f17b042045ef4bb04f:13",
+    "legacy_id": 15,
+    "metadata_status": "verified",
+    "name": "Disable telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.superchinese",
+        "versions": [
+          "6.8.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.google.android.apps.magazines": [
+        "5.161.0.931240252"
+      ]
+    },
+    "dependencies": [],
+    "description": "Open articles using your default browser.",
+    "id": "00f1d1f17b042045ef4bb04f:14",
+    "legacy_id": 16,
+    "metadata_status": "verified",
+    "name": "Enable custom tabs",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.magazines",
+        "versions": [
+          "5.161.0.931240252"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Enables debugging on the app by setting android:debuggable=\"true\".",
+    "id": "00f1d1f17b042045ef4bb04f:15",
+    "legacy_id": 17,
+    "metadata_status": "verified",
+    "name": "Enable debug",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": false
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.duolingo": [
+        "6.98.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables hidden debug menu in settings.",
+    "id": "00f1d1f17b042045ef4bb04f:16",
+    "legacy_id": 18,
+    "metadata_status": "verified",
+    "name": "Enable debug mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.duolingo",
+        "versions": [
+          "6.98.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": false
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.mobilefootie.wc2010": [
+        "238.17666.20260928"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:17",
+    "legacy_id": 19,
+    "metadata_status": "verified",
+    "name": "Enable FotMob+",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.mobilefootie.wc2010",
+        "versions": [
+          "238.17666.20260928"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "bitpit.launcher": [
+        "1.16.31"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:18",
+    "legacy_id": 20,
+    "metadata_status": "verified",
+    "name": "Enable Niagara Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "bitpit.launcher",
+        "versions": [
+          "1.16.31"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.alltrails.alltrails": [
+        "26.3.20"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables some app features locked behind the subscription paywall. Not all premium functionality is available.",
+    "id": "00f1d1f17b042045ef4bb04f:19",
+    "legacy_id": 21,
+    "metadata_status": "verified",
+    "name": "Enable Peak membership",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.alltrails.alltrails",
+        "versions": [
+          "26.3.20"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.bunpoapp": [
+        "3.23.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall. Requirements: arm64-v8a, strict apk version",
+    "id": "00f1d1f17b042045ef4bb04f:20",
+    "legacy_id": 22,
+    "metadata_status": "verified",
+    "name": "Enable Platinum",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.bunpoapp",
+        "versions": [
+          "3.23.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "me.mycake": [
+        "6.4.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enable Plus membership (not all features are available). Requirements: strict apk version",
+    "id": "00f1d1f17b042045ef4bb04f:21",
+    "legacy_id": 23,
+    "metadata_status": "verified",
+    "name": "Enable Plus",
+    "options": [],
+    "packages": [
+      {
+        "name": "me.mycake",
+        "versions": [
+          "6.4.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.adguard.android": [
+        "4.14.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:22",
+    "legacy_id": 24,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.adguard.android",
+        "versions": [
+          "4.14.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.toleio.us": [
+        "1.36.67"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:23",
+    "legacy_id": 25,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.toleio.us",
+        "versions": [
+          "1.36.67"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.avocards": [
+        "3.0.18"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:24",
+    "legacy_id": 26,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.avocards",
+        "versions": [
+          "3.0.18"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.bowerydigital.bend": [
+        "7.8.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall. Requirements: arm64-v8a, strict apk version",
+    "id": "00f1d1f17b042045ef4bb04f:25",
+    "legacy_id": 27,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.bowerydigital.bend",
+        "versions": [
+          "7.8.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.busuu.android.enc": [
+        "32.44.1(1717099)"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:26",
+    "legacy_id": 28,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.busuu.android.enc",
+        "versions": [
+          "32.44.1(1717099)"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.intsig.camscanner": [
+        "7.20.0.2606230000"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables some app features locked behind the subscription paywall. Certain server-side functionality may be unavailable.",
+    "id": "00f1d1f17b042045ef4bb04f:27",
+    "legacy_id": 29,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.intsig.camscanner",
+        "versions": [
+          "7.20.0.2606230000"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "kr.co.yjteam.dailypay": [
+        "6.0.7"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:28",
+    "legacy_id": 30,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "kr.co.yjteam.dailypay",
+        "versions": [
+          "6.0.7"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.duolingo": [
+        "6.98.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall. Some features like AI video calls may not work.",
+    "id": "00f1d1f17b042045ef4bb04f:29",
+    "legacy_id": 31,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [
+      {
+        "default": "SUPER",
+        "description": "Choose which type of premium Duolingo subscription to enable.",
+        "key": "premiumVariant",
+        "required": true,
+        "title": "Type",
+        "type": "kotlin.String",
+        "values": {
+          "Duolingo MAX": "MAX",
+          "Duolingo Super": "SUPER"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.duolingo",
+        "versions": [
+          "6.98.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "kr.eggbun.eggconvo": [
+        "4.12.19"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:30",
+    "legacy_id": 32,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "kr.eggbun.eggconvo",
+        "versions": [
+          "4.12.19"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.hellochinese": [
+        "7.11.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall. Requirements: arm64-v8a",
+    "id": "00f1d1f17b042045ef4bb04f:31",
+    "legacy_id": 33,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.hellochinese",
+        "versions": [
+          "7.11.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.rp.hypertrophy": [
+        "1.1.0"
+      ]
+    },
+    "dependencies": [
+      "Disable Pairip license check"
+    ],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:32",
+    "legacy_id": 34,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rp.hypertrophy",
+        "versions": [
+          "1.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "org.languageapp.lingory": [
+        "1.2.75"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall. Requirements: arm64-v8a, strict apk version",
+    "id": "00f1d1f17b042045ef4bb04f:33",
+    "legacy_id": 35,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.languageapp.lingory",
+        "versions": [
+          "1.2.75"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.lyfta": [
+        "1.599"
+      ]
+    },
+    "dependencies": [
+      "Disable Pairip license check"
+    ],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:34",
+    "legacy_id": 36,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.lyfta",
+        "versions": [
+          "1.599"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.bambuna.podcastaddict": [
+        "2026.10.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:35",
+    "legacy_id": 37,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.bambuna.podcastaddict",
+        "versions": [
+          "2026.10.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "ru.iiec.pydroid3": [
+        "8.3_arm64"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:36",
+    "legacy_id": 38,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "ru.iiec.pydroid3",
+        "versions": [
+          "8.3_arm64"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.michaldrabik.showly2": [
+        "3.70.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:37",
+    "legacy_id": 39,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.michaldrabik.showly2",
+        "versions": [
+          "3.70.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.urbandroid.sleep": [
+        "20260526"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:38",
+    "legacy_id": 40,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.urbandroid.sleep",
+        "versions": [
+          "20260526"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.snorelab.app": [
+        "2.27.3.6291"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:39",
+    "legacy_id": 41,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.snorelab.app",
+        "versions": [
+          "2.27.3.6291"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "app.ttmikstories.android": [
+        "1.16.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall. Requirements: strict apk version",
+    "id": "00f1d1f17b042045ef4bb04f:40",
+    "legacy_id": 42,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "app.ttmikstories.android",
+        "versions": [
+          "1.16.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "cz.ackee.ventusky": [
+        "53.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:41",
+    "legacy_id": 43,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "cz.ackee.ventusky",
+        "versions": [
+          "53.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.wallpaperscraft.wallpaper": [
+        "3.61.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:42",
+    "legacy_id": 44,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.wallpaperscraft.wallpaper",
+        "versions": [
+          "3.61.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.merriamwebster": null
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:43",
+    "legacy_id": 45,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.merriamwebster",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.windyty.android": [
+        "51.0.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables some app features locked behind the subscription paywall. Not all premium functionality is available.",
+    "id": "00f1d1f17b042045ef4bb04f:44",
+    "legacy_id": 46,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.windyty.android",
+        "versions": [
+          "51.0.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.qbis.guessthecountry": [
+        "3.34.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:45",
+    "legacy_id": 47,
+    "metadata_status": "verified",
+    "name": "Enable Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.qbis.guessthecountry",
+        "versions": [
+          "3.34.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.lingodeer": [
+        "2.99.413"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:46",
+    "legacy_id": 48,
+    "metadata_status": "verified",
+    "name": "Enable Premium (ROOT)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.lingodeer",
+        "versions": [
+          "2.99.413"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.sbs.diet": [
+        "5.7.9"
+      ],
+      "com.sbs.train": [
+        "1.2.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall. Requirements: root mount",
+    "id": "00f1d1f17b042045ef4bb04f:47",
+    "legacy_id": 49,
+    "metadata_status": "verified",
+    "name": "Enable Premium (ROOT)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.sbs.diet",
+        "versions": [
+          "5.7.9"
+        ]
+      },
+      {
+        "name": "com.sbs.train",
+        "versions": [
+          "1.2.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.myfitnesspal.android": [
+        "26.31.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:48",
+    "legacy_id": 50,
+    "metadata_status": "verified",
+    "name": "Enable Premium+",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.myfitnesspal.android",
+        "versions": [
+          "26.31.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.teslacoilsw.launcher": [
+        "88600 (8.8.6)"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enable Nova Launcher Prime and app locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:49",
+    "legacy_id": 51,
+    "metadata_status": "verified",
+    "name": "Enable Prime",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.teslacoilsw.launcher",
+        "versions": [
+          "88600 (8.8.6)"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "jp.ne.ibis.ibispaintx.app": [
+        "14.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall. Requirements: arm64-v8a",
+    "id": "00f1d1f17b042045ef4bb04f:50",
+    "legacy_id": 52,
+    "metadata_status": "verified",
+    "name": "Enable Prime membership",
+    "options": [],
+    "packages": [
+      {
+        "name": "jp.ne.ibis.ibispaintx.app",
+        "versions": [
+          "14.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.simyasolutions.ling.universal": [
+        "8.9.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall. Requirements: strict apk version",
+    "id": "00f1d1f17b042045ef4bb04f:51",
+    "legacy_id": 53,
+    "metadata_status": "verified",
+    "name": "Enable Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.simyasolutions.ling.universal",
+        "versions": [
+          "8.9.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.zombodroid.MemeGenerator": [
+        "4.6826"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:52",
+    "legacy_id": 54,
+    "metadata_status": "verified",
+    "name": "Enable Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zombodroid.MemeGenerator",
+        "versions": [
+          "4.6826"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.getmimo": [
+        "9.30"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:53",
+    "legacy_id": 55,
+    "metadata_status": "verified",
+    "name": "Enable Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.getmimo",
+        "versions": [
+          "9.30"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.mirinae.mirinae": [
+        "2.2.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:54",
+    "legacy_id": 56,
+    "metadata_status": "verified",
+    "name": "Enable Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.mirinae.mirinae",
+        "versions": [
+          "2.2.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "org.totschnig.myexpenses": [
+        "4.1.1.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:55",
+    "legacy_id": 57,
+    "metadata_status": "verified",
+    "name": "Enable Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.totschnig.myexpenses",
+        "versions": [
+          "4.1.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "ginlemon.flowerfree": [
+        "6.6 build 020"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:56",
+    "legacy_id": 58,
+    "metadata_status": "verified",
+    "name": "Enable Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "ginlemon.flowerfree",
+        "versions": [
+          "6.6 build 020"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "pl.solidexplorer2": [
+        "3.6.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:57",
+    "legacy_id": 59,
+    "metadata_status": "verified",
+    "name": "Enable Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "pl.solidexplorer2",
+        "versions": [
+          "3.6.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "cn.wps.moffice_eng": [
+        "18.24"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall. Login is required and AI functionality is unavailable.",
+    "id": "00f1d1f17b042045ef4bb04f:58",
+    "legacy_id": 60,
+    "metadata_status": "verified",
+    "name": "Enable Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "cn.wps.moffice_eng",
+        "versions": [
+          "18.24"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.xodo.pdf.reader": [
+        "11.2.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:59",
+    "legacy_id": 61,
+    "metadata_status": "verified",
+    "name": "Enable Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xodo.pdf.reader",
+        "versions": [
+          "11.2.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "videoeditor.videorecorder.screenrecorder": [
+        "2.5.1.1"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "00f1d1f17b042045ef4bb04f:60",
+    "legacy_id": 62,
+    "metadata_status": "verified",
+    "name": "Enable Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "videoeditor.videorecorder.screenrecorder",
+        "versions": [
+          "2.5.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.soundcloud.android": [
+        "2026.08.26-release"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:61",
+    "legacy_id": 63,
+    "metadata_status": "verified",
+    "name": "Enable SoundCloud Go",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.soundcloud.android",
+        "versions": [
+          "2026.08.26-release"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.amazon.avod.thirdpartyclient": [
+        "3.0.470.1047"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables experimental speed control to the video player.",
+    "id": "00f1d1f17b042045ef4bb04f:62",
+    "legacy_id": 64,
+    "metadata_status": "verified",
+    "name": "Enable speed control",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.amazon.avod.thirdpartyclient",
+        "versions": [
+          "3.0.470.1047"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "kr.eggbun.eggconvo": [
+        "4.12.19"
+      ]
+    },
+    "dependencies": [],
+    "description": "When typing in normal lessons, Eggbun forces you to use their own on-screen keyboard. This patches forces the use of the default OS keyboard.",
+    "id": "00f1d1f17b042045ef4bb04f:63",
+    "legacy_id": 65,
+    "metadata_status": "verified",
+    "name": "Force Native Keyboard",
+    "options": [],
+    "packages": [
+      {
+        "name": "kr.eggbun.eggconvo",
+        "versions": [
+          "4.12.19"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Hides the app icon from the Android launcher.",
+    "id": "00f1d1f17b042045ef4bb04f:64",
+    "legacy_id": 66,
+    "metadata_status": "verified",
+    "name": "Hide app icon",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": false
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
+    "id": "00f1d1f17b042045ef4bb04f:65",
+    "legacy_id": 67,
+    "metadata_status": "verified",
+    "name": "MicroG integration",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": false
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "ch.protonvpn.android": [
+        "5.20.57.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the imposed delay when changing VPN servers.",
+    "id": "00f1d1f17b042045ef4bb04f:66",
+    "legacy_id": 68,
+    "metadata_status": "verified",
+    "name": "Remove delay",
+    "options": [],
+    "packages": [
+      {
+        "name": "ch.protonvpn.android",
+        "versions": [
+          "5.20.57.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "nom.vrd": [
+        "1.9.3-GooglePlay",
+        "1.9.3-storage"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the imposed 6-hour trial usage limit.",
+    "id": "00f1d1f17b042045ef4bb04f:67",
+    "legacy_id": 69,
+    "metadata_status": "verified",
+    "name": "Remove trial limit",
+    "options": [],
+    "packages": [
+      {
+        "name": "nom.vrd",
+        "versions": [
+          "1.9.3-GooglePlay",
+          "1.9.3-storage"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.amazon.avod.thirdpartyclient": [
+        "3.0.470.1047"
+      ]
+    },
+    "dependencies": [],
+    "description": "Rename certain permissions shared across Amazon apps. Applying this patch can fix installation errors, but can also break features in certain apps.",
+    "id": "00f1d1f17b042045ef4bb04f:68",
+    "legacy_id": 70,
+    "metadata_status": "verified",
+    "name": "Rename shared permissions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.amazon.avod.thirdpartyclient",
+        "versions": [
+          "3.0.470.1047"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.amazon.avod.thirdpartyclient": [
+        "3.0.470.1047"
+      ]
+    },
+    "dependencies": [],
+    "description": "Automatically skips ads baked into the video stream.",
+    "id": "00f1d1f17b042045ef4bb04f:69",
+    "legacy_id": 71,
+    "metadata_status": "verified",
+    "name": "Skip ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.amazon.avod.thirdpartyclient",
+        "versions": [
+          "3.0.470.1047"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.duolingo": [
+        "6.98.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "The timer for RampUp challenges will never decrease.",
+    "id": "00f1d1f17b042045ef4bb04f:70",
+    "legacy_id": 72,
+    "metadata_status": "verified",
+    "name": "Unlimited RampUp time",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.duolingo",
+        "versions": [
+          "6.98.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": false
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.pandora.android": null
+    },
+    "dependencies": [],
+    "description": "Disables the limit for skipping songs during playback.",
+    "id": "00f1d1f17b042045ef4bb04f:71",
+    "legacy_id": 73,
+    "metadata_status": "verified",
+    "name": "Unlimited skips",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pandora.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.superchinese": [
+        "6.8.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Only unlocks lessons on the client UI! This is useful for pre-downloading content during free trial periods.",
+    "id": "00f1d1f17b042045ef4bb04f:72",
+    "legacy_id": 74,
+    "metadata_status": "verified",
+    "name": "Unlock all lessons",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.superchinese",
+        "versions": [
+          "6.8.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "ch.protonvpn.android": [
+        "5.20.57.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables the custom DNS feature usually locked behind the Proton Plus paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:73",
+    "legacy_id": 75,
+    "metadata_status": "verified",
+    "name": "Unlock custom DNS",
+    "options": [],
+    "packages": [
+      {
+        "name": "ch.protonvpn.android",
+        "versions": [
+          "5.20.57.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "ch.protonvpn.android": [
+        "5.20.57.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables the LAN connections feature usually locked behind the Proton Plus paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:74",
+    "legacy_id": 76,
+    "metadata_status": "verified",
+    "name": "Unlock LAN connections",
+    "options": [],
+    "packages": [
+      {
+        "name": "ch.protonvpn.android",
+        "versions": [
+          "5.20.57.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "cn.ommiao.iconpacker": [
+        "1.21.0-release"
+      ]
+    },
+    "dependencies": [
+      "Disable Pairip license check"
+    ],
+    "description": "Enables app features locked behind the subscription paywall. Some UI elements may not show an active membership, but this does not effect functionality.",
+    "id": "00f1d1f17b042045ef4bb04f:75",
+    "legacy_id": 77,
+    "metadata_status": "verified",
+    "name": "Unlock premium features",
+    "options": [],
+    "packages": [
+      {
+        "name": "cn.ommiao.iconpacker",
+        "versions": [
+          "1.21.0-release"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "com.adobe.lrmobile": [
+        "11.5.31"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables app features locked behind the subscription paywall. Requirements: arm64-v8a, strict apk version",
+    "id": "00f1d1f17b042045ef4bb04f:76",
+    "legacy_id": 78,
+    "metadata_status": "verified",
+    "name": "Unlock premium features",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.adobe.lrmobile",
+        "versions": [
+          "11.5.31"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "00f1d1f17b042045ef4bb04f",
+    "compatiblePackages": {
+      "ch.protonvpn.android": [
+        "5.20.57.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables the split tunneling feature usually locked behind the Proton Plus paywall.",
+    "id": "00f1d1f17b042045ef4bb04f:77",
+    "legacy_id": 79,
+    "metadata_status": "verified",
+    "name": "Unlock split tunneling",
+    "options": [],
+    "packages": [
+      {
+        "name": "ch.protonvpn.android",
+        "versions": [
+          "5.20.57.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.47.1-dev.1",
+    "source_id": "8fc032e236d8f5a5",
+    "use": true
+  },
+  {
+    "bundle_id": "013035648e8d54aa66c93fe3",
+    "compatiblePackages": {
+      "com.microsoft.emmx": [
+        "152.0.4191.65"
+      ],
+      "com.microsoft.emmx.canary": [
+        "155.0.4269.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes the application package name in AndroidManifest.xml (e.g. for media display whitelist compatibility or cloning).",
+    "id": "013035648e8d54aa66c93fe3:0",
+    "legacy_id": 80,
+    "metadata_status": "verified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": null,
+        "description": "New package name for Microsoft Edge (defaults to <originalPackage>.morphe if not specified)",
+        "key": "packageName",
+        "required": false,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.microsoft.emmx",
+        "versions": [
+          "152.0.4191.65"
+        ]
+      },
+      {
+        "name": "com.microsoft.emmx.canary",
+        "versions": [
+          "155.0.4269.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.36.1",
+    "source_id": "31479a0fb6f394f0",
+    "use": false
+  },
+  {
+    "bundle_id": "013035648e8d54aa66c93fe3",
+    "compatiblePackages": {
+      "com.microsoft.emmx": [
+        "152.0.4191.65"
+      ],
+      "com.microsoft.emmx.canary": [
+        "155.0.4269.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables all Copilot and Bing Chat feature flags by forcing boolean feature evaluation methods to return false.",
+    "id": "013035648e8d54aa66c93fe3:1",
+    "legacy_id": 81,
+    "metadata_status": "verified",
+    "name": "Copilot feature toggle",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.microsoft.emmx",
+        "versions": [
+          "152.0.4191.65"
+        ]
+      },
+      {
+        "name": "com.microsoft.emmx.canary",
+        "versions": [
+          "155.0.4269.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.36.1",
+    "source_id": "31479a0fb6f394f0",
+    "use": true
+  },
+  {
+    "bundle_id": "013035648e8d54aa66c93fe3",
+    "compatiblePackages": {
+      "com.microsoft.emmx": [
+        "152.0.4191.65"
+      ],
+      "com.microsoft.emmx.canary": [
+        "155.0.4269.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables Bing news and weather push notifications by short-circuiting device push token registration and notification dispatch services.",
+    "id": "013035648e8d54aa66c93fe3:2",
+    "legacy_id": 82,
+    "metadata_status": "verified",
+    "name": "Disable news notifications",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.microsoft.emmx",
+        "versions": [
+          "152.0.4191.65"
+        ]
+      },
+      {
+        "name": "com.microsoft.emmx.canary",
+        "versions": [
+          "155.0.4269.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.36.1",
+    "source_id": "31479a0fb6f394f0",
+    "use": true
+  },
+  {
+    "bundle_id": "013035648e8d54aa66c93fe3",
+    "compatiblePackages": {
+      "com.microsoft.emmx": [
+        "152.0.4191.65"
+      ],
+      "com.microsoft.emmx.canary": [
+        "155.0.4269.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables Play Store updates by setting the version code to the maximum allowed. This patch does not work if the app is installed by mounting and may cause unexpected issues with some apps.",
+    "id": "013035648e8d54aa66c93fe3:3",
+    "legacy_id": 83,
+    "metadata_status": "verified",
+    "name": "Disable Play Store updates",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.microsoft.emmx",
+        "versions": [
+          "152.0.4191.65"
+        ]
+      },
+      {
+        "name": "com.microsoft.emmx.canary",
+        "versions": [
+          "155.0.4269.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.36.1",
+    "source_id": "31479a0fb6f394f0",
+    "use": false
+  },
+  {
+    "bundle_id": "013035648e8d54aa66c93fe3",
+    "compatiblePackages": {
+      "com.microsoft.emmx": [
+        "152.0.4191.65"
+      ],
+      "com.microsoft.emmx.canary": [
+        "155.0.4269.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Eliminates Microsoft Edge telemetry and tracking by redirecting data collection endpoints (OneCollector, AppCenter, Adjust) to localhost and short-circuiting OneDS and Adjust tracking methods.",
+    "id": "013035648e8d54aa66c93fe3:4",
+    "legacy_id": 84,
+    "metadata_status": "verified",
+    "name": "Telemetry elimination",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.microsoft.emmx",
+        "versions": [
+          "152.0.4191.65"
+        ]
+      },
+      {
+        "name": "com.microsoft.emmx.canary",
+        "versions": [
+          "155.0.4269.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.36.1",
+    "source_id": "31479a0fb6f394f0",
+    "use": true
+  },
+  {
+    "bundle_id": "0144c001181ce1b27293f8d1",
+    "compatiblePackages": {
+      "at.gv.oe.app": [
+        "3.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "0144c001181ce1b27293f8d1:0",
+    "legacy_id": 85,
+    "metadata_status": "verified",
+    "name": "Fix crash on Android 14+",
+    "options": [],
+    "packages": [
+      {
+        "name": "at.gv.oe.app",
+        "versions": [
+          "3.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "1f18136e1cbebe3d",
+    "use": true
+  },
+  {
+    "bundle_id": "0144c001181ce1b27293f8d1",
+    "compatiblePackages": {
+      "at.gv.oe.app": null
+    },
+    "dependencies": [],
+    "description": "Removes the check for root permissions and unlocked bootloader.",
+    "id": "0144c001181ce1b27293f8d1:1",
+    "legacy_id": 86,
+    "metadata_status": "verified",
+    "name": "Remove root detection",
+    "options": [],
+    "packages": [
+      {
+        "name": "at.gv.oe.app",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "1f18136e1cbebe3d",
+    "use": true
+  },
+  {
+    "bundle_id": "0144c001181ce1b27293f8d1",
+    "compatiblePackages": {
+      "at.gv.oe.app": null
+    },
+    "dependencies": [],
+    "description": "Spoofs the signature of the app.",
+    "id": "0144c001181ce1b27293f8d1:2",
+    "legacy_id": 87,
+    "metadata_status": "verified",
+    "name": "Spoof signature",
+    "options": [],
+    "packages": [
+      {
+        "name": "at.gv.oe.app",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "1f18136e1cbebe3d",
+    "use": true
+  },
+  {
+    "bundle_id": "0197e661c02beb95fbca1ffa",
+    "compatiblePackages": {
+      "harmonium.music.gameg.real.harmoniumfree": [
+        "harmony_29.0.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes all banner ads, interstitial ads, open app ads, and enables permanent ad-free status.",
+    "id": "0197e661c02beb95fbca1ffa:0",
+    "legacy_id": 88,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "harmonium.music.gameg.real.harmoniumfree",
+        "versions": [
+          "harmony_29.0.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.0-dev.1",
+    "source_id": "9c01a4872432b01d",
+    "use": true
+  },
+  {
+    "bundle_id": "0197e661c02beb95fbca1ffa",
+    "compatiblePackages": {
+      "com.psslabs.rhythm": [
+        "6.23"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all Pro and Premium features, taals, variations, scales, Manjeera audio engine, and disables store alerts & ads.",
+    "id": "0197e661c02beb95fbca1ffa:1",
+    "legacy_id": 89,
+    "metadata_status": "verified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.psslabs.rhythm",
+        "versions": [
+          "6.23"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.0-dev.1",
+    "source_id": "9c01a4872432b01d",
+    "use": true
+  },
+  {
+    "bundle_id": "01b16d5b5c8ba7e280f35cd7",
+    "compatiblePackages": {
+      "com.medium.reader": [
+        "4.5.1784910415"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bypasses PairIP signature and license checks (Play Store version error).",
+    "id": "01b16d5b5c8ba7e280f35cd7:0",
+    "legacy_id": 90,
+    "metadata_status": "verified",
+    "name": "Bypass Play Store Check",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.medium.reader",
+        "versions": [
+          "4.5.1784910415"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.5",
+    "source_id": "f0f99ad8e8eb2209",
+    "use": true
+  },
+  {
+    "bundle_id": "01b16d5b5c8ba7e280f35cd7",
+    "compatiblePackages": {
+      "com.medium.reader": [
+        "4.5.1784910415"
+      ]
+    },
+    "dependencies": [],
+    "description": "Opens a webview to Freedium for locked articles.",
+    "id": "01b16d5b5c8ba7e280f35cd7:1",
+    "legacy_id": 91,
+    "metadata_status": "verified",
+    "name": "Freedium paywall bypass",
+    "options": [
+      {
+        "default": "https://freedium-mirror.cfd/",
+        "description": "URL of the Freedium mirror to use",
+        "key": "freedium_mirror_url",
+        "required": false,
+        "title": "Freedium Mirror URL",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.medium.reader",
+        "versions": [
+          "4.5.1784910415"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.5",
+    "source_id": "f0f99ad8e8eb2209",
+    "use": true
+  },
+  {
+    "bundle_id": "01b16d5b5c8ba7e280f35cd7",
+    "compatiblePackages": {
+      "com.medium.reader": [
+        "4.5.1784910415"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides 'Get Premium' banners by mocking the MembershipTier to MEMBER.",
+    "id": "01b16d5b5c8ba7e280f35cd7:2",
+    "legacy_id": 92,
+    "metadata_status": "verified",
+    "name": "Hide Premium Banners",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.medium.reader",
+        "versions": [
+          "4.5.1784910415"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.5",
+    "source_id": "f0f99ad8e8eb2209",
+    "use": true
+  },
+  {
+    "bundle_id": "01b16d5b5c8ba7e280f35cd7",
+    "compatiblePackages": {
+      "com.azefsw.audioconnect": [
+        "0.26.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks premium features by overriding the PremiumResponse.",
+    "id": "01b16d5b5c8ba7e280f35cd7:3",
+    "legacy_id": 93,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.azefsw.audioconnect",
+        "versions": [
+          "0.26.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.5",
+    "source_id": "f0f99ad8e8eb2209",
+    "use": true
+  },
+  {
+    "bundle_id": "0233cac864dc3ae204d3f3cb",
+    "compatiblePackages": {
+      "com.slowlyapp": [
+        "9.5.6",
+        "9.5.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables Avatar Builder items marked as subscription-only without changing coin-priced item checks.",
+    "id": "0233cac864dc3ae204d3f3cb:0",
+    "legacy_id": 94,
+    "metadata_status": "verified",
+    "name": "Slowly avatar builder items",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.slowlyapp",
+        "versions": [
+          "9.5.6",
+          "9.5.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.3-dev.1",
+    "source_id": "df14314e6012b062",
+    "use": true
+  },
+  {
+    "bundle_id": "0233cac864dc3ae204d3f3cb",
+    "compatiblePackages": {
+      "com.slowlyapp": [
+        "9.5.6",
+        "9.5.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables verified client-side Explore filters, including Last online within 48 hours and New Members Only, and raises excluded-country and excluded-topic selection limits.",
+    "id": "0233cac864dc3ae204d3f3cb:1",
+    "legacy_id": 95,
+    "metadata_status": "verified",
+    "name": "Slowly extended Explore filters",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.slowlyapp",
+        "versions": [
+          "9.5.6",
+          "9.5.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.3-dev.1",
+    "source_id": "df14314e6012b062",
+    "use": true
+  },
+  {
+    "bundle_id": "0233cac864dc3ae204d3f3cb",
+    "compatiblePackages": {
+      "com.slowlyapp": [
+        "9.5.6",
+        "9.5.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables Pairip's client-side installer and license enforcement.",
+    "id": "0233cac864dc3ae204d3f3cb:2",
+    "legacy_id": 96,
+    "metadata_status": "verified",
+    "name": "Slowly Pairip license check bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.slowlyapp",
+        "versions": [
+          "9.5.6",
+          "9.5.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.3-dev.1",
+    "source_id": "df14314e6012b062",
+    "use": true
+  },
+  {
+    "bundle_id": "0297cbfb07a5b5d26363f4e3",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2196F3",
+        "name": "E-Ujian Browser",
+        "packageName": "com.doovera.eujianbrowser",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.1.3"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "3.1.3"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Allows the status bar and navigation bar to remain visible during the exam.",
+    "id": "0297cbfb07a5b5d26363f4e3:0",
+    "legacy_id": 97,
+    "metadata_status": "unverified",
+    "name": "Allow System UI",
+    "options": [],
+    "packages": [
+      {
+        "name": "E-Ujian Browser",
+        "versions": [
+          "3.1.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "735d8f1d7a784287"
+  },
+  {
+    "bundle_id": "0297cbfb07a5b5d26363f4e3",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2196F3",
+        "name": "E-Ujian Browser",
+        "packageName": "com.doovera.eujianbrowser",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.1.3"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "3.1.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Keeps the exam process alive in the background using a WakeLock-backed foreground Service. Prevents OS from killing the exam when backgrounded or screen turns off. Service restarts automatically via START_STICKY if killed.",
+    "id": "0297cbfb07a5b5d26363f4e3:1",
+    "legacy_id": 98,
+    "metadata_status": "unverified",
+    "name": "Background Persistence (WakeLock + Foreground Service)",
+    "options": [],
+    "packages": [
+      {
+        "name": "E-Ujian Browser",
+        "versions": [
+          "3.1.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "735d8f1d7a784287"
+  },
+  {
+    "bundle_id": "0297cbfb07a5b5d26363f4e3",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2196F3",
+        "name": "E-Ujian Browser",
+        "packageName": "com.doovera.eujianbrowser",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.1.3"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "3.1.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Skips the pre-exam scan that blocks exam start if blacklisted apps (AnyDesk, TeamViewer, screen recorders, floating apps) are installed, and launches the exam directly without overlay/DND/ringer prompts.",
+    "id": "0297cbfb07a5b5d26363f4e3:2",
+    "legacy_id": 99,
+    "metadata_status": "unverified",
+    "name": "Bypass App Blacklist Scan",
+    "options": [],
+    "packages": [
+      {
+        "name": "E-Ujian Browser",
+        "versions": [
+          "3.1.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "735d8f1d7a784287"
+  },
+  {
+    "bundle_id": "0297cbfb07a5b5d26363f4e3",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2196F3",
+        "name": "E-Ujian Browser",
+        "packageName": "com.doovera.eujianbrowser",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.1.3"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "3.1.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Allows the exam to run with Do Not Disturb mode enabled.",
+    "id": "0297cbfb07a5b5d26363f4e3:3",
+    "legacy_id": 100,
+    "metadata_status": "unverified",
+    "name": "Bypass DND Detection",
+    "options": [],
+    "packages": [
+      {
+        "name": "E-Ujian Browser",
+        "versions": [
+          "3.1.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "735d8f1d7a784287"
+  }
+]

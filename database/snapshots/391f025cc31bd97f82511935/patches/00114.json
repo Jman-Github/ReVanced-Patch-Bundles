@@ -1,0 +1,2825 @@
+[
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Makes Instagram's dark mode pure black instead of dark gray. It looks deeper and can save battery on an OLED screen. Menus and buttons keep their grays so they stay easy to see. Works as soon as you patch it in, with no switch.",
+    "id": "1c59e4c170b7235f963d8a78:51",
+    "legacy_id": 11766,
+    "metadata_status": "verified",
+    "name": "Pure black dark mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": false
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Opening a chat no longer tells people you've seen their messages. You still see when they've seen yours. Mark as read still tells them. Ghost mode turns it on too. Starts off. Turn it on in HushGram settings > Messages.",
+    "id": "1c59e4c170b7235f963d8a78:52",
+    "legacy_id": 11767,
+    "metadata_status": "verified",
+    "name": "Read messages without the seen receipt",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Stops Instagram from locking you out with a screen that says this version is too old. A patched build can't update itself, so it would stop working after a few weeks. On by default. Turn it off in HushGram settings > Updates.",
+    "id": "1c59e4c170b7235f963d8a78:53",
+    "legacy_id": 11768,
+    "metadata_status": "verified",
+    "name": "Remove build expired popup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Stops Instagram from reading your phone's advertising ID, which ad companies use to follow you between apps. Instagram gets a string of zeros instead. Works as soon as you patch it in, with no switch.",
+    "id": "1c59e4c170b7235f963d8a78:54",
+    "legacy_id": 11769,
+    "metadata_status": "verified",
+    "name": "Remove the advertising ID",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Takes away the empty gap Instagram leaves under its tab bar for a navigation bar that isn't there. Restart Instagram to see the change. Starts off. Turn it on in HushGram settings > Layout.",
+    "id": "1c59e4c170b7235f963d8a78:55",
+    "legacy_id": 11770,
+    "metadata_status": "verified",
+    "name": "Remove the empty space at the bottom",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Lets Instagram's own checks of who signed the app pass on a patched build, so the parts that need them keep working. Threads, Facebook and Messenger patched with the same key work too. Works as soon as you patch it in, with no switch.",
+    "id": "1c59e4c170b7235f963d8a78:56",
+    "legacy_id": 11771,
+    "metadata_status": "verified",
+    "name": "Restore trust on re-signed builds",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "A video or reel longer than two minutes picks up where you left off the next time you play it on the same account. Live videos and ads start as usual. Starts off. Turn it on in HushGram settings > Playback.",
+    "id": "1c59e4c170b7235f963d8a78:57",
+    "legacy_id": 11772,
+    "metadata_status": "verified",
+    "name": "Resume long videos",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Removes tracking tags from the links you copy or share, and opens bio links without Instagram's click tracker. The link still opens the same post, reel, story or profile. On by default. Turn it off in HushGram settings > Ads and privacy.",
+    "id": "1c59e4c170b7235f963d8a78:58",
+    "legacy_id": 11773,
+    "metadata_status": "verified",
+    "name": "Sanitize sharing links",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Adds Save to the menu on a comment that has its own photo, saving the largest size Instagram sent. Starts off. Turn it on in HushGram settings > Comments.",
+    "id": "1c59e4c170b7235f963d8a78:59",
+    "legacy_id": 11774,
+    "metadata_status": "verified",
+    "name": "Save comment photo",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Adds Save profile picture, View profile picture, Copy username and Copy bio to the menu on someone's profile. View opens the picture full screen and lets you zoom. Starts off. Turn it on in HushGram settings > Downloads.",
+    "id": "1c59e4c170b7235f963d8a78:60",
+    "legacy_id": 11775,
+    "metadata_status": "verified",
+    "name": "Save profile picture",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Adds a small label in a story's header showing how many accounts it mentions. Tap it for a list and tap an account to open their profile. Starts off. Turn it on in HushGram settings > Stories.",
+    "id": "1c59e4c170b7235f963d8a78:61",
+    "legacy_id": 11776,
+    "metadata_status": "verified",
+    "name": "See who a story mentions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Shows the date and time a post went up, like Oct 2, 3:45 PM, instead of how long ago. It does the same for comments. Starts off. Turn it on in HushGram settings > Feed.",
+    "id": "1c59e4c170b7235f963d8a78:62",
+    "legacy_id": 11777,
+    "metadata_status": "verified",
+    "name": "Show a post's exact time",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Shows the date and time a story was posted, like Oct 2, 3:45 PM, instead of how long ago. A choice under the switch can show the time left instead. Starts off. Turn it on in HushGram settings > Stories.",
+    "id": "1c59e4c170b7235f963d8a78:63",
+    "legacy_id": 11778,
+    "metadata_status": "verified",
+    "name": "Show a story's exact time",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Adds Follows you or Doesn't follow you beside the name on someone's profile. Other switches add a chip and mark accounts on your Following list that don't follow you back. On by default. Turn it off in HushGram settings > Profiles.",
+    "id": "1c59e4c170b7235f963d8a78:64",
+    "legacy_id": 11779,
+    "metadata_status": "verified",
+    "name": "Show if a profile follows you",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Tells Instagram your phone is at a place you pick, for the location sticker, nearby places and maps. Photos keep their own places. You need to pick a place too. Starts off. Turn it on in HushGram settings > Ads and privacy.",
+    "id": "1c59e4c170b7235f963d8a78:65",
+    "legacy_id": 11780,
+    "metadata_status": "verified",
+    "name": "Spoof location",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Opens Home on posts from accounts you follow instead of For you. A second switch removes For you from Home. Restart Instagram to see the change. Starts off. Turn it on in HushGram settings > Feed.",
+    "id": "1c59e4c170b7235f963d8a78:66",
+    "legacy_id": 11781,
+    "metadata_status": "verified",
+    "name": "Start Home on Following",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Stops Instagram from crashing or freezing on x86 devices that run its code through a translator, such as some Chromebooks and emulators. Phones and tablets with arm chips run it as before. Works as soon as you patch it in, with no switch.",
+    "id": "1c59e4c170b7235f963d8a78:67",
+    "legacy_id": 11782,
+    "metadata_status": "verified",
+    "name": "Start on x86 devices",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Stops a swipe in Reels from moving to the next reel, so you stay on the one you opened. A second switch lets you watch 20 reels, then stops swiping for 15 minutes. Starts off. Turn it on in HushGram settings > Reels.",
+    "id": "1c59e4c170b7235f963d8a78:68",
+    "legacy_id": 11783,
+    "metadata_status": "verified",
+    "name": "Stop Reels scrolling",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Keeps each story on screen until you tap or swipe. Starts off. Turn it on in HushGram settings > Stories.",
+    "id": "1c59e4c170b7235f963d8a78:69",
+    "legacy_id": 11784,
+    "metadata_status": "verified",
+    "name": "Stop Story auto-advance",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Stops a sideways swipe on Home from opening the camera. The + button still opens it. Starts off. Turn it on in HushGram settings > Feed.",
+    "id": "1c59e4c170b7235f963d8a78:70",
+    "legacy_id": 11785,
+    "metadata_status": "verified",
+    "name": "Stop swipe to create",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Stops a sideways swipe from moving between Home, Reels and the other main tabs. Tapping the tab bar still works. Starts off. Turn it on in HushGram settings > Feed.",
+    "id": "1c59e4c170b7235f963d8a78:71",
+    "legacy_id": 11786,
+    "metadata_status": "verified",
+    "name": "Stop swiping between tabs",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Draws the rings in the stories row at the top of Home smaller, so more fit on screen, or larger. Nothing changes until you pick a size. On by default. Turn it off in HushGram settings > Stories.",
+    "id": "1c59e4c170b7235f963d8a78:72",
+    "legacy_id": 11787,
+    "metadata_status": "verified",
+    "name": "Story ring size",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Makes videos, reels and stories wait for your tap instead of starting by themselves, like Instagram does when it saves mobile data. A choice under the switch can leave Reels out or hold only Reels. Starts off. Turn it on in HushGram settings > Playback.",
+    "id": "1c59e4c170b7235f963d8a78:73",
+    "legacy_id": 11788,
+    "metadata_status": "verified",
+    "name": "Tap to play",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Stops a double tap on a post or reel from liking it, and the heart doesn't show. The Like button still works. Separate switches cover posts, reels, comments and chat messages. Starts off. Turn it on in HushGram settings > Reels.",
+    "id": "1c59e4c170b7235f963d8a78:74",
+    "legacy_id": 11789,
+    "metadata_status": "verified",
+    "name": "Turn off double tap to like",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1f96f03f1cfcbc691bf8efbb",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "nicoid",
+        "packageName": "com.sauzask.nicoid",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.49"
+          }
+        ],
+        "versions": [
+          "6.49"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "Morphe patch for nicoid. Supports the current NicoNico video service, dark mode, and Android 16, with additional feature improvements.",
+    "id": "1f96f03f1cfcbc691bf8efbb:0",
+    "legacy_id": 11790,
+    "metadata_status": "stale",
+    "name": "nicoid Re",
+    "options": [],
+    "packages": [
+      {
+        "name": "nicoid",
+        "versions": [
+          "6.49"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.2",
+    "source_id": "39a7769dab96ea9f"
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Swaps Facebook's blue on links, buttons, switches and the selected tab for a color you like better. Nothing changes until you pick one. Pick a color in Hushfacebook settings > Appearance.",
+    "id": "254f56da92322b30056b3014:0",
+    "legacy_id": 11791,
+    "metadata_status": "verified",
+    "name": "Accent color",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Lets you take screenshots and screen recordings on the pages where Facebook blocks them, so you can keep a copy of what's on screen. Starts off. Turn it on in Hushfacebook settings > Privacy.",
+    "id": "254f56da92322b30056b3014:1",
+    "legacy_id": 11792,
+    "metadata_status": "verified",
+    "name": "Allow screenshots",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Makes Facebook's dark mode black, or a dark color you pick, instead of dark gray, which can save battery on OLED screens. Turn on dark mode in Facebook first. It isn't selected by default because undoing it means patching again. Turn on Expert mode in Manager to pick it.",
+    "id": "254f56da92322b30056b3014:2",
+    "legacy_id": 11793,
+    "metadata_status": "verified",
+    "name": "AMOLED black theme",
+    "options": [
+      {
+        "default": "#000000",
+        "description": "The color dark mode's backgrounds use, as a six-digit color code (#RRGGBB), like #0D1117. Leave it blank for black. Cards and inputs get a slightly lighter shade. Grays up to about #535353 work, and lighter colors are refused so text stays readable.",
+        "key": "backgroundColour",
+        "required": false,
+        "title": "Background color",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Stops Facebook watching for screenshots of ads and reporting which apps you install after seeing ads, so less of what you do feeds its ad tracking. Works as soon as you patch it in, with no switch.",
+    "id": "254f56da92322b30056b3014:3",
+    "legacy_id": 11794,
+    "metadata_status": "verified",
+    "name": "Block ad telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Stops Facebook downloading ads and ad data in the background before you ever see them, which saves mobile data and battery. Works as soon as you patch it in, with no switch.",
+    "id": "254f56da92322b30056b3014:4",
+    "legacy_id": 11795,
+    "metadata_status": "verified",
+    "name": "Block background ad prefetch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Keeps your place in the feed when you come back to Facebook within ten minutes, or any time with No time limit on, so you don't lose what you were reading. Starts off. Turn it on in Hushfacebook settings > News feed.",
+    "id": "254f56da92322b30056b3014:5",
+    "legacy_id": 11796,
+    "metadata_status": "verified",
+    "name": "Block background-return feed refresh",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Games you play inside Facebook show no ads, so you can keep playing without breaks. A rewarded ad gives no reward unless you also turn on the switch that counts it as watched. On by default. Turn it off in Hushfacebook settings > Menu.",
+    "id": "254f56da92322b30056b3014:6",
+    "legacy_id": 11797,
+    "metadata_status": "verified",
+    "name": "Block Instant Games ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Blocks the kinds of notification you pick, such as trending videos, memories and birthdays, so you get fewer pings you don't care about. Messages, friend requests, comments and login alerts always come through. Starts off. Turn on the kinds you want in Hushfacebook settings > Notifications.",
+    "id": "254f56da92322b30056b3014:7",
+    "legacy_id": 11798,
+    "metadata_status": "verified",
+    "name": "Block promotional notifications",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Stops Facebook noticing when you take a screenshot or record the screen, in the feed, Reels, chats and everywhere else, so it can't react to it. Starts off. Turn it on in Hushfacebook settings > Privacy.",
+    "id": "254f56da92322b30056b3014:8",
+    "legacy_id": 11799,
+    "metadata_status": "verified",
+    "name": "Block screenshot detection",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Tidies Chats inside Facebook. One switch empties the row of notes and who's active above your chats, and another removes promotional banners like the one asking you to turn on notifications. Your chats stay. Starts off. Turn on the parts you want in Hushfacebook settings > Chats.",
+    "id": "254f56da92322b30056b3014:9",
+    "legacy_id": 11800,
+    "metadata_status": "verified",
+    "name": "Clean up Facebook's chat list",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Hides clutter on reels, such as the Follow button, comment previews, Remix and Use template buttons and Threads cards between reels, so more of the video shows, and can play each reel once instead of over and over. Starts off. Turn on the parts you want in Hushfacebook settings > Reels and Watch.",
+    "id": "254f56da92322b30056b3014:10",
+    "legacy_id": 11801,
+    "metadata_status": "verified",
+    "name": "Clean up Reels",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Small fixes for comments. Stop a long press on Like from opening reactions, hide the GIF and sticker buttons, show every reply without tapping View replies, and hide Related groups under group posts. Starts off. Turn on the parts you want in Hushfacebook settings > Comments.",
+    "id": "254f56da92322b30056b3014:11",
+    "legacy_id": 11802,
+    "metadata_status": "verified",
+    "name": "Comment sheet options",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Opens comments in the order you choose, Most relevant, Newest or All comments, instead of the one Facebook picks. Handy if you always want the newest first. Starts off. Turn it on and pick an order in Hushfacebook settings > Comments.",
+    "id": "254f56da92322b30056b3014:12",
+    "legacy_id": 11803,
+    "metadata_status": "verified",
+    "name": "Default comment order",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Plays videos, reels and video stories at the quality you choose, such as Data saver or up to 720p, instead of what Facebook picks. Lower saves data, higher looks sharper. Starts off. Turn it on and pick a quality in Hushfacebook settings > Playback.",
+    "id": "254f56da92322b30056b3014:13",
+    "legacy_id": 11804,
+    "metadata_status": "verified",
+    "name": "Default playback quality",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Stops Facebook serving its ads inside other apps on your phone. Those apps show their own ads or none, and their rewarded ads may fail. Works as soon as you patch it in, with no switch.",
+    "id": "254f56da92322b30056b3014:14",
+    "legacy_id": 11805,
+    "metadata_status": "verified",
+    "name": "Disable Audience Network",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Stops Google Play offering Facebook updates, which a patched app can't take anyway. It isn't selected by default because once it's installed, a build without it can't install over it. It doesn't work on a Root Mount install. Turn on Expert mode in Manager to pick it.",
+    "id": "254f56da92322b30056b3014:15",
+    "legacy_id": 11806,
+    "metadata_status": "verified",
+    "name": "Disable Play Store updates",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Stops sending Facebook the list of reels you've watched, so it learns less about what you watch. Reels you've already seen may come back. Starts off. Turn it on in Hushfacebook settings > Reels and Watch.",
+    "id": "254f56da92322b30056b3014:16",
+    "legacy_id": 11807,
+    "metadata_status": "verified",
+    "name": "Don't send reel watch history",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Shows Save photo on every photo you open, even where the poster turned saving off, and saves the largest size so you get the best copy. On by default. Turn it off in Hushfacebook settings > Downloads.",
+    "id": "254f56da92322b30056b3014:17",
+    "legacy_id": 11808,
+    "metadata_status": "verified",
+    "name": "Download any photo",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Adds a Download button beside every reel and a Download row to its More menu, so you can keep reels on your phone. Videos save at the quality you set, best by default. On by default. Turn it off in Hushfacebook settings > Reels and Watch.",
+    "id": "254f56da92322b30056b3014:18",
+    "legacy_id": 11809,
+    "metadata_status": "verified",
+    "name": "Download any reel",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Adds Save to the menu of any story, including stories with music, so you can keep the ones you like. Videos save at the quality you set, best by default. On by default. Turn it off in Hushfacebook settings > Stories.",
+    "id": "254f56da92322b30056b3014:19",
+    "legacy_id": 11810,
+    "metadata_status": "verified",
+    "name": "Download any story",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Adds Download to phone to the menu of videos in the feed and in Watch, so you can save them to watch later. Videos save at the quality you set, best by default. Starts off. Turn it on in Hushfacebook settings > Downloads.",
+    "id": "254f56da92322b30056b3014:20",
+    "legacy_id": 11811,
+    "metadata_status": "verified",
+    "name": "Download any video",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Makes Home show the newest posts from the friends, groups and Pages you follow instead of Facebook's ranked feed, so you see what they posted rather than what Facebook picks. Starts off. Turn it on in Hushfacebook settings > Opening Facebook.",
+    "id": "254f56da92322b30056b3014:21",
+    "legacy_id": 11812,
+    "metadata_status": "verified",
+    "name": "Following feed on Home",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Keeps Facebook in dark mode whatever its own setting says. Useful on tablets, where Facebook's settings have no Dark mode. Starts off. Turn it on in Hushfacebook settings > Appearance, then restart Facebook.",
+    "id": "254f56da92322b30056b3014:22",
+    "legacy_id": 11813,
+    "metadata_status": "verified",
+    "name": "Force dark mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Removes the shopping cards that affiliate links add to reels, feed posts and comments, plus Shop now cards on reels, so you see fewer sales pitches while you scroll. On by default. Turn it off in Hushfacebook settings > News feed.",
+    "id": "254f56da92322b30056b3014:23",
+    "legacy_id": 11814,
+    "metadata_status": "verified",
+    "name": "Hide affiliate product links",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Removes posts and reels Facebook marked as made with AI, posts creators labeled as AI, posts with Meta's AI characters and Meta AI cards in the feed. Only the Meta AI cards switch starts on. Change them in Hushfacebook settings > News feed and Reels and Watch.",
+    "id": "254f56da92322b30056b3014:24",
+    "legacy_id": 11815,
+    "metadata_status": "verified",
+    "name": "Hide AI-detected posts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Hides the Upgrades and Also from Meta sections and the Muse card in Facebook's Menu, so the Menu has fewer ads for Meta's products. Settings, Help and your shortcuts stay. On by default. Turn it off in Hushfacebook settings > Menu.",
+    "id": "254f56da92322b30056b3014:25",
+    "legacy_id": 11816,
+    "metadata_status": "verified",
+    "name": "Hide Menu promotions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Removes Meta AI's summary of the comments from the top of the comment sheet and from under posts, so you read what people actually wrote. Starts off. Turn it on in Hushfacebook settings > Comments.",
+    "id": "254f56da92322b30056b3014:26",
+    "legacy_id": 11817,
+    "metadata_status": "verified",
+    "name": "Hide Meta AI comment summaries",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Removes the Meta AI answer and Ask Meta AI prompts from search results, and stops suggestions from sending your search to Meta AI. You get plain results for people, groups, Pages and posts. On by default. Turn it off in Hushfacebook settings > Search.",
+    "id": "254f56da92322b30056b3014:27",
+    "legacy_id": 11818,
+    "metadata_status": "verified",
+    "name": "Hide Meta AI in search",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Removes the row of Meta AI questions Facebook adds under some posts, for a cleaner feed. The post and its buttons stay. On by default. Turn it off in Hushfacebook settings > News feed.",
+    "id": "254f56da92322b30056b3014:28",
+    "legacy_id": 11819,
+    "metadata_status": "verified",
+    "name": "Hide Meta AI questions under posts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Hides Meta's pushes for its other products, such as Edits, Threads cross-posting, Meta Verified, avatar stickers and Meta AI's Imagine, so you see fewer sales pitches. Starts off. Turn on the parts you want in Hushfacebook settings > Meta's other products.",
+    "id": "254f56da92322b30056b3014:29",
+    "legacy_id": 11820,
+    "metadata_status": "verified",
+    "name": "Hide Meta upsells",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Removes the strip Facebook adds to some posts, like \"Are you interested in this post?\", \"Show less\" or follow suggestions, so posts look less cluttered. No gap is left. On by default. Turn it off in Hushfacebook settings > News feed. A second switch there, Hide the Follow link on posts, starts off.",
+    "id": "254f56da92322b30056b3014:30",
+    "legacy_id": 11821,
+    "metadata_status": "verified",
+    "name": "Hide post prompts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Hides feed posts with words you list, or from people, Pages or sites you list, so you skip topics you're tired of. Photo, video, link and colored background posts can go too. Starts off. Turn it on in Hushfacebook settings > News feed.",
+    "id": "254f56da92322b30056b3014:31",
+    "legacy_id": 11822,
+    "metadata_status": "verified",
+    "name": "Hide posts by words",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "People you chat with in chats that open inside Facebook don't see that you've read their messages, so you can read now and reply later. Replying may still show you've read it. Starts off. Turn it on in Hushfacebook settings > Privacy.",
+    "id": "254f56da92322b30056b3014:32",
+    "legacy_id": 11823,
+    "metadata_status": "verified",
+    "name": "Hide read receipts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Removes the \"Are you interested in this reel?\" prompt, so reels play without the interruption. On by default. Turn it off in Hushfacebook settings > Reels and Watch.",
+    "id": "254f56da92322b30056b3014:33",
+    "legacy_id": 11824,
+    "metadata_status": "verified",
+    "name": "Hide reel interest prompts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Removes the rows of reels between posts and the reels Facebook adds where your feed ends, so the feed sticks to posts. A reel a friend posts stays. Starts off. Turn it on in Hushfacebook settings > News feed.",
+    "id": "254f56da92322b30056b3014:34",
+    "legacy_id": 11825,
+    "metadata_status": "verified",
+    "name": "Hide Reels in the feed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Keeps posts you've already scrolled past out of the feed when it loads again, for 1, 3, 7 or 30 days, so you see something new. The list stays on your phone. Starts off. Turn it on in Hushfacebook settings > News feed.",
+    "id": "254f56da92322b30056b3014:35",
+    "legacy_id": 11826,
+    "metadata_status": "verified",
+    "name": "Hide seen posts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Removes ads and boosted listings from Marketplace's feed and search results, so you see more of what people are selling. Listings people post stay. On by default. Turn it off in Hushfacebook settings > Marketplace.",
+    "id": "254f56da92322b30056b3014:36",
+    "legacy_id": 11827,
+    "metadata_status": "verified",
+    "name": "Hide sponsored Marketplace listings",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Removes sponsored and promoted posts from the news feed, with no gap left behind, so you see fewer ads. It also keeps the floating ad button off an ad's comments. On by default. Turn it off in Hushfacebook settings > News feed.",
+    "id": "254f56da92322b30056b3014:37",
+    "legacy_id": 11828,
+    "metadata_status": "verified",
+    "name": "Hide sponsored posts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Removes the ads between posts on someone's profile or a Page, so you only see what they posted. On by default. Turn it off in Hushfacebook settings > News feed.",
+    "id": "254f56da92322b30056b3014:38",
+    "legacy_id": 11829,
+    "metadata_status": "verified",
+    "name": "Hide sponsored profile posts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Removes ads from Reels and Watch, including product banners over reels and ads in the middle of videos, so you can watch without interruptions. On by default. Turn it off in Hushfacebook settings > Reels and Watch.",
+    "id": "254f56da92322b30056b3014:39",
+    "legacy_id": 11830,
+    "metadata_status": "verified",
+    "name": "Hide sponsored reels",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Removes the ads from Facebook's search results, so you see the people, Pages and posts you searched for. On by default. Turn it off in Hushfacebook settings > Search.",
+    "id": "254f56da92322b30056b3014:40",
+    "legacy_id": 11831,
+    "metadata_status": "verified",
+    "name": "Hide sponsored search results",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Removes ad cards from the story viewer, so swiping through stories shows only what people posted. On by default. Turn it off in Hushfacebook settings > Stories.",
+    "id": "254f56da92322b30056b3014:41",
+    "legacy_id": 11832,
+    "metadata_status": "verified",
+    "name": "Hide sponsored stories",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Hides the row of stories at the top of the feed, the stories between posts, or the \"What's on your mind?\" row at the top of Home, so you reach posts sooner. Starts off. Turn on the parts you want in Hushfacebook settings > News feed.",
+    "id": "254f56da92322b30056b3014:42",
+    "legacy_id": 11833,
+    "metadata_status": "verified",
+    "name": "Hide Stories tray",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Removes what Facebook adds to the feed besides ads, like \"Suggested for you\" posts, \"People you may know\" and suggested groups, so you see more from people you follow. Most of its switches are on by default. Change them in Hushfacebook settings > News feed.",
+    "id": "254f56da92322b30056b3014:43",
+    "legacy_id": 11834,
+    "metadata_status": "verified",
+    "name": "Hide suggested and promoted posts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Removes stories Facebook suggests from people and Pages you don't follow, and the \"Find friends from contacts\" card, so the Stories tray sticks to people you know. On by default. Turn it off in Hushfacebook settings > Stories.",
+    "id": "254f56da92322b30056b3014:44",
+    "legacy_id": 11835,
+    "metadata_status": "verified",
+    "name": "Hide suggested stories",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Takes the dot and count off the tabs you pick, and Facebook's count off its app icon, so the app nags you less. Notifications still arrive and still show in the Notifications tab. Starts off. Turn on the ones you want in Hushfacebook settings > Appearance.",
+    "id": "254f56da92322b30056b3014:45",
+    "legacy_id": 11836,
+    "metadata_status": "verified",
+    "name": "Hide tab badges",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Takes the tabs you pick off the tab bar, such as Friends, Marketplace, Groups, Gaming or Events, so the bar only has what you use. Each page stays in the Menu. Starts off. Turn on the ones you want in Hushfacebook settings > Appearance, then restart Facebook.",
+    "id": "254f56da92322b30056b3014:46",
+    "legacy_id": 11837,
+    "metadata_status": "verified",
+    "name": "Hide tabs",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Takes the title row and the All, Favorites, Friends, Groups and Pages filters off the top of the Feeds tab, so it opens straight on posts. Starts off. Turn it on in Hushfacebook settings > News feed, then restart Facebook.",
+    "id": "254f56da92322b30056b3014:47",
+    "legacy_id": 11838,
+    "metadata_status": "verified",
+    "name": "Hide the Feeds header",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Hides the \"Get the Messenger app\" card at the top of Chats when Messenger is already installed. A patched Facebook may not see that Messenger is there, so it keeps showing the card. On by default. Turn it off in Hushfacebook settings > Chats.",
+    "id": "254f56da92322b30056b3014:48",
+    "legacy_id": 11839,
+    "metadata_status": "verified",
+    "name": "Hide the Get Messenger card",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Takes the Reels tab, called Video on some accounts, off the tab bar, so Reels isn't one tap away. Reels in your feed and reel links still open. Starts off. Turn it on in Hushfacebook settings > Reels and Watch, then restart Facebook.",
+    "id": "254f56da92322b30056b3014:49",
+    "legacy_id": 11840,
+    "metadata_status": "verified",
+    "name": "Hide the Reels tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Takes the new-item dot and count off the Reels tab, called Video on some accounts, so it stops calling for your attention. Other tabs keep theirs. On by default. Turn it off in Hushfacebook settings > Reels and Watch.",
+    "id": "254f56da92322b30056b3014:50",
+    "legacy_id": 11841,
+    "metadata_status": "verified",
+    "name": "Hide the Reels tab dot",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Others don't see that you're typing, in chats that open inside Facebook and in comment boxes, so you can write without anyone watching. Your messages send as usual. Starts off. Turn on the parts you want in Hushfacebook settings > Privacy.",
+    "id": "254f56da92322b30056b3014:51",
+    "legacy_id": 11842,
+    "metadata_status": "verified",
+    "name": "Hide typing indicator",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Hold a reel to play it at double speed, and let go to go back to normal. Handy for skimming. The reel's more button still opens Facebook's long-press menu. Starts off. Turn it on in Hushfacebook settings > Reels and Watch.",
+    "id": "254f56da92322b30056b3014:52",
+    "legacy_id": 11843,
+    "metadata_status": "verified",
+    "name": "Hold a reel for 2x",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Stops Facebook sending its usage reports in the background and skips the learning jobs it runs on your phone, so less about how you use the app leaves it. Starts off. Turn it on in Hushfacebook settings > Privacy, then restart Facebook.",
+    "id": "254f56da92322b30056b3014:53",
+    "legacy_id": 11844,
+    "metadata_status": "verified",
+    "name": "Hold back analytics uploads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Adds a Hushfacebook settings row to Facebook's Menu, at the end of Settings and privacy, so the settings are easy to find. A Saved row joins it while the Saved shortcut switch is on. Works as soon as you patch it in, with no switch.",
+    "id": "254f56da92322b30056b3014:54",
+    "legacy_id": 11845,
+    "metadata_status": "verified",
+    "name": "Hushfacebook in the Menu",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds Hushfacebook settings to Facebook, where you turn features on or off, pause Hushfacebook and back up your choices. To open them, long-press the Facebook logo at the top of your feed or Facebook's app icon. Other patches need it, so keep it selected.",
+    "id": "254f56da92322b30056b3014:55",
+    "legacy_id": 11846,
+    "metadata_status": "verified",
+    "name": "Hushfacebook settings",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Lets the official Messenger, Facebook Lite, Business Suite and Workplace install next to your patched Facebook. Without it, Android refuses them because they share two permissions with Facebook. Root Mount installs don't need it. Works as soon as you patch it in, with no switch.",
+    "id": "254f56da92322b30056b3014:56",
+    "legacy_id": 11847,
+    "metadata_status": "verified",
+    "name": "Install beside Meta's apps",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Keeps the date under the poster's name, so you can always tell how old a post is. Facebook's newer header can swap it for rotating details, and on some phones the line goes blank. On by default. Turn it off in Hushfacebook settings > News feed.",
+    "id": "254f56da92322b30056b3014:57",
+    "legacy_id": 11848,
+    "metadata_status": "verified",
+    "name": "Keep post dates",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Keeps a reel's progress bar full size, so you can drag it without tapping first, and keeps a full-screen video's controls on screen until you tap. Starts off. Turn it on in Hushfacebook settings > Playback.",
+    "id": "254f56da92322b30056b3014:58",
+    "legacy_id": 11849,
+    "metadata_status": "verified",
+    "name": "Keep the progress bar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "A speed you pick in a reel's menu stays for the next reels until Facebook restarts, so you don't set it every time. On by default. A second switch for feed and Watch videos starts off. Both are in Hushfacebook settings > Reels and Watch.",
+    "id": "254f56da92322b30056b3014:59",
+    "legacy_id": 11850,
+    "metadata_status": "verified",
+    "name": "Keep the reel speed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings",
+      "Open on a chosen tab",
+      "Hushfacebook in the Menu",
+      "Block promotional notifications"
+    ],
+    "description": "Turns Facebook into a Marketplace app for buying and selling without the feed. The tab bar keeps only Marketplace, Notifications and your profile or Menu, and Facebook opens on Marketplace. Starts off. Turn it on in Hushfacebook settings > Opening Facebook, then restart Facebook.",
+    "id": "254f56da92322b30056b3014:60",
+    "legacy_id": 11851,
+    "metadata_status": "verified",
+    "name": "Marketplace only",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Gives Facebook's dark mode the colors of your wallpaper on Android 12 and newer, so it matches your phone. Turn on dark mode in Facebook first. It isn't selected by default because undoing it means patching again. Turn on Expert mode in Manager to pick it.",
+    "id": "254f56da92322b30056b3014:61",
+    "legacy_id": 11852,
+    "metadata_status": "verified",
+    "name": "Material You theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Opens web links in your own browser instead of Facebook's built-in one, without Facebook tracking the click. Facebook pages still open in the app. On by default. Turn it off in Hushfacebook settings > Links.",
+    "id": "254f56da92322b30056b3014:62",
+    "legacy_id": 11853,
+    "metadata_status": "verified",
+    "name": "Open links in external browser",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Makes the Messenger icon at the top of Facebook open the Messenger app instead of Facebook's own Chats, if you'd rather chat in Messenger. Without Messenger installed, Chats opens as before. Starts off. Turn it on in Hushfacebook settings > Chats.",
+    "id": "254f56da92322b30056b3014:63",
+    "legacy_id": 11854,
+    "metadata_status": "verified",
+    "name": "Open Messenger from the top bar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Opens Facebook on the tab you pick when you start it from its icon, so you can skip the feed. It's Marketplace unless you change it. Starts off. Turn it on in Hushfacebook settings > Opening Facebook.",
+    "id": "254f56da92322b30056b3014:64",
+    "legacy_id": 11855,
+    "metadata_status": "verified",
+    "name": "Open on a chosen tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Keeps reels and videos from the Reels and Video tabs, or full screen, playing in a small window when you leave Facebook, so you can watch while using another app. Needs Android 12 or later. Starts off. Turn it on in Hushfacebook settings > Playback.",
+    "id": "254f56da92322b30056b3014:65",
+    "legacy_id": 11856,
+    "metadata_status": "verified",
+    "name": "Picture-in-picture",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Fixes profiles, photos, posts and some Settings pages that won't open on a patched Facebook, and lets a Messenger or Facebook Lite patched in the same Manager sign in through it. Root Mount installs don't need it. Works as soon as you patch it in, with no switch.",
+    "id": "254f56da92322b30056b3014:66",
+    "legacy_id": 11857,
+    "metadata_status": "verified",
+    "name": "Restore screens on re-signed builds",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "A video longer than two minutes picks up where you left off the next time it plays, in the feed or full screen, so you don't lose your place. Reels, live videos and ads start as usual. Starts off. Turn it on in Hushfacebook settings > Playback.",
+    "id": "254f56da92322b30056b3014:67",
+    "legacy_id": 11858,
+    "metadata_status": "verified",
+    "name": "Resume long videos",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Takes Facebook's tracking tags off links you share or copy, so you share a clean link. A facebook.com/share/ link is made for one share, so Facebook can still trace that kind back to you, and a switch that starts off shares the post's own link in its place. On by default. Both are in Hushfacebook settings > Links.",
+    "id": "254f56da92322b30056b3014:68",
+    "legacy_id": 11859,
+    "metadata_status": "verified",
+    "name": "Sanitize sharing links",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "254f56da92322b30056b3014",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "582.0.0.50.54"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Photos and videos you send from chats that open inside Facebook go out as the originals instead of smaller copies, so they arrive sharp. Very large files are still shrunk. Starts off. Turn it on in Hushfacebook settings > Chats.",
+    "id": "254f56da92322b30056b3014:69",
+    "legacy_id": 11860,
+    "metadata_status": "verified",
+    "name": "Send chat photos and videos at original quality",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "582.0.0.50.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.9.0",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "2852d747deb928a3dcb7018f",
+    "compatiblePackages": {
+      "org.telegram.messenger.web": [
+        "12.8.3",
+        "12.10.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Keeps view-once and self-destructing media viewable forever; the sender sees them as expired.",
+    "id": "2852d747deb928a3dcb7018f:0",
+    "legacy_id": 11861,
+    "metadata_status": "verified",
+    "name": "Anti-disappearing media",
+    "options": [],
+    "packages": [
+      {
+        "name": "org.telegram.messenger.web",
+        "versions": [
+          "12.8.3",
+          "12.10.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.1",
+    "source_id": "f4b7e4980dced090",
+    "use": true
+  },
+  {
+    "bundle_id": "2852d747deb928a3dcb7018f",
+    "compatiblePackages": {
+      "com.mygate.user": [
+        "7.37.0",
+        "7.38.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes home feed advertisements and sponsored community notice cards.",
+    "id": "2852d747deb928a3dcb7018f:1",
+    "legacy_id": 11862,
+    "metadata_status": "verified",
+    "name": "Block Flutter Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.mygate.user",
+        "versions": [
+          "7.37.0",
+          "7.38.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.1",
+    "source_id": "f4b7e4980dced090",
+    "use": true
+  },
+  {
+    "bundle_id": "2852d747deb928a3dcb7018f",
+    "compatiblePackages": {
+      "com.amazon.amazonvideo.livingroom": [
+        "6.23.23+v15.5.0.70-armv7a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Packages the Prime Video libignite interception library for this APK's ABIs.",
+    "id": "2852d747deb928a3dcb7018f:2",
+    "legacy_id": 11863,
+    "metadata_status": "verified",
+    "name": "Bundle native ad-strip hook",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.amazon.amazonvideo.livingroom",
+        "versions": [
+          "6.23.23+v15.5.0.70-armv7a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.1",
+    "source_id": "f4b7e4980dced090",
+    "use": true
+  },
+  {
+    "bundle_id": "2852d747deb928a3dcb7018f",
+    "compatiblePackages": {
+      "com.amazon.amazonvideo.livingroom": [
+        "6.24.5+v16.0.0.231-allAbis",
+        "6.24.8+v16.0.0.361-allAbis"
+      ]
+    },
+    "dependencies": [],
+    "description": "Packages the Prime Video libignite interception library for this APK's ABIs.",
+    "id": "2852d747deb928a3dcb7018f:3",
+    "legacy_id": 11864,
+    "metadata_status": "verified",
+    "name": "Bundle native ad-strip hook",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.amazon.amazonvideo.livingroom",
+        "versions": [
+          "6.24.5+v16.0.0.231-allAbis",
+          "6.24.8+v16.0.0.361-allAbis"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.1",
+    "source_id": "f4b7e4980dced090",
+    "use": true
+  },
+  {
+    "bundle_id": "2852d747deb928a3dcb7018f",
+    "compatiblePackages": {
+      "com.amazon.amazonvideo.livingroom": [
+        "6.23.23+v15.5.0.70-armv7a",
+        "6.24.5+v16.0.0.231-allAbis",
+        "6.24.8+v16.0.0.361-allAbis"
+      ]
+    },
+    "dependencies": [],
+    "description": "Renames the package to <original>.mod (and its provider authorities / custom permissions) so the patched app installs side-by-side with a non-removable system Prime Video. Opt-in.",
+    "id": "2852d747deb928a3dcb7018f:4",
+    "legacy_id": 11865,
+    "metadata_status": "verified",
+    "name": "Clone Prime Video",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.amazon.amazonvideo.livingroom",
+        "versions": [
+          "6.23.23+v15.5.0.70-armv7a",
+          "6.24.5+v16.0.0.231-allAbis",
+          "6.24.8+v16.0.0.361-allAbis"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0-dev.1",
+    "source_id": "f4b7e4980dced090",
+    "use": false
+  }
+]

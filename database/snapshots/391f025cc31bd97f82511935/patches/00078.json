@@ -1,0 +1,2826 @@
+[
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Bytecode engine for Spicetify Custom Accent Color",
+    "id": "abf0ca00e47d9d3a20688158:357",
+    "legacy_id": 8023,
+    "metadata_status": "unverified",
+    "name": "Spicetify Custom Accent Color Bytecode",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#1DB954",
+        "description": "Spotify: Music and Podcasts by Spotify AB",
+        "name": "Spotify",
+        "packageName": "com.spotify.music",
+        "targets": [
+          {
+            "isExperimental": true,
+            "version": "9.1.84.2231"
+          }
+        ],
+        "versions": [
+          "9.1.84.2231"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Attempts to hide Premium upgrade prompts and promotional elements. NOTE: Spotify uses server-driven UI and code obfuscation; some banners are injected directly from Spotify backend.",
+    "id": "abf0ca00e47d9d3a20688158:358",
+    "legacy_id": 8024,
+    "metadata_status": "unverified",
+    "name": "Spicetify Declutter UI - Spotify (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Spotify",
+        "versions": [
+          "9.1.84.2231"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FF0000",
+        "description": "YouTube: Watch, Stream & Discover Videos by Google LLC",
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Automatically detects and skips sponsored video segments, sponsor intros/outros, self-promotions, interaction reminders, and filler music in YouTube videos via the community SponsorBlock API.",
+    "id": "abf0ca00e47d9d3a20688158:359",
+    "legacy_id": 8025,
+    "metadata_status": "unverified",
+    "name": "SponsorBlock - YouTube (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FF0000",
+        "description": "YouTube: Watch, Stream & Discover Videos by Google LLC",
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to trick the app into thinking you are running an older version.",
+    "id": "abf0ca00e47d9d3a20688158:360",
+    "legacy_id": 8026,
+    "metadata_status": "unverified",
+    "name": "Spoof app version - YouTube (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FF0000",
+        "description": "YouTube: Watch, Stream & Discover Videos by Google LLC",
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds an option to spoof the device dimensions which can unlock higher video qualities.",
+    "id": "abf0ca00e47d9d3a20688158:361",
+    "legacy_id": 8027,
+    "metadata_status": "unverified",
+    "name": "Spoof device dimensions - YouTube (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FF4500",
+        "description": "Reddit: The front page of the internet by reddit Inc.",
+        "name": "Reddit",
+        "packageName": "com.reddit.frontpage",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Spoofs the signature of the app to fix notification issues.",
+    "id": "abf0ca00e47d9d3a20688158:362",
+    "legacy_id": 8028,
+    "metadata_status": "unverified",
+    "name": "Spoof signature - Reddit (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FF0000",
+        "description": "YouTube: Watch, Stream & Discover Videos by Google LLC",
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds options to spoof the client video streams to fix playback.",
+    "id": "abf0ca00e47d9d3a20688158:363",
+    "legacy_id": 8029,
+    "metadata_status": "unverified",
+    "name": "Spoof video streams - YouTube (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FF4500",
+        "description": "Reddit: The front page of the internet by reddit Inc.",
+        "name": "Reddit",
+        "packageName": "com.reddit.frontpage",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Skips the forced startup login screen using Reddit's native guest browsing mode.",
+    "id": "abf0ca00e47d9d3a20688158:364",
+    "legacy_id": 8030,
+    "metadata_status": "unverified",
+    "name": "Start as guest - Reddit (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FFFC00",
+        "description": "Snapchat by Snap Inc",
+        "name": "Snapchat",
+        "packageName": "com.snapchat.android",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Configures Snapchat to launch directly on the Chat conversation feed instead of opening the battery-draining camera viewfinder on startup.",
+    "id": "abf0ca00e47d9d3a20688158:365",
+    "legacy_id": 8031,
+    "metadata_status": "unverified",
+    "name": "Start on Chat & Battery Saver - Snapchat (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#E1306C",
+        "description": "Instagram by Meta Platforms Inc.",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Enhances application behavior and unlocks additional user controls.",
+    "id": "abf0ca00e47d9d3a20688158:366",
+    "legacy_id": 8032,
+    "metadata_status": "unverified",
+    "name": "Stories audio autoplay - Instagram (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FF0000",
+        "description": "YouTube: Watch, Stream & Discover Videos by Google LLC",
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Enables intuitive vertical swipe gestures during fullscreen video playback to adjust volume (right side) and brightness (left side).",
+    "id": "abf0ca00e47d9d3a20688158:367",
+    "legacy_id": 8033,
+    "metadata_status": "unverified",
+    "name": "Swipe Controls - YouTube (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#E1306C",
+        "description": "Instagram by Meta Platforms Inc.",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds Material You and AMOLED controls to Piko settings on Android 12 and later. On Android 8–11, it applies a fixed Material You-style theme or an optional AMOLED theme.",
+    "id": "abf0ca00e47d9d3a20688158:368",
+    "legacy_id": 8034,
+    "metadata_status": "unverified",
+    "name": "Theme - Instagram (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FF0000",
+        "description": "YouTube: Watch, Stream & Discover Videos by Google LLC",
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds options for theming, and settings to change the app foreground and background colors.",
+    "id": "abf0ca00e47d9d3a20688158:369",
+    "legacy_id": 8035,
+    "metadata_status": "unverified",
+    "name": "Theme - YouTube (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Injects true OLED pitch black (#000000) into UI background surfaces, replacing dark grey tones to maximize battery savings and contrast on AMOLED displays for any app.",
+    "id": "abf0ca00e47d9d3a20688158:370",
+    "legacy_id": 8036,
+    "metadata_status": "unverified",
+    "name": "Universal AMOLED Black Theme (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Enables side-by-side dual installation for any app, allowing the official unmodified app and the patched version to run simultaneously on the same device without signature or provider collisions.",
+    "id": "abf0ca00e47d9d3a20688158:371",
+    "legacy_id": 8037,
+    "metadata_status": "unverified",
+    "name": "Universal App Clone (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Bypasses Google Play Store installer source verification ('Download this app from Google Play' dialogs), preventing forced redirects to the Play Store when running sideloaded or patched APKs (such as VPN apps, tools, and games).",
+    "id": "abf0ca00e47d9d3a20688158:372",
+    "legacy_id": 8038,
+    "metadata_status": "unverified",
+    "name": "Universal Bypass Play Store Install Check (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Silences haptic motor vibrations across any app, eliminating unnecessary vibration buzzes and conserving battery power.",
+    "id": "abf0ca00e47d9d3a20688158:373",
+    "legacy_id": 8039,
+    "metadata_status": "unverified",
+    "name": "Universal Disable Haptics & Vibration (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks screen orientation restrictions across any app, allowing portrait-only applications and games to freely rotate into landscape mode for tablets, foldables, and car units.",
+    "id": "abf0ca00e47d9d3a20688158:374",
+    "legacy_id": 8040,
+    "metadata_status": "unverified",
+    "name": "Universal Enable Screen Rotation (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Forces high refresh rate display mode (90Hz, 120Hz, or 144Hz) in apps and games by configuring WindowManager.LayoutParams.preferredRefreshRate and hooking framerate getters.",
+    "id": "abf0ca00e47d9d3a20688158:375",
+    "legacy_id": 8041,
+    "metadata_status": "unverified",
+    "name": "Universal High Refresh Rate 120Hz (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Prevents the device display from automatically turning off or dimming while the patched app is open in the foreground (ideal for reading, recipes, and monitoring).",
+    "id": "abf0ca00e47d9d3a20688158:376",
+    "legacy_id": 8042,
+    "metadata_status": "unverified",
+    "name": "Universal Keep Screen On (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Enables Chrome Developer Tools inspection (chrome://inspect) on all internal WebViews across any hybrid application or game.",
+    "id": "abf0ca00e47d9d3a20688158:377",
+    "legacy_id": 8043,
+    "metadata_status": "unverified",
+    "name": "Universal WebView Debugging (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#00C4CC",
+        "description": "Canva: Design, Photo & Video by Canva",
+        "name": "Canva",
+        "packageName": "com.canva.editor",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Removes the Brand Kit slot limit, allowing unlimited custom color palettes, font sets, and logo libraries without a Canva Pro or Teams subscription.",
+    "id": "abf0ca00e47d9d3a20688158:378",
+    "legacy_id": 8044,
+    "metadata_status": "unverified",
+    "name": "Unlimited Brand Kit Slots - Canva (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#8B0000",
+        "description": "Plague Inc. by Ndemic Creations / Miniclip",
+        "name": "Plague Inc.",
+        "packageName": "com.miniclip.plagueinc",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      },
+      {
+        "appIconColor": "#8B0000",
+        "description": "Plague Inc. by Ndemic Creations",
+        "name": "Plague Inc. (Ndemic)",
+        "packageName": "com.ndemiccreations.plagueinc",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Hooks DNA points balance getter to provide 9999 DNA points and multiplies DNA points earned on orange and red biohazard bubble pops.",
+    "id": "abf0ca00e47d9d3a20688158:379",
+    "legacy_id": 8045,
+    "metadata_status": "unverified",
+    "name": "Unlimited DNA Points & Fast Mutation - Plague Inc. (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#58CC02",
+        "description": "Duolingo: Language Lessons by Duolingo",
+        "name": "Duolingo",
+        "packageName": "com.duolingo",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Disables hearts/lives loss when making mistakes during language lessons in Duolingo, enabling infinite learning sessions without waiting or paywalls.",
+    "id": "abf0ca00e47d9d3a20688158:380",
+    "legacy_id": 8046,
+    "metadata_status": "unverified",
+    "name": "Unlimited Hearts - Duolingo (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#D32F2F",
+        "description": "Angry Birds Classic by Rovio Entertainment",
+        "name": "Angry Birds Classic",
+        "packageName": "com.rovio.baba",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks the Mighty Eagle permanently with zero cooldown timer, and provides unlimited power-ups (Sling Scope, King Sling, Super Seeds, Birdquake).",
+    "id": "abf0ca00e47d9d3a20688158:381",
+    "legacy_id": 8047,
+    "metadata_status": "unverified",
+    "name": "Unlimited Mighty Eagle & Power-ups - Angry Birds Classic (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#4CAF50",
+        "description": "Robbery Bob - Sneaky Sneak by Chillingo / Deca Games",
+        "name": "Robbery Bob",
+        "packageName": "com.chillingo.robberybobfree.android.row",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Disables Bob's sprint exhaustion in Robbery Bob, giving unlimited running stamina to escape guards, residents, and guard dogs without slowing down. (Experimental - Not yet tested on device).",
+    "id": "abf0ca00e47d9d3a20688158:382",
+    "legacy_id": 8048,
+    "metadata_status": "unverified",
+    "name": "Unlimited Sprint & Stamina - Robbery Bob (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#2A2E3D",
+        "description": "Undercover®: Word Party Game by Yanstar Studio OU",
+        "name": "Undercover",
+        "packageName": "com.yanstarstudio.joss.undercover",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks advanced game configuration (custom player counts, exact role distribution sliders for Civilians, Undercover agents, and Mr. White, custom discussion timers, and voting rules).",
+    "id": "abf0ca00e47d9d3a20688158:383",
+    "legacy_id": 8049,
+    "metadata_status": "unverified",
+    "name": "Unlock Advanced Game Settings - Undercover (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#7CB342",
+        "description": "Cut the Rope by ZeptoLab",
+        "name": "Cut the Rope",
+        "packageName": "com.zeptolab.ctr.ads",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks all level boxes, seasons, Om Nom candies, and unlocks unlimited superpowers (candy magnets & telekinesis) in Cut the Rope.",
+    "id": "abf0ca00e47d9d3a20688158:384",
+    "legacy_id": 8050,
+    "metadata_status": "unverified",
+    "name": "Unlock All Boxes & Superpowers - Cut the Rope (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#4CAF50",
+        "description": "Robbery Bob - Sneaky Sneak by Chillingo / Deca Games",
+        "name": "Robbery Bob",
+        "packageName": "com.chillingo.robberybobfree.android.row",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks all chapters and bonus heist levels in Robbery Bob (Suburbs, Secret Labs, Downtown, Felonious Felines) without requiring 3-star level progression. (Experimental - Not yet tested on device).",
+    "id": "abf0ca00e47d9d3a20688158:385",
+    "legacy_id": 8051,
+    "metadata_status": "unverified",
+    "name": "Unlock All Chapters - Robbery Bob (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#2E7D32",
+        "description": "Alto's Adventure by Noodlecake / Team Alto",
+        "name": "Alto's Adventure",
+        "packageName": "com.noodlecake.altosadventure",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks all snowboarders (Maya, Paz, Izel, Felipe, Tupa), workshop items (Llama Horn, Helmets, Chasm Rescues), and coin doublers in Alto's Adventure without spending coins or real money.",
+    "id": "abf0ca00e47d9d3a20688158:386",
+    "legacy_id": 8052,
+    "metadata_status": "unverified",
+    "name": "Unlock All Characters & Workshop - Alto's Adventure (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#D32F2F",
+        "description": "Angry Birds Classic by Rovio Entertainment",
+        "name": "Angry Birds Classic",
+        "packageName": "com.rovio.baba",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks all legendary episodes, level packs, and Golden Egg secret stages in Angry Birds Classic.",
+    "id": "abf0ca00e47d9d3a20688158:387",
+    "legacy_id": 8053,
+    "metadata_status": "unverified",
+    "name": "Unlock All Episodes & Golden Eggs - Angry Birds Classic (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#8B0000",
+        "description": "Plague Inc. by Ndemic Creations / Miniclip",
+        "name": "Plague Inc.",
+        "packageName": "com.miniclip.plagueinc",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      },
+      {
+        "appIconColor": "#8B0000",
+        "description": "Plague Inc. by Ndemic Creations",
+        "name": "Plague Inc. (Ndemic)",
+        "packageName": "com.ndemiccreations.plagueinc",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks all 5 categories of genetic modification genes (DNA genes, Travel genes, Evolution genes, Mutation genes, Environment genes) for every plague.",
+    "id": "abf0ca00e47d9d3a20688158:388",
+    "legacy_id": 8054,
+    "metadata_status": "unverified",
+    "name": "Unlock All Genetic Genes - Plague Inc. (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FFEB3B",
+        "description": "Geometry Dash by RobTop Games",
+        "name": "Geometry Dash",
+        "packageName": "com.robtopx.geometryjump",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks all official levels (including Demon stages), custom icons, ships, balls, UFOs, waves, trails, and colors in Geometry Dash.",
+    "id": "abf0ca00e47d9d3a20688158:389",
+    "legacy_id": 8055,
+    "metadata_status": "unverified",
+    "name": "Unlock All Levels & Icons - Geometry Dash (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#8B0000",
+        "description": "Plague Inc. by Ndemic Creations / Miniclip",
+        "name": "Plague Inc.",
+        "packageName": "com.miniclip.plagueinc",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      },
+      {
+        "appIconColor": "#8B0000",
+        "description": "Plague Inc. by Ndemic Creations",
+        "name": "Plague Inc. (Ndemic)",
+        "packageName": "com.ndemiccreations.plagueinc",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks all standard disease types (Bacteria, Virus, Fungus, Parasite, Prion, Nano-Virus, Bio-Weapon) and special plagues (Neurax Worm, Necroa Virus, Simian Flu, Shadow Plague) without Brutal completion.",
+    "id": "abf0ca00e47d9d3a20688158:390",
+    "legacy_id": 8056,
+    "metadata_status": "unverified",
+    "name": "Unlock All Plagues & Disease Types - Plague Inc. (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#2A2E3D",
+        "description": "Undercover®: Word Party Game by Yanstar Studio OU",
+        "name": "Undercover",
+        "packageName": "com.yanstarstudio.joss.undercover",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Hooks in-app purchase verification, pack enums, and preference stores to unlock all premium word packs (Adult 18+, Pop Culture, Geek, Cinema, Science & History, 50+ languages) and remove all paywalls.",
+    "id": "abf0ca00e47d9d3a20688158:391",
+    "legacy_id": 8057,
+    "metadata_status": "unverified",
+    "name": "Unlock All Word Packs & Premium - Undercover (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#388E3C",
+        "description": "AllTrails: Hike, Bike & Run Outdoor GPS Navigation by AllTrails",
+        "name": "AllTrails",
+        "packageName": "com.alltrails.alltrails",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for AllTrails+ (offline topo map downloads, wrong-turn navigation alerts, and 3D trail previews).",
+    "id": "abf0ca00e47d9d3a20688158:392",
+    "legacy_id": 8058,
+    "metadata_status": "unverified",
+    "name": "Unlock AllTrails+ & Offline Maps - AllTrails (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FB542B",
+        "description": "Brave Browser: Fast, AdBlocker & Private Web Browser by Brave Software",
+        "name": "Brave Browser",
+        "packageName": "com.brave.browser",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Débloque la licence officielle Brave Origin ($59.99), active le mode minimaliste sans bloatware, débloque l'assistant IA Brave Leo Premium en illimité et active les entitlements Brave VPN.",
+    "id": "abf0ca00e47d9d3a20688158:393",
+    "legacy_id": 8059,
+    "metadata_status": "unverified",
+    "name": "Unlock Brave Origin & Premium Features - Brave (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#00C4CC",
+        "description": "Canva: Design, Photo & Video by Canva",
+        "name": "Canva",
+        "packageName": "com.canva.editor",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks Canva Pro premium templates, exclusive fonts, advanced design elements, and premium content library without an active Pro subscription.",
+    "id": "abf0ca00e47d9d3a20688158:394",
+    "legacy_id": 8060,
+    "metadata_status": "unverified",
+    "name": "Unlock Canva Pro Features (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#00A3E0",
+        "description": "hide.me VPN: The Privacy Guard by eVenture Limited",
+        "name": "hide.me VPN",
+        "packageName": "hideme.android.vpn",
+        "targets": [
+          {
+            "isExperimental": true,
+            "version": "6.1.2"
+          }
+        ],
+        "versions": [
+          "6.1.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing and installer check in hide.me VPN. NOTE: Remote VPN server connections and bandwidth require server-side authentication.",
+    "id": "abf0ca00e47d9d3a20688158:395",
+    "legacy_id": 8061,
+    "metadata_status": "unverified",
+    "name": "Unlock Client Features & In-App Purchases - hide.me VPN (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "hide.me VPN",
+        "versions": [
+          "6.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#E60023",
+        "description": "Pinterest: Discover and Save Creative Ideas by Pinterest",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks Pinterest Creator and Pro business dashboard analytics, advanced pin inspector, and rich pin creation preview tools.",
+    "id": "abf0ca00e47d9d3a20688158:396",
+    "legacy_id": 8062,
+    "metadata_status": "unverified",
+    "name": "Unlock Creator & Pro Tools - Pinterest (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#6D4AFF",
+        "description": "Proton VPN: Fast & Secure by Proton AG",
+        "name": "Proton VPN",
+        "packageName": "ch.protonvpn.android",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks custom upstream DNS resolver preferences (NextDNS, AdGuard DNS, Quad9) in Proton VPN settings without subscription restrictions.",
+    "id": "abf0ca00e47d9d3a20688158:397",
+    "legacy_id": 8063,
+    "metadata_status": "unverified",
+    "name": "Unlock Custom DNS Settings - Proton VPN (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#2A2E3D",
+        "description": "Undercover®: Word Party Game by Yanstar Studio OU",
+        "name": "Undercover",
+        "packageName": "com.yanstarstudio.joss.undercover",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks the custom word pack creator allowing players to create, save, and edit unlimited secret word pairs and custom clue databases without subscription restrictions.",
+    "id": "abf0ca00e47d9d3a20688158:398",
+    "legacy_id": 8064,
+    "metadata_status": "unverified",
+    "name": "Unlock Custom Words Creator - Undercover (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#E1306C",
+        "description": "Instagram by Meta Platforms Inc.",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks Meta internal Employee Developer Options, Debug Mode, and Quick Experiment (QE) override menus in Instagram by long-pressing the home button or opening settings.",
+    "id": "abf0ca00e47d9d3a20688158:399",
+    "legacy_id": 8065,
+    "metadata_status": "unverified",
+    "name": "Unlock Developer Options & Quick Experiments - Instagram (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#E1306C",
+        "description": "Instagram by Meta Platforms Inc.",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks developer option by long pressing home icon",
+    "id": "abf0ca00e47d9d3a20688158:400",
+    "legacy_id": 8066,
+    "metadata_status": "unverified",
+    "name": "Unlock developer options - Instagram (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#EA4335",
+        "description": "Google Photos: Photo & Video Storage by Google LLC",
+        "name": "Google Photos",
+        "packageName": "com.google.android.apps.photos",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Enables Pixel-exclusive photo editing features, Magic Eraser UI toggles, and Portrait Blur enhancement tools in Google Photos.",
+    "id": "abf0ca00e47d9d3a20688158:401",
+    "legacy_id": 8067,
+    "metadata_status": "unverified",
+    "name": "Unlock Editing Tools - Google Photos (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#E1306C",
+        "description": "Instagram by Meta Platforms Inc.",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks all options using by employee for debugging",
+    "id": "abf0ca00e47d9d3a20688158:402",
+    "legacy_id": 8068,
+    "metadata_status": "unverified",
+    "name": "Unlock employee options - Instagram (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#33CCFF",
+        "description": "Waze Navigation & Live Traffic by Waze / Google",
+        "name": "Waze",
+        "packageName": "com.waze",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks all exclusive driver moods, special vehicle avatars, and internal voice/audio themes without requiring event points or milestones.",
+    "id": "abf0ca00e47d9d3a20688158:403",
+    "legacy_id": 8069,
+    "metadata_status": "unverified",
+    "name": "Unlock Exclusive Moods & Car Icons - Waze (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FF7139",
+        "description": "Firefox: Fast, Private & Safe Web Browser by Mozilla",
+        "name": "Firefox",
+        "packageName": "org.mozilla.firefox",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks full Mozilla Add-ons (AMO) catalog installation on mobile Firefox without requiring Custom Add-on Collections.",
+    "id": "abf0ca00e47d9d3a20688158:404",
+    "legacy_id": 8070,
+    "metadata_status": "unverified",
+    "name": "Unlock Full Add-ons Catalog - Firefox (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#1A2B3C",
+        "description": "Silt: Oceanic Puzzle-Adventure by Snapbreak / Spiral Circus",
+        "name": "Silt",
+        "packageName": "com.snapbreak.silt",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks the full game, all oceanic abyss chapters, and in-app purchase verification in Silt by hooking Google Play Billing and full game license verification checks.",
+    "id": "abf0ca00e47d9d3a20688158:405",
+    "legacy_id": 8071,
+    "metadata_status": "unverified",
+    "name": "Unlock Full Game - Silt (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FF9800",
+        "description": "Jetpack Joyride by Halfbrick Studios",
+        "name": "Jetpack Joyride",
+        "packageName": "com.halfbrick.jetpackjoyride",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks all Stash gadgets (Coin Magnet, Gravity Belt, Air Barrys, etc.) and maxes out vehicle coin magnets without spending coins.",
+    "id": "abf0ca00e47d9d3a20688158:406",
+    "legacy_id": 8072,
+    "metadata_status": "unverified",
+    "name": "Unlock Gadgets & Upgrades - Jetpack Joyride (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#00E5FF",
+        "description": "Vector 2 by NEKKI",
+        "name": "Vector 2",
+        "packageName": "com.nekki.vector2",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks experimental equipment slots, booster upgrades, and datacore matrices in Vector 2 without research token gating. (Experimental - Not yet tested on device).",
+    "id": "abf0ca00e47d9d3a20688158:407",
+    "legacy_id": 8073,
+    "metadata_status": "unverified",
+    "name": "Unlock Gear Matrix - Vector 2 (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#00C4CC",
+        "description": "Canva: Design, Photo & Video by Canva",
+        "name": "Canva",
+        "packageName": "com.canva.editor",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks maximum export resolution sliders, transparent background PNG option, and bypasses premium element watermark restrictions.",
+    "id": "abf0ca00e47d9d3a20688158:408",
+    "legacy_id": 8074,
+    "metadata_status": "unverified",
+    "name": "Unlock High Quality Export - Canva (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#2979FF",
+        "description": "VPN.lat: Unlimited Fast VPN Proxy",
+        "name": "VPN.lat",
+        "packageName": "com.vpn.lat",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks dedicated high-speed server gateways, removes artificial speed throttling, and enables automatic lowest-latency server selection for gaming in VPN.lat.",
+    "id": "abf0ca00e47d9d3a20688158:409",
+    "legacy_id": 8075,
+    "metadata_status": "unverified",
+    "name": "Unlock High-Speed Dedicated Nodes & Low Ping - VPN.lat (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FF5500",
+        "description": "SoundCloud: Play Music & Songs by SoundCloud Global Limited & Co KG",
+        "name": "SoundCloud",
+        "packageName": "com.soundcloud.android",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks High Quality (HQ) audio streaming selector in playback settings, enables variable playback speed, and unlocks premium player controls.",
+    "id": "abf0ca00e47d9d3a20688158:410",
+    "legacy_id": 8076,
+    "metadata_status": "unverified",
+    "name": "Unlock HQ Audio & Premium Controls - SoundCloud (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#E1306C",
+        "description": "Instagram by Meta Platforms Inc.",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Locally unlocks Instagram Plus subscription benefits, custom app launcher icons, enhanced 60 FPS story rendering, and extended multi-media carousel limits.",
+    "id": "abf0ca00e47d9d3a20688158:411",
+    "legacy_id": 8077,
+    "metadata_status": "unverified",
+    "name": "Unlock Instagram Plus & Client Entitlements - Instagram (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FFA000",
+        "description": "Memrise: Language Learning & Native Speaker Practice by Memrise",
+        "name": "Memrise",
+        "packageName": "com.memrise.android.memrisecompanion",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for Memrise Pro (all language courses, Learn with Locals clips, and grammar bot).",
+    "id": "abf0ca00e47d9d3a20688158:412",
+    "legacy_id": 8078,
+    "metadata_status": "unverified",
+    "name": "Unlock Memrise Pro - Memrise (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#6D4AFF",
+        "description": "Proton VPN: Fast & Secure by Proton AG",
+        "name": "Proton VPN",
+        "packageName": "ch.protonvpn.android",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks the NetShield DNS ad & malware blocking toggle in Proton VPN preferences without requiring a Plus subscription.",
+    "id": "abf0ca00e47d9d3a20688158:413",
+    "legacy_id": 8079,
+    "metadata_status": "unverified",
+    "name": "Unlock NetShield DNS Blocker - Proton VPN (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#00ACC1",
+        "description": "Peak: Brain Games & Cognitive Training by Brainbow",
+        "name": "Peak",
+        "packageName": "com.brainbow.peak.app",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for Peak Pro (cognitive brain games, daily workouts, and coach training modules).",
+    "id": "abf0ca00e47d9d3a20688158:414",
+    "legacy_id": 8080,
+    "metadata_status": "unverified",
+    "name": "Unlock Peak Pro - Peak Brain Training (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#D32F2F",
+        "description": "Photomath: Camera Calculator & Math Solver by Google LLC",
+        "name": "Photomath",
+        "packageName": "com.microblink.photomath",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app subscription verification for Photomath Plus (detailed math explanations, animated tutorials, and textbook solutions).",
+    "id": "abf0ca00e47d9d3a20688158:415",
+    "legacy_id": 8081,
+    "metadata_status": "unverified",
+    "name": "Unlock Photomath Plus - Photomath (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#1A237E",
+        "description": "Stellarium Mobile: Star Map Planetarium by Noctua Software",
+        "name": "Stellarium Mobile",
+        "packageName": "com.noctuasoftware.stellarium_free",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      },
+      {
+        "appIconColor": "#1A237E",
+        "description": "Stellarium Mobile: Star Map by Noctua Software",
+        "name": "Stellarium Mobile (Alt)",
+        "packageName": "com.noctuasoftware.stellarium",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks Stellarium Plus subscription features (Gaia DR3 star catalog, full deep-sky objects, high-res planetary textures, satellite tracking) by hooking Google Play Billing and subscription verification.",
+    "id": "abf0ca00e47d9d3a20688158:416",
+    "legacy_id": 8082,
+    "metadata_status": "unverified",
+    "name": "Unlock Plus & Gaia Star Catalog - Stellarium Mobile (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#E1306C",
+        "description": "Instagram by Meta Platforms Inc.",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks 'Plus' subscription benefits that are checked locally. USE IT AT YOUR OWN RISK",
+    "id": "abf0ca00e47d9d3a20688158:417",
+    "legacy_id": 8083,
+    "metadata_status": "unverified",
+    "name": "Unlock Plus benefits - Instagram (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#0087FF",
+        "description": "Truecaller: Caller ID & Block Spam by Truecaller",
+        "name": "Truecaller",
+        "packageName": "com.truecaller",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for Truecaller Premium and Gold caller ID themes and spam filtering features.",
+    "id": "abf0ca00e47d9d3a20688158:418",
+    "legacy_id": 8084,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium & Gold Features - Truecaller (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#175DDC",
+        "description": "Bitwarden: Password Manager & Authenticator by Bitwarden Inc.",
+        "name": "Bitwarden",
+        "packageName": "com.x8bit.bitwarden",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks Bitwarden Premium features: enables integrated 2FA TOTP code generation and displays vault security report indicators in Bitwarden.",
+    "id": "abf0ca00e47d9d3a20688158:419",
+    "legacy_id": 8085,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium & Integrated TOTP 2FA - Bitwarden (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#4CAF50",
+        "description": "PictureThis: Plant & Flower Identifier by Glority Global Group",
+        "name": "PictureThis",
+        "packageName": "cn.danatech.xingseus",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for PictureThis Premium (unlimited plant identifications, disease diagnosis, and care guides).",
+    "id": "abf0ca00e47d9d3a20688158:420",
+    "legacy_id": 8086,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium & Plant Disease Diagnosis - PictureThis (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#6C5CE7",
+        "description": "Moises: The Musician's App by Moises Systems Inc. (v2.7.2 recommandée - versions 2.73+ protégées par Google Play PairIP)",
+        "name": "Moises",
+        "packageName": "ai.moises",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.7.2"
+          }
+        ],
+        "versions": [
+          "2.7.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hooks Google Play BillingClient, RevenueCat EntitlementInfo, and subscription data models in Moises (v2.7.2 recommandée) to unlock client-side Pro features, bypass startup upgrade paywalls, Smart Metronome, chord detection, and pitch/speed controls.",
+    "id": "abf0ca00e47d9d3a20688158:421",
+    "legacy_id": 8087,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium & Pro Features - Moises",
+    "options": [],
+    "packages": [
+      {
+        "name": "Moises",
+        "versions": [
+          "2.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#009688",
+        "description": "CamScanner: PDF Scanner & Document OCR by INTSIG",
+        "name": "CamScanner",
+        "packageName": "com.intsig.camscanner",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing and subscription verification to unlock Premium scan quality, PDF watermark removal, and OCR export in CamScanner.",
+    "id": "abf0ca00e47d9d3a20688158:422",
+    "legacy_id": 8088,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium & Remove Watermarks - CamScanner (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#2E7D32",
+        "description": "World Map Quiz: Geography & Capitals by Qbis Studio",
+        "name": "World Map Quiz",
+        "packageName": "com.qbis.guessthecountry",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks the Premium edition, all continental maps, flag & capital quiz modes, and provides unlimited hint tokens in World Map Quiz by hooking Google Play Billing and purchase listeners.",
+    "id": "abf0ca00e47d9d3a20688158:423",
+    "legacy_id": 8089,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium & Unlimited Hints - World Map Quiz (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#0084FF",
+        "description": "TeraBox: Cloud Storage Space by Flextech Inc.",
+        "name": "TeraBox",
+        "packageName": "com.dubox.drive",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks TeraBox Premium & VIP status flags, enabling high-speed multi-threaded download acceleration, cloud archive decompression, and removes video download queues.",
+    "id": "abf0ca00e47d9d3a20688158:424",
+    "legacy_id": 8090,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium & VIP Membership - TeraBox (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#2979FF",
+        "description": "VPN.lat: Unlimited Fast VPN Proxy",
+        "name": "VPN.lat",
+        "packageName": "com.vpn.lat",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing and installer check in VPN.lat. NOTE: Remote VPN tunnels and server bandwidth require server-side authentication.",
+    "id": "abf0ca00e47d9d3a20688158:425",
+    "legacy_id": 8091,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium Server Locations - VPN.lat (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#E50914",
+        "description": "Movix: Movies & Series Streaming",
+        "name": "Movix",
+        "packageName": "com.movix.app",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.4.8"
+          }
+        ],
+        "versions": [
+          "1.4.8"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Bypasses Movix VIP/Premium subscription checks to unlock all premium and exclusive content, series, and movie libraries without an active paid subscription.",
+    "id": "abf0ca00e47d9d3a20688158:426",
+    "legacy_id": 8092,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium Subscription - Movix",
+    "options": [],
+    "packages": [
+      {
+        "name": "Movix",
+        "versions": [
+          "1.4.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#0F2B46",
+        "description": "DeepL Translate: Accurate Multilingual Translator by DeepL SE",
+        "name": "DeepL",
+        "packageName": "com.deepl.mobile.android",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for DeepL Pro (tone and formality selection, extended translation limits, and dictionary features).",
+    "id": "abf0ca00e47d9d3a20688158:427",
+    "legacy_id": 8093,
+    "metadata_status": "unverified",
+    "name": "Unlock Pro & Formality - DeepL (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#7E3FF2",
+        "description": "SimpleX Chat: Private Messenger with No User IDs by SimpleX Chat Ltd",
+        "name": "SimpleX Chat",
+        "packageName": "chat.simplex.app",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks instant multi-profile quick switching, quantum-resistant encryption toggles, and donor profile styling in SimpleX Chat.",
+    "id": "abf0ca00e47d9d3a20688158:428",
+    "legacy_id": 8094,
+    "metadata_status": "unverified",
+    "name": "Unlock Pro & Multi-Profile Switching - SimpleX (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FC4C02",
+        "description": "Strava: Run, Ride, Hike & Train by Strava Inc.",
+        "name": "Strava",
+        "packageName": "com.strava",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks 3D terrain route previews, custom segment leaderboard analytics, relative effort metrics, and training log insights.",
+    "id": "abf0ca00e47d9d3a20688158:429",
+    "legacy_id": 8095,
+    "metadata_status": "unverified",
+    "name": "Unlock Pro & Subscriber Analytics - Strava (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#00E599",
+        "description": "Session: Private Messenger by Oxen Privacy Tech / The Session Foundation",
+        "name": "Session",
+        "packageName": "network.loki.messenger",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks Session Supporter badges, animated community avatars, and custom premium accent themes in Session Private Messenger.",
+    "id": "abf0ca00e47d9d3a20688158:430",
+    "legacy_id": 8096,
+    "metadata_status": "unverified",
+    "name": "Unlock Pro & Supporter Themes - Session (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#0078FF",
+        "description": "MX Player: Video Player & Streaming by MX Media / Time Internet",
+        "name": "MX Player",
+        "packageName": "com.mxtech.videoplayer.ad",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks background video playback with screen off, Picture-in-Picture (PIP) mode, and 200% volume audio boost.",
+    "id": "abf0ca00e47d9d3a20688158:431",
+    "legacy_id": 8097,
+    "metadata_status": "unverified",
+    "name": "Unlock Pro Player Controls - MX Player (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#6D4AFF",
+        "description": "Proton Pass: Password Manager by Proton AG",
+        "name": "Proton Pass",
+        "packageName": "proton.android.pass",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks client-side Proton Pass Plus capabilities: built-in 2FA TOTP authenticator generation, unlimited custom vaults, custom item fields, and disables upgrade lock screens.",
+    "id": "abf0ca00e47d9d3a20688158:432",
+    "legacy_id": 8098,
+    "metadata_status": "unverified",
+    "name": "Unlock Pro Vaults & 2FA Authenticator - Proton Pass (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FF4500",
+        "description": "Reddit: The front page of the internet by reddit Inc.",
+        "name": "Reddit",
+        "packageName": "com.reddit.frontpage",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Locally unlocks Reddit Premium status, unlocks exclusive custom application launcher icons (Doge, Retro, Neon, Gold), and removes Premium promotional prompts.",
+    "id": "abf0ca00e47d9d3a20688158:433",
+    "legacy_id": 8099,
+    "metadata_status": "unverified",
+    "name": "Unlock Reddit Premium & Custom App Icons - Reddit (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#8B0000",
+        "description": "Plague Inc. by Ndemic Creations / Miniclip",
+        "name": "Plague Inc.",
+        "packageName": "com.miniclip.plagueinc",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      },
+      {
+        "appIconColor": "#8B0000",
+        "description": "Plague Inc. by Ndemic Creations",
+        "name": "Plague Inc. (Ndemic)",
+        "packageName": "com.ndemiccreations.plagueinc",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks Official Scenarios, Custom Scenario Creator, Speed Runs, and Fast Forward (speed 3x) by hooking Google Play Billing and expansion license checks.",
+    "id": "abf0ca00e47d9d3a20688158:434",
+    "legacy_id": 8100,
+    "metadata_status": "unverified",
+    "name": "Unlock Scenarios & Full Expansion - Plague Inc. (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FBC02D",
+        "description": "Flightradar24: Live Flight Tracker & Radar by Flightradar24 AB",
+        "name": "Flightradar24",
+        "packageName": "com.flightradar24free",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for Flightradar24 subscription tiers (Silver & Gold features, 3D views, and aeronautical charts).",
+    "id": "abf0ca00e47d9d3a20688158:435",
+    "legacy_id": 8101,
+    "metadata_status": "unverified",
+    "name": "Unlock Silver & Gold Features - Flightradar24 (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FFFC00",
+        "description": "Snapchat by Snap Inc",
+        "name": "Snapchat",
+        "packageName": "com.snapchat.android",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks client-side Snapchat+ UI features: custom app icons, post-view emojis, best friends pin badges, and dark mode controls.",
+    "id": "abf0ca00e47d9d3a20688158:436",
+    "legacy_id": 8102,
+    "metadata_status": "unverified",
+    "name": "Unlock Snapchat+ Features - Snapchat (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#1DB954",
+        "description": "Spotify: Music and Podcasts by Spotify AB",
+        "name": "Spotify",
+        "packageName": "com.spotify.music",
+        "targets": [
+          {
+            "isExperimental": true,
+            "version": "9.1.84.2231"
+          }
+        ],
+        "versions": [
+          "9.1.84.2231"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Débloque les fonctionnalités Premium sur Spotify : zapping illimité (skips), lecture à la demande sans mode aléatoire forcé (no shuffle), recherche libre sur la barre de lecture (scrubbing/seeking), répétition de pistes et suppression des publicités audio/visuelles.",
+    "id": "abf0ca00e47d9d3a20688158:437",
+    "legacy_id": 8103,
+    "metadata_status": "unverified",
+    "name": "Unlock Spotify Premium & Playback Restrictions - Spotify (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Spotify",
+        "versions": [
+          "9.1.84.2231"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#58CC02",
+        "description": "Duolingo: Language Lessons by Duolingo",
+        "name": "Duolingo",
+        "packageName": "com.duolingo",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks Super Duolingo practice hub modes, unlimited Legendary test attempts without gem expenditure, and mistake review sessions.",
+    "id": "abf0ca00e47d9d3a20688158:438",
+    "legacy_id": 8104,
+    "metadata_status": "unverified",
+    "name": "Unlock Super Features - Duolingo (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#3A76F0",
+        "description": "Signal Private Messenger by Signal Foundation",
+        "name": "Signal",
+        "packageName": "org.thoughtcrime.securesms",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Activates the client-side Signal Sustainer / Supporter profile badge and unlocks exclusive supporter avatar rings and custom app icons.",
+    "id": "abf0ca00e47d9d3a20688158:439",
+    "legacy_id": 8105,
+    "metadata_status": "unverified",
+    "name": "Unlock Supporter & Donor Badge - Signal (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#24A1DE",
+        "description": "Telegram Messenger by Telegram FZ-LLC",
+        "name": "Telegram",
+        "packageName": "org.telegram.messenger",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks client-side Telegram Premium features: exclusive app icons, animated reactions, voice-to-text transcription toggle, and doubled chat folders.",
+    "id": "abf0ca00e47d9d3a20688158:440",
+    "legacy_id": 8106,
+    "metadata_status": "unverified",
+    "name": "Unlock Telegram Premium Features - Telegram (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#4F46E5",
+        "description": "Euria: Sovereign AI Assistant by Infomaniak",
+        "name": "Euria",
+        "packageName": "com.infomaniak.euria",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app subscription checks for Infomaniak Euria AI (enabling extended context and persistent conversation history).",
+    "id": "abf0ca00e47d9d3a20688158:441",
+    "legacy_id": 8107,
+    "metadata_status": "unverified",
+    "name": "Unlock Unlimited Conversations & Memory - Euria AI (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#0F2B46",
+        "description": "DeepL Translate: Accurate Multilingual Translator by DeepL SE",
+        "name": "DeepL",
+        "packageName": "com.deepl.mobile.android",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Removes the monthly document translation limit (PDF, DOCX, PPTX), unlocks higher file size thresholds, and enables full document layout preservation in DeepL.",
+    "id": "abf0ca00e47d9d3a20688158:442",
+    "legacy_id": 8108,
+    "metadata_status": "unverified",
+    "name": "Unlock Unlimited Document & PDF Translations - DeepL (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#0F2B46",
+        "description": "DeepL Translate: Accurate Multilingual Translator by DeepL SE",
+        "name": "DeepL",
+        "packageName": "com.deepl.mobile.android",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks unlimited custom glossary terminology pairs and enables advanced professional writing styles (Academic, Technical, Casual, Business) in DeepL.",
+    "id": "abf0ca00e47d9d3a20688158:443",
+    "legacy_id": 8109,
+    "metadata_status": "unverified",
+    "name": "Unlock Unlimited Glossaries & Writing Styles - DeepL (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#24A1DE",
+        "description": "Telegram Messenger by Telegram FZ-LLC",
+        "name": "Telegram",
+        "packageName": "org.telegram.messenger",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Bypasses the 5 pinned chats limit in Telegram, allowing users to pin unlimited chats and channels without Telegram Premium.",
+    "id": "abf0ca00e47d9d3a20688158:444",
+    "legacy_id": 8110,
+    "metadata_status": "unverified",
+    "name": "Unlock Unlimited Pinned Chats - Telegram (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#0084FF",
+        "description": "TeraBox: Cloud Storage Space by Flextech Inc.",
+        "name": "TeraBox",
+        "packageName": "com.dubox.drive",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks background video playback, 1080p/original video quality streaming selector, and variable playback speeds without TeraBox Premium.",
+    "id": "abf0ca00e47d9d3a20688158:445",
+    "legacy_id": 8111,
+    "metadata_status": "unverified",
+    "name": "Unlock Video Player Speed & Controls - TeraBox (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#1FA463",
+        "description": "Google Drive: Free Cloud Storage by Google LLC",
+        "name": "Google Drive",
+        "packageName": "com.google.android.apps.docs",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Bypasses 'Viewers cannot download, print, or copy' restrictions on shared Google Drive files, re-enabling the download, save, print, and export menu actions for protected documents and PDFs.",
+    "id": "abf0ca00e47d9d3a20688158:446",
+    "legacy_id": 8112,
+    "metadata_status": "unverified",
+    "name": "Unlock View-Only Download & Export Restrictions - Google Drive (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FF6D00",
+        "description": "Turbo VPN - Secure VPN Proxy by Innovative Connecting",
+        "name": "Turbo VPN",
+        "packageName": "free.vpn.unblock.proxy.turbovpn",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks Turbo VPN VIP subscription status, granting free access to high-speed VIP servers, dedicated streaming locations, and removes server country locks.",
+    "id": "abf0ca00e47d9d3a20688158:447",
+    "legacy_id": 8113,
+    "metadata_status": "unverified",
+    "name": "Unlock VIP & All Server Locations - Turbo VPN (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#F5A623",
+        "description": "CoinSnap: Coin Identifier by Glority Global Group",
+        "name": "CoinSnap",
+        "packageName": "com.coinidentifyer.ai",
+        "targets": [
+          {
+            "isExperimental": true,
+            "version": "2.10.2"
+          }
+        ],
+        "versions": [
+          "2.10.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks CoinSnap VIP features including unlimited coin identifications, full grading and valuation, collection storage, and disables startup paywall prompts. (Experimental - Not yet tested on device).",
+    "id": "abf0ca00e47d9d3a20688158:448",
+    "legacy_id": 8114,
+    "metadata_status": "unverified",
+    "name": "Unlock VIP (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "CoinSnap",
+        "versions": [
+          "2.10.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#0288D1",
+        "description": "Windy.com: Weather & Wind Radar Forecast by Windyty SE",
+        "name": "Windy.com",
+        "packageName": "com.windyty.android",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Hooks Google Play Billing to bypass in-app purchase verification for Windy Premium (1-hour forecast resolution, extended forecasts, and high-res satellite radar archive).",
+    "id": "abf0ca00e47d9d3a20688158:449",
+    "legacy_id": 8115,
+    "metadata_status": "unverified",
+    "name": "Unlock Windy Premium - Windy.com (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#00A3E0",
+        "description": "hide.me VPN: The Privacy Guard by eVenture Limited",
+        "name": "hide.me VPN",
+        "packageName": "hideme.android.vpn",
+        "targets": [
+          {
+            "isExperimental": true,
+            "version": "6.1.2"
+          }
+        ],
+        "versions": [
+          "6.1.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Unlocks WireGuard Stealth protocol, Multi-Hop (Double VPN cascading), and custom port binding in hide.me VPN.",
+    "id": "abf0ca00e47d9d3a20688158:450",
+    "legacy_id": 8116,
+    "metadata_status": "unverified",
+    "name": "Unlock WireGuard Stealth & Multi-Hop - hide.me VPN (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "hide.me VPN",
+        "versions": [
+          "6.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#E1306C",
+        "description": "Instagram by Meta Platforms Inc.",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Fixes app crashing issue while opening links from a different app",
+    "id": "abf0ca00e47d9d3a20688158:451",
+    "legacy_id": 8117,
+    "metadata_status": "unverified",
+    "name": "Validate links - Instagram (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FF0000",
+        "description": "YouTube: Watch, Stream & Discover Videos by Google LLC",
+        "name": "YouTube",
+        "packageName": "com.google.android.youtube",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Adds options to set default video qualities and always use the advanced video quality menu.",
+    "id": "abf0ca00e47d9d3a20688158:452",
+    "legacy_id": 8118,
+    "metadata_status": "unverified",
+    "name": "Video quality - YouTube (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#E1306C",
+        "description": "Instagram by Meta Platforms Inc.",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Enhances application behavior and unlocks additional user controls.",
+    "id": "abf0ca00e47d9d3a20688158:453",
+    "legacy_id": 8119,
+    "metadata_status": "unverified",
+    "name": "View DMs anonymously - Instagram (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#E1306C",
+        "description": "Instagram by Meta Platforms Inc.",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Enhances application behavior and unlocks additional user controls.",
+    "id": "abf0ca00e47d9d3a20688158:454",
+    "legacy_id": 8120,
+    "metadata_status": "unverified",
+    "name": "View live anonymously - Instagram (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#E1306C",
+        "description": "Instagram by Meta Platforms Inc.",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Enhances application behavior and unlocks additional user controls.",
+    "id": "abf0ca00e47d9d3a20688158:455",
+    "legacy_id": 8121,
+    "metadata_status": "unverified",
+    "name": "View stories anonymously - Instagram (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  },
+  {
+    "bundle_id": "abf0ca00e47d9d3a20688158",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#E1306C",
+        "description": "Instagram by Meta Platforms Inc.",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "⚠️ [En cours de développement / Non testé] Add option to view visible and hidden story mentions.",
+    "id": "abf0ca00e47d9d3a20688158:456",
+    "legacy_id": 8122,
+    "metadata_status": "unverified",
+    "name": "View story mentions - Instagram (Experimental)",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.48.0",
+    "source_id": "ff3294dc5dc950ed"
+  }
+]

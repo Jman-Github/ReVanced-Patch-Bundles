@@ -1,0 +1,5023 @@
+[
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides tabs from the Explore page.",
+    "id": "2f35b6c1f17252f68a2e043e:6",
+    "legacy_id": 1974,
+    "metadata_status": "unverified",
+    "name": "Customize explore tabs",
+    "options": [
+      {
+        "default": [],
+        "description": "The ids of the tabs to hide, e.g. trending, news, sports, entertainment. The server names them, so they are matched without regard to case, hyphens or underscores.",
+        "key": "hiddenExploreTabs",
+        "required": false,
+        "title": "Hidden tabs",
+        "type": "kotlin.collections.List<kotlin.String>",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides actions from the bar under each post.",
+    "id": "2f35b6c1f17252f68a2e043e:7",
+    "legacy_id": 1975,
+    "metadata_status": "unverified",
+    "name": "Customize Inline action Bar items",
+    "options": [
+      {
+        "default": false,
+        "description": null,
+        "key": "hideReply",
+        "required": false,
+        "title": "Hide reply",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideRetweet",
+        "required": false,
+        "title": "Hide repost",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideLike",
+        "required": false,
+        "title": "Hide like",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideViews",
+        "required": false,
+        "title": "Hide views (or dislike, where it replaces views)",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideBookmark",
+        "required": false,
+        "title": "Hide bookmark",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideShare",
+        "required": false,
+        "title": "Hide share",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides tabs from the bottom navigation bar. Home always stays.",
+    "id": "2f35b6c1f17252f68a2e043e:8",
+    "legacy_id": 1976,
+    "metadata_status": "unverified",
+    "name": "Customize Navigation Bar items",
+    "options": [
+      {
+        "default": false,
+        "description": null,
+        "key": "hideExplore",
+        "required": false,
+        "title": "Hide Explore",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideGrok",
+        "required": false,
+        "title": "Hide Grok",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideNotifications",
+        "required": false,
+        "title": "Hide Notifications",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideDm",
+        "required": false,
+        "title": "Hide Messages",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides tabs from Notifications. At least one tab always stays.",
+    "id": "2f35b6c1f17252f68a2e043e:9",
+    "legacy_id": 1977,
+    "metadata_status": "unverified",
+    "name": "Customize notification tabs",
+    "options": [
+      {
+        "default": false,
+        "description": null,
+        "key": "hideAll",
+        "required": false,
+        "title": "Hide All",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideMentions",
+        "required": false,
+        "title": "Hide Mentions",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideVerified",
+        "required": false,
+        "title": "Hide Verified",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hidePriority",
+        "required": false,
+        "title": "Hide Priority",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides kinds of suggestion from the search box.",
+    "id": "2f35b6c1f17252f68a2e043e:10",
+    "legacy_id": 1978,
+    "metadata_status": "unverified",
+    "name": "Customize search suggestions",
+    "options": [
+      {
+        "default": false,
+        "description": null,
+        "key": "hideUsers",
+        "required": false,
+        "title": "Hide accounts",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideSuggestions",
+        "required": false,
+        "title": "Hide search suggestions",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides tabs from search results. At least one tab always stays.",
+    "id": "2f35b6c1f17252f68a2e043e:11",
+    "legacy_id": 1979,
+    "metadata_status": "unverified",
+    "name": "Customize search tab items",
+    "options": [
+      {
+        "default": false,
+        "description": null,
+        "key": "hideTop",
+        "required": false,
+        "title": "Hide Top",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideLatest",
+        "required": false,
+        "title": "Hide Latest",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hidePeople",
+        "required": false,
+        "title": "Hide People",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideMedia",
+        "required": false,
+        "title": "Hide Media",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideLists",
+        "required": false,
+        "title": "Hide Lists",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides rows from the side bar.",
+    "id": "2f35b6c1f17252f68a2e043e:12",
+    "legacy_id": 1980,
+    "metadata_status": "unverified",
+    "name": "Customize side bar items",
+    "options": [
+      {
+        "default": false,
+        "description": null,
+        "key": "hidePremium",
+        "required": false,
+        "title": "Hide Premium",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideMoney",
+        "required": false,
+        "title": "Hide Money",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideCommunities",
+        "required": false,
+        "title": "Hide Communities",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideSports",
+        "required": false,
+        "title": "Hide Sports",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideBookmarks",
+        "required": false,
+        "title": "Hide Bookmarks / History",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideCommunityNotes",
+        "required": false,
+        "title": "Hide Community Notes",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideOfflineVideos",
+        "required": false,
+        "title": "Hide Offline videos",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideLists",
+        "required": false,
+        "title": "Hide Lists",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideBoost",
+        "required": false,
+        "title": "Hide Boost",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideSpaces",
+        "required": false,
+        "title": "Hide Spaces",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideFollowRequests",
+        "required": false,
+        "title": "Hide Follow requests",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideMonetization",
+        "required": false,
+        "title": "Hide Monetization",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideCreatorStudio",
+        "required": false,
+        "title": "Hide Creator Studio",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideAnalytics",
+        "required": false,
+        "title": "Hide Analytics",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideGrok",
+        "required": false,
+        "title": "Hide Grok",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides tabs from the top of the home timeline. At least one tab always stays.",
+    "id": "2f35b6c1f17252f68a2e043e:13",
+    "legacy_id": 1981,
+    "metadata_status": "unverified",
+    "name": "Customize timeline top bar",
+    "options": [
+      {
+        "default": false,
+        "description": null,
+        "key": "hideForYou",
+        "required": false,
+        "title": "Hide For you",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideFollowing",
+        "required": false,
+        "title": "Hide Following",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideSubscriptions",
+        "required": false,
+        "title": "Hide Subscriptions",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hideTopicsUpsell",
+        "required": false,
+        "title": "Hide the topics suggestion",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hidePinnedLists",
+        "required": false,
+        "title": "Hide pinned lists",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hidePinnedCommunities",
+        "required": false,
+        "title": "Hide pinned communities",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": null,
+        "key": "hidePinnedTopics",
+        "required": false,
+        "title": "Hide pinned topics",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Hides the + tab that pins a new timeline to the top bar.",
+        "key": "hideAddTab",
+        "required": false,
+        "title": "Hide the Add tab",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Adds options to the Morphe settings to delete cached promoted entries or clear cached timelines.",
+    "id": "2f35b6c1f17252f68a2e043e:14",
+    "legacy_id": 1982,
+    "metadata_status": "unverified",
+    "name": "Delete from database",
+    "options": [],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E1306C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "450.0.0.50.77"
+          }
+        ],
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Blocks analytics requests sent to Instagram and Facebook servers.",
+    "id": "2f35b6c1f17252f68a2e043e:15",
+    "legacy_id": 1983,
+    "metadata_status": "unverified",
+    "name": "Disable analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Opens the home timelines where you left them, instead of at the newest posts.",
+    "id": "2f35b6c1f17252f68a2e043e:16",
+    "legacy_id": 1984,
+    "metadata_status": "unverified",
+    "name": "Disable auto timeline scroll on launch",
+    "options": [],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E1306C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "450.0.0.50.77"
+          }
+        ],
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables screenshot detection in direct messages and stories.",
+    "id": "2f35b6c1f17252f68a2e043e:17",
+    "legacy_id": 1985,
+    "metadata_status": "unverified",
+    "name": "Disable screenshot detection",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E1306C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "450.0.0.50.77"
+          }
+        ],
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Adds ability to download posts, reels, stories and highlights",
+    "id": "2f35b6c1f17252f68a2e043e:18",
+    "legacy_id": 1986,
+    "metadata_status": "unverified",
+    "name": "Download media",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E1306C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "450.0.0.50.77"
+          }
+        ],
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Enables ability to download voice messages",
+    "id": "2f35b6c1f17252f68a2e043e:19",
+    "legacy_id": 1987,
+    "metadata_status": "unverified",
+    "name": "Download voice message",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Adds \"Post data\" to the post menu: everything the app knows about the post, as text.",
+    "id": "2f35b6c1f17252f68a2e043e:20",
+    "legacy_id": 1988,
+    "metadata_status": "unverified",
+    "name": "Enable debug menu for posts",
+    "options": [],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Always plays videos at the highest quality the device supports, whatever the connection.",
+    "id": "2f35b6c1f17252f68a2e043e:21",
+    "legacy_id": 1989,
+    "metadata_status": "unverified",
+    "name": "Enable force HD videos",
+    "options": [],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Holds each post for a few seconds before sending it, so it can be undone.",
+    "id": "2f35b6c1f17252f68a2e043e:22",
+    "legacy_id": 1990,
+    "metadata_status": "unverified",
+    "name": "Enable Undo Posts",
+    "options": [
+      {
+        "default": 10,
+        "description": "Seconds a post waits before it is sent.",
+        "key": "undoSeconds",
+        "required": true,
+        "title": "Undo period",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides posts whose text contains any of your keywords, ignoring case. Edit the keywords from \"Filtered keywords\" in any post's menu, or in the Morphe settings.",
+    "id": "2f35b6c1f17252f68a2e043e:23",
+    "legacy_id": 1991,
+    "metadata_status": "unverified",
+    "name": "Filter posts by keyword",
+    "options": [
+      {
+        "default": [],
+        "description": "Words or phrases filtered until you edit the list in the app.",
+        "key": "keywords",
+        "required": false,
+        "title": "Initial keywords",
+        "type": "kotlin.collections.List<kotlin.String>",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E1306C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "450.0.0.50.77"
+          }
+        ],
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides categories of stories from the story tray.",
+    "id": "2f35b6c1f17252f68a2e043e:24",
+    "legacy_id": 1992,
+    "metadata_status": "unverified",
+    "name": "Filter stories",
+    "options": [
+      {
+        "default": true,
+        "description": "Hides advertisements from the story tray.",
+        "key": "hideAdsStories",
+        "required": false,
+        "title": "Hide ad stories",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Hides suggested users and creators from the story tray.",
+        "key": "hideSuggestedStories",
+        "required": false,
+        "title": "Hide suggested stories",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Hides resurfaced highlights, which carry no expiry, from the story tray.",
+        "key": "hideHighlightStories",
+        "required": false,
+        "title": "Hide highlights",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Offers to translate every post, not only those the server marks translatable.",
+    "id": "2f35b6c1f17252f68a2e043e:25",
+    "legacy_id": 1993,
+    "metadata_status": "unverified",
+    "name": "Force enable translate",
+    "options": [],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Opens links to other X frontends, such as fxtwitter and vxtwitter, in the app. They have to be enabled under \"Open by default\" in the app's system settings.",
+    "id": "2f35b6c1f17252f68a2e043e:26",
+    "legacy_id": 1994,
+    "metadata_status": "unverified",
+    "name": "Handle custom twitter links",
+    "options": [
+      {
+        "default": [
+          "vxtwitter.com",
+          "fixvx.com",
+          "fxtwitter.com",
+          "fixupx.com",
+          "twittpr.com",
+          "xcancel.com"
+        ],
+        "description": "Link hosts to open in the app. Subdomains are included.",
+        "key": "customLinkHosts",
+        "required": true,
+        "title": "Hosts",
+        "type": "kotlin.collections.List<kotlin.String>",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E1306C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "450.0.0.50.77"
+          }
+        ],
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides ads in the feed.",
+    "id": "2f35b6c1f17252f68a2e043e:27",
+    "legacy_id": 1995,
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides the unread counts and dots on the bottom navigation bar.",
+    "id": "2f35b6c1f17252f68a2e043e:28",
+    "legacy_id": 1996,
+    "metadata_status": "unverified",
+    "name": "Hide badges from navigation bar icons",
+    "options": [],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides the \"See new posts\" pill at the top of the timeline.",
+    "id": "2f35b6c1f17252f68a2e043e:29",
+    "legacy_id": 1997,
+    "metadata_status": "unverified",
+    "name": "Hide Banner",
+    "options": [],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides Community Notes under posts.",
+    "id": "2f35b6c1f17252f68a2e043e:30",
+    "legacy_id": 1998,
+    "metadata_status": "unverified",
+    "name": "Hide Community Notes",
+    "options": [],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides the floating Post button.",
+    "id": "2f35b6c1f17252f68a2e043e:31",
+    "legacy_id": 1999,
+    "metadata_status": "unverified",
+    "name": "Hide FAB",
+    "options": [],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E1306C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "450.0.0.50.77"
+          }
+        ],
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Hides Instants from DMs page.",
+    "id": "2f35b6c1f17252f68a2e043e:32",
+    "legacy_id": 2000,
+    "metadata_status": "unverified",
+    "name": "Hide Instants",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides the Boost button on your posts and the Boost item in their menu.",
+    "id": "2f35b6c1f17252f68a2e043e:33",
+    "legacy_id": 2001,
+    "metadata_status": "unverified",
+    "name": "Hide promote button",
+    "options": [],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E1306C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "450.0.0.50.77"
+          }
+        ],
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides suggested reels and suggested accounts. Suggested stories are hidden by Filter stories.",
+    "id": "2f35b6c1f17252f68a2e043e:34",
+    "legacy_id": 2002,
+    "metadata_status": "unverified",
+    "name": "Hide suggested content",
+    "options": [
+      {
+        "default": true,
+        "description": "Hides suggested reels from feed and reels tab.",
+        "key": "hideSuggestedReels",
+        "required": false,
+        "title": "Hide suggested reels",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Hides suggested accounts from the list of followers and from other profiles.",
+        "key": "hideSuggestedAccount",
+        "required": false,
+        "title": "Hide suggested accounts",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E1306C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "450.0.0.50.77"
+          }
+        ],
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Hides the Threads button from the profile page action bar (top right of the profile page).",
+    "id": "2f35b6c1f17252f68a2e043e:35",
+    "legacy_id": 2003,
+    "metadata_status": "unverified",
+    "name": "Hide Threads profile button",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Overrides the app's feature switches with values chosen when patching.",
+    "id": "2f35b6c1f17252f68a2e043e:36",
+    "legacy_id": 2004,
+    "metadata_status": "unverified",
+    "name": "Hook feature flag",
+    "options": [
+      {
+        "default": [],
+        "description": "One key=value per entry, e.g. some_feature_enabled=true. true and false set a boolean, whole numbers an integer, other numbers a decimal, and anything else a string.",
+        "key": "flags",
+        "required": false,
+        "title": "Feature switches",
+        "type": "kotlin.collections.List<kotlin.String>",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Adds Export login and Import login to the Morphe settings, opened from the app icon's shortcuts. An export holds everything needed to use your account.",
+    "id": "2f35b6c1f17252f68a2e043e:37",
+    "legacy_id": 2005,
+    "metadata_status": "unverified",
+    "name": "Import/Export login token",
+    "options": [],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E1306C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "450.0.0.50.77"
+          }
+        ],
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Requests the maximum resolution images from the server.",
+    "id": "2f35b6c1f17252f68a2e043e:38",
+    "legacy_id": 2006,
+    "metadata_status": "unverified",
+    "name": "Improve image viewing",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Shares posts as x.com/<username>/status/<id> rather than x.com/i/status/<id>.",
+    "id": "2f35b6c1f17252f68a2e043e:39",
+    "legacy_id": 2007,
+    "metadata_status": "unverified",
+    "name": "Legacy share links",
+    "options": [],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E1306C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "450.0.0.50.77"
+          }
+        ],
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Changes unexpired view once, view twice media to permanent view.",
+    "id": "2f35b6c1f17252f68a2e043e:40",
+    "legacy_id": 2008,
+    "metadata_status": "unverified",
+    "name": "Make ephemeral media permanent",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Lets every photo, video and GIF be saved from its long-press menu and the media viewer, without a watermark.",
+    "id": "2f35b6c1f17252f68a2e043e:41",
+    "legacy_id": 2009,
+    "metadata_status": "unverified",
+    "name": "Native downloader",
+    "options": [],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Adds \"Reader mode\" to the post menu: the post's text, selectable, with links to its media.",
+    "id": "2f35b6c1f17252f68a2e043e:42",
+    "legacy_id": 2010,
+    "metadata_status": "unverified",
+    "name": "Native reader mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Adds \"Translate with Google\" to the post menu.",
+    "id": "2f35b6c1f17252f68a2e043e:43",
+    "legacy_id": 2011,
+    "metadata_status": "unverified",
+    "name": "Native translator",
+    "options": [],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Opens links in posts at their real address instead of through t.co.",
+    "id": "2f35b6c1f17252f68a2e043e:44",
+    "legacy_id": 2012,
+    "metadata_status": "unverified",
+    "name": "No shortened URL",
+    "options": [],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E1306C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "450.0.0.50.77"
+          }
+        ],
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Opens links in the system browser instead of the in-app browser.",
+    "id": "2f35b6c1f17252f68a2e043e:45",
+    "legacy_id": 2013,
+    "metadata_status": "unverified",
+    "name": "Open links externally",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes promoted posts, accounts and trends from timelines.",
+    "id": "2f35b6c1f17252f68a2e043e:46",
+    "legacy_id": 2014,
+    "metadata_status": "unverified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes Premium upsells: the Upgrade button on the home timeline, the Premium side bar row, and the Get verified cards and prompts.",
+    "id": "2f35b6c1f17252f68a2e043e:47",
+    "legacy_id": 2015,
+    "metadata_status": "unverified",
+    "name": "Remove premium upsell",
+    "options": [],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FF4500",
+        "name": "Reddit",
+        "packageName": "com.reddit.frontpage",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "2026.37.0"
+          }
+        ],
+        "versions": [
+          "2026.37.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the Reddit Pro section from the community drawer, and the Reddit Pro promos: the post creation and subreddit join upsell sheets, and the Reddit Pro banner on the profile feed.",
+    "id": "2f35b6c1f17252f68a2e043e:48",
+    "legacy_id": 2016,
+    "metadata_status": "unverified",
+    "name": "Remove Reddit Pro section",
+    "options": [],
+    "packages": [
+      {
+        "name": "Reddit",
+        "versions": [
+          "2026.37.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FF4500",
+        "name": "Reddit",
+        "packageName": "com.reddit.frontpage",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "2026.37.0"
+          }
+        ],
+        "versions": [
+          "2026.37.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the Resources and Games on Reddit sections from the community drawer.",
+    "id": "2f35b6c1f17252f68a2e043e:49",
+    "legacy_id": 2017,
+    "metadata_status": "unverified",
+    "name": "Remove Resources and Games on Reddit sections",
+    "options": [],
+    "packages": [
+      {
+        "name": "Reddit",
+        "versions": [
+          "2026.37.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E1306C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "450.0.0.50.77"
+          }
+        ],
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes tracking parameters from links shared out of the app.",
+    "id": "2f35b6c1f17252f68a2e043e:50",
+    "legacy_id": 2018,
+    "metadata_status": "unverified",
+    "name": "Sanitize share links",
+    "options": [],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E1306C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "450.0.0.50.77"
+          }
+        ],
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Keeps a local copy of incoming DMs so ones the sender deletes stay readable. Messages are stored unencrypted in the app's private storage.",
+    "id": "2f35b6c1f17252f68a2e043e:51",
+    "legacy_id": 2019,
+    "metadata_status": "unverified",
+    "name": "Save deleted messages",
+    "options": [
+      {
+        "default": 30,
+        "description": "How long a copy of a message that was not deleted is kept. A message deleted after this is not recoverable. Deleted messages are kept until cleared.",
+        "key": "retentionDays",
+        "required": true,
+        "title": "Days to keep messages",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Adds \"Share as image\" to the share sheet of a post, which shares it as an image card.",
+    "id": "2f35b6c1f17252f68a2e043e:52",
+    "legacy_id": 2020,
+    "metadata_status": "unverified",
+    "name": "Share Tweet as Image",
+    "options": [],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Shows the results of polls without voting. Polls cannot be voted on while this is applied.",
+    "id": "2f35b6c1f17252f68a2e043e:53",
+    "legacy_id": 2021,
+    "metadata_status": "unverified",
+    "name": "Show poll results",
+    "options": [],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Shows media marked sensitive without blurring it behind a warning.",
+    "id": "2f35b6c1f17252f68a2e043e:54",
+    "legacy_id": 2022,
+    "metadata_status": "unverified",
+    "name": "Show sensitive media",
+    "options": [],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Adds \"Open in downloader\" to the post menu, which shares the post's link with an app of your choice.",
+    "id": "2f35b6c1f17252f68a2e043e:55",
+    "legacy_id": 2023,
+    "metadata_status": "unverified",
+    "name": "Support external downloader",
+    "options": [],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f35b6c1f17252f68a2e043e",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#000000",
+        "name": "X",
+        "packageName": "com.twitter.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.31.0-prod.01"
+          }
+        ],
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Makes the app's own Premium subscription checks always pass. Features the server enforces still need a subscription.",
+    "id": "2f35b6c1f17252f68a2e043e:56",
+    "legacy_id": 2024,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium checks",
+    "options": [],
+    "packages": [
+      {
+        "name": "X",
+        "versions": [
+          "12.31.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.11.0",
+    "source_id": "2d7b929ffc6870d6"
+  },
+  {
+    "bundle_id": "2f776d9891268f9b2e804924",
+    "compatiblePackages": {
+      "com.chessable.chessable": [
+        "3.0.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Review due material across a folder using Chessable's native random or sequential order.",
+    "id": "2f776d9891268f9b2e804924:0",
+    "legacy_id": 2025,
+    "metadata_status": "verified",
+    "name": "Enable folder reviews",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.chessable.chessable",
+        "versions": [
+          "3.0.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "7158eac6d307025d",
+    "use": true
+  },
+  {
+    "bundle_id": "2f776d9891268f9b2e804924",
+    "compatiblePackages": {
+      "com.chessable.chessable": [
+        "3.0.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Download owned courses and accessible course videos for offline study using Chessable's native storage and progress sync.",
+    "id": "2f776d9891268f9b2e804924:1",
+    "legacy_id": 2026,
+    "metadata_status": "verified",
+    "name": "Enable offline mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.chessable.chessable",
+        "versions": [
+          "3.0.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "7158eac6d307025d",
+    "use": true
+  },
+  {
+    "bundle_id": "2f90877f76f377a6cbed1b6f",
+    "compatiblePackages": {
+      "tv.trakt.trakt": []
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Removes the Upgrade to VIP upsell banner from the home screen.",
+    "id": "2f90877f76f377a6cbed1b6f:0",
+    "legacy_id": 2027,
+    "metadata_status": "unverified",
+    "name": "Hide VIP banner",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "4b706a742e01548c",
+    "use": true
+  },
+  {
+    "bundle_id": "30cedf771ce5ca8e5875bfe0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram",
+        "packageName": "org.telegram.messenger",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70382,
+              "ARMEABI_V7A": 70382,
+              "X86": 70382,
+              "X86_64": 70382
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Web",
+        "packageName": "org.telegram.messenger.web",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70389,
+              "ARMEABI_V7A": 70389,
+              "X86": 70389,
+              "X86_64": 70389
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Plus",
+        "packageName": "org.telegram.plus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 22478,
+              "ARMEABI_V7A": 22478,
+              "X86": 22478,
+              "X86_64": 22478
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Prevents messages deleted by other users from being removed locally.",
+    "id": "30cedf771ce5ca8e5875bfe0:0",
+    "legacy_id": 2028,
+    "metadata_status": "unverified",
+    "name": "Anti-delete messages",
+    "options": [],
+    "packages": [
+      {
+        "name": "Telegram",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Plus",
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "build-7",
+    "source_id": "7e7b217828bb4b26"
+  },
+  {
+    "bundle_id": "30cedf771ce5ca8e5875bfe0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram",
+        "packageName": "org.telegram.messenger",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70382,
+              "ARMEABI_V7A": 70382,
+              "X86": 70382,
+              "X86_64": 70382
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Web",
+        "packageName": "org.telegram.messenger.web",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70389,
+              "ARMEABI_V7A": 70389,
+              "X86": 70389,
+              "X86_64": 70389
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Plus",
+        "packageName": "org.telegram.plus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 22478,
+              "ARMEABI_V7A": 22478,
+              "X86": 22478,
+              "X86_64": 22478
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Keeps view-once photos, videos and voice messages viewable indefinitely.",
+    "id": "30cedf771ce5ca8e5875bfe0:1",
+    "legacy_id": 2029,
+    "metadata_status": "unverified",
+    "name": "Anti-disappearing media",
+    "options": [],
+    "packages": [
+      {
+        "name": "Telegram",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Plus",
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "build-7",
+    "source_id": "7e7b217828bb4b26"
+  },
+  {
+    "bundle_id": "30cedf771ce5ca8e5875bfe0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram",
+        "packageName": "org.telegram.messenger",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70382,
+              "ARMEABI_V7A": 70382,
+              "X86": 70382,
+              "X86_64": 70382
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Web",
+        "packageName": "org.telegram.messenger.web",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70389,
+              "ARMEABI_V7A": 70389,
+              "X86": 70389,
+              "X86_64": 70389
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Plus",
+        "packageName": "org.telegram.plus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 22478,
+              "ARMEABI_V7A": 22478,
+              "X86": 22478,
+              "X86_64": 22478
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Blocks screenshot notifications from being sent to the other user.",
+    "id": "30cedf771ce5ca8e5875bfe0:2",
+    "legacy_id": 2030,
+    "metadata_status": "unverified",
+    "name": "Anti-screenshot notification",
+    "options": [],
+    "packages": [
+      {
+        "name": "Telegram",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Plus",
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "build-7",
+    "source_id": "7e7b217828bb4b26"
+  },
+  {
+    "bundle_id": "30cedf771ce5ca8e5875bfe0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram",
+        "packageName": "org.telegram.messenger",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70382,
+              "ARMEABI_V7A": 70382,
+              "X86": 70382,
+              "X86_64": 70382
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Web",
+        "packageName": "org.telegram.messenger.web",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70389,
+              "ARMEABI_V7A": 70389,
+              "X86": 70389,
+              "X86_64": 70389
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Plus",
+        "packageName": "org.telegram.plus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 22478,
+              "ARMEABI_V7A": 22478,
+              "X86": 22478,
+              "X86_64": 22478
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Allows opening, viewing, saving and forwarding content from restricted, sensitive, and copyright-restricted channels.",
+    "id": "30cedf771ce5ca8e5875bfe0:3",
+    "legacy_id": 2031,
+    "metadata_status": "unverified",
+    "name": "Bypass channel restrictions",
+    "options": [],
+    "packages": [
+      {
+        "name": "Telegram",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Plus",
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "build-7",
+    "source_id": "7e7b217828bb4b26"
+  },
+  {
+    "bundle_id": "30cedf771ce5ca8e5875bfe0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram",
+        "packageName": "org.telegram.messenger",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70382,
+              "ARMEABI_V7A": 70382,
+              "X86": 70382,
+              "X86_64": 70382
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Web",
+        "packageName": "org.telegram.messenger.web",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70389,
+              "ARMEABI_V7A": 70389,
+              "X86": 70389,
+              "X86_64": 70389
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Plus",
+        "packageName": "org.telegram.plus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 22478,
+              "ARMEABI_V7A": 22478,
+              "X86": 22478,
+              "X86_64": 22478
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Allows saving and forwarding content from restricted channels, chats, and users.",
+    "id": "30cedf771ce5ca8e5875bfe0:4",
+    "legacy_id": 2032,
+    "metadata_status": "unverified",
+    "name": "Bypass content restrictions",
+    "options": [],
+    "packages": [
+      {
+        "name": "Telegram",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Plus",
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "build-7",
+    "source_id": "7e7b217828bb4b26"
+  },
+  {
+    "bundle_id": "30cedf771ce5ca8e5875bfe0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram",
+        "packageName": "org.telegram.messenger",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70382,
+              "ARMEABI_V7A": 70382,
+              "X86": 70382,
+              "X86_64": 70382
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Web",
+        "packageName": "org.telegram.messenger.web",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70389,
+              "ARMEABI_V7A": 70389,
+              "X86": 70389,
+              "X86_64": 70389
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Plus",
+        "packageName": "org.telegram.plus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 22478,
+              "ARMEABI_V7A": 22478,
+              "X86": 22478,
+              "X86_64": 22478
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Spoofs certificate fingerprint and SafetyNet results so login works on patched APK.",
+    "id": "30cedf771ce5ca8e5875bfe0:5",
+    "legacy_id": 2033,
+    "metadata_status": "unverified",
+    "name": "Bypass integrity check",
+    "options": [],
+    "packages": [
+      {
+        "name": "Telegram",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Plus",
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "build-7",
+    "source_id": "7e7b217828bb4b26"
+  },
+  {
+    "bundle_id": "30cedf771ce5ca8e5875bfe0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Plus",
+        "packageName": "org.telegram.plus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 22478,
+              "ARMEABI_V7A": 22478,
+              "X86": 22478,
+              "X86_64": 22478
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Blocks Firebase analytics and event tracking in Telegram Plus. FirebaseApp.initializeApp() is preserved so push notifications keep working.",
+    "id": "30cedf771ce5ca8e5875bfe0:6",
+    "legacy_id": 2034,
+    "metadata_status": "unverified",
+    "name": "Disable analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "Telegram Plus",
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "build-7",
+    "source_id": "7e7b217828bb4b26"
+  },
+  {
+    "bundle_id": "30cedf771ce5ca8e5875bfe0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram",
+        "packageName": "org.telegram.messenger",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70382,
+              "ARMEABI_V7A": 70382,
+              "X86": 70382,
+              "X86_64": 70382
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Web",
+        "packageName": "org.telegram.messenger.web",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70389,
+              "ARMEABI_V7A": 70389,
+              "X86": 70389,
+              "X86_64": 70389
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Plus",
+        "packageName": "org.telegram.plus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 22478,
+              "ARMEABI_V7A": 22478,
+              "X86": 22478,
+              "X86_64": 22478
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Disables automatic app update checks, the blocking update screen, and the proxy sponsor channel insertion. On Telegram Plus also disables the Plus-specific updater and update settings flag.",
+    "id": "30cedf771ce5ca8e5875bfe0:7",
+    "legacy_id": 2035,
+    "metadata_status": "unverified",
+    "name": "Disable auto-update",
+    "options": [],
+    "packages": [
+      {
+        "name": "Telegram",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Plus",
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "build-7",
+    "source_id": "7e7b217828bb4b26"
+  },
+  {
+    "bundle_id": "30cedf771ce5ca8e5875bfe0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram",
+        "packageName": "org.telegram.messenger",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70382,
+              "ARMEABI_V7A": 70382,
+              "X86": 70382,
+              "X86_64": 70382
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Web",
+        "packageName": "org.telegram.messenger.web",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70389,
+              "ARMEABI_V7A": 70389,
+              "X86": 70389,
+              "X86_64": 70389
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Plus",
+        "packageName": "org.telegram.plus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 22478,
+              "ARMEABI_V7A": 22478,
+              "X86": 22478,
+              "X86_64": 22478
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Disables the pull-down gesture that switches to the next unread channel.",
+    "id": "30cedf771ce5ca8e5875bfe0:8",
+    "legacy_id": 2036,
+    "metadata_status": "unverified",
+    "name": "Disable channel switching",
+    "options": [],
+    "packages": [
+      {
+        "name": "Telegram",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Plus",
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "build-7",
+    "source_id": "7e7b217828bb4b26"
+  },
+  {
+    "bundle_id": "30cedf771ce5ca8e5875bfe0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram",
+        "packageName": "org.telegram.messenger",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70382,
+              "ARMEABI_V7A": 70382,
+              "X86": 70382,
+              "X86_64": 70382
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Web",
+        "packageName": "org.telegram.messenger.web",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70389,
+              "ARMEABI_V7A": 70389,
+              "X86": 70389,
+              "X86_64": 70389
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Plus",
+        "packageName": "org.telegram.plus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 22478,
+              "ARMEABI_V7A": 22478,
+              "X86": 22478,
+              "X86_64": 22478
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Increases download chunk size to 1 MB and max concurrent requests to 12.",
+    "id": "30cedf771ce5ca8e5875bfe0:9",
+    "legacy_id": 2037,
+    "metadata_status": "unverified",
+    "name": "Download speed boost",
+    "options": [],
+    "packages": [
+      {
+        "name": "Telegram",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Plus",
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "build-7",
+    "source_id": "7e7b217828bb4b26"
+  },
+  {
+    "bundle_id": "30cedf771ce5ca8e5875bfe0",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "Fixes Firebase services (push notifications, Remote Config, Firebase Auth) that break after Morphe re-signs the app with a different certificate.\n\nApply with Original app certificate patch — no other config needed.",
+    "id": "30cedf771ce5ca8e5875bfe0:10",
+    "legacy_id": 2038,
+    "metadata_status": "unverified",
+    "name": "Fix Firebase after re-signing",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "build-7",
+    "source_id": "7e7b217828bb4b26"
+  },
+  {
+    "bundle_id": "30cedf771ce5ca8e5875bfe0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram",
+        "packageName": "org.telegram.messenger",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70382,
+              "ARMEABI_V7A": 70382,
+              "X86": 70382,
+              "X86_64": 70382
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Web",
+        "packageName": "org.telegram.messenger.web",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70389,
+              "ARMEABI_V7A": 70389,
+              "X86": 70389,
+              "X86_64": 70389
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Plus",
+        "packageName": "org.telegram.plus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 22478,
+              "ARMEABI_V7A": 22478,
+              "X86": 22478,
+              "X86_64": 22478
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes forwarded channel attribution from Rich Messages while preserving their original content.",
+    "id": "30cedf771ce5ca8e5875bfe0:11",
+    "legacy_id": 2039,
+    "metadata_status": "unverified",
+    "name": "Hide sender name for Rich Message forwards",
+    "options": [],
+    "packages": [
+      {
+        "name": "Telegram",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Plus",
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "build-7",
+    "source_id": "7e7b217828bb4b26"
+  },
+  {
+    "bundle_id": "30cedf771ce5ca8e5875bfe0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram",
+        "packageName": "org.telegram.messenger",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70382,
+              "ARMEABI_V7A": 70382,
+              "X86": 70382,
+              "X86_64": 70382
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Web",
+        "packageName": "org.telegram.messenger.web",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70389,
+              "ARMEABI_V7A": 70389,
+              "X86": 70389,
+              "X86_64": 70389
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Plus",
+        "packageName": "org.telegram.plus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 22478,
+              "ARMEABI_V7A": 22478,
+              "X86": 22478,
+              "X86_64": 22478
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hides your typing indicator from other users in all chats. On Telegram Plus also silences the controller-level sendTyping dispatcher.",
+    "id": "30cedf771ce5ca8e5875bfe0:12",
+    "legacy_id": 2040,
+    "metadata_status": "unverified",
+    "name": "Hide typing indicator",
+    "options": [],
+    "packages": [
+      {
+        "name": "Telegram",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Plus",
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "build-7",
+    "source_id": "7e7b217828bb4b26"
+  },
+  {
+    "bundle_id": "30cedf771ce5ca8e5875bfe0",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Automatically reads the signing certificate from the APK you are patching — no original app installed or file provided needed. Only fill the options below if you are patching an APK that was already re-signed (e.g. a previously patched build): in that case point to the original APK file, or enter the certificate manually.",
+    "id": "30cedf771ce5ca8e5875bfe0:13",
+    "legacy_id": 2041,
+    "metadata_status": "unverified",
+    "name": "Provide Original app certificate",
+    "options": [
+      {
+        "default": null,
+        "description": "Full path to the original APK or .apks bundle. Example: /sdcard/Download/Waze.apks",
+        "key": "originalApkPath",
+        "required": false,
+        "title": "Path to original APK (if uninstalled)",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "40-char hex. Found on APKMirror under app signature info.",
+        "key": "manualCertSha1",
+        "required": false,
+        "title": "Certificate SHA-1 (manual)",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "64-char hex. Optional companion to SHA-1.",
+        "key": "manualCertSha256",
+        "required": false,
+        "title": "Certificate SHA-256 (manual)",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "Needed only for Signature spoof patch. Get it with: apksigner verify --print-certs original.apk",
+        "key": "manualCertBase64",
+        "required": false,
+        "title": "Certificate Base64 DER (manual)",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "build-7",
+    "source_id": "7e7b217828bb4b26"
+  },
+  {
+    "bundle_id": "30cedf771ce5ca8e5875bfe0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram",
+        "packageName": "org.telegram.messenger",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70382,
+              "ARMEABI_V7A": 70382,
+              "X86": 70382,
+              "X86_64": 70382
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Web",
+        "packageName": "org.telegram.messenger.web",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70389,
+              "ARMEABI_V7A": 70389,
+              "X86": 70389,
+              "X86_64": 70389
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Plus",
+        "packageName": "org.telegram.plus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 22478,
+              "ARMEABI_V7A": 22478,
+              "X86": 22478,
+              "X86_64": 22478
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Removes sponsored messages and video ads from all chats and channels. On Telegram Plus also blocks native banner and inline ads.",
+    "id": "30cedf771ce5ca8e5875bfe0:14",
+    "legacy_id": 2042,
+    "metadata_status": "unverified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Telegram",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Plus",
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "build-7",
+    "source_id": "7e7b217828bb4b26"
+  },
+  {
+    "bundle_id": "30cedf771ce5ca8e5875bfe0",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [
+      "ResourcePatch",
+      "RawResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Makes the app think its signing certificate is unchanged after Morphe re-signs it.\n\nUseful when an app crashes or shows a tamper warning because it checks its own certificate.\n\nDoes not bypass Play Integrity / SafetyNet hardware attestation.\n\nApply with Original app certificate patch.",
+    "id": "30cedf771ce5ca8e5875bfe0:15",
+    "legacy_id": 2043,
+    "metadata_status": "unverified",
+    "name": "Spoof app signature",
+    "options": [
+      {
+        "default": null,
+        "description": "Leave blank — read automatically from the app. Only set this if you changed the app's package name and the patch is using the wrong one.",
+        "key": "packageName",
+        "required": false,
+        "title": "Package name override (optional)",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "build-7",
+    "source_id": "7e7b217828bb4b26"
+  },
+  {
+    "bundle_id": "30cedf771ce5ca8e5875bfe0",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Makes the app think it was installed from a specific store (default: Google Play).\n\nUseful when an app blocks features or shows errors because it detects it was not installed from the Play Store.\n\nOnly affects what the app itself sees - does not change the real system install record.",
+    "id": "30cedf771ce5ca8e5875bfe0:16",
+    "legacy_id": 2044,
+    "metadata_status": "unverified",
+    "name": "Spoof install source",
+    "options": [
+      {
+        "default": "com.android.vending",
+        "description": "Most apps only check for the Google Play Store, so the default is usually correct. Pick from the list, or type any package name directly if your app checks for a different store.",
+        "key": "installerPackageName",
+        "required": true,
+        "title": "Store to impersonate",
+        "type": "kotlin.String",
+        "values": {
+          "Amazon Appstore": "com.amazon.venezia",
+          "F-Droid": "org.fdroid.fdroid",
+          "Google Play Store": "com.android.vending",
+          "Huawei AppGallery": "com.huawei.appmarket",
+          "Samsung Galaxy Store": "com.sec.android.app.samsungapps",
+          "Xiaomi GetApps": "com.xiaomi.mipicks"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "build-7",
+    "source_id": "7e7b217828bb4b26"
+  },
+  {
+    "bundle_id": "30cedf771ce5ca8e5875bfe0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram",
+        "packageName": "org.telegram.messenger",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70382,
+              "ARMEABI_V7A": 70382,
+              "X86": 70382,
+              "X86_64": 70382
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Web",
+        "packageName": "org.telegram.messenger.web",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70389,
+              "ARMEABI_V7A": 70389,
+              "X86": 70389,
+              "X86_64": 70389
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Plus",
+        "packageName": "org.telegram.plus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 22478,
+              "ARMEABI_V7A": 22478,
+              "X86": 22478,
+              "X86_64": 22478
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Unlocks Telegram Premium features for the current account.",
+    "id": "30cedf771ce5ca8e5875bfe0:17",
+    "legacy_id": 2045,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Telegram",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Plus",
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "build-7",
+    "source_id": "7e7b217828bb4b26"
+  },
+  {
+    "bundle_id": "30cedf771ce5ca8e5875bfe0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram",
+        "packageName": "org.telegram.messenger",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70382,
+              "ARMEABI_V7A": 70382,
+              "X86": 70382,
+              "X86_64": 70382
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Web",
+        "packageName": "org.telegram.messenger.web",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70389,
+              "ARMEABI_V7A": 70389,
+              "X86": 70389,
+              "X86_64": 70389
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Plus",
+        "packageName": "org.telegram.plus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 22478,
+              "ARMEABI_V7A": 22478,
+              "X86": 22478,
+              "X86_64": 22478
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Skips Telegram's Rich HTML paste handler and falls back to the normal paste path.",
+    "id": "30cedf771ce5ca8e5875bfe0:18",
+    "legacy_id": 2046,
+    "metadata_status": "unverified",
+    "name": "Use normal paste",
+    "options": [],
+    "packages": [
+      {
+        "name": "Telegram",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Plus",
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "build-7",
+    "source_id": "7e7b217828bb4b26"
+  },
+  {
+    "bundle_id": "30cedf771ce5ca8e5875bfe0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram",
+        "packageName": "org.telegram.messenger",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70382,
+              "ARMEABI_V7A": 70382,
+              "X86": 70382,
+              "X86_64": 70382
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Web",
+        "packageName": "org.telegram.messenger.web",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70389,
+              "ARMEABI_V7A": 70389,
+              "X86": 70389,
+              "X86_64": 70389
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Plus",
+        "packageName": "org.telegram.plus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 22478,
+              "ARMEABI_V7A": 22478,
+              "X86": 22478,
+              "X86_64": 22478
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Plays voice notes in the full music player with seek bar and background playback.",
+    "id": "30cedf771ce5ca8e5875bfe0:19",
+    "legacy_id": 2047,
+    "metadata_status": "unverified",
+    "name": "Voice to music",
+    "options": [],
+    "packages": [
+      {
+        "name": "Telegram",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Plus",
+        "versions": [
+          "12.10.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "build-7",
+    "source_id": "7e7b217828bb4b26"
+  },
+  {
+    "bundle_id": "31523769b4ca5392202e83ad",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Appends \".morphe\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+    "id": "31523769b4ca5392202e83ad:0",
+    "legacy_id": 2048,
+    "metadata_status": "verified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "Default",
+        "description": "The name of the package to rename the app to.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      },
+      {
+        "default": false,
+        "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "updatePermissions",
+        "required": false,
+        "title": "Update permissions",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "updateProviders",
+        "required": false,
+        "title": "Update providers",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.5.0-dev.13",
+    "source_id": "ec17b339bc107466",
+    "use": false
+  },
+  {
+    "bundle_id": "31523769b4ca5392202e83ad",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Renames the app and manifest package so it can be installed alongside another copy. By default this appends \" B\" to the launcher name and appends \"B\" to the package's main segment.",
+    "id": "31523769b4ca5392202e83ad:1",
+    "legacy_id": 2049,
+    "metadata_status": "verified",
+    "name": "Clone app",
+    "options": [
+      {
+        "default": "Default",
+        "description": "The app name to use. Leave as Default to keep the original name and append the configured suffix.",
+        "key": "appName",
+        "required": true,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      },
+      {
+        "default": " B",
+        "description": "Suffix appended to the original app name when App name is left on Default.",
+        "key": "appNameSuffix",
+        "required": true,
+        "title": "App name suffix",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "Default",
+        "description": "Full package name to use. Leave as Default to generate one from the original package name.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      },
+      {
+        "default": "B",
+        "description": "Suffix appended to the app's main package segment when Package name is left on Default.",
+        "key": "packageSegmentSuffix",
+        "required": true,
+        "title": "Package suffix",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "",
+        "description": "Optional prefix to prepend to the generated package name. Ignored when a full Package name is set.",
+        "key": "packagePrefix",
+        "required": true,
+        "title": "Package prefix",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.5.0-dev.13",
+    "source_id": "ec17b339bc107466",
+    "use": false
+  },
+  {
+    "bundle_id": "31523769b4ca5392202e83ad",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.",
+    "id": "31523769b4ca5392202e83ad:2",
+    "legacy_id": 2050,
+    "metadata_status": "verified",
+    "name": "Disable Pairip license check",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.5.0-dev.13",
+    "source_id": "ec17b339bc107466",
+    "use": false
+  },
+  {
+    "bundle_id": "31523769b4ca5392202e83ad",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Enables debugging on the app by setting android:debuggable=\"true\".",
+    "id": "31523769b4ca5392202e83ad:3",
+    "legacy_id": 2051,
+    "metadata_status": "verified",
+    "name": "Enable debug",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.5.0-dev.13",
+    "source_id": "ec17b339bc107466",
+    "use": false
+  },
+  {
+    "bundle_id": "31523769b4ca5392202e83ad",
+    "compatiblePackages": {
+      "com.byairapp.android": [
+        "2.36.0"
+      ]
+    },
+    "dependencies": [
+      "Enable Pro"
+    ],
+    "description": "Experimental companion patch that keeps byAir's online Pro gates open without forcing the crash-prone global entitlement refresh path.",
+    "id": "31523769b4ca5392202e83ad:4",
+    "legacy_id": 2052,
+    "metadata_status": "verified",
+    "name": "Enable Online Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.byairapp.android",
+        "versions": [
+          "2.36.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0-dev.13",
+    "source_id": "ec17b339bc107466",
+    "use": false
+  },
+  {
+    "bundle_id": "31523769b4ca5392202e83ad",
+    "compatiblePackages": {
+      "net.tsapps.appsales": [
+        "12.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables Appsales features locked behind the subscription paywall and disables UI prompts for Appsales Premium.",
+    "id": "31523769b4ca5392202e83ad:5",
+    "legacy_id": 2053,
+    "metadata_status": "verified",
+    "name": "Enable Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "net.tsapps.appsales",
+        "versions": [
+          "12.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0-dev.13",
+    "source_id": "ec17b339bc107466",
+    "use": true
+  },
+  {
+    "bundle_id": "31523769b4ca5392202e83ad",
+    "compatiblePackages": {
+      "com.byairapp.android": [
+        "2.36.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Suppresses the main byAir paywall, unlock banners, and local user gating without forcing the shared entitlement path globally.",
+    "id": "31523769b4ca5392202e83ad:6",
+    "legacy_id": 2054,
+    "metadata_status": "verified",
+    "name": "Enable Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.byairapp.android",
+        "versions": [
+          "2.36.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0-dev.13",
+    "source_id": "ec17b339bc107466",
+    "use": true
+  },
+  {
+    "bundle_id": "31523769b4ca5392202e83ad",
+    "compatiblePackages": {
+      "com.fentek.derdy": [
+        "0.21.9"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables pro and unlocks all features (Übersetzungen, Notizen, Ordner/PDF) by bypassing pairip DRM via processResponse spoofing, forcing IAP purchase states to PURCHASED, and forcing SharedPreferences & RemoteConfig booleans to true.",
+    "id": "31523769b4ca5392202e83ad:7",
+    "legacy_id": 2055,
+    "metadata_status": "verified",
+    "name": "Enable Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.fentek.derdy",
+        "versions": [
+          "0.21.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0-dev.13",
+    "source_id": "ec17b339bc107466",
+    "use": true
+  },
+  {
+    "bundle_id": "31523769b4ca5392202e83ad",
+    "compatiblePackages": {
+      "com.going.mobile": [
+        "4.18.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces Going (Going) subscription checks to always pass and disables the app-specific PairIP license redirect.",
+    "id": "31523769b4ca5392202e83ad:8",
+    "legacy_id": 2056,
+    "metadata_status": "verified",
+    "name": "Enable Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.going.mobile",
+        "versions": [
+          "4.18.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0-dev.13",
+    "source_id": "ec17b339bc107466",
+    "use": true
+  },
+  {
+    "bundle_id": "31523769b4ca5392202e83ad",
+    "compatiblePackages": {
+      "epixler.de.hypnobox_android": [
+        "4.2.81",
+        ">=4.2.81"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces HypnoBox subscription entitlement checks to always pass.",
+    "id": "31523769b4ca5392202e83ad:9",
+    "legacy_id": 2057,
+    "metadata_status": "verified",
+    "name": "Enable Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "epixler.de.hypnobox_android",
+        "versions": [
+          "4.2.81",
+          ">=4.2.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0-dev.13",
+    "source_id": "ec17b339bc107466",
+    "use": true
+  },
+  {
+    "bundle_id": "31523769b4ca5392202e83ad",
+    "compatiblePackages": {
+      "com.innologica.inoreader": [
+        "7.9.11"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces Inoreader to always pass pro checks and disables free.",
+    "id": "31523769b4ca5392202e83ad:10",
+    "legacy_id": 2058,
+    "metadata_status": "verified",
+    "name": "Enable Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.innologica.inoreader",
+        "versions": [
+          "7.9.11"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0-dev.13",
+    "source_id": "ec17b339bc107466",
+    "use": true
+  },
+  {
+    "bundle_id": "31523769b4ca5392202e83ad",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Hides the app icon from the Android launcher.",
+    "id": "31523769b4ca5392202e83ad:11",
+    "legacy_id": 2059,
+    "metadata_status": "verified",
+    "name": "Hide app icon",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.5.0-dev.13",
+    "source_id": "ec17b339bc107466",
+    "use": false
+  },
+  {
+    "bundle_id": "31523769b4ca5392202e83ad",
+    "compatiblePackages": {
+      "com.innologica.inoreader": [
+        "7.9.11"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces daily usage and other limits to 500 when loading from server.",
+    "id": "31523769b4ca5392202e83ad:12",
+    "legacy_id": 2060,
+    "metadata_status": "verified",
+    "name": "Increase Daily Limits",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.innologica.inoreader",
+        "versions": [
+          "7.9.11"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0-dev.13",
+    "source_id": "ec17b339bc107466",
+    "use": true
+  },
+  {
+    "bundle_id": "31559c7caed48db2f4cfcee0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2A1E9E",
+        "name": "Roost",
+        "packageName": "com.rookery.courier",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.4.30"
+          }
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Multiplies the player's bullet damage by 10 in the Bullet Hell minigame,  applied to both enemies and bosses.",
+    "id": "31559c7caed48db2f4cfcee0:0",
+    "legacy_id": 2061,
+    "metadata_status": "unverified",
+    "name": "100x Bullet Damage",
+    "options": [],
+    "packages": [
+      {
+        "name": "Roost",
+        "versions": [
+          "1.4.30"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.0-dev.11",
+    "source_id": "2cc79d969e812693"
+  },
+  {
+    "bundle_id": "31559c7caed48db2f4cfcee0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2A1E9E",
+        "name": "Roost",
+        "packageName": "com.rookery.courier",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.4.30"
+          }
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Multiplies the player's firing speed by 50 in the Bullet Hell minigame for a near-continuous beam.",
+    "id": "31559c7caed48db2f4cfcee0:1",
+    "legacy_id": 2062,
+    "metadata_status": "unverified",
+    "name": "Beam of Death (50x Fire Rate)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Roost",
+        "versions": [
+          "1.4.30"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.0-dev.11",
+    "source_id": "2cc79d969e812693"
+  },
+  {
+    "bundle_id": "31559c7caed48db2f4cfcee0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2A1E9E",
+        "name": "Roost",
+        "packageName": "com.rookery.courier",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.4.30"
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables the PairIP Play-license check so a non-Play (e.g. patched/sideloaded) install no longer redirects to the \"get it on Google Play\" wall on launch.",
+    "id": "31559c7caed48db2f4cfcee0:2",
+    "legacy_id": 2063,
+    "metadata_status": "unverified",
+    "name": "Bypass Play Store license check",
+    "options": [],
+    "packages": [
+      {
+        "name": "Roost",
+        "versions": [
+          "1.4.30"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.0-dev.11",
+    "source_id": "2cc79d969e812693"
+  },
+  {
+    "bundle_id": "31559c7caed48db2f4cfcee0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2A1E9E",
+        "name": "Roost",
+        "packageName": "com.rookery.courier",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.4.30"
+          }
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Routes Roost's Google Play Services calls to microG RE so a patched install can sign in with Google. Requires microG RE (app.revanced.android.gms) installed.",
+    "id": "31559c7caed48db2f4cfcee0:3",
+    "legacy_id": 2064,
+    "metadata_status": "unverified",
+    "name": "Redirect Google login to microG",
+    "options": [],
+    "packages": [
+      {
+        "name": "Roost",
+        "versions": [
+          "1.4.30"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.0-dev.11",
+    "source_id": "2cc79d969e812693"
+  },
+  {
+    "bundle_id": "31559c7caed48db2f4cfcee0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2A1E9E",
+        "name": "Roost",
+        "packageName": "com.rookery.courier",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.4.30"
+          }
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Makes Play Integrity attestation fail fast instead of hanging ~60s under microG, removing the delay before Firebase logins, leaderboards, and other backend calls.",
+    "id": "31559c7caed48db2f4cfcee0:4",
+    "legacy_id": 2065,
+    "metadata_status": "unverified",
+    "name": "Skip Play Integrity (fix microG Firebase delay)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Roost",
+        "versions": [
+          "1.4.30"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.0-dev.11",
+    "source_id": "2cc79d969e812693"
+  },
+  {
+    "bundle_id": "31559c7caed48db2f4cfcee0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2A1E9E",
+        "name": "Roost",
+        "packageName": "com.rookery.courier",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.4.30"
+          }
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Triples the on-screen size of the player's bullets in the Bullet Hell minigame (sizePx 6.0 -> 18.0).",
+    "id": "31559c7caed48db2f4cfcee0:5",
+    "legacy_id": 2066,
+    "metadata_status": "unverified",
+    "name": "Triple Bullet Size",
+    "options": [],
+    "packages": [
+      {
+        "name": "Roost",
+        "versions": [
+          "1.4.30"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.0-dev.11",
+    "source_id": "2cc79d969e812693"
+  },
+  {
+    "bundle_id": "31559c7caed48db2f4cfcee0",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2A1E9E",
+        "name": "Roost",
+        "packageName": "com.rookery.courier",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.4.30"
+          }
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Removes the 5.00 modifier cap in the Bullet Hell minigame. Beyond 100 grazes the modifier continues to grow linearly (≈ +0.04x per additional graze, e.g. 200 grazes ≈ 8.9x).",
+    "id": "31559c7caed48db2f4cfcee0:6",
+    "legacy_id": 2067,
+    "metadata_status": "unverified",
+    "name": "Unlock Modifier Cap",
+    "options": [],
+    "packages": [
+      {
+        "name": "Roost",
+        "versions": [
+          "1.4.30"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.6.0-dev.11",
+    "source_id": "2cc79d969e812693"
+  },
+  {
+    "bundle_id": "3177ac21db98b2eab5a1a4bd",
+    "compatiblePackages": {
+      "com.jaindarshan.panchangtithi": [
+        "10.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks premium features by faking active subscriptions and purchases.",
+    "id": "3177ac21db98b2eab5a1a4bd:0",
+    "legacy_id": 2068,
+    "metadata_status": "verified",
+    "name": "Premium unlock",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.jaindarshan.panchangtithi",
+        "versions": [
+          "10.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "69be751f5ddf5dc0",
+    "use": true
+  },
+  {
+    "bundle_id": "3177ac21db98b2eab5a1a4bd",
+    "compatiblePackages": {
+      "com.jaindarshan.panchangtithi": [
+        "10.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables banner, interstitial, rewarded, app open, and native ads.",
+    "id": "3177ac21db98b2eab5a1a4bd:1",
+    "legacy_id": 2069,
+    "metadata_status": "verified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.jaindarshan.panchangtithi",
+        "versions": [
+          "10.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "69be751f5ddf5dc0",
+    "use": true
+  },
+  {
+    "bundle_id": "31ae040c0294d8717f8a8a3c",
+    "compatiblePackages": {
+      "hu.mavszk.vonatinfo": [
+        "4.12"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes telemetry-related root/emulator checks and Play Integrity helper logic for MÁV.",
+    "id": "31ae040c0294d8717f8a8a3c:0",
+    "legacy_id": 2070,
+    "metadata_status": "verified",
+    "name": "Disable telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "hu.mavszk.vonatinfo",
+        "versions": [
+          "4.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "0140f1ecb26f53c5",
+    "use": true
+  },
+  {
+    "bundle_id": "31ae040c0294d8717f8a8a3c",
+    "compatiblePackages": {
+      "hu.mavszk.vonatinfo": [
+        "4.12"
+      ]
+    },
+    "dependencies": [],
+    "description": "Fixes global top menu bar vertical alignment.",
+    "id": "31ae040c0294d8717f8a8a3c:1",
+    "legacy_id": 2071,
+    "metadata_status": "verified",
+    "name": "Fix top bar alignment",
+    "options": [],
+    "packages": [
+      {
+        "name": "hu.mavszk.vonatinfo",
+        "versions": [
+          "4.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "0140f1ecb26f53c5",
+    "use": true
+  },
+  {
+    "bundle_id": "31ae040c0294d8717f8a8a3c",
+    "compatiblePackages": {
+      "hu.mavszk.vonatinfo": [
+        "4.12"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes legacy fitsSystemWindows from AppCompat action bar layouts.",
+    "id": "31ae040c0294d8717f8a8a3c:2",
+    "legacy_id": 2072,
+    "metadata_status": "verified",
+    "name": "Fix top bar layout resources",
+    "options": [],
+    "packages": [
+      {
+        "name": "hu.mavszk.vonatinfo",
+        "versions": [
+          "4.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "0140f1ecb26f53c5",
+    "use": true
+  },
+  {
+    "bundle_id": "31ae040c0294d8717f8a8a3c",
+    "compatiblePackages": {
+      "hu.mavszk.vonatinfo": [
+        "4.12"
+      ]
+    },
+    "dependencies": [],
+    "description": "Remove MÁV+ popup.",
+    "id": "31ae040c0294d8717f8a8a3c:3",
+    "legacy_id": 2073,
+    "metadata_status": "verified",
+    "name": "Remove MÁV+ popup",
+    "options": [],
+    "packages": [
+      {
+        "name": "hu.mavszk.vonatinfo",
+        "versions": [
+          "4.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "0140f1ecb26f53c5",
+    "use": true
+  }
+]

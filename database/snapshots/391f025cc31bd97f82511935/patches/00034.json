@@ -1,0 +1,2945 @@
+[
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.bolpatranepal.axios": null
+    },
+    "dependencies": [],
+    "description": "Patches the Dart AOT-compiled libapp.so of Bolpatra Nepal to skip the login screen, unlock premium/paid features, and make the 7-day free trial permanent. LoginManager::isNotValidatedUser is forced to always return false, lifting the Free-plan paywall and the trial-expiry gate: the trial expiry is computed client-side from the server plan_end_date into statics (isPaid = (plan_end_date - now).inDays <= 0) that only isNotValidatedUser reads, so with it pinned to false the free trial never expires and premium features stay unlocked forever (PPMO/EGP contact redirect, hidden works tab, document download and gallery gates). The isActive() result is left honest so the app stops attaching the invalid Authorization header, and the four login redirects (notice View, document download, gallery, subscription purchase) are bypassed at the branch level so actions run straight through without sending the user to the login page. Verified on v1.1.33 (Dart 3.9.2, arm64, non-obfuscated).",
+    "id": "643e9ffeb004b22315c18a32:24",
+    "legacy_id": 3575,
+    "metadata_status": "verified",
+    "name": "Unlock Premium, Skip Login & Make Free Trial Permanent",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.bolpatranepal.axios",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "643e9ffeb004b22315c18a32",
+    "compatiblePackages": {
+      "com.ensembleai.scoutai": null
+    },
+    "dependencies": [],
+    "description": "Forces Atlas Photo's Hermes (React Native) JS runtime to treat every session as a Pro subscriber by patching the setIsProMember reducer so its isPro field is always truthy. Unlocks all Pro features and removes the Pro paywall.",
+    "id": "643e9ffeb004b22315c18a32:25",
+    "legacy_id": 3576,
+    "metadata_status": "verified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ensembleai.scoutai",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.2",
+    "source_id": "1d2ece18bafa27da",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Always shows the publish date in video author information. Thanks to lyyako for the original implementation.",
+    "id": "6458be28488a0684db9b9fed:0",
+    "legacy_id": 3577,
+    "metadata_status": "verified",
+    "name": "Always show publish date",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Exposes TikTok's native full comment-sort sheet, including its hot, time, media, and creator modes, instead of relying on rollout gates.",
+    "id": "6458be28488a0684db9b9fed:1",
+    "legacy_id": 3578,
+    "metadata_status": "verified",
+    "name": "Comment sort controls",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Copies only the comment text without including the creator's username.",
+    "id": "6458be28488a0684db9b9fed:2",
+    "legacy_id": 3579,
+    "metadata_status": "verified",
+    "name": "Copy comments without username",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a custom entry to TikTok's offline videos menu with a configurable limit from 1 to 1000 videos.",
+    "id": "6458be28488a0684db9b9fed:3",
+    "legacy_id": 3580,
+    "metadata_status": "verified",
+    "name": "Custom offline videos limit",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds diagnostic logging, crash capture, reports, and an optional rolling feed debugger.",
+    "id": "6458be28488a0684db9b9fed:4",
+    "legacy_id": 3581,
+    "metadata_status": "verified",
+    "name": "Diagnostic tools",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": false
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes TikTok's mandatory login gate from supported flows.",
+    "id": "6458be28488a0684db9b9fed:5",
+    "legacy_id": 3582,
+    "metadata_status": "verified",
+    "name": "Disable login requirement",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Keeps long-pressing Share from opening TikTok's quick-share interaction.",
+    "id": "6458be28488a0684db9b9fed:6",
+    "legacy_id": 3583,
+    "metadata_status": "verified",
+    "name": "Disable long-press quick share",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Keeps holding Like from opening TikTok's repost action.",
+    "id": "6458be28488a0684db9b9fed:7",
+    "legacy_id": 3584,
+    "metadata_status": "verified",
+    "name": "Disable long-press repost",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables capture detection and secure-window screenshot protection, including Circle to Search blocking.",
+    "id": "6458be28488a0684db9b9fed:8",
+    "legacy_id": 3585,
+    "metadata_status": "verified",
+    "name": "Disable screen capture detection",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds watermark-free downloads, video quality selection, comment sticker saving, configurable folders, and filename templates.",
+    "id": "6458be28488a0684db9b9fed:9",
+    "legacy_id": 3586,
+    "metadata_status": "verified",
+    "name": "Downloads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Shows TikTok's search entry in the Live drawer where supported.",
+    "id": "6458be28488a0684db9b9fed:10",
+    "legacy_id": 3587,
+    "metadata_status": "verified",
+    "name": "Enable Live search",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Uses TikTok's non-personalized search mode instead of its saved account choice.",
+    "id": "6458be28488a0684db9b9fed:11",
+    "legacy_id": 3588,
+    "metadata_status": "verified",
+    "name": "Enable non-personalized search",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables TikTok's native voice-comment recording and publishing entry points.",
+    "id": "6458be28488a0684db9b9fed:12",
+    "legacy_id": 3589,
+    "metadata_status": "verified",
+    "name": "Enable voice comments",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds a menu for viewing and overriding supported TikTok feature flags and configuration values.",
+    "id": "6458be28488a0684db9b9fed:13",
+    "legacy_id": 3590,
+    "metadata_status": "verified",
+    "name": "Feature Gate Lab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Hides feed ads, TikTok Shop items, livestreams, stories, photo posts, and videos outside configured view or like ranges.",
+    "id": "6458be28488a0684db9b9fed:14",
+    "legacy_id": 3591,
+    "metadata_status": "verified",
+    "name": "Feed filter",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, and can hide the Tako AI bubble.",
+    "id": "6458be28488a0684db9b9fed:15",
+    "legacy_id": 3592,
+    "metadata_status": "verified",
+    "name": "Feed tab navigation",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Restores Google account sign-in after patching.",
+    "id": "6458be28488a0684db9b9fed:16",
+    "legacy_id": 3593,
+    "metadata_status": "verified",
+    "name": "Fix Google login",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces TikTok's tablet-style split layout (video beside comments instead of a bottom sheet) once the screen is at least as wide as a configurable threshold, for foldables TikTok doesn't already recognize as tablet-class.",
+    "id": "6458be28488a0684db9b9fed:17",
+    "legacy_id": 3594,
+    "metadata_status": "verified",
+    "name": "Foldable split comment view",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a setting that bypasses TikTok's rollout gates for its native Auto scroll action on supported videos.",
+    "id": "6458be28488a0684db9b9fed:18",
+    "legacy_id": 3595,
+    "metadata_status": "verified",
+    "name": "Force show Auto scroll",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Hides posts marked as AI-generated or AI-modified by TikTok or their creators. Unmarked AI content may still appear.",
+    "id": "6458be28488a0684db9b9fed:19",
+    "legacy_id": 3596,
+    "metadata_status": "verified",
+    "name": "Hide AI content",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a default-off setting to hide browsing and LIVE puzzle dialogs while preserving login and account verification.",
+    "id": "6458be28488a0684db9b9fed:20",
+    "legacy_id": 3597,
+    "metadata_status": "verified",
+    "name": "Hide CAPTCHA popups",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to hide the + follow button below creator avatars in video feeds.",
+    "id": "6458be28488a0684db9b9fed:21",
+    "legacy_id": 3598,
+    "metadata_status": "verified",
+    "name": "Hide feed follow button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to hide the LIVE button at the top left of video feeds.",
+    "id": "6458be28488a0684db9b9fed:22",
+    "legacy_id": 3599,
+    "metadata_status": "verified",
+    "name": "Hide feed LIVE button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to hide the save/favourites button from video feeds.",
+    "id": "6458be28488a0684db9b9fed:23",
+    "legacy_id": 3600,
+    "metadata_status": "verified",
+    "name": "Hide feed save button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to hide the search button at the top right of video feeds.",
+    "id": "6458be28488a0684db9b9fed:24",
+    "legacy_id": 3601,
+    "metadata_status": "verified",
+    "name": "Hide feed search button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes floating promotional badges, coin icons, and timer banners from the Home feed.",
+    "id": "6458be28488a0684db9b9fed:25",
+    "legacy_id": 3602,
+    "metadata_status": "verified",
+    "name": "Hide floating promotions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Hides certain batches of unpersonalized slop posts that appear in your For You feed.",
+    "id": "6458be28488a0684db9b9fed:26",
+    "legacy_id": 3603,
+    "metadata_status": "verified",
+    "name": "Hide FYP unpersonalized slop videos",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides TikTok's exposed quick emoji row in supported comment inputs.",
+    "id": "6458be28488a0684db9b9fed:27",
+    "legacy_id": 3604,
+    "metadata_status": "verified",
+    "name": "Hide quick comment reactions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes suggested-account cards from profile and inbox surfaces. Thanks to tymmesyde for the original implementation.",
+    "id": "6458be28488a0684db9b9fed:28",
+    "legacy_id": 3605,
+    "metadata_status": "verified",
+    "name": "Hide suggested accounts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables TikTok's native hold, slide down, and release gesture to lock 2x speed.",
+    "id": "6458be28488a0684db9b9fed:29",
+    "legacy_id": 3606,
+    "metadata_status": "verified",
+    "name": "Hold-and-slide 2x lock",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Opens profile and story website links in the system browser instead of TikTok's in-app browser. Thanks to lyyako for the original implementation.",
+    "id": "6458be28488a0684db9b9fed:30",
+    "legacy_id": 3607,
+    "metadata_status": "verified",
+    "name": "Open external links directly",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables playback-speed controls for all videos and remembers the selected speed between videos.",
+    "id": "6458be28488a0684db9b9fed:31",
+    "legacy_id": 3608,
+    "metadata_status": "verified",
+    "name": "Playback speed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "Settings"
+    ],
+    "description": "Adds in-app controls for changing the region TikTok reads.",
+    "id": "6458be28488a0684db9b9fed:32",
+    "legacy_id": 3609,
+    "metadata_status": "verified",
+    "name": "Region spoof",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Remembers TikTok's clear-display state between videos.",
+    "id": "6458be28488a0684db9b9fed:33",
+    "legacy_id": 3610,
+    "metadata_status": "verified",
+    "name": "Remember clear display",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Continues supported videos from where playback stopped when returning after a scroll.",
+    "id": "6458be28488a0684db9b9fed:34",
+    "legacy_id": 3611,
+    "metadata_status": "verified",
+    "name": "Resume videos after scrolling",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes tracking parameters from TikTok links before they are shared.",
+    "id": "6458be28488a0684db9b9fed:35",
+    "legacy_id": 3612,
+    "metadata_status": "verified",
+    "name": "Sanitize sharing links",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds the Metra patches settings menu to TikTok. Supports TikTok 46.2.3.",
+    "id": "6458be28488a0684db9b9fed:36",
+    "legacy_id": 3613,
+    "metadata_status": "verified",
+    "name": "Settings",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds toggles and allow-lists for the video share sheet's \"Send to\", \"Share via app\", and \"Video Actions\" sections.",
+    "id": "6458be28488a0684db9b9fed:37",
+    "legacy_id": 3614,
+    "metadata_status": "verified",
+    "name": "Share sheet modification",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Shows TikTok's native video seekbar where it would normally be hidden.",
+    "id": "6458be28488a0684db9b9fed:38",
+    "legacy_id": 3615,
+    "metadata_status": "verified",
+    "name": "Show seekbar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Shows TikTok's video preview thumbnail while dragging the seekbar.",
+    "id": "6458be28488a0684db9b9fed:39",
+    "legacy_id": 3616,
+    "metadata_status": "verified",
+    "name": "Show seekbar thumbnail",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops videos at the end instead of replaying them.",
+    "id": "6458be28488a0684db9b9fed:40",
+    "legacy_id": 3617,
+    "metadata_status": "verified",
+    "name": "Stop video looping",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "6458be28488a0684db9b9fed",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds comment translation controls using TikTok's translation system, with selectable language exclusions.",
+    "id": "6458be28488a0684db9b9fed:41",
+    "legacy_id": 3618,
+    "metadata_status": "verified",
+    "name": "Translate comments",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.8.0",
+    "source_id": "da44d5d6225f3690",
+    "use": true
+  },
+  {
+    "bundle_id": "645ac82164c9d9d3488d74ee",
+    "compatiblePackages": {
+      "com.alightcreative.motion": [
+        "5.0.273.1028426",
+        "5.0.273"
+      ]
+    },
+    "dependencies": [
+      "Modded By Satriyaid Dialog Destruction",
+      "Modded By Satriyaid Dialog Suppression",
+      "New Project Wizard Suppression",
+      "Updates Required Popup Suppression",
+      "Seed Default Preferences",
+      "Popup Dismisser Daemon"
+    ],
+    "description": "Eliminates all startup, update, and modded-by popups in After Motion Z+ (v5.0.273).",
+    "id": "645ac82164c9d9d3488d74ee:0",
+    "legacy_id": 3619,
+    "metadata_status": "verified",
+    "name": "After Motion Z+ Popup Suppression (Complete Suite)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.alightcreative.motion",
+        "versions": [
+          "5.0.273.1028426",
+          "5.0.273"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0-dev.1",
+    "source_id": "741a57ea30b25cb7",
+    "use": true
+  },
+  {
+    "bundle_id": "645ac82164c9d9d3488d74ee",
+    "compatiblePackages": {
+      "com.alightcreative.motion": [
+        "5.0.273.1028420",
+        "5.0.273.1028426",
+        "5.0.273"
+      ]
+    },
+    "dependencies": [
+      "Modded By Satriyaid Dialog Destruction",
+      "Updates Required Popup Suppression",
+      "Seed Default Preferences",
+      "Popup Dismisser Daemon"
+    ],
+    "description": "Eliminates all startup, update, and modded-by popups in Alight Motion Pro (BangAlbin mod).",
+    "id": "645ac82164c9d9d3488d74ee:1",
+    "legacy_id": 3620,
+    "metadata_status": "verified",
+    "name": "Alight Motion Pro Popup Suppression (Complete Suite)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.alightcreative.motion",
+        "versions": [
+          "5.0.273.1028420",
+          "5.0.273.1028426",
+          "5.0.273"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0-dev.1",
+    "source_id": "741a57ea30b25cb7",
+    "use": true
+  },
+  {
+    "bundle_id": "645ac82164c9d9d3488d74ee",
+    "compatiblePackages": {
+      "com.alightcreative.motion": [
+        "5.0.273.1028420",
+        "5.0.273.1028426",
+        "5.0.273"
+      ]
+    },
+    "dependencies": [],
+    "description": "Completely eradicates and severs all ModdedBySatriyaid and TGSatriyaidChannel popup reflection classes at the root.",
+    "id": "645ac82164c9d9d3488d74ee:2",
+    "legacy_id": 3621,
+    "metadata_status": "verified",
+    "name": "Modded By Satriyaid Dialog Destruction",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.alightcreative.motion",
+        "versions": [
+          "5.0.273.1028420",
+          "5.0.273.1028426",
+          "5.0.273"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0-dev.1",
+    "source_id": "741a57ea30b25cb7",
+    "use": true
+  },
+  {
+    "bundle_id": "645ac82164c9d9d3488d74ee",
+    "compatiblePackages": {
+      "com.alightcreative.motion": [
+        "5.0.273.1028426",
+        "5.0.273"
+      ]
+    },
+    "dependencies": [],
+    "description": "No-ops zzw.xyz startup dialog entry.",
+    "id": "645ac82164c9d9d3488d74ee:3",
+    "legacy_id": 3622,
+    "metadata_status": "verified",
+    "name": "Modded By Satriyaid Dialog Suppression",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.alightcreative.motion",
+        "versions": [
+          "5.0.273.1028426",
+          "5.0.273"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0-dev.1",
+    "source_id": "741a57ea30b25cb7",
+    "use": true
+  },
+  {
+    "bundle_id": "645ac82164c9d9d3488d74ee",
+    "compatiblePackages": {
+      "com.alightcreative.motion": [
+        "5.0.273.1028426",
+        "5.0.273"
+      ]
+    },
+    "dependencies": [],
+    "description": "NOPs native gate cbz branch in libsatriyaid.so at 0x585c0.",
+    "id": "645ac82164c9d9d3488d74ee:4",
+    "legacy_id": 3623,
+    "metadata_status": "verified",
+    "name": "Native Server 1 Startup Gate Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.alightcreative.motion",
+        "versions": [
+          "5.0.273.1028426",
+          "5.0.273"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0-dev.1",
+    "source_id": "741a57ea30b25cb7",
+    "use": true
+  },
+  {
+    "bundle_id": "645ac82164c9d9d3488d74ee",
+    "compatiblePackages": {
+      "com.alightcreative.motion": [
+        "5.0.273.1028426",
+        "5.0.273"
+      ]
+    },
+    "dependencies": [],
+    "description": "No-ops zzzb.vbd, zzzb.vwp, and forces zzzb.uio to return false.",
+    "id": "645ac82164c9d9d3488d74ee:5",
+    "legacy_id": 3624,
+    "metadata_status": "verified",
+    "name": "New Project Wizard Suppression",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.alightcreative.motion",
+        "versions": [
+          "5.0.273.1028426",
+          "5.0.273"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0-dev.1",
+    "source_id": "741a57ea30b25cb7",
+    "use": true
+  },
+  {
+    "bundle_id": "645ac82164c9d9d3488d74ee",
+    "compatiblePackages": {
+      "com.alightcreative.motion": [
+        "5.0.273.1028420",
+        "5.0.273.1028426",
+        "5.0.273"
+      ]
+    },
+    "dependencies": [
+      "Popup Dismisser Manifest Hook"
+    ],
+    "description": "Injects background runtime dialog dismisser and preference seeder to eliminate all modder popups.",
+    "id": "645ac82164c9d9d3488d74ee:6",
+    "legacy_id": 3625,
+    "metadata_status": "verified",
+    "name": "Popup Dismisser Daemon",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.alightcreative.motion",
+        "versions": [
+          "5.0.273.1028420",
+          "5.0.273.1028426",
+          "5.0.273"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0-dev.1",
+    "source_id": "741a57ea30b25cb7",
+    "use": true
+  },
+  {
+    "bundle_id": "645ac82164c9d9d3488d74ee",
+    "compatiblePackages": {
+      "com.alightcreative.motion": [
+        "5.0.273.1028420",
+        "5.0.273.1028426",
+        "5.0.273"
+      ]
+    },
+    "dependencies": [],
+    "description": "Registers NoPopupSeedProvider in AndroidManifest.xml for cold-start OS initialization.",
+    "id": "645ac82164c9d9d3488d74ee:7",
+    "legacy_id": 3626,
+    "metadata_status": "verified",
+    "name": "Popup Dismisser Manifest Hook",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.alightcreative.motion",
+        "versions": [
+          "5.0.273.1028420",
+          "5.0.273.1028426",
+          "5.0.273"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0-dev.1",
+    "source_id": "741a57ea30b25cb7",
+    "use": true
+  },
+  {
+    "bundle_id": "645ac82164c9d9d3488d74ee",
+    "compatiblePackages": {
+      "com.alightcreative.motion": [
+        "5.0.273.1028426",
+        "5.0.273",
+        "5.0.273.1028420"
+      ]
+    },
+    "dependencies": [],
+    "description": "Seeds initial suppression preferences in shared_prefs/.",
+    "id": "645ac82164c9d9d3488d74ee:8",
+    "legacy_id": 3627,
+    "metadata_status": "verified",
+    "name": "Seed Default Preferences",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.alightcreative.motion",
+        "versions": [
+          "5.0.273.1028426",
+          "5.0.273",
+          "5.0.273.1028420"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0-dev.1",
+    "source_id": "741a57ea30b25cb7",
+    "use": true
+  },
+  {
+    "bundle_id": "645ac82164c9d9d3488d74ee",
+    "compatiblePackages": {
+      "com.alightcreative.motion": [
+        "5.0.273.1028426",
+        "5.0.273",
+        "5.0.273.1028420"
+      ]
+    },
+    "dependencies": [],
+    "description": "No-ops fq.ab dialog builder in Firebase Analytics wrapper.",
+    "id": "645ac82164c9d9d3488d74ee:9",
+    "legacy_id": 3628,
+    "metadata_status": "verified",
+    "name": "Updates Required Popup Suppression",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.alightcreative.motion",
+        "versions": [
+          "5.0.273.1028426",
+          "5.0.273",
+          "5.0.273.1028420"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0-dev.1",
+    "source_id": "741a57ea30b25cb7",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Overrides the feed flyout 'Play next in queue' with the Morphe video queue.",
+    "id": "658d1330cef9b5ae353dae1d:0",
+    "legacy_id": 3629,
+    "metadata_status": "verified",
+    "name": "Add to queue",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to replace video thumbnails using the DeArrow API or image captures from the video.",
+    "id": "658d1330cef9b5ae353dae1d:1",
+    "legacy_id": 3630,
+    "metadata_status": "verified",
+    "name": "Alternative thumbnails",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to bypass power saving restrictions for Ambient mode and disable it entirely or in fullscreen.",
+    "id": "658d1330cef9b5ae353dae1d:2",
+    "legacy_id": 3631,
+    "metadata_status": "verified",
+    "name": "Ambient mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.14.0",
+        "2026.04.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to select from the Reddit app icons available in the manifest.",
+    "id": "658d1330cef9b5ae353dae1d:3",
+    "legacy_id": 3632,
+    "metadata_status": "verified",
+    "name": "App icon",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.14.0",
+          "2026.04.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "9.15.51"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to change the app refresh rate.",
+    "id": "658d1330cef9b5ae353dae1d:4",
+    "legacy_id": 3633,
+    "metadata_status": "verified",
+    "name": "App refresh rate",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "9.15.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to change the app refresh rate.",
+    "id": "658d1330cef9b5ae353dae1d:5",
+    "legacy_id": 3634,
+    "metadata_status": "verified",
+    "name": "App refresh rate",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "9.15.51"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bypasses certificate checks which prevent YouTube Music from working on Android Auto.",
+    "id": "658d1330cef9b5ae353dae1d:6",
+    "legacy_id": 3635,
+    "metadata_status": "verified",
+    "name": "Bypass certificate checks",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "9.15.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries.",
+    "id": "658d1330cef9b5ae353dae1d:7",
+    "legacy_id": 3636,
+    "metadata_status": "verified",
+    "name": "Bypass image region restrictions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to bypass redirects and open the original link directly.",
+    "id": "658d1330cef9b5ae353dae1d:8",
+    "legacy_id": 3637,
+    "metadata_status": "verified",
+    "name": "Bypass link redirects",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable captions from being automatically enabled or to set caption cookies.",
+    "id": "658d1330cef9b5ae353dae1d:9",
+    "legacy_id": 3638,
+    "metadata_status": "verified",
+    "name": "Captions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to change the UI appearance to a phone, tablet, or automotive device.",
+    "id": "658d1330cef9b5ae353dae1d:10",
+    "legacy_id": 3639,
+    "metadata_status": "verified",
+    "name": "Change form factor",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "9.15.51"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to change the header logo in the top left corner of the app.",
+    "id": "658d1330cef9b5ae353dae1d:11",
+    "legacy_id": 3640,
+    "metadata_status": "verified",
+    "name": "Change header",
+    "options": [
+      {
+        "default": null,
+        "description": "\n            Folder with images to use as a custom header logo.\n\n            The folder must contain one or more of the following folders, depending on the DPI of the device:\n            - drawable-hdpi\n- drawable-xhdpi\n- drawable-xxhdpi\n- drawable-xxxhdpi\n\n            Each of the folders must contain the following file(s):\n            - morphe_header_custom_dark.png\n\n            Required dimensions:\n            - drawable-hdpi: 121x36 px\n- drawable-xhdpi: 160x48 px\n- drawable-xxhdpi: 240x72 px\n- drawable-xxxhdpi: 320x96 px\n        ",
+        "key": "custom",
+        "required": false,
+        "title": "Custom header logo",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "9.15.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to change the header logo in the top left corner of the app.",
+    "id": "658d1330cef9b5ae353dae1d:12",
+    "legacy_id": 3641,
+    "metadata_status": "verified",
+    "name": "Change header",
+    "options": [
+      {
+        "default": null,
+        "description": "\n            Folder with images to use as a custom header logo.\n\n            The folder must contain one or more of the following folders, depending on the DPI of the device:\n            - drawable-hdpi\n- drawable-xhdpi\n- drawable-xxhdpi\n- drawable-xxxhdpi\n\n            Each of the folders must contain the following file(s):\n            - morphe_header_custom_light.png\n- morphe_header_custom_dark.png\n\n            Required dimensions:\n            - drawable-hdpi: 194x72 px\n- drawable-xhdpi: 258x96 px\n- drawable-xxhdpi: 387x144 px\n- drawable-xxxhdpi: 512x192 px\n        ",
+        "key": "custom",
+        "required": false,
+        "title": "Custom header logo",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Spoofs the installer source so the app appears to be installed from an app store.",
+    "id": "658d1330cef9b5ae353dae1d:13",
+    "legacy_id": 3642,
+    "metadata_status": "verified",
+    "name": "Change installer source",
+    "options": [
+      {
+        "default": "com.android.vending",
+        "description": "",
+        "key": "packageInstallerName",
+        "required": false,
+        "title": "Spoofed package installer name",
+        "type": "kotlin.String",
+        "values": {
+          "Amazon Appstore": "com.amazon.venezia",
+          "Google Play": "com.android.vending",
+          "Huawei AppGallery": "com.huawei.appmarket",
+          "Samsung Galaxy Store": "com.sec.android.app.samsungapps",
+          "Xiaomi GetApps": "com.xiaomi.mipicks"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": false
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "9.15.51"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to change the miniplayer background color to match the fullscreen player.",
+    "id": "658d1330cef9b5ae353dae1d:14",
+    "legacy_id": 3643,
+    "metadata_status": "verified",
+    "name": "Change miniplayer color",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "9.15.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "9.15.51"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to set which page the app opens in instead of the homepage.",
+    "id": "658d1330cef9b5ae353dae1d:15",
+    "legacy_id": 3644,
+    "metadata_status": "verified",
+    "name": "Change start page",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "9.15.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to set which page the app opens in instead of the homepage.",
+    "id": "658d1330cef9b5ae353dae1d:16",
+    "legacy_id": 3645,
+    "metadata_status": "verified",
+    "name": "Change start page",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to search inside the channel that is currently open instead of searching all of YouTube.",
+    "id": "658d1330cef9b5ae353dae1d:17",
+    "legacy_id": 3646,
+    "metadata_status": "verified",
+    "name": "Channel search",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "9.15.51"
+      ]
+    },
+    "dependencies": [],
+    "description": "Checks if the device DNS server is preventing user watch history from being saved.",
+    "id": "658d1330cef9b5ae353dae1d:18",
+    "legacy_id": 3647,
+    "metadata_status": "verified",
+    "name": "Check watch history domain name resolution",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "9.15.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Checks if the device DNS server is preventing user watch history from being saved.",
+    "id": "658d1330cef9b5ae353dae1d:19",
+    "legacy_id": 3648,
+    "metadata_status": "verified",
+    "name": "Check watch history domain name resolution",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Changes the app package name to allow installing the same app multiple times. By default \".morphe\" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.",
+    "id": "658d1330cef9b5ae353dae1d:20",
+    "legacy_id": 3649,
+    "metadata_status": "verified",
+    "name": "Clone app",
+    "options": [
+      {
+        "default": "Default",
+        "description": "Package name to use for the cloned app.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      },
+      {
+        "default": false,
+        "description": "Update custom permissions declared by the app. Enabling this can fix installation conflicts, but this can also break features in certain apps.",
+        "key": "updatePermissions",
+        "required": false,
+        "title": "Update permissions",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Update provider names declared by the app. Enabling this can fix installation conflicts, but this can also break features in certain apps.",
+        "key": "updateProviders",
+        "required": false,
+        "title": "Update providers",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": false
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to display buttons in the video player to copy video links.",
+    "id": "658d1330cef9b5ae353dae1d:21",
+    "legacy_id": 3650,
+    "metadata_status": "verified",
+    "name": "Copy video link",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "9.15.51"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.",
+    "id": "658d1330cef9b5ae353dae1d:22",
+    "legacy_id": 3651,
+    "metadata_status": "verified",
+    "name": "Crossfade",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "9.15.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "9.15.51"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to change the app icon and app name. For mounted (root) installations the branding is applied while patching, because it cannot be changed from the app settings.",
+    "id": "658d1330cef9b5ae353dae1d:23",
+    "legacy_id": 3652,
+    "metadata_status": "verified",
+    "name": "Custom branding",
+    "options": [
+      {
+        "default": null,
+        "description": "Custom app name.",
+        "key": "customName",
+        "required": false,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "\n            Folder with images to use as a custom icon.\n            \n            The folder must contain one or more of the following folders, depending on the DPI of the device:\n            - mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n            \n            Each of the folders must contain all of the following files:\n            morphe_adaptive_background_custom.png\nmorphe_adaptive_foreground_custom.png\n            \n            The image dimensions must be as follows:\n            - mipmap-mdpi: 108x108 px\n- mipmap-hdpi: 162x162 px\n- mipmap-xhdpi: 216x216 px\n- mipmap-xxhdpi: 324x324 px\n- mipmap-xxxhdpi: 432x432 px\n\n            Optionally, the path contains a 'drawable' folder with a monochrome icon file:\n            morphe_adaptive_monochrome_custom.xml\n\n            Optionally, the path contains a notification icon in one of the following formats:\n            - XML vector drawable placed in 'drawable':\n              morphe_notification_icon_custom.xml\n            - PNG raster images placed in the matching 'drawable-<dpi>' folders:\n              - drawable-mdpi/morphe_notification_icon_custom.png (24x24 px)\n- drawable-hdpi/morphe_notification_icon_custom.png (36x36 px)\n- drawable-xhdpi/morphe_notification_icon_custom.png (48x48 px)\n- drawable-xxhdpi/morphe_notification_icon_custom.png (72x72 px)\n- drawable-xxxhdpi/morphe_notification_icon_custom.png (96x96 px)\n        ",
+        "key": "customIcon",
+        "required": false,
+        "title": "Custom icon",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "\n            The app icon to use, including the notification icon.\n\n            'Automatic' uses the custom icon if one is provided, and otherwise 'Black'.\n            Select 'Original' to keep the icon of the unpatched app.\n\n            The icon can be changed later in the app settings, but only for the launcher.\n            Android Auto, the app list of the system settings and the apk file always show\n            the icon chosen here, and a mounted (root) installation can only change it by\n            patching again.\n        ",
+        "key": "appIcon",
+        "required": false,
+        "title": "App icon",
+        "type": "kotlin.String",
+        "values": {
+          "Automatic": null,
+          "Black": "black",
+          "Custom": "custom",
+          "Dark": "dark",
+          "Light": "light",
+          "Original": "original",
+          "Play": "play",
+          "Play black": "play_black"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "9.15.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to change the app icon and app name. For mounted (root) installations the branding is applied while patching, because it cannot be changed from the app settings.",
+    "id": "658d1330cef9b5ae353dae1d:24",
+    "legacy_id": 3653,
+    "metadata_status": "verified",
+    "name": "Custom branding",
+    "options": [
+      {
+        "default": null,
+        "description": "Custom app name.",
+        "key": "customName",
+        "required": false,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "\n            Folder with images to use as a custom icon.\n            \n            The folder must contain one or more of the following folders, depending on the DPI of the device:\n            - mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n            \n            Each of the folders must contain all of the following files:\n            morphe_adaptive_background_custom.png\nmorphe_adaptive_foreground_custom.png\n            \n            The image dimensions must be as follows:\n            - mipmap-mdpi: 108x108 px\n- mipmap-hdpi: 162x162 px\n- mipmap-xhdpi: 216x216 px\n- mipmap-xxhdpi: 324x324 px\n- mipmap-xxxhdpi: 432x432 px\n\n            Optionally, the path contains a 'drawable' folder with a monochrome icon file:\n            morphe_adaptive_monochrome_custom.xml\n\n            Optionally, the path contains a notification icon in one of the following formats:\n            - XML vector drawable placed in 'drawable':\n              morphe_notification_icon_custom.xml\n            - PNG raster images placed in the matching 'drawable-<dpi>' folders:\n              - drawable-mdpi/morphe_notification_icon_custom.png (24x24 px)\n- drawable-hdpi/morphe_notification_icon_custom.png (36x36 px)\n- drawable-xhdpi/morphe_notification_icon_custom.png (48x48 px)\n- drawable-xxhdpi/morphe_notification_icon_custom.png (72x72 px)\n- drawable-xxxhdpi/morphe_notification_icon_custom.png (96x96 px)\n        ",
+        "key": "customIcon",
+        "required": false,
+        "title": "Custom icon",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "\n            The app icon to use, including the notification icon.\n\n            'Automatic' uses the custom icon if one is provided, and otherwise 'Black'.\n            Select 'Original' to keep the icon of the unpatched app.\n\n            The icon can be changed later in the app settings, but only for the launcher.\n            Android Auto, the app list of the system settings and the apk file always show\n            the icon chosen here, and a mounted (root) installation can only change it by\n            patching again.\n        ",
+        "key": "appIcon",
+        "required": false,
+        "title": "App icon",
+        "type": "kotlin.String",
+        "values": {
+          "Automatic": null,
+          "Black": "black",
+          "Custom": "custom",
+          "Dark": "dark",
+          "Light": "light",
+          "Original": "original",
+          "Play": "play",
+          "Play black": "play_black"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.14.0",
+        "2026.04.0"
+      ]
+    },
+    "dependencies": [
+      "Spoof signature"
+    ],
+    "description": "Changes the Reddit app name to the name specified in patch options.",
+    "id": "658d1330cef9b5ae353dae1d:25",
+    "legacy_id": 3654,
+    "metadata_status": "verified",
+    "name": "Custom branding name for Reddit",
+    "options": [
+      {
+        "default": "Reddit Morphe",
+        "description": "The name of the app.",
+        "key": "appName",
+        "required": true,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Reddit Morphe"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.14.0",
+          "2026.04.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": false
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.14.0",
+        "2026.04.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to replace Reddit Sans / Roboto with a custom TTF or OTF font file at runtime.",
+    "id": "658d1330cef9b5ae353dae1d:26",
+    "legacy_id": 3655,
+    "metadata_status": "verified",
+    "name": "Custom font",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.14.0",
+          "2026.04.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to change the opacity of the video player background when player controls are visible.",
+    "id": "658d1330cef9b5ae353dae1d:27",
+    "legacy_id": 3656,
+    "metadata_status": "verified",
+    "name": "Custom player overlay opacity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "9.15.51"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to prevent skipping to the next track when the dislike button is pressed.",
+    "id": "658d1330cef9b5ae353dae1d:28",
+    "legacy_id": 3657,
+    "metadata_status": "verified",
+    "name": "Disable dislike redirection",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "9.15.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable player double tap gestures.",
+    "id": "658d1330cef9b5ae353dae1d:29",
+    "legacy_id": 3658,
+    "metadata_status": "verified",
+    "name": "Disable double tap actions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "9.15.51"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable DRC (Dynamic Range Compression) audio.",
+    "id": "658d1330cef9b5ae353dae1d:30",
+    "legacy_id": 3659,
+    "metadata_status": "verified",
+    "name": "Disable DRC audio",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "9.15.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable DRC (Dynamic Range Compression) audio.",
+    "id": "658d1330cef9b5ae353dae1d:31",
+    "legacy_id": 3660,
+    "metadata_status": "verified",
+    "name": "Disable DRC audio",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to selectively disable gestures for entering and exiting fullscreen mode, and to disable pinch-to-zoom.",
+    "id": "658d1330cef9b5ae353dae1d:32",
+    "legacy_id": 3661,
+    "metadata_status": "verified",
+    "name": "Disable fullscreen gestures",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable haptic feedback in the player for various actions.",
+    "id": "658d1330cef9b5ae353dae1d:33",
+    "legacy_id": 3662,
+    "metadata_status": "verified",
+    "name": "Disable haptic feedback",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable server side layout updates and use an older UI.",
+    "id": "658d1330cef9b5ae353dae1d:34",
+    "legacy_id": 3663,
+    "metadata_status": "verified",
+    "name": "Disable layout updates",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.14.0",
+        "2026.04.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable the modern home UI. This patch works with Reddit 2026.24.0 and earlier.",
+    "id": "658d1330cef9b5ae353dae1d:35",
+    "legacy_id": 3664,
+    "metadata_status": "verified",
+    "name": "Disable modern home",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.14.0",
+          "2026.04.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables Play Store updates by setting the version code to the maximum allowed. This patch may cause unexpected issues with some apps and does not work if the app is installed by root mounting",
+    "id": "658d1330cef9b5ae353dae1d:36",
+    "legacy_id": 3665,
+    "metadata_status": "verified",
+    "name": "Disable Play Store updates",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": false
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable panels (such as live chat) from opening automatically.",
+    "id": "658d1330cef9b5ae353dae1d:37",
+    "legacy_id": 3666,
+    "metadata_status": "verified",
+    "name": "Disable player popup panels",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to stop a playlist from automatically advancing to the next video.",
+    "id": "658d1330cef9b5ae353dae1d:38",
+    "legacy_id": 3667,
+    "metadata_status": "verified",
+    "name": "Disable playlist autoplay",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "9.15.51"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.",
+    "id": "658d1330cef9b5ae353dae1d:39",
+    "legacy_id": 3668,
+    "metadata_status": "verified",
+    "name": "Disable QUIC protocol",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "9.15.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.",
+    "id": "658d1330cef9b5ae353dae1d:40",
+    "legacy_id": 3669,
+    "metadata_status": "verified",
+    "name": "Disable QUIC protocol",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable rolling number animations of video view count, user likes, and upload time.",
+    "id": "658d1330cef9b5ae353dae1d:41",
+    "legacy_id": 3670,
+    "metadata_status": "verified",
+    "name": "Disable rolling number animations",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.14.0",
+        "2026.04.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable the popup that appears when taking a screenshot.",
+    "id": "658d1330cef9b5ae353dae1d:42",
+    "legacy_id": 3671,
+    "metadata_status": "verified",
+    "name": "Disable screenshot popup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.14.0",
+          "2026.04.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to remove limits of how fast the home and subscription feed can be scrolled.",
+    "id": "658d1330cef9b5ae353dae1d:43",
+    "legacy_id": 3672,
+    "metadata_status": "verified",
+    "name": "Disable scrolling speed limit",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable Shorts from resuming on app startup when Shorts were last being watched.",
+    "id": "658d1330cef9b5ae353dae1d:44",
+    "legacy_id": 3673,
+    "metadata_status": "verified",
+    "name": "Disable Shorts resuming on startup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  },
+  {
+    "bundle_id": "658d1330cef9b5ae353dae1d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to disable the popups asking to sign into or connect to a TV on the same local network.",
+    "id": "658d1330cef9b5ae353dae1d:45",
+    "legacy_id": 3674,
+    "metadata_status": "verified",
+    "name": "Disable sign in to TV popup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.18",
+    "source_id": "a724286eb7a07a6f",
+    "use": true
+  }
+]
