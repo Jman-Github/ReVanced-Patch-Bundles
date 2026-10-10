@@ -202,7 +202,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [Tiaruebar](#-tiaruebar-bundle-patch-list) | 1 | 1 | Generated |
 | [FTL-Portal](#-ftl-portal-bundle-patch-list) | 3 | 2 | Generated |
 | [Imgur](#-imgur-bundle-patch-list) | 1 | 1 | Generated |
-| [aapam](#-aapam-bundle-patch-list) | 16 | 4 | Generated |
+| [aapam](#-aapam-bundle-patch-list) | 18 | 5 | Generated |
 | [RabehX](#-rabehx-bundle-patch-list) | 12 | 3 | Generated |
 | [Tiaruebar1024](#-tiaruebar1024-bundle-patch-list) | 1 | 1 | Generated |
 | [Slight](#-slight-bundle-patch-list) | 2 | 2 | Generated |
@@ -6780,12 +6780,14 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 aapam Bundle Patch List:
 [📦 aapam-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-aapam-patches-bundle-morphe)
 <details>
-<summary><b>aapam</b> - 16 patches, 4 apps</summary>
+<summary><b>aapam</b> - 18 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
 | ```Disable ads``` | ```Removes all AdMob ads (banner, interstitial, rewarded, rewarded interstitial, app open) by intercepting the Corona SDK AdMob plugin bridge before any ad is initialised, loaded, or shown.``` | ```Coloring and Learn``` | ```2.28``` |
 | ```Unlock ad-free``` | ```Hooks CoronaRuntime.onWillLoadMain() to execute a Lua bootstrap script that stubs in-app purchases (Tienda.ProductoComprado returning 'S'), hides promo/ad UI buttons, and stubs libads.``` | ```Coloring and Learn``` | ```2.28``` |
+| ```Block Flutter Ads``` | ```Removes home feed advertisements and sponsored community notice cards.``` | ```MyGate``` | ```7.37.0, 7.38.2``` |
+| ```Unlock Premium Plan``` | ```Enables premium resident status and removes promotional banners.``` | ```MyGate``` | ```7.37.0, 7.38.2``` |
 | ```Bundle native ad-strip hook``` | ```Packages the Prime Video libignite interception library for this APK's ABIs.``` | ```Prime Video Android TV``` | ```6.23.23+v15.5.0.70-armv7a``` |
 | ```Bundle native ad-strip hook``` | ```Packages the Prime Video libignite interception library for this APK's ABIs.``` | ```Prime Video Android TV``` | ```6.24.5+v16.0.0.231-allAbis, 6.24.8+v16.0.0.361-allAbis``` |
 | ```Clone Prime Video``` | ```Renames the package to <original>.mod (and its provider authorities / custom permissions) so the patched app installs side-by-side with a non-removable system Prime Video. Opt-in.``` | ```Prime Video Android TV``` | ```6.23.23+v15.5.0.70-armv7a, 6.24.5+v16.0.0.231-allAbis, 6.24.8+v16.0.0.361-allAbis``` |

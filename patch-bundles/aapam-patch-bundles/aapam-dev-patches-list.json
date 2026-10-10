@@ -1,5 +1,5 @@
 {
-    "version": "v1.3.1-dev.1",
+    "version": "v1.4.0-dev.1",
     "patches": [
         {
             "compatiblePackages": [
@@ -34,6 +34,38 @@
             "dependencies": [],
             "description": "Keeps view-once and self-destructing media viewable forever; the sender sees them as expired.",
             "name": "Anti-disappearing media",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#00A0E3",
+                    "description": "MyGate Community & Security App",
+                    "name": "MyGate",
+                    "packageName": "com.mygate.user",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "7.37.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "7.38.2"
+                        }
+                    ],
+                    "versions": [
+                        "7.37.0",
+                        "7.38.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes home feed advertisements and sponsored community notice cards.",
+            "name": "Block Flutter Ads",
             "options": []
         },
         {
@@ -465,6 +497,38 @@
             "dependencies": [],
             "description": "Hooks CoronaRuntime.onWillLoadMain() to execute a Lua bootstrap script that stubs in-app purchases (Tienda.ProductoComprado returning 'S'), hides promo/ad UI buttons, and stubs libads.",
             "name": "Unlock ad-free",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "apkFileType": "XAPK",
+                    "appIconColor": "#00A0E3",
+                    "description": "MyGate Community & Security App",
+                    "name": "MyGate",
+                    "packageName": "com.mygate.user",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "7.37.0"
+                        },
+                        {
+                            "isExperimental": false,
+                            "minSdk": 24,
+                            "version": "7.38.2"
+                        }
+                    ],
+                    "versions": [
+                        "7.37.0",
+                        "7.38.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Enables premium resident status and removes promotional banners.",
+            "name": "Unlock Premium Plan",
             "options": []
         }
     ]
