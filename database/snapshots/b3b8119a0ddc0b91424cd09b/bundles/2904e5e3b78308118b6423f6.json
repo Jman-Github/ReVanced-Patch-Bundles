@@ -1,0 +1,41 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev"
+  ],
+  "created_at": "2026-10-09T12:40:33Z",
+  "description": "## [1.1.0-dev.3](https://github.com/ryykitty/twitch-patched/compare/v1.1.0-dev.2...v1.1.0-dev.3) (2026-10-09)\n\n### Bug Fixes\n\n* synchronize patch and settings descriptions ([09cc4b2](https://github.com/ryykitty/twitch-patched/commit/09cc4b2a8327e4a11b8fadb830f03f23a3c1cd9d))\n",
+  "download_url": "https://github.com/ryykitty/twitch-patched/releases/download/v1.1.0-dev.3/patches-1.1.0-dev.3.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:9cef56d827727fa9f0645ba24849af5fe82da41dfec437ee2e1c0846ac27f4c0",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "9cef56d827727fa9f0645ba24849af5fe82da41dfec437ee2e1c0846ac27f4c0",
+  "id": "2904e5e3b78308118b6423f6",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fryykitty%2Ftwitch-patched&version=latest&channel=prerelease"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 1841,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "tv.twitch.android.app"
+  ],
+  "patch_count": 10,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.1.0-dev.3",
+  "patch_refresh_attempted_at": "2026-10-10T15:21:39.276896707Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:9cef56d827727fa9f0645ba24849af5fe82da41dfec437ee2e1c0846ac27f4c0",
+  "release_status": "available",
+  "release_url": "https://github.com/ryykitty/twitch-patched/releases/tag/v1.1.0-dev.3",
+  "signature_download_url": "N/A",
+  "source_id": "893c26875039eb78",
+  "version": "v1.1.0-dev.3"
+}
