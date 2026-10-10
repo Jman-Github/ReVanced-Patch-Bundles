@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev",
+    "latest"
+  ],
+  "created_at": "2026-08-24T09:36:47Z",
+  "description": "## [1.0.0-dev.2](https://github.com/liongalahad/stremio-androidTV-morphe-patches/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2026-08-24)\n\n### 🐛 Bug Fixes\n\n* publish Android-compatible patch bundles ([390c84b](https://github.com/liongalahad/stremio-androidTV-morphe-patches/commit/390c84b462c36abe5029b871c0716a1244d5aaf9))\n",
+  "download_url": "https://github.com/liongalahad/liongalahad-stremio-morphe-patches/releases/download/v1.0.0-dev.2/patches-1.0.0-dev.2.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:7f993176239665e346e740576d3c325a2654206787f642f12dd6a4103f30f675",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "7f993176239665e346e740576d3c325a2654206787f642f12dd6a4103f30f675",
+  "id": "c3c005f08d2b092d300f9e9e",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fliongalahad%2Fliongalahad-stremio-morphe-patches&version=latest&channel=prerelease",
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fliongalahad%2Fliongalahad-stremio-morphe-patches&version=latest&channel=any"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 463,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.stremio.one"
+  ],
+  "patch_count": 3,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.0.0-dev.2",
+  "patch_refresh_attempted_at": "2026-10-10T17:07:47.375515345Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:7f993176239665e346e740576d3c325a2654206787f642f12dd6a4103f30f675",
+  "release_status": "unverified",
+  "release_url": "https://github.com/liongalahad/liongalahad-stremio-morphe-patches/releases/tag/v1.0.0-dev.2",
+  "signature_download_url": null,
+  "source_id": "653b62d9be94d8d3",
+  "version": "v1.0.0-dev.2"
+}
