@@ -1,0 +1,41 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "stable"
+  ],
+  "created_at": "2026-07-14T12:56:07Z",
+  "description": "## 1.0.0 (2026-07-14)\n\n### 🐛 Bug Fixes\n\n* remove unused internal patch ([19dca90](https://github.com/TheRealCrazyfuy/abeja-morphe-patches/commit/19dca90bdc98ac70f7213431f34855642e24e0bb))\n",
+  "download_url": "https://github.com/TheRealCrazyfuy/abeja-morphe-patches/releases/download/v1.0.0/patches-1.0.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:747f4085bcae701de313588843c6879e98f0867adc158511b79adf1dfc4c7a6f",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "747f4085bcae701de313588843c6879e98f0867adc158511b79adf1dfc4c7a6f",
+  "id": "297117177ec77ef9d7963bb4",
+  "import_urls": {
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FTheRealCrazyfuy%2Fabeja-morphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 101,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.android.gallery3d"
+  ],
+  "patch_count": 2,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.0.0",
+  "patch_refresh_attempted_at": "2026-10-10T17:03:36.088621309Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:747f4085bcae701de313588843c6879e98f0867adc158511b79adf1dfc4c7a6f",
+  "release_status": "available",
+  "release_url": "https://github.com/TheRealCrazyfuy/abeja-morphe-patches/releases/tag/v1.0.0",
+  "signature_download_url": "N/A",
+  "source_id": "5ee41ea42617de3d",
+  "version": "v1.0.0"
+}

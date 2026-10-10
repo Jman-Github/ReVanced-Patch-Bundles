@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev",
+    "latest"
+  ],
+  "created_at": "2026-07-14T14:04:41Z",
+  "description": "## [1.1.0-dev.2](https://github.com/TheRealCrazyfuy/abeja-morphe-patches/compare/v1.1.0-dev.1...v1.1.0-dev.2) (2026-07-14)\n\n### ✨ New Features\n\n* **ZTE Gallery:** Experimental support all versions of ZTE Gallery ([5e01099](https://github.com/TheRealCrazyfuy/abeja-morphe-patches/commit/5e01099da86b4abb3c33918b6a67c0564d005c37))\n",
+  "download_url": "https://github.com/TheRealCrazyfuy/abeja-morphe-patches/releases/download/v1.1.0-dev.2/patches-1.1.0-dev.2.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:57d3308eefa96fe5265f1d0d44090f56da02cb19f3fdc83975866c04a777002c",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "57d3308eefa96fe5265f1d0d44090f56da02cb19f3fdc83975866c04a777002c",
+  "id": "277be828b94dcbe861031b0d",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FTheRealCrazyfuy%2Fabeja-morphe-patches&version=latest&channel=prerelease",
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FTheRealCrazyfuy%2Fabeja-morphe-patches&version=latest&channel=any"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 94,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.android.gallery3d"
+  ],
+  "patch_count": 3,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.1.0-dev.2",
+  "patch_refresh_attempted_at": "2026-10-10T17:03:35.688325119Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:57d3308eefa96fe5265f1d0d44090f56da02cb19f3fdc83975866c04a777002c",
+  "release_status": "available",
+  "release_url": "https://github.com/TheRealCrazyfuy/abeja-morphe-patches/releases/tag/v1.1.0-dev.2",
+  "signature_download_url": "N/A",
+  "source_id": "5ee41ea42617de3d",
+  "version": "v1.1.0-dev.2"
+}

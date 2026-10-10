@@ -1,0 +1,2828 @@
+[
+  {
+    "bundle_id": "a10452ac12dd449627f0ee85",
+    "compatiblePackages": {
+      "se.perigee.android.seven": [
+        "9.25.15-handheld"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks 7 Club premium by forcing the membership check to true. No root required.",
+    "id": "a10452ac12dd449627f0ee85:5",
+    "legacy_id": 7031,
+    "metadata_status": "verified",
+    "name": "Seven Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "se.perigee.android.seven",
+        "versions": [
+          "9.25.15-handheld"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.2",
+    "source_id": "07beb9238aaed330",
+    "use": true
+  },
+  {
+    "bundle_id": "a342277140b7c6e8fb4ab4df",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Appends \".morphe\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+    "id": "a342277140b7c6e8fb4ab4df:0",
+    "legacy_id": 7032,
+    "metadata_status": "verified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "Default",
+        "description": "The name of the package to rename the app to.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      },
+      {
+        "default": false,
+        "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "updatePermissions",
+        "required": false,
+        "title": "Update permissions",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "updateProviders",
+        "required": false,
+        "title": "Update providers",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.3.1-dev.2",
+    "source_id": "0622524438df25e6",
+    "use": false
+  },
+  {
+    "bundle_id": "a342277140b7c6e8fb4ab4df",
+    "compatiblePackages": {
+      "com.google.android.apps.magazines": [
+        "5.154.0.880997081"
+      ]
+    },
+    "dependencies": [
+      "Change package name"
+    ],
+    "description": "Enables CustomTabs to open articles in your default browser.",
+    "id": "a342277140b7c6e8fb4ab4df:1",
+    "legacy_id": 7033,
+    "metadata_status": "verified",
+    "name": "Enable CustomTabs",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.magazines",
+        "versions": [
+          "5.154.0.880997081"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1-dev.2",
+    "source_id": "0622524438df25e6",
+    "use": true
+  },
+  {
+    "bundle_id": "a342277140b7c6e8fb4ab4df",
+    "compatiblePackages": {
+      "com.google.android.apps.magazines": [
+        "5.154.0.880997081"
+      ]
+    },
+    "dependencies": [
+      "Change package name"
+    ],
+    "description": "Allows Google News to sign in via MicroG (GmsCore) instead of Google Play Services when installed under a renamed package.",
+    "id": "a342277140b7c6e8fb4ab4df:2",
+    "legacy_id": 7034,
+    "metadata_status": "verified",
+    "name": "GmsCore support",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.magazines",
+        "versions": [
+          "5.154.0.880997081"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1-dev.2",
+    "source_id": "0622524438df25e6",
+    "use": true
+  },
+  {
+    "bundle_id": "a342277140b7c6e8fb4ab4df",
+    "compatiblePackages": {
+      "com.ebay.kleinanzeigen": [
+        "2026.12.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides sponsored ads and Google Ads. Also disables Microsoft Clarity analytics.",
+    "id": "a342277140b7c6e8fb4ab4df:3",
+    "legacy_id": 7035,
+    "metadata_status": "verified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ebay.kleinanzeigen",
+        "versions": [
+          "2026.12.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1-dev.2",
+    "source_id": "0622524438df25e6",
+    "use": true
+  },
+  {
+    "bundle_id": "a342277140b7c6e8fb4ab4df",
+    "compatiblePackages": {
+      "com.ebay.kleinanzeigen": [
+        "2026.12.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the Pur ad-free subscription option from the settings menu.",
+    "id": "a342277140b7c6e8fb4ab4df:4",
+    "legacy_id": 7036,
+    "metadata_status": "verified",
+    "name": "Hide Pur",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ebay.kleinanzeigen",
+        "versions": [
+          "2026.12.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1-dev.2",
+    "source_id": "0622524438df25e6",
+    "use": true
+  },
+  {
+    "bundle_id": "a35bfa7c3623c48fdf294f27",
+    "compatiblePackages": {
+      "com.tantantribe.tribe": [
+        "7.3.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Overrides A/B test values to enable beneficial features: instant match, quick message, batch icebreak, chat optimization, letter features, me tab revamp, push enhancements, verified chat, tiered membership, platinum membership, surprise box, anti-harass customization",
+    "id": "a35bfa7c3623c48fdf294f27:0",
+    "legacy_id": 7037,
+    "metadata_status": "verified",
+    "name": "AB Test Override",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tantantribe.tribe",
+        "versions": [
+          "7.3.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.1-dev2",
+    "source_id": "904c5195dcf6f8f9",
+    "use": true
+  },
+  {
+    "bundle_id": "a35bfa7c3623c48fdf294f27",
+    "compatiblePackages": {
+      "com.tantantribe.tribe": [
+        "7.3.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes all ad displays: navigation bar banner, native feed ads, live streaming banner ads, live video feed ads, live square ads, conversation Google ads, marriage guide card, four-select-one card, daily selection card, visitor list ads, likers ads, meet likers ads, meet visitor ads, splash screen ads, profile photo carousel ads, incentive video ads, fake splash view, video ad player, official advert, ad reward dialogs, live streaming ad user, treasure prize ads",
+    "id": "a35bfa7c3623c48fdf294f27:1",
+    "legacy_id": 7038,
+    "metadata_status": "verified",
+    "name": "Ad Removal",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tantantribe.tribe",
+        "versions": [
+          "7.3.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.1-dev2",
+    "source_id": "904c5195dcf6f8f9",
+    "use": true
+  },
+  {
+    "bundle_id": "a35bfa7c3623c48fdf294f27",
+    "compatiblePackages": {
+      "com.tantantribe.tribe": [
+        "7.3.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables all analytics and telemetry for privacy",
+    "id": "a35bfa7c3623c48fdf294f27:2",
+    "legacy_id": 7039,
+    "metadata_status": "verified",
+    "name": "Analytics Disable",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tantantribe.tribe",
+        "versions": [
+          "7.3.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.1-dev2",
+    "source_id": "904c5195dcf6f8f9",
+    "use": true
+  },
+  {
+    "bundle_id": "a35bfa7c3623c48fdf294f27",
+    "compatiblePackages": {
+      "com.tantantribe.tribe": [
+        "7.3.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes annoying promotional dialogs: 5-star rating, appstore rating, version upgrade, offline popup, notification permission, phone auth prompts, purchase pages, purchase confirm, overheat popup, phone verify",
+    "id": "a35bfa7c3623c48fdf294f27:3",
+    "legacy_id": 7040,
+    "metadata_status": "verified",
+    "name": "Dialog Cleanup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tantantribe.tribe",
+        "versions": [
+          "7.3.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.1-dev2",
+    "source_id": "904c5195dcf6f8f9",
+    "use": true
+  },
+  {
+    "bundle_id": "a35bfa7c3623c48fdf294f27",
+    "compatiblePackages": {
+      "com.tantantribe.tribe": [
+        "7.3.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Makes Google Maps and GMS-dependent features work in re-signed APKs. Includes signature spoofing, auth header fixes, MicroG support, and GMS availability bypass.",
+    "id": "a35bfa7c3623c48fdf294f27:4",
+    "legacy_id": 7041,
+    "metadata_status": "verified",
+    "name": "GMS Compatibility",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tantantribe.tribe",
+        "versions": [
+          "7.3.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.1-dev2",
+    "source_id": "904c5195dcf6f8f9",
+    "use": true
+  },
+  {
+    "bundle_id": "a35bfa7c3623c48fdf294f27",
+    "compatiblePackages": {
+      "com.tantantribe.tribe": [
+        "7.3.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Live streaming enhancement: push limit bypass, swipe card unlimited, chat rate limit removal, voice game access, all-day PK battles, gift leaderboard, knight privileges, entrance limits, permission control, daily payment, noble config, stealth privacy, video chat, voice features, monetization, game operations, star toggle",
+    "id": "a35bfa7c3623c48fdf294f27:5",
+    "legacy_id": 7042,
+    "metadata_status": "verified",
+    "name": "Live Streaming Enhancement",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tantantribe.tribe",
+        "versions": [
+          "7.3.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.1-dev2",
+    "source_id": "904c5195dcf6f8f9",
+    "use": true
+  },
+  {
+    "bundle_id": "a35bfa7c3623c48fdf294f27",
+    "compatiblePackages": {
+      "com.tantantribe.tribe": [
+        "7.3.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes message limits, unlimited pin chat, voice/video calls, quick chat, typing indicator, free gifts, letter, greeting, ice breaker, read receipts, AI translation, message recall, group chat, live chat, message filter, chat partner config, ODiamond visitor config, prologue config, love buzz data, secret crush limit, boost limit, message tab revision, collapsible conversation, chat helper AI, call duration, conversation refresh interval, heartbeat match, message integration, assistant message clear, love buzz prolong count, ice break dialog config, continues op conv config",
+    "id": "a35bfa7c3623c48fdf294f27:6",
+    "legacy_id": 7043,
+    "metadata_status": "verified",
+    "name": "Messaging Enhancement",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tantantribe.tribe",
+        "versions": [
+          "7.3.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.1-dev2",
+    "source_id": "904c5195dcf6f8f9",
+    "use": true
+  },
+  {
+    "bundle_id": "a35bfa7c3623c48fdf294f27",
+    "compatiblePackages": {
+      "com.tantantribe.tribe": [
+        "7.3.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all premium features, tier statuses, subscription validation, and display",
+    "id": "a35bfa7c3623c48fdf294f27:7",
+    "legacy_id": 7044,
+    "metadata_status": "verified",
+    "name": "Premium Unlock",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tantantribe.tribe",
+        "versions": [
+          "7.3.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.1-dev2",
+    "source_id": "904c5195dcf6f8f9",
+    "use": true
+  },
+  {
+    "bundle_id": "a35bfa7c3623c48fdf294f27",
+    "compatiblePackages": {
+      "com.tantantribe.tribe": [
+        "7.3.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks privacy features: hide from nearby, visitor footprint hiding, mysterious mode, nearby people access, read receipt unlock, read receipt dialog suppression, contact access block, location privacy, privacy settings force enable, hide activity time, hide age, hide icon, frozen activity, frozen time, hide distance, core service privacy gate, hide active from SVip, disable ad suggestions, live stealth privacy, online status visibility, hide VIP badge, heartbeat disable, verified user messages, online reminder, unreplied reminder, greeting do not disturb, only show about me inside",
+    "id": "a35bfa7c3623c48fdf294f27:8",
+    "legacy_id": 7045,
+    "metadata_status": "verified",
+    "name": "Privacy Controls",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tantantribe.tribe",
+        "versions": [
+          "7.3.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.1-dev2",
+    "source_id": "904c5195dcf6f8f9",
+    "use": true
+  },
+  {
+    "bundle_id": "a35bfa7c3623c48fdf294f27",
+    "compatiblePackages": {
+      "com.tantantribe.tribe": [
+        "7.3.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Advanced privacy protections: root/emulator detection bypass, ShuMeng SDK blocking, Facebook SDK emulator detection bypass, APK signature verification bypass, package enumeration prevention, VPN/proxy detection bypass, overlay detection bypass",
+    "id": "a35bfa7c3623c48fdf294f27:9",
+    "legacy_id": 7046,
+    "metadata_status": "verified",
+    "name": "Privacy Enhancement",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tantantribe.tribe",
+        "versions": [
+          "7.3.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.1-dev2",
+    "source_id": "904c5195dcf6f8f9",
+    "use": true
+  },
+  {
+    "bundle_id": "a35bfa7c3623c48fdf294f27",
+    "compatiblePackages": {
+      "com.tantantribe.tribe": [
+        "7.3.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Overrides remote configuration values: removes quick chat limits, disables text buzz auto-delete",
+    "id": "a35bfa7c3623c48fdf294f27:10",
+    "legacy_id": 7047,
+    "metadata_status": "verified",
+    "name": "Remote Config Override",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tantantribe.tribe",
+        "versions": [
+          "7.3.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.1-dev2",
+    "source_id": "904c5195dcf6f8f9",
+    "use": true
+  },
+  {
+    "bundle_id": "a35bfa7c3623c48fdf294f27",
+    "compatiblePackages": {
+      "com.tantantribe.tribe": [
+        "7.3.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enhances search and discovery: disables auto-adjust radius, removes invisible radius, enables Gaea distance algorithm, expands liked user and visitor filter ranges",
+    "id": "a35bfa7c3623c48fdf294f27:11",
+    "legacy_id": 7048,
+    "metadata_status": "verified",
+    "name": "Search Discovery",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tantantribe.tribe",
+        "versions": [
+          "7.3.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.1-dev2",
+    "source_id": "904c5195dcf6f8f9",
+    "use": true
+  },
+  {
+    "bundle_id": "a35bfa7c3623c48fdf294f27",
+    "compatiblePackages": {
+      "com.tantantribe.tribe": [
+        "7.3.6"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes guides, banners, stickers, decorations, and AI prompts",
+    "id": "a35bfa7c3623c48fdf294f27:12",
+    "legacy_id": 7049,
+    "metadata_status": "verified",
+    "name": "UI Cleanup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tantantribe.tribe",
+        "versions": [
+          "7.3.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.1-dev2",
+    "source_id": "904c5195dcf6f8f9",
+    "use": true
+  },
+  {
+    "bundle_id": "a39946ececc020f2abe4764f",
+    "compatiblePackages": [
+      {
+        "name": "com.anthropic.claude",
+        "packageName": "com.anthropic.claude"
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Installable copy of the app under a new package name, with its own label, a recolored and numbered icon, and a corner pill showing the number in-app.",
+    "id": "a39946ececc020f2abe4764f:0",
+    "legacy_id": 7050,
+    "metadata_status": "unverified",
+    "name": "Clone with badge",
+    "options": [
+      {
+        "default": "com.anthropic.claude.two",
+        "description": "Package name of the copy. Must differ from the original and from every other copy.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "Claude 2",
+        "description": "Launcher name of the copy.",
+        "key": "appLabel",
+        "required": true,
+        "title": "App label",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": 2,
+        "description": "Number shown in the corner pill and stamped on the icon (1-9).",
+        "key": "badgeNumber",
+        "required": true,
+        "title": "Badge number",
+        "type": "kotlin.Int",
+        "values": null
+      },
+      {
+        "default": "#0E7C7B",
+        "description": "Launcher icon background color (#RRGGBB), also used for the digit on the icon.",
+        "key": "iconColor",
+        "required": true,
+        "title": "Icon color",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.anthropic.claude",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v0.1.1",
+    "source_id": "693b19d1b7f0df18"
+  },
+  {
+    "bundle_id": "a39946ececc020f2abe4764f",
+    "compatiblePackages": [
+      {
+        "name": "YouTube Music",
+        "packageName": "com.google.android.apps.youtube.music"
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Keeps background playback and its media foreground service alive when the system destroys MusicActivity to reclaim memory. A user-initiated close (back press or swipe from recents) still stops playback.",
+    "id": "a39946ececc020f2abe4764f:1",
+    "legacy_id": 7051,
+    "metadata_status": "unverified",
+    "name": "Keep playback on activity destroy",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube Music",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v0.1.1",
+    "source_id": "693b19d1b7f0df18"
+  },
+  {
+    "bundle_id": "a399bc4e956af5732f84b0bd",
+    "compatiblePackages": {
+      "com.google.android.GoogleCamera": [
+        "10.4.117.936816638.14"
+      ]
+    },
+    "dependencies": [],
+    "description": "Makes Add Me load its CPU models instead of the Tensor EdgeTPU models. Without this, Add Me crashes the app instantly in any renamed or re-signed build, because the EdgeTPU allowlist rejects it and the app aborts instead of falling back. Add Me becomes slower. Disable only if the original package name and signature are preserved.",
+    "id": "a399bc4e956af5732f84b0bd:0",
+    "legacy_id": 7052,
+    "metadata_status": "verified",
+    "name": "Run Add Me without the EdgeTPU",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.GoogleCamera",
+        "versions": [
+          "10.4.117.936816638.14"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.4",
+    "source_id": "e66e1040e1755a32",
+    "use": true
+  },
+  {
+    "bundle_id": "a399bc4e956af5732f84b0bd",
+    "compatiblePackages": {
+      "com.google.android.GoogleCamera": [
+        "10.4.117.936816638.14"
+      ]
+    },
+    "dependencies": [],
+    "description": "Allows the Pixel Camera thumbnail to open captured media in the system-default gallery instead of requiring Google Photos.",
+    "id": "a399bc4e956af5732f84b0bd:1",
+    "legacy_id": 7053,
+    "metadata_status": "verified",
+    "name": "Use third-party gallery",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.GoogleCamera",
+        "versions": [
+          "10.4.117.936816638.14"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.4",
+    "source_id": "e66e1040e1755a32",
+    "use": true
+  },
+  {
+    "bundle_id": "a399bc4e956af5732f84b0bd",
+    "compatiblePackages": {
+      "com.google.android.GoogleCamera": [
+        "10.4.117.936816638.14"
+      ]
+    },
+    "dependencies": [
+      "Use third-party gallery"
+    ],
+    "description": "Also opens lock screen captures in the system-default gallery. Third-party galleries do not implement Android's secure review contract, so the gallery may show your entire library above the lock screen.",
+    "id": "a399bc4e956af5732f84b0bd:2",
+    "legacy_id": 7054,
+    "metadata_status": "verified",
+    "name": "Use third-party gallery on lock screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.GoogleCamera",
+        "versions": [
+          "10.4.117.936816638.14"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.4",
+    "source_id": "e66e1040e1755a32",
+    "use": false
+  },
+  {
+    "bundle_id": "a3c50cdeb266a7518c40614f",
+    "compatiblePackages": {
+      "com.roidapp.photogrid": [
+        "8.81"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all PhotoGrid premium features by making IabUtils always report the user as premium.",
+    "id": "a3c50cdeb266a7518c40614f:0",
+    "legacy_id": 7055,
+    "metadata_status": "verified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.roidapp.photogrid",
+        "versions": [
+          "8.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.1-dev.1",
+    "source_id": "2ed1cd41826a4c37",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds the bh_bt_* vector drawables (vibration, gpu_spoof, renderer, game_id, audio, gog, overlay, root) to res/drawable. Rendered by the Banner Tools dialog's tile grid.",
+    "id": "a42f39f14f74036751379e7b:0",
+    "legacy_id": 7056,
+    "metadata_status": "unverified",
+    "name": "Banner Tools drawables",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [
+      "Per-game menu id capture (shared)",
+      "PC Vibration Settings menu row",
+      "Banner Tools drawables"
+    ],
+    "description": "Adds a single 'Banner Tools' row to GameHub's per-game menus. Tapping it opens a dialog with PC Vibration / GPU Spoof / Renderer / Show Game ID entries that dispatch into the existing per-feature handlers. Replaces the 4 standalone BannerHub rows to keep the per-game menu short.",
+    "id": "a42f39f14f74036751379e7b:1",
+    "legacy_id": 7057,
+    "metadata_status": "unverified",
+    "name": "Banner Tools menu row",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bypasses the login requirement by replacing the auth-session StateFlow getters with synthetic always-true / always-non-null values, plus short-circuiting the navigator gates and the navigation interceptor.",
+    "id": "a42f39f14f74036751379e7b:2",
+    "legacy_id": 7058,
+    "metadata_status": "unverified",
+    "name": "Bypass login",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Replaces five drawables in the patched APK with BannerHub branding: the launcher adaptive-icon foreground (deleting the stock vector so the new raster wins on every density), the in-app Wine logo, the auth-screen landscape + overseas logos, and the splash screen banner — the last three are shipped as Compose Multiplatform resources under assets/composeResources/. Background drawable and CN-locale variants are left as-is.",
+    "id": "a42f39f14f74036751379e7b:3",
+    "legacy_id": 7059,
+    "metadata_status": "unverified",
+    "name": "Change app icon",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Changes the display name of the app in the launcher.",
+    "id": "a42f39f14f74036751379e7b:4",
+    "legacy_id": 7060,
+    "metadata_status": "unverified",
+    "name": "Change app name",
+    "options": [
+      {
+        "default": null,
+        "description": "The name to display in the launcher.",
+        "name": "appName",
+        "required": true,
+        "type": "java.lang.String (Kotlin reflection is not available)",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": false
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Appends \".revanced\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+    "id": "a42f39f14f74036751379e7b:5",
+    "legacy_id": 7061,
+    "metadata_status": "unverified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "Default",
+        "description": "The name of the package to rename the app to.",
+        "name": "packageName",
+        "required": true,
+        "type": "java.lang.String (Kotlin reflection is not available)",
+        "values": {
+          "Default": "Default"
+        }
+      },
+      {
+        "default": false,
+        "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "name": "updatePermissions",
+        "required": false,
+        "type": "boolean (Kotlin reflection is not available)",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "name": "updateProviders",
+        "required": false,
+        "type": "boolean (Kotlin reflection is not available)",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": false
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Allows trusting custom certificate authorities for a specific domain.",
+    "id": "a42f39f14f74036751379e7b:6",
+    "legacy_id": 7062,
+    "metadata_status": "unverified",
+    "name": "Custom network security",
+    "options": [
+      {
+        "default": [
+          "example.com"
+        ],
+        "description": "List of domains to which the custom trust configuration will be applied (one domain per entry).",
+        "name": "targetDomains",
+        "required": true,
+        "type": "java.util.List<java.lang.String> (Kotlin reflection is not available)",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Applies the configuration to all subdomains of the target domains.",
+        "name": "includeSubdomains",
+        "required": true,
+        "type": "boolean (Kotlin reflection is not available)",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "List of paths to files in PEM or DER format (one file path per entry).\n\nMakes an app trust the provided custom certificate authorities (CAs),\nfor the specified domains, and if the option \"Include Subdomains\" is enabled then also the subdomains.\n\n\nCA files will be bundled in res/raw/ of resulting APK",
+        "name": "customCAFilePaths",
+        "required": false,
+        "type": "java.util.List<java.lang.String> (Kotlin reflection is not available)",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Makes an app trust certificates from the Android user store for the specified domains, and if the option \"Include Subdomains\" is enabled then also the subdomains.",
+        "name": "allowUserCerts",
+        "required": true,
+        "type": "boolean (Kotlin reflection is not available)",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Makes an app trust certificates from the Android system store for the specified domains, and and if the option \"Include Subdomains\" is enabled then also the subdomains.",
+        "name": "allowSystemCerts",
+        "required": true,
+        "type": "boolean (Kotlin reflection is not available)",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Allows unencrypted HTTP traffic for the specified domains, and if \"Include Subdomains\" is enabled then also the subdomains.",
+        "name": "allowCleartextTraffic",
+        "required": true,
+        "type": "boolean (Kotlin reflection is not available)",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Overrides certificate pinning for the specified domains and their subdomains if the option \"Include Subdomains\" is enabled to allow inspecting app traffic via a proxy.",
+        "name": "overridePins",
+        "required": true,
+        "type": "boolean (Kotlin reflection is not available)",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": false
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [
+      "Patch"
+    ],
+    "description": "Marks the APK debuggable and routes diagnostic probes through DebugTrace. Writes to logcat with tag GH600-DEBUG at Log.i level (the device filter strips app-tagged Log.e but lets Log.i through) and also appends to a file on external storage at /storage/emulated/0/Android/data/com.xiaoji.egggame/files/gh600-debug.log as a backup channel.",
+    "id": "a42f39f14f74036751379e7b:7",
+    "legacy_id": 7063,
+    "metadata_status": "unverified",
+    "name": "Debug logging",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [
+      "Patch"
+    ],
+    "description": "Neutralises the Alibaba/Aliyun carrier one-tap phone-login SDK (com.mobile.auth.gatewayauth.*). Stubs the sole System.loadLibrary site for libpns-*-alijtca_plus.so to a no-op, then strips the native lib. Dead weight under BannerHub's login bypass and an identity / anti-tamper fingerprint surface. ~0.5 MB APK reduction.",
+    "id": "a42f39f14f74036751379e7b:8",
+    "legacy_id": 7064,
+    "metadata_status": "unverified",
+    "name": "Disable Aliyun NumberAuth",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds Firebase's manifest kill-switch <meta-data> entries so the bundled Firebase Analytics SDK never initializes data collection. Stops all auto-collected and custom events from being sent to app-measurement.com. Firebase Cloud Messaging, Firebase Auth, and Firebase Remote Config are unaffected (GameHub 6.0.4 bundles Remote Config but never invokes it — verified zero call sites in the host APK).",
+    "id": "a42f39f14f74036751379e7b:9",
+    "legacy_id": 7065,
+    "metadata_status": "unverified",
+    "name": "Disable Firebase Analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops the AndroidApp Firebase-setup helper from re-enabling Firebase/Crashlytics data collection at runtime (it wrote firebase_data_collection_default_enabled=true and firebase_crashlytics_collection_enabled=true, silently overriding the manifest kill switches). Returns right after FirebaseApp init but before the collection re-enable, so FirebaseApp still initializes (other code needs it) while Crashlytics stays off — removing the residual firebase-settings.crashlytics.com / firebaselogging-pa.googleapis.com / firebaseinstallations.googleapis.com traffic. Anchored on the app class + a stable Firebase error string; cut at the first monitor-enter.",
+    "id": "a42f39f14f74036751379e7b:10",
+    "legacy_id": 7066,
+    "metadata_status": "unverified",
+    "name": "Disable Firebase auto-init",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces Firebase Crashlytics data collection off via manifest meta-data (firebase_crashlytics_collection_enabled + firebase_data_collection_default_enabled = false). 6.0.7's Crashlytics SDK auto-initialises through its ContentProvider regardless of app code, so the collection flags — not a bytecode strip — are what stop it reporting. Stock 6.0.7 already sets these false and never re-enables them; this enforces it and future-proofs against a flip.",
+    "id": "a42f39f14f74036751379e7b:11",
+    "legacy_id": 7067,
+    "metadata_status": "unverified",
+    "name": "Disable Firebase Crashlytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the three Google Play Services Measurement manifest components (AppMeasurementReceiver, AppMeasurementService, AppMeasurementJobService) by flipping android:enabled to false. Complementary to 'Disable Firebase Analytics' — that patch stops the bundled Firebase SDK from initialising, but GMS Measurement runs as a separate Play Services component and is unaffected by Firebase's manifest kill switch. With both patches applied, no app_instance_id / session_id is written to GMS-side shared_prefs and the Play Services-backed analytics pipeline stays dormant.",
+    "id": "a42f39f14f74036751379e7b:12",
+    "legacy_id": 7068,
+    "metadata_status": "unverified",
+    "name": "Disable GMS Measurement",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables XiaoJi's WineGameUsageTracker automatic server-heartbeat (heartbeat/game/{start,update,end}) so no playtime telemetry is sent and no per-tick work runs. Anchored on the stable URL-path strings, not class letters. On 6.0.7 the user-initiated getUserPlayTimeList read is left active (its result wrapper changed and is crash-risky to fabricate); the automatic egress is stopped.",
+    "id": "a42f39f14f74036751379e7b:13",
+    "legacy_id": 7069,
+    "metadata_status": "unverified",
+    "name": "Disable heartbeat",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [
+      "Patch"
+    ],
+    "description": "Stops the bundled Mob Push SDK (com.mob.*) from initialising. Removes the two policy-grant call sites in XiaoJi's bootstrap code and the push-receiver registration in BaseAndroidApp.onCreate, then disables every Mob-namespaced <provider>/<service>/<receiver>/<activity> in the manifest so the SDK can't bootstrap via its ContentProvider auto-init either. Inbound push delivery and Mob's device-ID collection (MobIDService/MobIDActivity) are both stopped. The 'cn.fly.*' Mob analytics submodule is neutralised by the same rules.",
+    "id": "a42f39f14f74036751379e7b:14",
+    "legacy_id": 7070,
+    "metadata_status": "unverified",
+    "name": "Disable Mob Push tracking",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.0.4"
+      ]
+    },
+    "dependencies": [
+      "Patch"
+    ],
+    "description": "Neutralises the periodic phone-home check at https://www.xiaoji.com/firmware/update/x1 by overwriting the URL register with http://127.0.0.1 immediately after the const-string load. The OTA call then fails silently with a connection-refused. Also strips the JieLi gamepad-firmware native libs (libJieLiUsbOta.so, libjl_ota_auth.so) which are dead weight on phone installs.",
+    "id": "a42f39f14f74036751379e7b:15",
+    "legacy_id": 7071,
+    "metadata_status": "unverified",
+    "name": "Disable OTA updates",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.0.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Enables Android debugging capabilities. This can slow down the app.",
+    "id": "a42f39f14f74036751379e7b:16",
+    "legacy_id": 7072,
+    "metadata_status": "unverified",
+    "name": "Enable Android debugging",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": false
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.example.app": [
+        "1.0.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "This is an example patch to start with.",
+    "id": "a42f39f14f74036751379e7b:17",
+    "legacy_id": 7073,
+    "metadata_status": "unverified",
+    "name": "Example Patch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.example.app",
+        "versions": [
+          "1.0.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds the Explore screen's card artwork (GOG logo) to res/drawable, rendered by BannerExploreActivity's GOG card.",
+    "id": "a42f39f14f74036751379e7b:18",
+    "legacy_id": 7074,
+    "metadata_status": "unverified",
+    "name": "Explore drawables",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bundles the Explore manifest (assets/bh_explore.json) so the Explore screen shows BannerHub's shipped rails offline on a fresh install, instead of falling back to an older cached release manifest.",
+    "id": "a42f39f14f74036751379e7b:19",
+    "legacy_id": 7075,
+    "metadata_status": "unverified",
+    "name": "Explore manifest asset",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Registers the BannerHub-owned Explore screen (BannerExploreActivity), shown when the Explore bottom-nav tab is tapped. Internal activity; content comes from a bundled manifest and cards route to BannerHub's own handlers (GOG, etc.).",
+    "id": "a42f39f14f74036751379e7b:20",
+    "legacy_id": 7076,
+    "metadata_status": "unverified",
+    "name": "Explore screen activity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Opens the BannerHub-owned Explore screen when the Explore bottom-nav tab is tapped, instead of xiaoji's server-driven feed. Intercepts the bottom-nav controller's tab-select dispatch (w1a.q); fail-safe falls through to the native Explore on any error.",
+    "id": "a42f39f14f74036751379e7b:21",
+    "legacy_id": 7077,
+    "metadata_status": "unverified",
+    "name": "Explore tab hijack",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bundles the build's own version (assets/bh_version.json) so the Explore screen can compare it against the latest release and show an in-app update banner.",
+    "id": "a42f39f14f74036751379e7b:22",
+    "legacy_id": 7078,
+    "metadata_status": "unverified",
+    "name": "Explore version stamp",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [
+      "Patch",
+      "Patch"
+    ],
+    "description": "Enables launching games from external frontends like ES-DE, Daijishou, and Beacon. Keeps PlayDay's 5.3.5 '<variant_package>.LAUNCH_GAME' intent contract; translates the 5.3.5 extras (steamAppId / localGameId / autoStartGame) onto GameHub 6.0.4's native DeepLinkActivity 'app_nav_*' dispatch.",
+    "id": "a42f39f14f74036751379e7b:23",
+    "legacy_id": 7079,
+    "metadata_status": "unverified",
+    "name": "External launcher support",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [
+      "Patch",
+      "Change package name"
+    ],
+    "description": "Adds a DocumentsProvider so that MT File Manager and other Storage Access Framework clients can browse the app's internal storage directories.",
+    "id": "a42f39f14f74036751379e7b:24",
+    "legacy_id": 7080,
+    "metadata_status": "unverified",
+    "name": "File manager access",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Registers the ported BannerHub-3.7.x GOG activities (login / library / detail / downloads / folder-picker). Phase 1 = standalone login + owned-library + download validation; the GameHub-library/launch bridge and the production Profile-screen entry row are deferred to Phase 2. GogMainActivity is exported in Phase 1 only as the temporary adb dev entry.",
+    "id": "a42f39f14f74036751379e7b:25",
+    "legacy_id": 7081,
+    "metadata_status": "unverified",
+    "name": "GOG activities (Phase 1)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.0.4"
+      ]
+    },
+    "dependencies": [
+      "Patch"
+    ],
+    "description": "RETIRED (§34): the seeded library card was a handheld-only entry — explore mode is a separate library surface that never renders it. The per-game \"GOG\" menu row (GogMenuRowPatch) is now the sole, mode-independent entry. This patch now only DELETES the legacy sentinel row at MainActivity.onCreate so the card disappears on existing installs too. (Name kept stable to preserve any letter-map / dependency wiring.)",
+    "id": "a42f39f14f74036751379e7b:26",
+    "legacy_id": 7082,
+    "metadata_status": "unverified",
+    "name": "GOG library card (permanent)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.0.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [
+      "PC Vibration Settings menu row"
+    ],
+    "description": "Adds a 'GOG' row to GameHub's game-details More Menu. Tapping it opens the GOG login / library hub (GogMainActivity). Mode-independent entry point (works in handheld + explore); the seeded library card only covers handheld. Injects after the existing rows so stock behaviour is preserved.",
+    "id": "a42f39f14f74036751379e7b:27",
+    "legacy_id": 7083,
+    "metadata_status": "unverified",
+    "name": "GOG menu row",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.0.4"
+      ]
+    },
+    "dependencies": [
+      "Patch",
+      "GPU spoof settings activity"
+    ],
+    "description": "Force-writes dxgi/d3d9/dxvk customVendorId/customDeviceId into a per-game dxvk.conf and points DXVK_CONFIG_FILE at it, after the Wine env builder's conditional DXVK block, so the spoof always applies. No-ops when the game's spoof mode is Off.",
+    "id": "a42f39f14f74036751379e7b:28",
+    "legacy_id": 7084,
+    "metadata_status": "unverified",
+    "name": "GPU spoof DXVK plumbing",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.0.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.0.4"
+      ]
+    },
+    "dependencies": [
+      "Per-game menu id capture (shared)",
+      "PC Vibration Settings menu row"
+    ],
+    "description": "Adds a 'GPU Spoof' row to GameHub's per-game menus. Tapping it launches BhGpuSpoofSettingsActivity scoped to the active game. Injects after the existing rows so stock behaviour is preserved.",
+    "id": "a42f39f14f74036751379e7b:29",
+    "legacy_id": 7085,
+    "metadata_status": "unverified",
+    "name": "GPU Spoof menu row",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.0.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.0.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Registers BhGpuSpoofSettingsActivity in the manifest so the per-game GPU-identity dialog can be launched by explicit-Intent. Internal-only (android:exported=\"false\"); no <intent-filter>.",
+    "id": "a42f39f14f74036751379e7b:30",
+    "legacy_id": 7086,
+    "metadata_status": "unverified",
+    "name": "GPU spoof settings activity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.0.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [
+      "Patch"
+    ],
+    "description": "Adds a draggable edge pill + slide-out panel over the Wine game surface with two root-gated toggles — Sustained Performance Mode (locks all CPU cores to the 'performance' governor) and Max Adreno Clocks (pins the KGSL GPU min_freq to max_freq). Both auto-revert to defaults when the game exits. Root is checked once and cached; the toggles are greyed until granted.",
+    "id": "a42f39f14f74036751379e7b:31",
+    "legacy_id": 7087,
+    "metadata_status": "unverified",
+    "name": "In-game performance overlay",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [
+      "Patch",
+      "Steam chat image-picker activity",
+      "Steam chat voice permission",
+      "Steam chat ringtone-picker activity",
+      "Steam chat ringtone assets"
+    ],
+    "description": "Adds a draggable pill + slide-out panel over the Wine game surface that shows your Steam friends list, presence, and a friend's recent message history (read-only). Reads GameHub's in-process Steam client via the steam_sdk JSON-RPC bridge. Off by default; toggle from Banner Tools -> Steam Chat.",
+    "id": "a42f39f14f74036751379e7b:32",
+    "legacy_id": 7088,
+    "metadata_status": "unverified",
+    "name": "In-game Steam chat overlay",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.0.4"
+      ]
+    },
+    "dependencies": [
+      "Patch",
+      "Renderer settings activity",
+      "Legacy renderer libxserver bundle"
+    ],
+    "description": "Per-game gates the proven 6.0.2 libxserver swap + JNI bridge: adds the setRenderingEnabled native, routes XServer's loadLibrary and setFlipEnabled call sites through BhRendererController. New mode = stock, zero regression.",
+    "id": "a42f39f14f74036751379e7b:33",
+    "legacy_id": 7089,
+    "metadata_status": "unverified",
+    "name": "Legacy renderer conditional swap",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.0.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.0.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bundles the 6.0.2 GLES2-era libxserver.so + libwinemu.so as *_legacy.so alongside the stock 6.0.4 ones (additive, never overwrites stock). The conditional loaders choose per game.",
+    "id": "a42f39f14f74036751379e7b:34",
+    "legacy_id": 7090,
+    "metadata_status": "unverified",
+    "name": "Legacy renderer libxserver bundle",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.0.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [
+      "Patch"
+    ],
+    "description": "On app start, scans GameHub's library DB for games stuck at a sentinel server_game_id (-1 for PC imports without a catalog match; 0 for Epic-library and GOG-imported games) and rewrites each one with a stable synthetic integer derived from the row's local_* UUID. After the scan, those games become individually addressable instead of all colliding on the same sentinel value. Note: unique IDs are necessary but not sufficient for Beacon/ES-DE launching of Epic/GOG games — the source-specific dispatch path is a separate patch. Idempotent and self-healing: rows whose ID is later overwritten by GameHub with a real catalog value are left alone on re-run.",
+    "id": "a42f39f14f74036751379e7b:35",
+    "legacy_id": 7091,
+    "metadata_status": "unverified",
+    "name": "Local game-id assignment",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.0.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Replaces every .wav file in the GameHub Compose UI sound asset folder with a 50ms silent PCM clip so all click / focus / launch sounds play silently. Filenames are preserved so every Compose audio lookup still resolves.",
+    "id": "a42f39f14f74036751379e7b:36",
+    "legacy_id": 7092,
+    "metadata_status": "unverified",
+    "name": "Mute UI sounds",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.0.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [
+      "Patch"
+    ],
+    "description": "Replaces gof.a (the picker's per-type component-list feed) with a delegating call: offline it returns the user's downloaded components (from sp_winemu_unified_resources, filtered by ComponentType) so GPU driver / DXVK / VKD3D / FEXCore / Box64 / container pickers list them offline; online it reflectively invokes the original suspend impl unchanged. Register-safe, fail-safe.",
+    "id": "a42f39f14f74036751379e7b:37",
+    "legacy_id": 7093,
+    "metadata_status": "unverified",
+    "name": "Offline component picker — local list",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": null,
+    "dependencies": [
+      "Enable Android debugging"
+    ],
+    "description": "Overrides certificate pinning, allowing to inspect traffic via a proxy.",
+    "id": "a42f39f14f74036751379e7b:38",
+    "legacy_id": 7094,
+    "metadata_status": "unverified",
+    "name": "Override certificate pinning",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": false
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Neutralizes ComboLite's install-time host-vs-plugin signature enforcement in the :pcengine host process (the IllegalArgumentException 'Plugin signatures do not exactly match host signatures'). This is a third check, hard-coded and independent of ValidationStrategy, that runs when the plugin is committed. Forces the void install-validator method to return immediately so a re-signed BannerHub host can install XiaoJi's genuine pcengine plugin on GameHub 6.1.0+. Anchored on the unique error string.",
+    "id": "a42f39f14f74036751379e7b:39",
+    "legacy_id": 7095,
+    "metadata_status": "unverified",
+    "name": "PC engine plugin — bypass install-time signature check",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Neutralizes the pcengine plugin manager's own host-vs-plugin signing-certificate comparison (separate from the com.combo ValidationStrategy gate) by forcing its check method to report a match. Lets a re-signed BannerHub build load XiaoJi's genuine pcengine plugin on GameHub 6.1.0+ instead of rejecting it with '插件签名与宿主不一致'. Anchored on the unique mismatch string the method builds. Pairs with the ValidationStrategy patch (both gates are required).",
+    "id": "a42f39f14f74036751379e7b:40",
+    "legacy_id": 7096,
+    "metadata_status": "unverified",
+    "name": "PC engine plugin — bypass manager signature check",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces the com.combo plugin framework's ValidationStrategy accessor to return Insecure so the pcengine plugin's signing certificate is not required to match the (re-signed) host. Without this, a re-signed BannerHub build rejects XiaoJi's genuine plugin and PC emulation never loads on GameHub 6.1.0+. Pairs with the pcengine manager signature-check bypass (both gates are required).",
+    "id": "a42f39f14f74036751379e7b:41",
+    "legacy_id": 7097,
+    "metadata_status": "unverified",
+    "name": "PC engine plugin — force Insecure validation",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Appends a 'bh_pc_vibration_label' = 'PC Vibration Settings' string entry to features.home Compose Multiplatform resources so the library-tile popup row's Lell-typed label can resolve to our text.",
+    "id": "a42f39f14f74036751379e7b:42",
+    "legacy_id": 7098,
+    "metadata_status": "unverified",
+    "name": "PC Vibration Settings label resource",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [
+      "PC Vibration Settings label resource",
+      "Per-game menu id capture (shared)"
+    ],
+    "description": "Adds a 'PC Vibration Settings' row to the per-game library popup menu. Tapping it launches BhVibrationSettingsActivity with the active game's id when a WineActivity is on the stack. Injects after the existing rows so stock behavior is preserved.",
+    "id": "a42f39f14f74036751379e7b:43",
+    "legacy_id": 7099,
+    "metadata_status": "unverified",
+    "name": "PC Vibration Settings menu row",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [
+      "Patch",
+      "Vibration settings activity"
+    ],
+    "description": "Routes Wine XInput rumble (low, high) into Android's VibratorManager with dual-motor independent dispatch on multi-motor controllers, sustained holds (preload-free: an in-process hook patches every winebus.so on disk so SDL2's ~1s rumble_expiration never fires — no libevshim.so, no LD_PRELOAD, no extra mapping in the Wine subprocess), and instant release. Adapted from TideGear/GameHub-Vibration-Fix (GameNative PR #1214 lineage) with the author's permission.",
+    "id": "a42f39f14f74036751379e7b:44",
+    "legacy_id": 7100,
+    "metadata_status": "unverified",
+    "name": "PC-accurate vibration",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [
+      "Patch"
+    ],
+    "description": "Captures the per-game gameId from the menu-data param at entry of GameHub's two per-game menu builders so BannerHub's injected rows (Renderer / GPU Spoof / PC Vibration) scope to the correct game even from a pre-launch menu. Shared by all three.",
+    "id": "a42f39f14f74036751379e7b:45",
+    "legacy_id": 7101,
+    "metadata_status": "unverified",
+    "name": "Per-game menu id capture (shared)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [
+      "Redirect catalog API"
+    ],
+    "description": "Prepends \"v6/\" to every relative API path emitted by zdb.b(qx9, path), the single helper through which GameHub 6.0 funnels all simulator/v2/* and other catalog requests. The BannerHub Worker strips the prefix and uses it to branch 6.0-only response variants (e.g. firmware 1.3.4 vs 1.3.3, base.fileType=0 vs default 4). Pairs with Redirect catalog API — that patch swaps the host; this one tags the path. Full URLs (http://, https://) are passed through untouched so direct downloads still work.",
+    "id": "a42f39f14f74036751379e7b:46",
+    "legacy_id": 7102,
+    "metadata_status": "unverified",
+    "name": "Prefix API path with /v6",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [
+      "Patch",
+      "Recording-compatible audio settings activity"
+    ],
+    "description": "Lets PulseAudio game audio be captured by screen recording. When the global toggle (Banner Tools → Audio) is on, appends pm=0 to the module-aaudio-sink config line so the AAudio stream leaves the MMAP fast path and sits on the normal mixer the recorder taps. Default off — stock low-latency audio, no change for non-recorders.",
+    "id": "a42f39f14f74036751379e7b:47",
+    "legacy_id": 7103,
+    "metadata_status": "unverified",
+    "name": "Recording-compatible audio",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Registers BhAudioSettingsActivity in the manifest so the Banner Tools \"Audio\" tile can launch it by explicit-Intent. Internal-only (android:exported=\"false\"); no <intent-filter>.",
+    "id": "a42f39f14f74036751379e7b:48",
+    "legacy_id": 7104,
+    "metadata_status": "unverified",
+    "name": "Recording-compatible audio settings activity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Redirects GameHub 6.0's catalog API (simulator/v2/* — getAllComponentList, getContainerList, getContainerDetail, getDefaultComponent, getImagefsDetail, executeScript) from landscape-api-{cn,oversea}.vgabc.com to the BannerHub Cloudflare Worker, which serves the curated catalog from the412banner.github.io/bannerhub-api and falls back to vgabc for unallowlisted paths. Patches the two host string literals in the Online enum value's <clinit> initializer in mcj.smali. Beta + Test enum values, the analytics hosts (landscape-api-*-*.vgabc.com/events), the clientapi host (clientgsw.vgabc.com), and the component CDN (zlyer-cdn-comps-en.bigeyes.com) are intentionally left untouched.",
+    "id": "a42f39f14f74036751379e7b:49",
+    "legacy_id": 7105,
+    "metadata_status": "unverified",
+    "name": "Redirect catalog API",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.0.4"
+      ]
+    },
+    "dependencies": [
+      "Patch",
+      "Renderer settings activity",
+      "Per-game menu id capture (shared)",
+      "PC Vibration Settings menu row"
+    ],
+    "description": "Adds a 'Renderer' row to GameHub's per-game menus. Tapping it launches BhRendererSettingsActivity scoped to the active game (New Vulkan / Legacy GLES2). Injects after the existing rows so stock behaviour and the GPU-Spoof row are preserved.",
+    "id": "a42f39f14f74036751379e7b:50",
+    "legacy_id": 7106,
+    "metadata_status": "unverified",
+    "name": "Renderer menu row",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.0.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.0.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Registers BhRendererSettingsActivity in the manifest so the per-game renderer dialog can be launched by explicit-Intent. Internal-only (android:exported=\"false\"); no <intent-filter>.",
+    "id": "a42f39f14f74036751379e7b:51",
+    "legacy_id": 7107,
+    "metadata_status": "unverified",
+    "name": "Renderer settings activity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.0.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [
+      "Change package name"
+    ],
+    "description": "Renames upstream-baked custom permissions (e.g. com.xiaoji.egggame.permission.C2D_MESSAGE) to use the variant package, so multiple variants can install side-by-side without INSTALL_FAILED_DUPLICATE_PERMISSION on Android 7+ (which surfaces as \"package conflicts with a current package\" in the package installer UI). ChangePackageNamePatch's updatePermissions option only rewrites the hardcoded DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION; this patch handles the rest.",
+    "id": "a42f39f14f74036751379e7b:52",
+    "legacy_id": 7108,
+    "metadata_status": "unverified",
+    "name": "Rewrite custom permissions per variant",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Appends a 'bh_gameid_label' = 'Show Game ID' string entry to features.home Compose Multiplatform resources so the library-list popup row's Lell-typed label has a registered key. Runtime resolution is handled by the shared resolver hook in BhMenuRowClick.",
+    "id": "a42f39f14f74036751379e7b:53",
+    "legacy_id": 7109,
+    "metadata_status": "unverified",
+    "name": "Show Game ID label resource",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [
+      "Per-game menu id capture (shared)",
+      "PC Vibration Settings menu row",
+      "Show Game ID label resource"
+    ],
+    "description": "Adds a 'Show Game ID' row to GameHub's per-game menus. Tapping it pops a dialog with the gameId (with Copy button) so users can configure external launchers (Beacon / ES-DE / Daijishou) without grepping a logcat. Injects after the existing rows so stock behaviour is preserved.",
+    "id": "a42f39f14f74036751379e7b:54",
+    "legacy_id": 7110,
+    "metadata_status": "unverified",
+    "name": "Show Game ID menu row",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces the 'PC Game Settings' row to appear in the Explorer game-detail More Menu for every game type, including Steam-linked games where XiaoJi-native logic would normally hide it. Removes the single if-eqz gate immediately preceding the row's construction in the menu Composable. Other rows keep their native gating.",
+    "id": "a42f39f14f74036751379e7b:55",
+    "legacy_id": 7111,
+    "metadata_status": "unverified",
+    "name": "Show PC Game Settings row",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Registers BhSteamImagePickerActivity in the manifest so the in-game Steam chat overlay can pick a gallery image and send it via friends.upload_chat_image. Internal-only (android:exported=\"false\"); no <intent-filter>.",
+    "id": "a42f39f14f74036751379e7b:56",
+    "legacy_id": 7112,
+    "metadata_status": "unverified",
+    "name": "Steam chat image-picker activity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bundles the built-in incoming-call ringtones (assets/bh_ringtones/*.mp3) used by the in-game Steam chat overlay's call settings.",
+    "id": "a42f39f14f74036751379e7b:57",
+    "legacy_id": 7113,
+    "metadata_status": "unverified",
+    "name": "Steam chat ringtone assets",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Registers BhRingtonePickerActivity so the in-game Steam chat call settings can pick a custom MP3 ringtone (persistable URI), and adds the VIBRATE permission for vibrate-on-incoming-call. Internal-only (android:exported=\"false\"); no-ops if already present.",
+    "id": "a42f39f14f74036751379e7b:58",
+    "legacy_id": 7114,
+    "metadata_status": "unverified",
+    "name": "Steam chat ringtone-picker activity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds RECORD_AUDIO (+ MODIFY_AUDIO_SETTINGS) so the in-game Steam chat overlay can run a WebRTC voice call (WebView getUserMedia). No-op if the permissions are already present.",
+    "id": "a42f39f14f74036751379e7b:59",
+    "legacy_id": 7115,
+    "metadata_status": "unverified",
+    "name": "Steam chat voice permission",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the three <uses-permission> declarations that mark the app as requesting Google's advertising-ID, AdServices attribution, and AdServices ad-ID. Strengthens 'Disable Firebase Analytics': that patch disables runtime collection via Firebase's manifest kill-switch, this one removes the declared permission fingerprint that privacy scanners (Exodus Privacy etc.) flag.",
+    "id": "a42f39f14f74036751379e7b:60",
+    "legacy_id": 7116,
+    "metadata_status": "unverified",
+    "name": "Strip Ad-ID permissions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [
+      "Patch"
+    ],
+    "description": "Removes the Haima cloud-gaming stack (~21.5 MB): the 4 Haima WebRTC/IJK native libs and the features.cloud Compose asset module. Stubs the IjkMediaPlayer + hmwebrtc native load sites first so the strip cannot crash if a cloud entry point is reached. Cloud gaming is non-functional under the BannerHub catalog redirect anyway.",
+    "id": "a42f39f14f74036751379e7b:61",
+    "legacy_id": 7117,
+    "metadata_status": "unverified",
+    "name": "Strip cloud gaming",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Redirects XiaoJi's analytics-event POST URLs (the /events batch reporter and /events/device-performance-config) to http://127.0.0.1 so no telemetry reaches statistic-gamehub-api.vgabc.com. Anchored on the stable URL strings (all dev2/beta/prod environment variants are redirected); the reporters' own error paths swallow the connection-refused, so nothing crashes.",
+    "id": "a42f39f14f74036751379e7b:62",
+    "legacy_id": 7118,
+    "metadata_status": "unverified",
+    "name": "Stub analytics events",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a42f39f14f74036751379e7b",
+    "compatiblePackages": {
+      "com.xiaoji.egggame": [
+        "6.1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Registers BhVibrationSettingsActivity in the manifest so the Mode/Intensity dialog can be launched by an explicit-Intent from anywhere. Internal-only (android:exported=\"false\"); no <intent-filter>.",
+    "id": "a42f39f14f74036751379e7b:63",
+    "legacy_id": 7119,
+    "metadata_status": "unverified",
+    "name": "Vibration settings activity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaoji.egggame",
+        "versions": [
+          "6.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-610-pcengine",
+    "source_id": "a62679e3aa236a0c",
+    "use": true
+  },
+  {
+    "bundle_id": "a46a130dc3c2ecd981e9ba7d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.51.39",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Overrides the feed flyout 'Play next in queue' with the Morphe video queue.",
+    "id": "a46a130dc3c2ecd981e9ba7d:0",
+    "legacy_id": 7120,
+    "metadata_status": "verified",
+    "name": "Add to queue",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.51.39",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0-dualvot.8.5.3",
+    "source_id": "56bd51655ff0d965",
+    "use": true
+  },
+  {
+    "bundle_id": "a46a130dc3c2ecd981e9ba7d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.51.39",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to bypass power saving restrictions for Ambient mode and disable it entirely or in fullscreen.",
+    "id": "a46a130dc3c2ecd981e9ba7d:1",
+    "legacy_id": 7121,
+    "metadata_status": "verified",
+    "name": "Ambient mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.51.39",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0-dualvot.8.5.3",
+    "source_id": "56bd51655ff0d965",
+    "use": true
+  },
+  {
+    "bundle_id": "a46a130dc3c2ecd981e9ba7d",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "9.20.53",
+        "9.15.51"
+      ]
+    },
+    "dependencies": [],
+    "description": "Restores YouTube Music playlists and podcasts in Android Auto.",
+    "id": "a46a130dc3c2ecd981e9ba7d:2",
+    "legacy_id": 7122,
+    "metadata_status": "verified",
+    "name": "Android Auto",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "9.20.53",
+          "9.15.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0-dualvot.8.5.3",
+    "source_id": "56bd51655ff0d965",
+    "use": true
+  },
+  {
+    "bundle_id": "a46a130dc3c2ecd981e9ba7d",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.24.0",
+        "2026.14.0",
+        "2026.10.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to select from the Reddit app icons available in the manifest.",
+    "id": "a46a130dc3c2ecd981e9ba7d:3",
+    "legacy_id": 7123,
+    "metadata_status": "verified",
+    "name": "App icon",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.24.0",
+          "2026.14.0",
+          "2026.10.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0-dualvot.8.5.3",
+    "source_id": "56bd51655ff0d965",
+    "use": true
+  },
+  {
+    "bundle_id": "a46a130dc3c2ecd981e9ba7d",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "9.20.53",
+        "9.15.51"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to change the app refresh rate.",
+    "id": "a46a130dc3c2ecd981e9ba7d:4",
+    "legacy_id": 7124,
+    "metadata_status": "verified",
+    "name": "App refresh rate",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "9.20.53",
+          "9.15.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0-dualvot.8.5.3",
+    "source_id": "56bd51655ff0d965",
+    "use": true
+  },
+  {
+    "bundle_id": "a46a130dc3c2ecd981e9ba7d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.51.39",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to change the app refresh rate.",
+    "id": "a46a130dc3c2ecd981e9ba7d:5",
+    "legacy_id": 7125,
+    "metadata_status": "verified",
+    "name": "App refresh rate",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.51.39",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0-dualvot.8.5.3",
+    "source_id": "56bd51655ff0d965",
+    "use": true
+  },
+  {
+    "bundle_id": "a46a130dc3c2ecd981e9ba7d",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "9.20.53",
+        "9.15.51"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bypasses certificate checks which prevent YouTube Music from working on Android Auto.",
+    "id": "a46a130dc3c2ecd981e9ba7d:6",
+    "legacy_id": 7126,
+    "metadata_status": "verified",
+    "name": "Bypass certificate checks",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "9.20.53",
+          "9.15.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0-dualvot.8.5.3",
+    "source_id": "56bd51655ff0d965",
+    "use": true
+  },
+  {
+    "bundle_id": "a46a130dc3c2ecd981e9ba7d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.51.39",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries.",
+    "id": "a46a130dc3c2ecd981e9ba7d:7",
+    "legacy_id": 7127,
+    "metadata_status": "verified",
+    "name": "Bypass image region restrictions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.51.39",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0-dualvot.8.5.3",
+    "source_id": "56bd51655ff0d965",
+    "use": true
+  },
+  {
+    "bundle_id": "a46a130dc3c2ecd981e9ba7d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.51.39",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to bypass redirects and open the original link directly.",
+    "id": "a46a130dc3c2ecd981e9ba7d:8",
+    "legacy_id": 7128,
+    "metadata_status": "verified",
+    "name": "Bypass link redirects",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.51.39",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0-dualvot.8.5.3",
+    "source_id": "56bd51655ff0d965",
+    "use": true
+  },
+  {
+    "bundle_id": "a46a130dc3c2ecd981e9ba7d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.51.39",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable captions from being automatically enabled or to set caption cookies.",
+    "id": "a46a130dc3c2ecd981e9ba7d:9",
+    "legacy_id": 7129,
+    "metadata_status": "verified",
+    "name": "Captions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.51.39",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0-dualvot.8.5.3",
+    "source_id": "56bd51655ff0d965",
+    "use": true
+  },
+  {
+    "bundle_id": "a46a130dc3c2ecd981e9ba7d",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "21.16.256",
+        "21.13.164",
+        "20.51.39",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to change the UI appearance to a phone, tablet, or automotive device.",
+    "id": "a46a130dc3c2ecd981e9ba7d:10",
+    "legacy_id": 7130,
+    "metadata_status": "verified",
+    "name": "Change form factor",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "21.16.256",
+          "21.13.164",
+          "20.51.39",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.46.0-dualvot.8.5.3",
+    "source_id": "56bd51655ff0d965",
+    "use": true
+  }
+]
