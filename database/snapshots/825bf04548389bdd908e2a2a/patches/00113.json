@@ -1,0 +1,2726 @@
+[
+  {
+    "bundle_id": "106ff384ff5a14e7c336c14a",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides Instants from DMs page.",
+    "id": "106ff384ff5a14e7c336c14a:34",
+    "legacy_id": 11674,
+    "metadata_status": "verified",
+    "name": "Hide Instants",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.2",
+    "source_id": "2d7b929ffc6870d6",
+    "use": false
+  },
+  {
+    "bundle_id": "106ff384ff5a14e7c336c14a",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the Boost button on your posts and the Boost item in their menu.",
+    "id": "106ff384ff5a14e7c336c14a:35",
+    "legacy_id": 11675,
+    "metadata_status": "verified",
+    "name": "Hide promote button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.2",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "106ff384ff5a14e7c336c14a",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides suggested reels and suggested accounts. Suggested stories are hidden by Filter stories.",
+    "id": "106ff384ff5a14e7c336c14a:36",
+    "legacy_id": 11676,
+    "metadata_status": "verified",
+    "name": "Hide suggested content",
+    "options": [
+      {
+        "default": true,
+        "description": "Hides suggested reels from feed and reels tab.",
+        "key": "hideSuggestedReels",
+        "required": false,
+        "title": "Hide suggested reels",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Hides suggested accounts from the list of followers and from other profiles.",
+        "key": "hideSuggestedAccount",
+        "required": false,
+        "title": "Hide suggested accounts",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.2",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "106ff384ff5a14e7c336c14a",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides the Threads button from the profile page action bar (top right of the profile page).",
+    "id": "106ff384ff5a14e7c336c14a:37",
+    "legacy_id": 11677,
+    "metadata_status": "verified",
+    "name": "Hide Threads profile button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.2",
+    "source_id": "2d7b929ffc6870d6",
+    "use": false
+  },
+  {
+    "bundle_id": "106ff384ff5a14e7c336c14a",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Overrides the app's feature switches with values chosen when patching.",
+    "id": "106ff384ff5a14e7c336c14a:38",
+    "legacy_id": 11678,
+    "metadata_status": "verified",
+    "name": "Hook feature flag",
+    "options": [
+      {
+        "default": "[]",
+        "description": "One key=value per entry, e.g. some_feature_enabled=true. true and false set a boolean, whole numbers an integer, other numbers a decimal, and anything else a string.",
+        "key": "flags",
+        "required": false,
+        "title": "Feature switches",
+        "type": "kotlin.collections.List<kotlin.String>",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.2",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "106ff384ff5a14e7c336c14a",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds Export login and Import login to the Morphe settings, opened from the app icon's shortcuts. An export holds everything needed to use your account.",
+    "id": "106ff384ff5a14e7c336c14a:39",
+    "legacy_id": 11679,
+    "metadata_status": "verified",
+    "name": "Import/Export login token",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.2",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "106ff384ff5a14e7c336c14a",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [],
+    "description": "Requests the maximum resolution images from the server.",
+    "id": "106ff384ff5a14e7c336c14a:40",
+    "legacy_id": 11680,
+    "metadata_status": "verified",
+    "name": "Improve image viewing",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.2",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "106ff384ff5a14e7c336c14a",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Shares posts as x.com/<username>/status/<id> rather than x.com/i/status/<id>.",
+    "id": "106ff384ff5a14e7c336c14a:41",
+    "legacy_id": 11681,
+    "metadata_status": "verified",
+    "name": "Legacy share links",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.2",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "106ff384ff5a14e7c336c14a",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [],
+    "description": "Changes unexpired view once, view twice media to permanent view.",
+    "id": "106ff384ff5a14e7c336c14a:42",
+    "legacy_id": 11682,
+    "metadata_status": "verified",
+    "name": "Make ephemeral media permanent",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.2",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "106ff384ff5a14e7c336c14a",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Lets every photo, video and GIF be saved from its long-press menu and the media viewer, without a watermark.",
+    "id": "106ff384ff5a14e7c336c14a:43",
+    "legacy_id": 11683,
+    "metadata_status": "verified",
+    "name": "Native downloader",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.2",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "106ff384ff5a14e7c336c14a",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds \"Reader mode\" to the post menu: the post's text, selectable, with links to its media.",
+    "id": "106ff384ff5a14e7c336c14a:44",
+    "legacy_id": 11684,
+    "metadata_status": "verified",
+    "name": "Native reader mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.2",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "106ff384ff5a14e7c336c14a",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds \"Translate with Google\" to the post menu.",
+    "id": "106ff384ff5a14e7c336c14a:45",
+    "legacy_id": 11685,
+    "metadata_status": "verified",
+    "name": "Native translator",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.2",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "106ff384ff5a14e7c336c14a",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Opens links in posts at their real address instead of through t.co.",
+    "id": "106ff384ff5a14e7c336c14a:46",
+    "legacy_id": 11686,
+    "metadata_status": "verified",
+    "name": "No shortened URL",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.2",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "106ff384ff5a14e7c336c14a",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [],
+    "description": "Opens links in the system browser instead of the in-app browser.",
+    "id": "106ff384ff5a14e7c336c14a:47",
+    "legacy_id": 11687,
+    "metadata_status": "verified",
+    "name": "Open links externally",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.2",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "106ff384ff5a14e7c336c14a",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes promoted posts, accounts and trends from timelines.",
+    "id": "106ff384ff5a14e7c336c14a:48",
+    "legacy_id": 11688,
+    "metadata_status": "verified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.2",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "106ff384ff5a14e7c336c14a",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes Premium upsells: the Upgrade button on the home timeline, the Premium side bar row, and the Get verified cards and prompts.",
+    "id": "106ff384ff5a14e7c336c14a:49",
+    "legacy_id": 11689,
+    "metadata_status": "verified",
+    "name": "Remove premium upsell",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.2",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "106ff384ff5a14e7c336c14a",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.37.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the Reddit Pro section from the community drawer, and the Reddit Pro promos: the post creation and subreddit join upsell sheets, and the Reddit Pro banner on the profile feed.",
+    "id": "106ff384ff5a14e7c336c14a:50",
+    "legacy_id": 11690,
+    "metadata_status": "verified",
+    "name": "Remove Reddit Pro section",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.37.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.2",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "106ff384ff5a14e7c336c14a",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.37.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the Resources and Games on Reddit sections from the community drawer.",
+    "id": "106ff384ff5a14e7c336c14a:51",
+    "legacy_id": 11691,
+    "metadata_status": "verified",
+    "name": "Remove Resources and Games on Reddit sections",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.37.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.2",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "106ff384ff5a14e7c336c14a",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [],
+    "description": "Moves Interested and Not Interested to the top of the post menu.",
+    "id": "106ff384ff5a14e7c336c14a:52",
+    "legacy_id": 11692,
+    "metadata_status": "verified",
+    "name": "Reorder menu options",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.2",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "106ff384ff5a14e7c336c14a",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes tracking parameters from links shared out of the app.",
+    "id": "106ff384ff5a14e7c336c14a:53",
+    "legacy_id": 11693,
+    "metadata_status": "verified",
+    "name": "Sanitize share links",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.2",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "106ff384ff5a14e7c336c14a",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [],
+    "description": "Keeps a local copy of incoming DMs so ones the sender deletes stay readable. Messages are stored unencrypted in the app's private storage.",
+    "id": "106ff384ff5a14e7c336c14a:54",
+    "legacy_id": 11694,
+    "metadata_status": "verified",
+    "name": "Save deleted messages",
+    "options": [
+      {
+        "default": 30,
+        "description": "How long a copy of a message that was not deleted is kept. A message deleted after this is not recoverable. Deleted messages are kept until cleared.",
+        "key": "retentionDays",
+        "required": true,
+        "title": "Days to keep messages",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.2",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "106ff384ff5a14e7c336c14a",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds \"Share as image\" to the share sheet of a post, which shares it as an image card.",
+    "id": "106ff384ff5a14e7c336c14a:55",
+    "legacy_id": 11695,
+    "metadata_status": "verified",
+    "name": "Share Tweet as Image",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.2",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "106ff384ff5a14e7c336c14a",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "12.32.0-prod.01",
+        "12.33.0-prod.01"
+      ]
+    },
+    "dependencies": [],
+    "description": "Shows the results of polls without voting. Polls cannot be voted on while this is applied.",
+    "id": "106ff384ff5a14e7c336c14a:56",
+    "legacy_id": 11696,
+    "metadata_status": "verified",
+    "name": "Show poll results",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "12.32.0-prod.01",
+          "12.33.0-prod.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.2",
+    "source_id": "2d7b929ffc6870d6",
+    "use": true
+  },
+  {
+    "bundle_id": "1234df645589ed00c3167c4b",
+    "compatiblePackages": {
+      "com.google.android.apps.bard": null,
+      "com.google.android.googlequicksearchbox": null
+    },
+    "dependencies": [],
+    "description": "Injects the MicroG signature-spoof permission into Gemini's AndroidManifest.",
+    "id": "1234df645589ed00c3167c4b:0",
+    "legacy_id": 11697,
+    "metadata_status": "unverified",
+    "name": "GmsCore MicroG support",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.bard",
+        "versions": []
+      },
+      {
+        "name": "com.google.android.googlequicksearchbox",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.15",
+    "source_id": "97c6b0d07265f4d9",
+    "use": true
+  },
+  {
+    "bundle_id": "1234df645589ed00c3167c4b",
+    "compatiblePackages": {
+      "com.google.android.apps.bard": null,
+      "com.google.android.googlequicksearchbox": null
+    },
+    "dependencies": [],
+    "description": "Replaces unused internal package names in Gemini's allowlist with Morphe-patched YouTube and YouTube Music package names.",
+    "id": "1234df645589ed00c3167c4b:1",
+    "legacy_id": 11698,
+    "metadata_status": "unverified",
+    "name": "Route intents to patched apps",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.bard",
+        "versions": []
+      },
+      {
+        "name": "com.google.android.googlequicksearchbox",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.15",
+    "source_id": "97c6b0d07265f4d9",
+    "use": true
+  },
+  {
+    "bundle_id": "1472a4f740d71f6113c42a22",
+    "compatiblePackages": {
+      "com.spotify.music": null
+    },
+    "dependencies": [],
+    "description": "Blocks fullscreen promotions (\"Pendragon\" messages) shown when opening the app.",
+    "id": "1472a4f740d71f6113c42a22:0",
+    "legacy_id": 11699,
+    "metadata_status": "verified",
+    "name": "Block popup ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.spotify.music",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "85a9a87cb8db1abd",
+    "use": true
+  },
+  {
+    "bundle_id": "1472a4f740d71f6113c42a22",
+    "compatiblePackages": {
+      "net.interpals": null
+    },
+    "dependencies": [],
+    "description": "Turns off all ad placements of the app, also the ones shown before the ad config is loaded.",
+    "id": "1472a4f740d71f6113c42a22:1",
+    "legacy_id": 11700,
+    "metadata_status": "verified",
+    "name": "Disable ad placements",
+    "options": [],
+    "packages": [
+      {
+        "name": "net.interpals",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "85a9a87cb8db1abd",
+    "use": true
+  },
+  {
+    "bundle_id": "1472a4f740d71f6113c42a22",
+    "compatiblePackages": {
+      "net.interpals": null
+    },
+    "dependencies": [],
+    "description": "Adds \"Download photo\" to the menu of the photo viewer.",
+    "id": "1472a4f740d71f6113c42a22:2",
+    "legacy_id": 11701,
+    "metadata_status": "verified",
+    "name": "Download photos",
+    "options": [],
+    "packages": [
+      {
+        "name": "net.interpals",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "85a9a87cb8db1abd",
+    "use": true
+  },
+  {
+    "bundle_id": "1472a4f740d71f6113c42a22",
+    "compatiblePackages": {
+      "net.interpals": null
+    },
+    "dependencies": [],
+    "description": "Adds \"Age & gender\" to the filter of the feed.",
+    "id": "1472a4f740d71f6113c42a22:3",
+    "legacy_id": 11702,
+    "metadata_status": "verified",
+    "name": "Feed age and gender filter",
+    "options": [],
+    "packages": [
+      {
+        "name": "net.interpals",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "85a9a87cb8db1abd",
+    "use": true
+  },
+  {
+    "bundle_id": "1472a4f740d71f6113c42a22",
+    "compatiblePackages": {
+      "com.spotify.music": null
+    },
+    "dependencies": [],
+    "description": "Allows the Spotify widgets to be added to third party launchers.",
+    "id": "1472a4f740d71f6113c42a22:4",
+    "legacy_id": 11703,
+    "metadata_status": "verified",
+    "name": "Fix third party launchers widgets",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.spotify.music",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "85a9a87cb8db1abd",
+    "use": true
+  },
+  {
+    "bundle_id": "1472a4f740d71f6113c42a22",
+    "compatiblePackages": {
+      "com.spotify.music": null
+    },
+    "dependencies": [],
+    "description": "Removes brand ad sections from the home and search page.",
+    "id": "1472a4f740d71f6113c42a22:5",
+    "legacy_id": 11704,
+    "metadata_status": "verified",
+    "name": "Hide ad sections",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.spotify.music",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "85a9a87cb8db1abd",
+    "use": true
+  },
+  {
+    "bundle_id": "1472a4f740d71f6113c42a22",
+    "compatiblePackages": {
+      "com.spotify.music": null
+    },
+    "dependencies": [],
+    "description": "Hides ad banners, display ads and the ad player.",
+    "id": "1472a4f740d71f6113c42a22:6",
+    "legacy_id": 11705,
+    "metadata_status": "verified",
+    "name": "Hide ad views",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.spotify.music",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "85a9a87cb8db1abd",
+    "use": true
+  },
+  {
+    "bundle_id": "1472a4f740d71f6113c42a22",
+    "compatiblePackages": {
+      "com.untappdllc.app": null,
+      "net.interpals": null
+    },
+    "dependencies": [],
+    "description": "Blocks banner, interstitial, rewarded, app open and native Google ads.",
+    "id": "1472a4f740d71f6113c42a22:7",
+    "legacy_id": 11706,
+    "metadata_status": "verified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.untappdllc.app",
+        "versions": []
+      },
+      {
+        "name": "net.interpals",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "85a9a87cb8db1abd",
+    "use": true
+  },
+  {
+    "bundle_id": "1472a4f740d71f6113c42a22",
+    "compatiblePackages": {
+      "com.ebay.kleinanzeigen": null
+    },
+    "dependencies": [],
+    "description": "Hides ads in the feed, search results and listings, and the promoted sellers in the feed.",
+    "id": "1472a4f740d71f6113c42a22:8",
+    "legacy_id": 11707,
+    "metadata_status": "verified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ebay.kleinanzeigen",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "85a9a87cb8db1abd",
+    "use": true
+  },
+  {
+    "bundle_id": "1472a4f740d71f6113c42a22",
+    "compatiblePackages": {
+      "com.spotify.music": null
+    },
+    "dependencies": [],
+    "description": "Removes \"Premium\" entries from the context menus of songs, albums and playlists.",
+    "id": "1472a4f740d71f6113c42a22:9",
+    "legacy_id": 11708,
+    "metadata_status": "verified",
+    "name": "Hide context menu upsells",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.spotify.music",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "85a9a87cb8db1abd",
+    "use": true
+  },
+  {
+    "bundle_id": "1472a4f740d71f6113c42a22",
+    "compatiblePackages": {
+      "com.untappdllc.app": null
+    },
+    "dependencies": [],
+    "description": "Removes the ad slots from the activity feed.",
+    "id": "1472a4f740d71f6113c42a22:10",
+    "legacy_id": 11709,
+    "metadata_status": "verified",
+    "name": "Hide feed ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.untappdllc.app",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "85a9a87cb8db1abd",
+    "use": true
+  },
+  {
+    "bundle_id": "1472a4f740d71f6113c42a22",
+    "compatiblePackages": {
+      "com.spotify.music": null
+    },
+    "dependencies": [],
+    "description": "Removes ads embedded into playlists.",
+    "id": "1472a4f740d71f6113c42a22:11",
+    "legacy_id": 11710,
+    "metadata_status": "verified",
+    "name": "Hide playlist ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.spotify.music",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "85a9a87cb8db1abd",
+    "use": true
+  },
+  {
+    "bundle_id": "1472a4f740d71f6113c42a22",
+    "compatiblePackages": {
+      "com.spotify.music": null
+    },
+    "dependencies": [],
+    "description": "Removes the \"Premium\" tab from the bottom navigation bar.",
+    "id": "1472a4f740d71f6113c42a22:12",
+    "legacy_id": 11711,
+    "metadata_status": "verified",
+    "name": "Hide Premium tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.spotify.music",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "85a9a87cb8db1abd",
+    "use": true
+  },
+  {
+    "bundle_id": "1472a4f740d71f6113c42a22",
+    "compatiblePackages": {
+      "com.ebay.kleinanzeigen": null
+    },
+    "dependencies": [],
+    "description": "Hides the offers of the ad free subscription \"Kleinanzeigen Pur\".",
+    "id": "1472a4f740d71f6113c42a22:13",
+    "legacy_id": 11712,
+    "metadata_status": "verified",
+    "name": "Hide Pur",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ebay.kleinanzeigen",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "85a9a87cb8db1abd",
+    "use": true
+  },
+  {
+    "bundle_id": "1472a4f740d71f6113c42a22",
+    "compatiblePackages": {
+      "com.untappdllc.app": null
+    },
+    "dependencies": [],
+    "description": "Removes sponsored beers, venues and posts from all lists.",
+    "id": "1472a4f740d71f6113c42a22:14",
+    "legacy_id": 11713,
+    "metadata_status": "verified",
+    "name": "Hide sponsored content",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.untappdllc.app",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "85a9a87cb8db1abd",
+    "use": true
+  },
+  {
+    "bundle_id": "1472a4f740d71f6113c42a22",
+    "compatiblePackages": {
+      "com.spotify.music": null
+    },
+    "dependencies": [],
+    "description": "Disables the video ad plugin of the now playing view.",
+    "id": "1472a4f740d71f6113c42a22:15",
+    "legacy_id": 11714,
+    "metadata_status": "verified",
+    "name": "Hide video ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.spotify.music",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "85a9a87cb8db1abd",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Lets you take screenshots and record your screen where Instagram normally blocks it, such as disappearing photos and videos in chats. Starts off. Turn it on in HushGram settings > Messages.",
+    "id": "1c59e4c170b7235f963d8a78:0",
+    "legacy_id": 11715,
+    "metadata_status": "verified",
+    "name": "Allow screenshots",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Asks you to confirm before a call starts from a chat, so a stray tap on the call button doesn't ring anyone. Starts off. Turn it on in HushGram settings > Messages.",
+    "id": "1c59e4c170b7235f963d8a78:1",
+    "legacy_id": 11716,
+    "metadata_status": "verified",
+    "name": "Ask before a call",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Asks you to confirm before the Like button under a post likes or unlikes it, so a stray tap doesn't do it for you. Starts off. Turn it on in HushGram settings > Feed.",
+    "id": "1c59e4c170b7235f963d8a78:2",
+    "legacy_id": 11717,
+    "metadata_status": "verified",
+    "name": "Ask before a like",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Asks you to confirm before pulling down refreshes Home, Reels or another list, so an accidental pull doesn't replace what you were reading. Starts off. Turn it on in HushGram settings > Feed.",
+    "id": "1c59e4c170b7235f963d8a78:3",
+    "legacy_id": 11718,
+    "metadata_status": "verified",
+    "name": "Ask before a refresh",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Lets you pick the animation that plays when you double tap a post to like it. The choices are animations Instagram made for its Rings creators. Starts off. Turn it on in HushGram settings > Reels.",
+    "id": "1c59e4c170b7235f963d8a78:4",
+    "legacy_id": 11719,
+    "metadata_status": "verified",
+    "name": "Change the like animation",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Stops Google Play from offering Meta's updates over your patched Instagram. Going back to the normal Instagram later means uninstalling first, which deletes its data. Later HushGram builds need this patch too. Works as soon as you patch it in, with no switch.",
+    "id": "1c59e4c170b7235f963d8a78:5",
+    "legacy_id": 11720,
+    "metadata_status": "verified",
+    "name": "Change version code",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": false
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Hides extra buttons and prompts on reels, such as Follow, Edits, templates, Meta AI, Ray-Ban Meta glasses, friends' activity and the comment bar on reposts. Each one has its own switch. Starts off. Turn it on in HushGram settings > Reels.",
+    "id": "1c59e4c170b7235f963d8a78:6",
+    "legacy_id": 11721,
+    "metadata_status": "verified",
+    "name": "Clean up Reels",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Frees storage by deleting Instagram's saved copies of photos and videos once they pass 500 MB. Your sign-in, drafts and settings stay. A row clears them right away. Starts off. Turn it on in HushGram settings > Storage.",
+    "id": "1c59e4c170b7235f963d8a78:7",
+    "legacy_id": 11722,
+    "metadata_status": "verified",
+    "name": "Clear the media cache",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Adds Copy and Copy username to the menu you get on a comment, so you can copy its text or the commenter's username. Starts off. Turn it on in HushGram settings > Comments.",
+    "id": "1c59e4c170b7235f963d8a78:8",
+    "legacy_id": 11723,
+    "metadata_status": "verified",
+    "name": "Copy comment",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings",
+      "Full resolution photos",
+      "Default playback quality"
+    ],
+    "description": "Saves mobile data by loading smaller photos and starting videos at the lowest quality. It uses Full resolution photos and Default playback quality, so it turns both on. It starts with mobile data only. Starts off. Turn it on in HushGram settings > Playback.",
+    "id": "1c59e4c170b7235f963d8a78:9",
+    "legacy_id": 11724,
+    "metadata_status": "verified",
+    "name": "Data saver",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Plays videos, reels and video stories at the quality you choose, instead of the one Instagram picks as it plays. Nothing changes until you pick a quality. On by default. Turn it off in HushGram settings > Playback.",
+    "id": "1c59e4c170b7235f963d8a78:10",
+    "legacy_id": 11725,
+    "metadata_status": "verified",
+    "name": "Default playback quality",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Stops Instagram from sending usage reports and crash reports to Instagram and Facebook. It also skips the contacts and location setup screens. Restart Instagram after you change it. On by default. Turn it off in HushGram settings > Ads and privacy.",
+    "id": "1c59e4c170b7235f963d8a78:11",
+    "legacy_id": 11726,
+    "metadata_status": "verified",
+    "name": "Disable analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Stops Instagram from telling people when you take a screenshot of their disappearing photo or video. Ghost mode, at the top of Ads and privacy, turns it on with the others. Starts off. Turn it on in HushGram settings > Messages.",
+    "id": "1c59e4c170b7235f963d8a78:12",
+    "legacy_id": 11727,
+    "metadata_status": "verified",
+    "name": "Don't report screenshots",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Keeps the accounts and tags you open from search out of your Recent list. Searches already in Recent stay until you clear them. Starts off. Turn it on in HushGram settings > Explore.",
+    "id": "1c59e4c170b7235f963d8a78:13",
+    "legacy_id": 11728,
+    "metadata_status": "verified",
+    "name": "Don't save recent searches",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Stops Instagram from learning which reels you watched and how far you got. Reels you've already watched may come back. Starts off. Turn it on in HushGram settings > Reels.",
+    "id": "1c59e4c170b7235f963d8a78:14",
+    "legacy_id": 11729,
+    "metadata_status": "verified",
+    "name": "Don't send reel watch history",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Adds Download to the menu of every reel and saves it without Instagram's watermark. You choose the quality, and best is the default. A separate Download cover switch also saves the reel's cover picture. On by default. Turn it off in HushGram settings > Reels.",
+    "id": "1c59e4c170b7235f963d8a78:15",
+    "legacy_id": 11730,
+    "metadata_status": "verified",
+    "name": "Download any reel",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Adds Download to the menu of anyone's story. Videos save at the quality you choose and photos at their largest size. On by default. Turn it off in HushGram settings > Stories.",
+    "id": "1c59e4c170b7235f963d8a78:16",
+    "legacy_id": 11731,
+    "metadata_status": "verified",
+    "name": "Download any story",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Adds Download to video posts in your feed, saving the video without Instagram's watermark. Other switches add Download for photos, Download cover and a Details row with the post's time and poster. Starts off. Turn it on in HushGram settings > Downloads.",
+    "id": "1c59e4c170b7235f963d8a78:17",
+    "legacy_id": 11732,
+    "metadata_status": "verified",
+    "name": "Download any video",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Adds Save to the menu you get when you hold a voice message in a chat. It saves the recording as an audio file. Starts off. Turn it on in HushGram settings > Downloads.",
+    "id": "1c59e4c170b7235f963d8a78:18",
+    "legacy_id": 11733,
+    "metadata_status": "verified",
+    "name": "Download voice messages",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Shows every emoji in Google's style instead of your phone's own. The full change shows after you restart Instagram. Starts off. Turn it on in HushGram settings > Layout.",
+    "id": "1c59e4c170b7235f963d8a78:19",
+    "legacy_id": 11734,
+    "metadata_status": "verified",
+    "name": "Emoji style",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Loads photos in the largest size Instagram sends instead of one picked for your screen. A second switch asks for a larger size on screens under 1440 pixels wide. Uses more data. Starts off. Turn it on in HushGram settings > Feed.",
+    "id": "1c59e4c170b7235f963d8a78:20",
+    "legacy_id": 11735,
+    "metadata_status": "verified",
+    "name": "Full resolution photos",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Puts Instagram's notifications in one group, or in a group for each type, so they don't fill your notification shade. Tapping one still opens it. Starts off. Turn it on in HushGram settings > Notifications.",
+    "id": "1c59e4c170b7235f963d8a78:21",
+    "legacy_id": 11736,
+    "metadata_status": "verified",
+    "name": "Group Instagram's notifications",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Hides sponsored posts, reels and stories, and leaves no gap where an ad would have been. On by default. Turn it off in HushGram settings > Ads and privacy.",
+    "id": "1c59e4c170b7235f963d8a78:22",
+    "legacy_id": 11737,
+    "metadata_status": "verified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Takes the Comment button and the comment count off posts in your feed. Starts off. Turn it on in HushGram settings > Comments.",
+    "id": "1c59e4c170b7235f963d8a78:23",
+    "legacy_id": 11738,
+    "metadata_status": "verified",
+    "name": "Hide comments",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Takes the New group button and the button that sends to several people as a group off the share sheet. You can still start a group from your messages. Starts off. Turn it on in HushGram settings > Sharing.",
+    "id": "1c59e4c170b7235f963d8a78:24",
+    "legacy_id": 11739,
+    "metadata_status": "verified",
+    "name": "Hide group buttons on the share sheet",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Takes the row of story highlights off profiles, yours and other people's. Bios, counts and posts stay. Starts off. Turn it on in HushGram settings > Profiles.",
+    "id": "1c59e4c170b7235f963d8a78:25",
+    "legacy_id": 11740,
+    "metadata_status": "verified",
+    "name": "Hide highlights",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Takes the stack of Instants out of your messages. Instants is Instagram's no-edit camera for sharing quick photos with friends. Starts off. Turn it on in HushGram settings > Messages.",
+    "id": "1c59e4c170b7235f963d8a78:26",
+    "legacy_id": 11741,
+    "metadata_status": "verified",
+    "name": "Hide Instants",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Removes Meta AI from Instagram's search bars, messages, home top bar, reels menus, share sheet and feed. Each part has its own switch, and some start on. Starts off. Turn it on in HushGram settings > Meta AI.",
+    "id": "1c59e4c170b7235f963d8a78:27",
+    "legacy_id": 11742,
+    "metadata_status": "verified",
+    "name": "Hide Meta AI",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Removes the rows of suggested reels from your home feed. A reel posted by someone you follow stays. Starts off. Turn it on in HushGram settings > Reels.",
+    "id": "1c59e4c170b7235f963d8a78:28",
+    "legacy_id": 11743,
+    "metadata_status": "verified",
+    "name": "Hide Reels in the feed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Takes the Accounts to follow section off the bottom of your messages. Your chats and follow requests stay. Starts off. Turn it on in HushGram settings > Messages.",
+    "id": "1c59e4c170b7235f963d8a78:29",
+    "legacy_id": 11744,
+    "metadata_status": "verified",
+    "name": "Hide suggested accounts in DMs",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Leaves out the cards of accounts to follow that Instagram puts between reels. Every reel still plays. Starts off. Turn it on in HushGram settings > Reels.",
+    "id": "1c59e4c170b7235f963d8a78:30",
+    "legacy_id": 11745,
+    "metadata_status": "verified",
+    "name": "Hide suggested accounts in Reels",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Takes Suggested for you and the Discover people button off profiles. Bios, counts, posts and follower lists stay. Starts off. Turn it on in HushGram settings > Profiles.",
+    "id": "1c59e4c170b7235f963d8a78:31",
+    "legacy_id": 11746,
+    "metadata_status": "verified",
+    "name": "Hide suggested people on profiles",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Removes posts from accounts you don't follow, suggested accounts, surveys and shopping rows from Home. Posts from accounts you follow stay. Extra switches can also hide all videos, photos or carousels. On by default. Turn it off in HushGram settings > Feed.",
+    "id": "1c59e4c170b7235f963d8a78:32",
+    "legacy_id": 11747,
+    "metadata_status": "verified",
+    "name": "Hide suggested posts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Removes stories from accounts you don't follow from the row at the top of Home. More switches hide rewinds and memories, or the whole row. Starts off. Turn it on in HushGram settings > Stories.",
+    "id": "1c59e4c170b7235f963d8a78:33",
+    "legacy_id": 11748,
+    "metadata_status": "verified",
+    "name": "Hide suggested stories",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Stops the people you're chatting with from seeing when you're typing. You still see when they type. Ghost mode, at the top of Ads and privacy, turns it on with the others. Starts off. Turn it on in HushGram settings > Messages.",
+    "id": "1c59e4c170b7235f963d8a78:34",
+    "legacy_id": 11749,
+    "metadata_status": "verified",
+    "name": "Hide that you're typing",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Empties the grid of posts and reels on the Search tab. Search, recent searches and results stay. Starts off. Turn it on in HushGram settings > Explore.",
+    "id": "1c59e4c170b7235f963d8a78:35",
+    "legacy_id": 11750,
+    "metadata_status": "verified",
+    "name": "Hide the Explore grid",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Empties your home feed on purpose, so Home shows only the stories row. Profiles, Explore and Reels still show posts. Starts off. Turn it on in HushGram settings > Feed.",
+    "id": "1c59e4c170b7235f963d8a78:36",
+    "legacy_id": 11751,
+    "metadata_status": "verified",
+    "name": "Hide the home feed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Takes the row of notes, and the Map bubble in it, off the top of your messages. Your chats stay. Starts off. Turn it on in HushGram settings > Messages.",
+    "id": "1c59e4c170b7235f963d8a78:37",
+    "legacy_id": 11752,
+    "metadata_status": "verified",
+    "name": "Hide the notes row",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Takes the Reels tab off the tab bar. Reels in your feed and reels people send you still open. Restart Instagram to see the change. Starts off. Turn it on in HushGram settings > Reels.",
+    "id": "1c59e4c170b7235f963d8a78:38",
+    "legacy_id": 11753,
+    "metadata_status": "verified",
+    "name": "Hide the Reels tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Takes the Repost button and its count off posts and reels, so nothing gets reposted by mistake. Share still works. Starts off. Turn it on in HushGram settings > Sharing.",
+    "id": "1c59e4c170b7235f963d8a78:39",
+    "legacy_id": 11754,
+    "metadata_status": "verified",
+    "name": "Hide the Repost button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Takes the Share button and its count off posts in your feed and off reels. Starts off. Turn it on in HushGram settings > Sharing.",
+    "id": "1c59e4c170b7235f963d8a78:40",
+    "legacy_id": 11755,
+    "metadata_status": "verified",
+    "name": "Hide the Share button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Takes the Threads button off the top of profiles. The menu and the other buttons stay. Starts off. Turn it on in HushGram settings > Profiles.",
+    "id": "1c59e4c170b7235f963d8a78:41",
+    "legacy_id": 11756,
+    "metadata_status": "verified",
+    "name": "Hide the Threads button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a HushGram settings page to Instagram. Open it by pressing and holding Instagram's icon, or from the top of Settings and activity. Turn features on or off there, pause HushGram and save diagnostics. Works as soon as you patch it in, with no switch.",
+    "id": "1c59e4c170b7235f963d8a78:42",
+    "legacy_id": 11757,
+    "metadata_status": "verified",
+    "name": "HushGram settings",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Keeps a seek bar under every reel, short ones too, with the time played and the reel's length above it, like 0:10 / 0:55. Starts off. Turn it on in HushGram settings > Reels.",
+    "id": "1c59e4c170b7235f963d8a78:43",
+    "legacy_id": 11758,
+    "metadata_status": "verified",
+    "name": "Keep a seek bar on Reels",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Keeps view once and replayable photos and videos in your chats after you open them, so they don't disappear. Starts off. Turn it on in HushGram settings > Messages.",
+    "id": "1c59e4c170b7235f963d8a78:44",
+    "legacy_id": 11759,
+    "metadata_status": "verified",
+    "name": "Keep in chat",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Keeps Instagram's auto scroll in Reels turned on after you leave Reels or restart Instagram, until you turn it off yourself. Starts off. Turn it on in HushGram settings > Reels.",
+    "id": "1c59e4c170b7235f963d8a78:45",
+    "legacy_id": 11760,
+    "metadata_status": "verified",
+    "name": "Keep Reels auto scroll on",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Keeps the 2x speed on for the next reels after you lock a reel at 2x (hold its edge, then slide down), until you slide the lock off. On by default. Turn it off in HushGram settings > Reels.",
+    "id": "1c59e4c170b7235f963d8a78:46",
+    "legacy_id": 11761,
+    "metadata_status": "verified",
+    "name": "Keep the reel speed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Covers your inbox and chats, or all of Instagram, until your fingerprint, face or screen lock says it's you. Message notifications only say that a message came. Starts off. Turn it on in HushGram settings > Messages.",
+    "id": "1c59e4c170b7235f963d8a78:47",
+    "legacy_id": 11762,
+    "metadata_status": "verified",
+    "name": "Lock your messages",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Plays a story again from the start when it ends, instead of moving on to the next one. Tap or swipe to move on. Starts off. Turn it on in HushGram settings > Stories.",
+    "id": "1c59e4c170b7235f963d8a78:48",
+    "legacy_id": 11763,
+    "metadata_status": "verified",
+    "name": "Loop a story",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "A long press on the Home tab opens Instagram's own developer options, where you can change its hidden settings. A wrong change can break parts of Instagram until you reset it. On once you patch it in. Turn it off in HushGram settings > Developer.",
+    "id": "1c59e4c170b7235f963d8a78:49",
+    "legacy_id": 11764,
+    "metadata_status": "verified",
+    "name": "Open developer options",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": false
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Opens web links you tap in your usual browser instead of Instagram's built-in one, without Instagram's click tracker. Instagram pages and ads still open in the app. On by default. Turn it off in HushGram settings > Ads and privacy.",
+    "id": "1c59e4c170b7235f963d8a78:50",
+    "legacy_id": 11765,
+    "metadata_status": "verified",
+    "name": "Open links in external browser",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Makes Instagram's dark mode pure black instead of dark gray. It looks deeper and can save battery on an OLED screen. Menus and buttons keep their grays so they stay easy to see. Works as soon as you patch it in, with no switch.",
+    "id": "1c59e4c170b7235f963d8a78:51",
+    "legacy_id": 11766,
+    "metadata_status": "verified",
+    "name": "Pure black dark mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": false
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Opening a chat no longer tells people you've seen their messages. You still see when they've seen yours. Mark as read still tells them. Ghost mode turns it on too. Starts off. Turn it on in HushGram settings > Messages.",
+    "id": "1c59e4c170b7235f963d8a78:52",
+    "legacy_id": 11767,
+    "metadata_status": "verified",
+    "name": "Read messages without the seen receipt",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Stops Instagram from locking you out with a screen that says this version is too old. A patched build can't update itself, so it would stop working after a few weeks. On by default. Turn it off in HushGram settings > Updates.",
+    "id": "1c59e4c170b7235f963d8a78:53",
+    "legacy_id": 11768,
+    "metadata_status": "verified",
+    "name": "Remove build expired popup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Stops Instagram from reading your phone's advertising ID, which ad companies use to follow you between apps. Instagram gets a string of zeros instead. Works as soon as you patch it in, with no switch.",
+    "id": "1c59e4c170b7235f963d8a78:54",
+    "legacy_id": 11769,
+    "metadata_status": "verified",
+    "name": "Remove the advertising ID",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Takes away the empty gap Instagram leaves under its tab bar for a navigation bar that isn't there. Restart Instagram to see the change. Starts off. Turn it on in HushGram settings > Layout.",
+    "id": "1c59e4c170b7235f963d8a78:55",
+    "legacy_id": 11770,
+    "metadata_status": "verified",
+    "name": "Remove the empty space at the bottom",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Lets Instagram's own checks of who signed the app pass on a patched build, so the parts that need them keep working. Threads, Facebook and Messenger patched with the same key work too. Works as soon as you patch it in, with no switch.",
+    "id": "1c59e4c170b7235f963d8a78:56",
+    "legacy_id": 11771,
+    "metadata_status": "verified",
+    "name": "Restore trust on re-signed builds",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "A video or reel longer than two minutes picks up where you left off the next time you play it on the same account. Live videos and ads start as usual. Starts off. Turn it on in HushGram settings > Playback.",
+    "id": "1c59e4c170b7235f963d8a78:57",
+    "legacy_id": 11772,
+    "metadata_status": "verified",
+    "name": "Resume long videos",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  },
+  {
+    "bundle_id": "1c59e4c170b7235f963d8a78",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "450.0.0.50.77"
+      ]
+    },
+    "dependencies": [
+      "HushGram settings"
+    ],
+    "description": "Removes tracking tags from the links you copy or share, and opens bio links without Instagram's click tracker. The link still opens the same post, reel, story or profile. On by default. Turn it off in HushGram settings > Ads and privacy.",
+    "id": "1c59e4c170b7235f963d8a78:58",
+    "legacy_id": 11773,
+    "metadata_status": "verified",
+    "name": "Sanitize sharing links",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "450.0.0.50.77"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.0.8",
+    "source_id": "fbdae85b81f30b85",
+    "use": true
+  }
+]

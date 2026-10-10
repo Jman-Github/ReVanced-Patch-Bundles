@@ -1,0 +1,42 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "stable"
+  ],
+  "created_at": "2026-09-03T09:17:06Z",
+  "description": "## [1.10.0](https://github.com/browzomje/browzomje-patches/compare/v1.9.0...v1.10.0) (2026-09-03)\n\n### ✨ New Features\n\n* **pinterest:** bypass in-app browser, system share sheet, hide comments and support 14.34.0 (closes [#35](https://github.com/browzomje/browzomje-patches/issues/35), [#36](https://github.com/browzomje/browzomje-patches/issues/36), [#38](https://github.com/browzomje/browzomje-patches/issues/38)) ([453c44d](https://github.com/browzomje/browzomje-patches/commit/453c44d8f694b8f57d823af5375fac7c2451f94e))\n",
+  "download_url": "https://github.com/browzomje/browzomje-patches/releases/download/v1.10.0/patches-1.10.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:b69d671af9f74bb0342e210c223bb7b07c825ee4127d57d658439fbef5ab3284",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "b69d671af9f74bb0342e210c223bb7b07c825ee4127d57d658439fbef5ab3284",
+  "id": "053253b5f3caf4726a760d6b",
+  "import_urls": {
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fbrowzomje%2Fbrowzomje-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 13,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.pinterest",
+    "easy.sudoku.puzzle.solver.free"
+  ],
+  "patch_count": 33,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.10.0",
+  "patch_refresh_attempted_at": "2026-10-10T17:04:24.302529284Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:b69d671af9f74bb0342e210c223bb7b07c825ee4127d57d658439fbef5ab3284",
+  "release_status": "available",
+  "release_url": "https://github.com/browzomje/browzomje-patches/releases/tag/v1.10.0",
+  "signature_download_url": "N/A",
+  "source_id": "1f16d3b57d2fb56f",
+  "version": "v1.10.0"
+}

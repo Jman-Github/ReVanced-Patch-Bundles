@@ -1,0 +1,41 @@
+{
+  "bundle_type": "ReVanced:V4",
+  "channels": [
+    "dev"
+  ],
+  "created_at": "2026-09-16T20:56:38Z",
+  "description": "Устаревшая версия: её патчи не подключаются в ReVanced Manager. Используйте [последний релиз](https://github.com/Allvoid/arsound/releases/latest).\n\n\n**Готовый APK** (ставится без ReVanced Manager) — в Telegram-канале [t.me/arsound_git](https://t.me/arsound_git). Здесь, на GitHub, — набор патчей для ReVanced Manager.\n\n",
+  "download_url": "https://github.com/Allvoid/arsound/releases/download/v0.1.0/patches-0.1.0.rvp",
+  "ecosystem": "revanced",
+  "extracted_provider_digest": "sha256:2be6397ac885191573c3f26c7218d8ecdc72b9b7809c6e437c1f93600f9a9700",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "2be6397ac885191573c3f26c7218d8ecdc72b9b7809c6e437c1f93600f9a9700",
+  "id": "b3e49a2ec386a3ce955e5b56",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FAllvoid%2Farsound&version=latest&channel=prerelease"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 429,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.soundcloud.android"
+  ],
+  "patch_count": 15,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v0.1.0",
+  "patch_refresh_attempted_at": "2026-10-10T17:04:08.281872389Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.revanced:patcher-jvm:22.1.0-dev.1",
+  "provider_digest": "sha256:2be6397ac885191573c3f26c7218d8ecdc72b9b7809c6e437c1f93600f9a9700",
+  "release_status": "available",
+  "release_url": "https://github.com/Allvoid/arsound/releases/tag/v0.1.0",
+  "signature_download_url": "N/A",
+  "source_id": "b50e66b17e3d4f47",
+  "version": "v0.1.0"
+}
