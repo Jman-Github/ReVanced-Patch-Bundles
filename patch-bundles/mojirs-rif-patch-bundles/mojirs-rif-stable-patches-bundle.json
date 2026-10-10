@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-08T00:07:52",
-  "description": "### New\n- **Fix comment video links**: videos posted in comments play in rif's video player instead of failing with \"error retrieving Reddit video metadata\".\n- **Inline comment images**: long pressing an image selects its comment (*Long press image to select comment*, with a *Long press delay* slider).\n\n### Fixes\n- Inline images no longer run off the right edge in indented replies.\n- Shorter patch and setting descriptions.\n\nSupports rif is fun 5.6.22 (free and Golden Platinum). Add `patches.rvp` to ReVanced Manager, or use the raw URL in the README.",
-  "download_url": "https://github.com/MojiRS/revanced-rif-patches/releases/download/v1.5.0/patches.rvp",
+  "created_at": "2026-10-10T00:47:29",
+  "description": "### New\n- **Inline videos**: comment videos, v.redd.it and imgur `.gifv`/`.mp4` links play inline under their link, muted and looping. Tap a video for controls like rif's own player: back to start, play/pause, repeat, sound, seek, and full screen (which continues where you were). Settings: *Inline videos*, *Autoplay inline videos*.\n- Settings category renamed to **Inline media**.\n\n### Fixes\n- GIFs in text posts now animate on the comments page.\n- The patches now declare rif 5.6.22 as their supported version, so managers recommend it.\n\n### Adding this bundle\nIn ReVanced Manager, add `https://raw.githubusercontent.com/MojiRS/revanced-rif-patches/main/bundles/stable.json` as a remote patch source. Requires rif is fun **5.6.22** (free or Golden Platinum), patched together with the official ReVanced bundle's **Spoof client** patch.",
+  "download_url": "https://github.com/MojiRS/revanced-rif-patches/releases/download/v1.6.0/patches.rvp",
   "signature_download_url": "N/A",
-  "version": "v1.5.0"
+  "version": "v1.6.0"
 }

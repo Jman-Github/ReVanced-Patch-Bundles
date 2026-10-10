@@ -320,7 +320,7 @@ Patch lists are collapsed by default. Expand a bundle to inspect its generated p
 | [BestApp](#-bestapp-bundle-patch-list) | - | - | Pending patch list |
 | [Media](#-media-bundle-patch-list) | 32 | 12 | Generated |
 | [Psychonaut-Journal](#-psychonaut-journal-bundle-patch-list) | 7 | 1 | Generated |
-| [Oyasumi](#-oyasumi-bundle-patch-list) | 20 | 5 | Generated |
+| [Oyasumi](#-oyasumi-bundle-patch-list) | 21 | 5 | Generated |
 | [Jam](#-jam-bundle-patch-list) | 151 | 4 | Generated |
 | [Nai64-Extra](#-nai64-extra-bundle-patch-list) | 432 | 2 | Generated |
 | [Akshay-Pixel-Camera](#-akshay-pixel-camera-bundle-patch-list) | 8 | 1 | Generated |
@@ -5515,9 +5515,9 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
-| ```Disable ads``` | ```Removes AppLovin native feed ads, banner ads, and image-viewer ads from rif is fun.``` | ```com.andrewshu.android.reddit``` | ```5.6.22``` |
+| ```Disable ads``` | ```Removes and does not render all ads.``` | ```com.andrewshu.android.reddit``` | ```5.6.22``` |
 | ```Fix comment video links``` | ```Makes videos posted in comments play in rif's video player instead of failing with "error retrieving Reddit video metadata".``` | ```com.andrewshu.android.reddit, com.andrewshu.android.redditdonation``` | ```5.6.22, 5.6.22``` |
-| ```Fix imgur albums``` | ```Fixes imgur albums crashing or failing to load when patched alongside the official ReVanced rif patches. Does nothing without them.``` | ```com.andrewshu.android.reddit, com.andrewshu.android.redditdonation``` | ```5.6.22, 5.6.22``` |
+| ```Fix imgur albums``` | ```Fixes imgur albums crashing or failing to load when patched alongside the official ReVanced rif patches.``` | ```com.andrewshu.android.reddit, com.andrewshu.android.redditdonation``` | ```5.6.22, 5.6.22``` |
 | ```Inline comment images``` | ```Shows images, GIFs and videos linked in comments and text posts inline.``` | ```com.andrewshu.android.reddit, com.andrewshu.android.redditdonation``` | ```5.6.22, 5.6.22``` |
 
 </details>
@@ -10101,7 +10101,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 ### 🧩 Oyasumi Bundle Patch List:
 [📦 Oyasumi-Patches-Bundle](https://github.com/Jman-Github/ReVanced-Patch-Bundles#-oyasumi-patches-bundle-morphe)
 <details>
-<summary><b>Oyasumi</b> - 20 patches, 5 apps</summary>
+<summary><b>Oyasumi</b> - 21 patches, 5 apps</summary>
 
 | **Name** | **Description** | **Compatible Apps** | **Compatible Versions** |
 |----------|---------------|---------------------|-------------------------|
@@ -10125,6 +10125,7 @@ _No generated patch list is available yet. The bundle metadata exists, but no `*
 | ```Morphe settings screen (manifest)``` | ```Register the Morphe settings activity in the manifest, with an intent-filter for the morphe:// scheme.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Neutralize advertising ID``` | ```Return a random advertising ID instead of the real one, so the app has no advertising identifier to hand to Pinterest or to any bundled tracker.``` | ```Pinterest``` | ```14.38.0``` |
 | ```Return an empty contact list``` | ```Make the app see an empty contact list, so nothing is shown from your address book and nothing can be matched or uploaded from it.``` | ```Truecaller``` | ```26.31.6``` |
+| ```Stop call history sync``` | ```Stop uploading your call history to Truecaller's servers, and stop it reading the system call log to do so.``` | ```Truecaller``` | ```26.31.6``` |
 
 </details>
 

@@ -1,5 +1,5 @@
 {
-    "version": "v0.6.0-dev.33",
+    "version": "v0.6.0-dev.34",
     "patches": [
         {
             "category": null,
@@ -629,6 +629,36 @@
             "dependencies": [],
             "description": "Make the app see an empty contact list, so nothing is shown from your address book and nothing can be matched or uploaded from it.",
             "name": "Return an empty contact list",
+            "options": []
+        },
+        {
+            "category": null,
+            "compatiblePackages": [
+                {
+                    "apkFileType": "APK",
+                    "name": "Truecaller",
+                    "packageName": "com.truecaller",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "26.31.6",
+                            "versionCodes": {
+                                "ARM64_V8A": 2631006,
+                                "ARMEABI_V7A": 2631006,
+                                "X86": 2631006,
+                                "X86_64": 2631006
+                            }
+                        }
+                    ],
+                    "versions": [
+                        "26.31.6"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Stop uploading your call history to Truecaller's servers, and stop it reading the system call log to do so.",
+            "name": "Stop call history sync",
             "options": []
         }
     ]

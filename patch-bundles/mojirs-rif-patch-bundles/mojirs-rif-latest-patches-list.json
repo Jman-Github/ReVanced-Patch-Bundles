@@ -1,5 +1,5 @@
 {
-    "version": "v1.6.0-rc8",
+    "version": "v1.6.0",
     "patches": [
         {
             "compatiblePackages": {
@@ -11,7 +11,7 @@
                 "Patch",
                 "Patch"
             ],
-            "description": "Removes AppLovin native feed ads, banner ads, and image-viewer ads from rif is fun.",
+            "description": "Removes and does not render all ads.",
             "name": "Disable ads",
             "options": [],
             "use": true
@@ -41,7 +41,7 @@
                 ]
             },
             "dependencies": [],
-            "description": "Fixes imgur albums crashing or failing to load when patched alongside the official ReVanced rif patches. Does nothing without them.",
+            "description": "Fixes imgur albums crashing or failing to load when patched alongside the official ReVanced rif patches.",
             "name": "Fix imgur albums",
             "options": [],
             "use": true
