@@ -1,5 +1,5 @@
 {
-    "version": "v1.43.2",
+    "version": "v1.43.3-dev.1",
     "patches": [
         {
             "compatiblePackages": null,
@@ -235,6 +235,30 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "XPlayer - Video Player",
+                    "packageName": "video.player.videoplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.2"
+                        }
+                    ],
+                    "versions": [
+                        "2.9.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Removes Lock and Add to playlist from the video and folder 3-dot bottom sheets. Toggle in Mod Settings.",
+            "name": "Clean 3 Dot Menu",
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -580,6 +604,28 @@
         {
             "compatiblePackages": [
                 {
+                    "name": "XPlayer - Video Player",
+                    "packageName": "video.player.videoplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.2"
+                        }
+                    ],
+                    "versions": [
+                        "2.9.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Disables the rate dialog counters so it never appears.",
+            "name": "Disable Rate Dialog",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "name": "videoplayer.videodownloader.downloader",
                     "packageName": "videoplayer.videodownloader.downloader",
                     "targets": [
@@ -654,34 +700,6 @@
         {
             "compatiblePackages": [
                 {
-                    "name": "MX Player",
-                    "packageName": "com.mxtech.videoplayer.ad",
-                    "targets": [
-                        {
-                            "isExperimental": false,
-                            "version": "3.3.0",
-                            "versionCodes": {
-                                "ARM64_V8A": 2001003540,
-                                "ARMEABI_V7A": 2001003540,
-                                "X86": 2001003540,
-                                "X86_64": 2001003540
-                            }
-                        }
-                    ],
-                    "versions": [
-                        "3.3.0"
-                    ]
-                }
-            ],
-            "default": true,
-            "dependencies": [],
-            "description": "Patches libc++_shared.so (arm64-v8a and armeabi-v7a) to branch-to-self at the signature check call site, hanging that code path instead of letting it fail the app.",
-            "name": "Disable signature verification",
-            "options": []
-        },
-        {
-            "compatiblePackages": [
-                {
                     "name": "ES File Explorer",
                     "packageName": "com.estrongs.android.pop",
                     "targets": [
@@ -705,6 +723,124 @@
             "dependencies": [],
             "description": "Removes BookMark, New Files, Cleaner Row In HomePage, Cleans More menu actions",
             "name": "ES File Explorer Ui Cleanup",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "XPlayer - Video Player",
+                    "packageName": "video.player.videoplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.2"
+                        }
+                    ],
+                    "versions": [
+                        "2.9.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Shows resolution, date, size and last played on video rows, and video count, size and path on folder rows. Toggle in Mod Settings.",
+            "name": "Extra File Info",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "XPlayer - Video Player",
+                    "packageName": "video.player.videoplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.2"
+                        }
+                    ],
+                    "versions": [
+                        "2.9.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides the bottom tab bar on the home screen. Toggle in Mod Settings.",
+            "name": "Hide Bottom Bar",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Video Player",
+                    "packageName": "com.allformatplayer.streamvideoplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "1.4"
+                        }
+                    ],
+                    "versions": [
+                        "1.4"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Hides the bottom navigation bar.",
+            "name": "Hide bottom bar",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "XPlayer - Video Player",
+                    "packageName": "video.player.videoplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.2"
+                        }
+                    ],
+                    "versions": [
+                        "2.9.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides the cast button in the toolbar menus. Toggle it in Mod Settings.",
+            "name": "Hide Cast Button",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "XPlayer - Video Player",
+                    "packageName": "video.player.videoplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.2"
+                        }
+                    ],
+                    "versions": [
+                        "2.9.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides the cast, custom and 10 second forward/backward buttons in the player. Toggle in Mod Settings.",
+            "name": "Hide Cast FF FB In Player",
             "options": []
         },
         {
@@ -752,6 +888,30 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "XPlayer - Video Player",
+                    "packageName": "video.player.videoplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.2"
+                        }
+                    ],
+                    "versions": [
+                        "2.9.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides the tile row at the top of the home page (All Videos, Downloader, Privacy, Cleaner...). Toggle in Mod Settings.",
+            "name": "Hide Home Tiles",
+            "options": []
         },
         {
             "compatiblePackages": [
@@ -807,6 +967,30 @@
             "dependencies": [],
             "description": "Hides the Network, Tools and Bookmarks sections from the home page section list.",
             "name": "Hide network, tools and bookmarks on home page",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "XPlayer - Video Player",
+                    "packageName": "video.player.videoplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.2"
+                        }
+                    ],
+                    "versions": [
+                        "2.9.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Hides the recent videos row on the home page. Toggle in Mod Settings.",
+            "name": "Hide Recent Videos",
             "options": []
         },
         {
@@ -894,6 +1078,50 @@
         {
             "compatiblePackages": [
                 {
+                    "name": "XPlayer - Video Player",
+                    "packageName": "video.player.videoplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.2"
+                        }
+                    ],
+                    "versions": [
+                        "2.9.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes Widgets from the home 3-dot menu.",
+            "name": "Hide Widgets Menu Item",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "MX Player",
+                    "packageName": "com.mxtech.videoplayer.ad",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "3.3.0"
+                        }
+                    ],
+                    "versions": [
+                        "3.3.0"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Patches libmx-bh.so to kill signature verification.",
+            "name": "Kill Signature Verification",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "name": "Ampere",
                     "packageName": "com.gombosdev.ampere",
                     "targets": [
@@ -912,6 +1140,30 @@
         {
             "compatiblePackages": [
                 {
+                    "name": "XPlayer - Video Player",
+                    "packageName": "video.player.videoplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.2"
+                        }
+                    ],
+                    "versions": [
+                        "2.9.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "ResourcePatch"
+            ],
+            "description": "Adds a Mod Settings entry below Settings in the home 3-dot menu.",
+            "name": "Mod Settings",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "name": "Firefox Nightly",
                     "packageName": "org.mozilla.fenix",
                     "targets": [
@@ -919,10 +1171,10 @@
                             "isExperimental": false,
                             "version": "159.0a1",
                             "versionCodes": {
-                                "ARM64_V8A": 2016187231,
-                                "ARMEABI_V7A": 2016187231,
-                                "X86": 2016187231,
-                                "X86_64": 2016187231
+                                "ARM64_V8A": 2016189151,
+                                "ARMEABI_V7A": 2016189151,
+                                "X86": 2016189151,
+                                "X86_64": 2016189151
                             }
                         }
                     ],
@@ -937,6 +1189,30 @@
             ],
             "description": "Adds \"Mod Settings\" to the 3 dot menu: switch between the stock bottom sheet menu and the old style popup menu, and pin extensions to the search bar.",
             "name": "Old style 3 dot menu",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "XPlayer - Video Player",
+                    "packageName": "video.player.videoplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.2"
+                        }
+                    ],
+                    "versions": [
+                        "2.9.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Cleans the player side menu: audio, subtitle, cast, bookmark, favorite, play mode, brightness and volume. Applied while the menu inflates so remaining items stay aligned. Toggle in Mod Settings.",
+            "name": "Player Side Cleaned",
             "options": []
         },
         {
@@ -1274,6 +1550,28 @@
         {
             "compatiblePackages": [
                 {
+                    "name": "XPlayer - Video Player",
+                    "packageName": "video.player.videoplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.2"
+                        }
+                    ],
+                    "versions": [
+                        "2.9.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Removes the player tutorial.",
+            "name": "Remove Tutorial",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
                     "name": "SnapTube",
                     "packageName": "com.snaptube.premium",
                     "targets": [
@@ -1430,6 +1728,42 @@
             "dependencies": [],
             "description": "Skips Splash Screen so the app boots straight past the splash and update screen.",
             "name": "Skip Splash Screen",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "XPlayer - Video Player",
+                    "packageName": "video.player.videoplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Launches directly into the file explorer instead of the splash screen.",
+            "name": "Skip Splash Screen",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Video Player All Format",
+                    "packageName": "com.allformatplayer.streamvideoplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false
+                        }
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Launches the app directly into the main screen.",
+            "name": "Skip splash screen",
             "options": []
         },
         {
@@ -1811,7 +2145,29 @@
             "dependencies": [
                 "BytecodePatch"
             ],
-            "description": "Only Use In V2.7.2. Signature verification is spoofed automatically so the purchase check passes without manually applying Spoof app signature.",
+            "description": "Signature verification is spoofed automatically if this patch is selected the purchase check passes.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "Video to Photo",
+                    "packageName": "kallossoft.videotophoto",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "5.0.1"
+                        }
+                    ],
+                    "versions": [
+                        "5.0.1"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks Pro features.",
             "name": "Unlock Pro",
             "options": []
         },
@@ -1840,6 +2196,28 @@
             "default": true,
             "dependencies": [],
             "description": "Forces the Pro flag true at every read and write site in the dex, unlocking Pro.",
+            "name": "Unlock Pro",
+            "options": []
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "XPlayer",
+                    "packageName": "video.player.videoplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.2"
+                        }
+                    ],
+                    "versions": [
+                        "2.9.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [],
+            "description": "Unlocks all pro features.",
             "name": "Unlock Pro",
             "options": []
         },
@@ -1928,6 +2306,30 @@
                     "values": null
                 }
             ]
+        },
+        {
+            "compatiblePackages": [
+                {
+                    "name": "XPlayer - Video Player",
+                    "packageName": "video.player.videoplayer",
+                    "targets": [
+                        {
+                            "isExperimental": false,
+                            "version": "2.9.2"
+                        }
+                    ],
+                    "versions": [
+                        "2.9.2"
+                    ]
+                }
+            ],
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "description": "Raises the volume boost limit in the player and background playback. Toggle in Mod Settings.",
+            "name": "Volume Booster",
+            "options": []
         }
     ]
 }
