@@ -1,0 +1,210 @@
+{
+  "aggregate": {
+    "avg": {
+      "bundle_fk": 2359.0988354880096,
+      "bundle_id": null,
+      "catalog_id": null,
+      "description": null,
+      "id": 10428.968074607717,
+      "metadata_status": null,
+      "name": null,
+      "patch_metadata_version": null,
+      "source_id": null,
+      "use": 0.8510215664018161
+    },
+    "max": {
+      "bundle_fk": 8447,
+      "bundle_id": "ffec1c8aa1a132b93398b8e3",
+      "catalog_id": "ffec1c8aa1a132b93398b8e3:0",
+      "description": "首页推荐流hook",
+      "id": 20685,
+      "metadata_status": "verified",
+      "name": "検証用別パッケージID",
+      "patch_metadata_version": "v6.2.1",
+      "source_id": "ffeda532a7e58a20",
+      "use": true
+    },
+    "min": {
+      "bundle_fk": 1,
+      "bundle_id": "00bbeef2268ccc931ce31b97",
+      "catalog_id": "00bbeef2268ccc931ce31b97:0",
+      "description": "",
+      "id": 1,
+      "metadata_status": "stale",
+      "name": "100x Bullet Damage",
+      "patch_metadata_version": "1.0",
+      "source_id": "003be8de6b36f8f0",
+      "use": false
+    },
+    "stddev": {
+      "bundle_fk": 2896.595182310889,
+      "bundle_id": null,
+      "catalog_id": null,
+      "description": null,
+      "id": 5973.9415008295855,
+      "metadata_status": null,
+      "name": null,
+      "patch_metadata_version": null,
+      "source_id": null,
+      "use": 0.35607731713907564
+    },
+    "stddev_pop": {
+      "bundle_fk": 2896.5237170262894,
+      "bundle_id": null,
+      "catalog_id": null,
+      "description": null,
+      "id": 5973.794110737886,
+      "metadata_status": null,
+      "name": null,
+      "patch_metadata_version": null,
+      "source_id": null,
+      "use": 0.3560672126450502
+    },
+    "stddev_samp": {
+      "bundle_fk": 2896.595182310889,
+      "bundle_id": null,
+      "catalog_id": null,
+      "description": null,
+      "id": 5973.9415008295855,
+      "metadata_status": null,
+      "name": null,
+      "patch_metadata_version": null,
+      "source_id": null,
+      "use": 0.35607731713907564
+    },
+    "sum": {
+      "bundle_fk": 47809497,
+      "bundle_id": null,
+      "catalog_id": null,
+      "description": null,
+      "id": 211353467,
+      "metadata_status": null,
+      "name": null,
+      "patch_metadata_version": null,
+      "source_id": null,
+      "use": 14995
+    },
+    "var_pop": {
+      "bundle_fk": 8389849.643295791,
+      "bundle_id": null,
+      "catalog_id": null,
+      "description": null,
+      "id": 35686216.07748664,
+      "metadata_status": null,
+      "name": null,
+      "patch_metadata_version": null,
+      "source_id": null,
+      "use": 0.1267838599208154
+    },
+    "var_samp": {
+      "bundle_fk": 8390263.650186652,
+      "bundle_id": null,
+      "catalog_id": null,
+      "description": null,
+      "id": 35687977.05533404,
+      "metadata_status": null,
+      "name": null,
+      "patch_metadata_version": null,
+      "source_id": null,
+      "use": 0.12679105578096186
+    },
+    "variance": {
+      "bundle_fk": 8390263.650186652,
+      "bundle_id": null,
+      "catalog_id": null,
+      "description": null,
+      "id": 35687977.05533404,
+      "metadata_status": null,
+      "name": null,
+      "patch_metadata_version": null,
+      "source_id": null,
+      "use": 0.12679105578096186
+    }
+  },
+  "columns": [
+    "id",
+    "catalog_id",
+    "bundle_fk",
+    "bundle_id",
+    "source_id",
+    "name",
+    "description",
+    "metadata_status",
+    "patch_metadata_version",
+    "use"
+  ],
+  "count": 20266,
+  "distinct": {
+    "bundle_fk": 726,
+    "bundle_id": 726,
+    "catalog_id": 20266,
+    "description": 6610,
+    "id": 20266,
+    "metadata_status": 3,
+    "name": 4849,
+    "patch_metadata_version": 361,
+    "source_id": 397,
+    "use": 2
+  },
+  "nonnull": {
+    "bundle_fk": 20266,
+    "bundle_id": 20266,
+    "catalog_id": 20266,
+    "description": 19678,
+    "id": 20266,
+    "metadata_status": 20266,
+    "name": 20259,
+    "patch_metadata_version": 20266,
+    "source_id": 20266,
+    "use": 17620
+  },
+  "null_masks": {
+    "0": 17103,
+    "32": 7,
+    "512": 2568,
+    "576": 78,
+    "64": 510
+  },
+  "text_extrema": {
+    "C": {
+      "max": {
+        "bundle_id": "ffec1c8aa1a132b93398b8e3",
+        "catalog_id": "ffec1c8aa1a132b93398b8e3:0",
+        "description": "首页推荐流hook",
+        "metadata_status": "verified",
+        "name": "検証用別パッケージID",
+        "patch_metadata_version": "v6.2.1",
+        "source_id": "ffeda532a7e58a20"
+      },
+      "min": {
+        "bundle_id": "00bbeef2268ccc931ce31b97",
+        "catalog_id": "00bbeef2268ccc931ce31b97:0",
+        "description": "",
+        "metadata_status": "stale",
+        "name": "100x Bullet Damage",
+        "patch_metadata_version": "1.0",
+        "source_id": "003be8de6b36f8f0"
+      }
+    },
+    "en_US.utf8": {
+      "max": {
+        "bundle_id": "ffec1c8aa1a132b93398b8e3",
+        "catalog_id": "ffec1c8aa1a132b93398b8e3:0",
+        "description": "首页推荐流hook",
+        "metadata_status": "verified",
+        "name": "検証用別パッケージID",
+        "patch_metadata_version": "v6.2.1",
+        "source_id": "ffeda532a7e58a20"
+      },
+      "min": {
+        "bundle_id": "00bbeef2268ccc931ce31b97",
+        "catalog_id": "00bbeef2268ccc931ce31b97:0",
+        "description": "",
+        "metadata_status": "stale",
+        "name": "100x Bullet Damage",
+        "patch_metadata_version": "1.0",
+        "source_id": "003be8de6b36f8f0"
+      }
+    }
+  }
+}

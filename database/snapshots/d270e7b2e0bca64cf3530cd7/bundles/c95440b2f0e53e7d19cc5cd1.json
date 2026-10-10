@@ -1,0 +1,46 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-10-07T04:17:11.999Z",
+  "description": "## [1.8.0](https://gitlab.com/IMXEren/mix-patches/compare/v1.7.2...v1.8.0) (2026-10-07)\n\n### ✨ New Features\n\n* **reddit-sync:** restore deleted posts from Arctic Shift ([9c74db3](https://gitlab.com/IMXEren/mix-patches/commit/9c74db306124a4015739ee1b62068f19cb870150))\n* **reddit-sync:** use a rounded archive badge ([539a1c8](https://gitlab.com/IMXEren/mix-patches/commit/539a1c856ffd8cf50f9b6ba6e93448c21fa6798d))\n",
+  "download_url": "https://gitlab.com/IMXEren/mix-patches/-/releases/v1.8.0/downloads/patches-1.8.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": null,
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "71ac548e0692db06ac23b8a9fe76dc2dc9ab1384fd8bd8f1b0b0bba9392320f6",
+  "id": "c95440b2f0e53e7d19cc5cd1",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgitlab.com%2FIMXEren%2Fmix-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgitlab.com%2FIMXEren%2Fmix-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 472,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.ipay.mobile",
+    "com.laurencedawson.reddit_sync",
+    "org.cris.aikyam",
+    "tv.trakt.trakt"
+  ],
+  "patch_count": 14,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.8.0",
+  "patch_refresh_attempted_at": "2026-10-10T17:05:43.005964603Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": null,
+  "release_status": "unverified",
+  "release_url": "https://gitlab.com/IMXEren/mix-patches/-/releases/v1.8.0",
+  "signature_download_url": null,
+  "source_id": "78f1bdf7fad12036",
+  "version": "v1.8.0"
+}
