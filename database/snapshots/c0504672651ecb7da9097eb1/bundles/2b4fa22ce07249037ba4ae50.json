@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-09-19T19:17:09Z",
+  "description": "Experimental Airofit Elite 1.9.0 Pro 2 adapter. This release does not bypass the app’s Play Store installer/license verification. Measurement accuracy is unvalidated.",
+  "download_url": "https://github.com/nickcomua/airofit-pro2-morphe-patches/releases/download/v1.0.0/airofit-pro2-elite-1.9.0-experimental.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": "sha256:cdfc29ab02fb04acf10611e193797a2d558196e84c79282e99a8ec24cbf66ab7",
+  "extraction_status": "verified",
+  "extraction_terminal": false,
+  "file_hash": "cdfc29ab02fb04acf10611e193797a2d558196e84c79282e99a8ec24cbf66ab7",
+  "id": "2b4fa22ce07249037ba4ae50",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fnickcomua%2Fairofit-pro2-morphe-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fnickcomua%2Fairofit-pro2-morphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 105,
+  "metadata_status": "verified",
+  "need_patches_update": false,
+  "packages": [
+    "com.airofit.elite"
+  ],
+  "patch_count": 1,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 3,
+  "patch_metadata_version": "v1.0.0",
+  "patch_refresh_attempted_at": "2026-10-10T16:42:19.597726755Z",
+  "patcher_failure_config_hash": "6e3cacef74e1b655689112a4d28a0a12c9c099068c93ddd55ffce9501cc8cd3a",
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": "app.morphe:morphe-patcher:1.14.1",
+  "provider_digest": "sha256:cdfc29ab02fb04acf10611e193797a2d558196e84c79282e99a8ec24cbf66ab7",
+  "release_status": "available",
+  "release_url": "https://github.com/nickcomua/airofit-pro2-morphe-patches/releases/tag/v1.0.0",
+  "signature_download_url": "N/A",
+  "source_id": "9c028050e2dbf0b5",
+  "version": "v1.0.0"
+}

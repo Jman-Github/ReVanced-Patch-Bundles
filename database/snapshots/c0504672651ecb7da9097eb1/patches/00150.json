@@ -1,0 +1,3042 @@
+[
+  {
+    "bundle_id": "7c28b89a7e982d9f1c4427b6",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.21",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [],
+    "description": "Installs the Galaxy XR runtime bridge resources and extension DEX foundation used by other XR patches.",
+    "id": "7c28b89a7e982d9f1c4427b6:31",
+    "legacy_id": 15420,
+    "metadata_status": "verified",
+    "name": "XR Core Runtime",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.21",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.28.0-dev.3",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "7c28b89a7e982d9f1c4427b6",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.21",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [
+      "XR Core Runtime"
+    ],
+    "description": "Installs baseline Galaxy XR HMD/controller/default config payloads and dashboard bootstrap assets.",
+    "id": "7c28b89a7e982d9f1c4427b6:32",
+    "legacy_id": 15421,
+    "metadata_status": "verified",
+    "name": "XR Device Config Baseline",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.21",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.28.0-dev.3",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "7c28b89a7e982d9f1c4427b6",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.21",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [
+      "XR Manifest Capability Pack"
+    ],
+    "description": "Installs ui_config.json mappings for XR pointer/button routing in launcher UI flows.",
+    "id": "7c28b89a7e982d9f1c4427b6:33",
+    "legacy_id": 15422,
+    "metadata_status": "verified",
+    "name": "XR Input Routing Config",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.21",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.28.0-dev.3",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "7c28b89a7e982d9f1c4427b6",
+    "compatiblePackages": {
+      "com.valvesoftware.steamlinkvr": [
+        "2.0.20",
+        "2.0.21",
+        "2.0.22"
+      ]
+    },
+    "dependencies": [
+      "XR Core Runtime"
+    ],
+    "description": "Adds Android XR/OpenXR permissions, features, runtime queries, and app-level XR properties.",
+    "id": "7c28b89a7e982d9f1c4427b6:34",
+    "legacy_id": 15423,
+    "metadata_status": "verified",
+    "name": "XR Manifest Capability Pack",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.valvesoftware.steamlinkvr",
+        "versions": [
+          "2.0.20",
+          "2.0.21",
+          "2.0.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.28.0-dev.3",
+    "source_id": "951aef0d0813783c",
+    "use": false
+  },
+  {
+    "bundle_id": "8025bc5967a62c2b1ae2a3c3",
+    "compatiblePackages": {
+      "ch.protonvpn.android": [
+        "5.19.99.0",
+        "5.20.8.0",
+        "5.20.21.0",
+        "5.20.39.0",
+        "5.20.57.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks Plus features and routes connections through free servers",
+    "id": "8025bc5967a62c2b1ae2a3c3:1",
+    "legacy_id": 15424,
+    "metadata_status": "verified",
+    "name": "Unlock VPN Plus",
+    "options": [],
+    "packages": [
+      {
+        "name": "ch.protonvpn.android",
+        "versions": [
+          "5.19.99.0",
+          "5.20.8.0",
+          "5.20.21.0",
+          "5.20.39.0",
+          "5.20.57.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "f1279b78b6e94a88",
+    "use": true
+  },
+  {
+    "bundle_id": "a6e6c31d8287f0b93dd18b24",
+    "compatiblePackages": {
+      "com.spotify.music": [
+        "9.1.80.2221"
+      ]
+    },
+    "dependencies": [],
+    "description": "Choose a theme, such as OLED, or your own colors in Spicetify settings. Requires Android 11 or later. Some screens and hardcoded colors keep Spotify's colors.",
+    "id": "a6e6c31d8287f0b93dd18b24:7",
+    "legacy_id": 15425,
+    "metadata_status": "verified",
+    "name": "Theme colors",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.spotify.music",
+        "versions": [
+          "9.1.80.2221"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "b15ce22bc0e09560",
+    "use": false
+  },
+  {
+    "bundle_id": "c32daa714995a34de2cbb795",
+    "compatiblePackages": {
+      "xyz.rtrvr.pillo": [
+        "0.6.20"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a native Import weights JSON button above Skip in Weight > Add record. Imports SWT backup weights with their dates into the selected profile, with kg/lb selection and duplicate skipping.",
+    "id": "c32daa714995a34de2cbb795:12",
+    "legacy_id": 15426,
+    "metadata_status": "verified",
+    "name": "Pillo - Import weight history from JSON",
+    "options": [],
+    "packages": [
+      {
+        "name": "xyz.rtrvr.pillo",
+        "versions": [
+          "0.6.20"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0",
+    "source_id": "0e6ae70a7bfa1280",
+    "use": false
+  },
+  {
+    "bundle_id": "c32daa714995a34de2cbb795",
+    "compatiblePackages": {
+      "xyz.rtrvr.pillo": [
+        "0.6.20"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds local-file export and restore of Pillo's database, settings and app-managed files, without Google sign-in. Restore replaces current data, keeps a recovery backup and restarts Pillo.",
+    "id": "c32daa714995a34de2cbb795:13",
+    "legacy_id": 15427,
+    "metadata_status": "verified",
+    "name": "Pillo - Local backup and restore",
+    "options": [],
+    "packages": [
+      {
+        "name": "xyz.rtrvr.pillo",
+        "versions": [
+          "0.6.20"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0",
+    "source_id": "0e6ae70a7bfa1280",
+    "use": false
+  },
+  {
+    "bundle_id": "c32daa714995a34de2cbb795",
+    "compatiblePackages": {
+      "xyz.rtrvr.pillo": [
+        "0.6.20"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds signed Total weight change, an All default filter, a selectable Last since date, and Last 30 days / Last 15 days / Change summaries using full profile history.",
+    "id": "c32daa714995a34de2cbb795:14",
+    "legacy_id": 15428,
+    "metadata_status": "verified",
+    "name": "Pillo - Weight change summaries",
+    "options": [],
+    "packages": [
+      {
+        "name": "xyz.rtrvr.pillo",
+        "versions": [
+          "0.6.20"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0",
+    "source_id": "0e6ae70a7bfa1280",
+    "use": false
+  },
+  {
+    "bundle_id": "c32daa714995a34de2cbb795",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.37.0"
+      ]
+    },
+    "dependencies": [
+      "Reddit - Show flairs in home feed (Experimental)"
+    ],
+    "description": "Adds keyword and per-community flair filters under Morphe > Filters. Home-feed flair filtering requires Show flairs in home feed, which is installed automatically.",
+    "id": "c32daa714995a34de2cbb795:15",
+    "legacy_id": 15429,
+    "metadata_status": "verified",
+    "name": "Reddit - Content filters (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.37.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0",
+    "source_id": "0e6ae70a7bfa1280",
+    "use": false
+  },
+  {
+    "bundle_id": "c32daa714995a34de2cbb795",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.37.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Shows native post flair badges below titles in the home feed, including cached and joined-community posts. Controlled by Morphe > Layout.",
+    "id": "c32daa714995a34de2cbb795:16",
+    "legacy_id": 15430,
+    "metadata_status": "verified",
+    "name": "Reddit - Show flairs in home feed (Experimental)",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.37.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0",
+    "source_id": "0e6ae70a7bfa1280",
+    "use": false
+  },
+  {
+    "bundle_id": "c32daa714995a34de2cbb795",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.37.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Skips the forced startup login screen using Reddit's native browse-logged-out action. Login remains available from the account menu. Already included upstream in Morphe Patches PR #3109: https://github.com/MorpheApp/morphe-patches/pull/3109",
+    "id": "c32daa714995a34de2cbb795:17",
+    "legacy_id": 15431,
+    "metadata_status": "verified",
+    "name": "Reddit - Start as guest",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.37.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0",
+    "source_id": "0e6ae70a7bfa1280",
+    "use": false
+  },
+  {
+    "bundle_id": "c709dffacef0f50818325e09",
+    "compatiblePackages": {
+      "de.swr.avp.ard": [
+        "12.4.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a YouTube-like gesture: hold the video to temporarily play it faster.",
+    "id": "c709dffacef0f50818325e09:0",
+    "legacy_id": 15432,
+    "metadata_status": "verified",
+    "name": "Hold to speed up",
+    "options": [
+      {
+        "default": 2.0,
+        "description": "Playback speed while holding the video.",
+        "key": "speed",
+        "required": true,
+        "title": "Speed",
+        "type": "kotlin.Float",
+        "values": null
+      },
+      {
+        "default": 400,
+        "description": "Milliseconds the video must be held before it speeds up.",
+        "key": "holdDelay",
+        "required": true,
+        "title": "Hold delay",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "de.swr.avp.ard",
+        "versions": [
+          "12.4.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "6043f7396300931d",
+    "use": true
+  },
+  {
+    "bundle_id": "c709dffacef0f50818325e09",
+    "compatiblePackages": {
+      "com.disney.disneyplus": [
+        "26.18.0+rc5-2026.10.05"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a YouTube-like gesture: hold the video to temporarily play it faster.",
+    "id": "c709dffacef0f50818325e09:1",
+    "legacy_id": 15433,
+    "metadata_status": "verified",
+    "name": "Hold to speed up",
+    "options": [
+      {
+        "default": 2.0,
+        "description": "Playback speed while holding the video.",
+        "key": "speed",
+        "required": true,
+        "title": "Speed",
+        "type": "kotlin.Float",
+        "values": null
+      },
+      {
+        "default": 400,
+        "description": "Milliseconds the video must be held before it speeds up.",
+        "key": "holdDelay",
+        "required": true,
+        "title": "Hold delay",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.disney.disneyplus",
+        "versions": [
+          "26.18.0+rc5-2026.10.05"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "6043f7396300931d",
+    "use": true
+  },
+  {
+    "bundle_id": "c709dffacef0f50818325e09",
+    "compatiblePackages": {
+      "com.netbiscuits.kicker": null
+    },
+    "dependencies": [],
+    "description": "Unlocks the Plus subscription.",
+    "id": "c709dffacef0f50818325e09:2",
+    "legacy_id": 15434,
+    "metadata_status": "verified",
+    "name": "Unlock Plus",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.netbiscuits.kicker",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "6043f7396300931d",
+    "use": true
+  },
+  {
+    "bundle_id": "c709dffacef0f50818325e09",
+    "compatiblePackages": {
+      "com.netbiscuits.kicker": null
+    },
+    "dependencies": [],
+    "description": "Unlocks the Pur subscription.",
+    "id": "c709dffacef0f50818325e09:3",
+    "legacy_id": 15435,
+    "metadata_status": "verified",
+    "name": "Unlock Pur",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.netbiscuits.kicker",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "6043f7396300931d",
+    "use": true
+  },
+  {
+    "bundle_id": "e0a53c092c8540bf9741c749",
+    "compatiblePackages": {
+      "com.alibaba.aliexpresshd": [
+        "8.162.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bypasses SecurityGuard integrity checks to restore login on patched APKs.",
+    "id": "e0a53c092c8540bf9741c749:0",
+    "legacy_id": 15436,
+    "metadata_status": "verified",
+    "name": "Bypass signature check",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.alibaba.aliexpresshd",
+        "versions": [
+          "8.162.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.7",
+    "source_id": "24e0c9a326310459",
+    "use": true
+  },
+  {
+    "bundle_id": "e0a53c092c8540bf9741c749",
+    "compatiblePackages": {
+      "com.alibaba.aliexpresshd": [
+        "8.162.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Blocks analytics and tracking sent to AliExpress servers.",
+    "id": "e0a53c092c8540bf9741c749:1",
+    "legacy_id": 15437,
+    "metadata_status": "verified",
+    "name": "Disable analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.alibaba.aliexpresshd",
+        "versions": [
+          "8.162.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.7",
+    "source_id": "24e0c9a326310459",
+    "use": true
+  },
+  {
+    "bundle_id": "e0a53c092c8540bf9741c749",
+    "compatiblePackages": {
+      "com.alibaba.aliexpresshd": [
+        "8.162.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the forced update popup that prevents using older versions of the app.",
+    "id": "e0a53c092c8540bf9741c749:2",
+    "legacy_id": 15438,
+    "metadata_status": "verified",
+    "name": "Disable forced updates",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.alibaba.aliexpresshd",
+        "versions": [
+          "8.162.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.7",
+    "source_id": "24e0c9a326310459",
+    "use": true
+  },
+  {
+    "bundle_id": "e0a53c092c8540bf9741c749",
+    "compatiblePackages": {
+      "com.alibaba.aliexpresshd": [
+        "8.162.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables promotional push notifications for deals and coupons.",
+    "id": "e0a53c092c8540bf9741c749:3",
+    "legacy_id": 15439,
+    "metadata_status": "verified",
+    "name": "Disable promotions notifications",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.alibaba.aliexpresshd",
+        "versions": [
+          "8.162.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.7",
+    "source_id": "24e0c9a326310459",
+    "use": true
+  },
+  {
+    "bundle_id": "e0a53c092c8540bf9741c749",
+    "compatiblePackages": {
+      "com.alibaba.aliexpresshd": [
+        "8.162.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Skips the splash screen on app launch.",
+    "id": "e0a53c092c8540bf9741c749:4",
+    "legacy_id": 15440,
+    "metadata_status": "verified",
+    "name": "Disable splash screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.alibaba.aliexpresshd",
+        "versions": [
+          "8.162.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.7",
+    "source_id": "24e0c9a326310459",
+    "use": false
+  },
+  {
+    "bundle_id": "e0a53c092c8540bf9741c749",
+    "compatiblePackages": {
+      "com.alibaba.aliexpresshd": [
+        "8.162.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables saving product images directly to the device gallery.",
+    "id": "e0a53c092c8540bf9741c749:5",
+    "legacy_id": 15441,
+    "metadata_status": "verified",
+    "name": "Enable image saving",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.alibaba.aliexpresshd",
+        "versions": [
+          "8.162.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.7",
+    "source_id": "24e0c9a326310459",
+    "use": false
+  },
+  {
+    "bundle_id": "e0a53c092c8540bf9741c749",
+    "compatiblePackages": {
+      "com.alibaba.aliexpresshd": [
+        "8.162.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes sponsored products and advertisements from the AliExpress home feed and search results.",
+    "id": "e0a53c092c8540bf9741c749:6",
+    "legacy_id": 15442,
+    "metadata_status": "verified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.alibaba.aliexpresshd",
+        "versions": [
+          "8.162.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.7",
+    "source_id": "24e0c9a326310459",
+    "use": true
+  },
+  {
+    "bundle_id": "e0a53c092c8540bf9741c749",
+    "compatiblePackages": {
+      "com.alibaba.aliexpresshd": [
+        "8.162.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes affiliate tracking parameters from shared links.",
+    "id": "e0a53c092c8540bf9741c749:7",
+    "legacy_id": 15443,
+    "metadata_status": "verified",
+    "name": "Remove affiliate tracking",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.alibaba.aliexpresshd",
+        "versions": [
+          "8.162.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.7",
+    "source_id": "24e0c9a326310459",
+    "use": true
+  },
+  {
+    "bundle_id": "e0a53c092c8540bf9741c749",
+    "compatiblePackages": {
+      "com.alibaba.aliexpresshd": [
+        "8.162.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the coupon and promotion popup dialogs.",
+    "id": "e0a53c092c8540bf9741c749:8",
+    "legacy_id": 15444,
+    "metadata_status": "verified",
+    "name": "Remove coupons popup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.alibaba.aliexpresshd",
+        "versions": [
+          "8.162.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.7",
+    "source_id": "24e0c9a326310459",
+    "use": true
+  },
+  {
+    "bundle_id": "e0a53c092c8540bf9741c749",
+    "compatiblePackages": {
+      "com.alibaba.aliexpresshd": [
+        "8.162.8"
+      ]
+    },
+    "dependencies": [],
+    "description": "Filters out sponsored and promoted products from search results.",
+    "id": "e0a53c092c8540bf9741c749:9",
+    "legacy_id": 15445,
+    "metadata_status": "verified",
+    "name": "Remove sponsored items from search",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.alibaba.aliexpresshd",
+        "versions": [
+          "8.162.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.7",
+    "source_id": "24e0c9a326310459",
+    "use": true
+  },
+  {
+    "bundle_id": "079bd9373936ca264ffd5401",
+    "compatiblePackages": {
+      "com.waze": [
+        "5.23.90.900"
+      ]
+    },
+    "dependencies": [],
+    "description": "Increases the Android Auto heads-up (police/enforcement) alert distance to 1200m.",
+    "id": "079bd9373936ca264ffd5401:0",
+    "legacy_id": 15446,
+    "metadata_status": "verified",
+    "name": "Android Auto police alert distance",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.waze",
+        "versions": [
+          "5.23.90.900"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "70621a0f02058ef5",
+    "use": true
+  },
+  {
+    "bundle_id": "079bd9373936ca264ffd5401",
+    "compatiblePackages": {
+      "premom.eh.com.ehpremomapp": [
+        "1.107.2",
+        "1.105.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all premium membership features in the app.",
+    "id": "079bd9373936ca264ffd5401:1",
+    "legacy_id": 15447,
+    "metadata_status": "verified",
+    "name": "Unlock premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "premom.eh.com.ehpremomapp",
+        "versions": [
+          "1.107.2",
+          "1.105.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "70621a0f02058ef5",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to replace video thumbnails using the DeArrow API or image captures from the video.",
+    "id": "158509e6535175c4d27d0f62:0",
+    "legacy_id": 15448,
+    "metadata_status": "verified",
+    "name": "Alternative thumbnails",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to bypass power saving restrictions for Ambient mode and disable it entirely or in fullscreen.",
+    "id": "158509e6535175c4d27d0f62:1",
+    "legacy_id": 15449,
+    "metadata_status": "verified",
+    "name": "Ambient mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "8.40.54",
+        "8.10.52",
+        "7.29.52"
+      ]
+    },
+    "dependencies": [],
+    "description": "Bypasses certificate checks which prevent YouTube Music from working on Android Auto.",
+    "id": "158509e6535175c4d27d0f62:2",
+    "legacy_id": 15450,
+    "metadata_status": "verified",
+    "name": "Bypass certificate checks",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "8.40.54",
+          "8.10.52",
+          "7.29.52"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries.",
+    "id": "158509e6535175c4d27d0f62:3",
+    "legacy_id": 15451,
+    "metadata_status": "verified",
+    "name": "Bypass image region restrictions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to bypass URL redirects and open the original URL directly.",
+    "id": "158509e6535175c4d27d0f62:4",
+    "legacy_id": 15452,
+    "metadata_status": "verified",
+    "name": "Bypass URL redirects",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable captions from being automatically enabled or to set caption cookies.",
+    "id": "158509e6535175c4d27d0f62:5",
+    "legacy_id": 15453,
+    "metadata_status": "verified",
+    "name": "Captions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to change the UI appearance to a phone, tablet, or automotive device.",
+    "id": "158509e6535175c4d27d0f62:6",
+    "legacy_id": 15454,
+    "metadata_status": "verified",
+    "name": "Change form factor",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to change the header logo in the top left corner of the app.",
+    "id": "158509e6535175c4d27d0f62:7",
+    "legacy_id": 15455,
+    "metadata_status": "verified",
+    "name": "Change header",
+    "options": [
+      {
+        "default": null,
+        "description": "Folder with images to use as a custom header logo.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- drawable-hdpi\n- drawable-xhdpi\n- drawable-xxhdpi\n- drawable-xxxhdpi\n\nEach of the folders must contain all of the following files:\nmorphe_header_custom_light.png\nmorphe_header_custom_dark.png \n\nThe image dimensions must be as follows:\n- drawable-hdpi: 194x72 px\n- drawable-xhdpi: 258x96 px\n- drawable-xxhdpi: 387x144 px\n- drawable-xxxhdpi: 512x192 px",
+        "key": "custom",
+        "required": false,
+        "title": "Custom header logo",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "8.40.54",
+        "8.10.52",
+        "7.29.52"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to change the miniplayer background color to match the fullscreen player.",
+    "id": "158509e6535175c4d27d0f62:8",
+    "legacy_id": 15456,
+    "metadata_status": "verified",
+    "name": "Change miniplayer color",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "8.40.54",
+          "8.10.52",
+          "7.29.52"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Appends \".morphe\" to the package name by default. Changing the package name of the app can lead to unexpected issues. This patch does not work with Reddit.",
+    "id": "158509e6535175c4d27d0f62:9",
+    "legacy_id": 15457,
+    "metadata_status": "verified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "Default",
+        "description": "The name of the package to rename the app to.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      },
+      {
+        "default": false,
+        "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "updatePermissions",
+        "required": false,
+        "title": "Update permissions",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "key": "updateProviders",
+        "required": false,
+        "title": "Update providers",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": false
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to set which page the app opens in instead of the homepage.",
+    "id": "158509e6535175c4d27d0f62:10",
+    "legacy_id": 15458,
+    "metadata_status": "verified",
+    "name": "Change start page",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "8.40.54",
+        "8.10.52",
+        "7.29.52"
+      ]
+    },
+    "dependencies": [],
+    "description": "Checks if the device DNS server is preventing user watch history from being saved.",
+    "id": "158509e6535175c4d27d0f62:11",
+    "legacy_id": 15459,
+    "metadata_status": "verified",
+    "name": "Check watch history domain name resolution",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "8.40.54",
+          "8.10.52",
+          "7.29.52"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Checks if the device DNS server is preventing user watch history from being saved.",
+    "id": "158509e6535175c4d27d0f62:12",
+    "legacy_id": 15460,
+    "metadata_status": "verified",
+    "name": "Check watch history domain name resolution",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to display buttons in the video player to copy video URLs.",
+    "id": "158509e6535175c4d27d0f62:13",
+    "legacy_id": 15461,
+    "metadata_status": "verified",
+    "name": "Copy video URL",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "8.40.54",
+        "8.10.52",
+        "7.29.52"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.",
+    "id": "158509e6535175c4d27d0f62:14",
+    "legacy_id": 15462,
+    "metadata_status": "verified",
+    "name": "Custom branding",
+    "options": [
+      {
+        "default": null,
+        "description": "Custom app name.",
+        "key": "customName",
+        "required": false,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nmorphe_adaptive_background_custom.png\nmorphe_adaptive_foreground_custom.png\n\nThe image dimensions must be as follows:\n- mipmap-mdpi: 108x108 px\n- mipmap-hdpi: 162x162 px\n- mipmap-xhdpi: 216x216 px\n- mipmap-xxhdpi: 324x324 px\n- mipmap-xxxhdpi: 432x432 px\n\nOptionally, the path contains a 'drawable' folder with any of the monochrome icon files:\nmorphe_adaptive_monochrome_custom.xml\nmorphe_notification_icon_custom.xml",
+        "key": "customIcon",
+        "required": false,
+        "title": "Custom icon",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "8.40.54",
+          "8.10.52",
+          "7.29.52"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.",
+    "id": "158509e6535175c4d27d0f62:15",
+    "legacy_id": 15463,
+    "metadata_status": "verified",
+    "name": "Custom branding",
+    "options": [
+      {
+        "default": null,
+        "description": "Custom app name.",
+        "key": "customName",
+        "required": false,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nmorphe_adaptive_background_custom.png\nmorphe_adaptive_foreground_custom.png\n\nThe image dimensions must be as follows:\n- mipmap-mdpi: 108x108 px\n- mipmap-hdpi: 162x162 px\n- mipmap-xhdpi: 216x216 px\n- mipmap-xxhdpi: 324x324 px\n- mipmap-xxxhdpi: 432x432 px\n\nOptionally, the path contains a 'drawable' folder with any of the monochrome icon files:\nmorphe_adaptive_monochrome_custom.xml\nmorphe_notification_icon_custom.xml",
+        "key": "customIcon",
+        "required": false,
+        "title": "Custom icon",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to change the opacity of the video player background when player controls are visible.",
+    "id": "158509e6535175c4d27d0f62:16",
+    "legacy_id": 15464,
+    "metadata_status": "verified",
+    "name": "Custom player overlay opacity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable player double tap gestures.",
+    "id": "158509e6535175c4d27d0f62:17",
+    "legacy_id": 15465,
+    "metadata_status": "verified",
+    "name": "Disable double tap actions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "8.40.54",
+        "8.10.52",
+        "7.29.52"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable dynamic range compression (DRC).",
+    "id": "158509e6535175c4d27d0f62:18",
+    "legacy_id": 15466,
+    "metadata_status": "verified",
+    "name": "Disable DRC audio",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "8.40.54",
+          "8.10.52",
+          "7.29.52"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable dynamic range compression (DRC).",
+    "id": "158509e6535175c4d27d0f62:19",
+    "legacy_id": 15467,
+    "metadata_status": "verified",
+    "name": "Disable DRC audio",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable haptic feedback in the player for various actions.",
+    "id": "158509e6535175c4d27d0f62:20",
+    "legacy_id": 15468,
+    "metadata_status": "verified",
+    "name": "Disable haptic feedback",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable server side layout updates and use an older UI.",
+    "id": "158509e6535175c4d27d0f62:21",
+    "legacy_id": 15469,
+    "metadata_status": "verified",
+    "name": "Disable layout updates",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable panels (such as live chat) from opening automatically.",
+    "id": "158509e6535175c4d27d0f62:22",
+    "legacy_id": 15470,
+    "metadata_status": "verified",
+    "name": "Disable player popup panels",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched.",
+    "id": "158509e6535175c4d27d0f62:23",
+    "legacy_id": 15471,
+    "metadata_status": "verified",
+    "name": "Disable resuming Shorts on startup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable rolling number animations of video view count, user likes, and upload time.",
+    "id": "158509e6535175c4d27d0f62:24",
+    "legacy_id": 15472,
+    "metadata_status": "verified",
+    "name": "Disable rolling number animations",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.04.0",
+        "2026.03.0",
+        "2025.48.0"
+      ]
+    },
+    "dependencies": [
+      "Settings for Reddit"
+    ],
+    "description": "Adds an option to disable the popup that appears when taking a screenshot.",
+    "id": "158509e6535175c4d27d0f62:25",
+    "legacy_id": 15473,
+    "metadata_status": "verified",
+    "name": "Disable screenshot popup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.04.0",
+          "2026.03.0",
+          "2025.48.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to disable the popup asking to sign into a TV on the same local network.",
+    "id": "158509e6535175c4d27d0f62:26",
+    "legacy_id": 15474,
+    "metadata_status": "verified",
+    "name": "Disable sign in to TV popup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to disable HDR and VP9 codecs.",
+    "id": "158509e6535175c4d27d0f62:27",
+    "legacy_id": 15475,
+    "metadata_status": "verified",
+    "name": "Disable video codecs",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds additional double-tap to seek values to the YouTube settings menu.",
+    "id": "158509e6535175c4d27d0f62:28",
+    "legacy_id": 15476,
+    "metadata_status": "verified",
+    "name": "Double tap to seek",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds support to download videos with an external downloader app using the in-app download button or a video player action button.",
+    "id": "158509e6535175c4d27d0f62:29",
+    "legacy_id": 15477,
+    "metadata_status": "verified",
+    "name": "Downloads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "8.40.54",
+        "8.10.52",
+        "7.29.52"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options for debugging and exporting Morphe logs to the clipboard.",
+    "id": "158509e6535175c4d27d0f62:30",
+    "legacy_id": 15478,
+    "metadata_status": "verified",
+    "name": "Enable debugging",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "8.40.54",
+          "8.10.52",
+          "7.29.52"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options for debugging and exporting Morphe logs to the clipboard.",
+    "id": "158509e6535175c4d27d0f62:31",
+    "legacy_id": 15479,
+    "metadata_status": "verified",
+    "name": "Enable debugging",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "8.40.54",
+        "8.10.52",
+        "7.29.52"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables the option to play audio without video.",
+    "id": "158509e6535175c4d27d0f62:32",
+    "legacy_id": 15480,
+    "metadata_status": "verified",
+    "name": "Enable exclusive audio playback",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "8.40.54",
+          "8.10.52",
+          "7.29.52"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to automatically exit fullscreen mode when a video reaches the end.",
+    "id": "158509e6535175c4d27d0f62:33",
+    "legacy_id": 15481,
+    "metadata_status": "verified",
+    "name": "Exit fullscreen mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "8.40.54",
+        "8.10.52",
+        "7.29.52"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to always use the original audio track.",
+    "id": "158509e6535175c4d27d0f62:34",
+    "legacy_id": 15482,
+    "metadata_status": "verified",
+    "name": "Force original audio",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "8.40.54",
+          "8.10.52",
+          "7.29.52"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to always use the original audio track.",
+    "id": "158509e6535175c4d27d0f62:35",
+    "legacy_id": 15483,
+    "metadata_status": "verified",
+    "name": "Force original audio",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "8.40.54",
+        "8.10.52",
+        "7.29.52"
+      ]
+    },
+    "dependencies": [
+      "Change package name",
+      "Spoof video streams"
+    ],
+    "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
+    "id": "158509e6535175c4d27d0f62:36",
+    "legacy_id": 15484,
+    "metadata_status": "verified",
+    "name": "GmsCore support",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "8.40.54",
+          "8.10.52",
+          "7.29.52"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [
+      "Change package name",
+      "Hide player overlay buttons",
+      "Spoof video streams"
+    ],
+    "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
+    "id": "158509e6535175c4d27d0f62:37",
+    "legacy_id": 15485,
+    "metadata_status": "verified",
+    "name": "GmsCore support",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "8.40.54",
+        "8.10.52",
+        "7.29.52"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to hide the \"Get Music Premium\" label in the settings and account menu.",
+    "id": "158509e6535175c4d27d0f62:38",
+    "legacy_id": 15486,
+    "metadata_status": "verified",
+    "name": "Hide 'Get Music Premium'",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "8.40.54",
+          "8.10.52",
+          "7.29.52"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.04.0",
+        "2026.03.0",
+        "2025.48.0"
+      ]
+    },
+    "dependencies": [
+      "Settings for Reddit"
+    ],
+    "description": "Adds options to hide ads.",
+    "id": "158509e6535175c4d27d0f62:39",
+    "legacy_id": 15487,
+    "metadata_status": "verified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.04.0",
+          "2026.03.0",
+          "2025.48.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to remove general ads.",
+    "id": "158509e6535175c4d27d0f62:40",
+    "legacy_id": 15488,
+    "metadata_status": "verified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to hide the autoplay preview at the end of videos.",
+    "id": "158509e6535175c4d27d0f62:41",
+    "legacy_id": 15489,
+    "metadata_status": "verified",
+    "name": "Hide autoplay preview",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "8.40.54",
+        "8.10.52",
+        "7.29.52"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to hide the cast, history, notification, and search buttons.",
+    "id": "158509e6535175c4d27d0f62:42",
+    "legacy_id": 15490,
+    "metadata_status": "verified",
+    "name": "Hide buttons",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "8.40.54",
+          "8.10.52",
+          "7.29.52"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "8.40.54",
+        "8.10.52",
+        "7.29.52"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to hide the category bar at the top of the homepage.",
+    "id": "158509e6535175c4d27d0f62:43",
+    "legacy_id": 15491,
+    "metadata_status": "verified",
+    "name": "Hide category bar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "8.40.54",
+          "8.10.52",
+          "7.29.52"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to hide suggested video cards at the end of videos.",
+    "id": "158509e6535175c4d27d0f62:44",
+    "legacy_id": 15492,
+    "metadata_status": "verified",
+    "name": "Hide end screen cards",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to hide the suggested video at the end of videos.",
+    "id": "158509e6535175c4d27d0f62:45",
+    "legacy_id": 15493,
+    "metadata_status": "verified",
+    "name": "Hide end screen suggested video",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to hide info cards that creators add in the video player.",
+    "id": "158509e6535175c4d27d0f62:46",
+    "legacy_id": 15494,
+    "metadata_status": "verified",
+    "name": "Hide info cards",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to hide general layout components.",
+    "id": "158509e6535175c4d27d0f62:47",
+    "legacy_id": 15495,
+    "metadata_status": "verified",
+    "name": "Hide layout components",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "8.40.54",
+        "8.10.52",
+        "7.29.52"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to hide ads that appear while listening to or streaming music videos, podcasts, or songs.",
+    "id": "158509e6535175c4d27d0f62:48",
+    "legacy_id": 15496,
+    "metadata_status": "verified",
+    "name": "Hide music video ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "8.40.54",
+          "8.10.52",
+          "7.29.52"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.04.0",
+        "2026.03.0",
+        "2025.48.0"
+      ]
+    },
+    "dependencies": [
+      "Settings for Reddit"
+    ],
+    "description": "Adds options to hide buttons in the navigation bar.",
+    "id": "158509e6535175c4d27d0f62:49",
+    "legacy_id": 15497,
+    "metadata_status": "verified",
+    "name": "Hide navigation buttons",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.04.0",
+          "2026.03.0",
+          "2025.48.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to hide menu items that appear when pressing the gear icon in the video player.",
+    "id": "158509e6535175c4d27d0f62:50",
+    "legacy_id": 15498,
+    "metadata_status": "verified",
+    "name": "Hide player flyout menu items",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to hide the player Cast, Autoplay, Captions, Previous & Next buttons, and the player control buttons background.",
+    "id": "158509e6535175c4d27d0f62:51",
+    "legacy_id": 15499,
+    "metadata_status": "verified",
+    "name": "Hide player overlay buttons",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.04.0",
+        "2026.03.0",
+        "2025.48.0"
+      ]
+    },
+    "dependencies": [
+      "Settings for Reddit"
+    ],
+    "description": "Adds an option to hide the recommended communities shelves in subreddits.",
+    "id": "158509e6535175c4d27d0f62:52",
+    "legacy_id": 15500,
+    "metadata_status": "verified",
+    "name": "Hide recommended communities shelf",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.04.0",
+          "2026.03.0",
+          "2025.48.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to hide the related video overlay shown when swiping up in fullscreen.",
+    "id": "158509e6535175c4d27d0f62:53",
+    "legacy_id": 15501,
+    "metadata_status": "verified",
+    "name": "Hide related video overlay",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to hide components related to Shorts. Patching version 20.21.37 or lower can hide more Shorts player button types.",
+    "id": "158509e6535175c4d27d0f62:54",
+    "legacy_id": 15502,
+    "metadata_status": "verified",
+    "name": "Hide Shorts components",
+    "options": [
+      {
+        "default": false,
+        "description": "Permanently hides the shortcut to open Shorts when long pressing the app icon in your launcher.",
+        "key": "hideShortsAppShortcut",
+        "required": false,
+        "title": "Hide Shorts app shortcut",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Permanently hides the launcher widget Shorts button.",
+        "key": "hideShortsWidget",
+        "required": false,
+        "title": "Hide Shorts widget",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.04.0",
+        "2026.03.0",
+        "2025.48.0"
+      ]
+    },
+    "dependencies": [
+      "Settings for Reddit"
+    ],
+    "description": "Adds options to hide the sidebar components.",
+    "id": "158509e6535175c4d27d0f62:55",
+    "legacy_id": 15503,
+    "metadata_status": "verified",
+    "name": "Hide sidebar components",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.04.0",
+          "2026.03.0",
+          "2025.48.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to hide the timestamp in the bottom left of the video player.",
+    "id": "158509e6535175c4d27d0f62:56",
+    "legacy_id": 15504,
+    "metadata_status": "verified",
+    "name": "Hide timestamp",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.04.0",
+        "2026.03.0",
+        "2025.48.0"
+      ]
+    },
+    "dependencies": [
+      "Settings for Reddit"
+    ],
+    "description": "Adds an option to hide the Trending Today shelf from search suggestions.",
+    "id": "158509e6535175c4d27d0f62:57",
+    "legacy_id": 15505,
+    "metadata_status": "verified",
+    "name": "Hide Trending Today shelf",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.04.0",
+          "2026.03.0",
+          "2025.48.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to hide action buttons (such as the Download button) under videos. Patching version 20.21.37 or lower can hide more player button types.",
+    "id": "158509e6535175c4d27d0f62:58",
+    "legacy_id": 15506,
+    "metadata_status": "verified",
+    "name": "Hide video action buttons",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to loop videos and display loop video button in the video player.",
+    "id": "158509e6535175c4d27d0f62:59",
+    "legacy_id": 15507,
+    "metadata_status": "verified",
+    "name": "Loop video",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to change the in-app minimized player.",
+    "id": "158509e6535175c4d27d0f62:60",
+    "legacy_id": 15508,
+    "metadata_status": "verified",
+    "name": "Miniplayer",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "8.40.54",
+        "8.10.52",
+        "7.29.52"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to hide navigation bar, labels and buttons.",
+    "id": "158509e6535175c4d27d0f62:61",
+    "legacy_id": 15509,
+    "metadata_status": "verified",
+    "name": "Navigation bar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "8.40.54",
+          "8.10.52",
+          "7.29.52"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to hide and change the bottom navigation bar (such as the Shorts button)  and the upper navigation toolbar. Patching version 20.21.37 and lower also adds a setting to use a wide searchbar.",
+    "id": "158509e6535175c4d27d0f62:62",
+    "legacy_id": 15510,
+    "metadata_status": "verified",
+    "name": "Navigation bar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2026.04.0",
+        "2026.03.0",
+        "2025.48.0"
+      ]
+    },
+    "dependencies": [
+      "Settings for Reddit"
+    ],
+    "description": "Adds an option to skip over redirection URLs in external links.",
+    "id": "158509e6535175c4d27d0f62:63",
+    "legacy_id": 15511,
+    "metadata_status": "verified",
+    "name": "Open links directly",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2026.04.0",
+          "2026.03.0",
+          "2025.48.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to always open links in your browser instead of the in-app browser.",
+    "id": "158509e6535175c4d27d0f62:64",
+    "legacy_id": 15512,
+    "metadata_status": "verified",
+    "name": "Open links externally",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to open Shorts in the regular video player.",
+    "id": "158509e6535175c4d27d0f62:65",
+    "legacy_id": 15513,
+    "metadata_status": "verified",
+    "name": "Open Shorts in regular player",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to open videos in full screen portrait mode.",
+    "id": "158509e6535175c4d27d0f62:66",
+    "legacy_id": 15514,
+    "metadata_status": "verified",
+    "name": "Open videos fullscreen",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Overrides certificate pinning, allowing to inspect traffic via a proxy. This patch does not work with Reddit.",
+    "id": "158509e6535175c4d27d0f62:67",
+    "legacy_id": 15515,
+    "metadata_status": "verified",
+    "name": "Override certificate pinning",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": false
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "8.40.54",
+        "8.10.52",
+        "7.29.52"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds an option to always repeat even if the playlist ends or another track is played.",
+    "id": "158509e6535175c4d27d0f62:68",
+    "legacy_id": 15516,
+    "metadata_status": "verified",
+    "name": "Permanent repeat",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "8.40.54",
+          "8.10.52",
+          "7.29.52"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds options to customize available playback speeds, set a default playback speed, and show a speed dialog button in the video player.",
+    "id": "158509e6535175c4d27d0f62:69",
+    "legacy_id": 15517,
+    "metadata_status": "verified",
+    "name": "Playback speed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "8.40.54",
+        "8.10.52",
+        "7.29.52"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes restrictions on background playback, including playing kids videos in the background.",
+    "id": "158509e6535175c4d27d0f62:70",
+    "legacy_id": 15518,
+    "metadata_status": "verified",
+    "name": "Remove background playback restrictions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "8.40.54",
+          "8.10.52",
+          "7.29.52"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  },
+  {
+    "bundle_id": "158509e6535175c4d27d0f62",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.40.45",
+        "20.31.42",
+        "20.21.37"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes restrictions on background playback, including playing kids videos in the background.",
+    "id": "158509e6535175c4d27d0f62:71",
+    "legacy_id": 15519,
+    "metadata_status": "verified",
+    "name": "Remove background playback restrictions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.40.45",
+          "20.31.42",
+          "20.21.37"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.14.0-dev.6",
+    "source_id": "a142ee96279807e2",
+    "use": true
+  }
+]
