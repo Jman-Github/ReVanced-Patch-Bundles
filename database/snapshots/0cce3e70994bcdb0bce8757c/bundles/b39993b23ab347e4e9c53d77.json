@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev",
+    "latest"
+  ],
+  "created_at": "2026-09-05T08:35:22Z",
+  "description": "First beta targeting NuvioTV 0.9.0-beta only, with all seven Morphe patches.\r\n\r\n- Port native settings, Storage, playback, download and subtitle hooks to 0.9.0-beta.\r\n- Fix local MP4 playback, Storage grid crashes, fresh-entry download actions and imported subtitle identity.\r\n- Translate Morphe settings into Spanish, Italian, German, French, Portuguese, Japanese, Korean, Simplified Chinese and Traditional Chinese; keep the Morphe title in every locale.\r\n- Validation: 304 automated tests, 28 isolated patch/ABI combinations, seven TV emulator profiles and 30 final-build cold launches. Exact staged coverage and limits are documented in testing/VALIDATION_0.9.0-beta.md.\r\n\r\nThis is a prerelease for physical-TV acceptance. ARM hardware, physical USB/FAT32 files over 4 GB and long-duration soak testing remain outstanding. Only patch bundles and metadata are distributed; obtain the official NuvioTV APK separately.\r\n\nPublic-release validation passed in Morphe Manager 1.27.0: GitHub-source discovery, seven-patch enumeration, and successful all-seven patch application/signing. The exact downloaded .mpp SHA-256 is `01e7f80706faff8cc31dfe5bdf2bcce777300f1842e24d304c332f0609837790`.\n\n[Installation instructions](https://github.com/liongalahad/liongalahad-nuviotv-morphe-patches/blob/main/README.md#install-in-morphe-manager) · [Public Manager validation report](https://github.com/liongalahad/liongalahad-nuviotv-morphe-patches/blob/main/validation/1.0.0-beta.1-manager.md)\r\n",
+  "download_url": "https://github.com/liongalahad/liongalahad-nuviotv-morphe-patches/releases/download/v1.0.0-beta.1/patches-1.0.0-beta.1.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": null,
+  "extraction_status": "unverified",
+  "extraction_terminal": false,
+  "file_hash": null,
+  "id": "b39993b23ab347e4e9c53d77",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fliongalahad%2Fliongalahad-nuviotv-morphe-patches&version=latest&channel=prerelease",
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fliongalahad%2Fliongalahad-nuviotv-morphe-patches&version=latest&channel=any"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 428,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "NuvioTV"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 0,
+  "patch_metadata_version": "v1.0.0-beta.1",
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_config_hash": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "provider_digest": "sha256:01e7f80706faff8cc31dfe5bdf2bcce777300f1842e24d304c332f0609837790",
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": null,
+  "source_id": "c87aa5bf4483c23e",
+  "version": "v1.0.0-beta.1"
+}

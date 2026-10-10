@@ -1,0 +1,44 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-04-30T21:43:53Z",
+  "description": "## [1.0.2](https://github.com/loskutov/youtube-domain-fronting-patch/compare/v1.0.1...v1.0.2) (2026-04-30)\n\n\n### Bug Fixes\n\n* extend .text instead of rewriting .rodata; rewrite domain for ytimg as well ([08bf336](https://github.com/loskutov/youtube-domain-fronting-patch/commit/08bf3362cf10fdb8270cddfe762f68a83f292b74))\n\n\n\n",
+  "download_url": "https://github.com/loskutov/youtube-domain-fronting-patch/releases/download/v1.0.2/patches-1.0.2.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": null,
+  "extraction_status": "unverified",
+  "extraction_terminal": false,
+  "file_hash": null,
+  "id": "c29defb84454a46e4e1a4dfe",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Floskutov%2Fyoutube-domain-fronting-patch&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Floskutov%2Fyoutube-domain-fronting-patch&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 461,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "YouTube",
+    "YouTube Music"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 0,
+  "patch_metadata_version": "v1.0.2",
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_config_hash": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "provider_digest": "sha256:cca9b96359df161f911a49c370783beda108290ebb91206fce634153c4e027e0",
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": null,
+  "source_id": "8467eb35f6060bb1",
+  "version": "v1.0.2"
+}

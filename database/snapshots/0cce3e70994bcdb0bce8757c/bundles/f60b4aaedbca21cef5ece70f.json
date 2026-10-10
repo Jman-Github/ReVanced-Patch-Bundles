@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-10-05T10:32:03Z",
+  "description": "## 1.1.2 (2026-10-05)\n\n### 수정\n\n- 채팅 폭 조절을 − / 숫자 / + 순서로 정렬했습니다. 숫자 영역의 너비를 확보해 값이 바뀌어도 버튼 위치가 일정하게 유지됩니다.",
+  "download_url": "https://github.com/snowyegret23/morphe-patches/releases/download/v1.1.2/patches-1.1.2.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": null,
+  "extraction_status": "unverified",
+  "extraction_terminal": false,
+  "file_hash": null,
+  "id": "f60b4aaedbca21cef5ece70f",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fsnowyegret23%2Fmorphe-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fsnowyegret23%2Fmorphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 570,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "Chzzk"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 0,
+  "patch_metadata_version": "v1.1.2",
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_config_hash": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "provider_digest": "sha256:073c2679f21188b9e38170cdfcdf289daf4fb68f7b5dc1acb99443da8972d8fe",
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": null,
+  "source_id": "fd9c25da62992469",
+  "version": "v1.1.2"
+}

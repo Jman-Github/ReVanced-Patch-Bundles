@@ -1,0 +1,6026 @@
+[
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Privacy",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Stops Facebook watching for screenshots of ads and reporting which apps you install for ad attribution.",
+    "id": "b543f3de2aea2cdbf98bf738:2",
+    "legacy_id": 8761,
+    "metadata_status": "unverified",
+    "name": "Block ad telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Ads",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Stops Facebook downloading ads and its ad model in the background. That saves data and battery. The ads don't take up storage either.",
+    "id": "b543f3de2aea2cdbf98bf738:3",
+    "legacy_id": 8762,
+    "metadata_status": "unverified",
+    "name": "Block background ad prefetch",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Keeps your feed position when you return to Facebook within ten minutes, or for any time away with No time limit on. Pull to refresh and a fresh launch still work.",
+    "id": "b543f3de2aea2cdbf98bf738:4",
+    "legacy_id": 8763,
+    "metadata_status": "unverified",
+    "name": "Block background-return feed refresh",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Ads",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Games you play in Facebook get no ads. A game that asks for one is told there's none to show, so a rewarded ad gives no reward, and the game carries on.",
+    "id": "b543f3de2aea2cdbf98bf738:5",
+    "legacy_id": 8764,
+    "metadata_status": "unverified",
+    "name": "Block Instant Games ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Keeps the kinds of notification you pick off your phone, such as trending videos, memories and birthdays. Each kind has its own switch, and they all start off. Messages, friend requests, comments, mentions and login alerts always come through.",
+    "id": "b543f3de2aea2cdbf98bf738:6",
+    "legacy_id": 8765,
+    "metadata_status": "unverified",
+    "name": "Block promotional notifications",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Privacy",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Stops Facebook noticing when you take a screenshot or record the screen, in the feed, Reels, chats, games and everywhere else. Its switch starts on, under Privacy.",
+    "id": "b543f3de2aea2cdbf98bf738:7",
+    "legacy_id": 8766,
+    "metadata_status": "unverified",
+    "name": "Block screenshot detection",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Hides the Follow button on reels and the comment and reaction previews under them. Buttons such as Remix, Use template, Add yours and Stars go too, and each part has its own switch.",
+    "id": "b543f3de2aea2cdbf98bf738:8",
+    "legacy_id": 8767,
+    "metadata_status": "unverified",
+    "name": "Clean up Reels",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Opens comments in the order you choose in Hushfacebook's settings, Most relevant, Newest or All comments, instead of the one Facebook picks. An order you pick in a post's comments stays for that post, and links to a comment still open on it.",
+    "id": "b543f3de2aea2cdbf98bf738:9",
+    "legacy_id": 8768,
+    "metadata_status": "unverified",
+    "name": "Default comment order",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Plays videos, reels and video stories at the quality you choose in Hushfacebook's settings, such as Data saver or up to 720p, instead of the one Facebook picks as it plays. A quality you pick in a video's own menu still wins for that video.",
+    "id": "b543f3de2aea2cdbf98bf738:10",
+    "legacy_id": 8769,
+    "metadata_status": "unverified",
+    "name": "Default playback quality",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Ads",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings",
+      "ResourcePatch"
+    ],
+    "description": "Stops Facebook serving ads to other apps. Those apps then show their own ads or none, and rewarded ads can fail.",
+    "id": "b543f3de2aea2cdbf98bf738:11",
+    "legacy_id": 8770,
+    "metadata_status": "unverified",
+    "name": "Disable Audience Network",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Privacy",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Stops sending Facebook the list of reels you've watched. It's used to rank your Reels feed, and nobody else sees it. Reels you've already watched may come back in the feed.",
+    "id": "b543f3de2aea2cdbf98bf738:12",
+    "legacy_id": 8771,
+    "metadata_status": "unverified",
+    "name": "Don't send reel watch history",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Downloads",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Adds a Download button beside every reel. Videos save at the Download quality you set, best by default.",
+    "id": "b543f3de2aea2cdbf98bf738:13",
+    "legacy_id": 8772,
+    "metadata_status": "unverified",
+    "name": "Download any reel",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Downloads",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Adds Save to the menu of any story, including stories with music. Videos save at the Download quality you set, best by default.",
+    "id": "b543f3de2aea2cdbf98bf738:14",
+    "legacy_id": 8773,
+    "metadata_status": "unverified",
+    "name": "Download any story",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Downloads",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Adds Download to phone to the menu of videos in the feed and in Watch, below Facebook's own items. Videos save at the Download quality you set, best by default.",
+    "id": "b543f3de2aea2cdbf98bf738:15",
+    "legacy_id": 8774,
+    "metadata_status": "unverified",
+    "name": "Download any video",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Keeps Facebook in dark mode whatever its own setting says, for tablets where Facebook's settings have no Dark mode. Its switch starts off, so turn it on under Appearance and restart Facebook.",
+    "id": "b543f3de2aea2cdbf98bf738:16",
+    "legacy_id": 8775,
+    "metadata_status": "unverified",
+    "name": "Force dark mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Ads",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Removes the product cards of affiliate shop links from reels, feed posts and the comment sheet. The \"Commission eligible\" label stays.",
+    "id": "b543f3de2aea2cdbf98bf738:17",
+    "legacy_id": 8776,
+    "metadata_status": "unverified",
+    "name": "Hide affiliate product links",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Removes feed posts that Facebook's own detection marked as made with AI, and the reels and Watch videos it flagged the same way. A third switch also removes posts their creator labelled as AI, a fourth takes out the Meta AI cards Facebook adds between posts, and a fifth removes posts featuring Meta's AI characters. The Meta AI cards switch starts on. The others start off, so turn them on in Hushfacebook's settings.",
+    "id": "b543f3de2aea2cdbf98bf738:18",
+    "legacy_id": 8777,
+    "metadata_status": "unverified",
+    "name": "Hide AI-detected posts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Hides the Upgrades and Also from Meta sections of Facebook's Menu. Each has its own switch. Settings, Help and support, your shortcuts and the rest of the Menu stay.",
+    "id": "b543f3de2aea2cdbf98bf738:19",
+    "legacy_id": 8778,
+    "metadata_status": "unverified",
+    "name": "Hide Menu promotions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Removes the Meta AI answer and the Ask Meta AI prompts Facebook adds to search results, and stops search suggestions from opening Meta AI by themselves. People, groups, pages and posts stay, and the Meta AI button still works.",
+    "id": "b543f3de2aea2cdbf98bf738:20",
+    "legacy_id": 8779,
+    "metadata_status": "unverified",
+    "name": "Hide Meta AI in search",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Removes the row of Meta AI questions Facebook adds under some posts. The post, its link card and its buttons stay.",
+    "id": "b543f3de2aea2cdbf98bf738:21",
+    "legacy_id": 8780,
+    "metadata_status": "unverified",
+    "name": "Hide Meta AI questions under posts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Removes the strip Facebook adds to some posts, like \"Are you interested in this post?\", \"Show less\", who recently commented, or follow and chat suggestions, with no gap left behind. The post stays.",
+    "id": "b543f3de2aea2cdbf98bf738:22",
+    "legacy_id": 8781,
+    "metadata_status": "unverified",
+    "name": "Hide post prompts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Hides feed posts whose text has a word or phrase you list, unless it also has one from your keep list. Hushfacebook never sends your words anywhere. The switch starts off, so turn it on and add words in Hushfacebook's settings.",
+    "id": "b543f3de2aea2cdbf98bf738:23",
+    "legacy_id": 8782,
+    "metadata_status": "unverified",
+    "name": "Hide posts by words",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Removes the \"Are you interested in this reel?\" prompt from reels. The reel plays as usual.",
+    "id": "b543f3de2aea2cdbf98bf738:24",
+    "legacy_id": 8783,
+    "metadata_status": "unverified",
+    "name": "Hide reel interest prompts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Removes the rows of reels between posts in the news feed, and the reels Facebook adds where your feed ends. A reel a friend posts stays.",
+    "id": "b543f3de2aea2cdbf98bf738:25",
+    "legacy_id": 8784,
+    "metadata_status": "unverified",
+    "name": "Hide Reels in the feed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Ads",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Removes the ads and boosted listings from Marketplace's feed and search results. The feed's request asks Facebook to leave them out and the requests that fetch only ads don't go out. Ads that come back among search results are taken out before Marketplace shows them, and a video ad that reaches the feed anyway isn't drawn. The listings people post stay.",
+    "id": "b543f3de2aea2cdbf98bf738:26",
+    "legacy_id": 8785,
+    "metadata_status": "unverified",
+    "name": "Hide sponsored Marketplace listings",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Ads",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Removes sponsored and promoted posts from the news feed, with no gap left behind.",
+    "id": "b543f3de2aea2cdbf98bf738:27",
+    "legacy_id": 8786,
+    "metadata_status": "unverified",
+    "name": "Hide sponsored posts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Ads",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Removes the ads between the posts on someone's profile or a Page. The profile's own posts stay.",
+    "id": "b543f3de2aea2cdbf98bf738:28",
+    "legacy_id": 8787,
+    "metadata_status": "unverified",
+    "name": "Hide sponsored profile posts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Ads",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Removes ads from Reels and Watch, including product banners over a reel and ads inside a video.",
+    "id": "b543f3de2aea2cdbf98bf738:29",
+    "legacy_id": 8788,
+    "metadata_status": "unverified",
+    "name": "Hide sponsored reels",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Ads",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Removes the ads from Facebook's search results, the sponsored posts and ad cards between the people, pages and posts you searched for.",
+    "id": "b543f3de2aea2cdbf98bf738:30",
+    "legacy_id": 8789,
+    "metadata_status": "unverified",
+    "name": "Hide sponsored search results",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Ads",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Removes ad cards from the story viewer, so swiping through stories only shows stories people posted.",
+    "id": "b543f3de2aea2cdbf98bf738:31",
+    "legacy_id": 8790,
+    "metadata_status": "unverified",
+    "name": "Hide sponsored stories",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Adds separate controls for the row of stories at the top of the news feed, Create story included, and the rows of stories Facebook puts between posts.",
+    "id": "b543f3de2aea2cdbf98bf738:32",
+    "legacy_id": 8791,
+    "metadata_status": "unverified",
+    "name": "Hide Stories tray",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Removes what Facebook adds to the feed besides ads: \"Suggested for you\" posts, \"People you may know\", suggested groups, \"Stories you might like\", \"Pages you may like\" and its own upsells. In-feed surveys go too, and so does the \"People you may know\" row on your own profile. Each kind has its own switch.",
+    "id": "b543f3de2aea2cdbf98bf738:33",
+    "legacy_id": 8792,
+    "metadata_status": "unverified",
+    "name": "Hide suggested and promoted posts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Removes the stories Facebook suggests from people and Pages you don't follow, the ones marked Suggested in the Stories tray, and the tray's Find friends from contacts card. With Hide suggested and promoted posts in the build too, the tray's People you may know cards go as well. Your friends' stories, the Pages you follow and Create story stay.",
+    "id": "b543f3de2aea2cdbf98bf738:34",
+    "legacy_id": 8793,
+    "metadata_status": "unverified",
+    "name": "Hide suggested stories",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Takes the tabs you pick off the tab bar: Feeds, Friends, Marketplace, Groups, Gaming or Events. Each page stays in the Menu. Every switch starts off, and a change shows once Facebook restarts.",
+    "id": "b543f3de2aea2cdbf98bf738:35",
+    "legacy_id": 8794,
+    "metadata_status": "unverified",
+    "name": "Hide tabs",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Takes the title row and the All, Favorites, Friends, Groups and Pages filters off the top of the Feeds tab, so it opens on its posts. Its switch starts off, so turn it on under News feed and restart Facebook.",
+    "id": "b543f3de2aea2cdbf98bf738:36",
+    "legacy_id": 8795,
+    "metadata_status": "unverified",
+    "name": "Hide the Feeds header",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Hides the \"Get the Messenger app\" card at the top of Chats while Messenger is installed. Facebook only counts a Messenger signed with its own key, so a re-signed Facebook shows the card even with Messenger right there. Without Messenger the card stays.",
+    "id": "b543f3de2aea2cdbf98bf738:37",
+    "legacy_id": 8796,
+    "metadata_status": "unverified",
+    "name": "Hide the Get Messenger card",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Takes the Reels tab, which some accounts call Video, off the tab bar, and its shortcut out of the long-press menu of Facebook's icon. Reel links and the reels in your feed still open. Facebook's own Hide in its tab bar settings keeps working, and a change to the switch shows once Facebook restarts.",
+    "id": "b543f3de2aea2cdbf98bf738:38",
+    "legacy_id": 8797,
+    "metadata_status": "unverified",
+    "name": "Hide the Reels tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Takes the new-item dot and count off the Reels tab, which some accounts call Video. Every other tab keeps its own.",
+    "id": "b543f3de2aea2cdbf98bf738:39",
+    "legacy_id": 8798,
+    "metadata_status": "unverified",
+    "name": "Hide the Reels tab dot",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Holding a reel plays it at double speed until you let go. The hold takes the place of Facebook's long-press menu, which the reel's more button still opens.",
+    "id": "b543f3de2aea2cdbf98bf738:40",
+    "legacy_id": 8799,
+    "metadata_status": "unverified",
+    "name": "Hold a reel for 2x",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Privacy",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Stops Facebook uploading its app analytics in the background and skips its on-device learning jobs. Its switch starts on, under Privacy. Restart Facebook after changing it.",
+    "id": "b543f3de2aea2cdbf98bf738:41",
+    "legacy_id": 8800,
+    "metadata_status": "unverified",
+    "name": "Hold back analytics uploads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Adds a Hushfacebook settings row to Facebook's Menu, at the end of Settings and privacy, with a Saved row above it while the Saved shortcut switch is on. The logo long press and the launcher shortcut still open the settings too.",
+    "id": "b543f3de2aea2cdbf98bf738:42",
+    "legacy_id": 8801,
+    "metadata_status": "unverified",
+    "name": "Hushfacebook in the Menu",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Settings",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds Hushfacebook settings to Facebook. Long-press the Facebook logo at the top of your feed, or Facebook's launcher icon, to turn features on or off, pause Hushfacebook, save your switches to a file or load them, and export diagnostics. The licenses are there too.",
+    "id": "b543f3de2aea2cdbf98bf738:43",
+    "legacy_id": 8802,
+    "metadata_status": "unverified",
+    "name": "Hushfacebook settings",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Fixes",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings",
+      "ResourcePatch"
+    ],
+    "description": "Lets the official Messenger, Facebook Lite, Business Suite and Workplace install beside the patched Facebook. Facebook shares two permissions with them, and Android lets only one signing key own a permission, so this patch renames Facebook's. A Root Mount install doesn't need it.",
+    "id": "b543f3de2aea2cdbf98bf738:44",
+    "legacy_id": 8803,
+    "metadata_status": "unverified",
+    "name": "Install beside Meta's apps",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Keeps the date under the poster's name. Facebook's newer post header can swap that line for rotating details a moment after a post shows, and on some phones the line goes blank. With this on, the line stays put.",
+    "id": "b543f3de2aea2cdbf98bf738:45",
+    "legacy_id": 8804,
+    "metadata_status": "unverified",
+    "name": "Keep post dates",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "A playback speed you pick in a reel's menu stays for the next reels until you pick another or Facebook restarts.",
+    "id": "b543f3de2aea2cdbf98bf738:46",
+    "legacy_id": 8805,
+    "metadata_status": "unverified",
+    "name": "Keep the reel speed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Block promotional notifications",
+      "BytecodePatch",
+      "Hushfacebook in the Menu",
+      "Hushfacebook settings",
+      "Open on a chosen tab"
+    ],
+    "description": "Leaves only Marketplace, Notifications and your profile or Menu in the tab bar, and opens Facebook on Marketplace. Home with the news feed, Video, Friends, Feeds, Groups, Gaming and Events go. Notifications and links still open where they lead. Its switch starts off, so turn it on under Opening Facebook in Hushfacebook's settings.",
+    "id": "b543f3de2aea2cdbf98bf738:47",
+    "legacy_id": 8806,
+    "metadata_status": "unverified",
+    "name": "Marketplace only",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings",
+      "ResourcePatch"
+    ],
+    "description": "Gives Facebook's dark mode the colours of your wallpaper on Android 12 and newer, and a fixed blue palette on Android 11. Light mode stays as it is. Turn on dark mode in Facebook first.",
+    "id": "b543f3de2aea2cdbf98bf738:48",
+    "legacy_id": 8807,
+    "metadata_status": "unverified",
+    "name": "Material You theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Opens web links in your default browser instead of Facebook's in-app browser, without Facebook's click tracker or the fbclid tag it adds. Facebook pages still open in the app.",
+    "id": "b543f3de2aea2cdbf98bf738:49",
+    "legacy_id": 8808,
+    "metadata_status": "unverified",
+    "name": "Open links in external browser",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Lets the Messenger icon at the top of Facebook open the Messenger app instead of Facebook's own Chats. Without Messenger installed, Chats opens as before, and a long press on the icon still does what Facebook does with it. Its switch starts off, so turn it on under Chats in Hushfacebook's settings.",
+    "id": "b543f3de2aea2cdbf98bf738:50",
+    "legacy_id": 8809,
+    "metadata_status": "unverified",
+    "name": "Open Messenger from the top bar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Opens Facebook on the tab you pick in Hushfacebook's settings when you start it from its icon. It's Marketplace unless you change it. Notifications and links still open where they lead. Its switch starts off, so turn it on under Opening Facebook.",
+    "id": "b543f3de2aea2cdbf98bf738:51",
+    "legacy_id": 8810,
+    "metadata_status": "unverified",
+    "name": "Open on a chosen tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "A reel playing in the Reels tab keeps going in a small window when you leave Facebook, through the picture-in-picture Facebook already has for Reels. Needs Android 12 or later.",
+    "id": "b543f3de2aea2cdbf98bf738:52",
+    "legacy_id": 8811,
+    "metadata_status": "unverified",
+    "name": "Picture-in-picture",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Fixes",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Makes profiles and some Settings pages open again on a re-signed build, and lets a Messenger, Messenger Lite or Facebook Lite you patch with this build's own key sign in through it, the same as the real Meta app would. A Root Mount install doesn't need this patch.",
+    "id": "b543f3de2aea2cdbf98bf738:53",
+    "legacy_id": 8812,
+    "metadata_status": "unverified",
+    "name": "Restore screens on re-signed builds",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "A video longer than two minutes that you left partway picks up where you left it the next time it plays, in the feed or full screen. Short reels, live videos and ads start as usual. Its switch starts off.",
+    "id": "b543f3de2aea2cdbf98bf738:54",
+    "legacy_id": 8813,
+    "metadata_status": "unverified",
+    "name": "Resume long videos",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Privacy",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Takes Facebook's tracking tags, such as mibextid, off the links you share or copy. The post or reel a link opens stays the same. A facebook.com/share/ link is made for one share, so Facebook can still trace it back to you.",
+    "id": "b543f3de2aea2cdbf98bf738:55",
+    "legacy_id": 8814,
+    "metadata_status": "unverified",
+    "name": "Sanitize sharing links",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Every seller's page in Marketplace gets View profile, which opens the seller's regular Facebook profile so you can check who you're buying from. Facebook shows that button to only some accounts. Its switch starts on, under Marketplace.",
+    "id": "b543f3de2aea2cdbf98bf738:56",
+    "legacy_id": 8815,
+    "metadata_status": "unverified",
+    "name": "Show View profile on Marketplace sellers",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Fixes",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Keeps Facebook from crashing or freezing as it starts on an x86 device that runs its arm code through a translator, such as an emulator or an x86 Chromebook, by skipping the one start-up step that breaks there. Phones and tablets with arm chips start as before.",
+    "id": "b543f3de2aea2cdbf98bf738:57",
+    "legacy_id": 8816,
+    "metadata_status": "unverified",
+    "name": "Start on x86 devices",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Keeps each Story on screen until you tap or swipe. Turn the switch off for Facebook's timing.",
+    "id": "b543f3de2aea2cdbf98bf738:58",
+    "legacy_id": 8817,
+    "metadata_status": "unverified",
+    "name": "Stop Story auto-advance",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Fixes",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Stops Facebook's own update prompts on a patched build, which can't install Meta's updates anyway. Meta App Manager's update promotions and the push message that has it look for an update go, and so do chat promotions aimed at older versions.",
+    "id": "b543f3de2aea2cdbf98bf738:59",
+    "legacy_id": 8818,
+    "metadata_status": "unverified",
+    "name": "Stop update prompts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Moves Facebook's tab bar to the bottom of the screen on accounts that have it at the top. Its switch starts off, so turn it on under Appearance and restart Facebook.",
+    "id": "b543f3de2aea2cdbf98bf738:60",
+    "legacy_id": 8819,
+    "metadata_status": "unverified",
+    "name": "Tab bar at the bottom",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": true
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Stops Facebook offering people to tag while you type ordinary words in posts and comments. Typing @ still brings up the list. Photo tags and your text aren't touched.",
+    "id": "b543f3de2aea2cdbf98bf738:61",
+    "legacy_id": 8820,
+    "metadata_status": "unverified",
+    "name": "Tag suggestions only after @",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Videos, reels, stories and music wait for your tap instead of starting by themselves. A tap plays as usual. While its switch is on, Facebook's own Autoplay setting reads Off.",
+    "id": "b543f3de2aea2cdbf98bf738:62",
+    "legacy_id": 8821,
+    "metadata_status": "unverified",
+    "name": "Tap to play",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Stops a double tap on a reel or a video from liking it, and the heart doesn't show. A single tap still plays or pauses, and the Like button still likes.",
+    "id": "b543f3de2aea2cdbf98bf738:63",
+    "legacy_id": 8822,
+    "metadata_status": "unverified",
+    "name": "Turn off double tap to like",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Stops the short vibrations Facebook plays on its own taps and gestures. The keyboard and your phone's own haptics stay. Its switch starts on, under Appearance.",
+    "id": "b543f3de2aea2cdbf98bf738:64",
+    "legacy_id": 8823,
+    "metadata_status": "unverified",
+    "name": "Turn off haptics",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Keeps HDR videos and photos from turning your screen up to full brightness. They play at the same resolution, in the screen's usual range. Its switch starts on, under Playback.",
+    "id": "b543f3de2aea2cdbf98bf738:65",
+    "legacy_id": 8824,
+    "metadata_status": "unverified",
+    "name": "Turn off HDR brightness",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hushfacebook settings"
+    ],
+    "description": "Shows Facebook's tabs, its Menu and the screens that open over it at once, without the slide between them. Swiping and animations inside a page stay. Its switch starts on, under Appearance.",
+    "id": "b543f3de2aea2cdbf98bf738:66",
+    "legacy_id": 8825,
+    "metadata_status": "unverified",
+    "name": "Turn off screen transitions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Draws emoji with your phone's own emoji font instead of Meta's, so the ones in posts, comments and chats look like the ones on your keyboard, big chat emoji included. Reactions and stickers stay as they are. Restart Facebook after changing the switch.",
+    "id": "b543f3de2aea2cdbf98bf738:67",
+    "legacy_id": 8826,
+    "metadata_status": "unverified",
+    "name": "Use the phone's emoji",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Interface",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Draws Facebook's own text in your phone's font instead of Meta's Optimistic typeface, or in a TrueType or OpenType file you pick in Hushfacebook's settings. Icons and emoji keep their fonts, and so does the text you put on a story. Restart Facebook after changing the font.",
+    "id": "b543f3de2aea2cdbf98bf738:68",
+    "legacy_id": 8827,
+    "metadata_status": "unverified",
+    "name": "Use the system font",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b543f3de2aea2cdbf98bf738",
+    "category": "Privacy",
+    "compatibility": [
+      {
+        "appIconColor": 550655,
+        "description": null,
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "signatures": [
+          "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+          "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "581.0.0.45.58",
+            "versionCodes": {
+              "ARM64_V8A": 475215365,
+              "ARMEABI_V7A": 475215364
+            }
+          },
+          {
+            "experimental": false,
+            "version": "580.0.0.51.74",
+            "versionCodes": {
+              "ARM64_V8A": 475019344
+            }
+          },
+          {
+            "experimental": false,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "581.0.0.45.58",
+        "580.0.0.51.74",
+        "577.0.0.50.72"
+      ]
+    },
+    "dependencies": [
+      "Hushfacebook settings"
+    ],
+    "description": "Keeps you off the viewer list of the stories you watch, because Facebook isn't told which ones you've seen. Replying or reacting still shows you, and stories you've watched keep the ring that marks them as new.",
+    "id": "b543f3de2aea2cdbf98bf738:69",
+    "legacy_id": 8828,
+    "metadata_status": "unverified",
+    "name": "View stories anonymously",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "581.0.0.45.58",
+          "580.0.0.51.74",
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.7.2",
+    "source_id": "c45f6b97d72b8e46",
+    "use": false
+  },
+  {
+    "bundle_id": "b5dfeee7b5b5b5194e43e96b",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF0000",
+        "name": "YouTube VR",
+        "packageName": "com.google.android.apps.youtube.vr.oculus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.61.48"
+          }
+        ],
+        "versions": [
+          "1.61.48"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables DRC (Dynamic Range Compression) audio.",
+    "id": "b5dfeee7b5b5b5194e43e96b:0",
+    "legacy_id": 8829,
+    "metadata_status": "unverified",
+    "name": "Disable DRC audio",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube VR",
+        "versions": [
+          "1.61.48"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "bceec0b3210cdffe"
+  },
+  {
+    "bundle_id": "b5dfeee7b5b5b5194e43e96b",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF0000",
+        "name": "YouTube VR",
+        "packageName": "com.google.android.apps.youtube.vr.oculus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.61.48"
+          }
+        ],
+        "versions": [
+          "1.61.48"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.",
+    "id": "b5dfeee7b5b5b5194e43e96b:1",
+    "legacy_id": 8830,
+    "metadata_status": "unverified",
+    "name": "Disable QUIC protocol",
+    "options": [
+      {
+        "default": false,
+        "description": null,
+        "key": "disableQuic",
+        "required": false,
+        "title": "Disable QUIC protocol",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "YouTube VR",
+        "versions": [
+          "1.61.48"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "bceec0b3210cdffe"
+  },
+  {
+    "bundle_id": "b5dfeee7b5b5b5194e43e96b",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF0000",
+        "name": "YouTube VR",
+        "packageName": "com.google.android.apps.youtube.vr.oculus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.61.48"
+          }
+        ],
+        "versions": [
+          "1.61.48"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
+    "id": "b5dfeee7b5b5b5194e43e96b:2",
+    "legacy_id": 8831,
+    "metadata_status": "unverified",
+    "name": "GmsCore support",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube VR",
+        "versions": [
+          "1.61.48"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "bceec0b3210cdffe"
+  },
+  {
+    "bundle_id": "b5dfeee7b5b5b5194e43e96b",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF0000",
+        "name": "YouTube VR",
+        "packageName": "com.google.android.apps.youtube.vr.oculus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.61.48"
+          }
+        ],
+        "versions": [
+          "1.61.48"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides video ads.",
+    "id": "b5dfeee7b5b5b5194e43e96b:3",
+    "legacy_id": 8832,
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube VR",
+        "versions": [
+          "1.61.48"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "bceec0b3210cdffe"
+  },
+  {
+    "bundle_id": "b5dfeee7b5b5b5194e43e96b",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF0000",
+        "name": "YouTube VR",
+        "packageName": "com.google.android.apps.youtube.vr.oculus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.61.48"
+          }
+        ],
+        "versions": [
+          "1.61.48"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Opens links in an external app instead of the in-app browser.",
+    "id": "b5dfeee7b5b5b5194e43e96b:4",
+    "legacy_id": 8833,
+    "metadata_status": "unverified",
+    "name": "Open links externally",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube VR",
+        "versions": [
+          "1.61.48"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "bceec0b3210cdffe"
+  },
+  {
+    "bundle_id": "b5dfeee7b5b5b5194e43e96b",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF0000",
+        "name": "YouTube VR",
+        "packageName": "com.google.android.apps.youtube.vr.oculus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.61.48"
+          }
+        ],
+        "versions": [
+          "1.61.48"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.",
+    "id": "b5dfeee7b5b5b5194e43e96b:5",
+    "legacy_id": 8834,
+    "metadata_status": "unverified",
+    "name": "Remove viewer discretion dialog",
+    "options": [],
+    "packages": [
+      {
+        "name": "YouTube VR",
+        "versions": [
+          "1.61.48"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "bceec0b3210cdffe"
+  },
+  {
+    "bundle_id": "b5dfeee7b5b5b5194e43e96b",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF0000",
+        "name": "YouTube VR",
+        "packageName": "com.google.android.apps.youtube.vr.oculus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.61.48"
+          }
+        ],
+        "versions": [
+          "1.61.48"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Adds an option to trick the app into thinking you are running a different version.",
+    "id": "b5dfeee7b5b5b5194e43e96b:6",
+    "legacy_id": 8835,
+    "metadata_status": "unverified",
+    "name": "Spoof app version",
+    "options": [
+      {
+        "default": "1.61.48",
+        "description": null,
+        "key": "spoofedVersionName",
+        "required": false,
+        "title": "Spoofed version name",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "YouTube VR",
+        "versions": [
+          "1.61.48"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "bceec0b3210cdffe"
+  },
+  {
+    "bundle_id": "b5eea2d33d5b477d5eb70804",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.9.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Completes the Mini rewarded-ad countdown, then automatically follows TikTok's own X-button close path.",
+    "id": "b5eea2d33d5b477d5eb70804:0",
+    "legacy_id": 8836,
+    "metadata_status": "unverified",
+    "name": "Bypass Mini Drama rewarded ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.9.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.2.23",
+    "source_id": "9e431de40b8167e4",
+    "use": true
+  },
+  {
+    "bundle_id": "b5eea2d33d5b477d5eb70804",
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.9.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stability mode: does not alter Mini interstitial/scroll ads while the separate rewarded-ad bypass remains active.",
+    "id": "b5eea2d33d5b477d5eb70804:1",
+    "legacy_id": 8837,
+    "metadata_status": "unverified",
+    "name": "Mini Drama interstitial stability",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.9.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.2.23",
+    "source_id": "9e431de40b8167e4",
+    "use": true
+  },
+  {
+    "bundle_id": "b63bfddc0ad44c9a2a269008",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF6B35",
+        "name": "eTesty Autoškola",
+        "packageName": "cz.etesty.autoskola",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2025.01"
+          }
+        ],
+        "versions": [
+          "2025.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Bypasses the premium/licence gate so premium content and unlimited tests become available.",
+    "id": "b63bfddc0ad44c9a2a269008:0",
+    "legacy_id": 8838,
+    "metadata_status": "unverified",
+    "name": "Enable premium features",
+    "options": [],
+    "packages": [
+      {
+        "name": "eTesty Autoškola",
+        "versions": [
+          "2025.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "6de0d81c27920a6b"
+  },
+  {
+    "bundle_id": "b6cf064dbd0275fd3be673e3",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "name": "StandBy Mode",
+        "packageName": "br.com.zetabit.ios_standby",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Changes the launcher name to R3D StandBy.",
+    "id": "b6cf064dbd0275fd3be673e3:0",
+    "legacy_id": 8839,
+    "metadata_status": "unverified",
+    "name": "Rename StandBy",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.0.2-dev.1",
+    "source_id": "94d20a3bc3084bff"
+  },
+  {
+    "bundle_id": "b6cf064dbd0275fd3be673e3",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "name": "StandBy Mode",
+        "packageName": "br.com.zetabit.ios_standby",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.1.28.567"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "2.1.28.567"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Unlocks Premium Features.",
+    "id": "b6cf064dbd0275fd3be673e3:1",
+    "legacy_id": 8840,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "StandBy Mode",
+        "versions": [
+          "2.1.28.567"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.2-dev.1",
+    "source_id": "94d20a3bc3084bff"
+  },
+  {
+    "bundle_id": "b79f56236cf5447a476cff79",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1565C0",
+        "name": "Devices Tycoon",
+        "packageName": "com.roasterygames.devicestycoon",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.0.1"
+          }
+        ],
+        "versions": [
+          "4.0.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Instantly completes all IAP purchases (remove ads, research coins, budget) on tap and disables all ads in Devices Tycoon.",
+    "id": "b79f56236cf5447a476cff79:0",
+    "legacy_id": 8841,
+    "metadata_status": "unverified",
+    "name": "Devices Tycoon Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Devices Tycoon",
+        "versions": [
+          "4.0.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "aed1dd78c9832846"
+  },
+  {
+    "bundle_id": "b7c4de06e0dca5c8658c0193",
+    "compatiblePackages": {
+      "jp.co.yahoo.android.ymail": null
+    },
+    "dependencies": [
+      "Patch"
+    ],
+    "description": "広告SDK通信、広告枠、販促画面、販促通知を除去します。",
+    "id": "b7c4de06e0dca5c8658c0193:0",
+    "legacy_id": 8842,
+    "metadata_status": "unverified",
+    "name": "Yahoo!メール 広告除去",
+    "options": [],
+    "packages": [
+      {
+        "name": "jp.co.yahoo.android.ymail",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v0.1.4",
+    "source_id": "efbc8db8b222fc67",
+    "use": true
+  },
+  {
+    "bundle_id": "b8796908d5a34f0b37a3bcd9",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to replace video thumbnails using the DeArrow API or image captures from the video.",
+    "id": "b8796908d5a34f0b37a3bcd9:0",
+    "legacy_id": 8843,
+    "metadata_status": "unverified",
+    "name": "Alternative thumbnails",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.16.4-dev.1",
+    "source_id": "32fc25e18a7fd0ba",
+    "use": true
+  },
+  {
+    "bundle_id": "b8796908d5a34f0b37a3bcd9",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to disable Ambient mode and to bypass Ambient mode restrictions.",
+    "id": "b8796908d5a34f0b37a3bcd9:1",
+    "legacy_id": 8844,
+    "metadata_status": "unverified",
+    "name": "Ambient mode control",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.16.4-dev.1",
+    "source_id": "32fc25e18a7fd0ba",
+    "use": true
+  },
+  {
+    "bundle_id": "b8796908d5a34f0b37a3bcd9",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "6.20.51",
+        "6.29.59",
+        "6.42.55",
+        "6.51.53",
+        "7.16.53",
+        "7.25.53",
+        "8.12.54",
+        "8.28.54",
+        "8.30.54"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Sets the audio quality to 'Always High' when you first install the app.",
+    "id": "b8796908d5a34f0b37a3bcd9:2",
+    "legacy_id": 8845,
+    "metadata_status": "unverified",
+    "name": "Bitrate default value",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "6.20.51",
+          "6.29.59",
+          "6.42.55",
+          "6.51.53",
+          "7.16.53",
+          "7.25.53",
+          "8.12.54",
+          "8.28.54",
+          "8.30.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.16.4-dev.1",
+    "source_id": "32fc25e18a7fd0ba",
+    "use": true
+  },
+  {
+    "bundle_id": "b8796908d5a34f0b37a3bcd9",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "6.20.51",
+        "6.29.59",
+        "6.42.55",
+        "6.51.53",
+        "7.16.53",
+        "7.25.53",
+        "8.12.54",
+        "8.28.54",
+        "8.30.54"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to use a different host for static images, so that images blocked in some countries can be received.",
+    "id": "b8796908d5a34f0b37a3bcd9:3",
+    "legacy_id": 8846,
+    "metadata_status": "unverified",
+    "name": "Bypass image region restrictions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "6.20.51",
+          "6.29.59",
+          "6.42.55",
+          "6.51.53",
+          "7.16.53",
+          "7.25.53",
+          "8.12.54",
+          "8.28.54",
+          "8.30.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.16.4-dev.1",
+    "source_id": "32fc25e18a7fd0ba",
+    "use": true
+  },
+  {
+    "bundle_id": "b8796908d5a34f0b37a3bcd9",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to use a different host for static images, so that images blocked in some countries can be received.",
+    "id": "b8796908d5a34f0b37a3bcd9:4",
+    "legacy_id": 8847,
+    "metadata_status": "unverified",
+    "name": "Bypass image region restrictions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.16.4-dev.1",
+    "source_id": "32fc25e18a7fd0ba",
+    "use": true
+  },
+  {
+    "bundle_id": "b8796908d5a34f0b37a3bcd9",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to bypass URL redirects and open the original URL directly.",
+    "id": "b8796908d5a34f0b37a3bcd9:5",
+    "legacy_id": 8848,
+    "metadata_status": "unverified",
+    "name": "Bypass URL redirects",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.16.4-dev.1",
+    "source_id": "32fc25e18a7fd0ba",
+    "use": true
+  },
+  {
+    "bundle_id": "b8796908d5a34f0b37a3bcd9",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "6.20.51",
+        "6.29.59",
+        "6.42.55",
+        "6.51.53",
+        "7.16.53",
+        "7.25.53",
+        "8.12.54",
+        "8.28.54",
+        "8.30.54"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables YouTube Music to work with Android Auto by spoofing the YouTube Music certificate.",
+    "id": "b8796908d5a34f0b37a3bcd9:6",
+    "legacy_id": 8849,
+    "metadata_status": "unverified",
+    "name": "Certificate spoof",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "6.20.51",
+          "6.29.59",
+          "6.42.55",
+          "6.51.53",
+          "7.16.53",
+          "7.25.53",
+          "8.12.54",
+          "8.28.54",
+          "8.30.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.16.4-dev.1",
+    "source_id": "32fc25e18a7fd0ba",
+    "use": true
+  },
+  {
+    "bundle_id": "b8796908d5a34f0b37a3bcd9",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to change the UI appearance to a phone, tablet, or automotive device.",
+    "id": "b8796908d5a34f0b37a3bcd9:7",
+    "legacy_id": 8850,
+    "metadata_status": "unverified",
+    "name": "Change form factor",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.16.4-dev.1",
+    "source_id": "32fc25e18a7fd0ba",
+    "use": true
+  },
+  {
+    "bundle_id": "b8796908d5a34f0b37a3bcd9",
+    "compatiblePackages": null,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Spoof the installer package name to make it appear that the app was installed from the Google Play Store.",
+    "id": "b8796908d5a34f0b37a3bcd9:8",
+    "legacy_id": 8851,
+    "metadata_status": "unverified",
+    "name": "Change installer package name",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v5.16.4-dev.1",
+    "source_id": "32fc25e18a7fd0ba",
+    "use": false
+  },
+  {
+    "bundle_id": "b8796908d5a34f0b37a3bcd9",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to open the channel instead of the live stream when clicking on the live ring.",
+    "id": "b8796908d5a34f0b37a3bcd9:9",
+    "legacy_id": 8852,
+    "metadata_status": "unverified",
+    "name": "Change live ring click action",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.16.4-dev.1",
+    "source_id": "32fc25e18a7fd0ba",
+    "use": true
+  },
+  {
+    "bundle_id": "b8796908d5a34f0b37a3bcd9",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to use text toggles instead of switch toggles within the additional settings menu.",
+    "id": "b8796908d5a34f0b37a3bcd9:10",
+    "legacy_id": 8853,
+    "metadata_status": "unverified",
+    "name": "Change player flyout menu toggles",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.16.4-dev.1",
+    "source_id": "32fc25e18a7fd0ba",
+    "use": true
+  },
+  {
+    "bundle_id": "b8796908d5a34f0b37a3bcd9",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "6.20.51",
+        "6.29.59",
+        "6.42.55",
+        "6.51.53",
+        "7.16.53",
+        "7.25.53",
+        "8.12.54",
+        "8.28.54",
+        "8.30.54"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to change the in-app share sheet to the system share sheet.",
+    "id": "b8796908d5a34f0b37a3bcd9:11",
+    "legacy_id": 8854,
+    "metadata_status": "unverified",
+    "name": "Change share sheet",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "6.20.51",
+          "6.29.59",
+          "6.42.55",
+          "6.51.53",
+          "7.16.53",
+          "7.25.53",
+          "8.12.54",
+          "8.28.54",
+          "8.30.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.16.4-dev.1",
+    "source_id": "32fc25e18a7fd0ba",
+    "use": true
+  },
+  {
+    "bundle_id": "b8796908d5a34f0b37a3bcd9",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to change the in-app share sheet to the system share sheet.",
+    "id": "b8796908d5a34f0b37a3bcd9:12",
+    "legacy_id": 8855,
+    "metadata_status": "unverified",
+    "name": "Change share sheet",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.16.4-dev.1",
+    "source_id": "32fc25e18a7fd0ba",
+    "use": true
+  },
+  {
+    "bundle_id": "b8796908d5a34f0b37a3bcd9",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "6.20.51",
+        "6.29.59",
+        "6.42.55",
+        "6.51.53",
+        "7.16.53",
+        "7.25.53",
+        "8.12.54",
+        "8.28.54",
+        "8.30.54"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to set which page the app opens in instead of the homepage.",
+    "id": "b8796908d5a34f0b37a3bcd9:13",
+    "legacy_id": 8856,
+    "metadata_status": "unverified",
+    "name": "Change start page",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "6.20.51",
+          "6.29.59",
+          "6.42.55",
+          "6.51.53",
+          "7.16.53",
+          "7.25.53",
+          "8.12.54",
+          "8.28.54",
+          "8.30.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.16.4-dev.1",
+    "source_id": "32fc25e18a7fd0ba",
+    "use": true
+  },
+  {
+    "bundle_id": "b8796908d5a34f0b37a3bcd9",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to set which page the app opens in instead of the homepage.",
+    "id": "b8796908d5a34f0b37a3bcd9:14",
+    "legacy_id": 8857,
+    "metadata_status": "unverified",
+    "name": "Change start page",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.16.4-dev.1",
+    "source_id": "32fc25e18a7fd0ba",
+    "use": true
+  },
+  {
+    "bundle_id": "b8796908d5a34f0b37a3bcd9",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Changes the version code of the app to the value specified in patch options. Except when mounting, this can prevent app stores from updating the app and allow the app to be installed over an existing installation that has a higher version code. By default, the highest version code is set.",
+    "id": "b8796908d5a34f0b37a3bcd9:15",
+    "legacy_id": 8858,
+    "metadata_status": "unverified",
+    "name": "Change version code",
+    "options": [
+      {
+        "default": "2147483647",
+        "description": "The version code to use. (1 ~ 2147483647)",
+        "key": "versionCode",
+        "required": true,
+        "title": "Version code",
+        "type": "kotlin.String",
+        "values": {
+          "Highest": "2147483647",
+          "Lowest": "1"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v5.16.4-dev.1",
+    "source_id": "32fc25e18a7fd0ba",
+    "use": false
+  },
+  {
+    "bundle_id": "b8796908d5a34f0b37a3bcd9",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Changes the YouTube app icon to the icon specified in patch options.",
+    "id": "b8796908d5a34f0b37a3bcd9:16",
+    "legacy_id": 8859,
+    "metadata_status": "unverified",
+    "name": "Custom branding icon for YouTube",
+    "options": [
+      {
+        "default": "revancify_blue",
+        "description": "The icon to apply to the app.\n\nIf a path to a folder is provided, the folder must contain the following folders:\n\n- mipmap-xxxhdpi\n- mipmap-xxhdpi\n- mipmap-xhdpi\n- mipmap-hdpi\n- mipmap-mdpi\n\nEach of these folders must contain the following files:\n\n- adaptiveproduct_youtube_background_color_108.png\n- adaptiveproduct_youtube_foreground_color_108.png\n- ic_launcher.png\n- ic_launcher_round.png",
+        "key": "appIcon",
+        "required": true,
+        "title": "App icon",
+        "type": "kotlin.String",
+        "values": {
+          "AFN Blue": "afn_blue",
+          "AFN Red": "afn_red",
+          "MMT": "mmt",
+          "Revancify Blue": "revancify_blue",
+          "Revancify Red": "revancify_red",
+          "YouTube": "youtube"
+        }
+      },
+      {
+        "default": true,
+        "description": "Apply the custom branding icon to the splash screen. Supports from YouTube 18.29.38 to YouTube 19.16.39.",
+        "key": "changeSplashIcon",
+        "required": true,
+        "title": "Change splash icons",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Restore the old style splash animation.\n\nThis patch option is only supported on Android 12+, as splash animation was added to Android 12.\n\nIncluding this patch option on Android 8.0 - 11 may cause your app to crash.",
+        "key": "restoreOldSplashAnimation",
+        "required": true,
+        "title": "Restore old splash animation",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.16.4-dev.1",
+    "source_id": "32fc25e18a7fd0ba",
+    "use": true
+  },
+  {
+    "bundle_id": "b8796908d5a34f0b37a3bcd9",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "6.20.51",
+        "6.29.59",
+        "6.42.55",
+        "6.51.53",
+        "7.16.53",
+        "7.25.53",
+        "8.12.54",
+        "8.28.54",
+        "8.30.54"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Changes the YouTube Music app icon to the icon specified in patch options.",
+    "id": "b8796908d5a34f0b37a3bcd9:17",
+    "legacy_id": 8860,
+    "metadata_status": "unverified",
+    "name": "Custom branding icon for YouTube Music",
+    "options": [
+      {
+        "default": "revancify_blue",
+        "description": "The icon to apply to the app.\n\nIf a path to a folder is provided, the folder must contain the following folders:\n\n- mipmap-xxxhdpi\n- mipmap-xxhdpi\n- mipmap-xhdpi\n- mipmap-hdpi\n- mipmap-mdpi\n\nEach of these folders must contain the following files:\n\n- adaptiveproduct_youtube_music_background_color_108.png\n- adaptiveproduct_youtube_music_foreground_color_108.png\n- ic_launcher_release.png",
+        "key": "appIcon",
+        "required": true,
+        "title": "App icon",
+        "type": "kotlin.String",
+        "values": {
+          "AFN Blue": "afn_blue",
+          "AFN Red": "afn_red",
+          "MMT": "mmt",
+          "Revancify Blue": "revancify_blue",
+          "Revancify Red": "revancify_red",
+          "YouTube Music": "youtube_music"
+        }
+      },
+      {
+        "default": true,
+        "description": "Apply the custom branding icon to the splash screen.",
+        "key": "changeSplashIcon",
+        "required": true,
+        "title": "Change splash icons",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Restore the old style splash icon.\n\nIf you enable both the old style splash icon and the Cairo splash animation,\n\nOld style splash icon will appear first and then the Cairo splash animation will start.",
+        "key": "restoreOldSplashIcon",
+        "required": true,
+        "title": "Restore old splash icon",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "6.20.51",
+          "6.29.59",
+          "6.42.55",
+          "6.51.53",
+          "7.16.53",
+          "7.25.53",
+          "8.12.54",
+          "8.28.54",
+          "8.30.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.16.4-dev.1",
+    "source_id": "32fc25e18a7fd0ba",
+    "use": true
+  }
+]
