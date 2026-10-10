@@ -1,0 +1,36 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev",
+    "latest"
+  ],
+  "created_at": "2026-10-07T12:56:16",
+  "description": "# Haiagaru 1.7.2 プレリリース\n\n1.7.1からの変更をまとめた検証用プレリリースです。配布するMPPはAndroid版Morphe向けです。安定版は引き続き1.7.1です。\n\n## エッヂ過去ログ検索\n\n- 前回の検索条件、ページ、検索結果、スクロール位置、詳細条件の開閉状態を保存するようにしました。検索画面を閉じて開き直した場合も復元します。\n- 検索結果からスレ／レスを開いた後、Androidの「戻る」で検索結果へ戻るための遷移を追加しました。\n- タブレット表示でも検索画面がホームへの転送で閉じないよう、過去ログ検索から開くスレは独立したスレ画面として表示します。通常のスレ表示には影響しません。\n- 復元した結果は「前回の検索結果」と表示します。最新情報を取得したい場合は「検索」を押してください。\n\n## 板単位のまとめて選択（241／242 dev）\n\n- ホーム／履歴の複数選択モードで板名をタップすると、その見出しの下に表示されているスレをまとめて選択できます。すべて選択済みなら解除します。\n- 他の板の選択は維持します。板名をタップしただけでは削除しません。選択後に既存の削除操作を行ってください。\n- 191 dev／226 devの既存の板単位選択処理は変更していません。243 devは今回の追加対象外です。\n\n## ツールバー・メニュー\n\n- 「エッヂ過去ログ」「未読をすべて0にする」をスレ画面のツールバー設定と操作処理に追加しました。\n- 上記のツールバー用項目が、レス長押しのダイアログへ混入しないようにしました。\n\n## 互換性修正\n\n- 191 dev／226 devで、文章末尾の「2ch.net」に次の行のURLのリンクが誤って付くケースを補正します。下線の範囲とクリック先を合わせて修正しました。\n- 226 devで、書き込みボタン長押しの外部ブラウザ候補に別パッケージのChMateが混入するケースを修正しました。\n- 191 dev／226 devで、タブレット表示の通常検索結果からスレを開く際の転送処理を修正しました。過去ログ検索からの戻る動線とは別の修正です。\n\n## 対応・検証範囲\n\n- 主な対象：ChMate 0.8.10.191 dev／0.8.10.226 dev／0.8.10.241／0.8.10.242 dev。\n- BE／リンク補正の回帰テスト、241／242の板単位選択のロジックテストを実施しました。\n- 191／241／242へのAPKパッチ適用を確認し、191 devはMi Note 10へインストールして起動確認済みです。\n- 過去ログの検索保持・戻る動線、241／242の選択操作について、実機での一連の操作確認はまだ完了していません。226 devの今回の差分も実機確認が必要です。\n- 243 devには一部未実装機能があるため、今回の検証対象には含めていません。\n\n## 配布物・利用前の注意\n\n- `haiagaru_patches-1.7.2.mpp` と `patches-1.7.2.mpp` は同一のAndroid向けMPPです。\n- パッチ適用には元のChMate APKを使用してください。事前にバックアップをおすすめします。\n- 不具合報告にはChMateの版、Haiagaruの版、操作手順を添えてください。試用に問題がある場合は安定版1.7.1をご利用ください。\n",
+  "download_url": "https://github.com/areteruhiro/Haiagaru-Morphe/releases/download/1.7.2/patches-1.7.2.mpp",
+  "ecosystem": "morphe",
+  "extraction_status": "unverified",
+  "file_hash": null,
+  "id": "bb1b1f7c99008a258b3e1090",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fareteruhiro%2FHaiagaru-Morphe&version=latest&channel=prerelease",
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fareteruhiro%2FHaiagaru-Morphe&version=latest&channel=any"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 448,
+  "metadata_status": "missing",
+  "need_patches_update": true,
+  "packages": [],
+  "patch_count": 0,
+  "patch_list_available": false,
+  "patch_metadata_version": null,
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": "N/A",
+  "source_id": "f005427a1ef4594f",
+  "version": "1.7.2"
+}

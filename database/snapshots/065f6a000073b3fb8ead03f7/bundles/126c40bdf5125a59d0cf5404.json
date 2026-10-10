@@ -1,0 +1,37 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev",
+    "latest"
+  ],
+  "created_at": "2026-10-06T22:59:43",
+  "description": "## [1.47.0-dev.1](https://github.com/MorpheApp/morphe-patches/compare/v1.46.0...v1.47.0-dev.1) (2026-10-06)\n\n### 🐛 Bug Fixes\n\n* **YouTube - Picture-in-picture button:** Do not load the flyout icon when the patch is not included ([0902326](https://github.com/MorpheApp/morphe-patches/commit/09023263cd73e85a3a0ea975c5ec514e0aa116f9))\n* **YouTube Music - Third-party lyrics:** App may crash when viewing lyrics ([#3569](https://github.com/MorpheApp/morphe-patches/issues/3569)) ([fe546ad](https://github.com/MorpheApp/morphe-patches/commit/fe546ad518d30833af7b7148f8a9b974088174a7))\n* **YouTube:** Decouple flyout buttons and shared hooks from unrelated patches ([#3567](https://github.com/MorpheApp/morphe-patches/issues/3567)) ([dad074a](https://github.com/MorpheApp/morphe-patches/commit/dad074a50b01775881b1054571fdf08b11bfa012))\n\n### ✨ New Features\n\n* Automatically save crash reports to user documents folder ([#3570](https://github.com/MorpheApp/morphe-patches/issues/3570)) ([f633697](https://github.com/MorpheApp/morphe-patches/commit/f63369780d8a69cd0fb868711ca97e148a650d56))\n* **YouTube - DeArrow:** Add more fine-grained settings for showing DeArrow titles ([#3573](https://github.com/MorpheApp/morphe-patches/issues/3573)) ([4aa01d6](https://github.com/MorpheApp/morphe-patches/commit/4aa01d6068722f343857c16ae9d5b9bc08e57c27))\n* **YouTube Music:** Add `Enable audio/video switch` patch ([#3471](https://github.com/MorpheApp/morphe-patches/issues/3471)) ([87942b7](https://github.com/MorpheApp/morphe-patches/commit/87942b73da43a5fb1f8bf1bc46aea092badc12cb))\n* **YouTube Music:** Add `Playlist track tap action` patch ([#3446](https://github.com/MorpheApp/morphe-patches/issues/3446)) ([66b7e78](https://github.com/MorpheApp/morphe-patches/commit/66b7e7817fb56938a2b6e7bd5a06a4cb2e52e409))\n",
+  "download_url": "https://github.com/MorpheApp/morphe-patches/releases/download/v1.47.0-dev.1/patches-1.47.0-dev.1.mpp",
+  "ecosystem": "morphe",
+  "extraction_status": "unverified",
+  "file_hash": null,
+  "id": "126c40bdf5125a59d0cf5404",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fmorpheapp%2Fmorphe-patches&version=latest&channel=prerelease",
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fmorpheapp%2Fmorphe-patches&version=latest&channel=any"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "Reddit",
+    "YouTube",
+    "YouTube Music"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_version": "v1.47.0-dev.1",
+  "patcher_runtime": null,
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": "N/A",
+  "source_id": "a142ee96279807e2",
+  "version": "v1.47.0-dev.1"
+}

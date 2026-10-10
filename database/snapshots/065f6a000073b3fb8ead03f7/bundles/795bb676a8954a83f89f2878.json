@@ -1,0 +1,35 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-09-19T20:06:29",
+  "description": "## [1.5.0](https://github.com/Akash-Sriram/morphe-google-photos/compare/v1.4.1...v1.5.0) (2026-09-19)\n\n### 🐛 Bug Fixes\n\n* **flags:** purge obsolete 3024 and legacy memory flags, align 3999 to official dump ([e729331](https://github.com/Akash-Sriram/morphe-google-photos/commit/e72933185457d609d3ca07ab8fba03380db98d26))\n* **flags:** purge truncated 4-digit flags, use verified 8-digit keys, and ensure synchronous persistence ([f6c0d66](https://github.com/Akash-Sriram/morphe-google-photos/commit/f6c0d666be8572a2959ee3dcd1ec7440a93da6c9))\n* **flags:** sync recipe toggle state bidirectionally with Curated Flags and write zero-values on disable ([97b0788](https://github.com/Akash-Sriram/morphe-google-photos/commit/97b0788457f2a97b8aea116e861d90b659d4fbe6))\n* **photos:** align story cutouts, system fonts, OneGoogle avatar, and seed data ([4e294c2](https://github.com/Akash-Sriram/morphe-google-photos/commit/4e294c28fc8dd65e8830f60a3ffff1c49d00cf17))\n* **photos:** resolve Locked Folder cloud backup on mod package name ([02caf09](https://github.com/Akash-Sriram/morphe-google-photos/commit/02caf093742bc5b273fc0a178163e05139471c6c))\n* **ui:** dynamic flag count in reset menu, now shows correct 29 instead of stale 26 ([0821a8a](https://github.com/Akash-Sriram/morphe-google-photos/commit/0821a8a1bbd32bf982c0186af424f749ed583e9e))\n\n### ✨ New Features\n\n* **flags:** add 45709528 (Enhanced Pixel Processing) to curated flags, updating total to 25 ([0e6466f](https://github.com/Akash-Sriram/morphe-google-photos/commit/0e6466f32af3e38ca6e8f9d9fa99ae14f6f95fb4))\n* **flags:** add curated flags table and refine patch definitions ([8c0e159](https://github.com/Akash-Sriram/morphe-google-photos/commit/8c0e1599ae8dea90e5c624f2839eabdde83cf72b))\n",
+  "download_url": "https://github.com/Akash-Sriram/morphe-google-photos/releases/download/v1.5.0/patches-1.5.0.mpp",
+  "ecosystem": "morphe",
+  "extraction_status": "unverified",
+  "file_hash": null,
+  "id": "795bb676a8954a83f89f2878",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FAkash-Sriram%2FDe-Vanced&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FAkash-Sriram%2FDe-Vanced&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "Google Photos"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_version": "v1.5.0",
+  "patcher_runtime": null,
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": "N/A",
+  "source_id": "4297d75cc42104f0",
+  "version": "v1.5.0"
+}

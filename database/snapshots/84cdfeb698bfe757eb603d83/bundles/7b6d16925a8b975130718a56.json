@@ -1,0 +1,47 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-09-26T13:40:35",
+  "description": "## [1.26.0](https://github.com/kondratjev/morphe-patches/compare/v1.25.0...v1.26.0) (2026-09-26)\n\n### ✨ New Features\n\n* add patched yt music support for lyfta ([914bdb3](https://github.com/kondratjev/morphe-patches/commit/914bdb36cb0386ff0361e46fe9370dfb195825a5))\n* bump pillo, ornament, lyfta ([96b80b9](https://github.com/kondratjev/morphe-patches/commit/96b80b9a4422a39caddbb96a71297d3766abf5e9))\n",
+  "download_url": "https://github.com/kondratjev/morphe-patches/releases/download/v1.26.0/patches-1.26.0.mpp",
+  "ecosystem": "morphe",
+  "extraction_status": "unverified",
+  "file_hash": null,
+  "id": "7b6d16925a8b975130718a56",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fkondratjev%2Fmorphe-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fkondratjev%2Fmorphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 282,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "FatSecret",
+    "Lifesum",
+    "Lyfta",
+    "Medisafe",
+    "Muscle Motion Strength Training",
+    "Ornament",
+    "Parcels",
+    "Pillo",
+    "SoundCloud",
+    "Yazio"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_version": "v1.26.0",
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": "N/A",
+  "source_id": "ee003859e8d16953",
+  "version": "v1.26.0"
+}

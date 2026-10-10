@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Patch Bundle Registry API</title>
+  <link rel="icon" href="../favicon.svg">
+  <link rel="stylesheet" href="https://unpkg.com/swagger-ui-dist@5.31.2/swagger-ui.css">
+</head>
+<body>
+  <p><a href="../">Patch Bundle Registry</a> · <a href="../graphiql/">GraphiQL</a></p>
+  <div id="swagger-ui"></div>
+  <script src="https://unpkg.com/swagger-ui-dist@5.31.2/swagger-ui-bundle.js"></script>
+  <script type="module">
+    const response = await fetch("../config.json");
+    if (!response.ok) throw new Error("Site configuration unavailable");
+    const config = await response.json();
+    SwaggerUIBundle({url:config.api + "/api.json",dom_id:"#swagger-ui",
+      deepLinking:true,validatorUrl:null,persistAuthorization:false});
+  </script>
+</body>
+</html>

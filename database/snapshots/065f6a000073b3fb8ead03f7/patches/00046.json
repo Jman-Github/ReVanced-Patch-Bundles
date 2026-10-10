@@ -1,0 +1,5858 @@
+[
+  {
+    "bundle_id": "79212e6361a518dca4bbbd3c",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#1F6FEB",
+        "name": "byAir",
+        "packageName": "com.byairapp.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.36.0"
+          }
+        ],
+        "versions": [
+          "2.36.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Suppresses the main byAir paywall, unlock banners, and local user gating without forcing the shared entitlement path globally.",
+    "id": "79212e6361a518dca4bbbd3c:6",
+    "metadata_status": "unverified",
+    "name": "Enable Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "byAir",
+        "versions": [
+          "2.36.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1",
+    "source_id": "ec17b339bc107466"
+  },
+  {
+    "bundle_id": "79212e6361a518dca4bbbd3c",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#5EA15A",
+        "name": "HypnoBox",
+        "packageName": "epixler.de.hypnobox_android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.2.81"
+          },
+          {
+            "isExperimental": false,
+            "version": ">=4.2.81"
+          }
+        ],
+        "versions": [
+          "4.2.81",
+          ">=4.2.81"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Forces HypnoBox subscription entitlement checks to always pass.",
+    "id": "79212e6361a518dca4bbbd3c:7",
+    "metadata_status": "unverified",
+    "name": "Enable Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "HypnoBox",
+        "versions": [
+          "4.2.81",
+          ">=4.2.81"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.1",
+    "source_id": "ec17b339bc107466"
+  },
+  {
+    "bundle_id": "79212e6361a518dca4bbbd3c",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Hides the app icon from the Android launcher.",
+    "id": "79212e6361a518dca4bbbd3c:8",
+    "metadata_status": "unverified",
+    "name": "Hide app icon",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.4.1",
+    "source_id": "ec17b339bc107466"
+  },
+  {
+    "bundle_id": "79346592c93f8a13110a30b9",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2549A6",
+        "name": "Sleepa",
+        "packageName": "net.relaxio.sleepo",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.3.0(135)"
+          }
+        ],
+        "versions": [
+          "4.3.0(135)"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Sleepa premium: removes ads and unlocks all premium sounds and features by forcing the app's premium check to always report purchased.",
+    "id": "79346592c93f8a13110a30b9:0",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Sleepa",
+        "versions": [
+          "4.3.0(135)"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "e79251f40090031e"
+  },
+  {
+    "bundle_id": "795bb676a8954a83f89f2878",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FC3F3C",
+        "name": "Google Photos",
+        "packageName": "com.google.android.apps.photos",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.92.0.977185651"
+          },
+          {
+            "isExperimental": true,
+            "version": "7.93.0.982110057"
+          }
+        ],
+        "versions": [
+          "7.92.0.977185651",
+          "7.93.0.982110057"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Loads and displays account profile avatars across the top toolbar, Bento menu, and account switcher.",
+    "id": "795bb676a8954a83f89f2878:0",
+    "metadata_status": "unverified",
+    "name": "Account avatar",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Photos",
+        "versions": [
+          "7.92.0.977185651",
+          "7.93.0.982110057"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "4297d75cc42104f0"
+  },
+  {
+    "bundle_id": "795bb676a8954a83f89f2878",
+    "category": "Experimental",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FC3F3C",
+        "name": "Google Photos",
+        "packageName": "com.google.android.apps.photos",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.92.0.977185651"
+          },
+          {
+            "isExperimental": true,
+            "version": "7.93.0.982110057"
+          }
+        ],
+        "versions": [
+          "7.92.0.977185651",
+          "7.93.0.982110057"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Renames the package to app.morphe.android.apps.photos to allow non-root installation alongside pre-installed Google Photos. Deselect this if Google Photos is not installed as a system app on your device to keep the original package name.",
+    "id": "795bb676a8954a83f89f2878:1",
+    "metadata_status": "unverified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "Default",
+        "description": "The name of the package to rename the app to.",
+        "key": "packageName",
+        "required": true,
+        "title": "Package name",
+        "type": "java.lang.String (Kotlin reflection is not available)",
+        "values": {
+          "Default": "Default"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "Google Photos",
+        "versions": [
+          "7.92.0.977185651",
+          "7.93.0.982110057"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "4297d75cc42104f0"
+  },
+  {
+    "bundle_id": "795bb676a8954a83f89f2878",
+    "category": "Experimental",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FC3F3C",
+        "name": "Google Photos",
+        "packageName": "com.google.android.apps.photos",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.92.0.977185651"
+          },
+          {
+            "isExperimental": true,
+            "version": "7.93.0.982110057"
+          }
+        ],
+        "versions": [
+          "7.92.0.977185651",
+          "7.93.0.982110057"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "[Experimental] Disables Play Store updates by setting the version code to the maximum allowed. This patch may cause unexpected issues with some apps and does not work if the app is installed by root mounting",
+    "id": "795bb676a8954a83f89f2878:2",
+    "metadata_status": "unverified",
+    "name": "Disable Play Store updates",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Photos",
+        "versions": [
+          "7.92.0.977185651",
+          "7.93.0.982110057"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "4297d75cc42104f0"
+  },
+  {
+    "bundle_id": "795bb676a8954a83f89f2878",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FC3F3C",
+        "name": "Google Photos",
+        "packageName": "com.google.android.apps.photos",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.92.0.977185651"
+          },
+          {
+            "isExperimental": true,
+            "version": "7.93.0.982110057"
+          }
+        ],
+        "versions": [
+          "7.92.0.977185651",
+          "7.93.0.982110057"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up.",
+    "id": "795bb676a8954a83f89f2878:3",
+    "metadata_status": "unverified",
+    "name": "Enable DCIM folders backup control",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Photos",
+        "versions": [
+          "7.92.0.977185651",
+          "7.93.0.982110057"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "4297d75cc42104f0"
+  },
+  {
+    "bundle_id": "795bb676a8954a83f89f2878",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FC3F3C",
+        "name": "Google Photos",
+        "packageName": "com.google.android.apps.photos",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.92.0.977185651"
+          },
+          {
+            "isExperimental": true,
+            "version": "7.93.0.982110057"
+          }
+        ],
+        "versions": [
+          "7.92.0.977185651",
+          "7.93.0.982110057"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Enables an in-app flag manager in Photos Settings to toggle curated experimental UI redesigns, video editor tools, and feature flags.",
+    "id": "795bb676a8954a83f89f2878:4",
+    "metadata_status": "unverified",
+    "name": "Enable Phenotype flag manager",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Photos",
+        "versions": [
+          "7.92.0.977185651",
+          "7.93.0.982110057"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "4297d75cc42104f0"
+  },
+  {
+    "bundle_id": "795bb676a8954a83f89f2878",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FC3F3C",
+        "name": "Google Photos",
+        "packageName": "com.google.android.apps.photos",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.92.0.977185651"
+          },
+          {
+            "isExperimental": true,
+            "version": "7.93.0.982110057"
+          }
+        ],
+        "versions": [
+          "7.92.0.977185651",
+          "7.93.0.982110057"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Redirects Skottie animation font loading to system fonts for mod package compatibility, fixing blank text and cutout crashes in Memories.",
+    "id": "795bb676a8954a83f89f2878:5",
+    "metadata_status": "unverified",
+    "name": "Fix memory style font loading",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Photos",
+        "versions": [
+          "7.92.0.977185651",
+          "7.93.0.982110057"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "4297d75cc42104f0"
+  },
+  {
+    "bundle_id": "795bb676a8954a83f89f2878",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FC3F3C",
+        "name": "Google Photos",
+        "packageName": "com.google.android.apps.photos",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.92.0.977185651"
+          },
+          {
+            "isExperimental": true,
+            "version": "7.93.0.982110057"
+          }
+        ],
+        "versions": [
+          "7.92.0.977185651",
+          "7.93.0.982110057"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
+    "id": "795bb676a8954a83f89f2878:6",
+    "metadata_status": "unverified",
+    "name": "GmsCore support",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Photos",
+        "versions": [
+          "7.92.0.977185651",
+          "7.93.0.982110057"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "4297d75cc42104f0"
+  },
+  {
+    "bundle_id": "795bb676a8954a83f89f2878",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FC3F3C",
+        "name": "Google Photos",
+        "packageName": "com.google.android.apps.photos",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.92.0.977185651"
+          },
+          {
+            "isExperimental": true,
+            "version": "7.93.0.982110057"
+          }
+        ],
+        "versions": [
+          "7.92.0.977185651",
+          "7.93.0.982110057"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Bypasses the 0MB Mobile Data Download check for AI models and reports them as loaded.",
+    "id": "795bb676a8954a83f89f2878:7",
+    "metadata_status": "unverified",
+    "name": "Model Readiness Gates",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Photos",
+        "versions": [
+          "7.92.0.977185651",
+          "7.93.0.982110057"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "4297d75cc42104f0"
+  },
+  {
+    "bundle_id": "795bb676a8954a83f89f2878",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FC3F3C",
+        "name": "Google Photos",
+        "packageName": "com.google.android.apps.photos",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.92.0.977185651"
+          },
+          {
+            "isExperimental": true,
+            "version": "7.93.0.982110057"
+          }
+        ],
+        "versions": [
+          "7.92.0.977185651",
+          "7.93.0.982110057"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Spoofs the device to enable Google Pixel exclusive features, including unlimited storage.",
+    "id": "795bb676a8954a83f89f2878:8",
+    "metadata_status": "unverified",
+    "name": "Spoof features",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Photos",
+        "versions": [
+          "7.92.0.977185651",
+          "7.93.0.982110057"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.0",
+    "source_id": "4297d75cc42104f0"
+  },
+  {
+    "bundle_id": "7a7f9810accb65bb6b0b371d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "name": "Symfonium",
+        "packageName": "app.symfonik.music.player",
+        "signatures": [
+          "dc5cf52ed4390dbe5c35418dcb5e67d466058fba53f26c9dbe2e42f6ea029e62"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "15.0.1"
+          }
+        ],
+        "versions": [
+          "15.0.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Stops the intermittent \"this beta version has expired\" screen. The navigation resolver randomly (≈10% of screen changes, when in a particular licence state) hijacks navigation to the ExpiredBeta destination; this forces the guard that enables that redirect to fail, so navigation always goes to the requested screen. Nothing else (licence state, the random source) is modified. Validated on 15.0.1 (versionCode 127798).",
+    "id": "7a7f9810accb65bb6b0b371d:0",
+    "metadata_status": "unverified",
+    "name": "Disable Symfonium beta expiry",
+    "options": [],
+    "packages": [
+      {
+        "name": "Symfonium",
+        "versions": [
+          "15.0.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "1731b37e44bdc28e"
+  },
+  {
+    "bundle_id": "7a7f9810accb65bb6b0b371d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "name": "Symfonium",
+        "packageName": "app.symfonik.music.player",
+        "signatures": [
+          "dc5cf52ed4390dbe5c35418dcb5e67d466058fba53f26c9dbe2e42f6ea029e62"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "15.0.1"
+          }
+        ],
+        "versions": [
+          "15.0.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Neutralises the expired-trial block screen. The welcome screen gates entry with a single `state instanceof ExpiredTrial` check; this forces that check to false, so the app proceeds on every launch (online, offline, or with a server-expired trial). The server handshake, billing/licence machinery and the offline fail-open path are left untouched. Validated on 15.0.1 (versionCode 127798).",
+    "id": "7a7f9810accb65bb6b0b371d:1",
+    "metadata_status": "unverified",
+    "name": "Disable Symfonium trial expiry",
+    "options": [],
+    "packages": [
+      {
+        "name": "Symfonium",
+        "versions": [
+          "15.0.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "1731b37e44bdc28e"
+  },
+  {
+    "bundle_id": "7a7f9810accb65bb6b0b371d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "name": "TARGOBANK",
+        "packageName": "com.targo_prod.bad",
+        "signatures": [
+          "543468cf37c5536717b8950168f7990e7d5bc61ea8dc5b39d8d4ff249f892a4c"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "V12.68.1"
+          }
+        ],
+        "versions": [
+          "V12.68.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Neutralises the splash 'rooted device' block by forcing the security verdict getters (o.aNj.con/Aux/AuX) to return false, so the app proceeds to the login screen. Validated on V12.68.1 (versionCode 2019102761). Note: re-signing breaks Play Integrity app-recognition; keep the app in the Magisk denylist.",
+    "id": "7a7f9810accb65bb6b0b371d:2",
+    "metadata_status": "unverified",
+    "name": "Disable TargoBank root check",
+    "options": [],
+    "packages": [
+      {
+        "name": "TARGOBANK",
+        "versions": [
+          "V12.68.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.0",
+    "source_id": "1731b37e44bdc28e"
+  },
+  {
+    "bundle_id": "7a8dad97cfa6bf1ae120772a",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FFFFFF",
+        "name": "apk-signer",
+        "packageName": "com.haibison.apksigner",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "7.3.13",
+            "versionCodes": {
+              "ARM64_V8A": 123,
+              "ARMEABI_V7A": 123,
+              "X86": 123,
+              "X86_64": 123
+            }
+          }
+        ],
+        "versions": [
+          "7.3.13"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Pro and remove ads from APK Signer.",
+    "id": "7a8dad97cfa6bf1ae120772a:0",
+    "metadata_status": "unverified",
+    "name": "APK Signer Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "apk-signer",
+        "versions": [
+          "7.3.13"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "7a8dad97cfa6bf1ae120772a",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FFFFFF",
+        "name": "apk-signer",
+        "packageName": "com.haibison.apksigner",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "7.3.13",
+            "versionCodes": {
+              "ARM64_V8A": 123,
+              "ARMEABI_V7A": 123,
+              "X86": 123,
+              "X86_64": 123
+            }
+          }
+        ],
+        "versions": [
+          "7.3.13"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Turns off annoying forground service warning at startup",
+    "id": "7a8dad97cfa6bf1ae120772a:1",
+    "metadata_status": "unverified",
+    "name": "Disable Forground Services Warning",
+    "options": [],
+    "packages": [
+      {
+        "name": "apk-signer",
+        "versions": [
+          "7.3.13"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "7a8dad97cfa6bf1ae120772a",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0866FF",
+        "name": "Facebook Lite",
+        "packageName": "com.facebook.lite",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables the in-built browser in Facebook Lite by removing its activities from the manifest.",
+    "id": "7a8dad97cfa6bf1ae120772a:2",
+    "metadata_status": "unverified",
+    "name": "Disable In-Built Browser",
+    "options": [],
+    "packages": [
+      {
+        "name": "Facebook Lite",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.12.0",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "7a8dad97cfa6bf1ae120772a",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#4CAF50",
+        "name": "CandyLink VPN",
+        "packageName": "com.candylink.openvpn",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "4.0.2"
+          }
+        ],
+        "versions": [
+          "4.0.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disable tracking statistics for CandyLink VPN .",
+    "id": "7a8dad97cfa6bf1ae120772a:3",
+    "metadata_status": "unverified",
+    "name": "Disable Tracking",
+    "options": [],
+    "packages": [
+      {
+        "name": "CandyLink VPN",
+        "versions": [
+          "4.0.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "7a8dad97cfa6bf1ae120772a",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Replaces System.currentTimeMillis() and System.nanoTime() with a fixed timestamp.",
+    "id": "7a8dad97cfa6bf1ae120772a:4",
+    "metadata_status": "unverified",
+    "name": "Fake System Time",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "7a8dad97cfa6bf1ae120772a",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Hides the app's launcher icon.",
+    "id": "7a8dad97cfa6bf1ae120772a:5",
+    "metadata_status": "unverified",
+    "name": "Hide launcher icon",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "7a8dad97cfa6bf1ae120772a",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Removes the title/action bar from every declared style, in every res/values*/styles.xml resource file.",
+    "id": "7a8dad97cfa6bf1ae120772a:6",
+    "metadata_status": "unverified",
+    "name": "Hide title/action bar",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "7a8dad97cfa6bf1ae120772a",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#00C300",
+        "name": "FFmpeg Media Encoder",
+        "packageName": "com.silentlexx.ffmpeggui",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.1.3_1",
+            "versionCodes": {
+              "ARM64_V8A": 6131,
+              "ARMEABI_V7A": 6131,
+              "X86": 6131,
+              "X86_64": 6131
+            }
+          }
+        ],
+        "versions": [
+          "6.1.3_1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlock donator features and removes ads.",
+    "id": "7a8dad97cfa6bf1ae120772a:7",
+    "metadata_status": "unverified",
+    "name": "Remove Ads of FFmpeg",
+    "options": [],
+    "packages": [
+      {
+        "name": "FFmpeg Media Encoder",
+        "versions": [
+          "6.1.3_1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "7a8dad97cfa6bf1ae120772a",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Removes every <receiver> declaration from AndroidManifest.xml.",
+    "id": "7a8dad97cfa6bf1ae120772a:8",
+    "metadata_status": "unverified",
+    "name": "Remove all receivers",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "7a8dad97cfa6bf1ae120772a",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Replaces every read of Build.SERIAL with the constant string \"Serial\", across every class in the app.",
+    "id": "7a8dad97cfa6bf1ae120772a:9",
+    "metadata_status": "unverified",
+    "name": "Spoof Build.SERIAL",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.12.0",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "7a8dad97cfa6bf1ae120772a",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0B0217",
+        "name": "Beat.ly",
+        "packageName": "vinkle.video.editor",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.46.10897",
+            "versionCodes": {
+              "ARM64_V8A": 10897,
+              "ARMEABI_V7A": 10897,
+              "X86": 10897,
+              "X86_64": 10897
+            }
+          }
+        ],
+        "versions": [
+          "2.46.10897"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "All VIP features are unlocked.",
+    "id": "7a8dad97cfa6bf1ae120772a:10",
+    "metadata_status": "unverified",
+    "name": "Unlock Beat.ly VIP",
+    "options": [],
+    "packages": [
+      {
+        "name": "Beat.ly",
+        "versions": [
+          "2.46.10897"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "7a8dad97cfa6bf1ae120772a",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#008D85",
+        "name": "Footej Camera",
+        "packageName": "com.footej.camera",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.4.1 build 202",
+            "versionCodes": {
+              "ARM64_V8A": 20202,
+              "ARMEABI_V7A": 20202,
+              "X86": 20202,
+              "X86_64": 20202
+            }
+          }
+        ],
+        "versions": [
+          "2.4.1 build 202"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "All Premium features are unlocked.",
+    "id": "7a8dad97cfa6bf1ae120772a:11",
+    "metadata_status": "unverified",
+    "name": "Unlock Footej Camera Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Footej Camera",
+        "versions": [
+          "2.4.1 build 202"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "7a8dad97cfa6bf1ae120772a",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#000000",
+        "name": "GoCut",
+        "packageName": "com.videoedit.gocut",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.0.4",
+            "versionCodes": {
+              "ARM64_V8A": 311,
+              "ARMEABI_V7A": 311,
+              "X86": 311,
+              "X86_64": 311
+            }
+          }
+        ],
+        "versions": [
+          "3.0.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Enables premium features and functionality in the GoCut application.",
+    "id": "7a8dad97cfa6bf1ae120772a:12",
+    "metadata_status": "unverified",
+    "name": "Unlock GoCut Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "GoCut",
+        "versions": [
+          "3.0.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "7a8dad97cfa6bf1ae120772a",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#7DFD91",
+        "name": "Mvideo",
+        "packageName": "music.videomaker.slideshow",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.0.11515",
+            "versionCodes": {
+              "ARM64_V8A": 11515,
+              "ARMEABI_V7A": 11515,
+              "X86": 11515,
+              "X86_64": 11515
+            }
+          }
+        ],
+        "versions": [
+          "1.0.11515"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "All VIP features are unlocked.",
+    "id": "7a8dad97cfa6bf1ae120772a:13",
+    "metadata_status": "unverified",
+    "name": "Unlock Mvideo VIP",
+    "options": [],
+    "packages": [
+      {
+        "name": "Mvideo",
+        "versions": [
+          "1.0.11515"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "7a8dad97cfa6bf1ae120772a",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1C2029",
+        "name": "OviCut",
+        "packageName": "video.editor.videoeditor.musicvideoeditor",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.3.1",
+            "versionCodes": {
+              "ARM64_V8A": 3203017,
+              "ARMEABI_V7A": 3203017,
+              "X86": 3203017,
+              "X86_64": 3203017
+            }
+          }
+        ],
+        "versions": [
+          "2.3.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Enables premium features and functionality in the OviCut application.",
+    "id": "7a8dad97cfa6bf1ae120772a:14",
+    "metadata_status": "unverified",
+    "name": "Unlock OviCut Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "OviCut",
+        "versions": [
+          "2.3.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "7a8dad97cfa6bf1ae120772a",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#4CAF50",
+        "name": "CandyLink VPN",
+        "packageName": "com.candylink.openvpn",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "4.0.2"
+          }
+        ],
+        "versions": [
+          "4.0.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Premium features are unlocked and ads are disabled.",
+    "id": "7a8dad97cfa6bf1ae120772a:15",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "CandyLink VPN",
+        "versions": [
+          "4.0.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "7a8dad97cfa6bf1ae120772a",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#4CAF50",
+        "name": "Manglish Keyboard",
+        "packageName": "com.clusterdev.malayalamkeyboard",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "10.1.0"
+          }
+        ],
+        "versions": [
+          "10.1.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Premium features are unlocked and ads are disabled.",
+    "id": "7a8dad97cfa6bf1ae120772a:16",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Manglish Keyboard",
+        "versions": [
+          "10.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "7a8dad97cfa6bf1ae120772a",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#4CAF50",
+        "name": "Sticker Maker",
+        "packageName": "com.marsvard.stickermakerforwhatsapp",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "1.0.10-5",
+            "versionCodes": {
+              "ARM64_V8A": 1001005,
+              "ARMEABI_V7A": 1001005,
+              "X86": 1001005,
+              "X86_64": 1001005
+            }
+          }
+        ],
+        "versions": [
+          "1.0.10-5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Premium features are unlocked and ads are disabled.",
+    "id": "7a8dad97cfa6bf1ae120772a:17",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Sticker Maker",
+        "versions": [
+          "1.0.10-5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "7a8dad97cfa6bf1ae120772a",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#CE2492",
+        "name": "Video to MP3",
+        "packageName": "mp3videoconverter.videotomp3.videotomp3converter",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.2.7.1",
+            "versionCodes": {
+              "ARM64_V8A": 227100,
+              "ARMEABI_V7A": 227100,
+              "X86": 227100,
+              "X86_64": 227100
+            }
+          }
+        ],
+        "versions": [
+          "2.2.7.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Enables premium features and functionality in the Video to MP3 application.",
+    "id": "7a8dad97cfa6bf1ae120772a:18",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium of Video to MP3",
+    "options": [],
+    "packages": [
+      {
+        "name": "Video to MP3",
+        "versions": [
+          "2.2.7.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "7a8dad97cfa6bf1ae120772a",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#4CAF50",
+        "name": "Melon VPN",
+        "packageName": "com.vpnbottle.melon.free.unblock.fast.vpn",
+        "targets": [
+          {
+            "isExperimental": false
+          },
+          {
+            "isExperimental": false,
+            "version": "8.0.527",
+            "versionCodes": {
+              "ARM64_V8A": 80527,
+              "ARMEABI_V7A": 80527,
+              "X86": 80527,
+              "X86_64": 80527
+            }
+          }
+        ],
+        "versions": [
+          "8.0.527"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlimited access to everything. 80+ Servers, Removed Ad, 5x Speed, Unlimited Time",
+    "id": "7a8dad97cfa6bf1ae120772a:19",
+    "metadata_status": "unverified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "Melon VPN",
+        "versions": [
+          "8.0.527"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "7a8dad97cfa6bf1ae120772a",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#F8FBFF",
+        "name": "Reverso Context",
+        "packageName": "com.softissimo.reverso.context",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "16.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 12000096,
+              "ARMEABI_V7A": 12000096,
+              "X86": 12000096,
+              "X86_64": 12000096
+            }
+          }
+        ],
+        "versions": [
+          "16.1.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "All Premium features are unlocked.",
+    "id": "7a8dad97cfa6bf1ae120772a:20",
+    "metadata_status": "unverified",
+    "name": "Unlock Reverso Context Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Reverso Context",
+        "versions": [
+          "16.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "7a8dad97cfa6bf1ae120772a",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#293F53",
+        "name": "TrebEdit",
+        "packageName": "com.teejay.trebedit",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.5.5",
+            "versionCodes": {
+              "ARM64_V8A": 114,
+              "ARMEABI_V7A": 114,
+              "X86": 114,
+              "X86_64": 114
+            }
+          }
+        ],
+        "versions": [
+          "3.5.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks lifetime access to TrebEdit Premium.",
+    "id": "7a8dad97cfa6bf1ae120772a:21",
+    "metadata_status": "unverified",
+    "name": "Unlock TrebEdit Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "TrebEdit",
+        "versions": [
+          "3.5.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "7a8dad97cfa6bf1ae120772a",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1C1C1C",
+        "name": "Vidma",
+        "packageName": "vidma.video.editor.videomaker",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.11.5",
+            "versionCodes": {
+              "ARM64_V8A": 20110501,
+              "ARMEABI_V7A": 20110501,
+              "X86": 20110501,
+              "X86_64": 20110501
+            }
+          }
+        ],
+        "versions": [
+          "2.11.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlock Vip features and removes ads.",
+    "id": "7a8dad97cfa6bf1ae120772a:22",
+    "metadata_status": "unverified",
+    "name": "Unlock Vip Of Vidma",
+    "options": [],
+    "packages": [
+      {
+        "name": "Vidma",
+        "versions": [
+          "2.11.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.12.0",
+    "source_id": "b22756a818762efb"
+  },
+  {
+    "bundle_id": "7b1a2faddcd97575e1d41884",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#3F2A44",
+        "name": "ProxMobo",
+        "packageName": "com.halliharp.proxmobo",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.0.3"
+          }
+        ],
+        "versions": [
+          "1.0.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables Google's Play app-licensing (PairIP) check so ProxMobo does not show license errors or close when it is not installed/licensed through Google Play.",
+    "id": "7b1a2faddcd97575e1d41884:0",
+    "metadata_status": "unverified",
+    "name": "ProxMobo License Check Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "ProxMobo",
+        "versions": [
+          "1.0.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.1",
+    "source_id": "d6653b6222b81471"
+  },
+  {
+    "bundle_id": "7b1a2faddcd97575e1d41884",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#3F2A44",
+        "name": "ProxMobo",
+        "packageName": "com.halliharp.proxmobo",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.0.3"
+          }
+        ],
+        "versions": [
+          "1.0.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Unlocks Premium by reporting the lifetime product (proxmobo.premium.lifetime) as purchased. On first launch, open Settings and press “Restore Purchases” to activate Premium.",
+    "id": "7b1a2faddcd97575e1d41884:1",
+    "metadata_status": "unverified",
+    "name": "ProxMobo Premium Unlock",
+    "options": [],
+    "packages": [
+      {
+        "name": "ProxMobo",
+        "versions": [
+          "1.0.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.1",
+    "source_id": "d6653b6222b81471"
+  },
+  {
+    "bundle_id": "7b4527ac7208e3ec7f221c9e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E60023",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.30.0",
+            "versionCodes": {
+              "ARM64_V8A": 14308020,
+              "ARMEABI_V7A": 14308020,
+              "X86": 14308020,
+              "X86_64": 14308020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.29.0",
+            "versionCodes": {
+              "ARM64_V8A": 14298020,
+              "ARMEABI_V7A": 14298020,
+              "X86": 14298020,
+              "X86_64": 14298020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.28.0",
+            "versionCodes": {
+              "ARM64_V8A": 14288010,
+              "ARMEABI_V7A": 14288010,
+              "X86": 14288010,
+              "X86_64": 14288010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.27.0",
+            "versionCodes": {
+              "ARM64_V8A": 14278010,
+              "ARMEABI_V7A": 14278010,
+              "X86": 14278010,
+              "X86_64": 14278010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.26.0",
+            "versionCodes": {
+              "ARM64_V8A": 14268010,
+              "ARMEABI_V7A": 14268010,
+              "X86": 14268010,
+              "X86_64": 14268010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020,
+              "ARMEABI_V7A": 14258020,
+              "X86": 14258020,
+              "X86_64": 14258020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.24.0",
+            "versionCodes": {
+              "ARM64_V8A": 14248020,
+              "ARMEABI_V7A": 14248020,
+              "X86": 14248020,
+              "X86_64": 14248020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.23.0",
+            "versionCodes": {
+              "ARM64_V8A": 14238020,
+              "ARMEABI_V7A": 14238020,
+              "X86": 14238020,
+              "X86_64": 14238020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.22.0",
+            "versionCodes": {
+              "ARM64_V8A": 14228020,
+              "ARMEABI_V7A": 14228020,
+              "X86": 14228020,
+              "X86_64": 14228020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.21.0",
+            "versionCodes": {
+              "ARM64_V8A": 14218010,
+              "ARMEABI_V7A": 14218010,
+              "X86": 14218010,
+              "X86_64": 14218010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.20.0",
+            "versionCodes": {
+              "ARM64_V8A": 14208010,
+              "ARMEABI_V7A": 14208010,
+              "X86": 14208010,
+              "X86_64": 14208010
+            }
+          }
+        ],
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the AD_SERVICES_CONFIG property so Android Privacy Sandbox ad APIs (Topics, Attribution Reporting, Custom Audiences) are not opted into.",
+    "id": "7b4527ac7208e3ec7f221c9e:0",
+    "metadata_status": "unverified",
+    "name": "Disable Android Privacy Sandbox Ad Services",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.0",
+    "source_id": "480de387b20151c6"
+  },
+  {
+    "bundle_id": "7b4527ac7208e3ec7f221c9e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E60023",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.30.0",
+            "versionCodes": {
+              "ARM64_V8A": 14308020,
+              "ARMEABI_V7A": 14308020,
+              "X86": 14308020,
+              "X86_64": 14308020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.29.0",
+            "versionCodes": {
+              "ARM64_V8A": 14298020,
+              "ARMEABI_V7A": 14298020,
+              "X86": 14298020,
+              "X86_64": 14298020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.28.0",
+            "versionCodes": {
+              "ARM64_V8A": 14288010,
+              "ARMEABI_V7A": 14288010,
+              "X86": 14288010,
+              "X86_64": 14288010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.27.0",
+            "versionCodes": {
+              "ARM64_V8A": 14278010,
+              "ARMEABI_V7A": 14278010,
+              "X86": 14278010,
+              "X86_64": 14278010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.26.0",
+            "versionCodes": {
+              "ARM64_V8A": 14268010,
+              "ARMEABI_V7A": 14268010,
+              "X86": 14268010,
+              "X86_64": 14268010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020,
+              "ARMEABI_V7A": 14258020,
+              "X86": 14258020,
+              "X86_64": 14258020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.24.0",
+            "versionCodes": {
+              "ARM64_V8A": 14248020,
+              "ARMEABI_V7A": 14248020,
+              "X86": 14248020,
+              "X86_64": 14248020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.23.0",
+            "versionCodes": {
+              "ARM64_V8A": 14238020,
+              "ARMEABI_V7A": 14238020,
+              "X86": 14238020,
+              "X86_64": 14238020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.22.0",
+            "versionCodes": {
+              "ARM64_V8A": 14228020,
+              "ARMEABI_V7A": 14228020,
+              "X86": 14228020,
+              "X86_64": 14228020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.21.0",
+            "versionCodes": {
+              "ARM64_V8A": 14218010,
+              "ARMEABI_V7A": 14218010,
+              "X86": 14218010,
+              "X86_64": 14218010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.20.0",
+            "versionCodes": {
+              "ARM64_V8A": 14208010,
+              "ARMEABI_V7A": 14208010,
+              "X86": 14208010,
+              "X86_64": 14208010
+            }
+          }
+        ],
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Neutralises the AppsFlyer attribution / tracking SDK. init() becomes a no-op and isStopped() always returns true, so no events, installs, uninstalls or attribution data are transmitted.",
+    "id": "7b4527ac7208e3ec7f221c9e:1",
+    "metadata_status": "unverified",
+    "name": "Disable AppsFlyer tracking",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.0",
+    "source_id": "480de387b20151c6"
+  },
+  {
+    "bundle_id": "7b4527ac7208e3ec7f221c9e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E60023",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.30.0",
+            "versionCodes": {
+              "ARM64_V8A": 14308020,
+              "ARMEABI_V7A": 14308020,
+              "X86": 14308020,
+              "X86_64": 14308020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.29.0",
+            "versionCodes": {
+              "ARM64_V8A": 14298020,
+              "ARMEABI_V7A": 14298020,
+              "X86": 14298020,
+              "X86_64": 14298020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.28.0",
+            "versionCodes": {
+              "ARM64_V8A": 14288010,
+              "ARMEABI_V7A": 14288010,
+              "X86": 14288010,
+              "X86_64": 14288010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.27.0",
+            "versionCodes": {
+              "ARM64_V8A": 14278010,
+              "ARMEABI_V7A": 14278010,
+              "X86": 14278010,
+              "X86_64": 14278010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.26.0",
+            "versionCodes": {
+              "ARM64_V8A": 14268010,
+              "ARMEABI_V7A": 14268010,
+              "X86": 14268010,
+              "X86_64": 14268010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020,
+              "ARMEABI_V7A": 14258020,
+              "X86": 14258020,
+              "X86_64": 14258020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.24.0",
+            "versionCodes": {
+              "ARM64_V8A": 14248020,
+              "ARMEABI_V7A": 14248020,
+              "X86": 14248020,
+              "X86_64": 14248020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.23.0",
+            "versionCodes": {
+              "ARM64_V8A": 14238020,
+              "ARMEABI_V7A": 14238020,
+              "X86": 14238020,
+              "X86_64": 14238020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.22.0",
+            "versionCodes": {
+              "ARM64_V8A": 14228020,
+              "ARMEABI_V7A": 14228020,
+              "X86": 14228020,
+              "X86_64": 14228020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.21.0",
+            "versionCodes": {
+              "ARM64_V8A": 14218010,
+              "ARMEABI_V7A": 14218010,
+              "X86": 14218010,
+              "X86_64": 14218010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.20.0",
+            "versionCodes": {
+              "ARM64_V8A": 14208010,
+              "ARMEABI_V7A": 14208010,
+              "X86": 14208010,
+              "X86_64": 14208010
+            }
+          }
+        ],
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the Bugsnag API key metadata so the crash reporting SDK cannot initialize or upload telemetry.",
+    "id": "7b4527ac7208e3ec7f221c9e:2",
+    "metadata_status": "unverified",
+    "name": "Disable Bugsnag crash tracking",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.0",
+    "source_id": "480de387b20151c6"
+  },
+  {
+    "bundle_id": "7b4527ac7208e3ec7f221c9e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E60023",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.30.0",
+            "versionCodes": {
+              "ARM64_V8A": 14308020,
+              "ARMEABI_V7A": 14308020,
+              "X86": 14308020,
+              "X86_64": 14308020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.29.0",
+            "versionCodes": {
+              "ARM64_V8A": 14298020,
+              "ARMEABI_V7A": 14298020,
+              "X86": 14298020,
+              "X86_64": 14298020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.28.0",
+            "versionCodes": {
+              "ARM64_V8A": 14288010,
+              "ARMEABI_V7A": 14288010,
+              "X86": 14288010,
+              "X86_64": 14288010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.27.0",
+            "versionCodes": {
+              "ARM64_V8A": 14278010,
+              "ARMEABI_V7A": 14278010,
+              "X86": 14278010,
+              "X86_64": 14278010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.26.0",
+            "versionCodes": {
+              "ARM64_V8A": 14268010,
+              "ARMEABI_V7A": 14268010,
+              "X86": 14268010,
+              "X86_64": 14268010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020,
+              "ARMEABI_V7A": 14258020,
+              "X86": 14258020,
+              "X86_64": 14258020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.24.0",
+            "versionCodes": {
+              "ARM64_V8A": 14248020,
+              "ARMEABI_V7A": 14248020,
+              "X86": 14248020,
+              "X86_64": 14248020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.23.0",
+            "versionCodes": {
+              "ARM64_V8A": 14238020,
+              "ARMEABI_V7A": 14238020,
+              "X86": 14238020,
+              "X86_64": 14238020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.22.0",
+            "versionCodes": {
+              "ARM64_V8A": 14228020,
+              "ARMEABI_V7A": 14228020,
+              "X86": 14228020,
+              "X86_64": 14228020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.21.0",
+            "versionCodes": {
+              "ARM64_V8A": 14218010,
+              "ARMEABI_V7A": 14218010,
+              "X86": 14218010,
+              "X86_64": 14218010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.20.0",
+            "versionCodes": {
+              "ARM64_V8A": 14208010,
+              "ARMEABI_V7A": 14208010,
+              "X86": 14208010,
+              "X86_64": 14208010
+            }
+          }
+        ],
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Adds the officially documented Firebase off-switches (`firebase_analytics_collection_deactivated`, `firebase_crashlytics_collection_enabled=false`, `firebase_performance_collection_deactivated`, `google_analytics_adid_collection_enabled=false`) so the Firebase Analytics, Crashlytics and Performance SDKs go dormant.",
+    "id": "7b4527ac7208e3ec7f221c9e:3",
+    "metadata_status": "unverified",
+    "name": "Disable Firebase services",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.0",
+    "source_id": "480de387b20151c6"
+  },
+  {
+    "bundle_id": "7b4527ac7208e3ec7f221c9e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E60023",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.30.0",
+            "versionCodes": {
+              "ARM64_V8A": 14308020,
+              "ARMEABI_V7A": 14308020,
+              "X86": 14308020,
+              "X86_64": 14308020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.29.0",
+            "versionCodes": {
+              "ARM64_V8A": 14298020,
+              "ARMEABI_V7A": 14298020,
+              "X86": 14298020,
+              "X86_64": 14298020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.28.0",
+            "versionCodes": {
+              "ARM64_V8A": 14288010,
+              "ARMEABI_V7A": 14288010,
+              "X86": 14288010,
+              "X86_64": 14288010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.27.0",
+            "versionCodes": {
+              "ARM64_V8A": 14278010,
+              "ARMEABI_V7A": 14278010,
+              "X86": 14278010,
+              "X86_64": 14278010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.26.0",
+            "versionCodes": {
+              "ARM64_V8A": 14268010,
+              "ARMEABI_V7A": 14268010,
+              "X86": 14268010,
+              "X86_64": 14268010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020,
+              "ARMEABI_V7A": 14258020,
+              "X86": 14258020,
+              "X86_64": 14258020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.24.0",
+            "versionCodes": {
+              "ARM64_V8A": 14248020,
+              "ARMEABI_V7A": 14248020,
+              "X86": 14248020,
+              "X86_64": 14248020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.23.0",
+            "versionCodes": {
+              "ARM64_V8A": 14238020,
+              "ARMEABI_V7A": 14238020,
+              "X86": 14238020,
+              "X86_64": 14238020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.22.0",
+            "versionCodes": {
+              "ARM64_V8A": 14228020,
+              "ARMEABI_V7A": 14228020,
+              "X86": 14228020,
+              "X86_64": 14228020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.21.0",
+            "versionCodes": {
+              "ARM64_V8A": 14218010,
+              "ARMEABI_V7A": 14218010,
+              "X86": 14218010,
+              "X86_64": 14218010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.20.0",
+            "versionCodes": {
+              "ARM64_V8A": 14208010,
+              "ARMEABI_V7A": 14208010,
+              "X86": 14208010,
+              "X86_64": 14208010
+            }
+          }
+        ],
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the Google Mobile Ads (AdMob) initialization metadata so the SDK never starts.",
+    "id": "7b4527ac7208e3ec7f221c9e:4",
+    "metadata_status": "unverified",
+    "name": "Disable Google Ads SDK",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.0",
+    "source_id": "480de387b20151c6"
+  },
+  {
+    "bundle_id": "7b4527ac7208e3ec7f221c9e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E60023",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.30.0",
+            "versionCodes": {
+              "ARM64_V8A": 14308020,
+              "ARMEABI_V7A": 14308020,
+              "X86": 14308020,
+              "X86_64": 14308020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.29.0",
+            "versionCodes": {
+              "ARM64_V8A": 14298020,
+              "ARMEABI_V7A": 14298020,
+              "X86": 14298020,
+              "X86_64": 14298020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.28.0",
+            "versionCodes": {
+              "ARM64_V8A": 14288010,
+              "ARMEABI_V7A": 14288010,
+              "X86": 14288010,
+              "X86_64": 14288010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.27.0",
+            "versionCodes": {
+              "ARM64_V8A": 14278010,
+              "ARMEABI_V7A": 14278010,
+              "X86": 14278010,
+              "X86_64": 14278010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.26.0",
+            "versionCodes": {
+              "ARM64_V8A": 14268010,
+              "ARMEABI_V7A": 14268010,
+              "X86": 14268010,
+              "X86_64": 14268010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020,
+              "ARMEABI_V7A": 14258020,
+              "X86": 14258020,
+              "X86_64": 14258020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.24.0",
+            "versionCodes": {
+              "ARM64_V8A": 14248020,
+              "ARMEABI_V7A": 14248020,
+              "X86": 14248020,
+              "X86_64": 14248020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.23.0",
+            "versionCodes": {
+              "ARM64_V8A": 14238020,
+              "ARMEABI_V7A": 14238020,
+              "X86": 14238020,
+              "X86_64": 14238020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.22.0",
+            "versionCodes": {
+              "ARM64_V8A": 14228020,
+              "ARMEABI_V7A": 14228020,
+              "X86": 14228020,
+              "X86_64": 14228020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.21.0",
+            "versionCodes": {
+              "ARM64_V8A": 14218010,
+              "ARMEABI_V7A": 14218010,
+              "X86": 14218010,
+              "X86_64": 14218010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.20.0",
+            "versionCodes": {
+              "ARM64_V8A": 14208010,
+              "ARMEABI_V7A": 14208010,
+              "X86": 14208010,
+              "X86_64": 14208010
+            }
+          }
+        ],
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the Google Engage broadcast receiver so Pinterest cannot publish content recommendations back to Google (Discover, Assistant, Play Store, etc.).",
+    "id": "7b4527ac7208e3ec7f221c9e:5",
+    "metadata_status": "unverified",
+    "name": "Disable Google Engage integration",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.0",
+    "source_id": "480de387b20151c6"
+  },
+  {
+    "bundle_id": "7b4527ac7208e3ec7f221c9e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E60023",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.30.0",
+            "versionCodes": {
+              "ARM64_V8A": 14308020,
+              "ARMEABI_V7A": 14308020,
+              "X86": 14308020,
+              "X86_64": 14308020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.29.0",
+            "versionCodes": {
+              "ARM64_V8A": 14298020,
+              "ARMEABI_V7A": 14298020,
+              "X86": 14298020,
+              "X86_64": 14298020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.28.0",
+            "versionCodes": {
+              "ARM64_V8A": 14288010,
+              "ARMEABI_V7A": 14288010,
+              "X86": 14288010,
+              "X86_64": 14288010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.27.0",
+            "versionCodes": {
+              "ARM64_V8A": 14278010,
+              "ARMEABI_V7A": 14278010,
+              "X86": 14278010,
+              "X86_64": 14278010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.26.0",
+            "versionCodes": {
+              "ARM64_V8A": 14268010,
+              "ARMEABI_V7A": 14268010,
+              "X86": 14268010,
+              "X86_64": 14268010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020,
+              "ARMEABI_V7A": 14258020,
+              "X86": 14258020,
+              "X86_64": 14258020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.24.0",
+            "versionCodes": {
+              "ARM64_V8A": 14248020,
+              "ARMEABI_V7A": 14248020,
+              "X86": 14248020,
+              "X86_64": 14248020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.23.0",
+            "versionCodes": {
+              "ARM64_V8A": 14238020,
+              "ARMEABI_V7A": 14238020,
+              "X86": 14238020,
+              "X86_64": 14238020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.22.0",
+            "versionCodes": {
+              "ARM64_V8A": 14228020,
+              "ARMEABI_V7A": 14228020,
+              "X86": 14228020,
+              "X86_64": 14228020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.21.0",
+            "versionCodes": {
+              "ARM64_V8A": 14218010,
+              "ARMEABI_V7A": 14218010,
+              "X86": 14218010,
+              "X86_64": 14218010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.20.0",
+            "versionCodes": {
+              "ARM64_V8A": 14208010,
+              "ARMEABI_V7A": 14208010,
+              "X86": 14208010,
+              "X86_64": 14208010
+            }
+          }
+        ],
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Rewrites GoogleEngageWorker.createWork() to return null so WorkManager fails the periodic job and no content recommendations are ever published to Google.",
+    "id": "7b4527ac7208e3ec7f221c9e:6",
+    "metadata_status": "unverified",
+    "name": "Disable Google Engage worker",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.0",
+    "source_id": "480de387b20151c6"
+  },
+  {
+    "bundle_id": "7b4527ac7208e3ec7f221c9e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E60023",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.30.0",
+            "versionCodes": {
+              "ARM64_V8A": 14308020,
+              "ARMEABI_V7A": 14308020,
+              "X86": 14308020,
+              "X86_64": 14308020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.29.0",
+            "versionCodes": {
+              "ARM64_V8A": 14298020,
+              "ARMEABI_V7A": 14298020,
+              "X86": 14298020,
+              "X86_64": 14298020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.28.0",
+            "versionCodes": {
+              "ARM64_V8A": 14288010,
+              "ARMEABI_V7A": 14288010,
+              "X86": 14288010,
+              "X86_64": 14288010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.27.0",
+            "versionCodes": {
+              "ARM64_V8A": 14278010,
+              "ARMEABI_V7A": 14278010,
+              "X86": 14278010,
+              "X86_64": 14278010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.26.0",
+            "versionCodes": {
+              "ARM64_V8A": 14268010,
+              "ARMEABI_V7A": 14268010,
+              "X86": 14268010,
+              "X86_64": 14268010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020,
+              "ARMEABI_V7A": 14258020,
+              "X86": 14258020,
+              "X86_64": 14258020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.24.0",
+            "versionCodes": {
+              "ARM64_V8A": 14248020,
+              "ARMEABI_V7A": 14248020,
+              "X86": 14248020,
+              "X86_64": 14248020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.23.0",
+            "versionCodes": {
+              "ARM64_V8A": 14238020,
+              "ARMEABI_V7A": 14238020,
+              "X86": 14238020,
+              "X86_64": 14238020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.22.0",
+            "versionCodes": {
+              "ARM64_V8A": 14228020,
+              "ARMEABI_V7A": 14228020,
+              "X86": 14228020,
+              "X86_64": 14228020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.21.0",
+            "versionCodes": {
+              "ARM64_V8A": 14218010,
+              "ARMEABI_V7A": 14218010,
+              "X86": 14218010,
+              "X86_64": 14218010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.20.0",
+            "versionCodes": {
+              "ARM64_V8A": 14208010,
+              "ARMEABI_V7A": 14208010,
+              "X86": 14208010,
+              "X86_64": 14208010
+            }
+          }
+        ],
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Collapses Pinterest's ad-specific views (TextAdView, promoted closeup action bars, board sponsor headers, …) to zero-size on construction, so ad chrome never draws even if the feed adapter tries to render one.",
+    "id": "7b4527ac7208e3ec7f221c9e:7",
+    "metadata_status": "unverified",
+    "name": "Hide ad views",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.0",
+    "source_id": "480de387b20151c6"
+  },
+  {
+    "bundle_id": "7b4527ac7208e3ec7f221c9e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E60023",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.30.0",
+            "versionCodes": {
+              "ARM64_V8A": 14308020,
+              "ARMEABI_V7A": 14308020,
+              "X86": 14308020,
+              "X86_64": 14308020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.29.0",
+            "versionCodes": {
+              "ARM64_V8A": 14298020,
+              "ARMEABI_V7A": 14298020,
+              "X86": 14298020,
+              "X86_64": 14298020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.28.0",
+            "versionCodes": {
+              "ARM64_V8A": 14288010,
+              "ARMEABI_V7A": 14288010,
+              "X86": 14288010,
+              "X86_64": 14288010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.27.0",
+            "versionCodes": {
+              "ARM64_V8A": 14278010,
+              "ARMEABI_V7A": 14278010,
+              "X86": 14278010,
+              "X86_64": 14278010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.26.0",
+            "versionCodes": {
+              "ARM64_V8A": 14268010,
+              "ARMEABI_V7A": 14268010,
+              "X86": 14268010,
+              "X86_64": 14268010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020,
+              "ARMEABI_V7A": 14258020,
+              "X86": 14258020,
+              "X86_64": 14258020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.24.0",
+            "versionCodes": {
+              "ARM64_V8A": 14248020,
+              "ARMEABI_V7A": 14248020,
+              "X86": 14248020,
+              "X86_64": 14248020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.23.0",
+            "versionCodes": {
+              "ARM64_V8A": 14238020,
+              "ARMEABI_V7A": 14238020,
+              "X86": 14238020,
+              "X86_64": 14238020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.22.0",
+            "versionCodes": {
+              "ARM64_V8A": 14228020,
+              "ARMEABI_V7A": 14228020,
+              "X86": 14228020,
+              "X86_64": 14228020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.21.0",
+            "versionCodes": {
+              "ARM64_V8A": 14218010,
+              "ARMEABI_V7A": 14218010,
+              "X86": 14218010,
+              "X86_64": 14218010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.20.0",
+            "versionCodes": {
+              "ARM64_V8A": 14208010,
+              "ARMEABI_V7A": 14208010,
+              "X86": 14208010,
+              "X86_64": 14208010
+            }
+          }
+        ],
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Neutralises every ad-indicator field on the Pinterest pin/story models (is_promoted, promoted_is_*, is_native, ad_data, ...) so Promoted Pins, shopping-carousel ads, native-content ads and click-out CTAs are never rendered or fired.",
+    "id": "7b4527ac7208e3ec7f221c9e:8",
+    "metadata_status": "unverified",
+    "name": "Hide promoted pins",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.0",
+    "source_id": "480de387b20151c6"
+  },
+  {
+    "bundle_id": "7b4527ac7208e3ec7f221c9e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E60023",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.30.0",
+            "versionCodes": {
+              "ARM64_V8A": 14308020,
+              "ARMEABI_V7A": 14308020,
+              "X86": 14308020,
+              "X86_64": 14308020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.29.0",
+            "versionCodes": {
+              "ARM64_V8A": 14298020,
+              "ARMEABI_V7A": 14298020,
+              "X86": 14298020,
+              "X86_64": 14298020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.28.0",
+            "versionCodes": {
+              "ARM64_V8A": 14288010,
+              "ARMEABI_V7A": 14288010,
+              "X86": 14288010,
+              "X86_64": 14288010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.27.0",
+            "versionCodes": {
+              "ARM64_V8A": 14278010,
+              "ARMEABI_V7A": 14278010,
+              "X86": 14278010,
+              "X86_64": 14278010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.26.0",
+            "versionCodes": {
+              "ARM64_V8A": 14268010,
+              "ARMEABI_V7A": 14268010,
+              "X86": 14268010,
+              "X86_64": 14268010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020,
+              "ARMEABI_V7A": 14258020,
+              "X86": 14258020,
+              "X86_64": 14258020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.24.0",
+            "versionCodes": {
+              "ARM64_V8A": 14248020,
+              "ARMEABI_V7A": 14248020,
+              "X86": 14248020,
+              "X86_64": 14248020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.23.0",
+            "versionCodes": {
+              "ARM64_V8A": 14238020,
+              "ARMEABI_V7A": 14238020,
+              "X86": 14238020,
+              "X86_64": 14238020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.22.0",
+            "versionCodes": {
+              "ARM64_V8A": 14228020,
+              "ARMEABI_V7A": 14228020,
+              "X86": 14228020,
+              "X86_64": 14228020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.21.0",
+            "versionCodes": {
+              "ARM64_V8A": 14218010,
+              "ARMEABI_V7A": 14218010,
+              "X86": 14218010,
+              "X86_64": 14218010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.20.0",
+            "versionCodes": {
+              "ARM64_V8A": 14208010,
+              "ARMEABI_V7A": 14208010,
+              "X86": 14208010,
+              "X86_64": 14208010
+            }
+          }
+        ],
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Sets the default Google Analytics consent flags to false so the Firebase Measurement SDK does not collect analytics, ad data or personalization signals.",
+    "id": "7b4527ac7208e3ec7f221c9e:9",
+    "metadata_status": "unverified",
+    "name": "Opt out of Google Analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.0",
+    "source_id": "480de387b20151c6"
+  },
+  {
+    "bundle_id": "7b4527ac7208e3ec7f221c9e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E60023",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.30.0",
+            "versionCodes": {
+              "ARM64_V8A": 14308020,
+              "ARMEABI_V7A": 14308020,
+              "X86": 14308020,
+              "X86_64": 14308020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.29.0",
+            "versionCodes": {
+              "ARM64_V8A": 14298020,
+              "ARMEABI_V7A": 14298020,
+              "X86": 14298020,
+              "X86_64": 14298020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.28.0",
+            "versionCodes": {
+              "ARM64_V8A": 14288010,
+              "ARMEABI_V7A": 14288010,
+              "X86": 14288010,
+              "X86_64": 14288010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.27.0",
+            "versionCodes": {
+              "ARM64_V8A": 14278010,
+              "ARMEABI_V7A": 14278010,
+              "X86": 14278010,
+              "X86_64": 14278010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.26.0",
+            "versionCodes": {
+              "ARM64_V8A": 14268010,
+              "ARMEABI_V7A": 14268010,
+              "X86": 14268010,
+              "X86_64": 14268010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020,
+              "ARMEABI_V7A": 14258020,
+              "X86": 14258020,
+              "X86_64": 14258020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.24.0",
+            "versionCodes": {
+              "ARM64_V8A": 14248020,
+              "ARMEABI_V7A": 14248020,
+              "X86": 14248020,
+              "X86_64": 14248020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.23.0",
+            "versionCodes": {
+              "ARM64_V8A": 14238020,
+              "ARMEABI_V7A": 14238020,
+              "X86": 14238020,
+              "X86_64": 14238020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.22.0",
+            "versionCodes": {
+              "ARM64_V8A": 14228020,
+              "ARMEABI_V7A": 14228020,
+              "X86": 14228020,
+              "X86_64": 14228020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.21.0",
+            "versionCodes": {
+              "ARM64_V8A": 14218010,
+              "ARMEABI_V7A": 14218010,
+              "X86": 14218010,
+              "X86_64": 14218010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.20.0",
+            "versionCodes": {
+              "ARM64_V8A": 14208010,
+              "ARMEABI_V7A": 14208010,
+              "X86": 14208010,
+              "X86_64": 14208010
+            }
+          }
+        ],
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Strips the com.google.android.gms.permission.AD_ID permission so any residual SDK cannot read the device's Google Advertising ID.",
+    "id": "7b4527ac7208e3ec7f221c9e:10",
+    "metadata_status": "unverified",
+    "name": "Remove Advertising ID permission",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.0",
+    "source_id": "480de387b20151c6"
+  },
+  {
+    "bundle_id": "7b4527ac7208e3ec7f221c9e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E60023",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.30.0",
+            "versionCodes": {
+              "ARM64_V8A": 14308020,
+              "ARMEABI_V7A": 14308020,
+              "X86": 14308020,
+              "X86_64": 14308020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.29.0",
+            "versionCodes": {
+              "ARM64_V8A": 14298020,
+              "ARMEABI_V7A": 14298020,
+              "X86": 14298020,
+              "X86_64": 14298020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.28.0",
+            "versionCodes": {
+              "ARM64_V8A": 14288010,
+              "ARMEABI_V7A": 14288010,
+              "X86": 14288010,
+              "X86_64": 14288010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.27.0",
+            "versionCodes": {
+              "ARM64_V8A": 14278010,
+              "ARMEABI_V7A": 14278010,
+              "X86": 14278010,
+              "X86_64": 14278010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.26.0",
+            "versionCodes": {
+              "ARM64_V8A": 14268010,
+              "ARMEABI_V7A": 14268010,
+              "X86": 14268010,
+              "X86_64": 14268010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020,
+              "ARMEABI_V7A": 14258020,
+              "X86": 14258020,
+              "X86_64": 14258020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.24.0",
+            "versionCodes": {
+              "ARM64_V8A": 14248020,
+              "ARMEABI_V7A": 14248020,
+              "X86": 14248020,
+              "X86_64": 14248020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.23.0",
+            "versionCodes": {
+              "ARM64_V8A": 14238020,
+              "ARMEABI_V7A": 14238020,
+              "X86": 14238020,
+              "X86_64": 14238020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.22.0",
+            "versionCodes": {
+              "ARM64_V8A": 14228020,
+              "ARMEABI_V7A": 14228020,
+              "X86": 14228020,
+              "X86_64": 14228020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.21.0",
+            "versionCodes": {
+              "ARM64_V8A": 14218010,
+              "ARMEABI_V7A": 14218010,
+              "X86": 14218010,
+              "X86_64": 14218010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.20.0",
+            "versionCodes": {
+              "ARM64_V8A": 14208010,
+              "ARMEABI_V7A": 14208010,
+              "X86": 14208010,
+              "X86_64": 14208010
+            }
+          }
+        ],
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Experimental, off by default. Adds the signature-spoof metadata read by microG-RE and by the XSpoofSignatures LSPosed module, so \"Continue with Google\" may work on devices with a working signature-spoofing setup. Not confirmed working end-to-end; no-op without such a setup.",
+    "id": "7b4527ac7208e3ec7f221c9e:11",
+    "metadata_status": "unverified",
+    "name": "Restore Google login (signature spoofing)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.0",
+    "source_id": "480de387b20151c6"
+  },
+  {
+    "bundle_id": "7b4527ac7208e3ec7f221c9e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E60023",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.30.0",
+            "versionCodes": {
+              "ARM64_V8A": 14308020,
+              "ARMEABI_V7A": 14308020,
+              "X86": 14308020,
+              "X86_64": 14308020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.29.0",
+            "versionCodes": {
+              "ARM64_V8A": 14298020,
+              "ARMEABI_V7A": 14298020,
+              "X86": 14298020,
+              "X86_64": 14298020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.28.0",
+            "versionCodes": {
+              "ARM64_V8A": 14288010,
+              "ARMEABI_V7A": 14288010,
+              "X86": 14288010,
+              "X86_64": 14288010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.27.0",
+            "versionCodes": {
+              "ARM64_V8A": 14278010,
+              "ARMEABI_V7A": 14278010,
+              "X86": 14278010,
+              "X86_64": 14278010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.26.0",
+            "versionCodes": {
+              "ARM64_V8A": 14268010,
+              "ARMEABI_V7A": 14268010,
+              "X86": 14268010,
+              "X86_64": 14268010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020,
+              "ARMEABI_V7A": 14258020,
+              "X86": 14258020,
+              "X86_64": 14258020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.24.0",
+            "versionCodes": {
+              "ARM64_V8A": 14248020,
+              "ARMEABI_V7A": 14248020,
+              "X86": 14248020,
+              "X86_64": 14248020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.23.0",
+            "versionCodes": {
+              "ARM64_V8A": 14238020,
+              "ARMEABI_V7A": 14238020,
+              "X86": 14238020,
+              "X86_64": 14238020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.22.0",
+            "versionCodes": {
+              "ARM64_V8A": 14228020,
+              "ARMEABI_V7A": 14228020,
+              "X86": 14228020,
+              "X86_64": 14228020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.21.0",
+            "versionCodes": {
+              "ARM64_V8A": 14218010,
+              "ARMEABI_V7A": 14218010,
+              "X86": 14218010,
+              "X86_64": 14218010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.20.0",
+            "versionCodes": {
+              "ARM64_V8A": 14208010,
+              "ARMEABI_V7A": 14208010,
+              "X86": 14208010,
+              "X86_64": 14208010
+            }
+          }
+        ],
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Resolves Pinterest short URLs (pin.it/…, pinterest.com/url_shortener/…) to their canonical pin URL before they are placed on the system clipboard, so \"Copy link\" no longer produces a fingerprinted short link.",
+    "id": "7b4527ac7208e3ec7f221c9e:12",
+    "metadata_status": "unverified",
+    "name": "Sanitize copied links",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.0",
+    "source_id": "480de387b20151c6"
+  },
+  {
+    "bundle_id": "7b4527ac7208e3ec7f221c9e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E60023",
+        "name": "Pinterest",
+        "packageName": "com.pinterest",
+        "signatures": [
+          "341d6881b1ecf38361fbf8c8fbae0aa516b45375c39ef5e78b161869acc1bcfa"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.30.0",
+            "versionCodes": {
+              "ARM64_V8A": 14308020,
+              "ARMEABI_V7A": 14308020,
+              "X86": 14308020,
+              "X86_64": 14308020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.29.0",
+            "versionCodes": {
+              "ARM64_V8A": 14298020,
+              "ARMEABI_V7A": 14298020,
+              "X86": 14298020,
+              "X86_64": 14298020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.28.0",
+            "versionCodes": {
+              "ARM64_V8A": 14288010,
+              "ARMEABI_V7A": 14288010,
+              "X86": 14288010,
+              "X86_64": 14288010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.27.0",
+            "versionCodes": {
+              "ARM64_V8A": 14278010,
+              "ARMEABI_V7A": 14278010,
+              "X86": 14278010,
+              "X86_64": 14278010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 29,
+            "version": "14.26.0",
+            "versionCodes": {
+              "ARM64_V8A": 14268010,
+              "ARMEABI_V7A": 14268010,
+              "X86": 14268010,
+              "X86_64": 14268010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.25.0",
+            "versionCodes": {
+              "ARM64_V8A": 14258020,
+              "ARMEABI_V7A": 14258020,
+              "X86": 14258020,
+              "X86_64": 14258020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.24.0",
+            "versionCodes": {
+              "ARM64_V8A": 14248020,
+              "ARMEABI_V7A": 14248020,
+              "X86": 14248020,
+              "X86_64": 14248020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.23.0",
+            "versionCodes": {
+              "ARM64_V8A": 14238020,
+              "ARMEABI_V7A": 14238020,
+              "X86": 14238020,
+              "X86_64": 14238020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.22.0",
+            "versionCodes": {
+              "ARM64_V8A": 14228020,
+              "ARMEABI_V7A": 14228020,
+              "X86": 14228020,
+              "X86_64": 14228020
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.21.0",
+            "versionCodes": {
+              "ARM64_V8A": 14218010,
+              "ARMEABI_V7A": 14218010,
+              "X86": 14218010,
+              "X86_64": 14218010
+            }
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "14.20.0",
+            "versionCodes": {
+              "ARM64_V8A": 14208010,
+              "ARMEABI_V7A": 14208010,
+              "X86": 14208010,
+              "X86_64": 14208010
+            }
+          }
+        ],
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Strips UTM and click-ID tracking parameters from the URL the app puts on the Android share sheet, so friends receive clean pin links.",
+    "id": "7b4527ac7208e3ec7f221c9e:13",
+    "metadata_status": "unverified",
+    "name": "Sanitize sharing links",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pinterest",
+        "versions": [
+          "14.30.0",
+          "14.29.0",
+          "14.28.0",
+          "14.27.0",
+          "14.26.0",
+          "14.25.0",
+          "14.24.0",
+          "14.23.0",
+          "14.22.0",
+          "14.21.0",
+          "14.20.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.7.0",
+    "source_id": "480de387b20151c6"
+  },
+  {
+    "bundle_id": "7b6c0d3eb2dd85f31dcb157e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#9FC5E8",
+        "name": "IDOS",
+        "packageName": "cz.mafra.jizdnirady",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables in-app ads in IDOS.",
+    "id": "7b6c0d3eb2dd85f31dcb157e:0",
+    "metadata_status": "unverified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "IDOS",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.1",
+    "source_id": "4fe7f2f21cb5842d"
+  },
+  {
+    "bundle_id": "7b6d16925a8b975130718a56",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Changes the app version code, allowing installation over existing versions.",
+    "id": "7b6d16925a8b975130718a56:0",
+    "metadata_status": "unverified",
+    "name": "Change version code",
+    "options": [
+      {
+        "default": "2147483647",
+        "description": "The version code to use. (1 ~ 2147483647)",
+        "key": "versionCode",
+        "required": true,
+        "title": "Version code",
+        "type": "kotlin.String",
+        "values": {
+          "Highest": "2147483647",
+          "Lowest": "1"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.26.0",
+    "source_id": "ee003859e8d16953"
+  },
+  {
+    "bundle_id": "7b6d16925a8b975130718a56",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Disables analytics and tracking from multiple SDKs, including AppMetrica, MyTracker, Firebase, Sentry, Google Analytics, Amplitude, Mixpanel, Adjust, AppsFlyer, Facebook, MoEngage, and comScore.",
+    "id": "7b6d16925a8b975130718a56:1",
+    "metadata_status": "unverified",
+    "name": "Disable analytics",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.26.0",
+    "source_id": "ee003859e8d16953"
+  },
+  {
+    "bundle_id": "7b6d16925a8b975130718a56",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#7C4DFF",
+        "name": "Pillo",
+        "packageName": "xyz.rtrvr.pillo",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "0.6.20"
+          }
+        ],
+        "versions": [
+          "0.6.20"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables PulseSDK analytics.",
+    "id": "7b6d16925a8b975130718a56:2",
+    "metadata_status": "unverified",
+    "name": "Disable analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pillo",
+        "versions": [
+          "0.6.20"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.26.0",
+    "source_id": "ee003859e8d16953"
+  },
+  {
+    "bundle_id": "7b6d16925a8b975130718a56",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FF5500",
+        "name": "SoundCloud",
+        "packageName": "com.soundcloud.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2026.08.26-release"
+          }
+        ],
+        "versions": [
+          "2026.08.26-release"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables SoundCloud's analytics.",
+    "id": "7b6d16925a8b975130718a56:3",
+    "metadata_status": "unverified",
+    "name": "Disable analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "SoundCloud",
+        "versions": [
+          "2026.08.26-release"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.26.0",
+    "source_id": "ee003859e8d16953"
+  },
+  {
+    "bundle_id": "7b6d16925a8b975130718a56",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#00897B",
+        "name": "FatSecret",
+        "packageName": "com.fatsecret.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "11.8.0.5"
+          }
+        ],
+        "versions": [
+          "11.8.0.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Hides the News/Community tab from the bottom navigation.",
+    "id": "7b6d16925a8b975130718a56:4",
+    "metadata_status": "unverified",
+    "name": "Disable community tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "FatSecret",
+        "versions": [
+          "11.8.0.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.26.0",
+    "source_id": "ee003859e8d16953"
+  },
+  {
+    "bundle_id": "7b6d16925a8b975130718a56",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FF5500",
+        "name": "SoundCloud",
+        "packageName": "com.soundcloud.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2026.08.26-release"
+          }
+        ],
+        "versions": [
+          "2026.08.26-release"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables the OneTrust consent/cookies popup on first launch.",
+    "id": "7b6d16925a8b975130718a56:5",
+    "metadata_status": "unverified",
+    "name": "Disable consent popup",
+    "options": [],
+    "packages": [
+      {
+        "name": "SoundCloud",
+        "versions": [
+          "2026.08.26-release"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.26.0",
+    "source_id": "ee003859e8d16953"
+  },
+  {
+    "bundle_id": "7b6d16925a8b975130718a56",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#00897B",
+        "name": "FatSecret",
+        "packageName": "com.fatsecret.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "11.8.0.5"
+          }
+        ],
+        "versions": [
+          "11.8.0.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Makes the 'App must update' dialog skippable.",
+    "id": "7b6d16925a8b975130718a56:6",
+    "metadata_status": "unverified",
+    "name": "Disable force update dialog",
+    "options": [],
+    "packages": [
+      {
+        "name": "FatSecret",
+        "versions": [
+          "11.8.0.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.26.0",
+    "source_id": "ee003859e8d16953"
+  },
+  {
+    "bundle_id": "7b6d16925a8b975130718a56",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Disables the Pairip license verification check.",
+    "id": "7b6d16925a8b975130718a56:7",
+    "metadata_status": "unverified",
+    "name": "Disable Pairip license check",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.26.0",
+    "source_id": "ee003859e8d16953"
+  },
+  {
+    "bundle_id": "7b6d16925a8b975130718a56",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FF5500",
+        "name": "SoundCloud",
+        "packageName": "com.soundcloud.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2026.08.26-release"
+          }
+        ],
+        "versions": [
+          "2026.08.26-release"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Enables SoundCloud Go premium features.",
+    "id": "7b6d16925a8b975130718a56:8",
+    "metadata_status": "unverified",
+    "name": "Enable SoundCloud Go",
+    "options": [],
+    "packages": [
+      {
+        "name": "SoundCloud",
+        "versions": [
+          "2026.08.26-release"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.26.0",
+    "source_id": "ee003859e8d16953"
+  },
+  {
+    "bundle_id": "7b6d16925a8b975130718a56",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#7C4DFF",
+        "name": "Pillo",
+        "packageName": "xyz.rtrvr.pillo",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "0.6.20"
+          }
+        ],
+        "versions": [
+          "0.6.20"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Fixes Google sign-in and sync on patched builds: routes Google services through MicroG-RE and reports the original certificate to Firebase. Requires MicroG-RE with a Google account.",
+    "id": "7b6d16925a8b975130718a56:9",
+    "metadata_status": "unverified",
+    "name": "MicroG support",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pillo",
+        "versions": [
+          "0.6.20"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.26.0",
+    "source_id": "ee003859e8d16953"
+  },
+  {
+    "bundle_id": "7b6d16925a8b975130718a56",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#000000",
+        "name": "Lyfta",
+        "packageName": "com.lyfta",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.600"
+          },
+          {
+            "isExperimental": false,
+            "version": "1.575"
+          }
+        ],
+        "versions": [
+          "1.600",
+          "1.575"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Points the workout music button at a patched YouTube Music app instead of the stock package, so the button opens it.",
+    "id": "7b6d16925a8b975130718a56:10",
+    "metadata_status": "unverified",
+    "name": "Support patched YouTube Music",
+    "options": [
+      {
+        "default": "app.morphe.android.apps.youtube.music",
+        "description": "Package name of the patched YouTube Music app installed on the device.",
+        "key": "youTubeMusicPackage",
+        "required": true,
+        "title": "YouTube Music package",
+        "type": "kotlin.String",
+        "values": {
+          "Anddea": "anddea.youtube.music",
+          "Clone": "bill.youtube.music",
+          "Morphe": "app.morphe.android.apps.youtube.music",
+          "ReVanced": "app.revanced.android.apps.youtube.music"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "Lyfta",
+        "versions": [
+          "1.600",
+          "1.575"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.26.0",
+    "source_id": "ee003859e8d16953"
+  },
+  {
+    "bundle_id": "7b6d16925a8b975130718a56",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#00897B",
+        "name": "FatSecret",
+        "packageName": "com.fatsecret.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "11.8.0.5"
+          }
+        ],
+        "versions": [
+          "11.8.0.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Unlocks all FatSecret Gold features and hides the Premium tab.",
+    "id": "7b6d16925a8b975130718a56:11",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "FatSecret",
+        "versions": [
+          "11.8.0.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.26.0",
+    "source_id": "ee003859e8d16953"
+  },
+  {
+    "bundle_id": "7b6d16925a8b975130718a56",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#00C853",
+        "name": "Lifesum",
+        "packageName": "com.sillens.shapeupclub",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "20.9.0"
+          }
+        ],
+        "versions": [
+          "20.9.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all premium features.",
+    "id": "7b6d16925a8b975130718a56:12",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Lifesum",
+        "versions": [
+          "20.9.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.26.0",
+    "source_id": "ee003859e8d16953"
+  },
+  {
+    "bundle_id": "7b6d16925a8b975130718a56",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#000000",
+        "name": "Lyfta",
+        "packageName": "com.lyfta",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.600"
+          },
+          {
+            "isExperimental": false,
+            "version": "1.575"
+          }
+        ],
+        "versions": [
+          "1.600",
+          "1.575"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Unlocks all premium features.",
+    "id": "7b6d16925a8b975130718a56:13",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Lyfta",
+        "versions": [
+          "1.600",
+          "1.575"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.26.0",
+    "source_id": "ee003859e8d16953"
+  },
+  {
+    "bundle_id": "7b6d16925a8b975130718a56",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#00A99D",
+        "name": "Medisafe",
+        "packageName": "com.medisafe.android.client",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "9.52.1"
+          }
+        ],
+        "versions": [
+          "9.52.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all premium features.",
+    "id": "7b6d16925a8b975130718a56:14",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Medisafe",
+        "versions": [
+          "9.52.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.26.0",
+    "source_id": "ee003859e8d16953"
+  },
+  {
+    "bundle_id": "7b6d16925a8b975130718a56",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#000000",
+        "name": "Muscle Motion Strength Training",
+        "packageName": "air.com.musclemotion.strength.mobile",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.5.0"
+          }
+        ],
+        "versions": [
+          "3.5.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all Muscle Motion Strength Training Pro/Individual/Business features.",
+    "id": "7b6d16925a8b975130718a56:15",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Muscle Motion Strength Training",
+        "versions": [
+          "3.5.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.26.0",
+    "source_id": "ee003859e8d16953"
+  },
+  {
+    "bundle_id": "7b6d16925a8b975130718a56",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#6750A4",
+        "name": "Ornament",
+        "packageName": "com.ornament.monitor",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.20.1"
+          }
+        ],
+        "versions": [
+          "4.20.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "Unlocks Ornament subscription features.",
+    "id": "7b6d16925a8b975130718a56:16",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Ornament",
+        "versions": [
+          "4.20.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.26.0",
+    "source_id": "ee003859e8d16953"
+  },
+  {
+    "bundle_id": "7b6d16925a8b975130718a56",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#6B4EFF",
+        "name": "Parcels",
+        "packageName": "com.brightstripe.parcels",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.0.11"
+          }
+        ],
+        "versions": [
+          "3.0.11"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "Unlocks premium features.",
+    "id": "7b6d16925a8b975130718a56:17",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Parcels",
+        "versions": [
+          "3.0.11"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.26.0",
+    "source_id": "ee003859e8d16953"
+  },
+  {
+    "bundle_id": "7b6d16925a8b975130718a56",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#7C4DFF",
+        "name": "Pillo",
+        "packageName": "xyz.rtrvr.pillo",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "0.6.20"
+          }
+        ],
+        "versions": [
+          "0.6.20"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks premium features and removes ads.",
+    "id": "7b6d16925a8b975130718a56:18",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pillo",
+        "versions": [
+          "0.6.20"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.26.0",
+    "source_id": "ee003859e8d16953"
+  },
+  {
+    "bundle_id": "7b6d16925a8b975130718a56",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#00C853",
+        "name": "Yazio",
+        "packageName": "com.yazio.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.1"
+          }
+        ],
+        "versions": [
+          "26.36.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all Yazio Pro features.",
+    "id": "7b6d16925a8b975130718a56:19",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Yazio",
+        "versions": [
+          "26.36.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.26.0",
+    "source_id": "ee003859e8d16953"
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "Settings for YouTube"
+    ],
+    "description": "Adds options to replace video thumbnails using the DeArrow API or image captures from the video.",
+    "id": "7b98a2867289a9eeb1f52236:0",
+    "metadata_status": "unverified",
+    "name": "Alternative thumbnails",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": true
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "Settings for YouTube",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to disable Ambient mode and to bypass Ambient mode restrictions.",
+    "id": "7b98a2867289a9eeb1f52236:1",
+    "metadata_status": "unverified",
+    "name": "Ambient mode control",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": true
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "6.20.51",
+        "6.29.59",
+        "6.42.55",
+        "6.51.53",
+        "7.16.53",
+        "7.25.53",
+        "8.12.54",
+        "8.28.54",
+        "8.30.54"
+      ]
+    },
+    "dependencies": [
+      "Settings for YouTube Music"
+    ],
+    "description": "Sets the audio quality to 'Always High' when you first install the app.",
+    "id": "7b98a2867289a9eeb1f52236:2",
+    "metadata_status": "unverified",
+    "name": "Bitrate default value",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "6.20.51",
+          "6.29.59",
+          "6.42.55",
+          "6.51.53",
+          "7.16.53",
+          "7.25.53",
+          "8.12.54",
+          "8.28.54",
+          "8.30.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": true
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "6.20.51",
+        "6.29.59",
+        "6.42.55",
+        "6.51.53",
+        "7.16.53",
+        "7.25.53",
+        "8.12.54",
+        "8.28.54",
+        "8.30.54"
+      ]
+    },
+    "dependencies": [
+      "Settings for YouTube Music",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to use a different host for static images, so that images blocked in some countries can be received.",
+    "id": "7b98a2867289a9eeb1f52236:3",
+    "metadata_status": "unverified",
+    "name": "Bypass image region restrictions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "6.20.51",
+          "6.29.59",
+          "6.42.55",
+          "6.51.53",
+          "7.16.53",
+          "7.25.53",
+          "8.12.54",
+          "8.28.54",
+          "8.30.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": true
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings for YouTube"
+    ],
+    "description": "Adds an option to use a different host for static images, so that images blocked in some countries can be received.",
+    "id": "7b98a2867289a9eeb1f52236:4",
+    "metadata_status": "unverified",
+    "name": "Bypass image region restrictions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": true
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "Settings for YouTube"
+    ],
+    "description": "Adds an option to bypass URL redirects and open the original URL directly.",
+    "id": "7b98a2867289a9eeb1f52236:5",
+    "metadata_status": "unverified",
+    "name": "Bypass URL redirects",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": true
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "6.20.51",
+        "6.29.59",
+        "6.42.55",
+        "6.51.53",
+        "7.16.53",
+        "7.25.53",
+        "8.12.54",
+        "8.28.54",
+        "8.30.54"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables YouTube Music to work with Android Auto by spoofing the YouTube Music certificate.",
+    "id": "7b98a2867289a9eeb1f52236:6",
+    "metadata_status": "unverified",
+    "name": "Certificate spoof",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "6.20.51",
+          "6.29.59",
+          "6.42.55",
+          "6.51.53",
+          "7.16.53",
+          "7.25.53",
+          "8.12.54",
+          "8.28.54",
+          "8.30.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": true
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "Settings for YouTube",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to change the UI appearance to a phone, tablet, or automotive device.",
+    "id": "7b98a2867289a9eeb1f52236:7",
+    "metadata_status": "unverified",
+    "name": "Change form factor",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": true
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": null,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Spoof the installer package name to make it appear that the app was installed from the Google Play Store.",
+    "id": "7b98a2867289a9eeb1f52236:8",
+    "metadata_status": "unverified",
+    "name": "Change installer package name",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": false
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "Settings for YouTube",
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to open the channel instead of the live stream when clicking on the live ring.",
+    "id": "7b98a2867289a9eeb1f52236:9",
+    "metadata_status": "unverified",
+    "name": "Change live ring click action",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": true
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1",
+        "2025.12.1"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Changes the package name for Reddit to the name specified in patch options.",
+    "id": "7b98a2867289a9eeb1f52236:10",
+    "metadata_status": "unverified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "com.reddit.frontpage",
+        "description": "The name of the package to rename the app to.",
+        "key": "packageNameReddit",
+        "required": true,
+        "title": "Package name of Reddit",
+        "type": "kotlin.String",
+        "values": {
+          "Clone": "com.reddit.frontpage.revanced",
+          "Default": "com.reddit.frontpage.rvx",
+          "Original": "com.reddit.frontpage"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2024.17.0",
+          "2025.05.1",
+          "2025.12.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": false
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "Settings for YouTube"
+    ],
+    "description": "Adds an option to use text toggles instead of switch toggles within the additional settings menu.",
+    "id": "7b98a2867289a9eeb1f52236:11",
+    "metadata_status": "unverified",
+    "name": "Change player flyout menu toggles",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": true
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "6.20.51",
+        "6.29.59",
+        "6.42.55",
+        "6.51.53",
+        "7.16.53",
+        "7.25.53",
+        "8.12.54",
+        "8.28.54",
+        "8.30.54"
+      ]
+    },
+    "dependencies": [
+      "Settings for YouTube Music",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to change the in-app share sheet to the system share sheet.",
+    "id": "7b98a2867289a9eeb1f52236:12",
+    "metadata_status": "unverified",
+    "name": "Change share sheet",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "6.20.51",
+          "6.29.59",
+          "6.42.55",
+          "6.51.53",
+          "7.16.53",
+          "7.25.53",
+          "8.12.54",
+          "8.28.54",
+          "8.30.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": true
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "Settings for YouTube",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to change the in-app share sheet to the system share sheet.",
+    "id": "7b98a2867289a9eeb1f52236:13",
+    "metadata_status": "unverified",
+    "name": "Change share sheet",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": true
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "6.20.51",
+        "6.29.59",
+        "6.42.55",
+        "6.51.53",
+        "7.16.53",
+        "7.25.53",
+        "8.12.54",
+        "8.28.54",
+        "8.30.54"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch",
+      "Settings for YouTube Music"
+    ],
+    "description": "Adds an option to set which page the app opens in instead of the homepage.",
+    "id": "7b98a2867289a9eeb1f52236:14",
+    "metadata_status": "unverified",
+    "name": "Change start page",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "6.20.51",
+          "6.29.59",
+          "6.42.55",
+          "6.51.53",
+          "7.16.53",
+          "7.25.53",
+          "8.12.54",
+          "8.28.54",
+          "8.30.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": true
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "Settings for YouTube"
+    ],
+    "description": "Adds an option to set which page the app opens in instead of the homepage.",
+    "id": "7b98a2867289a9eeb1f52236:15",
+    "metadata_status": "unverified",
+    "name": "Change start page",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": true
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Changes the version code of the app to the value specified in patch options. Except when mounting, this can prevent app stores from updating the app and allow the app to be installed over an existing installation that has a higher version code. By default, the highest version code is set.",
+    "id": "7b98a2867289a9eeb1f52236:16",
+    "metadata_status": "unverified",
+    "name": "Change version code",
+    "options": [
+      {
+        "default": "2147483647",
+        "description": "The version code to use. (1 ~ 2147483647)",
+        "key": "versionCode",
+        "required": true,
+        "title": "Version code",
+        "type": "kotlin.String",
+        "values": {
+          "Highest": "2147483647",
+          "Lowest": "1"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": false
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "Settings for YouTube",
+      "ResourcePatch"
+    ],
+    "description": "Changes the YouTube app icon to the icon specified in patch options.",
+    "id": "7b98a2867289a9eeb1f52236:17",
+    "metadata_status": "unverified",
+    "name": "Custom branding icon for YouTube",
+    "options": [
+      {
+        "default": "revancify_blue",
+        "description": "The icon to apply to the app.\n\nIf a path to a folder is provided, the folder must contain the following folders:\n\n- mipmap-xxxhdpi\n- mipmap-xxhdpi\n- mipmap-xhdpi\n- mipmap-hdpi\n- mipmap-mdpi\n\nEach of these folders must contain the following files:\n\n- adaptiveproduct_youtube_background_color_108.png\n- adaptiveproduct_youtube_foreground_color_108.png\n- ic_launcher.png\n- ic_launcher_round.png",
+        "key": "appIcon",
+        "required": true,
+        "title": "App icon",
+        "type": "kotlin.String",
+        "values": {
+          "AFN Blue": "afn_blue",
+          "AFN Red": "afn_red",
+          "MMT": "mmt",
+          "Revancify Blue": "revancify_blue",
+          "Revancify Red": "revancify_red",
+          "YouTube": "youtube"
+        }
+      },
+      {
+        "default": true,
+        "description": "Apply the custom branding icon to the splash screen. Supports from YouTube 18.29.38 to YouTube 19.16.39.",
+        "key": "changeSplashIcon",
+        "required": true,
+        "title": "Change splash icons",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Restore the old style splash animation.\n\nThis patch option is only supported on Android 12+, as splash animation was added to Android 12.\n\nIncluding this patch option on Android 8.0 - 11 may cause your app to crash.",
+        "key": "restoreOldSplashAnimation",
+        "required": true,
+        "title": "Restore old splash animation",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": true
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "6.20.51",
+        "6.29.59",
+        "6.42.55",
+        "6.51.53",
+        "7.16.53",
+        "7.25.53",
+        "8.12.54",
+        "8.28.54",
+        "8.30.54"
+      ]
+    },
+    "dependencies": [
+      "Settings for YouTube Music",
+      "ResourcePatch"
+    ],
+    "description": "Changes the YouTube Music app icon to the icon specified in patch options.",
+    "id": "7b98a2867289a9eeb1f52236:18",
+    "metadata_status": "unverified",
+    "name": "Custom branding icon for YouTube Music",
+    "options": [
+      {
+        "default": "revancify_blue",
+        "description": "The icon to apply to the app.\n\nIf a path to a folder is provided, the folder must contain the following folders:\n\n- mipmap-xxxhdpi\n- mipmap-xxhdpi\n- mipmap-xhdpi\n- mipmap-hdpi\n- mipmap-mdpi\n\nEach of these folders must contain the following files:\n\n- adaptiveproduct_youtube_music_background_color_108.png\n- adaptiveproduct_youtube_music_foreground_color_108.png\n- ic_launcher_release.png",
+        "key": "appIcon",
+        "required": true,
+        "title": "App icon",
+        "type": "kotlin.String",
+        "values": {
+          "AFN Blue": "afn_blue",
+          "AFN Red": "afn_red",
+          "MMT": "mmt",
+          "Revancify Blue": "revancify_blue",
+          "Revancify Red": "revancify_red",
+          "YouTube Music": "youtube_music"
+        }
+      },
+      {
+        "default": true,
+        "description": "Apply the custom branding icon to the splash screen.",
+        "key": "changeSplashIcon",
+        "required": true,
+        "title": "Change splash icons",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Restore the old style splash icon.\n\nIf you enable both the old style splash icon and the Cairo splash animation,\n\nOld style splash icon will appear first and then the Cairo splash animation will start.",
+        "key": "restoreOldSplashIcon",
+        "required": true,
+        "title": "Restore old splash icon",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "6.20.51",
+          "6.29.59",
+          "6.42.55",
+          "6.51.53",
+          "7.16.53",
+          "7.25.53",
+          "8.12.54",
+          "8.28.54",
+          "8.30.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": true
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": {
+      "com.reddit.frontpage": [
+        "2024.17.0",
+        "2025.05.1",
+        "2025.12.1"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Changes the Reddit app name to the name specified in patch options.",
+    "id": "7b98a2867289a9eeb1f52236:19",
+    "metadata_status": "unverified",
+    "name": "Custom branding name for Reddit",
+    "options": [
+      {
+        "default": "Reddit",
+        "description": "The name of the app.",
+        "key": "appName",
+        "required": true,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": {
+          "Default": "RVX Reddit",
+          "Original": "Reddit"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": [
+          "2024.17.0",
+          "2025.05.1",
+          "2025.12.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": false
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "Settings for YouTube"
+    ],
+    "description": "Changes the YouTube app name to the name specified in patch options.",
+    "id": "7b98a2867289a9eeb1f52236:20",
+    "metadata_status": "unverified",
+    "name": "Custom branding name for YouTube",
+    "options": [
+      {
+        "default": "RVX",
+        "description": "The name of the app.",
+        "key": "appName",
+        "required": true,
+        "title": "App name",
+        "type": "kotlin.String",
+        "values": {
+          "RVX": "RVX",
+          "ReVanced Extended": "ReVanced Extended",
+          "YouTube": "YouTube",
+          "YouTube RVX": "YouTube RVX"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": true
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "6.20.51",
+        "6.29.59",
+        "6.42.55",
+        "6.51.53",
+        "7.16.53",
+        "7.25.53",
+        "8.12.54",
+        "8.28.54",
+        "8.30.54"
+      ]
+    },
+    "dependencies": [
+      "Settings for YouTube Music"
+    ],
+    "description": "Changes the YouTube Music app name to the name specified in patch options.",
+    "id": "7b98a2867289a9eeb1f52236:21",
+    "metadata_status": "unverified",
+    "name": "Custom branding name for YouTube Music",
+    "options": [
+      {
+        "default": "RVX Music",
+        "description": "The name of the app as it appears in the notification panel.",
+        "key": "appNameNotification",
+        "required": true,
+        "title": "App name in notification panel",
+        "type": "kotlin.String",
+        "values": {
+          "RVX Music": "RVX Music",
+          "ReVanced Extended Music": "ReVanced Extended Music",
+          "YT Music": "YT Music",
+          "YouTube Music": "YouTube Music"
+        }
+      },
+      {
+        "default": "RVX Music",
+        "description": "The name of the app as it appears in the launcher.",
+        "key": "appNameLauncher",
+        "required": true,
+        "title": "App name in launcher",
+        "type": "kotlin.String",
+        "values": {
+          "RVX Music": "RVX Music",
+          "ReVanced Extended Music": "ReVanced Extended Music",
+          "YT Music": "YT Music",
+          "YouTube Music": "YouTube Music"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "6.20.51",
+          "6.29.59",
+          "6.42.55",
+          "6.51.53",
+          "7.16.53",
+          "7.25.53",
+          "8.12.54",
+          "8.28.54",
+          "8.30.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": true
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "Settings for YouTube"
+    ],
+    "description": "Adds Double-tap to seek values that are specified in patch options.",
+    "id": "7b98a2867289a9eeb1f52236:22",
+    "metadata_status": "unverified",
+    "name": "Custom double tap length",
+    "options": [
+      {
+        "default": "3, 5, 10, 15, 20, 30, 60, 120, 180",
+        "description": "A list of custom Double-tap to seek lengths to be added, separated by commas.",
+        "key": "doubleTapLengthArrays",
+        "required": true,
+        "title": "Double-tap to seek values",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": true
+  },
+  {
+    "bundle_id": "7b98a2867289a9eeb1f52236",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.05.36",
+        "19.16.39",
+        "19.43.41",
+        "19.44.39",
+        "19.47.53",
+        "20.05.46"
+      ]
+    },
+    "dependencies": [
+      "Settings for YouTube"
+    ],
+    "description": "Applies a custom header in the top left corner within the app.",
+    "id": "7b98a2867289a9eeb1f52236:23",
+    "metadata_status": "unverified",
+    "name": "Custom header for YouTube",
+    "options": [
+      {
+        "default": "custom_branding_icon",
+        "description": "The header to apply to the app.\n\nPatch option 'Custom branding icon' applies only when:\n\n1. Patch 'Custom branding icon for YouTube' is included.\n2. Patch option for 'Custom branding icon for YouTube' is selected from the preset.\n\nIf a path to a folder is provided, the folder must contain one or more of the following folders, depending on the DPI of the device:\n\n- drawable-xxxhdpi\n- drawable-xxhdpi\n- drawable-xhdpi\n- drawable-hdpi\n- drawable-mdpi\n\nEach of the folders must contain all of the following files:\n\n[Generic header]\n\n- yt_wordmark_header_light.png\n- yt_wordmark_header_dark.png\n\nThe image dimensions must be as follows:\n\n- drawable-xxxhdpi: 488px x 192px\n- drawable-xxhdpi: 366px x 144px\n- drawable-xhdpi: 244px x 96px\n- drawable-hdpi: 184px x 72px\n- drawable-mdpi: 122px x 48px\n\n[Premium header]\n\n- yt_premium_wordmark_header_light.png\n- yt_premium_wordmark_header_dark.png\n\nThe image dimensions must be as follows:\n- drawable-xxxhdpi: 516px x 192px\n- drawable-xxhdpi: 387px x 144px\n- drawable-xhdpi: 258px x 96px\n- drawable-hdpi: 194px x 72px\n- drawable-mdpi: 129px x 48px",
+        "key": "customHeader",
+        "required": true,
+        "title": "Custom header",
+        "type": "kotlin.String",
+        "values": {
+          "Custom branding icon": "custom_branding_icon"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.05.36",
+          "19.16.39",
+          "19.43.41",
+          "19.44.39",
+          "19.47.53",
+          "20.05.46"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v5.14.1",
+    "source_id": "2110fc333b2786d1",
+    "use": false
+  }
+]

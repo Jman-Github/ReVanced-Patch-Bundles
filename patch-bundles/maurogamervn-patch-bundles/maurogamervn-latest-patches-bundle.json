@@ -1,7 +1,0 @@
-{
-  "created_at": "2026-08-19T04:38:27",
-  "description": "## 1.9.5\n\n### Fixes\n\n* **MasterDex Unlock Pro** \u2014 fixed `PatchException: NegativeArraySizeException` during patching:\n  * Removed broken `clearBody()` (corrupted instruction list)\n  * Inject early-return at offset 0 instead (original body becomes dead code, safe for ART)",
-  "download_url": "https://github.com/MauroGamerVN/Morphe-Patches/releases/download/v1.9.5/patches-1.9.5.mpp",
-  "signature_download_url": "N/A",
-  "version": "v1.9.5"
-}

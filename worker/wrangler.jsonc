@@ -1,0 +1,56 @@
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "patch-bundle-registry-api",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-07",
+  "workers_dev": true,
+  "vars": {},
+  "env": {
+    "production": {
+      "name": "patch-bundle-registry-api",
+      "vars": {},
+      "routes": [
+        {
+          "pattern": "patch-bundles.api.jmancentral.com",
+          "custom_domain": true
+        }
+      ],
+      "durable_objects": {
+        "bindings": [
+          {
+            "name": "SUBSCRIPTIONS",
+            "class_name": "CatalogSubscriptions"
+          },
+          {
+            "name": "REFRESH_STATUS",
+            "class_name": "RefreshStatus"
+          }
+        ]
+      }
+    }
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "SUBSCRIPTIONS",
+        "class_name": "CatalogSubscriptions"
+      },
+      {
+        "name": "REFRESH_STATUS",
+        "class_name": "RefreshStatus"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1-registry-live",
+      "new_sqlite_classes": [
+        "CatalogSubscriptions",
+        "RefreshStatus"
+      ]
+    }
+  ]
+}

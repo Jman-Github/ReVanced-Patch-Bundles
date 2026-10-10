@@ -1,0 +1,40 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "stable"
+  ],
+  "created_at": "2026-09-29T09:26:37",
+  "description": "## [1.4.0](https://github.com/Plyrs1/morphe-patches/compare/v1.3.0...v1.4.0) (2026-09-29)\n\n### 🐛 Bug Fixes\n\n* **com_doovera_eujianbrowser:** clear FLAG_SECURE on onResume for screenshot support ([f095bb9](https://github.com/Plyrs1/morphe-patches/commit/f095bb9c3e5e3e30a33e4767b53bffbd2a4ac26a))\n* **com_doovera_eujianbrowser:** fix activity lifecycle contract and register width in startup bypass ([9c7f648](https://github.com/Plyrs1/morphe-patches/commit/9c7f648136dbf2efd55c314e001b435205455592))\n* **com_doovera_eujianbrowser:** fix NoSuchFieldError on Unit singleton and direct exam launch ([0494667](https://github.com/Plyrs1/morphe-patches/commit/0494667005e4c4fba68bda46759e1a4e33beac23))\n\n### ✨ New Features\n\n* **com_doovera_eujianbrowser:** add patch to disable ClipboardGuard and preserve clipboard data ([cea6a78](https://github.com/Plyrs1/morphe-patches/commit/cea6a7839907bfc9e03130e7fc85695ef007c04e))\n* **com_doovera_eujianbrowser:** add patch to remove auto-pin app and allow app switching ([fa9f3d3](https://github.com/Plyrs1/morphe-patches/commit/fa9f3d3f31a8458a3381bb232063bb5cbbe70f21))\n* **com_doovera_eujianbrowser:** Add security bypass and background persistence patches ([40cc3b0](https://github.com/Plyrs1/morphe-patches/commit/40cc3b002e02fe7d4b1aca12c44885c913d0e705))\n* **com_habitrpg_android_habitica:** add self-hosted server, google services stripping, and instant armoire patches ([6ceee47](https://github.com/Plyrs1/morphe-patches/commit/6ceee47bf1bce352a1b81daf50334c0f07501c97))\n* **pertaminiku:** add first-launch credit toast ([f35d17c](https://github.com/Plyrs1/morphe-patches/commit/f35d17cbdf4fb75562fce8ef842611b5f6253658))\n",
+  "download_url": "https://github.com/Plyrs1/morphe-patches/releases/download/v1.4.0/patches-1.4.0.mpp",
+  "ecosystem": "morphe",
+  "extraction_status": "unverified",
+  "file_hash": null,
+  "id": "0297cbfb07a5b5d26363f4e3",
+  "import_urls": {
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FPlyrs1%2Fmorphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 8,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "E-Ujian Browser",
+    "Habitica",
+    "Pertaminiku",
+    "Struk POM",
+    "Struk Pom / SPBU"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_version": "v1.4.0",
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": "N/A",
+  "source_id": "735d8f1d7a784287",
+  "version": "v1.4.0"
+}

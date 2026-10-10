@@ -1,0 +1,2959 @@
+[
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "tv.twitch.android.app": [
+        "16.9.1",
+        "25.3.0"
+      ]
+    },
+    "dependencies": [
+      "Block video ads",
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Blocks embedded stream ads using services like Luminous or PurpleAdBlocker.",
+    "id": "75ffc4b7185a9d384b2feb97:9",
+    "metadata_status": "unverified",
+    "name": "Block embedded ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "tv.twitch.android.app",
+        "versions": [
+          "16.9.1",
+          "25.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.strava": null
+    },
+    "dependencies": [],
+    "description": "Blocks Snowplow analytics. See https://snowplow.io for more information.",
+    "id": "75ffc4b7185a9d384b2feb97:10",
+    "metadata_status": "unverified",
+    "name": "Block Snowplow tracking",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.strava",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "tv.twitch.android.app": [
+        "16.9.1",
+        "25.3.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Blocks video ads in streams and VODs.",
+    "id": "75ffc4b7185a9d384b2feb97:11",
+    "metadata_status": "unverified",
+    "name": "Block video ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "tv.twitch.android.app",
+        "versions": [
+          "16.9.1",
+          "25.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.sec.android.app.fm": [
+        "12.4.00.7",
+        "12.3.00.13",
+        "12.3.00.11"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes firmware and region blacklisting. This patch will still not allow the app to run on devices that do not have the required hardware.",
+    "id": "75ffc4b7185a9d384b2feb97:12",
+    "metadata_status": "unverified",
+    "name": "Bypass device checks",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.sec.android.app.fm",
+        "versions": [
+          "12.4.00.7",
+          "12.3.00.13",
+          "12.3.00.11"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries.",
+    "id": "75ffc4b7185a9d384b2feb97:13",
+    "metadata_status": "unverified",
+    "name": "Bypass image region restrictions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.adobe.photoshopmix": null
+    },
+    "dependencies": [],
+    "description": "Allows the use of the app after its discontinuation.",
+    "id": "75ffc4b7185a9d384b2feb97:14",
+    "metadata_status": "unverified",
+    "name": "Bypass login",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.adobe.photoshopmix",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "it.ipzs.cieid": null
+    },
+    "dependencies": [],
+    "description": "Removes the restriction to use the app with root permissions or on a custom ROM.",
+    "id": "75ffc4b7185a9d384b2feb97:15",
+    "metadata_status": "unverified",
+    "name": "Bypass root checks",
+    "options": [],
+    "packages": [
+      {
+        "name": "it.ipzs.cieid",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to bypass URL redirects and open the original URL directly.",
+    "id": "75ffc4b7185a9d384b2feb97:16",
+    "metadata_status": "unverified",
+    "name": "Bypass URL redirects",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to change the UI appearance to a phone, tablet, or automotive device.",
+    "id": "75ffc4b7185a9d384b2feb97:17",
+    "metadata_status": "unverified",
+    "name": "Change form factor",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to change the header logo in the top left corner of the app.",
+    "id": "75ffc4b7185a9d384b2feb97:18",
+    "metadata_status": "unverified",
+    "name": "Change header",
+    "options": [
+      {
+        "default": null,
+        "description": "Folder with images to use as a custom header logo.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- drawable-hdpi\n- drawable-xhdpi\n- drawable-xxhdpi\n- drawable-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_header_custom_light.png\nrevanced_header_custom_dark.png \n\nThe image dimensions must be as follows:\n- drawable-hdpi: 194x72 px\n- drawable-xhdpi: 258x96 px\n- drawable-xxhdpi: 387x144 px\n- drawable-xxxhdpi: 512x192 px",
+        "name": "Custom header logo",
+        "required": false,
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Replaces the domain name of shared links.",
+    "id": "75ffc4b7185a9d384b2feb97:19",
+    "metadata_status": "unverified",
+    "name": "Change link sharing domain",
+    "options": [
+      {
+        "default": "imginn.com",
+        "description": "The domain name to use when sharing links.",
+        "name": "Domain name",
+        "required": false,
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "10.60.0-release.0",
+        "10.86.0-release.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Replaces the domain name of shared links. Using this patch can prevent making posts that quote other posts.",
+    "id": "75ffc4b7185a9d384b2feb97:20",
+    "metadata_status": "unverified",
+    "name": "Change link sharing domain",
+    "options": [
+      {
+        "default": "fxtwitter.com",
+        "description": "The domain name to use when sharing links.",
+        "name": "Domain name",
+        "required": true,
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "10.60.0-release.0",
+          "10.86.0-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.spotify.music": null
+    },
+    "dependencies": [],
+    "description": "Changes the lyrics provider to a custom one.",
+    "id": "75ffc4b7185a9d384b2feb97:21",
+    "metadata_status": "unverified",
+    "name": "Change lyrics provider",
+    "options": [
+      {
+        "default": "lyrics.natanchiodi.fr",
+        "description": "The domain name or IP address of a custom lyrics provider.",
+        "name": "Lyrics provider host",
+        "required": false,
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.spotify.music",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "7.29.52",
+        "8.10.52",
+        "8.37.56",
+        "8.40.54"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to change the miniplayer background color to match the fullscreen player.",
+    "id": "75ffc4b7185a9d384b2feb97:22",
+    "metadata_status": "unverified",
+    "name": "Change miniplayer color",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "7.29.52",
+          "8.10.52",
+          "8.37.56",
+          "8.40.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Appends \".revanced\" to the package name by default. Changing the package name of the app can lead to unexpected issues.",
+    "id": "75ffc4b7185a9d384b2feb97:23",
+    "metadata_status": "unverified",
+    "name": "Change package name",
+    "options": [
+      {
+        "default": "Default",
+        "description": "The name of the package to rename the app to.",
+        "name": "Package name",
+        "required": true,
+        "type": "kotlin.String",
+        "values": {
+          "Default": "Default"
+        }
+      },
+      {
+        "default": false,
+        "description": "Update compatibility receiver permissions. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "name": "Update permissions",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Update provider names declared by the app. Enabling this can fix installation errors, but this can also break features in certain apps.",
+        "name": "Update providers",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to set which page the app opens in instead of the homepage.",
+    "id": "75ffc4b7185a9d384b2feb97:24",
+    "metadata_status": "unverified",
+    "name": "Change start page",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Changes the version code of the app. This will turn off app store updates and allows downgrading an existing app install to an older app version.",
+    "id": "75ffc4b7185a9d384b2feb97:25",
+    "metadata_status": "unverified",
+    "name": "Change version code",
+    "options": [
+      {
+        "default": 2147483647,
+        "description": "The version code to use. Using the highest value turns off app store updates and allows downgrading an existing app install to an older app version.",
+        "name": "Version code",
+        "required": true,
+        "type": "kotlin.Int",
+        "values": {
+          "Highest": 2147483647,
+          "Lowest": 1
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "7.29.52",
+        "8.10.52",
+        "8.37.56",
+        "8.40.54"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Checks if the device DNS server is preventing user watch history from being saved.",
+    "id": "75ffc4b7185a9d384b2feb97:26",
+    "metadata_status": "unverified",
+    "name": "Check watch history domain name resolution",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "7.29.52",
+          "8.10.52",
+          "8.37.56",
+          "8.40.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Checks if the device DNS server is preventing user watch history from being saved.",
+    "id": "75ffc4b7185a9d384b2feb97:27",
+    "metadata_status": "unverified",
+    "name": "Check watch history domain name resolution",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to display buttons in the video player to copy video URLs.",
+    "id": "75ffc4b7185a9d384b2feb97:28",
+    "metadata_status": "unverified",
+    "name": "Copy video URL",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "7.29.52",
+        "8.10.52",
+        "8.37.56",
+        "8.40.54"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.",
+    "id": "75ffc4b7185a9d384b2feb97:29",
+    "metadata_status": "unverified",
+    "name": "Custom branding",
+    "options": [
+      {
+        "default": null,
+        "description": "Custom app name.",
+        "name": "App name",
+        "required": false,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_adaptive_background_custom.png\nrevanced_adaptive_foreground_custom.png\n\nThe image dimensions must be as follows:\n- mipmap-mdpi: 108x108 px\n- mipmap-hdpi: 162x162 px\n- mipmap-xhdpi: 216x216 px\n- mipmap-xxhdpi: 324x324 px\n- mipmap-xxxhdpi: 432x432 px\n\nOptionally, the path contains a 'drawable' folder with any of the monochrome icon files:\nrevanced_adaptive_monochrome_custom.xml\nrevanced_notification_icon_custom.xml",
+        "name": "Custom icon",
+        "required": false,
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "7.29.52",
+          "8.10.52",
+          "8.37.56",
+          "8.40.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to change the app icon and app name. Branding cannot be changed for mounted (root) installations.",
+    "id": "75ffc4b7185a9d384b2feb97:30",
+    "metadata_status": "unverified",
+    "name": "Custom branding",
+    "options": [
+      {
+        "default": null,
+        "description": "Custom app name.",
+        "name": "App name",
+        "required": false,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "Folder with images to use as a custom icon.\n\nThe folder must contain one or more of the following folders, depending on the DPI of the device:\n- mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n\nEach of the folders must contain all of the following files:\nrevanced_adaptive_background_custom.png\nrevanced_adaptive_foreground_custom.png\n\nThe image dimensions must be as follows:\n- mipmap-mdpi: 108x108 px\n- mipmap-hdpi: 162x162 px\n- mipmap-xhdpi: 216x216 px\n- mipmap-xxhdpi: 324x324 px\n- mipmap-xxxhdpi: 432x432 px\n\nOptionally, the path contains a 'drawable' folder with any of the monochrome icon files:\nrevanced_adaptive_monochrome_custom.xml\nrevanced_notification_icon_custom.xml",
+        "name": "Custom icon",
+        "required": false,
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Allows trusting custom certificate authorities for a specific domain.",
+    "id": "75ffc4b7185a9d384b2feb97:31",
+    "metadata_status": "unverified",
+    "name": "Custom network security",
+    "options": [
+      {
+        "default": [
+          "example.com"
+        ],
+        "description": "List of domains to which the custom trust configuration will be applied (one domain per entry).",
+        "name": "Target domains",
+        "required": true,
+        "type": "kotlin.collections.List<kotlin.String>",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Applies the configuration to all subdomains of the target domains.",
+        "name": "Include subdomains",
+        "required": true,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "List of paths to files in PEM or DER format (one file path per entry).\n\nMakes an app trust the provided custom certificate authorities (CAs),\nfor the specified domains, and if the option \"Include Subdomains\" is enabled then also the subdomains.\n\n\nCA files will be bundled in res/raw/ of resulting APK",
+        "name": "Custom CA file paths",
+        "required": false,
+        "type": "kotlin.collections.List<kotlin.String>",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Makes an app trust certificates from the Android user store for the specified domains, and if the option \"Include Subdomains\" is enabled then also the subdomains.",
+        "name": "Trust user added CAs",
+        "required": true,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Makes an app trust certificates from the Android system store for the specified domains, and and if the option \"Include Subdomains\" is enabled then also the subdomains.",
+        "name": "Trust system CAs",
+        "required": true,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Allows unencrypted HTTP traffic for the specified domains, and if \"Include Subdomains\" is enabled then also the subdomains.",
+        "name": "Allow cleartext traffic (HTTP)",
+        "required": true,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Overrides certificate pinning for the specified domains and their subdomains if the option \"Include Subdomains\" is enabled to allow inspecting app traffic via a proxy.",
+        "name": "Override certificate pinning",
+        "required": true,
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to change the opacity of the video player background when player controls are visible.",
+    "id": "75ffc4b7185a9d384b2feb97:32",
+    "metadata_status": "unverified",
+    "name": "Custom player overlay opacity",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.spotify.music": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Applies a custom theme (defaults to amoled black)",
+    "id": "75ffc4b7185a9d384b2feb97:33",
+    "metadata_status": "unverified",
+    "name": "Custom theme",
+    "options": [
+      {
+        "default": "@android:color/black",
+        "description": "The background color. Can be a hex color or a resource reference.",
+        "name": "Primary background color",
+        "required": true,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Apply primary background color to the player gradient color, which changes dynamically with the song.",
+        "name": "Override player gradient color",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": "#FF121212",
+        "description": "The secondary background color. (e.g. playlist list in home, player artist, song credits). Can be a hex color or a resource reference.\",",
+        "name": "Secondary background color",
+        "required": true,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "#FF1ED760",
+        "description": "The accent color ('Spotify green' by default). Can be a hex color or a resource reference.",
+        "name": "Accent color",
+        "required": true,
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "#FF1ABC54",
+        "description": "The color when accented buttons are pressed, by default slightly darker than accent. Can be a hex color or a resource reference.",
+        "name": "Pressed accent color",
+        "required": true,
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.spotify.music",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "tv.twitch.android.app": [
+        "16.9.1",
+        "25.3.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings",
+      "ResourcePatch"
+    ],
+    "description": "Enables Twitch's internal debugging mode.",
+    "id": "75ffc4b7185a9d384b2feb97:34",
+    "metadata_status": "unverified",
+    "name": "Debug mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "tv.twitch.android.app",
+        "versions": [
+          "16.9.1",
+          "25.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.tumblr": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Disables the banner with a frog, prompting you to buy Tumblr Ad-Free.",
+    "id": "75ffc4b7185a9d384b2feb97:35",
+    "metadata_status": "unverified",
+    "name": "Disable Ad-Free Banner",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tumblr",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.duolingo": [
+        "6.54.5"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:36",
+    "metadata_status": "unverified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.duolingo",
+        "versions": [
+          "6.54.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.myprog.hexedit": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:37",
+    "metadata_status": "unverified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.myprog.hexedit",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.rubenmayayo.reddit": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:38",
+    "metadata_status": "unverified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rubenmayayo.reddit",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "o.o.joey": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:39",
+    "metadata_status": "unverified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "o.o.joey",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:40",
+    "metadata_status": "unverified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "io.syncapps.lemmy_sync": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:41",
+    "metadata_status": "unverified",
+    "name": "Disable ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "io.syncapps.lemmy_sync",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "Disables analytics that are sent periodically.",
+    "id": "75ffc4b7185a9d384b2feb97:42",
+    "metadata_status": "unverified",
+    "name": "Disable analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.pandora.android": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:43",
+    "metadata_status": "unverified",
+    "name": "Disable Audio Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pandora.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to disable captions from being automatically enabled.",
+    "id": "75ffc4b7185a9d384b2feb97:44",
+    "metadata_status": "unverified",
+    "name": "Disable auto captions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.tumblr": null
+    },
+    "dependencies": [],
+    "description": "Disables the reminder to enable notifications for blogs you visit.",
+    "id": "75ffc4b7185a9d384b2feb97:45",
+    "metadata_status": "unverified",
+    "name": "Disable blog notification reminder",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tumblr",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.tumblr": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Disables ads in the dashboard.",
+    "id": "75ffc4b7185a9d384b2feb97:46",
+    "metadata_status": "unverified",
+    "name": "Disable dashboard ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tumblr",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to disable player double tap gestures.",
+    "id": "75ffc4b7185a9d384b2feb97:47",
+    "metadata_status": "unverified",
+    "name": "Disable double tap actions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to disable the ambient mode when in fullscreen.",
+    "id": "75ffc4b7185a9d384b2feb97:48",
+    "metadata_status": "unverified",
+    "name": "Disable fullscreen ambient mode",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.tumblr": null
+    },
+    "dependencies": [],
+    "description": "Disables the popup suggesting to buy TumblrMart items for other people.",
+    "id": "75ffc4b7185a9d384b2feb97:49",
+    "metadata_status": "unverified",
+    "name": "Disable gift message popup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tumblr",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to disable haptic feedback in the player for various actions.",
+    "id": "75ffc4b7185a9d384b2feb97:50",
+    "metadata_status": "unverified",
+    "name": "Disable haptic feedback",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.tumblr": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Disables the in-app update check and update prompt.",
+    "id": "75ffc4b7185a9d384b2feb97:51",
+    "metadata_status": "unverified",
+    "name": "Disable in-app update",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tumblr",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.ss.android.ugc.trill": null,
+      "com.zhiliaoapp.musically": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:52",
+    "metadata_status": "unverified",
+    "name": "Disable login requirement",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ss.android.ugc.trill",
+        "versions": []
+      },
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.adobe.lrmobile": [
+        "9.3.0"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:53",
+    "metadata_status": "unverified",
+    "name": "Disable mandatory login",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.adobe.lrmobile",
+        "versions": [
+          "9.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables Play Integrity API (Pairip) client-side license check.",
+    "id": "75ffc4b7185a9d384b2feb97:54",
+    "metadata_status": "unverified",
+    "name": "Disable Pairip license check",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": null,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Prevents apps from using Play Integrity by pretending it is not available.",
+    "id": "75ffc4b7185a9d384b2feb97:55",
+    "metadata_status": "unverified",
+    "name": "Disable Play Integrity",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to disable panels (such as live chat) from opening automatically.",
+    "id": "75ffc4b7185a9d384b2feb97:56",
+    "metadata_status": "unverified",
+    "name": "Disable player popup panels",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.strava": null
+    },
+    "dependencies": [],
+    "description": "Prevents the Quick Edit prompt from popping up.",
+    "id": "75ffc4b7185a9d384b2feb97:57",
+    "metadata_status": "unverified",
+    "name": "Disable Quick Edit",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.strava",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "Removes the auto-scroll toggle and prevents Reels from scrolling automatically.",
+    "id": "75ffc4b7185a9d384b2feb97:58",
+    "metadata_status": "unverified",
+    "name": "Disable Reels auto-scroll",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.",
+    "id": "75ffc4b7185a9d384b2feb97:59",
+    "metadata_status": "unverified",
+    "name": "Disable Reels scrolling",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched.",
+    "id": "75ffc4b7185a9d384b2feb97:60",
+    "metadata_status": "unverified",
+    "name": "Disable resuming Shorts on startup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to disable rolling number animations of video view count, user likes, and upload time.",
+    "id": "75ffc4b7185a9d384b2feb97:61",
+    "metadata_status": "unverified",
+    "name": "Disable rolling number animations",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
+    "dependencies": [],
+    "description": "Disables the popup that shows up when taking a screenshot.",
+    "id": "75ffc4b7185a9d384b2feb97:62",
+    "metadata_status": "unverified",
+    "name": "Disable screenshot popup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Disables Sentry telemetry. See https://sentry.io/for/android/ for more information.",
+    "id": "75ffc4b7185a9d384b2feb97:63",
+    "metadata_status": "unverified",
+    "name": "Disable Sentry telemetry",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to disable the popup asking to sign into a TV on the same local network.",
+    "id": "75ffc4b7185a9d384b2feb97:64",
+    "metadata_status": "unverified",
+    "name": "Disable sign in to TV popup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "Disables the signature check that can cause the app to crash on startup. Using this patch may cause issues with sharing or opening external Instagram links.",
+    "id": "75ffc4b7185a9d384b2feb97:65",
+    "metadata_status": "unverified",
+    "name": "Disable signature check",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "Disable stories automatically flipping/skipping after some seconds.",
+    "id": "75ffc4b7185a9d384b2feb97:66",
+    "metadata_status": "unverified",
+    "name": "Disable story auto flipping",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": [
+        "v23.06.30-13:39"
+      ],
+      "com.laurencedawson.reddit_sync.dev": [],
+      "com.laurencedawson.reddit_sync.pro": []
+    },
+    "dependencies": [],
+    "description": "Disables the bottom sheet at the startup that asks you to signup to \"Sync for Lemmy\".",
+    "id": "75ffc4b7185a9d384b2feb97:67",
+    "metadata_status": "unverified",
+    "name": "Disable Sync for Lemmy bottom sheet",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": [
+          "v23.06.30-13:39"
+        ]
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.dev",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.soundcloud.android": [
+        "2025.05.27-release"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables SoundCloud's telemetry system.",
+    "id": "75ffc4b7185a9d384b2feb97:68",
+    "metadata_status": "unverified",
+    "name": "Disable telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.soundcloud.android",
+        "versions": [
+          "2025.05.27-release"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.piccomaeurope.fr": [
+        "6.4.0",
+        "6.4.1",
+        "6.4.2",
+        "6.4.3",
+        "6.4.4",
+        "6.4.5",
+        "6.5.0",
+        "6.5.1",
+        "6.5.2",
+        "6.5.3",
+        "6.5.4",
+        "6.6.0",
+        "6.6.1",
+        "6.6.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables tracking by replacing tracking URLs with example.com.",
+    "id": "75ffc4b7185a9d384b2feb97:69",
+    "metadata_status": "unverified",
+    "name": "Disable tracking",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.piccomaeurope.fr",
+        "versions": [
+          "6.4.0",
+          "6.4.1",
+          "6.4.2",
+          "6.4.3",
+          "6.4.4",
+          "6.4.5",
+          "6.5.0",
+          "6.5.1",
+          "6.5.2",
+          "6.5.3",
+          "6.5.4",
+          "6.6.0",
+          "6.6.1",
+          "6.6.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.tumblr": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Removes the Tumblr TV navigation button from the bottom navigation bar.",
+    "id": "75ffc4b7185a9d384b2feb97:70",
+    "metadata_status": "unverified",
+    "name": "Disable Tumblr TV",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tumblr",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.adobe.lrmobile": [
+        "9.3.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables the server-side version check that prevents the app from starting.",
+    "id": "75ffc4b7185a9d384b2feb97:71",
+    "metadata_status": "unverified",
+    "name": "Disable version check",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.adobe.lrmobile",
+        "versions": [
+          "9.3.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to disable HDR and VP9 codecs.",
+    "id": "75ffc4b7185a9d384b2feb97:72",
+    "metadata_status": "unverified",
+    "name": "Disable video codecs",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.ss.android.ugc.trill": [
+        "36.5.4"
+      ],
+      "com.zhiliaoapp.musically": [
+        "36.5.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Removes download restrictions and changes the default path to download to.",
+    "id": "75ffc4b7185a9d384b2feb97:73",
+    "metadata_status": "unverified",
+    "name": "Downloads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ss.android.ugc.trill",
+        "versions": [
+          "36.5.4"
+        ]
+      },
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "36.5.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds support to download videos with an external downloader app using the in-app download button or a video player action button.",
+    "id": "75ffc4b7185a9d384b2feb97:74",
+    "metadata_status": "unverified",
+    "name": "Downloads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "10.60.0-release.0",
+        "10.86.0-release.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Replaces the default X (Formerly Twitter) Blue with the user's Material You palette.",
+    "id": "75ffc4b7185a9d384b2feb97:75",
+    "metadata_status": "unverified",
+    "name": "Dynamic color",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "10.60.0-release.0",
+          "10.86.0-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Enables Android debugging capabilities. This can slow down the app.",
+    "id": "75ffc4b7185a9d384b2feb97:76",
+    "metadata_status": "unverified",
+    "name": "Enable Android debugging",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.apps.magazines": null
+    },
+    "dependencies": [],
+    "description": "Enables CustomTabs to open articles in your default browser.",
+    "id": "75ffc4b7185a9d384b2feb97:77",
+    "metadata_status": "unverified",
+    "name": "Enable CustomTabs",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.magazines",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.apps.photos": null
+    },
+    "dependencies": [],
+    "description": "Disables always on backup for the Camera and other DCIM folders, allowing you to control backup for each folder individually. This will make the app default to having no folders backed up.",
+    "id": "75ffc4b7185a9d384b2feb97:78",
+    "metadata_status": "unverified",
+    "name": "Enable DCIM folders backup control",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.photos",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.duolingo": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:79",
+    "metadata_status": "unverified",
+    "name": "Enable debug menu",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.duolingo",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "7.29.52",
+        "8.10.52",
+        "8.37.56",
+        "8.40.54"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options for debugging and exporting ReVanced logs to the clipboard.",
+    "id": "75ffc4b7185a9d384b2feb97:80",
+    "metadata_status": "unverified",
+    "name": "Enable debugging",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "7.29.52",
+          "8.10.52",
+          "8.37.56",
+          "8.40.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options for debugging and exporting ReVanced logs to the clipboard.",
+    "id": "75ffc4b7185a9d384b2feb97:81",
+    "metadata_status": "unverified",
+    "name": "Enable debugging",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "Enables the developer menu, which can be found at the bottom of settings menu with name 'Internal Settings'.\n\nIt is recommended to use this patch with an alpha/beta Instagram release. Patching a stable release works, but the developer menu shows the developer flags as numbers and does not show a human readable description.",
+    "id": "75ffc4b7185a9d384b2feb97:82",
+    "metadata_status": "unverified",
+    "name": "Enable developer menu",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "7.29.52",
+        "8.10.52",
+        "8.37.56",
+        "8.40.54"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Enables the option to play audio without video.",
+    "id": "75ffc4b7185a9d384b2feb97:83",
+    "metadata_status": "unverified",
+    "name": "Enable exclusive audio playback",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "7.29.52",
+          "8.10.52",
+          "8.37.56",
+          "8.40.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "Unlocks the redesigned location sticker with additional style options.",
+    "id": "75ffc4b7185a9d384b2feb97:84",
+    "metadata_status": "unverified",
+    "name": "Enable location sticker redesign",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.soundcloud.android": [
+        "2025.05.27-release"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:85",
+    "metadata_status": "unverified",
+    "name": "Enable offline sync",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.soundcloud.android",
+        "versions": [
+          "2025.05.27-release"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.strava": null
+    },
+    "dependencies": [],
+    "description": "Re-enables password login after having used an OTP code.",
+    "id": "75ffc4b7185a9d384b2feb97:86",
+    "metadata_status": "unverified",
+    "name": "Enable password login",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.strava",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Spoofs the signature via the manifest meta-data \"fake-signature\". This patch only works with ROMs that support signature spoofing.",
+    "id": "75ffc4b7185a9d384b2feb97:87",
+    "metadata_status": "unverified",
+    "name": "Enable ROM signature spoofing",
+    "options": [
+      {
+        "default": null,
+        "description": "The hex-encoded signature or path to an APK file with the desired signature.",
+        "name": "Signature or APK file path",
+        "required": true,
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.pandora.android": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:88",
+    "metadata_status": "unverified",
+    "name": "Enable unlimited skips",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.pandora.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to automatically exit fullscreen mode when a video reaches the end.",
+    "id": "75ffc4b7185a9d384b2feb97:89",
+    "metadata_status": "unverified",
+    "name": "Exit fullscreen",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Makes all app activities exportable.",
+    "id": "75ffc4b7185a9d384b2feb97:90",
+    "metadata_status": "unverified",
+    "name": "Export all activities",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": null,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Exports a documents provider that grants access to the internal data directory of this app to file managers and other apps that support the Storage Access Framework.",
+    "id": "75ffc4b7185a9d384b2feb97:91",
+    "metadata_status": "unverified",
+    "name": "Export internal data documents provider",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.ss.android.ugc.trill": [
+        "36.5.4"
+      ],
+      "com.zhiliaoapp.musically": [
+        "36.5.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Removes ads, livestreams, stories, image videos and videos with a specific amount of views or likes from the feed.",
+    "id": "75ffc4b7185a9d384b2feb97:92",
+    "metadata_status": "unverified",
+    "name": "Feed filter",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ss.android.ugc.trill",
+        "versions": [
+          "36.5.4"
+        ]
+      },
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "36.5.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.rubenmayayo.reddit": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:93",
+    "metadata_status": "unverified",
+    "name": "Fix /s/ links",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rubenmayayo.reddit",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": null,
+      "com.laurencedawson.reddit_sync.dev": null,
+      "com.laurencedawson.reddit_sync.pro": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:94",
+    "metadata_status": "unverified",
+    "name": "Fix /s/ links",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.dev",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "de.simon.openinghours": [
+        "1.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Fixes a crash when opening a place.",
+    "id": "75ffc4b7185a9d384b2feb97:95",
+    "metadata_status": "unverified",
+    "name": "Fix crash",
+    "options": [],
+    "packages": [
+      {
+        "name": "de.simon.openinghours",
+        "versions": [
+          "1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.sec.android.app.fm": [
+        "12.4.00.7",
+        "12.3.00.13",
+        "12.3.00.11"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch",
+      "Bypass device checks"
+    ],
+    "description": "Prevents the app from crashing because of missing system permissions.",
+    "id": "75ffc4b7185a9d384b2feb97:96",
+    "metadata_status": "unverified",
+    "name": "Fix crashes",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.sec.android.app.fm",
+        "versions": [
+          "12.4.00.7",
+          "12.3.00.13",
+          "12.3.00.11"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.spotify.music": null
+    },
+    "dependencies": [],
+    "description": "Fix logging in with Facebook when the app is patched by always opening the login in a web browser window.",
+    "id": "75ffc4b7185a9d384b2feb97:97",
+    "metadata_status": "unverified",
+    "name": "Fix Facebook login",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.spotify.music",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.ss.android.ugc.trill": null,
+      "com.zhiliaoapp.musically": null
+    },
+    "dependencies": [],
+    "description": "Allows logging in with a Google account.",
+    "id": "75ffc4b7185a9d384b2feb97:98",
+    "metadata_status": "unverified",
+    "name": "Fix Google login",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ss.android.ugc.trill",
+        "versions": []
+      },
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.xiaomi.wearable": null
+    },
+    "dependencies": [],
+    "description": "Fixes login for uncertified Mi Fitness app",
+    "id": "75ffc4b7185a9d384b2feb97:99",
+    "metadata_status": "unverified",
+    "name": "Fix login",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaomi.wearable",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.rubenmayayo.reddit": null
+    },
+    "dependencies": [],
+    "description": "Fixes audio missing in videos downloaded from v.redd.it.",
+    "id": "75ffc4b7185a9d384b2feb97:100",
+    "metadata_status": "unverified",
+    "name": "Fix missing audio in video downloads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rubenmayayo.reddit",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.tumblr": null
+    },
+    "dependencies": [],
+    "description": "Fixes old versions of the app (v33.2 and earlier) breaking due to Tumblr removing remnants of Tumblr Live from the API, which causes many requests to fail. This patch has no effect on newer versions of the app.",
+    "id": "75ffc4b7185a9d384b2feb97:101",
+    "metadata_status": "unverified",
+    "name": "Fix old versions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tumblr",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": null,
+      "com.laurencedawson.reddit_sync.dev": null,
+      "com.laurencedawson.reddit_sync.pro": null
+    },
+    "dependencies": [],
+    "description": "Fixes loading post thumbnails by correcting their URLs.",
+    "id": "75ffc4b7185a9d384b2feb97:102",
+    "metadata_status": "unverified",
+    "name": "Fix post thumbnails",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.dev",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.onelouder.baconreader": null,
+      "com.onelouder.baconreader.premium": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:103",
+    "metadata_status": "unverified",
+    "name": "Fix Redgifs API",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.onelouder.baconreader",
+        "versions": []
+      },
+      {
+        "name": "com.onelouder.baconreader.premium",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.rubenmayayo.reddit": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:104",
+    "metadata_status": "unverified",
+    "name": "Fix Redgifs API",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rubenmayayo.reddit",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": null,
+      "com.laurencedawson.reddit_sync.dev": null,
+      "com.laurencedawson.reddit_sync.pro": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:105",
+    "metadata_status": "unverified",
+    "name": "Fix Redgifs API",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.dev",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.spotify.music": null
+    },
+    "dependencies": [],
+    "description": "Fixes Spotify widgets not working in third party launchers, like Nova Launcher.",
+    "id": "75ffc4b7185a9d384b2feb97:106",
+    "metadata_status": "unverified",
+    "name": "Fix third party launchers widgets",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.spotify.music",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.laurencedawson.reddit_sync": null,
+      "com.laurencedawson.reddit_sync.dev": null,
+      "com.laurencedawson.reddit_sync.pro": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Fixes a bug in Sync's MPD parser resulting in only the audio-track being saved.",
+    "id": "75ffc4b7185a9d384b2feb97:107",
+    "metadata_status": "unverified",
+    "name": "Fix video downloads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.laurencedawson.reddit_sync",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.dev",
+        "versions": []
+      },
+      {
+        "name": "com.laurencedawson.reddit_sync.pro",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "de.gmx.mobile.android.mail": null
+    },
+    "dependencies": [],
+    "description": "Enables the FreePhone menu in the navigation drawer even on devices that don't support eSIM.",
+    "id": "75ffc4b7185a9d384b2feb97:108",
+    "metadata_status": "unverified",
+    "name": "Force enable FreePhone",
+    "options": [],
+    "packages": [
+      {
+        "name": "de.gmx.mobile.android.mail",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-09-30T06:28:32",
+  "description": "Chrome Morphe 0.5.1 for Chrome 153.0.8010.53 (801005304), ARM64.\n\n- Fix the crash when sharing a page. Black mode no longer substitutes Drawable calls for Android Icon calls.\n- Center the tab name and X on the same horizontal centerline, keeping the original glyph and font sizes.\n- Fix stale or missing tab favicons after navigation, delayed icon updates and tab restoration. Use Chrome’s local favicon database and native URL/profile checks.\n- Bring the selected tab into view after returning from address entry.\n- Remove the divider that reappeared during long-press menus. Preserve native toolbar capture and scrolling behavior.\n- Keep the address bar black while scrolling, including its composited background and address field.\n\nIn Morphe Manager, select **Chrome customization**. Keep **MicroG sign-in** and **Android autofill** selected if you already use them, and use the same signing key when updating. The picker remains optional under **Chrome Settings → Morphe settings → Tab picker** and requires **True bottom address bar**.\n\nDevice acceptance is limited to Galaxy S26 / Android 16 / 4 KB pages. Releases contain patches, not Chrome or MicroG APKs. See docs/TESTING.md for device results and repeatable fixtures.\n",
+  "download_url": "https://github.com/matthewclso/chrome-morphe/releases/download/v0.5.1/chrome-morphe-0.5.1.mpp",
+  "ecosystem": "morphe",
+  "extraction_status": "unverified",
+  "file_hash": null,
+  "id": "2d31a47e8cad187634ae0f09",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fmatthewclso%2Fchrome-morphe&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fmatthewclso%2Fchrome-morphe&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 108,
+  "metadata_status": "missing",
+  "need_patches_update": true,
+  "packages": [],
+  "patch_count": 0,
+  "patch_list_available": false,
+  "patch_metadata_version": null,
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": "N/A",
+  "source_id": "a4c0fc51b8b017e5",
+  "version": "v0.5.1"
+}

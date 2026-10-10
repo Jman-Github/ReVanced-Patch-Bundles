@@ -1,0 +1,53 @@
+name: Validate patch catalog
+on:
+  workflow_dispatch:
+  pull_request:
+    paths: ['scripts/**', 'tests/**', 'bundle-parser/**', 'config/**', 'shared/**', 'worker/**', 'web/**', 'package*.json', '.github/workflows/**']
+  push:
+    branches: [bundles, main]
+    paths: ['scripts/**', 'tests/**', 'bundle-parser/**', 'config/**', 'shared/**', 'worker/**', 'web/**', 'package*.json', '.github/workflows/**']
+permissions:
+  contents: read
+  packages: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '24'
+          cache: npm
+      - uses: actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654 # v5.2.0
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Python validation and catalog generation
+        run: |
+          python -m pip install -r requirements.txt
+          python -m pytest
+          python -m ruff check .
+          python scripts/generate_database.py --site
+          python scripts/validate_database.py
+          python scripts/validate_json.py
+      - name: Worker validation without Cloudflare credentials
+        run: |
+          npm ci
+          npm test
+          npm run build:worker
+          npm run test:runtime
+      - name: Kotlin parser release validation
+        env:
+          GITHUB_ACTOR: ${{ github.repository_owner }}
+          GITHUB_PACKAGES_TOKEN: ${{ secrets.GH_PAT }}
+          GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
+        run: |
+          export ORG_GRADLE_JAVA_HOME="$JAVA_HOME"
+          chmod +x bundle-parser/gradlew
+          cd bundle-parser
+          ./gradlew assembleRelease

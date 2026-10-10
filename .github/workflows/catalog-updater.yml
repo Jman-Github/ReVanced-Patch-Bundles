@@ -1,0 +1,105 @@
+name: Refresh patch catalog
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  packages: read
+
+concurrency:
+  group: catalog-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+          ref: bundles
+      - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+        with:
+          python-version: '3.12'
+          cache: pip
+      - uses: actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654 # v5.2.0
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e # v6.1.0
+      - uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
+        with:
+          path: internal/cache/release_cache.json
+          key: catalog-releases-v1-${{ runner.os }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: catalog-releases-v1-${{ runner.os }}-
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Refresh and publish catalog progress
+        env:
+          GITHUB_ACTOR: ${{ github.repository_owner }}
+          GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
+          GH_PAT: ${{ secrets.GIT_TOKEN }}
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+          GIT_HOST_TOKENS: ${{ secrets.GIT_HOST_TOKENS }}
+          GITHUB_PACKAGES_TOKEN: ${{ secrets.GH_PAT }}
+        run: python scripts/run_catalog_refresh.py --publish
+      - name: Build and validate catalog
+        run: |
+          python -m pytest
+          python -m ruff check .
+          python scripts/validate_json.py
+          python scripts/generate_database.py --site
+          python scripts/validate_database.py
+      - name: Commit catalog changes
+        id: commit
+        shell: bash
+        run: |
+          git add database
+          if git diff --cached --quiet; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "chore: refresh patch catalog"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Push catalog
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
+        run: git push "https://x-access-token:${GIT_TOKEN}@github.com/${{ github.repository }}.git" HEAD:bundles
+      - name: Upload catalog for Pages
+        if: steps.commit.outputs.changed == 'true' && vars.CATALOG_PAGES_ENABLED == 'true'
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: catalog-site
+          path: site-dist
+          include-hidden-files: true
+          retention-days: 2
+      - name: Notify catalog update
+        if: steps.commit.outputs.changed == 'true'
+        continue-on-error: true
+        env:
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          import httpx
+
+          webhook = os.environ.get("WEBHOOK_URL")
+          if webhook:
+              manifest = json.loads(Path("database/manifest.json").read_text())
+              site = json.loads(Path("config/site.json").read_text())
+              counts = manifest["counts"]
+              message = (
+                  f"Patch catalog updated: {counts['sources']} sources, "
+                  f"{counts['bundles']} bundles, {counts['patches']} patches.\n"
+                  f"{site['website']}"
+              )
+              httpx.post(webhook, json={"content": message, "allowed_mentions": {"parse": []}},
+                         timeout=20).raise_for_status()
+          PY

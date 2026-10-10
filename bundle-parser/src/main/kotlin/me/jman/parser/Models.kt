@@ -10,7 +10,9 @@ data class BundleFile(
     @SerialName("description") val description: String? = null,
     @SerialName("download_url") val downloadUrl: String? = null,
     @SerialName("signature_download_url") val signatureDownloadUrl: String? = null,
-    @SerialName("version") val version: String? = null
+    @SerialName("version") val version: String? = null,
+    @SerialName("provider_digest") val providerDigest: String? = null,
+    @SerialName("bundle_type") val bundleType: String? = null
 )
 
 @Serializable
@@ -22,11 +24,15 @@ data class LegacyBundleAsset(
 @Serializable
 data class LegacyBundleFile(
     val patches: LegacyBundleAsset? = null,
-    val integrations: LegacyBundleAsset? = null
+    val integrations: LegacyBundleAsset? = null,
+    @SerialName("provider_digest") val providerDigest: String? = null
 )
+
+internal const val PATCH_METADATA_SCHEMA_VERSION = 3
 
 @Serializable
 data class LocalPatchesFile(
     val version: String,
-    val patches: JsonArray
+    val patches: JsonArray,
+    val metadata_schema_version: Int = 0
 )

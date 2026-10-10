@@ -1,0 +1,52 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev",
+    "latest"
+  ],
+  "created_at": "2026-04-09T06:59:40",
+  "description": "## [1.4.1-dev.1](https://github.com/wchill/patcheddit/compare/v1.4.0...v1.4.1-dev.1) (2026-04-09)\n\n\n### Bug Fixes\n\n* Resolve login failure caused by non-English language ([fec2ed5](https://github.com/wchill/patcheddit/commit/fec2ed591fa42fa59fd567059cbaae111bfa6caf))\n\n\n\n",
+  "download_url": "https://github.com/wchill/patcheddit/releases/download/v1.4.1-dev.1/patches-1.4.1-dev.1.mpp",
+  "ecosystem": "morphe",
+  "extraction_status": "unverified",
+  "file_hash": null,
+  "id": "4d98f8a0d2205537591a37a6",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fwchill%2Fpatcheddit&version=latest&channel=prerelease",
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fwchill%2Fpatcheddit&version=latest&channel=any"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "com.andrewshu.android.reddit",
+    "com.andrewshu.android.redditdonation",
+    "com.laurencedawson.reddit_sync",
+    "com.laurencedawson.reddit_sync.dev",
+    "com.laurencedawson.reddit_sync.pro",
+    "com.onelouder.baconreader",
+    "com.onelouder.baconreader.premium",
+    "com.rubenmayayo.reddit",
+    "free.reddit.news",
+    "io.syncapps.lemmy_sync",
+    "me.edgan.redditslide",
+    "ml.docilealligator.infinityforreddit.patreon",
+    "ml.docilealligator.infinityforreddit.plus",
+    "o.o.joey",
+    "o.o.joey.dev",
+    "o.o.joey.pro",
+    "org.cygnusx1.continuum",
+    "reddit.news"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_version": "v1.4.1-dev.1",
+  "patcher_runtime": null,
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": "N/A",
+  "source_id": "1a8b238ea552594e",
+  "version": "v1.4.1-dev.1"
+}

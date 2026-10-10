@@ -1,0 +1,36 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-09-06T14:22:28",
+  "description": "# Gemini microG patches 0.1.1\n\nバージョンごとのフック定義を導入しました。\n\n## 変更内容\n\n- Google 17.54.18.ve.arm64 / Gemini 1.0.958859967のフック情報を別ファイルで管理。\n- クラス・メソッド・フィールド・探索文字列・レジスタ条件・期待する変更数・APKハッシュ・検証結果を記録。\n- パッチとDEX検証コードが同じ定義を参照。閲覧用JSONとの整合性をCIで検証。\n- 未登録のversionNameや異なるversionCodeへの適用を停止。\n- 古いトランポリンの記録を実際のaiwk.fへ修正。新バージョンの追加手順を整備。\n\n## 検証\n\nGoogleの15 DEX、Geminiの4 DEXと各AndroidManifestが変更前とバイト単位で一致しました。全APK再ビルド、MPP構造・読み込み、未登録版拒否、定義とJSONの整合性、GitHub CIを確認済みです。\n\n## インストール\n\nMorpheのSourcesからこのリポジトリを更新するか、Assetsの `gemini-microg-patches-0.1.1.mpp` をLocal sourceとして追加してください。\n\n対象はGoogle 17.54.18.ve.arm64 / Gemini 1.0.958859967、microG 7.0.0。新しいGoogleバージョンへの対応を追加したリリースではありません。\n\n従来どおり公式Morphe patches 1.41.0のClone appと `updatePermissions=true`、`updateProviders=true` が必要です。Googleのxxhdpi splitの変換と同一キー署名はREADMEのローカルスクリプトを参照してください。Android版Managerでの一連のAPK作成操作は未確認です。\n",
+  "download_url": "https://github.com/ryuya0124/gemini-microg-patches/releases/download/v0.1.1/gemini-microg-patches-0.1.1.mpp",
+  "ecosystem": "morphe",
+  "extraction_status": "unverified",
+  "file_hash": null,
+  "id": "a031dd4476e6ae8b4c057fef",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fryuya0124%2Fgemini-microg-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fryuya0124%2Fgemini-microg-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "com.google.android.apps.bard",
+    "com.google.android.googlequicksearchbox"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_version": "v0.1.1",
+  "patcher_runtime": null,
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": "N/A",
+  "source_id": "c0dcfb8d9badbc6b",
+  "version": "v0.1.1"
+}

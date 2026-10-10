@@ -1,0 +1,4482 @@
+[
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#E91E63",
+        "name": "PicsArt",
+        "packageName": "com.picsart.studio",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "30.7.8",
+            "versionCodes": {
+              "ARM64_V8A": 993830708,
+              "ARMEABI_V7A": 993830708,
+              "X86": 993830708,
+              "X86_64": 993830708
+            }
+          }
+        ],
+        "versions": [
+          "30.7.8"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Disables PicsArt banner and interstitial ads by forcing the central AdsManager gate to ads-off.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:57",
+    "metadata_status": "unverified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "PicsArt",
+        "versions": [
+          "30.7.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#4FC3F7",
+        "name": "qBitConnect",
+        "packageName": "com.bluematter.qbitconnect",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.0.6",
+            "versionCodes": {
+              "ARM64_V8A": 66,
+              "ARMEABI_V7A": 66,
+              "X86": 66,
+              "X86_64": 66
+            }
+          }
+        ],
+        "versions": [
+          "2.0.6"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks the Remove Ads purchase in qBitConnect by injecting IAP ownership flags into SharedPreferences before Flutter reads them.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:58",
+    "metadata_status": "unverified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "qBitConnect",
+        "versions": [
+          "2.0.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1565C0",
+        "name": "Send Files To TV",
+        "packageName": "com.yablio.sendfilestotv",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.4.22",
+            "versionCodes": {
+              "ARM64_V8A": 69,
+              "ARMEABI_V7A": 69,
+              "X86": 69,
+              "X86_64": 69
+            }
+          }
+        ],
+        "versions": [
+          "1.4.22"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes ads.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:59",
+    "metadata_status": "unverified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Send Files To TV",
+        "versions": [
+          "1.4.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1976D2",
+        "name": "TorrDroid",
+        "packageName": "intelligems.torrdroid",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 10272,
+              "ARMEABI_V7A": 10272,
+              "X86": 10272,
+              "X86_64": 10272
+            }
+          }
+        ],
+        "versions": [
+          "2.0.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes ads from TorrDroid.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:60",
+    "metadata_status": "unverified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "TorrDroid",
+        "versions": [
+          "2.0.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#E53935",
+        "name": "VIZ Manga",
+        "packageName": "com.vizmanga.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.14.5",
+            "versionCodes": {
+              "ARM64_V8A": 243,
+              "ARMEABI_V7A": 243,
+              "X86": 243,
+              "X86_64": 243
+            }
+          }
+        ],
+        "versions": [
+          "4.14.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Remove in-app ads.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:61",
+    "metadata_status": "unverified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "VIZ Manga",
+        "versions": [
+          "4.14.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#1565C0",
+        "name": "AIDA64",
+        "packageName": "com.finalwire.aida64",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.22",
+            "versionCodes": {
+              "ARM64_V8A": 222,
+              "ARMEABI_V7A": 222,
+              "X86": 222,
+              "X86_64": 222
+            }
+          }
+        ],
+        "versions": [
+          "2.22"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Stubs all ad loading paths: banner/interstitial loaders, billing callbacks, and ad SDK init.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:62",
+    "metadata_status": "unverified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "AIDA64",
+        "versions": [
+          "2.22"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#FF9900",
+        "name": "Amazon Shopping",
+        "packageName": "com.amazon.mShop.android.shopping",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "32.17.0.100",
+            "versionCodes": {
+              "ARM64_V8A": 1243230206,
+              "ARMEABI_V7A": 1243230206,
+              "X86": 1243230206,
+              "X86_64": 1243230206
+            }
+          }
+        ],
+        "versions": [
+          "32.17.0.100"
+        ]
+      },
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#FF9900",
+        "name": "Amazon India",
+        "packageName": "in.amazon.mShop.android.shopping",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "32.17.0.300",
+            "versionCodes": {
+              "ARM64_V8A": 1243230206,
+              "ARMEABI_V7A": 1243230206,
+              "X86": 1243230206,
+              "X86_64": 1243230206
+            }
+          }
+        ],
+        "versions": [
+          "32.17.0.300"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides sponsored and ad content in Amazon Shopping via CSS injection.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:63",
+    "metadata_status": "unverified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Amazon Shopping",
+        "versions": [
+          "32.17.0.100"
+        ]
+      },
+      {
+        "name": "Amazon India",
+        "versions": [
+          "32.17.0.300"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#3B82F6",
+        "name": "Block Puzzle",
+        "packageName": "game.puzzle.blockpuzzle",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.1",
+            "versionCodes": {
+              "ARM64_V8A": 61,
+              "ARMEABI_V7A": 61,
+              "X86": 61,
+              "X86_64": 61
+            }
+          }
+        ],
+        "versions": [
+          "6.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Disables Block Puzzle AdMob initialization, banner, and interstitial ads.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:64",
+    "metadata_status": "unverified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Block Puzzle",
+        "versions": [
+          "6.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#E30613",
+        "name": "LiveScore",
+        "packageName": "com.livescore",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "10.1",
+            "versionCodes": {
+              "ARM64_V8A": 2144,
+              "ARMEABI_V7A": 2144,
+              "X86": 2144,
+              "X86_64": 2144
+            }
+          }
+        ],
+        "versions": [
+          "10.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables LiveScore banner, native, and interstitial ad requests.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:65",
+    "metadata_status": "unverified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "LiveScore",
+        "versions": [
+          "10.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram",
+        "packageName": "org.telegram.messenger",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70382,
+              "ARMEABI_V7A": 70382,
+              "X86": 70382,
+              "X86_64": 70382
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Web",
+        "packageName": "org.telegram.messenger.web",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1",
+            "versionCodes": {
+              "ARM64_V8A": 70389,
+              "ARMEABI_V7A": 70389,
+              "X86": 70389,
+              "X86_64": 70389
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2CA5E0",
+        "name": "Telegram Plus",
+        "packageName": "org.telegram.plus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.10.1.1",
+            "versionCodes": {
+              "ARM64_V8A": 22510,
+              "ARMEABI_V7A": 22510,
+              "X86": 22510,
+              "X86_64": 22510
+            }
+          }
+        ],
+        "versions": [
+          "12.10.1.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Removes sponsored messages and video ads from all chats and channels. On Telegram Plus also blocks native banner and inline ads.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:66",
+    "metadata_status": "unverified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Telegram",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Web",
+        "versions": [
+          "12.10.1"
+        ]
+      },
+      {
+        "name": "Telegram Plus",
+        "versions": [
+          "12.10.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0084FF",
+        "name": "Messenger",
+        "packageName": "com.facebook.orca",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "576.0.0.47.92",
+            "versionCodes": {
+              "ARM64_V8A": 345212670,
+              "ARMEABI_V7A": 345212666
+            }
+          }
+        ],
+        "versions": [
+          "576.0.0.47.92"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Removes the Meta AI floating button, drawer items, and search suggestions.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:67",
+    "metadata_status": "unverified",
+    "name": "Remove Meta AI",
+    "options": [],
+    "packages": [
+      {
+        "name": "Messenger",
+        "versions": [
+          "576.0.0.47.92"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#E53935",
+        "name": "DooFlix",
+        "packageName": "com.king.moja",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "9.8"
+          }
+        ],
+        "versions": [
+          "9.8"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes nodepointer background SDK and bypasses forced update screen.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:68",
+    "metadata_status": "unverified",
+    "name": "Remove Reward Service",
+    "options": [],
+    "packages": [
+      {
+        "name": "DooFlix",
+        "versions": [
+          "9.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#000000",
+        "name": "Tracker Detect",
+        "packageName": "com.apple.trackerdetect",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.2",
+            "versionCodes": {
+              "ARM64_V8A": 9,
+              "ARMEABI_V7A": 9,
+              "X86": 9,
+              "X86_64": 9
+            }
+          }
+        ],
+        "versions": [
+          "1.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the 10-minute waiting period before playing a sound on a detected tracker.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:69",
+    "metadata_status": "unverified",
+    "name": "Remove Sound Delay",
+    "options": [],
+    "packages": [
+      {
+        "name": "Tracker Detect",
+        "versions": [
+          "1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#8B3DFF",
+        "name": "Canva",
+        "packageName": "com.canva.editor",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.377.0",
+            "versionCodes": {
+              "ARM64_V8A": 29713819,
+              "ARMEABI_V7A": 29713819,
+              "X86": 29713819,
+              "X86_64": 29713819
+            }
+          }
+        ],
+        "versions": [
+          "2.377.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes watermarks from Canva exports and previews.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:70",
+    "metadata_status": "unverified",
+    "name": "Remove Watermark",
+    "options": [],
+    "packages": [
+      {
+        "name": "Canva",
+        "versions": [
+          "2.377.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#E91E63",
+        "name": "PicsArt",
+        "packageName": "com.picsart.studio",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "30.7.8",
+            "versionCodes": {
+              "ARM64_V8A": 993830708,
+              "ARMEABI_V7A": 993830708,
+              "X86": 993830708,
+              "X86_64": 993830708
+            }
+          }
+        ],
+        "versions": [
+          "30.7.8"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Removes the PicsArt watermark from exported photos and videos.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:71",
+    "metadata_status": "unverified",
+    "name": "Remove Watermark",
+    "options": [],
+    "packages": [
+      {
+        "name": "PicsArt",
+        "versions": [
+          "30.7.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1A73E8",
+        "name": "Server Auditor",
+        "packageName": "com.server.auditor.ssh.client",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.9.0",
+            "versionCodes": {
+              "ARM64_V8A": 936,
+              "ARMEABI_V7A": 936,
+              "X86": 936,
+              "X86_64": 936
+            }
+          }
+        ],
+        "versions": [
+          "7.9.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Pro features by forcing the UserType mapper to always return UserType$Pro.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:72",
+    "metadata_status": "unverified",
+    "name": "Server Auditor Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Server Auditor",
+        "versions": [
+          "7.9.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [
+      "ResourcePatch",
+      "RawResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Makes the app think its signing certificate is unchanged after Morphe re-signs it.\n\nUseful when an app crashes or shows a tamper warning because it checks its own certificate.\n\nDoes not bypass Play Integrity / SafetyNet hardware attestation.\n\nApply with Original app certificate patch.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:73",
+    "metadata_status": "unverified",
+    "name": "Spoof app signature",
+    "options": [
+      {
+        "default": null,
+        "description": "Leave blank — read automatically from the app. Only set this if you changed the app's package name and the patch is using the wrong one.",
+        "key": "packageName",
+        "required": false,
+        "title": "Package name override (optional)",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#4285F4",
+        "name": "Google Photos",
+        "packageName": "com.google.android.apps.photos",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.92.0.977185651",
+            "versionCodes": {
+              "ARM64_V8A": 52372370,
+              "ARMEABI_V7A": 52372370,
+              "X86": 52372370,
+              "X86_64": 52372370
+            }
+          }
+        ],
+        "versions": [
+          "7.92.0.977185651"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Spoofs selectable Pixel Photos build and feature flags.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:74",
+    "metadata_status": "unverified",
+    "name": "Spoof features",
+    "options": [
+      {
+        "default": "pixel_xl",
+        "description": "Device profile used for Build fields and Pixel feature levels.",
+        "key": "googlePhotosSpoofProfile",
+        "required": true,
+        "title": "Pixel profile",
+        "type": "kotlin.String",
+        "values": {
+          "Pixel - unlimited original quality": "pixel",
+          "Pixel 10 Pro XL - latest Pixel AI": "pixel_10_pro_xl",
+          "Pixel 2 - storage saver": "pixel_2",
+          "Pixel 3 XL - storage saver": "pixel_3_xl",
+          "Pixel 3a XL - storage saver": "pixel_3a_xl",
+          "Pixel 4 XL - storage saver": "pixel_4_xl",
+          "Pixel 4a - storage saver": "pixel_4a",
+          "Pixel 5 - storage saver": "pixel_5",
+          "Pixel 5a - storage saver": "pixel_5a",
+          "Pixel 6 Pro - feature gates only": "pixel_6_pro",
+          "Pixel 6a - feature gates only": "pixel_6a",
+          "Pixel 7 - feature gates only": "pixel_7",
+          "Pixel 7 Pro - feature gates only": "pixel_7_pro",
+          "Pixel 7a - feature gates only": "pixel_7a",
+          "Pixel 8 - feature gates only": "pixel_8",
+          "Pixel 8 Pro - Video Boost": "pixel_8_pro",
+          "Pixel 8a - feature gates only": "pixel_8a",
+          "Pixel 9 - AI editing": "pixel_9",
+          "Pixel 9 Pro - AI editing": "pixel_9_pro",
+          "Pixel 9 Pro XL - AI editing": "pixel_9_pro_xl",
+          "Pixel 9a - AI editing": "pixel_9a",
+          "Pixel XL - unlimited original quality": "pixel_xl"
+        }
+      },
+      {
+        "default": "none",
+        "description": "Optionally spoof Build.VERSION fields. Follow profile uses the selected Pixel's matching Android version.",
+        "key": "googlePhotosAndroidVersion",
+        "required": false,
+        "title": "Android version",
+        "type": "kotlin.String",
+        "values": {
+          "Android 13": "android_13",
+          "Android 14": "android_14",
+          "Android 15": "android_15",
+          "Android 16": "android_16",
+          "Android 17": "android_17",
+          "Do not spoof Android version": "none",
+          "Follow Pixel profile": "follow_profile",
+          "Nougat 7.1.2": "nougat_7_1_2",
+          "Oreo 8.1.0": "oreo_8_1_0",
+          "Pie 9.0": "pie_9_0",
+          "Q 10.0": "q_10_0",
+          "R 11.0": "r_11_0",
+          "S 12.0": "s_12_0"
+        }
+      },
+      {
+        "default": true,
+        "description": "Force newer Pixel feature flags off when the selected profile should not have them.",
+        "key": "googlePhotosOverrideRomFeatureLevels",
+        "required": false,
+        "title": "Override ROM feature levels",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Google Photos",
+        "versions": [
+          "7.92.0.977185651"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Makes the app think it was installed from a specific store (default: Google Play).\n\nUseful when an app blocks features or shows errors because it detects it was not installed from the Play Store.\n\nOnly affects what the app itself sees - does not change the real system install record.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:75",
+    "metadata_status": "unverified",
+    "name": "Spoof install source",
+    "options": [
+      {
+        "default": "com.android.vending",
+        "description": "Most apps only check for the Google Play Store, so the default is usually correct. Pick from the list, or type any package name directly if your app checks for a different store.",
+        "key": "installerPackageName",
+        "required": true,
+        "title": "Store to impersonate",
+        "type": "kotlin.String",
+        "values": {
+          "Amazon Appstore": "com.amazon.venezia",
+          "F-Droid": "org.fdroid.fdroid",
+          "Google Play Store": "com.android.vending",
+          "Huawei AppGallery": "com.huawei.appmarket",
+          "Samsung Galaxy Store": "com.sec.android.app.samsungapps",
+          "Xiaomi GetApps": "com.xiaomi.mipicks"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0084FF",
+        "name": "Messenger",
+        "packageName": "com.facebook.orca",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "576.0.0.47.92",
+            "versionCodes": {
+              "ARM64_V8A": 345212670,
+              "ARMEABI_V7A": 345212666
+            }
+          }
+        ],
+        "versions": [
+          "576.0.0.47.92"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Sets a very high version code so the Play Store treats the app as already up to date and never offers an update.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:76",
+    "metadata_status": "unverified",
+    "name": "Spoof package version",
+    "options": [
+      {
+        "default": "2147483647",
+        "description": "The version code to set. Must be higher than the Play Store version to suppress updates. Defaults to the maximum value.",
+        "key": "messengerVersionCode",
+        "required": true,
+        "title": "Version code",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Messenger",
+        "versions": [
+          "576.0.0.47.92"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#F48120",
+        "name": "1.1.1.1",
+        "packageName": "com.cloudflare.onedotonedotonedotone",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.38.9",
+            "versionCodes": {
+              "ARM64_V8A": 5641,
+              "ARMEABI_V7A": 5641,
+              "X86": 5641,
+              "X86_64": 5641
+            }
+          }
+        ],
+        "versions": [
+          "6.38.9"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Forces WarpPlusState to UNLIMITED on every AccountData instance by intercepting the primary constructor before the account type field is written.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:77",
+    "metadata_status": "unverified",
+    "name": "Spoof WARP+ Unlimited UI",
+    "options": [],
+    "packages": [
+      {
+        "name": "1.1.1.1",
+        "versions": [
+          "6.38.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Reports Widevine L1 (hardware DRM) to apps that check DRM level locally.\n\nUseful for apps that refuse to play HD/4K content on L3 devices or after re-signing.\n\nDoes not bypass server-side DRM - Netflix, Disney+ and similar are not affected.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:78",
+    "metadata_status": "unverified",
+    "name": "Spoof Widevine / DRM level",
+    "options": [
+      {
+        "default": "L1",
+        "description": "L1 = hardware DRM (highest quality). L3 = software only. Default L1.",
+        "key": "securityLevel",
+        "required": true,
+        "title": "Widevine security level to report",
+        "type": "kotlin.String",
+        "values": {
+          "L1 (highest — hardware)": "L1",
+          "L2": "L2",
+          "L3 (software only)": "L3"
+        }
+      },
+      {
+        "default": "HDCP_V2_2",
+        "description": "HDCP_V2_2 is required for 4K content on most streaming apps.",
+        "key": "hdcpLevel",
+        "required": false,
+        "title": "HDCP level to report",
+        "type": "kotlin.String",
+        "values": {
+          "HDCP 1.x": "HDCP_V1",
+          "HDCP 2.2": "HDCP_V2_2",
+          "HDCP 2.3": "HDCP_V2_3",
+          "None (disable)": "HDCP_LEVEL_NONE"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1565C0",
+        "name": "FlightAware",
+        "packageName": "com.flightaware.android.liveFlightTracker",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "5.16.1",
+            "versionCodes": {
+              "ARM64_V8A": 501600104,
+              "ARMEABI_V7A": 501600104,
+              "X86": 501600104,
+              "X86_64": 501600104
+            }
+          }
+        ],
+        "versions": [
+          "5.16.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Forces FlightAware ad-free subscribed state.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:79",
+    "metadata_status": "unverified",
+    "name": "Unlock Ad-Free",
+    "options": [],
+    "packages": [
+      {
+        "name": "FlightAware",
+        "versions": [
+          "5.16.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#D81F26",
+        "name": "Speedtest",
+        "packageName": "org.zwanoo.android.speedtest",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.1.0",
+            "versionCodes": {
+              "ARM64_V8A": 263066,
+              "ARMEABI_V7A": 263066,
+              "X86": 263066,
+              "X86_64": 263066
+            }
+          }
+        ],
+        "versions": [
+          "7.1.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes ads and unlocks ad-free status in Speedtest by Ookla.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:80",
+    "metadata_status": "unverified",
+    "name": "Unlock Ad-Free",
+    "options": [],
+    "packages": [
+      {
+        "name": "Speedtest",
+        "versions": [
+          "7.1.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1565C0",
+        "name": "nzb360",
+        "packageName": "com.kevinforeman.nzb360",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "24.4.1",
+            "versionCodes": {
+              "ARM64_V8A": 528,
+              "ARMEABI_V7A": 528,
+              "X86": 528,
+              "X86_64": 528
+            }
+          }
+        ],
+        "versions": [
+          "24.4.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks All access in Nzb360.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:81",
+    "metadata_status": "unverified",
+    "name": "Unlock All Access",
+    "options": [],
+    "packages": [
+      {
+        "name": "nzb360",
+        "versions": [
+          "24.4.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#327CB5",
+        "name": "Flightradar24",
+        "packageName": "com.flightradar24free",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "11.10.0",
+            "versionCodes": {
+              "ARM64_V8A": 111000000,
+              "ARMEABI_V7A": 111000000,
+              "X86": 111000000,
+              "X86_64": 111000000
+            }
+          }
+        ],
+        "versions": [
+          "11.10.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Business-tier features in Flightradar24: ad-free experience, weather layers, ATC routes, 3D view, flight history playback, and unlimited saved locations.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:82",
+    "metadata_status": "unverified",
+    "name": "Unlock Business Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Flightradar24",
+        "versions": [
+          "11.10.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#1565C0",
+        "name": "Blurams",
+        "packageName": "com.blurams.ipc",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "5.1049.4.921",
+            "versionCodes": {
+              "ARM64_V8A": 1921,
+              "ARMEABI_V7A": 1921,
+              "X86": 1921,
+              "X86_64": 1921
+            }
+          }
+        ],
+        "versions": [
+          "5.1049.4.921"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks BluramsGuard cloud storage, AI detection, and playback features.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:83",
+    "metadata_status": "unverified",
+    "name": "Unlock Cloud Service",
+    "options": [],
+    "packages": [
+      {
+        "name": "Blurams",
+        "versions": [
+          "5.1049.4.921"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#00A862",
+        "name": "Citymapper",
+        "packageName": "com.citymapper.app.release",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "11.58",
+            "versionCodes": {
+              "ARM64_V8A": 1158050,
+              "ARMEABI_V7A": 1158050,
+              "X86": 1158050,
+              "X86_64": 1158050
+            }
+          }
+        ],
+        "versions": [
+          "11.58"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Citymapper Club Membership. Note: requires a manual purchase attempt inside the app.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:84",
+    "metadata_status": "unverified",
+    "name": "Unlock Club",
+    "options": [],
+    "packages": [
+      {
+        "name": "Citymapper",
+        "versions": [
+          "11.58"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#E53935",
+        "name": "MANGA Plus by SHUEISHA",
+        "packageName": "jp.co.shueisha.mangaplus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.6.4",
+            "versionCodes": {
+              "ARM64_V8A": 264,
+              "ARMEABI_V7A": 264,
+              "X86": 264,
+              "X86_64": 264
+            }
+          }
+        ],
+        "versions": [
+          "2.6.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks the Deluxe subscription.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:85",
+    "metadata_status": "unverified",
+    "name": "Unlock Deluxe",
+    "options": [],
+    "packages": [
+      {
+        "name": "MANGA Plus by SHUEISHA",
+        "versions": [
+          "2.6.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#4CAF50",
+        "name": "Greenify",
+        "packageName": "com.oasisfeng.greenify",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "5.1.1",
+            "versionCodes": {
+              "ARM64_V8A": 51100,
+              "ARMEABI_V7A": 51100,
+              "X86": 51100,
+              "X86_64": 51100
+            }
+          }
+        ],
+        "versions": [
+          "5.1.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all premium donation features in Greenify.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:86",
+    "metadata_status": "unverified",
+    "name": "Unlock Donation",
+    "options": [],
+    "packages": [
+      {
+        "name": "Greenify",
+        "versions": [
+          "5.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2196F3",
+        "name": "Weawow",
+        "packageName": "com.weawow",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.1.9",
+            "versionCodes": {
+              "ARM64_V8A": 719,
+              "ARMEABI_V7A": 719,
+              "X86": 719,
+              "X86_64": 719
+            }
+          }
+        ],
+        "versions": [
+          "7.1.9"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Forces h0() to return \"yes\" so donate dialog never shows and providers unlock.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:87",
+    "metadata_status": "unverified",
+    "name": "Unlock donation",
+    "options": [],
+    "packages": [
+      {
+        "name": "Weawow",
+        "versions": [
+          "7.1.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E53935",
+        "name": "Scoopz",
+        "packageName": "com.localaiapp.scoops",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.36.0",
+            "versionCodes": {
+              "ARM64_V8A": 3360002,
+              "ARMEABI_V7A": 3360002,
+              "X86": 3360002,
+              "X86_64": 3360002
+            }
+          }
+        ],
+        "versions": [
+          "3.36.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Bypasses the IAA (ad-watch-to-unlock) episode gate for drama mini-series.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:88",
+    "metadata_status": "unverified",
+    "name": "Unlock Drama Episodes",
+    "options": [],
+    "packages": [
+      {
+        "name": "Scoopz",
+        "versions": [
+          "3.36.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1A73E8",
+        "name": "JEFIT",
+        "packageName": "je.fit",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "17.4.4",
+            "versionCodes": {
+              "ARM64_V8A": 2093,
+              "ARMEABI_V7A": 2093,
+              "X86": 2093,
+              "X86_64": 2093
+            }
+          }
+        ],
+        "versions": [
+          "17.4.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks JEFIT Elite features in app.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:89",
+    "metadata_status": "unverified",
+    "name": "Unlock Elite",
+    "options": [],
+    "packages": [
+      {
+        "name": "JEFIT",
+        "versions": [
+          "17.4.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2563EB",
+        "name": "MigraConnect",
+        "packageName": "com.tecso.MigraConnect",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.8.2",
+            "versionCodes": {
+              "ARM64_V8A": 119,
+              "ARMEABI_V7A": 119,
+              "X86": 119,
+              "X86_64": 119
+            }
+          }
+        ],
+        "versions": [
+          "2.8.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Enterprise features in app.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:90",
+    "metadata_status": "unverified",
+    "name": "Unlock Enterprise",
+    "options": [],
+    "packages": [
+      {
+        "name": "MigraConnect",
+        "versions": [
+          "2.8.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B5E20",
+        "name": "Excel",
+        "packageName": "com.microsoft.office.excel",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "16.0.20228.20090",
+            "versionCodes": {
+              "ARM64_V8A": 2006247667,
+              "ARMEABI_V7A": 2006247667,
+              "X86": 2006247667,
+              "X86_64": 2006247667
+            }
+          }
+        ],
+        "versions": [
+          "16.0.20228.20090"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Removes login requirement, unlocks premium, blocks ads, bypasses signature and code transparency checks.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:91",
+    "metadata_status": "unverified",
+    "name": "Unlock Excel",
+    "options": [],
+    "packages": [
+      {
+        "name": "Excel",
+        "versions": [
+          "16.0.20228.20090"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#6200EE",
+        "name": "Inure App Manager",
+        "packageName": "app.simple.inure.play",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "build107.2.1",
+            "versionCodes": {
+              "ARM64_V8A": 10721,
+              "ARMEABI_V7A": 10721,
+              "X86": 10721,
+              "X86_64": 10721
+            }
+          }
+        ],
+        "versions": [
+          "build107.2.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Bypasses the 15-day trial gate and unlocks all premium features in Inure App Manager.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:92",
+    "metadata_status": "unverified",
+    "name": "Unlock Full Version",
+    "options": [],
+    "packages": [
+      {
+        "name": "Inure App Manager",
+        "versions": [
+          "build107.2.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#46178F",
+        "name": "Kahoot!",
+        "packageName": "no.mobitroll.kahoot.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.6.7",
+            "versionCodes": {
+              "ARM64_V8A": 3246,
+              "ARMEABI_V7A": 3246,
+              "X86": 3246,
+              "X86_64": 3246
+            }
+          }
+        ],
+        "versions": [
+          "6.6.7"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Kahoot! Plus Gold features in app.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:93",
+    "metadata_status": "unverified",
+    "name": "Unlock Gold",
+    "options": [],
+    "packages": [
+      {
+        "name": "Kahoot!",
+        "versions": [
+          "6.6.7"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2196F3",
+        "name": "BubbleUPnP",
+        "packageName": "com.bubblesoft.android.bubbleupnp",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.6.6",
+            "versionCodes": {
+              "ARM64_V8A": 3000930,
+              "ARMEABI_V7A": 3000930,
+              "X86": 3000930,
+              "X86_64": 3000930
+            }
+          }
+        ],
+        "versions": [
+          "4.6.6"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Unlocks BubbleUPnP licence by forcing the licence setter to always write true.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:94",
+    "metadata_status": "unverified",
+    "name": "Unlock Licence",
+    "options": [],
+    "packages": [
+      {
+        "name": "BubbleUPnP",
+        "versions": [
+          "4.6.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#FF5252",
+        "name": "BlockerHero",
+        "packageName": "com.blockerhero",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.5.0",
+            "versionCodes": {
+              "ARM64_V8A": 190,
+              "ARMEABI_V7A": 190,
+              "X86": 190,
+              "X86_64": 190
+            }
+          }
+        ],
+        "versions": [
+          "1.5.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks lifetime subscription features in BlockerHero.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:95",
+    "metadata_status": "unverified",
+    "name": "Unlock Lifetime",
+    "options": [],
+    "packages": [
+      {
+        "name": "BlockerHero",
+        "versions": [
+          "1.5.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#FF6B35",
+        "name": "Proxyman",
+        "packageName": "com.proxyman.proxymanandroid",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.21.0",
+            "versionCodes": {
+              "ARM64_V8A": 48,
+              "ARMEABI_V7A": 48,
+              "X86": 48,
+              "X86_64": 48
+            }
+          }
+        ],
+        "versions": [
+          "1.21.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all Lifetime features in Proxyman.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:96",
+    "metadata_status": "unverified",
+    "name": "Unlock Lifetime",
+    "options": [],
+    "packages": [
+      {
+        "name": "Proxyman",
+        "versions": [
+          "1.21.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#67B346",
+        "name": "AdGuard",
+        "packageName": "com.adguard.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.14.68",
+            "versionCodes": {
+              "ARM64_V8A": 10330100,
+              "ARMEABI_V7A": 10330100,
+              "X86": 10330100,
+              "X86_64": 10330100
+            }
+          }
+        ],
+        "versions": [
+          "4.14.68"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all features locked behind the subscription paywall.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:97",
+    "metadata_status": "unverified",
+    "name": "Unlock Lifetime Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "AdGuard",
+        "versions": [
+          "4.14.68"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#E53935",
+        "name": "DramaBox",
+        "packageName": "com.storymatrix.drama",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "5.8.1",
+            "versionCodes": {
+              "ARM64_V8A": 581,
+              "ARMEABI_V7A": 581,
+              "X86": 581,
+              "X86_64": 581
+            }
+          }
+        ],
+        "versions": [
+          "5.8.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks DramaBox VIP membershipNote: Use apk from Uptodown",
+    "id": "ad4b7c19d2523b4c5d34ec1e:98",
+    "metadata_status": "unverified",
+    "name": "Unlock Membership",
+    "options": [],
+    "packages": [
+      {
+        "name": "DramaBox",
+        "versions": [
+          "5.8.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#0066FF",
+        "name": "Moovit",
+        "packageName": "com.tranzmate",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "5.197.1.1801",
+            "versionCodes": {
+              "ARM64_V8A": 1801,
+              "ARMEABI_V7A": 1801,
+              "X86": 1801,
+              "X86_64": 1801
+            }
+          }
+        ],
+        "versions": [
+          "5.197.1.1801"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Moovit+ premium features, removes ads, and suppresses all upgrade paywalls and UI.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:99",
+    "metadata_status": "unverified",
+    "name": "Unlock Moovit+",
+    "options": [],
+    "packages": [
+      {
+        "name": "Moovit",
+        "versions": [
+          "5.197.1.1801"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#F43E37",
+        "name": "Pocket Casts",
+        "packageName": "au.com.shiftyjelly.pocketcasts",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "8.16",
+            "versionCodes": {
+              "ARM64_V8A": 9441,
+              "ARMEABI_V7A": 9441,
+              "X86": 9441,
+              "X86_64": 9441
+            }
+          }
+        ],
+        "versions": [
+          "8.16"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Pocket Casts Patron yearly feature checks.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:100",
+    "metadata_status": "unverified",
+    "name": "Unlock Patron",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pocket Casts",
+        "versions": [
+          "8.16"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#5D2DE6",
+        "name": "Life360",
+        "packageName": "com.life360.android.safetymapd",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.31.6",
+            "versionCodes": {
+              "ARM64_V8A": 2915100,
+              "ARMEABI_V7A": 2915100,
+              "X86": 2915100,
+              "X86_64": 2915100
+            }
+          }
+        ],
+        "versions": [
+          "26.31.6"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Unlocks Life360 Platinum feature in app.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:101",
+    "metadata_status": "unverified",
+    "name": "Unlock Platinum",
+    "options": [],
+    "packages": [
+      {
+        "name": "Life360",
+        "versions": [
+          "26.31.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#E91E63",
+        "name": "Clue Period & Cycle Tracker",
+        "packageName": "com.clue.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "269.1",
+            "versionCodes": {
+              "ARM64_V8A": 3189,
+              "ARMEABI_V7A": 3189,
+              "X86": 3189,
+              "X86_64": 3189
+            }
+          }
+        ],
+        "versions": [
+          "269.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Forces Clue Plus subscription active, unlocking all premium features.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:102",
+    "metadata_status": "unverified",
+    "name": "Unlock Plus",
+    "options": [],
+    "packages": [
+      {
+        "name": "Clue Period & Cycle Tracker",
+        "versions": [
+          "269.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#1C9BE6",
+        "name": "SpotAngels",
+        "packageName": "com.spotangels.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "15.2.2",
+            "versionCodes": {
+              "ARM64_V8A": 10323,
+              "ARMEABI_V7A": 10323,
+              "X86": 10323,
+              "X86_64": 10323
+            }
+          }
+        ],
+        "versions": [
+          "15.2.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all SpotAngels Plus features in app",
+    "id": "ad4b7c19d2523b4c5d34ec1e:103",
+    "metadata_status": "unverified",
+    "name": "Unlock Plus",
+    "options": [],
+    "packages": [
+      {
+        "name": "SpotAngels",
+        "versions": [
+          "15.2.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#00ADEF",
+        "name": "Sticker.ly",
+        "packageName": "com.snowcorp.stickerly.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.37.1",
+            "versionCodes": {
+              "ARM64_V8A": 1033701,
+              "ARMEABI_V7A": 1033701,
+              "X86": 1033701,
+              "X86_64": 1033701
+            }
+          }
+        ],
+        "versions": [
+          "3.37.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Sticker.ly Plus subscription. Note: For Facebook Login, uninstall the Facebook app first.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:104",
+    "metadata_status": "unverified",
+    "name": "Unlock Plus",
+    "options": [],
+    "packages": [
+      {
+        "name": "Sticker.ly",
+        "versions": [
+          "3.37.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1565C0",
+        "name": "Subway Now",
+        "packageName": "io.goodservice.theweekendest",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.2.10",
+            "versionCodes": {
+              "ARM64_V8A": 81,
+              "ARMEABI_V7A": 81,
+              "X86": 81,
+              "X86_64": 81
+            }
+          }
+        ],
+        "versions": [
+          "1.2.10"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Unlocks Subway Now Plus.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:105",
+    "metadata_status": "unverified",
+    "name": "Unlock Plus",
+    "options": [],
+    "packages": [
+      {
+        "name": "Subway Now",
+        "versions": [
+          "1.2.10"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1A73E8",
+        "name": "AAEnabler",
+        "packageName": "com.aaenabler.app",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "v1.0.12",
+            "versionCodes": {
+              "ARM64_V8A": 12,
+              "ARMEABI_V7A": 12,
+              "X86": 12,
+              "X86_64": 12
+            }
+          }
+        ],
+        "versions": [
+          "v1.0.12"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks premium installation features by bypassing the Firestore license check.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:106",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "AAEnabler",
+        "versions": [
+          "v1.0.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#00BCD4",
+        "name": "AccuBattery",
+        "packageName": "com.digibites.accubattery",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.1.8",
+            "versionCodes": {
+              "ARM64_V8A": 201008,
+              "ARMEABI_V7A": 201008,
+              "X86": 201008,
+              "X86_64": 201008
+            }
+          }
+        ],
+        "versions": [
+          "2.1.8"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks AccuBattery Pro by bypassing server offer validity, the Google Play purchase gate, and all UI premium banners.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:107",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "AccuBattery",
+        "versions": [
+          "2.1.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1565C0",
+        "name": "Ace Ex File Manager",
+        "packageName": "com.ace.ex.file.manager",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.6.0.4",
+            "versionCodes": {
+              "ARM64_V8A": 48,
+              "ARMEABI_V7A": 48,
+              "X86": 48,
+              "X86_64": 48
+            }
+          }
+        ],
+        "versions": [
+          "1.6.0.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks premium features in app.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:108",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Ace Ex File Manager",
+        "versions": [
+          "1.6.0.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#B30B00",
+        "name": "Adobe Scan",
+        "packageName": "com.adobe.scan.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.08.01"
+          }
+        ],
+        "versions": [
+          "26.08.01"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all premium scanning and PDF tools in Adobe Scan.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:109",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Adobe Scan",
+        "versions": [
+          "26.08.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2563EB",
+        "name": "AiScore",
+        "packageName": "com.onesports.score",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.2.7",
+            "versionCodes": {
+              "ARM64_V8A": 292,
+              "ARMEABI_V7A": 292,
+              "X86": 292,
+              "X86_64": 292
+            }
+          }
+        ],
+        "versions": [
+          "4.2.7"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks AiScore Premium Features in app.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:110",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "AiScore",
+        "versions": [
+          "4.2.7"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#1565C0",
+        "name": "All Reader",
+        "packageName": "alldocumentreader.office.viewer.filereader.pdfviewer",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.2.4",
+            "versionCodes": {
+              "ARM64_V8A": 53,
+              "ARMEABI_V7A": 53,
+              "X86": 53,
+              "X86_64": 53
+            }
+          }
+        ],
+        "versions": [
+          "3.2.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks All Reader premium features and removes ads.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:111",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "All Reader",
+        "versions": [
+          "3.2.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF9800",
+        "name": "Ampere",
+        "packageName": "com.gombosdev.ampere",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "v4.37.0",
+            "versionCodes": {
+              "ARM64_V8A": 292,
+              "ARMEABI_V7A": 292,
+              "X86": 292,
+              "X86_64": 292
+            }
+          }
+        ],
+        "versions": [
+          "v4.37.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks the Remove Ads purchase in Ampere by bypassing the isProVersion getter and purchase verifier.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:112",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Ampere",
+        "versions": [
+          "v4.37.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1DA1F2",
+        "name": "AndroPods",
+        "packageName": "pro.vitalii.andropods",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.5.30",
+            "versionCodes": {
+              "ARM64_V8A": 86,
+              "ARMEABI_V7A": 86,
+              "X86": 86,
+              "X86_64": 86
+            }
+          }
+        ],
+        "versions": [
+          "1.5.30"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks AndroPods Pro: voice call integration, assistant control, ear detection auto-pause/resume, and all premium preferences.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:113",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "AndroPods",
+        "versions": [
+          "1.5.30"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#FF5722",
+        "name": "AnExplorer",
+        "packageName": "dev.dworks.apps.anexplorer",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.0.6",
+            "versionCodes": {
+              "ARM64_V8A": 60604,
+              "ARMEABI_V7A": 60604,
+              "X86": 60604,
+              "X86_64": 60604
+            }
+          }
+        ],
+        "versions": [
+          "6.0.6"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks AnExplorer Pro: hides paywall and removes all purchase gates.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:114",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "AnExplorer",
+        "versions": [
+          "6.0.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#6A1B9A",
+        "name": "Anime Depth Wallpapers",
+        "packageName": "com.jndapp.anime.depth.live.wallpaper",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.1.2",
+            "versionCodes": {
+              "ARM64_V8A": 6,
+              "ARMEABI_V7A": 6,
+              "X86": 6,
+              "X86_64": 6
+            }
+          }
+        ],
+        "versions": [
+          "1.1.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all premium wallpapers.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:115",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Anime Depth Wallpapers",
+        "versions": [
+          "1.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1565C0",
+        "name": "Athena",
+        "packageName": "com.kin.athena",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.80",
+            "versionCodes": {
+              "ARM64_V8A": 306,
+              "ARMEABI_V7A": 306,
+              "X86": 306,
+              "X86_64": 306
+            }
+          }
+        ],
+        "versions": [
+          "1.80"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all premium features in Athena by making Settings.getPremiumUnlocked() always return true.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:116",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Athena",
+        "versions": [
+          "1.80"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF6600",
+        "name": "Automate",
+        "packageName": "com.llamalab.automate",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.53.2",
+            "versionCodes": {
+              "ARM64_V8A": 266,
+              "ARMEABI_V7A": 266,
+              "X86": 266,
+              "X86_64": 266
+            }
+          }
+        ],
+        "versions": [
+          "1.53.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the 30 running statement limit and unlocks Automate premium features.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:117",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Automate",
+        "versions": [
+          "1.53.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1A237E",
+        "name": "Awake",
+        "packageName": "com.mk.awake",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.10.3",
+            "versionCodes": {
+              "ARM64_V8A": 230020072,
+              "ARMEABI_V7A": 230020072,
+              "X86": 230020072,
+              "X86_64": 230020072
+            }
+          }
+        ],
+        "versions": [
+          "1.10.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all premium features in Awake by bypassing the RC entitlement check chain and the Pairip Play Licensing verification.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:118",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Awake",
+        "versions": [
+          "1.10.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1B7080",
+        "name": "Battery Guru",
+        "packageName": "com.paget96.batteryguru",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.5.0.8",
+            "versionCodes": {
+              "ARM64_V8A": 732,
+              "ARMEABI_V7A": 732,
+              "X86": 732,
+              "X86_64": 732
+            }
+          }
+        ],
+        "versions": [
+          "2.5.0.8"
+        ]
+      },
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1B7080",
+        "name": "Battery Guru",
+        "packageName": "com.paget96.batteryguru",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.5.0.8",
+            "versionCodes": {
+              "ARM64_V8A": 732,
+              "ARMEABI_V7A": 732,
+              "X86": 732,
+              "X86_64": 732
+            }
+          }
+        ],
+        "versions": [
+          "2.5.0.8"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks premium and marks the yearly plan as purchased.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:119",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Battery Guru",
+        "versions": [
+          "2.5.0.8"
+        ]
+      },
+      {
+        "name": "Battery Guru",
+        "versions": [
+          "2.5.0.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#4CAF50",
+        "name": "BatteryPods",
+        "packageName": "com.sumyapplications.bluetooth.earphone",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.52",
+            "versionCodes": {
+              "ARM64_V8A": 7520,
+              "ARMEABI_V7A": 7520,
+              "X86": 7520,
+              "X86_64": 7520
+            }
+          }
+        ],
+        "versions": [
+          "7.52"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks BatteryPods Pro: removes all advertisements and enables premium features including all widget themes and device customization options.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:120",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "BatteryPods",
+        "versions": [
+          "7.52"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#1A1A2E",
+        "name": "Bluetooth Keyboard & Mouse",
+        "packageName": "io.appground.blek",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.23.1",
+            "versionCodes": {
+              "ARM64_V8A": 257,
+              "ARMEABI_V7A": 257,
+              "X86": 257,
+              "X86_64": 257
+            }
+          }
+        ],
+        "versions": [
+          "6.23.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Unlocks all premium features including fullscreen mode and removes the Upgrade navigation item.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:121",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Bluetooth Keyboard & Mouse",
+        "versions": [
+          "6.23.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#EF4444",
+        "name": "Blocking Sites",
+        "packageName": "com.blocking.sites",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.0.19",
+            "versionCodes": {
+              "ARM64_V8A": 331,
+              "ARMEABI_V7A": 331,
+              "X86": 331,
+              "X86_64": 331
+            }
+          }
+        ],
+        "versions": [
+          "4.0.19"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks premium features in Blocking Sites.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:122",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Blocking Sites",
+        "versions": [
+          "4.0.19"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#42A5F5",
+        "name": "BlurWall",
+        "packageName": "apps.automan.blurwallpaper",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.9.6",
+            "versionCodes": {
+              "ARM64_V8A": 30,
+              "ARMEABI_V7A": 30,
+              "X86": 30,
+              "X86_64": 30
+            }
+          }
+        ],
+        "versions": [
+          "2.9.6"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Unlock Premium Features in app.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:123",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "BlurWall",
+        "versions": [
+          "2.9.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#FF5A36",
+        "name": "BoldVoice",
+        "packageName": "com.wellocution.androidapp",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.6.6",
+            "versionCodes": {
+              "ARM64_V8A": 415,
+              "ARMEABI_V7A": 415,
+              "X86": 415,
+              "X86_64": 415
+            }
+          }
+        ],
+        "versions": [
+          "4.6.6"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks BoldVoice premium subscription and removes upsell nags.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:124",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "BoldVoice",
+        "versions": [
+          "4.6.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF5722",
+        "name": "calimoto",
+        "packageName": "com.calimoto.calimoto",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2026.08.3",
+            "versionCodes": {
+              "ARM64_V8A": 626,
+              "ARMEABI_V7A": 626,
+              "X86": 626,
+              "X86_64": 626
+            }
+          }
+        ],
+        "versions": [
+          "2026.08.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Calimoto LIFETIME membership by spoofing the membership getter.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:125",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "calimoto",
+        "versions": [
+          "2026.08.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#E53935",
+        "name": "Cube ACR",
+        "packageName": "com.catalinagroup.callrecorder",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.4.281",
+            "versionCodes": {
+              "ARM64_V8A": 281,
+              "ARMEABI_V7A": 281,
+              "X86": 281,
+              "X86_64": 281
+            }
+          }
+        ],
+        "versions": [
+          "2.4.281"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Premium Features In the App.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:126",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Cube ACR",
+        "versions": [
+          "2.4.281"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#4A90D9",
+        "name": "Calm",
+        "packageName": "com.calm.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.102",
+            "versionCodes": {
+              "ARM64_V8A": 4120456,
+              "ARMEABI_V7A": 4120456,
+              "X86": 4120456,
+              "X86_64": 4120456
+            }
+          }
+        ],
+        "versions": [
+          "6.102"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Calm Premium: removes all subscription gates, upsell banners, video session locks, and content locks.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:127",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Calm",
+        "versions": [
+          "6.102"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#FF6B35",
+        "name": "Calory",
+        "packageName": "com.funnmedia.calory",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.8",
+            "versionCodes": {
+              "ARM64_V8A": 208,
+              "ARMEABI_V7A": 208,
+              "X86": 208,
+              "X86_64": 208
+            }
+          }
+        ],
+        "versions": [
+          "3.8"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Calory Pro and removes ads.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:128",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Calory",
+        "versions": [
+          "3.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#111111",
+        "name": "Carbon",
+        "packageName": "com.joincarbon.nutrition",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.76.5966",
+            "versionCodes": {
+              "ARM64_V8A": 1633629252,
+              "ARMEABI_V7A": 1633629252,
+              "X86": 1633629252,
+              "X86_64": 1633629252
+            }
+          }
+        ],
+        "versions": [
+          "2.76.5966"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Carbon premium subscription.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:129",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Carbon",
+        "versions": [
+          "2.76.5966"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#E53935",
+        "name": "Cast to TV",
+        "packageName": "cast.video.screenmirroring.casttotv",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.5.4",
+            "versionCodes": {
+              "ARM64_V8A": 254001,
+              "ARMEABI_V7A": 254001,
+              "X86": 254001,
+              "X86_64": 254001
+            }
+          }
+        ],
+        "versions": [
+          "2.5.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Unlocks Cast to TV - XCast premium by forcing subscription and pro gates to return true.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:130",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Cast to TV",
+        "versions": [
+          "2.5.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#4CAF50",
+        "name": "Charge Meter",
+        "packageName": "dev.km.android.chargemeter",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.0.1",
+            "versionCodes": {
+              "ARM64_V8A": 81,
+              "ARMEABI_V7A": 81,
+              "X86": 81,
+              "X86_64": 81
+            }
+          }
+        ],
+        "versions": [
+          "3.0.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Charge Meter premium features.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:131",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Charge Meter",
+        "versions": [
+          "3.0.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#F2C200",
+        "name": "ColorNote",
+        "packageName": "com.socialnmobile.dictapps.notepad.color.note",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.8.6",
+            "versionCodes": {
+              "ARM64_V8A": 2104860,
+              "ARMEABI_V7A": 2104860,
+              "X86": 2104860,
+              "X86_64": 2104860
+            }
+          }
+        ],
+        "versions": [
+          "4.8.6"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Unlocks ColorNote premium by forcing license validity and subscription checks to return true.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:132",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "ColorNote",
+        "versions": [
+          "4.8.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2196F3",
+        "name": "Countdown Widget",
+        "packageName": "me.gira.widget.countdown",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.2.0",
+            "versionCodes": {
+              "ARM64_V8A": 306,
+              "ARMEABI_V7A": 306,
+              "X86": 306,
+              "X86_64": 306
+            }
+          }
+        ],
+        "versions": [
+          "3.2.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all premium features in Countdown Widget",
+    "id": "ad4b7c19d2523b4c5d34ec1e:133",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Countdown Widget",
+        "versions": [
+          "3.2.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#2A3B4C",
+        "name": "CPU-Z",
+        "packageName": "com.cpuid.cpu_z",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.60",
+            "versionCodes": {
+              "ARM64_V8A": 60,
+              "ARMEABI_V7A": 60,
+              "X86": 60,
+              "X86_64": 60
+            }
+          }
+        ],
+        "versions": [
+          "1.60"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks premium features in app.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:134",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "CPU-Z",
+        "versions": [
+          "1.60"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#E53935",
+        "name": "Crime Radar",
+        "packageName": "com.newsbreak.crimeradar",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.36.1",
+            "versionCodes": {
+              "ARM64_V8A": 26360101,
+              "ARMEABI_V7A": 26360101,
+              "X86": 26360101,
+              "X86_64": 26360101
+            }
+          }
+        ],
+        "versions": [
+          "26.36.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Unlocks CrimeRadar premium subscription, raises followed locations limit, removes ads, and disables PairIP licence checks.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:135",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Crime Radar",
+        "versions": [
+          "26.36.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#E53935",
+        "name": "Dailyhunt",
+        "packageName": "com.eterno",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "34.0.4",
+            "versionCodes": {
+              "ARM64_V8A": 10314,
+              "ARMEABI_V7A": 10314,
+              "X86": 10314,
+              "X86_64": 10314
+            }
+          }
+        ],
+        "versions": [
+          "34.0.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks premium features after login.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:136",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Dailyhunt",
+        "versions": [
+          "34.0.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1565C0",
+        "name": "Depth Live Wallpaper",
+        "packageName": "com.jndapp.depth.live.wallpaper",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.1.06",
+            "versionCodes": {
+              "ARM64_V8A": 35,
+              "ARMEABI_V7A": 35,
+              "X86": 35,
+              "X86_64": 35
+            }
+          }
+        ],
+        "versions": [
+          "2.1.06"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all premium wallpapers.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:137",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Depth Live Wallpaper",
+        "versions": [
+          "2.1.06"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#1565C0",
+        "name": "Zutobi",
+        "packageName": "com.driverlicenseapp",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.5.78",
+            "versionCodes": {
+              "ARM64_V8A": 102278,
+              "ARMEABI_V7A": 102278,
+              "X86": 102278,
+              "X86_64": 102278
+            }
+          }
+        ],
+        "versions": [
+          "4.5.78"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "Unlocks Driver's Ed premium features by patching the Flutter subscription gate.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:138",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Zutobi",
+        "versions": [
+          "4.5.78"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#29B6F6",
+        "name": "Electron",
+        "packageName": "com.mahersafadi.electron",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 106,
+              "ARMEABI_V7A": 106,
+              "X86": 106,
+              "X86_64": 106
+            }
+          }
+        ],
+        "versions": [
+          "3.0.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Electron premium features",
+    "id": "ad4b7c19d2523b4c5d34ec1e:139",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Electron",
+        "versions": [
+          "3.0.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FF7043",
+        "name": "File Manager",
+        "packageName": "com.alphainventor.filemanager",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.8.2",
+            "versionCodes": {
+              "ARM64_V8A": 2103082,
+              "ARMEABI_V7A": 2103082,
+              "X86": 2103082,
+              "X86_64": 2103082
+            }
+          }
+        ],
+        "versions": [
+          "3.8.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Unlocks all File Manager premium features by bypassing the RSA license token verification.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:140",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "File Manager",
+        "versions": [
+          "3.8.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#FF3D00",
+        "name": "Fitbod",
+        "packageName": "com.fitbod.fitbod",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "8.33.0-0",
+            "versionCodes": {
+              "ARM64_V8A": 10833000,
+              "ARMEABI_V7A": 10833000,
+              "X86": 10833000,
+              "X86_64": 10833000
+            }
+          }
+        ],
+        "versions": [
+          "8.33.0-0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all Fitbod premium features.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:141",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Fitbod",
+        "versions": [
+          "8.33.0-0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#FF5722",
+        "name": "Fitia",
+        "packageName": "com.nutrition.technologies.Fitia",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.0.1",
+            "versionCodes": {
+              "ARM64_V8A": 1502,
+              "ARMEABI_V7A": 1502,
+              "X86": 1502,
+              "X86_64": 1502
+            }
+          }
+        ],
+        "versions": [
+          "26.0.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all Fitia premium features by permanently reporting an active subscription.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:142",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Fitia",
+        "versions": [
+          "26.0.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#1565C0",
+        "name": "Flightsky",
+        "packageName": "com.live.flight.tracker",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.7.1",
+            "versionCodes": {
+              "ARM64_V8A": 23,
+              "ARMEABI_V7A": 23,
+              "X86": 23,
+              "X86_64": 23
+            }
+          }
+        ],
+        "versions": [
+          "1.7.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Unlocks premium features in app.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:143",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Flightsky",
+        "versions": [
+          "1.7.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#FF6B00",
+        "name": "Fuelio",
+        "packageName": "com.kajda.fuelio",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "10.3.4",
+            "versionCodes": {
+              "ARM64_V8A": 3438,
+              "ARMEABI_V7A": 3438,
+              "X86": 3438,
+              "X86_64": 3438
+            }
+          }
+        ],
+        "versions": [
+          "10.3.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Fuelio Premium, restores Google Maps, and suppresses the Limited Promo paywall banner for unlocked users.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:144",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Fuelio",
+        "versions": [
+          "10.3.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#1565C0",
+        "name": "Historical Calendar",
+        "packageName": "com.alexandrucene.dayhistory",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.5.5",
+            "versionCodes": {
+              "ARM64_V8A": 377,
+              "ARMEABI_V7A": 377,
+              "X86": 377,
+              "X86_64": 377
+            }
+          }
+        ],
+        "versions": [
+          "7.5.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all premium features in Historical Calendar by forcing the isPremium gate to return true.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:145",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Historical Calendar",
+        "versions": [
+          "7.5.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "appIconColor": "#FF5722",
+        "name": "Hola VPN Proxy Plus",
+        "packageName": "org.hola.play",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "AARCH64_1.248.400"
+          }
+        ],
+        "versions": [
+          "AARCH64_1.248.400"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": null,
+    "id": "ad4b7c19d2523b4c5d34ec1e:146",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Hola VPN Proxy Plus",
+        "versions": [
+          "AARCH64_1.248.400"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#1565C0",
+        "name": "Image & Video Date Fixer",
+        "packageName": "eu.duong.imagedatefixer",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.7.1",
+            "versionCodes": {
+              "ARM64_V8A": 30700100,
+              "ARMEABI_V7A": 30700100,
+              "X86": 30700100,
+              "X86_64": 30700100
+            }
+          }
+        ],
+        "versions": [
+          "3.7.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all premium features in Image & Video Date Fixer.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:147",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Image & Video Date Fixer",
+        "versions": [
+          "3.7.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#4CAF50",
+        "name": "Clickmate",
+        "packageName": "com.inscode.autoclicker",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.1.5",
+            "versionCodes": {
+              "ARM64_V8A": 686,
+              "ARMEABI_V7A": 686,
+              "X86": 686,
+              "X86_64": 686
+            }
+          }
+        ],
+        "versions": [
+          "7.1.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks premium features in Clickmate by bypassing the purchase check.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:148",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Clickmate",
+        "versions": [
+          "7.1.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#1B54C8",
+        "name": "KineMaster",
+        "packageName": "com.nexstreaming.app.kinemasterfree",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "8.1.13.36552.GP",
+            "versionCodes": {
+              "ARM64_V8A": 36552,
+              "ARMEABI_V7A": 36552,
+              "X86": 36552,
+              "X86_64": 36552
+            }
+          }
+        ],
+        "versions": [
+          "8.1.13.36552.GP"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlock Premium features after login.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:149",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "KineMaster",
+        "versions": [
+          "8.1.13.36552.GP"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#65AB1E",
+        "name": "komoot",
+        "packageName": "de.komoot.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2026.37.5",
+            "versionCodes": {
+              "ARM64_V8A": 263910002,
+              "ARMEABI_V7A": 263910002,
+              "X86": 263910002,
+              "X86_64": 263910002
+            }
+          }
+        ],
+        "versions": [
+          "2026.37.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks premium features and all map packs.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:150",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "komoot",
+        "versions": [
+          "2026.37.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1DB954",
+        "name": "Lark Player",
+        "packageName": "com.dywx.larkplayer",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2026.12.5",
+            "versionCodes": {
+              "ARM64_V8A": 2026120509,
+              "ARMEABI_V7A": 2026120509,
+              "X86": 2026120509,
+              "X86_64": 2026120509
+            }
+          }
+        ],
+        "versions": [
+          "2026.12.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks premium features in app.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:151",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Lark Player",
+        "versions": [
+          "2026.12.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#0D47A1",
+        "name": "Lawfully",
+        "packageName": "com.lawfully.lawfully_ai_tracker",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.8.2",
+            "versionCodes": {
+              "ARM64_V8A": 547,
+              "ARMEABI_V7A": 547,
+              "X86": 547,
+              "X86_64": 547
+            }
+          }
+        ],
+        "versions": [
+          "6.8.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "Unlocks Premium Features in app.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:152",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Lawfully",
+        "versions": [
+          "6.8.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#E03C31",
+        "name": "Mapy.com",
+        "packageName": "cz.seznam.mapy",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.8.0",
+            "versionCodes": {
+              "ARM64_V8A": 26080001,
+              "ARMEABI_V7A": 26080001,
+              "X86": 26080001,
+              "X86_64": 26080001
+            }
+          }
+        ],
+        "versions": [
+          "26.8.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Premium features in app after login.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:153",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Mapy.com",
+        "versions": [
+          "26.8.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1B72E8",
+        "name": "MaterialPods",
+        "packageName": "com.pryshedko.materialpods",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.70",
+            "versionCodes": {
+              "ARM64_V8A": 670,
+              "ARMEABI_V7A": 670,
+              "X86": 670,
+              "X86_64": 670
+            }
+          }
+        ],
+        "versions": [
+          "6.70"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all pro features.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:154",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "MaterialPods",
+        "versions": [
+          "6.70"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#0077CC",
+        "name": "meteoblue Weather",
+        "packageName": "com.meteoblue.droid",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "Cirrus Uncinus 3.0.4",
+            "versionCodes": {
+              "ARM64_V8A": 27024,
+              "ARMEABI_V7A": 27024,
+              "X86": 27024,
+              "X86_64": 27024
+            }
+          }
+        ],
+        "versions": [
+          "Cirrus Uncinus 3.0.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all meteoblue Weather premium features by making the billing repository always report an active purchase.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:155",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "meteoblue Weather",
+        "versions": [
+          "Cirrus Uncinus 3.0.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  },
+  {
+    "bundle_id": "ad4b7c19d2523b4c5d34ec1e",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#212121",
+        "name": "Minimal Widgets",
+        "packageName": "com.jndapp.minimal.widgets",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.1.04",
+            "versionCodes": {
+              "ARM64_V8A": 14,
+              "ARMEABI_V7A": 14,
+              "X86": 14,
+              "X86_64": 14
+            }
+          }
+        ],
+        "versions": [
+          "2.1.04"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlock all premium widgets.",
+    "id": "ad4b7c19d2523b4c5d34ec1e:156",
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Minimal Widgets",
+        "versions": [
+          "2.1.04"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.23.0-dev.1",
+    "source_id": "3cc3c0bc9a607742"
+  }
+]

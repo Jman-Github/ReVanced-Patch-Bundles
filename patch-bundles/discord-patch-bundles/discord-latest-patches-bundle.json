@@ -1,7 +1,0 @@
-{
-  "created_at": "2026-09-24T01:29:59",
-  "description": "\n- Self-locating patches: the QuestBar gate and gift-bar flag are now\n  discovered in the bundle at patch time (string co-occurrence + head\n  shape + flag write/test validation) instead of baked-in byte anchors,\n  and compat is a NULL version (any com.discord build). New Discord\n  versions need no patch update as long as discovery holds; anything\n  unrecognized fails loudly with the update point named. Only the\n  attach-sheet push keeps legacy anchors (frozen facts about old\n  bundles) with skip-or-fail reasoning. Proven: discovery reproduces\n  every v1.4.0 site exactly on all five known bundles, CLI bytes\n  identical. (stable)",
-  "download_url": "https://github.com/jrddupont/discord-patches/releases/download/v1.5.0/patches-1.5.0.mpp",
-  "signature_download_url": "N/A",
-  "version": "v1.5.0"
-}

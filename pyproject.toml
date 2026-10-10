@@ -11,11 +11,7 @@ select = ["E", "F", "W", "I", "B", "UP", "ASYNC", "S", "RUF"]
 ignore = ["S101"]
 
 [tool.ruff.lint.per-file-ignores]
-"scripts/generate_patch_list_catalog.py" = ["S603", "S607"]
-"scripts/build_updated_bundles.py" = ["S603", "S607"]
-"scripts/build_summary.py" = ["S603", "S607"]
-"scripts/generate_bundles.py" = ["S603", "S607"]
-"scripts/bundle_updates.py" = ["S603"]
+"scripts/discover_releases.py" = ["S603", "S607"]
 
 [tool.pytest.ini_options]
 addopts = "-ra"

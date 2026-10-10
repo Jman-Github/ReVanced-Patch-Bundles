@@ -1,0 +1,42 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev",
+    "latest"
+  ],
+  "created_at": "2026-10-05T23:04:45",
+  "description": "## [1.1.0-dev.4](https://github.com/bartlomiejfornalczyk/morphe-patches/compare/v1.1.0-dev.3...v1.1.0-dev.4) (2026-10-05)\n\n### 🐛 Bug Fixes\n\n* **maps:** load MicroG accounts directly via AccountManager and bypass AANG service ([e0976d3](https://github.com/bartlomiejfornalczyk/morphe-patches/commit/e0976d3233d8e7c94c645aff26ca2f41167f9c1c))\n",
+  "download_url": "https://github.com/bartlomiejfornalczyk/morphe-patches/releases/download/v1.1.0-dev.4/patches-1.1.0-dev.4.mpp",
+  "ecosystem": "morphe",
+  "extraction_status": "unverified",
+  "file_hash": null,
+  "id": "064b04a7fc8dd308d8d91cab",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fbartlomiejfornalczyk%2Fmorphe-patches&version=latest&channel=prerelease",
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fbartlomiejfornalczyk%2Fmorphe-patches&version=latest&channel=any"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "legacy_id": 19,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "Google Maps",
+    "Google Maps (ReVanced)",
+    "YouTube Music",
+    "YouTube Music (Morphe)",
+    "YouTube Music (ReVanced)"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_version": "v1.1.0-dev.4",
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": "N/A",
+  "source_id": "25cb4160ad617030",
+  "version": "v1.1.0-dev.4"
+}

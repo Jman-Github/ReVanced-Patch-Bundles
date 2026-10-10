@@ -1,0 +1,35 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-09-30T15:08:48",
+  "description": "## [1.5.3](https://github.com/alan7383/sofatime-patches/compare/v1.5.2...v1.5.3) (2026-09-30)\n\n### 🐛 Bug Fixes\n\n* Support SofaTime v1.4.0 and v1.4.1 (Fixes [#18](https://github.com/alan7383/sofatime-patches/issues/18), Fixes [#19](https://github.com/alan7383/sofatime-patches/issues/19)) ([57081aa](https://github.com/alan7383/sofatime-patches/commit/57081aa492de79b57669611aa77d0a762ee90b23))\n",
+  "download_url": "https://github.com/alan7383/sofatime-patches/releases/download/v1.5.3/patches-1.5.3.mpp",
+  "ecosystem": "morphe",
+  "extraction_status": "unverified",
+  "file_hash": null,
+  "id": "421a5551ba4fff96a86fa784",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Falan7383%2Fsofatime-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Falan7383%2Fsofatime-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "SofaTime"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_version": "v1.5.3",
+  "patcher_runtime": null,
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": "N/A",
+  "source_id": "15a972b00a949cc2",
+  "version": "v1.5.3"
+}

@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "stable"
+  ],
+  "created_at": "2026-10-01T06:24:48",
+  "description": "## [1.8.0](https://github.com/dh6k/morphe-patches/compare/v1.7.0...v1.8.0) (2026-10-01)\r\n\r\n### 🐛 Bug Fixes\r\n\r\n* **brave:** actually kill Material You in AMOLED and stop greying the switch ([41fb1b4](https://github.com/dh6k/morphe-patches/commit/41fb1b4d376f5e4bb8f577f5a4392c7b9e82f1d7))\r\n* **brave:** keep accent-coloured text when declaring night ink ([5b6f269](https://github.com/dh6k/morphe-patches/commit/5b6f2690031607d733cfb049ad428462099e0364)), closes [#cd4400](https://github.com/dh6k/morphe-patches/issues/cd4400) [#545ff8](https://github.com/dh6k/morphe-patches/issues/545ff8) [#687485](https://github.com/dh6k/morphe-patches/issues/687485)\r\n* **brave:** keep colors the app renders text with out of the surface sweep ([0703501](https://github.com/dh6k/morphe-patches/commit/0703501ec7aecf9b1488e1185fd76afa568fe812)), closes [#1c1c1d](https://github.com/dh6k/morphe-patches/issues/1c1c1d) [#0d0f14](https://github.com/dh6k/morphe-patches/issues/0d0f14) [#202124](https://github.com/dh6k/morphe-patches/issues/202124) [#484b4e](https://github.com/dh6k/morphe-patches/issues/484b4e) [#25272b](https://github.com/dh6k/morphe-patches/issues/25272b)\r\n* **brave:** only force the dedicated AMOLED dynamic-colors getter ([84ed3a4](https://github.com/dh6k/morphe-patches/commit/84ed3a445584981592038e82f5b29a1c0cba6365))\r\n* **brave:** rewrite AMOLED dark surfaces in values/ not just values-night ([238a4f2](https://github.com/dh6k/morphe-patches/commit/238a4f27d78eafd4f8eab5cb5c31a33144f0af00)), closes [#121212](https://github.com/dh6k/morphe-patches/issues/121212) [#ff303030](https://github.com/dh6k/morphe-patches/issues/ff303030)\r\n* **brave:** stop declaring text colors that already have selectors ([4974aea](https://github.com/dh6k/morphe-patches/commit/4974aea31deb3b317bb6e9b557510cda4478d578))\r\n* **brave:** stop night-v31 overrides from re-asserting text as background ([6832558](https://github.com/dh6k/morphe-patches/commit/6832558e54e676c890e4b81820b1aff14474e3b2)), closes [#000000](https://github.com/dh6k/morphe-patches/issues/000000)\r\n\r\n### ✨ New Features\r\n\r\n* **brave:** add AMOLED text and accent color options ([9254614](https://github.com/dh6k/morphe-patches/commit/925461415ceb6b86bd3438aa0e9ba35b1984aef2))\r\n* **brave:** add patch-time AMOLED theme (issue [#21](https://github.com/dh6k/morphe-patches/issues/21)) ([7d0c8ad](https://github.com/dh6k/morphe-patches/commit/7d0c8ad3665a686c6f05e94b2464052934c92526))\r\n* **titanium:** scope keep-alive boosts to extension processes ([a461882](https://github.com/dh6k/morphe-patches/commit/a461882a418570b36eb0531176065dc1f8006a8f))\r\n",
+  "download_url": "https://github.com/dh6k/morphe-patches/releases/download/v1.8.0/patches-1.8.0.mpp",
+  "ecosystem": "morphe",
+  "extraction_status": "unverified",
+  "file_hash": null,
+  "id": "057cae5775901dc9884b262e",
+  "import_urls": {
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fdh6k%2Fmorphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 16,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "Brave Beta",
+    "Brave Browser",
+    "Brave Browser APKM",
+    "Brave Nightly",
+    "Brave Nightly APKM",
+    "Quetta Browser",
+    "Quetta Browser Official",
+    "Titanium Browser for Android"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_version": "v1.8.0",
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": "N/A",
+  "source_id": "fc68a5f5cd0a0099",
+  "version": "v1.8.0"
+}

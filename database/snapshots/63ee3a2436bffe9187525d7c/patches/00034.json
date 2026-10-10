@@ -1,0 +1,3671 @@
+[
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to hide or change components related to YouTube Shorts.",
+    "id": "605d1f6e56503cf27a415d3a:102",
+    "legacy_id": 3401,
+    "metadata_status": "unverified",
+    "name": "Shorts components",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to hide or change components related to the snack bar.",
+    "id": "605d1f6e56503cf27a415d3a:103",
+    "legacy_id": 3402,
+    "metadata_status": "unverified",
+    "name": "Snack bar components",
+    "options": [
+      {
+        "default": "8.0dip",
+        "description": "Specify a corner radius for the snack bar.",
+        "key": "cornerRadius",
+        "required": true,
+        "title": "Corner radius",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Whether to apply the same corner radius to the bottom bar of the playlist as the snack bar.",
+        "key": "applyCornerRadiusToPlaylistBottomBar",
+        "required": true,
+        "title": "Apply corner radius to playlist bottom bar",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": "@color/yt_black3",
+        "description": "Specify a background color for the snack bar. You can specify hex color (#AARRGGBB) or color resource reference.",
+        "key": "darkThemeBackgroundColor",
+        "required": true,
+        "title": "Dark theme background color",
+        "type": "kotlin.String",
+        "values": {
+          "Black": "#FF000000",
+          "Catppuccin (Mocha)": "#FF181825",
+          "Classic (Old YouTube)": "#FF212121",
+          "Dark Blue": "#FF001029",
+          "Dark Green": "#FF002905",
+          "Dark Orange": "#FF291800",
+          "Dark Pink": "#FF290025",
+          "Dark Red": "#FF290000",
+          "Dark Yellow": "#FF282900",
+          "Material You (Neutral)": "@android:color/system_neutral1_900",
+          "Material You - Primary": "@android:color/system_accent1_800",
+          "Material You - Secondary": "@android:color/system_accent2_800",
+          "Material You - Tertiary": "@android:color/system_accent3_800",
+          "Modern YouTube": "#FF0F0F0F",
+          "YouTube Dark": "@color/yt_black3"
+        }
+      },
+      {
+        "default": "@color/yt_white3",
+        "description": "Specify a background color for the snack bar. You can specify hex color (#AARRGGBB) or color resource reference.",
+        "key": "lightThemeBackgroundColor",
+        "required": true,
+        "title": "Light theme background color",
+        "type": "kotlin.String",
+        "values": {
+          "Catppuccin (Latte)": "#FFE6E9EF",
+          "Light Blue": "#FFD1E0FF",
+          "Light Green": "#FFCCFFCC",
+          "Light Orange": "#FFFFE6CC",
+          "Light Pink": "#FFFCCFF3",
+          "Light Red": "#FFFFD6D6",
+          "Light Yellow": "#FFFDFFCC",
+          "Material You (Neutral)": "@android:color/system_neutral1_100",
+          "Material You - Primary": "@android:color/system_accent1_200",
+          "Material You - Secondary": "@android:color/system_accent2_200",
+          "Material You - Tertiary": "@android:color/system_accent3_200",
+          "White": "#FFFFFFFF",
+          "YouTube Light": "@color/yt_white3"
+        }
+      },
+      {
+        "default": "",
+        "description": "Specify a stroke color for the snack bar. You can specify hex color.",
+        "key": "strokeColor",
+        "required": false,
+        "title": "Stroke color",
+        "type": "kotlin.String",
+        "values": {
+          "Blue": "?attr/ytThemedBlue",
+          "Chip": "?attr/ytChipBackground",
+          "None": ""
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as non-music sections.",
+    "id": "605d1f6e56503cf27a415d3a:104",
+    "legacy_id": 3403,
+    "metadata_status": "unverified",
+    "name": "SponsorBlock",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as sponsored content.",
+    "id": "605d1f6e56503cf27a415d3a:105",
+    "legacy_id": 3404,
+    "metadata_status": "unverified",
+    "name": "SponsorBlock",
+    "options": [
+      {
+        "default": "right",
+        "description": "Align new segment window.",
+        "key": "NewSegmentAlignment",
+        "required": true,
+        "title": "New segment alignment",
+        "type": "kotlin.String",
+        "values": {
+          "Left": "left",
+          "Right": "right"
+        }
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to spoof the YouTube Music client version. This can be used to restore old UI elements and features.",
+    "id": "605d1f6e56503cf27a415d3a:106",
+    "legacy_id": 3405,
+    "metadata_status": "unverified",
+    "name": "Spoof app version",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to spoof the YouTube client version. This can be used to restore old UI elements and features.",
+    "id": "605d1f6e56503cf27a415d3a:107",
+    "legacy_id": 3406,
+    "metadata_status": "unverified",
+    "name": "Spoof app version",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to spoof the YouTube Music client version. This can be used to restore old lyrics UI.",
+    "id": "605d1f6e56503cf27a415d3a:108",
+    "legacy_id": 3407,
+    "metadata_status": "unverified",
+    "name": "Spoof app version for lyrics",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Spoofs the signature of the app.",
+    "id": "605d1f6e56503cf27a415d3a:109",
+    "legacy_id": 3408,
+    "metadata_status": "unverified",
+    "name": "Spoof signature",
+    "options": [
+      {
+        "default": "",
+        "description": "Package name.",
+        "key": "packageName",
+        "required": false,
+        "title": "Package name",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "",
+        "description": "Base64-encoded string of the certificate.",
+        "key": "certificateData",
+        "required": false,
+        "title": "Certificate data",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": false
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to spoof the client video streams to fix playback.",
+    "id": "605d1f6e56503cf27a415d3a:110",
+    "legacy_id": 3409,
+    "metadata_status": "unverified",
+    "name": "Spoof video streams",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to spoof the client video streams to fix playback.",
+    "id": "605d1f6e56503cf27a415d3a:111",
+    "legacy_id": 3410,
+    "metadata_status": "unverified",
+    "name": "Spoof video streams",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to change the domain of the watch history or check its status.",
+    "id": "605d1f6e56503cf27a415d3a:112",
+    "legacy_id": 3411,
+    "metadata_status": "unverified",
+    "name": "Spoof watch history",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Spoofs an existing Wi-Fi connection.",
+    "id": "605d1f6e56503cf27a415d3a:113",
+    "legacy_id": 3412,
+    "metadata_status": "unverified",
+    "name": "Spoof Wi-Fi connection",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": false
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options for controlling volume and brightness with swiping, and whether to enter fullscreen when swiping down below the player.",
+    "id": "605d1f6e56503cf27a415d3a:114",
+    "legacy_id": 3413,
+    "metadata_status": "unverified",
+    "name": "Swipe controls",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Changes the app's dark theme to the values specified in patch options.",
+    "id": "605d1f6e56503cf27a415d3a:115",
+    "legacy_id": 3414,
+    "metadata_status": "unverified",
+    "name": "Theme",
+    "options": [
+      {
+        "default": "#FF000000",
+        "description": "Static system splash color for the in-app Custom dark theme. Can be a hex color (#AARRGGBB) or a color resource reference.",
+        "key": "darkThemeColor",
+        "required": true,
+        "title": "Custom dark theme color",
+        "type": "kotlin.String",
+        "values": {
+          "Black": "#FF000000",
+          "Catppuccin Mocha": "#FF181825",
+          "Classic Youtube": "#FF212121",
+          "Dark Blue": "#FF001029",
+          "Dark Green": "#FF002905",
+          "Dark Orange": "#FF291800",
+          "Dark Pink": "#FF290025",
+          "Dark Red": "#FF290000",
+          "Dark Yellow": "#FF282900",
+          "Material You Neutral": "@android:color/system_neutral1_900",
+          "Material You Primary": "@android:color/system_accent1_800",
+          "Material You Secondary": "@android:color/system_accent2_800",
+          "Material You Tertiary": "@android:color/system_accent3_800",
+          "Modern Youtube": "#FF0F0F0F",
+          "Stock": "#FF0F0F0F"
+        }
+      },
+      {
+        "default": false,
+        "description": "Precompile 15 theme palettes into resources for Android 8–10 devices. Required for theme presets on Android 8–10. On Android 11+, leave this disabled to speed up patching and reduce APK size.",
+        "key": "precompileLegacyThemes",
+        "required": false,
+        "title": "Precompile legacy themes (Android 8–10)",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to change the app's themes and splash screen style.",
+    "id": "605d1f6e56503cf27a415d3a:116",
+    "legacy_id": 3415,
+    "metadata_status": "unverified",
+    "name": "Theme",
+    "options": [
+      {
+        "default": "#FF000000",
+        "description": "Color for the in-app Patch option and its system splash theme. Can be a hex color (#AARRGGBB) or a color resource reference.",
+        "key": "darkThemeColor",
+        "required": true,
+        "title": "Custom dark theme color",
+        "type": "kotlin.String",
+        "values": {
+          "Black": "#FF000000",
+          "Catppuccin Mocha": "#FF181825",
+          "Classic Youtube": "#FF212121",
+          "Dark Blue": "#FF001029",
+          "Dark Green": "#FF002905",
+          "Dark Orange": "#FF291800",
+          "Dark Pink": "#FF290025",
+          "Dark Red": "#FF290000",
+          "Dark Yellow": "#FF282900",
+          "Material You Neutral": "@android:color/system_neutral1_900",
+          "Material You Primary": "@android:color/system_accent1_800",
+          "Material You Secondary": "@android:color/system_accent2_800",
+          "Material You Tertiary": "@android:color/system_accent3_800",
+          "Modern Youtube": "#FF0F0F0F",
+          "Stock": "#FF0F0F0F"
+        }
+      },
+      {
+        "default": "#FFFFFFFF",
+        "description": "Color for the in-app Patch option and its system splash theme. Can be a hex color (#AARRGGBB) or a color resource reference.",
+        "key": "lightThemeColor",
+        "required": true,
+        "title": "Custom light theme color",
+        "type": "kotlin.String",
+        "values": {
+          "Catppuccin Latte": "#FFE6E9EF",
+          "Light Blue": "#FFD1E0FF",
+          "Light Green": "#FFCCFFCC",
+          "Light Orange": "#FFFFE6CC",
+          "Light Pink": "#FFFCCFF3",
+          "Light Red": "#FFFFD6D6",
+          "Light Yellow": "#FFFDFFCC",
+          "Material You Neutral": "@android:color/system_neutral1_100",
+          "Material You Primary": "@android:color/system_accent1_200",
+          "Material You Secondary": "@android:color/system_accent2_200",
+          "Material You Tertiary": "@android:color/system_accent3_200",
+          "Pale Blue": "#FFD4FFF8",
+          "Pale Green": "#FFD1FFCC",
+          "Pale Yellow": "#FFFFE9AA",
+          "White": "#FFFFFFFF"
+        }
+      },
+      {
+        "default": false,
+        "description": "Precompile all 768 theme permutations into resources for Android 8–10 devices. Required for theme presets on Android 8–10. On Android 11+, leave this disabled to significantly speed up patching and reduce APK size.",
+        "key": "precompileLegacyThemes",
+        "required": false,
+        "title": "Precompile legacy themes (Android 8–10)",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to show synced lyrics with experience enhancement from 15+ providers in the lyrics panel.",
+    "id": "605d1f6e56503cf27a415d3a:117",
+    "legacy_id": 3416,
+    "metadata_status": "unverified",
+    "name": "Third-party lyrics",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to hide or change components located on the toolbar, such as the search bar, header, and toolbar buttons.",
+    "id": "605d1f6e56503cf27a415d3a:118",
+    "legacy_id": 3417,
+    "metadata_status": "unverified",
+    "name": "Toolbar components",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds a true dual-player crossfade between consecutive tracks. Requires YouTube Music 9.00 or newer; on older versions the patch is a no-op.",
+    "id": "605d1f6e56503cf27a415d3a:119",
+    "legacy_id": 3418,
+    "metadata_status": "unverified",
+    "name": "Track crossfade",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Add translations or remove string resources.",
+    "id": "605d1f6e56503cf27a415d3a:120",
+    "legacy_id": 3419,
+    "metadata_status": "unverified",
+    "name": "Translations for YouTube",
+    "options": [
+      {
+        "default": "",
+        "description": "The path to the 'strings.xml' file.\nPlease note that applying the 'strings.xml' file will overwrite all existing translations.",
+        "key": "customTranslations",
+        "required": false,
+        "title": "Custom translations",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "ar, az-rAZ, bn, cs-rCZ, de-rDE, el-rGR, es-rES, fa-rIR, fr-rFR, hu-rHU, in, it-rIT, iw-rIL, ja-rJP, ko-rKR, pl-rPL, pt-rBR, ru-rRU, th-rTH, tr-rTR, uk-rUA, vi-rVN, zh-rCN, zh-rTW",
+        "description": "A list of translations to be added for the RVX settings, separated by commas.",
+        "key": "selectedTranslations",
+        "required": true,
+        "title": "Translations to add",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "af, am, ar, ar-rXB, as, az, b+es+419, b+sr+Latn, be, bg, bn, bs, ca, cs, da, de, el, en-rAU, en-rCA, en-rGB, en-rIN, en-rXA, en-rXC, es, es-rUS, et, eu, fa, fi, fil-rPH, fr, fr-rCA, gl, gu, hi, hr, hu, hy, id, in, is, it, iw, ja, ka, kk, km, kn, ko, ky, lo, lt, lv, mk, ml, mn, mr, ms, my, nb, ne, nl, no, or, pa, pl, pt, pt-rBR, pt-rPT, ro, ru, si, sk, sl, sq, sr, sv, sw, ta, te, th, tl, tr, uk, ur, uz, vi, zh, zh-rCN, zh-rHK, zh-rTW, zu",
+        "description": "A list of string resources to be kept, separated by commas.\nString resources not in the list will be removed from the app.\n\nDefault string resource, English, is not removed.",
+        "key": "selectedStringResources",
+        "required": true,
+        "title": "String resources to keep",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Add translations or remove string resources.",
+    "id": "605d1f6e56503cf27a415d3a:121",
+    "legacy_id": 3420,
+    "metadata_status": "unverified",
+    "name": "Translations for YouTube Music",
+    "options": [
+      {
+        "default": "",
+        "description": "The path to the 'strings.xml' file.\nPlease note that applying the 'strings.xml' file will overwrite all existing translations.",
+        "key": "customTranslations",
+        "required": false,
+        "title": "Custom translations",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "ar, de-rDE, es-rES, fr-rFR, hu-rHU, in, it-rIT, ja-rJP, ko-rKR, pl-rPL, pt-rBR, ru-rRU, tr-rTR, uk-rUA, zh-rCN, zh-rTW",
+        "description": "A list of translations to be added for the RVX settings, separated by commas.",
+        "key": "selectedTranslations",
+        "required": true,
+        "title": "Translations to add",
+        "type": "kotlin.String",
+        "values": null
+      },
+      {
+        "default": "af, am, ar, ar-rXB, as, az, b+es+419, b+sr+Latn, be, bg, bn, bs, ca, cs, da, de, el, en-rAU, en-rCA, en-rGB, en-rIN, en-rXA, en-rXC, es, es-rUS, et, eu, fa, fi, fil-rPH, fr, fr-rCA, gl, gu, hi, hr, hu, hy, id, in, is, it, iw, ja, ka, kk, km, kn, ko, ky, lo, lt, lv, mk, ml, mn, mr, ms, my, nb, ne, nl, no, or, pa, pl, pt, pt-rBR, pt-rPT, ro, ru, si, sk, sl, sq, sr, sv, sw, ta, te, th, tl, tr, uk, ur, uz, vi, zh, zh-rCN, zh-rHK, zh-rTW, zu",
+        "description": "A list of string resources to be kept, separated by commas.\nString resources not in the list will be removed from the app.\n\nDefault string resource, English, is not removed.",
+        "key": "selectedStringResources",
+        "required": true,
+        "title": "String resources to keep",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to customize settings related to video playback, such as default video quality and playback speed.",
+    "id": "605d1f6e56503cf27a415d3a:122",
+    "legacy_id": 3421,
+    "metadata_status": "unverified",
+    "name": "Video playback",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to customize settings related to video playback, such as default video quality and playback speed.",
+    "id": "605d1f6e56503cf27a415d3a:123",
+    "legacy_id": 3422,
+    "metadata_status": "unverified",
+    "name": "Video playback",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Adds icons to specific preferences in the settings.",
+    "id": "605d1f6e56503cf27a415d3a:124",
+    "legacy_id": 3423,
+    "metadata_status": "unverified",
+    "name": "Visual preferences icons for YouTube",
+    "options": [
+      {
+        "default": "extension",
+        "description": "The icon for the RVX settings menu.",
+        "key": "settingsMenuIcon",
+        "required": true,
+        "title": "RVX settings menu icon",
+        "type": "kotlin.String",
+        "values": {
+          "Extension": "extension",
+          "Gear": "gear",
+          "RVX Letters": "rvx_letters",
+          "RVX Letters Bold": "rvx_letters_bold",
+          "ReVanced": "revanced",
+          "ReVanced Colored": "revanced_colored",
+          "YT alt": "yt_alt"
+        }
+      },
+      {
+        "default": false,
+        "description": "Whether to apply Visual preferences icons to all settings menus.\n\nIf true: icons are applied to the parent PreferenceScreen of YouTube settings, the parent PreferenceScreen of RVX settings and the RVX sub-settings (if supported).\n\nIf false: icons are applied only to the parent PreferenceScreen of YouTube settings and RVX settings.",
+        "key": "applyToAll",
+        "required": true,
+        "title": "Apply to all settings menu",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Adds icons to specific preferences in the settings.",
+    "id": "605d1f6e56503cf27a415d3a:125",
+    "legacy_id": 3424,
+    "metadata_status": "unverified",
+    "name": "Visual preferences icons for YouTube Music",
+    "options": [
+      {
+        "default": "extension",
+        "description": "The icon for the RVX settings menu.",
+        "key": "settingsMenuIcon",
+        "required": true,
+        "title": "RVX settings menu icon",
+        "type": "kotlin.String",
+        "values": {
+          "Extension": "extension",
+          "Gear": "gear",
+          "RVX Letters": "rvx_letters",
+          "RVX Letters Bold": "rvx_letters_bold",
+          "ReVanced": "revanced",
+          "ReVanced Colored": "revanced_colored",
+          "YT alt": "yt_alt"
+        }
+      },
+      {
+        "default": true,
+        "description": "Whether to apply Visual preferences icons to all settings menus.\n\nIf true: icons are applied to the parent PreferenceScreen of YouTube settings, the parent PreferenceScreen of RVX settings and the RVX sub-settings (if supported).\n\nIf false: icons are applied only to the parent PreferenceScreen of YouTube settings and RVX settings.",
+        "key": "applyToAll",
+        "required": true,
+        "title": "Apply to all settings menu",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to enable Yandex voice-over translation of video audio tracks.",
+    "id": "605d1f6e56503cf27a415d3a:126",
+    "legacy_id": 3425,
+    "metadata_status": "unverified",
+    "name": "Voice Over Translation",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to change the domain of the watch history or check its status.",
+    "id": "605d1f6e56503cf27a415d3a:127",
+    "legacy_id": 3426,
+    "metadata_status": "unverified",
+    "name": "Watch history",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "605d1f6e56503cf27a415d3a",
+    "compatiblePackages": {},
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch",
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds a wide search bar to the top of the home and subscription feed.",
+    "id": "605d1f6e56503cf27a415d3a:128",
+    "legacy_id": 3427,
+    "metadata_status": "unverified",
+    "name": "Wide search bar",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v4.3.0m",
+    "source_id": "db8d2dd6d7466391",
+    "use": true
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#8B0000",
+        "name": "Into the Dead 2",
+        "packageName": "com.pikpok.dr2.play",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.87.1"
+          }
+        ],
+        "versions": [
+          "1.87.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Grants rewarded-video rewards instantly",
+    "id": "608b5a80f1450e47bfcfa2cf:0",
+    "legacy_id": 3428,
+    "metadata_status": "unverified",
+    "name": "AD Instant Rewards",
+    "options": [],
+    "packages": [
+      {
+        "name": "Into the Dead 2",
+        "versions": [
+          "1.87.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#8B0000",
+        "name": "Into the Dead",
+        "packageName": "com.sidheinteractive.sif.DR",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.9.5"
+          }
+        ],
+        "versions": [
+          "2.9.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes all ads (interstitials, banners, app-open) and grants rewarded-video perk boosts instantly on tap (no ad watch) using the correct reward name PERKS_BOOST, verified against a real rewarded event.",
+    "id": "608b5a80f1450e47bfcfa2cf:1",
+    "legacy_id": 3429,
+    "metadata_status": "unverified",
+    "name": "Ad Removal & Instant Boost Rewards",
+    "options": [],
+    "packages": [
+      {
+        "name": "Into the Dead",
+        "versions": [
+          "2.9.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#00A651",
+        "name": "Adda247",
+        "packageName": "com.adda247.app",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.7.2"
+          }
+        ],
+        "versions": [
+          "12.7.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Blocks all Google AdMob ads (banner, interstitial, rewarded, rewarded interstitial, native, app open and Ad Manager) by neutralizing the Flutter Google Mobile Ads plugin: no ad is ever requested and no ad can ever be shown.",
+    "id": "608b5a80f1450e47bfcfa2cf:2",
+    "legacy_id": 3430,
+    "metadata_status": "unverified",
+    "name": "Adda247 Ad Removal",
+    "options": [],
+    "packages": [
+      {
+        "name": "Adda247",
+        "versions": [
+          "12.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#00A651",
+        "name": "Adda247",
+        "packageName": "com.adda247.app",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.7.2"
+          }
+        ],
+        "versions": [
+          "12.7.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Blocks the app's own MoEngage in-app promotions (the recurring \"recommended for you\" nudge with no close button, and full-screen standard in-app messages) by no-oping MoEngage's HTML render chokepoint, so no in-app WebView is ever built or attached. Separate from the Google AdMob block.",
+    "id": "608b5a80f1450e47bfcfa2cf:3",
+    "legacy_id": 3431,
+    "metadata_status": "unverified",
+    "name": "Adda247 MoEngage In-App Blocker",
+    "options": [],
+    "packages": [
+      {
+        "name": "Adda247",
+        "versions": [
+          "12.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2E6B32",
+        "name": "Dead Target: Offline Games 3D",
+        "packageName": "com.vng.g6.a.zombie",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.183.0"
+          }
+        ],
+        "versions": [
+          "4.183.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Every gun, skin, glove and drone shows as unlocked, and you can equip any of them. Your save file is not changed.",
+    "id": "608b5a80f1450e47bfcfa2cf:4",
+    "legacy_id": 3432,
+    "metadata_status": "unverified",
+    "name": "All items owned",
+    "options": [],
+    "packages": [
+      {
+        "name": "Dead Target: Offline Games 3D",
+        "versions": [
+          "4.183.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#8B4513",
+        "name": "Big Hunter",
+        "packageName": "com.kakarod.bighunter",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.1.2"
+          }
+        ],
+        "versions": [
+          "3.1.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Tapping any store item grants the product immediately (via the game's own confirmed-purchase path -> native applyProduct) without opening Google Play billing. Entitlements persist across restarts.",
+    "id": "608b5a80f1450e47bfcfa2cf:5",
+    "legacy_id": 3433,
+    "metadata_status": "unverified",
+    "name": "Big Hunter Fake Purchase",
+    "options": [],
+    "packages": [
+      {
+        "name": "Big Hunter",
+        "versions": [
+          "3.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#8B4513",
+        "name": "Big Hunter",
+        "packageName": "com.kakarod.bighunter",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.1.2"
+          }
+        ],
+        "versions": [
+          "3.1.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables the PairIP license check (installer verification + Google Play licensing service validation + paywall/exit dialog). Required for patched APKs — the original check fails on any non-Play signature and force-closes the app.",
+    "id": "608b5a80f1450e47bfcfa2cf:6",
+    "legacy_id": 3434,
+    "metadata_status": "unverified",
+    "name": "Big Hunter PairIP License Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "Big Hunter",
+        "versions": [
+          "3.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#8B4513",
+        "name": "Big Hunter",
+        "packageName": "com.kakarod.bighunter",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.1.2"
+          }
+        ],
+        "versions": [
+          "3.1.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Interstitial ads are never shown (show() short-circuits via the ad-not-ready path on all three network bridges: AdMob, AppLovin, Unity Ads).",
+    "id": "608b5a80f1450e47bfcfa2cf:7",
+    "legacy_id": 3435,
+    "metadata_status": "unverified",
+    "name": "Big Hunter Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Big Hunter",
+        "versions": [
+          "3.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#8B4513",
+        "name": "Big Hunter",
+        "packageName": "com.kakarod.bighunter",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.1.2"
+          }
+        ],
+        "versions": [
+          "3.1.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Rewarded video requests grant the reward immediately via the game's own native rewardCallback() without loading or showing any ad (AdMob, AppLovin, Unity Ads).",
+    "id": "608b5a80f1450e47bfcfa2cf:8",
+    "legacy_id": 3436,
+    "metadata_status": "unverified",
+    "name": "Big Hunter Rewards Without Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Big Hunter",
+        "versions": [
+          "3.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#B71C1C",
+        "name": "Dead Trigger",
+        "packageName": "com.madfingergames.deadtrigger",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.3.4"
+          }
+        ],
+        "versions": [
+          "2.3.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "Free store: tap any gold or money pack in the shop and it's yours instantly.",
+    "id": "608b5a80f1450e47bfcfa2cf:9",
+    "legacy_id": 3437,
+    "metadata_status": "unverified",
+    "name": "Dead Trigger Free Store",
+    "options": [],
+    "packages": [
+      {
+        "name": "Dead Trigger",
+        "versions": [
+          "2.3.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2196F3",
+        "name": "Document Scanner",
+        "packageName": "com.cv.docscanner",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.9.9"
+          }
+        ],
+        "versions": [
+          "6.9.9"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all premium features, removes ads, and enables pro themes.",
+    "id": "608b5a80f1450e47bfcfa2cf:10",
+    "legacy_id": 3438,
+    "metadata_status": "unverified",
+    "name": "Doc Scanner Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Document Scanner",
+        "versions": [
+          "6.9.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#66BB6A",
+        "name": "Doodle Jump",
+        "packageName": "com.lima.doodlejump",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.11.38"
+          },
+          {
+            "isExperimental": false,
+            "version": "3.11.40"
+          }
+        ],
+        "versions": [
+          "3.11.38",
+          "3.11.40"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks the full game by bypassing Google Play billing.",
+    "id": "608b5a80f1450e47bfcfa2cf:11",
+    "legacy_id": 3439,
+    "metadata_status": "unverified",
+    "name": "Doodle Jump Billing Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "Doodle Jump",
+        "versions": [
+          "3.11.38",
+          "3.11.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#66BB6A",
+        "name": "Doodle Jump",
+        "packageName": "com.lima.doodlejump",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.11.38"
+          },
+          {
+            "isExperimental": false,
+            "version": "3.11.40"
+          }
+        ],
+        "versions": [
+          "3.11.38",
+          "3.11.40"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Resurrect instantly after death without watching a rewarded ad.",
+    "id": "608b5a80f1450e47bfcfa2cf:12",
+    "legacy_id": 3440,
+    "metadata_status": "unverified",
+    "name": "Doodle Jump Resurrection Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "Doodle Jump",
+        "versions": [
+          "3.11.38",
+          "3.11.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1565C0",
+        "name": "Dr. Driving",
+        "packageName": "com.ansangha.drdriving",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.73"
+          }
+        ],
+        "versions": [
+          "1.73"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes all Google AdMob ads (banner, interstitial, rewarded).",
+    "id": "608b5a80f1450e47bfcfa2cf:13",
+    "legacy_id": 3441,
+    "metadata_status": "unverified",
+    "name": "Dr. Driving Ad Removal",
+    "options": [],
+    "packages": [
+      {
+        "name": "Dr. Driving",
+        "versions": [
+          "1.73"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1565C0",
+        "name": "Dr. Driving",
+        "packageName": "com.ansangha.drdriving",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.73"
+          }
+        ],
+        "versions": [
+          "1.73"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Coins inflated to 1,000,000,000 on save load; purchases, upgrades, rentals and repairs never cost coins.",
+    "id": "608b5a80f1450e47bfcfa2cf:14",
+    "legacy_id": 3442,
+    "metadata_status": "unverified",
+    "name": "Dr. Driving Unlimited Coins",
+    "options": [],
+    "packages": [
+      {
+        "name": "Dr. Driving",
+        "versions": [
+          "1.73"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1565C0",
+        "name": "Dr. Driving",
+        "packageName": "com.ansangha.drdriving",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.73"
+          }
+        ],
+        "versions": [
+          "1.73"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Gold is inflated to 1,000,000,000 on save load; gold packs in the store also grant gold.",
+    "id": "608b5a80f1450e47bfcfa2cf:15",
+    "legacy_id": 3443,
+    "metadata_status": "unverified",
+    "name": "Dr. Driving Unlimited Gold",
+    "options": [],
+    "packages": [
+      {
+        "name": "Dr. Driving",
+        "versions": [
+          "1.73"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF6F00",
+        "name": "Earn to Die 2",
+        "packageName": "com.notdoppler.earntodie2",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.5.6"
+          }
+        ],
+        "versions": [
+          "1.5.6"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Intercepts all in-app purchases and calls the native on_purchase(String[], String) grant directly, unlocking paid content (cash doubler) for free without Play Billing.",
+    "id": "608b5a80f1450e47bfcfa2cf:16",
+    "legacy_id": 3444,
+    "metadata_status": "unverified",
+    "name": "Earn to Die 2 Free IAP",
+    "options": [],
+    "packages": [
+      {
+        "name": "Earn to Die 2",
+        "versions": [
+          "1.5.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF6F00",
+        "name": "Earn to Die 2",
+        "packageName": "com.notdoppler.earntodie2",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.5.6"
+          }
+        ],
+        "versions": [
+          "1.5.6"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes interstitial and rewarded ads, and grants rewarded-video rewards instantly by firing the native callbacks.",
+    "id": "608b5a80f1450e47bfcfa2cf:17",
+    "legacy_id": 3445,
+    "metadata_status": "unverified",
+    "name": "Earn to Die 2 No Ads + Instant Rewards",
+    "options": [],
+    "packages": [
+      {
+        "name": "Earn to Die 2",
+        "versions": [
+          "1.5.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF6F00",
+        "name": "Earn to Die 2",
+        "packageName": "com.notdoppler.earntodie2",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.5.6"
+          }
+        ],
+        "versions": [
+          "1.5.6"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Bypasses the native Google Play distribution checks (installer package + signing signature) so the app runs when sideloaded.",
+    "id": "608b5a80f1450e47bfcfa2cf:18",
+    "legacy_id": 3446,
+    "metadata_status": "unverified",
+    "name": "Earn to Die 2 Remove Google Play Check",
+    "options": [],
+    "packages": [
+      {
+        "name": "Earn to Die 2",
+        "versions": [
+          "1.5.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF9800",
+        "name": "Fancy Pants Adventures",
+        "packageName": "com.overthetopgames.fancypants",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.0.30"
+          }
+        ],
+        "versions": [
+          "1.0.30"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks premium, wardrobe, world 1 and world 2 by forcing OTTBilling.isPurchased to always return true.",
+    "id": "608b5a80f1450e47bfcfa2cf:19",
+    "legacy_id": 3447,
+    "metadata_status": "unverified",
+    "name": "Fancy Pants Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Fancy Pants Adventures",
+        "versions": [
+          "1.0.30"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#E65100",
+        "name": "Burrito Bison: Launcha Libre",
+        "packageName": "com.kongregate.mobile.burritobison3.google",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.75"
+          }
+        ],
+        "versions": [
+          "3.75"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Required so the modified app opens without crashing — skips signature, root and emulator checks.",
+    "id": "608b5a80f1450e47bfcfa2cf:20",
+    "legacy_id": 3448,
+    "metadata_status": "unverified",
+    "name": "Fix app opening",
+    "options": [],
+    "packages": [
+      {
+        "name": "Burrito Bison: Launcha Libre",
+        "versions": [
+          "3.75"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1A3A6B",
+        "name": "Head Basketball",
+        "packageName": "com.dnddream.HeadBasketball",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.6.4"
+          }
+        ],
+        "versions": [
+          "4.6.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Get your ad rewards for free. Every \"watch ad\" button gives you the reward right away — no ad to sit through, no waiting.",
+    "id": "608b5a80f1450e47bfcfa2cf:21",
+    "legacy_id": 3449,
+    "metadata_status": "unverified",
+    "name": "Free Ad Rewards",
+    "options": [],
+    "packages": [
+      {
+        "name": "Head Basketball",
+        "versions": [
+          "4.6.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0496EC",
+        "name": "Head Soccer",
+        "packageName": "com.dnddream.headsoccer.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.1.7"
+          }
+        ],
+        "versions": [
+          "7.1.7"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Every \"watch ad\" reward is granted instantly — no ad appears, no \"failed to load advertisement\" popup, and nothing to wait for.",
+    "id": "608b5a80f1450e47bfcfa2cf:22",
+    "legacy_id": 3450,
+    "metadata_status": "unverified",
+    "name": "Free Ad Rewards",
+    "options": [],
+    "packages": [
+      {
+        "name": "Head Soccer",
+        "versions": [
+          "7.1.7"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#E65100",
+        "name": "Burrito Bison: Launcha Libre",
+        "packageName": "com.kongregate.mobile.burritobison3.google",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.75"
+          }
+        ],
+        "versions": [
+          "3.75"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Get paid items for free — tapping buy grants the item instantly without Google Play payment popup.",
+    "id": "608b5a80f1450e47bfcfa2cf:23",
+    "legacy_id": 3451,
+    "metadata_status": "unverified",
+    "name": "Free purchases",
+    "options": [],
+    "packages": [
+      {
+        "name": "Burrito Bison: Launcha Libre",
+        "versions": [
+          "3.75"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1A3A6B",
+        "name": "Head Basketball",
+        "packageName": "com.dnddream.HeadBasketball",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.6.4"
+          }
+        ],
+        "versions": [
+          "4.6.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Everything in the shop is free. Tap an item and you get it instantly — no paying, no waiting, no Google Play involved.",
+    "id": "608b5a80f1450e47bfcfa2cf:24",
+    "legacy_id": 3452,
+    "metadata_status": "unverified",
+    "name": "Free Store",
+    "options": [],
+    "packages": [
+      {
+        "name": "Head Basketball",
+        "versions": [
+          "4.6.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0496EC",
+        "name": "Head Soccer",
+        "packageName": "com.dnddream.headsoccer.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.1.7"
+          }
+        ],
+        "versions": [
+          "7.1.7"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Everything in the shop is free. Tap an item and you get it right away — points, characters and presents — with no Google Play payment screen and nothing charged.",
+    "id": "608b5a80f1450e47bfcfa2cf:25",
+    "legacy_id": 3453,
+    "metadata_status": "unverified",
+    "name": "Free Store",
+    "options": [],
+    "packages": [
+      {
+        "name": "Head Soccer",
+        "versions": [
+          "7.1.7"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#6D9B39",
+        "name": "Swamp Attack",
+        "packageName": "com.outfit7.movingeye.swampattack",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.8.7.0"
+          }
+        ],
+        "versions": [
+          "4.8.7.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Everything in the shop is granted instantly and free — double coins, more gifts and the any-purchase perks — with no Google Play payment screen, no account and nothing charged.",
+    "id": "608b5a80f1450e47bfcfa2cf:26",
+    "legacy_id": 3454,
+    "metadata_status": "unverified",
+    "name": "Free Store",
+    "options": [],
+    "packages": [
+      {
+        "name": "Swamp Attack",
+        "versions": [
+          "4.8.7.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#7CB342",
+        "name": "Crossy Road",
+        "packageName": "com.yodo1.crossyroad",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.13.2"
+          }
+        ],
+        "versions": [
+          "7.13.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "The in-game store is free. Just tap \"Buy\" and the item is yours — no payment needed. For an ad-free game, just buy the ad-block item from the store.",
+    "id": "608b5a80f1450e47bfcfa2cf:27",
+    "legacy_id": 3455,
+    "metadata_status": "unverified",
+    "name": "Free store",
+    "options": [],
+    "packages": [
+      {
+        "name": "Crossy Road",
+        "versions": [
+          "7.13.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1565C0",
+        "name": "FreeJobAlert",
+        "packageName": "com.freejobalert",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.0.0"
+          }
+        ],
+        "versions": [
+          "1.0.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes all Google AdMob ads (banner, interstitial, rewarded, app open, native).",
+    "id": "608b5a80f1450e47bfcfa2cf:28",
+    "legacy_id": 3456,
+    "metadata_status": "unverified",
+    "name": "FreeJobAlert Ad Removal",
+    "options": [],
+    "packages": [
+      {
+        "name": "FreeJobAlert",
+        "versions": [
+          "1.0.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1565C0",
+        "name": "FreeJobAlert",
+        "packageName": "com.freejobalert",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.0.0"
+          }
+        ],
+        "versions": [
+          "1.0.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Bypasses the Pairip Play Store installation check so the app launches normally.",
+    "id": "608b5a80f1450e47bfcfa2cf:29",
+    "legacy_id": 3457,
+    "metadata_status": "unverified",
+    "name": "FreeJobAlert License Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "FreeJobAlert",
+        "versions": [
+          "1.0.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#8B0A1A",
+        "name": "Grimvalor",
+        "packageName": "com.direlight.grimvalor",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.2.13"
+          }
+        ],
+        "versions": [
+          "1.2.13"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Full Game Unlocked.",
+    "id": "608b5a80f1450e47bfcfa2cf:30",
+    "legacy_id": 3458,
+    "metadata_status": "unverified",
+    "name": "Full game unlock",
+    "options": [],
+    "packages": [
+      {
+        "name": "Grimvalor",
+        "versions": [
+          "1.2.13"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#8B0000",
+        "name": "Into the Dead 2",
+        "packageName": "com.pikpok.dr2.play",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.87.1"
+          }
+        ],
+        "versions": [
+          "1.87.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks every purchase in the game for free. Tap buy and it is yours — no Google Play payment screen appears and you are never charged. Subscriptions like VIP membership show as pre-owned, so just open them, no purchase needed.",
+    "id": "608b5a80f1450e47bfcfa2cf:31",
+    "legacy_id": 3459,
+    "metadata_status": "unverified",
+    "name": "Full IAP Unlock",
+    "options": [],
+    "packages": [
+      {
+        "name": "Into the Dead 2",
+        "versions": [
+          "1.87.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#00BCD4",
+        "name": "HAAK",
+        "packageName": "com.blingame.haaktestb",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.4.3"
+          }
+        ],
+        "versions": [
+          "1.4.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Redirects purchase failure callbacks to their success twins: cancelling the Google Play dialog, a billing error, or an \"not purchased\" query result all grant the product instead.",
+    "id": "608b5a80f1450e47bfcfa2cf:32",
+    "legacy_id": 3460,
+    "metadata_status": "unverified",
+    "name": "HAAK Free Purchases and Unlocked Paid Content",
+    "options": [],
+    "packages": [
+      {
+        "name": "HAAK",
+        "versions": [
+          "1.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2E7D32",
+        "name": "Hill Climb Racing",
+        "packageName": "com.fingersoft.hillclimb",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.72.2"
+          }
+        ],
+        "versions": [
+          "1.72.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes all ads — banner and pop-up ads never show, and the game treats you as ad-free from the start without any repeat purchase pop-ups.",
+    "id": "608b5a80f1450e47bfcfa2cf:33",
+    "legacy_id": 3461,
+    "metadata_status": "unverified",
+    "name": "Hill Climb Racing Ad Removal",
+    "options": [],
+    "packages": [
+      {
+        "name": "Hill Climb Racing",
+        "versions": [
+          "1.72.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2E7D32",
+        "name": "Hill Climb Racing",
+        "packageName": "com.fingersoft.hillclimb",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.72.2"
+          }
+        ],
+        "versions": [
+          "1.72.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Everything in the store is free — coins, gems, paints and bundles are added instantly with no Google Play payment.",
+    "id": "608b5a80f1450e47bfcfa2cf:34",
+    "legacy_id": 3462,
+    "metadata_status": "unverified",
+    "name": "Hill Climb Racing Free Store",
+    "options": [],
+    "packages": [
+      {
+        "name": "Hill Climb Racing",
+        "versions": [
+          "1.72.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2E7D32",
+        "name": "Hill Climb Racing",
+        "packageName": "com.fingersoft.hillclimb",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.72.2"
+          }
+        ],
+        "versions": [
+          "1.72.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Rewarded ads pay out instantly — no video plays; the game gives you the reward as if you had watched the whole ad.",
+    "id": "608b5a80f1450e47bfcfa2cf:35",
+    "legacy_id": 3463,
+    "metadata_status": "unverified",
+    "name": "Hill Climb Racing Instant Rewarded Video Rewards",
+    "options": [],
+    "packages": [
+      {
+        "name": "Hill Climb Racing",
+        "versions": [
+          "1.72.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#8B0000",
+        "name": "Into the Dead 2",
+        "packageName": "com.pikpok.dr2.play",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.87.1"
+          }
+        ],
+        "versions": [
+          "1.87.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Helper that makes the game approve every purchase on your own device, including subscriptions like VIP membership, so bought items land in your account without paying anything.",
+    "id": "608b5a80f1450e47bfcfa2cf:36",
+    "legacy_id": 3464,
+    "metadata_status": "unverified",
+    "name": "IAP Grant Engine",
+    "options": [],
+    "packages": [
+      {
+        "name": "Into the Dead 2",
+        "versions": [
+          "1.87.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#8B0000",
+        "name": "Into the Dead 2",
+        "packageName": "com.pikpok.dr2.play",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.87.1"
+          }
+        ],
+        "versions": [
+          "1.87.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Wakes up that helper every time you open the game, so free purchases and subscriptions keep working.",
+    "id": "608b5a80f1450e47bfcfa2cf:37",
+    "legacy_id": 3465,
+    "metadata_status": "unverified",
+    "name": "IAP Grant Trigger",
+    "options": [],
+    "packages": [
+      {
+        "name": "Into the Dead 2",
+        "versions": [
+          "1.87.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#5BC0EB",
+        "name": "Alto's Adventure",
+        "packageName": "com.noodlecake.altosadventure",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.8.27"
+          }
+        ],
+        "versions": [
+          "1.8.27"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all in-app purchases by faking Google Play billing query results.",
+    "id": "608b5a80f1450e47bfcfa2cf:38",
+    "legacy_id": 3466,
+    "metadata_status": "unverified",
+    "name": "IAP Unlock",
+    "options": [],
+    "packages": [
+      {
+        "name": "Alto's Adventure",
+        "versions": [
+          "1.8.27"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#E8A33D",
+        "name": "Alto's Odyssey",
+        "packageName": "com.noodlecake.altosodyssey",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.0.42"
+          }
+        ],
+        "versions": [
+          "1.0.42"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all in-app purchases in Alto's Odyssey by faking Google Play billing query results.",
+    "id": "608b5a80f1450e47bfcfa2cf:39",
+    "legacy_id": 3467,
+    "metadata_status": "unverified",
+    "name": "IAP Unlock",
+    "options": [],
+    "packages": [
+      {
+        "name": "Alto's Odyssey",
+        "versions": [
+          "1.0.42"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#FFC107",
+        "name": "Injustice: Gods Among Us",
+        "packageName": "com.wb.goog.injustice",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.5.1"
+          }
+        ],
+        "versions": [
+          "3.5.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Get stamina without watching ad Video.",
+    "id": "608b5a80f1450e47bfcfa2cf:40",
+    "legacy_id": 3468,
+    "metadata_status": "unverified",
+    "name": "Injustice Ads Removal",
+    "options": [],
+    "packages": [
+      {
+        "name": "Injustice: Gods Among Us",
+        "versions": [
+          "3.5.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#FFC107",
+        "name": "Injustice: Gods Among Us",
+        "packageName": "com.wb.goog.injustice",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.5.1"
+          }
+        ],
+        "versions": [
+          "3.5.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Bypass billing get the items in store for free.",
+    "id": "608b5a80f1450e47bfcfa2cf:41",
+    "legacy_id": 3469,
+    "metadata_status": "unverified",
+    "name": "Injustice Billing Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "Injustice: Gods Among Us",
+        "versions": [
+          "3.5.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2E6B32",
+        "name": "Dead Target: Offline Games 3D",
+        "packageName": "com.vng.g6.a.zombie",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.183.0"
+          }
+        ],
+        "versions": [
+          "4.183.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Reward buttons pay out instantly. Tap once and you get the reward, with no ad to watch.",
+    "id": "608b5a80f1450e47bfcfa2cf:42",
+    "legacy_id": 3470,
+    "metadata_status": "unverified",
+    "name": "Instant rewarded video",
+    "options": [],
+    "packages": [
+      {
+        "name": "Dead Target: Offline Games 3D",
+        "versions": [
+          "4.183.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#7CB342",
+        "name": "Aliens Drive Me Crazy",
+        "packageName": "com.rebeltwins.aliensdrivemecrazy",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.2.10"
+          }
+        ],
+        "versions": [
+          "3.2.10"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Reward buttons (free revive, double coins) pay out instantly without playing any ad video (native libil2cpp.so patch).",
+    "id": "608b5a80f1450e47bfcfa2cf:43",
+    "legacy_id": 3471,
+    "metadata_status": "unverified",
+    "name": "Instant rewards",
+    "options": [],
+    "packages": [
+      {
+        "name": "Aliens Drive Me Crazy",
+        "versions": [
+          "3.2.10"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#8B0000",
+        "name": "Into the Dead",
+        "packageName": "com.sidheinteractive.sif.DR",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.9.5"
+          }
+        ],
+        "versions": [
+          "2.9.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all in-app purchases for free and bypasses SHA1withRSA receipt verification: every store item is granted instantly without launching the Google Play payment dialog, and any fabricated receipt is accepted.",
+    "id": "608b5a80f1450e47bfcfa2cf:44",
+    "legacy_id": 3472,
+    "metadata_status": "unverified",
+    "name": "Into the Dead Billing Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "Into the Dead",
+        "versions": [
+          "2.9.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#F57F17",
+        "name": "Jetpack Joyride",
+        "packageName": "com.halfbrick.jetpackjoyride",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.104.1"
+          }
+        ],
+        "versions": [
+          "1.104.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Intercepts all in-app purchases and reports instant success to the game engine.",
+    "id": "608b5a80f1450e47bfcfa2cf:45",
+    "legacy_id": 3473,
+    "metadata_status": "unverified",
+    "name": "Jetpack Joyride Billing Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "Jetpack Joyride",
+        "versions": [
+          "1.104.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#6200EE",
+        "name": "Lumina Walls",
+        "packageName": "com.lumina.wallpapers",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.0.2.6"
+          }
+        ],
+        "versions": [
+          "1.0.2.6"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables the PairIP license check (Play licensing service validation + signed-response verification + paywall/error dialog + forced System.exit). Required for patched APKs — the original check fails on any non-Play signature and force-closes the app.",
+    "id": "608b5a80f1450e47bfcfa2cf:46",
+    "legacy_id": 3474,
+    "metadata_status": "unverified",
+    "name": "Lumina PairIP License Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "Lumina Walls",
+        "versions": [
+          "1.0.2.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#6200EE",
+        "name": "Lumina Walls",
+        "packageName": "com.lumina.wallpapers",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.0.2.6"
+          }
+        ],
+        "versions": [
+          "1.0.2.6"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all premium wallpapers and categories.",
+    "id": "608b5a80f1450e47bfcfa2cf:47",
+    "legacy_id": 3475,
+    "metadata_status": "unverified",
+    "name": "Lumina Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Lumina Walls",
+        "versions": [
+          "1.0.2.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2196F3",
+        "name": "Missiles",
+        "packageName": "pl.macaque.Missiles",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.41"
+          }
+        ],
+        "versions": [
+          "1.41"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Spoofs the Google Mobile Ads Unity bridge (AdMob): interstitial, rewarded, rewarded interstitial, app open and banner ads resolve instantly as loaded/showed/closed/rewarded without ever displaying an ad.",
+    "id": "608b5a80f1450e47bfcfa2cf:48",
+    "legacy_id": 3476,
+    "metadata_status": "unverified",
+    "name": "Missiles Ads Removal",
+    "options": [],
+    "packages": [
+      {
+        "name": "Missiles",
+        "versions": [
+          "1.41"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2196F3",
+        "name": "Missiles",
+        "packageName": "pl.macaque.Missiles",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.41"
+          }
+        ],
+        "versions": [
+          "1.41"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Spoofs the Google Play Billing 8.0.0 purchase flow: every buy is instantly granted (fake Purchase delivered through the registered listener), purchases/consumes complete instantly, and the product catalog is served with fake ProductDetails — no Google Play sheet, no real payment.",
+    "id": "608b5a80f1450e47bfcfa2cf:49",
+    "legacy_id": 3477,
+    "metadata_status": "unverified",
+    "name": "Missiles Billing Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "Missiles",
+        "versions": [
+          "1.41"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2196F3",
+        "name": "Missiles",
+        "packageName": "pl.macaque.Missiles",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.41"
+          }
+        ],
+        "versions": [
+          "1.41"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Bypasses the Pairip Play Store license check so the app launches normally.",
+    "id": "608b5a80f1450e47bfcfa2cf:50",
+    "legacy_id": 3478,
+    "metadata_status": "unverified",
+    "name": "Missiles License Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "Missiles",
+        "versions": [
+          "1.41"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#E2E2E2",
+        "name": "Only One",
+        "packageName": "com.rebelbinary.onlyone",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.3050"
+          }
+        ],
+        "versions": [
+          "1.3050"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Makes 'Restore Purchases' grant every store item for free (Ultimate Power, all classes, bundles and powers) — also removes ads.",
+    "id": "608b5a80f1450e47bfcfa2cf:51",
+    "legacy_id": 3479,
+    "metadata_status": "unverified",
+    "name": "Only One Free Store",
+    "options": [],
+    "packages": [
+      {
+        "name": "Only One",
+        "versions": [
+          "1.3050"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#E2E2E2",
+        "name": "Only One",
+        "packageName": "com.rebelbinary.onlyone",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.3050"
+          }
+        ],
+        "versions": [
+          "1.3050"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Buy any item in the shop for free. When you tap Buy, the item is added to your game right away — no Google Play payment window ever opens.",
+    "id": "608b5a80f1450e47bfcfa2cf:52",
+    "legacy_id": 3480,
+    "metadata_status": "unverified",
+    "name": "Only One IAP billing bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "Only One",
+        "versions": [
+          "1.3050"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#E2E2E2",
+        "name": "Only One",
+        "packageName": "com.rebelbinary.onlyone",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.3050"
+          }
+        ],
+        "versions": [
+          "1.3050"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables the PairIP license check so the game starts without Google Play licensing, error dialogs or forced exits.",
+    "id": "608b5a80f1450e47bfcfa2cf:53",
+    "legacy_id": 3481,
+    "metadata_status": "unverified",
+    "name": "Only One PairIP removal",
+    "options": [],
+    "packages": [
+      {
+        "name": "Only One",
+        "versions": [
+          "1.3050"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#B71C1C",
+        "name": "Plague Inc.",
+        "packageName": "com.miniclip.plagueinc",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.26.1"
+          }
+        ],
+        "versions": [
+          "1.26.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all premium features and disables premium prompts.",
+    "id": "608b5a80f1450e47bfcfa2cf:54",
+    "legacy_id": 3482,
+    "metadata_status": "unverified",
+    "name": "Plague Inc. Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Plague Inc.",
+        "versions": [
+          "1.26.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#B71C1C",
+        "name": "Plague Inc.",
+        "packageName": "com.miniclip.plagueinc",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.26.1"
+          }
+        ],
+        "versions": [
+          "1.26.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes AppLovin banner ads and the Ndemic premium promo during gameplay.",
+    "id": "608b5a80f1450e47bfcfa2cf:55",
+    "legacy_id": 3483,
+    "metadata_status": "unverified",
+    "name": "Plague Inc. Remove Banner Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Plague Inc.",
+        "versions": [
+          "1.26.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#B71C1C",
+        "name": "Plague Inc.",
+        "packageName": "com.miniclip.plagueinc",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.26.1"
+          }
+        ],
+        "versions": [
+          "1.26.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Grants rewarded video bonuses instantly without watching ads.",
+    "id": "608b5a80f1450e47bfcfa2cf:56",
+    "legacy_id": 3484,
+    "metadata_status": "unverified",
+    "name": "Plague Inc. Skip Rewarded Video Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Plague Inc.",
+        "versions": [
+          "1.26.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#B71C1C",
+        "name": "Plague Inc.",
+        "packageName": "com.miniclip.plagueinc",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.26.1"
+          }
+        ],
+        "versions": [
+          "1.26.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Registers unlocked premium content with the native engine so premium modes run without trial banners.",
+    "id": "608b5a80f1450e47bfcfa2cf:57",
+    "legacy_id": 3485,
+    "metadata_status": "unverified",
+    "name": "Plague Inc. Sync Premium Entitlements",
+    "options": [],
+    "packages": [
+      {
+        "name": "Plague Inc.",
+        "versions": [
+          "1.26.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#B71C1C",
+        "name": "Plague Inc.",
+        "packageName": "com.miniclip.plagueinc",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.26.1"
+          }
+        ],
+        "versions": [
+          "1.26.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all genes by earning them through the game's own unlock path when the gene menu opens.",
+    "id": "608b5a80f1450e47bfcfa2cf:58",
+    "legacy_id": 3486,
+    "metadata_status": "unverified",
+    "name": "Plague Inc. Unlock All Genes",
+    "options": [],
+    "packages": [
+      {
+        "name": "Plague Inc.",
+        "versions": [
+          "1.26.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#B71C1C",
+        "name": "Plague Inc.",
+        "packageName": "com.miniclip.plagueinc",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.26.1"
+          }
+        ],
+        "versions": [
+          "1.26.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all disease types including Neurax Worm, Necroa Virus, Simian Flu and Shadow Plague.",
+    "id": "608b5a80f1450e47bfcfa2cf:59",
+    "legacy_id": 3487,
+    "metadata_status": "unverified",
+    "name": "Plague Inc. Unlock Disease Types",
+    "options": [],
+    "packages": [
+      {
+        "name": "Plague Inc.",
+        "versions": [
+          "1.26.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#B71C1C",
+        "name": "Plague Inc.",
+        "packageName": "com.miniclip.plagueinc",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.26.1"
+          }
+        ],
+        "versions": [
+          "1.26.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Cure Mode, Plague Pack, custom scenarios and bypasses the Play Pass check.",
+    "id": "608b5a80f1450e47bfcfa2cf:60",
+    "legacy_id": 3488,
+    "metadata_status": "unverified",
+    "name": "Plague Inc. Unlock Expansions",
+    "options": [],
+    "packages": [
+      {
+        "name": "Plague Inc.",
+        "versions": [
+          "1.26.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#B71C1C",
+        "name": "Plague Inc.",
+        "packageName": "com.miniclip.plagueinc",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.26.1"
+          }
+        ],
+        "versions": [
+          "1.26.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the premium lock from the in-game fast-forward button.",
+    "id": "608b5a80f1450e47bfcfa2cf:61",
+    "legacy_id": 3489,
+    "metadata_status": "unverified",
+    "name": "Plague Inc. Unlock Fast-Forward",
+    "options": [],
+    "packages": [
+      {
+        "name": "Plague Inc.",
+        "versions": [
+          "1.26.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0F4C5C",
+        "name": "Prince of Persia: The Lost Crown",
+        "packageName": "com.ubisoft.princeofpersia.thelostcrown.mobile.action.adventure.platform",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.1.9"
+          }
+        ],
+        "versions": [
+          "1.1.9"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "The game has a built-in self-check that shuts it down if it detects the app was modified. This patch quietly turns that check off so the game can start.",
+    "id": "608b5a80f1450e47bfcfa2cf:62",
+    "legacy_id": 3490,
+    "metadata_status": "unverified",
+    "name": "Prince of Persia: Anti-tamper bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "Prince of Persia: The Lost Crown",
+        "versions": [
+          "1.1.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0F4C5C",
+        "name": "Prince of Persia: The Lost Crown",
+        "packageName": "com.ubisoft.princeofpersia.thelostcrown.mobile.action.adventure.platform",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.1.9"
+          }
+        ],
+        "versions": [
+          "1.1.9"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Adds a tiny hidden helper into the game. About 30 seconds after the game starts, it presses the game's own secret 'unlock full game' button — no purchases needed.",
+    "id": "608b5a80f1450e47bfcfa2cf:63",
+    "legacy_id": 3491,
+    "metadata_status": "unverified",
+    "name": "Prince of Persia: Full Game Unlock Engine",
+    "options": [],
+    "packages": [
+      {
+        "name": "Prince of Persia: The Lost Crown",
+        "versions": [
+          "1.1.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0F4C5C",
+        "name": "Prince of Persia: The Lost Crown",
+        "packageName": "com.ubisoft.princeofpersia.thelostcrown.mobile.action.adventure.platform",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.1.9"
+          }
+        ],
+        "versions": [
+          "1.1.9"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Tells the game to start that hidden helper the moment the app opens, so the unlock happens automatically.",
+    "id": "608b5a80f1450e47bfcfa2cf:64",
+    "legacy_id": 3492,
+    "metadata_status": "unverified",
+    "name": "Prince of Persia: Full Game Unlock Trigger",
+    "options": [],
+    "packages": [
+      {
+        "name": "Prince of Persia: The Lost Crown",
+        "versions": [
+          "1.1.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#6D9B39",
+        "name": "Swamp Attack",
+        "packageName": "com.outfit7.movingeye.swampattack",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.8.7.0"
+          }
+        ],
+        "versions": [
+          "4.8.7.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Forced ads are gone for good — interstitials never load or show, even offline and regardless of server settings. Rewarded videos you choose to watch still work.",
+    "id": "608b5a80f1450e47bfcfa2cf:65",
+    "legacy_id": 3493,
+    "metadata_status": "unverified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Swamp Attack",
+        "versions": [
+          "4.8.7.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#7CB342",
+        "name": "Aliens Drive Me Crazy",
+        "packageName": "com.rebeltwins.aliensdrivemecrazy",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.2.10"
+          }
+        ],
+        "versions": [
+          "3.2.10"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Stops all interstitial/commercial-break ads between games (native libil2cpp.so patch, rewarded videos handled by the instant-rewards patch).",
+    "id": "608b5a80f1450e47bfcfa2cf:66",
+    "legacy_id": 3494,
+    "metadata_status": "unverified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Aliens Drive Me Crazy",
+        "versions": [
+          "3.2.10"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#1A237E",
+        "name": "Dan the Man",
+        "packageName": "com.halfbrick.dantheman",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.14.05"
+          }
+        ],
+        "versions": [
+          "1.14.05"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes all ads. Reward videos now give you the prize instantly — no watching needed.",
+    "id": "608b5a80f1450e47bfcfa2cf:67",
+    "legacy_id": 3495,
+    "metadata_status": "unverified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Dan the Man",
+        "versions": [
+          "1.14.05"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#689F38",
+        "name": "Rodeo Stampede: Sky Zoo Safari",
+        "packageName": "com.yodo1.rodeo.safari",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.25.0"
+          }
+        ],
+        "versions": [
+          "4.25.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Blocks banner/app-open/native ads and turns rewarded + interstitial ads into instant no-ad events so the game never fetches or displays ads.",
+    "id": "608b5a80f1450e47bfcfa2cf:68",
+    "legacy_id": 3496,
+    "metadata_status": "unverified",
+    "name": "Rodeo Stampede Ad-Free (Ads blocked + instant rewards)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Rodeo Stampede: Sky Zoo Safari",
+        "versions": [
+          "4.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#689F38",
+        "name": "Rodeo Stampede: Sky Zoo Safari",
+        "packageName": "com.yodo1.rodeo.safari",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.25.0"
+          }
+        ],
+        "versions": [
+          "4.25.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Spoofs in-app purchases as instantly successful at the Yodo1 purchase funnel.",
+    "id": "608b5a80f1450e47bfcfa2cf:69",
+    "legacy_id": 3497,
+    "metadata_status": "unverified",
+    "name": "Rodeo Stampede Free Purchase",
+    "options": [],
+    "packages": [
+      {
+        "name": "Rodeo Stampede: Sky Zoo Safari",
+        "versions": [
+          "4.25.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#F0E000",
+        "name": "Shooty Skies",
+        "packageName": "com.mightygamesgroup.shootyskies",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.441.100101"
+          }
+        ],
+        "versions": [
+          "3.441.100101"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Blocks banner, interstitial, app-open and native ads, and turns rewarded videos into instant rewards — nothing is ever fetched or displayed.",
+    "id": "608b5a80f1450e47bfcfa2cf:70",
+    "legacy_id": 3498,
+    "metadata_status": "unverified",
+    "name": "Shooty Skies Ad-Free (Ads blocked + instant rewards)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Shooty Skies",
+        "versions": [
+          "3.441.100101"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#F0E000",
+        "name": "Shooty Skies",
+        "packageName": "com.mightygamesgroup.shootyskies",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.441.100101"
+          }
+        ],
+        "versions": [
+          "3.441.100101"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Every store item is free — tap \"Buy\" and the purchase completes instantly with no Google Play payment, and owned items like ad removal are granted at startup.",
+    "id": "608b5a80f1450e47bfcfa2cf:71",
+    "legacy_id": 3499,
+    "metadata_status": "unverified",
+    "name": "Shooty Skies Free store",
+    "options": [],
+    "packages": [
+      {
+        "name": "Shooty Skies",
+        "versions": [
+          "3.441.100101"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "608b5a80f1450e47bfcfa2cf",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1E88E5",
+        "name": "Smash Hit",
+        "packageName": "com.mediocre.smashhit",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.5.14"
+          }
+        ],
+        "versions": [
+          "1.5.14"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks premium and all game modes without purchase.",
+    "id": "608b5a80f1450e47bfcfa2cf:72",
+    "legacy_id": 3500,
+    "metadata_status": "unverified",
+    "name": "Smash Hit Premium Unlock",
+    "options": [],
+    "packages": [
+      {
+        "name": "Smash Hit",
+        "versions": [
+          "1.5.14"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.40.0-dev.3",
+    "source_id": "b149043aa62e2c0a"
+  }
+]

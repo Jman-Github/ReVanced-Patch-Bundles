@@ -1,0 +1,33 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "stable"
+  ],
+  "created_at": "2026-10-06T14:05:09",
+  "description": "# Haiagaru 1.7.1\n\n1.7.0からの互換性修正を含む正式リリースです。配布MPPはAndroid版Morphe向けです。\n\n## 主な変更点\n\n- 専用必死チェッカービュワーをOFFにした場合、必死チェッカーURLをChMate内WebViewへ固定せず、Androidの通常のURL処理に戻すよう修正しました。\n- ChMate 0.8.10.191 devで、Talkの旧形式スレURLから書き込みフォームを開けない問題を修正しました。\n- Talkの読み込み処理中だけ通信種別を一時的に変更し、読み込み後に元の種別へ戻すことで、書き込み先判定への副作用を防ぎます。\n- エッヂの記者IDや記号を含むスレタイの表示・編集処理を修正しました。\n\n## 対応するChMate\n\n- 0.8.10.191 dev\n- 0.8.10.226 dev\n- 0.8.10.241\n- 0.8.10.242 dev\n- 0.8.10.243 devは一部機能未実装のため非推奨です。\n\n## 配布物\n\n- `haiagaru_patches-1.7.1.mpp` と `patches-1.7.1.mpp` は同一のAndroid向けMPPです。\n- パッチ適用時は元のChMate APKを使用し、事前に必要なデータをバックアップしてください。\n",
+  "download_url": "https://github.com/areteruhiro/Haiagaru-Morphe/releases/download/1.7.1/patches-1.7.1.mpp",
+  "ecosystem": "morphe",
+  "extraction_status": "unverified",
+  "file_hash": null,
+  "id": "6e24aff27432d61a4b205e28",
+  "import_urls": {
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fareteruhiro%2FHaiagaru-Morphe&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": false,
+  "is_prerelease": false,
+  "metadata_status": "stale",
+  "need_patches_update": true,
+  "packages": [
+    "ChMate"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_version": "1.2.2-r3",
+  "patcher_runtime": null,
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": "N/A",
+  "source_id": "f005427a1ef4594f",
+  "version": "1.7.1"
+}

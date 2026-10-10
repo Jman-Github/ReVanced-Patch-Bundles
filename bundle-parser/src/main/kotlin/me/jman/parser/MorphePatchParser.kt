@@ -22,15 +22,12 @@ internal fun generateMorphePatchList(downloadUri: URI): JsonArray? {
     return try {
         val classpathFiles = morpheClasspathFiles()
         downloadToFile(downloadUri.toURL(), patchesFile)
-        URLClassLoader(classpathFiles.map { it.toURI().toURL() }.toTypedArray(), null).use { classLoader ->
+        URLClassLoader(
+            classpathFiles.map { it.toURI().toURL() }.toTypedArray(), ClassLoader.getSystemClassLoader()
+        ).use { classLoader ->
             val patches = loadMorphePatchesFromJar(patchesFile, classLoader)
             val jsonPatches = patches.map(::convertMorphePatch)
-            if (jsonPatches.isEmpty()) {
-                Logger.warning("No patches were found in the Morphe patch bundle.")
-                null
-            } else {
-                JsonArray(jsonPatches)
-            }
+            JsonArray(jsonPatches)
         }
     } catch (_: FileNotFoundException) {
         Logger.warning("The patch bundle file was not found.")
@@ -98,13 +95,9 @@ private fun loadMorphePatchesFromJar(
     } ?: throw IllegalStateException("Morphe patcher returned no patches for ${patchesFile.name}.")
 
     val loaded = when (patches) {
-        is Iterable<*> -> patches.mapNotNull(::retainNamedPatch)
-        is Array<*> -> patches.mapNotNull(::retainNamedPatch)
+        is Iterable<*> -> patches.filterNotNull()
+        is Array<*> -> patches.filterNotNull()
         else -> throw IllegalStateException("Unexpected Morphe patch result type: ${patches::class.java.name}")
-    }
-
-    if (loaded.isEmpty()) {
-        throw IllegalStateException("No Morphe patch entries were discovered in ${patchesFile.name}.")
     }
 
     return loaded
@@ -152,13 +145,13 @@ private fun morpheLoaderClasses(classLoader: ClassLoader): List<Class<*>> {
 
 private fun retainNamedPatch(candidate: Any?): Any? {
     candidate ?: return null
-    return candidate.takeIf { dependencyLabel(it).isNotBlank() }
+    return candidate.takeIf { !readStringMember(it, "name").isNullOrBlank() }
 }
 
 private fun convertMorphePatch(patch: Any): JsonObject {
-    val compatiblePackages = convertMorpheCompatiblePackages(
-        readMemberValue(patch, "compatiblePackages") as? Set<*> ?: emptySet<Any?>()
-    )
+    val packages = readMemberValue(patch, "compatiblePackages")
+    require(packages == null || packages is Iterable<*>) { "Compatible packages are not iterable" }
+    val compatiblePackages = convertMorpheCompatiblePackages(packages as? Iterable<*>)
     val dependencies = JsonArray(
         asIterable(readMemberValue(patch, "dependencies"))
             .mapNotNull(::retainNamedPatch)
@@ -173,8 +166,8 @@ private fun convertMorphePatch(patch: Any): JsonObject {
     )
 
     return buildJsonObject {
-        put("name", JsonPrimitive(readStringMember(patch, "name").orEmpty()))
-        put("description", JsonPrimitive(readStringMember(patch, "description").orEmpty()))
+        put("name", readStringMember(patch, "name")?.let(::JsonPrimitive) ?: JsonNull)
+        put("description", toJsonValue(readStringMember(patch, "description")))
         put("use", JsonPrimitive(readBooleanMember(patch, "use") ?: true))
         put("dependencies", dependencies)
         put("compatiblePackages", compatiblePackages)
@@ -208,24 +201,29 @@ private fun convertMorpheOption(option: Any?): JsonObject? {
     }
 }
 
-private fun convertMorpheCompatiblePackages(compatiblePackages: Set<*>): JsonElement {
-    if (compatiblePackages.isEmpty()) {
+private fun convertMorpheCompatiblePackages(compatiblePackages: Iterable<*>?): JsonElement {
+    if (compatiblePackages == null) {
         return JsonNull
     }
 
-    val mapped = linkedMapOf<String, List<String>>()
+    val mapped = mutableListOf<Pair<String, JsonElement>>()
     var ignoredCount = 0
 
     for (entry in compatiblePackages) {
         when {
             entry is Map.Entry<*, *> -> {
                 val name = entry.key as? String ?: continue
-                mapped[name] = parseCompatibleVersions(entry.value)
+                mapped += name to parseCompatibleVersions(entry.value)
             }
-            entry is String -> mapped[entry] = emptyList()
+            entry is String -> mapped += entry to JsonNull
             entry != null && entry.javaClass.name == "kotlin.Pair" -> {
                 val name = readMemberValue(entry, "first") as? String ?: continue
-                mapped[name] = parseCompatibleVersions(readMemberValue(entry, "second"))
+                mapped += name to parseCompatibleVersions(readMemberValue(entry, "second"))
+            }
+            entry != null -> {
+                val name = readStringMember(entry, "name")
+                    ?: error("Invalid compatible package name")
+                mapped += name to parseCompatibleVersions(readMemberValue(entry, "versions"))
             }
             else -> ignoredCount++
         }
@@ -239,20 +237,21 @@ private fun convertMorpheCompatiblePackages(compatiblePackages: Set<*>): JsonEle
         return JsonNull
     }
 
-    return buildJsonObject {
-        for ((name, versions) in mapped) {
-            put(name, JsonArray(versions.map(::JsonPrimitive)))
-        }
-    }
+    return compatibilityJson(mapped)
 }
 
-private fun parseCompatibleVersions(value: Any?): List<String> {
-    return when (value) {
-        is Iterable<*> -> value.mapNotNull { it?.toString()?.takeIf(String::isNotBlank) }
-        is Array<*> -> value.mapNotNull { it?.toString()?.takeIf(String::isNotBlank) }
-        is String -> listOfNotNull(value.takeIf(String::isNotBlank))
-        else -> emptyList()
+private fun parseCompatibleVersions(value: Any?): JsonElement {
+    if (value == null) return JsonNull
+    val versions = when (value) {
+        is Iterable<*> -> value
+        is Array<*> -> value.asIterable()
+        is String -> listOf(value)
+        else -> error("Compatible versions are not iterable")
     }
+    return JsonArray(versions.map {
+        require(it is String) { "Compatible version is not a string" }
+        JsonPrimitive(it)
+    })
 }
 
 private fun toJsonValue(value: Any?): JsonElement {

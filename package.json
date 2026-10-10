@@ -1,0 +1,22 @@
+{
+  "name": "patch-bundle-registry-catalog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test worker/test/*.test.js",
+    "build:worker": "node scripts/build_worker.mjs",
+    "dev:worker": "wrangler dev --config worker/wrangler.jsonc",
+    "deploy:worker": "wrangler deploy --config worker/wrangler.jsonc --env production",
+    "test:runtime": "node scripts/test_live_worker.mjs"
+  },
+  "dependencies": {
+    "graphql": "^16.11.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.148.0",
+    "miniflare": "5.20261006.0-alpha"
+  },
+  "overrides": {
+    "sharp": "^0.35.5"
+  }
+}

@@ -1,4 +1,6 @@
 import java.util.Properties
+import groovy.json.JsonSlurper
+import groovy.json.JsonOutput
 
 plugins {
     alias(libs.plugins.kotlin)
@@ -32,22 +34,8 @@ val resolvedGprKey: String? = when {
     hardcodedGprToken.isNotBlank() -> hardcodedGprToken
     !gprKey.isNullOrBlank() -> gprKey
     !localGprKey.isNullOrBlank() -> localGprKey
-    else -> System.getenv("GITHUB_TOKEN")
-}
-
-val patcher21Runtime by configurations.creating {
-    isCanBeConsumed = false
-    isCanBeResolved = true
-}
-
-val patcher22Runtime by configurations.creating {
-    isCanBeConsumed = false
-    isCanBeResolved = true
-}
-
-val morpheRuntime by configurations.creating {
-    isCanBeConsumed = false
-    isCanBeResolved = true
+    else -> sequenceOf("GITHUB_PACKAGES_TOKEN", "GITHUB_TOKEN", "GIT_TOKEN")
+        .mapNotNull { System.getenv(it)?.takeIf(String::isNotBlank) }.firstOrNull()
 }
 
 repositories {
@@ -73,6 +61,9 @@ repositories {
             username = resolvedGprUser
             password = resolvedGprKey
         }
+        authentication {
+            create<org.gradle.authentication.http.BasicAuthentication>("basic")
+        }
     }
     maven {
         name = "ReVancedPatcherPackages"
@@ -83,6 +74,9 @@ repositories {
         credentials {
             username = resolvedGprUser
             password = resolvedGprKey
+        }
+        authentication {
+            create<org.gradle.authentication.http.BasicAuthentication>("basic")
         }
     }
     maven {
@@ -95,6 +89,9 @@ repositories {
             username = resolvedGprUser
             password = resolvedGprKey
         }
+        authentication {
+            create<org.gradle.authentication.http.BasicAuthentication>("basic")
+        }
     }
     maven {
         name = "MorphePackages"
@@ -105,6 +102,9 @@ repositories {
         credentials {
             username = resolvedGprUser
             password = resolvedGprKey
+        }
+        authentication {
+            create<org.gradle.authentication.http.BasicAuthentication>("basic")
         }
     }
     maven {
@@ -117,6 +117,9 @@ repositories {
             username = resolvedGprUser
             password = resolvedGprKey
         }
+        authentication {
+            create<org.gradle.authentication.http.BasicAuthentication>("basic")
+        }
     }
 }
 
@@ -127,12 +130,6 @@ dependencies {
     implementation(libs.smali)
     compileOnly(libs.jsr305)
     testImplementation(kotlin("test"))
-
-    patcher22Runtime(libs.revanced.patcher)
-    patcher22Runtime(libs.revanced.library)
-    patcher21Runtime(libs.revanced.patcher.legacy)
-    patcher21Runtime(libs.revanced.library.legacy)
-    morpheRuntime(libs.morphe.patcher)
 }
 
 kotlin {
@@ -151,19 +148,67 @@ application {
     mainClass.set("me.jman.parser.MainKt")
 }
 
-tasks.named<JavaExec>("run") {
-    doFirst {
-        val modernClasspath = patcher22Runtime.files.joinToString(File.pathSeparator) { it.absolutePath }
-        val legacyClasspath = patcher21Runtime.files.joinToString(File.pathSeparator) { it.absolutePath }
-        val morpheClasspath = morpheRuntime.files.joinToString(File.pathSeparator) { it.absolutePath }
-        systemProperty("revanced.patcher22.classpath", modernClasspath)
-        systemProperty("revanced.patcher21.classpath", legacyClasspath)
-        systemProperty("morphe.patcher.classpath", morpheClasspath)
-    }
-}
-
 tasks.register("assembleRelease") {
     group = "build"
     description = "Alias for assemble to support CI validation on this JVM application module."
     dependsOn(tasks.named("assemble"))
+}
+
+// Each configuration resolves independently; an unavailable runtime is recorded, not fatal.
+@Suppress("UNCHECKED_CAST")
+val configuredRuntimes = (JsonSlurper().parse(rootDir.parentFile.resolve("config/patcher-runtimes.json"))
+    as Map<String, Any>)["runtimes"] as List<Map<String, Any>>
+val configurableRuntimeDependencies = configuredRuntimes.associate { runtime ->
+    val id = runtime["id"] as String
+    require(id.matches(Regex("[a-z0-9-]+"))) { "Invalid runtime id" }
+    val configuration = configurations.create("catalogRuntime_" + id.replace("-", "_")) {
+        isCanBeConsumed = false
+        isCanBeResolved = true
+    }
+    (runtime["dependencies"] as List<*>).forEach { coordinate ->
+        dependencies.add(configuration.name, coordinate as String)
+    }
+    id to configuration
+}
+val runtimeManifest = layout.buildDirectory.file("runtime-classpaths.json")
+val prepareCatalogRuntimes = tasks.register("prepareCatalogRuntimes") {
+    inputs.file(rootDir.parentFile.resolve("config/patcher-runtimes.json"))
+    outputs.file(runtimeManifest)
+    outputs.upToDateWhen { false } // Retry runtime artifact outages on the next workflow run.
+    doLast {
+        val installed = configurableRuntimeDependencies.mapValues { (id, configuration) ->
+            try {
+                mapOf("available" to true,
+                      "classpath" to configuration.files.joinToString(File.pathSeparator) { it.absolutePath })
+            } catch (failure: Exception) {
+                logger.warn("Runtime {} unavailable ({}). GitHub Packages requires a valid token with read:packages; " +
+                    "set GITHUB_PACKAGES_TOKEN or gpr.key.", id, failure.javaClass.simpleName)
+                mapOf("available" to false, "classpath" to "")
+            }
+        }
+        runtimeManifest.get().asFile.apply {
+            parentFile.mkdirs()
+            writeText(JsonOutput.prettyPrint(JsonOutput.toJson(installed)))
+        }
+    }
+}
+tasks.named<JavaExec>("run") {
+    dependsOn(prepareCatalogRuntimes)
+    doFirst {
+        systemProperty("catalog.runtime.config", rootDir.parentFile.resolve("config/patcher-runtimes.json"))
+        systemProperty("catalog.runtime.manifest", runtimeManifest.get().asFile)
+    }
+}
+tasks.named<Test>("test") {
+    dependsOn(tasks.named("installDist"))
+}
+val runtimeSmoke = tasks.register<Exec>("runtimeSmoke") {
+    group = "verification"
+    description = "Validate runtime isolation, deadlines and extraction failure handling."
+    dependsOn(tasks.named("installDist"), prepareCatalogRuntimes)
+    workingDir(rootDir.parentFile)
+    commandLine(providers.environmentVariable("PYTHON").orElse("python").get(), "scripts/runtime_smoke.py")
+}
+tasks.named("assembleRelease") {
+    dependsOn(tasks.named("test"), runtimeSmoke)
 }

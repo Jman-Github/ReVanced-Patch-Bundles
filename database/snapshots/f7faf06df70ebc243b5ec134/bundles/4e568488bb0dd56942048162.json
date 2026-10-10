@@ -1,0 +1,38 @@
+{
+  "bundle_type": "ReVanced:V4",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-05-25T21:56:33",
+  "description": "## Emby Patches\n\nPatch bundle for ReVanced Manager.\n\n### Spoof server host\nReplaces the Emby server validation host with a custom one to bypass premiere checks.\n\n### Usage\n1. Import this `.rvp` file in ReVanced Manager (Patches → ✏️ → + → Select from storage)\n2. Select the Emby app (com.mb.android)\n3. Enable \"Spoof server host\"\n4. Patch\n",
+  "download_url": "https://github.com/BakasuraRCE/bakasura-patches/releases/download/v1.0.0/patches-1.0.0.rvp",
+  "ecosystem": "revanced",
+  "extraction_status": "unverified",
+  "file_hash": null,
+  "id": "4e568488bb0dd56942048162",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FBakasuraRCE%2Fbakasura-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FBakasuraRCE%2Fbakasura-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 177,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "com.mb.android"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_version": "v1.0.0",
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": "N/A",
+  "source_id": "fb4782c266360e34",
+  "version": "v1.0.0"
+}

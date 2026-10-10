@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Patch Bundle Registry GraphiQL</title>
+  <link rel="icon" href="../favicon.svg">
+  <link rel="stylesheet" href="https://unpkg.com/graphiql@3.9.0/graphiql.min.css">
+  <style>body{margin:0}nav{padding:10px}#graphiql{height:calc(100vh - 44px)}</style>
+</head>
+<body>
+  <nav><a href="../">Patch Bundle Registry</a> · <a href="../api-docs/">REST API</a></nav>
+  <div id="graphiql"></div>
+  <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/graphiql@3.9.0/graphiql.min.js"></script>
+  <script type="module">
+    const response = await fetch("../config.json");
+    if (!response.ok) throw new Error("Site configuration unavailable");
+    const config = await response.json();
+    ReactDOM.createRoot(document.getElementById("graphiql")).render(
+      React.createElement(GraphiQL,{fetcher:GraphiQL.createFetcher({url:config.api + "/v1/graphql", subscriptionUrl:config.api.replace(/^http/, "ws") + "/v1/graphql"}),
+        defaultQuery:"{ source(limit: 10) { id url bundles(limit: 3) { id version } } }"}));
+  </script>
+</body>
+</html>

@@ -12,7 +12,7 @@ from pathlib import Path
 from jsonschema import Draft202012Validator
 
 ROOT = Path(__file__).resolve().parents[1]
-BUNDLE_DIR = ROOT / "patch-bundles"
+BUNDLE_DIR = ROOT / "internal/cache/bundles"
 SCHEMA_DIR = ROOT / "schemas"
 
 BUNDLE_SCHEMA = json.loads((SCHEMA_DIR / "patch_bundle.schema.json").read_text(encoding="utf-8"))
@@ -26,7 +26,7 @@ def _discover_targets(paths: Iterable[Path] | None) -> list[Path]:
     if paths:
         return [p for p in paths if p.suffix == ".json" and p.is_file()]
 
-    return sorted(BUNDLE_DIR.rglob("*.json"))
+    return sorted([*BUNDLE_DIR.rglob("*.json"), *(ROOT / "internal/cache/history").rglob("*.json")])
 
 
 def _pick_validator(path: Path) -> Draft202012Validator | None:

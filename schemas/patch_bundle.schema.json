@@ -1,41 +1,43 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Patch Bundle",
+  "$defs": {
+    "asset": {
+      "type": "object", "required": ["version", "url"],
+      "properties": {
+        "version": {"type": "string", "minLength": 1},
+        "url": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    }
+  },
   "oneOf": [
     {
-      "type": "object",
-      "required": ["version"],
+      "type": "object", "required": ["version"],
       "properties": {
-        "version": { "type": "string", "minLength": 1 },
-        "download_url": { "type": "string", "minLength": 1 },
-        "signature_download_url": { "type": "string" },
-        "description": { "type": "string" },
-        "created_at": { "type": ["string", "null"] }
+        "version": {"type": "string", "minLength": 1},
+        "download_url": {"type": "string", "minLength": 1},
+        "provider_digest": {"type": ["string", "null"]},
+        "signature_download_url": {"type": ["string", "null"]},
+        "description": {"type": "string"},
+        "created_at": {"type": ["string", "null"]},
+        "is_prerelease": {"type": "boolean"},
+        "bundle_type": {"enum": ["ReVanced:V3", "ReVanced:V4", "Morphe:V1"]}
       },
       "additionalProperties": false
     },
     {
-      "type": "object",
-      "required": ["patches", "integrations"],
+      "type": "object", "required": ["patches"],
       "properties": {
-        "patches": {
-          "type": "object",
-          "required": ["version", "url"],
-          "properties": {
-            "version": { "type": "string", "minLength": 1 },
-            "url": { "type": "string", "minLength": 1 }
-          },
-          "additionalProperties": false
-        },
-        "integrations": {
-          "type": "object",
-          "required": ["version", "url"],
-          "properties": {
-            "version": { "type": "string", "minLength": 1 },
-            "url": { "type": "string", "minLength": 1 }
-          },
-          "additionalProperties": false
-        }
+        "patches": {"$ref": "#/$defs/asset"},
+        "integrations": {"anyOf": [{"$ref": "#/$defs/asset"}, {"type": "null"}]},
+        "version": {"type": "string", "minLength": 1},
+        "provider_digest": {"type": ["string", "null"]},
+        "description": {"type": "string"},
+        "signature_download_url": {"type": ["string", "null"]},
+        "created_at": {"type": ["string", "null"]},
+        "is_prerelease": {"type": "boolean"},
+        "bundle_type": {"enum": ["ReVanced:V3", "ReVanced:V4", "Morphe:V1"]}
       },
       "additionalProperties": false
     }

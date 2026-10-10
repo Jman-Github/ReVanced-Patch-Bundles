@@ -1,0 +1,76 @@
+name: Publish patch catalog
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Refresh patch catalog"]
+    types: [completed]
+permissions:
+  contents: read
+  actions: read
+  pages: write
+  id-token: write
+concurrency:
+  group: catalog-pages
+  cancel-in-progress: false
+jobs:
+  prepare:
+    if: vars.CATALOG_PAGES_ENABLED == 'true' && (github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success')
+    runs-on: ubuntu-latest
+    outputs:
+      publish: ${{ steps.ready.outputs.publish }}
+    steps:
+      - name: Inspect triggering artifact
+        id: artifact
+        if: github.event_name == 'workflow_run'
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
+        with:
+          script: |
+            const result = await github.rest.actions.listWorkflowRunArtifacts({
+              ...context.repo, run_id: context.payload.workflow_run.id
+            });
+            const artifact = result.data.artifacts.find(a => a.name === 'catalog-site' && !a.expired);
+            core.setOutput('exists', artifact ? 'true' : 'false');
+      - name: Download exact generation from updater
+        if: steps.artifact.outputs.exists == 'true'
+        uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0 # v5
+        with:
+          name: catalog-site
+          path: site-dist
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GIT_TOKEN }}
+      - name: Checkout for manual publication
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: bundles
+          persist-credentials: false
+      - name: Set up Python
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+        with:
+          python-version: '3.12'
+      - name: Prepare manual publication
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          python scripts/generate_database.py --site
+          python scripts/validate_database.py
+      - name: Mark publication ready
+        id: ready
+        if: github.event_name == 'workflow_dispatch' || steps.artifact.outputs.exists == 'true'
+        run: echo "publish=true" >> "$GITHUB_OUTPUT"
+      - name: Upload Pages artifact
+        if: steps.ready.outputs.publish == 'true'
+        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+        with:
+          path: site-dist
+  deploy:
+    needs: prepare
+    if: needs.prepare.outputs.publish == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy reviewed catalog
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4

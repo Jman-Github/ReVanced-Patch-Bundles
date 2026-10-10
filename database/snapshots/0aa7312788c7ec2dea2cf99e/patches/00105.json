@@ -1,0 +1,4734 @@
+[
+  {
+    "bundle_id": "d788f02136a3c9a704197c58",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#000000",
+        "name": "NYT Games",
+        "packageName": "com.nytimes.crossword",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.34.0",
+            "versionCodes": {
+              "ARM64_V8A": 6426458,
+              "ARMEABI_V7A": 6426458,
+              "X86": 6426458,
+              "X86_64": 6426458
+            }
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "6.34.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Let NYT Games render above 60 fps on 90/120 Hz and variable-refresh-rate displays. The app never opts into high refresh, so Android's power-saving frame-rate override pins it to 60 Hz; this makes each Activity window request the display's top refresh rate (a seamless, adaptive-refresh-friendly hint), lifting that cap.",
+    "id": "d788f02136a3c9a704197c58:1",
+    "legacy_id": 10501,
+    "metadata_status": "unverified",
+    "name": "Unlock high refresh rate",
+    "options": [],
+    "packages": [
+      {
+        "name": "NYT Games",
+        "versions": [
+          "6.34.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0",
+    "source_id": "92a4d3d71caf4cb4"
+  },
+  {
+    "bundle_id": "d943d53bd5bb6057461cdc87",
+    "compatiblePackages": {
+      "com.vladlee.easyblacklist": [
+        "4.8.20"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables all ad purchase checks to hide ads globally.",
+    "id": "d943d53bd5bb6057461cdc87:0",
+    "legacy_id": 10502,
+    "metadata_status": "unverified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.vladlee.easyblacklist",
+        "versions": [
+          "4.8.20"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "10c45ad7ad88aae7",
+    "use": true
+  },
+  {
+    "bundle_id": "d943d53bd5bb6057461cdc87",
+    "compatiblePackages": {
+      "com.vladlee.easyblacklist": [
+        "4.8.20"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks all premium features.",
+    "id": "d943d53bd5bb6057461cdc87:1",
+    "legacy_id": 10503,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.vladlee.easyblacklist",
+        "versions": [
+          "4.8.20"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "10c45ad7ad88aae7",
+    "use": true
+  },
+  {
+    "bundle_id": "d943d53bd5bb6057461cdc87",
+    "compatiblePackages": {
+      "com.ipoji.app": null
+    },
+    "dependencies": [],
+    "description": "Unlocks all premium features by forcing all RevenueCat entitlements to active.",
+    "id": "d943d53bd5bb6057461cdc87:2",
+    "legacy_id": 10504,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ipoji.app",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "10c45ad7ad88aae7",
+    "use": true
+  },
+  {
+    "bundle_id": "d9cee7e2f16396eae151a6ad",
+    "compatiblePackages": {
+      "ai.perplexity.app.android": [
+        "2.90.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Forces the application to use the native Google Speech-to-Text engine instead of the third-party Soniox engine by disabling the Soniox realtime configuration.",
+    "id": "d9cee7e2f16396eae151a6ad:0",
+    "legacy_id": 10505,
+    "metadata_status": "unverified",
+    "name": "Force Native Speech-to-Text",
+    "options": [],
+    "packages": [
+      {
+        "name": "ai.perplexity.app.android",
+        "versions": [
+          "2.90.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "1.0.0",
+    "source_id": "de4a47e1a61bb201",
+    "use": true
+  },
+  {
+    "bundle_id": "d9e2b6feab2d292042b6dce0",
+    "compatiblePackages": {
+      "nextapp.fx": null
+    },
+    "dependencies": [],
+    "description": "Unlock features like 'Web Access', 'Network' and 'FX Connect'.",
+    "id": "d9e2b6feab2d292042b6dce0:0",
+    "legacy_id": 10506,
+    "metadata_status": "unverified",
+    "name": "Unlock FX Plus",
+    "options": [],
+    "packages": [
+      {
+        "name": "nextapp.fx",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "87b9d6dc7405e4c9",
+    "use": true
+  },
+  {
+    "bundle_id": "d9e2b6feab2d292042b6dce0",
+    "compatiblePackages": {
+      "com.teslacoilsw.launcher": null
+    },
+    "dependencies": [],
+    "description": "Unlocks Nova Prime and all functions of the app.",
+    "id": "d9e2b6feab2d292042b6dce0:1",
+    "legacy_id": 10507,
+    "metadata_status": "unverified",
+    "name": "Unlock prime",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.teslacoilsw.launcher",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "87b9d6dc7405e4c9",
+    "use": true
+  },
+  {
+    "bundle_id": "d9e2b6feab2d292042b6dce0",
+    "compatiblePackages": {
+      "net.dinglisch.android.taskerm": null
+    },
+    "dependencies": [],
+    "description": "Unlocks the trial version.",
+    "id": "d9e2b6feab2d292042b6dce0:2",
+    "legacy_id": 10508,
+    "metadata_status": "unverified",
+    "name": "Unlock trial",
+    "options": [],
+    "packages": [
+      {
+        "name": "net.dinglisch.android.taskerm",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.5.1",
+    "source_id": "87b9d6dc7405e4c9",
+    "use": true
+  },
+  {
+    "bundle_id": "da182e08741c48d78e23c655",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "name": "Trakt",
+        "packageName": "tv.trakt.trakt",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.13.0"
+          }
+        ],
+        "versions": [
+          "3.13.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Remove ads, add VIP badge and allow to view 'Your Month in Review'.",
+    "id": "da182e08741c48d78e23c655:0",
+    "legacy_id": 10509,
+    "metadata_status": "unverified",
+    "name": "Unlock pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "Trakt",
+        "versions": [
+          "3.13.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.1",
+    "source_id": "7a27524e72d97fda"
+  },
+  {
+    "bundle_id": "da38a91ed1bf56c54748faea",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1DC9A0",
+        "description": null,
+        "name": "Samsung Health",
+        "packageName": "com.sec.android.app.shealth",
+        "signatures": null,
+        "targets": [
+          {
+            "description": null,
+            "isExperimental": false,
+            "minSdk": null,
+            "version": "6.32.0.001"
+          },
+          {
+            "description": null,
+            "isExperimental": false,
+            "minSdk": null,
+            "version": "6.31.3.013"
+          }
+        ],
+        "versions": [
+          "6.32.0.001",
+          "6.31.3.013"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Replaces Samsung Account provider checks and routes account lookups through Android AccountManager.",
+    "id": "da38a91ed1bf56c54748faea:0",
+    "legacy_id": 10510,
+    "metadata_status": "unverified",
+    "name": "Bypass Samsung Account provider checks",
+    "options": [],
+    "packages": [
+      {
+        "name": "Samsung Health",
+        "versions": [
+          "6.32.0.001",
+          "6.31.3.013"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.15",
+    "source_id": "228326b16a97b5d3"
+  },
+  {
+    "bundle_id": "da38a91ed1bf56c54748faea",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1DC9A0",
+        "description": null,
+        "name": "Samsung Health",
+        "packageName": "com.sec.android.app.shealth",
+        "signatures": null,
+        "targets": [
+          {
+            "description": null,
+            "isExperimental": false,
+            "minSdk": null,
+            "version": "6.32.0.001"
+          },
+          {
+            "description": null,
+            "isExperimental": false,
+            "minSdk": null,
+            "version": "6.31.3.013"
+          }
+        ],
+        "versions": [
+          "6.32.0.001",
+          "6.31.3.013"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Bypasses Knox, root, warranty bit, and SAK checks so Samsung Health runs on Knox-tripped devices.",
+    "id": "da38a91ed1bf56c54748faea:1",
+    "legacy_id": 10511,
+    "metadata_status": "unverified",
+    "name": "Disable Knox integrity checks",
+    "options": [],
+    "packages": [
+      {
+        "name": "Samsung Health",
+        "versions": [
+          "6.32.0.001",
+          "6.31.3.013"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.15",
+    "source_id": "228326b16a97b5d3"
+  },
+  {
+    "bundle_id": "da6b4147964e0a903fe19f56",
+    "compatiblePackages": {
+      "ru.yandex.yandexnavi": [
+        "28.6.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Strips the IllegalStateException + PassportRuntime handler block in c0.releaseRuntimeChecks (smali-aligned).",
+    "id": "da6b4147964e0a903fe19f56:0",
+    "legacy_id": 10512,
+    "metadata_status": "unverified",
+    "name": "Bypass Passport signature mismatch crash",
+    "options": [],
+    "packages": [
+      {
+        "name": "ru.yandex.yandexnavi",
+        "versions": [
+          "28.6.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.6",
+    "source_id": "42897bef2cd06f3b",
+    "use": false
+  },
+  {
+    "bundle_id": "da6b4147964e0a903fe19f56",
+    "compatiblePackages": {
+      "ru.yandex.yandexnavi": [
+        "28.6.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Sets android:debuggable=true on <application> (Passport allows non-Play signature on that path).",
+    "id": "da6b4147964e0a903fe19f56:1",
+    "legacy_id": 10513,
+    "metadata_status": "unverified",
+    "name": "Debuggable application manifest",
+    "options": [],
+    "packages": [
+      {
+        "name": "ru.yandex.yandexnavi",
+        "versions": [
+          "28.6.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.6",
+    "source_id": "42897bef2cd06f3b",
+    "use": false
+  },
+  {
+    "bundle_id": "da6b4147964e0a903fe19f56",
+    "compatiblePackages": {
+      "ru.yandex.yandexnavi": [
+        "28.6.5"
+      ]
+    },
+    "dependencies": [],
+    "description": "Unlocks the internal Maps-shell debug panel gate (Yandexoid prefs + swipable experiment).",
+    "id": "da6b4147964e0a903fe19f56:2",
+    "legacy_id": 10514,
+    "metadata_status": "unverified",
+    "name": "Enable debug panel",
+    "options": [],
+    "packages": [
+      {
+        "name": "ru.yandex.yandexnavi",
+        "versions": [
+          "28.6.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.6",
+    "source_id": "42897bef2cd06f3b",
+    "use": true
+  },
+  {
+    "bundle_id": "da96ee783a64f439d99b8d54",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1B1B1F",
+        "name": "Local Dream",
+        "packageName": "io.github.xororz.localdream",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.0.0-alpha.3"
+          }
+        ],
+        "versions": [
+          "3.0.0-alpha.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Lets the image upscale screen take several pictures at once. Picking one works as before; picking more opens a screen that upscales them one after another with the upscaler and scale chosen there, where each result can be zoomed, compared with its original, and saved on its own or all together.",
+    "id": "da96ee783a64f439d99b8d54:0",
+    "legacy_id": 10515,
+    "metadata_status": "unverified",
+    "name": "Batch upscale",
+    "options": [],
+    "packages": [
+      {
+        "name": "Local Dream",
+        "versions": [
+          "3.0.0-alpha.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "32c5f57d69638380"
+  },
+  {
+    "bundle_id": "da96ee783a64f439d99b8d54",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FCFCFC",
+        "name": "JPTT",
+        "packageName": "com.joshua.jptt",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.8.4"
+          },
+          {
+            "isExperimental": false,
+            "version": "3.8.5"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables the Play Store license check, which a patched app always fails and which closes the app on launch. Needed by every patched build.",
+    "id": "da96ee783a64f439d99b8d54:1",
+    "legacy_id": 10516,
+    "metadata_status": "unverified",
+    "name": "Disable Play license check",
+    "options": [],
+    "packages": [
+      {
+        "name": "JPTT",
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "32c5f57d69638380"
+  },
+  {
+    "bundle_id": "da96ee783a64f439d99b8d54",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FCFCFC",
+        "name": "JPTT",
+        "packageName": "com.joshua.jptt",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.8.4"
+          },
+          {
+            "isExperimental": false,
+            "version": "3.8.5"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Drops the ANSI escape sequences JPTT's terminal emulator cannot parse, which otherwise swallow the screen content that follows them. Fixes the article list being stuck at 載入中, and keeps the next sequence PTT adds from breaking the app again.",
+    "id": "da96ee783a64f439d99b8d54:2",
+    "legacy_id": 10517,
+    "metadata_status": "unverified",
+    "name": "Fix article list loading",
+    "options": [],
+    "packages": [
+      {
+        "name": "JPTT",
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "32c5f57d69638380"
+  },
+  {
+    "bundle_id": "da96ee783a64f439d99b8d54",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FCFCFC",
+        "name": "JPTT",
+        "packageName": "com.joshua.jptt",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.8.4"
+          },
+          {
+            "isExperimental": false,
+            "version": "3.8.5"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Shows the picture for links an image host answers with a web page: an imgur album or .mp4, an address missing the i. subdomain, a meee.com.tw page. Only the preview and the full size image change, not the article text.",
+    "id": "da96ee783a64f439d99b8d54:3",
+    "legacy_id": 10518,
+    "metadata_status": "unverified",
+    "name": "Fix image links",
+    "options": [],
+    "packages": [
+      {
+        "name": "JPTT",
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "32c5f57d69638380"
+  },
+  {
+    "bundle_id": "da96ee783a64f439d99b8d54",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FCFCFC",
+        "name": "JPTT",
+        "packageName": "com.joshua.jptt",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.8.4"
+          },
+          {
+            "isExperimental": false,
+            "version": "3.8.5"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Fixes taking a photo to upload when the Clone app patch has renamed the package. Changes nothing on a normal install.",
+    "id": "da96ee783a64f439d99b8d54:4",
+    "legacy_id": 10519,
+    "metadata_status": "unverified",
+    "name": "Fix photo upload in clones",
+    "options": [],
+    "packages": [
+      {
+        "name": "JPTT",
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "32c5f57d69638380"
+  },
+  {
+    "bundle_id": "da96ee783a64f439d99b8d54",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FCFCFC",
+        "name": "JPTT",
+        "packageName": "com.joshua.jptt",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.8.4"
+          },
+          {
+            "isExperimental": false,
+            "version": "3.8.5"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Keeps the images of the article you are reading in memory, so they are not read again when you scroll back, and gives the memory back once the app has been in the background for a while. A disk cache behind it covers coming back after that.",
+    "id": "da96ee783a64f439d99b8d54:5",
+    "legacy_id": 10520,
+    "metadata_status": "unverified",
+    "name": "Increase image cache size",
+    "options": [
+      {
+        "default": 256,
+        "description": "Starting value for the memory the image cache may use while the app is open. 0 turns it off. Changeable in the app afterwards, under Settings > Morphe.",
+        "key": "memoryCacheSizeMb",
+        "required": false,
+        "title": "Image memory cache size (MB)",
+        "type": "kotlin.Int",
+        "values": null
+      },
+      {
+        "default": 5,
+        "description": "Starting value for how long the app may sit in the background before the image memory cache is emptied. Changeable in the app afterwards, under Settings > Morphe.",
+        "key": "releaseAfterMinutes",
+        "required": false,
+        "title": "Release memory cache after (minutes)",
+        "type": "kotlin.Int",
+        "values": null
+      },
+      {
+        "default": 64,
+        "description": "Starting value for the maximum disk space the image cache may use. Changeable in the app afterwards, under Settings > Morphe.",
+        "key": "cacheSizeMb",
+        "required": false,
+        "title": "Image disk cache size (MB)",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "JPTT",
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "32c5f57d69638380"
+  },
+  {
+    "bundle_id": "da96ee783a64f439d99b8d54",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FCFCFC",
+        "name": "JPTT",
+        "packageName": "com.joshua.jptt",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.8.4"
+          },
+          {
+            "isExperimental": false,
+            "version": "3.8.5"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Shows more of your recent search keywords in the article search dialog.",
+    "id": "da96ee783a64f439d99b8d54:6",
+    "legacy_id": 10521,
+    "metadata_status": "unverified",
+    "name": "More recent searches",
+    "options": [
+      {
+        "default": 15,
+        "description": "Starting value, changeable in the app afterwards. Recent keywords used on the board you are currently in. JPTT shows 5 of them.",
+        "key": "boardKeywordCount",
+        "required": false,
+        "title": "最近看板搜尋 entries",
+        "type": "kotlin.Int",
+        "values": null
+      },
+      {
+        "default": 30,
+        "description": "Starting value, changeable in the app afterwards. Recent keywords used on any board. JPTT shows 15 of them.",
+        "key": "allKeywordCount",
+        "required": false,
+        "title": "最近搜尋 entries",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "JPTT",
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "32c5f57d69638380"
+  },
+  {
+    "bundle_id": "da96ee783a64f439d99b8d54",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FCFCFC",
+        "name": "JPTT",
+        "packageName": "com.joshua.jptt",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.8.4"
+          },
+          {
+            "isExperimental": false,
+            "version": "3.8.5"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds a tab to JPTT's own settings where the options these patches add can be changed without patching the app again, and where every setting can be exported to a file and read back.",
+    "id": "da96ee783a64f439d99b8d54:7",
+    "legacy_id": 10522,
+    "metadata_status": "unverified",
+    "name": "Patch settings",
+    "options": [],
+    "packages": [
+      {
+        "name": "JPTT",
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "32c5f57d69638380"
+  },
+  {
+    "bundle_id": "da96ee783a64f439d99b8d54",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FCFCFC",
+        "name": "JPTT",
+        "packageName": "com.joshua.jptt",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.8.4"
+          },
+          {
+            "isExperimental": false,
+            "version": "3.8.5"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Plays animated GIFs and WebPs in articles, which the app shows as their first frame. Needs Android 9 or later; the full size viewer still shows the first frame.",
+    "id": "da96ee783a64f439d99b8d54:8",
+    "legacy_id": 10523,
+    "metadata_status": "unverified",
+    "name": "Play GIFs",
+    "options": [],
+    "packages": [
+      {
+        "name": "JPTT",
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "32c5f57d69638380"
+  },
+  {
+    "bundle_id": "da96ee783a64f439d99b8d54",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FCFCFC",
+        "name": "JPTT",
+        "packageName": "com.joshua.jptt",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.8.4"
+          },
+          {
+            "isExperimental": false,
+            "version": "3.8.5"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Downloads an article's images as soon as you open it instead of when you scroll to each one. Respects the app's own image loading settings.",
+    "id": "da96ee783a64f439d99b8d54:9",
+    "legacy_id": 10524,
+    "metadata_status": "unverified",
+    "name": "Preload article images",
+    "options": [
+      {
+        "default": 60,
+        "description": "Starting value for how many of an article's images are downloaded ahead of time. Images past the limit still load the normal way when scrolled to. Changeable in the app afterwards.",
+        "key": "preloadLimit",
+        "required": false,
+        "title": "Images to preload per article",
+        "type": "kotlin.Int",
+        "values": null
+      },
+      {
+        "default": 4,
+        "description": "Starting value for how many images are preloaded in parallel, changeable in the app afterwards. Fresco keeps a whole encoded image in memory for as long as its request is in flight, so raising this raises the peak memory use. Lower it if the app is killed on image heavy articles.",
+        "key": "concurrency",
+        "required": false,
+        "title": "Images downloading at once",
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "JPTT",
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "32c5f57d69638380"
+  },
+  {
+    "bundle_id": "da96ee783a64f439d99b8d54",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FCFCFC",
+        "name": "JPTT",
+        "packageName": "com.joshua.jptt",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.8.4"
+          },
+          {
+            "isExperimental": false,
+            "version": "3.8.5"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Reconnects the moment you come back to the app, instead of leaving you on a countdown that grows to eight seconds. While an article is open it waits until you leave it or do something that needs PTT, so opening links does not log you in again every time.",
+    "id": "da96ee783a64f439d99b8d54:10",
+    "legacy_id": 10525,
+    "metadata_status": "unverified",
+    "name": "Reconnect on return",
+    "options": [],
+    "packages": [
+      {
+        "name": "JPTT",
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "32c5f57d69638380"
+  },
+  {
+    "bundle_id": "da96ee783a64f439d99b8d54",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FCFCFC",
+        "name": "JPTT",
+        "packageName": "com.joshua.jptt",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.8.4"
+          },
+          {
+            "isExperimental": false,
+            "version": "3.8.5"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Stops the banner, the rows inside articles and lists, and the ad the app falls back to when it thinks AdMob is blocked. No ad is requested at all, so nothing is downloaded and nothing is reported.",
+    "id": "da96ee783a64f439d99b8d54:11",
+    "legacy_id": 10526,
+    "metadata_status": "unverified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "JPTT",
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "32c5f57d69638380"
+  },
+  {
+    "bundle_id": "da96ee783a64f439d99b8d54",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FCFCFC",
+        "name": "JPTT",
+        "packageName": "com.joshua.jptt",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.8.4"
+          },
+          {
+            "isExperimental": false,
+            "version": "3.8.5"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Long press a recent search keyword in the article search dialog to delete it, clear the history, or add a home screen shortcut that opens the board with that search. Shortcuts made from the 最近搜尋 tab open the search too.",
+    "id": "da96ee783a64f439d99b8d54:12",
+    "legacy_id": 10527,
+    "metadata_status": "unverified",
+    "name": "Search history actions",
+    "options": [],
+    "packages": [
+      {
+        "name": "JPTT",
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "32c5f57d69638380"
+  },
+  {
+    "bundle_id": "da96ee783a64f439d99b8d54",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FCFCFC",
+        "name": "JPTT",
+        "packageName": "com.joshua.jptt",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.8.4"
+          },
+          {
+            "isExperimental": false,
+            "version": "3.8.5"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Shows PTT's message and stops when it temporarily bans the account from logging in, instead of sitting at 連線中 until the app is closed.",
+    "id": "da96ee783a64f439d99b8d54:13",
+    "legacy_id": 10528,
+    "metadata_status": "unverified",
+    "name": "Stop on login ban",
+    "options": [],
+    "packages": [
+      {
+        "name": "JPTT",
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "32c5f57d69638380"
+  },
+  {
+    "bundle_id": "da96ee783a64f439d99b8d54",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FCFCFC",
+        "name": "JPTT",
+        "packageName": "com.joshua.jptt",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.8.4"
+          },
+          {
+            "isExperimental": false,
+            "version": "3.8.5"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Lays the recent search keywords out over several lines instead of one line you have to scroll sideways.",
+    "id": "da96ee783a64f439d99b8d54:14",
+    "legacy_id": 10529,
+    "metadata_status": "unverified",
+    "name": "Wrap recent searches",
+    "options": [],
+    "packages": [
+      {
+        "name": "JPTT",
+        "versions": [
+          "3.8.4",
+          "3.8.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.1",
+    "source_id": "32c5f57d69638380"
+  },
+  {
+    "bundle_id": "dbe279f73aa3005fff81c95d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#4285F4",
+        "name": "Google Phone",
+        "packageName": "com.google.android.dialer",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "236.0.969488611-downloadable"
+          }
+        ],
+        "versions": [
+          "236.0.969488611-downloadable"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Enables the Google Phone call-recording eligibility check.",
+    "id": "dbe279f73aa3005fff81c95d:0",
+    "legacy_id": 10530,
+    "metadata_status": "unverified",
+    "name": "Call recording support",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Phone",
+        "versions": [
+          "236.0.969488611-downloadable"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.11",
+    "source_id": "f5e965117665166f"
+  },
+  {
+    "bundle_id": "dbe279f73aa3005fff81c95d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#4285F4",
+        "name": "Google Phone",
+        "packageName": "com.google.android.dialer",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "236.0.969488611-downloadable"
+          }
+        ],
+        "versions": [
+          "236.0.969488611-downloadable"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the unavailable com.google.android.dialer.support shared-library requirement.",
+    "id": "dbe279f73aa3005fff81c95d:1",
+    "legacy_id": 10531,
+    "metadata_status": "unverified",
+    "name": "Remove Dialer Support Library",
+    "options": [],
+    "packages": [
+      {
+        "name": "Google Phone",
+        "versions": [
+          "236.0.969488611-downloadable"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0-dev.11",
+    "source_id": "f5e965117665166f"
+  },
+  {
+    "bundle_id": "dc5260bed7fe654103befee6",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1D6BA8",
+        "name": "iPusnas",
+        "packageName": "mam.reader.ipusnas",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.1.4"
+          }
+        ],
+        "versions": [
+          "2.1.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Makes the PairIP license check pass for sideloaded installs so the app no longer redirects to the Play Store and closes.",
+    "id": "dc5260bed7fe654103befee6:0",
+    "legacy_id": 10532,
+    "metadata_status": "unverified",
+    "name": "Bypass Play Store redirect",
+    "options": [],
+    "packages": [
+      {
+        "name": "iPusnas",
+        "versions": [
+          "2.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "e3c358d98e60d5c2"
+  },
+  {
+    "bundle_id": "dc5260bed7fe654103befee6",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1D6BA8",
+        "name": "iPusnas",
+        "packageName": "mam.reader.ipusnas",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.1.4"
+          }
+        ],
+        "versions": [
+          "2.1.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Disables Google Firebase Analytics tracking and removes Firebase Cloud Messaging push notifications.",
+    "id": "dc5260bed7fe654103befee6:1",
+    "legacy_id": 10533,
+    "metadata_status": "unverified",
+    "name": "Disable Firebase Analytics and FCM",
+    "options": [],
+    "packages": [
+      {
+        "name": "iPusnas",
+        "versions": [
+          "2.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "e3c358d98e60d5c2"
+  },
+  {
+    "bundle_id": "dc5260bed7fe654103befee6",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1D6BA8",
+        "name": "iPusnas",
+        "packageName": "mam.reader.ipusnas",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.1.4"
+          }
+        ],
+        "versions": [
+          "2.1.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Stops the app from reporting security breaches or APK integrity failures to the developers' Telegram channel.",
+    "id": "dc5260bed7fe654103befee6:2",
+    "legacy_id": 10534,
+    "metadata_status": "unverified",
+    "name": "Neuter Telegram security breach reporter",
+    "options": [],
+    "packages": [
+      {
+        "name": "iPusnas",
+        "versions": [
+          "2.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "e3c358d98e60d5c2"
+  },
+  {
+    "bundle_id": "dc5260bed7fe654103befee6",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1D6BA8",
+        "name": "iPusnas",
+        "packageName": "mam.reader.ipusnas",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.1.4"
+          }
+        ],
+        "versions": [
+          "2.1.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the hard-coded OkHttp certificate pins and SSL pinning interceptor so the app trusts system and user CAs.",
+    "id": "dc5260bed7fe654103befee6:3",
+    "legacy_id": 10535,
+    "metadata_status": "unverified",
+    "name": "Remove certificate pinning",
+    "options": [],
+    "packages": [
+      {
+        "name": "iPusnas",
+        "versions": [
+          "2.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "e3c358d98e60d5c2"
+  },
+  {
+    "bundle_id": "dc5260bed7fe654103befee6",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1D6BA8",
+        "name": "iPusnas",
+        "packageName": "mam.reader.ipusnas",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.1.4"
+          }
+        ],
+        "versions": [
+          "2.1.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables the FLAG_SECURE window flag in the PDF and EPUB readers so screenshots and screen recordings are allowed.",
+    "id": "dc5260bed7fe654103befee6:4",
+    "legacy_id": 10536,
+    "metadata_status": "unverified",
+    "name": "Remove screenshot restriction",
+    "options": [],
+    "packages": [
+      {
+        "name": "iPusnas",
+        "versions": [
+          "2.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "e3c358d98e60d5c2"
+  },
+  {
+    "bundle_id": "dc5260bed7fe654103befee6",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1D6BA8",
+        "name": "iPusnas",
+        "packageName": "mam.reader.ipusnas",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.1.4"
+          }
+        ],
+        "versions": [
+          "2.1.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Adds a menu option that downloads, decrypts, and saves the book as a readable PDF or EPUB in the public Downloads folder.",
+    "id": "dc5260bed7fe654103befee6:5",
+    "legacy_id": 10537,
+    "metadata_status": "unverified",
+    "name": "Save book to Downloads",
+    "options": [],
+    "packages": [
+      {
+        "name": "iPusnas",
+        "versions": [
+          "2.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "e3c358d98e60d5c2"
+  },
+  {
+    "bundle_id": "dce3b8bb55f22024004735a2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#A8805C",
+        "name": "CREX - Just Cricket",
+        "packageName": "in.cricketexchange.app.cricketexchange",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.04.05"
+          }
+        ],
+        "versions": [
+          "26.04.05"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks premium features and removes ads.",
+    "id": "dce3b8bb55f22024004735a2:0",
+    "legacy_id": 10538,
+    "metadata_status": "unverified",
+    "name": "CREX Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "CREX - Just Cricket",
+        "versions": [
+          "26.04.05"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.2",
+    "source_id": "1fca3c771a46482a"
+  },
+  {
+    "bundle_id": "de59dbc86db2713613397511",
+    "compatiblePackages": {
+      "com.google.android.apps.bard": null,
+      "com.google.android.googlequicksearchbox": null
+    },
+    "dependencies": [],
+    "description": "Injects the MicroG signature-spoof permission into Gemini's AndroidManifest.",
+    "id": "de59dbc86db2713613397511:0",
+    "legacy_id": 10539,
+    "metadata_status": "unverified",
+    "name": "GmsCore MicroG support",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.bard",
+        "versions": []
+      },
+      {
+        "name": "com.google.android.googlequicksearchbox",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.15",
+    "source_id": "97c6b0d07265f4d9",
+    "use": true
+  },
+  {
+    "bundle_id": "de59dbc86db2713613397511",
+    "compatiblePackages": {
+      "com.google.android.apps.bard": null,
+      "com.google.android.googlequicksearchbox": null
+    },
+    "dependencies": [],
+    "description": "Replaces unused internal package names in Gemini's allowlist with Morphe-patched YouTube and YouTube Music package names.",
+    "id": "de59dbc86db2713613397511:1",
+    "legacy_id": 10540,
+    "metadata_status": "unverified",
+    "name": "Route intents to patched apps",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.bard",
+        "versions": []
+      },
+      {
+        "name": "com.google.android.googlequicksearchbox",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.1.15",
+    "source_id": "97c6b0d07265f4d9",
+    "use": true
+  },
+  {
+    "bundle_id": "de8d9813140def110b048583",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2C2C31",
+        "name": "Expand",
+        "packageName": "org.monroeinstitute.expand",
+        "targets": [
+          {
+            "description": "Download the arm64 XAPK from APKPure (not APKMirror). Use Morphe’s file picker if Continue opens Google.",
+            "isExperimental": false,
+            "version": "2.1.1",
+            "versionCodes": {
+              "ARM64_V8A": 841
+            }
+          }
+        ],
+        "versions": [
+          "2.1.1"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Prevents Adjust and Firebase Analytics from collecting or sending analytics.",
+    "id": "de8d9813140def110b048583:0",
+    "legacy_id": 10541,
+    "metadata_status": "unverified",
+    "name": "Disable Analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "Expand",
+        "versions": [
+          "2.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "280d46a8f274bc85"
+  },
+  {
+    "bundle_id": "de8d9813140def110b048583",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#00A87E",
+        "description": "Warning: patching OfferUp resigns the APK, so the listing map embed stops working (Google Maps API key is tied to the Play Store signature).",
+        "name": "OfferUp",
+        "packageName": "com.offerup",
+        "signatures": [
+          "b030bf5c258015aacf92c0c8e3c4f3c6ae17cdc6c4d4f1dd7686b78145aacb23"
+        ],
+        "targets": [
+          {
+            "description": "Patch the device split APKs (base + arm64 + en + xxhdpi) or an APKS/APKM matching this version. Listing map embed will not work after install (resigning breaks the Maps API key).",
+            "isExperimental": false,
+            "version": "2026.38.0",
+            "versionCodes": {
+              "ARM64_V8A": 2026380003
+            }
+          }
+        ],
+        "versions": [
+          "2026.38.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "Hides Google, Nimbus, Moloco, Liftoff, in-feed promo tiles, Inbox banners, and the Go Premium bar. Note: patching OfferUp breaks the listing map embed (Maps API key is tied to the Play Store signature).",
+    "id": "de8d9813140def110b048583:1",
+    "legacy_id": 10542,
+    "metadata_status": "unverified",
+    "name": "Hide Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "OfferUp",
+        "versions": [
+          "2026.38.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "280d46a8f274bc85"
+  },
+  {
+    "bundle_id": "de8d9813140def110b048583",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2C2C31",
+        "name": "Expand",
+        "packageName": "org.monroeinstitute.expand",
+        "targets": [
+          {
+            "description": "Download the arm64 XAPK from APKPure (not APKMirror). Use Morphe’s file picker if Continue opens Google.",
+            "isExperimental": false,
+            "version": "2.1.1",
+            "versionCodes": {
+              "ARM64_V8A": 841
+            }
+          }
+        ],
+        "versions": [
+          "2.1.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Expand Plus without a subscription.",
+    "id": "de8d9813140def110b048583:2",
+    "legacy_id": 10543,
+    "metadata_status": "unverified",
+    "name": "Unlock Plus",
+    "options": [],
+    "packages": [
+      {
+        "name": "Expand",
+        "versions": [
+          "2.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "280d46a8f274bc85"
+  },
+  {
+    "bundle_id": "de8d9813140def110b048583",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#232A63",
+        "name": "ASL Bloom",
+        "packageName": "com.toleio.us",
+        "targets": [
+          {
+            "description": "Use the XAPK matching your device architecture.",
+            "isExperimental": false,
+            "version": "1.36.63",
+            "versionCodes": {
+              "ARM64_V8A": 871,
+              "ARMEABI_V7A": 871
+            }
+          }
+        ],
+        "versions": [
+          "1.36.63"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks ASL Bloom Premium lessons and features.",
+    "id": "de8d9813140def110b048583:3",
+    "legacy_id": 10544,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "ASL Bloom",
+        "versions": [
+          "1.36.63"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "280d46a8f274bc85"
+  },
+  {
+    "bundle_id": "de8d9813140def110b048583",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1AABB8",
+        "name": "Lumenate",
+        "packageName": "com.lumenate.lumenateaa",
+        "targets": [
+          {
+            "description": "Download the arm64 XAPK from APKPure (not APKMirror). Use Morphe’s file picker if Continue opens Google.",
+            "isExperimental": false,
+            "version": "7.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 394
+            }
+          }
+        ],
+        "versions": [
+          "7.1.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks Lumenate Premium without a subscription.",
+    "id": "de8d9813140def110b048583:4",
+    "legacy_id": 10545,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Lumenate",
+        "versions": [
+          "7.1.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "280d46a8f274bc85"
+  },
+  {
+    "bundle_id": "de8d9813140def110b048583",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#2FC7FF",
+        "name": "Sweepy",
+        "packageName": "app.sweepy.sweepy",
+        "signatures": [
+          "817b52b22fd3dc5583ac3302f3754cdccfd181f2ae9ba03b82f3755afd9db205"
+        ],
+        "targets": [
+          {
+            "description": "Patch the device split APKs (base + arm64 + locale + density) or an APKS/APKM matching this version.",
+            "isExperimental": false,
+            "version": "6.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 305
+            }
+          }
+        ],
+        "versions": [
+          "6.1.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Unlocks Sweepy Premium features.",
+    "id": "de8d9813140def110b048583:5",
+    "legacy_id": 10546,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Sweepy",
+        "versions": [
+          "6.1.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.0",
+    "source_id": "280d46a8f274bc85"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#00AAFF",
+        "name": "Avito",
+        "packageName": "com.avito.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "234.5",
+            "versionCode": 3561
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "234.0",
+            "versionCode": 3556
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "233.5",
+            "versionCode": 3548
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "233.1",
+            "versionCode": 3541
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "232.0",
+            "versionCode": 3517
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "231.5",
+            "versionCode": 3502
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "231.0",
+            "versionCode": 3489
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "230.5",
+            "versionCode": 3476
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "230.0",
+            "versionCode": 3472
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "229.1",
+            "versionCode": 3444
+          }
+        ],
+        "versions": [
+          "234.5",
+          "234.0",
+          "233.5",
+          "233.1",
+          "232.0",
+          "231.5",
+          "231.0",
+          "230.5",
+          "230.0",
+          "229.1"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Makes dark-theme page, app navigation and system bars pure black (AMOLED) while keeping elevated cards, sheets and controls gray so their boundaries remain visible.",
+    "id": "dfbea754808772f10f255948:0",
+    "legacy_id": 10547,
+    "metadata_status": "stale",
+    "name": "AMOLED dark theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "Avito",
+        "versions": [
+          "234.5",
+          "234.0",
+          "233.5",
+          "233.1",
+          "232.0",
+          "231.5",
+          "231.0",
+          "230.5",
+          "230.0",
+          "229.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#00AAFF",
+        "name": "Avito",
+        "packageName": "com.avito.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "234.5",
+            "versionCode": 3561
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "234.0",
+            "versionCode": 3556
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "233.5",
+            "versionCode": 3548
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "233.1",
+            "versionCode": 3541
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "232.0",
+            "versionCode": 3517
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "231.5",
+            "versionCode": 3502
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "231.0",
+            "versionCode": 3489
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "230.5",
+            "versionCode": 3476
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "230.0",
+            "versionCode": 3472
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "229.1",
+            "versionCode": 3444
+          }
+        ],
+        "versions": [
+          "234.5",
+          "234.0",
+          "233.5",
+          "233.1",
+          "232.0",
+          "231.5",
+          "231.0",
+          "230.5",
+          "230.0",
+          "229.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Hides Avito offers from blacklisted adverts or sellers and adds a blacklist manager (import/export compatible with the Ave Blacklist extension).",
+    "id": "dfbea754808772f10f255948:1",
+    "legacy_id": 10548,
+    "metadata_status": "stale",
+    "name": "Block listings",
+    "options": [],
+    "packages": [
+      {
+        "name": "Avito",
+        "versions": [
+          "234.5",
+          "234.0",
+          "233.5",
+          "233.1",
+          "232.0",
+          "231.5",
+          "231.0",
+          "230.5",
+          "230.0",
+          "229.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FFDD2D",
+        "name": "TBank",
+        "packageName": "com.idamob.tinkoff.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "8.3.0",
+            "versionCode": 13196
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "8.2.3",
+            "versionCode": 13126
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "8.2.1",
+            "versionCode": 13085
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "8.1.0",
+            "versionCode": 12998
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "8.0.0",
+            "versionCode": 12925
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "7.40.1",
+            "versionCode": 12861
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "7.39.0",
+            "versionCode": 12782
+          }
+        ],
+        "versions": [
+          "8.3.0",
+          "8.2.3",
+          "8.2.1",
+          "8.1.0",
+          "8.0.0",
+          "7.40.1",
+          "7.39.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Stubs TBank's native RASP executor calls and neutralizes tamper flag reporting.",
+    "id": "dfbea754808772f10f255948:2",
+    "legacy_id": 10549,
+    "metadata_status": "stale",
+    "name": "Bypass anti-tamper",
+    "options": [],
+    "packages": [
+      {
+        "name": "TBank",
+        "versions": [
+          "8.3.0",
+          "8.2.3",
+          "8.2.1",
+          "8.1.0",
+          "8.0.0",
+          "7.40.1",
+          "7.39.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Disables Adjust attribution manifest entry points.",
+    "id": "dfbea754808772f10f255948:3",
+    "legacy_id": 10550,
+    "metadata_status": "stale",
+    "name": "Disable Adjust",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Disables AppMetrica and legacy Yandex Metrica SDK entry points.",
+    "id": "dfbea754808772f10f255948:4",
+    "legacy_id": 10551,
+    "metadata_status": "stale",
+    "name": "Disable AppMetrica",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Disables AppsFlyer install referrer and attribution manifest entry points.",
+    "id": "dfbea754808772f10f255948:5",
+    "legacy_id": 10552,
+    "metadata_status": "stale",
+    "name": "Disable AppsFlyer",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Disables Firebase telemetry collection flags and DataTransport sender entry points.",
+    "id": "dfbea754808772f10f255948:6",
+    "legacy_id": 10553,
+    "metadata_status": "stale",
+    "name": "Disable Firebase telemetry",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Disables the freeRASP mobile security SDK startup.",
+    "id": "dfbea754808772f10f255948:7",
+    "legacy_id": 10554,
+    "metadata_status": "stale",
+    "name": "Disable freeRASP",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Disables legacy Google Analytics manifest entry points.",
+    "id": "dfbea754808772f10f255948:8",
+    "legacy_id": 10555,
+    "metadata_status": "stale",
+    "name": "Disable Google Analytics",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Disables MyTracker manifest entry points.",
+    "id": "dfbea754808772f10f255948:9",
+    "legacy_id": 10556,
+    "metadata_status": "stale",
+    "name": "Disable MyTracker",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Disables RuStore metrics manifest entry points.",
+    "id": "dfbea754808772f10f255948:10",
+    "legacy_id": 10557,
+    "metadata_status": "stale",
+    "name": "Disable RuStore metrics",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Disables Sentry telemetry by turning off SDK auto-init and clearing the DSN.",
+    "id": "dfbea754808772f10f255948:11",
+    "legacy_id": 10558,
+    "metadata_status": "stale",
+    "name": "Disable Sentry telemetry",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#00AAFF",
+        "name": "Avito",
+        "packageName": "com.avito.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "234.5",
+            "versionCode": 3561
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "234.0",
+            "versionCode": 3556
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "233.5",
+            "versionCode": 3548
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "233.1",
+            "versionCode": 3541
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "232.0",
+            "versionCode": 3517
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "231.5",
+            "versionCode": 3502
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "231.0",
+            "versionCode": 3489
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "230.5",
+            "versionCode": 3476
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "230.0",
+            "versionCode": 3472
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "229.1",
+            "versionCode": 3444
+          }
+        ],
+        "versions": [
+          "234.5",
+          "234.0",
+          "233.5",
+          "233.1",
+          "232.0",
+          "231.5",
+          "231.0",
+          "230.5",
+          "230.0",
+          "229.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables Avito first-party clickstream analytics and Avito's direct Adjust telemetry wrapper.",
+    "id": "dfbea754808772f10f255948:12",
+    "legacy_id": 10559,
+    "metadata_status": "stale",
+    "name": "Disable telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "Avito",
+        "versions": [
+          "234.5",
+          "234.0",
+          "233.5",
+          "233.1",
+          "232.0",
+          "231.5",
+          "231.0",
+          "230.5",
+          "230.0",
+          "229.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#00AAFF",
+        "name": "Avito",
+        "packageName": "com.avito.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "234.5",
+            "versionCode": 3561
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "234.0",
+            "versionCode": 3556
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "233.5",
+            "versionCode": 3548
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "233.1",
+            "versionCode": 3541
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "232.0",
+            "versionCode": 3517
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "231.5",
+            "versionCode": 3502
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "231.0",
+            "versionCode": 3489
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "230.5",
+            "versionCode": 3476
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "230.0",
+            "versionCode": 3472
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "229.1",
+            "versionCode": 3444
+          }
+        ],
+        "versions": [
+          "234.5",
+          "234.0",
+          "233.5",
+          "233.1",
+          "232.0",
+          "231.5",
+          "231.0",
+          "230.5",
+          "230.0",
+          "229.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Prevents Avito's force-update screen opener from launching update screens. Toggleable in Настройки Morphe.",
+    "id": "dfbea754808772f10f255948:13",
+    "legacy_id": 10560,
+    "metadata_status": "stale",
+    "name": "Disable update prompts",
+    "options": [],
+    "packages": [
+      {
+        "name": "Avito",
+        "versions": [
+          "234.5",
+          "234.0",
+          "233.5",
+          "233.1",
+          "232.0",
+          "231.5",
+          "231.0",
+          "230.5",
+          "230.0",
+          "229.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#00AAFF",
+        "name": "Avito",
+        "packageName": "com.avito.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "234.5",
+            "versionCode": 3561
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "234.0",
+            "versionCode": 3556
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "233.5",
+            "versionCode": 3548
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "233.1",
+            "versionCode": 3541
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "232.0",
+            "versionCode": 3517
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "231.5",
+            "versionCode": 3502
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "231.0",
+            "versionCode": 3489
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "230.5",
+            "versionCode": 3476
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "230.0",
+            "versionCode": 3472
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "229.1",
+            "versionCode": 3444
+          }
+        ],
+        "versions": [
+          "234.5",
+          "234.0",
+          "233.5",
+          "233.1",
+          "232.0",
+          "231.5",
+          "231.0",
+          "230.5",
+          "230.0",
+          "229.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds a maximum seller review count to Avito search filters and hides or dims offers from sellers above that limit.",
+    "id": "dfbea754808772f10f255948:14",
+    "legacy_id": 10561,
+    "metadata_status": "stale",
+    "name": "Hide professional sellers",
+    "options": [],
+    "packages": [
+      {
+        "name": "Avito",
+        "versions": [
+          "234.5",
+          "234.0",
+          "233.5",
+          "233.1",
+          "232.0",
+          "231.5",
+          "231.0",
+          "230.5",
+          "230.0",
+          "229.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#00AAFF",
+        "name": "Avito",
+        "packageName": "com.avito.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "234.5",
+            "versionCode": 3561
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "234.0",
+            "versionCode": 3556
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "233.5",
+            "versionCode": 3548
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "233.1",
+            "versionCode": 3541
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "232.0",
+            "versionCode": 3517
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "231.5",
+            "versionCode": 3502
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "231.0",
+            "versionCode": 3489
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "230.5",
+            "versionCode": 3476
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "230.0",
+            "versionCode": 3472
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "229.1",
+            "versionCode": 3444
+          }
+        ],
+        "versions": [
+          "234.5",
+          "234.0",
+          "233.5",
+          "233.1",
+          "232.0",
+          "231.5",
+          "231.0",
+          "230.5",
+          "230.0",
+          "229.1"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Adds a \"Настройки Morphe\" entry to Avito's settings that hosts the configuration for the other Morphe patches.",
+    "id": "dfbea754808772f10f255948:15",
+    "legacy_id": 10562,
+    "metadata_status": "stale",
+    "name": "Morphe settings",
+    "options": [],
+    "packages": [
+      {
+        "name": "Avito",
+        "versions": [
+          "234.5",
+          "234.0",
+          "233.5",
+          "233.1",
+          "232.0",
+          "231.5",
+          "231.0",
+          "230.5",
+          "230.0",
+          "229.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#00AAFF",
+        "name": "Avito",
+        "packageName": "com.avito.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "234.5",
+            "versionCode": 3561
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "234.0",
+            "versionCode": 3556
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "233.5",
+            "versionCode": 3548
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "233.1",
+            "versionCode": 3541
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "232.0",
+            "versionCode": 3517
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "231.5",
+            "versionCode": 3502
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "231.0",
+            "versionCode": 3489
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "230.5",
+            "versionCode": 3476
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "230.0",
+            "versionCode": 3472
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "229.1",
+            "versionCode": 3444
+          }
+        ],
+        "versions": [
+          "234.5",
+          "234.0",
+          "233.5",
+          "233.1",
+          "232.0",
+          "231.5",
+          "231.0",
+          "230.5",
+          "230.0",
+          "229.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Disables Avito ads by removing ad SDK entry points and short-circuiting commercial banner loading.",
+    "id": "dfbea754808772f10f255948:16",
+    "legacy_id": 10563,
+    "metadata_status": "stale",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Avito",
+        "versions": [
+          "234.5",
+          "234.0",
+          "233.5",
+          "233.1",
+          "232.0",
+          "231.5",
+          "231.0",
+          "230.5",
+          "230.0",
+          "229.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#005BFF",
+        "name": "Ozon",
+        "packageName": "ru.ozon.app.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.38.0",
+            "versionCode": 2721
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.37.0",
+            "versionCode": 2720
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.36.1",
+            "versionCode": 2719
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.36.0",
+            "versionCode": 2718
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.35.0",
+            "versionCode": 2717
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.34.0",
+            "versionCode": 2714
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.33.1",
+            "versionCode": 2712
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.32.0",
+            "versionCode": 2710
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.31.0",
+            "versionCode": 2706
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.30.0",
+            "versionCode": 2705
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.29.0",
+            "versionCode": 2700
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.28.0",
+            "versionCode": 2698
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.27.0",
+            "versionCode": 2697
+          }
+        ],
+        "versions": [
+          "19.38.0",
+          "19.37.0",
+          "19.36.1",
+          "19.36.0",
+          "19.35.0",
+          "19.34.0",
+          "19.33.1",
+          "19.32.0",
+          "19.31.0",
+          "19.30.0",
+          "19.29.0",
+          "19.28.0",
+          "19.27.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Removes Ozon ad widgets, banner carousels, video ads, and PDP promo blocks.",
+    "id": "dfbea754808772f10f255948:17",
+    "legacy_id": 10564,
+    "metadata_status": "stale",
+    "name": "Remove Ozon ads",
+    "options": [
+      {
+        "default": true,
+        "description": "Removes recommendation grids from product, cart, profile, and favorites screens.",
+        "key": "hideRecommendationGrids",
+        "required": false,
+        "title": "Hide recommendation grids",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Ozon",
+        "versions": [
+          "19.38.0",
+          "19.37.0",
+          "19.36.1",
+          "19.36.0",
+          "19.35.0",
+          "19.34.0",
+          "19.33.1",
+          "19.32.0",
+          "19.31.0",
+          "19.30.0",
+          "19.29.0",
+          "19.28.0",
+          "19.27.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FFDD2D",
+        "name": "TBank",
+        "packageName": "com.idamob.tinkoff.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "8.3.0",
+            "versionCode": 13196
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "8.2.3",
+            "versionCode": 13126
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "8.2.1",
+            "versionCode": 13085
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "8.1.0",
+            "versionCode": 12998
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "8.0.0",
+            "versionCode": 12925
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "7.40.1",
+            "versionCode": 12861
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "7.39.0",
+            "versionCode": 12782
+          }
+        ],
+        "versions": [
+          "8.3.0",
+          "8.2.3",
+          "8.2.1",
+          "8.1.0",
+          "8.0.0",
+          "7.40.1",
+          "7.39.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Removes TBank stories and promotional surfaces.",
+    "id": "dfbea754808772f10f255948:18",
+    "legacy_id": 10565,
+    "metadata_status": "stale",
+    "name": "Remove TBank ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "TBank",
+        "versions": [
+          "8.3.0",
+          "8.2.3",
+          "8.2.1",
+          "8.1.0",
+          "8.0.0",
+          "7.40.1",
+          "7.39.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#A73AFD",
+        "name": "Wildberries",
+        "packageName": "com.wildberries.ru",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.8.3002-rustore",
+            "versionCode": 61085
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.8.3002",
+            "versionCode": 10061085
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.8.2002-rustore",
+            "versionCode": 61082
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.8.2002",
+            "versionCode": 10061082
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.8.1002-rustore",
+            "versionCode": 61079
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.8.1002",
+            "versionCode": 10061079
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.8.0002-rustore",
+            "versionCode": 61076
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.8.0002",
+            "versionCode": 10061076
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.7.9003-rustore",
+            "versionCode": 61073
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.7.9003",
+            "versionCode": 10061073
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.7.8001-rustore",
+            "versionCode": 61069
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.7.8001",
+            "versionCode": 10061069
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.7.7001-rustore",
+            "versionCode": 61066
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.7.7001",
+            "versionCode": 10061066
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.7.6003-rustore",
+            "versionCode": 61064
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.7.6003",
+            "versionCode": 10061064
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.7.5003-rustore",
+            "versionCode": 61060
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.7.5003",
+            "versionCode": 10061060
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.7.4003-rustore",
+            "versionCode": 61056
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.7.4003",
+            "versionCode": 10061056
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.7.3001-rustore",
+            "versionCode": 61052
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.7.3001",
+            "versionCode": 10061052
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.7.2001-rustore",
+            "versionCode": 61050
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "7.7.2001",
+            "versionCode": 10061050
+          }
+        ],
+        "versions": [
+          "7.8.3002-rustore",
+          "7.8.3002",
+          "7.8.2002-rustore",
+          "7.8.2002",
+          "7.8.1002-rustore",
+          "7.8.1002",
+          "7.8.0002-rustore",
+          "7.8.0002",
+          "7.7.9003-rustore",
+          "7.7.9003",
+          "7.7.8001-rustore",
+          "7.7.8001",
+          "7.7.7001-rustore",
+          "7.7.7001",
+          "7.7.6003-rustore",
+          "7.7.6003",
+          "7.7.5003-rustore",
+          "7.7.5003",
+          "7.7.4003-rustore",
+          "7.7.4003",
+          "7.7.3001-rustore",
+          "7.7.3001",
+          "7.7.2001-rustore",
+          "7.7.2001"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes Wildberries home banners, grid banners, profile banners, promo headers, product recommendations, and lottery popups.",
+    "id": "dfbea754808772f10f255948:19",
+    "legacy_id": 10566,
+    "metadata_status": "stale",
+    "name": "Remove Wildberries ads",
+    "options": [
+      {
+        "default": true,
+        "description": "Removes recommendation grids from cart and product screens.",
+        "key": "hideRecommendationGrids",
+        "required": false,
+        "title": "Hide recommendation grids",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Wildberries",
+        "versions": [
+          "7.8.3002-rustore",
+          "7.8.3002",
+          "7.8.2002-rustore",
+          "7.8.2002",
+          "7.8.1002-rustore",
+          "7.8.1002",
+          "7.8.0002-rustore",
+          "7.8.0002",
+          "7.7.9003-rustore",
+          "7.7.9003",
+          "7.7.8001-rustore",
+          "7.7.8001",
+          "7.7.7001-rustore",
+          "7.7.7001",
+          "7.7.6003-rustore",
+          "7.7.6003",
+          "7.7.5003-rustore",
+          "7.7.5003",
+          "7.7.4003-rustore",
+          "7.7.4003",
+          "7.7.3001-rustore",
+          "7.7.3001",
+          "7.7.2001-rustore",
+          "7.7.2001"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Spoofs emulator state through common Build, QEMU file, command, and system property checks.",
+    "id": "dfbea754808772f10f255948:20",
+    "legacy_id": 10567,
+    "metadata_status": "stale",
+    "name": "Spoof emulator status",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Spoofs package installer checks to report Google Play as the install source.",
+    "id": "dfbea754808772f10f255948:21",
+    "legacy_id": 10568,
+    "metadata_status": "stale",
+    "name": "Spoof install source",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Spoofs USB debugging and related developer settings through common Android APIs.",
+    "id": "dfbea754808772f10f255948:22",
+    "legacy_id": 10569,
+    "metadata_status": "stale",
+    "name": "Spoof USB debugging status",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": "Spoofs VPN state through common Android network APIs.",
+    "id": "dfbea754808772f10f255948:23",
+    "legacy_id": 10570,
+    "metadata_status": "stale",
+    "name": "Spoof VPN status",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "dfbea754808772f10f255948",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#00AAFF",
+        "name": "Avito",
+        "packageName": "com.avito.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "234.5",
+            "versionCode": 3561
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "234.0",
+            "versionCode": 3556
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "233.5",
+            "versionCode": 3548
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "233.1",
+            "versionCode": 3541
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "232.0",
+            "versionCode": 3517
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "231.5",
+            "versionCode": 3502
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "231.0",
+            "versionCode": 3489
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "230.5",
+            "versionCode": 3476
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "230.0",
+            "versionCode": 3472
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "229.1",
+            "versionCode": 3444
+          }
+        ],
+        "versions": [
+          "234.5",
+          "234.0",
+          "233.5",
+          "233.1",
+          "232.0",
+          "231.5",
+          "231.0",
+          "230.5",
+          "230.0",
+          "229.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Optional interface tweaks, each toggleable in Настройки Morphe: single-row home categories, hide the \"Подписки\" tab in Избранное, hide installments (Рассрочка) and the \"Спросите у продавца\" block on offers, expand descriptions by default (no \"Читать далее\"), hide reserved offers and offer recommendations, hide profile raffle, referral and Avito Pro promos, optionally hide profile sections (recommendations, tools, services, jobs), and hide the Avi assistant tab in the bottom navigation.",
+    "id": "dfbea754808772f10f255948:24",
+    "legacy_id": 10571,
+    "metadata_status": "stale",
+    "name": "UI tweaks",
+    "options": [],
+    "packages": [
+      {
+        "name": "Avito",
+        "versions": [
+          "234.5",
+          "234.0",
+          "233.5",
+          "233.1",
+          "232.0",
+          "231.5",
+          "231.0",
+          "230.5",
+          "230.0",
+          "229.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.13.8",
+    "source_id": "fc45fbb2b70023b7"
+  },
+  {
+    "bundle_id": "e00b76a3e6f9b22385e08f61",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#1B4B8F",
+        "description": "Indian Railways passenger app by CRIS. These patches disarm the app's anti-tamper checks so it keeps working on a re-signed build with USB debugging on.",
+        "name": "RailOne",
+        "packageName": "org.cris.aikyam",
+        "signatures": [
+          "8a5f21a01ef7d1202500e143e34bdf4c3166cc43c5595b35f0f463b53f8f0d16"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.1.66"
+          },
+          {
+            "isExperimental": false,
+            "version": "2.1.62"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "2.1.66",
+          "2.1.62"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Neutralises the rjsniffer library's own adb_enabled check. It runs in the app's isolated :com.emrys.rjsniffer.rjsniffer.Sniffer process, independently of the main app.",
+    "id": "e00b76a3e6f9b22385e08f61:0",
+    "legacy_id": 10572,
+    "metadata_status": "unverified",
+    "name": "Bypass rjsniffer ADB check",
+    "options": [],
+    "packages": [
+      {
+        "name": "RailOne",
+        "versions": [
+          "2.1.66",
+          "2.1.62"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "625e865887dc8fb1"
+  },
+  {
+    "bundle_id": "e00b76a3e6f9b22385e08f61",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#1B4B8F",
+        "description": "Indian Railways passenger app by CRIS. These patches disarm the app's anti-tamper checks so it keeps working on a re-signed build with USB debugging on.",
+        "name": "RailOne",
+        "packageName": "org.cris.aikyam",
+        "signatures": [
+          "8a5f21a01ef7d1202500e143e34bdf4c3166cc43c5595b35f0f463b53f8f0d16"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.1.66"
+          },
+          {
+            "isExperimental": false,
+            "version": "2.1.62"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "2.1.66",
+          "2.1.62"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Forces the app's own signing-certificate check (SHA-256 of the APK signature) to return true, so a re-signed build is accepted by the Flutter layer.",
+    "id": "e00b76a3e6f9b22385e08f61:1",
+    "legacy_id": 10573,
+    "metadata_status": "unverified",
+    "name": "Bypass signature verification",
+    "options": [],
+    "packages": [
+      {
+        "name": "RailOne",
+        "versions": [
+          "2.1.66",
+          "2.1.62"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "625e865887dc8fb1"
+  },
+  {
+    "bundle_id": "e00b76a3e6f9b22385e08f61",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#1B4B8F",
+        "description": "Indian Railways passenger app by CRIS. These patches disarm the app's anti-tamper checks so it keeps working on a re-signed build with USB debugging on.",
+        "name": "RailOne",
+        "packageName": "org.cris.aikyam",
+        "signatures": [
+          "8a5f21a01ef7d1202500e143e34bdf4c3166cc43c5595b35f0f463b53f8f0d16"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.1.66"
+          },
+          {
+            "isExperimental": false,
+            "version": "2.1.62"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "2.1.66",
+          "2.1.62"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Forces the adb_enabled, adb_wifi_enabled and development_settings_enabled checks to return false, so the app runs normally while USB debugging / developer options are on.",
+    "id": "e00b76a3e6f9b22385e08f61:2",
+    "legacy_id": 10574,
+    "metadata_status": "unverified",
+    "name": "Bypass USB-debugging detection",
+    "options": [],
+    "packages": [
+      {
+        "name": "RailOne",
+        "versions": [
+          "2.1.66",
+          "2.1.62"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "625e865887dc8fb1"
+  },
+  {
+    "bundle_id": "e00b76a3e6f9b22385e08f61",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKS",
+        "appIconColor": "#1B4B8F",
+        "description": "Indian Railways passenger app by CRIS. These patches disarm the app's anti-tamper checks so it keeps working on a re-signed build with USB debugging on.",
+        "name": "RailOne",
+        "packageName": "org.cris.aikyam",
+        "signatures": [
+          "8a5f21a01ef7d1202500e143e34bdf4c3166cc43c5595b35f0f463b53f8f0d16"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.1.66"
+          },
+          {
+            "isExperimental": false,
+            "version": "2.1.62"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "2.1.66",
+          "2.1.62"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Stops AikyamApplication.onCreate() from loading libnative-lib.so, disarming the native anti-tamper SDK that force-stops the app and wipes its data. Root cause fix: the other patches only matter once this one is applied.",
+    "id": "e00b76a3e6f9b22385e08f61:3",
+    "legacy_id": 10575,
+    "metadata_status": "unverified",
+    "name": "Disable native security SDK",
+    "options": [],
+    "packages": [
+      {
+        "name": "RailOne",
+        "versions": [
+          "2.1.66",
+          "2.1.62"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "625e865887dc8fb1"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": [
+      {
+        "name": "Speedtest",
+        "packageName": "org.zwanoo.android.speedtest",
+        "targets": [
+          {
+            "isExperimental": true
+          },
+          {
+            "isExperimental": false,
+            "version": "7.0.4"
+          }
+        ],
+        "versions": [
+          "7.0.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:0",
+    "legacy_id": 10576,
+    "metadata_status": "unverified",
+    "name": "AdFree Account",
+    "options": [],
+    "packages": [
+      {
+        "name": "Speedtest",
+        "versions": [
+          "7.0.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:1",
+    "legacy_id": 10577,
+    "metadata_status": "unverified",
+    "name": "Bypass ADB/Developer Options Detection",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": [
+      {
+        "name": "Automate",
+        "packageName": "com.llamalab.automate",
+        "targets": [
+          {
+            "isExperimental": true
+          },
+          {
+            "isExperimental": false,
+            "version": "1.51.1"
+          }
+        ],
+        "versions": [
+          "1.51.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:2",
+    "legacy_id": 10578,
+    "metadata_status": "unverified",
+    "name": "Bypass Blocks Limit",
+    "options": [],
+    "packages": [
+      {
+        "name": "Automate",
+        "versions": [
+          "1.51.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:3",
+    "legacy_id": 10579,
+    "metadata_status": "unverified",
+    "name": "Disable Facebook SDK Tracking",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": null,
+    "default": false,
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:4",
+    "legacy_id": 10580,
+    "metadata_status": "unverified",
+    "name": "Disable Firebase(Google) Analytics",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": [
+      {
+        "name": "Sky Tonight",
+        "packageName": "com.vitotechnology.sky.tonight.map.star.walk",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.5.0"
+          }
+        ],
+        "versions": [
+          "2.5.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:5",
+    "legacy_id": 10581,
+    "metadata_status": "unverified",
+    "name": "Disable In-App Telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "Sky Tonight",
+        "versions": [
+          "2.5.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": [
+      {
+        "name": "Star Walk 2",
+        "packageName": "com.vitotechnology.StarWalk2Free",
+        "targets": [
+          {
+            "isExperimental": true,
+            "version": "2.20.3"
+          }
+        ],
+        "versions": [
+          "2.20.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:6",
+    "legacy_id": 10582,
+    "metadata_status": "unverified",
+    "name": "Disable In-App Telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "Star Walk 2",
+        "versions": [
+          "2.20.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": [
+      {
+        "name": "Speedtest",
+        "packageName": "org.zwanoo.android.speedtest",
+        "targets": [
+          {
+            "isExperimental": true
+          },
+          {
+            "isExperimental": false,
+            "version": "7.0.4"
+          }
+        ],
+        "versions": [
+          "7.0.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:7",
+    "legacy_id": 10583,
+    "metadata_status": "unverified",
+    "name": "Disable Logging(analytics)",
+    "options": [],
+    "packages": [
+      {
+        "name": "Speedtest",
+        "versions": [
+          "7.0.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": [
+      {
+        "name": "Solid Explorer",
+        "packageName": "pl.solidexplorer2",
+        "targets": [
+          {
+            "isExperimental": true
+          },
+          {
+            "isExperimental": false,
+            "version": "3.4.10"
+          },
+          {
+            "isExperimental": false,
+            "version": "3.5.7b"
+          }
+        ],
+        "versions": [
+          "3.4.10",
+          "3.5.7b"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:8",
+    "legacy_id": 10584,
+    "metadata_status": "unverified",
+    "name": "Disable Telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "Solid Explorer",
+        "versions": [
+          "3.4.10",
+          "3.5.7b"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": [
+      {
+        "name": "ATM Fee Saver",
+        "packageName": "com.atmfee",
+        "targets": [
+          {
+            "isExperimental": true
+          },
+          {
+            "isExperimental": false,
+            "version": "3.7.9"
+          }
+        ],
+        "versions": [
+          "3.7.9"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:9",
+    "legacy_id": 10585,
+    "metadata_status": "unverified",
+    "name": "Hide Location Permission Popup",
+    "options": [],
+    "packages": [
+      {
+        "name": "ATM Fee Saver",
+        "versions": [
+          "3.7.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": [
+      {
+        "name": "Stellarium",
+        "packageName": "com.noctuasoftware.stellarium_free",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.16.2"
+          },
+          {
+            "isExperimental": false,
+            "version": "1.16.3"
+          }
+        ],
+        "versions": [
+          "1.16.2",
+          "1.16.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:10",
+    "legacy_id": 10586,
+    "metadata_status": "unverified",
+    "name": "Install Extended (Deep Sky) Catalog",
+    "options": [],
+    "packages": [
+      {
+        "name": "Stellarium",
+        "versions": [
+          "1.16.2",
+          "1.16.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": [
+      {
+        "name": "Autosync",
+        "packageName": "com.ttxapps.autosync",
+        "targets": [
+          {
+            "isExperimental": true
+          },
+          {
+            "isExperimental": false,
+            "version": "7.5.10"
+          }
+        ],
+        "versions": [
+          "7.5.10"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:11",
+    "legacy_id": 10587,
+    "metadata_status": "unverified",
+    "name": "Purchase All Items",
+    "options": [],
+    "packages": [
+      {
+        "name": "Autosync",
+        "versions": [
+          "7.5.10"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": [
+      {
+        "name": "Inshorts",
+        "packageName": "com.nis.app",
+        "targets": [
+          {
+            "isExperimental": true
+          },
+          {
+            "isExperimental": false,
+            "version": "6.12.15"
+          },
+          {
+            "isExperimental": false,
+            "version": "6.12.18"
+          }
+        ],
+        "versions": [
+          "6.12.15",
+          "6.12.18"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:12",
+    "legacy_id": 10588,
+    "metadata_status": "unverified",
+    "name": "Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Inshorts",
+        "versions": [
+          "6.12.15",
+          "6.12.18"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": [
+      {
+        "name": "Inshorts",
+        "packageName": "com.nis.app",
+        "targets": [
+          {
+            "isExperimental": true
+          },
+          {
+            "isExperimental": false,
+            "version": "6.12.15"
+          },
+          {
+            "isExperimental": false,
+            "version": "6.12.18"
+          }
+        ],
+        "versions": [
+          "6.12.15",
+          "6.12.18"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:13",
+    "legacy_id": 10589,
+    "metadata_status": "unverified",
+    "name": "Skip Login",
+    "options": [],
+    "packages": [
+      {
+        "name": "Inshorts",
+        "versions": [
+          "6.12.15",
+          "6.12.18"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": [
+      {
+        "name": "PROTO - circuit simulator",
+        "packageName": "com.proto.circuitsimulator",
+        "targets": [
+          {
+            "isExperimental": true
+          },
+          {
+            "isExperimental": false,
+            "version": "1.48.0"
+          },
+          {
+            "isExperimental": false,
+            "version": "1.49.0"
+          }
+        ],
+        "versions": [
+          "1.48.0",
+          "1.49.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:14",
+    "legacy_id": 10590,
+    "metadata_status": "unverified",
+    "name": "Unlock All Features",
+    "options": [],
+    "packages": [
+      {
+        "name": "PROTO - circuit simulator",
+        "versions": [
+          "1.48.0",
+          "1.49.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": [
+      {
+        "name": "Stellarium",
+        "packageName": "com.noctuasoftware.stellarium_free",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.16.2"
+          },
+          {
+            "isExperimental": false,
+            "version": "1.16.3"
+          }
+        ],
+        "versions": [
+          "1.16.2",
+          "1.16.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:15",
+    "legacy_id": 10591,
+    "metadata_status": "unverified",
+    "name": "Unlock Plus",
+    "options": [],
+    "packages": [
+      {
+        "name": "Stellarium",
+        "versions": [
+          "1.16.2",
+          "1.16.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": [
+      {
+        "name": "ATM Fee Saver",
+        "packageName": "com.atmfee",
+        "targets": [
+          {
+            "isExperimental": true
+          },
+          {
+            "isExperimental": false,
+            "version": "3.7.9"
+          }
+        ],
+        "versions": [
+          "3.7.9"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:16",
+    "legacy_id": 10592,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "ATM Fee Saver",
+        "versions": [
+          "3.7.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": [
+      {
+        "name": "Backdrops",
+        "packageName": "com.backdrops.wallpapers",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.1.2"
+          }
+        ],
+        "versions": [
+          "6.1.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:17",
+    "legacy_id": 10593,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Backdrops",
+        "versions": [
+          "6.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": [
+      {
+        "name": "BlockerX",
+        "packageName": "io.funswitch.blocker",
+        "targets": [
+          {
+            "isExperimental": true
+          },
+          {
+            "isExperimental": false,
+            "version": "5.0.67"
+          }
+        ],
+        "versions": [
+          "5.0.67"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:18",
+    "legacy_id": 10594,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "BlockerX",
+        "versions": [
+          "5.0.67"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": [
+      {
+        "name": "Sky Tonight",
+        "packageName": "com.vitotechnology.sky.tonight.map.star.walk",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.5.0"
+          }
+        ],
+        "versions": [
+          "2.5.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:19",
+    "legacy_id": 10595,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Sky Tonight",
+        "versions": [
+          "2.5.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": [
+      {
+        "name": "Star Walk 2",
+        "packageName": "com.vitotechnology.StarWalk2Free",
+        "targets": [
+          {
+            "isExperimental": true,
+            "version": "2.20.3"
+          }
+        ],
+        "versions": [
+          "2.20.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:20",
+    "legacy_id": 10596,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Star Walk 2",
+        "versions": [
+          "2.20.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": [
+      {
+        "name": "UFO VPN",
+        "packageName": "com.ufovpn.connect.velnet",
+        "targets": [
+          {
+            "isExperimental": true
+          },
+          {
+            "isExperimental": false,
+            "version": "2.5.5"
+          },
+          {
+            "isExperimental": false,
+            "version": "2.5.8"
+          }
+        ],
+        "versions": [
+          "2.5.5",
+          "2.5.8"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:21",
+    "legacy_id": 10597,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "UFO VPN",
+        "versions": [
+          "2.5.5",
+          "2.5.8"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": [
+      {
+        "name": "vpnify",
+        "packageName": "com.vpn.free.hotspot.secure.vpnify",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.2.9"
+          }
+        ],
+        "versions": [
+          "2.2.9"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:22",
+    "legacy_id": 10598,
+    "metadata_status": "unverified",
+    "name": "Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "vpnify",
+        "versions": [
+          "2.2.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0871b8e90fa1c3ecf2a45d3",
+    "compatiblePackages": [
+      {
+        "name": "Solid Explorer",
+        "packageName": "pl.solidexplorer2",
+        "targets": [
+          {
+            "isExperimental": true
+          },
+          {
+            "isExperimental": false,
+            "version": "3.4.10"
+          },
+          {
+            "isExperimental": false,
+            "version": "3.5.7b"
+          }
+        ],
+        "versions": [
+          "3.4.10",
+          "3.5.7b"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": null,
+    "id": "e0871b8e90fa1c3ecf2a45d3:23",
+    "legacy_id": 10599,
+    "metadata_status": "unverified",
+    "name": "Unlock Pro",
+    "options": [],
+    "packages": [
+      {
+        "name": "Solid Explorer",
+        "versions": [
+          "3.4.10",
+          "3.5.7b"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v2.12.0-dev.1",
+    "source_id": "c2003c7c52c281bd"
+  },
+  {
+    "bundle_id": "e0956fdc11dd9dda6a8b569f",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FF4500",
+        "name": "Brave Browser",
+        "packageName": "com.brave.browser",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.92.140"
+          }
+        ],
+        "versions": [
+          "1.92.140"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Unlocks Brave Origin and enables feature toggle controls.",
+    "id": "e0956fdc11dd9dda6a8b569f:0",
+    "legacy_id": 10600,
+    "metadata_status": "unverified",
+    "name": "Brave Origin",
+    "options": [],
+    "packages": [
+      {
+        "name": "Brave Browser",
+        "versions": [
+          "1.92.140"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.8.0",
+    "source_id": "f9980210f0dda55b"
+  }
+]

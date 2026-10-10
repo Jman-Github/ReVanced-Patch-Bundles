@@ -1,0 +1,6287 @@
+[
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Feed filter",
+      "Settings"
+    ],
+    "description": "Keeps a local record of the videos you have watched and hides them when the feed sends them again. The record never leaves the device and can be cleared from settings. Switch: Hushfeed settings > Feed filter.",
+    "id": "28ba0d96d1b5310b450f5618:42",
+    "metadata_status": "unverified",
+    "name": "Hide already seen videos",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Records CAPTCHA decisions and preserves TikTok's verification dialogs. The existing hide switch is unavailable on the declared builds because no browsing scene has been validated. Switch: Hushfeed settings > Feed screen.",
+    "id": "28ba0d96d1b5310b450f5618:43",
+    "metadata_status": "unverified",
+    "name": "Hide CAPTCHA popups",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Comments",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Stops the brand animation that plays over the comment sheet when a comment matches an advertiser's trigger word or emoji. Switch: Hushfeed settings > Comments.",
+    "id": "28ba0d96d1b5310b450f5618:44",
+    "metadata_status": "unverified",
+    "name": "Hide comment popup ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Comments",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Hides automatic emoji and sticker suggestions above the comment box. Manual buttons stay available. Switch: Hushfeed settings > Comments.",
+    "id": "28ba0d96d1b5310b450f5618:45",
+    "metadata_status": "unverified",
+    "name": "Hide comment typing suggestions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Hide the + follow button below creator avatars in video feeds. Switch: Hushfeed settings > Feed screen.",
+    "id": "28ba0d96d1b5310b450f5618:46",
+    "metadata_status": "unverified",
+    "name": "Hide feed follow button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Hide the LIVE button at the top left of video feeds. Shares its switch with the LIVE entrance option of Hide video overlays, and stops the button before it is built rather than hiding it once it is on screen. Switch: Hushfeed settings > Feed screen.",
+    "id": "28ba0d96d1b5310b450f5618:47",
+    "metadata_status": "unverified",
+    "name": "Hide feed LIVE button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Hide the save button from video feeds. Switch: Hushfeed settings > Feed screen.",
+    "id": "28ba0d96d1b5310b450f5618:48",
+    "metadata_status": "unverified",
+    "name": "Hide feed save button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Hide the search button at the top right of video feeds. Switch: Hushfeed settings > Feed screen.",
+    "id": "28ba0d96d1b5310b450f5618:49",
+    "metadata_status": "unverified",
+    "name": "Hide feed search button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Removes floating promotional badges from the feed and can hide the rewards shortcut on Profile. Switches: Hushfeed settings > Feed screen and App.",
+    "id": "28ba0d96d1b5310b450f5618:50",
+    "metadata_status": "unverified",
+    "name": "Hide floating promotions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Inbox",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Adds a switch for each row and header control on the Inbox tab, so message requests, TikTok Tako, TikTok Shop, the stories tray and the rest can be hidden individually. Switch: Hushfeed settings > Inbox.",
+    "id": "28ba0d96d1b5310b450f5618:51",
+    "metadata_status": "unverified",
+    "name": "Hide inbox items",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Inbox",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Hides the stories tray at the top of the Inbox and restores it immediately when the switch is turned off. Shares its switch with Hide inbox items. Switch: Hushfeed settings > Inbox.",
+    "id": "28ba0d96d1b5310b450f5618:52",
+    "metadata_status": "unverified",
+    "name": "Hide inbox stories",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Performance",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "Gives the patched APK the highest Android version code so Play shows Open instead of Update. TikTok's visible version stays the same in Morphe Manager. Off by default. Android won't install a lower-code APK over it, and uninstalling to return to a lower code can remove local TikTok data.",
+    "id": "28ba0d96d1b5310b450f5618:53",
+    "metadata_status": "unverified",
+    "name": "Hide Play Store update offer",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Hides the shortcuts you pick from the row under a profile's bio, like TikTok Studio or Your orders. TikTok's server decides what goes in that row, so the checklist offers the ones it has sent to your phone, and you can also type names. Restart TikTok after a change. Switch: Hushfeed settings > App.",
+    "id": "28ba0d96d1b5310b450f5618:54",
+    "metadata_status": "unverified",
+    "name": "Hide profile shortcuts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Search",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Hides the suggested searches TikTok offers on the search page before you type, and stops the page asking for them. Your own search history is left alone. A separate switch hides the search rewards banner and coin counter some regions get. Switch: Hushfeed settings > App.",
+    "id": "28ba0d96d1b5310b450f5618:55",
+    "metadata_status": "unverified",
+    "name": "Hide search suggestions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Inbox",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Stops the suggested accounts list from being built on the Activity, New followers and Inbox pages, and collapses every other People you may like card: the profile header, the Friends tab and the feed. Shares its switch with Hide inbox items. Switch: Hushfeed settings > Inbox.",
+    "id": "28ba0d96d1b5310b450f5618:56",
+    "metadata_status": "unverified",
+    "name": "Hide suggested accounts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Settings",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Empties the menu that opens on pressing and holding TikTok's icon on the home screen. The entries are built while the app runs rather than declared in it, and TikTok only rewrites them when it notices a difference, so this removes what is already published and answers the handover that would publish more. Turning it off asks TikTok to build them again. Tapping the icon still opens the app, and a shortcut pinned to a home screen is left alone. Switch: Hushfeed settings > App.",
+    "id": "28ba0d96d1b5310b450f5618:57",
+    "metadata_status": "unverified",
+    "name": "Hide the launcher shortcuts",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Hide CAPTCHA popups"
+    ],
+    "description": "Records TikTok's BdTuring risk-control decisions through the shared CAPTCHA gate. All verification dialogs remain visible because no browsing scene has been validated. Off by default.",
+    "id": "28ba0d96d1b5310b450f5618:58",
+    "metadata_status": "unverified",
+    "name": "Hide the risk control CAPTCHA",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Hides the visual search prompt TikTok lays over videos, the LIVE entrance in the top left corner, caption and music text, selected action buttons or their counts in the right column, survey cards and the status bar, on the feed and on videos opened from a profile, a hashtag, a sound or search. The status bar can also be hidden only while a LIVE room is open. Separate switches hide the Full screen button, location labels, the effect, template and CapCut tags above descriptions, and the Report button some regions get above the creator's picture, without removing videos or changing location permissions. One more takes the Add comment bar off those opened videos so they fill the screen, and another clears the close button, progress bar and pause and speed buttons Clear display leaves at the bottom. Switches: Hushfeed settings > Feed screen, and App for the status bar.",
+    "id": "28ba0d96d1b5310b450f5618:59",
+    "metadata_status": "unverified",
+    "name": "Hide video overlays",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Playback",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Enables TikTok's own hold, pull down and release gesture to lock the hold speed, 2x unless Playback speed sets another. Switch: Hushfeed settings > Feed screen.",
+    "id": "28ba0d96d1b5310b450f5618:60",
+    "metadata_status": "unverified",
+    "name": "Hold-and-slide 2x lock",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Privacy",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Keeps TikTok's JavaScript bridge off external pages in its in-app browser while leaving Activity center, Watch history, shop checkout and CAPTCHA working. The switch is off until you turn it on. Switch: Hushfeed settings > Privacy.",
+    "id": "28ba0d96d1b5310b450f5618:61",
+    "metadata_status": "unverified",
+    "name": "In-app browser privacy guard",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Inbox",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "Settings"
+    ],
+    "description": "Sends one message a day to each person you pick, at a time you pick, so message streaks with them keep going on days you don't open TikTok. The message goes through TikTok's own notification reply. Adds the exact alarm and start at boot permissions the daily alarm needs. Off until you turn it on: Hushfeed settings > Inbox.",
+    "id": "28ba0d96d1b5310b450f5618:62",
+    "metadata_status": "unverified",
+    "name": "Keep a streak going",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Playback",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Keeps TikTok's own background play on, whatever its server says, so the video you're watching keeps playing after you leave the app or turn the screen off, and TikTok's media notification pauses and resumes it. It also covers photo posts and the videos on your own profile, private ones included, which TikTok leaves out. A feed video plays to its end, because TikTok doesn't loop or move on in the feed while it's in the background, and another app's sound still pauses it. TikTok's own background play switch in the long-press menu stays on while this is on. Off by default. Restart TikTok after changing it. Switch: Hushfeed settings > Playback.",
+    "id": "28ba0d96d1b5310b450f5618:63",
+    "metadata_status": "unverified",
+    "name": "Keep playing in the background",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Settings",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Keeps the Favorites tab on your profile when TikTok's server puts the account into an experiment that empties it. Two people saw that after patching: the tab was there and the saved videos were not. Switch: Hushfeed settings > App.",
+    "id": "28ba0d96d1b5310b450f5618:64",
+    "metadata_status": "unverified",
+    "name": "Keep the Favorites tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Playback",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Stops TikTok asking the screen to run slower than it can, which it does by asking for the frame rate of the video it is playing. On a 90 or 120 Hz phone that ask takes the whole app down to that rate, scrolling included. A request that is not slower than the screen is left alone. Switch: Hushfeed settings > App.",
+    "id": "28ba0d96d1b5310b450f5618:65",
+    "metadata_status": "unverified",
+    "name": "Keep the screen's refresh rate",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Performance",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Turns off TikTok's buffer-preload gate. Videos may start buffering later. Push setup stays on unless Skip push setup is enabled in the patch options.",
+    "id": "28ba0d96d1b5310b450f5618:66",
+    "metadata_status": "unverified",
+    "name": "Limit background traffic",
+    "options": [
+      {
+        "default": false,
+        "description": "Can stop TikTok notifications, including messages. Pause won't reverse this change. Repatch with this option off to restore push setup.",
+        "key": "skipPushSetup",
+        "required": false,
+        "title": "Skip push setup",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Privacy",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Answers TikTok's location requests with nothing: the last known location comes back empty and update requests never fire. The SIM and region spoof change the locale and timezone, not the coordinates. This patch stops the coordinates. Switch: Hushfeed settings > Privacy.",
+    "id": "28ba0d96d1b5310b450f5618:67",
+    "metadata_status": "unverified",
+    "name": "Location access governor",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Interaction",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "Block author button",
+      "Double-tap controls",
+      "Settings"
+    ],
+    "description": "Lets a long press on a video keep TikTok's own action, do nothing, open the video's comments, save the original sound, copy the link to the video or its sound, or look the sound up on YouTube Music. It can also turn a press on the left or right third of the screen into a jump back or forward, and make a long press on Comment, Share or Favorites play at the hold speed instead of opening TikTok's menu. Brings Double-tap controls with it, which supplies the comment control. Switch: Hushfeed settings > Feed screen.",
+    "id": "28ba0d96d1b5310b450f5618:68",
+    "metadata_status": "unverified",
+    "name": "Long-press controls",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Privacy",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Answers TikTok's own checks of how it was signed and installed the way the Play Store app would. Its signature hash reads as TikTok's certificate and its installer reads as the Play Store. For a follow or a like that undoes itself on a refresh on a patched build. TikTok can also read the APK from native code, which no patch reaches, so it may not be enough on its own. Off by default. Switch: Hushfeed settings > App.",
+    "id": "28ba0d96d1b5310b450f5618:69",
+    "metadata_status": "unverified",
+    "name": "Look like the store app",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Playback",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "Block author button",
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Adds a movable button that mutes feed videos without touching the phone's volume, and a switch that does the same. The button starts off until you turn on Show the mute button on videos. It also shows on a video opened from a profile, a hashtag or a sound, and mutes that one too. While muted, music from another app keeps playing, and DMs, stories and LIVE keep their sound. Switches: Hushfeed settings > Playback, and Feed screen for the button.",
+    "id": "28ba0d96d1b5310b450f5618:70",
+    "metadata_status": "unverified",
+    "name": "Mute feed videos",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Privacy",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Counts the requests TikTok's own API client sends, by domain and kind, and adds them to the diagnostic export. Video and image downloads and other companies' SDKs keep their own connections and aren't counted. Nothing about the requests is changed.",
+    "id": "28ba0d96d1b5310b450f5618:71",
+    "metadata_status": "unverified",
+    "name": "Network request report",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "Block author button",
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Adds a movable button that tells TikTok you aren't interested in the current video. It hides while comments are open. Off by default. Switch: Hushfeed settings > Feed screen.",
+    "id": "28ba0d96d1b5310b450f5618:72",
+    "metadata_status": "unverified",
+    "name": "Not interested button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Inbox",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Adds a switch for the notification saying somebody new followed you, and one for message streaks, neither of which TikTok lets you turn off. The follower switch drops the notification before Android is asked to post it, so nothing else in the drawer is affected. Switch: Hushfeed settings > Inbox.",
+    "id": "28ba0d96d1b5310b450f5618:73",
+    "metadata_status": "unverified",
+    "name": "Notification controls",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Interaction",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Opens profile and story website links in the system browser instead of TikTok's in-app browser. Switch: Hushfeed settings > Privacy.",
+    "id": "28ba0d96d1b5310b450f5618:74",
+    "metadata_status": "unverified",
+    "name": "Open external links directly",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Playback",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Selects the lowest, highest or a target video quality for playback, adaptive streams included. A second choice caps quality on mobile data and only ever lowers it. Download quality has its own setting. Switch: Hushfeed settings > Playback.",
+    "id": "28ba0d96d1b5310b450f5618:75",
+    "metadata_status": "unverified",
+    "name": "Playback quality",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Playback",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Remembers playback speed or applies a default to each new video, with custom menu choices up to 3x and your own speed for the hold gesture. Switch: Hushfeed settings > Playback.",
+    "id": "28ba0d96d1b5310b450f5618:76",
+    "metadata_status": "unverified",
+    "name": "Playback speed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Settings",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "SIM spoof",
+      "Settings"
+    ],
+    "description": "Matches locale, timezone and native region getters to the SIM preset, with a separate experimental store-region switch. Switch: Hushfeed settings > Region.",
+    "id": "28ba0d96d1b5310b450f5618:77",
+    "metadata_status": "unverified",
+    "name": "Region spoof",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Playback",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Remembers clear display between videos, or enters it automatically after a chosen delay. Switch: Hushfeed settings > Feed screen.",
+    "id": "28ba0d96d1b5310b450f5618:78",
+    "metadata_status": "unverified",
+    "name": "Remember clear display",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Performance",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "Empties TikTok's bundled C2PA and Microblink card-scanning assets, the Pitaya AI model libraries, the live-cast dynamic feature, and the ART log monitor probe. Saves about 12.5 MB of storage.",
+    "id": "28ba0d96d1b5310b450f5618:79",
+    "metadata_status": "unverified",
+    "name": "Remove content credential and card scanner assets",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Performance",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "Empties TikTok's reviewed editor, camera-effect and face-model assets. The Create tab and all recording, editing and effects tools stop working. Saves about 40 MB of storage.",
+    "id": "28ba0d96d1b5310b450f5618:80",
+    "metadata_status": "unverified",
+    "name": "Remove creation tools",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Performance",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "RawResourcePatch"
+    ],
+    "description": "Empties TikTok's link-mic and LIVE match or minigame assets, then skips its gift-effect widget setup. Co-hosting, games and animated gifts may stop. The APK gets about 3 MB smaller.",
+    "id": "28ba0d96d1b5310b450f5618:81",
+    "metadata_status": "unverified",
+    "name": "Remove LIVE extras",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Performance",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "Empties the TikTok language bundles you leave out of Languages to keep, always keeping English. It keeps every language until you list the ones you want, so picking every patch removes none. Listed codes are checked before any file changes. Keeping only English saves about 26 MB of storage.",
+    "id": "28ba0d96d1b5310b450f5618:82",
+    "metadata_status": "unverified",
+    "name": "Remove unused language packs",
+    "options": [
+      {
+        "default": "all",
+        "description": "Comma-separated language codes such as en, es, pt, fr or de, or all to keep every language. English is always kept.",
+        "key": "locales",
+        "required": false,
+        "title": "Languages to keep",
+        "type": "kotlin.String",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Interaction",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Follow diagnostics"
+    ],
+    "description": "With diagnostic logging on, records a repost request, TikTok's answer, and the next repost-list read without recording the video's ID or note.",
+    "id": "28ba0d96d1b5310b450f5618:83",
+    "metadata_status": "unverified",
+    "name": "Repost diagnostics",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Privacy",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Stops TikTok listening to the motion sensors it polls for device fingerprinting: the accelerometer, gyroscope, magnetometer, rotation, gravity and linear acceleration sensors. A second switch, off by default, keeps TikTok's phone benchmark from starting in a background process of its own. Switch: Hushfeed settings > Privacy.",
+    "id": "28ba0d96d1b5310b450f5618:84",
+    "metadata_status": "unverified",
+    "name": "Resource and battery governor",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Interaction",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Continues supported videos from where playback stopped when returning after a scroll. Switch: Hushfeed settings > Playback.",
+    "id": "28ba0d96d1b5310b450f5618:85",
+    "metadata_status": "unverified",
+    "name": "Resume videos after scrolling",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Interaction",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Removes tracking parameters from TikTok links before they are shared, and can put a host of your choosing in place of tiktok.com. Switch: Hushfeed settings > Privacy.",
+    "id": "28ba0d96d1b5310b450f5618:86",
+    "metadata_status": "unverified",
+    "name": "Sanitize sharing links",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Settings",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds the Hushfeed settings screen to TikTok and keeps its entry first in Settings and privacy.",
+    "id": "28ba0d96d1b5310b450f5618:87",
+    "metadata_status": "unverified",
+    "name": "Settings",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Interaction",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Hides chosen people, share options or the whole Send to row of the share sheet, and a profile's or a LIVE's share sheet can hide a different set from a video's. Apps you pick can be added to the Share via row. Switch: Hushfeed settings > Share sheet.",
+    "id": "28ba0d96d1b5310b450f5618:88",
+    "metadata_status": "unverified",
+    "name": "Share sheet tools",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "Block author button",
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Show the country a video was posted from next to the creator's name on the feed. Switch: Hushfeed settings > Feed screen.",
+    "id": "28ba0d96d1b5310b450f5618:89",
+    "metadata_status": "unverified",
+    "name": "Show author region",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Search",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Shows TikTok's search entry in the LIVE drawer where supported.",
+    "id": "28ba0d96d1b5310b450f5618:90",
+    "metadata_status": "unverified",
+    "name": "Show LIVE search",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Playback",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Shows TikTok's native video seekbar where it would normally be hidden, including when one of TikTok's experiments takes it off every video but paid content. Switch: Hushfeed settings > Playback.",
+    "id": "28ba0d96d1b5310b450f5618:91",
+    "metadata_status": "unverified",
+    "name": "Show the progress bar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Playback",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Shows TikTok's video preview thumbnail while dragging the seekbar.",
+    "id": "28ba0d96d1b5310b450f5618:92",
+    "metadata_status": "unverified",
+    "name": "Show the progress bar thumbnail",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Settings",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Spoofs SIM country and operator information retrieved by TikTok, with country presets for easier setup. Switch: Hushfeed settings > Region.",
+    "id": "28ba0d96d1b5310b450f5618:93",
+    "metadata_status": "unverified",
+    "name": "SIM spoof",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Feed",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Play videos TikTok has classified without the warning overlay asking to be tapped through first. Switch: Hushfeed settings > Feed screen.",
+    "id": "28ba0d96d1b5310b450f5618:94",
+    "metadata_status": "unverified",
+    "name": "Skip content warnings",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Performance",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Stops TikTok's splash-ad preload tasks and returns false from its reviewed splash and TopView gates. Other startup behavior is left in place.",
+    "id": "28ba0d96d1b5310b450f5618:95",
+    "metadata_status": "unverified",
+    "name": "Skip the splash ad",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Performance",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Skips TikTok's background and boot-finished device-ID update-check tasks. This may suppress some in-app update checks. Play Store updates are unaffected.",
+    "id": "28ba0d96d1b5310b450f5618:96",
+    "metadata_status": "unverified",
+    "name": "Skip update checks",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Playback",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Keeps TikTok's full-screen viewer on a video when it ends instead of moving to the next one, and leaves out its next-video countdown. Swiping still moves on. Switch: Hushfeed settings > Playback.",
+    "id": "28ba0d96d1b5310b450f5618:97",
+    "metadata_status": "unverified",
+    "name": "Stay on the video in full screen",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Privacy",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Keeps TikTok's Pitaya on-device AI plugin from starting, so its native engine doesn't load and it doesn't get a copy of every analytics event TikTok logs. TikTok carries on as if the Pitaya plugin weren't installed. Remove content credential and card scanner assets also empties some of Pitaya's libraries.",
+    "id": "28ba0d96d1b5310b450f5618:98",
+    "metadata_status": "unverified",
+    "name": "Stop on-device AI profiling",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Privacy",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Stops TikTok adding your new searches to the search history it saves on the phone. Searches you already made stay until you delete them, and this doesn't change what TikTok keeps on its servers. Switch: Hushfeed settings > Privacy.",
+    "id": "28ba0d96d1b5310b450f5618:99",
+    "metadata_status": "unverified",
+    "name": "Stop saving search history",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Playback",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Stops videos at the end instead of replaying them. Switch: Hushfeed settings > Playback.",
+    "id": "28ba0d96d1b5310b450f5618:100",
+    "metadata_status": "unverified",
+    "name": "Stop video looping",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Playback",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "Advanced downloads",
+      "Block author button",
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Saves subtitle files beside downloaded videos and adds caption size, background, and clear-display options. Switch: Hushfeed settings > Feed screen.",
+    "id": "28ba0d96d1b5310b450f5618:101",
+    "metadata_status": "unverified",
+    "name": "Subtitle tools",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Interaction",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "Block author button",
+      "BytecodePatch",
+      "Double-tap controls",
+      "Settings"
+    ],
+    "description": "Lets a left swipe on a feed video do nothing or open its comments instead of opening the creator's profile. Switch: Hushfeed settings > Feed screen.",
+    "id": "28ba0d96d1b5310b450f5618:102",
+    "metadata_status": "unverified",
+    "name": "Swipe-left controls",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Comments",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Adds comment translation controls using TikTok's translation system, with selectable language exclusions. Switch: Hushfeed settings > Comments.",
+    "id": "28ba0d96d1b5310b450f5618:103",
+    "metadata_status": "unverified",
+    "name": "Translate comments",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Search",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Uses TikTok's non-personalized search mode instead of its saved account choice. Switch: Hushfeed settings > App.",
+    "id": "28ba0d96d1b5310b450f5618:104",
+    "metadata_status": "unverified",
+    "name": "Use non-personalized search",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": true
+  },
+  {
+    "bundle_id": "28ba0d96d1b5310b450f5618",
+    "category": "Performance",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "signatures": [
+          "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+        ],
+        "targets": [
+          {
+            "experimental": false,
+            "version": "47.0.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024700030,
+              "ARMEABI_V7A": 2024700030,
+              "X86": 2024700030,
+              "X86_64": 2024700030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.3",
+            "versionCodes": {
+              "ARM64_V8A": 2024701030,
+              "ARMEABI_V7A": 2024701030,
+              "X86": 2024701030,
+              "X86_64": 2024701030
+            }
+          },
+          {
+            "experimental": false,
+            "version": "47.1.4",
+            "versionCodes": {
+              "ARM64_V8A": 2024701040,
+              "ARMEABI_V7A": 2024701040,
+              "X86": 2024701040,
+              "X86_64": 2024701040
+            }
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "47.0.3",
+        "47.1.3",
+        "47.1.4"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "Settings"
+    ],
+    "description": "Draws TikTok's text in your device's font instead of TikTok Sans. The icons, the gift animations and the @ and # glyphs keep their own fonts. Off by default. Restart after changing. Switch: Hushfeed settings > App.",
+    "id": "28ba0d96d1b5310b450f5618:105",
+    "metadata_status": "unverified",
+    "name": "Use system font",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "47.0.3",
+          "47.1.3",
+          "47.1.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.68.0",
+    "source_id": "583b8973c00f2205",
+    "use": false
+  },
+  {
+    "bundle_id": "28d8669f9c54caabee8d4c3b",
+    "compatibility": [
+      {
+        "appIconColor": 1539022,
+        "description": null,
+        "name": "Prime Video Android TV",
+        "packageName": "com.amazon.amazonvideo.livingroom",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "6.23.23+v15.5.0.70-armv7a"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.amazon.amazonvideo.livingroom": [
+        "6.23.23+v15.5.0.70-armv7a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Prevents Google Play Store from automatically replacing the patched APK with the official unpatched version.",
+    "id": "28d8669f9c54caabee8d4c3b:0",
+    "metadata_status": "stale",
+    "name": "Disable auto-updates",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.amazon.amazonvideo.livingroom",
+        "versions": [
+          "6.23.23+v15.5.0.70-armv7a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.7-dev.3",
+    "source_id": "fec860c28b323b2f",
+    "use": true
+  },
+  {
+    "bundle_id": "28d8669f9c54caabee8d4c3b",
+    "compatibility": [
+      {
+        "appIconColor": 1129679,
+        "description": null,
+        "name": "Disney+ Android TV",
+        "packageName": "com.disney.disneyplus",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "26.6.0+rc5-2026.04.21"
+          },
+          {
+            "experimental": false,
+            "version": "26.8.0+rc6-2026.05.20"
+          },
+          {
+            "experimental": false,
+            "version": "26.9.2+rc1-2026.06.12"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.disney.disneyplus": [
+        "26.6.0+rc5-2026.04.21",
+        "26.8.0+rc6-2026.05.20",
+        "26.9.2+rc1-2026.06.12"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes mid-roll / pre-roll ads and pause ads.",
+    "id": "28d8669f9c54caabee8d4c3b:1",
+    "metadata_status": "stale",
+    "name": "Disney+ Android TV",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.disney.disneyplus",
+        "versions": [
+          "26.6.0+rc5-2026.04.21",
+          "26.8.0+rc6-2026.05.20",
+          "26.9.2+rc1-2026.06.12"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.7-dev.3",
+    "source_id": "fec860c28b323b2f",
+    "use": true
+  },
+  {
+    "bundle_id": "28d8669f9c54caabee8d4c3b",
+    "compatibility": [
+      {
+        "appIconColor": 16777215,
+        "description": null,
+        "name": "HBO Max Android TV",
+        "packageName": "com.wbd.hbomax",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "7.5.0.73"
+          },
+          {
+            "experimental": false,
+            "version": "7.2.0.41"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.wbd.hbomax": [
+        "7.5.0.73",
+        "7.2.0.41"
+      ]
+    },
+    "dependencies": [],
+    "description": "Suppresses nonlinear overlay ads (Bolt), SSAI linear ad timeline registration (GMSS/AdSparx), and live stream preroll ad timeline entry generation for all content types.",
+    "id": "28d8669f9c54caabee8d4c3b:2",
+    "metadata_status": "stale",
+    "name": "HBO Max - Disable Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.wbd.hbomax",
+        "versions": [
+          "7.5.0.73",
+          "7.2.0.41"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.7-dev.3",
+    "source_id": "fec860c28b323b2f",
+    "use": true
+  },
+  {
+    "bundle_id": "28d8669f9c54caabee8d4c3b",
+    "compatibility": [
+      {
+        "appIconColor": 11634,
+        "description": null,
+        "name": "MLB.tv Android TV",
+        "packageName": "com.bamnetworks.mobile.android.gameday.atbat",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "26.8.1.1"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.bamnetworks.mobile.android.gameday.atbat": [
+        "26.8.1.1"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes VOD ads and shows a commercial-break overlay over live gambling ads while preserving live game playback.",
+    "id": "28d8669f9c54caabee8d4c3b:3",
+    "metadata_status": "stale",
+    "name": "MLB At Bat Android TV",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.bamnetworks.mobile.android.gameday.atbat",
+        "versions": [
+          "26.8.1.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.7-dev.3",
+    "source_id": "fec860c28b323b2f",
+    "use": true
+  },
+  {
+    "bundle_id": "28d8669f9c54caabee8d4c3b",
+    "compatibility": [
+      {
+        "appIconColor": 1539022,
+        "description": null,
+        "name": "Prime Video Android TV",
+        "packageName": "com.amazon.amazonvideo.livingroom",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "6.23.23+v15.5.0.70-armv7a"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.amazon.amazonvideo.livingroom": [
+        "6.23.23+v15.5.0.70-armv7a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Allows HTTPS traffic inspection tools like AdGuard Premium to intercept app connections. Enables consistent pre-roll suppression when used alongside AdGuard Premium.",
+    "id": "28d8669f9c54caabee8d4c3b:4",
+    "metadata_status": "stale",
+    "name": "Override certificate pinning",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.amazon.amazonvideo.livingroom",
+        "versions": [
+          "6.23.23+v15.5.0.70-armv7a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.7-dev.3",
+    "source_id": "fec860c28b323b2f",
+    "use": true
+  },
+  {
+    "bundle_id": "28d8669f9c54caabee8d4c3b",
+    "compatibility": [
+      {
+        "appIconColor": 25855,
+        "description": null,
+        "name": "Paramount+ Android TV",
+        "packageName": "com.cbs.ott",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "16.12.0"
+          },
+          {
+            "experimental": false,
+            "version": "16.8.0"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.cbs.ott": [
+        "16.12.0",
+        "16.8.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes VOD ads and pause ads while preserving live TV.",
+    "id": "28d8669f9c54caabee8d4c3b:5",
+    "metadata_status": "stale",
+    "name": "Paramount+ Android TV",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.cbs.ott",
+        "versions": [
+          "16.12.0",
+          "16.8.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.7-dev.3",
+    "source_id": "fec860c28b323b2f",
+    "use": true
+  },
+  {
+    "bundle_id": "28d8669f9c54caabee8d4c3b",
+    "compatibility": [
+      {
+        "appIconColor": 1539022,
+        "description": null,
+        "name": "Prime Video Android TV",
+        "packageName": "com.amazon.amazonvideo.livingroom",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "6.23.23+v15.5.0.70-armv7a"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.amazon.amazonvideo.livingroom": [
+        "6.23.23+v15.5.0.70-armv7a"
+      ]
+    },
+    "dependencies": [],
+    "description": "Integrates the Prime Video ATV extension for ad group skipping.",
+    "id": "28d8669f9c54caabee8d4c3b:6",
+    "metadata_status": "stale",
+    "name": "Prime Video extension",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.amazon.amazonvideo.livingroom",
+        "versions": [
+          "6.23.23+v15.5.0.70-armv7a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.7-dev.3",
+    "source_id": "fec860c28b323b2f",
+    "use": true
+  },
+  {
+    "bundle_id": "28d8669f9c54caabee8d4c3b",
+    "compatibility": [
+      {
+        "appIconColor": 199450,
+        "description": null,
+        "name": "Fox One Android TV",
+        "packageName": "com.fox.foxone",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "1.9.2"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.fox.foxone": [
+        "1.9.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Suppresses all ad delivery systems in Fox One Android TV: Google IMA/DAI for VOD, Yospace SSAI for live content.",
+    "id": "28d8669f9c54caabee8d4c3b:7",
+    "metadata_status": "stale",
+    "name": "Skip ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.fox.foxone",
+        "versions": [
+          "1.9.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.7-dev.3",
+    "source_id": "fec860c28b323b2f",
+    "use": true
+  },
+  {
+    "bundle_id": "28d8669f9c54caabee8d4c3b",
+    "compatibility": [
+      {
+        "appIconColor": 0,
+        "description": null,
+        "name": "Peacock TV Android TV",
+        "packageName": "com.peacocktv.peacockandroid",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "7.5.102"
+          },
+          {
+            "experimental": false,
+            "version": "7.6.100"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.peacocktv.peacockandroid": [
+        "7.5.102",
+        "7.6.100"
+      ]
+    },
+    "dependencies": [],
+    "description": "Disables ad delivery via Sky SDK surgical targets (FreeWheel DI module skip, MediaTailor SSAI layers, ad-break-started no-op), AdBlockInterceptor wiring on both the app NetworkingKt OkHttp client and the Sky SDK addon network client, and a WebView shouldInterceptRequest wrapper. Validated v7.5.102 and v7.6.100.",
+    "id": "28d8669f9c54caabee8d4c3b:8",
+    "metadata_status": "stale",
+    "name": "Skip ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.peacocktv.peacockandroid",
+        "versions": [
+          "7.5.102",
+          "7.6.100"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.7-dev.3",
+    "source_id": "fec860c28b323b2f",
+    "use": true
+  },
+  {
+    "bundle_id": "28d8669f9c54caabee8d4c3b",
+    "compatibility": [
+      {
+        "appIconColor": 1539022,
+        "description": null,
+        "name": "Prime Video Android TV",
+        "packageName": "com.amazon.amazonvideo.livingroom",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "6.23.23+v15.5.0.70-armv7a"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.amazon.amazonvideo.livingroom": [
+        "6.23.23+v15.5.0.70-armv7a"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Multi-layer ad suppression targeting the SSAI schedule, impression reporting, and the Volley network chokepoint.",
+    "id": "28d8669f9c54caabee8d4c3b:9",
+    "metadata_status": "stale",
+    "name": "Skip ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.amazon.amazonvideo.livingroom",
+        "versions": [
+          "6.23.23+v15.5.0.70-armv7a"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.7-dev.3",
+    "source_id": "fec860c28b323b2f",
+    "use": true
+  },
+  {
+    "bundle_id": "28d8669f9c54caabee8d4c3b",
+    "compatibility": [
+      {
+        "appIconColor": 15276060,
+        "description": null,
+        "name": "Tubi Android TV",
+        "packageName": "com.tubitv",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "10.20.5000"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.tubitv": [
+        "10.20.5000"
+      ]
+    },
+    "dependencies": [],
+    "description": "Suppresses all ad delivery systems in Tubi Android TV.",
+    "id": "28d8669f9c54caabee8d4c3b:10",
+    "metadata_status": "stale",
+    "name": "Skip ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.tubitv",
+        "versions": [
+          "10.20.5000"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.7-dev.3",
+    "source_id": "fec860c28b323b2f",
+    "use": true
+  },
+  {
+    "bundle_id": "28d8669f9c54caabee8d4c3b",
+    "compatibility": [
+      {
+        "appIconColor": 41193,
+        "description": null,
+        "name": "ViX Android TV",
+        "packageName": "com.univision.prendetv",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "4.46.0_tv"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.univision.prendetv": [
+        "4.46.0_tv"
+      ]
+    },
+    "dependencies": [],
+    "description": "Suppresses ViX ad delivery by disabling the FreeWheel ad provider at the config level and preventing the Innovid SSAI overlay from mounting.",
+    "id": "28d8669f9c54caabee8d4c3b:11",
+    "metadata_status": "stale",
+    "name": "Skip ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.univision.prendetv",
+        "versions": [
+          "4.46.0_tv"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.5.7-dev.3",
+    "source_id": "fec860c28b323b2f",
+    "use": true
+  },
+  {
+    "bundle_id": "28e8145d9441ebfd8cda7169",
+    "compatiblePackages": [
+      {
+        "name": "Pixiv",
+        "packageName": "jp.pxv.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.196.0"
+          }
+        ],
+        "versions": [
+          "6.196.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Eliminates bottom advertising banners across all screens without layout padding, suppresses rate-this-app dialogs, and hides sponsored works in feeds.",
+    "id": "28e8145d9441ebfd8cda7169:0",
+    "metadata_status": "stale",
+    "name": "Pixiv Adblocker",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pixiv",
+        "versions": [
+          "6.196.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.1",
+    "source_id": "a7e4b76d7fd75428"
+  },
+  {
+    "bundle_id": "28e8145d9441ebfd8cda7169",
+    "compatiblePackages": [
+      {
+        "name": "Pixiv",
+        "packageName": "jp.pxv.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.196.0"
+          }
+        ],
+        "versions": [
+          "6.196.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Identifies AI-generated works, dims thumbnails with an [AI] badge (or hides them completely), shows floating [AI] badge on artwork viewer, adds title [AI] pill, auto-blocks AI artists, and provides in-app settings with tag editor.",
+    "id": "28e8145d9441ebfd8cda7169:1",
+    "metadata_status": "stale",
+    "name": "Pixiv AI Work Flagger",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pixiv",
+        "versions": [
+          "6.196.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.1",
+    "source_id": "a7e4b76d7fd75428"
+  },
+  {
+    "bundle_id": "28e8145d9441ebfd8cda7169",
+    "compatiblePackages": [
+      {
+        "name": "Pixiv",
+        "packageName": "jp.pxv.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.196.0"
+          }
+        ],
+        "versions": [
+          "6.196.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Neutralizes Firebase Analytics, Google Measurement telemetry, and internal Pixiv event logging dispatchers for enhanced privacy.",
+    "id": "28e8145d9441ebfd8cda7169:2",
+    "metadata_status": "stale",
+    "name": "Pixiv Analytics Blocker",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pixiv",
+        "versions": [
+          "6.196.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.1",
+    "source_id": "a7e4b76d7fd75428"
+  },
+  {
+    "bundle_id": "28e8145d9441ebfd8cda7169",
+    "compatiblePackages": [
+      {
+        "name": "Pixiv",
+        "packageName": "jp.pxv.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.196.0"
+          }
+        ],
+        "versions": [
+          "6.196.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Adds a button to the illustration and manga detail view to download original full-quality artwork directly to your Photos library with clean metadata filenames.",
+    "id": "28e8145d9441ebfd8cda7169:3",
+    "metadata_status": "stale",
+    "name": "Pixiv Downloader",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pixiv",
+        "versions": [
+          "6.196.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.1",
+    "source_id": "a7e4b76d7fd75428"
+  },
+  {
+    "bundle_id": "28e8145d9441ebfd8cda7169",
+    "compatiblePackages": [
+      {
+        "name": "Pixiv",
+        "packageName": "jp.pxv.android"
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Exports activities for testing",
+    "id": "28e8145d9441ebfd8cda7169:4",
+    "metadata_status": "stale",
+    "name": "Pixiv Export Activities",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pixiv",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.2.1",
+    "source_id": "a7e4b76d7fd75428"
+  },
+  {
+    "bundle_id": "28e8145d9441ebfd8cda7169",
+    "compatiblePackages": [
+      {
+        "name": "Pixiv",
+        "packageName": "jp.pxv.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.196.0"
+          }
+        ],
+        "versions": [
+          "6.196.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Overrides dark gray surface and background colors with pure pitch black (#ff000000) for OLED battery savings and true high-contrast dark mode.",
+    "id": "28e8145d9441ebfd8cda7169:5",
+    "metadata_status": "stale",
+    "name": "Pixiv OLED Dark Theme",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pixiv",
+        "versions": [
+          "6.196.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.1",
+    "source_id": "a7e4b76d7fd75428"
+  },
+  {
+    "bundle_id": "28e8145d9441ebfd8cda7169",
+    "compatiblePackages": [
+      {
+        "name": "Pixiv",
+        "packageName": "jp.pxv.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.196.0"
+          }
+        ],
+        "versions": [
+          "6.196.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Keeps the primary bottom navigation bar visible, docked, and functional when navigating into submenus and drill-down views such as SearchResultActivity and RankingActivity.",
+    "id": "28e8145d9441ebfd8cda7169:6",
+    "metadata_status": "stale",
+    "name": "Pixiv Persistent Navigation",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pixiv",
+        "versions": [
+          "6.196.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.1",
+    "source_id": "a7e4b76d7fd75428"
+  },
+  {
+    "bundle_id": "28e8145d9441ebfd8cda7169",
+    "compatiblePackages": [
+      {
+        "name": "Pixiv",
+        "packageName": "jp.pxv.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.196.0"
+          }
+        ],
+        "versions": [
+          "6.196.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks popularity sort sorting (popular_desc) in search, removes mute limits, and emulates client-side Pixiv Premium membership status.",
+    "id": "28e8145d9441ebfd8cda7169:7",
+    "metadata_status": "stale",
+    "name": "Pixiv Premium Features",
+    "options": [],
+    "packages": [
+      {
+        "name": "Pixiv",
+        "versions": [
+          "6.196.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.2.1",
+    "source_id": "a7e4b76d7fd75428"
+  },
+  {
+    "bundle_id": "28fbe594442cc2961d452376",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1428A0",
+        "name": "Samsung Daily Board",
+        "packageName": "com.samsung.android.homemode",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 34,
+            "version": "15.1.01.3"
+          }
+        ],
+        "versions": [
+          "15.1.01.3"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Runs Samsung Daily Board on phones and treats wireless charging, or charging in landscape, as docking.",
+    "id": "28fbe594442cc2961d452376:0",
+    "metadata_status": "unverified",
+    "name": "Enable phone support",
+    "options": [],
+    "packages": [
+      {
+        "name": "Samsung Daily Board",
+        "versions": [
+          "15.1.01.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.3.3-dev.1",
+    "source_id": "ce87c1fd9c9509db"
+  },
+  {
+    "bundle_id": "28fbe594442cc2961d452376",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#FC483C",
+        "name": "Instagram",
+        "packageName": "com.instagram.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 28,
+            "version": "426.0.0.37.68"
+          }
+        ],
+        "versions": [
+          "426.0.0.37.68"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Forces Instagram notifications into one group, or into separate groups by notification category.",
+    "id": "28fbe594442cc2961d452376:1",
+    "metadata_status": "unverified",
+    "name": "Force notification grouping",
+    "options": [
+      {
+        "default": "all",
+        "description": "Choose whether every Instagram notification uses one notification group or separate groups by category.",
+        "key": "groupingMode",
+        "required": true,
+        "title": "Grouping mode",
+        "type": "kotlin.String",
+        "values": {
+          "all": "All notifications",
+          "category": "By category"
+        }
+      },
+      {
+        "default": false,
+        "description": "Print notification grouping decisions to logcat.",
+        "key": "debugLogging",
+        "required": false,
+        "title": "Debug logging",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "When grouping all notifications together, remove sort keys and conversation hints that can make Android or One UI split Instagram notifications anyway.",
+        "key": "strictAllGrouping",
+        "required": false,
+        "title": "Strict all-notifications grouping",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Instagram",
+        "versions": [
+          "426.0.0.37.68"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.3.3-dev.1",
+    "source_id": "ce87c1fd9c9509db"
+  },
+  {
+    "bundle_id": "297117177ec77ef9d7963bb4",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF0045",
+        "name": "ZTE Gallery",
+        "packageName": "com.android.gallery3d",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "16.0.002.000.2601041449"
+          }
+        ],
+        "versions": [
+          "16.0.002.000.2601041449"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Patch to make the PolicyForegroundService background service not start.",
+    "id": "297117177ec77ef9d7963bb4:0",
+    "metadata_status": "unverified",
+    "name": "Fix Background Service",
+    "options": [],
+    "packages": [
+      {
+        "name": "ZTE Gallery",
+        "versions": [
+          "16.0.002.000.2601041449"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "5ee41ea42617de3d"
+  },
+  {
+    "bundle_id": "297117177ec77ef9d7963bb4",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF0045",
+        "name": "ZTE Gallery",
+        "packageName": "com.android.gallery3d",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "16.0.002.000.2601041449"
+          }
+        ],
+        "versions": [
+          "16.0.002.000.2601041449"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Patch to fix the storage permission.",
+    "id": "297117177ec77ef9d7963bb4:1",
+    "metadata_status": "unverified",
+    "name": "Fix storage permission",
+    "options": [],
+    "packages": [
+      {
+        "name": "ZTE Gallery",
+        "versions": [
+          "16.0.002.000.2601041449"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "5ee41ea42617de3d"
+  },
+  {
+    "bundle_id": "2a75ab55ae5f52d38ff1ae6d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0864FF",
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 30,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ],
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Stops Facebook watching for screenshots of ads and reporting which apps you install for ad attribution.",
+    "id": "2a75ab55ae5f52d38ff1ae6d:0",
+    "metadata_status": "unverified",
+    "name": "[Ad] Block ad telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "Facebook",
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.5.0-dev.1",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "2a75ab55ae5f52d38ff1ae6d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0864FF",
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 30,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ],
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Stops Facebook downloading ads and its ad model in the background, which saves data, battery and storage.",
+    "id": "2a75ab55ae5f52d38ff1ae6d:1",
+    "metadata_status": "unverified",
+    "name": "[Ad] Block background ad prefetch",
+    "options": [],
+    "packages": [
+      {
+        "name": "Facebook",
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.5.0-dev.1",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "2a75ab55ae5f52d38ff1ae6d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0864FF",
+        "name": "Facebook",
+        "packageName": "com.facebook.katana",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 30,
+            "version": "577.0.0.50.72",
+            "versionCodes": {
+              "ARM64_V8A": 474426275
+            }
+          }
+        ],
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Stops Facebook serving ads to other apps. Those apps then show their own ads or none, and rewarded ads can fail.",
+    "id": "2a75ab55ae5f52d38ff1ae6d:2",
+    "metadata_status": "unverified",
+    "name": "[Ad] Disable Audience Network",
+    "options": [],
+    "packages": [
+      {
+        "name": "Facebook",
+        "versions": [
+          "577.0.0.50.72"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.5.0-dev.1",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "2a75ab55ae5f52d38ff1ae6d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides LINE display ads: the LINE Ads banners, the Smart Channel banner in the chat list and Google AdManager ads.",
+    "id": "2a75ab55ae5f52d38ff1ae6d:3",
+    "metadata_status": "unverified",
+    "name": "[Ad] Hide ad views",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.5.0-dev.1",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "2a75ab55ae5f52d38ff1ae6d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "LINE no longer loads the Smart Channel banner ads. This patch makes the getBanners and getPrefetchableBanners responses null.",
+    "id": "2a75ab55ae5f52d38ff1ae6d:4",
+    "metadata_status": "unverified",
+    "name": "[Ad] Remove banner ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.5.0-dev.1",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "2a75ab55ae5f52d38ff1ae6d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the AI Friends button from the Chats tab header. The Album button shows in its place.",
+    "id": "2a75ab55ae5f52d38ff1ae6d:5",
+    "metadata_status": "unverified",
+    "name": "[Chat] Hide AI Friends button",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.5.0-dev.1",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "2a75ab55ae5f52d38ff1ae6d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the server-provided tools (Poll, Schedule and more) from the + menu in a chat. Built-in tiles stay.",
+    "id": "2a75ab55ae5f52d38ff1ae6d:6",
+    "metadata_status": "unverified",
+    "name": "[Chat] Hide attach menu extra tools",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.5.0-dev.1",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "2a75ab55ae5f52d38ff1ae6d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes every LINE Calendar button: in the Chats tab, the chat toolbar and menus, and the Home tab.",
+    "id": "2a75ab55ae5f52d38ff1ae6d:7",
+    "metadata_status": "unverified",
+    "name": "[Chat] Hide calendar buttons",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.5.0-dev.1",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "2a75ab55ae5f52d38ff1ae6d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the community (OpenChat) button from the top of the Chats tab header.",
+    "id": "2a75ab55ae5f52d38ff1ae6d:8",
+    "metadata_status": "unverified",
+    "name": "[Chat] Hide community button",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.5.0-dev.1",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "2a75ab55ae5f52d38ff1ae6d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the \"Events\" row from the slide-out menu in a chat room. Events is a different feature from LINE Calendar, and it opens a server-hosted page.",
+    "id": "2a75ab55ae5f52d38ff1ae6d:9",
+    "metadata_status": "unverified",
+    "name": "[Chat] Hide Events button",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.5.0-dev.1",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "2a75ab55ae5f52d38ff1ae6d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the LINE GIFT tile from the + attach menu in a chat room.",
+    "id": "2a75ab55ae5f52d38ff1ae6d:10",
+    "metadata_status": "unverified",
+    "name": "[Chat] Hide LINE GIFT button",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.5.0-dev.1",
+    "source_id": "e55dbeb5c9cb1053"
+  },
+  {
+    "bundle_id": "2a75ab55ae5f52d38ff1ae6d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#06C755",
+        "name": "LINE",
+        "packageName": "jp.naver.line.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.0"
+          }
+        ],
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides the \"CHECK\" tips under some messages, such as a received video.",
+    "id": "2a75ab55ae5f52d38ff1ae6d:11",
+    "metadata_status": "unverified",
+    "name": "[Chat] Hide tips under messages",
+    "options": [],
+    "packages": [
+      {
+        "name": "LINE",
+        "versions": [
+          "26.14.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v3.5.0-dev.1",
+    "source_id": "e55dbeb5c9cb1053"
+  }
+]

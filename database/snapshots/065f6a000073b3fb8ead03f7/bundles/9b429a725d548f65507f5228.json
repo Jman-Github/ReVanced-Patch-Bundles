@@ -1,0 +1,35 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "dev",
+    "latest"
+  ],
+  "created_at": "2026-08-10T10:01:56",
+  "description": "## [1.2.0-dev.5](https://github.com/ilikeadofai/vocacolle-morphe-patches/compare/v1.2.0-dev.4...v1.2.0-dev.5) (2026-08-10)\n\n### 🐛 Bug Fixes\n\n* **ad-control:** remove overrideAudioAdContent that breaks player UI state ([2c085e2](https://github.com/ilikeadofai/vocacolle-morphe-patches/commit/2c085e2fb5dc2dfb0bba2c6f957e2519188e39db))\n* **ad-control:** stabilize player transition presentation ([82bdb5f](https://github.com/ilikeadofai/vocacolle-morphe-patches/commit/82bdb5fe4ae09fe5a61f24be7098f6bd624a99f4))\n",
+  "download_url": "https://github.com/ilikeadofai/vocacolle-morphe-patches/releases/download/v1.2.0-dev.5/patches-1.2.0-dev.5.mpp",
+  "ecosystem": "morphe",
+  "extraction_status": "unverified",
+  "file_hash": null,
+  "id": "9b429a725d548f65507f5228",
+  "import_urls": {
+    "dev": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Filikeadofai%2Fvocacolle-morphe-patches&version=latest&channel=prerelease",
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Filikeadofai%2Fvocacolle-morphe-patches&version=latest&channel=any"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": true,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "VocaColle"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_version": "v1.2.0-dev.5",
+  "patcher_runtime": null,
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": "N/A",
+  "source_id": "fa6bab88d72d4172",
+  "version": "v1.2.0-dev.5"
+}

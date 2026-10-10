@@ -1,0 +1,35 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-10-05T18:38:07",
+  "description": "HushThreads v0.0.11 has 11 patches for Threads 449.0.0.54.82 (`com.instagram.barcelona`), and it works with Threads 448.0.0.54.85 too. It's built on Morphe patcher 1.15.1, so update Morphe Manager to 1.34.0 or newer before you patch. The new patch in this one is Pure black dark mode.\n\n## Threads\n\n- New Pure black dark mode patch. In dark mode your feed, posts and profiles sit on pure black instead of Threads' #101010 dark gray, which looks deeper and saves power on an OLED screen. Menus and sheets keep their own grays. It isn't selected by default. Once you pick it, its switch is on and lives on a new Appearance page in HushThreads settings, and a change takes effect after Threads restarts. Pause and safe mode hand the gray back.\n- HushThreads now builds on Morphe patcher 1.15.1, so it needs Morphe Manager 1.34.0 or newer. Manager 1.33.0 asks for an update before it loads the bundle.\n- The sign-in section of the README now suggests resetting your Instagram password when Threads turns down one you know is right. That's what fixed it for the person who reported it.\n- Signing in now has a device check on Threads 448.0.0.54.85 too. A typed password reaches the feed with only the settings patch or with all 11, and repatching with more patches on the same key keeps you signed in with your switches as you left them. With HushGram on the same key, your Instagram account shows up as a tile that signs you in without a password.\n\n## Tooling\n\n- A fixture test checks on 449 and 448 that the patch finds every #101010 load in Threads' theme and the background slots of its dark color scheme, hooks only those, and refuses to patch when the gray moves, the scheme builder branches, or one scheme serves both modes.\n- ARSCLib follows the patcher to 9b742c412d, with hashes checked against the cached files. smali stays at d856bad65f, which 1.15.1 still asks for. The fixture gates move to desktop CLI 1.18.1.\n\n## Update\n\n1. You need [Morphe Manager](https://github.com/MorpheApp/morphe-manager) 1.34.0 or newer. Manager 1.33.0 asks for an update before it loads this bundle. If HushThreads is already one of your patch sources, Manager shows 0.0.11 once it refreshes. If it isn't, add it: https://morphe.software/add-source?github=SysAdminDoc%2FHushThreads\n2. Patch the arm64-v8a bundle of Threads **449.0.0.54.82** (version code 511908382) or **448.0.0.54.85** (version code 511808302).\n3. Want pure black? Pure black dark mode isn't selected by default, so tick it in Manager before you patch.\n4. Patch with the Morphe Manager signing key you used last time. That's what lets the update install over your patched Threads and keep your data. Coming from the stock Threads, uninstall it first.\n5. Sign in with your Instagram username and password. If you patch Instagram with [HushGram](https://github.com/SysAdminDoc/HushGram) using the same signing key, you can tap your Instagram account on Threads' login screen instead.\n\nThe `.mpp` download is a patch bundle, not a Threads APK. [Installation instructions](https://github.com/SysAdminDoc/HushThreads#install).\n\n## Validation\n\n518 runtime tests and 191 patch tests passed locally, along with both Android lints and the release script checks. All 11 patches applied without forcing to Threads 449.0.0.54.82 and 448.0.0.54.85, and the release receipt records both runs. The dependency advisory check passed.\n",
+  "download_url": "https://github.com/SysAdminDoc/HushThreads/releases/download/v0.0.11/patches-0.0.11.mpp",
+  "ecosystem": "morphe",
+  "extraction_status": "unverified",
+  "file_hash": null,
+  "id": "b4eb5148c22271d41296fbae",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FSysAdminDoc%2FHushThreads&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FSysAdminDoc%2FHushThreads&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "com.instagram.barcelona"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_version": "v0.0.11",
+  "patcher_runtime": null,
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": "N/A",
+  "source_id": "0a63b416f9d8c272",
+  "version": "v0.0.11"
+}

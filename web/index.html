@@ -1,0 +1,80 @@
+<!-- SPDX-License-Identifier: GPL-3.0-only
+Adapted from brosssh/revanced-external-bundles; copyright its contributors.
+Source: https://github.com/brosssh/revanced-external-bundles/blob/3a59398d667c83cd7033f859f3cb59237da92b3f/src/main/resources/static/index.html
+Changes: GitHub source management and application-version filter hint. See COPYING.
+-->
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Patch Bundle Registry</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght,ROND@6..144,1..1000,100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="favicon.svg">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/11.1.1/marked.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.4.14/purify.min.js"></script>
+    </head>
+    <body>
+    <div class="container grid-view-enabled">
+        <div class="page-header">
+            <div>
+                <h1>Patch Bundle Registry</h1>
+                <p class="subtitle">Search ReVanced and Morphe patch bundles</p>
+            </div>
+            <button id="admin-access" class="admin-access" type="button">Manage sources</button>
+        </div>
+        <div class="search-row">
+            <input
+                    type="text"
+                    id="search"
+                    aria-label="Search bundles"
+                    placeholder="Search bundles by source URL or name..."
+                    autocomplete="off"
+            >
+            <input
+                    type="text"
+                    id="package-filter"
+                    aria-label="Filter by package or app version, optionally package@version"
+                    placeholder="Filter by package or app version (e.g., 19.16)"
+                    autocomplete="off"
+            >
+        </div>
+        <div class="filter-row">
+            <label class="filter-field">
+                <span>Source</span>
+                <select id="source-filter">
+                    <option value="">All sources</option>
+                </select>
+            </label>
+            <label class="filter-field">
+                <span>Bundle version</span>
+                <select id="bundle-version-filter" disabled>
+                    <option value="">All versions</option>
+                </select>
+            </label>
+            <label class="filter-field">
+                <span>Bundle type</span>
+                <select id="bundle-type-filter">
+                    <option value="">All types</option>
+                </select>
+            </label>
+        </div>
+        <div class="filter-buttons">
+            <button class="filter-btn" data-filter="all">All</button>
+            <button class="filter-btn active" data-filter="release">Release</button>
+            <button class="filter-btn" data-filter="prerelease">Prerelease</button>
+            <button id="toggle-all-changelogs" class="changelog-toggle" type="button" disabled>Show all changelogs</button>
+            <button id="view-toggle" class="view-toggle" type="button" aria-pressed="true">List view</button>
+        </div>
+        <div id="status">Loading bundles...</div>
+        <div id="results" class="grid-view">
+            <div class="v-track" id="v-track"></div>
+        </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,38 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-10-06T16:04:43",
+  "description": "## Interactive apps in feeds\n\n- Hide Devvit app/game cards in modern feeds as well as legacy listings, including cached card reconversions and compact posts.\n- Read the saved filter setting at application startup, before the first feed loads.\n- Rename the setting to **Hide apps in feed**, put it after the ad settings in Morphe → Ads, and remove its subtitle.\n\n## Vertical profile navigation\n\n- Require embedded profile feeds to belong to the current native screen; a previous Home feed with stale visibility cannot be selected.\n- Added a regression check ensuring a fresh profile cannot inherit Home's focus, even when the same post appears in both feeds.\n- The reported intermittent jump was not reproduced, so the ancestry guard is a defensive change rather than a confirmed diagnosis.\n\n## Verification\n\nApplied all 18 default upstream Morphe Reddit patches plus all three custom patches to Reddit 2026.14.0. Emulator checks confirmed games return when filtering is disabled and are removed when enabled, including after restart, while ordinary discussion posts remain. Verified the setting placement and text. Home → media author → profile → Vertical opened the profile feed at index 0, followed its own ordering, synchronized Back, and retained its selection on reopening. App filter, NSFW and vertical JVM checks pass.\n\nRefresh this source in Morphe Manager, keep your desired upstream patches selected, and repatch. All three patch names are unchanged.\n",
+  "download_url": "https://github.com/sillyredsoup/reddit-morphe-patches/releases/download/v0.4.1/patches-0.4.1.mpp",
+  "ecosystem": "morphe",
+  "extraction_status": "unverified",
+  "file_hash": null,
+  "id": "4fc7dc8e3520c0029ace981d",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fsillyredsoup%2Freddit-morphe-patches&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fsillyredsoup%2Freddit-morphe-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 181,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "Reddit"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_version": "v0.4.1",
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": "N/A",
+  "source_id": "52be807160b2760c",
+  "version": "v0.4.1"
+}

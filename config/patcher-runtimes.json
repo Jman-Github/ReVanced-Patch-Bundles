@@ -1,0 +1,117 @@
+{
+  "worker": {
+    "timeout_seconds": 90,
+    "max_heap": "512m",
+    "restart_attempts": 1
+  },
+  "runtimes": [
+    {
+      "id": "revanced-22",
+      "family": "ReVanced:V4",
+      "loader": "revanced-modern",
+      "coordinate": "app.revanced:patcher-jvm:22.1.0-dev.1",
+      "dependencies": [
+        "app.revanced:patcher-jvm:22.1.0-dev.1"
+      ],
+      "range": "*",
+      "fallback": true
+    },
+    {
+      "id": "revanced-21",
+      "family": "ReVanced:V4",
+      "loader": "revanced-legacy",
+      "coordinate": "app.revanced:revanced-patcher:21.1.0-dev.5",
+      "dependencies": [
+        "app.revanced:revanced-patcher:21.1.0-dev.5"
+      ],
+      "range": "*",
+      "fallback": true
+    },
+    {
+      "id": "revanced-20",
+      "family": "ReVanced:V4",
+      "loader": "revanced-legacy",
+      "coordinate": "app.revanced:revanced-patcher:20.0.2",
+      "dependencies": [
+        "app.revanced:revanced-patcher:20.0.2"
+      ],
+      "range": "*",
+      "fallback": true
+    },
+    {
+      "id": "morphe-early",
+      "family": "Morphe:V1",
+      "loader": "morphe",
+      "coordinate": "app.morphe:morphe-patcher:1.1.1",
+      "dependencies": [
+        "app.morphe:morphe-patcher:1.1.1"
+      ],
+      "range": null,
+      "fallback": true
+    },
+    {
+      "id": "morphe-12",
+      "family": "Morphe:V1",
+      "loader": "morphe",
+      "coordinate": "app.morphe:morphe-patcher:1.2.0",
+      "dependencies": [
+        "app.morphe:morphe-patcher:1.2.0"
+      ],
+      "range": "<=1.2.0",
+      "fallback": false
+    },
+    {
+      "id": "morphe-latest",
+      "family": "Morphe:V1",
+      "loader": "morphe",
+      "coordinate": "app.morphe:morphe-patcher:1.14.1",
+      "dependencies": [
+        "app.morphe:morphe-patcher:1.14.1"
+      ],
+      "range": ">1.2.0",
+      "fallback": false
+    },
+    {
+      "id": "revanced-v3-19",
+      "family": "ReVanced:V3",
+      "loader": "revanced-v3",
+      "coordinate": "app.revanced:revanced-patcher:19.3.1",
+      "dependencies": [
+        "app.revanced:revanced-patcher:19.3.1"
+      ],
+      "range": "*",
+      "fallback": true
+    },
+    {
+      "id": "revanced-v3-15",
+      "family": "ReVanced:V3",
+      "loader": "revanced-v3",
+      "coordinate": "app.revanced:revanced-patcher:15.0.3",
+      "dependencies": [
+        "app.revanced:revanced-patcher:15.0.3"
+      ],
+      "range": "*",
+      "fallback": true
+    },
+    {
+      "id": "revanced-v3-11",
+      "family": "ReVanced:V3",
+      "loader": "revanced-v3",
+      "coordinate": "app.revanced:revanced-patcher:11.0.4",
+      "dependencies": [
+        "app.revanced:revanced-patcher:11.0.4"
+      ],
+      "range": "*",
+      "fallback": true
+    },
+    {
+      "id": "revanced-v3-bytecode",
+      "family": "ReVanced:V3",
+      "loader": "legacy-bytecode",
+      "coordinate": "builtin:annotation-reader:1",
+      "dependencies": [],
+      "range": "*",
+      "fallback": true
+    }
+  ]
+}

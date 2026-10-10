@@ -1,0 +1,3038 @@
+[
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.xiaomi.wearable": null
+    },
+    "dependencies": [
+      "Fix login"
+    ],
+    "description": "Forces wearable devices to use the English locale.",
+    "id": "75ffc4b7185a9d384b2feb97:109",
+    "metadata_status": "unverified",
+    "name": "Force English locale",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.xiaomi.wearable",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "7.29.52",
+        "8.10.52",
+        "8.37.56",
+        "8.40.54"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to always use the original audio track.",
+    "id": "75ffc4b7185a9d384b2feb97:110",
+    "metadata_status": "unverified",
+    "name": "Force original audio",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "7.29.52",
+          "8.10.52",
+          "8.37.56",
+          "8.40.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to always use the original audio track.",
+    "id": "75ffc4b7185a9d384b2feb97:111",
+    "metadata_status": "unverified",
+    "name": "Force original audio",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.apps.magazines": [
+        "5.108.0.644447823"
+      ]
+    },
+    "dependencies": [
+      "Change package name",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
+    "id": "75ffc4b7185a9d384b2feb97:112",
+    "metadata_status": "unverified",
+    "name": "GmsCore support",
+    "options": [
+      {
+        "default": "app.revanced",
+        "description": "The vendor's group ID for GmsCore.",
+        "name": "GmsCore vendor group ID",
+        "required": true,
+        "type": "kotlin.String",
+        "values": {
+          "ReVanced": "app.revanced"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.apps.magazines",
+        "versions": [
+          "5.108.0.644447823"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.apps.photos": null
+    },
+    "dependencies": [
+      "Change package name",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
+    "id": "75ffc4b7185a9d384b2feb97:113",
+    "metadata_status": "unverified",
+    "name": "GmsCore support",
+    "options": [
+      {
+        "default": "app.revanced",
+        "description": "The vendor's group ID for GmsCore.",
+        "name": "GmsCore vendor group ID",
+        "required": true,
+        "type": "kotlin.String",
+        "values": {
+          "ReVanced": "app.revanced"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.apps.photos",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "7.29.52",
+        "8.10.52",
+        "8.37.56",
+        "8.40.54"
+      ]
+    },
+    "dependencies": [
+      "Change package name",
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
+    "id": "75ffc4b7185a9d384b2feb97:114",
+    "metadata_status": "unverified",
+    "name": "GmsCore support",
+    "options": [
+      {
+        "default": "app.revanced",
+        "description": "The vendor's group ID for GmsCore.",
+        "name": "GmsCore vendor group ID",
+        "required": true,
+        "type": "kotlin.String",
+        "values": {
+          "ReVanced": "app.revanced"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "7.29.52",
+          "8.10.52",
+          "8.37.56",
+          "8.40.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "Change package name",
+      "ResourcePatch",
+      "BytecodePatch",
+      "Hide player overlay buttons",
+      "Spoof video streams"
+    ],
+    "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
+    "id": "75ffc4b7185a9d384b2feb97:115",
+    "metadata_status": "unverified",
+    "name": "GmsCore support",
+    "options": [
+      {
+        "default": "app.revanced",
+        "description": "The vendor's group ID for GmsCore.",
+        "name": "GmsCore vendor group ID",
+        "required": true,
+        "type": "kotlin.String",
+        "values": {
+          "ReVanced": "app.revanced"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": null,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Replaces a hexadecimal patterns of bytes of files in an APK.",
+    "id": "75ffc4b7185a9d384b2feb97:116",
+    "metadata_status": "unverified",
+    "name": "Hex",
+    "options": [
+      {
+        "default": null,
+        "description": "Hexadecimal patterns to search for and replace with another in a target file.\n\nA pattern is a sequence of case insensitive strings, each representing hexadecimal bytes, separated by spaces.\nAn example pattern is 'aa 01 02 FF'.\n\nEvery pattern must be followed by a pipe ('|'), the replacement pattern,\nanother pipe ('|'), and the path to the file to make the changes in relative to the APK root. \nThe replacement pattern must be shorter or equal in length to the pattern.\n\nFull example of a valid replacement:\n'01 02 aa FF|03 04|path/to/file'",
+        "name": "Replacements",
+        "required": true,
+        "type": "kotlin.collections.List<kotlin.String>",
+        "values": null
+      }
+    ],
+    "packages": [],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "7.29.52",
+        "8.10.52",
+        "8.37.56",
+        "8.40.54"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to hide the \"Get Music Premium\" label in the settings and account menu.",
+    "id": "75ffc4b7185a9d384b2feb97:117",
+    "metadata_status": "unverified",
+    "name": "Hide 'Get Music Premium'",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "7.29.52",
+          "8.10.52",
+          "8.37.56",
+          "8.40.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.facebook.katana": [
+        "490.0.0.63.82"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:118",
+    "metadata_status": "unverified",
+    "name": "Hide 'Sponsored Stories'",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": [
+          "490.0.0.63.82"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": null,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hides enabled development settings and/or ADB.",
+    "id": "75ffc4b7185a9d384b2feb97:119",
+    "metadata_status": "unverified",
+    "name": "Hide ADB status",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.viber.voip": [
+        "25.9.2.0",
+        "26.1.2.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides ad banners between chats.",
+    "id": "75ffc4b7185a9d384b2feb97:120",
+    "metadata_status": "unverified",
+    "name": "Hide Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.viber.voip",
+        "versions": [
+          "25.9.2.0",
+          "26.1.2.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.drinkplusplus.angulus": null
+    },
+    "dependencies": [
+      "Disable Pairip license check"
+    ],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:121",
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.drinkplusplus.angulus",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.cricbuzz.android": [
+        "6.24.01"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:122",
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.cricbuzz.android",
+        "versions": [
+          "6.24.01"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.crunchyroll.crunchyroid": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:123",
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.crunchyroll.crunchyroid",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.mobilefootie.wc2010": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:124",
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.mobilefootie.wc2010",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "de.gmx.mobile.android.mail": null
+    },
+    "dependencies": [],
+    "description": "Hides sponsored ads.",
+    "id": "75ffc4b7185a9d384b2feb97:125",
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "de.gmx.mobile.android.mail",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.nis.app": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:126",
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.nis.app",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:127",
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.ebay.kleinanzeigen": null
+    },
+    "dependencies": [],
+    "description": "Hides sponsored ads and Google Ads. Also happens to disable Microsoft Clarity analytics.",
+    "id": "75ffc4b7185a9d384b2feb97:128",
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ebay.kleinanzeigen",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.letterboxd.letterboxd": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:129",
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.letterboxd.letterboxd",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.myfitnesspal.android": [
+        "24.14.2"
+      ]
+    },
+    "dependencies": [],
+    "description": "Hides most of the ads across the app.",
+    "id": "75ffc4b7185a9d384b2feb97:130",
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.myfitnesspal.android",
+        "versions": [
+          "24.14.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "nl.sanomamedia.android.nu": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hide ads and sponsored articles in list pages and remove pre-roll ads on videos.",
+    "id": "75ffc4b7185a9d384b2feb97:131",
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "nl.sanomamedia.android.nu",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.peacocktv.peacockandroid": null
+    },
+    "dependencies": [],
+    "description": "Hides all video ads.",
+    "id": "75ffc4b7185a9d384b2feb97:132",
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.peacocktv.peacockandroid",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "jp.pxv.android": [
+        "6.141.1"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:133",
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "jp.pxv.android",
+        "versions": [
+          "6.141.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.reddit.frontpage": null
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:134",
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.reddit.frontpage",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.soundcloud.android": [
+        "2025.05.27-release"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:135",
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.soundcloud.android",
+        "versions": [
+          "2025.05.27-release"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.instagram.barcelona": [
+        "382.0.0.51.85"
+      ]
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:136",
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.barcelona",
+        "versions": [
+          "382.0.0.51.85"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "10.60.0-release.0",
+        "10.86.0-release.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:137",
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "10.60.0-release.0",
+          "10.86.0-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "at.willhaben": null
+    },
+    "dependencies": [],
+    "description": "Hides all in-app ads.",
+    "id": "75ffc4b7185a9d384b2feb97:138",
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "at.willhaben",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to remove general ads.",
+    "id": "75ffc4b7185a9d384b2feb97:139",
+    "metadata_status": "unverified",
+    "name": "Hide ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Hides the app icon from the Android launcher.",
+    "id": "75ffc4b7185a9d384b2feb97:140",
+    "metadata_status": "unverified",
+    "name": "Hide app icon",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to hide the autoplay preview at the end of videos.",
+    "id": "75ffc4b7185a9d384b2feb97:141",
+    "metadata_status": "unverified",
+    "name": "Hide autoplay preview",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "7.29.52",
+        "8.10.52",
+        "8.37.56",
+        "8.40.54"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to hide the cast, history, notification, and search buttons.",
+    "id": "75ffc4b7185a9d384b2feb97:142",
+    "metadata_status": "unverified",
+    "name": "Hide buttons",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "7.29.52",
+          "8.10.52",
+          "8.37.56",
+          "8.40.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "7.29.52",
+        "8.10.52",
+        "8.37.56",
+        "8.40.54"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to hide the category bar at the top of the homepage.",
+    "id": "75ffc4b7185a9d384b2feb97:143",
+    "metadata_status": "unverified",
+    "name": "Hide category bar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "7.29.52",
+          "8.10.52",
+          "8.37.56",
+          "8.40.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.strava": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hides elements that are not essential.",
+    "id": "75ffc4b7185a9d384b2feb97:144",
+    "metadata_status": "unverified",
+    "name": "Hide distractions",
+    "options": [
+      {
+        "default": true,
+        "description": "Elements that suggest you subscribe.",
+        "name": "Upselling",
+        "required": true,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Elements that promote features, challenges, clubs, etc.",
+        "name": "Promotions",
+        "required": true,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Popular athletes, followers, people near you etc.",
+        "name": "Who to Follow",
+        "required": true,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Random challenges Strava wants you to join.",
+        "name": "Suggested Challenges",
+        "required": true,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Challenges your follows have joined.",
+        "name": "Join Challenge",
+        "required": true,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Clubs your follows have joined.",
+        "name": "Joined a club",
+        "required": true,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Your activity from X years ago",
+        "name": "Activity lookback",
+        "required": true,
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.strava",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to hide suggested video cards at the end of videos.",
+    "id": "75ffc4b7185a9d384b2feb97:145",
+    "metadata_status": "unverified",
+    "name": "Hide end screen cards",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to hide the suggested video at the end of videos.",
+    "id": "75ffc4b7185a9d384b2feb97:146",
+    "metadata_status": "unverified",
+    "name": "Hide end screen suggested video",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "Hides posts and reels from the explore/search page.",
+    "id": "75ffc4b7185a9d384b2feb97:147",
+    "metadata_status": "unverified",
+    "name": "Hide explore feed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.facebook.orca": null
+    },
+    "dependencies": [],
+    "description": "Hides the Facebook button in the top toolbar.",
+    "id": "75ffc4b7185a9d384b2feb97:148",
+    "metadata_status": "unverified",
+    "name": "Hide Facebook button",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.orca",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "Hides the highlights tray in profile section.",
+    "id": "75ffc4b7185a9d384b2feb97:149",
+    "metadata_status": "unverified",
+    "name": "Hide highlights tray",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.facebook.orca": null
+    },
+    "dependencies": [],
+    "description": "Hides ads in inbox.",
+    "id": "75ffc4b7185a9d384b2feb97:150",
+    "metadata_status": "unverified",
+    "name": "Hide inbox ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.orca",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.facebook.orca": null
+    },
+    "dependencies": [],
+    "description": "Hides Home and Channels tabs between active now tray and chats.",
+    "id": "75ffc4b7185a9d384b2feb97:151",
+    "metadata_status": "unverified",
+    "name": "Hide inbox subtabs",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.orca",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to hide info cards that creators add in the video player.",
+    "id": "75ffc4b7185a9d384b2feb97:152",
+    "metadata_status": "unverified",
+    "name": "Hide info cards",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "7.29.52",
+        "8.10.52",
+        "8.37.56",
+        "8.40.54"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to hide general layout components.",
+    "id": "75ffc4b7185a9d384b2feb97:153",
+    "metadata_status": "unverified",
+    "name": "Hide layout components",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "7.29.52",
+          "8.10.52",
+          "8.37.56",
+          "8.40.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to hide general layout components.",
+    "id": "75ffc4b7185a9d384b2feb97:154",
+    "metadata_status": "unverified",
+    "name": "Hide layout components",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": null,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Prevents the app from knowing the device location is being mocked by a third party app.",
+    "id": "75ffc4b7185a9d384b2feb97:155",
+    "metadata_status": "unverified",
+    "name": "Hide mock location",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "7.29.52",
+        "8.10.52",
+        "8.37.56",
+        "8.40.54"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to hide ads that appear while listening to or streaming music videos, podcasts, or songs.",
+    "id": "75ffc4b7185a9d384b2feb97:156",
+    "metadata_status": "unverified",
+    "name": "Hide music video ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "7.29.52",
+          "8.10.52",
+          "8.37.56",
+          "8.40.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.instagram.android": [
+        "401.0.0.48.79"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hides navigation bar buttons, such as the Reels and Create button.",
+    "id": "75ffc4b7185a9d384b2feb97:157",
+    "metadata_status": "unverified",
+    "name": "Hide navigation buttons",
+    "options": [
+      {
+        "default": false,
+        "description": "Permanently hides the Home button. App starts at next available tab.",
+        "name": "Hide Home",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Permanently hides the Reels button.",
+        "name": "Hide Reels",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Permanently hides the Direct button.",
+        "name": "Hide Direct",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Permanently hides the Search button.",
+        "name": "Hide Search",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Permanently hides the Profile button.",
+        "name": "Hide Profile",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Permanently hides the Create button.",
+        "name": "Hide Create",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": [
+          "401.0.0.48.79"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.viber.voip": null
+    },
+    "dependencies": [],
+    "description": "Permanently hides navigation bar buttons, such as Explore and Marketplace.",
+    "id": "75ffc4b7185a9d384b2feb97:158",
+    "metadata_status": "unverified",
+    "name": "Hide navigation buttons",
+    "options": [
+      {
+        "default": false,
+        "description": "Permanently hides the Chats button.",
+        "name": "Hide Chats",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Permanently hides the Calls button.",
+        "name": "Hide Calls",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Permanently hides the Explore button.",
+        "name": "Hide Explore",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Permanently hides the More button.",
+        "name": "Hide More",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Permanently hides the Pay button.",
+        "name": "Hide Pay",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Permanently hides the Camera button.",
+        "name": "Hide Camera",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Permanently hides the Marketplace button.",
+        "name": "Hide Marketplace",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.viber.voip",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "de.stocard.stocard": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:159",
+    "metadata_status": "unverified",
+    "name": "Hide offers tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "de.stocard.stocard",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.microsoft.office.officelens": null
+    },
+    "dependencies": [],
+    "description": "Hides the OneDrive migration prompt when opening Microsoft Office Lens.",
+    "id": "75ffc4b7185a9d384b2feb97:160",
+    "metadata_status": "unverified",
+    "name": "Hide OneDrive migration",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.microsoft.office.officelens",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to hide menu items that appear when pressing the gear icon in the video player.",
+    "id": "75ffc4b7185a9d384b2feb97:161",
+    "metadata_status": "unverified",
+    "name": "Hide player flyout menu items",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to hide the player Cast, Autoplay, Captions, Previous & Next buttons, and the player control buttons background.",
+    "id": "75ffc4b7185a9d384b2feb97:162",
+    "metadata_status": "unverified",
+    "name": "Hide player overlay buttons",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "de.gmx.mobile.android.mail": null
+    },
+    "dependencies": [],
+    "description": "Hides the Premium upgrade button in the navigation drawer.",
+    "id": "75ffc4b7185a9d384b2feb97:163",
+    "metadata_status": "unverified",
+    "name": "Hide Premium upgrade button",
+    "options": [],
+    "packages": [
+      {
+        "name": "de.gmx.mobile.android.mail",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.ebay.kleinanzeigen": null
+    },
+    "dependencies": [],
+    "description": "Hides Pur (Ad Free Subscription) from Settings Menu.",
+    "id": "75ffc4b7185a9d384b2feb97:164",
+    "metadata_status": "unverified",
+    "name": "Hide Pur",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ebay.kleinanzeigen",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.rarlab.rar": null
+    },
+    "dependencies": [],
+    "description": "Hides the popup that reminds you to purchase the app.",
+    "id": "75ffc4b7185a9d384b2feb97:165",
+    "metadata_status": "unverified",
+    "name": "Hide purchase reminder",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.rarlab.rar",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.twitter.android": [
+        "10.60.0-release.0",
+        "10.86.0-release.0"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:166",
+    "metadata_status": "unverified",
+    "name": "Hide recommended users",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": [
+          "10.60.0-release.0",
+          "10.86.0-release.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to hide the related video overlay shown when swiping up in fullscreen.",
+    "id": "75ffc4b7185a9d384b2feb97:167",
+    "metadata_status": "unverified",
+    "name": "Hide related video overlay",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to hide components related to Shorts. Patching version 20.21.37 or lower can hide more Shorts player button types.",
+    "id": "75ffc4b7185a9d384b2feb97:168",
+    "metadata_status": "unverified",
+    "name": "Hide Shorts components",
+    "options": [
+      {
+        "default": false,
+        "description": "Permanently hides the shortcut to open Shorts when long pressing the app icon in your launcher.",
+        "name": "Hide Shorts app shortcut",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Permanently hides the launcher widget Shorts button.",
+        "name": "Hide Shorts widget",
+        "required": false,
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "Hides Stories from the main page, by removing the buttons.",
+    "id": "75ffc4b7185a9d384b2feb97:169",
+    "metadata_status": "unverified",
+    "name": "Hide Stories from Home",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.facebook.katana": null
+    },
+    "dependencies": [],
+    "description": "Hides the ads in the Facebook app stories.",
+    "id": "75ffc4b7185a9d384b2feb97:170",
+    "metadata_status": "unverified",
+    "name": "Hide story ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.facebook.katana",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "de.stocard.stocard": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:171",
+    "metadata_status": "unverified",
+    "name": "Hide story bubbles",
+    "options": [],
+    "packages": [
+      {
+        "name": "de.stocard.stocard",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "Hides suggested stories, reels, threads and survey from feed (Suggested posts will still be shown).",
+    "id": "75ffc4b7185a9d384b2feb97:172",
+    "metadata_status": "unverified",
+    "name": "Hide suggested content",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to hide the timestamp in the bottom left of the video player.",
+    "id": "75ffc4b7185a9d384b2feb97:173",
+    "metadata_status": "unverified",
+    "name": "Hide timestamp",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.microblink.photomath": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Prevents the update popup from showing up.",
+    "id": "75ffc4b7185a9d384b2feb97:174",
+    "metadata_status": "unverified",
+    "name": "Hide update popup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.microblink.photomath",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to hide action buttons (such as the Download button) under videos. Patching version 20.21.37 or lower can hide more player button types.",
+    "id": "75ffc4b7185a9d384b2feb97:175",
+    "metadata_status": "unverified",
+    "name": "Hide video action buttons",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.twitter.android": null
+    },
+    "dependencies": [],
+    "description": "Hides the view count of Posts.",
+    "id": "75ffc4b7185a9d384b2feb97:176",
+    "metadata_status": "unverified",
+    "name": "Hide view count",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.twitter.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Filters the home feed to display only content from profiles you follow.",
+    "id": "75ffc4b7185a9d384b2feb97:177",
+    "metadata_status": "unverified",
+    "name": "Limit feed to followed profiles",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to loop videos and display loop video button in the video player.",
+    "id": "75ffc4b7185a9d384b2feb97:178",
+    "metadata_status": "unverified",
+    "name": "Loop video",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to change the in-app minimized player.",
+    "id": "75ffc4b7185a9d384b2feb97:179",
+    "metadata_status": "unverified",
+    "name": "Miniplayer",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "7.29.52",
+        "8.10.52",
+        "8.37.56",
+        "8.40.54"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to hide navigation bar, labels and buttons.",
+    "id": "75ffc4b7185a9d384b2feb97:180",
+    "metadata_status": "unverified",
+    "name": "Navigation bar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "7.29.52",
+          "8.10.52",
+          "8.37.56",
+          "8.40.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to hide and change the bottom navigation bar (such as the Shorts button)  and the upper navigation toolbar. Patching version 20.21.37 and lower also adds a setting to use a wide searchbar.",
+    "id": "75ffc4b7185a9d384b2feb97:181",
+    "metadata_status": "unverified",
+    "name": "Navigation bar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Changes links to always open in your external browser, instead of the in-app browser.",
+    "id": "75ffc4b7185a9d384b2feb97:182",
+    "metadata_status": "unverified",
+    "name": "Open links externally",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds an option to always open links in your browser instead of the in-app browser.",
+    "id": "75ffc4b7185a9d384b2feb97:183",
+    "metadata_status": "unverified",
+    "name": "Open links externally",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds options to open Shorts in the regular video player.",
+    "id": "75ffc4b7185a9d384b2feb97:184",
+    "metadata_status": "unverified",
+    "name": "Open Shorts in regular player",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "19.47.53",
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to open videos in full screen portrait mode.",
+    "id": "75ffc4b7185a9d384b2feb97:185",
+    "metadata_status": "unverified",
+    "name": "Open videos fullscreen",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "19.47.53",
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": null,
+    "dependencies": [
+      "Enable Android debugging"
+    ],
+    "description": "Overrides certificate pinning, allowing to inspect traffic via a proxy.",
+    "id": "75ffc4b7185a9d384b2feb97:186",
+    "metadata_status": "unverified",
+    "name": "Override certificate pinning",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.strava": null
+    },
+    "dependencies": [],
+    "description": "Overwrites the compression, resize and trim media (images and videos) parameters returned by Strava's server before upload.",
+    "id": "75ffc4b7185a9d384b2feb97:187",
+    "metadata_status": "unverified",
+    "name": "Overwrite media upload parameters",
+    "options": [
+      {
+        "default": null,
+        "description": "This is used as the JPEG quality setting (≤ 100).",
+        "name": "Compression quality (percent)",
+        "required": false,
+        "type": "kotlin.Int",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The maximum length (≤ 3600) of a video before it gets trimmed.",
+        "name": "maxDuration",
+        "required": false,
+        "type": "kotlin.Long",
+        "values": null
+      },
+      {
+        "default": null,
+        "description": "The image gets resized so that the smaller dimension (width/height) does not exceed this value (≤ 10000).",
+        "name": "Max size (pixels)",
+        "required": false,
+        "type": "kotlin.Int",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "com.strava",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to pause playback instead of lowering volume when other audio plays.",
+    "id": "75ffc4b7185a9d384b2feb97:188",
+    "metadata_status": "unverified",
+    "name": "Pause on audio interrupt",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "7.29.52",
+        "8.10.52",
+        "8.37.56",
+        "8.40.54"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Adds an option to always repeat even if the playlist ends or another track is played.",
+    "id": "75ffc4b7185a9d384b2feb97:189",
+    "metadata_status": "unverified",
+    "name": "Permanent repeat",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "7.29.52",
+          "8.10.52",
+          "8.37.56",
+          "8.40.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.amazon.avod.thirdpartyclient": [
+        "3.0.412.2947"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds playback speed controls to the video player.",
+    "id": "75ffc4b7185a9d384b2feb97:190",
+    "metadata_status": "unverified",
+    "name": "Playback speed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.amazon.avod.thirdpartyclient",
+        "versions": [
+          "3.0.412.2947"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.ss.android.ugc.trill": [
+        "36.5.4"
+      ],
+      "com.zhiliaoapp.musically": [
+        "36.5.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Enables the playback speed option for all videos and retains the speed configurations in between videos.",
+    "id": "75ffc4b7185a9d384b2feb97:191",
+    "metadata_status": "unverified",
+    "name": "Playback speed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ss.android.ugc.trill",
+        "versions": [
+          "36.5.4"
+        ]
+      },
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "36.5.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds options to customize available playback speeds, set a default playback speed, and show a speed dialog button in the video player.",
+    "id": "75ffc4b7185a9d384b2feb97:192",
+    "metadata_status": "unverified",
+    "name": "Playback speed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": null,
+    "dependencies": [],
+    "description": "Enables the predictive back gesture introduced on Android 13.",
+    "id": "75ffc4b7185a9d384b2feb97:193",
+    "metadata_status": "unverified",
+    "name": "Predictive back gesture",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": null,
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Removes the registration of all screen capture callbacks. This prevents the app from detecting screenshots.",
+    "id": "75ffc4b7185a9d384b2feb97:194",
+    "metadata_status": "unverified",
+    "name": "Prevent screenshot detection",
+    "options": [],
+    "packages": [],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": false
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "de.dwd.warnapp": [
+        "4.2.2"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Disables the validation of promo code. Any code will work to unlock all features.",
+    "id": "75ffc4b7185a9d384b2feb97:195",
+    "metadata_status": "unverified",
+    "name": "Promo code unlock",
+    "options": [],
+    "packages": [
+      {
+        "name": "de.dwd.warnapp",
+        "versions": [
+          "4.2.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.ss.android.ugc.trill": [
+        "36.5.4"
+      ],
+      "com.zhiliaoapp.musically": [
+        "36.5.4"
+      ]
+    },
+    "dependencies": [],
+    "description": "Remembers the clear display configurations in between videos.",
+    "id": "75ffc4b7185a9d384b2feb97:196",
+    "metadata_status": "unverified",
+    "name": "Remember clear display",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.ss.android.ugc.trill",
+        "versions": [
+          "36.5.4"
+        ]
+      },
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "36.5.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "ch.protonmail.android": [
+        "4.15.0"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes the 'Sent from Proton Mail mobile' signature from emails.",
+    "id": "75ffc4b7185a9d384b2feb97:197",
+    "metadata_status": "unverified",
+    "name": "Remove 'Sent from' signature",
+    "options": [],
+    "packages": [
+      {
+        "name": "ch.protonmail.android",
+        "versions": [
+          "4.15.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.sbs.ondemand.tv": null
+    },
+    "dependencies": [
+      "Disable Pairip license check"
+    ],
+    "description": "Removes pre-roll, pause and on-demand advertisements from SBS On Demand TV.",
+    "id": "75ffc4b7185a9d384b2feb97:198",
+    "metadata_status": "unverified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.sbs.ondemand.tv",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "net.binarymode.android.irplus": null
+    },
+    "dependencies": [],
+    "description": null,
+    "id": "75ffc4b7185a9d384b2feb97:199",
+    "metadata_status": "unverified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "net.binarymode.android.irplus",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.apps.youtube.music": [
+        "7.29.52",
+        "8.10.52",
+        "8.37.56",
+        "8.40.54"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Removes restrictions on background playback, including playing kids videos in the background.",
+    "id": "75ffc4b7185a9d384b2feb97:200",
+    "metadata_status": "unverified",
+    "name": "Remove background playback restrictions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "versions": [
+          "7.29.52",
+          "8.10.52",
+          "8.37.56",
+          "8.40.54"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.youtube": [
+        "20.14.43",
+        "20.21.37",
+        "20.26.46",
+        "20.31.42",
+        "20.37.48",
+        "20.40.45"
+      ]
+    },
+    "dependencies": [
+      "ResourcePatch",
+      "ResourcePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "ResourcePatch"
+    ],
+    "description": "Removes restrictions on background playback, including playing kids videos in the background.",
+    "id": "75ffc4b7185a9d384b2feb97:201",
+    "metadata_status": "unverified",
+    "name": "Remove background playback restrictions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.youtube",
+        "versions": [
+          "20.14.43",
+          "20.21.37",
+          "20.26.46",
+          "20.31.42",
+          "20.37.48",
+          "20.40.45"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.sony.songpal.mdr": null
+    },
+    "dependencies": [],
+    "description": "Removes the badge tab from the activity tab.",
+    "id": "75ffc4b7185a9d384b2feb97:202",
+    "metadata_status": "unverified",
+    "name": "Remove badge tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.sony.songpal.mdr",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "at.gv.bmf.bmf2go": null
+    },
+    "dependencies": [],
+    "description": "Removes the check for an unlocked bootloader.",
+    "id": "75ffc4b7185a9d384b2feb97:203",
+    "metadata_status": "unverified",
+    "name": "Remove bootloader detection",
+    "options": [],
+    "packages": [
+      {
+        "name": "at.gv.bmf.bmf2go",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "eu.faircode.netguard": null
+    },
+    "dependencies": [],
+    "description": "Enables starting/stopping NetGuard via broadcasts.",
+    "id": "75ffc4b7185a9d384b2feb97:204",
+    "metadata_status": "unverified",
+    "name": "Remove broadcasts restriction",
+    "options": [],
+    "packages": [
+      {
+        "name": "eu.faircode.netguard",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.instagram.android": null
+    },
+    "dependencies": [],
+    "description": "Removes the popup that appears after a while, when the app version ages.",
+    "id": "75ffc4b7185a9d384b2feb97:205",
+    "metadata_status": "unverified",
+    "name": "Remove build expired popup",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.instagram.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "ch.protonvpn.android": null
+    },
+    "dependencies": [],
+    "description": "Removes the delay when changing servers.",
+    "id": "75ffc4b7185a9d384b2feb97:206",
+    "metadata_status": "unverified",
+    "name": "Remove delay",
+    "options": [],
+    "packages": [
+      {
+        "name": "ch.protonvpn.android",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "at.gv.oe.app": null
+    },
+    "dependencies": [],
+    "description": "Removes the check for root permissions and unlocked bootloader.",
+    "id": "75ffc4b7185a9d384b2feb97:207",
+    "metadata_status": "unverified",
+    "name": "Remove device integrity checks",
+    "options": [],
+    "packages": [
+      {
+        "name": "at.gv.oe.app",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  },
+  {
+    "bundle_id": "75ffc4b7185a9d384b2feb97",
+    "compatiblePackages": {
+      "com.google.android.apps.recorder": null
+    },
+    "dependencies": [],
+    "description": "Removes restrictions from using the app on any device. Requires mounting patched app over original.",
+    "id": "75ffc4b7185a9d384b2feb97:208",
+    "metadata_status": "unverified",
+    "name": "Remove device restrictions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.google.android.apps.recorder",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v6.1.1-dev.3",
+    "source_id": "1ed4b3ed2b4353e6",
+    "use": true
+  }
+]

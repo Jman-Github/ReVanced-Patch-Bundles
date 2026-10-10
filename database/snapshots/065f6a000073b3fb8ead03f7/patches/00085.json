@@ -1,0 +1,4182 @@
+[
+  {
+    "bundle_id": "af9b7ed077991764ed3a59cc",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#1ED760",
+        "name": "Spotify",
+        "packageName": "com.spotify.music",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the \"Premium\" tab from the bottom navigation bar.",
+    "id": "af9b7ed077991764ed3a59cc:9",
+    "metadata_status": "unverified",
+    "name": "Hide Premium tab",
+    "options": [],
+    "packages": [
+      {
+        "name": "Spotify",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "85a9a87cb8db1abd"
+  },
+  {
+    "bundle_id": "af9b7ed077991764ed3a59cc",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "name": "Kleinanzeigen",
+        "packageName": "com.ebay.kleinanzeigen",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides the offers of the ad free subscription \"Kleinanzeigen Pur\".",
+    "id": "af9b7ed077991764ed3a59cc:10",
+    "metadata_status": "unverified",
+    "name": "Hide Pur",
+    "options": [],
+    "packages": [
+      {
+        "name": "Kleinanzeigen",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "85a9a87cb8db1abd"
+  },
+  {
+    "bundle_id": "af9b7ed077991764ed3a59cc",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "name": "Untappd",
+        "packageName": "com.untappdllc.app",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes sponsored beers, venues and posts from all lists.",
+    "id": "af9b7ed077991764ed3a59cc:11",
+    "metadata_status": "unverified",
+    "name": "Hide sponsored content",
+    "options": [],
+    "packages": [
+      {
+        "name": "Untappd",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "85a9a87cb8db1abd"
+  },
+  {
+    "bundle_id": "af9b7ed077991764ed3a59cc",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#1ED760",
+        "name": "Spotify",
+        "packageName": "com.spotify.music",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables the video ad plugin of the now playing view.",
+    "id": "af9b7ed077991764ed3a59cc:12",
+    "metadata_status": "unverified",
+    "name": "Hide video ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Spotify",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "85a9a87cb8db1abd"
+  },
+  {
+    "bundle_id": "af9b7ed077991764ed3a59cc",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#1ED760",
+        "name": "Spotify",
+        "packageName": "com.spotify.music",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Mutes the music stream while an audio ad plays and restores the volume afterwards. Enabling \"Device broadcast status\" in the Spotify settings improves the ad detection.",
+    "id": "af9b7ed077991764ed3a59cc:13",
+    "metadata_status": "unverified",
+    "name": "Mute audio ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Spotify",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "85a9a87cb8db1abd"
+  },
+  {
+    "bundle_id": "af9b7ed077991764ed3a59cc",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "name": "Kleinanzeigen",
+        "packageName": "com.ebay.kleinanzeigen",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the tracking parameters (utm_*) from shared listing and profile links.",
+    "id": "af9b7ed077991764ed3a59cc:14",
+    "metadata_status": "unverified",
+    "name": "Sanitize sharing links",
+    "options": [],
+    "packages": [
+      {
+        "name": "Kleinanzeigen",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "85a9a87cb8db1abd"
+  },
+  {
+    "bundle_id": "af9b7ed077991764ed3a59cc",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "appIconColor": "#1ED760",
+        "name": "Spotify",
+        "packageName": "com.spotify.music",
+        "targets": [
+          {
+            "isExperimental": false
+          }
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the tracking parameters (si, utm_source) from shared and copied links.",
+    "id": "af9b7ed077991764ed3a59cc:15",
+    "metadata_status": "unverified",
+    "name": "Sanitize sharing links",
+    "options": [],
+    "packages": [
+      {
+        "name": "Spotify",
+        "versions": []
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "85a9a87cb8db1abd"
+  },
+  {
+    "bundle_id": "b0b8324dc7664065b3edee6d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#F47521",
+        "name": "Crunchyroll",
+        "packageName": "com.crunchyroll.crunchyroid",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.117.0"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "3.117.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Adds 1.25x, 1.5x, 1.75x, and 2.0x playback speed options.",
+    "id": "b0b8324dc7664065b3edee6d:0",
+    "metadata_status": "unverified",
+    "name": "Add fast playback speeds",
+    "options": [],
+    "packages": [
+      {
+        "name": "Crunchyroll",
+        "versions": [
+          "3.117.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.9",
+    "source_id": "b638af1571f68d63"
+  },
+  {
+    "bundle_id": "b0b8324dc7664065b3edee6d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#F47521",
+        "name": "Crunchyroll",
+        "packageName": "com.crunchyroll.crunchyroid",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.117.0"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "3.117.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Adds a Fit/Stretch toggle to the player.",
+    "id": "b0b8324dc7664065b3edee6d:1",
+    "metadata_status": "unverified",
+    "name": "Aspect ratio control",
+    "options": [],
+    "packages": [
+      {
+        "name": "Crunchyroll",
+        "versions": [
+          "3.117.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.9",
+    "source_id": "b638af1571f68d63"
+  },
+  {
+    "bundle_id": "b0b8324dc7664065b3edee6d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#F47521",
+        "name": "Crunchyroll",
+        "packageName": "com.crunchyroll.crunchyroid",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.117.0"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "3.117.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Enables playback speed options (0.5x-2.0x) in the video player.",
+    "id": "b0b8324dc7664065b3edee6d:2",
+    "metadata_status": "unverified",
+    "name": "Enable speed control",
+    "options": [],
+    "packages": [
+      {
+        "name": "Crunchyroll",
+        "versions": [
+          "3.117.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.9",
+    "source_id": "b638af1571f68d63"
+  },
+  {
+    "bundle_id": "b0b8324dc7664065b3edee6d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#2C0B4E",
+        "name": "HBO Max",
+        "packageName": "com.wbd.stream",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.9.0.84"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "7.9.0.84"
+        ]
+      },
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0C204A",
+        "name": "Disney+",
+        "packageName": "com.disney.disneyplus",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.14.1+rc2-2026.08.20"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "26.14.1+rc2-2026.08.20"
+        ]
+      },
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0C9CFF",
+        "name": "Viki",
+        "packageName": "com.viki.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.5.0"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "26.5.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Adds a floating panel to change playback speed and stretch, crop or zoom the picture.",
+    "id": "b0b8324dc7664065b3edee6d:3",
+    "metadata_status": "unverified",
+    "name": "Playback speed and aspect ratio",
+    "options": [],
+    "packages": [
+      {
+        "name": "HBO Max",
+        "versions": [
+          "7.9.0.84"
+        ]
+      },
+      {
+        "name": "Disney+",
+        "versions": [
+          "26.14.1+rc2-2026.08.20"
+        ]
+      },
+      {
+        "name": "Viki",
+        "versions": [
+          "26.5.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.9",
+    "source_id": "b638af1571f68d63"
+  },
+  {
+    "bundle_id": "b0b8324dc7664065b3edee6d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0C9CFF",
+        "name": "Viki",
+        "packageName": "com.viki.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.5.0"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "26.5.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes pre-roll and mid-roll video ads, and the display banners.",
+    "id": "b0b8324dc7664065b3edee6d:4",
+    "metadata_status": "unverified",
+    "name": "Remove ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Viki",
+        "versions": [
+          "26.5.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.9",
+    "source_id": "b638af1571f68d63"
+  },
+  {
+    "bundle_id": "b0b8324dc7664065b3edee6d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#F47521",
+        "name": "Crunchyroll",
+        "packageName": "com.crunchyroll.crunchyroid",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.117.0"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "3.117.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Adds subtitle size, font and outline controls to the player.",
+    "id": "b0b8324dc7664065b3edee6d:5",
+    "metadata_status": "unverified",
+    "name": "Subtitle styling",
+    "options": [],
+    "packages": [
+      {
+        "name": "Crunchyroll",
+        "versions": [
+          "3.117.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.9",
+    "source_id": "b638af1571f68d63"
+  },
+  {
+    "bundle_id": "b0b8324dc7664065b3edee6d",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#0C9CFF",
+        "name": "Viki",
+        "packageName": "com.viki.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "26.5.0"
+          },
+          {
+            "isExperimental": true
+          }
+        ],
+        "versions": [
+          "26.5.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides the comments panel beside the player on tablets and unfolded foldables.",
+    "id": "b0b8324dc7664065b3edee6d:6",
+    "metadata_status": "unverified",
+    "name": "Use the whole screen for video",
+    "options": [],
+    "packages": [
+      {
+        "name": "Viki",
+        "versions": [
+          "26.5.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.1.0-dev.9",
+    "source_id": "b638af1571f68d63"
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Always shows the publish date in video author information. Thanks to lyyako for the original implementation.",
+    "id": "b111a28148575b8f8f774a2c:0",
+    "metadata_status": "unverified",
+    "name": "Always show publish date",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Copies only the comment text without including the creator's username.",
+    "id": "b111a28148575b8f8f774a2c:1",
+    "metadata_status": "unverified",
+    "name": "Copy comments without username",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Adds a custom entry to TikTok's offline videos menu with a configurable limit of up to 500 videos.",
+    "id": "b111a28148575b8f8f774a2c:2",
+    "metadata_status": "unverified",
+    "name": "Custom offline videos limit",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds optional Morphe diagnostic logging, filtered reports, and local Java crash capture.",
+    "id": "b111a28148575b8f8f774a2c:3",
+    "metadata_status": "unverified",
+    "name": "Diagnostic tools",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": false
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Removes TikTok's mandatory login gate from supported flows.",
+    "id": "b111a28148575b8f8f774a2c:4",
+    "metadata_status": "unverified",
+    "name": "Disable login requirement",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Keeps long-pressing Share from opening TikTok's quick-share interaction.",
+    "id": "b111a28148575b8f8f774a2c:5",
+    "metadata_status": "unverified",
+    "name": "Disable long-press quick share",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Prevents TikTok from reacting to screenshots and screen recordings.",
+    "id": "b111a28148575b8f8f774a2c:6",
+    "metadata_status": "unverified",
+    "name": "Disable screen capture detection",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Adds a Miscellaneous toggle that disables ByteDance AppLog analytics, AppsFlyer attribution tracking, BDLocation background uploads, Firebase Analytics, and crash reporting. Off by default.",
+    "id": "b111a28148575b8f8f774a2c:7",
+    "metadata_status": "unverified",
+    "name": "Disable telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds watermark-free downloads, comment sticker saving, configurable folders, and filename templates.",
+    "id": "b111a28148575b8f8f774a2c:8",
+    "metadata_status": "unverified",
+    "name": "Downloads",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Shows TikTok's search entry in the Live drawer where supported.",
+    "id": "b111a28148575b8f8f774a2c:9",
+    "metadata_status": "unverified",
+    "name": "Enable Live search",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Uses TikTok's non-personalized search mode instead of its saved account choice.",
+    "id": "b111a28148575b8f8f774a2c:10",
+    "metadata_status": "unverified",
+    "name": "Enable non-personalized search",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds a menu for viewing and overriding supported TikTok feature flags and configuration values.",
+    "id": "b111a28148575b8f8f774a2c:11",
+    "metadata_status": "unverified",
+    "name": "Feature Gate Lab",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hides feed ads, TikTok Shop items, livestreams, stories, photo posts, the playlist bar, the floating event badge, AI-generated posts, paid partnership and promotional content, friend recommendations, posts from verified accounts, and videos outside configured view or like ranges.",
+    "id": "b111a28148575b8f8f774a2c:12",
+    "metadata_status": "unverified",
+    "name": "Feed filter",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Controls which loaded top and bottom navigation tabs remain visible, blocks newly added tabs when requested, and can hide the Tako AI bubble.",
+    "id": "b111a28148575b8f8f774a2c:13",
+    "metadata_status": "unverified",
+    "name": "Feed tab navigation",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Restores Google account sign-in after patching.",
+    "id": "b111a28148575b8f8f774a2c:14",
+    "metadata_status": "unverified",
+    "name": "Fix Google login",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds a default-off setting to hide browsing and LIVE puzzle dialogs while preserving login and account verification.",
+    "id": "b111a28148575b8f8f774a2c:15",
+    "metadata_status": "unverified",
+    "name": "Hide CAPTCHA popups",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Hides TikTok's exposed quick emoji row in supported comment inputs.",
+    "id": "b111a28148575b8f8f774a2c:16",
+    "metadata_status": "unverified",
+    "name": "Hide quick comment reactions",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Enables TikTok's native hold, slide down, and release gesture to lock 2x speed.",
+    "id": "b111a28148575b8f8f774a2c:17",
+    "metadata_status": "unverified",
+    "name": "Hold-and-slide 2x lock",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Opens profile and story website links in the system browser instead of TikTok's in-app browser. Thanks to lyyako for the original implementation.",
+    "id": "b111a28148575b8f8f774a2c:18",
+    "metadata_status": "unverified",
+    "name": "Open external links directly",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Enables playback-speed controls for all videos and remembers the selected speed between videos.",
+    "id": "b111a28148575b8f8f774a2c:19",
+    "metadata_status": "unverified",
+    "name": "Playback speed",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [],
+    "description": "Remembers TikTok's clear-display state between videos.",
+    "id": "b111a28148575b8f8f774a2c:20",
+    "metadata_status": "unverified",
+    "name": "Remember clear display",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Continues supported videos from where playback stopped when returning after a scroll.",
+    "id": "b111a28148575b8f8f774a2c:21",
+    "metadata_status": "unverified",
+    "name": "Resume videos after scrolling",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Removes tracking parameters from TikTok links before they are shared.",
+    "id": "b111a28148575b8f8f774a2c:22",
+    "metadata_status": "unverified",
+    "name": "Sanitize sharing links",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds the Morphe patches settings menu to TikTok.",
+    "id": "b111a28148575b8f8f774a2c:23",
+    "metadata_status": "unverified",
+    "name": "Settings",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Shows TikTok's native video seekbar where it would normally be hidden.",
+    "id": "b111a28148575b8f8f774a2c:24",
+    "metadata_status": "unverified",
+    "name": "Show seekbar",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Shows TikTok's video preview thumbnail while dragging the seekbar.",
+    "id": "b111a28148575b8f8f774a2c:25",
+    "metadata_status": "unverified",
+    "name": "Show seekbar thumbnail",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Spoofs SIM country and operator information retrieved by TikTok, with country presets for easier setup.",
+    "id": "b111a28148575b8f8f774a2c:26",
+    "metadata_status": "unverified",
+    "name": "SIM spoof",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Stops videos at the end instead of replaying them.",
+    "id": "b111a28148575b8f8f774a2c:27",
+    "metadata_status": "unverified",
+    "name": "Stop video looping",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b111a28148575b8f8f774a2c",
+    "compatibility": [
+      {
+        "appIconColor": 16657493,
+        "description": null,
+        "name": "TikTok",
+        "packageName": "com.zhiliaoapp.musically",
+        "targets": [
+          {
+            "experimental": false,
+            "version": "46.2.3"
+          }
+        ]
+      }
+    ],
+    "compatiblePackages": {
+      "com.zhiliaoapp.musically": [
+        "46.2.3"
+      ]
+    },
+    "dependencies": [
+      "BytecodePatch"
+    ],
+    "description": "Adds comment translation controls using TikTok's translation system, with selectable language exclusions.",
+    "id": "b111a28148575b8f8f774a2c:28",
+    "metadata_status": "unverified",
+    "name": "Translate comments",
+    "options": [],
+    "packages": [
+      {
+        "name": "com.zhiliaoapp.musically",
+        "versions": [
+          "46.2.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v0.10.0-dev.1",
+    "source_id": "6a193c3149a2fd5a",
+    "use": true
+  },
+  {
+    "bundle_id": "b1be313c4bb535887d86b18c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1565C0",
+        "name": "Devices Tycoon",
+        "packageName": "com.roasterygames.devicestycoon",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.0.1"
+          }
+        ],
+        "versions": [
+          "4.0.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Instantly completes all IAP purchases (remove ads, research coins, budget) on tap and disables all ads in Devices Tycoon.",
+    "id": "b1be313c4bb535887d86b18c:0",
+    "metadata_status": "unverified",
+    "name": "Devices Tycoon Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Devices Tycoon",
+        "versions": [
+          "4.0.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.3.3",
+    "source_id": "e69b98fc4184b223"
+  },
+  {
+    "bundle_id": "b1d395fa79baa5855656a759",
+    "category": null,
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK_REQUIRED",
+        "appIconColor": "#FF0000",
+        "name": "YouTube Music",
+        "packageName": "com.google.android.apps.youtube.music",
+        "signatures": [
+          "6a2f65ec694a6a632acdcb5080912a565f903d4b8d83f0eb8e44fbdf2660d8e1",
+          "a2a1ad7ba7f41dfca4514e2afeb90691719af6d0fdbed4b09bbf0ed897701ceb"
+        ],
+        "targets": [
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.38.51"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.37.54"
+          },
+          {
+            "isExperimental": true,
+            "minSdk": 26,
+            "version": "9.36.50"
+          },
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "9.15.51"
+          }
+        ],
+        "versions": [
+          "9.38.51",
+          "9.37.54",
+          "9.36.50",
+          "9.15.51"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Plays only the tapped track of a playlist or album, or adds it to the queue, instead of replacing the queue with the whole playlist.",
+    "id": "b1d395fa79baa5855656a759:0",
+    "metadata_status": "unverified",
+    "name": "Playlist track tap action",
+    "options": [
+      {
+        "default": "PLAY_SINGLE_TRACK",
+        "description": "What tapping a track inside a playlist or album does.",
+        "key": "tapAction",
+        "required": true,
+        "title": "Tap action",
+        "type": "kotlin.String",
+        "values": {
+          "Add the selected track to the queue": "ADD_TO_QUEUE",
+          "Play only the selected track": "PLAY_SINGLE_TRACK"
+        }
+      }
+    ],
+    "packages": [
+      {
+        "name": "YouTube Music",
+        "versions": [
+          "9.38.51",
+          "9.37.54",
+          "9.36.50",
+          "9.15.51"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.0.0",
+    "source_id": "f8d0e01e4ca9cda6"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0077FF",
+        "name": "RuStore",
+        "packageName": "ru.vk.store",
+        "signatures": [
+          "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.108.0.2",
+            "versionCodes": {
+              "ARM64_V8A": 1108002,
+              "ARMEABI_V7A": 1108002,
+              "X86": 1108002,
+              "X86_64": 1108002
+            }
+          }
+        ],
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Removes advertisements and search recommendations, clears advertising identifiers, keeps advertising consent disabled, and removes the unsolicited VK ID prompt, with options for additional interface cleanup.",
+    "id": "b23c4405b45655823991546c:0",
+    "metadata_status": "unverified",
+    "name": "Disable ads",
+    "options": [
+      {
+        "default": true,
+        "description": "Disables loyalty onboarding, points, notifications, links, and cashback banners.",
+        "key": "disableLoyaltyProgram",
+        "required": false,
+        "title": "Disable loyalty program",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Removes the Featured and Games tabs and opens Apps by default.",
+        "key": "hideFeaturedAndGamesTabs",
+        "required": false,
+        "title": "Hide Featured and Games tabs",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": true,
+        "description": "Removes notification buttons from the search bar and Mine screen.",
+        "key": "hideNotificationButtons",
+        "required": false,
+        "title": "Hide notification buttons",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "RuStore",
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0077FF",
+        "name": "RuStore",
+        "packageName": "ru.vk.store",
+        "signatures": [
+          "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.108.0.2",
+            "versionCodes": {
+              "ARM64_V8A": 1108002,
+              "ARMEABI_V7A": 1108002,
+              "X86": 1108002,
+              "X86_64": 1108002
+            }
+          }
+        ],
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch",
+      "BytecodePatch"
+    ],
+    "description": "Disables analytics and tracking in RuStore.",
+    "id": "b23c4405b45655823991546c:1",
+    "metadata_status": "unverified",
+    "name": "Disable analytics",
+    "options": [],
+    "packages": [
+      {
+        "name": "RuStore",
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0077FF",
+        "name": "RuStore",
+        "packageName": "ru.vk.store",
+        "signatures": [
+          "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.108.0.2",
+            "versionCodes": {
+              "ARM64_V8A": 1108002,
+              "ARMEABI_V7A": 1108002,
+              "X86": 1108002,
+              "X86_64": 1108002
+            }
+          }
+        ],
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Disables RuStore network-state monitoring, built-in VPN sessions, and startup hooks.",
+    "id": "b23c4405b45655823991546c:2",
+    "metadata_status": "unverified",
+    "name": "Disable background hooks",
+    "options": [],
+    "packages": [
+      {
+        "name": "RuStore",
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0077FF",
+        "name": "RuStore",
+        "packageName": "ru.vk.store",
+        "signatures": [
+          "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.108.0.2",
+            "versionCodes": {
+              "ARM64_V8A": 1108002,
+              "ARMEABI_V7A": 1108002,
+              "X86": 1108002,
+              "X86_64": 1108002
+            }
+          }
+        ],
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Disables the periodic Kaspersky background device scan.",
+    "id": "b23c4405b45655823991546c:3",
+    "metadata_status": "unverified",
+    "name": "Disable background scan",
+    "options": [],
+    "packages": [
+      {
+        "name": "RuStore",
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#005BFF",
+        "name": "Ozon",
+        "packageName": "ru.ozon.app.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.31.0",
+            "versionCodes": {
+              "ARM64_V8A": 2706,
+              "ARMEABI_V7A": 2706,
+              "X86": 2706,
+              "X86_64": 2706
+            }
+          }
+        ],
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes courier tips UI and prevents tip IDs or tip API calls from being submitted.",
+    "id": "b23c4405b45655823991546c:4",
+    "metadata_status": "unverified",
+    "name": "Disable checkout tips",
+    "options": [],
+    "packages": [
+      {
+        "name": "Ozon",
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0077FF",
+        "name": "RuStore",
+        "packageName": "ru.vk.store",
+        "signatures": [
+          "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.108.0.2",
+            "versionCodes": {
+              "ARM64_V8A": 1108002,
+              "ARMEABI_V7A": 1108002,
+              "X86": 1108002,
+              "X86_64": 1108002
+            }
+          }
+        ],
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Removes the Game Profile and usage statistics access, hides both gaming cards, and blocks navigation to the profile.",
+    "id": "b23c4405b45655823991546c:5",
+    "metadata_status": "unverified",
+    "name": "Disable gaming profile",
+    "options": [],
+    "packages": [
+      {
+        "name": "RuStore",
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0077FF",
+        "name": "RuStore",
+        "packageName": "ru.vk.store",
+        "signatures": [
+          "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.108.0.2",
+            "versionCodes": {
+              "ARM64_V8A": 1108002,
+              "ARMEABI_V7A": 1108002,
+              "X86": 1108002,
+              "X86_64": 1108002
+            }
+          }
+        ],
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Removes privileged, phone, SMS, location, storage, billing, USB, and vendor access.",
+    "id": "b23c4405b45655823991546c:6",
+    "metadata_status": "unverified",
+    "name": "Disable invasive permissions",
+    "options": [],
+    "packages": [
+      {
+        "name": "RuStore",
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#005BFF",
+        "name": "Ozon",
+        "packageName": "ru.ozon.app.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.31.0",
+            "versionCodes": {
+              "ARM64_V8A": 2706,
+              "ARMEABI_V7A": 2706,
+              "X86": 2706,
+              "X86_64": 2706
+            }
+          }
+        ],
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables lottery onboarding and the in-app push SDK used for reward popups.",
+    "id": "b23c4405b45655823991546c:7",
+    "metadata_status": "unverified",
+    "name": "Disable lottery and in-app pushes",
+    "options": [],
+    "packages": [
+      {
+        "name": "Ozon",
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0077FF",
+        "name": "RuStore",
+        "packageName": "ru.vk.store",
+        "signatures": [
+          "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.108.0.2",
+            "versionCodes": {
+              "ARM64_V8A": 1108002,
+              "ARMEABI_V7A": 1108002,
+              "X86": 1108002,
+              "X86_64": 1108002
+            }
+          }
+        ],
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Reverts the Mine screen to the classic layout, disabling the redesigned V2/V3 interface.",
+    "id": "b23c4405b45655823991546c:8",
+    "metadata_status": "unverified",
+    "name": "Disable Mine redesign",
+    "options": [],
+    "packages": [
+      {
+        "name": "RuStore",
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#005BFF",
+        "name": "Ozon Bank",
+        "packageName": "ru.ozon.fintech.finance",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.31.0",
+            "versionCodes": {
+              "ARM64_V8A": 16030335,
+              "ARMEABI_V7A": 16030335,
+              "X86": 16030335,
+              "X86_64": 16030335
+            }
+          }
+        ],
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the warning shown when Ozon Bank detects an active VPN connection.",
+    "id": "b23c4405b45655823991546c:9",
+    "metadata_status": "unverified",
+    "name": "Disable Ozon Bank VPN warning",
+    "options": [],
+    "packages": [
+      {
+        "name": "Ozon Bank",
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0077FF",
+        "name": "RuStore",
+        "packageName": "ru.vk.store",
+        "signatures": [
+          "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.108.0.2",
+            "versionCodes": {
+              "ARM64_V8A": 1108002,
+              "ARMEABI_V7A": 1108002,
+              "X86": 1108002,
+              "X86_64": 1108002
+            }
+          }
+        ],
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Disables RuStore and VK remote push services and background tasks.",
+    "id": "b23c4405b45655823991546c:10",
+    "metadata_status": "unverified",
+    "name": "Disable push services",
+    "options": [],
+    "packages": [
+      {
+        "name": "RuStore",
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#005BFF",
+        "name": "Ozon",
+        "packageName": "ru.ozon.app.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.31.0",
+            "versionCodes": {
+              "ARM64_V8A": 2706,
+              "ARMEABI_V7A": 2706,
+              "X86": 2706,
+              "X86_64": 2706
+            }
+          }
+        ],
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "ResourcePatch"
+    ],
+    "description": "Disables Ozon analytics, attribution, crash reporting, and telemetry uploads.",
+    "id": "b23c4405b45655823991546c:11",
+    "metadata_status": "unverified",
+    "name": "Disable telemetry",
+    "options": [],
+    "packages": [
+      {
+        "name": "Ozon",
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#005BFF",
+        "name": "Ozon",
+        "packageName": "ru.ozon.app.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.31.0",
+            "versionCodes": {
+              "ARM64_V8A": 2706,
+              "ARMEABI_V7A": 2706,
+              "X86": 2706,
+              "X86_64": 2706
+            }
+          }
+        ],
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Suppresses Ozon push notifications asking the user to leave a pickup-point tip.",
+    "id": "b23c4405b45655823991546c:12",
+    "metadata_status": "unverified",
+    "name": "Disable tip notifications",
+    "options": [],
+    "packages": [
+      {
+        "name": "Ozon",
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0077FF",
+        "name": "RuStore",
+        "packageName": "ru.vk.store",
+        "signatures": [
+          "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.108.0.2",
+            "versionCodes": {
+              "ARM64_V8A": 1108002,
+              "ARMEABI_V7A": 1108002,
+              "X86": 1108002,
+              "X86_64": 1108002
+            }
+          }
+        ],
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Excludes Google Play installs from RuStore update checks while keeping RuStore and sideloaded apps.",
+    "id": "b23c4405b45655823991546c:13",
+    "metadata_status": "unverified",
+    "name": "Exclude Google Play apps from updates",
+    "options": [],
+    "packages": [
+      {
+        "name": "RuStore",
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#005BFF",
+        "name": "Ozon",
+        "packageName": "ru.ozon.app.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.31.0",
+            "versionCodes": {
+              "ARM64_V8A": 2706,
+              "ARMEABI_V7A": 2706,
+              "X86": 2706,
+              "X86_64": 2706
+            }
+          }
+        ],
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the lottery entry banner and review feed shortcut from the account screen.",
+    "id": "b23c4405b45655823991546c:14",
+    "metadata_status": "unverified",
+    "name": "Hide account lottery and review feed",
+    "options": [],
+    "packages": [
+      {
+        "name": "Ozon",
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#005BFF",
+        "name": "Ozon",
+        "packageName": "ru.ozon.app.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.31.0",
+            "versionCodes": {
+              "ARM64_V8A": 2706,
+              "ARMEABI_V7A": 2706,
+              "X86": 2706,
+              "X86_64": 2706
+            }
+          }
+        ],
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the advertising banner carousel from the Ozon Bank screen.",
+    "id": "b23c4405b45655823991546c:15",
+    "metadata_status": "unverified",
+    "name": "Hide Ozon Bank ad banner",
+    "options": [],
+    "packages": [
+      {
+        "name": "Ozon",
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#005BFF",
+        "name": "Ozon Bank",
+        "packageName": "ru.ozon.fintech.finance",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.31.0",
+            "versionCodes": {
+              "ARM64_V8A": 16030335,
+              "ARMEABI_V7A": 16030335,
+              "X86": 16030335,
+              "X86_64": 16030335
+            }
+          }
+        ],
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "default": false,
+    "dependencies": [],
+    "description": "Adds options to hide selected non-advertising sections from the Benefit page.",
+    "id": "b23c4405b45655823991546c:16",
+    "metadata_status": "unverified",
+    "name": "Hide Ozon Bank benefit sections",
+    "options": [
+      {
+        "default": false,
+        "description": "Hides the Buy for 1 ruble product carousel.",
+        "key": "hideBuyForOneRuble",
+        "required": false,
+        "title": "Hide Buy for 1 ruble",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Hides the Partner benefits section.",
+        "key": "hidePartnerBenefits",
+        "required": false,
+        "title": "Hide Partner benefits",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Hides the For shopping on Ozon section.",
+        "key": "hideOzonShoppingBenefits",
+        "required": false,
+        "title": "Hide For shopping on Ozon",
+        "type": "kotlin.Boolean",
+        "values": null
+      },
+      {
+        "default": false,
+        "description": "Hides the Ozon Premium benefits section.",
+        "key": "hideOzonPremium",
+        "required": false,
+        "title": "Hide Ozon Premium",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Ozon Bank",
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#005BFF",
+        "name": "Ozon Bank",
+        "packageName": "ru.ozon.fintech.finance",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.31.0",
+            "versionCodes": {
+              "ARM64_V8A": 16030335,
+              "ARMEABI_V7A": 16030335,
+              "X86": 16030335,
+              "X86_64": 16030335
+            }
+          }
+        ],
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Uses the classic home design and removes promotional cards, sections, shortcuts, and the startup installment offer from Ozon Bank pages.",
+    "id": "b23c4405b45655823991546c:17",
+    "metadata_status": "unverified",
+    "name": "Hide Ozon Bank promotions",
+    "options": [],
+    "packages": [
+      {
+        "name": "Ozon Bank",
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#005BFF",
+        "name": "Ozon",
+        "packageName": "ru.ozon.app.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.31.0",
+            "versionCodes": {
+              "ARM64_V8A": 2706,
+              "ARMEABI_V7A": 2706,
+              "X86": 2706,
+              "X86_64": 2706
+            }
+          }
+        ],
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes the post-purchase seller rating prompt.",
+    "id": "b23c4405b45655823991546c:18",
+    "metadata_status": "unverified",
+    "name": "Hide seller rating prompt",
+    "options": [],
+    "packages": [
+      {
+        "name": "Ozon",
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#005BFF",
+        "name": "Ozon",
+        "packageName": "ru.ozon.app.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.31.0",
+            "versionCodes": {
+              "ARM64_V8A": 2706,
+              "ARMEABI_V7A": 2706,
+              "X86": 2706,
+              "X86_64": 2706
+            }
+          }
+        ],
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes Ozon ad widgets, checkout promotions, floating promotions, banner carousels, and PDP promo blocks.",
+    "id": "b23c4405b45655823991546c:19",
+    "metadata_status": "unverified",
+    "name": "Remove Ozon ads",
+    "options": [
+      {
+        "default": true,
+        "description": "Removes recommendation grids from product, cart, profile, and favorites screens.",
+        "key": "hideRecommendationGrids",
+        "required": false,
+        "title": "Hide recommendation grids",
+        "type": "kotlin.Boolean",
+        "values": null
+      }
+    ],
+    "packages": [
+      {
+        "name": "Ozon",
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0077FF",
+        "name": "RuStore",
+        "packageName": "ru.vk.store",
+        "signatures": [
+          "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.108.0.2",
+            "versionCodes": {
+              "ARM64_V8A": 1108002,
+              "ARMEABI_V7A": 1108002,
+              "X86": 1108002,
+              "X86_64": 1108002
+            }
+          }
+        ],
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Preserves RuStore secure-session requests when the APK is re-signed.",
+    "id": "b23c4405b45655823991546c:20",
+    "metadata_status": "unverified",
+    "name": "Restore secure-session compatibility",
+    "options": [],
+    "packages": [
+      {
+        "name": "RuStore",
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0077FF",
+        "name": "RuStore",
+        "packageName": "ru.vk.store",
+        "signatures": [
+          "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.108.0.2",
+            "versionCodes": {
+              "ARM64_V8A": 1108002,
+              "ARMEABI_V7A": 1108002,
+              "X86": 1108002,
+              "X86_64": 1108002
+            }
+          }
+        ],
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch",
+      "BytecodePatch"
+    ],
+    "description": "Keeps background workers required for update checks, downloads, patching, and installation.",
+    "id": "b23c4405b45655823991546c:21",
+    "metadata_status": "unverified",
+    "name": "Restrict background work to updates",
+    "options": [],
+    "packages": [
+      {
+        "name": "RuStore",
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#005BFF",
+        "name": "Ozon",
+        "packageName": "ru.ozon.app.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "minSdk": 26,
+            "version": "19.31.0",
+            "versionCodes": {
+              "ARM64_V8A": 2706,
+              "ARMEABI_V7A": 2706,
+              "X86": 2706,
+              "X86_64": 2706
+            }
+          }
+        ],
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Hides crossed-out prices, discount percentages, and redundant price rows in the cart total.",
+    "id": "b23c4405b45655823991546c:22",
+    "metadata_status": "unverified",
+    "name": "Show final prices only",
+    "options": [],
+    "packages": [
+      {
+        "name": "Ozon",
+        "versions": [
+          "19.31.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b23c4405b45655823991546c",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0077FF",
+        "name": "RuStore",
+        "packageName": "ru.vk.store",
+        "signatures": [
+          "661f20828ef780de0b79bc59f26a30864316355f30e4f91cfa14a20791839914"
+        ],
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.108.0.2",
+            "versionCodes": {
+              "ARM64_V8A": 1108002,
+              "ARMEABI_V7A": 1108002,
+              "X86": 1108002,
+              "X86_64": 1108002
+            }
+          }
+        ],
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Skips the VK ID authorization suggestion shown during app installs and updates.",
+    "id": "b23c4405b45655823991546c:23",
+    "metadata_status": "unverified",
+    "name": "Skip update authentication",
+    "options": [],
+    "packages": [
+      {
+        "name": "RuStore",
+        "versions": [
+          "1.108.0.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.4.0",
+    "source_id": "602300a1245057d1"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#8B0000",
+        "name": "Into the Dead 2",
+        "packageName": "com.pikpok.dr2.play",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.87.1"
+          }
+        ],
+        "versions": [
+          "1.87.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Grants rewarded-video rewards instantly",
+    "id": "b2bd86d0755768db3bebd7e2:0",
+    "metadata_status": "unverified",
+    "name": "AD Instant Rewards",
+    "options": [],
+    "packages": [
+      {
+        "name": "Into the Dead 2",
+        "versions": [
+          "1.87.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#8B0000",
+        "name": "Into the Dead",
+        "packageName": "com.sidheinteractive.sif.DR",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.9.5"
+          }
+        ],
+        "versions": [
+          "2.9.5"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes all ads (interstitials, banners, app-open) and grants rewarded-video perk boosts instantly on tap (no ad watch) using the correct reward name PERKS_BOOST, verified against a real rewarded event.",
+    "id": "b2bd86d0755768db3bebd7e2:1",
+    "metadata_status": "unverified",
+    "name": "Ad Removal & Instant Boost Rewards",
+    "options": [],
+    "packages": [
+      {
+        "name": "Into the Dead",
+        "versions": [
+          "2.9.5"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#00A651",
+        "name": "Adda247",
+        "packageName": "com.adda247.app",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.7.2"
+          }
+        ],
+        "versions": [
+          "12.7.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Blocks all Google AdMob ads (banner, interstitial, rewarded, rewarded interstitial, native, app open and Ad Manager) by neutralizing the Flutter Google Mobile Ads plugin: no ad is ever requested and no ad can ever be shown.",
+    "id": "b2bd86d0755768db3bebd7e2:2",
+    "metadata_status": "unverified",
+    "name": "Adda247 Ad Removal",
+    "options": [],
+    "packages": [
+      {
+        "name": "Adda247",
+        "versions": [
+          "12.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APKM",
+        "appIconColor": "#00A651",
+        "name": "Adda247",
+        "packageName": "com.adda247.app",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "12.7.2"
+          }
+        ],
+        "versions": [
+          "12.7.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Blocks the app's own MoEngage in-app promotions (the recurring \"recommended for you\" nudge with no close button, and full-screen standard in-app messages) by no-oping MoEngage's HTML render chokepoint, so no in-app WebView is ever built or attached. Separate from the Google AdMob block.",
+    "id": "b2bd86d0755768db3bebd7e2:3",
+    "metadata_status": "unverified",
+    "name": "Adda247 MoEngage In-App Blocker",
+    "options": [],
+    "packages": [
+      {
+        "name": "Adda247",
+        "versions": [
+          "12.7.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2E6B32",
+        "name": "Dead Target: Offline Games 3D",
+        "packageName": "com.vng.g6.a.zombie",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.183.0"
+          }
+        ],
+        "versions": [
+          "4.183.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Every gun, skin, glove and drone shows as unlocked, and you can equip any of them. Your save file is not changed.",
+    "id": "b2bd86d0755768db3bebd7e2:4",
+    "metadata_status": "unverified",
+    "name": "All items owned",
+    "options": [],
+    "packages": [
+      {
+        "name": "Dead Target: Offline Games 3D",
+        "versions": [
+          "4.183.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#8B4513",
+        "name": "Big Hunter",
+        "packageName": "com.kakarod.bighunter",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.1.2"
+          }
+        ],
+        "versions": [
+          "3.1.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Tapping any store item grants the product immediately (via the game's own confirmed-purchase path -> native applyProduct) without opening Google Play billing. Entitlements persist across restarts.",
+    "id": "b2bd86d0755768db3bebd7e2:5",
+    "metadata_status": "unverified",
+    "name": "Big Hunter Fake Purchase",
+    "options": [],
+    "packages": [
+      {
+        "name": "Big Hunter",
+        "versions": [
+          "3.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#8B4513",
+        "name": "Big Hunter",
+        "packageName": "com.kakarod.bighunter",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.1.2"
+          }
+        ],
+        "versions": [
+          "3.1.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Disables the PairIP license check (installer verification + Google Play licensing service validation + paywall/exit dialog). Required for patched APKs — the original check fails on any non-Play signature and force-closes the app.",
+    "id": "b2bd86d0755768db3bebd7e2:6",
+    "metadata_status": "unverified",
+    "name": "Big Hunter PairIP License Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "Big Hunter",
+        "versions": [
+          "3.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#8B4513",
+        "name": "Big Hunter",
+        "packageName": "com.kakarod.bighunter",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.1.2"
+          }
+        ],
+        "versions": [
+          "3.1.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Interstitial ads are never shown (show() short-circuits via the ad-not-ready path on all three network bridges: AdMob, AppLovin, Unity Ads).",
+    "id": "b2bd86d0755768db3bebd7e2:7",
+    "metadata_status": "unverified",
+    "name": "Big Hunter Remove Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Big Hunter",
+        "versions": [
+          "3.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#8B4513",
+        "name": "Big Hunter",
+        "packageName": "com.kakarod.bighunter",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.1.2"
+          }
+        ],
+        "versions": [
+          "3.1.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Rewarded video requests grant the reward immediately via the game's own native rewardCallback() without loading or showing any ad (AdMob, AppLovin, Unity Ads).",
+    "id": "b2bd86d0755768db3bebd7e2:8",
+    "metadata_status": "unverified",
+    "name": "Big Hunter Rewards Without Ads",
+    "options": [],
+    "packages": [
+      {
+        "name": "Big Hunter",
+        "versions": [
+          "3.1.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#B71C1C",
+        "name": "Dead Trigger",
+        "packageName": "com.madfingergames.deadtrigger",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "2.3.4"
+          }
+        ],
+        "versions": [
+          "2.3.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "Free store: tap any gold or money pack in the shop and it's yours instantly.",
+    "id": "b2bd86d0755768db3bebd7e2:9",
+    "metadata_status": "unverified",
+    "name": "Dead Trigger Free Store",
+    "options": [],
+    "packages": [
+      {
+        "name": "Dead Trigger",
+        "versions": [
+          "2.3.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#2196F3",
+        "name": "Document Scanner",
+        "packageName": "com.cv.docscanner",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "6.9.9"
+          }
+        ],
+        "versions": [
+          "6.9.9"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks all premium features, removes ads, and enables pro themes.",
+    "id": "b2bd86d0755768db3bebd7e2:10",
+    "metadata_status": "unverified",
+    "name": "Doc Scanner Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Document Scanner",
+        "versions": [
+          "6.9.9"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#66BB6A",
+        "name": "Doodle Jump",
+        "packageName": "com.lima.doodlejump",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.11.38"
+          },
+          {
+            "isExperimental": false,
+            "version": "3.11.40"
+          }
+        ],
+        "versions": [
+          "3.11.38",
+          "3.11.40"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks the full game by bypassing Google Play billing.",
+    "id": "b2bd86d0755768db3bebd7e2:11",
+    "metadata_status": "unverified",
+    "name": "Doodle Jump Billing Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "Doodle Jump",
+        "versions": [
+          "3.11.38",
+          "3.11.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#66BB6A",
+        "name": "Doodle Jump",
+        "packageName": "com.lima.doodlejump",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.11.38"
+          },
+          {
+            "isExperimental": false,
+            "version": "3.11.40"
+          }
+        ],
+        "versions": [
+          "3.11.38",
+          "3.11.40"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Resurrect instantly after death without watching a rewarded ad.",
+    "id": "b2bd86d0755768db3bebd7e2:12",
+    "metadata_status": "unverified",
+    "name": "Doodle Jump Resurrection Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "Doodle Jump",
+        "versions": [
+          "3.11.38",
+          "3.11.40"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1565C0",
+        "name": "Dr. Driving",
+        "packageName": "com.ansangha.drdriving",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.73"
+          }
+        ],
+        "versions": [
+          "1.73"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes all Google AdMob ads (banner, interstitial, rewarded).",
+    "id": "b2bd86d0755768db3bebd7e2:13",
+    "metadata_status": "unverified",
+    "name": "Dr. Driving Ad Removal",
+    "options": [],
+    "packages": [
+      {
+        "name": "Dr. Driving",
+        "versions": [
+          "1.73"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1565C0",
+        "name": "Dr. Driving",
+        "packageName": "com.ansangha.drdriving",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.73"
+          }
+        ],
+        "versions": [
+          "1.73"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Coins inflated to 1,000,000,000 on save load; purchases, upgrades, rentals and repairs never cost coins.",
+    "id": "b2bd86d0755768db3bebd7e2:14",
+    "metadata_status": "unverified",
+    "name": "Dr. Driving Unlimited Coins",
+    "options": [],
+    "packages": [
+      {
+        "name": "Dr. Driving",
+        "versions": [
+          "1.73"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1565C0",
+        "name": "Dr. Driving",
+        "packageName": "com.ansangha.drdriving",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.73"
+          }
+        ],
+        "versions": [
+          "1.73"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Gold is inflated to 1,000,000,000 on save load; gold packs in the store also grant gold.",
+    "id": "b2bd86d0755768db3bebd7e2:15",
+    "metadata_status": "unverified",
+    "name": "Dr. Driving Unlimited Gold",
+    "options": [],
+    "packages": [
+      {
+        "name": "Dr. Driving",
+        "versions": [
+          "1.73"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF6F00",
+        "name": "Earn to Die 2",
+        "packageName": "com.notdoppler.earntodie2",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.5.6"
+          }
+        ],
+        "versions": [
+          "1.5.6"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Intercepts all in-app purchases and calls the native on_purchase(String[], String) grant directly, unlocking paid content (cash doubler) for free without Play Billing.",
+    "id": "b2bd86d0755768db3bebd7e2:16",
+    "metadata_status": "unverified",
+    "name": "Earn to Die 2 Free IAP",
+    "options": [],
+    "packages": [
+      {
+        "name": "Earn to Die 2",
+        "versions": [
+          "1.5.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF6F00",
+        "name": "Earn to Die 2",
+        "packageName": "com.notdoppler.earntodie2",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.5.6"
+          }
+        ],
+        "versions": [
+          "1.5.6"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes interstitial and rewarded ads, and grants rewarded-video rewards instantly by firing the native callbacks.",
+    "id": "b2bd86d0755768db3bebd7e2:17",
+    "metadata_status": "unverified",
+    "name": "Earn to Die 2 No Ads + Instant Rewards",
+    "options": [],
+    "packages": [
+      {
+        "name": "Earn to Die 2",
+        "versions": [
+          "1.5.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF6F00",
+        "name": "Earn to Die 2",
+        "packageName": "com.notdoppler.earntodie2",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.5.6"
+          }
+        ],
+        "versions": [
+          "1.5.6"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Bypasses the native Google Play distribution checks (installer package + signing signature) so the app runs when sideloaded.",
+    "id": "b2bd86d0755768db3bebd7e2:18",
+    "metadata_status": "unverified",
+    "name": "Earn to Die 2 Remove Google Play Check",
+    "options": [],
+    "packages": [
+      {
+        "name": "Earn to Die 2",
+        "versions": [
+          "1.5.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#FF9800",
+        "name": "Fancy Pants Adventures",
+        "packageName": "com.overthetopgames.fancypants",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.0.30"
+          }
+        ],
+        "versions": [
+          "1.0.30"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks premium, wardrobe, world 1 and world 2 by forcing OTTBilling.isPurchased to always return true.",
+    "id": "b2bd86d0755768db3bebd7e2:19",
+    "metadata_status": "unverified",
+    "name": "Fancy Pants Unlock Premium",
+    "options": [],
+    "packages": [
+      {
+        "name": "Fancy Pants Adventures",
+        "versions": [
+          "1.0.30"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#E65100",
+        "name": "Burrito Bison: Launcha Libre",
+        "packageName": "com.kongregate.mobile.burritobison3.google",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.75"
+          }
+        ],
+        "versions": [
+          "3.75"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Required so the modified app opens without crashing — skips signature, root and emulator checks.",
+    "id": "b2bd86d0755768db3bebd7e2:20",
+    "metadata_status": "unverified",
+    "name": "Fix app opening",
+    "options": [],
+    "packages": [
+      {
+        "name": "Burrito Bison: Launcha Libre",
+        "versions": [
+          "3.75"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1A3A6B",
+        "name": "Head Basketball",
+        "packageName": "com.dnddream.HeadBasketball",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.6.4"
+          }
+        ],
+        "versions": [
+          "4.6.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Get your ad rewards for free. Every \"watch ad\" button gives you the reward right away — no ad to sit through, no waiting.",
+    "id": "b2bd86d0755768db3bebd7e2:21",
+    "metadata_status": "unverified",
+    "name": "Free Ad Rewards",
+    "options": [],
+    "packages": [
+      {
+        "name": "Head Basketball",
+        "versions": [
+          "4.6.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0496EC",
+        "name": "Head Soccer",
+        "packageName": "com.dnddream.headsoccer.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.1.6"
+          }
+        ],
+        "versions": [
+          "7.1.6"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Every \"watch ad\" reward is granted instantly — no ad appears, no \"failed to load advertisement\" popup, and nothing to wait for.",
+    "id": "b2bd86d0755768db3bebd7e2:22",
+    "metadata_status": "unverified",
+    "name": "Free Ad Rewards",
+    "options": [],
+    "packages": [
+      {
+        "name": "Head Soccer",
+        "versions": [
+          "7.1.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#E65100",
+        "name": "Burrito Bison: Launcha Libre",
+        "packageName": "com.kongregate.mobile.burritobison3.google",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "3.75"
+          }
+        ],
+        "versions": [
+          "3.75"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Get paid items for free — tapping buy grants the item instantly without Google Play payment popup.",
+    "id": "b2bd86d0755768db3bebd7e2:23",
+    "metadata_status": "unverified",
+    "name": "Free purchases",
+    "options": [],
+    "packages": [
+      {
+        "name": "Burrito Bison: Launcha Libre",
+        "versions": [
+          "3.75"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#1A3A6B",
+        "name": "Head Basketball",
+        "packageName": "com.dnddream.HeadBasketball",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "4.6.4"
+          }
+        ],
+        "versions": [
+          "4.6.4"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Everything in the shop is free. Tap an item and you get it instantly — no paying, no waiting, no Google Play involved.",
+    "id": "b2bd86d0755768db3bebd7e2:24",
+    "metadata_status": "unverified",
+    "name": "Free Store",
+    "options": [],
+    "packages": [
+      {
+        "name": "Head Basketball",
+        "versions": [
+          "4.6.4"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "APK",
+        "appIconColor": "#0496EC",
+        "name": "Head Soccer",
+        "packageName": "com.dnddream.headsoccer.android",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.1.6"
+          }
+        ],
+        "versions": [
+          "7.1.6"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Everything in the shop is free. Tap an item and you get it right away — points, characters and presents — with no Google Play payment screen and nothing charged.",
+    "id": "b2bd86d0755768db3bebd7e2:25",
+    "metadata_status": "unverified",
+    "name": "Free Store",
+    "options": [],
+    "packages": [
+      {
+        "name": "Head Soccer",
+        "versions": [
+          "7.1.6"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#7CB342",
+        "name": "Crossy Road",
+        "packageName": "com.yodo1.crossyroad",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "7.13.2"
+          }
+        ],
+        "versions": [
+          "7.13.2"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [
+      "RawResourcePatch"
+    ],
+    "description": "The in-game store is free. Just tap \"Buy\" and the item is yours — no payment needed. For an ad-free game, just buy the ad-block item from the store.",
+    "id": "b2bd86d0755768db3bebd7e2:26",
+    "metadata_status": "unverified",
+    "name": "Free store",
+    "options": [],
+    "packages": [
+      {
+        "name": "Crossy Road",
+        "versions": [
+          "7.13.2"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1565C0",
+        "name": "FreeJobAlert",
+        "packageName": "com.freejobalert",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.0.0"
+          }
+        ],
+        "versions": [
+          "1.0.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Removes all Google AdMob ads (banner, interstitial, rewarded, app open, native).",
+    "id": "b2bd86d0755768db3bebd7e2:27",
+    "metadata_status": "unverified",
+    "name": "FreeJobAlert Ad Removal",
+    "options": [],
+    "packages": [
+      {
+        "name": "FreeJobAlert",
+        "versions": [
+          "1.0.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#1565C0",
+        "name": "FreeJobAlert",
+        "packageName": "com.freejobalert",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.0.0"
+          }
+        ],
+        "versions": [
+          "1.0.0"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Bypasses the Pairip Play Store installation check so the app launches normally.",
+    "id": "b2bd86d0755768db3bebd7e2:28",
+    "metadata_status": "unverified",
+    "name": "FreeJobAlert License Bypass",
+    "options": [],
+    "packages": [
+      {
+        "name": "FreeJobAlert",
+        "versions": [
+          "1.0.0"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#8B0000",
+        "name": "Into the Dead 2",
+        "packageName": "com.pikpok.dr2.play",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.87.1"
+          }
+        ],
+        "versions": [
+          "1.87.1"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Unlocks every purchase in the game for free. Tap buy and it is yours — no Google Play payment screen appears and you are never charged. Subscriptions like VIP membership show as pre-owned, so just open them, no purchase needed.",
+    "id": "b2bd86d0755768db3bebd7e2:29",
+    "metadata_status": "unverified",
+    "name": "Full IAP Unlock",
+    "options": [],
+    "packages": [
+      {
+        "name": "Into the Dead 2",
+        "versions": [
+          "1.87.1"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  },
+  {
+    "bundle_id": "b2bd86d0755768db3bebd7e2",
+    "compatiblePackages": [
+      {
+        "apkFileType": "XAPK",
+        "appIconColor": "#00BCD4",
+        "name": "HAAK",
+        "packageName": "com.blingame.haaktestb",
+        "targets": [
+          {
+            "isExperimental": false,
+            "version": "1.4.3"
+          }
+        ],
+        "versions": [
+          "1.4.3"
+        ]
+      }
+    ],
+    "default": true,
+    "dependencies": [],
+    "description": "Redirects purchase failure callbacks to their success twins: cancelling the Google Play dialog, a billing error, or an \"not purchased\" query result all grant the product instead.",
+    "id": "b2bd86d0755768db3bebd7e2:30",
+    "metadata_status": "unverified",
+    "name": "HAAK Free Purchases and Unlocked Paid Content",
+    "options": [],
+    "packages": [
+      {
+        "name": "HAAK",
+        "versions": [
+          "1.4.3"
+        ]
+      }
+    ],
+    "patch_metadata_version": "v1.39.1",
+    "source_id": "b149043aa62e2c0a"
+  }
+]

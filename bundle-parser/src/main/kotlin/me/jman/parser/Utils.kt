@@ -1,6 +1,5 @@
 package me.jman.parser
 
-import java.io.ByteArrayOutputStream
 import java.io.File
 import java.io.InputStream
 import java.lang.reflect.InvocationTargetException
@@ -20,7 +19,7 @@ import kotlinx.serialization.json.buildJsonObject
 private const val PATCHER22_CLASSPATH_PROPERTY = "revanced.patcher22.classpath"
 private const val LEGACY_PATCHER_CLASSPATH_PROPERTY = "revanced.patcher21.classpath"
 private const val GITHUB_DOWNLOAD_USER_AGENT =
-    "revanced-patch-bundles/1.0 (+https://github.com/Jman-Github/ReVanced-Patch-Bundles)"
+    "patch-bundle-registry/1.0 (+https://github.com/Jman-Github/Patch-Bundle-Registry)"
 
 inline fun <T> List<T>.forEachGroupLogged(groupName: (T) -> String, action: (T) -> Unit) {
     for (item in this) {
@@ -33,16 +32,38 @@ inline fun <T> List<T>.forEachGroupLogged(groupName: (T) -> String, action: (T) 
     }
 }
 
-fun downloadToFile(url: URL, outputFile: File) =
-    url.openConnection().apply {
-        connectTimeout = 10_000
-        readTimeout = 30_000
-        setRequestProperty("User-Agent", GITHUB_DOWNLOAD_USER_AGENT)
-    }.getInputStream().use { input: InputStream ->
-        outputFile.outputStream().use { fileOut ->
-            input.copyTo(fileOut)
+fun downloadToFile(url: URL, outputFile: File) {
+    var current = url
+    repeat(10) {
+        val connection = current.openConnection().apply {
+            connectTimeout = 10_000
+            readTimeout = 30_000
+            setRequestProperty("User-Agent", GITHUB_DOWNLOAD_USER_AGENT)
+            if (this is java.net.HttpURLConnection) {
+                instanceFollowRedirects = false
+                gitHostHeaders(current).forEach { (name, value) -> setRequestProperty(name, value) }
+            }
+        }
+        if (connection is java.net.HttpURLConnection && connection.responseCode in setOf(301, 302, 303, 307, 308)) {
+            val location = connection.getHeaderField("Location") ?: error("Redirect without Location")
+            val next = URL(current, location)
+            require(next.protocol in setOf("http", "https"))
+            require(current.protocol != "https" || next.protocol == "https")
+            connection.disconnect()
+            current = next
+        } else {
+            try {
+                connection.getInputStream().use { input: InputStream ->
+                    outputFile.outputStream().use { fileOut -> input.copyTo(fileOut) }
+                }
+            } finally {
+                (connection as? java.net.HttpURLConnection)?.disconnect()
+            }
+            return
         }
     }
+    error("Too many bundle download redirects")
+}
 
 fun generatePatchesFromUrl(uri: URI): String {
     val classpathFiles = runtimeClasspathFiles(
@@ -54,8 +75,8 @@ fun generatePatchesFromUrl(uri: URI): String {
         downloadToFile(uri.toURL(), patchesFile)
 
         URLClassLoader(
-            classpathFiles.map { it.toURI().toURL() }.toTypedArray(),
-            Class.forName("app.revanced.patcher.Fingerprint").classLoader
+            (classpathFiles + patchesFile).map { it.toURI().toURL() }.toTypedArray(),
+            ClassLoader.getSystemClassLoader()
         ).use { classLoader ->
             val patches = loadModernPatchesFromJar(patchesFile, classLoader, classpathFiles)
             return JsonArray(patches.map(::convertRevancedPatch)).toString()
@@ -70,35 +91,39 @@ fun generatePatchesFromUrlWithLegacyPatcher(uri: URI): String {
         LEGACY_PATCHER_CLASSPATH_PROPERTY,
         "Legacy patcher classpath"
     )
-    val bridgeClasspathFiles = runtimeClasspathFiles(
-        PATCHER22_CLASSPATH_PROPERTY,
-        "Modern patcher 22 classpath"
-    )
     val patchesFile = File.createTempFile("patches-legacy", ".jar")
     try {
         downloadToFile(uri.toURL(), patchesFile)
 
-        URLClassLoader(classpathFiles.map { it.toURI().toURL() }.toTypedArray(), null).use { classLoader ->
-            URLClassLoader(bridgeClasspathFiles.map { it.toURI().toURL() }.toTypedArray(), classLoader).use { bridgeClassLoader ->
-                try {
-                    val patches = loadLegacyPatchesFromJar(patchesFile, classLoader, bridgeClassLoader)
-
-                    val serializationClass = Class.forName("app.revanced.library.SerializationKt", true, classLoader)
-                    val serializeMethod = serializationClass.methods.firstOrNull {
-                        it.name == "serializeTo" && it.parameterCount == 3
-                    } ?: throw NoSuchMethodException("serializeTo(Set, OutputStream, Boolean) not found in legacy library.")
-
-                    val output = ByteArrayOutputStream()
-                    serializeMethod.invoke(null, patches, output, false)
-                    return output.toString(Charsets.UTF_8)
-                } catch (e: InvocationTargetException) {
-                    val target = e.targetException ?: e
-                    throw IllegalStateException("Legacy patcher failed to load ${patchesFile.name}", target)
-                }
-            }
+        URLClassLoader(
+            (classpathFiles + patchesFile).map { it.toURI().toURL() }.toTypedArray(),
+            ClassLoader.getSystemClassLoader()
+        ).use { classLoader ->
+            val patches = loadModernPatchesFromJar(patchesFile, classLoader, classpathFiles)
+            return JsonArray(patches.map(::convertRevancedPatch)).toString()
         }
     } finally {
         patchesFile.delete()
+    }
+}
+
+internal fun generateV3PatchList(file: File): JsonArray {
+    val classpath = runtimeClasspathFiles(LEGACY_PATCHER_CLASSPATH_PROPERTY, "V3 patcher classpath")
+    return URLClassLoader(
+        classpath.map { it.toURI().toURL() }.toTypedArray(), ClassLoader.getSystemClassLoader()
+    ).use { loader ->
+        val direct = runCatching { Class.forName("app.revanced.patcher.PatchBundleLoader\$Jar", true, loader) }
+            .getOrNull()
+        val loaded = if (direct != null) {
+            direct.getConstructor(Array<File>::class.java).newInstance(arrayOf(file))
+        } else {
+            val type = Class.forName("app.revanced.patcher.util.patch.PatchBundle\$Jar", true, loader)
+            val archive = type.getConstructor(String::class.java).newInstance(file.absolutePath)
+            type.getMethod("loadPatches").invoke(archive)
+        }
+        val patches = loadedPatchObjects(loaded)
+        if (patches.any { it is Class<*> }) parseLegacyPatchBundle(file, patches.filterIsInstance<Class<*>>().map { it.name }.toSet())
+        else JsonArray(patches.map(::convertRevancedPatch))
     }
 }
 
@@ -126,6 +151,26 @@ private fun loadModernPatchesFromJar(
     modernClassLoader: ClassLoader,
     classpathFiles: List<File>
 ): List<Any> {
+    // Newer patcher facades accept enumerated class names instead of a file callback.
+    val facade = runCatching {
+        Class.forName("app.revanced.patcher.patch.PatchKt", true, modernClassLoader)
+    }.getOrNull()
+    val legacyFacade = facade?.methods?.firstOrNull {
+        it.name == "loadPatchesFromJar" &&
+            it.parameterTypes.contentEquals(arrayOf(Set::class.java))
+    }
+    if (legacyFacade != null) {
+        return loadedPatchObjects(legacyFacade.invoke(null, setOf(patchesFile)))
+    }
+    val enumeratedLoader = facade?.methods?.firstOrNull {
+        it.name == "getPatches" && it.parameterCount == 2 &&
+            List::class.java.isAssignableFrom(it.parameterTypes[0]) &&
+            ClassLoader::class.java.isAssignableFrom(it.parameterTypes[1])
+    }
+    if (enumeratedLoader != null) {
+        val loaded = enumeratedLoader.invoke(null, readJarClassNames(patchesFile), modernClassLoader)
+        return loadedPatchObjects(loaded)
+    }
     val loadMethods = findStaticMethodsInPackage(
         classLoader = modernClassLoader,
         classpathFiles = classpathFiles,
@@ -145,11 +190,7 @@ private fun loadModernPatchesFromJar(
         throw IllegalStateException("Modern patcher failed to load ${patchesFile.name}", target)
     } ?: throw IllegalStateException("Modern patcher returned no patches for ${patchesFile.name}.")
 
-    val loaded = asReflectiveList(patches).mapNotNull(::retainNamedPatch)
-    if (loaded.isEmpty()) {
-        throw IllegalStateException("No patch entries were discovered in ${patchesFile.name}.")
-    }
-    return loaded
+    return loadedPatchObjects(patches)
 }
 
 private fun Method.isModernLoadPatchesDefault(): Boolean =
@@ -204,18 +245,6 @@ private fun readJarClassNames(file: File): List<String> =
             .map { entry -> entry.name.substringBeforeLast('.').replace('/', '.') }
     }
 
-private fun findStaticMethodInPackage(
-    classLoader: ClassLoader,
-    classpathFiles: List<File>,
-    packagePathPrefix: String,
-    methodName: String,
-    predicate: (Method) -> Boolean
-): Method {
-    return findStaticMethodsInPackage(classLoader, classpathFiles, packagePathPrefix, methodName, predicate)
-        .firstOrNull()
-        ?: throw NoSuchMethodException("$methodName was not found in $packagePathPrefix.")
-}
-
 private fun findStaticMethodsInPackage(
     classLoader: ClassLoader,
     classpathFiles: List<File>,
@@ -262,7 +291,7 @@ private fun loadClassesFromPackage(
     }
 }
 
-private fun convertRevancedPatch(patch: Any): JsonObject {
+internal fun convertRevancedPatch(patch: Any): JsonObject {
     val compatiblePackages = convertRevancedCompatiblePackages(readReflectiveMemberValue(patch, "compatiblePackages"))
     val dependencies = JsonArray(
         asReflectiveList(readReflectiveMemberValue(patch, "dependencies"))
@@ -278,7 +307,7 @@ private fun convertRevancedPatch(patch: Any): JsonObject {
     )
 
     return buildJsonObject {
-        put("name", JsonPrimitive(readReflectiveString(patch, "name").orEmpty()))
+        put("name", readReflectiveString(patch, "name")?.let(::JsonPrimitive) ?: JsonNull)
         put("description", toJsonElement(readReflectiveMemberValue(patch, "description")))
         put("use", JsonPrimitive(readReflectiveBoolean(patch, "use") ?: true))
         put("dependencies", dependencies)
@@ -303,6 +332,29 @@ private fun convertRevancedOption(option: Any?): JsonObject? {
     }
 }
 
+// Independently implements package-set semantics; see docs/source-attribution.md.
+internal fun compatibilityJson(entries: List<Pair<String, JsonElement>>): JsonElement {
+    if (entries.isEmpty()) return JsonNull
+    val grouped = entries.groupBy({ it.first }, { it.second })
+    val normalized = grouped.flatMap { (name, restrictions) ->
+        val values = mutableListOf<Pair<String, JsonElement>>()
+        if (JsonNull in restrictions) values += name to JsonNull
+        val restricted = restrictions.filterIsInstance<JsonArray>()
+        if (restricted.isNotEmpty()) {
+            values += name to JsonArray(restricted.flatMap { it }.distinct())
+        }
+        values
+    }
+    // The map form cannot express unrestricted AND version-specific links.
+    return if (normalized.map { it.first }.distinct().size == normalized.size) {
+        JsonObject(normalized.toMap())
+    } else {
+        JsonArray(normalized.map { (name, versions) ->
+            buildJsonObject { put("name", JsonPrimitive(name)); put("versions", versions) }
+        })
+    }
+}
+
 private fun convertRevancedCompatiblePackages(value: Any?): JsonElement {
     return when (value) {
         is Map<*, *> -> mapCompatiblePackages(value)
@@ -324,17 +376,15 @@ private fun mapCompatiblePackages(compatiblePackages: Map<*, *>): JsonElement {
 
 private fun iterableCompatiblePackages(compatiblePackages: Iterable<*>): JsonElement {
     val entries = compatiblePackages.mapNotNull { entry ->
-        val pair = entry as? Pair<*, *> ?: return@mapNotNull null
-        val packageName = pair.first?.toString()?.takeIf(String::isNotBlank) ?: return@mapNotNull null
-        packageName to pair.second
+        entry ?: return@mapNotNull null
+        val pair = entry.javaClass.name == "kotlin.Pair"
+        val packageName = readReflectiveString(entry, if (pair) "first" else "name")
+            ?.takeIf(String::isNotBlank) ?: error("Invalid compatible package name")
+        packageName to readReflectiveMemberValue(entry, if (pair) "second" else "versions")
     }
     if (entries.isEmpty()) return JsonNull
 
-    return buildJsonObject {
-        for ((packageName, rawVersions) in entries) {
-            put(packageName, toCompatibleVersions(rawVersions))
-        }
-    }
+    return compatibilityJson(entries.map { (name, versions) -> name to toCompatibleVersions(versions) })
 }
 
 private fun toCompatibleVersions(rawVersions: Any?): JsonElement {
@@ -357,7 +407,7 @@ private fun patchLabel(patch: Any): String {
 
 private fun retainNamedPatch(candidate: Any?): Any? {
     candidate ?: return null
-    return candidate.takeIf { patchLabel(it).isNotBlank() }
+    return candidate.takeIf { !readReflectiveString(it, "name").isNullOrBlank() }
 }
 
 private fun toJsonElement(value: Any?): JsonElement {
@@ -379,6 +429,11 @@ private fun mapToJsonObject(values: Map<*, *>): JsonObject {
         key to toJsonElement(rawValue)
     }.toMap()
     return JsonObject(mapped)
+}
+
+private fun loadedPatchObjects(value: Any?): List<Any> {
+    require(value is Iterable<*> || value is Array<*>) { "Patcher returned no patch collection" }
+    return asReflectiveList(value)
 }
 
 private fun asReflectiveList(value: Any?): List<Any> {
@@ -430,88 +485,5 @@ private fun findReflectiveAccessor(type: Class<*>, name: String): Method? {
 
     return type.methods.firstOrNull { method ->
         method.parameterCount == 0 && method.name in candidates
-    }
-}
-
-private fun loadLegacyPatchesFromJar(
-    patchesFile: File,
-    legacyClassLoader: ClassLoader,
-    bundleDependencyClassLoader: ClassLoader
-): Set<Any> {
-    val patchClass = Class.forName("app.revanced.patcher.patch.Patch", true, legacyClassLoader)
-    val getPatchName = patchClass.methods.firstOrNull { it.name == "getName" && it.parameterCount == 0 }
-        ?: throw NoSuchMethodException("Patch.getName() not found in legacy patcher.")
-
-    val classNames = JarFile(patchesFile).use { jar ->
-        jar.entries().toList()
-            .filter { it.name.endsWith(".class") && !it.name.startsWith("META-INF/") }
-            .map { it.name.substringBeforeLast('.').replace('/', '.') }
-    }
-
-    URLClassLoader(arrayOf(patchesFile.toURI().toURL()), bundleDependencyClassLoader).use { bundleClassLoader ->
-        val patches = linkedSetOf<Any>()
-
-        for (className in classNames) {
-            val loadedClass = try {
-                bundleClassLoader.loadClass(className)
-            } catch (_: Throwable) {
-                continue
-            }
-
-            val publicMethods = try {
-                loadedClass.methods.toList()
-            } catch (_: LinkageError) {
-                continue
-            }
-
-            publicMethods
-                .filter { method ->
-                    Modifier.isPublic(method.modifiers) &&
-                        Modifier.isStatic(method.modifiers) &&
-                        method.parameterCount == 0 &&
-                        patchClass.isAssignableFrom(method.returnType)
-                }
-                .forEach { method ->
-                    try {
-                        val patch = method.invoke(null) ?: return@forEach
-                        val name = getPatchName.invoke(patch) as? String
-                        if (!name.isNullOrBlank()) {
-                            patches += patch
-                        }
-                    } catch (_: Throwable) {
-                        // Ignore per-entry load errors so other patches can still be parsed.
-                    }
-                }
-
-            val publicFields = try {
-                loadedClass.fields.toList()
-            } catch (_: LinkageError) {
-                continue
-            }
-
-            publicFields
-                .filter { field ->
-                    Modifier.isPublic(field.modifiers) &&
-                        Modifier.isStatic(field.modifiers) &&
-                        patchClass.isAssignableFrom(field.type)
-                }
-                .forEach { field ->
-                    try {
-                        val patch = field.get(null) ?: return@forEach
-                        val name = getPatchName.invoke(patch) as? String
-                        if (!name.isNullOrBlank()) {
-                            patches += patch
-                        }
-                    } catch (_: Throwable) {
-                        // Ignore per-entry load errors so other patches can still be parsed.
-                    }
-                }
-        }
-
-        if (patches.isEmpty()) {
-            throw IllegalStateException("No legacy patch entries were discovered in ${patchesFile.name}.")
-        }
-
-        return patches
     }
 }

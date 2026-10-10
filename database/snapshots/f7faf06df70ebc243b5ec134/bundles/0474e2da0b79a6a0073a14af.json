@@ -1,0 +1,50 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "stable"
+  ],
+  "created_at": "2026-10-06T20:32:19",
+  "description": "## [1.40.5](https://github.com/ajstrick81/morphe-androidtv-patches/compare/v1.40.4...v1.40.5) (2026-10-06)\n\n\n### Bug Fixes\n\n* **peacock:** unblock sas sign-in endpoints so fresh device sign-in works ([#230](https://github.com/ajstrick81/morphe-androidtv-patches/issues/230)) ([b425a65](https://github.com/ajstrick81/morphe-androidtv-patches/commit/b425a6536feaab76a3143776c40569c4763a8957)), closes [228/#231](https://github.com/ajstrick81/morphe-androidtv-patches/issues/231)\n\n\n\n",
+  "download_url": "https://github.com/ajstrick81/morphe-androidtv-patches/releases/download/v1.40.5/patches-1.40.5.mpp",
+  "ecosystem": "morphe",
+  "extraction_status": "unverified",
+  "file_hash": null,
+  "id": "0474e2da0b79a6a0073a14af",
+  "import_urls": {
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2Fajstrick81%2Fmorphe-androidtv-patches&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": false,
+  "is_prerelease": false,
+  "legacy_id": 9,
+  "metadata_status": "unverified",
+  "need_patches_update": true,
+  "packages": [
+    "com.amazon.amazonvideo.livingroom",
+    "com.bamnetworks.mobile.android.gameday.atbat",
+    "com.cbs.ott",
+    "com.disney.disneyplus",
+    "com.espn.score_center",
+    "com.fox.foxone",
+    "com.netflix.ninja",
+    "com.peacocktv.peacockandroid",
+    "com.tubitv",
+    "com.twentyfouri.tvbridge.rte",
+    "com.univision.prendetv",
+    "com.wbd.hbomax",
+    "it.rainet.androidtv",
+    "tv.pluto.android",
+    "tv.twitch.android.app"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_version": "v1.40.5",
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": "N/A",
+  "source_id": "fec860c28b323b2f",
+  "version": "v1.40.5"
+}
