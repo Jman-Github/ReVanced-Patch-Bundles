@@ -1,0 +1,43 @@
+{
+  "bundle_type": "Morphe:V1",
+  "channels": [
+    "latest",
+    "stable"
+  ],
+  "created_at": "2026-10-09T01:21:02Z",
+  "description": "This release has 43 patches, 37 of them switches, for all 37 arm64 builds of Messenger 580.0.0.49.91 and 581.0.0.49.91. It fixes the loading circle under the chat list ([#30](https://github.com/SysAdminDoc/HushMessenger/issues/30)), the Like with Use system emoji ([#34](https://github.com/SysAdminDoc/HushMessenger/issues/34)) and the story ring after an anonymous view ([#35](https://github.com/SysAdminDoc/HushMessenger/issues/35)). Eight new switches start off, and three new patches that change the package itself start unselected, including Custom new-message sound ([#32](https://github.com/SysAdminDoc/HushMessenger/issues/32)).\n\n- `Keep emoji search on emoji` is a new switch under Stickers that starts off. With it on, typing while the emoji keyboard is open no longer flips it over to sticker search, so you stay on emoji. It takes effect right away, with no restart.\n- `Use the phone's camera app` is a new switch under Conversations that starts off. With it on, the camera button in a chat opens your phone's own camera app instead of Messenger's camera. The photo comes back into Messenger's photo editor for that chat, the same way a photo picked from another app does, and you send it from there. It's photos only. HushMessenger has the camera app save the photo to Messenger's cache, not your gallery. Checks cover the chat camera button in all 37 supported builds.\n- `Pure black dark mode` is a new switch under Appearance in settings, shown when Material You theme is patched in, and it starts off. With both on, Messenger's darkest dark mode backgrounds turn pure black. Lighter surfaces keep their wallpaper tint, and light mode doesn't change. You can flip it without patching again.\n- `Send videos without re-encoding` is a new switch under Conversations that starts off. Messenger already skips the re-encode for a video that's close to its target size. With the switch on, a video up to 25 MB takes that same passthrough instead of being re-encoded. Bigger videos still get Messenger's compression, and so do trimmed or edited ones and formats Messenger won't pass through. Checks cover the video transcoder in all 37 supported builds.\n- `Clone install under another package name` is a new patch, unselected by default. It installs a second Messenger beside the first under its own package name and app name, `com.facebook.orca.hush` and `Messenger Clone` unless you choose others in Morphe. Messenger's own permissions, provider authorities, task affinities and push categories move to the new name, and the patch stops before changing anything if one of them would still clash. The encrypted chat backup lookup that crashes under a renamed package keeps working, with a fix adapted from rushiranpise's Change package name patch. The broadcasts Messenger sends to itself, like the ones that refresh message requests and inbox filters, reach the clone's own package instead of the original app. Links it opens inside itself, from a notification or a story for example, stay in the clone too. HushMessenger's settings, launcher shortcuts and `Restore screens on re-signed builds` follow the new name. The README covers what stays tied to Messenger's original name.\n- `Copy setup` now shows whether Android knows HushMessenger's settings provider under the package name Messenger runs as.\n- `Unlock app icons` is a new switch under Theme that starts off ([#33](https://github.com/SysAdminDoc/HushMessenger/issues/33)). With it on, every icon in Messenger's App icon setting can be picked without a subscription, and Messenger changes the home screen icon with its own code, the same way it applies a free icon. The icons already ship inside the Messenger APK, so nothing gets downloaded. Messenger still decides whether the App icon setting shows on an account, and with the switch off it may put its default icon back the next time it closes. Checks cover the icon code in all 37 supported builds.\n- With `Hide People You May Know` on, the chat list no longer keeps a loading circle under your chats after Messenger restarts ([#30](https://github.com/SysAdminDoc/HushMessenger/issues/30)).\n- With `View stories anonymously` on, a story you've opened no longer keeps its new-story ring in your chat list, after a restart too ([#35](https://github.com/SysAdminDoc/HushMessenger/issues/35)).\n- With `Use system emoji` on, a Like in the chat list shows Messenger's thumbs-up again instead of an empty box ([#34](https://github.com/SysAdminDoc/HushMessenger/issues/34)). The phone's emoji font doesn't have Messenger's own Like character, so on Android 10 and newer that character now comes from Messenger's emoji font while every other emoji keeps the phone's look. It also shows on the first start after an update, when Messenger draws the chat list before its own emoji font has loaded.\n- `Spoof package version` is a new patch that starts unselected. It sets Messenger's version code to a number you choose, 2147483647 by default, so the Play Store stops offering Meta's updates over a patched build. Messenger may report that number to Meta. Later builds need the same number or higher to install over it. The patch catalog now lists each patch's options.\n- `Custom new-message sound` is a new patch that starts unselected ([#32](https://github.com/SysAdminDoc/HushMessenger/issues/32)). Pick an .ogg, .mp3, .m4a or .wav file of 1 MB or less when you patch, and it replaces Messenger's `new_message` sound, the one its message notifications use by default. With no file picked it changes nothing. A missing, empty, oversized or mislabeled file stops the patch with the reason.\n- `Restore old emoji drawer` is a new switch that starts off. It turns off Meta's redesigned emoji drawer, so the emoji keyboard keeps its earlier layout. Changes apply after `Restart Messenger`, and accounts Meta never moved to the redesign see no difference.\n- `Stop analytics uploads` is a new switch that starts off. It stops the background services Messenger's analytics logger uploads through. Messenger still records those events on your phone, and they can upload after you turn it off.\n- `Keep a message log` is a new switch that starts off. It copies each message as its notification arrives, so an unsend can't take it back, and it's the only switch that reaches end-to-end encrypted chats. The log holds only messages that raised a notification. It stays on your phone and is encrypted with a key kept in the Android keystore, so the copy never leaves the device. A new viewer in settings lists it newest first, and `Clear log` deletes the file and throws the key away. Nothing is stored while the switch is off or Pause or safe mode is on.\n\nRefresh the HushMessenger source in Morphe and patch again. Compare the bundle with `SHA256SUMS.txt`, which is signed with the release key (`SHA256SUMS.txt.sig`).\n",
+  "download_url": "https://github.com/SysAdminDoc/HushMessenger/releases/download/v0.22.0/patches-0.22.0.mpp",
+  "ecosystem": "morphe",
+  "extracted_provider_digest": null,
+  "extraction_status": "unverified",
+  "extraction_terminal": false,
+  "file_hash": null,
+  "id": "6cb91c8fbf3fc1ad77131622",
+  "import_urls": {
+    "latest": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FSysAdminDoc%2FHushMessenger&version=latest&channel=any",
+    "stable": "https://patch-bundles.api.jmancentral.com/api/v3/bundle?source_url=https%3A%2F%2Fgithub.com%2FSysAdminDoc%2FHushMessenger&version=latest&channel=stable"
+  },
+  "integrations": null,
+  "is_latest": true,
+  "is_prerelease": false,
+  "legacy_id": 3941,
+  "metadata_status": "stale",
+  "need_patches_update": true,
+  "packages": [
+    "Messenger"
+  ],
+  "patch_count": 0,
+  "patch_list_available": true,
+  "patch_metadata_schema_version": 0,
+  "patch_metadata_version": "v0.21.0",
+  "patch_refresh_attempted_at": null,
+  "patcher_failure_config_hash": null,
+  "patcher_failure_fingerprint": null,
+  "patcher_runtime": null,
+  "provider_digest": "sha256:1898c011f32786793e12bcb1286c03a651d2ab61689aef01264bdd106700d3fb",
+  "release_status": "unverified",
+  "release_url": null,
+  "signature_download_url": null,
+  "source_id": "17fa2a3ccb2d9eb5",
+  "version": "v0.22.0"
+}
